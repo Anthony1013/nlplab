@@ -1,0 +1,100 @@
+T1	引文作者 281 286	Akiva
+T2	引文作者 291 297	Koppel
+T3	引文时间 300 304	2012
+T4	引文时间 307 311	2013
+T5	引文作者 318 325	Aldebei
+T6	引文时间 338 342	2015
+T7	引文的结果 345 468	also start from segmenting the original document into segments and then represent them as feature vectors to cluster them .
+T8	引文作者 1055 1060	Akiva
+T9	引文作者 1065 1071	Koppel
+T10	引文时间 1074 1078	2012
+T11	引文时间 1081 1085	2013
+T12	引文作者 1092 1099	Aldebei
+T13	引文时间 1112 1116	2015
+T14	引文的结果 1119 1240	also start from segmenting the original document into segments and then represent them as feature vectors to cluster them
+T15	引文作者 1536 1543	Manning
+T16	引文作者 1546 1553	Schütze
+T17	引文时间 1556 1560	1999
+T18	具体模型 7310 7313	HMM
+T19	具体模型 7237 7240	HMM
+T20	具体模型 6169 6172	HMM
+T21	具体模型 6798 6801	HMM
+T22	具体模型 7383 7386	HMM
+T23	图 7379 7487	the HMM , which consists of a sequence of hidden states and independent observations , as seen in Figure 2 ,
+T24	引文作者 8136 8144	Dempster
+T25	引文作者 8147 8152	Laird
+T26	引文作者 8157 8162	Rubin
+T27	引文时间 8165 8169	1977
+T28	引文作者 8492 8498	Bishop
+T29	引文时间 8501 8505	2006
+T30	引文作者 8508 8515	Rabiner
+T31	引文作者 8518 8523	Juang
+T32	引文时间 8526 8530	1986
+T33	引文的结果 8463 8489	forward‐backward algorithm
+T34	引文的结果 8113 8133	Baum–Welch algorithm
+T35	引文的结果 8965 8982	Viterbi algorithm
+T36	引文作者 8985 8992	Viterbi
+T37	引文时间 8995 8999	1967
+T38	引文作者 9002 9008	Forney
+T39	引文时间 9011 9015	1973
+T40	具体模型 9404 9407	HMM
+T41	具体模型 9617 9620	HMM
+T42	具体模型 9629 9632	HMM
+T43	具体模型 9870 9873	HMM
+T44	具体模型 10105 10108	HMM
+T45	研究结果 10535 10759	Our experiments have shown that the purity results are not sensitive to the setting of the minimum number of consecutive sentences as long as it does not exceed the mean author run length ( i.e. , meanARL ) in the document .
+T46	自建数据集 10874 10877	CSD
+T47	自建数据集 10905 10908	CSD
+T48	自建数据集 11736 11739	CSD
+T49	具体模型 12164 12167	HMM
+T50	具体模型 12206 12209	HMM
+T51	图 12715 12811	Thus far , the SequentialUD approach , which consists of seven steps shown in Figure 1 , is done
+T52	引文作者 12828 12835	Aldebei
+T53	引文时间 12848 12852	2015
+T54	引文的结果 12855 12969	proposed a probability indication procedure ( PIP ) to enhance the purity of the sentence classification process .
+T55	具体模型 13203 13217	Naive‐Bayesian
+T56	引文的结果 13228 13420	Following this idea , in this work a modified version of PIP , termed ModPIP , is proposed to refine the classification results and further improve the sentence classification purity results .
+T57	引文作者 15907 15913	Koppel
+T58	引文时间 15926 15930	2011
+T59	引文作者 15935 15940	Akiva
+T60	引文作者 15945 15951	Koppel
+T61	引文时间 15954 15958	2012
+T62	引文时间 15961 15965	2013
+T63	引文作者 15970 15977	Aldebei
+T64	引文时间 15990 15994	2015
+T65	引文作者 16003 16012	Giannella
+T66	引文时间 16015 16019	2015
+T67	表 16243 16340	The first corpus tested is a group of five biblical books written by five authors ( see Table 1 )
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T3 Arg2:T1	
+R3	has_cited_time Arg1:T4 Arg2:T2	
+R4	has_cited_time Arg1:T6 Arg2:T5	
+R5	results Arg1:T5 Arg2:T7	
+R6	coauthor Arg1:T8 Arg2:T9	
+R7	has_cited_time Arg1:T10 Arg2:T8	
+R8	has_cited_time Arg1:T11 Arg2:T9	
+R9	has_cited_time Arg1:T13 Arg2:T12	
+R10	results Arg1:T12 Arg2:T14	
+R11	coauthor Arg1:T15 Arg2:T16	
+R12	has_cited_time Arg1:T17 Arg2:T16	
+R13	results Arg1:T24 Arg2:T34	
+R14	coauthor Arg1:T24 Arg2:T25	
+R15	coauthor Arg1:T25 Arg2:T26	
+R16	has_cited_time Arg1:T27 Arg2:T26	
+R17	results Arg1:T28 Arg2:T33	
+R18	has_cited_time Arg1:T29 Arg2:T28	
+R19	coauthor Arg1:T30 Arg2:T31	
+R20	has_cited_time Arg1:T32 Arg2:T31	
+R21	field_similar_as Arg1:T30 Arg2:T28	
+R22	results Arg1:T36 Arg2:T35	
+R23	has_cited_time Arg1:T37 Arg2:T36	
+R24	has_cited_time Arg1:T39 Arg2:T38	
+R25	field_similar_as Arg1:T38 Arg2:T36	
+R26	has_cited_time Arg1:T53 Arg2:T52	
+R27	results Arg1:T52 Arg2:T54	
+R28	has_cited_time Arg1:T58 Arg2:T57	
+R29	coauthor Arg1:T59 Arg2:T60	
+R30	has_cited_time Arg1:T61 Arg2:T59	
+R31	has_cited_time Arg1:T62 Arg2:T60	
+R32	has_cited_time Arg1:T64 Arg2:T63	
+R33	has_cited_time Arg1:T66 Arg2:T65	

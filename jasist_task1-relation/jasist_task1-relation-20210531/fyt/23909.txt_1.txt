@@ -1,0 +1,130 @@
+Research frequently needs to be assessed during appointment , tenure and promotion decisions , in grant applications , and in evaluations of research units , such as the national assessment exercises of the UK , New Zealand , Australia , and Norway . 
+In addition , research may be evaluated at a more general level by funding bodies seeking evidence of the value of their individual programs or even by national governments seeking evidence of the value of their expenditures or international competitiveness . 
+Perhaps partly because of this , academics seem to be increasingly reflective about their own contributions to scholarship , and so evaluation seems to pervade academia . 
+Although most evaluations are probably made by peers or self‐judgments , these may be deliberately or unconsciously biased , may be made by people without relevant high‐quality disciplinary expertise , and may drain the time of highly qualified experts . 
+In response , quantitative indicators are sometimes used to aid decision making , especially in the physical sciences and medicine , where citation counts correlate highly with expert judgments of article quality ( HEFCE , 2015 ) . 
+For example , peer review scores in an Italian research assessment exercise have significant positive correlations with both citation counts ( except for civil engineering and architecture ) and journal impact factors ( except for physics ) in 9 out of 10 fields in one study ( mathematics and computer sciences , physics , chemistry , earth sciences , biology , medical , agricultural sciences and veterinary medicine , civil engineering and architecture , industrial and information engineering , economics and statistics ) ( Franceschet & Costantini , 2011 ) , although the same would probably not be true in many social sciences and most humanities . 
+Citation counts have many limitations because citations are not always given to primary research , vary in importance , and tend to reflect academic interest rather than wider societal value ( MacRoberts & MacRoberts , 1996 ) . 
+In addition , citations take a long time to appear after the cited research study . 
+A range of quantitative alternatives to citation counts have also been proposed to cover one or more of the citation limitations and these include patent metrics ( Narin , 1994 ) , webometrics ( Almind & Ingwersen , 1997 ; Vaughan & Shaw , 2003 ) and , most recently , altmetrics ( Priem , Taraborelli , Groth , & Neylon , 2010 ) and the term alternative metrics is sometimes used to encompass these . 
+Mendeley.com is a free social reference sharing site ( Gunn , 2013 ) that is primarily used by people to record articles that they have read or intend to read ( Mohammadi , Thelwall , & Kousha , 2016 ) . 
+Each user has a social network style profile page in the site as well as their own library , into which they can upload or register articles . 
+Each article in all libraries is annotated with a count of its number of readers , which is the number of user libraries containing it . 
+Mendeley readership counts have been proposed as an impact measure related to the readership of articles , in the belief that more read articles are likely to have had more impact ( Li , Thelwall , & Giustini , 2012 ) . 
+They are more promising than data from similar social reference sharing sites , such as CiteULike ( Li et al. , 2012 ) , Zotero ( Cordon‐Garcia , Martin‐Rodero , & Alonso‐Arevalo , 2009 ) , and Bibsonomy ( Borrego & Fry , 2012 ) due to being more popular and providing easy and free data access for researchers . 
+Mendeley also has wider coverage than most other altmetrics ( e.g. , Zahedi , Costas , & Wouters , 2013 ) and has much less publicity‐related content , in comparison to Twitter ( Eysenbach , 2011 ) . 
+To be demonstrably useful , any alternative quantitative indicator needs to address a shortcoming of citation counts . 
+For example , syllabus mentions reflect educational impacts ( Kousha & Thelwall , 2008 ) , patent citations reflect commercial impacts ( Meyer , 2000 ) , and clinical guideline citations reflect health impacts ( Thelwall & Maflahi , 2016 ) , all of which are not directly reflected by traditional citation counts . 
+The main niche filled by Mendeley reader counts is temporal : while citation counts tend to take years to accumulate in substantial enough numbers to be used to compare the impacts of articles , Mendeley reader counts appear more quickly . 
+Moreover , Mendeley records information about its users that can be used for more fine‐grained analyses of article readers , such as by nationality , occupation , and discipline ( Mohammadi , Thelwall , Haustein , & Larivière , 2015 ; Thelwall & Maflahi , 2015 ; Zahedi et al. , 2013 ) . 
+Mendeley reader counts , in common with most altmetrics ( Adie & Roe , 2013 ) , but not most webometrics ( Kousha , Thelwall , & Rezaie , 2010 ) , also have the practical advantage that they are straightforward to collect automatically using an applications programming interface ( API ) . 
+Finally , bookmarking an article in Mendeley seems to be reasonable evidence that the user has read , or intends to read , the article ( Mohammadi et al. , 2016 ) . 
+The average number of Mendeley readers for an article varies by discipline , as does the correlation between readers and citations ( Haustein , Larivière , Thelwall , Amyot , & Peters , 2014 ; Mohammadi , 2014 ; Mohammadi & Thelwall , 2014 ) . 
+Nevertheless , correlations between readers and citations tend to be substantially higher than correlations between other altmetrics and citations ( Thelwall , Haustein , Larivière , & Sugimoto , 2013 ) . 
+Mendeley reader counts also have a moderate positive correlation with peer review judgments in most fields , at least for UK research ( HEFCE , 2015 ) . 
+The differences may be due to nonciting readers or due to differing levels of Mendeley uptake between disciplines and user types . 
+For example , while information science articles seem to attract as many readers as citers ( Maflahi & Thelwall , 2016 ) , this is not true for highly cited astrophysicists ( Bar‐Ilan , 2014a ) . 
+An important limitation of Mendeley statistics is that its users seem to be predominantly younger researchers ( Mohammadi et al. , 2015 ) , so readership counts may not reflect the reading habits of more senior academics ( Mas‐Bleda , Thelwall , Kousha , & Aguillo , 2014 ) . 
+This limitation can be expected to gradually diminish over time , however . 
+Overall , Mendeley reader counts seem to be useful as an early impact indicator except when the international dimension is important or there is an incentive for the results to be manipulated . 
+Field differences in uptake of Mendeley need not be a problem if field normalized indicators are used because these will cancel out such differences . 
+Given that the primary value of Mendeley reader counts is as an early impact indicator , it is important to know as much as possible about how they accumulate over time in the first few years after publication . 
+For example , if a substantial proportion of the readers of an article appear within the week that it is published , then Mendeley reader counts could be used as very early impact indicators . 
+One previous nonlongitudinal study of four library and information science journals has suggested that readers accumulate steadily during the first 3 years of publication but that readership counts decline after 10 ( Maflahi & Thelwall , 2016 ) . 
+Another study of two information systems journals using Mendeley reader counts collected in October 2012 found little time differences in the number of Mendeley readers of articles published between 2002 and 2011 ( Schlögl , Gorraiz , Gumpenberger , Jack , & Kraker , 2014 ) , suggesting that articles accumulate readers quickly , at least in this field . 
+An analysis of 10 disciplines in 2016 found that in the month that an article was first indexed by Scopus , it received 0.1–0.8 readers , on average , depending on discipline ( Thelwall , 2017b ) . 
+This was 10 times the number of Scopus citations at the same date . 
+The article did not analyze the evolution of reader counts , however . 
+The one published longitudinal study of Mendeley so far compared the total number of Mendeley readers in April 2012 of JASIST articles published from 2001–2011 ( 97.3 % coverage with a combined total of 16,436 readers and 15,970 citations ) with data collected in August 2013 and April 2014 ( Bar‐Ilan , 2014b ) . 
+Although coverage dropped at the end to 88.3 % , the total number of readers doubled to 32,984 . 
+Some articles apparently disappeared from Mendeley and then reappeared , including both recent articles and articles with high reader counts . 
+In contrast , the current article tracks the accumulation of readers in Mendeley for six journals during their publication year . 
+This study has the objective of characterizing , in general , how articles accumulate Mendeley readers during the time immediately after publication , driven by the following research questions : How quickly do library and information science journal articles attract Mendeley readers when first published ? 
+Are there differences between journals in the answer to the above question ? 
+The second question is important because journals have different editorial policies and publication delays and so it is useful to know how far these affect behaviors on Mendeley . 
+The focus on a single discipline here allows comparisons between journals with a similar scope and the choice of library and information science allows the analysis of the results to be supported by the authors ' disciplinary insights into publishing strategies . 
+This study investigated the accumulation of Mendeley readers for all newly published articles in 2016 in six major library and information science journals : Journal of Documentation ( JDoc ) ; Journal of Information Science ( JIS ) ; Journal of Informetrics ( JoI ) ; Journal of the Association for Information Science & Technology ( JASIST ) ; Library & Information Science Research ( LISR ) ; and Scientometrics . 
+Data were collected weekly for a year , starting January 6 , 2016 ( but see below ) . 
+It does not seem possible to query Mendeley for a comprehensive list of articles from any journal , and so an indirect method was used to get complete journal lists : querying Scopus and using its data . 
+Scopus was checked weekly for articles published in the journals using the queries below , restricting the publication year to 2016 . 
+SRCTITLE ( “ Journal of Documentation ” ) SRCTITLE ( “ Journal of Information Science ” ) SRCTITLE ( “ Journal of Informetrics ” ) SRCTITLE ( “ Journal of the Association for Information Science ” ) SRCTITLE ( “ Library and Information Science Research ” ) SRCTITLE ( “ Scientometrics ” ) All the Scopus results were then checked in Mendeley later the same day for reader counts using Mendeley 's API . 
+Articles were checked using two methods : Digital Object Identifier ( DOI ) match and query match . 
+The DOI match was a straightforward query in Mendeley for the DOI of the article , as ( and if ) recorded in Scopus . 
+DOI matches are incomplete because not all Mendeley records include a DOI . 
+Articles were therefore also searched for in Mendeley by title , and the results combined to get the most comprehensive results ( Zahedi , Costas , & Wouters , 2014 ) . 
+For this , a query was constructed for the article title , first author last name , and publication year , as in the following example.title : '' Parallel worlds of citable documents and others Inflated commissioned opinion articles enhance scientometric indicators″ AND author : Heneberg AND year:2014 Mendeley returns approximate matches in addition to exact matches for these queries and so the results were rejected if their titles were substantially different , the journal names did not match , or the year was more than 1 away from the correct value ( for full details , see : Thelwall & Wilson , 2016 ) . 
+Heuristics are needed for this step because of the existence of data entry errors by Mendeley users . 
+The title matching process is imperfect and sometimes returns no valid matches for an article despite the article being in the index . 
+For this reason , in weeks when no data were found by Mendeley but there had been readers the previous week , this previous value was substituted for the current week 's value . 
+In cases of multiple valid matches , the reader counts were totaled . 
+A Scopus search for the current year can return in‐press articles that are subsequently replaced with a published version with a different Scopus ID but the same title , journal , and authors . 
+Such cases were identified and the duplicate records merged by totaling the reader counts for each record . 
+Since Scopus presumably indexes articles close to their initial publication date because all the necessary information is online , the above method can , in theory , identify the number of Mendeley readers of a publication in the week that it was first published . 
+Although in 2012 the Web of Science ( WoS ) indexed nearly all publications on average 1–5 months after their official publication date , with the time gap depending on the publisher ( Haustein , Bowman , & Costas , 2015 ) , it seems unlikely that such long gaps are still evident for either the WoS or Scopus . 
+Nevertheless , it should not be assumed that online publishing and Scopus indexing are almost simultaneous . 
+To track the accumulation of Mendeley readers over time , articles for each journal were aggregated by issue since issues have the same publication date . 
+For each journal issue in 2016 , the geometric mean number of Mendeley readers was calculated for all documents recorded in Scopus of type article ( excluding reviews , editorials , etc. ) . 
+Geometric means were used instead of arithmetic means because citation data is highly skewed , with small numbers of highly cited articles that could otherwise dominate the results ( Thelwall & Fairclough , 2015 ; Zitt , 2012 ) . 
+The above calculations were also applied to Scopus citation counts for comparison purposes . 
+All six journals show steady weekly increases in the average numbers of readers per article from the publication date of the issue ( Figures 1-6 ) . 
+This confirms that Mendeley readers can occur within weeks of an issue being published for all the journals . 
+Geometric mean number of Mendeley readers per article for documents of type article published in the Journal of Documentation . 
+Readers were gathered weekly from 6 January 2016 to 5 January 2017 using Scopus records for the journal gathered on the same day . 
+Decreases can occur when not all versions of an article in Mendeley were discovered in a week . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As figure 1 for the Journal of Information Science . 
+The step for issue 42 ( 1 ) is an artificial artefact of the data collection—no matches were found for this issue for a month and so the previous values were used . 
+Presumably , during this missing data month there was a steady rapid increase in readership for this issue rather than a sudden increase . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As figure 1 for the Journal of Informetrics . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As figure 1 for the Journal of the Association for Information Science and Technology ( one issue per month in 2016 ) . 
+The anomalous behavior of issue 67 ( 3 ) is due to its ( almost complete ) omission from Scopus until December 8 , 2016 rather than its early lack of Mendeley readers . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As figure 1 for Library and Information Science Research . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As figure 1 for Scientometrics . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Articles can attract citations for in‐press versions . 
+These were registered by Scopus for JoI , JASIST , LISR , and Scientometrics , but not JDoc , or JIS . 
+In‐press versions might be expected to generate a shape like that of issue 10 ( 2 ) of JoI ( Figure 3 ) , with an initial slow increase in readers as in‐press versions are added and then a sudden increase when the whole issue is published . 
+This pattern seems to occur most systematically for Scientometrics ( Figure 6 ) , which published the most preprints ( 365 during the full data collection period from November 2014 , compared to 12 for JoI ) . 
+An important difference between journals , and between issues of the same journal , is that there is sometimes an initial step at the date of publication . 
+This occurs for all issues of JIS ( except perhaps the first ) and JASIST , for the last two LISR issues , for one Scientometrics and one JDoc issue , but not for JoI . 
+The apparent sudden high average number of readers per article in the week of publication is probably not due to people reading the journal when it is published and immediately adding articles to their libraries but due to the articles having been previously discovered and added to Mendeley but only being identified by the data collection process when they appeared in Scopus . 
+Thus , the steps in the graphs are probably due to data collection limitations rather than Mendeley readership patterns . 
+In support of the above argument , JoI probably has the fastest refereeing and publication times ( authors ' personal experience ) , giving little time to discover an article before it is officially published , except for shared unrefereed preprints . 
+For example , the last JoI article published in 2016 was accepted October 14 , 2016 , and available online November 4 , 2016 ( www.sciencedirect.com/science/article/pii/S1751157716301729 ) . 
+There would therefore be little time ( sometimes under a month ) before publication for many articles in this journal to attract readers . 
+In contrast , JASIST has a publication delay of about a year and a half . 
+The last full article published in 2016 , for example , had been accepted 27 April 2015 ( 19‐month delay ) . 
+It was first published by the journal on 15 March 2016 ( 8‐month delay ) and the full ( December ) issue was online 15 November 2016 ( onlinelibrary.wiley.com/doi/10.1002/asi.23571/full ) . 
+Thus , the large jumps in readership on the issue publication date could be due to a gradual build‐up of readers from prepublication versions of JASIST articles . 
+Although JASIST publishes online first versions of articles before the containing issue is published and these are indexed by Scopus , Scopus did not index any JASIST online first articles that subsequently appeared in an issue . 
+Since the data collection started in November 2014 , Scopus started indexing JASIST online first articles more recently than 15 March 2016 . 
+This explains why no JASIST article is recorded as having any Mendeley readers before its issue publication date . 
+In contrast , some Scientometrics , LISR , and JoI articles have readers before the issue publication date in their graphs from in‐press articles in Scopus transferring their readers ( in the data collection methodology described above , rather than in Mendeley ) to the published versions . 
+The above explanation does not account for the JASIST trend for the sizes of the large jumps in average citation counts to increase during the year . 
+The JASIST publication delay did not alter substantially during 2016 . 
+The first article published in 2016 was accepted May 27 , 2014 ( 19‐month delay ) , published online December 22 , 2014 ( 12‐month delay ) and published in an issue December 23 , 2015 ( Table 1 ) . 
+It has a substantially longer delay between acceptance or online first and the official publication date than the other journals analyzed ( Table 1 ) . 
+The two Elsevier journals LISR and JoI officially published articles online in their final version even before their issue was complete , allowing them to have short delays between acceptance and publication . 
+31‐1‐2014 28‐3‐2016 11‐4‐2015 9‐6‐2016 2015 2016 10.1108/JD‐01‐2014‐0019 10.1108/JD‐03‐2016‐0035 12‐1‐2016 19‐11‐2015 1‐2‐2016 1‐12‐2016 10.1177/0165551515615833 10.1177/0165551515616311 16‐6‐2015 18‐6‐2016 1‐11‐2015 14‐10‐2016 13‐12‐2015 4‐11‐2016 2‐2016 11‐2016 10.1016/j.joi.2015.11.001 10.1016/j.joi.2016.10.005 13‐1‐2014 8‐12‐2014 27‐5‐2014 27‐4‐2015 22‐12‐2014 15‐3‐2016 23‐12‐2015 15‐11‐2016 10.1002/asi.23352 10.1002/asi.23571 5‐12‐2014 19‐6‐2015 24‐1‐2016 18‐11‐2016 18‐2‐2016 5‐12‐2016 1‐2016 10‐2016 10.1016/j.lisr.2016.01.002 10.1016/j.lisr.2016.11.008 27‐3‐2014 01‐5‐2016 12‐11‐2015 01‐10‐2016 1‐2016 12‐2016 10.1007/s11192‐015‐1788‐y 10.1007/s11192‐016‐2147‐3 JIS has shorter publication delays than JASIST ( about 4–5 months in the second author 's experience ) but does not publish acceptance dates and so precise details can not be given . 
+These shorter publication delays would explain the smaller publication date increases for JIS than for JASIST . 
+The most extreme jump for a single document was from 0 to 469 readers in the week of 7 September 2016 for the JASIST article , “ The sharing economy : Why people participate in collaborative consumption. ” No in‐press version of this article had been previously registered in Scopus and so no data are available on Mendeley readers for it before 7 September 2016 . 
+A preprint had been available since June 3 , 2015 in ResearchGate,11 https : //www.researchgate.net/publication/255698095_The_Sharing_Economy_Why_People_Participate_in_Collaborative_Consumption and an earlier version with the same title had been posted to SSRN22 https : //papers.ssrn.com/sol3/papers.cfm ? 
+abstract_id=2271971 . 
+on May 31 , 2013 and so the article had over 3 years to attract readers before its JASIST publication . 
+The Mendeley record for the article presumably predated its official JASIST issue but transferred to the published version via the article DOI . 
+Thus , readers of the previous or unpublished version in the site had their readership transferred to the published version , presumably by the record being edited with the inclusion of a DOI at some time before the official publication date . 
+Since the article 's readers increased relatively modestly to 498 by January 5 , 2017 , a sudden single week increase in Mendeley readers is unlikely . 
+Unsurprisingly , given the likelihood of publication delays for the citing papers , the average number of Mendeley readers is many times higher than the number of Scopus citations for all six journals ( see Figure 7 for JASIST ; others are available in the online supplement to this article ) . 
+It is not strange that JASIST articles have Scopus citations during their year of publication because of preprint sharing and early view publications . 
+As figure 1 for the Journal of the Association for Information Science and Technology and Scopus citations instead of Mendeley readers . 
+An important limitation of this study is that it only covers high‐profile journals in one discipline and patterns may be different for other journals and for fields with differing publication norms , or using different reference sharing sites ( e.g. , CiteULike : Sotudeh , Mazarei , & Mirzabeigi , 2015 ) . 
+Disciplines like physics with a preprint sharing culture and specialisms that avoid Mendeley would generate different results . 
+Another limitation is that the heuristics needed to identify articles without DOIs recorded in Mendeley can generate jumps in the data that are not due to changes in the numbers of readers . 
+This is the likely cause of the decreases in some of the lines of Figures 1-6 ( which can occur for articles that have at least two Mendeley records , one of which does not get returned by a query for its metadata ) , although it is also possible for users to remove articles from their Mendeley libraries . 
+There may also be publisher factors that influence the results , such as if there is a closer integration between Scopus and/or Mendeley and journals owned by Elsevier . 
+The method also assumes that there is no delay between a person adding an article to their Mendeley library and the API database being updated , which may not be true . 
+Arguments have been presented for graph jumps when issues are published being due to readers who were accumulated before the official publication date , such as for author preprints . 
+Nevertheless , this has not been definitively proven for JASIST due to the lack of data on prepublication readers . 
+While it is possible to query the Mendeley API by journal name rather than article name to identify records for articles in advance of their official publication , this does not generate useful results . 
+For example , during a final check on April 5 , 2017 , this approach matched no articles in any of the journals except for seven in JoI . 
+Hence , there is currently no systematic way to identify unpublished articles from a specific journal in Mendeley to track the evolution of their reader counts prior to their inclusion in Scopus . 
+Two practical issues with Mendeley are that it is not clear how it transfers readers between different versions of articles to associate preprints with the published versions of the same article and if it automatically updates the metadata for some publishers . 
+For instance , if it annotates records for some publishers with article DOIs , then this would tend to increase the reader counts for their articles on average , by making the records easier to find . 

@@ -1,0 +1,130 @@
+The Open Government Data ( OGD ) movement has been gaining momentum in the U.S. over the past 10 years , mainly because of the influence of federal government policy . 
+In two highly‐intertwined government initiatives of the Obama administration , open government and open data , one important theme was to make government data publicly and freely available in digital formats for redistribution and reuse . 
+Responding to the call , U.S. federal , state , and local government agencies have established a number of open data sites , including the well‐publicized central site , Data.gov , as repositories of open government data ( Data.gov , n.d. ) . 
+Research suggests that OGD has great potential to create economic opportunities , increase government transparency and accountability , and promote civil engagement ( Goldstein & Dyson , 2013 ; Pew Research Center , 2015 ) . 
+Furthermore , the establishment of government data websites , as centralized data set portals , may change the way citizens access , retrieve , and use government data ( Lourenço , 2015 ) . 
+However , scholars have also noticed the gap between the perceived potential and the reality of OGD , especially in terms of utility , usability , and identifying the real beneficiaries of the available data sets and portals ( Davies , 2015 ; Gurstein , 2011 ; Kassen , 2013 ) . 
+The question remains as to whether these data portals are presenting data in a way that enables citizens to use them effectively , thereby creating the outcomes anticipated by the government agencies . 
+Because of this issue , several authors point to the importance of evaluating the outcomes and impacts of OGD initiatives . 
+They suggest that this assessment is needed for providing empirical evidence of OGD effectiveness , for guiding practice and policy‐making , and for increasing the public trust ( Bertot , McDermott , & Smith , 2012 ; Harrison et al. , 2012 ; Perini , 2012 ) . 
+In short , robust evaluation is needed to determine if the promise of OGD is being realized . 
+This study offers a framework for evaluating the performance of OGD portals , focusing on users ’ potential interactions and experience with the portals , regarding the access and use of the portals , the sense of trust , the ability to understand the content , the opportunity to engage with and integrate data , and ways of participation . 
+Drawing from existing principles and evaluation methods , this User Interaction Framework consists of a comprehensive set of criteria , which were then used to evaluate 34 relatively mature OGD portals created and maintained by U.S. municipal government agencies . 
+The study focuses on city government OGD portals , because cities possess a large amount of valuable data generated from daily government services , and they have the most potential to have a direct impact on the public in multiple ways ( Nahon , Peled , & Shkabatur , 2015 ) . 
+While one approach to evaluating the portals is to assess the government 's commitment to the concept of OGD ( Nahon et al. , 2015 ) , our approach was to focus on the users ’ perspective and examine the data portals as if we were potential users of the data . 
+The research question that leads this study is : How well do municipal OGD portals perform in supporting users ’ access to , use of , and engagement with open data ? 
+Since many OGD portals have similar interface designs because of the limited available choices of software platform , we also explored whether the performance is related to the software platform choice . 
+In addition , city populations are considered because previous research has suggested that population size is a factor in OGD performance ( Thorsby , Stowers , Wolslegel , & Tumbuan , 2016 ) . 
+The results of the study not only provide empirical data about the status of the OGD movement , but also help information professionals in local governments to conduct benchmarking activities and to improve their data and services . 
+By summarizing criteria used in other studies , this study may broaden the existing discussion of OGD portals . 
+In addition , findings from this study shed some light on the potential role of data mediators , possibly an emergent form of information services , in facilitating the access to and use of OGD provided by local governments . 
+In this sense , the study may also inform library and information science education by encouraging educators to prepare information professionals to be OGD advocates and intermediaries . 
+A number of sources in the literature address the issue of evaluating OGD . 
+One of the earliest articles by Pérez , Hernández , and Bolívar ( 2005 ) was a look at European government financial data . 
+It discussed the advantages of web‐based access to data and detailed several criteria , which remain applicable to a broader range of OGD . 
+Many of the later articles build from the Eight Principles of Open Government Data and the seven additional principles , which were developed after a meeting of 30 OGD advocates in Sebastopol , California in 2007 ( Open Government Data , n.d. ) . 
+The Sunlight Foundation ( n.d. ) also provides an extensive “ living set of open data guidelines to address : what data should be public , how to make data public , and how to implement policy. ” Most recently , the W3C published 14 guidelines for data publishers , within the Data on the Web Best Practices recommendation ( Lóscio , Burle , & Calegari , 2017 ) . 
+While these principles and guidelines created a clearer concept of open data and helped diverse groups to join the OGD discourse ( Davies , 2014 ) , they did not necessarily provide operational criteria for evaluating portals or specific data sets . 
+Scholars then began to discuss the issues of evaluation within a wider literature , looking at the potential benefits of OGD . 
+For example , Dawes ( 2010 ) framed OGD evaluation within two broad principles of stewardship and usefulness . 
+Kassen ( 2013 ) investigated Chicago 's OGD portal in terms of the overall aims of the Obama administration 's push for OGD : transparency , participation , and collaboration . 
+A few other case studies of city OGD portals exist , but they did not offer assessment tools ( Gurstein , 2012 ; Raman , 2012 ) . 
+Table 1 summarizes the sources utilized for our framework development . 
+Most of these authors proposed their own evaluation indexes based on their analyses of existing literature , and then tested the indexes using a set of portals or data sets ( Lourenço , 2015 ; Nahon et al. , 2015 ; Ozmen‐Ertekin & Ozbay , 2012 ; Thorsby et al. , 2016 ; Vetrò et al. , 2016 ) . 
+Some also incorporated expert opinions in developing their criteria ( Thorsby et al. , 2016 ) . 
+These studies show different perspectives and foci , and therefore the criteria used are of various levels of specificity . 
+Nahon et al . 
+( 2015 ) provided an evaluation from the data suppliers ’ point of view . 
+Lourenço ( 2015 ) focused on the accountability aspect . 
+Ozmen‐Ertekin and Ozbay ( 2012 ) identified the issues of one data provider—New York City . 
+Vetrò et al . 
+( 2016 ) were most interested in data quality at the cell level . 
+Thorsby et al . 
+( 2016 ) tested hypotheses regarding city characteristics and the development of OGD portals . 
+Other practical evaluations of open data or portals exist , including the Global Open Data Index ( https : //index.okfn.org/ ) and the US City Open Data Census ( http : //us-city.census.okfn.org/ ) , but they often had a specific focus , rather than providing comprehensive sets of criteria . 
+Completeness , timeliness , comparability , understandability , relevance , reliability , easily identifiable , personalization , ease of transit , ease of management , different languages , ease of interaction “ EU governments are not yet using the web as a means of improving the transparency of financial information and accountability to the citizens ” ( p. 273 ) . 
+This article focuses on the user interaction perspective , which has not been examined in the literature . 
+Using an approach similar to those adopted by previous studies , we developed the framework by analyzing and revamping the criteria identified from the literature and existing guidelines , then tested the framework on OGD portals . 
+After identifying criteria from the literature , we examined each in the context of OGD portals and grouped/recombined them conceptually , based on both the literature and our observation . 
+We first mapped out the eight sets of criteria from the sources ( Table 1 ) . 
+For instance , the following conceptually similar criteria were placed in the same cluster : complete ( Open Government Data , n.d. ) , completeness ( Pérez et al. , 2005 ; Ozmen‐Ertekin & Ozbay , 2012 ; Lourenço , 2015 ; Vetrò et al. , 2016 ) , coverage ( Nahon et al. , 2015 ) , amount of data ( Ozmen‐Ertekin & Ozbay , 2012 ) , and number of data sets ( Thorsby et al. , 2016 ) . 
+The initial 41 clusters distilled from the mapping process were each given a new label and definition . 
+We then used a card‐sorting method , keeping users ’ potential needs in mind , to further examine the potential criteria and develop broader groupings . 
+In each round , the authors placed similar or related clusters into their own piles with new labels , then compared and discussed their results . 
+This activity initially generated 15 groupings that ultimately became five major dimensions , after three rounds of card sorting ( Table 2 ) , as some clusters/piles were relabeled , redefined , or removed . 
+The bottom‐up analysis and pretests on several portals yielded a User Interaction Framework with five top‐level evaluation dimensions , each containing a portion of the 30 total criteria clusters ( three italicized criteria did not appear in an original source ) . 
+Based on our definition and observation , we operationalized each criterion with one or more specific yes‐or‐no questions , for a total of 42 measurement items . 
+( Table 2 ) . 
+Some criteria can be evaluated simply by inspecting the portal , while others require reviewing data sets on the portal . 
+Access Trust Understand Engage‐integrate The criteria in the Access dimension are about the openness of the data and the user 's ability to access the underlying data in the portals . 
+In this study , we consider functionality rather than usability ( which should be a study of its own ) . 
+We are more concerned about the availability of the data and the basic approaches users can employ to access data . 
+Most of the criteria in the Trust dimension concern the quality of the datasets , which is important for the user 's experience . 
+“ Bad ” data can affect the public 's trust in the agency providing the data ( Lee & Kwak , 2012 ; Lourenço , 2015 ) . 
+In contrast to some previous research that evaluated data quality at a detailed , cell level ( for instance , Vetrò et al. , 2016 ) , this study investigates data quality in a broader sense , at the portal and dataset level . 
+What does the portal do to help users understand data ? 
+The Understand dimension addresses the basic features and supplemental materials that help users understand the meaning , structure , and organization of the data , as well as possible ways of using the data ( Lóscio et al. , 2017 ) . 
+It is also important to consider how the portal engages users and helps them use and integrate data . 
+The Engage‐integrate dimension explores specific tools such as application programming interface ( API ) and online manipulation , which are instrumental for users with varying degrees of data literacy . 
+The Participate dimension recognizes that enhancing participation is one of the goals of the open government movement . 
+Broadcasting‐type portals may meet the basic needs of some data users , but they are inadequate in the Web 2.0 environment . 
+Does the portal allow for interactive user participation ? 
+The evaluation involves using social media tools to inform and engage users , and to encourage users to share and rate data . 
+User feedback is crucial for data publishers to ensure that they are meeting users ’ needs ( Lóscio et al. , 2017 ) . 
+This study used content analysis to evaluate the OGD portals . 
+Content analysis is defined as “ the systematic , objective quantitative analysis of message characteristics ” ( Neuendorf , 2002 , p. 1 ) . 
+Originally developed for studying text/documents , this method is also used for the analysis of websites ( McMillan , 2000 ) . 
+This study employed the prior coding approach , utilizing a predefined framework to evaluate each portal . 
+The population in this study comprised 34 dedicated municipal government portals that provide OGD and are publicly available . 
+Several potential sources listed OGD portals , including data.gov , the US City Open Data Census , and Dataportals.org . 
+The latter two sources listed considerably more cities than data.gov , but many of the cities did not have established data portals or included only a small number of datasets . 
+Therefore , we chose to use the listing provided by data.gov . 
+Of the 37 municipal OGD portals identified for the study sample , three were eliminated because they were not open or did not provide reusable data . 
+For some criteria , we sampled 10 datasets from each portal . 
+The 10 most recently updated datasets were chosen because : 1 ) recently updated datasets reflect the data portal 's current practice ; 2 ) recently updated datasets reveal the frequency of updates and recentness of portal activities ; and 3 ) “ most recent ” is the most commonly available dataset sorting feature . 
+A coding book with detailed instructions was developed for data collection . 
+The main coding sheet tracks the answers to measurement items with 1 s ( yes ) or 0 s ( no ) , as well as necessary notes ( for instance , the number of datasets , location of the data policy ) and the software platform . 
+We also developed an individual coding worksheet for each portal . 
+The notes and dataset coding were critical for subsequent data analysis . 
+We also collected city population information from the latest census data . 
+For content analysis , having a high level of reliability is a prerequisite for achieving valid research results ( Krippendorff , 2013 ) . 
+Replicability provides a stronger measure of reliability , which measures the extent to which a coding scheme “ can be relied upon to generate the same data ” by “ different and independently working ” coders ( Krippendorff , 2013 , p. 386 ) . 
+To ensure replicability , the coding scheme was carefully designed and then revised through three rounds of precoding tests . 
+The final coding scheme included detailed , explicit coding instructions . 
+The result was an overall intercoder agreement of 95.75 % , with percent agreement ranging from 91 % to 100 % for each criterion . 
+The results of Krippendorff 's alpha tests were above 90 % for most variables . 
+Website analysis can be challenging because of the often‐amorphous boundaries and the dynamic nature of website content ( Weare & Lin , 2000 ) . 
+To ensure reliability in website analysis , data should be captured within a short timeframe ( McMillan , 2000 ) . 
+In this study , data collection was conducted by two coders , within the week of December 23–29 , 2016 . 
+The coders each coded all of the portals , then compared and reconciled the differences . 
+In particular , the dataset sampling and all coding related to numbers ( for instance , the number of datasets and download/access times , which may change at any moment ) were completed within the same day . 
+Each dimension was weighted as 20 % of the 100‐point index . 
+To calculate the weighted score for each portal , points in each dimension were converted to a 20‐point scale . 
+In addition to descriptive analysis , basic statistical analysis was conducted based on the total scores , the scores in each dimension , and for software platforms . 
+Table 3 displays the major results of the OGD portal evaluation—the overall weighted scores by portal , listed in rank order . 
+A Spearman 's correlation was run to compare city population size with the OGD portal performance , including the total scores and scores in each category . 
+A significant positive correlation was found between city population size and overall portal performance ( r s = .488 , p = .003 ) , as well as between city population and three dimensions : Understand ( r s = .561 , p = .001 ) , Engage‐integrate ( r s = .446 , p = .008 ) , and Participate ( r s = .461 , p = .006 ) . 
+Larger cities ’ portals tended to perform better in terms of the overall score and on several specific aspects of this framework . 
+( *Source : Annual Estimates of the Resident Population : April 1 , 2010 to July 1 , 2016 . 
+U.S. Census Bureau , Population Division . 
+Updated Date : May 2017 . 
+) A one‐way analysis of variance ( ANOVA ) found significant differences in the total scores by software platform ( F ( 2,23 ) = 30.789 , p < .001 ) . 
+Tukey 's post‐hoc comparisons were used to determine how the platforms differed . 
+The average score of Socrata portals was 75.85 ; ArcGIS was 50.03 ; and CKAN was 44.92 . 
+Socrata scored significantly higher than ArcGIS ( p < .001 ) and CKAN ( p < .001 ) . 
+A multivariate ANOVA found significant differences in dimension scores by platform ( F ( 10,38 ) = 11.67 , p < .001 ) . 
+One‐way ANOVAs were run to determine which subscales differed by platform . 
+The results show that Access ( p < .001 ) , Trust ( p < .001 ) , Engage‐integrate ( p < .001 ) , and Participate ( p = .001 ) dimension scores were significantly different depending on the platform , while Understand scores were not ( p = .061 ) . 
+Tukey 's post‐hoc comparisons were used to determine how platforms differed for the significant dimensions . 
+For Access , ArcGIS scored significantly lower than Socrata ( p < .001 ) and CKAN ( p = .045 ) . 
+For Trust , Socrata was significantly higher than ArcGIS ( p < .001 ) and CKAN ( p = .001 ) . 
+For Engage , all three platforms differed significantly from each other ( p < .001 ) , with Socrata scoring the highest and CKAN the lowest . 
+For Participate , Socrata scored significantly higher than ArcGIS ( p = .003 ) and CKAN ( p = .012 ) . 
+Overall , Socrata‐supported portals performed better in all dimensions except Understand . 
+The unweighted scores for the Access dimension that the 34 OGD portals received ranged from seven ( Ann Arbor and South Bend ) to 12 ( 17 portals ) , for the eight criteria and 13 measurement items . 
+The overall weighted mean was 16.70 ( 83.5 % ) , with a standard deviation of 2.37 , making this the highest‐scoring and least‐varied dimension . 
+Portals supported by the same platform often have similar searching , browsing , and filtering/sorting functionalities . 
+They performed well on these criteria—32 out of the 34 portals allowed users to browse data by categories , 33 allowed filtering and/or sorting ( although the capabilities varied greatly ) , and 32 portals had a dedicated search mechanism that allows users to search within the portal . 
+( No portal provided advanced search options . 
+) Most OGD portals combined browsing and searching functions . 
+The availability of a complete data catalog , browsing data in different categories , and sorting/filtering of all datasets are functionalities that often rely on the search mechanism . 

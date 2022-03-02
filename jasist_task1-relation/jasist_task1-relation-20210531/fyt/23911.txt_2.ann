@@ -1,0 +1,29 @@
+T1	引文作者 1203 1208	Krapf
+T2	引文时间 1211 1215	2015
+T3	引文作者 2480 2489	Hamermesh
+T4	引文时间 2492 2496	2015
+T5	图 2842 3006	To better analyze the different roles these indicators play , we establish the relationships between the indicators and axes using the radar map , noted in Figure 5
+T6	图 3551 3843	Also , the position that h‐index occupies in Figure 4 is between that of total number of citations and publications , which verifies the essence of h‐index , by combining scholars ' productivity and impact levels as measured by the number of publications and citations their work has received
+T7	图 3848 4163	Figure 5 also confirms the findings shown in Figure 4 , that all of the Type II indicators exhibit much heavier loads on VA ( red line in Figure 5 , representing “ before Ph.D. graduation ” ) , while those of Type III have much heavier loads on HA ( blue line in Figure 5 , representing “ after Ph.D. graduation ” )
+T8	引文作者 5042 5052	Muschallik
+T9	引文作者 5057 5061	Pull
+T10	引文时间 5064 5068	2016
+T11	引文作者 7560 7565	Kumar
+T12	引文作者 7570 7579	Ratnavelu
+T13	引文时间 7582 7586	2016
+T14	引文作者 8045 8052	Bozeman
+T15	引文作者 8055 8063	Boardman
+T16	引文时间 8066 8070	2014
+T17	研究方法 725 741	the Cannikin Law
+T18	研究结果 8077 8196	This article analyzes scientific careers from the perspective of collaborators ' diversity and the PhD career milestone
+T19	研究展望 10501 10659	In the future , detailed exploration of the research topic diversity and impact diversity between the researchers and their collaborators could be implemented
+T20	研究展望 10664 10850	We will further explore the relationships between researchers ' impact and their collaborators ' diversity in various areas , such as affiliation , background , or geographical diversity
+T21	研究展望 10855 11051	We also intend to further divide researchers ' scientific careers into several milestones , allowing us to explore with more depth the characteristics of successful scientific career development .
+R1	coauthor Arg1:T14 Arg2:T15	
+R2	has_cited_time Arg1:T16 Arg2:T15	
+R3	coauthor Arg1:T11 Arg2:T12	
+R4	has_cited_time Arg1:T13 Arg2:T12	
+R5	coauthor Arg1:T8 Arg2:T9	
+R6	has_cited_time Arg1:T10 Arg2:T9	
+R7	has_cited_time Arg1:T4 Arg2:T3	
+R8	has_cited_time Arg1:T2 Arg2:T1	

@@ -1,0 +1,15 @@
+{
+    "__class__": "MLTesterConfig",
+    "params": {
+        "tokenizer": "char",
+        "interactive": false,
+        "predict_prob": false,
+        "input_file": "examples/toutiao/text.csv",
+        "out_file": "predict.csv",
+        "has_target": true,
+        "badcase_file": null,
+        "print_confusion_mat": false,
+        "model_path": "ckpts/model.joblib",
+        "vec_path": "ckpts/vectorizer.joblib"
+    }
+}

@@ -1,0 +1,190 @@
+T1	引文作者 582 591	Robertson
+T2	引文时间 594 598	1981
+T3	引文作者 1127 1131	Fuhr
+T4	引文时间 1134 1138	2010
+T5	引文时间 1141 1145	2012
+T6	引文作者 1907 1917	Rutherford
+T7	引文时间 1920 1924	2011
+T8	引文作者 2040 2045	Ferro
+T9	引文作者 2048 2056	Silvello
+T10	引文时间 2059 2064	2016a
+T11	引文作者 4746 4755	Cleverdon
+T12	引文时间 4758 4762	1997
+T13	引文作者 5632 5647	Tague‐Sutcliffe
+T14	引文作者 5650 5658	Blustein
+T15	引文时间 5661 5665	1994
+T16	引文作者 5765 5774	Robertson
+T17	引文作者 5777 5785	Kanoulas
+T18	引文时间 5788 5792	2012
+T19	引文作者 5851 5856	Zhang
+T20	引文作者 5859 5864	Dawei
+T21	引文作者 5867 5871	Wang
+T22	引文作者 5876 5879	Hou
+T23	引文时间 5882 5886	2014
+T24	引文作者 6533 6538	Banks
+T25	引文作者 6541 6545	Over
+T26	引文作者 6552 6557	Zhang
+T27	引文时间 6560 6564	1999
+T28	引文作者 6571 6586	Tague‐Sutcliffe
+T29	引文作者 6591 6599	Blustein
+T30	引文时间 6602 6606	1994
+T31	引文作者 6662 6672	Carterette
+T32	引文时间 6675 6679	2012
+T33	引文作者 6788 6798	Jayasinghe
+T34	引文时间 6811 6815	2015
+T35	引文作者 7088 7096	Kanoulas
+T36	引文作者 7074 7083	Robertson
+T37	引文时间 7099 7103	2012
+T38	引文作者 7296 7305	Sanderson
+T39	引文作者 7308 7314	Turpin
+T40	引文作者 7317 7322	Zhang
+T41	引文作者 7329 7336	Scholer
+T42	引文时间 7339 7343	2012
+T43	引文作者 7350 7355	Jones
+T44	引文作者 7358 7364	Turpin
+T45	引文作者 7367 7374	Mizzaro
+T46	引文作者 7377 7384	Scholer
+T47	引文作者 7391 7400	Sanderson
+T48	引文时间 7403 7407	2014
+T49	引文作者 7513 7518	Ferro
+T50	引文作者 7523 7532	Sanderson
+T51	引文时间 7535 7539	2017
+T52	引文作者 7844 7849	Ferro
+T53	引文作者 7854 7860	Harman
+T54	引文时间 7863 7867	2010
+T55	引文作者 8321 8326	Ferro
+T56	引文作者 8331 8337	Harman
+T57	引文时间 8340 8344	2010
+T58	引文作者 8839 8846	Trotman
+T59	引文作者 8849 8856	Puurula
+T60	引文作者 8863 8870	Burgess
+T61	引文时间 8873 8877	2014
+T62	引文作者 8708 8715	Trotman
+T63	引文时间 8725 8729	2012
+T64	引文作者 9022 9025	Lin
+T65	引文时间 9035 9039	2016
+T66	引文作者 10067 10072	Croft
+T67	引文作者 10075 10082	Metzler
+T68	引文作者 10089 10097	Strohman
+T69	引文时间 10100 10104	2009
+T70	引文作者 10171 10180	Cleverdon
+T71	引文时间 10183 10187	1997
+T72	引文作者 12213 12218	Banks
+T73	引文时间 12231 12235	1999
+T74	引文作者 12242 12257	Tague‐Sutcliffe
+T75	引文作者 12262 12270	Blustein
+T76	引文时间 12273 12277	1994
+T77	引文作者 15216 15226	Rutherford
+T78	引文时间 15229 15233	2011
+T79	引文作者 16568 16577	Macdonald
+T80	引文作者 16580 16589	McCreadie
+T81	引文作者 16592 16598	Santos
+T82	引文作者 16603 16608	Ounis
+T83	引文时间 16611 16615	2012
+T84	引文作者 20267 20272	Zobel
+T85	引文作者 20277 20283	Moffat
+T86	引文时间 20286 20290	1998
+T87	表 25510 25860	Table 1 reports the estimated SOA for all the main and interaction effects and , within parentheses , the p‐values for all the ANOVA three‐way tests we conducted ; this table presents the results divided by search task ( news search in the upper part or web search in the lower part ) and , within a search task , by LUG group ( stemmers or n‐grams )
+T88	图 26370 26808	From the main effects plot of the stop lists in the upper part of Figure 1 , we can see that there is a substantial difference between systems employing or not a stop list while the impact of different stop lists is less marked , even though the corresponding Tukey HSD plot shows that the lucene stop list , that is , the shortest one , is not in the top group , thus marking a significant loss in performances with respect to the others
+T89	引文作者 23183 23191	Järvelin
+T90	引文作者 23194 23204	Kekäläinen
+T91	引文时间 23207 23211	2002
+T92	引文作者 24024 24032	Chapelle
+T93	引文作者 24035 24042	Metzler
+T94	引文作者 24045 24050	Zhang
+T95	引文作者 24055 24063	Grinspan
+T96	引文时间 24066 24070	2009
+T97	引文作者 29032 29036	Zhai
+T98	引文作者 29041 29049	Lafferty
+T99	引文时间 29052 29056	2004
+T100	具体模型 1832 1862	the General Linear Mixed Model
+T101	具体模型 1865 1869	GLMM
+T102	具体模型 7114 7118	GLMM
+T103	具体模型 7689 7693	GLMM
+T104	具体模型 10725 10729	GLMM
+T105	具体模型 25252 25256	GLMM
+T106	研究问题 1362 1585	Therefore , we need to develop some sort of anatomy of IR system performances , meant as a set of methodologies that allow us to study and gain knowledge about the internals of IR system performances and how to combine them
+T107	研究问题 1590 1775	In this paper , we start to overcome the limitations of the current experimental methodology and we provide the means to estimate the effects of the different components of an IR system
+T108	研究方法 1899 1904	ANOVA
+T109	研究方法 1876 1896	analysis of variance
+T110	研究方法 6739 6744	ANOVA
+T111	研究方法 7698 7703	ANOVA
+T112	研究方法 12108 12113	ANOVA
+T113	研究方法 12384 12389	ANOVA
+T114	研究方法 15821 15826	ANOVA
+T115	研究方法 25637 25642	ANOVA
+T116	软件工具 1948 1964	a grid of points
+T117	软件工具 1967 1970	GoP
+T118	软件工具 7967 7970	GoP
+T119	软件工具 8372 8375	GoP
+T120	软件工具 9226 9229	GoP
+T121	软件工具 10395 10398	GoP
+T122	软件工具 19962 19965	GoP
+T123	软件工具 20043 20046	GoP
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T5 Arg2:T3	
+R4	coauthor Arg1:T8 Arg2:T9	
+R5	has_cited_time Arg1:T10 Arg2:T9	
+R6	has_cited_time Arg1:T7 Arg2:T6	
+R7	has_cited_time Arg1:T12 Arg2:T11	
+R8	coauthor Arg1:T13 Arg2:T14	
+R9	has_cited_time Arg1:T15 Arg2:T14	
+R10	coauthor Arg1:T16 Arg2:T17	
+R11	has_cited_time Arg1:T18 Arg2:T17	
+R12	coauthor Arg1:T19 Arg2:T20	
+R13	coauthor Arg1:T20 Arg2:T21	
+R14	coauthor Arg1:T21 Arg2:T22	
+R15	has_cited_time Arg1:T23 Arg2:T22	
+R16	coauthor Arg1:T24 Arg2:T25	
+R17	coauthor Arg1:T25 Arg2:T26	
+R18	has_cited_time Arg1:T27 Arg2:T26	
+R19	coauthor Arg1:T28 Arg2:T29	
+R20	has_cited_time Arg1:T30 Arg2:T29	
+R21	has_cited_time Arg1:T32 Arg2:T31	
+R22	has_cited_time Arg1:T34 Arg2:T33	
+R23	coauthor Arg1:T36 Arg2:T35	
+R24	has_cited_time Arg1:T37 Arg2:T35	
+R25	coauthor Arg1:T38 Arg2:T39	
+R26	coauthor Arg1:T39 Arg2:T40	
+R27	coauthor Arg1:T40 Arg2:T41	
+R28	has_cited_time Arg1:T42 Arg2:T41	
+R29	coauthor Arg1:T43 Arg2:T44	
+R30	coauthor Arg1:T44 Arg2:T45	
+R31	coauthor Arg1:T45 Arg2:T46	
+R32	coauthor Arg1:T46 Arg2:T47	
+R33	has_cited_time Arg1:T48 Arg2:T47	
+R34	coauthor Arg1:T49 Arg2:T50	
+R35	has_cited_time Arg1:T51 Arg2:T50	
+R36	coauthor Arg1:T52 Arg2:T53	
+R37	has_cited_time Arg1:T54 Arg2:T53	
+R38	field_similar_as Arg1:T38 Arg2:T43	
+R39	coauthor Arg1:T55 Arg2:T56	
+R40	has_cited_time Arg1:T57 Arg2:T56	
+R41	has_cited_time Arg1:T63 Arg2:T62	
+R42	has_cited_time Arg1:T65 Arg2:T64	
+R43	coauthor Arg1:T58 Arg2:T59	
+R44	coauthor Arg1:T59 Arg2:T60	
+R45	has_cited_time Arg1:T61 Arg2:T60	
+R46	coauthor Arg1:T66 Arg2:T67	
+R47	coauthor Arg1:T67 Arg2:T68	
+R48	has_cited_time Arg1:T69 Arg2:T68	
+R49	has_cited_time Arg1:T71 Arg2:T70	
+R50	has_cited_time Arg1:T73 Arg2:T72	
+R51	coauthor Arg1:T74 Arg2:T75	
+R52	has_cited_time Arg1:T76 Arg2:T75	
+R53	has_cited_time Arg1:T78 Arg2:T77	
+R54	coauthor Arg1:T79 Arg2:T80	
+R55	coauthor Arg1:T80 Arg2:T81	
+R56	coauthor Arg1:T81 Arg2:T82	
+R57	has_cited_time Arg1:T83 Arg2:T82	
+R58	coauthor Arg1:T84 Arg2:T85	
+R59	has_cited_time Arg1:T86 Arg2:T85	
+R60	coauthor Arg1:T89 Arg2:T90	
+R61	has_cited_time Arg1:T91 Arg2:T90	
+R62	coauthor Arg1:T92 Arg2:T93	
+R63	coauthor Arg1:T93 Arg2:T94	
+R64	coauthor Arg1:T94 Arg2:T95	
+R65	has_cited_time Arg1:T96 Arg2:T95	
+R66	coauthor Arg1:T97 Arg2:T98	
+R67	has_cited_time Arg1:T99 Arg2:T98	

@@ -1,0 +1,101 @@
+This is evident in both the detailed activity patterns within the Main namespace and more broadly in the activity across Wikipedia 's various namespaces . 
+For the detailed coproduction activity , 72 % of the cases ( 95 of the 132 access‐privilege / edit‐types combinations ) registered insignificant change in edit count , and 29 % recoded insignificant difference in activity profile in terms of edit size . 
+For the activity across the namespaces , 65 % and 61 % of the cases ( of the 240 combinations ) recorded insignificant change in edit count and size , respectively . 
+In particular , contributors seem to maintain their original levels of participation in the Main namespace ( i.e. , coauthoring encyclopedic entries ) , regardless of assuming additional structural roles . 
+We note that even changes in activity patterns that are statistically significant sometimes represent small effects ( as evident in effect size ) , further stressing that contributors tend to stay close to the production floor . 
+Our findings show that for every one of Wikipedia 's structural access privileges changes between pre‐ and postrole‐assignment‐event were statistically significant in at least one form of activity . 
+When synthesizing the findings regarding the changes pre/postrole‐assignment , some key patterns emerge , namely : functional specialization , multispecialization , defunctionalization , changes in communication patterns , management of identity , and role definition . 
+The most notable pattern associated with transitions of functional role was functional specialization , whereby those assigned to the role increase in activity that is directly associated with the particular role , commonly reducing content‐related activity . 
+Consider a few examples . 
+Certain roles—namely , rollbacker and sysop —are tasked with fighting vandalism and have access to the “ revert ” tool , allowing them to roll back a wiki page to its previous version ; as expected , assignment into these roles entails a significant increase in “ Delete Vandalism ” activity ( and decrease in most other forms of activity ) . 
+A second example considers the role of a reviewer , assigned with quality assurance ; the assignment into this role is associated with a significant increase in the “ Fix Typos ” and “ Reorganize Text ” activities , directly linked to the reviewer 's structural responsibilities . 
+A second noticeable pattern was multispecialization , which was typically linked to the transition into higher‐level roles . 
+Wikipedia 's system of access privileges is organized such that some roles are nested within others ( the broader , or higher‐level , roles encompassing the rights and responsibilities of the lower‐level access privileges ; Arazy et al. , 2014 ) . 
+Multispecialization is evident when the transition of a participant into a higher‐level role entails assuming the access privileges that are characteristic of multiple lower‐level roles . 
+For example , those assuming the sysop role commonly increase both the number and scope of editing activities that are typical of rollback , reviewer , and autoreviewer ; namely , increased activity around the management of files ( File and File‐Talk ) and interface text ( MediaWiki and MediaWiki‐Talk namespaces ) . 
+Third , a common pattern associated with role‐transition events was defunctionalization . 
+That is , in cases when participants who held a preliminary access privilege were later promoted to a broader access privilege , this transition was accompanied by a decrease in the activity typical of the lower‐level privileges . 
+For example , transitions into the structural roles of bureaucrat and checkuser were commonly accompanied with a decrease in the scope of vandalism removal activities ( typical of lower‐level access privileges such as autoreviewer or rollbacker ) . 
+Fourth , we found that role‐transition events were linked to changes in communication patterns ( as reflected in activity in the User and User‐Talk namespaces ) . 
+The exact nature of these changes differed between functional roles , in some cases increasing in the breadth of activity and in others decreasing in the scope of communication . 
+For example , with the transition into the structural role of sysop the amount of communication grew ( i.e. , increase in edit count in the User‐Talk namespace ) , whereas an opposite effect was observed for the roles of accountcreator and reviewer : namely , a relative decrease in the number of User‐Talk edits ( for reviewer , the role‐transition event was also accompanied with an increase in the average size of edits in this namespace , reflecting a more focused communication ) . 
+Fifth , we observed that upon assuming extra privileges , participants got more involved in the management of their identity within the community . 
+Specifically , when assigned the sysop role , participants increased their activity in the User namespace . 
+Finally , we noticed that after assuming structural roles , participants often get involved in the definition of those structural roles . 
+For example , transitions into the structural roles of rollbacker and reviewer were characterized with an increased activity in the particular areas of the Category‐Talk namespace where the responsibilities and privileges of these roles are specified . 
+In seeking to enhance our understanding of coordination in peer‐production , this study investigated the interplay between structural roles and activity patterns ( i.e. , emergent roles ) . 
+Our investigation covered the complete history of 1,000 Wikipedia articles , from their inception until the end of 2014 . 
+Our research method relied on multiple data sources : detailed annotated data regarding contributors ' “ production ” activities ( from Arazy et al. , 2016 ) , large‐scale activity edit , and detailed logs of role‐transition events that were extracted using an external tool ( WikiDAT ) . 
+To disentangle contributors ' positions on the core‐periphery from their activity profile , our analysis controlled for the quantity of activity , focusing solely on the nature of activity and defining a contributor 's activity profile in terms of the percentage of activity allocated to each of the activity categories . 
+Triangulating results across the views of activity and metrics proved very powerful . 
+Dependencies between structural roles and activity profiles that were found for the global namespace activity were often different from the dependencies observed for the detailed annotated production activity , and the results recorded for using one metric were at times different than those recorded for another metric . 
+Together , our various analyses highlighted the value of the comprehensive approach taken in the current study . 
+To the best of our knowledge , this is the first study to provide a comprehensive empirical evaluation of the linkage between structural roles and behavioral patterns in peer‐production . 
+Some studies have linked activity profiles to structural roles ( Arazy et al. , 2015 ; Collier et al. , 2008 , 2010 ; Zhu et al. , 2011 ) . 
+By providing a broader view of structural roles and activity patterns we were able to identify meaningful patterns in the interplay between structure and agency in contributors ' role‐taking . 
+Our findings reveal that the Wikipedia role system blends structure and agency in intricate ways . 
+Despite the latitude in selecting their mode of involvement , participants ' structural and emergent roles are tightly coupled , such that a contributor 's decision to volunteer for additional formal responsibilities is intertwined with her/his decision to self‐select various forms of activity . 
+Viewing peer‐production as a highly structured form of organizing ( resembling traditional command‐and‐control organizations ; Butler et al. , 2008 ) , we would expect role prescriptions to dictate actions and anticipate sharp behavioral changes to accompany role transitions . 
+In contrast , when viewing online production communities as fluid and emergent organizations ( Faraj et al. , 2011 ) , role transitions events are unlikely to have a substantial effect on behavior patterns . 
+Our finding show that ~50 % of the structural role transitions were associated with statistically significant changes in activity patterns , thus suggesting that neither perspective accurately captures Wikipedia 's role system : the truth lies in between , and Wikipedia blends limited structure with ample opportunities for contributors to express their agency . 
+In particular , we found that Wikipedians stay close to the “ production ground floor ” even when assuming additional access privileges . 
+Prior to being assigned a structural role , contributors to Wikipedia are required to demonstrate a substantial editing record . 
+The fact that much of their profile remains unchanged with role‐assignment suggests that these contributors continue with their regular activity ( namely , editing the encyclopedic entries ) . 
+Thus , privileged contributors continue to take part in the coauthoring of Wikipedia articles . 
+The participation of privileged members in basic production activities serves two purposes . 
+First , they lead others by example . 
+Second , those holding a special access privilege serve as “ on the ground traffic control , ” directing the activity of the masses of the nonprivileged contributors . 
+Insights revealed from our analysis of the patterns of activity changes that are associated with structural roles assignment challenge extant conceptualizations in peer‐production . 
+Some have argued that role transitions ( e.g. , transitioning from a regular member status to serving on the board of an open‐source community ) are lateral movements ( Dahlander & O'Mahony , 2011 ) . 
+A competing view depicted roles in peer‐productions as organized through hierarchical power relations ( Arazy et al. , 2014 ) . 
+Interestingly , the patterns of behavioral changes identified in our study provide support for both perspectives . 
+Namely , the patterns of functional specialization and defunctionalization suggest a lateral movement from one functional role to another ; whereas the pattern of multispecialization implies power relationships and a transition to a higher‐level role . 
+We thus infer that roles in Wikipedia are organized in a unique structure that combines hierarchical and lateral dimensions . 
+We extend the prior conceptualizations on structural roles ( for instance , the Reader‐to‐Leader framework ) . 
+Our study also has implications for the organizational literature conceptualization and understanding of roles . 
+The literature currently suggests that roles could be understood through two primary lenses : structural and interactionist ( Turner , 1986 ) . 
+Scholars in the area have recognized that these two perspectives complement one another : role structures provide a general framework that constrains and enables individuals ' action , yet individuals have much leeway in enacting their own roles . 
+Empirical studies of flexible and ad‐hoc organizational forms provide rich descriptions of the interplay between role structure and the role enactments ( Bechky , 2006 ; Brown & Eisenhardt , 1997 ) , which inform our understanding of roles in online production communities . 
+Nonetheless , without entering the debate of whether or not organizations such as Wikipedia represent a novel organizational form ( Puranam , Alexy , & Reitzig , 2014 ) , the distinguishing characteristics of roles in online communities should be considered . 
+First , these communities differ in that the vast majority of participants do not hold any structural role , such that the few privileged members are responsible for coordinating the work of many who do not have formal responsibilities . 
+Second , in online production communities such as Wikipedia , roles are organically and collectively defined . 
+Furthermore , promotion processes and the assignment into a structural role are often based on the decision of a group of several privileged members ( rather than decided by a direct supervisor ) . 
+Finally , online collaborations are often distributed and very large in scope , including massive participation , in comparison to offline organizations . 
+These characteristics create a situation that is different from the ones investigated in role theory so far . 
+Whereas the organizational literature suggests that role behavior is largely linked to the enactment of structural roles , our findings suggest that role‐alignment in online production communities is only partial , such that much of the enactment represents emergent behavior . 
+We contribute to the literature by arguing that each of these perspectives—the structural and emergent conceptualizations—captures only one aspect of the intricate interplay between structure and agency around the coordination of work in peer‐production . 
+We add to the literature on emergent work ( Faraj et al. , 2011 ) and roles ( Arazy et al. , 2016 ) by showing that emergent work is bounded—at least to some extent—by participants ' structural roles . 
+We inform the literature on governance mechanisms in peer‐production ( Auray , 2012 ; Forte et al. , 2009 ; Schroeder & Wagner , 2012 ) by showing that , whereas structural roles provide a shared understanding of work responsibilities and organizational continuity , much of the organization of work is spontaneous , whereby privileged members continue to emergently enact activities in Wikipedia 's coproduction space independent of their assigned structural roles . 
+What , then , is the organizational function of the loose coupling between roles and enacted behavior ? 
+We believe that the permeable role boundaries help privileged members easily and transiently fill in for one another , thus contributing to organizational flexibility and robustness . 
+An understanding of the way in which agency and structure interact is of special importance for online production communities , given that : ( a ) structure is often ill‐defined in such novel forms of organizing ; and ( b ) voluntary participation provides ample opportunities for contributors to exert agency . 
+To date , theories in the area have overlooked the ways in which coordination practices rely simultaneously on structure and enactment . 
+Specifically , whereas both structural and emergent roles are understood to help coordinate activity , little attention has been paid to the practices by which roles and enactment are interwoven . 
+Our empirical investigation centered on Wikipedia and findings from this study reveal some intricate patterns in the interplay between structure and agency in Wikipedia 's role system . 
+Insights regarding how Wikipedia blends structure and agency in their role system may have implications for our understanding regarding the effective design of online production communities . 
+Our study has also some practical implications that extend beyond the contribution to the scholarly work in the area . 
+Many coproduction communities struggle with the decisions of how much structure to impose on the coproduction process and whether or not to formalize roles . 
+Our findings highlight that it is possible to coordinate the activity of masses of contributors through a rather “ thin ” and flexible role structure . 
+More specifically , our findings could guide community custodians in their efforts to sustain contributors ' participation , engagement , and commitment . 
+An understanding of participants ' activity profiles and how those profiles are linked to participants ' choices to take on additional structural roles and responsibilities could community custodians in developing “ career paths , ” such that contributors with different skill sets and interests could find suitable avenues for channeling their energy . 
+A managerial suggestion for community custodians would be to design roles to align with contributors work routines . 
+Our findings may also be relevant to managers in firms who explore new collaborative production strategies . 
+For example , many companies use wiki technology as a knowledge management tool ( Majchrzak , Wagner , & Yates , 2013 ; Wagner & Majchrzak , 2007 ) , in particular for developing a Wikipedia‐like organizational encyclopedia and have adopted ( at least partially ) the organic processes that characterize wiki‐based collaboration over the Internet . 
+Organizations may differ from Wikipedia in terms of both the access privileges defined and the types of activities available for contributors ; still , the insights gained from this study regarding the balance between structure and agency could inform those managing corporate wikis . 
+Although yielding some interesting results , this study is not without limitations . 
+First , few dependencies exist between structural access privileges and contributors ' activity profiles , some are irrelevant for this study ( e.g. , nonregistered members can not create a new article , but those were excluded from this study ) , but other dependencies have a direct effect on the findings in this study.66 https : //en.wikipedia.org/wiki/Wikipedia : User_access_levels Second , our analysis provided a high‐level view of each role , looking at the pre‐ and postrole‐assignment event activity profiles . 
+A more detailed analysis could “ zoom‐in ” to consider the other access privileges held at that time . 
+That is , we propose that future research would distinguish between , for example , progression into sysop when holding at that time the filemover role from promotions to sysop when not holding the additional role . 
+Such an analysis has the potential to yield more nuanced understanding of the relationship between structural and emergent roles in Wikipedia . 
+Third , our findings were based on a large‐scale quantitative analysis , relying on Wikipedia 's activity logs . 
+Although such an analysis is useful in capturing the breadth of the phenomenon and in providing a vivid portrait of the intricacies of roles–activities relationships within Wikipedia , other research methods—namely , qualitative research—are particularly suitable for addressing questions of “ How ? 
+” and “ Why ? 
+” Hence , we suggest that future research in the area will employ a mixed method approach , combining qualitative analysis of activity logs with qualitative methods to yield more refined explanations for the relationship between structural and emergent roles . 
+Lastly , an additional limitation of this study concerns the generalizations of our results . 
+Our analysis focused on the English Wikipedia , whereas other Wikipedias employ a somewhat different roles system ( de Laat , 2012 ) . 
+Furthermore , we recommend that future research moves beyond Wikipedia to other online production communities , in particular those that differ from Wikipedia in terms of their governance structure ( and especially , the structural role system ) , and investigate roles and activities in those settings , paying attention to the effects of contextual factors . 
+In conclusion , the tension between structure and agency is paramount for understanding collaboration patterns within online production communities . 
+The literature has often depicted community‐based projects as “ bazaars ” ( stressing participants ' agency ) , juxtaposing them with top‐down “ cathedral‐style ” structures that characterize traditional organizations ( Raymond , 1999 ) . 
+This article presents a more nuanced view , focusing on the structure/agency tension with relation to roles . 
+Demonstrating the way in which contributors ' choices to enact particular actions are intertwined with their formal responsibilities is of key importance , given that roles—both emergent and structural—represent one of the chief coordination mechanisms in organizations . 
+Our study provides some preliminary results and we offer a first step toward a theory of permeable role boundaries ; clearly , this area warrants further research . 

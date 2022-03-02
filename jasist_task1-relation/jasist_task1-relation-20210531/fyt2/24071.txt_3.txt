@@ -1,0 +1,76 @@
+Among all data sets , our unsupervised approach can significantly improve ranking consistency over original ranking of the search engine at 95 % level in a paired t‐test . 
+We then try to analyze the different improvements for each data set . 
+From our observation , the first type “ people/person ” has more significant improvement than last two types . 
+The reasons are twofold . 
+First , “ people/person ” contains more queries than other types and most of URL sub‐patterns are related to “ people/person ” because their queries dominate the collection of URLs . 
+Secondly , the original ranking consistencies of last two types perform better than “ people/person , ” so the consistency of “ people/person ” is comparatively easier to improve . 
+Moreover , the performance order in ranking consistency is consistent with the results of the cocluster hypothesis test . 
+It clearly explains the relationship between ranking consistency and the cocluster hypothesis . 
+To evaluate relevance ranking , we adopt normalized discounted cumulative gain ( NDCG ) as our evaluation metric . 
+The reason we choose NDCG @ k is that users only seek for information on first few search results in practice and NDCG @ k is good at measuring the performance of top k results for web search . 
+For baselines , we compare our approaches with the default ranker . 
+Default ranker is a real‐world search engine that ensembles several effective ranking features . 
+Therefore , default ranker is treated as a strong competitor to our approach . 
+We also compare our performance with a supervised version ( J.‐Y . 
+Jiang , Liu , Lin , & Cheng , 2015 ) later . 
+Table 5 shows the ranking performance of our method with single parameter ( SP ) , that is , fixed λ , and multiple parameters ( MP ) , that is , learned , and original ranker over different data sets . 
+Note that results of single parameter are the best parameter over different data sets . 
+Generally , our approach improves original ranking results significantly in all data sets at 95 % level in a paired t‐test . 
+Moreover , we observe that type “ people/person ” has better improvement than other types again . 
+The main reason is that the number of queries of type “ people/person ” is much larger than those of “ location/location ” and “ organization/organization , ” so the most of sub‐patterns are related to “ people/person. ” Moreover , when comparing single and multiple parameters , the results demonstrate that the method of multiple parameters is better than single one and explain that our novel cost function is effective in adjusting the parameters in different situations . 
+Here we further compare our unsupervised approach with supervised approach proposed in J.‐Y . 
+Jiang , Liu , Lin , and Cheng ( 2015 ) . 
+We use a half of the data sets as training data and the rest as testing data . 
+Table 6 shows that the performances of our approach is comparable to that of supervised approach in all data sets even under the condition of no click‐through data as the ground‐truth . 
+This section is to demonstrate the impact of cocluster relevance scores by adjusting parameter C , and the effectiveness of adjusting parameters automatically by the cost function . 
+Table 7 shows that the performance of our unsupervised approach with different weights C 's . 
+When C is close to 0 , the average of λ is close to 1 . 
+In this case , we trust cocluster relevance scores , and vice versa . 
+When C is 0.01 , the performance is the best and the average of λ is around 0.7 . 
+This case gives that we should trust cocluster relevance scores more than original relevance scores in the given data sets . 
+For the adjustment of parameters , two queries with three different URLs are provided as examples in Table 8 . 
+For query “ kobe bryant family , ” the search intent is about family of Kobe Bryant and the λ 's of “ en.wikipedia.org ” and “ biography.com ” are greater than that of “ youtube.com ” since they contain more information about his family . 
+For query “ stephen curry brother , ” the query intent is about Seth Curry , who is exactly Stephen Curry 's brother . 
+Seth Curry 's wikipedia has the highest λ reasonably in our model . 
+To further discuss the impact of quality of search intent and topcial clusters , we use URL sub‐patterns to show the impact of topcial clusters and utilize query intent templates and parameter K to demonstrate the importance of search intent clusters . 
+We simply calculate NDCG @ 10 with λ from 0 to 1 to observe the performance trend . 
+For topical clusters , Figure 6a shows the difference of using URL‐patterns ( green dotted line ) and URL sub‐patterns ( blue solid line ) . 
+The performance of URL‐patterns declines rapidly because it is easily affected by different URLs with the same pattern . 
+Contrary to URL‐patterns , sub‐patterns can well deal with the problem by distinguishing different URL patterns . 
+Improvement of NDCG @ 10 from query intent templates and subpatterns . 
+( a ) Sub‐patterns ( b ) Query intent templates . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] In addition , we analyze the influence of quality of search intent clusters to relevance ranking . 
+Figure 6b shows the performance of using query intent templates ( blue solid line ) and using entities only ( red dotted line ) . 
+Unlike previous experiment of sub‐patterns , the trends of two line are similar but query intent templates generally achieve better performance than entities . 
+For the choice of K in K‐Nearest‐Neighbors , Figure 7 shows performance over various K 's . 
+K = 63228 means we treat all entities as similar entities . 
+We get the best performance at K = 5000 . 
+However , when K is getting larger than 5000 , its performance declines rapidly . 
+The reason is that similar search intent clusters contain numerous dissimilar entities . 
+Overall , the quality of coclustering does significantly affect the improvement of relevance ranking . 
+Performance of our approach over different K 's . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Besides , we are concerned about the influence of different features on parameter λ and compute absolute values of feature weights as shown in Figure 8 . 
+For consistency features , the most important feature is standard deviation because standard deviation denotes the variety of ranks . 
+High standard deviation represents inconsistent ranks and λ should be lower . 
+On the other hand , low standard deviation should have higher λ because of high consistency among ranks . 
+For unique features , query length is the most influential feature because query length denotes the amount of information implicitly . 
+Absolute values of feature weights . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] According to the experimental results , we can summarize four evidences to verify the applicability of the cocluster hypothesis as follows : Our unsupervised ranking consistency approach significantly improves relevance ranking by improving ranking consistency . 
+Ranking consistency could be treated as one of the applications of the cocluster hypothesis . 
+The impact of cocluster relevance scores is greater than the impact of original scores . 
+It 's possible to leverage the relationship between search intent clusters and topical clusters to improve relevance ranking . 
+The quality of search intent clusters and topical clusters significantly affects the relevance ranking . 
+Our proposed approach is general to simultaneously rank queries of entities that have different types . 
+This is because the ranking consistency can still be found along a higher‐level type for entities . 
+In this work , we propose a so‐called cocluster hypothesis in web search . 
+The cocluster hypothesis intuitively connects requests with closely associated search intents to web pages with closely associated topics . 
+Unlike the traditional cluster hypothesis , the cocluster hypothesis considers search intents behind queries and topics of web pages at the same time . 
+The proposed cocluster hypothesis is then treated as the fundamental heuristic for unsupervised learning . 
+We propose a two‐stage unsupervised approach to improve ranking consistency based on the cocluster hypothesis . 
+In this approach , entities and query intent templates are defined as search intents while URL sub‐patterns are extracted as topical clusters . 
+To take the advantages of cocluster ranks and original ranks , we re‐rank search results by ensemble of two relevance scores with a novel cost function . 
+The parameter for combining two scores is featurized and learned for distinct queries . 
+The cocluster hypothesis has been verified to hold by both of a nearest‐neighbors test and extensive experiments conducted on a large‐scale real search engine log . 
+The results demonstrate the applicability of the cocluster hypothesis in relevance ranking of web search . 
+Furthermore , the proposed unsupervised approach has been also shown its comparability with a supervised approach in search performance . 
+Future work will consider applying the cocluster hypothesis to other applications and developing content‐based methods for discovering topical clusters of web pages . 

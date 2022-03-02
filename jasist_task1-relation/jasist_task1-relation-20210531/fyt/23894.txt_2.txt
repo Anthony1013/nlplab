@@ -1,0 +1,43 @@
+PMT provided the framework to assess users ' cognitive cost appraisals while U & G provided the lens to understand the perceived benefits that drive their privacy enactments . 
+Based on the relative beta weights across the regressions tested , it appears that users ' privacy management on Facebook is premised on the juxtaposition of benefits against cost , rather than costs versus benefits . 
+That is , when it comes to how users manage their Facebook privacy , they focus on benefits rather than the costs . 
+Among the benefits , social need fulfillment was the single most significant Facebook benefit that influenced how the user managed their Facebook settings that protected their information privacy , accessibility privacy , and expressive privacy . 
+Social needs , such as finding new friends , maintaining existing relationships , and getting social support , likely leads to a more active consideration of who gets access to the users digital data , who has access to the individual , and who can influence their self‐presentation . 
+Social needs also likely foster impression management and tailored self‐presentation . 
+The other benefits the drive Facebook use , information needs and entertainment needs , appear to relax the intensity of enactment of such privacy protections . 
+This is perhaps because such benefits can be acquired by simply lurking on Facebook and looking at other people 's profiles or by passively receiving feeds from others . 
+None of these activities require the user to divulge personal information , meaning they do not require active privacy management . 
+Relative to the benefits , the perceived costs of social media use—the first block in our regressions— stem from the losses one could potentially incur and the effort it would take to mitigate the loss . 
+The testing of the PMT framework pointed to perceived severity and perceived susceptibility of privacy incursions having significant impacts on privacy management . 
+From these , perceived severity had a relatively stronger influence on the enactment of expressive privacy ( i.e. , loss of social image ) and accessibility privacy ( i.e. , loss of annoymity ) . 
+This is likely again a reflection of the social nature of Facebook use , where most people use the platform for self‐presentation , making the fear of social losses stemming from inaccurate self‐presentation or public embarrassment a bigger , more significant threat . 
+In contrast , digital or information privacy losses , although important , are viewed as less impactful , perhaps because of the private way in which these costs can be incurred . 
+For instance , the social embarrassment from a photograph that shows a user in a negative light being posted is harder to deal with privately than the loss of a password or some digital information . 
+These findings have several practical implications toward privacy protection behaviors on SNSs and for the design of usable security , where research tends to focus on designing easy to use and useful security settings , often ignorning the fact that not all settings are underutilized merely because of design . 
+Most settings , it appears , are ignored because users care less about them and instead focus solely on settings that protect social information leaks . 
+Knowing this allows for better security design and more effective communication about the benefits of various settings . 
+Such communication could emphasize the relatedness of all security settings , connect the social implications of the loss of any of them , and explain how coping with one requires monitoring all the others . 
+In addition , given the influence of individual level differences in coping efficacy , security desingers should develop mechanisms to communicate in a simple way the value of each setting as well as how individuals could deal with breaches that stem from the misappropriation of any setting . 
+However , in‐line with any sample‐based , social science research , the study has a few limitations , beginning with the use of a student sample . 
+College students are an important demographic of social media users and are often targets of cyber criminals . 
+In addition , using a homogenous sample of students gave us a fair degree of control over potential confounds stemming from differences in social media use frequency , knowledge and experience with social media , and general technological efficacy . 
+That said , college students are also a‐typical of the broader U.S. or global population of Internet users , which somewhat restricts the generalizability of the findings to just college age adults . 
+Another limitation is the use of self‐reports , which are subject to errors in memory as well participant biases from social disirablity to being primed by other survey items . 
+For instance , subjects could have reported their desired privacy setting or the setting they felt the researcher was attempting to gauge . 
+In addition , students could ostensibly be more aware of privacy , perhaps because of being warned about it in class , leading to their use of more restricted settings . 
+Yet another limitation is the treatment of the three different privacy settings afforded by the Facebook interface as independent dimensions . 
+In theory , these could be thought of as related , perhaps as nested or dependent factors , but in practice they are treated on Facebook as independent , mutually exclusive settings . 
+Our treatment is practically and ecologically consistent but a theory driven treatment could perhaps net different results . 
+Further , the three dimensions of privacy proposed by DeCew 's ( 1997 ) were developed prior to the advent of social media . 
+Hence , although it offers a convenient framework for categorizing the privacy management settings afforded by Facebook , its appropriateness , coverage , and validity in explaining digital privacy in the Web 2.0 world , where the boundaries between public and private information are increasingly blurred , remains to be ascertained . 
+This is a limitation of the current application of the dimensions and a topic ripe for future research . 
+Finally , the study used a cross‐sectional design , where the dependent and independent measures were collected at the same time and where relational tests were supported by theory rather than established by natural time . 
+These are limitations of social science research that utilizes this approach ( many of which do ) and requires future research to address . 
+Research could use an adult , national or global sample , behavioral measures of Facebook settings procured from Facebook , and experiments to assess what settings users changed in response to a privacy beach . 
+Such research could be done in other countries and also focus on other social networking platforms such as Twitter and LinkedIn , to examine the cross‐cultural and multi‐platform generalizability of these results . 
+Finally , how users chose their privacy settings on social media is to a large extent dictated by the afforances of each platform . 
+Knowing whether the afforded settings are adequate or whether users expect different settings or perhaps more control over individual settings is another future research question , the answer to which could enhance how people manage their privacy better . 
+All said , however , the findings of the study are noteworthy . 
+Decision science has long accepted the idea that people go through a cost‐benefit evaluation prior to making important decisions . 
+None have , however , addressed the theoretical constituents of costs and benefits or its implications on the enactment of the privacy protections afforded by social media . 
+By extending the theoretical lens provided by PMT and U & G , the present study not only explains the cognitive processes but also allow us pinpoint the specific costs and specific benefits that drive the enactment of various privacy protections on Facebook . 

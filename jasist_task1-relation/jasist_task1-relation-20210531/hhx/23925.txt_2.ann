@@ -1,0 +1,241 @@
+T1	术语 118 120	MT
+T2	引文的结果 307 441	Adequacy referred to the degree to which information present in the source language text was represented in the target language output
+T3	引文时间 473 477	2005
+T4	引文作者 480 484	Chen
+T5	引文时间 487 491	2016
+T6	表 637 706	Table 4 presents the definitions of the fluency and adequacy scales .
+T7	引文作者 768 772	Chen
+T8	引文时间 775 779	2016
+T9	术语 1162 1164	MT
+T10	术语 1455 1476	web evaluation system
+T11	术语 1491 1493	MT
+T12	术语 1667 1669	MT
+T13	术语 1768 1773	MEMT1
+T14	术语 1776 1781	MEMT2
+T15	术语 1788 1793	MEMT3
+T16	术语 1997 2001	MEMT
+T17	表 2540 2610	the five‐point scales for adequacy and fluency as presented in Table 4
+T18	术语 3021 3036	metadata record
+T19	引文的结果 3405 3479	Median was considered more appropriate than mean/average in that situation
+T20	引文作者 3482 3489	Vaughan
+T21	引文时间 3492 3496	2001
+T22	表 3824 3910	Tables 5 and 6 summarize the evaluation results for Chinese and Spanish , respectively
+T23	表 4006 4201	Table 5 showed that for all elements and the record as a whole , MEMT approaches were consistently better than any single MT service in both measures for Chinese translation , with two exceptions
+T24	术语 4071 4075	MEMT
+T25	术语 4128 4130	MT
+T26	术语 4217 4222	MEMT2
+T27	术语 4227 4232	MEMT3
+T28	术语 4309 4311	MT
+T29	术语 4357 4361	MEMT
+T30	术语 4431 4436	MEMT2
+T31	术语 4441 4446	MEMT3
+T32	术语 4602 4604	MT
+T33	图 4673 4727	we present Chinese average adequacy scores in Figure 3
+T34	图 4785 5027	Figure 3 shows two numbers for each group , the numerical value on the left is the average adequacy score of the best‐performing online MT system , while the value on the right is the average adequacy score for the best‐performing MEMT system
+T35	术语 4921 4923	MT
+T36	术语 4868 4890	average adequacy score
+T37	术语 4969 4991	average adequacy score
+T38	术语 5016 5020	MEMT
+T39	术语 5103 5125	average adequacy score
+T40	术语 5160 5165	MEMT3
+T41	术语 5236 5240	MEMT
+T42	图 5344 5352	Figure 3
+T43	术语 5386 5390	MEMT
+T44	表 5485 5557	The evaluation results for Spanish translations are presented in Table 6
+T45	图 5564 5655	visually depicted in Figure 4 ( for adequacy ) using the same representation as in Figure 3
+T46	表 5759 5766	Table 6
+T47	图 5783 5791	Figure 4
+T48	术语 5808 5813	MEMT1
+T49	术语 5877 5879	MT
+T50	术语 5909 5911	MT
+T51	研究结果 5357 5480	This might indicate that the MEMT strategy could identify translations closer to what a native Chinese speaker would prefer
+T52	术语 6069 6074	MEMT2
+T53	术语 6079 6084	MEMT3
+T54	表 6259 6273	Tables 5 and 6
+T55	术语 6297 6299	MT
+T56	研究结果 6427 6592	As for comparative evaluation results , Google was considered the best among the three MT systems , while MEMT3 was the best among the three MEMT systems for Chinese
+T57	表 6668 6675	Table 5
+T58	研究结果 6904 7186	MEMT2 and MEMT3 were judged to have had the same performance , which was consistent with the evaluation results reported in Table 6—MEMT2 and MEMT3 received nearly identical scores on adequacy ( 4.39 for MEMT2 and 4.38 for MEMT 3 ) and adequacy ( 4.47 for MEMT2 and 4.46 for MEMT3 )
+T59	术语 6904 6909	MEMT2
+T60	术语 6914 6919	MEMT3
+T61	表 7028 7035	Table 6
+T62	术语 7036 7041	MEMT2
+T63	术语 7046 7051	MEMT3
+T64	术语 7108 7113	MEMT2
+T65	术语 7127 7133	MEMT 3
+T66	术语 7160 7165	MEMT2
+T67	术语 7179 7184	MEMT3
+T68	表 7291 7386	Table 7 shows the frequency distribution of adequacy and fluency scores for Chinese translation
+T69	表 7468 7534	The scores in Table 7 are presented as both counts and percentages
+T70	表 7553 7647	the last adequacy row of Table 7 shows that a total of 12 records were assigned a score of 5 .
+T71	术语 7671 7676	MEMT3
+T72	术语 7748 7886	Table 7 shows that MEMT approaches had a much smaller number of records that received a score of 2 compared to the three online MT systems
+T73	术语 7767 7771	MEMT
+T74	术语 7876 7878	MT
+T75	术语 7982 7986	MEMT
+T76	术语 8010 8015	MEMT3
+T77	术语 8020 8025	MEMT3
+T78	表 8209 8340	Table 8 presents the frequency distribution for adequacy and fluency scores for Spanish translations in a similar way as in Table 7
+T80	术语 8366 8371	MEMT1
+T81	研究结果 8487 8661	This might indicate that simply combining the MT results of multiple systems might not work well for language pairs that could be well translated by the individual MT systems
+T79	术语 8722 8724	MT
+T82	术语 8759 8763	MEMT
+T83	术语 8944 8963	normal distribution
+T84	引文的结果 8859 9065	Since the distribution of scores for both Spanish and Chinese translations was not a normal distribution , we performed significance testing using the Mann–Whitney U‐test , instead of the traditional t‐test
+T85	引文作者 9068 9074	Hinkle
+T86	引文作者 9077 9084	Wiersma
+T87	引文作者 9089 9093	Jurs
+T88	引文时间 9096 9100	2003
+T89	引文作者 9104 9110	Hinkle
+T90	引文时间 9120 9124	2003
+T91	表 9132 9244	Table 9 shows the results of the Mann–Whitney U‐test for Chinese adequacy and fluency scores on the whole record
+T92	研究方法 9010 9029	Mann–Whitney U‐test
+T93	研究方法 9059 9065	t‐test
+T94	研究方法 9165 9184	Mann–Whitney U‐test
+T95	研究方法 9298 9312	Mann–Whitney U
+T96	表 9370 9523	Table 9 shows that the three MEMT approaches produced results that were significantly different both from each other and from the three online MT systems
+T97	术语 9399 9403	MEMT
+T98	术语 9653 9658	MEMT2
+T99	术语 9663 9668	MEMT3
+T100	表 9847 9944	Table 10 presents the results of the Mann–Whitney U‐ test for Spanish adequacy and fluency scores
+T101	术语 9884 9904	Mann–Whitney U‐ test
+T102	术语 10119 10124	MEMT2
+T103	术语 10129 10134	MEMT3
+T104	术语 10325 10330	MEMT3
+T105	术语 10315 10320	MEMT2
+T106	引文的结果 10369 10468	Previous research has reported that the two measures of adequacy and fluency were highly associated
+T107	引文作者 10471 10485	Callison‐Burch
+T108	引文时间 10495 10499	2007
+T109	术语 10528 10540	Pearson 's r
+T110	研究结果 10702 10874	It indicates that if time and money are limited for human evaluation of MT , one can choose to use just one measure in evaluation instead of using both adequacy and fluency
+T111	术语 10774 10776	MT
+T112	术语 10915 10933	automatic measures
+T113	术语 10944 10948	BLEU
+T114	术语 10953 10959	METEOR
+T115	术语 11030 11032	MT
+T116	术语 11082 11084	MT
+T117	引文的结果 11122 11313	Their limitations , however , include assigning lower scores to MT results that are very different from the reference translations , and providing little insight into the translation problems
+T118	引文作者 11316 11322	Lommel
+T119	引文时间 11332 11336	2014
+T120	术语 11366 11370	BLEU
+T121	术语 11375 11381	METEOR
+T122	术语 11396 11400	MEMT
+T123	术语 11460 11462	MT
+T124	研究结果 11521 11636	This might indicate that MEMT results differed more from reference translations than those of the online MT systems
+T125	术语 11546 11550	MEMT
+T126	术语 11626 11628	MT
+T127	研究问题 11683 11755	Which MEMT strategy can achieve better performance on metadata records ?
+T128	术语 11689 11693	MEMT
+T129	研究方法 11758 11912	We designed and implemented three MEMT strategies using an open‐source statistical MT platform , and conducted human evaluation of the translation results
+T130	术语 11792 11796	MEMT
+T131	术语 11841 11843	MT
+T132	研究结果 11917 12153	Our evaluation found that combining results from multiple low‐cost online MT services with a small sample of parallel data could significantly improve translation performance in terms of adequacy and fluency for both Chinese and Spanish
+T133	术语 11991 11993	MT
+T134	术语 12158 12162	MEMT
+T135	研究问题 12184 12186	MT
+T136	引文的研究问题 12158 12224	MEMT has been explored by MT researchers with different strategies
+T137	引文作者 12227 12236	Nirenburg
+T138	引文作者 12239 12250	Frederlcing
+T139	引文时间 12253 12257	1994
+T140	引文作者 12260 12265	Rosti
+T141	引文时间 12275 12279	2007
+T142	术语 12353 12377	library metadata records
+T143	术语 12433 12437	MEMT
+T144	术语 12602 12632	translation error rate ( TER )
+T145	术语 12679 12681	MT
+T146	软件工具 12695 12700	Moses
+T147	软件工具 12709 12714	Moses
+T148	术语 12784 12801	digital libraries
+T149	术语 12921 12923	MT
+T150	研究结果 12936 13100	Our study provided an alternative approach that libraries could utilize to have their metadata records translated into other languages effectively and efficiently .
+T151	术语 13022 13038	metadata records
+T152	术语 13187 13203	metadata records
+T153	术语 13181 13183	MT
+T154	引文作者 13262 13266	Chen
+T155	引文时间 13276 13280	2012
+T156	研究结果 13288 13439	online MT systems could produce non‐native yet sufficiently good translations that might help information users in many ways overcome language barriers
+T157	术语 13295 13297	MT
+T158	术语 13484 13486	MT
+T159	引文作者 13522 13526	Chen
+T160	引文时间 13536 13540	2012
+T161	术语 13676 13678	MT
+T162	研究结果 13603 13856	we conducted evaluation on different elements and found that some online MT systems , such as Google Translate and Bing Translator , produced translations with high levels of fluency and adequacy for certain metadata elements such as subject and creator
+T163	术语 14019 14036	digital libraries
+T164	术语 14062 14066	MLIA
+T165	术语 14111 14113	MT
+T166	研究结果 14154 14241	Our results indicated that Spanish translations scored higher than Chinese translations
+T167	术语 14264 14266	MT
+T168	术语 14470 14484	named entities
+T169	术语 14688 14690	MT
+T170	研究结果 14704 14789	Among the three MEMT approaches , MEMT1 did not prove as effective as MEMT2 and MEMT3
+T171	术语 14720 14724	MEMT
+T172	术语 14738 14743	MEMT1
+T173	术语 14774 14779	MEMT2
+T174	术语 14784 14789	MEMT3
+T175	引文的结果 14794 14985	Adding manually generated parallel data in MEMT2 proved effective , which is consistent with the MT literature that in‐domain bilingual corpora are often considered requisite for effective MT
+T176	术语 14837 14842	MEMT2
+T177	术语 14891 14893	MT
+T178	术语 14983 14985	MT
+T179	引文作者 14988 15003	Ananthakrishnan
+T180	引文作者 15006 15012	Prasad
+T181	引文作者 15015 15023	Stallard
+T182	引文作者 15028 15037	Natarajan
+T183	引文时间 15040 15044	2013
+T184	引文作者 15047 15053	Chelba
+T185	引文作者 15056 15061	Acero
+T186	引文时间 15064 15068	2006
+T187	研究结果 15234 15331	This indicates that MT effectiveness needs to be tested on an individual basis for language pairs
+T188	术语 15254 15256	MT
+T189	术语 15091 15109	monolingual corpus
+T190	术语 15360 15364	MEMT
+T191	术语 15710 15712	MT
+T192	引文作者 15723 15728	Allen
+T193	引文时间 15731 15735	2003
+T194	引文的结果 15607 15720	The postediting translation method , which generates human translation by allowing translators to edit MT results
+T195	术语 15783 15785	MT
+T196	研究展望 15803 15916	Our future work will include the creation of a larger multilingual parallel data set using a postediting approach
+T197	术语 16022 16024	MT
+T198	术语 16319 16321	MT
+T199	术语 16820 16824	MEMT
+T200	术语 16900 16902	MT
+T202	术语 17073 17075	MT
+T203	术语 17092 17108	metadata records
+T201	术语 17139 17154	digital library
+T204	研究结果 17283 17475	we found that MT strategies combining translation outputs from multiple low‐cost MT systems with a small , linguistically‐appropriate corpus could significantly improve translation performance
+T205	术语 17297 17299	MT
+T206	术语 17229 17233	MLIA
+T208	术语 17561 17565	MLIA
+T207	研究展望 17480 17589	The ultimate goal of our research will be to investigate effective and efficient MLIA for digital collections
+T209	研究结果 16996 17265	It provided evidence and useful information about the performance of current MT technologies on metadata records , which is much needed by the digital library community in order to design and implement value‐added services , such as MLIA , for their digital collections
+R2	has_cited_time Arg1:T5 Arg2:T4	
+R1	results Arg1:T4 Arg2:T2	
+R3	has_cited_time Arg1:T8 Arg2:T7	
+R4	has_cited_time Arg1:T21 Arg2:T20	
+R5	results Arg1:T20 Arg2:T19	
+R6	results Arg1:T85 Arg2:T84	
+R7	coauthor Arg1:T85 Arg2:T86	
+R8	coauthor Arg1:T86 Arg2:T87	
+R9	has_cited_time Arg1:T88 Arg2:T87	
+R10	has_cited_time Arg1:T90 Arg2:T89	
+R11	coauthor Arg1:T89 Arg2:T85	
+R12	results Arg1:T107 Arg2:T106	
+R13	has_cited_time Arg1:T108 Arg2:T107	
+R14	results Arg1:T118 Arg2:T117	
+R15	has_cited_time Arg1:T119 Arg2:T118	
+R16	produces Arg1:T137 Arg2:T136	
+R17	coauthor Arg1:T137 Arg2:T138	
+R18	has_cited_time Arg1:T139 Arg2:T138	
+R19	has_cited_time Arg1:T141 Arg2:T140	
+R20	field_similar_as Arg1:T140 Arg2:T137	
+R21	has_cited_time Arg1:T155 Arg2:T154	
+R22	has_cited_time Arg1:T160 Arg2:T159	
+R23	results Arg1:T179 Arg2:T175	
+R24	coauthor Arg1:T179 Arg2:T180	
+R25	coauthor Arg1:T180 Arg2:T181	
+R26	coauthor Arg1:T181 Arg2:T182	
+R27	has_cited_time Arg1:T183 Arg2:T182	
+R28	coauthor Arg1:T184 Arg2:T185	
+R29	has_cited_time Arg1:T186 Arg2:T185	
+R30	field_similar_as Arg1:T184 Arg2:T179	
+R31	results Arg1:T192 Arg2:T194	
+R32	has_cited_time Arg1:T193 Arg2:T192	

@@ -1,0 +1,130 @@
+Distance Education ( DE ) has usually been defined as education using one or more technologies to deliver instruction to students separated from instructors and other students who do not need to be present or accessible simultaneously ( Caruth & Caruth , 2013 ) . 
+To diminish the isolation of self‐paced learning and promote a learning community in a collaborative environment , students are encouraged to learn together while retaining individual control over their time , space , presence , activity , identity , and relationship ( Minocha , 2009 ) . 
+In collaborative learning , knowledge is not transmitted to students but emerges from active dialog and group work among participants who seek to understand and apply concepts and techniques . 
+In this context , the teacher is , therefore , an agent who facilitates the construction of knowledge through various means . 
+Collaborative learning techniques stimulate the creation of support networks for students and promote deeper learning than more conventional approaches to teaching ( Camarero , Rodríguez , & San José , 2014 ; Lay & Balakrishnan , 2017 ) . 
+The use of a collaboration strategy is highly recommended to minimize disadvantages inherent in distance learning ( Anaya & Boticario , 2011 ) . 
+Because the collaborative approach seeks to create enriching learning processes through dialog , debate , and even confrontation and argument , some e‐learning tools are able to facilitate these activities enormously . 
+Among such tools , online discussion forums ( ODFs ) are one of the most widely used asynchronous communication tools in online courses ( Durairaj & Umar , 2015a ) that can be used to complement learning and teaching . 
+Forums constitute a virtual learning environment in which students asynchronously post their responses and opinions concerning a topic , based where necessary on links , materials , and reading , thus enabling students to learn from one another ( Camarero et al. , 2014 ) . 
+ODFs can be used in several ways . 
+A traditional approach for creating interaction in ODFs is to use questions that require students to critically reflect on each other 's responses . 
+These forums can be mandatory or optional . 
+Students interact through posting replies to each other 's messages . 
+ODFs can also be used for assignments—the teacher posts an initial question and students are required to post an answer to that initial question as well as reply to another student 's posting ( Strang , 2015 ) . 
+Tutors can also participate in these forums if he or she is in charge of analyzing the collaboration process regularly and frequently , especially if the course involves over 100 students ( Anaya & Boticario , 2011 ) . 
+The wide application of online and asynchronous discussions as a learning tool makes understanding and characterizing learning in these discussions essential , but the rapid evolution and expansion of this medium has made it difficult for education research methodologies to keep pace and provide tools for developing this understanding ( Weltzer‐ward , 2011 ) . 
+Besides , nowadays students use other popular communication tools such as Skype and social networking communities such as Facebook ( Minocha , 2009 ) or WhatsApp ( Lay & Balakrishnan , 2017 ) . 
+Durairaj and Umar ( 2015b ) state that it is important to understand the level of interaction and students ' engagement in an ODF , which can be analyzed using Social Network Analysis ( SNA ) ( Wasserman & Faust , 1994 ) . 
+SNA has become one of the most popular interdisciplinary analysis techniques ( Ye , Li , & Law , 2011 ) . 
+When participants interact in ODFs , they create a social network , in which nodes are these participants and a connection exists between them if they have replied to a post from another participant in the forum . 
+In this way , participants who present active behavior in forums might be considered to be more central or well‐positioned in this network . 
+SNA has been used in DE research in various ways . 
+da Silva et al . 
+( 2014 ) used SNA to assess the participation of members of monitors of telecentres in a digital inclusion context . 
+Similar uses of SNA could be observed in the studies of Dorner ( 2012 ) and Sharma and Tietjen ( 2016 ) . 
+The former identified patterns of relationships among participants in a learning network and quantified interaction patterns , whereas the latter examined and mapped interactions among participants in two sections of a specific course . 
+Cowan and Menchaca ( 2014 ) used SNA to assess communities of practice . 
+Zawacki‐Richter and Von Prummer ( 2010 ) performed an analysis of the impact of gender and collaboration patterns among researchers in research methods , topics , and productivity . 
+Zawacki‐Richter and Anderson ( 2011 ) mapped the structure of DE journals using cross‐citation data to investigate the interactions and information flow among high‐ranked journals . 
+Kinshuk , Sampson , and Chen ( 2013 ) analyzed the research type , topics , and methods , international collaborations , participant levels , and frequently appearing keywords in the top‐20 highly cited articles in the Educational Technology and Society journal in the period between 2003 and 2010 . 
+Gomes and Barbosa ( 2018 ) characterized the research community of DE with respect to coauthorship considering articles published in 11 relevant DE journals . 
+The DE community has been characterized as under development , sparse , and poorly connected . 
+Influential authors and the topological properties of the networks were also identified . 
+Although asynchronous online discussions can afford certain benefits , such benefits can only be achieved if students are willing to participate in the discussions in the first place ( Hew & Cheung , 2008 ) . 
+Stimulating students is a challenge many institutions currently face . 
+Therefore , the objective of this study was to analyze the social interaction among participants in ODFs to describe this social network and identify who the most central participants are . 
+Centrality in a social network is a concept that illustrates the most important and prominent actors in the network . 
+Actors with high centrality possess a strategic location within the network ( Giannakis , 2012 ) . 
+Actors who are the most prominent in the community are often located in strategic locations that may allow them to communicate directly and be close to many other actors and to serve as intermediary nodes in the interactions of many other pairs of actors ( Barbosa , Ladeira , & de la Calle Vicente , 2017 ) . 
+To achieve this objective , SNA is used . 
+Data were collected from ODF logs of the majors in Business Administration and Accounting in a Brazilian private university . 
+More specifically , this work is interested in answering the following research questions ( RQs ) : RQ1 : What are the macro and micro topological properties of the social network formed by participants in online discussion forums ? 
+RQ2 : Who are the most influential participants in a course 's online discussion forums in terms of active participation ? 
+RQ3 : Are these topological properties and interaction patterns different in distinct courses ? 
+RQ4 : What are the types of the online discussions with more interactions ? 
+RQ5 : How has interaction among participants evolved in the last years ? 
+This article contributes to scholars because it applies an important social analysis technique in a relevant research stream . 
+It also contributes to practitioners and educational institutions because the most central participants can be used as hubs to publish information and convey ideas and behaviors in the network . 
+It shows that SNA is a technique suitable to derive useful information on interactions in ODFs and aid conceiving new guidelines and actions to better manage virtual courses . 
+Besides , course administrators can benefit from a discussion on how students interact with each other and how to stimulate them to do so . 
+The remaining sections of this article are organized as follows . 
+The section Participation and Interaction in Online Discussion Forums provides the theoretical background of this work , focusing more specifically on the use of ODFs to promote interaction . 
+Research Methodology describes the research methodology used and the Results and Discussion presents the results found by our analysis . 
+Finally , the section Conclusion and Future Work finishes the article presenting our conclusions , the limitations to this study , and suggestions for further studies . 
+ODFs are usually organized by threads . 
+A discussion thread is a hierarchically organized collection of messages in which all messages , except the one that started the discussion , are written as replies to earlier messages ( Hew & Cheung , 2008 ) . 
+ODFs tend to be accessible , simple to use , compatible with teaching and learning practices , exist within virtual learning environments , allow discussions to extend beyond the classroom environment , and allow students to freely participate in discussions , offer suggestions , and give their opinions . 
+Students can ask questions about concepts , give examples of how they encounter class material in their everyday lives , or discuss particularly difficult topics to gain greater understanding ( Salter & Conneely , 2015 ) . 
+In addition , ODFs give both learners and teachers the opportunity to reflect before posting a response or a message by providing a nonintimidating environment where learners feel able to give opinions , offer suggestions , and ask questions ( Leflay & Groves , 2013 ) . 
+ODFs can attract students ' attention ; in some courses students spend as much or more time on using the discussion forums as they do viewing lectures or doing homework , which suggests that discussing with others is particularly important ( Gillani & Eynon , 2014 ) . 
+In an ODF , a structure can be provided to students to respond to by posting starter questions designed to engage students and guide the discussion . 
+On the other hand , the instructor can choose to provide less structure by not posting any questions , which requires students to create their own discussion ( Salter & Conneely , 2015 ) . 
+The instructor 's presence can heavily influence the types of interactions observed during group work , particularly during the earlier stages , due to its supportive , facilitator role , guiding the groups toward the patterns of work identified as more productive . 
+Truly , the instructor 's presence is especially important in groups with work patterns that may indicate difficulties hindering their development of a successful knowledge convergence process ( Oliveira , Tinoca , & Pereira , 2011 ) . 
+Other instructor facilitator roles involve helping students overcome technical difficulties or concerns on how to access the online discussions and setting explicit expectations for student participation in them ( Hew & Cheung , 2008 ) . 
+Interaction with other students and the instructor is one powerful way to provide learning support to students . 
+Interaction is also a key element of quality of online learning . 
+ODFs are valued by instructors as an important instrument for understanding and intervening in learning activities ( Wise , Cui , Jin , & Vytasek , 2017 ) . 
+Instructor facilitators are advised to keep the online discussions on track because they can lose their original focus and deviate for a long period of time as compared with face‐to‐face discussions . 
+Some of the ways to keep the discussions on track include designing good questions , providing guidelines for students to use when preparing their responses , rewording the question when discussions go off topic , and by providing discussion summaries . 
+Other researchers suggest that an instructor facilitator should play the role of an encourager ( Hew & Cheung , 2008 ) . 
+Participants in ODFs form a virtual social community that provides them with the opportunity to take ownership over the content and direction of their learning ; to be responsible for managing their learning and cooperate ; and to “ focus on their own learning and development from a critical , reflective perspective , combined with an understanding of relevant academic ideas and concepts ” ( Oliveira et al. , 2011 , p. 1 ) . 
+In such a community , the connectivity among students embraces social activity , including the conversational practices of online interaction and the learning of argumentation and discourse community norms . 
+It goes beyond the simple interaction , including interconnected ideas , actors , and authors ( Haythornthwaite , Andrews , Fransman , & Meyers , 2007 ) . 
+By participating in collaborative activities in a community , students acquire individual knowledge and create new knowledge that is usable for the community at large . 
+These outcomes are evident through the engagement in the codevelopment of artifacts and practices . 
+Participation is an important factor in achieving a desirable outcome in learning . 
+Much research has been conducted to show the positive influence of students ' participation on their e‐learning experience . 
+Participation improves the quality of discussions and , when measured by interaction , has been shown to have a positive relationship with perceived learning achievement , grades , and students ' attitude , depending on the manner and degree of interaction ( Kim , 2013 ) . 
+The relationship between the use of ODFs and academic performance has been studied previously and some have suggested that forums could also increase student engagement ( Salter & Conneely , 2015 ) . 
+The collaborative learning that happens through interactions in ODFs and the learning community that is formed by its participants present characteristics in common with Communities of Practice ( CoP ) . 
+The concept of a CoP was introduced by Lave and Wenger ( 1991 ) as part of a discussion of how informal learning takes place in organizations . 
+As learners participate in such communities , they develop knowledge and skills ( Rosenbaum & Shachaf , 2010 ) . 
+Although there is little agreement on the definition of CoPs ( Dessne & Byström , 2015 ) , they can be understood as groups of individuals who share a common profession or trade and engage in collaboration to achieve a shared set of objectives . 
+The CoP model has been promoted for its potential to bring together diverse groups of people , inspire cross‐disciplinary learning , and to enable changes in an institution . 
+The use of the CoP model has extended across classroom teaching , research groups , organizational change initiatives , and professional learning ( Pedersen , 2016 ) . 
+The concept of CoP in recent years has been broadly interpreted , adapted , and applied to better understand how people learn with each other online ( Gillani & Eynon , 2014 ) . 
+CoPs are informal and self‐organized networks of peers with diverse skills and experience in an area of practice or a profession . 
+Members of these informal networks are bound by a desire to share and develop knowledge together ( Bardon & Borzillo , 2016 ) . 
+The term CoP suggests that knowledge construction is relational and dynamic . 
+In a CoP , there is a close relationship between the people and the context of their activities . 
+The learners also may become more involved with and engaged in social activities , and this contributes to the evolution and the form of membership in the community . 
+The knowledge sharing theme reflected in CoPs has become increasingly popular among its practitioners ( Cheng & Lee , 2014 ) . 
+To develop student learning and gain real value from group work , the process of belonging to a team ( as opposed to a random group ) creating boundaries and aligning with organizational goals become significant ( Fearon , McLaughlin , & Eng , 2012 ) . 
+Wenger ( 2000 ) also advocated that as a community works more closely together , it gets engaged in shared activities and develops a greater chance of achieving a joint purpose . 
+CoPs are also self‐initiating and based on voluntary membership , so they emerge through the participation of people instead of being controlled by others . 
+As identities develop , their perception may influence potential engagement in a CoP ( Dessne & Byström , 2015 ) . 
+As so , knowing who the most active and central participants are in this community may influence how others participate and engage themselves in this community . 
+These central participants are identified in this study by using SNA , whose use is detailed in the next section . 
+This investigation is both exploratory and descriptive . 
+A case study ( Yin , 2017 ) strategy was used to investigate the studied phenomena . 
+It is considered a suitable research approach when exploring emerging complex phenomena , such as the ones in this study , in order to induce theories . 
+The case study was carried out in a Brazilian private university , more specifically in the majors of Business Administration and Accounting , which are offered completely online . 
+The university has around 45,000 students in undergraduate majors and around 15,000 students in online undergraduate majors and postgraduate courses . 
+The study employs SNA to obtain insights into the structural attributes of interaction among participants in ODFs . 
+The research methodology used in this study was based on De Stefano , Giordano , and Vitale ( 2011 ) , who define the following stages for research in SNA : data collection , setting network boundaries , definition of the interaction matrix , and network data analysis and interpretation of results . 
+These stages are described as follows . 
+The goal of this study was to analyze and characterize interactions in ODFs . 
+To do so , a network of interactions among participants needs to be constructed . 
+In this network , vertices are participants and a relationship between them exists if they have participated in the same ODF . 
+To identify the participants that form the ODF community , Moodle logs were extracted and analyzed . 
+A log was generated for each course of the majors in Accounting and Business Administration in different semesters . 
+The logs were generated with no selected filters , that is , they contained each and every interaction Moodle users had within the environment . 
+The lines that represent actions that concern the goals of this research are the ones with the following format : The user with id  created the post with id  in the discussion with id  in the forum with course module id  . 
+The user with id  posted content in the forum post with id  in the discussion  located in the forum with course module id  ; To identify and extract the information corresponding to interactions among participants in ODFs , a computer program was constructed . 
+The program reads each log twice . 
+At first , it captures each user_id registered in the log to identify every user that is registered in that course because the interaction network must contain every registered user , even those who have never posted any content in ODFs . 
+In the second processing round , the program captures only the lines that represent interactions in ODFs as previously shown . 
+The processing algorithm is summarized in Table 1 . 
+FIRST PROCESSING ‐ Read the log to obtain all unique user ids ; ‐ Create a list with all user ids ( its size is equal to the number of unique user ids ) ; ‐ Create a square matrix with dimensions ( number of user ids X number of users ids ) SECOND PROCESSING ‐ For each line in the log ; ‐ Check if the line corresponds to a forum interaction ( “ has created the post ” OR “ has posted content in the forum post ” ) ‐ If so , obtain the user id and discussion id ; ‐ Associate the user id with the discussion id ; ‐ At the end of the processing , all discussions will be associated with every user who participated in them USER INTERACTION MATRIX GENERATION ‐ Construct a square matrix with dimensions equal to the number of unique user ids . 
+The head of each row and column contains the user ids ; ‐ For each discussion identified previously , increment the weight of the relation of the users involved , that is , for each user participating in the discussion , a relationship with each and every user in the discussion is established At first , all log files of the courses of the second semester of 2016 in the Accounting and Business Administration majors were analyzed . 
+Table 2 summarizes their main characteristics regarding ODFs . 
+First of all , it is possible to observe that only near half of the students created a post in a discussion in both majors ( 51.84 % for Accounting and 46.57 % for Business Administration ) . 
+In general , a discussion does not have many posts , only 2.47 for the Accounting major and 2.60 for Business Administration . 
+These first results show that students could be more stimulated to participate in discussions and that , in general , a discussion proposal is presented but not many students decide to engage in it . 
+Different interaction networks were assembled to answer the research questions . 
+For every network , a square adjacency matrix representation was used in which participants ' names were both columns and rows and the intersection between these columns and rows was filled in with the number of interactions among participants involved . 
+For research questions RQ2 and RQ4 , one network , comprising all interactions made in the second semester of 2016 of all courses in the Accounting and Business Administration majors , was formed . 
+To answer RQ1 , RQ3 , and RQ5 and to study the evolution of the interactions in ODFs , three networks were formed , each comprising the second semester of the last 3 years : ( 2014/02 ) , ( 2015/02 ) , and ( 2016/02 ) . 
+The second semesters of each year were chosen because there could be variations in the number and profile of students in the first and second semesters that could influence the results of the study . 

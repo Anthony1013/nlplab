@@ -1,0 +1,178 @@
+T1	引文作者 125 139	de Solla Price
+T2	引文作者 144 150	Beaver
+T3	引文时间 153 157	1966
+T4	引文作者 468 475	Pravdić
+T5	引文作者 480 493	Oluić‐Vuković
+T6	引文时间 496 500	1986
+T7	引文作者 651 654	Lee
+T8	引文作者 659 666	Bozeman
+T9	引文时间 669 673	2005
+T10	引文作者 854 857	Pao
+T11	引文时间 860 864	1982
+T12	引文作者 1733 1738	Leimu
+T13	引文作者 1743 1752	Koricheva
+T14	引文时间 1755 1759	2005
+T15	引文作者 2008 2015	Thurman
+T16	引文作者 2020 2030	Birkinshaw
+T17	引文时间 2033 2037	2006
+T18	引文作者 2178 2181	Hsu
+T19	引文作者 2186 2191	Huang
+T20	引文时间 2194 2198	2010
+T21	引文作者 2889 2894	Kraut
+T22	引文时间 2907 2911	1988
+T23	引文作者 3009 3013	Ding
+T24	引文时间 3016 3020	2011
+T25	引文作者 3307 3312	Huang
+T26	引文作者 3315 3321	Zhuang
+T27	引文作者 3324 3326	Li
+T28	引文作者 3333 3338	Giles
+T29	引文时间 3341 3345	2008
+T30	引文作者 3692 3697	Smith
+T31	引文作者 3679 3687	McDowell
+T32	引文作者 3872 3880	Boschini
+T33	引文作者 3885 3892	Sjögren
+T34	引文作者 4157 4164	Sjögren
+T35	引文作者 4144 4152	Boschini
+T36	引文时间 4167 4171	2007
+T37	时间 4237 4253	during 1991–2002
+T38	引文作者 4480 4483	Sie
+T39	引文时间 4496 4500	2012
+T40	引文作者 4818 4825	Freeman
+T41	引文作者 4830 4835	Huang
+T42	引文时间 4838 4842	2014
+T43	引文作者 4886 4894	Boschini
+T44	引文作者 4899 4906	Sjögren
+T45	引文时间 4909 4913	2007
+T46	引文作者 5387 5393	Newman
+T47	引文时间 5402 5406	2004
+T48	引文作者 5634 5640	Newman
+T49	引文时间 5643 5648	2001a
+T50	引文作者 5804 5815	Franceschet
+T51	引文时间 5818 5822	2011
+T52	时间 5729 5739	since 1936
+T53	引文作者 6154 6160	Newman
+T54	引文作者 6163 6167	Park
+T55	引文时间 6170 6174	2003
+T56	引文作者 6418 6430	Aghagolzadeh
+T57	引文作者 6433 6442	Barjasteh
+T58	引文作者 6447 6452	Radha
+T59	引文时间 6455 6459	2012
+T60	引文作者 6698 6710	Aghagolzadeh
+T61	引文时间 6720 6724	2012
+T62	引文作者 7014 7020	Newman
+T63	引文时间 7023 7028	2001a
+T64	引文作者 7235 7243	Barabási
+T65	引文时间 7256 7260	2002
+T66	引文作者 7529 7534	Jeong
+T67	引文时间 7547 7551	2003
+T68	引文作者 7693 7702	Milojević
+T69	引文时间 7705 7709	2010
+T70	时间 8069 8099	in the time range of 1956–2014
+T71	引文作者 8284 8294	Costantini
+T72	引文作者 8268 8279	Franceschet
+T73	引文时间 8297 8301	2010
+T74	引文作者 8807 8811	Ding
+T75	引文时间 8814 8818	2011
+T76	引文作者 8535 8542	Solomon
+T77	引文时间 8545 8549	2009
+T78	引文作者 8667 8673	Cronin
+T79	引文时间 8676 8680	2001
+T80	引文作者 9066 9068	Yu
+T81	引文作者 9071 9075	Long
+T82	引文作者 9078 9080	Lv
+T83	引文作者 9083 9087	Shao
+T84	引文作者 9092 9094	He
+T85	引文时间 9097 9101	2014
+T86	引文作者 9907 9915	McDowell
+T87	引文作者 9918 9923	Smith
+T88	引文时间 9926 9930	1992
+T89	引文作者 11185 11189	Tang
+T90	引文作者 11192 11195	Jin
+T91	引文作者 11202 11207	Zhang
+T92	引文时间 11210 11214	2008
+T93	表 16067 16092	Table 1 shows the results
+T94	图 17567 17801	Although such an effect is not very strong , it verifies the pattern we observe in Figure 1A , wherein the larger‐sized nodes ( those authors who have produced more non‐first‐authored publications ) tend to have a few more connections
+T95	图 18958 19255	This also confirms the pattern observed in Figure 1B , in which each node stands for one scholar in the coauthorship network whereas the size reflects her/his number of single‐authored publications , collaborative ties emerge more between nodes with different sizes , than those with similar sizes
+T96	引文的结果 353 428	the more prolific one author is , the more collaboration he was involved in
+T97	引文的结果 873 943	the two most productive musicologists were also the most collaborative
+T98	研究问题 0 69	The relation between authors ' productivities and their collaboration
+T99	引文的结果 1887 2003	the influence of collaboration on the impact of the resulting work is not always positive or even minor , in general
+T100	引文的结果 2051 2168	the number of citations was significantly associated with the number of coauthors in six leading journals in medicine
+T101	引文的结果 2336 2473	predicting the citation number from the coauthor number can be more reliable than predicting the coauthor number from the citation number
+T102	引文的结果 3035 3181	productive authors in the information retrieval ( IR ) field have a tendency to coauthor with those who share similar research interests with them
+T103	标准数据集 3399 3407	CiteSeer
+T104	引文的方法 3358 3379	coauthorship networks
+T105	引文的结果 3718 3776	researchers tend to collaborate with those of the same sex
+T106	时间 3821 3837	during 1991–2002
+T107	引文时间 3895 3899	2007
+T108	引文的结果 3913 3965	females tend to collaborate with same‐gender authors
+T109	引文作者 5254 5260	Newman
+T110	引文的结果 7612 7688	the attachment rate is sublinear in the coauthorship network of neuroscience
+T111	标准数据集 8204 8220	Computer Science
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T3 Arg2:T2	
+R3	coauthor Arg1:T4 Arg2:T5	
+R4	has_cited_time Arg1:T6 Arg2:T5	
+R5	coauthor Arg1:T7 Arg2:T8	
+R6	has_cited_time Arg1:T9 Arg2:T8	
+R7	has_cited_time Arg1:T11 Arg2:T10	
+R8	coauthor Arg1:T12 Arg2:T13	
+R9	has_cited_time Arg1:T14 Arg2:T13	
+R10	coauthor Arg1:T15 Arg2:T16	
+R11	has_cited_time Arg1:T17 Arg2:T16	
+R12	coauthor Arg1:T18 Arg2:T19	
+R13	has_cited_time Arg1:T20 Arg2:T19	
+R14	has_cited_time Arg1:T24 Arg2:T23	
+R15	has_cited_time Arg1:T22 Arg2:T21	
+R16	has_cited_time Arg1:T29 Arg2:T28	
+R17	coauthor Arg1:T25 Arg2:T26	
+R18	coauthor Arg1:T26 Arg2:T27	
+R19	coauthor Arg1:T27 Arg2:T28	
+R20	coauthor Arg1:T31 Arg2:T30	
+R21	coauthor Arg1:T32 Arg2:T33	
+R22	has_cited_time Arg1:T107 Arg2:T33	
+R23	coauthor Arg1:T35 Arg2:T34	
+R24	has_cited_time Arg1:T36 Arg2:T34	
+R25	has_cited_time Arg1:T39 Arg2:T38	
+R26	coauthor Arg1:T40 Arg2:T41	
+R27	has_cited_time Arg1:T42 Arg2:T41	
+R28	coauthor Arg1:T43 Arg2:T44	
+R29	has_cited_time Arg1:T45 Arg2:T44	
+R30	has_cited_time Arg1:T47 Arg2:T46	
+R31	has_cited_time Arg1:T51 Arg2:T50	
+R32	has_cited_time Arg1:T49 Arg2:T48	
+R33	coauthor Arg1:T53 Arg2:T54	
+R34	has_cited_time Arg1:T55 Arg2:T54	
+R35	coauthor Arg1:T56 Arg2:T57	
+R36	coauthor Arg1:T58 Arg2:T57	
+R37	has_cited_time Arg1:T59 Arg2:T58	
+R38	has_cited_time Arg1:T61 Arg2:T60	
+R39	has_cited_time Arg1:T63 Arg2:T62	
+R40	has_cited_time Arg1:T65 Arg2:T64	
+R41	has_cited_time Arg1:T67 Arg2:T66	
+R42	has_cited_time Arg1:T69 Arg2:T68	
+R43	coauthor Arg1:T72 Arg2:T71	
+R44	has_cited_time Arg1:T73 Arg2:T71	
+R45	has_cited_time Arg1:T79 Arg2:T78	
+R46	has_cited_time Arg1:T77 Arg2:T76	
+R47	has_cited_time Arg1:T75 Arg2:T74	
+R48	coauthor Arg1:T80 Arg2:T81	
+R49	coauthor Arg1:T81 Arg2:T82	
+R50	coauthor Arg1:T82 Arg2:T83	
+R51	coauthor Arg1:T83 Arg2:T84	
+R52	has_cited_time Arg1:T85 Arg2:T84	
+R53	coauthor Arg1:T86 Arg2:T87	
+R54	has_cited_time Arg1:T88 Arg2:T87	
+R55	coauthor Arg1:T89 Arg2:T90	
+R56	coauthor Arg1:T90 Arg2:T91	
+R57	has_cited_time Arg1:T92 Arg2:T91	
+R58	results Arg1:T10 Arg2:T97	
+R59	results Arg1:T1 Arg2:T96	
+R60	results Arg1:T12 Arg2:T99	
+R61	results Arg1:T15 Arg2:T100	
+R62	results Arg1:T18 Arg2:T101	
+R63	results Arg1:T23 Arg2:T102	
+R64	uses Arg1:T25 Arg2:T104	
+R65	results Arg1:T31 Arg2:T105	
+R66	results Arg1:T33 Arg2:T108	
+R67	results Arg1:T66 Arg2:T110	

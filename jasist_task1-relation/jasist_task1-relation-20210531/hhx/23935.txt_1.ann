@@ -1,0 +1,353 @@
+T1	引文作者 596 601	Shrum
+T2	引文的结果 0 104	Scientific collaborations contribute not only to the breakthrough achievement unattainable by individual
+T3	引文作者 107 113	Börner
+T4	引文时间 123 127	2010
+T5	引文作者 130 135	Jones
+T6	引文作者 138 144	Wuchty
+T7	引文作者 149 153	Uzzi
+T8	引文时间 156 160	2008
+T9	引文的结果 165 222	but also to the transmission and combination of knowledge
+T10	引文作者 225 230	Adams
+T11	引文时间 233 237	2012
+T12	引文作者 358 367	Milojević
+T13	引文时间 370 374	2010
+T14	引文的结果 244 355	In the scientometric perspective , coauthorship in scientific articles , as a valid proxy of the collaborations
+T15	术语 423 444	coauthorship networks
+T16	引文作者 604 610	Genuth
+T17	引文作者 615 624	Chompalov
+T18	引文时间 627 631	2007
+T19	引文作者 634 638	Uzzi
+T20	引文作者 641 650	Mukherjee
+T21	引文作者 653 661	Stringer
+T22	引文作者 666 671	Jones
+T23	引文时间 674 678	2013
+T24	引文作者 681 687	Wuchty
+T25	引文作者 690 695	Jones
+T26	引文作者 700 704	Uzzi
+T27	引文时间 707 711	2007
+T28	引文的结果 716 829	the study of coauthorship networks has become an important topic of social science , especially of scientometrics
+T29	引文作者 832 839	Glänzel
+T30	引文作者 842 850	Schubert
+T31	引文时间 853 857	2004
+T32	引文的结果 864 947	It helps not only to understand the evolution and dynamics of scientific activities
+T33	引文作者 950 954	Mali
+T34	引文作者 957 966	Kronegger
+T35	引文作者 969 976	Doreian
+T36	引文作者 981 989	Ferligoj
+T37	引文时间 992 996	2012
+T38	引文的结果 1001 1052	but also to measure the contributions of scientists
+T39	引文作者 1055 1062	Glänzel
+T40	引文时间 1065 1069	2014
+T41	引文的结果 1074 1114	as well as to predict scientific success
+T42	引文作者 1117 1126	Bertsimas
+T43	引文作者 1129 1141	Brynjolfsson
+T44	引文作者 1144 1152	Reichman
+T45	引文作者 1157 1167	Silberholz
+T46	引文时间 1170 1174	2014
+T47	引文作者 1177 1184	Sarigöl
+T48	引文作者 1187 1195	Pfitzner
+T49	引文作者 1198 1206	Scholtes
+T50	引文作者 1209 1214	Garas
+T51	引文作者 1219 1229	Schweitzer
+T52	引文时间 1232 1236	2014
+T53	术语 1325 1345	degree assortativity
+T54	术语 1348 1363	high clustering
+T55	术语 1379 1408	power‐law degree distribution
+T56	术语 1411 1433	short average distance
+T57	引文的结果 1249 1446	The empirically observed coauthorship networks have specific common local ( degree assortativity , high clustering ) and global ( power‐law degree distribution , short average distance ) properties
+T58	引文作者 1449 1455	Newman
+T59	引文时间 1458 1462	2001
+T60	引文时间 1466 1470	2001
+T61	引文时间 1474 1478	2001
+T62	引文时间 1482 1486	2004
+T63	引文的结果 1650 1714	modeling the scale‐free property through preferential attachment
+T64	引文作者 1717 1725	Barabási
+T65	引文时间 1735 1739	2002
+T66	引文作者 1742 1748	Börner
+T67	引文作者 1751 1755	Maru
+T68	引文作者 1760 1769	Goldstone
+T69	引文时间 1772 1776	2004
+T70	引文作者 1779 1784	Moody
+T71	引文时间 1787 1791	2004
+T72	引文作者 1794 1798	Perc
+T73	引文时间 1801 1805	2010
+T74	引文作者 1808 1817	Tomassini
+T75	引文作者 1820 1825	Luthi
+T76	引文时间 1828 1832	2007
+T77	引文作者 1835 1841	Wagner
+T78	引文作者 1844 1855	Leydesdorff
+T79	引文时间 1858 1862	2005
+T80	引文的结果 1868 1888	cumulative advantage
+T81	引文作者 1891 1900	Milojević
+T82	引文时间 1903 1907	2014
+T83	引文的结果 1912 2009	modeling the degree assortativity by connecting two non‐connected nodes that have similar degrees
+T84	引文作者 2012 2021	Catanzaro
+T85	引文作者 2024 2034	Caldarelli
+T86	引文作者 2039 2049	Pietronero
+T87	引文时间 2052 2056	2004
+T88	术语 2087 2102	power‐law tails
+T89	术语 2450 2472	geometric graph theory
+T90	术语 2475 2478	RGG
+T91	引文的结果 2450 2480	geometric graph theory ( RGG )
+T92	引文作者 2483 2491	Krioukov
+T93	引文时间 2501 2505	2012
+T94	引文作者 2508 2515	Penrose
+T95	引文时间 2518 2522	2003
+T96	术语 2555 2572	citation networks
+T97	术语 2575 2585	web‐graphs
+T98	引文的结果 2588 2705	the impacts of nodes in scientific research or Internet can be modeled by attaching specific geometric zones to nodes
+T99	引文作者 2708 2711	Xie
+T100	引文作者 2714 2720	Ouyang
+T101	引文作者 2725 2727	Li
+T102	引文时间 2730 2734	2016
+T103	引文作者 2737 2740	Xie
+T104	引文作者 2743 2747	Duan
+T105	引文作者 2750 2756	Ouyang
+T106	引文作者 2761 2766	Zhang
+T107	引文时间 2769 2773	2015
+T108	引文作者 2776 2779	Xie
+T109	引文作者 2782 2788	Rogers
+T110	引文时间 2791 2795	2016
+T111	术语 2857 2878	coauthorship networks
+T112	具体模型 2831 2852	geometric graph model
+T113	引文的结果 2802 2878	The same case works with the geometric graph model for coauthorship networks
+T114	引文作者 2881 2884	Xie
+T115	引文作者 2887 2893	Ouyang
+T116	引文作者 2896 2899	Liu
+T117	引文作者 2904 2906	Li
+T118	引文时间 2909 2913	2016
+T119	术语 3070 3079	homophily
+T120	引文的结果 3035 3212	Besides the academic impacts , the homophily of authors in the sense of geographical distances and research interests turns out to be another factor of generating collaborations
+T121	引文作者 3215 3222	Hoekman
+T122	引文作者 3225 3232	Frenken
+T123	引文作者 3237 3244	Tijssen
+T124	引文时间 3247 3251	2010
+T125	引文作者 3254 3260	Newman
+T126	引文时间 3263 3267	2002
+T127	具体模型 3288 3312	topological graph models
+T128	引文的结果 3274 3422	Compared with topological graph models , our previous model demonstrates an advantage of it expressing the homophily by spatial coordinates of nodes
+T129	引文作者 3425 3428	Xie
+T130	引文时间 3438 3442	2016
+T131	术语 3593 3621	growing geometric hypergraph
+T132	术语 4258 4278	degree distributions
+T133	术语 4289 4325	average local clustering coefficient
+T134	术语 4330 4357	average degree of neighbors
+T135	术语 4279 4286	P ( k )
+T136	术语 4383 4390	C ( k )
+T137	术语 4393 4400	N ( k )
+T138	术语 4534 4541	P ( k )
+T139	术语 4579 4598	generalized Poisson
+T140	术语 4605 4614	power‐law
+T141	术语 5151 5171	degree distributions
+T142	术语 5185 5199	power‐law tail
+T143	术语 5270 5285	power‐law tails
+T144	研究结果 5204 5379	Our model provides a reasonable explanation for the finding : the power‐law tails are caused by the articles with many authors as well as the leaders of large research teams .
+T145	引文作者 6069 6072	Xie
+T146	引文时间 6082 6086	2016
+T147	引文作者 6134 6143	Milojević
+T148	引文时间 6146 6150	2014
+T149	术语 6270 6292	unit intensity Poisson
+T150	术语 6344 6358	circle cluster
+T151	术语 6631 6641	lead nodes
+T152	图 6716 6822	For each lead node , its “ research team ” is formed by the nodes within its influential zone ( Figure 1 )
+T153	具体模型 6897 6912	S. Milojević 's
+T154	引文作者 6921 6930	Milojević
+T155	引文时间 6933 6937	2014
+T156	术语 7116 7126	lead nodes
+T157	图 8355 8443	Empirical distributions of paper‐team sizes have a hook head and a fat tail ( Figure 2 )
+T158	术语 8648 8668	Poisson distribution
+T159	术语 8959 8991	generalized Poisson distribution
+T160	引文的结果 8907 9074	Those make the sizes of most paper teams follow the generalized Poisson distribution ( which allows the occurrence probability of an event to affect by previous events
+T161	引文作者 9077 9083	Consul
+T162	引文作者 9086 9090	Jain
+T163	引文时间 9093 9097	1973
+T164	术语 9299 9322	power‐law distributions
+T165	术语 9593 9608	goodness of fit
+T166	术语 9623 9642	generalized Poisson
+T167	术语 9655 9664	power‐law
+T168	术语 9688 9707	generalized Poisson
+T169	术语 9720 9729	power‐law
+T170	标准数据集 9474 9478	PNAS
+T172	时间 9479 9488	1999–2013
+T171	标准数据集 9493 9502	DBLP‐Math
+T173	时间 9503 9512	1956–2013
+T174	具体模型 9563 9567	RMSE
+T175	标准数据集 9671 9675	PNAS
+T176	标准数据集 9766 9775	DBLP‐Math
+T177	术语 9882 9910	probability density function
+T178	术语 9913 9916	PDF
+T179	术语 9960 9963	PDF
+T180	术语 9968 9987	generalized Poisson
+T181	术语 9992 10001	power‐law
+T182	引文的结果 10725 10794	authors prefer to collaborate with other authors with similar degrees
+T183	引文作者 10797 10803	Newman
+T184	引文时间 10806 10810	2002
+T185	术语 11563 11579	Connection rules
+T186	术语 12916 12932	Connection rules
+T187	引文的结果 13691 13797	a few paper teams are unions of some subsets from different research teams , even from different countries
+T188	引文作者 13800 13807	Glänzel
+T189	引文时间 13810 13814	2011
+T190	时间 14040 14049	1999–2013
+T191	标准数据集 14035 14039	PNAS
+T192	引文作者 14061 14064	Xie
+T193	引文作者 14067 14073	Ouyang
+T194	引文作者 14076 14081	Zhang
+T195	引文作者 14084 14086	Yi
+T196	引文作者 14091 14095	Kong
+T197	引文时间 14098 14102	2015
+T198	引文的结果 13968 14058	the proportion of the articles marked as interdisciplinary ones in PNAS 1999–2013 is 5.7 %
+T199	术语 14433 14451	empirical features
+T200	引文的结果 14388 14610	The improvements in the ability to reproduce empirical features ( which will be shown in following sections ) are achieved by the new features of the model , rather than by better selection parameters of our previous model
+T201	引文作者 14613 14616	Xie
+T202	引文时间 14626 14630	2016
+T203	术语 14673 14683	hyperedges
+T204	术语 14939 14949	hyperedges
+T205	术语 15072 15082	hyperedges
+T206	术语 15318 15327	hyperedge
+T207	图 15247 15501	As shown in Figure 1 , when the new node a 6 at time t = 3 generates a hyperedge ( which contains three nodes ) , it should “ coauthor ” with its lead node a 1 and one nearest existing nodes in the zone of a 1 , namely a 2 , but not the nearest one a 5 .
+T208	具体模型 15548 15563	Barabási‐Albert
+T209	具体模型 15566 15568	BA
+T210	引文作者 15579 15587	Barabási
+T211	引文时间 15598 15602	2002
+T212	具体模型 15626 15628	BA
+T213	数学公式 16320 16329	Formula 1
+T214	术语 17372 17381	power‐law
+T215	术语 17641 17677	average local clustering coefficient
+T216	术语 17682 17705	average neighbor degree
+T217	时间 18082 18091	1956–2013
+T218	标准数据集 18123 18127	DBLP
+T219	标准数据集 18264 18311	Proceedings of the National Academy of Sciences
+T220	引文作者 18752 18755	Kim
+T221	引文作者 18758 18765	Diesner
+T222	引文时间 18768 18772	2016
+T223	时间 18720 18724	2012
+T224	引文的研究问题 18669 18749	The coauthorship network from the articles in PNAS 2012 is analyzed in Reference
+T225	标准数据集 18715 18719	PNAS
+T226	时间 18345 18354	1999–2013
+T227	术语 18878 18890	ground truth
+T228	标准数据集 19050 19058	Sub‐PNAS
+T229	标准数据集 19077 19081	PNAS
+T230	术语 19189 19208	generalized Poisson
+T231	术语 19237 19246	hyperedge
+T232	术语 19311 19314	PDF
+T233	表 19257 19384	An algorithm is provided to detect boundary points of PDFs by using specific statistical technologies synthetically ( Table 2 )
+T234	术语 19804 19824	Poisson distribution
+R1	results Arg1:T3 Arg2:T2	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	coauthor Arg1:T5 Arg2:T6	
+R4	coauthor Arg1:T6 Arg2:T7	
+R5	has_cited_time Arg1:T8 Arg2:T7	
+R6	field_similar_as Arg1:T5 Arg2:T3	
+R7	results Arg1:T10 Arg2:T9	
+R8	has_cited_time Arg1:T11 Arg2:T10	
+R9	results Arg1:T12 Arg2:T14	
+R10	has_cited_time Arg1:T13 Arg2:T12	
+R11	coauthor Arg1:T1 Arg2:T16	
+R12	coauthor Arg1:T16 Arg2:T17	
+R13	has_cited_time Arg1:T18 Arg2:T17	
+R14	coauthor Arg1:T19 Arg2:T20	
+R15	coauthor Arg1:T20 Arg2:T21	
+R16	coauthor Arg1:T21 Arg2:T22	
+R17	has_cited_time Arg1:T23 Arg2:T22	
+R18	coauthor Arg1:T24 Arg2:T25	
+R19	coauthor Arg1:T25 Arg2:T26	
+R20	has_cited_time Arg1:T27 Arg2:T26	
+R21	results Arg1:T29 Arg2:T28	
+R22	coauthor Arg1:T29 Arg2:T30	
+R23	has_cited_time Arg1:T31 Arg2:T30	
+R24	field_similar_as Arg1:T24 Arg2:T19	
+R25	field_similar_as Arg1:T19 Arg2:T1	
+R26	results Arg1:T33 Arg2:T32	
+R27	coauthor Arg1:T33 Arg2:T34	
+R28	coauthor Arg1:T34 Arg2:T35	
+R29	coauthor Arg1:T35 Arg2:T36	
+R30	has_cited_time Arg1:T37 Arg2:T36	
+R31	results Arg1:T39 Arg2:T38	
+R32	has_cited_time Arg1:T40 Arg2:T39	
+R33	results Arg1:T42 Arg2:T41	
+R34	coauthor Arg1:T42 Arg2:T43	
+R35	coauthor Arg1:T43 Arg2:T44	
+R36	coauthor Arg1:T44 Arg2:T45	
+R37	has_cited_time Arg1:T46 Arg2:T45	
+R38	coauthor Arg1:T47 Arg2:T48	
+R39	coauthor Arg1:T48 Arg2:T49	
+R40	coauthor Arg1:T49 Arg2:T50	
+R41	coauthor Arg1:T50 Arg2:T51	
+R42	has_cited_time Arg1:T52 Arg2:T51	
+R43	field_similar_as Arg1:T47 Arg2:T42	
+R44	results Arg1:T58 Arg2:T57	
+R45	has_cited_time Arg1:T59 Arg2:T58	
+R46	has_cited_time Arg1:T62 Arg2:T58	
+R47	has_cited_time Arg1:T60 Arg2:T58	
+R48	has_cited_time Arg1:T61 Arg2:T58	
+R49	results Arg1:T64 Arg2:T63	
+R50	has_cited_time Arg1:T65 Arg2:T64	
+R51	coauthor Arg1:T66 Arg2:T67	
+R52	coauthor Arg1:T67 Arg2:T68	
+R53	has_cited_time Arg1:T69 Arg2:T68	
+R54	has_cited_time Arg1:T71 Arg2:T70	
+R55	has_cited_time Arg1:T73 Arg2:T72	
+R56	coauthor Arg1:T74 Arg2:T75	
+R57	has_cited_time Arg1:T76 Arg2:T75	
+R58	coauthor Arg1:T77 Arg2:T78	
+R59	has_cited_time Arg1:T79 Arg2:T78	
+R60	results Arg1:T81 Arg2:T80	
+R61	has_cited_time Arg1:T82 Arg2:T81	
+R62	field_similar_as Arg1:T77 Arg2:T74	
+R63	field_similar_as Arg1:T74 Arg2:T72	
+R64	field_similar_as Arg1:T72 Arg2:T70	
+R65	coauthor Arg1:T84 Arg2:T85	
+R66	coauthor Arg1:T85 Arg2:T86	
+R67	has_cited_time Arg1:T87 Arg2:T86	
+R68	results Arg1:T84 Arg2:T83	
+R69	results Arg1:T92 Arg2:T91	
+R70	has_cited_time Arg1:T93 Arg2:T92	
+R71	has_cited_time Arg1:T95 Arg2:T94	
+R72	field_similar_as Arg1:T94 Arg2:T92	
+R73	results Arg1:T99 Arg2:T98	
+R74	coauthor Arg1:T99 Arg2:T100	
+R75	coauthor Arg1:T100 Arg2:T101	
+R76	has_cited_time Arg1:T102 Arg2:T101	
+R77	coauthor Arg1:T103 Arg2:T104	
+R78	coauthor Arg1:T104 Arg2:T105	
+R79	coauthor Arg1:T105 Arg2:T106	
+R80	has_cited_time Arg1:T107 Arg2:T106	
+R81	coauthor Arg1:T108 Arg2:T109	
+R82	has_cited_time Arg1:T110 Arg2:T109	
+R83	field_similar_as Arg1:T108 Arg2:T103	
+R84	field_similar_as Arg1:T103 Arg2:T99	
+R85	coauthor Arg1:T114 Arg2:T115	
+R86	coauthor Arg1:T115 Arg2:T116	
+R87	coauthor Arg1:T116 Arg2:T117	
+R88	has_cited_time Arg1:T118 Arg2:T114	
+R89	results Arg1:T114 Arg2:T113	
+R90	results Arg1:T121 Arg2:T120	
+R91	coauthor Arg1:T121 Arg2:T122	
+R92	coauthor Arg1:T122 Arg2:T123	
+R93	has_cited_time Arg1:T124 Arg2:T123	
+R94	has_cited_time Arg1:T126 Arg2:T125	
+R95	field_similar_as Arg1:T125 Arg2:T121	
+R96	results Arg1:T129 Arg2:T128	
+R97	has_cited_time Arg1:T130 Arg2:T129	
+R98	has_cited_time Arg1:T146 Arg2:T145	
+R99	has_cited_time Arg1:T148 Arg2:T147	
+R100	has_cited_time Arg1:T155 Arg2:T154	
+R101	coauthor Arg1:T161 Arg2:T162	
+R102	has_cited_time Arg1:T163 Arg2:T162	
+R103	results Arg1:T161 Arg2:T160	
+R104	has_cited_time Arg1:T184 Arg2:T183	
+R105	results Arg1:T183 Arg2:T182	
+R106	has_cited_time Arg1:T189 Arg2:T188	
+R107	results Arg1:T188 Arg2:T187	
+R108	results Arg1:T192 Arg2:T198	
+R109	coauthor Arg1:T192 Arg2:T193	
+R110	coauthor Arg1:T193 Arg2:T194	
+R111	coauthor Arg1:T194 Arg2:T195	
+R112	coauthor Arg1:T195 Arg2:T196	
+R113	has_cited_time Arg1:T197 Arg2:T196	
+R114	results Arg1:T201 Arg2:T200	
+R115	has_cited_time Arg1:T202 Arg2:T201	
+R116	has_cited_time Arg1:T211 Arg2:T210	
+R117	produces Arg1:T220 Arg2:T224	
+R118	coauthor Arg1:T220 Arg2:T221	
+R119	has_cited_time Arg1:T222 Arg2:T221	

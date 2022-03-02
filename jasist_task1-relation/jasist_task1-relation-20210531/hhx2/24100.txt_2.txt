@@ -1,0 +1,130 @@
+They failed to find any statistically significant citation difference among the three types of papers ( the best article winner papers , nominated papers , and nonawarded papers ) . 
+However , Wainer et al . 
+( 2011 ) revealed a different result . 
+In their study , based on multiple‐year records of 29 computer science conferences , the authors demonstrated that the best article winners earned significantly more citations than nonawarded papers . 
+Moreover , among the sampled papers , half of the top 10 % and more than 60 % of the top 20 % most cited papers were recipients of the best article awards . 
+In our study , based on multiple‐year records of six conferences , we will re‐examine whether the records of the best article awards impact the future citations of the conference papers or not . 
+Finally , we consider two signs of early community attention that are currently available in online social systems . 
+The first of these signs is the paper‐centered activity accumulated by increasingly more popular conference support systems . 
+These systems are extensively used by conference attendees around the time of the conferences and include bookmarking or scheduling functionality that could record which papers were the most interesting for the attendees . 
+The second sign is paper bookmarking activity in more traditional reference support systems ( such as Citeulike or Mendeley ) . 
+The examination of the impact of early community attention on paper citations is the most novel aspect of the paper , especially with respect to conference support systems , which have not yet been examined . 
+In addition , the presence of this social source enabled us to compare the predictive power of general readers ’ attention with the expert judgment ( represented as best article awards ) on the future citations of the same conference papers . 
+This is another important contribution of our article to the existing literature . 
+In this study , the major source of information for readers ’ early attention was the Conference Navigator 3 system11 http : //halley.exp.sis.pitt.edu/cn3/ ( CN3 for short ) . 
+CN3 is a conference scheduling and navigation support system for conference attendees , with the features of social bookmarking and tagging , social linking , and personalized recommendations ( Brusilovsky , Oh , López , Parra , & Jeng , 2017 ) . 
+From 2008 to 2017 , the system officially served as a primary or supplementary conference support system for 15 conferences specializing in a variety of topics ( for instance , Internet technology , user modeling , personalization , library and information sciences ) . 
+The availability of CN3 data provided us with a unique opportunity to examine the earliest signs of community attention to conference papers , within days of making these papers available online . 
+The use of CN3 as the primary source of early attention defined the set of target papers used in our study . 
+We selected papers published at six conference series , where the CN3 system had been used as the conference support system ( refer to Table 1 ) . 
+In each of these series , we selected papers published up to 2013 . 
+The choice of 2013 as the upper limit was defined by the need for the target papers to collect sufficient citations . 
+According to Lisée et al . 
+( 2008 ) , the cited half‐life of computer science conference papers is 4.1 years . 
+In other words , it usually takes 4.1 years for computer science conference papers to earn 50 % of the number of lifetime citations that they will ever receive . 
+We concluded that we needed at least 3 years for our target papers to collect citations ( from 2013 until the time of data collection in March 2016 ) . 
+In total , 1,294 conference papers were sampled as our target . 
+The number of target papers for each of the six selected conferences is shown in Table 1 . 
+As an additional source of information about online readers ’ early attention , we used Citeulike , a popular social bookmarking system focused on scholarly articles . 
+We selected Citeulike , among other academic social bookmarking systems , for two main reasons . 
+First , it was one of the most broadly used systems of this kind at the time when our target set of papers was published ( 2009–2013 ) . 
+Second , it offers fine‐grained time‐stamped bookmarking records of “ who bookmarked what and when. ” In contrast , the currently more popular Mendeley system , used in some altmetrics research ( Aduku et al. , 2017 ; Zahedi et al. , 2014 ) , does not provide access to the fine‐grained bookmarking data required for our analysis . 
+Table 2 illustrates the descriptive statistics ( i.e. , number of bookmarked papers and density of bookmarking ) for the two selected sources of early attention data : CN3 and Citeulike . 
+To examine the citation rates more comprehensively , we used two sources of citation rates : Google Scholar and Scopus . 
+Despite the popularity of the WoS citation metrics as a standard of faculty promotion , tenure evaluation , and research evaluation , several studies ( Franceschet , 2010 ; Meho & Yang , 2007 ; Zahedi et al. , 2014 ) have demonstrated its biased citation coverage , making it inappropriate for our study . 
+The WoS focuses mainly on journal publications , covering ~8,700 journals , but the coverage of conference proceedings is rather small . 
+In addition , the coverage of the metrics varies , depending on the research fields ( Zahedi et al. , 2014 ) . 
+In their study , based on 25 library and information science faculty 's publications , Meho and Yang ( 2007 ) substantiated the importance of other citation metrics in the information science discipline . 
+The study results revealed that Google Scholar and Scopus covered four times and two times more conference publications than the WoS , respectively . 
+Moreover , Google Scholar and Scopus identified 50 % and 30 % more citations , respectively , than the WoS ( Meho & Yang , 2007 ) . 
+The debate about the comparative advantage of Google Scholar vs. Scopus is still open . 
+According to the results of a recent study ( Harzing & Alakangas , 2016 ) , in the engineering and science field , with which the information science discipline is closely associated , the coverage of Google Scholar is distinctly wider than that of Scopus . 
+However , Google Scholar still has some issues to resolve , such as duplicate citations , inconsistencies , and errors in author names and published journal or conference names ( Franceschet , 2010 ) . 
+Hence , we concluded that it is more reliable to consider both sources . 
+Based on the longitudinal and cross‐disciplinary comparisons , Harzing and Alakangas ( 2016 ) showed that both Scopus and Google Scholar have a sufficiently stable coverage of citations . 
+In this study , the publication times of our target conference papers ranged from 2008 to 2013 . 
+Because the time to accumulate the citation rates differs , older papers may have received more citations over time than newer papers presented at more recent conferences . 
+To eliminate and normalize the time difference , we used a citation time window of either 3 or 4 years for all of the papers . 
+Specifically , for the target papers published between 2008 and 2012 we set the time window as 4 years . 
+Whereas for the target papers published in 2013 we set the time window as 3 years , because we collected the citation rates from Google and Scopus in March of 2016 . 
+For example , for the target papers published in 2009 , we counted the citations with a 4‐year window : from 2009 to 2013 . 
+For the target papers published in 2011 , the citations with a 4‐year window from 2011 to 2015 were counted . 
+For the target papers published in 2013 , the citations with a 3‐year window , from 2013 to March 2016 , were counted . 
+The primary sources from which to extract the various factors of our target publications were CN3 , ACM , and Scopus . 
+We used the diverse metadata of the target papers , which are stored in the CN3 system : titles , published conference names , conference programs , venues , dates , the list of attendees , and paper types ( for instance , full research paper , short paper , workshop paper ) . 
+The list of authors was collected from the ACM portal . 
+Most of our target papers were represented and indexed in Scopus . 
+Hence , the remaining information about every author from our target publications ( i.e. , publishing tenure , the number of publications , and the number of citations ) was extracted from the Scopus system . 
+The list of the best article awardees for each conference was manually collected by visiting the corresponding conference website or the prefaces of the proceedings . 
+We found 30 best article awards for our target conferences . 
+According to our research purpose , to assess the influence of the various factors on the citation rates of the conference papers , we identified the citation rates as the dependent variables of our study and the factors listed previously as the independent variables . 
+We then examined the correlations between the two dependent variables ( i.e. , Google Scholar and Scopus citations ) and found that they were significantly and positively correlated with each other , as we expected . 
+However , the degree of correlation ( r = .763 , p < .001 ) is not strong enough to guarantee the synchronized changes of the two variables . 
+In other words , Google Scholar and the Scopus citations have unique citation coverage that does not overlap with the other . 
+Therefore , we need to consider both citation rates as dependent variables . 
+To examine the chronological contributions of the various factors ( independent variables ) on the future Google and Scopus citations ( dependent variables ) , a multiple sequential regression was conducted ( Keith , 2014 , pp . 
+77–107 ) . 
+Prior to conducting the analysis , among the 13 factors considered in this study the factors of numeric values were converted and normalized to Z‐scores to standardize the different ranges and the variances ( Keith , 2014 , pp . 
+541 ) . 
+All factors were then entered into a multiple sequential regression . 
+In the analysis , of great interest were the changes in the regression model by the flow of time . 
+Hence , the factors were separated into three sets by the publication cycle of conference papers : ( a ) the paper submission time , ( b ) the time of the conferences , and ( c ) several months after the conferences . 
+Each set was separated and entered into the multiple sequential regressions in the lifecycle order , as depicted in Figure 2 . 
+The first set of predictors entered into the sequential regression consisted of the factors available when the papers were submitted—number of authors ( Author ) , paper type ( Type ) , and number of pages ( Page ) . 
+It also included the factors about all of the authors ’ scholarly performance—average publishing tenure ( Tenure ) , average number of publications ( AuthorPub ) , and average citations of all authors ( AuthorCite ) . 
+In the next step , all factors related to conferences and available at the conference time were added—conference name ( Conf ) , number of papers presented at conference ( NoPapers ) , number of attendees ( Attend ) , venue of conference ( Venue ) , and the records of the best article awardees ( BPA ) . 
+The early attention factors—CN3 bookmarks ( CN3 ) and Citeulike bookmarks ( Cite ) —constituted the last set of predictors . 
+In the following subsections , we start our analyses with a test to determine the reasonable measures of early attention . 
+Next , we examine the results of the multiple sequential regressions . 
+Finally , we discuss the difference between the general readers ’ evaluations and the experts ’ evaluations of conference papers , as the explanatory factors of the future citation rates . 
+Prior to the regression analysis , we examined our measures of early attention . 
+Figure 3 shows the accumulation patterns of the bookmarks of the two social systems ( i.e. , CN3 and Citeulike ) . 
+It describes the increasing ratio of bookmarks , on a monthly basis , from the conference dates until the time of data collection ( i.e. , March 2016 ) . 
+The graph highlights the differences between these two social systems . 
+As a conference support system , CN3 was heavily used by conference attendees to plan their conference schedules . 
+As a result , more than 85 % of all CN3 bookmarks were made before and during the conferences . 
+Another 10 % were made within the first 3 months after the conference . 
+Attendees may not have had enough time to process all of the papers at the time of the conference . 
+The related research communities who did not attend the conferences also used the CN3 system for a while , after the conferences , to check out the presented papers . 
+In contrast , fewer than 20 % of the Citeulike bookmarks were made during the conference . 
+However , being a general social bookmarking system , Citeulike appeals to a much larger community of users . 
+As more and more users discover the papers of a specific conference , the number of bookmarks grows . 
+Within 24 months of the conferences , 86 % of all bookmarks had already been made . 
+In both cases , the gradually decreased pace of bookmark growth provides us with a hint that we might not need to use the full history of bookmarks to achieve a reasonable prediction of article citations . 
+The main issue here is how long we need to trace the bookmark history to obtain data that is sufficiently close to the correlation between the citations and the full history of the bookmarks . 
+To determine the cutoff time for the CN3 and Citeulike bookmarks , as measures of early attention , we computed the correlations of the bookmark data with the citations separately , in every month after the conferences , as suggested in Brody et al . 
+( 2006 ) . 
+The correlation values were then compared with the final correlations between the full history of the bookmarks and the citations . 
+We found that the correlations of the full CN3 bookmark history with the Google Scholar citations and Scopus were 0.351 and 0.234 , respectively . 
+At just 4 months after the conference , the correlation between the CN3 bookmarks of 4 months with the Google Scholar and Scopus citations closely reached its final and fullest level ( 0.348 for Google Scholar citations and 0.232 for Scopus citations ) . 
+Therefore , we used the 4‐month history of CN3 bookmarks ( i.e. , CN3 ) for the regressions of both Google citations and Scopus citations , as the records of users ’ early attention . 
+In the case of Citeulike bookmarks , the correlation of the full bookmark history with Google citations is 0.224 and , during the 12th month after the conferences , the correlation of the Citeulike bookmarks with Google citations was close to this level . 
+It also took 12 months to reach the correlation of the full Citeulike bookmark history with the Scopus citations ( i.e. , 0.188 ) . 
+Therefore , the approximately 1‐year history of Citeulike bookmarks is sufficient to properly determine the influence on the Google and Scopus citations . 
+These results suggest that the readership data collected in a conference support system , such as CN3 , within just a few months after the target conferences , can serve as the earliest predictor of future citations . 
+On the other hand , the early prediction power of a social bookmarking system is reached about a year after the conference . 
+In the following analysis , we examine how much predictive power each type of bookmark record has on future citations . 
+The primary purpose of this investigation is to determine which factors have significant effects on the future citations of the conference papers . 
+To accomplish this purpose , the number of citations was regressed on 13 independent variables in four categories with three different timepoints , as previously discussed . 
+Specifically , we used a multiple sequential regression analysis and had to ensure adequate normality and solve the heteroscedasticity problems of the Google and Scopus citations . 
+Therefore , we normalized the Google and Scopus citations using a two‐step rank‐based normalization technique proposed by Templeton and Burney ( 2017 ) . 
+We conducted two separate multiple sequential regression analyses using the Google Scholar and Scopus citations as the dependent variables . 
+The results of the multiple sequential regressions for the Google citations are shown in Table 3 . 
+The table includes the unstandardized regression coefficients ( B ) , the standard error of the unstandardized coefficients ( SEB ) , the standardized regression coefficient ( ß ) , and the squared partial correlations ( sr 2 ) . 
+The first set of the variables , which were determined at the paper submission time , significantly contributed to the regression model ( F = 41.41 , p < .001 ) and accounted for 31.2 % of the variation in the Google citations . 
+Introducing the second set of variables , which were related to conferences per se , explained an additional 3.5 % of the variation in the Google citations ; this small increase in the variance is statistically significant ( F = 26.22 , p < .001 ) . 
+Finally , by adding the records of online readers ’ early attention to the regression model , the additional 5.8 % of the variation was explained . 
+This change in R 2 was also statistically significant ( F = 28.33 , p < .001 ) . 
+Together , the 13 independent variables accounted for 40.5 % of the variance in the Google citations . 
+The regression weights , presented in Table 3 , suggest that the number of authors ( Author ) , content type ( Type ) , number of pages ( Page ) , number of presented papers ( NoPapers ) , conference venue ( Venue ) , and the records of the best article awards ( BPA ) were statistically significant factors influencing future citations , before the third set of factors were entered into the regression . 
+However , adding the factors about early attention cancelled the significant explanatory power of the conference venue ( Venue ) and weakened the explanatory power of the other factors on future citations . 
+When all 13 independent variables were included in the final stage of the sequential regression model , seven variables remained as significant factors—the number of authors ( Author ) , content type ( Type ) , number of pages ( Page ) , number of presented papers ( NoPapers ) , the records of the best article awards ( BPA ) , CN3 bookmarks ( CN3 ) , and the Citeulike bookmarks ( Cite ) . 
+Among the significant factors , content type ( Type ) , the number of pages ( Page ) , the number of presented papers ( NoPapers ) , and the records of the best article awards ( BPA ) , significantly accounted for future citations at the .05 significance level , whereas the two types of early attention and the number of authors were statistically significant factors of future Google Scholar citations at the .001 significance level . 
+Overall , the bookmark records of Citeulike , 1 year after the conferences ( Cite ) , contributed the most to explaining the future citations , as counted for by Google Scholar . 
+The bookmark records of CN3 4 months after the conferences ( CN3 ) and the number of authors ( Author ) contributed the second and third most to explaining the future citations , as counted for by Google Scholar . 
+Table 4 displays the results of the multiple sequential regressions , based on the Scopus citations as the dependent variable . 
+The structure of the table and the meaning of its columns are the same in Table 3 . 
+The first model with the six variables determined at the time of the paper submission explained 15.1 % of the variation in the Scopus citations , at a statistically significant level ( F = 16.25 , p < .001 ) . 
+Introducing the second set of the variables related to the conferences explained an additional 4.8 % of the variation in the Scopus citations ; this change in R 2 was significant ( F = 12.28 , p < .001 ) . 
+Introducing the records of online readers ’ early attention , as the final set of predictors , explained an additional 6.2 % of the variance in the Scopus citations , at a statistically significant level , F = 14.76 , p < .001 . 
+The 13 independent variables accounted for 26.1 % of the variance in the Scopus citations in total . 

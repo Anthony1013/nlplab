@@ -1,0 +1,16 @@
+{
+    "__class__": "DLTesterConfig",
+    "params": {
+        "tokenizer": "char",
+        "interactive": false,
+        "predict_prob": false,
+        "input_file": "examples/toutiao/text.csv",
+        "out_file": "predict.csv",
+        "has_target": true,
+        "badcase_file": null,
+        "print_confusion_mat": false,
+        "use_cuda": true,
+        "model_path": "ckpts/best.pt",
+        "max_len": 10
+    }
+}

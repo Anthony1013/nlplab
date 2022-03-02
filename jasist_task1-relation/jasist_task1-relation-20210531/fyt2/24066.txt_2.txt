@@ -1,0 +1,60 @@
+P 5 , P 7 and P 8 are second‐generation citation papers . 
+P 8 is also a third‐generation citation paper because it cites P 6 , which is both a first‐ and a second‐generation citation paper . 
+A citation relationship such as that in Figure 4 forms a citation tree . 
+P 1 is the tree 's root ; P 4 , P 5 , P 7 and P 8 are leaves that have not been cited , and their credit is only innate credit , 1 . 
+The credit of P 5 , P 7 and P 8 is partly assigned to P 2 , P 3 and P 6 , respectively . 
+For example , . 
+The external credit of P 2 comes not only from P 5 but also from P 6 . 
+Then , . 
+Similarly , P 1 carries credit , showing that the credit that P 5 , P 7 and P 8 carry is partly indirectly assigned to P 1 . 
+As a reference , P 2 obtains credit from P 5 and P 6 , and part of its carried credit is allocated to P 1 because it refers to P 1. and P 6 each carry credit greater than 1 because they are referenced by other papers to which they contribute . 
+A hypothetical citation relationship . 
+The arrows indicate the direction of the citing relationship ; for example , P 2 cites P 1 . 
+The above example shows an iterative process to determine the credit paper P carries , c ( P ) . 
+It starts with the leaves of the citation tree whose root is P . 
+The leaves carry a credit of 1 ( innate credit ) because they have not been cited . 
+Then , we can determine the credit of nodes in citation trees along a citation path through generations , from leaves to root one by one . 
+The iteration process does not end until the credit of root P is determined . 
+Unlike matrix methods of determining the credit of papers , the iterative method can determine the credit of individual papers without determining that of all the papers in a paper set . 
+When the size of the paper set is large ( for example , all the papers indexed by the WoS ) , the matrix methods require vast resources . 
+In contrast , the iterative method does not . 
+Papers published a long time prior may be indirectly cited by many generations . 
+To shorten the operation time of the above iterative method , we can set a maximum number of generations in the citation tree . 
+For the purpose of determining the credit of the paper at the root , all the papers included in the maximum number of generations in the citation tree are set as leaves , and their credit is set as 1 . 
+Considering the problems involved in operation , it is reasonable for the matrix methods to consider a maximum number of generations of two to four ( Rousseau , 1987 ) . 
+Sidiropoulos and Manolopoulos ( 2005 ) suggest considering seven generations in determining the credit of papers , and this suggestion covers all credit estimation methods that consider indirect citation , including the contribution‐based credit allocation proposed here , which is an iterative method . 
+In this section , we will discuss indicators to evaluate papers . 
+Some similar indicators that are not used to evaluate individual papers are not discussed here , such as the eigenfactor , which reflects the influence of journals . 
+To determine quantitatively the contribution of different authors to a paper , methods involving both even paper credit assignment ( Price , 1981 ) and uneven paper credit assignment ( e.g. , Hodge & Greenberg , 1981 ; Van Hooydonk , 1997 ; Lukovits & Vinkler , 1995 ; Egghe , Rousseau , & Van Hooydonk , 2000 ; Liu & Fang , 2012 ; Stallings et al. , 2013 ) among authors have been proposed . 
+In these approaches , the sum of the credit obtained by all of the authors of a paper is the full paper credit . 
+In contrast , in the contribution‐based credit allocation method , the total proportion of the credit assigned to all of the authors of a paper is . 
+Compared with our contribution‐based paper credit assignment , normalized citation does not consider the innate credit of the paper inspected , the indirect citations , the difference in contribution among references to the citing paper , or the authors ’ contributions . 
+Because these two indicators focus on reflecting the scientific impact of a paper , they ignore the innate credit of the paper and the authors ’ contributions to papers . 
+The parameters of contribution‐based credit allocation for a paper with M authors and N references are and . 
+To determine the proportion of the contribution to the paper from each author , an existing method for allocating paper credit to authors can be incorporated into the contribution‐based credit allocation presented here . 
+However , the total credit assigned to the paper 's authors will be the deserved credit of the paper , not the full credit the paper carries . 
+Suppose that the proportion of credit of the i‐th author from among the M authors of a paper is calculated as γ m_i using an existing method for allocating paper credit to authors , . 
+Then , the proportion of the contribution of the i‐th author ( ) to the paper is estimated as , where α is the total proportion of contributions of the M authors to the paper . 
+The remaining task is to determine the relative contributions of the references to the citing paper , say , and their summation . 
+Here , we propose a strategy that incorporates citation content analysis ( Ding et al. , 2014 ) , which is a promising method to differentiate citations , to address the estimation problem . 
+First , the references are classified according to their role to the citing paper . 
+As introduced in the section “ Analyzing the Contributions to a Paper From Its Authors and References , ” the contributions to a paper by its references can be classified into three categories : ( a ) motivating the authors to conduct the research work performed in the citing paper , ( b ) supplying a foundation for the research , or ( c ) providing evidence to persuade readers . 
+This classification scheme might be modified in further work . 
+Second , a thesaurus for each class of reference is constructed , and the words and phrases included in the thesaurus are extracted from the citation context in the research papers . 
+References can be further classified into subcategories based on the words or phrases that are in the thesaurus and are also contained in the citation context that mentions the references . 
+Third , the relative importance of each of the different subcategories of references is estimated . 
+This can be achieved through a questionnaire survey administered to the authors of research papers that asks the authors to rank the references of their paper by importance . 
+With the collected survey results , artificial intelligence methods can be applied to learn the expected relative importance of each reference subcategory . 
+Based on what is learned through these methods , for a given paper , the relative importance of a reference among the other references can be estimated . 
+Fourth , the share of the relative importance between authors and references of each paper is estimated . 
+This can be achieved by learning from experts ’ judgment on sample papers and through the distribution of reference subcategories in the sample papers . 
+A set of research papers can be collected , and experts who are familiar with the relevant fields but not the authors of the papers can be invited to review them . 
+For each paper , the experts will judge the proportion of the authors ’ total contribution . 
+We can also count the distribution of reference subcategories for each paper . 
+The relationship between the authors ’ contribution as judged by experts and the distribution of the reference subcategories can be learned by machine learning methods . 
+With the learning results , the proportion of the authors ’ contribution ( ) to a given paper can be estimated based on the distribution of reference subcategories . 
+In this last step , we do not suggest learning from the authors ’ judgment of their importance to their own papers because authors will tend to overestimate their contribution . 
+The deserved credit of the reviews will be determined according to the consensus of experts . 
+The estimation of the relative contribution of references to the citing paper can also incorporate the length of the citing sentence , its location in the paper and its sentiment . 
+This can be achieved through natural language processing and will be investigated in future studies . 
+Related investigations have been conducted by several researchers ( e.g. , Bertin , Atanassova , Sugimoto , & Lariviere , 2016 ; Cano , 1989 ; Hu , Chen , & Liu , 2013 ; Ritchie , 2008 ; Small , 2011 ) . 

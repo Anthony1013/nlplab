@@ -1,0 +1,130 @@
+However , as expected , the absolute numbers were much smaller . 
+Hence , we believe that the way we sampled FNAQs does not introduce a significant bias towards any search engine . 
+Our comparative analysis in this section aims to reveal how FNAQs are handled in web search engines . 
+Obviously , like any other query , FNAQs are subject to many types of preprocessing , such as spelling correction , query rewriting , or term expansion . 
+A search engine may apply to all or a subset of these to improve the result quality . 
+Unfortunately , most of this processing happens at the backend search system and the details are not visible to us . 
+Therefore , herein , we opt for an alternative study : We analyze the search result pages retrieved as response to FNAQs and observe what kind of manipulation is performed over the original user query and how the results are presented . 
+This analysis gives us a hint about the actions taken by search engines when handling FNAQs . 
+We start with analyzing the result presentation patterns of search engines A , B , and C in response to queries . 
+In all three search engines , we observe four types of patterns : Original Query Results ( OrgRes ) : The results of the original user query are returned to the user without any explicit modification on the original query . 
+Original Query Results With a Suggested Query ( OrgResSugQuery ) : When the results of the original query are retrieved , also a new query is suggested . 
+In this case , the search engine believes that the original query results are good enough , but it gives the user the option of checking the results of another query . 
+Suggested Query Results ( SugQueryRes ) : The user is provided with the results of another query instead of the original query . 
+In this case , the search engine believes that the real user intent matches another query , which potentially retrieves better or more results than the original query . 
+No Results ( NoRes ) : No matching results are returned . 
+In this case , the search engine also fails to suggest a related query . 
+Each of the three search engines we analyzed has its own way of presenting the results . 
+The result presentation patterns we observed are summarized in Table 2 . 
+In Table 3 , for the three search engines , we report the number of query results falling under each pattern . 
+According to the table , all three search engines make a considerable effort to correct the original query by providing query suggestions ( via pattern OrgResSugQuery ) or , more directly , by providing the suggested queries ' results ( via pattern SugQueryRes ) . 
+Search engine A prefers to provide the original results ( pattern OrgRes ) for the majority of queries ( around 62 % ) , whereas B and C handle such queries mostly via the OrgResSugQuery pattern . 
+Also , a quick comparison between Tables 1 and 3 shows that the SugQueryRes pattern seems to help B and C to reduce the percentage of NAQs ( NoRes pattern ) substantially . 
+Obviously , the quality of the suggested query and corresponding results should also be investigated to justify the benefits of the SugQueryRes pattern other than transforming an NAQ to a query with answers . 
+We address the former issue while answering RQ4 later , and show that suggested queries are mostly found relevant to the original information request . 
+The results above show that the percentage of NAQs can be reduced by generating a new , potentially related query , and presenting the results of this query ( i.e. , SugQueryRes pattern ) , instead of the original query . 
+However , it is also important to check whether these new queries lead to an increase in the number of retrieved results . 
+Table 4 reports the number of queries that return k or fewer results ( the column for NoRes pattern is repeated from Table 3 for the sake of completeness ) . 
+We observe that there are more matching results when the results of a new query are returned ( SugQueryRes pattern ) compared to the original query results ( patterns OrgRes and OrgResSugQuery ) . 
+For instance , C returns fewer than 10 results for 71 % and 49 % of queries when patterns OrgRes and OrgResSugQuery are observed , respectively , but only 5 % of queries have fewer than 10 results when SugQueryRes pattern is observed . 
+A clearer picture of the impact of the SugQueryRes pattern on the number of results can be seen by comparing the “ Total ” column of Table 4 to Table 1 , for each search engine and k value . 
+For instance , Table 1 shows that search engine C would retrieve at most two results for 6,368 queries ( Recall that what Table 1 reports is based on the number of results for the original query , but not the suggested query via some pattern ) . 
+By presenting the results via the SugQueryRes pattern for some of the queries , the number of queries with at most two results drops to 3,631 for C. Similar reductions are observed for other cases as well . 
+These findings imply that the number of matching results can be increased by proper handling of FNAQs ( e.g. , showing the results of another , related query ) . 
+Note that , as mentioned before , the quality of the results retrieved by these patterns is an open question , and as a step towards answering the latter question , we evaluate and verify the quality of the suggested queries in the upcoming section . 
+In the case of OrgResSugQuery and SugQueryRes patterns , the search engine suggests an alternative query that is usually obtained by modifying the original query . 
+To have a clue about the underlying strategies that generate these suggested queries , we manually inspected all queries that led to patterns OrgResSugQuery or SugQueryRes in all three search engines ( i.e. , a total of 1,459 queries ) . 
+In Table 5 , we present the modifications commonly encountered during this manual inspection . 
+During the manual inspection , we found that a large number of queries entirely or partially include a URI . 
+Indeed , among the 273 queries that fall under the pattern OrgResSugQuery , the percentage of queries with a URI was found to be 71 % . 
+For the pattern SugQueryRes , the percentage is 52 % , which is lower but still significant . 
+As shown in Table 5 , the modifications observed in queries differ depending on the presence of a URI in the query . 
+In particular , for queries without a URI , the most common modifications are adding a space between the words and then correcting the typos within the terms . 
+On the other hand , 70 % of URI‐bearing queries do not involve any obvious typo . 
+But , there are mistakes possibly due to the poor memory of users who typed a wrong domain ( e.g. , typing “ .co ” instead of “ .co.uk ” ) or forgot the hyphen between the terms ( see the examples in Table 5 ) . 
+Finally , note that an observed modification can be obtained via a particular technique or a combination of several techniques , and conversely , several modifications that appear to be different can indeed be produced by a single technique . 
+For instance , one may compute the edit‐distance of an entire query string ( or its terms ) to the existing queries ( or terms ) as well as the distance of a URL to the known URLs in the search engine 's database to obtain modifications as M2 and M7 , respectively , in Table 5 . 
+While we present the final effect on the suggested queries , we do not discuss the methods that generate them , as these methods are not made public by search companies . 
+As a complementary experiment , we investigated the quality of the suggested queries . 
+To this end , we randomly selected two subsets , each with 100 queries , from the queries that led to patterns OrgResSugQuery or SugQueryRes in all three search engines . 
+We then conducted a user study with six judges , that is , some of the coauthors of this work as well as other graduate students in the field of computer science . 
+Each judge was shown the original query and the suggested query obtained from each search engine , and was asked to decide if the suggested query makes sense or not . 
+The tasks were exclusive , that is , every query and corresponding suggestions are annotated by a single judge . 
+In Figure 1 , we show the percentage of query suggestions labeled as relevant , irrelevant , and undecided by the judges . 
+The figure shows that search engine A has the lowest number of irrelevant results in the case of the pattern OrgResSugQuery . 
+However , a large number of query suggestions are labeled as undecided for this search engine . 
+A closer inspection reveals that A consistently prefers to provide alternative URI suggestions , whereas the other two search engines prefer to split the URI into multiple terms . 
+This choice of A yields lots of undecided suggestions , as the judges could not decide on how good the suggested URI captures the initial intent of the user in a number of cases . 
+Suggestion quality of search engines . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] In the case of pattern SugQueryRes , all search engines provide a larger percentage of relevant suggestions in comparison to pattern OrgResSugQuery . 
+This result further confirms our intuition that search engines trigger the former pattern SugQueryRes only when they are confident about their suggestion . 
+In order to investigate the impact of time on our findings , we repeated the previously reported experiments at a later date , in January 2012 ( the previous experiments were conducted in July 2011 ) , considering only search engine A , which achieves relatively low FNAQ ratios . 
+For brevity , we limit the discussion to the experiment reported in Table 3 . 
+Table 6 shows the number of queries whose patterns had changed between July 2011 and January 2012 . 
+According to the table , the percentage of NAQs decreases over the time , that is , there are fewer queries under the NoRes pattern . 
+In particular , 142 queries that were under NoRes pattern in July 2011 had moved under the OrgRes pattern by January 2012 . 
+On the other hand , we observed that 127 of those 142 queries still matched fewer than 10 results , that is , they are still FNAQs . 
+Table 7 reports the number of queries that returned k or fewer results in January 2012 . 
+A quick comparison of Table 7 and corresponding Table 4 reveals that for each search engine , the number of queries with fewer than 1,000 results drop , which indicates that for some of the FNAQs there are more retrieved results now . 
+The highest improvement is for engine C , for which the number of queries with less than 1,000 answers drop from 6,998 to 5,943 in January 2012 , and this means that for only 9 % of the queries the situation becomes better ( possibly due to newly crawled pages and/or search engine 's ability to apply a certain pattern [ like the patterns OrgResSugQuery or SugQueryRes ] based on the new evidence , such as the submission of queries that are similar to a particular FNAQ ) ; while a considerable number of queries ( i.e. , more than 30 % of our query set ) still retrieve fewer than 10 results . 
+Furthermore , the number of NAQs increases for search engines B and C ( but not A , as discussed in the previous paragraph ) . 
+These observations justify our motivation to investigate FNAQs . 
+We find that such queries are difficult to be resolved in time by external factors ( e.g. , the growth of the web and creation of webpages that may match such queries ) . 
+They rather call for special treatment , which may also improve the result quality and , potentially , the user satisfaction with search results . 
+In this section we focus on queries that match no answers ( NAQs ) , which is a very specific and more problematic subset of FNAQs . 
+In our analyses , we use queries that match no results in at least one of the three search engines , which add up to 665 queries in total . 
+Table 8 shows a small number of NAQs selected from the mentioned set , together with the potential reason for being an NAQ . 
+To identify the root causes of NAQs , we conducted a user study . 
+NAQs are labeled by four judges ( who are among the authors ) based on two types of tests : URI presence and meaningfulness . 
+As these tests are not complicated and the judges generally agreed on each other 's labels for a small number of queries , we assigned each query to only one judge , exclusively . 
+Figure 2 illustrates the query labeling procedure followed by the judges . 
+We report the results , separately , for each search engine , as well as the union and intersection of their NAQ sets . 
+Procedure followed by the judges in the study . 
+Our first test evaluates the presence of URIs in NAQs . 
+Although it could be possible to automate this test via pattern‐matching techniques , we prefer to do it manually , as it is difficult to automatically catch URIs that contain typos . 
+The results in Figure 3 indicate that about 57 % of the NAQs contain at least one URI . 
+About 45 % of those contain at least one malformed URI , while the remaining 55 % are proper URIs ( i.e. , conforming to the syntax as described by the RFC 3986 URI Generic Syntax ) . 
+This shows that about one fourth of NAQs aim to retrieve resources that are unknown to or not discoverable by the search engine . 
+Hence , it is highly unlikely that these NAQs can be solved by a query‐handling technique . 
+When we compare the results across the three search engines , we observe that search engine A is significantly better in solving NAQs with malformed URIs . 
+The number of such NAQs in A is only slightly higher than those present in the intersection set of the three search engines . 
+Overall , the size of the intersection is much smaller than the size of the union , which implies that most NAQs with a URI are solved by at least one search engine . 
+Distribution of NAQs based on URI presence . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Our second test is about the meaningfulness of NAQs . 
+If a query contains a URI , we only consider the remaining query terms . 
+If the entire query is a URI , it is labeled as “ only URI ” and excluded from the test ( we found that 323 queries out of 665 fall into this case ) . 
+If the meaning of an NAQ is not clear to the judge , but the NAQ has a potential to have a meaning for the user who issued it , then the judge labels the NAQ as “ unsure. ” NAQs that are clearly meaningless to the judge ( e.g. , queries that are only formed of repetitive key strokes ) are labeled as “ meaningless. ” The remaining NAQs are considered “ meaningful ” and labeled as “ has typo ” or “ no typo , ” depending on the presence of a typo . 
+The results of this test are shown in Figure 4 . 
+Since a considerable portion of the NAQs are labeled as “ unsure ” ( i.e. , 89 out of 665 ) , the numbers reported for the remaining labels can act only as lower bounds . 
+We found that at least 137 and 116 queries ( out of 665 ) can be considered as meaningless and meaningful , respectively . 
+According to the results , only 3 % of NAQs ( 21 out of 116 queries ) are meaningful and do not contain any typos . 
+It is interesting to note that , in our study , we encountered only one such NAQ that is not solved by either search engine . 
+At least four out of every five NAQs that are meaningful contain a typo ( i.e. , 95 queries out of 116 ) that is not fixed by the spell‐checker . 
+At least 21 % of NAQs do not have any meaning . 
+This final result sets an upper bound of 79 % on the fraction of NAQs ( i.e. , 525 queries ) that a search engine can fix by employing more sophisticated techniques . 
+Distribution of NAQs based on meaningfulness . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Next , in order to provide some insight into potential user dissatisfaction with NAQs , we performed an editorial study involving annotations . 
+We sorted the AOL query log ( Pass et al. , 2006 ) first with respect to the user‐id and then time . 
+Then we identified every NAQ in the log , and manually annotated what the user has done after submitting this NAQ . 
+We classified the user behavior into one of the following three cases : User terminates the session ( TS ) : After submitting the NAQ , the user has no further activity in the current search session . 
+Following the practice in the literature , we assumed that the session timeout period is 30 minutes , that is , if an NAQ is not followed by any action in the next 30 minutes , the current search session is assumed to end . 
+User submits a new query ( NQ ) : The user submits a new query with no explicit syntactic or semantic similarity to the previous query ( i.e. , the NAQ ) in the current session . 
+User submits a reformulated query ( RQ ) : The user submits a new query that modifies an NAQ in the current session and the new query has some syntactical or semantic similarity to the NAQ . 
+We note that there are two further possibilities in this case : The user can submit a chain of reformulations without clicking on the retrieved results ( if any ) and finally abandons his or her search by falling into one of the TS or NQ cases described above . 
+Alternatively , after submitting one or more reformulated queries , the user clicks on at least one of the search results . 
+We label these two subcases as RQ‐noClick and RQ‐click , respectively . 
+Based on this classification , we dub a search session dissatisfactory if an NAQ is followed by one of the TS , NQ , or RQ‐noClick cases , as the user abandons her or his search ( either directly or after a series of query reformulations ) without clicking any results . 
+In case of RQ‐click , it is not clear whether the user could really find what s/he was looking for . 
+But even if this is the case , the user can satisfy her or his information need after some effort , through an explicit reformulation of the query ( possibly more than once ) . 
+Nevertheless , to be on the safe side , we do not consider this latter case as a dissatisfactory experience . 
+In Table 9 , we provide the results of our study for 665 NAQs . 
+NAQs that fall into the TS or NQ cases account for 65.8 % of all NAQs . 
+Furthermore , 22.7 % of NAQs fall into the RQ‐noClick case . 
+Therefore , we can safely claim that in at least 88.5 % of cases the user was dissatisfied . 
+In Figure 5 we display the distribution of NAQs and common queries ( an equal number of queries that are again sampled from AOL log and match at least one result ) as the query length increases ( computed by using a homemade query parsing tool ) . 
+We observe that a significant fraction of NAQs do not contain any query terms after normalization ( e.g. , removal of punctuation ) , while almost every common query contains at least one term ( there were only two common queries with no terms ) . 
+The fraction of NAQs for queries with one to three terms is lower than those for common queries . 
+The NAQ distribution is slightly shifted towards longer queries . 
+Overall , this behavior can be explained by two observations . 
+First , it is well known that most web queries include one to three terms . 
+Thus , NAQs are not likely to dominate this range . 

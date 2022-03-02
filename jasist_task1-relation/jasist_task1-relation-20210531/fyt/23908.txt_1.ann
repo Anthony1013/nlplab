@@ -1,0 +1,100 @@
+T1	引文作者 109 115	Hirsch
+T2	引文时间 118 122	2005
+T3	引文作者 137 142	Egghe
+T4	引文时间 145 149	2006
+T5	引文作者 168 173	Zhang
+T6	引文时间 176 180	2009
+T7	引文作者 205 213	Bornmann
+T8	引文时间 223 227	2011
+T9	引文作者 312 318	Alonso
+T10	引文时间 328 332	2009
+T11	引文作者 335 341	Cronin
+T12	引文作者 344 348	Meho
+T13	引文时间 351 355	2006
+T14	引文作者 358 363	Haley
+T15	引文时间 366 370	2013
+T16	引文作者 458 463	Haley
+T17	引文时间 466 470	2014
+T18	引文作者 473 482	Wildgaard
+T19	引文时间 485 489	2015
+T20	引文作者 649 657	Iglesias
+T21	引文作者 660 671	Pecharromán
+T22	引文时间 674 678	2007
+T23	引文作者 681 689	Pudovkin
+T24	引文作者 692 700	Garfield
+T25	引文时间 703 707	2004
+T26	引文作者 772 780	Bornmann
+T27	引文时间 790 794	2013
+T28	引文作者 958 963	Haley
+T29	引文时间 966 971	2017a
+T30	引文作者 974 980	Martin
+T31	引文时间 983 987	2013
+T32	引文作者 990 997	Wilhite
+T33	引文作者 1000 1004	Fong
+T34	引文时间 1007 1011	2012
+T35	引文作者 1196 1201	Haley
+T36	引文时间 1204 1208	2016
+T37	引文作者 1242 1252	McAllister
+T38	引文时间 1262 1266	1983
+T39	引文作者 1402 1410	Radicchi
+T40	引文时间 1420 1424	2008
+T41	引文作者 1536 1547	Leydesdorff
+T42	引文时间 1557 1561	2013
+T43	引文作者 2414 2419	Haley
+T44	引文时间 2422 2426	2014
+T45	图 2268 2406	The two dashed lines in Figure 1 are the maximum‐normalized h‐index scores and AWCR‐index scores for 50 top economics and finance journals
+T46	引文作者 3209 3217	Mansilla
+T47	引文时间 3227 3231	2007
+T48	引文作者 3234 3241	Sangwal
+T49	引文时间 3244 3248	2013
+T50	引文作者 3297 3302	Haley
+T51	引文时间 3305 3310	2017b
+T52	引文作者 7318 7326	Mansilla
+T53	引文时间 7339 7343	2007
+T54	引文作者 7528 7535	Sangwal
+T55	引文时间 7538 7542	2013
+T56	图 6313 6470	category=1402 The resulting fits are depicted in Figure 2 , and the respective MAEs are 0.021 and 0.020. g‐index for 70 top economics and accounting journals
+T57	表 6098 6310	Table 2 illustrates this feature by comparing the g‐index for n = 70 top accounting and economics journals , where N = 1000 for Economics and N = 125 for Accounting.55 http : //www.scimagojr.com/journalrank.php ?
+T58	表 6624 6765	Table 3 illustrates this feature by comparing the g‐index in Economics to the e‐index in Accounting , for the same n = 70 journals used above
+T59	图 6770 6941	The resulting fits are depicted in Figure 3 , and the respective MAEs are 0.021 and 0.019. g‐index for 70 top economics journals and e‐index for 70 top accounting journals
+T60	表 5075 5287	These steps are demonstrated in Table 1.44 Note that these steps would not be possible without the fitted functional form ; that is , using only the observed metric scores would not permit this type of conversion
+T61	数学公式 3766 3788	MAE ≡ ( 1/n ) ∑|ŷ – y|
+T62	研究问题 532 583	the journal ranking endeavor are metric adjustments
+T63	研究展望 8025 8157	Relaxing this constraint would allow the normalization factor to become a decision variable , which may improve the fit of Ψ ( · ) .
+T64	研究展望 8160 8218	Exploring this would also be an interesting research topic
+T65	研究展望 7925 8020	The maximum‐normalization , although offering a clean interpretation , is de facto a constraint
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	has_cited_time Arg1:T8 Arg2:T7	
+R5	has_cited_time Arg1:T10 Arg2:T9	
+R6	coauthor Arg1:T11 Arg2:T12	
+R7	has_cited_time Arg1:T13 Arg2:T12	
+R8	has_cited_time Arg1:T15 Arg2:T14	
+R9	has_cited_time Arg1:T17 Arg2:T16	
+R10	has_cited_time Arg1:T19 Arg2:T18	
+R11	has_cited_time Arg1:T27 Arg2:T26	
+R12	coauthor Arg1:T20 Arg2:T21	
+R13	has_cited_time Arg1:T22 Arg2:T21	
+R14	coauthor Arg1:T23 Arg2:T24	
+R15	has_cited_time Arg1:T25 Arg2:T24	
+R16	has_cited_time Arg1:T29 Arg2:T28	
+R17	has_cited_time Arg1:T31 Arg2:T30	
+R18	coauthor Arg1:T32 Arg2:T33	
+R19	has_cited_time Arg1:T34 Arg2:T33	
+R20	field_similar_as Arg1:T20 Arg2:T23	
+R21	field_similar_as Arg1:T28 Arg2:T30	
+R22	field_similar_as Arg1:T30 Arg2:T32	
+R23	field_similar_as Arg1:T9 Arg2:T11	
+R24	field_similar_as Arg1:T11 Arg2:T14	
+R25	has_cited_time Arg1:T36 Arg2:T35	
+R26	has_cited_time Arg1:T38 Arg2:T37	
+R27	has_cited_time Arg1:T40 Arg2:T39	
+R28	has_cited_time Arg1:T42 Arg2:T41	
+R29	has_cited_time Arg1:T44 Arg2:T43	
+R30	has_cited_time Arg1:T51 Arg2:T50	
+R31	field_similar_as Arg1:T46 Arg2:T48	
+R32	has_cited_time Arg1:T47 Arg2:T46	
+R33	has_cited_time Arg1:T49 Arg2:T48	
+R34	has_cited_time Arg1:T53 Arg2:T52	
+R35	has_cited_time Arg1:T55 Arg2:T54	

@@ -1,0 +1,90 @@
+This means that only 6.4 % of the pooled documents had to be assessed for relevance . 
+In TREC7–8 and CT15–16 , the percentages of pooled documents that are judged are 6.4 % , 5.9 % , 18 % , and 15.1 % , respectively . 
+Saving up to 93 % of the judgments is really significant . 
+These savings directly reduce the costs of creating the test collection . 
+The creators of test collections can spend these extra savings on building testbeds with a much larger set of topics . 
+The premise of these stopping methods is that pooled documents are ordered by predicted relevance . 
+A potential criticism is that this ordering of documents might impact the assessments . 
+However , this type of ordering of assessments has been adopted by some evaluation campaigns . 
+For example , NTCIR sorts the pooled documents primarily by the number of systems that returned the document ( Sakai & Lin , 2010 ) . 
+As argued by Sakai et al . 
+( 2008 ) , there is no evidence that ordering the assessments by predicted relevance really biases them and affects the results . 
+Ordering the assessments by predicted relevance makes it easier for the human assessors to make judgments more consistently and efficiently than when relevant documents are spread across a list of judgments ( Sakai et al. , 2008 ) . 
+Aslam et al . 
+( 2006 ) also argued that more judging effort should be placed on documents that are likely relevant . 
+Similar conclusions were drawn by Zobel ( 1998 ) . 
+Although there is still room for debate , we believe that a relevance‐based ordering of the assessments should not be an obstacle in practice . 
+Another potential criticism about this assessment process is that Hedge , the method used for adjudicating documents for judgment , is dynamic . 
+Dynamic methods select a document from the pool , send the document for judgment , and the outcome of the assessment affects the decision on the next pick . 
+The next relevance assessment can not start until the previous assessment has finished . 
+Although such serialization complicates the assessment exercise , the benefits of Hedge far outweigh its disadvantages . 
+Hedge requires much fewer total judgments than other static ( nonadaptive ) methods . 
+For a given query , the judgments required by static methods can be done in parallel . 
+However , static approaches require at least 10 times more judgment effort than Hedge in order to achieve high levels of correlation with respect to a full‐pool approach ( Losada et al. , 2017 ) . 
+Carterette ( 2007 ) also argued for dynamic methods and proposed stopping rules and document orderings that adapt to distributions of relevance ( as they are discovered through judging ) . 
+A natural question is whether a test collection built from these stopping procedures may be able to evaluate systems that did not participate in the creation of the test collection . 
+Following ( Büttcher , Clarke , Yeung , & Soboroff , 2007 ) , we tested reusability by analysing the ranks achieved by runs under leave‐one‐group‐out ( LOGO ) experiments . 
+For each run that contributed documents to the pools we simulated how removing all runs submitted by the same group would affect its ranking . 
+For each run , we repeated the following procedure over all queries : i ) those documents contributed only by runs from the same team are removed from the pool , ii ) the remaining pooled documents are ordered by the Hedge algorithm ( using only the runs associated with other teams ) , iii ) the prioritisation of pooled documents induced by Hedge is given to the stopping method , which produces a set of judgments , iv ) we ranked all systems ( including the runs removed ) with the LOGO qrels and with the qrels produced by the stopping method with no system removed,99 This experiment was done with the stop_if_bearish_crossover ( avgP ) method , whose resulting qrels have been shown to have high correlation with respect to full pool judgments . 
+and v ) by comparing the position of the runs in these two rankings we can understand the effect that the stopping procedure had on systems whose group did not have the opportunity to contribute to the pool . 
+Table 5 reports the results of this experiment . 
+On average , removing the run 's group leads to negligible changes of positions in the ranking ( all averages below 1 position ) . 
+In some cases , the noncontributing runs tend to be favored ( for example , TREC6‐AP ) . 
+This may seem counterintuitive but observe that this is not a full‐pool evaluation procedure and , therefore , the fact that a team inserts some unique documents into the set of candidate documents does not guarantee that these unique documents are actually assessed for relevance ( the stopping procedure might stop earlier ) . 
+In any case , the effect on runs from noncontributing teams is unnoticeable , suggesting that the test collection can be reused reliably . 
+Observe also that the absolute position differences are lower than those reported in previous studies ( Büttcher et al. , 2007 ) . 
+By judging a selected set of top retrieved candidates , we avoid a deep exploration of the contributing runs . 
+Such a shallow strategy appears to be good at avoiding biases towards specific runs or teams . 
+Zobel ( 1998 ) suggested that variable‐length pools could be a cost‐effective way to build retrieval collections , and outlined a method to predict the overall number of relevant documents at different pool depths . 
+Some stopping methods proposed here are evolutions over Zobel 's proposal . 
+Our prediction approach works with training queries because the original approach suggested by Zobel leads to unreliable estimates for individual queries . 
+Other authors have proposed sampling methods to extract a small set of judgments from the pool . 
+For example , Aslam et al . 
+( 2006 ) experimented with a method that produces a reduced set of judgments . 
+They showed that you could sample as little as 4 % of the pools and still produce accurate results . 
+The main goal was to efficiently and accurately estimate standard measures of retrieval performance , such as AP . 
+Their work is theoretically appealing , but every performance measure leads to a different sampling distribution . 
+Furthermore , Aslam et al . 
+did not investigate how to determine the ideal number of judgments . 
+They simply experimented with two main configurations for determining the size of the judgment set ( one of them led to an average of 29 judgments/query , and the other produced an average of 200 judgments/query ) . 
+Carterette also contributed to this area with a number of low‐cost and robust evaluation strategies ( Carterette , 2008 ) . 
+In Carterette et al . 
+( 2006 ) , he and his colleagues proposed the Minimal Test Collection ( MTC ) method , which can be used to rank retrieval systems with a minimal number of judgments . 
+MTC is oriented to rank systems with AP . 
+Given a set of judged documents and a set of unjudged documents , MTC defines a stopping condition based on how AP would change if unjudged documents were judged relevant . 
+This stopping condition was further developed into a probabilistic stopping criterion . 
+Our study focuses on stopping methods that work with past assessments and/or estimates of relevance in the upcoming assessments , and stopping is not governed by how well we can estimate a single performance metric , such as AP . 
+We have been specifically concerned with when to stop and we showed that the methods lead to robust relevance assessments for recall‐based and utility‐based effectiveness metrics . 
+However , in the future we will study how to apply the lessons learned by these teams to our research . 
+Cormack et al . 
+( 1998 ) studied the efficient construction of IR test collections and proposed a method to prioritize relevant assessments . 
+The approach , called MoveToFront , consisted on focusing assessor effort on those contributing runs richer in relevant documents . 
+Although Cormack et al . 
+'s study was not concerned with when to stop , it showed that you could assess 10 % of the pooled documents and still produce robust qrels . 
+We did not employ MoveToFront as our reference method to prioritize relevance assessments because MoveToFront was shown to be inferior to Hedge in a recent study that compared many document adjudication strategies ( Losada et al. , 2017 ) . 
+Our article is also related to the problem of finding an optimal point to stop reading a ranked list ( Arampatzis , Kamps , & Robertson , 2009 ) . 
+Arampatzis et al . 
+developed methods to select the cutoff value that optimizes a given effectiveness metric . 
+They cast the problem as a score distributional threshold optimization problem . 
+Other teams have applied score distributions to feedback tasks ( Parapar , Presedo‐Quindimil , & Barreiro , 2014 ) . 
+Threshold optimization was also examined for threshold calibration in information filtering ( Zhai , Jansen , & Evans , 2000 ) . 
+These threshold‐based models could be also employed for implementing methods to stop‐making relevance assessments . 
+However , query–document retrieval scores would be required . 
+This limits the applicability of such an approach . 
+The stopping methods proposed in our article do not need scores and , thus , they can be applied to a wider variety of cases . 
+In any case , the use of score distributions to support IR evaluation requires further investigation . 
+A recent exploration of this topic ( Losada , Parapar , & Barreiro , 2018 ) showed that , if scores are available , score distribution models can effectively prioritize relevance judgments . 
+Cormack and Grossman ( 2016 ) were interested in total recall in technology‐assisted reviews . 
+They presented stopping methods oriented to estimate when nearly all relevant documents have been identified ( for instance , based on detecting a knee on the recall vs. rank curve ) . 
+Although these methods afford a good balance between high recall and low effort , we think that they are not well suited for our current purposes . 
+Building an effective test collection does not necessarily require identifying all relevant documents . 
+The main goal is to obtain a set of relevance assessments that are reliable to rank search systems ( the fewer , the better ) . 
+As shown in our experiments , effective stopping methods skip many judgments ( that is , we miss many documents that are potentially relevant ) but still produce robust qrels . 
+In any case , we will further investigate whether these high‐recall stopping methods can be adapted for building IR test collections . 
+In this article we proposed and compared a number of methods to determine when to stop doing relevance judgments . 
+We defined and implemented several methods that follow different intuitions to set a stopping point . 
+These stopping methods are guided by the past judgments or by estimates of relevance in the upcoming judgments . 
+We also proposed an innovative way to estimate recall , based on training queries , and we employed this estimate to plot a curve of F versus rank . 
+Tracking this curve with indicators derived from financial trading led to very effective stopping methods . 
+Some of them only required to judge 5–7 % of the pooled documents , and the resulting qrels ranked retrieval systems in a very accurate way . 
+Furthermore , the new approach to estimate recall and to track the curve of estimated F is potentially useful in other areas beyond IR evaluation . 

@@ -1,0 +1,106 @@
+Table 5 shows the estimated results for the values of the members in each class in the case of leakage of specific types of personal information . 
+Similar to the results for Model 1 , regardless of the classes , consumers show greater negative preference and greater positive preference when more personal information is leaked and more compensation is offered , respectively . 
+However , consumers in Class 1 have a higher negative preference for personal information leakage compared to consumers in Class 2 . 
+In other words , consumers who place greater importance on privacy and have experienced personal information leaks feel more negatively toward the leakage of personal information . 
+The WTAs of consumers in Class 1 are higher than those of consumers in Class 2 , overall . 
+The biggest difference in WTA between Class 1 and Class 2 is found in the leakage of personal medical information , while the WTA for the leakage of location information presents the smallest difference . 
+Unlike the findings of Model 1 and Personal Information Protection Commission ( 2013 ) , consumers in Class 1 assign higher value to personal medical information than purchase list and payment information or location information . 
+This suggests that consumers who have concerns about privacy and have experienced personal information leakage tend to regard personal medical information as important , although the average behavior of consumers does not seem to follow this trend . 
+Information criteria shows that Model 2 is more appropriate to estimate consumers ' preferences and values related to the leakage of personal information ( Model 1 : CAIC 9284.169 , BIC 9277.169 ; Model 2 : CAIC 6556.408 , BIC 6539.408 ) . 
+Based on the results of Model 2 , we simulated the consumers ' acceptance rate varied on the change of the compensation ( from KRW 200 thousand to 2 million ) in a hypothetical scenario . 
+We assumed two hypothetical scenarios for the simultaneous leakage of a set of personal information that could occur in a big data environment . 
+Scenario 1 : Out of the pool of personal information that big data service firms have access to and utilized , basic personal information , purchase list and payment information , and personal medical information are assumed to be leaked . 
+( Leaks of information types A , B , and C. ) Scenario 2 : Out of the pool of personal information that big data firms have access to and utilized , personal Internet search history , personal SNS posts , and location information are assumed to be leaked . 
+( Leaks of information types D , E , and F. ) Scenario 1 : Out of the pool of personal information that big data service firms have access to and utilized , basic personal information , purchase list and payment information , and personal medical information are assumed to be leaked . 
+( Leaks of information types A , B , and C. ) Scenario 2 : Out of the pool of personal information that big data firms have access to and utilized , personal Internet search history , personal SNS posts , and location information are assumed to be leaked . 
+( Leaks of information types D , E , and F. ) In Figures 2 and 3 , the acceptance rate in Scenario 2 generally grew faster than that in Scenario 1 when the amount of compensation increased . 
+This means that consumers are generally more sensitive to and place greater importance on the personal information leaked in Scenario 1 than that in Scenario 2 . 
+The acceptance rates of the consumers in Class 2 increased rapidly as the compensation increased regardless of scenarios . 
+In both scenarios , the average acceptance rate of the consumers in Class 2 was over 50 % when the compensation was greater than KRW 400 thousand . 
+Meanwhile , the consumers in Class 1 showed over 50 % acceptance rate when the compensation was more than KRW 1.9 million and KRW 1.2 million in Scenario 1 and Scenario 2 , respectively . 
+Changes in acceptance rate according to increase in compensation in Scenario 1 . 
+Changes in acceptance rate according to increase in compensation in Scenario 2 . 
+Therefore , consumers in Class 1 are more sensitive to the leaks of personal information compared to consumers in Class 2 , particularly on the information that could cause secondary economic damage . 
+This result suggests that the consumers ' actual behavior could vary depending on the individual perception of privacy , although prior studies reported that consumers who responded that they were concerned about privacy could act in contradictory ways ( Spiekermann , Grossklags , & Berendt , 2001 ; Acquisti & Grossklags , 2005 ; Beresford , Kübler , & Preibusch , 2012 ) . 
+Also , this result suggests that consumers place a higher value on personal information since the damage from the personal information leaks occurs consistently and increasingly in a big data environment . 
+If more consumers experience the personal information leaks in a big data environment , and subsequently place more importance on privacy , the consumer valuation of personal information increases rapidly . 
+There has been extensive debate in South Korea regarding the guidelines to protect the rights of data subjects . 
+Using the simulation method described before , our empirical results could provide practical suggestions for the Korean government , who needs to satisfy divided public opinion . 
+In 2014 , the Korean Supreme Prosecutors ' Office disclosed that personal data ( including the account numbers and validity dates of credit cards , bank account numbers , and social security numbers of card holders ) had been leaked from three finance companies . 
+Among the 0.65 million victims , 3,155 consumers sued companies , demanding compensation of KRW 0.5 million . 
+On February 2017 , the court decided that companies must pay KRW 0.1 million to each defendant due to the possibility of abusing leaked personal information ( Won , 2017 ) . 
+The public disagree that the amount of money sufficiently compensates for the infringement of their rights ( Lee , 2016 ) . 
+We examined the public acceptance of the compensation of KRW 0.1 million by simulating the acceptance rate assuming the basic information ( type A ) and the purchase list and payment information ( type B ) are leaked . 
+The simulated average acceptance rate is 17.16 % , and that only 1.05 % of consumers in Class 1 and 31.67 % of consumers in Class 2 accept compensation . 
+This result should be regarded as a warning sign . 
+Even among those who put low importance on their privacy and have not suffered from the leak , more than two‐thirds would refuse the current amount of compensation . 
+This rejection might create the public perception that the people are not properly protected by the law . 
+If consumers perceive that the social system does not protect their rights regarding personal data , they would be less willing to provide personal information and will choose to hide it or provide inaccurate data . 
+These are undesirable outcomes for companies and the government who want to benefit from consumers ' personal data . 
+Therefore , we suggest that the court‐ordered compensation for the information leak should be adjusted to reassure the public that they can trust the law and governmental policies to protect their legal rights . 
+The Korean government expected the health/medical and financial sectors to grow considerably through the utilization of big data ( Ministry of Science , ICT & Future Planning , 2016 ) . 
+Recently , the government initiated a public–private joint corporation to promote the utilization of big data in the health/medical sector ( Park , 2017 ) . 
+However , according to estimated results , consumers tend to put more importance on personal information generated in these sectors rather than on other information . 
+Since these sectors are legally permitted to collect data on social security numbers , we can anticipate considerable damage from an information leak in these industries . 
+To get an idea of the extent of the damage , we calculated the amount of compensation that is required to achieve an acceptance rate of 50 % . 
+Although a 50 % acceptance rate is not a normative criterion , we used it as the diverged point of compensation that would be favored by the majority . 
+We assumed that the basic personal information and personal medical information are leaked from companies in the health/medical sector , while the basic personal information and the purchase list and payment information are leaked from the financial sector . 
+Table 6 shows that for consumers in Class 2 , a higher amount of compensation is required for acceptance by the majority of consumers in the financial sector than the health/medical sector . 
+However , for consumers in Class 1 , the acceptable amount of compensation money for the health/medical sector is very close to that for the financial sector . 
+This implies that the government must regard the information leak related to the financial sector and health/medical sector as equally important in the big data environment . 
+Nevertheless , there is a huge gap between two sectors in the constructed legal systems and institutions . 
+For the financial sector , The Korean government made an amendment to the law regarding the protection of credit information in March 2016 that enforcing the punitive and statutory damages on financial firms ( Financial Services Commission et al. , 2016 ) , whereas it announced only a guideline in February 2015 for the health/medical sector . 
+We suggest that the Korean government lay down proper legal systems and institutions to protect people against the leaks and abuse of personal information from the health/medical sector similar to the laws that are in place in the financial sector . 
+Types of information included in the usage history vary by IT services and the degree to which consumers use them . 
+For example , although both Naver33 Naver ( www.naver.com ) is the most popular portal site in Korea since 2003 . 
+In addition to its original function as a search engine , Naver provides e‐mail , social networks , online commerce , and mobile payment services . 
+Over 22 million consumers use its mobile payment service and its market share in the Korean online commerce market was estimated at 18 % in 2016 ( Kim , 2017 ) . 
+and Facebook are classified as belonging to the same industry in the eyes of the law and policy , purchase list and payment data can be generated during the use of Naver , which does not happen when using Facebook . 
+Additionally , Naver requires basic information such as gender , birth date , and mobile phone number to register , while Facebook only requires an e‐mail address . 
+This suggests that consumers ' damages should differ by the services and to what extent they are utilized . 
+To examine the difference in damages between services and consumers , we compared the amount of compensation that is required to achieve an acceptance rate of 50 % . 
+We assumed that the basic information , personal Internet search data , and personal SNS posts are leaked for general Naver users , while the purchase list and payment data are also leaked for extensive users . 
+For Facebook , we assumed that personal Internet search data and personal SNS posts are leaked for conservative users who barely provide identifiable information , while the basic information and location information are also leaked for self‐expressed users . 
+Table 7 shows that the required compensation to be accepted by the majority of Naver 's general users is double that of general Facebook users regardless of the classes . 
+This enormous difference could be because the information required by Naver at registration is sufficient to identify a single consumer . 
+The difference in damages between conservative and extensive Facebook users could be explained in a similar way . 
+These imply that the consumers ' priority depends on the potential extent of damage after identification . 
+It is important for the government to prepare proper countermeasures and regulatory systems to prevent leaks of identifiable data and ensure the reidentification of the information . 
+We suggest that the government regulate IT services to require only one or two pieces of information to identify consumers and for consumers to provide the rest at their discretion . 
+Second , the guidelines for the deidentification of personal data state that the deidentified information assessed its validity using the K‐anonymity Model is no longer treated as personal information ( Office for Government Policy Coordination et al. , 2016 ) . 
+However , the deidentified data set can still have a risk to be reidentified and the K‐anonymity technique has the risk of linkability and inference ( Article 29 Data Protection Working Party , 2014 ) . 
+Treating deidentified data as if it was no longer personal data and allowing its transfer to third parties without the consent of consumers could cause severe damage . 
+Even for companies , transferring deidentified data is a huge risk because they can be punished by the law if the information is reidentified and harms consumers . 
+Therefore , the Korean government should reinforce the process for assessing and monitoring deidentified data , including multiple anonymization techniques in the assessment process . 
+This study proposed a research framework to estimate consumer valuation of the various types of information in a big data environment . 
+While prior studies did not have comparable results across various types of information , the results of this study can be compared using DCEs , which allow researchers to estimate comparable monetary values across economies or various types of personal data ( OECD , 2013 ) . 
+Although the empirical analysis focused on a Korean context , the framework suggested can be applied to other countries , according to their circumstances . 
+We used two models in our empirical verification . 
+Model 1 is a binary logit model for estimating the consumers ' average preference . 
+Model 2 is an LCM that assumed that the consumers have a heterogeneous preference structure according to the classes . 
+The results of both models showed that consumers placed high value on basic personal information and purchase list and payment information . 
+Further , the consumers showed a propensity to value location information higher rather than the other types of information . 
+On the other hand , consumers assigned relatively low value to Internet search information and personal SNS posts . 
+In general , consumers give high value to information that can cause severe and immediate social and economic damages when leaked/identified . 
+The results of Model 2 indicate that consumers place the highest value on basic personal information and the third highest value on purchase list and payment information , regardless of the classes to which they belong . 
+While personal medical information is given the second highest value by the consumers in Class 1 ( who place importance on privacy and have experienced information leakage ) , the consumers in Class 2 place the lowest value on it . 
+This result corresponds with Acquisti 's ( 2004 ) finding that consumers tend to assess the cost and benefit of the protection of privacy differently . 
+We also derived policy implications for the Korean government . 
+First , we confirmed that the current court decision for the amount of compensation is not enough to compensate the damage . 
+Second , although consumers would perceive damages of the information leaks from the health/medical sector and the financial sector alike , there is no separate law to protect people against the information leaks and abuse of their personal data from the health/medical sector . 
+Lastly , since consumers perceived the damage of the information leakage differently by IT services and the degree to which consumers use them , policy makers should consider this difference when they make policies to protect personal data against leakage . 
+Moreover , since consumers ' perceived losses of information leakage depends on the risk of identification and all deidentified data are under the potential risk of the reidentification , the statement of recent guidelines that treat deidentified data as not personal data and allow transfer to third parties without the consent of the data subject could harm consumers ' rights . 
+This study has some limitations . 
+First , this study limited the number of types of personal information to six because respondents are likely to have difficulty dealing with more than six attributes in a full‐profile choice experiment ( Orme , 2002 ) . 
+However , these six may not fully cover information that could be obtained in a future big data environment . 
+Second , this study did not analyze the demographic or psychological factors that lead the consumers to assign different values to each type of information . 
+This kind of analysis could contribute to establishing detailed guidelines for the protection of personal information . 
+Moreover , although this study used the data collected from Korea , the results may be different in countries having different cultural backgrounds that might impact the consumers ' attitude towards information privacy . 
+Third , we considered just one payment type , the lump‐sum payment , because the compensation was paid as a lump sum in most prior cases of information leakage in Korea . 
+It is also a general form of compensation that could be converted from and could include other forms of compensation . 
+However , there are various types of compensation , such as pay‐per‐use occasion depending on use purpose . 
+Fourth , the stated preference data itself has some limitations . 
+The major weakness of the stated preference approaches is their hypothetical nature ( Whitehead , Pattanayak , Van Houtven , & Gelso , 2008 ) . 
+This means that stated preferences and intentions may not necessarily coincide with consumer behaviors revealed in real‐life situations . 
+Moreover , the empirical data were obtained from a single source , although it is general in behavioral research . 
+Therefore , our findings may be partly subject to common method variance ( Podsakoff , MacKenzie , Lee , & Podsakoff , 2003 ) . 

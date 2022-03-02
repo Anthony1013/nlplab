@@ -1,0 +1,126 @@
+Our main reason for working with these PURE repositories was to examine their current indexing quality , and to determine the extent to which books published by Danish scholars have been indexed also in the new BKCI . 
+The OCLC‐WorldCat and Goodreads were also chosen for this study because both catalogs comply to some degree with the FRBR standard . 
+The BKCI does not ; hence , by matching ISBNs and extracting all related data from these two extra databases , it is possible to assess the extent to which the BKCI is an accurate index of monographs as family‐based entities . 
+The procedural list below explains how all monograph data for this study were collected ( over 6 months in 2015–2016 ) , integrated and “ curated ” into a new database for all research queries : ISBNs from the BKCI ( 2005–2015 ) were retrieved and added to a new SQL database . 
+This included monographs only , which had been indexed with the following metadata tags : 1 ) Pubtype = book/books , 2 ) Doctype = book , 3 ) Norm_doctype = book , and 4 ) Role = author ( n = 16,392 ) . 
+ISBNs from the eight Danish PURE repositories were also retrieved , based on the following indexing tags : a ) doc_type = db , b ) doc_level = sci , and c ) person role = NOT editor , and added to the SQL database ( n = 8,604 ) . 
+All duplicate ISBNs from both the BKCI and PURE were removed and the two data sets were merged to produce a total of n = 24,961 ISBNs ( note : only 35 records between the two original lists were duplicates ) . 
+With OCLC‐WorldCat and Goodreads , we used an application programming interface ( API ) to retrieve additional metadata ( e.g. , book title , author name , publisher , publication year ) matched to our initial list of ISBNs ( n = 24,961 ) , including all extra related ISBNs ( i.e. , additional manifestations of the same work ) . 
+Our final research data set in the SQL database included a total of n = 56,445 unique ISBNs . 
+All ISBN‐13 numbers were trimmed to create a new numerical ISBN for retrieval purposes ( e.g. , 978–92‐95055–02‐5 reduced to 929505502 ) and to minimize errors in SQL queries . 
+An OCLC‐Work‐ID was created as a distinct metadata field for a work and all of its related ISBNs for the OCLC‐WorldCat data . 
+We also created a Goodreads‐Work‐ID for a work and all of its related ISBNs from Goodreads . 
+In all cases where there was a relational overlap of the same work in Goodreads and/or OCLC‐ WorldCat , we created a Final‐Work‐ID . 
+This enabled us to identify the most comprehensive relational overview of one work . 
+If it a particular ISBN was not identified at all in Goodreads or OCLC‐WorldCat , the individual item was given its own Final‐Work‐ID . 
+A final Expression‐ID was created for each work based on the following rules . 
+First , if a manifestation ( of a book ) was published in the same year and in the same language , then it was identified as being the same expression . 
+If a manifestation ( of a book ) was published in the same year but in a different language , then it was categorized as being a different expression . 
+The last part of the Expression‐ID was designed to show the number of manifestations related to one expression . 
+Table 1 presents a sample list of related ISBNs from our final data set . 
+Note that we retrieved 24 unique ISBNs ( i.e. , physical manifestations ) of the same work titled Manias , Panics , and Crashes . 
+In the BKCI , we found two ISBNs ( i.e. , 978‐14‐03936‐51‐6 and 978‐02‐30365‐38‐4 ) , and both were indexed separately as distinct entities rather than two manifestations linked together to represent the same work . 
+The ISBN at line 20 was not found in any other database except the BKCI ; thus , according to our methodology ( point 9 ) we counted it as a separate work . 
+With the OCLC‐WorldCat we found 14 more unique ISBNs related to this title , and with Goodreads we found an additional eight ISBNs . 
+Note also that out of the 24 unique ISBNs for Manias , Panics , and Crashes : A History of Financial Crises , 18 could be categorized with a full Expression‐ID , based on the rules that we developed for identifying expressions and the metadata available to confirm these rules . 
+Only 12 were labeled formally as unique expressions . 
+In the end , only seven editions could be unambiguously identified when we carried out a search using Google for all expressions related to each publication year . 
+This means that some of the publication years may have been recorded in error . 
+While OCLC‐WorldCat tends to be a more reliable database for retrieving complete metadata , Goodreads tended to support the retrieval of more unique ISBNs . 
+OCLC‐WorldCat was particularly useful for identifying “ expressions ” of a particular work due to its regular indexing of publication year and language . 
+Goodreads , on the other hand , supported a much better understanding of the relationship between the ISBNs because , unlike OCLC‐WorldCat , all ISBNs were united under one work‐related metadata tag . 
+Table 2 indicates the results of our data crawling and matching procedure beginning with two original data sets—1 ) an ISBN list from the BKCI , and 2 ) an ISBN list from the Danish PURE repository . 
+In relation to the 16,392 ISBNs retrieved from the BKCI , an extra 30,903 ISBNs ( 65 % more ) were found following the API procedures with OCLC‐WorldCat and Goodreads . 
+With the Danish PURE repository only a few extra related ISBNS ( 19 % ) were found using the APIs . 
+Figure 3 indicates the number of works from the full data set with one or more ISBNs ( i.e. , physical manifestations ) , including those that had been published as one or more editions ( i.e. , distinct expressions ) . 
+Although a little more than half ( 52 % ; n = 12,723 ) were published with only one ISBN , almost half ( 48 % , or n = 10,249 ) could also be identified as having two or more ISBNs . 
+The highest count of ISBNs was a total of n = 28 for one work , and the lowest was 1 , but on average , a scholarly work is likely to be published as two editions , each with approximately three different ISBNs . 
+Frequency distribution of works with one or more ISBNs and published as one or more edition . 
+Figure 4 presents the indexing quality of the BKCI pertaining to editions or expressions of a work published in 1995 , up to and including 2015 . 
+We selected this time frame because 98 % of the ISBNs originally retrieved from the BKCI were for at least one edition of a work that had been published between these years . 
+The black portion of each column per year indicates that all ISBNs related to an edition of a work are present in the BKCI . 
+With the ISBN as the counted variable , this means that several works in their entirety have been accurately indexed . 
+The white part of the column indicates that there is at least one ISBN indexed for a particular edition of a work , but that ISBNs for additional family‐related editions are missing . 
+The gray portion at the top of each column then represents all of these missing editions , which were confirmed to exist based on data matching with Goodreads and OCLC‐WorldCat , but were not recorded in the BKCI . 
+Indexing quality of the BKCI based on ISBNs per edition for publication years 1995–2015 . 
+Note that for the publication year of 2005 , most editions ( i.e. , expressions ) had been fully indexed in the BKCI , as shown by the proportionally longer black column . 
+For the publication year of 2009 , more editions in general were added to the BKCI , but a full indexing of each edition ( i.e. , expression ) and related ISBN seems to decrease , as shown by the proportionally longer white column . 
+Again , the gray column indicates the proportion of editions that have no representation in the BKCI . 
+For the publication year of 2010 and onward there is no real observable pattern other than the fact that the indexing quality for all editions ( expressions ) has remained inconsistent . 
+To illustrate this indexing problem more clearly , we refer back to the sample title list shown in Table 1 . 
+From this table , note that both the fifth and sixth editions of Manias , Panics , and Crashes : A History of Financial Crises had been indexed in the BKCI , but all earlier editions published ( or printed ) in the years 1978 , 1989 , 1996 , and 2000 , each with their own related ISBNs , were not added . 
+Overall , what we found is that for all of the monographs originally identified with ISBNs in the BKCI , 21 % of their related editions ( or expressions ) were not represented . 
+Figure 5 shows the same information shown in Figure 4 , but this time for the Danish PURE repository system . 
+Here the indexing quality for editions per work tends to be much better . 
+Note also that most of the works that had been registered in PURE do not have more than one associated ISBN ( as shown by the black and white portion of the columns ) . 
+There could be two reasons for this : i ) many works were never published or reprinted again as second or third editions with new ISBNs , or ii ) the Danish author decided to only register his/her work under a single ISBN . 
+Also , if an author had been responsible for producing and publishing both a Danish and English edition of a work , both would have had to be indexed . 
+For some works identified as having a nonindexed edition ( i.e. , the proportionally smaller gray bars ) , we found that only a Danish edition of a work was registered , but not the original language one . 
+If the Danish author‐as‐translator did not produce the original language edition , she or he would not have been required to register this in PURE . 
+Indexing quality of the Danish PURE repository system based on ISBNs per edition for publication years 1995–2014 . 
+Figure 6 illustrates the extent to which emblematic expressions were indexed in the BKCI for the publication years of 1990 up to and including 2014 . 
+For all works with more than one edition ( i.e . 
+expression ) in our data set ( n = 10,731 ) , we were able to identify a total of n = 3,370 that were emblematic . 
+Again , the emblematic edition or expression is the first publication and printing of a work as an original intellectual contribution . 
+According to our data , 40 % of these emblematic expressions had not been indexed , even though they are represented in the BKCI in the form of later editions . 
+Indexing of emblematic expressions of a work in the BKCI based on ISBNs per edition for publication years 1995–2014 . 
+With the Book Citation Index currently as it is , counting citations to monographs is problematic ; hence , a discussion is needed both in light of FRBR standards and our study results . 
+While many similar problems apply to edited books , here we focus strictly on monographs . 
+One of the data accuracy problems related to the BKCI stems directly from the referencing practices of researchers . 
+With the BKCI structured as it is now , “ monographs may be underrated in terms of citation impact or overrated because individual chapters are counted separately ” ( Leydesdorff & Felt , 2012 , p. 1 ) . 
+For instance , if a scholar who writes a research paper refers repeatedly to a specific chapter , ( s ) he may choose to cite only that chapter . 
+If the scholar refers to several chapters from the same monograph , ( s ) he may choose to cite the full monograph . 
+There is no rule regarding this practice , but different research associations often set guidelines . 
+According to the Publication Manual of the American Psychological Association ( 2001 ) , referencing a chapter from a monograph is in fact not recommended ( note : only a chapter from an edited book ) , yet there are instances in the BKCI where this occurs . 
+For example : Full Monograph : Moed , H. ( 2005 ) . 
+Citation analysis in research evaluation . 
+Dordrecht , NL : Springer . 
+Chapter in Monograph : Moed , H. ( 2005 ) . 
+Assessing social sciences and humanities . 
+In Citation analysis in research evaluation ( pp . 
+145–166 ) . 
+Dordrecht , NL : Springer . 
+If this practice continues , and the BKCI is redeveloped to follow FRBR , the problem of citation undercounting would cease to exist . 
+In other words , separate citation counts might still be attributed to the Moed ( 2005 ) chapter‐based reference as well as the monograph‐based to reference , but the implementation of a work‐related identifier would confirm that the two records are related . 
+Applying the FRBR standard to the BKCI would , in general , ensure that all expressions of a work are indexed distinctly with an identification code . 
+This is our first recommendation , and to some degree it has already been accomplished . 
+For instance , currently there are two separate indexed editions of Manias , Panics , and Crashes in the BKCI ( see Table 1 ) , but not all editions have been indexed ( as the data illustrate in Figure 4 ) and with the two that are present , there is no linking ID that shows they are part of the same work or progenitor . 
+For all expressions and not just these two , a primary work identifier is critical , and will show the extent to which different editions within the BKCI belong to the same bibliographic family . 
+The follow‐up effect of this practice is that bibliometricians would also have new options for collecting citation counts at specific family levels . 
+A suggested indexing structure for the BKCI , including levels for citation counting , is outlined in Figure 7 . 
+Recommended indexing structure for the BKCI . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Note from Figure 7 , that a work is the highest proposed target entity for a citation count ; while all individual expressions ( editions ) constitute the lowest proposed target entity . 
+Each expression of Manias , Panics , and Crashes has been labeled from # 1 to # 7 ( note : see Table 1 ) . 
+The first four expressions link back to the same work , and the last three expressions may potentially be indexed as new work ( s ) , as illustrated by the line leading to the box labeled “ New Work ID. ” Earlier , we indicated that Bod 's ( 2013 ) English translation of De Vergeten Wetenschap , newly titled as A New History of the Humanities , was said to possess augmented properties that make it identifiable as a new work . 
+With Figure 7 , we also show that when the fifth , sixth , and seventh editions of Manias , Panics , and Crashes were published , C.P . 
+Kindelberger was no longer writing alone , but with R.Z . 
+Aliber as his coauthor . 
+For these later editions , particularly the sixth one , a note on Amazon.com indicates that there have been changes to the content : “ This highly anticipated sixth edition has been revised to include an in‐depth analysis of the first global crisis of the twenty‐first century ” ( Amazon.com , 2016 ) . 
+Sometimes small revisions appearing in a new edition still fit the abstract and intellectual concept of the work as a whole , but because the revisions in this case are substantial , one might apply both a new author and augmented text rationale towards indexing the last three editions of Manias , Panics , and Crashes under a new work ID . 
+At Figure 7 , the arrows leading to the box labeled “ citations/libcitations ” illustrate how our proposed indexing structure would support metric assessments books at different bibliographic levels , and for two different types of metric indicators . 
+For example , one could analyze the sum of citations given to the first four expressions of Manias , Panics , and Crashes at # 1 to # 4 ( i.e. , the work as a whole ) , or evaluate the individual counts of citations/libcitations given to each expression at # 1 to # 4 . 
+The same process may be repeated again , for every expression indexed as a new work ( i.e. , # 5 to # 6 ) . 
+Again , the indexer has little control over the appearance of references in the academic literature , but if most scholars adhere to proper guidelines , a reference should always be given to the correct edition of a monograph used at the time of writing . 
+Figure 7 also illustrates that the two different counting options may be applied to libcitations or library holdings for each cataloged edition ( e.g. , using OCLC‐WorldCat ) . 
+The value in calculating indicators at different bibliographic levels is that it can help to identify whether or not a specific expression or edition of a monograph is receiving more attention than the work as a whole . 
+For instance , one specific expression of a work may be cataloged in libraries , used , referred to , or reviewed more frequently than another . 
+This could be the literal translation of a non‐English edition of a work to English , with the new English‐language edition potentially having a wider appeal . 
+For some types of translated works , in fact , an author might even have more than one metric profile . 
+At Figure 2 , we see how distinct metrics could be calculated for De Vergeten Wetenschappen ( Bod , 2010 ) as well as for A New History of the Humanities ( Bod , 2013 ) . 
+The delineation between new monograph expressions ( editions ) would also support the identification of associated descriptive works ( e.g. , book reviews , commentaries ) . 
+Last but not least , bibliographic levels present better opportunities for bibliometricians to discuss the merits of certain weighting options . 
+The purpose of this study was to investigate the extent to which books currently indexed in the Book Citation Index ( BKCI ) have adequate metadata and data designed to reflect inherent familial components and relationships . 
+Our research focuses primarily on monographs , and the results confirm that some familial components are present in the BKCI , but not all . 
+In terms of ISBNs , many are missing for extra editions of the same work and many in particular that need to be indexed are the ISBNs of emblematic ( original/first ) editions . 
+The purpose of including all ISBNs is to ensure that every physical manifestation of a monograph is recognized ( e.g. , print , paperback , hardcopy , e‐print ) and that each ISBN is indexed as part of the correct edition or expression . 
+This , in turn , ensures that all monograph editions can clearly be identified as being part of the same intellectual contribution , or work . 
+Thus , publication counts and citation counts would be more accurate in the BKCI , and new metric indicators could be calculated more effectively . 
+Part of this research was also designed to compare the indexing of monographs in the BKCI with the Danish PURE repository system . 
+Only a small percentage of books ( 0.41 % ) that had been indexed in eight Danish university PURE databases were also present in the BKCI . 
+The BKCI is therefore not a reliable or accurate tool for citation‐based evaluations of Danish scholars who mainly publish books . 
+At present , the Danish evaluation system does not focus on citations , or citation‐based approaches to evaluation . 
+However , indexing problems still point to some drawbacks related to the PURE system when taking a performance‐based approach . 
+If monographs continue to be indexed without recognizing that they are family‐based entities , a few problems might arise . 
+For example , if coauthoring scholars from two different Danish universities register two manifestations of the same work differently in PURE , this could result in a single BFI point given to each university department . 
+Normally , if two scholars are responsible for the same work , each department should actually receive a fractionalized BFI point for the shared contribution . 
+Until it is clear whether or not FRBR might be applied to the PURE system , the Ministry of Higher Education and Science in Denmark is at least making an effort to improve the accuracy of book registrations , by producing and publishing a set of document registration guidelines ( Uddannelses‐og Forskingsministeriet , 26 January 2017 ) . 

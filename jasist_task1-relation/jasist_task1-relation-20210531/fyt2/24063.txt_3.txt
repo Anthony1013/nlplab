@@ -1,0 +1,117 @@
+However , age and gender is resolved for each author . 
+We used the associated author‐id of each post to aggregate all posts of a particular author . 
+These aggregated posts are then utilized to resolve the age and gender of each author . 
+As explained in the previous section , resolved gender and age is assigned to the relevant posts of that author considering the identified narrative type of each post . 
+Age , gender , and narrative type extraction techniques are linear in time complexity ( ) and thus efficient and scalable to handle a large number of posts . 
+In addition , each patient profile can be independently processed by individual threads in a multithreading environment . 
+Figure 5 shows experimental execution time results obtained against a number of posts . 
+The experiments were carried out in a 16 core 1.4Mhz server . 
+It shows that the time complexity is linear with number of posts . 
+A total of 1,000,000 posts ( an average of 153 words per post ) were extracted in 6,060 seconds in a single threaded environment , and only 3,000 seconds with five parallel threads . 
+Note that the slight increase of execution time with 10 parallel threads is due to I/O resource bottlenecks . 
+Total time taken for age , gender , and narrative type extraction against number of posts processed . 
+As discussed in a previous section , the medical concept extraction is carried out using cTAKES ( Savova et al. , 2010 ) , which runs on the highly scalable Apache UIMA framework ( Ferrucci et al. , 2009 ) . 
+Each post is structured with the extracted knowledge ( narrative , demographic , and medical ) and published date . 
+We employed an open source search platform , Elasticsearch,33 https : //www.elastic.co/products/elasticsearch to store this data set since it handles both full‐text and a structured search . 
+Elasticsearch is a distributable full‐text search engine , designed to be scalable to handle very large data sets ( Kononenko et al. , 2014 ) . 
+Indexing and search performance metrics for Elasticsearch benchmarks44 https : //elasticsearch-benchmarks.elastic.co/ are available online . 
+Table 5 provides a distribution of the extracted information from the above data set . 
+The proposed demographic extraction modules managed to resolve age and gender of 47 % of the posts in the collected data set compared to the reported 30 % success by Cho et al . 
+( 2013 ) . 
+Approximately 80 % of the posts discuss patient experience and among them the majority ( 78 % ) are first‐person experience . 
+Among the gender resolved posts , 83 % is authored by females , whereas only 17 % is from males . 
+We have further investigated this in the research literature . 
+Kummervold et al . 
+( 2002 ) report that women are more participative in OSGs than men . 
+Li , Lin , and Wang , ( 2015 ) state that women tend to self‐disclose more information than men . 
+Therefore , we assume there is less male participation in OSGs , and also even the participating males tend to expose less information to identify their gender . 
+As discussed in previous sections , the proposed method provides personalized ( relevant and reliable ) information in response to patient search queries based on their medical and demographic information . 
+We first employed the medical information extracted from the patients ’ query to identify the posts that are experiences and contain same medical information . 
+Such posts are then ranked based on the demographic similarity of the author to the demographics of the patient . 
+For this ranking we use a custom relevance measure based on age and gender . 
+Where and are the weights for age and gender , respectively . 
+is the indicator function which is 1 if P g equals and 0 otherwise . 
+Weight of age is associated with a Gaussian decay function , which is 1 if equals P g . 
+is used to control the granularity of age matching where smaller values make the decay function decrease rapidly with the age difference and vice versa . 
+and are set to 0 if the patient does not provide their demographic details . 
+The OSG posts are ranked based on this relevance measure and presented to the patient . 
+In this patient use case we demonstrate how personalized retrieval can provide relevant and reliable information to the patient compared with the existing full‐text search . 
+We use the same query : “ I 'm a 40 year old woman taking Nexium for heartburn . 
+” Contextual information is initially extracted from the query and used to identify medical information ( symptom : heartburn ; medication : Nexium ) and demographic information ( age : 40 ; gender : female ) . 
+Most relevant experiences are retrieved from the database using the above‐mentioned method . 
+For comparison of results we employed two approaches of full‐text search : ( i ) default search in the OSG , and ( ii ) search key terms with the Boolean aggregation “ AND ” ( retrieves the posts that contain all the search terms ) . 
+Excerpts from the top five results from our method and the two approaches of the full‐text search are provided in Table 6 . 
+The key terms that are relevant to the query is highlighted in each excerpt . 
+Note that some experiences retrieved by the proposed method do not have age or gender mentioned in that post . 
+This is because age and gender is resolved for each author using all posts by that author , so age or gender of that author is inferred from other posts and not the retrieved post . 
+The proposed method Breaks the query into the following structure : { symptom‐ heartburn , medication‐ nexium , age‐40 , gender‐ female } ( female,40 ) : how I cured my gastritis… side effect of fish oil is heartburn … my doctor said I could try nexium as well I decided not to… my husband made gluten‐free banana bread… I am 40 … ( female,40 ) : I had a very severe attack during a 24 hour ph probe test . 
+I used to have heartburn … I am on nexium , ranitadine and donperidone… I too am 40 years old but I feel 80… ( female,43 ) : my …it 's been in a long time and the heartburn seems to be easing off… inhibitors are medication for reducing acid in your tummy like nexium and zoton… I 'm only 43 and feel my life is… ( female,50 ) : I 'm a 50yo aussie female with barrett's… I still have heartburn if I eat/drink the wrong things or forget to take my medication for a few hours… I was on nexium 40 forever until I saw a different GP… ( female,30 ) : i am bloated and get heartburn all the time…iam 30yrs old wiv 4kids…take them today along with nexium . 
+Nexium in my opinion is of no use at all… Nexium and side effect , anyone here while taking nexium suffer diarrhea… I was taking another PPI tablet for heartburn for about 2 years ( nexium ) constant burping …no pain or heartburn . 
+I have been taking nexium for the past two weeks to relieve constant burping… Just wondering if … if you have been on nexium for a long time ? 
+women would be the ones who might find their iron levels low… I am a 40 year old woman with no notable health problems aside from the nephrotic syndrome . 
+At 10 years old I was diagnosed with primary focal segmental glomerulosclerosis The above results show that the proposed method retrieves more relevant posts for the given query . 
+Instead of taking key terms of the query as‐is , the proposed method identifies that the patient is a female and her age is 40 . 
+Therefore , it retrieves similar experiences from females who are aged close to 40 . 
+Also , the posts do not necessarily need to have age and gender mentions in the post itself , as they were resolved for each author . 
+In comparison , the second query ( full‐text search in the OSG ) attempts a direct string matching with the search terms and retrieves partially matched results that contain any ( unknown ) combination of search terms . 
+It is apparent that the last match of this query is irrelevant , because it is only matching “ woman ” and “ 40 ” but does not have the symptom “ heartburn ” or the medication “ Nexium. ” The third query has a very low recall , with only one retrieved post , as it is rare to have all four terms in a single post . 
+Also , it is clearly noticeable that the match term “ 40 ” is not an age mention . 
+Medical research is often conducted using small samples of patients due to the associated cost ( both time and money ) of such research . 
+On the other hand , such information is accumulated in OSGs , crowdsourced by real patients . 
+These untapped resources are inaccessible to researchers due to inherent noise , unstructured nature , and diversity of information representation . 
+Researchers have to attempt the formidable task of executing full‐text queries and manually extract information from the resulting posts . 
+As previously illustrated in Figure 2 , the proposed method builds a structured layer on top of the unstructured text of OSG posts , which can be utilized for OSG analytics . 
+As shown in Figure 6 , each post can be represented using five dimensions that enable researchers to conduct OSG analytics and gain insights . 
+It provides unprecedented access to OSG data from different viewpoints . 
+Five dimensions of an OSG post . 
+In order to demonstrate the OSG analytics capability , we performed several analyses on patients who report the symptom heartburn . 
+Note that this attempt is solely to showcase the analytical capabilities and not a comprehensive medical research on heartburn . 
+Dimensional analysis : In this analysis we combine the age and gender dimensions shown in Figure 6 and present a demographic distribution of patients who report the symptom heartburn . 
+Figure 7 shows the demographic distribution of posts that mention the symptom heartburn . 
+This type of analysis is useful to identify the age groups that are more affected by a particular symptom and also observe potential demographic biases . 
+Demographic distribution of the posts that mention symptom “ heartburn. ” Association mining : The OSG analytics layer is also useful for association mining . 
+It can be used to analyze associations between different symptoms in order to identify coexisting symptoms . 
+Table 7 presents the top five other symptoms that coexist with the symptom heartburn in different age groups . 
+Temporal analysis : The Date dimension can be used to perform temporal analysis to identify seasonal patterns in the OSG . 
+Figure 8 shows the temporal distribution of the post counts that report the symptom heartburn drawn for each month for a period of 3 years . 
+It shows that over the 3‐year period , reported heartburns are relatively high during March and April . 
+Temporal distribution of the posts that mention symptom “ heartburn ” over a 3‐year period . 
+These examples highlight the importance of the proposed method for medical research , which can be effectively used to conduct large‐scale analytics investigations on OSG participants . 
+Furthermore , the proposed methods have been advanced into an oncology care framework for the analysis of patient‐reported outcomes and emotions ( Ranasinghe et al. , 2017 ; Bandaragoda et al. , 2018 ; Ranasinghe et al. , 2018 ) . 
+This section evaluates the three knowledge extraction modules : ( i ) narrative type classification , ( ii ) age resolution , and ( iii ) gender resolution . 
+We obtained the services of qualified domain experts for manual classification of test data sets . 
+Narrative type classification was evaluated using a labeled set of posts as advice or experience . 
+Age and gender resolution was evaluated using a labeled set of OSG post authors using their published posts . 
+Narrative type classification is evaluated using 500 posts labeled by domain experts as experience or advice . 
+Note that we ignored the subclassification of experience ( experience : first person and experience : second person ) for this evaluation , because experience : second person is relatively rare in the data set . 
+It is evaluated as a classification problem where the two classes are Experience and Advice . 
+Table 8 presents the evaluation results . 
+The results show that both Experience and Advice are identified with a precision above 0.9 . 
+Recall of Advice is relatively low mainly because some advising posts are mixed with the authors ’ experience and therefore hard to identify them as advice . 
+Age and gender resolution was evaluated using a set of 300 labeled author profiles . 
+Posts of each author were examined to identify age or gender of the author if such information was present . 
+Each author profile was annotated based on the identified age and gender . 
+The labeled data are then compared to the output of age and gender resolution modules . 
+We employed precision and recall statistics for this evaluation . 
+Note that age is often mentioned in incremental values for some authors as a result of prolonged contribution to the OSG over several years . 
+Therefore , age resolution is considered correct if it falls within two integer values of the labeled age . 
+Similar to the previous evaluation , performances of the gender and resolution modules are evaluated as classification problems . 
+For gender , the classes are Female , Male , and Unknown and for age , classes are Age mentioned and Age not mentioned . 
+Note that in the Age mentioned class the classifier has to correctly resolve the age value ( within two integer values to the labeled age value ) in order to be a true positive . 
+Table 9 and Table 10 present the gender and age classification results , respectively . 
+Both age and gender resolution have average precision and recall over 0.85 . 
+Recall for Male is relatively low . 
+Most of those misses are classified as Unknown , as the classifier misses the gender‐specific clues . 
+This is mainly because males tend to expose very few clues about their gender compared to females . 
+Precision in the Age mentioned class is relatively low because when a profile does not have actual age mentions , the classifier tends to pick up low confidence age mentions that are often age mentions in past incidents or age mentions about other people . 
+The same issue results a relatively low recall in Age not mentioned class as well . 
+As widely emphasized in the medical literature , sustainable and inclusive information cycles that extend across researchers , healthcare professionals , policy makers , and patients are a key element in the transition towards patient‐centered care . 
+OSGs play an informal yet active role in addressing this void . 
+In this article , we present a novel method that imposes a relevant and reliable knowledge extraction layer on to large volumes of unstructured text in OSGs used by patients for information exchange and emotional support . 
+This knowledge extraction layer is developed by extending current text‐mining techniques to retrieve age , gender , and narrative type from text ; and domain ontologies to retrieve symptom and medication mentions . 
+Age , gender , and narrative type extraction modules show high precision and recall when evaluated with labeled data sets . 
+As future work , the knowledge extraction layer can be extended with further knowledge extraction modules to extract more information from unstructured text such as demographics ( ethnicity , weight , height , and so on ) and personal health information ( family history , allergies , surgeries , and so on ) . 
+Moreover , other crowdsourced information sources such as Facebook and Twitter can be integrated to increase the coverage on public patient health information . 
+The proposed method was tested on a collection of 800,000 OSG posts , which demonstrates its scalability . 
+The capacity to handle information needs of patients with high relevance and reliability as well as the capacity to provide aggregated OSG analytics to researchers were also demonstrated . 
+In summary , this novel approach for personalized knowledge extraction from crowdsourced OSG data elucidates a broad spectrum of individual and aggregate knowledge that makes a noteworthy contribution towards patient empowerment , patient‐centered care and “ health information for all . 

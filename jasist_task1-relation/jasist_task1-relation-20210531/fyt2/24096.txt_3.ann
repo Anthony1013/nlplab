@@ -1,0 +1,19 @@
+T1	表 911 1059	Thus , we made a comparison of the number of tweets collected by the keywords versus those that are truly related to the event , as shown in Table 4
+T2	研究方法 1614 1742	In this article we proposed a method for collecting event‐related tweets from Twitter Stream with high precision and high recall
+T3	研究结果 2828 2934	Experiment results on both data sets suggest that the proposed method outperforms state‐of‐the‐art methods
+T4	研究结果 2939 3037	The method achieves the goal of high recall and high precision with little human annotation effort
+T5	具体模型 209 212	LDA
+T6	具体模型 215 218	TTM
+T7	具体模型 225 228	ADP
+T8	具体模型 204 206	DL
+T9	具体模型 16 18	AR
+T10	具体模型 119 121	AR
+T11	具体模型 400 403	ADP
+T12	研究方法 1747 1836	Our proposed method consists of keyword extraction and event‐related tweet identification
+T13	研究方法 1841 1944	Due to the large volume of tweets , we collect candidate tweets from Twitter Stream by a keyword search
+T14	研究方法 1949 2054	We evaluated keywords to be qualified queries by three properties : relevance , coverage , and evolvement
+T15	具体模型 2191 2223	Autoregressive time series model
+T16	研究方法 2059 2142	We ranked keywords by a ranking function that considers both relevance and coverage
+T17	研究方法 2147 2223	The evolvement property was measured by the Autoregressive time series model
+T18	研究方法 2571 2700	In addition , uncertainty sampling was used as a query strategy and multiple‐instance learning was adopted as a labeling strategy
+T19	研究方法 2423 2566	To reduce the human annotation effort , we grouped near‐duplicate and similar tweets into clusters , and fit them in an active learning process

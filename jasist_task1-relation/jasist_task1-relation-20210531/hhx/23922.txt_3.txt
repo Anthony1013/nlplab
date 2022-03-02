@@ -1,0 +1,130 @@
+This general‐purpose prediction approach corresponds to the model described by Equation 1 . 
+Our second baseline is the method proposed by Milne and Witten ( 2013 ) which , to the best of our knowledge , achieves the best performance in wikification . 
+This method , referred to as MW2013 , learns a decision tree based on the features associated with nodes and links . 
+For the learner , we used the implementation of algorithm C4.5 provided by Milne and Witten ( 2013 ) . 
+Figure 2a , b compare these two methods with our approach . 
+We refer to our model as latent + feature : it corresponds to the predictor described by Equation 2 . 
+The figure shows AUC and F 1 average values obtained for the three methods on the test dataset . 
+In this experiment , the methods were trained using from 10 % to 100 % of the training samples : this allowed inspecting their predictive performance as more training samples are available . 
+The figure provides standard error values considering 95 % confidence intervals . 
+Performance achieved in the test set when used fractions of training set are used . 
+( a ) Learning curve for AUC ; ( b ) learning curve for F 1 . 
+As we can see , our latent + feature outperforms the baselines when trained with more than 20 % of the training samples , both in AUC and F 1 and by using only 30 % of the training samples , was able to outperform both baselines even when trained using all the available training samples . 
+Besides , latent + feature continuously learns useful patterns as the training set increases . 
+As consequence , gains over the baselines are increasingly larger for increasingly larger training datasets . 
+When trained using all available training samples , latent + feature reached gains about 2 % and 13 % in AUC and F 1 , respectively , over the best reported method in wikification literature — the MW2013 model . 
+This is not the case of the logistic regressor ( i.e. , feature model ) which quickly reached its peak performance , not being able to take advantage of additional training examples . 
+When comparing the AUC and the F 1 metrics , we observe that the performance of MW2013 is lower for F 1 than for AUC . 
+As consequence , MW2013 was competitive with logistic regression only when compared using the AUC metric . 
+Regarding the error , we note that the smaller is the training sample size , the higher is the standard error . 
+The comparison of our model with the feature model suggests that the latent component is able to take advantage of additional data , as both AUC and F 1 increase when more training data is available . 
+We also note that the standard error is in general smaller for our model . 
+Our latent + feature model is composed of three prediction components : latent , monadic , and dyadic . 
+The latent component corresponds to the set of latent features derived from the entire concept graph . 
+The monadic component is associated with the article features whereas the dyadic component is associated with the link features . 
+To analyze the importance of an individual component C , we have configured our model such that it is composed ( a ) only of component C or ( b ) of all components except C . 
+This way , we can infer the importance of C when taken in isolation and when removed from the model . 
+The result of this analysis is summarized in Table 2 , where columns Single and Excluded present the average performance observed on test sets for each predictor component , taken in isolation or excluded , respectively . 
+The line indicated by All presents the results obtained by the combination of all components and corresponds to the complete model described by Equation 2 . 
+Performance figures in the table are given in AUC with 95 % confidence intervals . 
+Although not shown , similar results were obtained using F 1 . 
+We first note that the best overall result was obtained by the complete model ( All ) . 
+Among the models based only on a single component , the dyadic was the best with a loss of 8.2 % . 
+The second best was the Latent88 We also analyzed , in the Latent model , the contributions of the symmetric component and the asymmetric component , separately . 
+As we observed that the combination of two components provided the best results , Latent corresponds to this combination in all experiments in this article . 
+We also observed that the asymmetric component was harder to train , due to its complexity . 
+As result , the symmetric component was generally more important in the combination . 
+based model with a loss of 17.4 % . 
+We highlight the effectiveness of the latent component . 
+In spite of compressing the information of the ( observed ) concept graph in a small matrix , it was able to reach a performance only 9 % worse than the dyadic component , which stores a much larger amount of information about the links . 
+Unlike the previous components , the monadic presented a very poor prediction performance , with a loss in AUC of 35.6 % . 
+As in the previous analysis , dyadic and latent components were the most important when removed from the model . 
+The removal of the dyadic component resulted in a 17.9 % loss in AUC , whereas the exclusion of latent component led to a 2 % loss . 
+These results imply that , as expected , most of the information on the latent component is also present in the dyadic component . 
+Also , the choice of k in the latent component led to a loss of useful information observed in the dyadic component . 
+However , the latent component clearly improves the overall performance when combined with the dyadic component . 
+This suggests that the latent component is able to capture patterns not observed in the dyadic component . 
+The result obtained for the monadic component was not statistically significant as its standard error overlaps with the baseline figure ( 0.912 ±0.003 for All against 0.907 ±0.006 for Monadic ) . 
+In other words , the monadic component has little to no contribution to the complete model . 
+To infer the impact of the dyadic attributes , we study the prediction performance ( a ) after adding them to the model based only on the latent component ( we discarded the monadic attribute from this analysis because it gave a poor performance in previous analysis ) , and ( b ) after removing them from the model based on the complete model ( All in Table 2 ) . 
+Table 3 summarizes the impact of each attribute when included in the model . 
+All the dyadic attributes , taken in isolation , improved the performance of the basic latent predictor . 
+None of them , however , could surpass the combination of latent and dyadic components ( cf . 
+Table 4 ) . 
+Among the attributes , Relatedness , Link probability , and Disambiguation confidence are the ones with higher impact . 
+Attributes Location and Frequency have little impact on the result . 
+This suggests that the relatedness between a pair of concepts and its probability of being observed as an anchor in the past constitute better pieces of evidence to distinguish what should be a link than the location and frequency of the pair of concepts . 
+F 1 results basically mirror what is observed with AUC . 
+Table 4 is like Table 3 , but infers the impact of an attribute by removing it from the model . 
+Unlike the previous table , the smaller the metric value is , the bigger the importance of the attribute . 
+General conclusions taken from this table are very similar for AUC and F 1 . 
+As we can see , only Relatedness and Link probability provide unique information that , if omitted , leads to performance degradation ( respectively −3.6 and −1.6 losses in AUC ) . 
+The other attributes , when removed , have no significant impact on the prediction performance . 
+Their results are all statistical ties . 
+This suggests they do not provide information that is not already provided by other attributes . 
+In sum , among the attributes , Relatedness and Link probability are the best ones . 
+This time , Disambiguation confidence was not so useful , which was also the case for Location and Frequency . 
+We note that Disambiguation confidence performed better when combined with latent factors than when excluded from the complete model . 
+This suggests that Disambiguation confidence provides complementary information to that provided by the latent factors . 
+When removed from the complete model , its impact is not important because of its redundancy regarding other attributes as Relatedness . 
+In fact , the small gains observed in Table 4 indicate that all the attributes carry dependent information . 
+For instance , disambiguation information is probably present in Disambiguation confidence and Relatedness . 
+Clearly , Relatedness and Link probability are very correlated . 
+An important problem in wikification is the disambiguation of labels into concepts . 
+Unlike previous methods which disambiguate the labels before classification , our approach does not explicitly disambiguate concepts : we achieve a good performance even when using less information . 
+Before analyzing the performance of our model , we recall that the degree of ambiguity Ac of a concept c is given by the average of senses ( concepts ) related to the labels used to represent c . 
+Thus , if every label associated with c has a single concept , the value of Ac is 1 and we say that c is not ambiguous . 
+Here , we are interested in the performance of the methods regarding concepts c such that . 
+Figure 3 summarizes the performance of our model when applied to increasingly ambiguous concepts . 
+To this , we grouped 50,000 pairs of concepts ( extracted from the pooled predictions of all test sets ) into four bins which correspond to the Ac intervals , and , respectively . 
+For each interval , the figure shows the proportions of hits ( true positives and true negatives , in blue ) and misses ( false positives and false negatives , in red ) . 
+Proportions of hits and misses for increasingly ambiguous labels . 
+The figure shows that our model is little affected by ambiguity . 
+Because we did not classify ambiguous concepts before detecting anchors , our model was able to naturally learn how to deal with ambiguity . 
+This was somewhat expected because we included in the model some attributes useful to recognize ambiguity , disambiguation , confidence , and Relatedness . 
+From now on , we refer to these two attributes as disambiguation attributes . 
+To better understand the impact of ambiguity , we experimented two versions of the model : ( a ) using only disambiguation attributes ; ( b ) using only the latent component . 
+Figure 4 summarizes the performance of these two versions when applied to increasingly ambiguous concepts using the same pairs as in Figure 3 . 
+Proportions of hits and misses for increasingly ambiguous labels . 
+( a ) Only disambiguation features ; ( b ) only latent component . 
+Figure 4a shows the predictor based only on disambiguation features is not much effective to distinguish anchors as labels become increasingly ambiguous , except for the last bin . 
+This is the fact that the degree of ambiguity of labels is weakly correlated to the property of labels being or not anchors . 
+The unusual behavior observed in the last bin corresponds to an exception associated with the small size of this bin as concepts with more than four senses are rare . 
+Figure 4b shows the predictor based only on latent features achieves better performance in distinguishing anchors from not anchors than the one showed in Figure 4a . 
+This because the latent component compresses a rich information about the graph . 
+What is surprising is its stable behavior disregarding the degree of ambiguity of the labels , as the method seems to be little affected by ambiguity . 
+This suggests that the latent component naturally deals with ambiguity . 
+This is probably because the latent features capture the topology of the concept graph even if it is represented in a reduced space . 
+More specifically , the context information associated with a concept is naturally captured by the graph topology , as we expect that different senses of a label are “ located ” in different regions of the concept space . 
+Similarly , related concepts are clustered in the same regions of the latent space . 
+Overall , we observed that the more ambiguous the concepts are , the larger the proportion of misses is . 
+The latent component dealt very well with ambiguous concepts . 
+When combined with all other sources of evidence , the ( complete ) model could steadily distinguish anchors independently of their degree of ambiguity . 
+The Wikipedia linking guidelines99 https : //en.wikipedia.org/wiki/Wikipedia : Manual_of_Style/Linking recommend placing links if they are relevant and helpful in the context , because excessive linking can be distracting and slow the reader down . 
+On the other hand , redundant links clutter the page and make future maintenance harder . 
+Although both underlinking and overlinking should be avoided , overlinked articles make it difficult for users to identify links that likely to aid their understanding . 
+This is a common problem in Wikipedia , according to a study of log data conducted by Paranjape et al . 
+( 2016 ) . 
+The authors found that most of the links placed by editors are never or rarely clicked . 
+Thus , adding links does not increase the page click rate but compete with other links for user attention . 
+A possible reason for the finding by Paranjape et al . 
+( 2016 ) is that linking guidelines are not satisfactorily followed by Wikipedia editors . 
+This is not surprising if we note that such guidelines are really reinforced for few articles . 
+Although anyone can rate an article for its quality , strict control is only provided for A‐ , GA‐ , and FA‐class articles . 
+A‐class articles ( AC ) require the agreement of at least two editors . 
+GA and FA quality classes are assigned only after a review is conducted to approve the intended rating . 
+That review is performed by a review committee or by the editors of a WikiProject , who bear ultimate responsibility for resolving disputes . 
+Even though only high‐quality articles ( AC , GA , and FA ) are carefully inspected regarding compliance to the Wikipedia manual of style and its detailed linking guidelines , previous work in wikification regards any article as an equally good source of evidence about linking . 
+As such observation deserves some caution , we now investigate the impact on wikification of the quality of the articles selected for training . 
+To accomplish this , we randomly sampled 30 sets of 1200 articles clustered into six groups : ( a ) high‐quality test dataset : 200 articles with quality ratings AC , GA , and FA ; ( b ) high‐quality training dataset : 200 articles with quality ratings AC , GA , and FA ; ( c ) BC‐quality training dataset : 200 articles with quality ratings BC ; ( d ) CC‐quality training dataset : 200 articles with quality ratings CC ; ( e ) low‐quality training dataset : 200 articles with quality ratings ST and SB ; and ( f ) random training dataset : 200 articles with random quality ratings . 
+Using the training and test samples as above , we evaluated the performance of our complete model to predict anchors . 
+Table 5 shows the results of AUC , precision and recall . 
+Standard errors are calculated for a 95 % confidence level . 
+To provide a broad view , the table includes the corresponding quality class distributions in the Wikipedia English Edition and the Wikipedia School datasets . 
+The first column identifies the quality of the articles used in the training sets . 
+In all cases , only high‐quality articles were used in the test sets . 
+The first line ( Random ) presents the traditional training scheme adopted in literature , that is , training samples are randomly selected without taking into consideration their quality ratings . 
+Considering AUC , we first note that the model trained with the random dataset was outperformed by the one trained with the high‐quality dataset ( FA , AC , GA ) . 
+Although the difference was statistically significant , the gain was rather small to , at first glance , justify the selection of high quality training samples . 
+However , we also note that the performance obtained using the random training is more like the ones achieved with BC and CC training . 
+This was expected as BC and CC are the most common quality classes in the School dataset ( about 65 % of the samples ) . 

@@ -1,0 +1,130 @@
+Valuable information is found in large open repositories containing semantically interconnected articles : a case in point is Wikipedia . 
+Links in Wikipedia articles are created both to support navigation and to provide a semantic interpretation of the content ( Adafre & de Rijke , 2005 ) . 
+For instance , links may provide a hierarchical relationship with other articles or a more detailed definition of a concept . 
+In each article page , links are generally indicated by clickable , underlined text , called anchor text ( source anchor or anchor , for short ) . 
+Important concepts are denoted by anchor texts which belong to the content where they are mentioned . 
+The link associated with such an anchor points to an article which describes the concept corresponding to that anchor text.11 Because of this correspondence between concepts and articles in Wikipedia , we use these terms interchangeably in this work . 
+Thus , the anchors indicate the most important elements for the understanding of the article while the links represent the conceptual linkage which semantically approximates the content of different articles . 
+As such , Wikipedia can be seen as a repository of documents semantically linked which can also be used , for instance , by software tools associated with tasks such as ontology learning ( Conde , Larrañaga , Arruarte , Elorriaga , & Roth , 2016 ) , word‐sense disambiguation ( Li , Sun , & Datta , 2013 ) , concept‐based document classification ( Malo , Sinha , Wallenius , & Korhonen , 2011 ) , and web‐based entity ranking ( Kaptein , Serdyukov , De Vries , & Kamps , 2010 ) , to name a few . 
+Wikipedia editors are responsible for the identification of anchors and for the selection of the appropriate articles that should be pointed to by the anchors . 
+Given the prominence of Wikipedia as a collaborative encyclopedia , this task is referred to as wikification . 
+Considering the continuous growth of open reference collections , manual wikification has become increasingly difficult . 
+In such a scenario , automatic tools for wikification are important assets for content providers . 
+As it was the case for the automatic creation of links in general ( Wilkinson & Smeaton , 1999 ) , this motivated much research on automatic wikification following the seminal work by Mihalcea and Csomai ( 2007 ) . 
+In general , researchers propose wikification methods that explore the free availability of Wikipedia content and the large ground truth of encyclopedic links it provides ( e.g. , Milne & Witten , 2008 ) . 
+Usually these methods are concerned with two problems faced by Wikipedia editors : ( a ) how to identify the candidate concepts ( i.e. , the terms that particularly important for the understanding of the article ) and ( b ) how to disambiguate these terms to the appropriate concepts ( i.e. , to associate such terms with its most appropriate articles ) . 
+Wikification methods exploit techniques from Machine learning ( ML ) in general , and from supervised machine learning in particular . 
+Usually the wikification task is modeled as a classification problem where examples of links , described by means of statistical features , are used as training data . 
+These features try to capture characteristics of the concepts ( e.g. , how frequent a concept is in the article ) and its associations ( e.g. , how related two concepts are ) . 
+In particular , features about concept associations are very common because wikification can be viewed as the problem of predicting if there should be an edge ( link ) between two nodes ( concepts ) . 
+The aim is to classify whether an identified concept should be a link to another article . 
+Results reported in the literature show the effectiveness of ML‐based methods over manual wikification and unsupervised heuristics ( Mihalcea & Csomai , 2007 ; Milne & Witten , 2008 ; Ratinov , Roth , Downey , & Anderson , 2011 ; West , Precup , & Pineau , 2009 ) . 
+Despite the fact that Wikipedia has an underlying graph structure , most ML methods currently proposed for wikification explore the graph topological information taking into account only statistical features devised by human experts , such as the number of links shared by the articles . 
+As a result , most of them ignore latent aspects of the graph topology which could be captured by a data‐oriented method such as matrix factorization . 
+This is an important issue because topology information was successfully used to predict links in many domains using such techniques ( Koren , 2008 ; Menon & Elkan , 2011 ; Rendle , 2012 ) . 
+Another important issue is the quality of the link patterns learned by ML‐based wikification approaches . 
+As wikification methods capture link patterns from the training data , they learn from human editors what should be considered an appropriate link . 
+Given the free and open nature of Wikipedia editing approach , the varying background , expertise , and agenda of the human editors , the software can be fed with inappropriate examples of links which , in turn , may result in inappropriate link predictions . 
+To the best of our knowledge no previous work in literature studied this problem and proposed ways to address it . 
+In our previous work ( Ferreira , Pimentel , & Cristo , 2015 ) we proposed a prediction model which uses latent features to predict links in Wikipedia . 
+In that work we reported the gains obtained over a state‐of‐the‐art wikification ( Milne & Witten , 2013 ) approach by incorporating latent features derived from the Wikipedia underlying graph topology . 
+Along with the promising results obtained in that study , we identified the opportunity to investigate distinct and interdependent parts of the model : the contribution of features , the effect of ambiguity , the impact of training size and the quality of links used as training instances . 
+As a result , in this article we extend our previous work and report the following contributions : A comprehensive analysis of our latent model performance . 
+This analysis focused on comparison with representative baselines and on importance of components and features of our model . 
+By comparing our model with best baseline in wikification using a sample of articles extracted from Wikipedia , we observed a gain up to 13 % in the F 1 score . 
+Regarding the importance , we show that despite that the fact that the predictor based on link features ( dyadic predictor ) presents the best performance among the predictors , the combination of latent and dyadic predictors indicates they carry complementary information . 
+Besides , we show which dyadic features contribute the most . 
+A study on the impact of ambiguous concepts on the proposed model . 
+We observed a steady performance of the model independently from the degree of ambiguity of the concepts , even though no explicit disambiguation process is carried out . 
+The same behavior was observed for the latent component , which suggests that the model naturally deals with ambiguity . 
+A study on the impact of the quality of the training samples on the performance of the prediction . 
+We observed that high quality training samples led to better results in terms of precision and overlinking . 
+However , no relevant difference was observed between models trained with high‐quality and medium‐quality rated samples . 
+In this article , we review related work in Related Work and describe our link‐prediction model in A Factor Model for Link Prediction in Workplace . 
+In Evaluation Methodology , we describe the dataset and the experiments we carried out to evaluate our model . 
+In Results we present our results . 
+We review our contributions and discuss future work in Conclusions . 
+In the feature‐based wikification approach , the usual aim is to develop models able to predict links to newly created Wikipedia articles that is , with no links ( Mihalcea & Csomai , 2007 ; Milne & Witten , 2008 , 2013 ) . 
+Such models are built from examples of links as well as not links and learn what should be considered an appropriate link to an article . 
+In practice , two different predictions ( i.e. , classifications ) are usually performed by wikification systems . 
+The first identifies which term or sequence of terms ( henceforth called label ) should be an anchor . 
+The second prediction deals with the disambiguation by finding the landing article to which the link associated with the anchor should point to . 
+The second problem is usually referred as disambiguation to Wikipedia – D2W ( Ratinov et al. , 2011 ) . 
+Mihalcea and Csomai ( 2007 ) are among the first authors to use Wikipedia as a knowledge source for concept extraction and word sense disambiguation . 
+They used a simple method , based on thresholds , to identify which labels should be taken as anchors and applied word sense disambiguation approaches to the D2W task . 
+They first experimented with the similarity between the textual content of the candidate page and the context of the ambiguous labels . 
+Then , they used a ML approach where a Naive Bayes classifier was trained using text features such as the content surrounding the label and its part‐of‐speech tags . 
+Through experiments performed in a sample of Wikipedia articles , they found that the automatic‐generated suggestions were very similar to the human‐generated suggestions , that is , those originally found in Wikipedia . 
+Unlike Mihalcea and Csomai ( 2007 ) , Milne and Witten ( 2008 ) proposed a method based on global information , where all the labels were disambiguated simultaneously to achieve a coherence set of disambiguations . 
+In their approach , the D2W task should precede the anchor identification . 
+Both tasks were based on supervised ML using tree‐based classifiers . 
+The D2W classifier was trained using features estimated from the Wikipedia link graph designed to capture the relatedness between the label 's article and the candidate article ; the disambiguation context based on unambiguous labels ; and how often an article is used in a particular sense . 
+The anchor identification classifier took into consideration information associated with the disambiguated articles , such as text position and link probability . 
+A limitation of this approach is to rely on the presence of unambiguous labels . 
+Contrary to previous works , He and de Rijke ( 2010 ) and Ratinov et al . 
+( 2011 ) focused on the task of D2W , thus without trying to mimic the Wikipedia link structure . 
+In fact , this task has attracted much attention because it found application in many other problems related to natural language processing . 
+In such context , the Initiative for the Evaluation of XML retrieval ( INEX ) launched a challenge where the aim was to determine the five best Wikipedia pages related to an anchor text ( Geva , Kamps , & Trotman , 2009 ) . 
+Despite this being clearly a ranking problem , all proposed heuristics consisted of discrete classifiers . 
+He and de Rijke ( 2010 ) were the first researchers to adopt ranking algorithms . 
+They have shown that these algorithms outperform the previous heuristics by using ranking metrics based on the same local features typically used before . 
+Ratinov et al . 
+( 2011 ) observed that previous approaches were based on local or global evidence . 
+Thus , to leverage‐up past contributions , they proposed GLOW ( Global Wikification ) , an optimization approach where content similarity and global coherence are maximized simultaneously . 
+Their algorithm has two components : ( a ) the ranker , which ranks the set of candidate articles , given a label , and ( b ) the linker , a SVM classifier which decides if the top‐ranked article is indeed a disambiguation for the label . 
+In experiments , the authors have shown that GLOW outperformed the method by Milne and Witten ( 2008 ) in the task of disambiguating Wikipedia anchors , corresponding to named entities , in samples of paragraphs . 
+In a following work , Cheng and Roth ( 2013 ) extended GLOW to consider the relationships between the entities observed in the local context , achieving still better disambiguation performance . 
+Given that GLOW and method by He and de Rijke ( 2010 ) are focused on D2W , they are not used as baselines in this work . 
+Milne and Witten ( 2013 ) also extended their own previous work to collect statistics from the entire Wikipedia . 
+As result of this new system , they were able to report the best results in literature , that is , F 1 figures of 95.8 % for the D2W task and 73.8 % for the anchor identification task . 
+They also make their mining tools available for research . 
+We use the method proposed by Milne and Witten ( 2013 ) as baseline in our research . 
+Other global approaches explore the Wikipedia graph topology . 
+Such topology‐based wikification approaches aim at enriching existing articles with additional links . 
+In such cases , no explicit disambiguation is carried out and the wikification is performed in a single task . 
+Among the first topology‐based approaches , Adafre and de Rijke ( 2005 ) adopted a neighborhood‐based recommendation strategy . 
+According to how many inlinks an article a share with their neighbors , the algorithm defined a set of articles most similar to a . 
+Outlinks frequently observed in , not belonging to a , are then “ suggested ” to a if its anchor text is also similar to the ones in . 
+West et al . 
+( 2009 ) use a similar recommendation strategy , but applying a different criteria to identify the links in the neighborhood . 
+Their method was designed to deal with sparsely‐linked articles . 
+As before , they used the link adjacency matrix to represent the Wikipedia graph . 
+However , is projected onto a reduced feature space where the axes correspond to the main components found by means of a principal component analysis . 
+By projecting all the articles in the reduced space , it is possible to rank the links in the neighborhood according to their reconstruction error . 
+The top‐ranked links not present in a are then suggested to a . 
+Another strategy to deal with sparsity was proposed by Cai , Zhao , Zhu , and Wang ( 2013 ) . 
+Their idea was to augment an initial concept co‐occurrence matrix with links to articles associated with labels disambiguated using the information in . 
+At each iteration , new links are included in until no more links can be found . 
+As in the work by West et al . 
+( 2009 ) , we also used matrix factorization . 
+However , in our case , it constitutes an additional prediction component in a supervised linear regression used to predict which concepts should be taken as anchors . 
+We observe that other studies related to wikification have been proposed in literature . 
+For instance , Gardner and Xiong ( 2009 ) proposed a method based on conditional random fields to determine the actual location of the label to be linked . 
+This is a problem because a concept can appear multiple times in a same article . 
+An interesting problem about partially observed graphs is to determine the status of a particular edge . 
+General solutions to this problem , which we refer to as link prediction , have been successfully adopted in many applications , such as the predicting of movie ratings ( Koren , 2008 ) , the estimate of the likelihood of new interactions in social network analysis ( Liben‐Nowell & Kleinberg , 2007 ) , and the predicting of click‐through outcomes in advertising ( Menon , Chitrapura , Garg , Agarwal , & Kota , 2011 ) . 
+We refer the reader to Menon and Elkan ( 2011 ) for a comprehensive literature review on link prediction . 
+Among the approaches used to solve this problem , latent models have been largely adopted because of its capability to capture useful prediction patterns regarding the graph topology . 
+This trend is clearly observed in the machine learning community , especially after the success of matrix factorization models by recommender systems . 
+As result , many ways to combine traditional feature‐based prediction with factor‐model based prediction have been proposed in literature . 
+For instance , in the recommender systems domain , Rendle ( 2012 ) proposed many general algorithms able to learn factor models which combine edge and node features . 
+Considering the more general problem of link prediction , Menon and Elkan ( 2011 ) proposed a linear factor model with dyadic and monadic components able to take advantage of edge and node features , respectively . 
+Considering the important results by Menon and Elkan ( 2011 ) in terms of , for instance , scalability and appropriateness for imbalanced supervised tasks , in our previous work we extended their model for wikification ( Ferreira et al. , 2015 ) . 
+One novelty of our proposed model is the handling of directed graphs which we achieve by including a latent predictor composed of two latent components : one to capture the undirected aspect of the link , and another to capture the residual directional aspect of the link . 
+Similarly to previous work exploiting topological aspects of the Wikipedia concept graph , for example , by West et al . 
+( 2009 ) , we also used node and edge features and focused on the anchor prediction problem . 
+Our proposed model outperformed the best baseline in literature , the method by Milne and Witten ( 2013 ) . 
+In this article , we extend our previous work ( Ferreira et al. , 2015 ) offering a comprehensive evaluation of the proposed method . 
+In particular , in this work we study the impact of different training sizes , the importance of each predictor component , the importance of each link feature , the effect of ambiguity in prediction performance , and the selection of training samples according to their quality rates . 
+As quality can be viewed as a multidimensional concept , many authors have proposed general taxonomies of quality dimensions ( Ge & Helfert , 2007 ; Tejay , Dhillon , & Chin , 2006 ; Wang & Strong , 1996 ) . 
+Examples of dimensions are coherence , completeness , and correctness . 
+In general , to assess each of these dimensions , statistical indicators are extracted from the sources which constitute the information whose quality has to be assessed . 
+For instance , in the case of collaboratively created content , indicators can be extracted from articles ( e.g. , structure , style , and length ) , information about the editors ( e.g. , edit history ) , and the networks created by links between documents . 
+If we restrict our literature review to articles about Wikipedia , Dondio , Barrett , Weber , and Seigneur ( 2006 ) were the first authors to propose an automatic quality assessment method based on the aforementioned indicators . 
+Topology was also explored by Korfiatis , Poulos , and Bokos ( 2006 ) , Rassbach , Pincock , and Mingus ( 2007 ) , Kirtsis , Stamou , Tzekou , and Zotos ( 2010 ) , Tzekou , Stamou , Kirtsis , and Zotos ( 2011 ) , and Dalip , Gonçalves , Cristo , and Calado ( 2009 ) , who added text style and readability as indicators . 
+Other authors have proposed knowledge resources and guides for analyzing and developing quality measurement models ( Choi & Stvilia , 2015 ; Stvilia , Twidale , Smith , & Gasser , 2008 , 2007 ) . 
+Overall , methods to summarize quality indicators can be roughly classified as : ( a ) unsupervised ( Dondio et al. , 2006 ; Hu , Lim , Sun , Lauw , & Vuong , 2007 ) and ( b ) supervised ( Rassbach et al. , 2007 ; Xu & Luo , 2011 ) . 
+The aforementioned studies assume that the manual quality assessment of Wikipedia articles and the associated reviewing processes lead to reliable ground truth about content quality . 
+This idea has been challenged because missing links can exist for a long time ( Sunercan & Birturk , 2010 ) , links can be biased towards popularity and importance ( Hanada , Cristo , & Pimentel , 2013 ) , and links are rarely clicked ( Paranjape , West , Zia , & Leskovec , 2016 ) . 
+This last issue is remarkable as it would be expected that appropriate links should be followed once they are created . 
+However , Paranjape et al . 

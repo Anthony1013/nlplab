@@ -1,0 +1,100 @@
+T1	表 1771 1929	Table 3 sums up the online search strategy in the first column and gives the absolute number of the respective manually cleaned results in the second column .
+T2	时间 2962 2971	1980–2013
+T3	表 4098 4298	In Table 4 alternative matching procedures are compared to the self‐developed algorithm in order to evaluate whether the initial assumptions and the modeling of the elaborate algorithm were adequate .
+T4	图 6527 6621	Figures 1 and 2 plot the resulting categories with respect to the timeline ( horizontal axis )
+T5	时间 7949 7958	1980–2013
+T6	时间 7831 7854	17th calendar week 2015
+T7	时间 8374 8395	between 1980 and 2000
+T8	时间 8007 8030	17th calendar week 2015
+T9	时间 8946 8950	2000
+T10	图 9791 9886	Figure 3 presents the matching results for both RoP and RP corpora as a percentage distribution
+T11	时间 9988 9997	1980–2013
+T12	时间 10032 10055	17th calendar week 2015
+T13	时间 10452 10459	in 2017
+T14	时间 12174 12183	1980–2013
+T15	表 13621 13829	Proposals for the retrieval of RPs are largely consensual between different studies ( see Table 1 ) and the matching and parsing results of PubMed RP generally confirm the adequacy of a simple search strategy
+T16	引文作者 14179 14183	Chen
+T17	引文时间 14196 14200	2013
+T18	引文作者 14205 14212	Fanelli
+T19	引文时间 14215 14219	2013
+T20	引文作者 14224 14226	He
+T21	引文时间 14229 14233	2013
+T22	引文作者 14242 14244	Lu
+T23	引文时间 14257 14261	2013
+T24	引文作者 14316 14323	Bilbrey
+T25	引文作者 14326 14332	O'Dell
+T26	引文作者 14339 14346	Creamer
+T27	引文时间 14349 14353	2014
+T28	引文作者 14404 14414	Grieneisen
+T29	引文作者 14419 14424	Zhang
+T30	引文时间 14427 14431	2012
+T31	时间 14799 14808	2000–2013
+T32	表 14813 15147	I estimated recall and precision of all retrieval strategies in relation to a gold standard corpus established from the comparison of the deviating items between my own and each of the other search approaches , added by small amounts resulting from the PubMed matching and items falsely retrieved as retracted publication , in Table 6
+T33	引文作者 15680 15687	Fanelli
+T34	引文时间 15690 15694	2013
+T35	时间 16103 16116	2015 and 2016
+T36	时间 16169 16182	in March 2017
+T37	时间 16444 16451	in 2016
+T38	时间 16355 16362	in 2016
+T39	引文作者 19535 19542	Fanelli
+T40	引文时间 19545 19549	2013
+T41	数据源 19679 19682	WoS
+T42	数据源 19299 19302	WoS
+T43	数据源 19375 19378	WoS
+T44	数据源 18773 18776	WoS
+T45	数据源 18526 18529	WoS
+T46	数据源 18360 18363	WoS
+T47	具体模型 16963 16966	WoS
+T48	数据源 17110 17113	WoS
+T49	数据源 16156 16159	WoS
+T50	数据源 16351 16354	WoS
+T51	数据源 14269 14272	WoS
+T52	数据源 13493 13496	WoS
+T53	数据源 13613 13616	WoS
+T54	数据源 13294 13297	WoS
+T55	数据源 13389 13392	WoS
+T56	数据源 11918 11921	WoS
+T57	数据源 10576 10579	WoS
+T58	数据源 10439 10442	WoS
+T59	数据源 10011 10014	WoS
+T60	数据源 10270 10273	WoS
+T61	数据源 9577 9580	WoS
+T62	数据源 8830 8833	WoS
+T63	数据源 8711 8714	WoS
+T64	数据源 8536 8539	WoS
+T65	数据源 7986 7989	WoS
+T66	数据源 8205 8208	WoS
+T67	数据源 6279 6282	WoS
+T68	数据源 7810 7813	WoS
+T69	时间 7772 7781	1980–2013
+T70	数据源 6453 6456	WoS
+T71	数据源 6338 6341	WoS
+T72	数据源 5889 5892	WoS
+T73	数据源 5855 5858	WoS
+T74	数据源 5737 5740	WoS
+T75	数据源 5496 5499	WoS
+T76	数据源 5392 5395	WoS
+T77	数据源 4755 4758	WoS
+T78	数据源 4840 4843	WoS
+T79	数据源 4669 4672	WoS
+T80	数据源 3528 3531	WoS
+T81	数据源 3668 3671	WoS
+T82	数据源 3153 3156	WoS
+T83	研究结果 19620 19756	My analysis thus showed that the incompleteness of RoPs in WoS has to be accepted , while the annotation of RPs is even more unrealiable
+T84	研究结果 19761 19911	However , this does not necessarily count against any applicability— depending on the research questions together with the indication of error margins
+T85	研究结果 19916 20227	For studies analyzing the effects of retractions on citation scores , it might , however , be worth reflecting on the degree to which citing authors are aware of a retraction when annotation is not only lacking in social platforms such as Mendeley , but is also inconsistent in the standard literature databases
+R1	has_cited_time Arg1:T40 Arg2:T39	
+R2	select_time Arg1:T50 Arg2:T38	
+R3	has_cited_time Arg1:T34 Arg2:T33	
+R4	coauthor Arg1:T24 Arg2:T25	
+R5	coauthor Arg1:T25 Arg2:T26	
+R6	has_cited_time Arg1:T27 Arg2:T26	
+R7	coauthor Arg1:T28 Arg2:T29	
+R8	has_cited_time Arg1:T30 Arg2:T29	
+R9	has_cited_time Arg1:T23 Arg2:T22	
+R10	has_cited_time Arg1:T21 Arg2:T20	
+R11	has_cited_time Arg1:T19 Arg2:T18	
+R12	has_cited_time Arg1:T17 Arg2:T16	
+R13	select_time Arg1:T58 Arg2:T13	
+R14	select_time Arg1:T59 Arg2:T12	
+T86	图 8634 8714	Figure 2 shows the respective distribution for the RoP corpus matched to the WoS

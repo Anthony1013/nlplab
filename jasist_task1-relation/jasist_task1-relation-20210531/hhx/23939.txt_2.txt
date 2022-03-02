@@ -1,0 +1,130 @@
+There 's a constant tension there between whose stuff is it and who gets to manage it ( P‐18 ) . 
+Records Manager P‐24 concurred , saying , “ During that process … I 'm not sure records management was really thought about. ” Another remarked , “ When we deal with our information technology office … they exclude us in those conversations and then it becomes a real challenge for us to run behind them and catch up and force the issue about protection of information , the requirements of information—and it 's just frustrating ” ( P‐21 ) . 
+Still another commented , It 's like we talk amongst ourselves about it , but … even when people were brought in or showed us Office 365—it 's like the decision was already made . 
+We were n't consulted … and it 's basically just that we have to deal with it , work around it … IT does its own thing and records management is never involved . 
+They are not part of that process . 
+So there 's a huge gap there between us … to also identify the key contacts or the key people that we need to be in alliance with … so that we know what the criteria are , what their requirements are , so that when the systems are developed … the recordkeeping requirements are embedded so that things can be managed a lot easier , rather than labor‐intensive , manual processes . 
+… We do n't work together , that 's the problem ( P‐22 ) . 
+It 's like we talk amongst ourselves about it , but … even when people were brought in or showed us Office 365—it 's like the decision was already made . 
+We were n't consulted … and it 's basically just that we have to deal with it , work around it … IT does its own thing and records management is never involved . 
+They are not part of that process . 
+So there 's a huge gap there between us … to also identify the key contacts or the key people that we need to be in alliance with … so that we know what the criteria are , what their requirements are , so that when the systems are developed … the recordkeeping requirements are embedded so that things can be managed a lot easier , rather than labor‐intensive , manual processes . 
+… We do n't work together , that 's the problem ( P‐22 ) . 
+The lack of communications is compounded by a perception on the part of records management that they must rely on the initiative of ST.IT Services , and not the other way around . 
+Records manager P‐21 commented on a meeting that the states ’ Government Records and Information Network22 The State Government Records and Information Network is composed primarily of records managers working for the state . 
+had with the state 's Chief Information Officer : We did ask her to attend a meeting and this was probably six , eight months ago and she did grant us an audience [ my italics ] … we approached her about the lack of contact that records managers have with the IT division , the DET . 
+We would really like to participate because we have concerns , and she was like , ‘ Oh , okay ! 
+’ And , you know , nothing happened . 
+Well , we do n't know who else you can talk to if you ca n't talk to the big wig [ my italics ] . 
+We did ask her to attend a meeting and this was probably six , eight months ago and she did grant us an audience [ my italics ] … we approached her about the lack of contact that records managers have with the IT division , the DET . 
+We would really like to participate because we have concerns , and she was like , ‘ Oh , okay ! 
+’ And , you know , nothing happened . 
+Well , we do n't know who else you can talk to if you ca n't talk to the big wig [ my italics ] . 
+At times , this affects their ability to engage in their recordkeeping responsibilities : “ We do n't get involved in designing of new systems to ensure that records management requirements are embedded , so there are already systems that have been decommissioned but do require to be kept because there had [ originally ] been no sort of consideration to incorporate the retention and dispositions of records ” ( P‐22 ) . 
+This results in “ labor‐intensive , manual processes ” ( P‐22 ) . 
+Furthermore , there is confusion about responsibilities . 
+Records manager P‐22 said , “ I think that 's what needs to be defined : the role of IT and the role of records management . 
+People do n't really understand the two and they distinguish it by [ assuming ] that records managers manage paper , and then it 's like , who manages the electronic and then IT is like , well no we do n't manage the electronic ; we just provide the space and the systems. ” Records manager P‐24 concurred , stating , “ … people say , oh , well , that 's data , that 's a technology issue . 
+IT manages storage and , and if we need to get rid of things , we get rid of things because IT says we do n't have the space rather than because we should be keeping them or we should not be keeping them. ” Perceptions of non‐records management interviewees about the implementation itself were generally positive . 
+A data practices liaison stated that the implementation occurred in an entirely transparent way . 
+Other than e‐mail addresses changing , he did n't even notice the change . 
+The IT professionals focused on their preimplementation processes and risk avoidance actions , noting that they paid very close attention to privacy and security . 
+They also praised the cloud vendor 's ability to handle a wide variety of data retention requirements . 
+The archivists rearticulated their separate status as a “ quasi‐agency ” within the overall state governance structure and took a neutral stance toward the implementation . 
+Although IT and data practices personnel were highly satisfied with the implementation and state archivists were neutral , records managers voiced significant dissatisfaction with both the process of implementation and the outcomes of the implementation . 
+The most prevalent change records managers noted was the fact that roles and responsibilities had become confused and blurred as a result of the cloud computing adoption . 
+The cloud computing implementation affected system capabilities because some tasks that were previously available to records managers and employees were now shifted to Microsoft , through requests to ST.IT Services . 
+Access was no longer available to the agencies ’ personnel ; rather , they had to request that Microsoft perform those activities . 
+As a result , records managers felt that these tasks were no longer their responsibility , even though the tasks had not been formally removed from their sphere of responsibility . 
+The outcome was resentment and , sometimes , a hopeless refusal to even attempt to ensure that these tasks were performed . 
+Additional concerns and confusion about data ownership have resulted from the cloud adoption . 
+ST.IT Services still wants the records to be managed by the records managers , suggesting they ( ST.IT Services ) are the “ highway ” only , while the records managers are the drivers ( P‐25 ) . 
+However , the records managers push back , effectively saying , “ We do n't have access to the servers or the technological ability to manage these records now ; we do n't have the authority to handle these records now . 
+You own the machines and you control the movement of service requests to Microsoft . 
+You own this responsibility ” ( P‐25 ) . 
+No solution has been engineered for this disagreement , and outcomes have varied as a result . 
+Some required recordkeeping actions have been reported by records managers not to occur , such as the clean‐up of terminated employees ’ e‐mails and the categorization of individuals into specific retention buckets . 
+Records managers lack knowledge about how decisions were made during requirements analysis and implementation , leading to significant dissatisfaction and confusion . 
+They also lack knowledge about the risks of cloud computing to records and recordkeeping activities . 
+Some of them have a somewhat mistaken understanding of “ where ” the data reside when they are “ in ” the Cloud . 
+For example , P‐21 said , “ Now with the migration to Microsoft , our information , according to our statutes , information needs to stay within our boundaries , that 's our interpretation of it , so it 's in our boundaries . 
+So Chicago and India , and Canada—wherever the data centers are—are not within our boundaries. ” In fact , however , all information resides within a government cloud that physically maintains the information within the state , but there is a perception among some records managers that organizational ownership has been compromised as a result of the cloud implementation . 
+This articulation of ownership and control stands in contrast to that of the executive manager of ST.IT Services P‐19 , who advises that potential implementers : … Go to the source of what needs to be complied with , not necessarily take folklore understanding of how things need to be done , but rather , challenge the exact limitations and/or requirements that need to be complied with . 
+We found that a lot . 
+Especially in state government there is that , “ Well , that ca n't be done via a third‐party provider , ” and then you ask , “ Why ? 
+” “ Because we need to maintain a record. ” … “ Well , if we maintain them , if they 're our records , the fact that they 're housed somewhere else … does n't mean that they 're not ours. ” “ Well , it 's less ours then. ” “ Why ? 
+” —Tying it back to real requirements I think is really , really important . 
+… So that would be a huge recommendation to anyone embarking on it . 
+Do n't take anybody 's interpretation of what should be . 
+Go back and show me the regulation because otherwise you 're going to get caught up into interpretation of what they think should and should not be the overall delivery stand ( P‐19 ) . 
+… Go to the source of what needs to be complied with , not necessarily take folklore understanding of how things need to be done , but rather , challenge the exact limitations and/or requirements that need to be complied with . 
+We found that a lot . 
+Especially in state government there is that , “ Well , that ca n't be done via a third‐party provider , ” and then you ask , “ Why ? 
+” “ Because we need to maintain a record. ” … “ Well , if we maintain them , if they 're our records , the fact that they 're housed somewhere else … does n't mean that they 're not ours. ” “ Well , it 's less ours then. ” “ Why ? 
+” —Tying it back to real requirements I think is really , really important . 
+… So that would be a huge recommendation to anyone embarking on it . 
+Do n't take anybody 's interpretation of what should be . 
+Go back and show me the regulation because otherwise you 're going to get caught up into interpretation of what they think should and should not be the overall delivery stand ( P‐19 ) . 
+Reasonably , this executive distinguishes between the recordkeeping requirements and the “ delivery stand , ” that is , the way in which the requirements are implemented and supported . 
+The delivery stand represents how requirements are met as opposed to specifying which requirements need to be met . 
+Thus , arguments that cloud computing will threaten the capacity to retain ownership over records was not accepted by this executive because “ the state still owns the information ” ( P‐19 ) . 
+The records managers see ownership differently , however the records managers believe that they are , and should be , the primary recordkeeping stakeholder for the state and , as such , appear to believe that their ability to control records management activities is tightly integrated with the state 's ownership of records . 
+They no longer believe they own those tasks that they no longer have the capability to perform . 
+As a result , to them the state has “ less ownership ” over the records than it previously had , because aspects of records management have been moved to a third‐party vendor . 
+In America , individualistic notions of behavior are often bolstered by theoretical lenses that support a view of the individual as one among many essentially identical individuals . 
+For example , neoclassical economics , still the dominant paradigm in economic theory , posits that one individual is essentially like another insofar as rational thought guides his or her actions . 
+This paradigm , through a double hermeneutic such as that posited by Giddens ( 1987 ) , has suffused the consciousness of the members of Western society , such that they frequently behave as if they were the solely‐individual actors described by this theory . 
+Under such a view , one might suppose that individual workers , when faced with a new technology , will attempt to efficiently maximize their work output under the new conditions . 
+In this case , for example , one might suppose that records managers would quickly adjust their work routines in a manner that would increase their productivity and support for organizational records management services . 
+Then why did n't the records managers in this case compensate by submitting more requests to Microsoft , via ST.IT Services , in order to continue acting on their responsibilities—an efficient and rational response to the cloud implementation ? 
+A primary consideration appears to have been political , and based upon a lack of trust . 
+Lack of clear understanding of how the cloud computing contract is set up leads some records managers to assume that key recordkeeping norms are not being kept , such as maintaining control of records . 
+For example , some believe that the information is stored outside jurisdictional boundaries and therefore has been removed from legal control . 
+Likewise , they recognize that some control has been lost through lost access rights . 
+This creates anxiety regarding their roles and responsibilities . 
+Their “ own ” IT personnel were “ sucked up ” by the central IT organization and they no longer have their own resources to take care of technological responsibilities and issues . 
+Indeed , all individual IT groups under their own resource control have disappeared . 
+Their reaction appears to have been , “ If I no longer have the rights to perform this task myself , you have to take it. ” This has occurred in spite of records managers ’ strong ethical and professional commitments toward the organization 's recordkeeping requirements , as evidenced by 40 years of professional literature . 
+Individuals ’ sense of individuality is inherently linked to the social and material systems in which they belong ( Hayek , 1952 ; Wittgenstein , 1958 ) . 
+Because they develop linguistically and conceptually through relationships to others , developing both values and value‐laden actions with respect to these relationships , words and thought processes themselves are not logically reducible to purely analytic conceptualization . 
+Rather , they reflect family resemblances—overlapping features of similarity , but no unique correspondence with some “ truth. ” This suggests that the individual defines her or his identity with reference to social groups that operate on the material world in similar ways . 
+Theories of action deriving from this assumption imply the inherent sociality of behavior . 
+Such a view allows for reactions to new environments along social lines , such as occupational or organizational affiliation . 
+In some cases , the two affiliations seem to converge , and members of an occupational group may see their job roles as unitarily reflective of the needs of the organization itself . 
+This apparent convergence can be seen both in the reported perceptions of the IT executive , who equated his group 's goals with that of the state , and in the reported perceptions of the records managers , who believe that the state has “ less ” ownership over records now that they have less ownership over records . 
+When executive P‐19 suggested that state ownership of the data has not been affected by allowing a third party vendor to take control of particular aspects of managing the information , she also implied that IT executive management either speaks for the state or is the rightful representative of the state 's interest in its information , giving the objections of the records managers that they no longer own some of their responsibilities some credence . 
+Records managers , on the other hand , implicitly recognized that ownership of information within the organization is decomposable . 
+The rights to use can change , where ownership is composed of sets of discrete rights that change as organizational strategies , policies , and norms change and as ST.IT Services makes decisions that affect sociotechnical capabilities . 
+Because they perceive their ownership rights as decomposable , records managers also decompose their ideas of responsibility . 
+They believe they have “ less ” ownership and that therefore the state also has less ownership over records . 
+Giddens postulated that inherent in all action is a reflexivity with our social and material environment , wherein we act upon the structures of the world , which both constrain and are shaped by agency . 
+Structures influence our conceptions of self and other , leading to a slowly changing , reflexive relation between social groups , individuals , and environment predicated on the interaction between structure and agency . 
+This change through interaction is called structuration . 
+Within Giddens 's theory , power is a fundamental principle of structuration , where it is seen as the ability of humans to effect change through a means–ends use of social and material resources . 
+It is a capacity “ to make a difference ” ( Giddens , 1986 , p. 14 ) . 
+If one can influence the social or material aspects of the world , one can be said to have power over the world insofar as one is able to affect changes . 
+For Giddens , resources are seen as the medium through which power operates . 
+Power is “ a routine element of the instantiation of conduct in social reproduction ” ( p. 16 ) . 
+It presumes a regular instantiation of both dependency and autonomy , and thus does not cause action but rather is seen as a capacity to allow action to be instantiated . 
+Those who are subordinate are not subject only to that dependency ; they , in turn , have access to some resources that allow them to influence those on whom they depend . 
+There is thus a “ dialectic of control ” ( p. 16 ) . 
+Because all action requires the use of resources and is socially instantiated , power is inherent to social life itself , and acts of domination and subordination are as well . 
+The approach taken by records managers in this situation was “ passive , ” in that they did n't respond in the expected way to changes in access to resources . 
+They were expected to submit technical requests for the actions over which they held responsibility . 
+Instead , they stopped performing those actions . 
+This passive approach can itself be seen as an exertion of their power over resources , although it did not serve them as well as some other approaches may have , as will be seen below . 
+The cloud computing implementation solidified access rights for many functions , creating relatively rigid boundaries around specific actions that can now be undertaken by individual agents within the institution . 
+This solidified some of the power relations between occupational groups as well . 
+The transfer of IT decision‐making power through legitimizing conduits such as legislative orders further strengthened the additional power of ST.IT Services and further reduced the records managers ’ power within the organization . 
+The implementation simultaneously created some contradictory rights and responsibilities . 
+Those who originally had the power to act upon information could not maintain that power after tasks were transferred to the cloud service provider , but those who had the power did not have the organizational responsibility to do so . 
+Yet the contractual nature of the relationship with Microsoft formalized the new , contradictory power structures . 
+In response , the records managers bought into the preexistent discourses of power in the state 's structures . 
+For example , when discussing their relationships to IT they used phrases such as “ grant us an audience , ” “ big wig , ” “ we were n't consulted , ” and “ we have to deal with it , ” exhibiting their acceptance that they are the dependent party in the organization with respect to ST.IT Services . 
+The records managers ’ view of themselves as underdogs creates an incentive to treat the relationship with IT workers , who “ sucked ” power away from them , as antagonistic . 
+Because they view themselves as having less power than IT , and have not strategically considered how to change that narrative within the organization , they believe they must either resist in passive ways or be ignored . 
+However , the passive–aggressive approach to power loss need not have been the only approach taken by records managers . 
+It is true that ST.IT Services is unlikely to modify its own methods of communication on its own , and has no internal or external pressures to do so . 
+It exhibits more power within the organization than do other organizational units and will likely continue to do so in the future . 
+However , passive resistance is unlikely to better the service levels of records managers . 
+Among the complaints given by records managers were the facts that IT would not “ listen ” to the former group and that they spoke a “ different language. ” If records managers desire to be “ heard , ” better communication needs to be initiated proactively by the records managers themselves . 

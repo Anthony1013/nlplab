@@ -1,0 +1,61 @@
+Alternatively , one can use the concepts as a middle layer between documents and free‐text terms in a generative model to enhance the bag‐of‐words representation , which has been shown to be effective in information retrieval ( Mao , Lu , Mu , & Li , 2015 ) , although this requires higher computation . 
+According to our results , bag‐of‐words representation shows better performance in weighting the subject descriptors and should be preferable for this application . 
+Our experiments show that all four measures , cosine , Jac , JSD , and MI , can produce reasonable results , except for JSD with the concept‐based representation that shows inferior performance . 
+Although the performance of different measures depends on different datasets and representation methods , cosine measure seems to have the most consistent and robust performance . 
+Therefore , cosine is recommended for weighted subject indexing task , and JSD measure should be avoided for the concept‐based representation based on our experiments . 
+Another finding from this study is the difference between full text and abstract environment . 
+Many text‐related studies have found differences in full text and abstract ( Hiemstra , 2001 ; Lu & Kipp , 2014 ) . 
+This is also the case in our study . 
+The best performance differs depending on whether full text or abstract is used . 
+When only abstract is used ( Ohsumed and Genomics04 ) , cosine measure with the bag‐of‐words representation has the best performance . 
+When full text is available ( Genomics06 ) , MI with the bag‐of‐words representation is the best in terms of MAP and AR , and cosine shows the best performance in terms of NDCG measures . 
+The abstract versus full text also has an impact on the performance of the integrated weighting method . 
+In Ohsumed and Genomics04 , the combination of CF‐IDF and the bag‐of‐words features has the best performance . 
+In Genomics06 , the best combination is CF‐IDF and the concept‐based features . 
+Therefore , when choosing different automated weighting methods , the abstract and full text environment should be a factor . 
+One may also wonder which environment is preferable for the weighted subject indexing task . 
+To compare the two environments , we constructed an abstract version of the Genomics06 test sample by extracting only the titles and abstracts from the full‐text documents . 
+The performance on the same set of documents under different environments is compared in Table 4 . 
+Only CF‐IDF and bag‐of‐words representation measures are included , as the concept‐based representation is not impacted by full text . 
+Most evaluation metrics show significantly better performance in abstract than in a full‐text environment . 
+The full‐text environment has a higher computation cost because more terms are found in full text than in abstract . 
+However , if more irrelevant terms are included in the representations , the performance of using full text could be worse than using abstract alone . 
+Table 4 suggests that using only abstract may improve both efficiency and effectiveness of weighted subject indexing . 
+We suspect this is because authors put the most relevant terms in the abstract , while in full text the density of the relevant terms is relatively lower . 
+The study also tested integrated weighting methods using the learning‐to‐rank framework . 
+Experimental results show further improvement can be obtained by the learning‐to‐rank method , although the improvement is not large . 
+Learning‐to‐rank represents a new trend in IR by leveraging machine‐learning techniques for optimal ranking . 
+It provides a framework to inclusively integrate different ranking indicators . 
+In addition , the learning‐to‐rank framework allows examining how different ranking features collectively contribute to the ranking problem . 
+This study demonstrates that we can adaptively apply the method to the weighted subject indexing problem . 
+The framework is extensible to include additional features and provides a principled way for expanding ranking features for subject descriptors in the future . 
+Evaluating the performance of different weighting methods is not a trivial task . 
+Our earlier studies ( Lu & Mao , 2015 ; Lu et al. , 2015 ) assessed the performance of different methods according to their ability to rank the major MeSH at the top . 
+This evaluation method is cost‐effective . 
+However , this evaluation method does not distinguish the importance among the major descriptors . 
+In this study , we invited a domain expert to read 30 articles and rank the MeSH descriptors manually . 
+The evaluation based on domain expert is more granular than the evaluation based on major MeSH . 
+Interestingly , the two evaluation methods produce mostly consistent results . 
+This finding further validates the evaluation based on major MeSH . 
+Several limitations should be acknowledged . 
+First , we only considered two representations for subject descriptors , the bag‐of‐words representation , and the concept‐based representation . 
+By applying natural language processing techniques , other representations could be constructed . 
+For example , nouns/noun phrases in the pooled documents can be used as representation items , although this will increase the computational cost due to the needed shallow parsing to extract noun phrases . 
+Second , the expert evaluation is based on 30 selected documents . 
+The small sample size is due to the practical difficulty in finding a domain expert to read 30 full‐text articles and rank their MeSH descriptors . 
+We hope to find more resources to expand the sample size in a future study . 
+However , it is encouraging that the results from the expert evaluation are consistent with the evaluation based on major MeSH . 
+In addition , the importance of subject descriptors may vary , depending on contexts ( e.g. , users ' contexts ) . 
+This study does not have access to user data , which limits our ability to generate user‐oriented weighting . 
+Including usage data from users will push weighted subject indexing towards request‐oriented indexing or user‐based indexing ( Hjørland , 2016 ) . 
+This study examined different ways to automatically infer weights for assigned subject descriptors and compared their performance in different environments using three biomedical datasets . 
+To answer the three research questions proposed earlier : Our study shows that cosine measure has consistent and robust performance in different contexts , although the performance does differ depending on the environments ( abstract or full text ) and the representation methods . 
+In the abstract environment , cosine with bag‐of‐words representation has the best performance . 
+In the full‐text environment , mutual information with bag‐of‐words representation has the best performance in terms of MAP and AR , although cosine with bag‐of‐words representation still has relatively strong performance . 
+Therefore , cosine with bag‐of‐words representation should be the preferable single method for this task . 
+IDF , a direct weighting method , could produce quick and reasonable estimates of the weights . 
+Bag‐of‐words representation generally outperforms the concept‐based representation for this task . 
+In particular , the JSD measure should be avoided for the concept‐based representation . 
+Further performance improvement can be achieved using an integrated weighting method . 
+Although the improvement is not large , the learning‐to‐rank framework provides a principled way to include additional ranking indicators The findings from this study have practical implications for developing weighted subject indexing systems that can better support information retrieval and other tasks . 
+Future study will further explore the usability of weighted subject indexing systems in supporting retrieval or knowledge organization tasks . 

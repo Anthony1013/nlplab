@@ -1,0 +1,130 @@
+Information organization ( or knowledge organization ) lies at the heart of information science . 
+The area of information organization concerns fundamental features of information and studies the description , indexing , and classification of information accordingly for anticipated users and uses ( Hjørland , 2008 ) . 
+Methods used for information organization and its outcomes directly determine the effectiveness of the subsequent access , retrieval , and use of information . 
+Subject indexing , which focuses on describing subject matters of an information object , is an important component of information organization . 
+The indexing process generally consists of subject analysis and index term assignment ( Taylor & Joudrey , 2009 ) . 
+Controlled vocabularies are normally used to mitigate ambiguities and variations in natural language . 
+Subject indexing has been long considered one of the most challenging tasks in information organization due to the difficulties in accurately , consistently , and comprehensively describing what a document is about according to the anticipated use of the document . 
+However , the important role of subject indexing in providing subject access to information resources has been irreplaceable . 
+There have been lengthy discussions on subject indexing . 
+Most research focuses on how to determine the subjects of a document ( Langridge , 1989 ; Wilson , 1968 ) or how to construct effective thesauri to describe the subjects ( Aitchison & Gilchrist , 1987 ; Shiri , 2012 ) . 
+However , few studies have examined how to distinguish the importance of assigned descriptors . 
+A piece of work may cover multiple concepts and the importance of these concepts to the work can be different . 
+Existing subject indexing systems do not adequately reflect the different importance of the concepts that a document covers . 
+Some systems adopt preliminary weighting only to differentiate the primary and secondary descriptors ( e.g. , Medical Subject Heading , MeSH ) . 
+On the other hand , term weighting has provided many advantages for free‐text indexing and allows better support for Best‐Match information retrieval models ( Maron , Kuhns , & Ray , 1958 ; Maron & Kuhns , 1960 ) . 
+The ability to discern the different importance of assigned descriptors to a piece of work will strengthen the role of subject metadata and improve subject access to information resources . 
+In fact , the concept of weighted subject indexing is not new . 
+Pioneers of the field have well noted the importance of discriminating the significance of different elements of a document ( Wilson , 1968 ; Borko , 1978 ; Cleverdon , 1991 ) . 
+A more recent study by Zhang , Smith , Twidale , and Gao ( 2011 ) revisited the need for a weighting mechanism for subject indexing . 
+In Lu and Mao ( 2015 ) , an automated approach that provides a concrete and cost‐effective implementation for weighted subject indexing has been proposed . 
+Their initial experiments on a medical collection suggested the feasibility of the method . 
+However , their study tested only one method ( i.e. , weighted mutual information ) on a single collection . 
+Although their study shows the feasibility of using automated methods for weighted subject indexing , it does not address the question of which method is more effective . 
+This study follows this line and aims to provide a more comprehensive understanding of the effectiveness of different methods in different environments . 
+The purpose of this study is to empirically compare different methods for automated weighted subject indexing in different environments to provide evidence for selecting effective methods for this problem . 
+More specifically , the paper aims to address the following research questions : Which method is more effective to infer weights for assigned subject descriptors ? 
+Will their effectiveness differ in different environments , such as abstract vs. full text environments ? 
+What is the impact of different subject descriptor representations on the effectiveness of the weighting methods ? 
+More specifically , this study will examine the bag‐of‐words representation vs. the concept‐based representation . 
+Will a machine learning framework with integrated measures improve the performance ? 
+The learning‐to‐rank framework will be used to integrate different measures . 
+This study examines different approaches to automated weighted subject indexing , explores different representations for subject descriptors and documents , compares different relatedness measures , and uses three biomedical data collections that represent different environments to test these methods . 
+The findings from this paper provide a more comprehensive understanding of the weighted subject indexing problem and contribute to more effective weighting methods . 
+This paper extends an earlier study by Lu , Mao , and Li ( 2015 ) by including more datasets , different subject descriptor representations , an integrated weighting approach , and different evaluation methods . 
+Three related research topics are reviewed , including subject indexing practices and theories , weighted subject indexing , and semantic relatedness measures . 
+Indexes are created to provide access to information . 
+Even before the invention of computers , indexing had been practiced in information organization and retrieval . 
+The National Library of Medicine ( NLM ) in United States has more than 150 years of history in providing access to biomedical journal literature through human annotated indexes ( Aronson et al. , 2000 ) . 
+Although other types of indexing ( e.g. , name indexes ) exist , subject indexing attracts the most attention ( Fidel , 1994 ) . 
+Aside from the practical side , the topic of indexing has been used in many theoretical discussions . 
+Hjørland ( 2011 ) stated that it may be fatal for information science to neglect theories of indexing , in that indexing theory has been regarded at the central part of the theoretical construct in information science ( Travis & Fidel , 1982 ) . 
+Subject indexing includes two components : subject analysis and indexing term assignment ( Hjørland , 2008 ) . 
+Most studies focus on how to assign index terms to a document and what the underlying theories are . 
+Salton ( 1975 ) recommended that terms with medium document frequency could be the indexing terms after concluding the principles of automatic indexing . 
+Cooper and Maron ( 1978 ) proposed the utility‐theoretical indexing that suggests the future use of index terms should be viewed as the criteria for term selection . 
+Lancaster ( 1991 ) pointed out that effective subject indexing should not only consider what the document is about , but also users ' interests , which emphasized the user side in the process of indexing . 
+These indexing theories can be categorized into content‐oriented indexing and request‐oriented indexing ( Hjørland , 2016 ) . 
+The content‐oriented indexing considers subjects to be inherent features of documents , which are independent of contexts . 
+This leads to an objective view of indexing that posits that the subjects of documents can be objectively determined . 
+In the request‐oriented indexing , the anticipated uses of documents are considered during indexing . 
+This may lead to different indexes of the same document , depending on the contexts . 
+At a more fundamental level , Hjørland ( 1992 ) concluded that philosophical epistemology is the foundation for determining the subjects of documents . 
+Later , Hjørland ( 2011 ) advocated to base theories of indexing on epistemological assumptions , including rationalist , empiricist , historicist , and pragmatic theories of indexing . 
+He further argued that pragmatic theories of indexing , which direct indexing decisions based on the goals , are the most fruitful . 
+This evidently supports the request‐oriented indexing . 
+These discussions have contributed to the theoretical architecture of subject indexing . 
+In the subject indexing practice , it has been noted that the concepts of a document may be of variable importance to the document , depending on whether it is a major or minor point ( Borko , 1978 ) . 
+This is called weighted subject indexing that reflects the importance of concepts to the document . 
+Through some application examples , Zhang et al . 
+( 2011 ) emphasized the need for a weighting mechanism in multiple subject indexing circumstances from the perspective of both indexer and system . 
+In fact , many index policies have discussed whether concepts in a document can have relative weights ( Fidel , 1994 ) , such as the primary and secondary subjects in the NLM ( http : //www.nlm.nih.gov/bsd/disted/pubmedtutorial/015_030.html ) and in the MARC records of the United Nations catalog ( http : //www.un.org/depts/dhl/unbisref_manual/indexpolicy/650.htm # weight ) . 
+However , this weighting mechanism is still limited . 
+Probabilistic indexing that assigns numeric weights to subject descriptors could be preferable . 
+The study of probabilistic indexing dates back to Maron et al . 
+( 1958 ) , where they formulated fundamental ideas and started preliminary experiments to test these ideas . 
+Maron and Kuhns ( 1960 ) pointed out the limitations of two‐valued indexing and formally suggested probabilistic indexing where the weights were to be interpreted as probabilities . 
+Following that , more studies were conducted on weighted subject indexing . 
+Wilson ( 1968 ) discussed the discrimination of the relative dominance and subordination of different elements of a document . 
+Maron described the problem of index term assignment as to decide “ whether or not ( or to what degree ) it ( the index term ) is to be assigned to a given document ” ( Maron , 1977 , p. 39 ) , which evidently includes weighting as a part of the indexing process . 
+Cooper and Maron ( 1978 ) clearly differentiated binary indexing from weighted indexing , where binary indexing only involves either assigning the index term or not , without any intermediate choices , while weighted indexing allows specifying numeric indicators of the strength of assignment . 
+Borko ( 1978 ) carried out retrieval experiments with the idea of applying probabilistic weights to manual subject indexing . 
+The indexing process of the well‐known Cranfield tests incorporated manually weighted indexing to indicate the relative importance of each concept within the documents ( Cleverdon , 1991 ) . 
+From the theoretical point of view , weighted subject indexing can be both content‐oriented and request‐oriented depending on the principle of the underlying indexing . 
+If subject descriptors are assigned based on the request‐oriented principle , the weights will reflect the anticipated uses to some degree . 
+If a content‐oriented principle is adopted during indexing , the weights will lean towards the content‐oriented view . 
+However , as is described later in the Methods section , the weights do consider the context of the collection and should be more contextual than the traditional content‐oriented view that only considers a single document . 
+It should be noted that weighting can happen during indexing ( i.e. , weighted indexing ) as well as during searching ( i.e. , weighted queries ) , but these reflect different kinds of contexts and serve different goals . 
+Weighted subject indexing aims to reveal the strength of the relationship between subject descriptors and documents given the context of the collection , prior knowledge of indexers , and/or previous usage and anticipated uses of the collection . 
+On the other hand , weighted queries reflect the real‐time context of an individual searcher under a certain search task and aim to emphasize the important aspects of the individual 's information need . 
+From the retrieval perspective , retrieval models can consider evidence from both to provide optimal results . 
+Weighted subject indexing is also different from automatic subject indexing . 
+The purpose of automatic subject indexing is to analyze the subjects of a document and assign indexing terms automatically , while weighted subject indexing is to differentiate the assigned index terms according to their importance to the document . 
+In summary , the idea of weighted subject indexing has been well noted . 
+However , feasible solutions have not been provided apart from a few manual preliminary tests . 
+Weighted subject indexing is largely absent in the current indexing practice . 
+The hurdle for human annotation is the difficulty of the problem and the high cost of manual methods . 
+Automated methods are needed to develop effective weighted subject indexing systems . 
+The weights of subject descriptors in a document should reflect the semantic relatedness between the descriptors and the document . 
+To measure the semantic relatedness between information objects , a general approach is to measure the relationships between the representations of the objects because semantics are abstract and intangible ( Egghe & Rousseau , 2004 ) . 
+The “ bag‐of‐words ” model is a simple but effective way to represent information objects . 
+Objects ( e.g. , documents ) are represented as a set of terms in the model , and then the semantic relatedness between objects can be determined by comparing the terms in the representations . 
+Many measures have been proposed to quantify the semantic relatedness in this model . 
+The most influential ones include the Jaccard coefficient , Dice coefficient , and Cosine similarity , which are simple but often effective ( van Rijsbergen , 1979 ) . 
+Jaccard and Dice coefficients simply consider the presence or absence of representation elements ( e.g. , terms ) based on set theory , while Cosine similarity further accounts for the frequency of terms based on the Vector Space Model . 
+Based on probability and information theories , Mutual Information ( Church & Hanks , 1990 ) measures the mutual dependence between two terms and Log Likelihood Ratio ( Dunning , 1993 ) measures word collocation through co‐occurrence counts and mutually exclusive occurrences of word pairs in texts . 
+Using language modeling that represents objects as probability distributions over terms ( Liu & Croft , 2005 ) , Kullback–Leibler divergence ( Tomokiyo & Hurst , 2003 ) measures the semantic relatedness between two objects through the difference of their language modeling representations . 
+Kullback–Leibler divergence is an asymmetrical measure . 
+Jensen–Shannon divergence ( Fuglede & Topsøe , 2004 ) and symmetrical Cross Entropy Reduction ( Trieschnigg , Meij , de Rijke , & Kraaij , 2008 ) are two symmetrical variants of Kullback–Leibler divergence that provide the same results regardless of the order of the objects . 
+All these measures can potentially be used to determine the semantic relatedness between documents and their assigned subject descriptors . 
+To observe how different measures perform in weighted subject indexing , this study compares four of these measures : Jaccard coefficient , Cosine similarity , Mutual Information ( MI ) , and Jensen–Shannon divergence ( JSD ) . 
+Each of the four measures represents one type , where Jaccard is based on set theory , Cosine is based on Vector Space Model , MI represents probability theory based measure , and JSD represents language modeling based measure . 
+This section describes our methods in detail , including datasets , subject weighting approaches , and evaluation methods . 
+Three biomedical datasets were used : Ohsumed , Genomics 2004 ( Genomics04 ) , and Genomics 2006 ( Genomics06 ) . 
+Ohsumed is a collection of 348,566 metadata records from MEDLINE over a 5‐year period ( 1987–1991 ) . 
+Genomics04 contains a subset of MEDLINE from 1994 to 2003 with a total of 4,591,008 articles . 
+Three fields of interest—title , abstract , and MeSH—from Ohsumed and Genomics04 were used in this study . 
+Genomics06 is a full text collection of 162,259 documents . 
+The original Genomics06 collection does not include assigned MeSH descriptors for each document . 
+E‐Utilities tool ( https : //www.ncbi.nlm.nih.gov/books/NBK25501/ ) was used to query the database system at the National Center for Biotechnology Information ( NCBI ) for the assigned MeSH descriptors . 
+PMIDs ( PubMed IDs ) were used to match the records in the NCBI database . 
+The MeSH descriptors from the records were then embedded into the documents as their MeSH field . 
+For 2,215 documents in Genomics06 , no MeSH descriptors were embedded due to either the documents were not found in the database or the documents had not been assigned any descriptors . 
+The entire collections were used to train or calculate the needed statistics for weighting subject descriptors ( described in later sections ) . 
+A random sample of 10,000 documents was selected as the testing set in each collection . 
+Table 1 lists some descriptive statistics of the collections . 
+Documents without any assigned MeSH descriptors were then excluded , thus the number of documents in the final three testing sets are smaller than 10,000 ( Table 1 ) . 
+The average document length is measured by the average number of terms in documents after removing stop‐words . 
+In NLM , qualifiers are used to describe different aspects of a concept ( i.e. , a MeSH main heading ) . 
+For example , in the MeSH descriptor “ Psychotic Disorders/DT , ” “ DT ” is a qualifier meaning the “ Drug Therapy ” aspect of the MeSH main heading “ Psychotic Disorders. ” Some MeSH headings are assigned with multiple qualifiers to represent different aspects of the concepts . 
+We infer the weights for different aspects separately , in that different aspects of the same concept may have different importance for the article . 
+For example , “ Psychotic Disorders/*CO/DT/TH ” is split into “ Psychotic Disorders/CO , ” “ Psychotic Disorders/DT , ” and “ Psychotic Disorders/TH. ” Asterisks are assigned to MeSH descriptors that represent the major topics of the articles . 
+Among the above three MeSH descriptors , “ Psychotic Disorders/CO ” is identified as a major topic , as the qualifier “ CO ” is marked with an asterisk . 
+Main subject headings can also be regarded as major topics , for example , “ Psychotic Disorders/*. ” MeSH terms are categorized into five record types : descriptor , publication type , geographic , qualifier , and supplementary concept . 
+Because the focus of this study is on the semantic relatedness between subject descriptors and articles , nonsubject related MeSH terms with the record type of publication type or geographic were removed . 
+There are different perspectives on measuring the weight of a subject descriptor , which can be categorized into direct weighting approach and semantic association approach . 
+The former calculates some weighting statistics based on the properties of the subject descriptor . 
+The semantic association approach does not calculate the weight directly . 
+Instead , this approach attempts to measure the semantic association between the concept and its assigned document . 
+The most widely used term weighting scheme is TF‐IDF . 
+The TF‐IDF scheme characterizes the importance of a term to a document based on the frequency of the term occurring in the document ( i.e. , term frequency , TF ) and the frequency of the term appearing in different documents in the corpus ( i.e. , inversed document frequency , IDF ) . 

@@ -1,0 +1,127 @@
+Second , as there are more terms , it becomes harder to match the query to a document that contains all query terms . 
+The second factor becomes dominant at large query lengths . 
+Figure 6 shows the behavior in terms of the number of characters in the query . 
+We observe that the NAQ likelihood is more skewed towards queries with many characters , compared to common queries . 
+Query length ( in words ) distribution . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Query length ( in characters ) distribution . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We also investigated the relationship between the terms in NAQs and their document frequency . 
+To this end , we issued all such terms ( 1,770 terms that are extracted from NAQs after usual normalization like removing white space and punctuation ) to all three search engine frontends and retrieved the matching result counts . 
+Figure 7 shows the fraction of NAQ terms for a certain number of matching results . 
+We observe that a large fraction of the terms in NAQs are not in the vocabulary of search engines ( 5 % to 8 % ) . 
+Number of NAQ terms with a certain document frequency . 
+In this section , we investigate the feasibility of predicting NAQs . 
+Predicting whether a query is an NAQ before it is submitted to the search engine can be useful in several scenarios : Mobile search : A predictive model deployed within a mobile device can warn the user if the query is not likely to return any answers , providing savings in terms of time , bandwidth usage , power consumption , and monetary costs . 
+Meta‐/federated search : The meta‐search system ( or the broker ) can build a separate NAQ predictor for each search service and can forward the query to only those services that are predicted to return some results . 
+This may reduce the bandwidth usage and financial costs of the broker while reducing the load on the search services . 
+We cast the problem of predicting whether a query will return no results as a classification problem and solve it using machine‐learning techniques , that is , we have a binary classification problem where query instances belong to the “ no answer ” or “ common ” categories . 
+The features used by the learned model are given in Table 10 . 
+Our choice of features is guided by the characteristics of the NAQs presented in the previous section as well as the earlier works in the literature . 
+In particular , due to the similarity of our problem to the problems of difficult/rare query prediction and query performance prediction , our feature set essentially includes the core features employed in the previous works addressing these problems . 
+One such feature is the query length , which can be computed in various ways ( e.g. , in terms of the number of words or characters ( Balasubramanian , 2010 ; He & Ounis , 2006 ) . 
+The query length is reported to be different for popular and tail queries ( as the latter type of queries are usually longer ) and our NAQs being quite rare queries at the tail , this feature may be discriminative for predicting them . 
+Another group of features is based on the collection‐frequency of query terms . 
+These features are motivated by the intuition that rare terms are less likely to appear together , and hence they are more likely to yield no results . 
+Earlier work on query quality prediction also employ features of the same flavor , such as minimum and maximum of the inverse document frequency ( IDF ) scores of query terms ( Kumaran & Carvalho , 2009 ) or their standard deviation ( He & Ounis , 2006 ) . 
+We also construct several lexical features ( e.g. , presence of symbols , digits , or URIs in the query string ) , which were employed before in the query performance prediction task ( Balasubramanian et al. , 2010 ) . 
+The country of the user could be a useful feature because the web coverage of a search engine may be limited for certain countries or high‐quality natural language processing ( NLP ) tools may not be available to handle queries issued from those countries , leading to NAQs in both cases . 
+In some search engines , the query results are personalized if the user is logged into the system , and this may affect the retrieved results . 
+Therefore , we use the information about whether the user is logged into the system or not as a separate feature . 
+We compute certain features ( those whose names end with an X ) for three different versions of the query string : original , spelling‐corrected , and normalized . 
+The spelling‐corrected query ( if available ) is provided by the search engine . 
+We obtain the normalized query ourselves . 
+We form three sets of features based on different criteria , considering the fact that not all features may be available in all use case scenarios . 
+For instance , while all query‐ and term‐related features may be available to a search engine , a mobile application may not be able to access these features to predict NAQs . 
+More specifically , we investigate the prediction accuracy of subsets of features , taking into account the generalizability and availability of our features . 
+The GE ( generalizability ) set contains the features that are available independently of a query log and a document collection . 
+These features allow learning models , independent of a particular search engine . 
+The AV ( availability ) set contains the features that are likely to be available to a search client . 
+In our case , frequency‐related features that require storing large amounts of frequency data on the client side are removed from the full feature set . 
+Finally , the AC ( accuracy ) set contains all features . 
+We train a separate classifier for each one of these three feature sets . 
+We sampled queries from two consecutive days of Yahoo ! 
+Web Search query logs ( about 16 million queries in total ) . 
+The queries were normalized by lowercasing every query term , removing stop‐words and duplicate query terms , ignoring query terms longer than 20 characters , and removing queries whose language has no space separator . 
+For training , we used queries from the first day and , for testing , we used queries from the second day . 
+To prevent the class imbalance in the training set , we downsample common queries such that the training set contains a similar number of NAQs and common queries . 
+While testing the model , we used the original distribution in the test set . 
+As the classification technique , we used gradient boosted decision trees ( GBDTs ) ( Friedman , 2000 ) . 
+An advantage of the GBDT classifier over other learners is that its output is easy to interpret , since it includes an explanation of the relative influence of different variables . 
+As another advantage , the GBDT classifier has been shown , many times , to achieve high classification accuracy values and outperform other machine‐learning techniques in various classification tasks ( Zheng et al. , 2007 ) . 
+Due to the high class imbalance , we report the performance using the receiver operating characteristic ( ROC ) curve . 
+The ROC curve plots the true‐positive rate versus the false‐positive rate . 
+We also report the AUC as a summary of the performance of the classifier . 
+The parameters ruling the behavior of the learning model ( the shrinkage parameter , the number of trees , and the number of nodes per tree ) are selected using a held‐out query set . 
+As the first step , we investigate the most influential features for classifying NAQs . 
+The GBDT classifier provides a simple and intuitive way to interpret the relative importance of features . 
+Figure 8 shows the normalized relative importance of the most influential 15 features . 
+The features whose name ends with ‐O correspond to the features extracted from the unmodified original keywords , ‐N to their normalized version after processing the query , and ‐S to features extracted after spelling correction . 
+We observe that the feature importance values are highly skewed , which implies that there are only a few powerful features . 
+We also observe that frequency‐based and length‐based features are likely to have relatively high impact on the prediction performance . 
+Frequency‐based features that are computed using the normalized version of queries are more helpful than those computed using the original queries . 
+Relative importance of the features . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We evaluated the performance of the previously mentioned feature sets ( GE , AV , and AC ) . 
+The results are summarized in Figure 9 , which shows a separate ROC curve for each feature set . 
+In general , the features in the GE set perform close to a random assignment of classes ( AUC of 0.591 ) . 
+In turn , the classifier that uses the features in the AV set is able to produce very good classification results ( AUC of 0.894 ) . 
+This is important , as the latter set contains only those features that are likely to be available to a search client in our mobile‐ and meta‐ search scenarios . 
+Using all features ( the AC set ) yields an even higher AUC of 0.949 . 
+This means that if term frequencies can be made available ( say , by storing them at the client device together with the prediction model ) , the classifier is able to make very accurate predictions . 
+This is a positive finding , given that the distribution of NAQs in the test set is highly skewed , and it implies that the features extracted are useful for classifying NAQs . 
+In the same figure , we also display the performance of our model over the test queries selected from the AOL log ( these are the queries we used before for characterizing NAQs ) . 
+This verification is important to see if our model generalizes to different query logs . 
+Indeed , we observe that the performance is comparable to the performance obtained by using the features in the AC feature set . 
+ROC curves for the feature sets in Table 10 . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As another experiment , we varied the amount of training data fed into the classifier to determine the number of training instances that the classifier needs to achieve a good performance . 
+We randomly split the initial training set obtained from a single day into several subsamples containing a fraction of the training instances . 
+The testing was performed using the same query log in all cases . 
+Figure 10 presents the results , where the y‐axis shows the AUC and the x‐axis shows the percentage of training instances . 
+In the figure , we can observe that the classifier is able to correctly predict 90 % of the cases using only 20 % of the original training data . 
+This implies that the classifier needs only a small number of instances to perform well . 
+Increase in AUC as more training data are used . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We also performed a set of experiments in order to check if the performance drops with time . 
+Specifically , we trained the model at an origin day X and classified queries using a query log from day X + Y , where Y ∈ { 2 , 4 , 8 , 16 , 32 } . 
+The model was trained using the full training query set coming from the first day X and tested using 8 million queries for each of the subsequent days . 
+In all cases , the AUC and precision metrics did not show any significant difference with respect to those in the first day , with a variation in AUC less than 1 % in all cases . 
+This means that the classifier is very stable over time , a potentially important observation for the mobile search scenario . 
+In particular , once a prediction model is downloaded ( possibly through a wired connection ) and deployed at a mobile device , it can be safely used for more than a month without requiring an update . 
+Given that there is no significant difference in the performance across the data sets , we prefer not to demonstrate the results . 
+Finally , we assessed the performance of the classifier in predicting queries that match fewer than X results ( X ∈ { 0 , … , 9 } ) . 
+This assessment is important because such queries are potentially difficult and the search engine might want to be informed so that it can proactively suggest a reformulation of the query to the user . 
+We generated 10 different pairs of training and test sets of sizes comparable to those used before and calculate the AUC as before . 
+In Figure 11 , we report the performance for every pair . 
+The performance was observed to be stable across all 10 sets , dropping slightly when we increased the threshold for the number of results , with a maximum drop of 4 % when X = 9 . 
+In general , the classifier predicts correctly , on average , more than 9 out of 10 queries . 
+This result is in line with the results previously reported in this section . 
+Decrease in AUC as more results are returned . 
+In this section we discuss some techniques that might be appropriate for handling NAQs exhibiting certain characteristics as described in previous sections . 
+NAQs with more than one term : The de‐facto search semantics of real‐life search engines is conjunctive , that is , retrieved results contain all query terms . 
+In the case of NAQs , this can be relaxed for the sake of obtaining at least an approximate answer . 
+A step towards this goal may be dropping some of the query terms and processing the remaining terms , again , in conjunctive mode . 
+In this case , dropping terms with the minimum document frequency may be useful ( dropping terms that have zero frequency is definitely useful ) although this may overgeneralize the query . 
+On the other hand , keeping terms with low frequency in the query may yield further NAQs and increase the response time if many subqueries need to be executed before an approximate answer is generated . 
+An earlier study used machine‐learning techniques to rank the subqueries of a long query and then replaces the original query with the best subquery to improve the retrieval quality ( Kumaran & Carvalho , 2009 ) . 
+In the case of NAQs , the best subquery identified in this way may still return no answers , implying that the learning process should also take into account the need to generate an answer . 
+As a more efficient alternative , the subsets of the query that are already stored in the search engine result cache ( i.e. , with known answers ) can be used to obtain an aggregate answer ( Cambazoglu , Altingovde , Ozcan , & Ulusoy , 2012 ) . 
+A more liberal approach may be to switch to disjunctive matching semantics and rank documents that include any of the query terms . 
+This approach may again suffer from overgeneralizing the query and/or high processing costs . 
+Finally , another possible solution is to adopt the methods that are proposed for generating query reformulations or suggestions ( e.g. , Jansen , Booth , & Spink , 2009 ; Jones , Rey , Madani , & Greiner , 2006 ) . 
+For instance , in the context of sponsored search , Jones et al . 
+( 2006 ) generate substitutions for terms , phrases , or entire queries using external semantic resources or other queries . 
+This approach may not be appropriate for NAQs since many NAQs include at least one term with very low document frequency , and it is very unlikely that such terms can be found in other queries or semantic resources . 
+Yet this might be a good approach to handle NAQs that stem from linguistic problems ( e.g. , when an awkward translation of a term from another language is used in the query ) . 
+NAQs with a single term : The solutions that drop terms are not viable for single‐term NAQs . 
+It is also difficult to make query suggestions or replacements based on queries with similar terms . 
+Spelling correction may be a viable choice for such queries . 
+However , given that these queries could not be answered at the moment , this may be considered an indication of the inability of simple spelling checkers to correct such typos . 
+This calls for more advanced string processing techniques , such as first segmenting the word into many components ( Pu & Yu , 2008 ) and then applying spelling correction . 
+While such techniques can yield some results for NAQs , whether these results would satisfy the user 's information need is a different issue that has to be explored on its own . 
+Further note that NAQs still exist , although the commercial search engines may have already adopted such mechanisms . 
+This means that either new or more advanced mechanisms should be developed , or the existing ones should be applied more aggressively ( possibly in combination ) . 
+Since both options potentially increase the risk of hurting the performance for non‐NAQ queries , we believe that such mechanisms and/or their aggressive use should be utilized only when a query is found or predicted to be an NAQ , but certainly not for all queries . 
+We provided a characterization of queries that match very few or no results in major search engines . 
+After a detailed analysis on how queries with few results are handled by search engines ( emphasis being on the strategies for suggesting alternative queries and the properties of these suggestions ) , we focused on no‐answer queries ( NAQs ) . 
+We built machine‐learning models to predict NAQs for mobile and meta‐search scenarios , where such predictors may save various resources by preventing NAQs being submitted to the search engines . 
+Our extensive experiments show that , although solving NAQs may be a difficult problem , their prediction is a relatively easy task . 
+In this paper , by characterizing NAQs , we pave the way to the development of more sophisticated techniques to solve them . 
+When coupled with NAQ prediction , these techniques can be used without hurting the effectiveness and efficiency of other queries . 
+In the future , we plan to investigate possible techniques for solving NAQs . 

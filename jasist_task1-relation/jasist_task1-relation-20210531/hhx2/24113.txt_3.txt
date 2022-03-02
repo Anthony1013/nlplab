@@ -1,0 +1,6 @@
+If there is not a clear‐cut public/private boundary in self‐identity formation , are SNS platforms responsible for shaping “ zones of privacy ” ( Fahey , 1995 , p. 688 ) through social categorization and norms ? 
+Future work could be carried out to investigate how norms and collective identity influence both individual and group privacy behaviors ( Bloustein , 1978 ) in a social group in SNS . 
+Second , my theorization and the research design center on the specific context of online social networking , where the active construction of self‐identity occurs in social interactions . 
+The self‐identity perspective is less applicable to non‐social contexts such as e‐health and e‐commerce , where the privacy concern is mostly about unwanted access to personally identifiable information ( Clarke & Steele , 2015 ; Lowry et al. , 2012 ) . 
+On the other hand , SNS platforms are also evolving toward more fine‐grained privacy management settings because of people 's increasing privacy awareness and the stricter data protection policies imposed by government . 
+This developing landscape of privacy management invites further research on the linkage between identity theories and privacy behavior , considering user‐system dynamics , platform differences , and the changing sociocultural environment . 

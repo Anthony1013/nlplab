@@ -1,0 +1,56 @@
+Our interpretation of these data is that researchers who have collaborators with more diverse h‐indices might have sufficiently exercised their research ability . 
+For example , authors only working on empirical studies may not read sufficient numbers of articles on the topic , which is like the phenomenon of labor division in socioeconomics . 
+As a result , their research would be limited and their theoretical background could be weak despite the fact that they have good operational skills . 
+On the other hand , it is more likely that those who only focus on literature reviews or article writing tend to show inadequate ability to model or enact relevant practices . 
+Both of these cases could be discussed under the Cannikin Law ( Buckets Effect ) , which suggests that a wooden bucket 's capacity is determined by its shortest plank , or “ the chain is only as strong as the weakest link. ” This implies that averages have little meaning , in that you can not necessarily offset failure by corresponding success . 
+True scientific success requires comprehensiveness and few weaknesses . 
+Different types of tasks exercise the scholar 's ability and skills in distinct aspects and ways ( Krapf , 2015 ) , which can lead to high possibilities for their future success . 
+It is therefore much better to “ grow up ” through research processes by undertaking different tasks that make the researchers “ stronger ” and more mature than to collaborate with specific impact researchers ( e.g . 
+high‐ or medium‐impact researchers ) . 
+In other words , high‐impact authors collaborate with impact‐diverse researchers , through which they gain rich experiences and benefit from different skills . 
+Figure 4 shows the results of EFA in a two‐dimensional graph , in which each node represents an indicator and the coordinate values of a node are equal to its EFA loading values , which are normalized between 0 and 1 . 
+We can see that most Type II indicators ( ends with “ B ” ) feature a larger value on the vertical axis ( VA ) but a smaller value on the horizontal axis ( HA ) ( on the left or the upper‐left part of the figure ) . 
+Type III indicators ( ends with “ A ” ) have a larger value on the HA but a smaller value on the VA ( on the right or the lower‐right part of the figure ) . 
+The position difference between the indicators before and after PhD graduation shows the distinguished scientific collaboration patterns among different stages of a career ( Hamermesh , 2015 ) . 
+As for Type I indicators , both of the values on the two axes are large ( on the upper‐right of the figure ) . 
+Hence we interpret HA as the “ after‐PhD‐graduation dimension ” and VA as the “ before‐PhD‐graduation dimension. ” EFA results visualized in a two‐dimensional graph . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] To better analyze the different roles these indicators play , we establish the relationships between the indicators and axes using the radar map , noted in Figure 5 . 
+Certain indicators loading heavier on the HA or VA shows that this indicator plays a more important role in this dimension . 
+We can see that the h‐index and total citation number of an author have heavier loads on both HA and VA , suggesting that these two indicators are effective in evaluating career trajectory regardless of being before or after PhD graduation ; thus high performance on these indicators is associated with greater scientific success . 
+Total number of publications only shows a heavy load on HA instead of both . 
+Also , the position that h‐index occupies in Figure 4 is between that of total number of citations and publications , which verifies the essence of h‐index , by combining scholars ' productivity and impact levels as measured by the number of publications and citations their work has received . 
+Figure 5 also confirms the findings shown in Figure 4 , that all of the Type II indicators exhibit much heavier loads on VA ( red line in Figure 5 , representing “ before Ph.D. graduation ” ) , while those of Type III have much heavier loads on HA ( blue line in Figure 5 , representing “ after Ph.D. graduation ” ) . 
+Relationships between the indicators and their loads on HA and VA ( Blue : HA , after PhD graduation ; red : VA , before PhD graduation ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Among all of the Type II indicators , the number of publications and the number of citations before PhD graduation load mostly on HA , while two “ independence‐related ” indicators , that of the number of single‐authored publications ( “ IndipenCountB ” ) and their average citations ( “ AvgcitIndipenB ” ) load to a much lesser degree . 
+This implies that it is not wise for PhD candidates to publish articles on their own , which is probably because their research is immature and needs more guidance of senior researchers or mentors at that time . 
+Otherwise , the impact of such sole‐authored articles of junior scholars might not be high . 
+This result is similar to Muschallik and Pull ( 2016 ) 's study , in which they found that mentees in formal mentoring programs are more productive than comparable researchers not involved with such programs . 
+Moreover , Figure 5 shows that three “ AA‐related ” and three “ non‐AA‐related ” Type II indicators also have approximate loading values on VA . 
+Collaboration with other researchers may thus be a form of preparation for success before PhD graduation , regardless of whether they are AAs or not . 
+But there is no doubt that collaborating with AAs before PhD graduation still plays an important role in a researcher 's career . 
+In terms of Type III indicators , the number of publications and citations after PhD graduation also load heavily on HA , which is similar to the corresponding “ before PhD graduation ” indicators . 
+Different from Type II indicators in which AA‐related and non‐AA‐related indicators are both important , AA‐related indicators affect scientific careers less than the others , regardless of the number of collaborations ( “ CoauAATimes ” ) , the number of unique collaborators ( “ CoauUniAACountA ” ) , or the average number of citations ( “ AvgCitWithAAA ” ) . 
+This indicates that for researchers who have earned their doctoral degrees or have been established as experienced scholars , collaborating with authoritative authors may not play as powerful a role as it did prior to their PhD graduation . 
+Our interpretation of these data is that there is potential for the “ halo effects ” of AAs to outshine junior scholars and thus can fetter their further development to some extent . 
+Meanwhile , indicators showing the number of collaborations with AAs ( or non‐AAs ) load about ten percent more than that showing the number of unique collaborators with AAs ( or non‐AAs ) , suggesting that it is necessary for a number of articles to be coauthored with certain fixed AAs ( or non‐AAs ) . 
+Based on the premise that for an approximate number of collaborations with AAs ( or non‐AAs ) , it is not good to pursue more AA ( or non‐AA ) collaborators probability because “ short‐term collaborations ” have limited promotions on scholars ' career success . 
+Moreover , the number of single‐authored publications has a greater influence on a scientific career after PhD graduation compared with that in Type II , before graduation , indicating that high‐impact authors tend to collaborate less after their PhD graduation compared to before their graduation . 
+This finding is similar to that of Kumar and Ratnavelu ( 2016 ) , in which older researchers are found to have significantly fewer coauthored articles than younger researchers . 
+Yet neither of the two indicators showing the number of single‐authored articles before or after PhD graduation loads much in EFA results . 
+This shows that leading research and accomplishing it alone can only to a small extent benefit a junior researcher 's career , as scientific collaboration can more easily lead to ultimate success ( Bozeman & Boardman , 2014 ) . 
+This article analyzes scientific careers from the perspective of collaborators ' diversity and the PhD career milestone . 
+To identify the collaborators ' diversity , we calculate the research topic and impact diversity of the collaborators based on a computer science data set . 
+The h‐index is employed to measure the impact of the researchers . 
+The results of our empirical study show that high‐impact authors have a tendency to collaborate with researchers focusing on different research topics . 
+Contrary to conventional wisdom , we find that high‐impact authors not only have abundant experience working with other high‐impact authors but also collaborate with authors who have a medium h‐index , meaning that high‐impact authors ' collaborators have more impact diversity , in terms of h‐index , than others . 
+Moreover , from the analyses on scientific‐collaboration indicators related to PhD graduation , we conclude that collaborating with authoritative authors plays an important role before researchers ' PhD graduation , while working with non‐authoritative authors is more important after their PhD graduation . 
+This finding highlights the drawback of traditional wisdom of a researchers ' need to “ stand on the shoulder of giants ” for success , and the importance of working with other researchers at different stages of their scientific careers . 
+This article discovers a pattern of high‐impact researchers in terms of their scientific collaborations , that is , trying to collaborate with more diverse scholars in terms of research topic as well as impact . 
+Furthermore , one of the implications drawn from the results reflecting collaborations among different stages of careers is that advisors of PhD students could provide them more opportunities to collaborate with other experienced researchers , and not limit them to their advisor . 
+A common phenomenon in current PhD programs , especially in computer science field , is that the advisor prefers to see their doctoral students spending most of their time in the laboratory and only focusing on the group task . 
+Actually the results from this article reveal its drawback , aka . 
+might not benefit the young doctoral students at all . 
+One of the limitations of this research is that we only measure the diversity between the researchers ' collaborators , but not the diversity between the researchers and their collaborators . 
+In the future , detailed exploration of the research topic diversity and impact diversity between the researchers and their collaborators could be implemented . 
+We will further explore the relationships between researchers ' impact and their collaborators ' diversity in various areas , such as affiliation , background , or geographical diversity . 
+We also intend to further divide researchers ' scientific careers into several milestones , allowing us to explore with more depth the characteristics of successful scientific career development . 

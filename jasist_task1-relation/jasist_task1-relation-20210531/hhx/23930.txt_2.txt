@@ -1,0 +1,130 @@
+( 2014 ) has proposed an approach that combines direct citation and cocitation clustering methods . 
+The present study intends to determine whether results similar to those of Small et al . 
+( 2014 ) can be obtained using a less complex methodology that is based on only a direct citation method . 
+On the other hand , Waltman and Van Eck ( 2012 ) elaborate the advantages of using direct citation relations in the measurement of the relatedness of publication : “ cocitations and bibliographic coupling are more indirect mechanisms than direct citations , and direct citations may therefore be expected to provide a stronger indication of the relatedness of publications ” ( p. 2380 ) . 
+The use of direct citation relations is also supported by Klavans and Boyack ( 2015 ) , who conclude that the use of direct citation relations yields more accurate results than bibliographic coupling or cocitation relations . 
+This study is based on data from the in‐house WoS database of the Centre for Science and Technology Studies ( CWTS ) at Leiden University for the period from 2003 to 2012 . 
+All publications of the document type of articles and reviews are included , for a total of around nine million . 
+Figure 1 shows the distribution of the number of publications during the 10 years covered . 
+Number of publications from 2003 to 2012 . 
+In what follows , criteria for identifying emerging topics are proposed and then applied to a specific research topic . 
+A research topic can be considered as emerging if it displays the four attributes of radical novelty , relatively fast growth , coherence , and scientific impact . 
+The connections between these attributes and each criterion are elaborated in this subsection , beginning with the attribute of fast growth . 
+For a research topic to be considered as emerging , it should show a rapid increase in yearly publications , that is , Criterion II – novelty . 
+An emerging topic should be novel at the early stage of its emergence , which means that the number of publications in the beginning of a term should be relatively small . 
+Then , for a research topic to be considered as emerging , it should show radical novelty at the early stage of its emergence , that is , . 
+Criterion III – scientific impact . 
+An emerging topic should present a prominent scientific impact for which citations are used as a measure . 
+Let denote the number of citations that publications published between in a research topic had received in the same time window . 
+This reflects the scientific impact of research topics during a predetermined time interval . 
+For a research topic to be considered as emerging , it should show a prominent scientific impact , that is , . 
+Criterion IV – coherence . 
+An emerging topic should be coherent . 
+In this study , clusters are generated based on direct citation relations among publications.11 The clustering method used in this paper can not automatically ensure that the generated clusters are sufficiently coherent . 
+In this case , using a criterion to evaluate the coherence of clusters is necessary . 
+Furthermore , if the total number of citations received from the publications within a given cluster is less than its total number of publications , then the publications of this cluster may be loosely connected . 
+This is seen as a sign of the coherence of research topics . 
+Let denote the coherence of a topic , which is measured using the total number of within‐cluster citations divided by the total number of publications . 
+For a research topic to be considered as emerging , it should be coherent , that is , . 
+In summary , an emerging research topic should satisfy each the following criteria : the research topic should have a rapid growth ; the research topic should show radical novelty at the early stage of its emergence ; the research topic should present a prominent scientific impact ; and the research topic should be coherent . 
+It is necessary to give a brief explanation on the role of year in our criteria . 
+Novelty , scientific impact , and scientific impact all relate with . 
+An emerging topic is required to satisfy each of the three criteria for the same value . 
+Of course , it is possible for a research topic to have multiple emergent phases if it satisfies all criteria for multiple values of . 
+However , we record its first emergent period for the convenience of reporting results . 
+In this subsection , the cluster regarding graphene research will serve as an example to clarify how these criteria are applied . 
+Its annual number and smoothed number of publications are provided in Table 1 . 
+The parameter value of a time interval needs to be defined at the outset . 
+For instance , if emergence is expected in a relative short term , the parameter value can be set as , which yields the growth rate at a two‐year interval , also shown in Table 1 . 
+In the meantime , the smoothed number of publications in the first year of each growth trend can be observed . 
+Next , the attribute of scientific impact is measured calculating its number of citations . 
+For instance , the scientific impact at the year 2007 is measured by summing up the number of citations that the publications published between 2005 and 2007 had received in the same time window . 
+In this way , we obtained the number of citations that the publications had received from 2005 to 2007 , which is 6513 in total . 
+Finally , coherence is measured using the total number of within‐cluster citations divided by the total publications . 
+In this case , the total number of within‐cluster citations is 231,995 , which means that the coherence of this research topic is around 21 . 
+All the information necessary to identify an emerging research topic is thus obtained . 
+Suppose , for example , that the parameter values are set as , , = 1 , this research topic regarding graphene can be considered as emerging . 
+By contrast , when the parameter value of growth is set at , it can not be considered as emerging . 
+Thus , whether a topic can be considered as emergent depends on the choice of the parameter values . 
+In this study , around 10,000 clusters are obtained . 
+Each cluster contains 956 publications on average . 
+Figure 2 shows the distribution of publications over clusters . 
+As can be seen , some clusters an extremely small number of publications.22 An alternative approach would have been to exclude small clusters or to merge them with larger clusters . 
+A method for merging smaller clusters with larger ones is described by Waltman and Van Eck ( 2012 ) . 
+Small clusters have little influence on the following analysis and were therefore not excluded . 
+Distribution of publications over clusters in log‐log scale . 
+This analysis uses two sets of parameter values for examining the proposed approach . 
+The use of multiple parameter values can provide insight into the sensitivity of the results . 
+To present a distinction , the parameter values of the time interval are respectively . 
+Statistics regarding the attributes of emergence are obtained in the following way . 
+We first determine the maximum growth rate for each topic . 
+Based on this , the smoothed number of publications in the first year of the maximum growth trend can be tracked , and the number of citations that the publications published from to had received in the same time window can be calculated . 
+The attribute of coherence is not relevant to a time interval , and it can be easily measured using the total number of within‐cluster citations divided by the total number of publications . 
+In this way , we obtained the value of growth , novelty , scientific impact , and coherence for each cluster . 
+The statistics on these attributes are shown in Table 2 . 
+Balancing the statistics of the attributes of emergence , the two sets of parameter values are used , as is summarized in Table 3 . 
+The parameter values are relatively strict , apart from coherence . 
+For the first set , topics are selected that both experienced a growth rate of no lower than two and had no fewer than 1,500 citations during a 2‐year period . 
+For the second set of parameter values , topics are selected that both presented a growth rate of no less than five and had no fewer than 2,500 citations . 
+It should be noted that the attributes of novelty and coherence do not relate to a time interval , namely . 
+Thus , for both sets , topics are selected that had no more than 100 publications in the first year of emergence and presented coherence no less than one . 
+It could be argued that the parameter value of coherence is quite small , but the purpose of this attribute is to guarantee that the cluster is not very loosely connected . 
+The two sets of parameter values identified 16 and 15 research topics , respectively , and 12 of which were identified from both sets . 
+There is a trade‐off between precision and recall with this approach , even though , as Small et al . 
+( 2014 ) indicate , it is impossible to estimate the magnitude of the trade‐off because a definitive list of emerging topics is lacking . 
+This study identified around 15 emerging research topics using both sets of parameter values . 
+There may be more emerging topics in the 10‐year period . 
+The parameter values established in this study are relatively rigorous , for which reason only a limited number of research topics is identified . 
+Furthermore , it is difficult to label clusters because some cover a large number of publications . 
+However , for readability purposes we add a brief label to each cluster . 
+More sufficient description can be found in Table A1 , where the 10 most frequent terms and the two most cited publications are provided . 
+The first column of Table A1 shows the set of parameter values according to which research topics are identified . 
+The justification of the effectiveness of the proposed methodology requires considerable discussion . 
+Klavans and Boyack ( 2015 ) state the following : In most fields of science , accuracy is of paramount concern . 
+Admittedly , some fields lend themselves more to accuracy than others . 
+This is particularly true for those fields where physical properties can be measured , those for which gold standards exist , and those where a great deal of research is replicated . 
+Unfortunately , none of these conditions are extant when it comes to the delineation of topics , or the creation of taxonomies of the scientific literature . 
+( p. 988 ) In most fields of science , accuracy is of paramount concern . 
+Admittedly , some fields lend themselves more to accuracy than others . 
+This is particularly true for those fields where physical properties can be measured , those for which gold standards exist , and those where a great deal of research is replicated . 
+Unfortunately , none of these conditions are extant when it comes to the delineation of topics , or the creation of taxonomies of the scientific literature . 
+( p. 988 ) It can be seen that no “ gold standard ” exists in certain bibliometric studies . 
+Small et al . 
+( 2014 ) similarly note the absence of a definitive list of emerging topics , which implies that no widely recognized criteria are available to validate the methods for detecting emerging topics . 
+Theoretically , the effectiveness of the proposed approach could be validated by replicating previous methods and presenting a systematic comparison , but this strategy is problematic for two reasons . 
+First , the definition and attributes of an emerging topic used in previous studies vary , as explained in “ Related Work. ” Therefore , because the differing definitions and attributes , emerging topics identified in these studies could be inconsistent . 
+Second , there is no single optimal level of aggregation , which suggests that different aggregated levels can be used to conduct the identification of emerging topics . 
+Analyses at different aggregated levels also create obstacles in conducting comparisons with other relevant methods . 
+Furthermore , expert opinions might be used as an alternative means to justify the accuracy of results , even though this approach is problematic as well . 
+Because the present study identifies emerging topics across the entire science system , it would be challenging for experts to assess so broad a scope . 
+Experts may also have different understandings of the concept of emergence and might not accept the definition used in this paper . 
+Therefore , the criteria that experts use to justify accuracy could differ from the indicators designed here for identifying emerging topics . 
+In sum , although expert opinions indeed represent a valuable way for laymen to gain insight into an unfamiliar research topic , the flexibility of using this approach to validate our results is arguable . 
+Given that performing a validity test presents difficulties , it is even more important to ensure that the proposed method be straightforward and transparent and to make it accord intuitively with the perception of an emerging research topic . 
+In other words , the proposed indicators should be in strict accordance with the definition and attributes of what qualifies as emergent . 
+In the following subsections , the research topics that have been identified as satisfying the criteria of emerging topics are presented . 
+Next , the research topics detected in the present work are compared with those mentioned in similar studies . 
+The reason for conducting a brief comparison lies in the fact that although we may not yield sufficient evidence for validating our result by comparing with previous work , it can still provide insight into how our results cohere with previous analyses on the identification of emerging research topics . 
+Finally , an in‐depth analysis of the field of library and information science ( LIS ) is presented . 
+These considerations are offered as proof of the effectiveness of the proposed method . 
+In this study , the four attributes of an emerging research topic are radical novelty , relatively fast growth , coherence , and scientific impact . 
+Accordingly , Table 4 presents the attributes of emergence for each of the research topics identified . 
+Furthermore , the emergence , development , and disappearance of a research topic can also be observed in terms of yearly publications . 
+Figure 3 illustrates the curve of annual publications for these identified topics . 
+The trend of publications for the identified topics . 
+By way of further elaboration , consider , for example , Topic 1 , which relates to the electronic properties of graphene research . 
+According to the second most often‐cited paper associated with this research topic , by Geim and Novoselov ( 2007 ) , “ [ g ] raphene is a rapidly rising star on the horizon of materials science and condensed‐matter physics . 
+This strictly two‐dimensional material exhibits exceptionally high crystal and electronic quality , and , despite its short history , has already revealed a cornucopia of new physics and potential applications ” ( p. 183 ) . 
+In our analysis , Topic 1 is detected regardless of the set of parameter values used . 
+To be specific , the growth rate of this topic is 5.24 from 2005 to 2007 and reaches 34.05 when its time interval is expanded to a five‐year interval . 
+During the first year ( 2005 ) in which this topic begins to increase , it only has 39 smoothed publications . 
+In terms of scientific impact , the number of citations for the publications between 2005 and 2007 is more than 6,000 , and during a five‐year time period , the number increases to more than 100,000 . 
+Meanwhile , this topic is represented by a quite closely associated cluster , the coherence of which is 21 . 
+Cluster 1 displays a steep increase in annual publications from 2003 to 2012 , as shown in Figure 3 . 
+In sum , Topic 1 is indeed a radically novel , relatively fast‐growing , and cohesive topic , and it also creates significant scientific impact . 
+Having satisfied the attributes of emergence , it is reasonable to consider the topic of graphene research as emerging . 
+It should be mentioned that certain topics are identified using one set of parameter values but can not be identified using another set , as can be illustrated with the following example . 
+Topic 13 , which relates to the studies on EML4‐ALK fusion gene in non‐small cell lung cancer , is identified as emerging using the first set of parameter values . 
+It displays a sharp increase in yearly publications from 2010 to 2012 , as shown in Figure 3 . 
+Furthermore , Topic 13 also fits the criteria of novelty , scientific impact and coherence , as shown in Table 4 . 
+However , it is not identified as emerging when the second set of parameter values is used because its highest growth rate in a 5‐year time interval is only 2.28 , which does not satisfy the parameter , namely , . 

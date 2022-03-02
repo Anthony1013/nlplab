@@ -1,0 +1,33 @@
+To investigate this possibility , the method for post hoc power analysis described in MacCallum , Browne , and Sugawara ( 1996 ) was conducted for this hypothesis . 
+This analysis provides a minimum value for power , and the power of this analysis was 0.69 . 
+Extrapolating power for this analysis from the published tables in Reinartz , Haenlein , and Henseler ( 2009 ) places the power for this test at 0.74 . 
+Although both of these numbers are less than the 0.80 power level ( Cohen , 1988 ) , it is believed that this analysis had sufficient power , and that the nonsignificant result observed was not because of a lack of power . 
+Future research should be conducted to substantiate this lack of finding . 
+Transactive memory may act as both structural and relational aspects of social capital , and it also performed as expected . 
+Individuals with well‐developed transactive memory systems reported that the interpersonal sources they used were of higher quality and were more accessible than those without such a mechanism in place . 
+With regards to quality , members of the transactive system know which other members are the experts in the area where information is needed . 
+Because expertise is an indicator of quality ( Palazzolo , 2005 ) , it makes sense that there was a relationship between an individual 's transactive memory and his assessment of the quality of a relational source . 
+As for accessibility , knowing who knows something is half the battle in finding information . 
+One area this study does not address is impact of the strength of the ties among network participants selecting interpersonal sources . 
+Previous research has shown that strong ties are more effective in transferring tacit knowledge ( Krackhardt , 1992 ; Maurer , Bartsch , & Ebers , 2011 ; Reagans & McEvily , 2003 ) , whereas weak ties are more effective in transferring explicit knowledge ( Hansen , Podolny , & Pfeffer , 2001 ) . 
+Future research should investigate how the strength of the ties among network participants influences the assessment of the costs and benefits of using an interpersonal information source . 
+We have operationalized the structural , relational , and cognitive dimensions of social capital using particular measures that capture specific aspects of these dimensions . 
+As noted by Nahapiet and Ghoshal ( 1998 ) , “ Although we separate the three dimensions analytically , we recognize that many features we describe are , in fact , highly interrelated ” ( p. 243 ) . 
+As a result , other studies that choose to capture different aspects of the dimensions of social capital may find different results . 
+This work should be seen as part of a larger narrative on the role that social capital plays in how individuals share information and knowledge within organizations . 
+This research also has several prescriptions for practitioners . 
+Whereas prior works have shown that selection is based on a tradeoff between quality and accessibility ( Carlson & Davis , 1998 ; Zimmer et al. , 2008 ) , this study extends these findings and provides key insights for managers responsible for providing information sources . 
+First , practitioners need to be aware of how social capital dimensions impact perceptions of costs and benefits of interpersonal sources . 
+Managers should be cognizant of ways to further enable and enhance tools that enhance dimensions such as transactive memory systems ( Sparrow , Liu , & Wegner , 2011 ; Wegner , 1995 ) . 
+This will allow for individuals to develop important social contacts and increase their access to higher quality , well‐vetted information . 
+Additionally , although transactive memory has traditionally been portrayed as a system that develops among interacting individuals ( Hollingshead , 1988 , 1998a , 1998b , 2001 ) , technology has allowed individuals to expand their transactive memory beyond interpersonal sources . 
+Practitioners should also work to leverage the strengths of these transactive memory systems . 
+This includes making sure the content is valid , but also being cognizant of the social aspects involved when individuals interact with these information communication technologies ( Xu et al. , 2011 ) . 
+Second , it is important to recognize that not all sources are created equal . 
+As accessibility becomes less important in interpersonal information sources because of the pervasiveness of technology , individuals will select sources based increasingly on quality and the suitability of that source and the quality of the information contained to the task at hand ( Agarwal et al. , 2011 ) . 
+Practitioners need to assess the types of tasks being performed to make sure the best people are made available as information sources . 
+Failure to do so can lead to individuals working inefficiently ( Xu et al. , 2011 ) . 
+In a world where attention is a limiting factor when it comes to individual information processing , it is important to understand where individuals go for the information they require . 
+This study contributes to our understanding of interpersonal source use by looking at the impact of social capital dimensions . 
+We find that the social context in which individuals find themselves impacts the assessments of both the quality and accessibility of interpersonal sources . 
+Understanding this allows individuals to better leverage social capital and organizations to make better use of their knowledge resources . 

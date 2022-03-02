@@ -1,0 +1,101 @@
+We expect that many readers will be able to corroborate degrees of fame themselves . 
+That is , they will recognize more books with high libcitation counts than books with lower counts . 
+Such recognition , of course , requires a particular cultural background . 
+The prototypical OCLC libraries are American and their customers are predominantly English‐speaking and U.S.‐centered , which strongly affects the libcitations that titles receive . 
+This concession in no way diminishes OCLC 's achievement in covering the literatures of many nations and languages . 
+It simply takes into account that any union catalog will reflect the dominant characteristics and geographic distribution of its customers , making some titles central and others peripheral . 
+Neither the Zuccala–Guns database nor our sample was initially created with the present tests of fame in mind , and so our findings simply reveal content that emerged . 
+The first test is blunt : What titles do libcitations bring to the top of our sample regardless of publication year or Dewey class ? 
+Table 2 shows the top 20 nonfiction works , all with at least 3,500 libcitations ; and the top 10 novels , all with at least 3,100 . 
+Most have more than 100 ARL libcitations as well . 
+They have all been widely discussed in various media , and we believe that many of them , or at least their authors , will be instantly recognizable . 
+If not , it is still easy to recognize historical persons and events in their titles that any literate reader would deem significant . 
+Freakonomics : a rogue economist explores the hidden side of everything Receipt of prizes has been proposed as one criterion of cultural impact for books ( White et al. , 2009 , p. 1086 ) , and the authors in Table 2 include winners of the Pulitzer Prize , the National Book Award , and the Nobel Prize , to name only those . 
+In any case , all 30 authors have write‐ups in Wikipedia , as do 28 of the 30 books . 
+Fifteen of the 30 have movie or TV versions . 
+These books were intended for wide audiences , and they fulfilled that intent . 
+Table 2 thus sets a standard with which to compare other titles and authors . 
+Table 3 exhibits the 20 titles with the highest ARL libcitation counts . 
+( ARL campuses with more than one holding library cause some counts to exceed 123 . 
+) Because these books are more scholarly , they have lower total libcitation counts than the books in Table 2 , but they still have sold well . 
+Their relatively academic nature is evident in that only three titles have their own Wikipedia articles . 
+However , 16 of the 20 authors have articles of their own ; ARL libcitations pick out such renowned American intellectuals as Stanley Fish , Patrick Moynihan , John Rawls , and Arthur Schlesinger . 
+An additional 14 of the books are cited in Wikipedia . 
+Corynne McSherry is cited 22 times there , but not the particular book of hers in the table . 
+Although the main Dewey class of most titles in Table 3 is “ Social sciences , ” their specific Dewey classes vary widely . 
+Yet together these titles evoke a broad concern that motivated ARL collection developers during our time periods—a concern with matters of law , rights , liberties , justice , ethics , fairness , moral conflict , and governmental policy , especially in the U.S . 
+This hints at the mineable cultural content in WorldCat that was mentioned earlier . 
+Table 4 shows how many total libcitations and ARL libcitations in our sample would be needed to make the 90th or 50th percentile cutpoints in main Dewey classes and two time periods . 
+Bibliometricians have recommended that percentiles be used for comparisons in citation research . 
+“ For example , ” says Bornmann and Marx ( 2013 , p. 227 ) , a value of 90 means that the publication in question is among the 10 % most cited publications ; the other 90 % have achieved fewer citations . 
+A value of 50 indicates the median and therefore an average impact . 
+This way , it is possible to evaluate publications meaningfully and fairly within the same subject category and publication year as a relative scale between 0 ( low impact ) and 100 ( high impact ) . 
+a value of 90 means that the publication in question is among the 10 % most cited publications ; the other 90 % have achieved fewer citations . 
+A value of 50 indicates the median and therefore an average impact . 
+This way , it is possible to evaluate publications meaningfully and fairly within the same subject category and publication year as a relative scale between 0 ( low impact ) and 100 ( high impact ) . 
+In Table 4 , libcitations are similarly analyzed . 
+Our subject categories are overbroad , of course , and we are using 6‐year rather than single‐year periods , but the citation‐libcitation parallels are still clear . 
+For instance , mean cutpoints like those at the bottom of the table allow one to give broad advice as to what is distinguished and what is average , such as “ If your book sells to 700 or more libraries , you 're in the top 10 % . 
+A book that sells to 60 or 70 ARL members is doing respectably , but to claim a genuinely large impact , you need over a hundred. ” In Table 4 almost every cutpoint for 2001–2006 is considerably lower than its equivalent for 1990–1995 . 
+When the Zuccala–Guns database was created , the books published in the earlier period had had more time to accumulate libcitation counts than those in the later . 
+Also , tighter budgets and costlier serial subscriptions in the later period may have caused libraries to reduce their monographic title purchases . 
+However , Table 4 is meant not as history but simply to imply advisory uses of summary libcitation values . 
+Tables 5 to 8 show what famous , average , and little‐known books in the main Dewey classes look like . 
+The different distributions underlying them were produced by sorting the sample as described in the captions . 
+The titles in each Dewey class are ordered high , medium , and low , forming another ordinal scale . 
+In general , the top title in the group had the highest count in its particular sort ( or the highest count after removal of titles used in Tables 2 or 3 ) . 
+The middle title had a count at the group median ( and may be one of several ) . 
+The bottom title was chosen ( by the first author ) as typical of those in the tails of distributions , where numerous low‐count titles are tied . 
+Black Hills / white justice : the Sioux Nation versus the United States , 1775 to the present 2 The many identically structured examples allow one to infer some characteristics of books that make for different levels of cultural impact . 
+Ignoring their years of publication , the 20 high titles across Dewey classes in Tables 5 and 6 include , in no particular order and with examples : Serious popularizations of important subjects ( Steven Pinker 's The Language Instinct ) . 
+Broadly useful reference works ( the Oxford companions ) . 
+Broadly useful self‐help books ( Gloria Steinem 's Revolution From Within ) . 
+Memoirs and biographies of prominent names ( Joan Didion 's The Year of Magical Thinking , James Gleick 's Genius [ Richard Feynmann ] ) . 
+Books detailing major American historical events ( Stephen Ambrose 's D‐Day ) . 
+Gripping narratives of American scandals ( Jon Krakauer 's Under the Banner of Heaven ) . 
+Classic fiction ( Flannery O'Connor 's Complete Stories ) . 
+These same categories also fit many of the “ super ” bestsellers in Tables 2 and 3 . 
+Of the top 20 here , four have TV versions ( several stories do in O'Connor 's case ) . 
+Didion 's memoir was adapted for the Broadway stage . 
+The 20 medium or average titles in Tables 5 and 6 take up more specialized topics , and the U.S. emphasis is less apparent or absent altogether . 
+In the 20 low titles , the topics are even more specialized , the geographic focus ( if present ) is highly localized or non‐U.S. , the temporal focus ( if present ) is on the distant past , and quite a few are not in English . 
+Similar observations fit the books with different levels of ARL libcitations in Tables 7 and 8 . 
+Again ignoring the time periods , those rising to the top include , in no order and with examples : Scholarly analyses of American scandals ( Marc Rodwin 's Money , Morals and Medicine ) . 
+Monographs that break new ground ( Paul Saint‐Amour 's The Copywrights ) . 
+Introductions to large areas of study ( Stephen Gould 's The Structure of Evolutionary Theory ) . 
+Distinguished scholarly reference works ( Norman Nie 's SPSS manual ) . 
+The middle 20 titles once more have narrower topics , whereas the bottom 20 titles are again very specialized , highly local or non‐U.S . 
+in focus , temporally distant , and/or not in English . 
+Given each title 's high‐to‐low libcitation counts in its Dewey class and high‐to‐low placement on the fame scale , we have two variables that can be tested for strength of association . 
+The two variables are symmetric ( i.e. , neither causes the other ) ; both simply operationalize what we have called fame . 
+A standard measure of association for symmetric ordinal data with many tied values is Goodman and Kruskal 's gamma ( Sirkin , 2006 , p. 367 ) , which ranges from −1 to + 1 , with 0 indicating no relationship . 
+Tables 9a , ba and 9b display the distributions and the test results . 
+These results support the argument that , just as Wikipedia entries capture the relative fame of books , so do libcitations . 
+The gamma of 0.77 in Table 9a , ba indicates a very strong relationship ; the gamma of 0.60 in Table 9b , a substantial one . 
+The probabilities that these relationships occurred by chance are extremely low ( p < .000 ) . 
+All alternative SPSS measures of association for these two tables are also substantial , with p < .000 . 
+To gloss Table 9a , ba , most titles with low libcitation counts are in the bottom two rows of the Wikipedia variable ( 13 + 5 ) ; most medium titles are in the middle two Wikipedia rows ( 12 + 1 ) , and most high titles are in the top two Wikipedia rows ( 6 + 12 ) . 
+This is akin to a scatterplot for two ratio‐level variables that shows a strong , direct relationship between their low , medium , and high values . 
+Table 9a , bb may be read in the same way . 
+There , however , the majorities of titles in the bottom , middle , and top Wikipedia rows are smaller—and the “ off‐pattern ” titles more numerous—which somewhat lessens the relationship . 
+Overall , these results do not suggest that libcitation counts have been manipulated or that authors and publishers could easily manipulate them . 
+The latter claim , by Hammarfelt ( 2016 , p. 122 ) , requires demonstration , especially with regard to WorldCat , where decentralized acquisitions produce counts that range over four orders of magnitude . 
+It is not at all clear how this system could be gamed for unfair advantage , or how anyone who tried it could escape being found out . 
+Having shown particular books at various levels of fame and also characterized the kinds of books that occupy these different levels , we return to the notion of cultural impact . 
+If this is equated with marked social benefit , such as stimulating new legislation or reforming some evil , libcitations may seem a very remote measure . 
+On the contrary , books associated with important changes of any sort—certainly major social ones—are likely to have correspondingly high libcitation counts , whether relative or absolute . 
+Although we have stressed libcitations as an altmetric for books in the humanities and social sciences , Tables 5 to 8 also display them for several advanced monographs in science and technology , suggesting they could complement citations there as well . 
+The content of these latter fields is different , but the mechanisms of fame in them probably are not . 
+In any case , the idea could be tested with sci‐tech books in a future study . 
+Table 2 displays books whose cultural impact is undeniable . 
+At a minimum , the books in Tables 2 and 3 have entered into national or international dialogs , and a “ reception story ” could be assembled for any of them . 
+Moreover , if this can be done for the titles in Tables 2 and 3 , it can also be done for titles in the other tables . 
+Critics of bibliometric measures often insinuate that the evaluators who use them will look only at the potentially misleading numbers . 
+The numbers , however , are mere indicators that always point to a story . 
+Authors of books may be uniquely qualified to tell their stories in this sense and can add those accounts in evaluations , just as citees can elaborate on the citations their work has received . 
+This very point is extensively made for research in the arts and humanities by Thelwall and Delgado ( 2015 ) . 
+However , their solution is for stories ( which they call “ data ” ) to drive out metrics—in their case , citation measures—completely . 
+They do not consider that lib citations could be a metric that supplements and reinforces scholars ' stories about such research . 
+That said , these stories are cases—arguments—that a book has had an impact , and , just as happens with citations , some cases will be better than others . 
+Thus , for authors of books little held by libraries , libcitation counts will not seem an attractive metric . 
+But for authors of books whose sales to libraries are comparatively high , they are one more proof of achievement to add to the record . 

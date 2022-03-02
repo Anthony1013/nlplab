@@ -1,0 +1,130 @@
+Identification of the optimal method to extract video summaries has received attention in the field of computerized image processing , especially as it relates to the notions of shot‐level or scene‐level boundary detection ( Chen , Delannay , & De Vleeschouwer , 2011 ; Mishra , Raman , Singhai , & Sharma , 2015 ) . 
+Shot‐level boundary detection can be used to automatically detect changes in formal features over shot boundaries and identify key shots , while scene‐level boundary detection can be used to detect changes in formal features over scene ( one or more consecutive semantically correlated shots ) boundaries and to identify one or more key shots from each scene . 
+Such boundary detection methods are used to construct a video skim that consists of key shots extracted from a video . 
+Despite rapid improvement in boundary detection algorithms , the results of boundary detection studies remain unsatisfactory owing to semantic gaps ( Hu , Xie , Li , Zeng , & Maybank , 2011 ) . 
+The semantic gap refers to the gap between the actual semantic topic that a viewer infers from watching a video and the topic inferred from video summarization , which is constructed using the extraction algorithms . 
+To bridge the semantic gap , visual‐attention‐model‐based summarization schemes have been proposed to extract frames as keyframes if they are visually important for humans , as determined using visual attention models ( Ejaz , Mehmood , & Baik , 2014 ; Mehmood , Sajjad , Rho , & Baik , 2016 ) . 
+Mehmood et al . 
+( 2016 ) proposed a human‐attention model that combines both multimedia content and the viewer 's neuronal responses for video summarization . 
+In their model , neuronal attention is computed using beta‐band electroencephalography ( EEG ) frequencies of neuronal responses . 
+This assumes that the power of beta‐band activity is related to the level of human attention ( Gola , Kamiński , Brzezicka , & Wróbel , 2012 ) . 
+While the human‐attention model focuses on brain activities related to visual attention to external multimedia stimuli , it appears that the real issue underlying the semantic gap is not visual attention but rather how viewers respond to incoming multimedia content by pondering the semantic meanings of the stimuli and integrating those meanings into a coherent mental representation . 
+Moshfeghi , Pinto , Pollick , and Jose ( 2013 ) discussed an issue similar to that mentioned above . 
+Those researchers investigated the connection between relevance and brain activity using functional magnetic resonance imaging . 
+They observed that fronto‐parietal circuits are more activated by topic‐relevant images than by topic‐irrelevant images . 
+However , they questioned whether fronto‐parietal activity reflects specific aspects of relevance or whether it simply reflects greater attention to topic‐relevant images than to topic‐irrelevant images , as fronto‐parietal circuits are additionally known to be activated by attention to stimuli ( Corbetta & Shulman , 2002 ) . 
+Human attention to incoming visual shots is assumed to be automatic , and its perception is assumed to be near‐automatic in encoding formal features of the stimuli . 
+Thus , the semantic gap does not appear to be related to the automatic attention or the near‐automatic perception phases . 
+Instead , it appears to be related to the meanings of those stimuli and to the integration of those meanings into a coherent mental representation . 
+To bridge the semantic gap , we aimed to develop a method to produce a semantically meaningful video skim by extracting topic‐relevant shots using EEG data obtained during a video‐watching session . 
+To understand how viewers determine the topic of a video , a cognitive model of multimedia learning was first examined wherein the topic integration process of a user evoked by a visual stimulus can be associated with long‐latency event‐related potential ( ERP ) components ( Mayer , 2005 ) . 
+We then reviewed studies on ERP components to determine the long‐latency ERP components that are suitable for measuring the topic integration process . 
+Our research led us to hypothesize that the integration process is linked to three ERP components : N300 , N400 , and P600 . 
+We thus proposed and tested three hypotheses regarding the three ERP components . 
+To test the hypotheses , we designed an experiment wherein video‐watching and topic‐relevance rating sessions were separated from each other . 
+This is because it is difficult to directly measure topic‐relevance ratings for each shot while a participant watches a real‐time video . 
+Finally , discriminant and artificial neural network ( ANN ) analyses were used to decode video shot relevance based on the ERP signals . 
+Our results may guide the construction of video skims that are useful in browsing multimedia databases and the design of a brain‐computer interface ( BCI ) wherein the user 's cognitive state is captured based on the user 's ERP signals during a visual search . 
+One must examine the nature of multimedia comprehension to understand how the topic of a video is understood by its viewers . 
+There are two cognitive processes that are required when determining the topic of a video ( Zhu , Goldberg , Eldawy , Dyer , & Strock , 2007 ) . 
+The first is the perception process , which handles the images and the sound footage . 
+The second is the integration process by which the results of the processing of perceptual information are integrated with the preprocessed audiovisual elements supporting the provisional topic . 
+This leads to an assessment of the video as either the same topic or a newly updated topic . 
+Such a renewal or updating process for the topic by the viewer must be a complex cognitive process . 
+We reviewed Mayer 's cognitive model of multimedia learning ( Figure 1 ) and Baddeley 's working memory ( WM ) theory to precisely examine the two cognitive processes ( Baddeley , 2007 ; Mayer , 2005 ) . 
+As shown in Figure 1 , words and pictures in the form of a video presentation enter sensory memory via the eyes and ears . 
+WM , which is a limited‐capacity memory system , has two models : the picture model and the verbal model . 
+These models are similar to the visuospatial sketchpad and phonological loop of Baddeley 's WM . 
+More specifically , WM is involved in the process of integrating visual semantics and language . 
+In other words , the processing of newly introduced audiovisual elements generates concepts that are integrated with existing concepts supporting the provisional topic and with prior knowledge from long‐term memory ( LTM ) . 
+This leads to the classification of the topic as the same or newly updated . 
+The process of multimedia comprehension may be considered as comprising three sequential phases : attention , perception , and integration . 
+We reviewed related studies in which neurophysiological methods were used to detect cognitive responses evoked in the subjects by visual or text stimuli . 
+The first group of studies consisted of those conducted using static images . 
+West and Holcomb ( 2002 ) conducted an experiment wherein the final picture of the story was shown to each participant after viewing a series of grayscale pictures depicting a story . 
+The authors observed that the ERPs elicited by a congruous final picture exhibited a small negativity peaking at ~275 ms ( N300 ) , followed by a large extended P300 . 
+However , ERPs elicited by an incongruous final picture exhibited two separate negative components ( N300 and N400 ) . 
+More important , they observed that the N300 is specific to the semantic processing of nonverbal stimuli and is not elicited by linguistic mediation . 
+Dias , Sajda , Dmochowski , and Parra ( 2013 ) suggested that one may predict whether a viewer would detect or miss a small target object using EEG signals acquired prior to possible fixation on the target . 
+They reported that activation or inhibition of fronto‐central cortical areas may play a crucial role in the success of target detection . 
+Allegretti et al . 
+( 2015 ) conducted an ERP‐based study on the first 800 ms of a relevance assessment process to determine the time at which topic relevance is assessed in the brain . 
+The authors suggested that the central area exhibited the greatest difference between relevant and irrelevant images in the 500–800 ms time window , which corresponds to a P600 effect . 
+They additionally determined that relevance judgments for visual stimuli are made within a time window at ~800 ms. Kauppi et al . 
+( 2015 ) attempted to classify visual stimuli using a Gaussian process classifier under the assumption that the relevance of an image viewed by a subject can be decoded based on magnetoencephalographic signals with high performance . 
+They additionally suggested that the fusion of gaze‐based and magnetoencephalographic‐based classifiers significantly improves the prediction performance when compared to using either signal alone . 
+Sitnikova , Holcomb , Kiyonaga , and Kuperberg ( 2008 ) conducted an ERP‐based experiment using silent video clips . 
+They showed that the presentation of contextually inappropriate information at the ends of videos evokes an anterior N400‐like negativity . 
+The authors further suggested that a posterior late positivity is evoked specifically when target objects presented at the ends of the videos violate goal‐related requirements of the action constrained by a scenario context . 
+Their observations can be explained by two semantic integration mechanisms : the anterior N300/N400 and the posterior late positivity . 
+Similar ERP effects have been observed in experiments involving linguistic tasks . 
+A large N400 effect was elicited by discourse‐dependent semantic anomalies ( van Berkum , Brown , Zwitserlood , Kooijman , & Hagoort , 2005 ; van Berkum , Hagoort , & Brown , 1999 ) . 
+Kaan and Swaab ( 2003 ) suggested that a posterior P600 effect is an index of syntactic processing difficulty , while a frontal P600 effect is related to ambiguity resolution and/or an increase in discourse level complexity . 
+Koelstra , Mühl , and Patras ( 2009 ) proposed a method for automatically assigning implicit tags to a video . 
+The authors found lower minimum potentials in brain wave responses to topic‐irrelevant tags than to topic‐relevant tags in the N400 time window . 
+Eugster et al . 
+( 2014 ) conducted an experiment wherein the neural activities of 40 subjects were recorded while they assessed relevance in response to text stimuli for a given topic . 
+The authors observed peak differences between topic‐relevant and topic‐irrelevant text stimuli at the four electrodes in the interval between 450 and 800 ms . 
+Thus , they concluded that P3b , which appears to be related to memory processing and retrieval , might involve relevance judgments ( Polich , 2007 ) . 
+Gwizdka , Hosseini , Cole , and Wang ( 2017 ) proposed a method to investigate processes of reading and subjective relevance judgments in search tasks using eye tracking and EEG . 
+The authors observed differences in cognitive processes used to assess texts of varied relevance levels and evidence for the potential to detect these differences in search sessions . 
+Considering the findings from previous studies , we can conclude that the comprehension of both language and the visual world might rely on similar mechanisms that access graded semantic memory networks . 
+Despite the several similarities between words and pictures , they elicit different ERP components with different scalp distribution patterns . 
+For example , N300 is elicited by nonlinguistic mediation . 
+Moreover , the N400 effect evoked by verbal stimuli is distributed over posterior electrode sites ( Martín‐Loeches , Hinojosa , Casado , Muñoz , & Fernández‐Frı́ , 2004 ) , while N400 activation patterns elicited by pictures ( West & Holcomb , 2002 ) and silent videos ( Sitnikova et al. , 2008 ) are typically distributed over more anterior electrode sites . 
+As the two early attention and perception phases seem to be automatic or near‐automatic responses to stimuli , we did not expect significant differences between two different conditions in these two phases ( Allegretti et al. , 2015 ) . 
+Thus , we focused our hypotheses on the integration phase and excluded the early two phases from our analysis . 
+Based on Mayer 's cognitive model , we assumed that the integration phase consists of three steps : semantic categorization for any video shot , regardless of its topic relevance ; a semantic mismatching process for topic‐irrelevant shots ; and a context updating process for topic‐relevant shots . 
+We additionally assumed that the three steps are linked to three long‐latency ERP components ( at least longer than 250 ms after stimulus onset ) : N300 , N400 , and P600 . 
+Hypothesis 1.The N300 component appears to reflect the semantic categorization of an image stimulus ( Hamm , Johnson , & Kirk , 2002 ) . 
+We hypothesize that an N300 effect occurs for all shots and that there is no significant difference between negative ERP signal values observed in response to topic‐irrelevant shots and those in response to topic‐relevant shots during the N300 time window . 
+Hypothesis 2.The N400 component , which is sensitive to information extracted after the initial semantic categorization performed during the N300 time window , is specific to the semantic mismatch for topic‐irrelevant shots ( Hamm et al. , 2002 ) , as observed in linguistics experiments . 
+For example , if the incoming topic‐irrelevant shots do not match prior topical expectation and thus do not require further semantic integration , then low negative ERP signals are elicited at ~400 ms. We thus hypothesize that an N400 effect occurs for topic‐irrelevant shots and elicits a more negative ERP signal in response to topic‐irrelevant shots than to topic‐relevant shots . 
+Hypothesis 3.The P600 component has been suggested to reflect the maintenance and updating of the discourse structure ( Schumacher & Hung , 2012 ) , as well as discourse‐internal reorganization and integration ( Wang & Schumacher , 2013 ) . 
+We thus expect that a P600 effect can be used to describe the context‐updating step for topic‐relevant shots wherein incoming concepts are integrated with existing concepts that support the provisional topic . 
+This process , in combination with prior knowledge from LTM , leads to the classification of the topic as same or newly updated . 
+It is thus hypothesized that a P600 effect occurs for topic‐relevant shots and produces a more positive ERP signal for topic‐relevant shots than for topic‐irrelevant shots . 
+Hypothesis 1.The N300 component appears to reflect the semantic categorization of an image stimulus ( Hamm , Johnson , & Kirk , 2002 ) . 
+We hypothesize that an N300 effect occurs for all shots and that there is no significant difference between negative ERP signal values observed in response to topic‐irrelevant shots and those in response to topic‐relevant shots during the N300 time window . 
+Hypothesis 2.The N400 component , which is sensitive to information extracted after the initial semantic categorization performed during the N300 time window , is specific to the semantic mismatch for topic‐irrelevant shots ( Hamm et al. , 2002 ) , as observed in linguistics experiments . 
+For example , if the incoming topic‐irrelevant shots do not match prior topical expectation and thus do not require further semantic integration , then low negative ERP signals are elicited at ~400 ms. We thus hypothesize that an N400 effect occurs for topic‐irrelevant shots and elicits a more negative ERP signal in response to topic‐irrelevant shots than to topic‐relevant shots . 
+Hypothesis 3.The P600 component has been suggested to reflect the maintenance and updating of the discourse structure ( Schumacher & Hung , 2012 ) , as well as discourse‐internal reorganization and integration ( Wang & Schumacher , 2013 ) . 
+We thus expect that a P600 effect can be used to describe the context‐updating step for topic‐relevant shots wherein incoming concepts are integrated with existing concepts that support the provisional topic . 
+This process , in combination with prior knowledge from LTM , leads to the classification of the topic as same or newly updated . 
+It is thus hypothesized that a P600 effect occurs for topic‐relevant shots and produces a more positive ERP signal for topic‐relevant shots than for topic‐irrelevant shots . 
+We conducted an experiment using a within‐subject design wherein the independent variable was relevance . 
+This variable had one of three values : relevant , partially relevant , and irrelevant . 
+The dependent variables were EEG signal values . 
+This research was approved by the Institutional Review Board of Myongji University . 
+Written informed consent was obtained from each participant prior to their involvement in the experimental sessions . 
+We decided to use videos in the same genre ( documentary videos ) as experimental materials because the characteristics of videos appear to vary according to genre . 
+We selected six videos from YouTube and Korea Heritage ( http : //www.k-heritage.tv/ ) based on the following criteria : short videos whose duration was between 1 minute and 3 minutes and videos focusing on one topic . 
+The six videos lasted from 1 minute and 9 seconds to 2 minutes and 11 seconds and consisted of 9 to 12 scenes each . 
+Videos used for the experiment are shown in Table 1 . 
+The website ( http : //mgu.vinis.co.kr/video_six.xml ) includes more detailed information regarding the six videos . 
+In our experiment , we additionally used 54 frames extracted from the six videos as stimuli . 
+The authors of this article evaluated all frames belonging to each video and selected the three most relevant , three partially relevant , and three irrelevant frames ( still images ) from each video based on the degree of topic relevance . 
+This resulted in the selection of nine frames per video . 
+EEG asymmetry patterns between left‐handed and right‐handed individuals typically differ ( Bryden , 1982 ) . 
+In addition , there are differences in the ERP component amplitudes and latencies depending on age or gender ( Evans , Cui , & Starr , 1995 ) . 
+Therefore , the participants were limited to right‐handed male students in the age range of 20–29 years to minimize the differences . 
+We recruited 30 participants ( 25 undergraduate and five graduate students ) from Myongji University by e‐mail and phone . 
+The participants were compensated $ 30 for their participation . 
+Figure 2 illustrates how the videos and their frames were presented to the participants . 
+The participants were provided with instructions for the experiment . 
+We asked the participants to focus on the topic of the video and to memorize frames reflective of the central theme of the video while watching the video . 
+For example , one video randomly chosen from the six videos was shown to the participants . 
+Before the presentation of the video , a 3‐second black screen with a fixation cross was presented . 
+This was followed by a 500‐ms black screen . 
+After watching the video , each of the nine frames in the video was sequentially presented for 6 seconds to the participants ; 6 seconds was given to provide the participants enough time to view and rate each frame . 
+Before the presentation of each frame , a 2‐second black screen with a fixation cross was presented . 
+This was followed by a 500‐ms black screen . 
+We thus separated the topic‐relevance rating session from the video‐watching session . 
+This is because if the topic‐relevance rating was performed during the video‐watching session , the button‐pressing behavior may have evoked response‐related ERP components ( Luck , 2014 ) . 
+This would have contaminated the ERP responses of interest to our research during the natural watching session . 
+During the topic‐relevance rating session , the participants were asked to rate each of the nine frames belonging to the video by pressing the “ 1 ” key on the computer keyboard if the presented frame was irrelevant to the topic of the video , the “ 2 ” key on the computer keyboard if it was partially relevant , or the “ 3 ” key on the computer keyboard if it was relevant . 
+The participants were required to respond within 7 seconds . 
+The above steps were repeated for the other five videos . 
+We used a SynAmps amplifier linked to a Quik‐Cap with 32 channels ( Compumedics Neuroscan ; Victoria , Australia ) for EEG data acquisition . 
+Data were digitally sampled for analysis at a 1,000‐Hz sampling rate . 
+EEG recordings were made with reference to the electrically linked mastoids A1 and A2 . 

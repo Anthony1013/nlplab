@@ -1,0 +1,283 @@
+T1	时间 122 126	2011
+T2	引文作者 506 509	Chi
+T3	引文时间 512 516	2016
+T4	引文作者 1001 1009	Bornmann
+T5	引文作者 1012 1016	Marx
+T6	引文时间 1019 1023	2013
+T7	引文作者 1026 1031	Liang
+T8	引文作者 1034 1042	Rousseau
+T9	引文时间 1045 1049	2010
+T10	引文作者 1052 1062	Nicolaisen
+T11	引文作者 1065 1073	Frandsen
+T12	引文时间 1076 1080	2008
+T13	引文作者 1249 1254	Allen
+T14	引文作者 1257 1260	Qin
+T15	引文作者 1267 1276	Lancaster
+T16	引文时间 1279 1283	1994
+T17	引文作者 1513 1520	Glänzel
+T18	引文作者 1525 1534	Schöpflin
+T19	引文时间 1537 1541	1999
+T20	引文作者 1871 1878	Wouters
+T21	引文作者 1883 1894	Leydesdorff
+T22	引文时间 1897 1901	1994
+T23	引文作者 1964 1978	de Solla Price
+T24	引文时间 1981 1985	1965
+T25	引文时间 1988 1992	1970
+T26	引文作者 2170 2177	Krampen
+T27	引文时间 2180 2184	2010
+T28	引文作者 2187 2196	Larivière
+T29	引文作者 2199 2210	Archambault
+T30	引文作者 2215 2222	Gingras
+T31	引文时间 2225 2229	2008
+T32	引文作者 2232 2236	Marx
+T33	引文作者 2239 2247	Bornmann
+T34	引文时间 2250 2254	2015
+T35	引文作者 2257 2263	Peritz
+T36	引文作者 2266 2274	Bar‐Ilan
+T37	引文时间 2277 2281	2002
+T38	引文作者 2284 2288	Ucar
+T39	引文时间 2298 2302	2014
+T40	引文作者 2404 2411	Glänzel
+T41	引文作者 2414 2423	Schöpflin
+T42	引文时间 2426 2430	1999
+T43	时间 3676 3681	2005‐
+T44	时间 3681 3685	2013
+T45	时间 3973 3977	2016
+T46	时间 4212 4221	2005‐2009
+T47	时间 4224 4233	2010‐2013
+T48	时间 4637 4646	2005‐2013
+T49	时间 5545 5549	2005
+T50	时间 5553 5557	2013
+T51	时间 6821 6825	2005
+T52	时间 6829 6833	2013
+T53	时间 7086 7090	2005
+T54	时间 7094 7098	2013
+T55	引文作者 7329 7336	Glänzel
+T56	引文作者 7339 7344	Thijs
+T57	引文作者 7349 7352	Chi
+T58	引文时间 7355 7359	2016
+T59	表 7563 7624	The sample sizes in the 16 major fields are listed in Table 2
+T60	表 7629 7778	Table 2 shows that WoS indexes books mainly in SSH , whereas the largest journal coverage can be found in chemistry , physics , and clinical medicine
+T61	引文作者 8159 8165	Peritz
+T62	引文作者 8168 8176	Bar‐Ilan
+T63	引文时间 8179 8183	2002
+T64	引文作者 8186 8195	Schöpflin
+T65	引文作者 8198 8205	Glänzel
+T66	引文时间 8208 8212	2001
+T67	引文作者 8215 8222	Wouters
+T68	引文作者 8225 8236	Leydesdorff
+T69	引文时间 8239 8243	1994
+T70	引文作者 8335 8342	Glänzel
+T71	引文作者 8345 8354	Schöpflin
+T72	引文时间 8357 8361	1999
+T73	引文作者 8364 8372	Schubert
+T74	引文作者 8375 8383	Maczelka
+T75	引文时间 8386 8390	1993
+T76	引文作者 8964 8968	Ucar
+T77	引文时间 8981 8985	2014
+T78	时间 9113 9117	1972
+T79	时间 9127 9131	2013
+T80	引文作者 9136 9142	Peritz
+T81	引文作者 9147 9155	Bar‐Ilan
+T82	引文时间 9158 9162	2002
+T83	时间 9275 9279	1990
+T84	时间 9291 9295	2000
+T85	引文作者 9300 9307	Krampen
+T86	引文时间 9310 9314	2010
+T87	时间 9447 9451	1985
+T88	时间 9454 9458	1995
+T89	时间 9465 9469	2005
+T90	引文作者 9476 9480	Marx
+T91	引文作者 9485 9493	Bornmann
+T92	引文时间 9496 9500	2015
+T93	时间 9658 9662	1990
+T94	时间 9684 9688	2010
+T95	时间 9783 9787	1990
+T96	时间 9809 9813	2010
+T97	图 9818 9999	Because of the different lengths of volume works and individual items , the average numbers of references per item in different publication types are not comparable ( see Figure 1 )
+T98	引文作者 10909 10918	Heinzkill
+T99	引文时间 10921 10925	1980
+T100	引文作者 10932 10939	Glänzel
+T101	引文作者 10944 10953	Schöpflin
+T102	引文时间 10956 10960	1999
+T103	引文作者 11485 11496	van Leeuwen
+T104	引文时间 11499 11503	2006
+T105	引文作者 11582 11588	Butler
+T106	引文作者 11593 11599	Visser
+T107	引文时间 11602 11606	2006
+T108	时间 12961 12965	2014
+T109	引文作者 13532 13541	Larivière
+T110	引文时间 13554 13558	2008
+T111	引文作者 13779 13786	Glänzel
+T112	引文作者 13791 13800	Schöpflin
+T113	引文时间 13803 13807	1994
+T114	引文作者 14377 14383	Norman
+T115	引文时间 14386 14390	1967
+T116	引文作者 14509 14523	de Solla Price
+T117	引文时间 14526 14530	1970
+T118	引文作者 14533 14542	Schöpflin
+T119	引文作者 14545 14552	Glänzel
+T120	引文时间 14555 14559	2001
+T121	引文作者 14562 14570	Schubert
+T122	引文作者 14573 14581	Maczelka
+T123	引文时间 14584 14588	1993
+T124	引文作者 14663 14667	Moed
+T125	引文时间 14670 14674	1989
+T126	时间 14856 14860	2014
+T127	引文作者 14898 14907	Larivière
+T128	引文时间 14920 14924	2008
+T129	引文作者 15143 15148	Egghe
+T130	引文时间 15151 15155	1997
+T131	引文作者 15158 15165	Glänzel
+T132	引文作者 15168 15177	Schöpflin
+T133	引文时间 15180 15184	1995
+T134	图 15465 15587	Authored books have much higher average numbers of references per item than other publication types , as shown in Figure 1
+T135	图 15712 16131	Figure 2 illustrates the data of fifteen fields generated from the three publication types in two periods ( detailed numbers are shown in Appendix A ) , and shows that edited book chapters and journal articles in the life sciences have much higher average numbers of references per page than those in other fields , especially mathematics and humanities where the numbers in all the publication types are relatively low
+T136	图 16136 16285	In terms of the indicator 's changing patterns over time , Figure 2 exhibits an increasing trend of average numbers of references in journal articles
+T137	图 16290 16432	All the publication types have increasing shares of WoS serials references in most fields during the two observed periods as shown in Figure 3
+T138	图 16712 16900	Figure 3 shows that the fields Biosciences and Clinical and Experimental Medicine I have the most opposite features from SSH in this study in terms of the share of WoS journal references .
+T139	引文作者 17173 17184	van Leeuwen
+T140	引文时间 17187 17191	2013
+T141	图 17448 17571	The clear difference between the sciences and the SSH shown in Figure 3 is in line with the finding of van Leeuwen ( 2006 )
+T142	引文作者 17551 17562	van Leeuwen
+T143	引文时间 17565 17569	2006
+T144	引文作者 17680 17689	Heinzkill
+T145	引文时间 17692 17696	1980
+T146	图 17779 17891	Figure 4 shows that authored books are the publication type with the highest average reference age in all fields
+T147	图 18252 18321	Figure 4 also shows the distinct reference age patterns across fields
+T148	引文作者 18714 18721	Glänzel
+T149	引文作者 18726 18735	Schöpflin
+T150	引文时间 18738 18742	1999
+T151	图 19087 19280	Figure 5 shows that most publication types , especially edited book chapters and journal articles , have decreasing Price Index values in most fields , similar to the finding of Larivière et al
+T152	引文作者 19265 19274	Larivière
+T153	图 19285 19321	( 2008 ) based on journal literature
+T154	引文时间 19287 19291	2008
+T155	图 19531 19596	Field differences of this indicator can be identified in Figure 5
+T156	引文作者 19974 19988	de Solla Price
+T157	引文时间 19991 19995	1970
+T158	时间 20651 20655	2005
+T159	时间 20659 20663	2013
+T160	引文作者 20510 20517	Glänzel
+T161	引文作者 20522 20531	Schöpflin
+T162	引文时间 20534 20538	1995
+T163	图 20683 20753	All the results of them range between ‐0.61 and ‐0.50 ( see Figure 6 )
+T164	图 21252 21370	Figure 6 also shows that Price Index and the share of WoS serials references correlate with each other at medium level
+T165	引文作者 21656 21660	Borg
+T166	引文作者 21663 21670	Groenen
+T167	引文时间 21673 21677	1997
+T168	图 22142 22217	Arts & Humanities is the most distinct among the 15 fields ( see Figure 7 )
+T169	引文的研究问题 459 654	Following up the results of a previous study ( Chi , 2016 ) , which was devoted to the analysis of the distinct citation patterns of books alongside those of journal literature indexed in the WoS
+T170	研究问题 657 787	in the present study I will study cited references of the two publication types to complete the exploration of the new data source
+T171	引文的研究问题 1235 1510	For example , Allen , Qin , and Lancaster ( 1994 ) reported the evolution of reference style from the 17th century to the 20th with an increase in references to journals and international works , as well as a gradual decline in the age of references in the mid‐19th century .
+T172	引文的结果 1513 1715	Glänzel and Schöpflin ( 1999 ) found that the percentage of references to serials is a sensitive measure of typical differences in the communication behavior between the sciences and the social sciences
+T173	引文的结果 1999 2304	An increasing tendency in the number of references and a rising average age of references over time for several fields and topics has been found in journal publications ( Krampen , 2010 ; Larivière , Archambault , & Gingras , 2008 ; Marx & Bornmann , 2015 ; Peritz & Bar‐Ilan , 2002 ; Ucar et al. , 2014 )
+T174	研究问题 2729 3015	This is the reason why in this study I investigate the reference patterns of book literature and journal articles in different fields and lay a special focus on the social sciences and humanities ( SSH ) because of their specific publication behavior in favour of monographic literature
+T175	研究问题 3020 3218	The main objective of this study is to find out the subject characteristics of different publication types and whether book literature has different reference patterns than periodical publications .
+T176	研究问题 3221 3300	This study is the first research analyzing references of books on a large scale
+T177	引文的结果 9136 9295	Peritz and Bar‐Ilan ( 2002 ) reported that the mean number of references for articles in the journal Scientometrics increased from 15.1 in 1990 to 19.8 in 2000
+T178	引文的结果 9300 9471	Krampen ( 2010 ) demonstrated a significant increase in the number of references of psychology papers in a 20‐year period sampled in three years ( 1985 , 1995 , and 2005 )
+T179	引文的研究问题 9476 9813	Marx and Bornmann ( 2015 ) examined WoS papers in six major subject areas and found that the references on average of a paper in the social sciences increased from 23.11 in the year 1990 to 42.05 in the year 2010 , whereas the average reference rate in the natural sciences increased from 21.43 in the year 1990 to 42.05 in the year 2010
+T180	引文的结果 10932 11150	Glänzel and Schöpflin ( 1999 ) pointed out that about 80 % of all science journals cite more than 70 % of all references to serials , whereas all social science journals refer to at less than 70 % references in serials
+T181	引文的结果 11485 11897	van Leeuwen ( 2006 ) found that the faculties having more WoS source publications33 According to Butler and Visser ( 2006 , p. 330 ) , source publications are “ articles appearing in journals indexed by the Institute for Scientific Information ( ISI ) in one of its three main indexes – Science Citation Index ( SCI ) , Social Sciences Citation Index ( SSCI ) , and Arts and Humanities Citation Index ( A & HCI )
+T182	引文的结果 13561 13774	found that the average age of references has risen continuously since the mid‐1960s in an observation period of over 100 years , unveiling a trend that the more recent publications cite relatively older literature
+T183	引文的结果 14927 15055	found that Price Index values are decreasing since the mid‐1950s and concluded that it is decreasing with the mean reference age
+T184	引文的结果 18643 18865	The results are in line with the literature obsolescence discovered by Glänzel and Schöpflin ( 1999 ) : the obsolescence in the life sciences is relatively fast , contrasting to mathematical and social science literature .
+T185	研究结果 21091 21247	This finding shows that cited serials references contribute to shorter reference age in the three publication types , especially the type of journal article
+R1	has_cited_time Arg1:T3 Arg2:T2	
+R2	coauthor Arg1:T4 Arg2:T5	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	coauthor Arg1:T7 Arg2:T8	
+R5	has_cited_time Arg1:T9 Arg2:T8	
+R6	coauthor Arg1:T10 Arg2:T11	
+R7	has_cited_time Arg1:T12 Arg2:T11	
+R8	field_similar_as Arg1:T10 Arg2:T7	
+R9	field_similar_as Arg1:T7 Arg2:T4	
+R10	coauthor Arg1:T13 Arg2:T14	
+R11	coauthor Arg1:T14 Arg2:T15	
+R12	has_cited_time Arg1:T16 Arg2:T15	
+R13	produces Arg1:T13 Arg2:T171	
+R14	coauthor Arg1:T17 Arg2:T18	
+R15	has_cited_time Arg1:T19 Arg2:T18	
+R16	results Arg1:T17 Arg2:T172	
+R17	coauthor Arg1:T20 Arg2:T21	
+R18	has_cited_time Arg1:T22 Arg2:T21	
+R19	has_cited_time Arg1:T24 Arg2:T23	
+R20	results Arg1:T26 Arg2:T173	
+R21	has_cited_time Arg1:T27 Arg2:T26	
+R22	coauthor Arg1:T28 Arg2:T29	
+R23	coauthor Arg1:T29 Arg2:T30	
+R24	has_cited_time Arg1:T31 Arg2:T30	
+R25	coauthor Arg1:T32 Arg2:T33	
+R26	has_cited_time Arg1:T34 Arg2:T33	
+R27	coauthor Arg1:T35 Arg2:T36	
+R28	has_cited_time Arg1:T37 Arg2:T36	
+R29	has_cited_time Arg1:T39 Arg2:T38	
+R30	field_similar_as Arg1:T38 Arg2:T35	
+R31	field_similar_as Arg1:T35 Arg2:T32	
+R32	field_similar_as Arg1:T32 Arg2:T28	
+R33	field_similar_as Arg1:T28 Arg2:T26	
+R34	coauthor Arg1:T40 Arg2:T41	
+R35	has_cited_time Arg1:T42 Arg2:T41	
+R36	coauthor Arg1:T55 Arg2:T56	
+R37	coauthor Arg1:T56 Arg2:T57	
+R38	has_cited_time Arg1:T58 Arg2:T57	
+R39	coauthor Arg1:T61 Arg2:T62	
+R40	has_cited_time Arg1:T63 Arg2:T62	
+R41	coauthor Arg1:T64 Arg2:T65	
+R42	has_cited_time Arg1:T66 Arg2:T65	
+R43	coauthor Arg1:T67 Arg2:T68	
+R44	has_cited_time Arg1:T69 Arg2:T68	
+R45	field_similar_as Arg1:T67 Arg2:T64	
+R46	field_similar_as Arg1:T64 Arg2:T61	
+R47	coauthor Arg1:T70 Arg2:T71	
+R48	has_cited_time Arg1:T72 Arg2:T71	
+R49	coauthor Arg1:T73 Arg2:T74	
+R50	has_cited_time Arg1:T75 Arg2:T74	
+R51	field_similar_as Arg1:T73 Arg2:T70	
+R52	has_cited_time Arg1:T77 Arg2:T76	
+R53	coauthor Arg1:T80 Arg2:T81	
+R54	has_cited_time Arg1:T82 Arg2:T81	
+R55	results Arg1:T80 Arg2:T177	
+R56	has_cited_time Arg1:T86 Arg2:T85	
+R57	results Arg1:T85 Arg2:T178	
+R58	coauthor Arg1:T90 Arg2:T91	
+R59	has_cited_time Arg1:T92 Arg2:T91	
+R60	produces Arg1:T90 Arg2:T179	
+R61	has_cited_time Arg1:T99 Arg2:T98	
+R62	coauthor Arg1:T100 Arg2:T101	
+R63	has_cited_time Arg1:T102 Arg2:T101	
+R64	has_cited_time Arg1:T104 Arg2:T103	
+R65	coauthor Arg1:T105 Arg2:T106	
+R66	has_cited_time Arg1:T107 Arg2:T106	
+R67	results Arg1:T103 Arg2:T181	
+R68	has_cited_time Arg1:T110 Arg2:T109	
+R69	results Arg1:T109 Arg2:T182	
+R70	coauthor Arg1:T111 Arg2:T112	
+R71	has_cited_time Arg1:T113 Arg2:T112	
+R72	has_cited_time Arg1:T115 Arg2:T114	
+R73	has_cited_time Arg1:T117 Arg2:T116	
+R74	coauthor Arg1:T118 Arg2:T119	
+R75	has_cited_time Arg1:T120 Arg2:T119	
+R76	coauthor Arg1:T121 Arg2:T122	
+R77	has_cited_time Arg1:T123 Arg2:T122	
+R78	field_similar_as Arg1:T121 Arg2:T118	
+R79	field_similar_as Arg1:T118 Arg2:T116	
+R80	has_cited_time Arg1:T125 Arg2:T124	
+R81	has_cited_time Arg1:T128 Arg2:T127	
+R82	results Arg1:T127 Arg2:T183	
+R83	has_cited_time Arg1:T130 Arg2:T129	
+R84	coauthor Arg1:T131 Arg2:T132	
+R85	has_cited_time Arg1:T133 Arg2:T132	
+R86	field_similar_as Arg1:T131 Arg2:T129	
+R87	has_cited_time Arg1:T140 Arg2:T139	
+R88	has_cited_time Arg1:T143 Arg2:T142	
+R89	has_cited_time Arg1:T145 Arg2:T144	
+R90	coauthor Arg1:T148 Arg2:T149	
+R91	has_cited_time Arg1:T150 Arg2:T149	
+R92	results Arg1:T148 Arg2:T184	
+R93	has_cited_time Arg1:T154 Arg2:T152	
+R94	has_cited_time Arg1:T157 Arg2:T156	
+R95	coauthor Arg1:T160 Arg2:T161	
+R96	has_cited_time Arg1:T162 Arg2:T161	
+R97	coauthor Arg1:T165 Arg2:T166	
+R98	has_cited_time Arg1:T167 Arg2:T166	

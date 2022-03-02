@@ -1,0 +1,130 @@
+Digital metadata , or metadata records , are bibliographical information generated to describe a digital object such as a document , an e‐book , an image , or a combination of digital materials . 
+For example , the ACM Digital Library organizes its digital objects through metadata records that contain elements such as author , abstract , cited by , references , and index terms . 
+Each paper in the digital library can be identified and accessed through search terms contained in its metadata records . 
+Digital libraries are looking for new ways to expand their user groups and provide new services to broader communities ( Diekema , 2012 ; Purday , 2012 ) . 
+One method of achieving this is to provide Multilingual Information Access ( MLIA ) , which enables users to search , browse , discover , and use information in their own native languages ( Peters , Braschler , & Clough , 2012 , p. 5 ; Chen , 2016 , p. 15 ) . 
+MLIA was considered important because it could allow the use of valuable digital resources by those who do not understand the original languages of the digital objects . 
+These users could be immigrants , foreign travelers , or students . 
+Most digital collections that allow MLIA have done so by applying human translation of the objects to their metadata records . 
+For example , digital libraries such as the International Children 's Digital Library ( International Children 's Digital Library Foundation , n.d. ) and the World Digital Library ( Library of Congress , n.d. ) have implemented MLIA using human translation . 
+However , human translation is expensive and time‐consuming , and these factors may prohibit smaller libraries with less funding from implementing MLIA for their collections . 
+There were a considerable number of studies and research projects that explored multilingual metadata and alternative approaches to MLIA , such as describing digital images using bilingual taxonomies ( Ménard , 2012 ) , mapping vocabulary in different languages ( Matusiak , Meng , Barczyk , & Shih , 2015 ) , or combining machine translation with domain‐specific lexicons ( Jones , Fantino , Newman , & Zhang , 2008 ) . 
+Machine translation ( MT ) , which automatically translates the metadata records from one language to other languages , has also been used in Cross‐Language Information Retrieval ( CLIR ) experiments ( Sakai et al. , 2008 ; Oard , He , & Wang , 2008 ) . 
+While many online MT systems are available for use , they are not always sufficient for producing quality MT metadata records to facilitate MLIA in digital collections . 
+Chen , Ding , Jiang , and Knudson ( 2012 ) experimented with three online MT systems that translated metadata records and found that MT performance of these records could stand improvement . 
+The advancement of MT technologies , especially the release of open‐source MT platforms built on up‐to‐date MT approaches , allows digital library communities to develop their own MT systems without going through lengthy system development . 
+The purpose of this study was to explore methodologies for developing effective and efficient MT systems for translating English metadata records into other languages . 
+There are various approaches to MT , such as direct translation , rule‐based MT , and corpus‐based MT , each with relative strengths and weaknesses ( Tripathi & Sarkhel , 2010 ) . 
+With the advancement of computing technologies and availability of large‐scale comparative corpora and parallel corpora , corpus‐based MT has been widely explored . 
+Corpus‐based MT can be further categorized into example‐based MT , statistical MT , and deep‐learning‐based MT ( Zhang & Zhong , 2016 , p. 92 ) . 
+In the past decades , statistical MT has been explored extensively with funding from the US government and the European Union . 
+As a result , large Internet companies such as Google and Microsoft have launched online MT services based on the statistical MT approach . 
+These services have helped web users to overcome language barriers , and to understand and use more information resources ( Gaspari , 2004 ; Chen & Bao , 2009 ) . 
+Furthermore , some MT research groups have released their MT systems as open‐source , which allows the public and other MT researchers to conduct research without building an MT system from scratch . 
+Moses , the software used in this study , is one such open‐source platform for statistical MT ( Koehn et al. , 2007 ) . 
+One of the strategies for MT is termed Multi‐Engine Machine Translation , or MEMT . 
+This is the practice of utilizing more than one MT processor and combining the translation results into a single output or a ranked list of best candidate outputs , which has proven effective ( Heafield & Lavie , 2010 ; Roxas et al. , 2008 ; Nirenburg & Frederlcing , 1994 ) . 
+MEMT enables researchers to exploit the strengths of certain MT approaches while minimizing their weaknesses in an attempt to produce higher‐quality translations . 
+This is particularly useful when source language documents are not from a small , limited domain . 
+Ren and Shi ( 2002 ) used MEMT by combining four MT processors to improve the success rate and quality of dialog MT . 
+In this study , we applied the idea of MEMT by combining results from multiple online MT services . 
+We also evaluated MT results on metadata records from the MEMT strategies and compared them with those from online MT services . 
+The topic of metadata evaluation has received considerable attention ( Hillman , 2008 ; Robertson , 2005 ) . 
+But much of the literature on metadata evaluation only considered monolingual metadata . 
+Our evaluation , however , focused on the quality of MT , not the quality of the metadata . 
+Evaluation of MT has long been considered an important task , and has been addressed in numerous studies and publications ( Hovy , King , & Popescu‐Belis , 2002 ; Guzmán , Joty , Màrquez , & Nakov , 2015 ) . 
+Also , there have been a number of MT evaluation forums , workshops , or campaigns , such as those funded by the US government and the European Union . 
+In these evaluations , MT systems were typically trained and evaluated on translations of news stories , web text , or parliamentary proceedings . 
+It remains unclear how effective current MT technologies are when translating other types of data such as metadata records . 
+In a review of usability studies of digital libraries , Chowdhury , Landoni , and Gibb ( 2006 ) found that language and cultural issues impact the usability of a digital library . 
+Metadata records are different from most full‐text because they contain different elements , some of which are segments or short phrases . 
+For example , a subject element may consist of one or more words . 
+In many respects , metadata records can be considered structured or semistructured data . 
+The nature of metadata records may make them difficult to translate , much like natural dialogue ( Ren & Shi , 2002 ) . 
+MT results can be evaluated manually or automatically . 
+Two measures called fluency and adequacy have been frequently used for various human evaluations of MT ( Linguistic Data Consortium , 2005 ; Lommel et al. , 2014 ) . 
+They have been used in some MT evaluations such as OpenMT , TIDES , and some of the Statistical MT workshops ( Callison‐Burch , Fordyce , Koehn , Monz , & Schroeder , 2007 ) . 
+Other measures , such as a multidimensional quality metric based on an operational definition of accuracy and fluency were proposed ( Lommel et al. , 2014 ) . 
+Automatic measures such as BLEU and METEOR have been widely used in MT evaluation ( Callison‐Burch et al. , 2007 ) In this study , we conducted MEMT experiments and human evaluation of these results using fluency and adequacy measures . 
+The next section describes our design of the MEMT experiments and subsequent human evaluation of the MT results . 
+This study consisted of multiple stages in order to investigate effective MT of metadata records using MEMT strategies . 
+The specific research question was : Which MEMT strategy can achieve better performance on metadata records ? 
+Which MEMT strategy can achieve better performance on metadata records ? 
+To answer the above research question , we first extracted 2,010 English metadata records at random from two digital collections . 
+The records ' contents were then preprocessed so only six elements were kept for each record for MT . 
+These records were then translated into Spanish and Chinese by three online MT services : Google Translate , Bing Translator , and Yahoo ! 
+BabelFish . 
+After that , we conducted MT experiments using Moses and applied three different MEMT strategies ( Moses Statistical Machine Translation System Version 3.0 , 2016 ) . 
+The translation quality of all six sets of results was then evaluated in terms of adequacy and fluency ( Linguistic Data Consortium , 2005 ) by evaluators who were native speakers of Spanish or Chinese . 
+The following sections describe each stage in more detail . 
+We randomly extracted 2,010 nonduplicate metadata records from two different digital collections : The UNT Library Catalog ( University of North Texas Libraries , n.d. ) , and the Portal to Texas History ( University of North Texas Libraries , 2016 ) . 
+These two digital collections used different metadata formats : the UNT Library Catalog used the MARC format , while the Portal to Texas History used the Dublin Core format . 
+We wrote a computer program and converted the UNT Library Catalog records from MARC format to Dublin Core format . 
+Each metadata record contained more than 10 elements for each digital object . 
+For our purposes , we selected and kept only six elements , including title , creator , subject , description , publisher , and coverage , due to their relevance to users ' search and retrieval behavior ( Chen , 2016 , p. 91 ) . 
+Furthermore , some of these elements also provided challenges to MT systems that would be interesting to explore . 
+For example , creator , coverage , and publisher usually contain named entities including organizational , geographical , or personal names . 
+In this study we did not provide special treatment to named entities . 
+However , we were interested in understanding to what degree the online MT systems could correctly translate named entities . 
+Not every record contained all six elements , but each contained at least title , creator , and subject . 
+A sample metadata record that has been processed is presented in Table 1 . 
+Each of the 2,010 English records was submitted to three MT systems—Google Translate ( Google , 2016 ) , Microsoft Bing Translator ( Microsoft , 2016 ) , and Yahoo ! 
+BabelFish ( no longer active ) through their application program interfaces for Spanish and Chinese translations . 
+Spanish and Chinese were chosen as the target languages for two reasons : 1 ) they are the most spoken languages on the Internet ( Internet World Stats , 2016 ) and the native languages for many US immigrants ; and 2 ) from a linguistics perspective , these two languages were considered quite different . 
+English and Spanish share the same characters and usually named entities such as personal names do n't require translation . 
+In contrast , the basic unit of Chinese is a character called an ideograph . 
+Chinese words can be composed of one or more Chinese characters , and there are no word boundaries in a Chinese sentence . 
+Choosing these two very different languages could better test the generalizability of an MT strategy . 
+Simultaneously , we recruited eight bilingual native Spanish speakers and four native Chinese speakers to manually translate two reference translations for each of the 2,010 records . 
+A database‐driven web application was constructed to facilitate the creation of these reference translations ( Chen , 2016 , p. 93 ) . 
+The reference translations were used in multiple processes including MEMT system development and human evaluation . 
+For example , half of the reference translations were used to develop the language and translation models in our MEMT approaches . 
+Since its launch , the statistical MT platform Moses has been constantly under development and it now offers two types of decoders : phrase‐based and tree‐based . 
+For our study , we used the phrase‐based Beam Search decoder which takes inputs from an LM module and a TM module in order to calculate the most probable target language translation for a source language input string or file ( Koehn et al. , 2007 ) . 
+This study tested three different MEMT approaches . 
+The differences between these approaches lay in the training data employed by Moses 's LM and TM modules . 
+However , the decoding method for them was the same : All approaches applied Moses 's phrase‐based decoding method . 
+We used the following data for our experiments : The original 2,010 English metadata records , three sets of MTs from three different MT systems ( 6,030 records in total for each target language ) , and two sets of reference translations in Simplified Chinese and Spanish by native speakers of the target languages ( 4,020 records total for each language ) , as described earlier . 
+We divided the English metadata records into two equal parts of 1,005 records : The first part and its 4,020 reference translations in the two target languages ( 2,010 for each language ) are called Set A , and the second part and its reference translations are Set B . 
+Set A was used in training for two of the MEMT approaches below , and Set B was used for testing and evaluation . 
+As mentioned earlier , each metadata record consisted of multiple elements , such as title , creator , subject , and description . 
+Each of these elements was sent to Moses as a separate sentence to train its translation and language models . 
+We decided to conduct experiments using three adapted MEMT approaches , which were called MEMT1 , MEMT2 , and MEMT3 , respectively . 
+These three approaches used different resources , and each was built on the other , as described below . 
+For the first approach , the TM was trained using the original English records and their MTs . 
+We doubled the Microsoft Bing translation results in the TM , which was justified by a previous study finding that Microsoft Bing slightly outperformed Google Translate and performed much better than Yahoo ! 
+in adequacy and fluency ( Chen et al. , 2012 ) , as well as the fact that Microsoft Bing 's translations ranked highest of the three in terms of BLEU scores for Chinese ( Papineni , Roukos , Ward , & Zhu , 2002 ; Chen et al. , 2012 ) . 
+The LM consisted of only the MT systems ' output in Chinese or Spanish . 
+The output of Microsoft Bing Translator 's was also doubled in the LM . 
+For the second approach , we used all the training data as was used in MEMT1 , as well as Set A ( composed of 1,005 English metadata records and their 2,010 reference Chinese or Spanish translations ) . 
+In other words , Set A was added to the training data for generating both the TM and the LM for each language . 
+The TMs were created by feeding parallel corpora of metadata records in both the target and source languages—Spanish/English or Chinese/English—to the TM module in Moses , which then generated phrase tables and reordering tables . 
+The LM module in Moses trained Chinese and Spanish language models using manual translations of Set A and MT translations from Google , Bing , and Yahoo ! 
+for these two languages . 
+The test data were the English metadata records of Set B , which was accepted by the Moses decoder as input . 
+Finally , the decoder generated its Chinese and Spanish translation of Set B for evaluation . 
+Figure 1 illustrates this approach within the structure of Moses . 
+The structure and data of MEMT2 . 
+MEMT3 was identical to MEMT2 except that in‐domain data were added to the LMs . 
+While many parallel corpora were available for MT research and training , such as the Holy Bible and the Europarl corpus ( Koehn , 2005 ) , we hoped that an LM consisting of additional data of the same type , that is , metadata records , would lead to better translation results . 
+For the Spanish LM , we acquired metadata records from the Redalyc database of UAEM ( Universidad Autónoma del Estado de México , 2015 ) in Mexico . 
+The data consisted of approximately 228,240 metadata records , most of which reflected scholarly papers . 
+Some of these records contained non‐Spanish string sequences . 
+We therefore developed an in‐house language identifier to exclude the non‐Spanish records . 
+This identifier used the Europarl corpus ( Koehn , 2005 ) to build a character‐level bigram language model , applied it to determine whether the language of each record was Spanish , and removed all non‐Spanish records . 
+Roughly 25 % of the records were thus excluded by the identifier , leaving around 171,000 Spanish records . 
+Figure 2 presents one of the Spanish records in its original Dublin Core format . 
+A sample Spanish metadata record . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] For the Chinese LM , we used 13,088 metadata records acquired from Shenzhen Library located in Guangdong Province in China . 
+These were part of the bibliographic records for Chinese books purchased by the library in 2012 . 
+The original metadata records were in MARC Format ( MARC Formats , n.d. ) . 
+We processed them and used their most informative elements , such as title , creator , publisher , description , and subject in MEMT3 . 
+Table 2 presents one sample record in its original MARC format and the elements we extracted for use for MEMT3 . 
+We removed the mark‐up tags from both Spanish and Chinese metadata records before using them for training the language models in Moses . 
+Title : 中国近代思潮论 Creator : 丁守和 Publisher : 广州 # # 广东人民出版社 Description : 本书收录了20世纪80和90年代的有关近代思想文化的文章22篇。即《近代中国探索发展道路的历史考察》、《中国近代思潮的思考》、《民主科学在中国的命运》、《中国传统文化与现代化问题》等。 Subject : 思想史 # # 研究 # # 中国 # # 近代 The corpora used to generate the translation models for MEMT3 were identical to those for MEMT2 for the two languages , while the Chinese and Spanish LMs for this approach were appended by 13,088 and 171,000 records , respectively . 
+As mentioned earlier , we doubled the MT results from Microsoft Bing Translator for all MEMT experiments . 
+This was also considered necessary due to the limited training materials we had , and the different performance of the three online MT systems . 
+Bing translations received higher BLEU scores during our experiments . 
+Table 3 summarizes the data that were fed into LM and TM for each MEMT approach and for each language . 
+We experimented with the aforementioned three MEMT approaches and tested the 1,005 records in Set B . 
+Our experiments produced three sets of translation results for each language . 

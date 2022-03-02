@@ -1,0 +1,90 @@
+T1	引文时间 946 950	2014
+T2	引文时间 1483 1487	2014
+T3	引文时间 2574 2578	2013
+T4	引文作者 2563 2568	Rijke
+T5	引文时间 3627 3631	2004
+T6	引文时间 3591 3595	2015
+T7	引文作者 3573 3581	Järvelin
+T8	引文作者 3617 3624	Freeman
+T9	引文作者 3598 3612	Rossi , Lipsey
+T10	引文作者 2547 2556	Baltussen
+T11	引文作者 2540 2544	Nack
+T12	引文作者 2533 2537	Gorp
+T13	引文作者 2526 2530	Bron
+T14	引文作者 1473 1480	Vakkari
+T15	引文作者 1466 1468	Wu
+T16	引文作者 931 933	Wu
+T17	引文作者 936 943	Vakkari
+T18	引文时间 7429 7433	2014
+T19	引文作者 7419 7426	Vakkari
+T20	引文作者 7414 7416	Wu
+T21	表 8491 8587	Table 2 summarizes the tasks , descriptions of tasks , and measurements for outcomes and outputs
+T22	引文时间 8893 8897	2004
+T23	引文作者 8883 8890	Muresan
+T24	引文作者 8872 8878	Belkin
+T25	表 10667 10719	An overview of the user profiles is shown in Table 3
+T26	表 11327 11504	Table 3 shows that for both novices and intermediates under each interface , most user confidence levels were classified as “ High ” or “ Normal , ” thus scoring 2 or 1 points .
+T27	表 13876 13993	As shown in Table 4 , we assigned interfaces randomly to each participant to accomplish the assigned tasks ( topics )
+T28	图 14623 14718	In Figure 6 , we also plotted bar graphs of score means with 95 % confidence intervals ( CI ) .
+T29	表 14490 14618	Shown in Table 7 , ANOVA tests reveal the significance of the gain values of the three interfaces for the four tasks for novices
+T30	表 14392 14485	Table 6 shows that novices using Wikipedia obtain the lowest gains ( i.e. , score/time cost )
+T31	表 14220 14387	Table 5 shows that for Tasks 1 through 4 , the WNavi s and WikiMap + interfaces achieve higher average scores when compared with the results of the Wikipedia interface
+T32	表 14721 14805	Table 7 shows that the effects of the three interfaces are significant for each task
+T33	表 14810 14957	Table 7 and Figure 6 show that WNavi s and WikiMap + yield significantly greater gains per time unit used when compared with the baseline interface
+T34	图 14822 14957	Figure 6 show that WNavi s and WikiMap + yield significantly greater gains per time unit used when compared with the baseline interface
+T35	表 15515 15601	Table 9 shows that intermediate participants using Wikipedia obtained the lowest gains
+T36	表 15783 15990	In Table 10 , ANOVA tests show the significance of the gain values of the three interfaces for the four tasks of intermediates ; the effects of the three interfaces were found to be significant for each task
+T37	表 15995 16230	Table 10 and Figure 7 also show that WikiMap + yielded significantly larger gains when compared with the baseline interface : Intermediates perform tasks correctly and efficiently with the aid of WikiMap + as compared with the baseline
+T38	图 16008 16230	Figure 7 also show that WikiMap + yielded significantly larger gains when compared with the baseline interface : Intermediates perform tasks correctly and efficiently with the aid of WikiMap + as compared with the baseline
+T39	表 17542 17742	Observation 2 : Table 12 shows the absolute and relative differences between scores in the baseline interface and those in the proposed interfaces among novices and intermediates in the search tasks .
+T40	表 16853 17135	The ANOVA analysis in Table 11 shows that we can not reject the null hypothesis : there is no statistically significant interaction effect ( task 1 , p = .951 ; task 2 , p = .482 ; task 3 , p = .586 ; task 4 , p = .687 ) between the interfaces and knowledge levels on the four tasks
+T41	表 16673 16832	n Table 12 we show the absolute and relative improvements in accuracy for the new interfaces as compared with the baseline among both novices and intermediates
+T42	表 16494 16656	We used two‐way ANOVA to examine the effects of the three interfaces and the two knowledge levels on the user performance in the four tasks , as shown in Table 11
+T43	表 18067 18322	As to the score differences between the proposed interfaces ( i.e. , WikiMap + – WNavi s ) shown in the last three columns of Table 12 , it appears that intermediates are helped more using the WikiMap + interface than novices are for Tasks 2 , 3 , and 4 .
+T44	表 18463 18572	Table 14 shows that novices generally traversed more internal links using Wikipedia than WikiMap + or WNavi s
+T45	表 18856 18948	Table 14 shows that users browsed far fewer pages using WikiMap + than Wikipedia and WNavi s
+T46	表 19076 19191	Table 15 shows that , for both user groups , WNavi s users utilized the TM tool more frequently than WikiMap+ users
+T47	表 19517 19632	Table 15 shows that for both user groups , WNavi s users consulted the HT tool more frequently than WikiMap + users
+T48	软件工具 356 364	WikiMap+
+T50	引文的研究问题 1490 1635	evaluated whether the proposed WNavi s supports participants in finding more precise answers as compared with the traditional Wikipedia interface
+T51	研究结果 2162 2411	Thus , we conclude that for conceptual tasks , neither tool in WNavi s helps users to find indirect relationships between concepts to answer the questions ; this suggests that the indirect relationship‐based task is the most difficult for most users
+T52	引文的研究问题 2590 2618	aggregated search interfaces
+T54	软件工具 3044 3052	WikiMap+
+T55	软件工具 3362 3370	WikiMap+
+T57	数学公式 6551 6561	Equation 3
+T58	表 6962 7228	Given the aforementioned expected outcomes of the system , we designed tasks with the associated measurements to determine to what extent the use of the navigation and search support tools contributes to the successful exploration of the topics , as shown in Table 2
+T59	引文的结果 7233 7411	The rationale used to design the tasks is the same as that in our recent work , which proves that tasks reflect how the interface helps users search , explore , or gain knowledge
+T60	引文的结果 8900 9047	proposed that user satisfaction , user effort , efficiency , and expected search length are important aspects of both search performance and effort
+T61	数学公式 10316 10326	Equation 1
+T62	数学公式 10286 10296	Equation 1
+T63	数学公式 9797 9807	Equation 3
+T64	表 10377 10541	Note that as the number of questions in each task is different , as shown in Table A.1 of Appendix A , the scoring of the tasks in this research varies by task type
+T65	表 15353 15510	Table 8 shows that in all of the tasks , when compared with the standard Wikipedia interface , users scored higher on average when using WNavi s or WikiMap +
+T66	表 18688 18835	Table 13 shows that the effects of the three interfaces were found to be significant for Tasks 1 and 4 , according to the results of the ANOVA test
+T67	表 19196 19489	As Table 15 shows , both user groups clicked significantly more often on the TM tool in WNavi s than WikiMap+ for Tasks 1 and 2 ( i.e. , relationship‐based tasks ) , suggesting that users clicked more to find the correct concepts and relationships while using WNavi s than while using WikiMap+
+T49	软件工具 984 989	WNavi
+T68	引文的结果 1640 1902	Our earlier research results showed that the use of TM and topic‐based HT tools is strongly associated with good performance in topical‐based tasks , and slightly associated with good performance in identifying direct conceptual relations for answering questions
+T69	软件工具 2225 2230	WNavi
+T53	引文的结果 2676 2753	users prefer to gather information from Wiki documents and web search engines
+R1	coauthor Arg1:T24 Arg2:T23	
+R2	has_cited_time Arg1:T22 Arg2:T23	
+R3	results Arg1:T24 Arg2:T60	
+R4	coauthor Arg1:T20 Arg2:T19	
+R5	has_cited_time Arg1:T18 Arg2:T19	
+R6	results Arg1:T20 Arg2:T59	
+R7	has_cited_time Arg1:T6 Arg2:T7	
+R8	has_cited_time Arg1:T5 Arg2:T8	
+R9	field_similar_as Arg1:T7 Arg2:T9	
+R10	has_cited_time Arg1:T3 Arg2:T4	
+R11	coauthor Arg1:T13 Arg2:T12	
+R12	coauthor Arg1:T12 Arg2:T11	
+R13	coauthor Arg1:T11 Arg2:T10	
+R14	coauthor Arg1:T10 Arg2:T4	
+R15	produces Arg1:T13 Arg2:T52	
+R16	results Arg1:T13 Arg2:T53	
+R17	coauthor Arg1:T15 Arg2:T14	
+R18	has_cited_time Arg1:T2 Arg2:T14	
+R19	produces Arg1:T15 Arg2:T50	
+R20	results Arg1:T15 Arg2:T68	
+R21	has_cited_time Arg1:T1 Arg2:T17	
+R22	coauthor Arg1:T16 Arg2:T17	

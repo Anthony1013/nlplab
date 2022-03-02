@@ -1,0 +1,101 @@
+T1	引文作者 105 110	Hutto
+T2	引文作者 113 120	Gilbert
+T3	引文时间 123 127	2014
+T4	引文作者 140 147	Nielsen
+T5	引文时间 150 154	2011
+T6	引文作者 176 178	Hu
+T7	引文作者 181 184	Liu
+T8	引文时间 187 191	2004
+T9	引文作者 205 214	Levallois
+T10	引文时间 217 221	2013
+T11	引文作者 235 242	Taboada
+T12	引文时间 252 256	2011
+T13	引文作者 274 279	Smedt
+T14	引文作者 282 291	Daelemans
+T15	引文时间 294 298	2012
+T16	引文作者 318 326	Mohammad
+T17	引文作者 329 340	Kiritchenko
+T18	引文作者 345 348	Zhu
+T19	引文时间 351 355	2013
+T20	引文作者 369 377	Mohammad
+T21	引文作者 380 386	Turney
+T22	引文时间 389 393	2013
+T23	引文作者 415 421	Wilson
+T24	引文时间 431 435	2005
+T25	引文作者 460 468	Thelwall
+T26	引文时间 471 475	2013
+T27	引文作者 542 549	Ribeiro
+T28	引文时间 559 563	2016
+T29	引文作者 2699 2706	Ribeiro
+T30	引文时间 2716 2720	2016
+T31	引文作者 6719 6723	Wang
+T32	引文作者 6728 6731	Xia
+T33	引文时间 6735 6739	2017
+T34	引文作者 7323 7327	Wang
+T35	引文作者 7332 7335	Xia
+T36	引文时间 7339 7343	2017
+T37	引文作者 7568 7573	Felbo
+T38	引文时间 7583 7587	2017
+T39	具体模型 9280 9283	SVM
+T40	引文作者 9288 9293	Chang
+T41	引文作者 9296 9299	Lin
+T42	引文时间 9302 9306	2011
+T43	具体模型 9327 9329	RF
+T44	引文作者 9334 9341	Breiman
+T45	引文时间 9344 9348	2001
+T46	具体模型 9377 9380	KNN
+T47	引文作者 9385 9394	Pedregosa
+T48	引文时间 9404 9408	2011
+T49	具体模型 9451 9453	RF
+T50	具体模型 9458 9461	KNN
+T51	具体模型 9554 9557	SVM
+T52	引文作者 10286 10293	Ribeiro
+T53	引文时间 10303 10307	2016
+T54	表 10989 11049	Table 1 shows Macro‐F1 results for each number of agreements
+T55	表 12055 12132	Then , a similar variation of this parameter was tested , as shown in Table 2
+T56	表 12896 13045	In Table 3 we find the results comparing the use of these different sets of features , the predictions outputted by all base methods and bag of words
+T57	时间 14387 14391	2015
+T58	引文作者 14889 14898	Gonçalves
+T59	引文时间 14908 14912	2013
+T60	表 15083 15203	As we can see in Table 4 emoticons appeared just in a very small amount of instances ( observed in the coverage column )
+T61	引文作者 15421 15430	Gonçalves
+T62	引文时间 15440 15444	2013
+T63	表 16025 16074	Results of this experiment can be seen in Table 5
+T64	表 16426 16479	Results for all baseline methods are shown in Table 6
+T65	表 17331 17504	We can also see in Table 6 that the deep learning approach ( i.e. , DeeMoji ) achieved the best results in one data set ( aisopos_ntua ) despite adopting a pre‐trained model
+T67	引文的方法 6711 6857	HHSWE ( Wang and Xia. , 2017 ) does this by creating an expanded lexicon to enhance the quality of word embedding as well as the sentiment lexicon
+T68	引文的方法 6862 6975	Their method uses a neural architecture to train a sentiment‐aware word embedding at both document and word level
+T69	引文的方法 7594 7696	It is a method for sentiment analysis used primarily for predict emojis information for a text message
+T70	研究方法 9184 9410	We tested three different and widely used algorithms in our approach : Support Vector Machine ( SVM ) ( Chang & Lin , 2011 ) , Random Forest ( RF ) ( Breiman , 2001 ) and k‐Nearest Neighbors ( KNN ) ( Pedregosa et al. , 2011 )
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T3 Arg2:T2	
+R3	has_cited_time Arg1:T5 Arg2:T4	
+R4	coauthor Arg1:T6 Arg2:T7	
+R5	has_cited_time Arg1:T8 Arg2:T7	
+R6	has_cited_time Arg1:T10 Arg2:T9	
+R7	has_cited_time Arg1:T12 Arg2:T11	
+R8	coauthor Arg1:T13 Arg2:T14	
+R9	has_cited_time Arg1:T15 Arg2:T14	
+R10	coauthor Arg1:T16 Arg2:T17	
+R11	coauthor Arg1:T17 Arg2:T18	
+R12	has_cited_time Arg1:T28 Arg2:T27	
+R13	coauthor Arg1:T20 Arg2:T21	
+R14	has_cited_time Arg1:T22 Arg2:T21	
+R15	has_cited_time Arg1:T24 Arg2:T23	
+R16	has_cited_time Arg1:T26 Arg2:T25	
+R17	has_cited_time Arg1:T30 Arg2:T29	
+R18	coauthor Arg1:T31 Arg2:T32	
+R19	has_cited_time Arg1:T33 Arg2:T32	
+R20	uses Arg1:T31 Arg2:T67	
+R21	uses Arg1:T31 Arg2:T68	
+R22	coauthor Arg1:T34 Arg2:T35	
+R23	has_cited_time Arg1:T36 Arg2:T35	
+R24	has_cited_time Arg1:T38 Arg2:T37	
+R25	uses Arg1:T37 Arg2:T69	
+R26	coauthor Arg1:T40 Arg2:T41	
+R27	has_cited_time Arg1:T42 Arg2:T41	
+R28	has_cited_time Arg1:T45 Arg2:T44	
+R29	has_cited_time Arg1:T48 Arg2:T47	
+R30	has_cited_time Arg1:T53 Arg2:T52	
+R31	has_cited_time Arg1:T59 Arg2:T58	
+R32	has_cited_time Arg1:T62 Arg2:T61	

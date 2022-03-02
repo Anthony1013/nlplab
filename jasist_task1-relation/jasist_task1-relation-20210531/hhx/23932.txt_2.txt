@@ -1,0 +1,130 @@
+User review page in apple app store . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The inputs of the Functionality Extractor are the textual content of each app 's descriptions and user reviews . 
+We use the Stanford Core Natural Language Processing toolkit22 http : //nlp.stanford.edu/software/corenlp.shtml to perform text preprocessing , including tokenization ( breaking up text into words ) , Part‐of‐Speech ( POS ) tagging ( e.g. , noun , verb , adjective ) , lemmatization ( converting words to their base forms , e.g. , “ emails ” and “ emailing ” are converted to “ email ” ) , and removing stop words ( i.e. , noncontent words that appear too frequently in all apps , such as “ a , ” “ the ” ) . 
+To get rid of noisy content that is irrelevant to app functionalities in user reviews , we need to control the size of the vocabulary . 
+Although app descriptions may be too short for functionality extraction , the vocabulary used in app description is more formal and more relevant to app functionality . 
+It turns out that the app description can be a good source for constructing a vocabulary . 
+After looking at the data , we notice that most app functionalities are in the form of single nouns ( e.g. , navigation ) , noun phrases ( e.g. , flight information ) , and verb‐object phrases ( verb + noun , e.g. , get direction ) . 
+We then aggregate all app descriptions from which we only keep the single nouns , two‐gram nouns , and two‐gram verb‐object phrases in the vocabulary . 
+We refer to a single word or a two‐gram phrase in the vocabulary as a functional aspect . 
+We also remove those aspects that are too rare , that is , appearing fewer than 10 times , and too common , that is , appearing in more than 80 % of the apps , from the vocabulary . 
+Table 1 shows a simple example to illustrate the process of vocabulary construction . 
+After this process , “ find way ” will be added into the vocabulary as a functional aspect . 
+You ( pronoun ) can ( auxiliary ) use ( verb ) this ( determiner ) app ( noun ) to ( infinitive marker ) find ( verb ) your ( pronoun ) way ( noun ) easily ( adverb ) You ( pronoun ) can ( auxiliary ) use ( verb ) this ( determiner ) app ( noun ) to ( infinitive marker ) find ( verb ) your ( pronoun ) way ( noun ) easily ( adverb ) [ use app ] ( verb+noun ) [ find way ] ( verb+noun ) [ use app ] ( too frequent ) [ find way ] We believe that the constructed vocabulary is able to cover most functional aspects of apps . 
+The user review content is purified by removing the words and phrases that are not in the vocabulary . 
+We use the number of reviews that contain the aspect instead of using the frequency of the aspect in all reviews , because we believe an aspect mentioned by 10 users is more important than an aspect mentioned 10 times by one user . 
+We also remove some aspects which are frequently mentioned but not relevant to app functionalities , like app names , which are too app‐specific . 
+After frequency analysis , we are able to obtain the functional aspects for each app by selecting the top M aspects having the highest weights . 
+One of the main tasks of the recommender is to predict new functionalities for the target user . 
+We employ a graph‐based ranking approach which is able to propagate users ’ functional requirements in the functionality graph . 
+The first step is to construct the functionality graph that captures the cooccurrence of functionalities based on the global usage patterns from all users . 
+Figure 3 shows an example of functionality graph . 
+Example of functionality graph . 
+Let G = ( V , E ) be a directed graph with a set of vertexes V and a set of edges E . 
+A vertex vw denotes a functionality w , and an edge ei , j from vertex i to j denotes an association from functionality i to functionality j , which means if i appears , j usually appears as well . 
+In Figure 3 , for example , the edge from navigation to weather forecast indicates users who use the functionality of navigation may also use the functionality of weather forecast . 
+We use a directed graph instead of an undirected one because the association between two functionalities is asymmetric . 
+For example , users who use navigation may need weather forecast , but users who use weather forecast may not need navigation . 
+Example of support and confidence . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] An edge ei , j is added into the graph if the association satisfies both a minimum support threshold and a minimum confidence threshold . 
+To simplify the configuration of the model , the thresholds are usually predefined based on domain knowledge ( Davale & Shende , 2015 ; Kaur & Madan , 2015 ) . 
+After referring to other studies ( D. R. Liu & Shih , 2005 ; Sandvig , Mobasher , & Burke , 2007 ; Smyth et al. , 2005 ) and consulting the industrial domain experts from Mobilewalla,33 https : //www.mobilewalla.com in our implementation , we set the minimum support threshold and the minimum confidence threshold to 0.1 and 0.4 , respectively , which can effectively filter out the meaningless associations without harming the recommendation coverage . 
+With such settings , for example , if more than 10 % of users have both flight information apps and navigation apps on their mobile devices , and among the users who use flight information apps , more than 40 % of them also use navigation apps , then a directed edge from vertex flight information to vertex navigation is added into the graph . 
+The value of in each vertex indicates the weights propagated from the functionalities that have been used by the user . 
+It can be regarded as a measure of how likely the user needs each new functionality . 
+For example , as shown in Figure 5 , suppose a user has already used a weather forecast app and a flight information app at this stage , then the vertex weather forecast and the vertex flight information will be given a large value . 
+Because there are many paths from weather forecast and flight information to the new vertex navigation that have not been used by the user , most of the weight on weather forecast and flight information will be propagated to navigation , reflected as a large . 
+So , we can infer that this user may also need a navigation app . 
+In next section , we will introduce how to utilize for candidate set ranking . 
+Example of requirement propagation . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] With , we are able to predict new functionalities for a given user , and then we can retrieve candidate apps that contain these new functionalities . 
+However , the candidate set generated in this way may contain many apps with overlapping functionalities . 
+To avoid redundant recommendations , we need to rank apps from the candidate set , with the following two objectives : ( a ) to promote apps with better quality and ( b ) to promote apps providing more functionalities needed by the user . 
+We select the top N apps that have the highest AppRank scores as recommendations . 
+Our mechanism allows only one app to obtain the for each new functionality , therefore avoiding redundant recommendations . 
+The AppRank score uses the summation of from all the new functionalities , which gives priority to the apps that provide more needed functionalities . 
+For example , in Figure 6 , suppose the app YouTube ranks first among both music apps and video apps ; then it will be awarded the from vertex listen music and watch video , that is , . 
+Compared with other music or video apps , YouTube will be given a higher priority in recommendation , because it can cover two functional requirements of the user and also has good quality . 
+Meanwhile , other music and video apps are less likely to be recommended in this round , unless they provide additional functionalities , so redundancy is eliminated . 
+Similarly , Google Maps will be awarded the from vertex Navigation , that is , . 
+Therefore , in this round , Google Maps will be the first app to be recommended , and YouTube will be the second one . 
+Example of candidate set ranking . 
+In this section , we describe the experiment we conducted to evaluate the effectiveness of our proposed solution . 
+First , we introduce the evaluation metrics used in the experiment . 
+Then we describe the experiment setup . 
+Finally , we report the results , including functionality extraction , impact of sparsity , ranking accuracy , and recommendation diversity . 
+To evaluate our proposed method , we compare our method with other commonly used recommendation techniques , that is , Collaborative Filtering , Matrix Factorization , and Content‐Based approach , on several evaluation metrics . 
+A basic assumption of RSs is that “ a system that provides more accurate predictions will be preferred by the user ” ( Shani & Gunawardana , 2011 ) . 
+In line with this , we evaluate our method on its prediction power . 
+Because in many cases RSs present a list of recommendations to the user , we care more about the correctness of the predicted item ranking , which is known as ranking accuracy . 
+However , it is widely agreed that accurate predictions are crucial but insufficient for a good RS . 
+Users may also need to rapidly discover diverse items . 
+Therefore , in addition to ranking accuracy , we also evaluate the diversity of recommendations . 
+For ranking accuracy , recall is usually measured with another metric ‐ precision , which indicates what proportion of recommended items are liked by the users . 
+However , because most items are unrated , it is hard to say whether the users dislike the unrated items , or they just do not know these items . 
+Therefore , we only use the recall , which we think is more pertinent , because it only considers the liked items . 
+The data we use in the experiment is obtained from the Apple App Store ( U.S. ) .44 https : //itunes.apple.com/us/genre/mobile‐software‐applications/id36 ? 
+mt=8 We construct the vocabulary based on the textual descriptions of 10,530 popular apps evenly distributed in 22 categories . 
+The constructed vocabulary contains 20,690 words and phrases . 
+Our constructed dataset for evaluation contains 66,543 ratings on a scale of 1 to 5 given by 1,879 users to 2,213 apps . 
+The sparsity level ( i.e. , the percentage of empty entries in the user‐app rating matrix ) of the data set is 98.39 % . 
+In the dataset 1,202 apps are free , and the remaining 1,101 apps are paid . 
+The distribution of app categories in our dataset is shown in Figure 7 . 
+In the dataset , each user has rated at least 5 free apps and 5 paid apps . 
+On average , each user has rated 20 free apps and 15 paid apps . 
+For each app in the dataset , we collected a maximum of 500 user reviews . 
+On average , each app had 442 reviews . 
+App category distribution . 
+To test the impact of the number of extracted aspects M on the model , we vary its value and then compare the recommendation quality metrics mentioned above , as well as two other system performance measures : the coverage ( measured by the percentage of apps that can be recommended ) and the training time of the model with 80 % training data . 
+The results in Figure 8 show that the coverage of recommendation increases when a larger number of M are used . 
+Higher coverage is preferred in recommendation because it indicates the ability of the recommender system to explore new items . 
+However , the results in Figure 8 also show that the training time of the model moves up when M increases , and there is a rapid rise of training time when M increases from 50 to 60 . 
+To make a trade‐off between the coverage and the efficiency of the model , M is fixed to 50 , where the training time is relatively low , and the coverage level ( 97.8 % ) is acceptable . 
+Impact of M . 
+We find that the number of extracted aspects M shows no significant effect on the recommendation quality . 
+One possible explanation is that the two‐stage PageRank process may filter out those irrelevant aspects even if they are added into the graph , so the ranking accuracy is stable using a different number of aspects . 
+To investigate the effectiveness of our method for extracting app functionalities , we select 5 popular apps and for each app , we list only the top 12 extracted functionalities using our method . 
+The qualitative results are shown in Table 2 . 
+From the results , we can see that most of the extracted functionalities are meaningful and reasonable . 
+The quality of the extracted functionalities plays an important role in the whole solution , because the functionalities are the basis of further analysis for recommendation . 
+The results show that our proposed method is effective in extracting app functionalities of good quality from user reviews , which guarantees the effectiveness of the whole solution . 
+In this experiment , we compare our method with other methods for generating the top N recommendations using different training‐test ratios . 
+The methods we compare with are commonly selected for comparison in recommendation research : User‐Based CF ( UCF ; Resnick et al. , 1994 ) , Item‐Based CF ( ICF ; Sarwar et al. , 2001 ) , Content‐Based Filtering ( CB ; Pazzani & Billsus , 2007 ) , Non‐Negative Matrix Factorization ( NMF ; Lee & Seung , 1999 ) , Regularized Singular Value Decomposition ( RSVD ) and its variant SVD++ ( Paterek , 2007 ) . 
+For the CB method , the inputs are user ratings and extracted functionalities , which are the same as our proposed method . 
+The inputs of other methods are only user ratings . 
+We introduce a variable tp to indicate what percentage of the rating data is used as the test set . 
+For example , tp = 10 % indicates 10 % of the data is used as the test set , and the remaining 90 % of the data is used as the training set . 
+A rating in the test set is converted into “ like ” if its value is larger than 3 . 
+We fix N = 100 , and vary the percentage of the test data tp = 10 % , 20 % , … , 90 % . 
+The corresponding recall values are shown in Figure 9 . 
+Comparison of recall @ 100 with different TP . 
+Higher recall indicates higher accuracy . 
+The results show that our proposed AppRank method is less sensitive to the training‐test ratio compared to other methods , and it always outperforms other methods on all tp values . 
+As tp increases , less data is used for training , which means the sparsity level of the training set increases as well . 
+Therefore , the results also show that our method is less sensitive to data sparsity , and its improvement is more salient in extremely sparse settings . 
+Specifically , when tp = 90 % , our AppRank method increases the recall of the second best method , that is , CB , from 0.12 to 0.23 . 
+The results show the effectiveness of our AppRank method in alleviating data sparsity . 
+In this experiment , we fix the tp to 60 % , where most methods have high recall , and vary the number of recommended apps N = 10 , 20 , … , 100 to compare the recall of different methods for the top N recommendations . 
+The results of the comparison in Figure 10 show that the recalls of all methods increase along with the N , and the recall of our method outperforms all other methods for different N . 
+The results indicate that our AppRank method has significant improvement on ranking accuracy for the top N recommendations . 
+Comparison of recall @ N. Higher recall indicates higher accuracy . 
+In this experiment , we fix the tp to 60 % and compare the NDCG values of different methods to investigate the correctness of overall rankings for all candidate items . 
+From the results shown in Figure 11 , we can see that our proposed AppRank method has the highest NDCG value , and it increases the NDCG value of the second‐best method , that is , RSVD , by 14.27 % . 
+The results show that our method is effective in improving the correctness of the overall ranking for all candidate apps . 
+Comparison of NDCG . 
+Higher NDCG indicates higher accuracy . 
+We find that at less sparse settings , generally all methods are able to generate diverse recommendations . 
+However , when the training data becomes sparse , the diversity of some methods drops down . 
+We set tp = 90 % , and compare the diversity of the top 5 and top 10 recommended apps of different methods . 
+The results are shown in Figure 12 . 
+From the results , we can see that the diversity of the top 5 and top 10 recommended apps generated by our method remains high , which is 0.9913 and 0.9916 respectively . 
+However , for UCF , ICF , and CB , the diversity is significantly lower . 
+For instance , the diversity of the top 5 and top 10 recommended apps generated by UCF is only 0.8715 and 0.9164 , respectively . 
+The results indicate that our method is less sensitive to data sparsity in terms of recommendation diversity . 
+Comparison of diversity . 
+Higher diversity indicates better result . 
+In this experiment , we split the dataset into two subsets . 
+One subset contains only free apps and another contains only paid apps . 
+We set tp = 60 % and compare Recall @ 100 of different methods on these two subsets as well as the whole dataset respectively . 
+The results are shown in Figure 13 . 
+From the results , we find that for all methods , the recall values for both free app and paid app subsets are higher than for the whole dataset . 

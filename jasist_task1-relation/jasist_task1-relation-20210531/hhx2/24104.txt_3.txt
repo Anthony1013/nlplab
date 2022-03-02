@@ -1,0 +1,24 @@
+However , to date , these persons have been difficult to identify in bibliometric datasets . 
+Third , mixtures of heritage might facilitate creativity and innovativeness . 
+Current studies provide strong support for cultural , ethnic , and gender diversity as predictors of innovation ( Florida , Mellander , & Stolarick , 2008 ; Heinze , Shapira , Rogers , & Senker , 2009 ) . 
+However , aggregate‐level applications have been limited because of the lack of reliable ways to infer the heritage of scientists , inventors , and entrepreneurs . 
+Name data could be used as an indicator of heritage , even in datasets lacking other cultural diversity markers . 
+Finally , heritage might influence the behavior of scientists with regard to their overall career strategies , choice of collaborators , research topics , and the frequency and outlets of outputs . 
+These considerations underpin research on “ scientific diasporas ” ( Séguin , Singer , & Daar , 2006 ) , but so far only with respect to how academics communicate with their country of origin . 
+Concerning limitations , surname morphology‐based identification ability is influenced by both the properties of the dataset and the properties of the target population . 
+The method developed in this article might only be effective where the surname morphology of the target population is structured . 
+Dictionaries have advantages for less variable names . 
+Even if regularities are present , a limitation of country and language with which the naming patterns are associated should be examined to ascertain whether heritage can be inferred reliably . 
+Concerning Russian surnames , a limitation is the conflation with naming traditions from Eastern European and former Soviet Central Asian countries . 
+In bibliometric datasets , the margin of error does not seem to be significant , because Russia 's population and research outputs greatly exceed those of other Slavic and post‐Soviet countries . 
+However , this method alone can not be used to distinguish Russian surnames from Slavic surnames . 
+Regarding the bias of results , first‐name data were unavailable for some ORCID user records , which may have led to the exclusion of a portion of true‐positive results . 
+However , we used first‐name data to address regional bias specific to the Russian naming tradition to control precision , and the trade‐off was justified in the imbalanced dataset . 
+The main limitation of ORCID as a source of data is its self‐reported nature . 
+Despite a growing user database , participation in ORCID varies by country , discipline , and scientific age . 
+Russia 's research outputs represent more than 6 % of the global total , whereas ORCID users with addresses in Russia were less than 3 % , which implies that a substantial proportion of research outputs produced in Russia are not linked to ORCID identifiers ( Bohannon , 2017 ) . 
+ORCID profiles can also be made private . 
+Despite its great promise , this database can not yet be used to conduct large‐scale studies with generalizable implications for countries or organizations ( see also Youtie et al. , 2017 ) . 
+Although this article has limitations , the use of the method presented here does open up strategies for surname‐based identification of the heritage of certain ethnic and national groups that previously have been difficult to identify with precision . 
+Different naming traditions reveal varying amounts of information about their name holders . 
+Deploying such surname‐based procedures as a means to distinguish the heritage of groups of scientists , along with how their heritage influences their research approaches and networks , can shed new light on how researchers work , collaborate , and move in an interconnected and globalizing world . 

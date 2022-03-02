@@ -1,0 +1,130 @@
+Scientific collaborations contribute not only to the breakthrough achievement unattainable by individual ( Börner et al. , 2010 ; Jones , Wuchty , & Uzzi , 2008 ) , but also to the transmission and combination of knowledge ( Adams , 2012 ) . 
+In the scientometric perspective , coauthorship in scientific articles , as a valid proxy of the collaborations ( Milojević , 2010 ) , can be expressed graphically by the name of coauthorship networks , where nodes represent authors , and edges represent coauthor relationships . 
+Because modern sciences increasingly involve collaborative research ( Shrum , Genuth , & Chompalov , 2007 ; Uzzi , Mukherjee , Stringer , & Jones , 2013 ; Wuchty , Jones , & Uzzi , 2007 ) , the study of coauthorship networks has become an important topic of social science , especially of scientometrics ( Glänzel & Schubert , 2004 ) . 
+It helps not only to understand the evolution and dynamics of scientific activities ( Mali , Kronegger , Doreian , & Ferligoj , 2012 ) , but also to measure the contributions of scientists ( Glänzel , 2014 ) , as well as to predict scientific success ( Bertsimas , Brynjolfsson , Reichman , & Silberholz , 2014 ; Sarigöl , Pfitzner , Scholtes , Garas , & Schweitzer , 2014 ) , etc . 
+The empirically observed coauthorship networks have specific common local ( degree assortativity , high clustering ) and global ( power‐law degree distribution , short average distance ) properties ( Newman , 2001a , 2001b , 2001c , 2004 ) , according to which they are marked as scale‐free and small‐world networks . 
+Some important models have been proposed to reproduce those properties , such as modeling the scale‐free property through preferential attachment ( Barabási et al. , 2002 ; Börner , Maru , & Goldstone , 2004 ; Moody , 2004 ; Perc , 2010 ; Tomassini & Luthi , 2007 ; Wagner & Leydesdorff , 2005 ) or cumulative advantage ( Milojević , 2014 ) , modeling the degree assortativity by connecting two non‐connected nodes that have similar degrees ( Catanzaro , Caldarelli , & Pietronero , 2004 ) . 
+One explanation for the power‐law tails of degree distributions geos to the inhomogeneous influences of nodes : nodes with wider influences are likely to gain more connections . 
+A specific example is that authors with large academic impacts , which often occupy a small fraction of the total authors in empirical coauthorship networks , capture voluminous collaborators . 
+When using geometric graph theory ( RGG ) ( Krioukov et al. , 2012 ; Penrose , 2003 ) to analyze networks , such as citation networks , web‐graphs , the impacts of nodes in scientific research or Internet can be modeled by attaching specific geometric zones to nodes ( Xie , Ouyang , & Li , 2016 ; Xie , Duan , Ouyang , & Zhang , 2015 ; Xie & Rogers , 2016 ) . 
+The same case works with the geometric graph model for coauthorship networks ( Xie , Ouyang , Liu , & Li , 2016 ) , which is built on a circle and reproduces the aforementioned features of coauthorship networks at certain levels . 
+Besides the academic impacts , the homophily of authors in the sense of geographical distances and research interests turns out to be another factor of generating collaborations ( Hoekman , Frenken , & Tijssen , 2010 ; Newman , 2002 ) . 
+Compared with topological graph models , our previous model demonstrates an advantage of it expressing the homophily by spatial coordinates of nodes ( Xie et al. , 2016 ) . 
+However , this model generates all authors at one time , and consequently fails to express the formation process of coauthorship networks . 
+A growing geometric hypergraph is proposed here to model this process . 
+It is built on a cluster of concentric circles , where each circle has a time coordinate . 
+The proposed model imitates the collaborations in and between research teams in a dynamic way . 
+The main collaborations occur in the same research team , the mechanism of which synthetically expresses the influences of the homophily and the academic impacts of authors on collaborations in geometrical ways . 
+Our analysis demonstrates that the model can also capture the aforementioned features of the empirical data . 
+Interesting phenomena of the empirical data are the transitions emerged in degree distributions P ( k ) , average local clustering coefficient and average degree of neighbors as functions of degree ( C ( k ) , N ( k ) ) . 
+The data features are different in the two regions of k splitted by cross‐over regions or tipping points . 
+For example , the P ( k ) of each empirical data set emerges a generalized Poisson and a power‐law in small and large k regions , respectively , where there exists a cross‐over between the two regions . 
+Our model successfully reproduces the shapes of those functions as well as their transitions , and gives reasonable explanations for those transitions . 
+To follow up the above , components of authors with voluminous collaborators are analyzed . 
+Members of large “ paper teams ” ( each team consists of a group of authors in an article ) are authors with large degree . 
+It is found that when removing large paper teams , the degree distributions still have a power‐law tail . 
+Our model provides a reasonable explanation for the finding : the power‐law tails are caused by the articles with many authors as well as the leaders of large research teams . 
+This report is organized as follows : the model and data are described in The Model and The Data , respectively ; the degree distribution , clustering and assortativity are analyzed in Modeling the Transition of Degree Distributions and Modelling the Transitions in Clustering Behavior and Degree Assortativity , respectively ; the conclusion is drawn in Conclusion and Discussion . 
+Most researchers belong to research teams in universities and research institutes . 
+For each research team , one or several researchers are responsible for the running of the team as leaders . 
+Research teams and their leaders are the main objects in our model , which have been used in Reference ( Xie et al. , 2016 ) . 
+The term “ article team ” in Reference ( Milojević , 2014 ) is also adopted by our model , which is renamed as “ paper team. ” Our model creates “ authors ” ( nodes ) through a unit intensity Poisson process on a cluster of concentric circles . 
+The circle cluster could be viewed as a “ topic ” or “ interest ” space . 
+Note that it is not a real topic or interest space , which is a high dimensional space representing textual contents of authors ' articles . 
+In the model , some nodes are randomly selected as “ leaders ” ( called lead nodes ) to attach specific geometric zones imitating their academic impacts . 
+For each lead node , its “ research team ” is formed by the nodes within its influential zone ( Figure 1 ) . 
+Unlike the “ lead authors ” who are in charge of “ article teams ” in S. Milojević 's model ( Milojević , 2014 ) , the lead nodes in our model are in charge of “ research teams , ” and concurrently play the roles of “ lead authors ” in “ article teams. ” Illustration of the model . 
+the lead nodes ( large nodes ) have zones representing their academic impacts , the sizes of which change over time . 
+The set of nodes in a zone ( blue area ) is regarded as a “ research team ” , and the set of nodes in a hyperedge ( orange area ) as a “ paper team. ” The sizes of “ research teams ” are in proportion to the corresponding geometric sizes . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Inspired by the processes of generating coauthorship networks , the model generates hypergraphs first ( in which nodes are regarded as “ authors ” and hyperedges as “ paper teams ” ) , then extracts simple graphs from the hypergraphs ( in which edges are formed between every two nodes in each hyperedge ) . 
+Note that the isolated nodes are ignored , and the multiple edges are viewed as one . 
+Because new articles are published per week or month , coauthorship networks evolve over time . 
+Our model aims at simulating the evolution processes , especially the self‐organizing formation of research teams in the processes . 
+For this purpose , the numbers of hyperedges and nodes in the model are growing over time t . 
+Parameter t can be explained as the t‐th unit of time , such as t‐th week , t‐th month , etc . 
+Empirical distributions of paper‐team sizes have a hook head and a fat tail ( Figure 2 ) . 
+Treating a paper team as a “ space ” for collaboration , a researcher joins a paper team can be treated as an event occurring in the space . 
+The frequency of events occurring in a space follows the Poisson distribution , if these events independently occur at a fix rate . 
+However , events of joining a paper team would be dependent . 
+Paper team Sizes also vary over disciplines , for instance , they are large in biology , and small in mathematics . 
+Those make the sizes of most paper teams follow the generalized Poisson distribution ( which allows the occurrence probability of an event to affect by previous events ( Consul & Jain , 1973 ) ) , so form the hooks . 
+There also exists a small fraction of very large paper teams , which appears as fat tails in the paper‐team size distributions . 
+Those tails can be sufficiently fitted by power‐law distributions . 
+The distributions of hyperedge sizes . 
+Panels show the distributions of two modeled hypergraphs ( parameters of which are listed in The Data ) , PNAS 1999–2013 and DBLP‐Math 1956–2013 , respectively . 
+The root mean squared errors ( RMSE , used for measuring the goodness of fit ) are 0.015 ( generalized Poisson ) , 0.002 ( power‐law ) for PNAS . 
+0.015 ( generalized Poisson ) , 0.002 ( power‐law ) for modeled network 1 , 0.113 for DBLP‐Math , and 0.113 for modeled network 2 . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Denote the probability density function ( PDF ) of paper‐team sizes by f ( x ) , . 
+The PDFs of generalized Poisson and power‐law are formulized as and , respectively , where , and x belongs to a subset of . 
+We can generate random variables of an f ( x ) with head and tail by sampling random variables of and with probability q and , respectively . 
+The modeled hyperedge sizes are generated from a given f ( x ) . 
+Two oversimple assumptions made here to simplify the modelling process . 
+( i ) The linear growth of “ authors ” could not hold . 
+If changing it , the formula of influential zones should be changed to capture features of empirical data . 
+( ii ) In the second connection rule , grouping together certain numbers of nodes with the same degree is the simplest expression of the degree assortativity of authors in empirical data : authors prefer to collaborate with other authors with similar degrees ( Newman , 2002 ) . 
+More reasonable mechanism of degree assortativity still needs further research . 
+Based on above preparations and assumptions , we build a hypergraph on a cluster of concentric circles ( ) as follows : Coordinate and influential zone ( simply “ zone hereafter ) assignment For time do : Sprinkle N 1 nodes as “ potential authors ” uniformly and randomly on a circle . 
+Identify each node , e. g. i , by its spatio‐temporal coordinates , where ti is the generating time of i ; Select N 2 nodes from the new nodes randomly as lead nodes to attach specific zones : the zone of a lead node , for example , j , is defined as an interval of angular coordinate with center θj and length , where is a piecewise constant nonnegative function of , and ; Connection rules ( simply “ Rule ” hereafter ) For time do : For each new node i , search the existing lead nodes whose zones cover i . 
+For each such lead node j , generate a hyperedge with size m by grouping together i , j and m – 2 neighbors of j nearest to i , where m is a random variable drawn from a given f ( x ) or the number of j 's neighbors plus two if the former is larger than the latter . 
+Select N 3 existing nodes ( no distinction is made between lead nodes and the others ) with non‐zero degree randomly . 
+For each selected node l , generate a hyperedge by grouping together l and m – 1 randomly selected nodes with the same degree of l , where m is a random variable drawn from a given f ( x ) or the number of nodes with the same degree of l if the former is larger than the latter . 
+Coordinate and influential zone ( simply “ zone hereafter ) assignment For time do : Sprinkle N 1 nodes as “ potential authors ” uniformly and randomly on a circle . 
+Identify each node , e. g. i , by its spatio‐temporal coordinates , where ti is the generating time of i ; Select N 2 nodes from the new nodes randomly as lead nodes to attach specific zones : the zone of a lead node , for example , j , is defined as an interval of angular coordinate with center θj and length , where is a piecewise constant nonnegative function of , and ; Connection rules ( simply “ Rule ” hereafter ) For time do : For each new node i , search the existing lead nodes whose zones cover i . 
+For each such lead node j , generate a hyperedge with size m by grouping together i , j and m – 2 neighbors of j nearest to i , where m is a random variable drawn from a given f ( x ) or the number of j 's neighbors plus two if the former is larger than the latter . 
+Here randomly selecting means sampling without replacement . 
+Most paper teams are subsets of research teams , which are often formed by a leader and some team members who have similar research interests . 
+This collaboration mode is imitated by Rule ( a ) , which groups together a certain number of nearest nodes and their lead node as a hyperedge . 
+Meanwhile , a few paper teams are unions of some subsets from different research teams , even from different countries ( Glänzel , 2011 ) . 
+Such teams are very likely to appear in interdisciplinary articles , which account a relatively small fraction of total articles . 
+For example , the proportion of the articles marked as interdisciplinary ones in PNAS 1999–2013 is 5.7 % ( Xie , Ouyang , Zhang , Yi , & Kong , 2015 ) . 
+The collaborations between research teams are modeled by Rule ( b ) , which gives a possibility to connect the nodes in different research teams . 
+Researchers can join different research teams . 
+This phenomenon also is equivalently imitated by Rule ( b ) to some extents . 
+The improvements in the ability to reproduce empirical features ( which will be shown in following sections ) are achieved by the new features of the model , rather than by better selection parameters of our previous model ( Xie et al. , 2016 ) . 
+For example , the way of generating hyperedges is different . 
+A new node will “ coauthor ” with its lead nodes , and some existing nodes in the lead nodes ' zones , which are nearest to it in the sense of space . 
+Therefore , in the end , an older node ( which could be non‐lead node ) can generate hyperedges together with the nodes which are not its nearest neighbors , because the nearest neighbors may not be generated when the hyperedges were generated . 
+This difference causes the diversity of ages not only for lead nodes ( which is addressed by the previous model ) , but also for other nodes . 
+As shown in Figure 1 , when the new node a 6 at time t = 3 generates a hyperedge ( which contains three nodes ) , it should “ coauthor ” with its lead node a 1 and one nearest existing nodes in the zone of a 1 , namely a 2 , but not the nearest one a 5 . 
+Note that there exists a difference between Barabási‐Albert ( BA ) model ( Barabási et al . 
+2002 ) and our model . 
+In BA model , nodes make decisions to connect old nodes with a probability that is proportional to the degrees of nodes . 
+Hence , those decisions are made based on knowing the degree information of all nodes , and so they are global behaviors . 
+In our model , most of the connection decisions made by nodes are restricted by geometric locations , and so are local behaviors . 
+Those decisions are imitated by Rule ( a ) . 
+A few decisions are made randomly , which are modelled by Rule ( b ) . 
+Authors making decisions to choose collaborators has the locality of geography and research interests , as well as certain uncertainty or randomness . 
+There are some intuitive explanations for Formula 1 . 
+First , the value of is interpreted as the scientific age of a researcher , namely a researcher spending more time on research would have a larger academic impact and more collaborators as well . 
+Hence it is reasonable to consider the sizes and cumulative sizes of research teams as increasing functions of scientific age , consequently decreasing functions of ti . 
+Second , the cumulative sizes of research teams will increase over t because of the continuously coming collaborators ( e.g. , tutors may have new students every year ) . 
+Thirdly , the research team sizes may be different in research fields , so is introduced to the formula . 
+In addition , academic impacts of a leader , so the increment of cumulative research‐team size could be considered to shrink over time ( ) because of the process of retirements or activity decreases . 
+Unlike articles , the aging of authors appears only for the data with large time span . 
+Hence , the major role of the factor in the formula of zonal sizes is to tune the exponent of power‐law . 
+A weakness of our model is that it has a lot of parameters . 
+The f ( k ) in connection rules tunes the distribution of paper‐team sizes . 
+Parameters and β tunes the distribution of collaborators per author . 
+There is no parameter directly tunes the average local clustering coefficient and average neighbor degree . 
+Hence the remarkable model‐data fits of those properties are impressive to us . 
+To test the universal reproduction ability of the proposed model , we analyze two empirical coauthorship networks from two metadata with different collaboration levels ( Table 1 ) . 
+One is DBLP‐Math , which is constructed from 72,269 articles published in 54 mathematical journals during 1956–2013 . 
+The data are obtained from DBLP database ( http : //dblp.uni-trier.de/xml/dblp ) . 
+The other one is PNAS , which is constructed from 52,803 articles published in the Proceedings of the National Academy of Sciences ( http : //www.pnas.org ) during 1999–2013 . 
+In the process of extracting networks from those metadata , authors are identified by their names on their articles . 
+For example , the author named “ Carlo M. Croce ” on his article is represented by the name . 
+We mainly focus on the degree distribution of network and some properties based on degree . 
+The coauthorship network from the articles in PNAS 2012 is analyzed in Reference ( Kim & Diesner , 2016 ) . 
+From the analysis , we find that identifying authors by their name on articles does not change the ground truth distribution type , which partially verifies the reliability of the empirical networks used here . 
+To analyze the components of authors with large degrees , Sub‐PNAS , a subnetwork of PNAS , is extracted from the articles , the numbers of authors in which are less than the boundary point of the generalized Poisson part in the distribution of hyperedge sizes . 
+An algorithm is provided to detect boundary points of PDFs by using specific statistical technologies synthetically ( Table 2 ) . 
+Inputs are paper‐team sizes , and . 
+Using can rescale the differences between the fitting model and empirical data at different scales , which helps to detect the boundary points at small scales . 
+Two synthetic coauthorship networks are generated to reproduce several properties of the empirical data . 
+For Modeled network 1 ( 2 ) , q = 0.9625 ( 0.999 ) in Rule ( a ) , q = 1 ( 0.999 ) in Rule ( b ) , is the Poisson distribution with mean 5.5 ( 2.3 ) , and ( ) in Rules ( a–b ) . 
+Set T = 4,500 ( 9,000 ) and ( 15 ) to make the number of nodes comparable to that of the empirical data in magnitude . 
+Set ( 0.2 ) and ( 0.43 ) to make the average degree comparable to that of the empirical data . 
+Set ( 0.5 ) to make the generated network have a giant component and the node proportion of the giant component comparable to that of the empirical data . 
+There are some reasons for choosing such parameters . 
+The degrees of nodes in the empirical data are not very large . 
+So the value of should be small , when N 1 is large . 

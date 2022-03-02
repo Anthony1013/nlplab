@@ -1,0 +1,17 @@
+If a “ recent ” hibernator is not under‐cited influential is it then possibly to predict ( determine a probability ) if it will ever be ? 
+An interesting element of our investigation , as observed by one reviewer , is that there are more ‘ authoritative ’ citers of a hibernator than just the awakener . 
+In this way our results could be interpreted as an attempt to weight the citations given to the hibernator by a measure of impact of the citer ( this impact is ‘ caused ’ by the second generation of citers ) combined with a measure of how much of this impact was based on cocitation of the authoritative citer with the hibernator ( again by second generation citers ) . 
+Next , we wonder about the implication of the existence of under‐cited influential hibernators for illustrating the evolution of scientific ideas ? 
+Do authoritative citers play an important role in bringing the two different document types together ( in terms of citation histories ) into a special citation chimera ? 
+The rarity and thus likely idiosyncrasy of “ hibernators ” is , however , such that to gather a statistically interesting sample size for a proper study , a very large population is required , as are solid selection criteria ( Lachance & Larivière , 2014 ) . 
+This remark holds even more for a combination with another rare phenomenon . 
+An obvious next step would be to perform a similar study in a patent database ( van Raan , 2015 , 2017 ) or combining citations as collected in a publication database with those found in a patent database , as done , for example , in ( Hu & Rousseau , 2018 ) , be it in another context . 
+We conclude that we have shown that there do exist articles that are hibernators and are at the same time under‐cited influential , or in other words , citation chimeras of this type do exist . 
+Moreover , hibernators may lead to influential citers , which is a potential clue for further study . 
+As we use only 13 observations , our results can not in any way be considered as solid evidence . 
+Our findings , however , do provide an illustration of a special phenomenon , and hence to a new element in the post hoc classification of scientific publications as mentioned in the introduction . 
+Finally , this investigation contains another warning regarding the use of standard evaluation procedures . 
+Such evaluation procedures use citation windows of 1 ( as in the journal impact factor ) or at most 5 years . 
+The length of such citation windows results from a natural compromise between collecting “ enough ” data and deriving conclusions which may lead to timely changes . 
+Yet , such procedures miss articles with delayed recognition as well as under‐cited influential ones . 
+If an article belongs to any of these types it often reflects real importance ( as shown by the fact that they have quite some Nobel Prize winners as their authors ) , which stays unnoticed in these standard evaluations . 

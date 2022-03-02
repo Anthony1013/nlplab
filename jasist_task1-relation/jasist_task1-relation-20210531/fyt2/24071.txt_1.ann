@@ -1,0 +1,256 @@
+T1	引文时间 477 481	2015
+T2	引文作者 469 474	Cheng
+T3	引文作者 459 462	Lin
+T4	引文作者 453 456	Liu
+T5	引文作者 445 450	Jiang
+T6	引文作者 263 269	Burges
+T7	引文时间 279 283	2005
+T8	引文时间 322 326	2013
+T9	引文作者 308 312	Wang
+T10	引文时间 2037 2041	2015
+T11	引文作者 2019 2024	Jiang
+T12	引文时间 3073 3077	2015
+T13	引文作者 3058 3063	Jiang
+T14	引文时间 4130 4134	2015
+T15	引文作者 4115 4120	Jiang
+T16	引文时间 5187 5191	2015
+T17	引文作者 5172 5177	Jiang
+T18	引文作者 8173 8178	Jiang
+T19	引文时间 8191 8195	2015
+T20	引文作者 8497 8503	Burges
+T21	引文时间 8513 8517	2005
+T22	引文作者 9029 9039	Rijsbergen
+T23	引文时间 9042 9046	1979
+T24	引文时间 9209 9213	2009
+T25	引文作者 9201 9206	Allan
+T26	引文作者 9191 9198	Smucker
+T27	引文时间 9184 9188	1985
+T28	引文作者 9173 9181	Voorhees
+T29	引文时间 9166 9170	1971
+T30	引文作者 9153 9163	Rijsbergen
+T31	引文作者 9143 9150	Jardine
+T32	引文时间 9486 9490	2009
+T33	引文作者 9479 9483	Zhai
+T34	引文作者 9467 9474	Kurland
+T35	引文时间 9706 9710	2013
+T36	引文作者 9696 9703	Kurland
+T37	引文作者 9685 9691	Raiber
+T38	引文时间 10351 10355	2003
+T39	引文作者 10343 10348	Modha
+T40	引文作者 10331 10338	Mallela
+T41	引文作者 10987 10991	Chen
+T42	引文时间 10994 10998	2009
+T43	引文作者 10979 10982	Sun
+T44	引文作者 10967 10976	Lochovsky
+T45	引文作者 10960 10964	Wang
+T46	引文作者 10955 10957	Hu
+T47	引文时间 10948 10952	2009
+T48	引文作者 10943 10945	Li
+T49	引文作者 10933 10938	Cheng
+T50	引文作者 10928 10930	Xu
+T51	引文作者 10922 10925	Guo
+T52	引文作者 11062 11064	Hu
+T53	引文时间 11077 11081	2009
+T54	引文时间 11224 11228	2009
+T55	引文作者 11208 11211	Guo
+T56	数据源 11145 11154	Wikipedia
+T57	引文时间 11631 11635	2015
+T58	引文作者 11616 11621	Jiang
+T59	引文时间 11801 11805	2013
+T60	引文作者 11794 11798	Zhai
+T61	引文作者 11786 11789	Hsu
+T62	引文作者 11781 11783	Li
+T63	引文时间 11774 11778	2012
+T64	引文作者 11769 11771	Li
+T65	引文作者 11760 11766	Cheung
+T66	引文时间 12069 12073	2012
+T67	引文作者 12064 12066	Li
+T68	引文作者 12053 12059	Cheung
+T69	引文时间 12168 12172	2013
+T70	引文作者 12153 12155	Li
+T71	引文作者 12478 12482	Zeng
+T72	引文时间 12495 12499	2004
+T73	引文作者 12608 12615	Koppula
+T74	引文时间 12625 12629	2010
+T75	引文作者 12632 12640	J. Jiang
+T76	引文作者 12643 12647	Song
+T77	引文作者 12650 12652	Yu
+T78	引文时间 12663 12667	2013
+T79	引文作者 12657 12660	Lin
+T80	引文作者 12679 12684	Jiang
+T81	引文时间 12694 12698	2015
+T82	引文作者 13293 13303	Rijsbergen
+T83	引文时间 13306 13310	1979
+T84	引文作者 13702 13705	Liu
+T85	引文作者 13708 13713	Croft
+T86	引文时间 13716 13720	2004
+T87	引文作者 13753 13760	Kurland
+T88	引文时间 13763 13767	2009
+T89	引文时间 13811 13815	2013
+T90	引文作者 13801 13808	Kurland
+T91	引文作者 13792 13798	Raiber
+T92	图 14425 14483	Figure 2 illustrates the difference between two hypotheses
+T93	图 13406 13561	As illustrated on the left‐hand side of Figure 2 , for web search , it implies that web pages in the same cluster tend to be relevant to the same web query
+T94	引文时间 15382 15386	2015
+T95	引文作者 15367 15372	Jiang
+T96	引文作者 16151 16159	Voorhees
+T97	引文时间 16162 16166	1985
+T98	引文时间 10505 10509	2006
+T99	引文作者 10500 10502	Yu
+T100	引文作者 10490 10495	Zhang
+T101	引文作者 10485 10487	Wu
+T102	引文作者 10478 10482	Long
+T103	图 3372 3636	If the click‐through rates of baseball‐related websites ( e.g. , ESPN and Baseball‐reference ) dominate the whole set , they will get more chances to be promoted for query “ Ichiro Suzuki family , ” as the inconsistent ranking shown for the third query in Figure 1
+T104	图 2454 2609	Figure 1 shows some ordered search results for three queries about MLB ( baseball ) players with word “ family ” as context from a commercial search engine
+T107	引文的结果 484 643	observed that for most of the queries related to a certain topic , web pages of some websites would be generally ranked higher than web pages of other websites
+T108	引文的研究问题 2044 2165	exploited click‐through data as ground‐truth to learn the relevance ranking of consistent and inconsistent search results
+T109	引文的方法 3080 3202	simply identifies the entity in a query and regards its corresponding entity type in a knowledge base as its search intent
+T110	时间 3779 3788	July 2016
+T111	引文的研究问题 8198 8247	first discussed ranking consistency in web search
+T112	引文的结果 8252 8350	proposed a two‐stage approach to simultaneously optimize relevance ranking and ranking consistency
+T113	具体模型 8469 8494	Pairwise learning‐to‐rank
+T117	引文作者 9347 9351	Zeng
+T118	引文作者 9354 9356	He
+T119	引文作者 9359 9363	Chen
+T120	引文作者 9373 9375	Ma
+T121	引文作者 9366 9368	Ma
+T122	引文时间 9378 9382	2004
+T124	引文的结果 9493 9569	stated that clustering could be treated as the process of document selection
+T125	引文的方法 9713 9771	applied Markov random fields to rank clusters of documents
+T126	引文的结果 10358 10473	proposed information‐theoretic coclustering , which maximizes mutual information between clustered random variables
+T127	引文的方法 10520 10554	information‐theoretic coclustering
+T129	引文的方法 11084 11203	discovered large quantities of intent concepts by leveraging Wikipedia , and classified query intents by these concepts
+T130	引文的研究问题 11231 11295	conducted the task of named entity recognition in query ( NERQ )
+T131	引文的方法 11300 11419	They applied a probabilistic approach , modified by latent Dirichlet allocation , to classify queries as named entities
+T132	引文的方法 11640 11702	entity types in knowledge bases were utilized as query intents
+T133	引文的结果 11808 11874	indicated that entities might not reveal search intents completely
+T134	引文的研究问题 11881 11928	investigated the idea of query intent templates
+T135	引文的方法 12076 12148	extracted query intent templates from a query log in an unsupervised way
+T136	引文的结果 12175 12318	disambiguated synonymous query intent templates and found the best representation in these synonymous templates with a modified K‐medoids model
+T137	具体模型 12303 12318	K‐medoids model
+T138	引文的方法 12502 12591	utilized titles and snippets to extract readable topic names for search‐result clustering
+T139	引文的方法 12701 12795	utilized regular expression to represent URL patterns so that URLs can be matched conveniently
+T140	引文的结果 13255 13401	The conventional cluster hypothesis ( Rijsbergen , 1979 ) states that closely associated documents tend to be relevant to the same search requests
+T141	具体模型 13674 13699	smoothing language models
+T142	具体模型 13725 13750	search results re‐ranking
+T144	引文的方法 15397 15454	the connections are fully learned from click‐through data
+T145	具体模型 16115 16148	the nearest‐neighbors ( NN ) test
+T147	具体模型 16244 16251	NN test
+T148	具体模型 16275 16282	NN test
+T149	具体模型 16562 16569	NN test
+T150	具体模型 16871 16878	NN test
+T151	具体模型 16584 16591	NN test
+T105	研究方法 4381 4470	We first propose a novel cocluster hypothesis by extending traditional cluster hypothesis
+T106	研究方法 4475 4610	It hypothesizes that web queries with closely associated search intents tend to be relevant to web pages with closely associated topics
+T152	研究方法 5019 5116	We further propose a two‐stage unsupervised approach to improve ranking consistency in web search
+T153	研究方法 6178 6327	To deal with it , we design a novel nearest‐neighbors test , revised by a well‐known traditional nearest‐neighbors test adopted in cluster hypothesis
+T154	研究结果 6659 6944	The experimental results demonstrate that our approach not only significantly improves the performance of the original ranker , that is , commercial search engine , by enhancing 36 % consistency of the search results but also reaches a comparable performance to the supervised approach
+T155	引文的方法 8355 8464	In the first stage , they utilized entity types as query types and extracted URL patterns as topical clusters
+T156	引文的方法 8469 8611	Pairwise learning‐to‐rank ( Burges et al. , 2005 ) was then applied to optimize the estimation of pattern‐type relevance by click‐through data
+T114	引文的方法 8616 8737	In the second stage , they proposed a re‐ranking model to perform an ensemble of original rank and pattern‐type relevance
+T115	引文作者 10321 10328	Dhillon
+T116	引文的研究问题 10512 10629	applied information‐theoretic coclustering to optimize the dependency between node types on a K‐partite graph problem
+T123	引文的研究问题 11640 11743	entity types in knowledge bases were utilized as query intents to improve relevance ranking efficiently
+T157	研究方法 12870 13250	Differentiating previous approaches from ours , in this work , we present a coclustering hypothesis as a fundamental heuristic for unsupervised learning , we discover query intent templates by leveraging type information in knowledge bases , and we propose an unsupervised approach to improve search performance by considering the search results of multiple queries simultaneously
+T143	引文的方法 2044 2088	exploited click‐through data as ground‐truth
+T146	具体模型 9721 9741	Markov random fields
+R1	has_cited_time Arg1:T32 Arg2:T33	
+R2	has_cited_time Arg1:T97 Arg2:T96	
+R3	has_cited_time Arg1:T94 Arg2:T95	
+R4	uses Arg1:T95 Arg2:T144	
+R5	coauthor Arg1:T84 Arg2:T85	
+R6	has_cited_time Arg1:T86 Arg2:T85	
+R7	has_cited_time Arg1:T88 Arg2:T87	
+R8	coauthor Arg1:T91 Arg2:T90	
+R9	has_cited_time Arg1:T89 Arg2:T90	
+R10	has_cited_time Arg1:T83 Arg2:T82	
+R11	results Arg1:T82 Arg2:T140	
+R12	uses Arg1:T80 Arg2:T139	
+R13	has_cited_time Arg1:T81 Arg2:T80	
+R14	has_cited_time Arg1:T74 Arg2:T73	
+R15	coauthor Arg1:T75 Arg2:T76	
+R16	coauthor Arg1:T76 Arg2:T77	
+R17	coauthor Arg1:T77 Arg2:T79	
+R18	uses Arg1:T71 Arg2:T138	
+R19	has_cited_time Arg1:T72 Arg2:T71	
+R20	results Arg1:T70 Arg2:T136	
+R21	has_cited_time Arg1:T69 Arg2:T70	
+R22	coauthor Arg1:T68 Arg2:T67	
+R23	has_cited_time Arg1:T66 Arg2:T67	
+R24	uses Arg1:T68 Arg2:T135	
+R25	coauthor Arg1:T65 Arg2:T64	
+R26	has_cited_time Arg1:T63 Arg2:T64	
+R27	coauthor Arg1:T62 Arg2:T61	
+R28	coauthor Arg1:T61 Arg2:T60	
+R29	has_cited_time Arg1:T59 Arg2:T60	
+R30	results Arg1:T65 Arg2:T133	
+R31	produces Arg1:T65 Arg2:T134	
+R32	uses Arg1:T58 Arg2:T132	
+R33	produces Arg1:T58 Arg2:T123	
+R34	has_cited_time Arg1:T57 Arg2:T58	
+R35	produces Arg1:T55 Arg2:T130	
+R36	uses Arg1:T55 Arg2:T131	
+R37	has_cited_time Arg1:T54 Arg2:T55	
+R38	uses Arg1:T52 Arg2:T129	
+R39	has_cited_time Arg1:T53 Arg2:T52	
+R41	coauthor Arg1:T50 Arg2:T49	
+R42	coauthor Arg1:T49 Arg2:T48	
+R40	coauthor Arg1:T51 Arg2:T50	
+R43	has_cited_time Arg1:T47 Arg2:T48	
+R44	coauthor Arg1:T46 Arg2:T45	
+R45	coauthor Arg1:T45 Arg2:T44	
+R46	coauthor Arg1:T44 Arg2:T43	
+R47	coauthor Arg1:T43 Arg2:T41	
+R48	has_cited_time Arg1:T42 Arg2:T41	
+T128	引文的方法 11010 11057	made use of entities to represent query intents
+R49	field_similar_as Arg1:T51 Arg2:T46	
+R50	has_cited_time Arg1:T42 Arg2:T128	
+R51	uses Arg1:T51 Arg2:T128	
+R52	coauthor Arg1:T102 Arg2:T101	
+R53	coauthor Arg1:T101 Arg2:T100	
+R54	coauthor Arg1:T100 Arg2:T99	
+R55	has_cited_time Arg1:T98 Arg2:T99	
+R56	uses Arg1:T102 Arg2:T127	
+R57	produces Arg1:T102 Arg2:T116	
+R58	coauthor Arg1:T115 Arg2:T40	
+R59	coauthor Arg1:T40 Arg2:T39	
+R60	has_cited_time Arg1:T38 Arg2:T39	
+R61	results Arg1:T115 Arg2:T126	
+R62	coauthor Arg1:T37 Arg2:T36	
+R63	has_cited_time Arg1:T35 Arg2:T36	
+R64	uses Arg1:T37 Arg2:T125	
+R65	coauthor Arg1:T34 Arg2:T33	
+R66	results Arg1:T34 Arg2:T124	
+R67	coauthor Arg1:T117 Arg2:T118	
+R68	coauthor Arg1:T118 Arg2:T119	
+R69	coauthor Arg1:T119 Arg2:T121	
+R70	coauthor Arg1:T121 Arg2:T120	
+R71	has_cited_time Arg1:T122 Arg2:T120	
+R72	coauthor Arg1:T31 Arg2:T30	
+R73	has_cited_time Arg1:T29 Arg2:T30	
+R74	has_cited_time Arg1:T27 Arg2:T28	
+R75	has_cited_time Arg1:T24 Arg2:T25	
+R76	coauthor Arg1:T26 Arg2:T25	
+R77	field_similar_as Arg1:T31 Arg2:T28	
+R78	field_similar_as Arg1:T28 Arg2:T26	
+R79	has_cited_time Arg1:T23 Arg2:T22	
+R80	has_cited_time Arg1:T21 Arg2:T20	
+R81	uses Arg1:T20 Arg2:T156	
+R82	uses Arg1:T20 Arg2:T114	
+R83	has_cited_time Arg1:T19 Arg2:T18	
+R84	produces Arg1:T18 Arg2:T111	
+R85	results Arg1:T18 Arg2:T112	
+R86	has_cited_time Arg1:T16 Arg2:T17	
+R87	has_cited_time Arg1:T14 Arg2:T15	
+R88	uses Arg1:T13 Arg2:T109	
+R89	has_cited_time Arg1:T12 Arg2:T13	
+R90	uses Arg1:T11 Arg2:T143	
+R91	produces Arg1:T11 Arg2:T108	
+R92	has_cited_time Arg1:T10 Arg2:T11	
+R93	coauthor Arg1:T5 Arg2:T4	
+R94	coauthor Arg1:T4 Arg2:T3	
+R95	coauthor Arg1:T3 Arg2:T2	
+R96	has_cited_time Arg1:T1 Arg2:T2	
+R97	results Arg1:T5 Arg2:T107	
+R98	has_cited_time Arg1:T7 Arg2:T6	
+R99	has_cited_time Arg1:T8 Arg2:T9	

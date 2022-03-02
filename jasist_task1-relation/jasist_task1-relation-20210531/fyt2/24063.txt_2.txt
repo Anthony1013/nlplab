@@ -1,0 +1,130 @@
+( 2014 ) focused on standard age mentions such as “ I am 35 years old ” and identify them as age mentions . 
+Kim et al . 
+( 2013 ) employed regular expressions such as “ age ” +number to extract age . 
+These approaches achieve higher precision , but as shown in Table 2 , age mentions are diverse , thus these approaches would overlook a significant amount of age mentions , resulting in a low recall . 
+Zhu et at . 
+( 2012 ) look for clue words such as “ years , ” “ old , ” “ aged , ” and so on appear within two‐word distance of each two‐digit number mentions and such mentions are extracted as the age of the patient . 
+In addition , they look for clue words such as “ teenager , ” “ toddler , ” “ child ” to approximate the age of the patient . 
+This approach would result in high recall ; however , it can lead to a significant number of misclassifications ( for instance , “ about 10 years ago ” can be misclassified as an age mention ) . 
+A common issue of these approaches is that they do not resolve whether the age mention is about the patient . 
+For example , a patient might mention the age of relatives when talking about their family history . 
+Also , there can be age mentions in past incidents of the patient ( for instance , “ I have this issue since 11 years old ” ) . 
+Moreover , there can be multiple age mentions in an OSG post . 
+Thereby , it is necessary to develop an extraction method to resolve age from multiple age mentions . 
+Machine learning has been proposed for text classification tasks in the clinical and medical literature ( Ford et al. , 2016 ) . 
+In order to overcome the above‐mentioned issues , we developed a text classifier that identifies relevant age mentions from OSG posts . 
+This technique is illustrated in Figure 3 and elaborated below . 
+Age resolution process . 
+In the first step , we break the text into sentences using a sentence splitter and then employed regular expressions to capture text chunks with one or two digit numbers in the middle . 
+Five words before the number and five words after the number are included in this extracted text chunk . 
+Note that numbers coexist with several letters that are also considered to accommodate age mentions such as “ 20s ” and “ 34yrs ” For each post p , a set of potential text chunks were identified In this step , feature vectors ( f ) are extracted from the text chunks identified from the previous step . 
+As shown in Figure 4 , we divided the extracted chunks into three segments ( L , M , and R ) and different features were extracted separately from each segment . 
+A Text chunk and its segments L , M , and R. We engineered 29 features that are able to differentiate age‐related text chunks and others collected from step one . 
+Table 3 presents a sample of the extracted features . 
+Most of these features are constructed to capture age mentions , while others such as dose and time mentions are to differentiate other key classes such as dosage ( for instance , atenolol 50 mg ) and duration ( for instance , 10 years ago ) . 
+Once the features were extracted from text chunks , we employed a classifier to identify the chunks that are most likely to be age mentions . 
+To train this classifier we labeled 2,212 text chunks identified from the first step of this process . 
+We labeled them “ age ” and “ other ” based on whether it is an actual age mention or not . 
+In the labeled data set there are 1,186 “ age ” and 1,026 “ other ” labels . 
+We employed the WEKA ( Hall et al. , 2009 ) data‐mining toolkit to try two classifiers , Naïve Bayes and Random Forest to select what works best for this task . 
+With 5‐fold crossvalidation , Naïve Bayes and Random Forest result in f‐measures 0.80 and 0.85 , respectively . 
+Therefore , Random Forest was selected as the classifier for this task . 
+This step aims to resolve the age of each individual author . 
+An author A often has multiple posts in different discussion threads . 
+Hence , for this task we considered all high confidence age mentions captured from those posts to resolve the authors age . 
+First , the numerical value of each age mention ( ) is determined . 
+Note that age mentions are parsed to get the age value normalized to year ( for instance , 6 months 0.5 year ) . 
+Also , two other parameters are derived from each age mention as follows : ( i ) tense of age mention ( present , other ) , and ( ii ) subject type of the age mention ( first‐person , other ) . 
+The tense of the age mention is derived based on the tense of the verb in the chunk ( if present ) . 
+Subject type of the age mention is determined based the subject in the chunk ( if present , otherwise it is unknown ) . 
+The rationale of these two parameters is that if the chunk is in the present tense , then it is more likely to be the authors current age . 
+Also , if the subject is first‐person , then it is more likely to be about the author . 
+Therefore , 0.25 boost is added if the age mention is in the present tense and 0.25 boost is added if it has a first‐person subject . 
+The aggregated confidence value for all the age values mentioned in is determined as follows : , where and is the indicator function . 
+takes value 0.5 when is both present tense and first person , it takes value 0.25 when is either present tense or first‐person , and it takes value 0 if is neither present tense nor first‐person . 
+Gender is another important demographic information that is important for personalized retrieval . 
+Some symptoms can relate to different diagnoses depending on whether the patient is a male or female . 
+Gender is sometimes explicitly mentioned ( for instance , I 'm a female ) , and in some cases gender can be inferred based on gender mentions ( for instance , my mother ) or gender‐specific medical term mentions ( for instance , pregnant ) . 
+However , similar to age extraction , this task is challenging due to unstructured and the diverse nature of gender mentions in OSG posts . 
+Cheng et al . 
+( 2011 ) focused on the language style of the text to predict the gender of the author . 
+The idea is that males and females often follow different language styles for written communication . 
+However , the accuracy of this approach will be low , as OSGs attract information seekers and providers with very diverse language styles from across the world . 
+Another approach is to predict the gender by looking at the first name of the author ( Herdağdelen & Baroni , 2011 ) . 
+It keeps two lists of male and female first names and resolves the gender based on that . 
+This approach does not work in our scenario , as many people do not use their real name in OSGs ; they often use a nickname or a part of their name . 
+Zhu et al . 
+( 2012 ) looked for gender clues : ( i ) gender‐specifying words such as “ men , ” “ woman , ” and so on , and ( ii ) gender‐specific medical terms such as “ hot flashes , ” “ prostate cancer. ” It is not mentioned that how they resolve the gender , if terms related to both genders appear in posts of the patient . 
+Also , another key issue is to resolve whether the gender clues are about that patient . 
+We extended the above approach to resolve gender more accurately for each author . 
+First , we filtered out the posts that are marked as advice by our narrative type identification module . 
+This step is taken mainly because gender clues in advice can be misleading , as they often relate to other patients . 
+Selected posts were first mined for gender‐specific medical terms . 
+We collected a list of gender‐specific medical terms by looking at men 's and women 's sections of OSGs . 
+Gender extraction from gender‐specifying terms in text is relatively less straightforward than using medical terms . 
+This is because of certain ambiguities that can exists in a post . 
+For example , “ he ” may be referring to the doctor not the patient . 
+Therefore , we first need to resolve the pronouns to identify the gender‐specifying terms that are referring to the patient . 
+For this task we employed the pronoun resolved sentences generated to identify the narrative type . 
+We look for different gender‐specifying terms based on the narrative type . 
+If the narrative type is experience : first‐person , then the post is written by the patient ( using first‐person pronouns ) . 
+Hence , we first look for direct gender mentions . 
+Examples for such mentions are : “ a male , ” “ a mother , ” “ a widower. ” Those mentions have to exist in close proximity of a first‐person pronoun , that is , “ I ” in a sentence to verify that it is about the patient . 
+If direct gender mentions can not be found , then we look for indirect gender mentions . 
+Examples for such mentions are : “ my husband , ” “ my fiancée. ” We take the opposite gender of such mentions ( for instance , “ my husband ” infers that the patient is a female ) . 
+If the narrative type is experience : second‐person , then a narrator is relating the experience of someone they knew ( often about a family member or close relative ) . 
+In such cases , the patient 's relationship to the narrator can be used to resolve the gender most of the time ( for instance , male : husband , son , uncle , and so on , and female : daughter , wife , mother , and so on ) . 
+If the post is about “ husband , ” then the patient is a male . 
+Note that this is quite the opposite of the previous case where the post is a first‐person experience . 
+If the patient 's relationship to the narrator is gender‐neutral ( for instance , partner , friend ) , then the pronoun resolution process is examined to check if gender‐specific pronouns were resolved to that noun ( he → friend ) and gender is assigned accordingly . 
+Table 4 shows three examples for this gender resolution process . 
+My doctor … yesterday . 
+He … daily . 
+I took it … and … I felt … Is this normal … ? 
+I was … because … I have n't … and I was … with my fiancée . 
+I got paranoid about her … even though I knew … she … My doctor … yesterday . 
+ … daily . 
+I took it … and … I felt … Is this normal … ? 
+I was … because … I have n't … and I was … my fianc…e . 
+I got paranoid about  … even though I knew …  … Gender‐specific word : fiancée Patient is a male My mother is diagnosed … She is suffering with … I know that … her heart . 
+An endocrinologist suggested her to … Also , he recommended her to … But now she had … She is suffering … Gender‐specific word : mother Patient is a female A friend … when he … . 
+He suddenly … hurt his back . 
+He fell down … . 
+Despite … him to his feet and made him walk to … away . 
+A friend … when  … . 
+ suddenly … hurt  back . 
+ fell down … . 
+Despite …  to  feet and made  walk to … away . 
+Gender‐specific word : friend ‘ he ’ resolved to friend , thus friend is male Patient is male Similar to the age resolution process , gender is resolved for each profile by aggregating the gender resolutions in the posts . 
+For this aggregation task we only considered the posts with the type experience : first‐person , as they are about the author . 
+In the aggregation process each gender‐specific medical term adds a weight of 1.0 to the relevant gender . 
+Gender resolved using the gender‐specific terms gets a weight of 2.0 , as it is more accurate . 
+Once aggregated , the gender of the profile is resolved based on the highest weighted gender . 
+Profile gender is then reassigned to all the posts of that author with the type experience : first‐person . 
+Posts with the type experience : second‐person were resolved separately for each post , as they are about the experience of someone else . 
+Medical concept extraction from text is a further formidable task . 
+Natural language processing ( NLP ) tools are used to extract terms from text that can be mapped to the medical concepts found in medical thesauruses such as the UMLS Metathesaurus ( Bodenreider , 2004 ) . 
+There are several state‐of‐the‐art tools that extracts medical concepts from text , such as : MedLEE ( Friedman et al. , 1994 ) , cTAKES ( Savova et al. , 2010 ) , and MetaMap ( Aronson et al. , 2010 ) . 
+Gupta et al . 
+( 2014 ) show that better precision and recall can be achieved by developing a tool to cater to special characteristics of patient‐authored text . 
+Consumer health vocabularies extracted from community‐generated corpora ( Vydiswaran et al. , 2014 ) are employed to identify the relevant medical terms and a different stack to NLP processes is followed to extract key phrases from the text . 
+However , as noted by the authors , the existing system is limited to certain subcategories of the OSG ( Asthma and ENT ) . 
+Therefore , for our task we adhere to the well‐established medical concept extraction tools . 
+We employed the cTAKES ( Savova et al. , 2010 ) tool for our medical concept extraction task . 
+It identifies noun phrases in the text and then conducts a dictionary‐look up in the SNOMED CT11 http : //www.ihtsdo.org/snomed-ct and RxNORM ( Nelson et al. , 2011 ) medical concept databases . 
+Each identified term is then mapped into five sematic types : disorder/disease , sign/symptoms , procedures , anatomical sites , and medications . 
+In the proposed method , we subject each OSG post to this process and the identified medical concepts are extracted . 
+As pointed out by Gupta et al . 
+( 2014 ) , some ambiguities exist in the identified concepts . 
+For example , “ today ” is mapped to a drug named Today and “ web ” is mapped to the disorder “ congenital webbing. ” However , both these words are found frequently in OSG posts , mostly referring to their usual meanings . 
+To overcome this issue , we constructed a list of terms that often mapped incorrectly and filtered out the identified concepts based on such terms . 
+This section demonstrates underlying workings of the proposed method as well as its relevance and reliability in addressing the information needs of patients ( end users ) and researchers . 
+Patients aim to find cases that are more relevant to them , both medically and demographically . 
+Researchers aim to extract aggregated insights on medical conditions based on different dimensions such as age , gender , and time . 
+We employ two use cases , one each for a patient and a researcher , to demonstrate how their information needs can be addressed using the knowledge extraction layer generated by the proposed method . 
+The rest of this section is organized as follows . 
+First we introduce the test data set collected from an active OSG and then present the implementation of the proposed knowledge extraction layer . 
+Next we delineate implementation of personalized search with a patient use case . 
+Finally , we demonstrate OSG analytics capabilities using a researcher use case . 
+We collected ∼800,000 posts by 72,066 authors from the reputed OSG patients.info.22 http : //patient.info/forums Each post belongs to a particular OSG thread , categorized based on a set of high‐level topics ( for instance , “ Brain and nerves ” and “ Women 's health ” ) , which is the only available structure for posts in the OSG . 
+The narrative type of each post is identified individually for each post . 

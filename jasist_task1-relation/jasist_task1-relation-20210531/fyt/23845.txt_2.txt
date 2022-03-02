@@ -1,0 +1,61 @@
+During this period , Benford ( 1938 ) received 16 citations out of which it is cocited nine times with Pinkham ( 1961 ) . 
+From 1961 to 1995 , Newcomb ( 1881 ) and Pinkham ( 1961 ) are cocited only nine times , whereas the latter and Benford ( 1938 ) are cocited 31 times . 
+Pinkham ( 1961 ) is cocited with Newcomb ( 1881 ) 132 times , whereas with Benford ( 1938 ) it shares 173 citations . 
+Thus , a timely citation by Pinkham ( 1961 ) kept Benford ( 1938 ) in some limelight , whereas a lack of consideration pushed Newcomb ( 1881 ) into oblivion . 
+Raimi furthered the mathematical understanding of BL , using Banach and other scale invariances ( Raimi , 1969a ) , and also its popularity ( Raimi , 1969b ) . 
+Both papers cite only Benford ( 1938 ) , which received four citations in 1969 , whereas none cited Newcomb ( 1881 ) , which received no citation at all in this year ( Figure 2 ) . 
+Raimi cited both Newcomb ( 1881 ) and Benford ( 1938 ) in his review of the relevant literature ( Raimi , 1976 ) , where he pointed out deficiencies in various available explanations . 
+Raimi ( 1976 ) is currently the third‐most‐cited paper on BL , with 174 citations . 
+Up to 1995 , Raimi ( 1976 ) is cited 46 times , whereas Newcomb ( 1881 ) is cited 25 times . 
+Overall , Raimi ( 1976 ) is cocited with Newcomb ( 1881 ) 128 times , whereas it is cocited with Benford ( 1938 ) 149 times . 
+Raimi ( 1985 ) again debated the genesis of the first digit phenomenon . 
+Following its citation by Pinkham ( 1961 ) and Raimi ( 1976 ) , Benford ( 1938 ) kept receiving 1‐digit citations up to 1995 ( eight for this year ) . 
+The first 2‐digit citation to Benford ( 1938 ) , 10 , appeared in 1996 ; afterwards the number of citations increased sharply . 
+Around the same time , the citations of Newcomb ( 1881 ) , having received only 28 citations up to 1995 , also started to increase . 
+This is due to the publication of three papers by Hill ( 1995a,1995b,1995c ) , all citing both Newcomb ( 1881 ) and Benford ( 1938 ) on the mathematical aspects of BL . 
+Hill ( 1995a ) proposed one of the most convincing explanations of BL , demonstrating that if distributions are selected at random ( in an “ unbiased ” way ) and if random samples are then taken from each of these distributions , the significant digits of the combined sample will converge to the logarithmic ( Benford ) distribution . 
+With 305 citations Hill ( 1995a ) , is the most‐cited paper on BL . 
+Hill ( 1995b ) proved that base‐invariance implies BL , that is , another distinguishing and interesting property of the law . 
+Hill ( 1988 ) is the first publication by Hill on BL . 
+However , it cites only Benford ( 1938 ) despite having two references , Raimi ( 1976 ) and Cohen ( 1976 ) , in its bibliography which , besides Benford ( 1938 ) , also cites Newcomb ( 1881 ) . 
+This paper is cited 39 times ; it reported that the initial digits of 6‐digit numbers written by students in a classroom experiment , although not in complete agreement with BL , were found more likely to be the small digits . 
+Hill 's 1995 papers were purely mathematical . 
+BL really caught the fancy of the common people , auditors , and academic researchers following widespread media publicity of Nigrini 's work , who advocated the first practical application of the law as a statistical tool for the detection of tax ( fraud or ) evasion . 
+In his PhD thesis ( Nigrini , 1992 ) ( 39 citations ) , Nigrini showed that BL can be used for the detection of manipulations of income tax returns filed by individuals to the Internal Revenue Services of the USA . 
+Nigrini cited both Newcomb ( 1881 ) and Benford ( 1938 ) in his PhD thesis . 
+Afterwards , Nigrini published a popular article ( 1993 ) , cited only six times , thereafter reviewing developments on the understanding and applications of BL ( Nigrini , 1994 ) , cited 29 times . 
+However , Nigrini 's most acclaimed paper , that is , ( 1996 ) , also the third‐most‐cited paper on BL with 159 citations , again surprisingly cited only Benford ( 1938 ) but not Newcomb ( 1881 ) . 
+In fact , Nigrini 's second‐ and third‐most‐cited papers ( Nigrini , 1999 ; Nigrini & Mittermaier , 1997 ) again do not cite Newcomb ( 1881 ) . 
+In order to identify the prince for both Newcomb ( 1881 ) and Benford ( 1938 ) , we adopt the procedure outlined in Braun , Glänzel , and Schubert ( 2010 ) : a candidate prince should be among the first citing articles that are highly cited and have a number of cocitations with the SB . 
+The most cited papers on BL and the number of their cocitations with Newcomb ( 1881 ) and Benford ( 1938 ) are listed in Table 3 . 
+Pinkham ( 1961 ) and Nigrini ( 1996 ) are ruled out as possible prince candidates for Newcomb ( 1881 ) , as it is cited by neither of the two . 
+Newcomb ( 1881 ) is cited by both Raimi ( 1976 ) and Hill ( 1995a ) . 
+However , the latter being the most‐cited paper on BL ( 305 citations ) , and cocited with Newcomb ( 1881 ) 203 times , more frequently than is Raimi ( 1976 ) , clearly emerges as the prince ( Figure 3 ) . 
+Yearly citations of Newcomb ( 1881 ) and Hill ( 1995a ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The citations to Benford ( 1938 ) started to increase after the publication of Hill ( 1995a ) and Nigrini ( 1996 ) , papers published around the same time . 
+The citations of Hill ( 1995a ) and Benford ( 1938 ) are shown in Figure 4 . 
+Hill ( 1995a ) is cocited with Benford ( 1938 ) 244 times whereas Nigrini is cited 159 times and cocited with Benford ( 1938 ) only 142 times . 
+The citations to Hill ( 1995a ) peaked at 29 in 2008 , whereas to Benford ( 1938 ) at 44 in 2009 and both were cocited a maximum of 26 times in 2009 . 
+Hill ( 1995a ) emerges as the prince of the Benford ( 1938 ) . 
+Yearly citations of Benford ( 1938 ) and Hill ( 1995a ) . 
+It had therefore been demonstrated that Newcomb ( 1881 ) and Benford ( 1938 ) are SBs . 
+The former had a long deep sleep of 110 years , whereas the latter , fortuitously preceding an important physics paper by Bethe et al . 
+( 1938 ) , was in deep sleep for a comparatively lesser period of 31 years . 
+The long dormancy of Newcomb ( 1881 ) and far lesser number of its citations , than Benford ( 1938 ) , may have been fueled by an incomprehensible lack of its acknowledgment by prominent workers in all of their papers—some of which are currently the most‐cited papers on BL . 
+Both SBs were woken up in 1995 by the prince , Hill ( 1995a ) , now the most‐cited paper on BL , with maximum number of cocitations , among the most cited papers , with Newcomb ( 1881 ) and Benford ( 1938 ) . 
+The mid‐1990s resurgence of BL is coincident with the growth of online databases . 
+Indeed , the validation of the law for data from a variety of sources forms a considerable size of Benford literature , thereby making it a highly interdisciplinary field of research . 
+The variable influence of articles preceding and succeeding Newcomb ( 1881 ) and Benford ( 1938 ) on the accumulation of their future citations , markedly different , is in accordance with their contrasting importance . 
+Hence , a new direction of research in unearthing the potential SBs is posited , that is , whether the position of an SB in the journal has had any role in its awakening ? 
+22 For a recent discussion on how a paper 's position in the issue of the journal affects its citations , see Kosteas ( 2015 ) . 
+This is particularly pertinent to the older articles that researchers , in the absence of digital libraries , had to read in the paper‐bound volumes of journals . 
+Presently , scientific literature is accessed online and one is seldom aware of the articles between which article of ones ' interest in the journal is sandwiched . 
+The analysis of data that Benford gathered over several years must have taken him considerable time , in the absence of computers ; moreover , he did all the calculations by hand . 
+Today , the analysis of the same information , invariably accessed online , can be done in a very short time . 
+Furthermore , people hardly go to traditional libraries to look at the logarithmic table books , and thus one would not find any dirty pages . 
+Benford was rightly placed in time when he stumbled upon the dirty pages of logarithmic tables . 
+Had it been the era of computers there would have been no BL . 
+After their initial report , both Newcomb and Benford did not pursue the first digit phenomenon any further . 
+They had other works in hand : the former had the honor of presiding over various American scientific associations , whereas the latter , besides being a recipient of 20 patents on optical devices , has published 109 papers in physics and mathematics . 
+Perhaps both scientists anticipated that their papers , like the majority of others , would soon fade into obscurity . 
+However , going by the current spurt in activity surrounding BL , it is safe to claim that there is no other scientific discovery than BL , with such a humble beginning and yet raison d'être , for the popularity of its proponents . 

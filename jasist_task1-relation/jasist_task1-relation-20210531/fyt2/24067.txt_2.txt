@@ -1,0 +1,130 @@
+Such sentences can be easily obtained from Q & A websites such as Stack Overflow . 
+Given an API type , for example , a class or an interface declared in Java SDK like java.util.HashMap , our task is to distill a small set of sentences as negative caveats related to the concerned API . 
+The problem naturally well aligns with the objectives of an extractive text summarization task , in which the aim is to select salient information from a collection of documents . 
+Thus , we formulate the problem of distilling desirable API negative caveats as a text‐summarization task , through the following three definitions . 
+Let S raw be a set of programming‐related sentences from online discussion , and let x be an API type . 
+A candidate sentence for API type x is a sentence that mentions API x and contains negative expression ( s ) . 
+We denote the set of candidate sentences for API x as Sx . 
+Candidate API negative caveats is a set of sentences , denoted by , after removing context‐dependent sentences from candidate sentences . 
+Given an API type x , a set of desirable API negative caveats is a small subset of sentences , denoted by . 
+represents the semantically diverse and nonredundant sentences that cover the most prominent domain‐specific terms related to the use issues of API type x . 
+Next , we detail the four desired properties : context‐independence , prominence , semantic diversity , and nonredundancy . 
+Sentences in a discussion often reference other part ( s ) of the discussion ; for example , “ The following for example addresses this question in some detail about HashMap. ” We consider such sentences context‐dependent . 
+The distilled API negative caveats should be context‐independent , so that programmers know a negative caveat without having to refer to the original discussion . 
+Having said that , the property of context‐independence does not mean that programmers do not require any additional knowledge about the API to fully understand its negative caveats . 
+Discussion about an API may cover many different aspects , not limited to negative caveats . 
+Consider two sentences “ HashMap essentially has O ( 1 ) performance ” and “ HashMap is not synchronized. ” The first sentence is about time complexity , while the second sentence is our main focus . 
+More specifically , an API negative caveat is usually concerned about some domain‐specific terms related to the API use , for instance , multi‐thread , synchronization , thread‐safe , sort for java.util.HashMap . 
+Identifying such prominent domain‐specific terms is crucial for important API use issues . 
+An API type often has negative caveats related to different ways of using the API . 
+For example , java.util.HashMap does not support multi‐thread and does not guarantee element order . 
+The number of sentences with different aspects often varies greatly in discussion . 
+This calls for a proper way of handling data imbalance to avoid getting sentences that are all for one aspect of an API type . 
+Distilling semantically diverse sentences reveals a more complete picture of an API 's negative caveats . 
+In a large volume of informal discussion , the same API negative caveat may be mentioned many times but in different wording . 
+“ A HashMap does not maintain an order ” and “ This is the property of HashMap where elements are not iterated in the same order in which they were inserted ” express similar meanings but have low lexical similarity . 
+In such cases , we would like to select sentences that convey richer information about the API use ; for example , the second sentence in this example . 
+At the same time , we should avoid selecting other sentences that are semantically redundant . 
+To solve the text‐summarization problem as defined earlier , we propose Disca ( for Dis tilling crowdsourced API negative ca veats ) , as shown in Figure 1 . 
+Overview of the Disca framework . 
+The output of each step is stated on the corresponding edge . 
+The input data to Disca include : a set of APIs identified by their full qualified names and a set of sentences from crowdsourced discussions . 
+In this work , we focus on classes and interfaces defined in Java SDK as the API types of interest.22 https : //docs.oracle.com/javase/8/docs/api/overview-summary.html Sentences are extracted from Stack Overflow , considering its popularity among programmers and the volume of the data . 
+More specifically , sentences are extracted for Stack Overflow posts that are tagged with Java . 
+The sentences are cleaned as in many other studies ( Ponzetto & Strube , 2007 ; Robillard & Chhetri , 2015 ) . 
+We preserve the textual content by removing HTML tags , and we remove long code snippets enclosed in but keep short code elements in . 
+To help determine the quality of the sentences , we attach post votes to sentences based on the number of votes received by its original post . 
+Voting is a function offered by Stack Overflow where the community users could up‐ and down‐vote for an answer based on its quality . 
+The post votes in this study are the sum of up‐votes and down‐votes . 
+Higher post votes mean higher quality . 
+Based on our observations on Stack Overflow , we remove three types of sentences that are unlikely to discuss API negative caveats . 
+First , a discussion thread consists of a question and several answers . 
+The sentences from question are removed , for example “ ListView adapter with HashMap is n't displaying correctly , ” because these sentences are more likely to discuss programming problems rather than the cause of the problems . 
+Our approach only considers the sentences from answers . 
+Second , the interrogative sentences in answers are removed , for example “ Have you overridden the keySet ( ) method in your HashMap ? 
+” ; these sentences pose questions rather than give solutions . 
+Third , we remove opinion‐based sentences with subjective opinions in answers , such as “ I 'm not sure… , ” “ I do not think… , ” etc . 
+Given an API type and a set of sentences , the first step of our approach is to select a set of negative sentences that mention the API type . 
+The selected sentences are treated as candidate sentences from which API negative caveats will be distilled . 
+Because we want to distill API negative caveats of an API , the candidate sentences should mention the given API . 
+This task is often referred to as named entity recognition ( Tjong , Kim , Sang , & De Meulder , 2003 ) and entity linking ( Shen , Wang , & Han , 2015 ) . 
+As entity recognition and linking are not the key focus of this work , we adopt a name‐matching strategy to select sentences that mention a given API . 
+More specifically , we use a software‐specific tokenizer ( Ye , Xing , Foo , Ang , et al. , 2016 ) to tokenize the sentences . 
+This tokenizer preserves the integrity of code‐like tokens like java.util.HashMap and the sentence structure . 
+If a token in a sentence matches the full or partial name of an API , the sentence is considered mentioning the API . 
+Although this strategy is simple , it has shown effectiveness ( precision 0.92 and recall 0.97 ) in several studies ( Treude & Robillard , 2016 ; Ye , Xing , Foo , Li , & Kapre , 2016 ; Bacchelli , Cleve , Lanza , & Mocci , 2011 ; Rahman , Roy , & Lo , 2016 ) for recognizing mentions of APIs with distinct orthographic features . 
+When selecting candidate sentences , variations of API mentions have to be taken into account . 
+Informal discussions on social platforms ( for example , Stack Overflow ) are contributed by millions of users with diverse technical and linguistic backgrounds ( Ye , Xing , Foo , Li , & Kapre , 2016 ; Chen , Xing , & Wang , 2017 ) . 
+Such informal discussions are full of misspellings and synonyms ( Beyer & Pinzger , 2016 ; Ye , Xing , Foo , Li , & Kapre , 2016 ; Chen , Xing , & Wang , 2017 ) . 
+Consequently , the same API is often mentioned in many different forms intentionally or accidentally . 
+For example , the mentions of “ HashMap ” include “ hash map , ” “ hashmaps , ” and “ hash‐map. ” We resort to the software‐specific synonym thesaurus ( C. Chen et al. , 2017 ) to match API‐mention variations . 
+This synonym thesaurus documents commonly seen misspellings and synonyms mined from Stack Overflow . 
+API negative caveats are usually expressed in negative sentences , that is , sentences containing negative expressions . 
+To this end , we use a dependency parse tree to detect negative sentences . 
+The dependency parse tree provides a representation of grammatical relations between words in a sentence.33 http : //universaldependencies.org/en/dep/all.html It is a directed graph where nodes represent words and edges represent syntactic roles , for example , nsubj : nominal subject , aux : auxiliary , det : determiner , etc . 
+Among these syntactic roles , we can use negation modifier ( that is , neg ) to detect negative expressions . 
+Figure 2 illustrates three examples dependency parse trees produced by Stanford Parser.44 http : //nlp.stanford.edu/software/lex-parser.html Syntactic roles of negation , that is , neg ( define , n't ) , neg ( use , n't ) , and neg ( have , not ) can be detected from these two examples ( highlighted in orange in Figure 2 ) . 
+Three examples of dependency parsing for sentences : “ HashMap does n't define the order of iteration over the elements , ” “ Do n't use a HashMap with multiple threads , ” and “ JSONObject does not have too much additional overhead on top of a HashMap . 
+” Note that the two examples on the left‐hand side are selected as candidate sentences in this study . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] To ensure the negative expressions are on APIs , we select only negative sentences whose subject or object is a given API . 
+For example , both sentences “ JSONObject does not have too much additional overhead on top of a HashMap ” and “ HashMap does n't define the order of iteration over the elements ” are negative sentences and both mention HashMap . 
+Only the second sentence is selected as a candidate sentence for HashMap because the negative expression is on the API . 
+More specifically , a given API must exist in nsubj or dobj syntactic role in a sentence , as highlighted in blue in Figure 2 . 
+Context‐dependent sentences are less meaningful without referring to the original discussion where the sentences appear . 
+We remove context‐dependent sentences from the candidate sentences , based on a set of predefined sentence patterns.55 See the full list of defined patterns at http : //128.199.241.136/disca/appendix The patterns are defined from our observation made on the data . 
+The first category of patterns removes sentences that reference code snippets in the discussion , such as “ An equivalently synchronized HashMap can be obtained by… some code…. ” The second category removes sentences that reference to demonstrative pronoun ( for example , “ do this , ” “ like this , ” “ this wo n't , ” etc . 
+) ; for example , “ If you are trying to do this in a single thread , I would recommend HashMap. ” The third category removes sentences that reference another sentence in the discussion ( for example , “ see the next step , ” “ the following , ” etc . 
+) ; for example , “ The following for example addresses this question in some detail : HashMap requires a better hashCode ( ) . 
+” We refer to the rest of context‐independent sentences as candidate API negative caveats , denoted by Candx . 
+An API negative caveat is usually concerned with domain‐specific terms related to the particular API use . 
+Identifying prominent terms in candidate API negative caveats helps to distill frequently overlooked but important API use issues . 
+Inspired by Park , Patwardhan , Visweswariah , and Gates ( 2008 ) and C. Chen et al . 
+( 2017 ) , we identify prominent terms by contrasting term frequency of a term in candidate API negative caveats and its frequency in background corpus . 
+Recall that Candx represents the set of candidate API negative caveats for API type x . 
+For the sentences in Candx , we build a term ( unigram ) vocabulary Vx after removing stop words and performing word stemming . 
+For a term , we use relative entropy to weight its prominence : , where p ( t ) is the probability of observing t in Candx and q ( t ) is probability of observing t in all Stack Overflow posts that are tagged with the corresponding programming language , that is , Java in our setting . 
+Based on the term weight , we select the top‐k ( k = 100 in this work ) ranked terms as the prominent domain‐specific terms in candidate API negative caveats . 
+Note that the setting of k may not significantly affect the results , as the prominent terms will be grouped to semantic aspects ; to be discussed next . 
+A group of semantically‐related terms together reveal a semantic aspect of API uses , for example , ( thread , synchronization , safe ) for the issue of using java.util.HashMap in multi‐thread settings , ( key , hashcode , equal ) for the element uniqueness issue of java.util.HashMap , and ( order , insert , iterate ) for the element ordering issue of java.util.HashMap . 
+Clustering semantically related prominent terms helps to discover semantic aspects of an API , which in turn help to distill semantically diverse API negative caveats . 
+Semantic relatedness between terms can be discovered from term co‐occurrence in sentences ( Hua , Wang , Wang , Zheng , & Zhou , 2015 ; Lund & Burgess , 1996 ) . 
+To capture semantic relatedness between all prominent terms , we construct a term co‐occurrence graph , where nodes are prominent terms and edges reflect the frequencies of term co‐occurrences in candidate API negative caveats . 
+An edge is added between two terms if their co‐occurrence frequency is above a threshold . 
+To discover the different aspects of an API , we cluster prominent terms in the graph into a set of disjoint term communities . 
+In particular , we use the Louvain method ( Blondel , Guillaume , Lambiotte , & Lefebvre , 2008 ) . 
+It iteratively optimizes local communities until global modularity no longer improves . 
+Figure 3 shows the community detection results for prominent terms of API java.util.HashMap in our evaluation . 
+This graph is constructed from the top‐100 prominent terms in the candidate API negative caveats , and the edge co‐occurrence frequency threshold is set to 3 . 
+The node size is proportional to the degree centrality of the node in the graph . 
+Observe that the detected term communities are semantically diverse ( highlighted in different colors in Figure 3 ) . 
+Each term community represents one key semantic aspect of java.util.HashMap , including comparator implementation , element order , key/hashcode , and multiple threads . 
+Term communities shown in different colors identified from the term co‐occurrence graph of java.util.HashMap . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The final step of Disca is to select sentences to represent each term community discovered in the earlier step . 
+We select sentences based on three intuitions : ( i ) prominence : the selected sentences should be as prominent as possible ; ( ii ) quality : sentences should be of high quality , preferred from highly voted answer posts ; and ( iii ) nonredundancy : the selected sentences should minimize redundant information . 
+The weighted set cover problem in Equation ( 1 ) is NP‐hard ( Aho & Hopcroft , 1974 ) . 
+But there is a polynomial time greedy approximate algorithm , which provides a approximate solution ( Blondel et al. , 2008 ) . 
+Algorithm 1 shows the steps of this greedy approximate algorithm for selecting a set of representative sentences from candidate API negative caveats to satisfy Equation ( 1 ) . 
+Instead of selecting sentences to cover the term set Tx as a whole , we use a divide‐and‐conquer strategy that selects sentences for one randomly selected term community at a time ( Lines 2–3 ) . 
+This divide‐and‐conquer strategy , together with nonredundant sentence selection mechanism ( Line 7 ) , ensures the semantic diversity of the selected sentences , even though the mentions of API negative caveats related to different semantic aspects of an API are imbalanced . 
+Greedy Selection Algorithm Input : Candidate API negative caveats Candx ; prominent terms Tx ; term communities Output : : Map of API negative caveasts for term communities 1 ; 2 foreach Cm in do //iterate through communites 3 ; //selected sentences for Cm 4 while do 5 foreach si in do // si is completely redundant 6 Compute by Equation 2 ; 7 Compute ; //update contribution of si for current loop 8 Select where has the minimal value ; 9 ; //select sj 10 ; //remove sj from C andx 11 ; // 12 return For a term community Cm , the inner loop ( Lines 4–10 ) continues until the union of prominent terms in the selected sentences ψm , covers all terms in Cm . 
+The notation ( Line 7 ) denotes the number of terms in si that are not in the selected sentences ψm . 
+The notation is the production of and the number of newly added terms if si is selected ( Line 7 ) . 
+The intuition is that the more new terms brought in by selecting sentence si , the more likely the sentence will be selected . 
+A sentence once selected is removed from candidate negative caveats set Candx ( Line 10 ) . 
+The algorithm returns the map of the selected sentences for each term community as desirable API negative caveats for API x . 
+Consider the “ multiple thread synchronized ” term community for java.util.HashMap ( in orange color ) in Figure 3 . 
+Figure 4 shows the API negative caveats selected by Algorithm 1 for this term community . 
+Observe that all three negative caveats are related to multi thread and synchronization issues of HashMap , and there is no redundancy . 
+Instead , the selected sentences together provide complementary information for better understanding the issues , compared to the sentence “ this implementation is not synchronized ” in the official API documentation of HashMap . 
+The second and third sentences even provide alternative APIs that are not mentioned in the official documentation . 
+Selected API negative caveats for the term community “ multiple thread synchronized ” . 
+Our evaluation aims to answer the following five research questions : RQ1 : How much improvement can the Disca approach achieve over baseline methods ? 
+RQ2 : How effective is the proposed Disca approach in guaranteeing diversity over the baseline methods ? 
+RQ3 : To what extent does the Disca approach miss the API negative caveats stated in official API documentation ? 
+RQ4 : To what extent does the Disca approach augment the official API documentation ? 
+RQ5 : How important are the distilled API negative caveats by the Disca approach ? 
+From the official Java 8.0 website , we obtain 4,240 Java API types . 
+We collect all Stack Overflow posts tagged with Java from the March 2016 data dump as the general corpus . 
+Among the posts , 1,081,439 sentences mention at least one Java API type . 
+For the top 10 most frequently mentioned Java packages , we choose the top 1 frequently mentioned API type in each package in our evaluation . 
+Reported in Table 2 ( the first three column ) , the 10 API types have a wide range of mention frequency ( MF ) and candidate API negative caveats ( Candx ) ranging from tens to hundreds of sentences . 

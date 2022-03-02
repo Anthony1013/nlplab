@@ -1,0 +1,33 @@
+T1	引文作者 228 231	Mao
+T2	引文作者 234 236	Lu
+T3	引文作者 239 241	Mu
+T4	引文作者 246 248	Li
+T5	引文时间 251 255	2015
+T6	引文作者 1198 1206	Hiemstra
+T7	引文时间 1209 1213	2001
+T8	引文作者 1216 1218	Lu
+T9	引文作者 1221 1225	Kipp
+T10	引文时间 1228 1232	2014
+T11	表 2390 2486	The performance on the same set of documents under different environments is compared in Table 4
+T12	引文作者 4233 4235	Lu
+T13	引文作者 4238 4241	Mao
+T14	引文时间 4244 4248	2015
+T15	引文作者 4251 4253	Lu
+T16	引文时间 4263 4267	2015
+T17	引文作者 6171 6179	Hjørland
+T18	引文时间 6182 6186	2016
+T19	研究展望 7792 7932	Future study will further explore the usability of weighted subject indexing systems in supporting retrieval or knowledge organization tasks
+T20	研究结果 6464 6664	cosine measure has consistent and robust performance in different contexts , although the performance does differ depending on the environments ( abstract or full text ) and the representation methods
+T21	研究结果 6669 6763	In the abstract environment , cosine with bag‐of‐words representation has the best performance
+R1	coauthor Arg1:T3 Arg2:T4	
+R2	has_cited_time Arg1:T5 Arg2:T4	
+R3	coauthor Arg1:T1 Arg2:T2	
+R4	has_cited_time Arg1:T7 Arg2:T6	
+R5	has_cited_time Arg1:T10 Arg2:T9	
+R6	coauthor Arg1:T8 Arg2:T9	
+R7	field_similar_as Arg1:T6 Arg2:T8	
+R8	coauthor Arg1:T12 Arg2:T13	
+R9	has_cited_time Arg1:T14 Arg2:T13	
+R10	has_cited_time Arg1:T16 Arg2:T15	
+R11	field_similar_as Arg1:T12 Arg2:T15	
+R12	has_cited_time Arg1:T18 Arg2:T17	

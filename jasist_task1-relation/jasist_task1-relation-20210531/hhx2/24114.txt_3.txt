@@ -1,0 +1,23 @@
+As Lloyd ( 2010 ) noted , information and knowledge often arise from people 's collective understanding of physical environments and practices . 
+By focusing on the materiality of information , however , the LIL model is more useful for explaining the features of standardized/legitimized public information than those of nuanced , situation‐dependent information . 
+This focus could be seen as a trade‐off between the scalability and scope of the ontological model . 
+Further research and case studies are needed to understand these tensions and trade‐offs better and to refine LIL framework . 
+Despite these limitations , this work is meaningful in several aspects . 
+Although assessing LIL framework , it was possible to review a wide spectrum of local community research across disciplines beyond the scope of LIS . 
+It is our hope that scholars from different fields communicate with each other more by using and developing LIL theory with studies that fill in the empirical gaps . 
+Distinguishing information provision and behavior/access is another contribution of this article . 
+Although information creation is not a new concept in the LIS field ( Trace , 2007 ) , information provision to three material components of LIL has rarely been modeled as a theoretical framework in the context of local communities . 
+Through LIL theory , scholars who study information creation can benefit from systematic approaches to thinking about the ways that information is provided . 
+Also , information behavior studies can benefit from the ecological forces of local information landscapes that shape individuals ' information behavior and accessibility ( beyond the discussion of how created information exists ) . 
+Separating an information layer from the physical and technological systems have been explored to some degree among information and social science scholars , conceptualizing it as information layers ( Weng et al. , 2013 ) . 
+LIL theory not only separates information layers from the local community , but also characterizes how information is embedded in different entities and how each component limits or extends the capability of another depending on their scales and complexity . 
+It was also possible to conceptualize a community‐level , material structure of local information landscapes as a construct that provides capacity and ability for individuals ' information behavior , access , and other community‐level qualities . 
+Through this theorizing process , it was possible to examine the opportunities that are suggested in the introduction : Local information can be provided to physical spaces , technical infrastructures , and social systems . 
+By constructing the LIL model that describes the material structure and distribution of local information at the community level , it becomes possible to understand people 's information access issues as a result of a community‐level complexity in the local information landscape . 
+LIL theory can complement existing theories about information behavior , access , and contexts such as the information worlds theory and information grounds by distinguishing information provision , the results of provision , and their effects on information behavior/access . 
+Physical spaces , technical infrastructures , and social systems can be in different forms with varying scales and complexities that together shape the characteristics of local information while embedding it . 
+Diverse manifestations of information inequality and information poverty have necessary conditions , that is , the material states of local information landscapes ; these structural forms can be conceptualized as information deserts . 
+Because there are still some components and aspects that need to be further refined and articulated , this article should be seen as an initial effort to conceptualize and construct a theory of local information landscapes . 
+Despite its abstractness , it was possible to explore research opportunities that were rarely considered before . 
+Based on this work , researchers in local community‐related disciplines can use LIL theory as a baseline tool to discover gaps between various kinds of literature . 
+If the constructs of LIL framework can be developed with concrete measures , urban planners , policy‐makers , and local information system designers would further benefit from its metrics , guidelines , and assessment frameworks . 

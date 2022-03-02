@@ -1,0 +1,131 @@
+T1	引文作者 186 194	Kulkarni
+T2	引文作者 197 203	Teevan
+T3	引文作者 206 211	Svore
+T4	引文作者 216 222	Dumais
+T5	引文作者 232 240	Shokouhi
+T6	引文时间 225 229	2011
+T7	引文时间 243 247	2011
+T8	引文作者 556 561	March
+T9	引文时间 562 566	2011
+T10	引文作者 1405 1413	Shokouhi
+T11	引文时间 1416 1420	2011
+T12	引文作者 1440 1449	Berberich
+T13	引文作者 1452 1460	Bedathur
+T14	引文时间 1463 1467	2013
+T15	图 1805 1862	Figure 1 presents some classic temporal pattern instances
+T17	引文作者 2045 2053	Kulkarni
+T18	引文时间 2063 2067	2011
+T20	引文作者 2203 2211	Shokouhi
+T21	引文时间 2214 2218	2011
+T22	图 2400 2614	For example , for the query “ the Olympics ” ( Figure 1d ) , there are five spikes corresponding to the Olympic Games ( including the Summer and Winter Games ) that were held in 2004 , 2006 , 2008 , 2010 , and 2012
+T23	时间 2578 2582	2004
+T24	时间 2585 2589	2006
+T25	时间 2592 2596	2008
+T26	时间 2599 2603	2010
+T27	时间 2610 2614	2012
+T28	引文作者 2874 2879	Jones
+T29	引文作者 2882 2886	Diaz
+T30	引文时间 2889 2893	2007
+T31	引文作者 2896 2904	Kulkarni
+T32	引文时间 2914 2918	2011
+T33	引文作者 2921 2928	Metzler
+T34	引文作者 2931 2936	Jones
+T35	引文作者 2939 2943	Peng
+T36	引文作者 2948 2953	Zhang
+T37	引文时间 2956 2960	2009
+T38	引文作者 2963 2971	Shokouhi
+T39	引文时间 2974 2978	2011
+T40	图 4742 4900	Therefore , we group queries into corresponding temporal pattern classes according to the temporal characteristics of their time series , as shown in Figure 2
+T41	图 4980 5097	Next , we describe the definitions of these query classes and typical time series curves , as illustrated in Figure 1
+T42	图 4905 4975	Each leaf node in Figure 2 represents a specific temporal pattern type
+T43	时间 5271 5275	2008
+T44	时间 5278 5282	2010
+T45	时间 5304 5313	2008–2010
+T46	图 5928 6034	Consequently , their time series curves share a stable trend ( e.g. , “ Java JDK ” as shown in Figure 1a )
+T47	图 6221 6441	As a result , their curves all contain a single spike that occurs when there is a sudden increase followed by a corresponding decrease in search volume ( e.g. , “ Japan Earthquake ” is an OBQ , as depicted in Figure 1b )
+T48	图 6652 6792	Time series curves of AMBQs share a common shape with multiple aperiodic spikes ( e.g. , “ Earthquake ” is an AMBQ , as shown in Figure 1c )
+T49	图 7089 7268	For example , “ the Olympics ” becomes popular in a 2‐year cycle because the Olympic Games are held every 2 years ( including the Summer and Winter Games ) , as shown in Figure 1d
+T50	表 7367 7406	Some examples are summarized in Table 1
+T51	图 8200 8234	The framework is shown in Figure 3
+T52	图 8813 8889	We will discuss the main aspects of the framework marked in bold in Figure 3
+T53	引文作者 9902 9906	Adar
+T54	引文作者 9909 9915	Teevan
+T55	引文作者 9918 9924	Dumais
+T56	引文作者 9929 9934	Elsas
+T57	引文时间 9937 9941	2009
+T58	引文作者 9944 9949	Dakka
+T59	引文作者 9952 9959	Gravano
+T60	引文作者 9964 9973	Ipeirotis
+T61	引文时间 9976 9980	2012
+T62	引文作者 10817 10824	Manning
+T63	引文作者 10827 10835	Raghavan
+T64	引文作者 10840 10847	Schütze
+T65	引文时间 10850 10854	2008
+T66	图 11032 11191	Two instances , “ Earthquake ” and “ Boston Marathon , ” are shown in Figure 4 , in which the dash‐dot line is the real time series curve built from query logs
+T67	表 12256 12405	Features 1 to 4 are basic features , Features 5 to 8 are curve distance features , and Features 9 to 11 are regression features , as shown in Table 2
+T68	引文作者 13376 13381	Chang
+T69	引文作者 13384 13387	Lin
+T70	引文时间 13390 13394	2011
+T71	引文作者 13549 13554	Chang
+T72	引文作者 13557 13560	Lin
+T73	引文作者 13541 13544	C.C
+T74	引文作者 13368 13371	C.C
+T75	引文时间 13563 13567	2011
+T76	研究问题 1298 1402	search engines to correctly identify those queries and ensure that their results are temporally relevant
+T77	引文的研究问题 2716 2871	by analyzing the temporal patterns of user queries , we can better understand user intents , which can be used to improve the performance of search engines
+T78	软件工具 3022 3029	G oogle
+T79	研究方法 3674 3696	support vector machine
+T80	研究方法 3699 3702	SVM
+T81	软件工具 6000 6008	Java JDK
+T82	软件工具 2019 2027	Java JDK
+T83	图 8050 8195	Given a new query , we use a machine‐learning approach to detect its temporal pattern ( i.e. , SQ , OBQ , PMBQ , or AMBQ , as shown in Figure 2 )
+T84	软件工具 8779 8782	SVM
+T85	软件工具 9194 9207	Google Trends
+T86	术语 10409 10423	term frequency
+T87	术语 10554 10572	document frequency
+T88	软件工具 10957 10963	Google
+T89	图 11854 11890	Some instances are shown in Figure 5
+T90	图 12826 12863	The final result is shown in Figure 6
+T91	研究方法 13468 13492	Gaussian kernel function
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	has_cited_time Arg1:T6 Arg2:T4	
+R5	has_cited_time Arg1:T7 Arg2:T5	
+R6	field_similar_as Arg1:T1 Arg2:T5	
+R7	has_cited_time Arg1:T9 Arg2:T8	
+R8	has_cited_time Arg1:T11 Arg2:T10	
+R9	coauthor Arg1:T12 Arg2:T13	
+R10	has_cited_time Arg1:T14 Arg2:T13	
+R11	field_similar_as Arg1:T10 Arg2:T12	
+R12	has_cited_time Arg1:T18 Arg2:T17	
+T16	图 1941 2042	queries with flat curve patterns usually have fixed intents ; for example , “ Java JDK ” in Figure 1a
+T19	图 2074 2200	In contrast , queries with multiple spikes in their curve patterns , such as in Figure 1c and 1d , may be temporally ambiguous
+R13	has_cited_time Arg1:T21 Arg2:T20	
+R14	produces Arg1:T28 Arg2:T77	
+R15	coauthor Arg1:T29 Arg2:T28	
+R16	has_cited_time Arg1:T30 Arg2:T29	
+R17	has_cited_time Arg1:T32 Arg2:T31	
+R18	coauthor Arg1:T33 Arg2:T34	
+R19	coauthor Arg1:T34 Arg2:T35	
+R20	coauthor Arg1:T35 Arg2:T36	
+R21	has_cited_time Arg1:T37 Arg2:T36	
+R22	has_cited_time Arg1:T39 Arg2:T38	
+R23	field_similar_as Arg1:T28 Arg2:T31	
+R24	field_similar_as Arg1:T31 Arg2:T33	
+R25	field_similar_as Arg1:T33 Arg2:T38	
+R26	coauthor Arg1:T53 Arg2:T54	
+R27	coauthor Arg1:T54 Arg2:T55	
+R28	coauthor Arg1:T55 Arg2:T56	
+R29	has_cited_time Arg1:T57 Arg2:T56	
+R30	coauthor Arg1:T58 Arg2:T59	
+R31	coauthor Arg1:T59 Arg2:T60	
+R32	has_cited_time Arg1:T61 Arg2:T60	
+R33	field_similar_as Arg1:T53 Arg2:T58	
+R34	coauthor Arg1:T62 Arg2:T63	
+R35	coauthor Arg1:T63 Arg2:T64	
+R36	has_cited_time Arg1:T65 Arg2:T64	
+R38	coauthor Arg1:T69 Arg2:T68	
+R37	has_cited_time Arg1:T70 Arg2:T69	
+R39	coauthor Arg1:T72 Arg2:T71	
+R40	has_cited_time Arg1:T75 Arg2:T72	

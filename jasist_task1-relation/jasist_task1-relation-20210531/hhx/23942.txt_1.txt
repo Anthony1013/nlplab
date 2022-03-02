@@ -1,0 +1,75 @@
+Data Science is a relatively new field that we can loosely define as the science of extracting insight from data . 
+The explosive growth of data in nearly every area of modern society , has driven an unprecedented demand for people with the skills necessary to perform this task . 
+However , as is usually the case , the devil is in the details . 
+This seemingly simple task encompasses a huge range of skills including working at Unix command line , interacting with relational and NoSQL data storage technologies , setting up and using cloud computing resources , performing classical and Bayesian statistical analysis , developing interactive visualizations , and applying machine learning algorithms . 
+As a result of this booming demand , new educational programs are being started at online educational sites and across a range of universities and colleges . 
+These programs seem to fall into one of two camps : introductory courses that focus on the application of data science in a particular arena , such as text analytics , or advanced courses that dive deeply into the mathematical underpinnings of statistical and machine learning . 
+But what is often desired , at least by the knowledgeable recruiters , is a course that introduces the range of skills with which a practicing data scientist should be familiar including the full lifecycle of working with data : data acquisition , data cleaning , data analysis , data visualization , and data modeling . 
+The shortage of students who have mastered these skills leads some to a comparison between a true data scientist to the fictitious unicorn . 
+This theme is picked up by Field Cady , the author of the The Data Science Handbook , on page one , where the first chapter , titled “ Introduction : Becoming a Unicorn ” begins with the following definition : “ Data science means doing analytics work that , for one reason or another , requires a substantial amount of software engineering skills. ” This definition defines the text , where the emphasis is generally on how to accomplish tasks rather than the why the indicated solution actually works . 
+The text is broken into three parts : The Stuff You 'll Always Use Stuff You Still Need to Know Specialized or Advanced Topics An examination of what the author considers “ The Stuff You 'll Always Use ” demonstrates his applied viewpoint and emphasis on the lack of software engineering skills many prospective data scientists demonstrate in job interviews . 
+This first section starts with a “ Data Science Road Map ” before discussing different programming languages used in data science ( note that the book uses the Python programming language throughout because , in the author 's words , “ for any task , Python is the second‐best language , ” and “ Since data science is so inherently multidisciplinary , this makes it [ Python ] a perfect fit ” ) . 
+This first part continues with a chapter that provides a quick overview of basic Python programming , including data types , comments , container data types , functions , flow control , exception handling , classes and objects , and an overview of the standard Python data science libraries . 
+This chapter concludes with an interlude on the author 's personal toolkit , where he describes the tools he typically uses in his daily work . 
+Personally I found these sections extremely valuable ( there are many of them throughout the text ) as this sort of experienced commentary is rare in today 's market . 
+This first part continues with a chapter on “ Data Munging ” where the challenge of dealing with real world data is explored . 
+This includes many different tasks in cleaning data including duplicate or multiple entries , missing data , odd outliers , artificial entries , odd spacings or formatting , irregular capitalizations , invalid characters , odd or incompatible dates or times , and issues from software or operating systems . 
+As anyone who has ever had to deal with data collected from either humans or distributed sensors “ in the wild ” can appreciate , these tasks are increasingly important and often overlooked . 
+This chapter also includes a discussion on identifying and fixing many of these problems , including the use of regular expressions . 
+The next four chapters introduce more of the standard data scientist tools including visualization and basic descriptive statistics , machine learning , feature extraction , and classification . 
+Although complete , these topics are all introduced quite rapidly , in some cases trading detail for completeness . 
+For example , the visualization chapter introduces pie charts , bar charts , histograms , box plots , and scatter plots in less than ten pages ( including code examples and the corresponding plot ) . 
+Likewise , the classification chapter introduces a number of classifiers including decision trees , random forests , support vector machines , logistic regression , lasso regression , naive Bayes , and neural nets in around 14 pages ( again including code samples ) . 
+Note this commentary is not meant to be negative , many of these topics are introduced appropriately , especially for the aim of the book . 
+For example , the naive Bayes algorithm is introduced by discussing the frequency of occurrence of labels in the training data , and how these can be converted into probabilities . 
+However , the brevity does mean some nuances , such as the different regimes for using different functional forms for the probabilities , such as a Normal , Binomial , or Multinomial are neglected . 
+In addition , one can quibble with the choice of visualizations , for example , pie chart , at the expense of other types of visualizations , or the control of different aspects of a visualization such as color , facet , size to convey additional information . 
+Although the author does indicate how to set the color , marker , size , and even transparency in a plot , but does not talk extensively about why one might do so . 
+The first part concludes with a chapter on “ Technical Communication and Documentation ” that talks about the presentation of the results of a data science investigation to a broader community . 
+I found this to be a very interesting chapter , not because the content was new or unfamiliar to anyone experienced in this field , but because it is included as a coherent section in the “ Stuff You 'll Always Use ” section . 
+Once again , I found this sort of commentary to be the most useful aspect of this text . 
+These “ life lessons ” from an experienced data scientist are rarely found in most texts , and are one reason instructors often seek to bring in real world practitioners ( or alumni ) to share experiences with students . 
+The second section , “ Stuff You Still Need to Know ” forms the bulk of the text ( about 50 % of the total book ) . 
+This includes a lengthy list of data science needs and includes chapters on unsupervised learning , regression , data encodings and file formats , big data tools , databases , software engineering best practices , natural language processing , time series analysis , probability , statistics , programming language concepts , and performance and computer memory . 
+Although I do not disagree with the inclusion of ( most of ) these topics , the order seems odd . 
+For example , few texts include probability and statistics after big data and databases . 
+The former are fundamental concepts whereas the latter are more advanced topics . 
+I will admit that when I first read the table of contents , the ordering of these topics bothered me . 
+However , after going through the book more carefully and understanding that the text is meant as a handbook and not a textbook , the ordering is less important if not irrelevant ( one simply goes to the chapter , or even page , that is relevant ) . 
+In addition , the two chapters on big data and databases do not dive deeply into either topic . 
+The big data chapter introduces Hadoop , Spark , the use of PySpark to connect to a Spark engine , and the Map Reduce paradigm , but not the rich Spark ecosystem , which includes machine learning , network analysis , or real‐time processing . 
+Likewise , the data chapter introduces basic relational database concepts , but also NoSQL data stores including key‐value stores , wide column stores , document stores , and , in particular MongoDB . 
+This breadth is interesting , but it also means that some concepts are once again presented in short order , for example database joins in one page , and the SQL is presented for MySQL . 
+Although the material presented is transportable among SQL complaint data stores , I would disagree with the author that MySQL is “ the one you 're most likely to encountering data science. ” Given the depth of coverage , I would think the text could easily have dropped all references to MySQL . 
+On the other hand , I was definitely in favor of the chapters on natural language processing and times series analysis . 
+These two chapters focus on real world applications , and include practical advice when confronting a problem . 
+For example , the NLP chapter starts by asking “ Do I even need NLP ? 
+” Oftentimes the answer is No , and it is refreshing to see a text force the reader to confront this question up front ( as opposed to exploring the concept in detail simply because it is deemed novel or cool ) . 
+Likewise , the time series analysis chapter includes useful nuggets on resampling , smoothing , windowing , and Fourier analysis . 
+The probability and statistics chapters cover the relevant material , albeit more quickly than I might prefer . 
+The statistics chapter includes a discussion of several of the more popular hypothesis testing techniques including parameter estimation and the t‐test , before concluding with a discussion of Bayesian statistics . 
+The remaining chapters in this section continue in this vein . 
+The software engineering best practices chapter highlights important concepts such as coding style , version control , and testing . 
+The final two chapters : programming language concepts and performance and computer memory , detail issues that are generally ignored in most data science courses . 
+For example , programming language concepts discusses different programming styles such as functional programming , imperative programming , and object‐oriented programming and the difference between static and dynamic typing . 
+Likewise , the final chapter addresses issues that affect performance specifically including those that relate to the overuse of memory . 
+Personally , I find these discussions very relevant . 
+Given the short time frame of most classes , many students learn the basics concepts of programming without understanding the difference between a homework solution and a production‐quality program . 
+The challenge going from the former to the latter is n't overly difficult ( as this text demonstrates in these two chapters ) , but it does require additional learning and practice . 
+Having even a passing familiarity , however , with terms such as “ cache miss , ” “ big‐O notation , ” or “ pure function ” could be the difference in succeeding in an interview or not . 
+The final section contains , as advertised , advanced concepts such as computer memory and data structures , maximum likelihood estimation and optimization , advanced classifiers , and stochastic modeling . 
+In some sense , this final section allows the author to compress the previous topics . 
+For example , maximum likelihood is presented in this section along with a demonstration of its importance in logistic regression , and gradient descent and stochastic gradient descent are presented in this section where they normally are discussed along with machine classification where they are used to minimize a cost function . 
+On the other hand , the “ Advanced Classifiers ” chapter introduces deep learning , convolution neural networks , recurrent neural networks , Bayesian networks , and MCMC in around 25 pages . 
+Perhaps this is appropriate and academics , such as myself , spend too much time on these topics , which are often closer to our research interests . 
+But it is hard to see a student gaining anything other than a cursory exposure to these increasingly important concepts in the present format . 
+In the end , I found myself enjoying this book more than I expected , especially after initially viewing the table of contents . 
+However , I did so as an experience data scientist myself , and not as an instructor or academic researcher . 
+This book truly is a handbook , designed to supplement an existing education not replace it . 
+I would expect readers would best use this text to brush up on a specific aspect of an algorithm or to quickly review a topic such as computer memory that is used infrequently . 
+I do not recommend this book as the primary text for a data science course . 
+First , the text does not follow a clear path , it is designed to be a handbook and not a textbook . 
+Second , the code in the text is hard to read , appearing in a monospace font , and the figures do not display color . 
+The author does provide the code ( in a very permissible license ) on github , however , it is simply Python code files , as opposed to the increasingly popular IPython ( or Jupyter ) notebooks where code , descriptions , figures , and code output are combined . 
+In the end , I would recommend this text as a supplement for any student who is serious about becoming a data scientist . 
+The primary role this book will serve is to fill in the gaps of the standard education in this area , while presenting a different viewpoint on many of the more commonly taught subjects . 

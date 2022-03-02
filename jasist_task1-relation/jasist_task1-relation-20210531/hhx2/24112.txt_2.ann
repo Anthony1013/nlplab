@@ -1,0 +1,89 @@
+T1	引文作者 153 162	Heinzkill
+T2	引文时间 165 169	1980
+T3	图 275 394	Figure 7 shows that social sciences are closer to basic sciences than humanities in terms of their reference patterns .
+T4	引文作者 752 759	Glänzel
+T5	引文作者 762 771	Schöpflin
+T6	引文时间 774 778	1999
+T7	引文作者 809 816	Glänzel
+T8	引文作者 821 830	Schöpflin
+T9	引文时间 833 837	1994
+T10	图 1231 1415	In terms of the field difference of four reference indicators , Figure 7 shows that the social sciences are closer to the sciences in aggregated authored books than in journal articles
+T11	引文作者 2083 2092	Larivière
+T12	引文时间 2102 2106	2008
+T13	引文作者 2109 2120	van Leeuwen
+T14	引文时间 2123 2127	2013
+T15	引文作者 2381 2388	Krampen
+T16	引文时间 2391 2395	2010
+T17	引文作者 2398 2402	Marx
+T18	引文作者 2405 2413	Bornmann
+T19	引文时间 2416 2420	2015
+T20	引文作者 2423 2429	Peritz
+T21	引文作者 2432 2440	Bar‐Ilan
+T22	引文时间 2443 2447	2002
+T23	引文作者 2450 2454	Ucar
+T24	引文时间 2464 2468	2014
+T25	引文作者 2984 2993	Sivertsen
+T26	引文作者 2996 3002	Larsen
+T27	引文时间 3005 3009	2012
+T28	引文作者 3920 3931	van Leeuwen
+T29	引文时间 3934 3938	2006
+T30	时间 4322 4331	2000–2009
+T31	引文作者 4438 4444	Engels
+T32	引文作者 4447 4456	Ossenblok
+T33	引文作者 4461 4467	Spruyt
+T34	引文时间 4470 4474	2012
+T35	图 4211 4487	For example , the share of journal articles in the social sciences has increased more than 100 % in the period 2000–2009 in a Flemish study while the share of books keeps a relatively stable growth of 35 % in the same fields ( Engels , Ossenblok , & Spruyt , 2012 ; Figure 6 )
+T36	图 4492 4822	Following the trend of journal‐oriented publication pattern in the social sciences ( see also Chi , 2015 ) , a changing communication behavior of social scientists in favour of citing more journal articles in their journal publications can be found in the largest increase of the share of WoS references over time ( see Figure 3 )
+T37	引文作者 4586 4589	Chi
+T38	引文时间 4592 4596	2015
+T39	图 4827 5058	On the other hand , Figure 3 also shows that when publishing books , social scientists retain the similar behavior as humanists to cite mainly nonserial references , which reflects the stable evolution of books in the Flemish study
+T40	引文作者 5202 5209	Glänzel
+T41	引文作者 5212 5221	Schöpflin
+T42	引文时间 5224 5228	1995
+T43	引文作者 5954 5961	Glänzel
+T44	引文作者 5966 5975	Schöpflin
+T45	引文时间 5978 5982	1999
+T46	图 7566 7687	The reference patterns of the social sciences are much more similar to science fields than to humanities ( see Figure 7 )
+T47	引文作者 7729 7732	Chi
+T48	引文时间 7735 7739	2016
+T49	引文作者 7945 7948	Chi
+T50	引文时间 7951 7955	2016
+T51	图 7962 8110	Furthermore , the journal papers in the social sciences are more isolated from science fields in Figure 7 than the monographs in the social sciences
+T52	引文的结果 3907 4059	According to van Leeuwen ( 2006 ) , the faculties having more WoS publications cite larger shares of references to the indexed journal literature itself
+T53	引文的结果 4211 4487	For example , the share of journal articles in the social sciences has increased more than 100 % in the period 2000–2009 in a Flemish study while the share of books keeps a relatively stable growth of 35 % in the same fields ( Engels , Ossenblok , & Spruyt , 2012 ; Figure 6 )
+T54	引文的结果 5779 5986	This medium level correlation is like the finding that the percentage of references in serials has only a small effect on the reference age for journal articles , reported by Glänzel and Schöpflin ( 1999 ) .
+T55	引文的结果 7692 7820	As discussed in the previous study ( Chi , 2016 ) , humanities has the most distinct citation distributions among all the fields
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	coauthor Arg1:T4 Arg2:T5	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	coauthor Arg1:T7 Arg2:T8	
+R5	has_cited_time Arg1:T9 Arg2:T8	
+R6	has_cited_time Arg1:T12 Arg2:T11	
+R7	has_cited_time Arg1:T14 Arg2:T13	
+R8	field_similar_as Arg1:T13 Arg2:T11	
+R9	has_cited_time Arg1:T16 Arg2:T15	
+R10	coauthor Arg1:T17 Arg2:T18	
+R11	has_cited_time Arg1:T19 Arg2:T18	
+R12	coauthor Arg1:T20 Arg2:T21	
+R13	has_cited_time Arg1:T22 Arg2:T21	
+R14	has_cited_time Arg1:T24 Arg2:T23	
+R15	field_similar_as Arg1:T23 Arg2:T20	
+R16	field_similar_as Arg1:T20 Arg2:T17	
+R17	field_similar_as Arg1:T17 Arg2:T15	
+R18	coauthor Arg1:T25 Arg2:T26	
+R19	has_cited_time Arg1:T27 Arg2:T26	
+R20	has_cited_time Arg1:T29 Arg2:T28	
+R21	results Arg1:T28 Arg2:T52	
+R22	coauthor Arg1:T31 Arg2:T32	
+R23	coauthor Arg1:T32 Arg2:T33	
+R24	has_cited_time Arg1:T34 Arg2:T33	
+R25	results Arg1:T31 Arg2:T53	
+R26	has_cited_time Arg1:T38 Arg2:T37	
+R27	coauthor Arg1:T40 Arg2:T41	
+R28	has_cited_time Arg1:T42 Arg2:T41	
+R29	results Arg1:T43 Arg2:T54	
+R30	coauthor Arg1:T43 Arg2:T44	
+R31	has_cited_time Arg1:T45 Arg2:T44	
+R32	has_cited_time Arg1:T48 Arg2:T47	
+R33	results Arg1:T47 Arg2:T55	
+R34	has_cited_time Arg1:T50 Arg2:T49	

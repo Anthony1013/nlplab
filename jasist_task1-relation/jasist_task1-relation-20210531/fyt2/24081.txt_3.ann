@@ -1,0 +1,15 @@
+T1	引文作者 2201 2206	Nahon
+T2	引文时间 2216 2220	2015
+T3	引文作者 84 89	Heeks
+T4	引文时间 92 96	2015
+T5	引文作者 64 79	Gonzalez‐Zapata
+T6	研究展望 210 251	This article is also limited by its scope
+T7	研究展望 0 205	Our suggestion for further study of OGD portals mirrors that of Gonzalez‐Zapata and Heeks ( 2015 ) , in that “ stakeholder analysis and perspectives analysis ” are necessary to understand the effect of OGD
+T8	研究展望 256 329	In the study , we only tested the framework on U.S. municipal OGD portals
+T9	研究展望 334 446	To further demonstrate the value and applicability of the evaluation framework , additional studies of non‐U.S .
+T10	研究展望 449 522	OGD portals , as well as state and federal‐level OGD portals , are needed
+T11	研究结果 1832 1985	The study revealed the performance variability of municipal OGD portals , and identified two possible factors : city population and the software platform
+T12	研究展望 1990 2198	To understand the variability fully , comparative case studies may be needed , to examine the political and socioeconomic diversity of local governments , and the heterogeneous character of municipal services
+T13	研究展望 2227 2376	To expand our knowledge of open data users , more research is needed to understand who actually uses the portals and the data , and for what purposes
+R1	has_cited_time Arg1:T4 Arg2:T3	
+R2	coauthor Arg1:T5 Arg2:T3	

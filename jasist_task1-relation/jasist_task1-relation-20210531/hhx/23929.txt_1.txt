@@ -1,0 +1,130 @@
+Adverse Drug Reactions ( ADRs ) have become a serious health problem and even a leading cause of death in the United States . 
+The Institute of Medicine reported in January of 2000 that an estimated 7,000 deaths occur because of ADRs ( Kohn , Corrigan , & Donaldson , 2000 ) . 
+A systematic overview conducted in 2007 shows that 5.3 % of hospital admissions were associated with ADRs ( Kongkaew , Noyce , & Ashcroft , 2008 ) . 
+It is estimated that ADR is the fourth leading cause of death in the United States ( Lazarou , Pomeranz , & Corey , 1998 ; Chee , Berlin , & Schatz , 2011 ) . 
+Premarketing review and post‐marketing surveillance have been used to identify ADRs . 
+Premarketing review is required before any drugs are approved for marketing , which uses clinical trials with a selected set of patients to identify the potential drug risks . 
+Because of the limited sample size and duration of clinical trials , premarketing review is insufficient for identifying all the potential ADRs . 
+Post‐marketing surveillance mainly relies on patient drug usage surveys or voluntary and spontaneous report systems provided by the U.S. Food and Drug Administration ( FDA 's Adverse Drug Event Reporting System ( FAERS ) , 2016 ) . 
+However , according to Hazell and Shakir ( 2006 ) , the median under‐reporting rate across 37 studies using a wide variety of post‐marketing surveillance methods from 12 countries is 94 % . 
+On the other hand , online health forums provide valuable information on a large scale and on a timely fashion through the active participation of patients and caregivers . 
+Online health forums , such as MedHelp ( 2016 ) , WebMD ( 2016 ) , PatientsLikeMe ( 2016 ) , and HealthBoards ( 2016 ) , are popular platforms for people to share their personal experience , participate in discussions , express their feelings , and support each other in health care . 
+The user population of such forums are rapidly growing . 
+For instance , MedHelp currently has more than 13 million active monthly users . 
+With highly valuable , patient‐contributed information that is ever increasing in volume , health forums provide the potential to discover knowledge about various disease treatments , their effects and adverse reactions , and so on . 
+Considering this , there is growing interest in leveraging online health forums to discover ADRs . 
+The basis of ADR discovery is through cooccurrence analysis . 
+The rationale is that if a drug causes an adverse reaction , then they should be mentioned together frequently . 
+Conversely , if a drug and an adverse event ( AE ) co‐occur frequently , then the AE may represent an ADR of the drug . 
+ADR can be thought as a relationship between a drug and an AE . 
+Different studies consider different information units for cooccurrence analysis on ADR relationship discovery . 
+For instance , Benton et al . 
+( 2011 ) considers a drug and an AE that co‐occur within a window of 20 words in the same post as potentially related . 
+More recently , Liu and Chen ( 2015 ) considers a drug and an AE that cooccur in the same sentence as potentially related . 
+Yang , Yang , and Jiang ( 2014 ) and H. Yang and Yang ( 2015 ) use a drug and an AE that cooccur in the same thread as evidence for ADR discovery . 
+Machine‐learning techniques are also used for ADR discovery , which consider a sentence ( Nikfarjam , Sarker , O'connor , Ginn , & Gonzalez , 2015 ) , a post ( Sampathkumar , Chen , & Luo , 2014 ; Yates , Goharian , & Frieder , 2015 ) , or a thread ( Wang , Li , Ferguson , & Zhai , 2014 ) as the information unit . 
+However , the information units used in the existing work are based on the syntax of documents , instead of the semantics . 
+Intuitively , drugs taken by one person can not cause AE experienced by another person . 
+It is important to use patient , as the semantic information unit in ADR discovery , and only consider the drug and the AE that occur on the same patient as a potential ADR . 
+The semantic unit is typically not aligned with syntactic units . 
+The drug and its corresponding adverse reactions may not necessarily be mentioned in the same sentence , the same post , or even the same thread . 
+For example , one patient mentioned that she was on aspirin in one post . 
+In another post , she mentioned that she always felt dizzy and frequently experienced spinning sensation . 
+It is possible that dizzy or spinning sensation was caused by the drug aspirin she was taking . 
+On the other hand , an AE can not be caused by a drug if it was taken by a different patient even if they are mentioned in the same document unit . 
+Consider a thread in which many patients shared their experience . 
+One patient mentioned that she had flushed skin , whereas another patient indicated that he was taking aspirin . 
+If the first patient did not mention that she was on aspirin , we can not make any inference that aspirin may cause flushed skin just because the drug and AE mentions cooccur in the same thread . 
+Therefore , we need to identify the drug and AE pairs that are associated with the same patient for ADR discovery . 
+Another challenge of mining health forums for ADR discovery is the varying degree of information quality . 
+Some information reflects patient‐reported personal health experience , such as “ Took Keppra for a week . 
+I felt very nauseous , ” which provides evidence of ADR . 
+On the other hand , there is also a lot of hearsays on the forum , such as “ Your daughter should not take Keppra as it is known to be unsafe for children. ” Such unverified hearsay , if used for ADR discovery , can be misleading . 
+To discover trustworthy ADR knowledge from online health forums , it is critical for us to extract patient‐reported health experience and differentiate it from hearsays or advices . 
+Liu and Chen ( 2015 ) show that differentiating patient experience from hearsay can significantly improve the performance of ADR discovery in empirical evaluation , where a set of sentences are manually labeled as patient experience or hearsay . 
+Based on these observations , we propose a novel framework for ADR discovery on online health forums that is based on automated patient‐centered information association and experience‐aware mining . 
+The patient‐centered information association technique identifies patients mentioned in health forums , aggregates and associates the health information with the corresponding patients . 
+The experience mining technique automatically distinguishes patient experience from the other forum information . 
+Using these techniques , we build a patient‐centered and experience‐aware health information database and apply it to ADR discovery . 
+The effectiveness of our work is verified in experimental evaluation . 
+Figure 1 presents the architecture of our system . 
+After crawling the data from health forum , the Data Preprocessing process outputs post related information , thread structure , and separated sentences . 
+The information in a health forum is usually organized in discussion threads . 
+Each thread consists of a set of posts ordered by their posting time . 
+We extract the thread structure and the reply relationships between posts in a thread , which will be used in other processes to be discussed shortly . 
+The Data Preprocessing process also tags terms that correspond to drugs and adverse events ( AEs ) using the SIDER database ( Kuhn , Letunic , Jensen , & Bork , 2015 ) and consumer health vocabulary ( CHV ) developed in the literature ( Zeng & Tse , 2006 ) . 
+SIDER is a drug knowledge database that contains information of drugs on market and their recorded adverse drug reactions . 
+It also includes drug indications , that is , what the drug is used to treat . 
+To handle the gap between consumer terms used in health forums and professional terms used in the SIDER database , CHV is used for mapping between professional terms and consumer terms . 
+Each professional term in SIDER or consumer term in CHV has a concept unique identifier ( CUI ) in the Unified Medical Language System ( UMLS ) ( Lindberg , Humphreys , & McCray , 1993 ) . 
+All the terms with the same CUI are considered equivalent in our ADR discovery process . 
+For example , the CUI of “ diarrhea ” is “ C0011991 , ” which corresponds to 12 terms in CHV , including “ diarrhea , ” “ loose bowel movement , ” and others . 
+All these expressions are considered as the same AE . 
+The proposed framework for ADR discovery . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] After we tag the terms that represent drugs or AEs , the next question is which pair of drug and AE represents ADR , that is , the AE is caused by the drug . 
+Cooccurrence analysis has been extensively used to discover ADRs in online health forums . 
+A pair of drug‐AE occurrence is constructed if the drug and the AE cooccur in the same information unit . 
+The information unit used in the literature can be a sentence , a post , or a thread . 
+Different from the literature , in this work we consider each patient as the semantic information unit , and only count the drug‐AE pairs whose occurrences are associated with the same patient , as identified by the Patient‐Centered Mining process . 
+Furthermore , we filter out the drug‐AE occurrence pairs where either the drug or the AE occurs in a sentence that does not describe patient experience , as identified by the Patient Experience Mining process , for evidence‐based ADR discovery . 
+The remaining drug‐AE occurrence pairs are grouped by the unique drug‐AE combination . 
+Note that an AE can be either a disease symptom or a reaction to the drug taken , as disease symptoms and drug adverse reactions share the same vocabulary . 
+Thus we remove the drug‐AE pair where the AE actually represents a symptom of the disease that the drug treats . 
+Specifically , following the method used by LePendu et al . 
+( 2013 ) , for each identified drug‐AE pair , if the AE is the indication of that drug according to SIDER , we remove the pair . 
+To identify a drug and an AE that are associated with the same person , we propose patient‐centered mining technique that associates health information with the corresponding patients . 
+The overview is shown in Figure 2 . 
+A rectangle represents a process , a parallelogram represents an intermediate input or output , and a rounded rectangle represents a tool used by the corresponding process . 
+The Patient‐Centered Mining process takes the preprocessed data as input and outputs health information associated with corresponding patients . 
+This process has four major components : Person Identification , Person Resolution , Patient Identification , and Health Information Association . 
+In Person Identification component , we discover all person mentions to identify potential patient mentions . 
+Sometimes it is difficult to determine whether a person mention refers to a patient ; thus we use Person Resolution to group all person mentions into clusters such that all the mentions in the same cluster refer to the same person . 
+Then we perform Patient Identification based on the information of all the person mentions in each cluster . 
+At last , we conduct Health Information Association for each identified patient , such that health information is associated with corresponding patients and stored a patient‐centered health information database . 
+In the following , we introduce each system component in detail . 
+The patient‐centered mining process overview . 
+This component takes sentences in posts as input and outputs person mentions . 
+Our method is based on the Stanford Core NLP tools ( Stanford Core NLP Tools , 2016 ) and MetaMap tool ( Aronson , 2006 ) in UMLS . 
+First , all person names identified by Named Entity Recognition ( NER ) and pronouns ( except “ it ” ) identified by Part of Speech ( POS ) tagger are identified as person mentions . 
+For example , “ Katie '' ( a person 's name ) , and pronouns such as “ she ” and “ her ” are identified as person mentions . 
+Second , we use the semantic types output by MetaMap to identify person mentions . 
+For example , “ my daughter ” will be identified as a person mention because its semantic type is “ family group , ” which belongs to “ living beings ” semantic group . 
+This component groups the person mentions in a thread into clusters such that each cluster includes all the mentions that refer to the same person . 
+Stanford coreference resolution system ( Lee et al. , 2013 ) is used for generating person resolution within a post . 
+For example , in “ Katie is 5 years old , and she has a sensory integration disorder , ” “ Katie ” and “ she ” are identified as coreferent . 
+In addition to person resolution within a post , we also develop techniques for inter‐post person resolution , which identifies the same person whose mentions appear in different posts or even in different threads . 
+We observe that in online health forums , many patients participate in multiple discussion threads to share their experience . 
+They may mention that they took a drug in one post , and then describe some adverse event experience in a follow‐up post in the same thread or in another thread with a related topic . 
+If we ignore the drug‐AE pairs that appear across posts or threads , we may miss some potential ADR instances . 
+Therefore , we propose to connect the information pieces associated with the same patient by first identifying all the person mentions that refer to the same person across posts or threads . 
+As there are no publicly available systems for inter‐post person resolution , we develop techniques for that . 
+We leverage author information and thread structure for inter‐post person resolution . 
+First , we consider that the person mentions belong to the same role to the same author refer to the same person . 
+For example , if “ my mom ” has been mentioned by the same author in two different posts , we consider them as coreferent . 
+Second , we transform a thread into multiple multiperson conversation documents based on the reply relationship , in which a post author is a speaker and the post content is analogous to the utterance . 
+In this way , within the same thread , the person mentioned in the reply post that refers to the person in its parent post can be identified as coreferent . 
+The output of person resolution is person mention clusters . 
+This component identifies the patient mentions from the identified person mention clusters . 
+We use semantic role labeling ( SRL ) ( Collobert et al. , 2011 ) with Propbank ( Palmer , Gildea , & Kingsbury , 2005 ) annotation to identify the semantic arguments associated with the predicate or verb in a sentence , and classify them into different semantic roles . 
+In this article , we identify persons associated with some special verbs such as “ diagnose , ” “ treat , ” “ cure , ” “ prescribe , ” “ meditate , ” as patients . 
+One example generated by Illinois semantic role labeling visualization tool ( Punyakanok , Roth , & Yih , 2008 ) is given in Figure 3 . 
+In this example , “ My daughter , ” the A 1 argument of the verb “ diagnose , ” is identified as a patient . 
+An example of semantic role labeling . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We also use 12 patient identification patterns based on a small training data set , such as “ take pharmacologic substance , ” “ have disease or syndrome ” and others . 
+Here “ pharmacologic substance ” and “ disease or syndrome ” are two semantic types for medical phrase , which can be labeled from post content by MetaMap . 
+For example , from “ she has a sensory integration disorder , ” we can identify that “ she ” is a patient because “ sensory integration disorder ” has the semantic type “ disease or syndrome . 
+” As shown in experimental evaluation , this small number of patterns have a very high coverage in identifying patients and scale well in a large data set . 
+Because all the coreferent person mentions refer to the same person , if at least one of them has been identified as a patient mention , we identify this person as a patient . 
+We call its output as patient mention clusters . 
+This component associates the health information in a forum thread with the corresponding patient mentioned in that thread . 
+Here the health information can be conditions , symptoms , treatments , diseases , adverse reactions , and so on . 
+They are identified by MetaMap . 
+We then output patient health information units by aggregating the information associated with the same patient as one information unit . 
+Note that the health information in a reply post can be associated with the patient mentioned in its parent post if the reply post does not introduce a new patient . 
+In this way , the clarification from a replier can also be associated with the patient mentioned in a preceding post . 
+As discussed in the introduction , not all health forum information is equally important . 
+We propose to discover ADRs only from patient‐reported health experience for evidence‐based knowledge discovery . 
+In this section , we focus on patient experience mining , and introduce our proposed context‐aware experience extraction framework for effective patient experience mining . 
+Patient experience is defined as health‐related events and/or activities undergone by a specific patient and the corresponding opinions on those events and/or activities perceived by the patient . 
+For example , “ Took Keppra for a week . 
+I felt very nauseous ” is patient experience . 

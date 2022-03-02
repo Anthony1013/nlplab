@@ -1,0 +1,354 @@
+T1	引文作者 90 92	Li
+T2	引文时间 102 106	2016
+T3	引文作者 109 112	Liu
+T4	引文作者 115 121	Cheung
+T5	引文作者 126 129	Lee
+T6	引文时间 132 136	2016
+T7	术语 262 278	influence spread
+T8	术语 365 380	viral marketing
+T9	引文的结果 316 399	influence maximization is the key problem behind viral marketing in social networks
+T10	引文作者 402 407	Kempe
+T11	引文作者 410 419	Kleinberg
+T12	引文作者 424 430	Tardos
+T13	引文时间 433 437	2003
+T14	引文作者 605 607	Li
+T15	引文作者 610 615	Zhang
+T16	引文作者 620 623	Tan
+T17	引文时间 626 630	2015
+T18	引文的结果 522 602	extend the traditional influence maximization to targeted influence maximization
+T19	引文的结果 637 674	location‐aware influence maximization
+T20	引文作者 677 679	Li
+T21	引文作者 682 686	Chen
+T22	引文作者 689 693	Feng
+T23	引文作者 696 699	Tan
+T24	引文作者 704 706	Li
+T25	引文时间 709 713	2014
+T26	引文作者 716 720	Wang
+T27	引文作者 723 728	Zhang
+T28	引文作者 731 736	Zhang
+T29	引文作者 741 744	Lin
+T30	引文时间 747 751	2016
+T31	引文的方法 756 955	in which researchers take users who have topic preferences or geographical preferences on given queries as targeted users , and find seeds to maximize the influence spread over these targeted users .
+T32	术语 1218 1233	viral marketing
+T33	术语 1572 1576	LTIM
+T34	术语 1523 1569	location‐aware targeted influence maximization
+T35	研究结果 1495 1586	In this paper , we define a location‐aware targeted influence maximization ( LTIM ) problem
+T36	术语 1783 1787	LTIM
+T37	具体模型 1966 1996	maximum influence arborescence
+T38	具体模型 1999 2002	MIA
+T39	术语 2017 2021	LTIM
+T40	术语 2033 2040	NP‐hard
+T41	研究结果 1941 2096	We show that , under the maximum influence arborescence ( MIA ) model , the LTIM problem is NP‐hard , and its influence spread is submodular and monotone .
+T42	引文作者 2159 2163	Chen
+T43	引文作者 2166 2170	Wang
+T44	引文作者 2175 2179	Wang
+T45	引文时间 2182 2186	2010
+T46	引文的结果 2131 2156	existing greedy algorithm
+T47	术语 2265 2281	greedy algorithm
+T48	术语 2452 2456	LTIM
+T49	术语 2390 2394	LTIM
+T50	研究问题 2322 2404	in this paper we focus on the design of efficient solutions for the LTIM problem .
+T51	具体模型 2757 2784	latent dirichlet allocation
+T52	具体模型 2787 2790	LDA
+T53	引文作者 2801 2805	Blei
+T54	引文作者 2808 2810	Ng
+T55	引文作者 2815 2821	Jordan
+T56	引文时间 2824 2828	2003
+T57	引文的结果 2753 2798	the latent dirichlet allocation ( LDA ) model
+T58	具体模型 2855 2858	LDA
+T59	具体模型 2954 2957	LDA
+T60	术语 3128 3142	Gibbs sampling
+T61	术语 3441 3464	TR‐tree index structure
+T62	术语 3559 3566	TR‐tree
+T63	术语 3916 3932	greedy algorithm
+T64	引文的结果 3946 3974	the priority‐based framework
+T65	引文作者 3977 3981	Wang
+T66	引文时间 3991 3995	2016
+T67	术语 4051 4075	topic oriented algorithm
+T68	术语 4086 4089	TOA
+T69	术语 4096 4122	TR‐tree oriented algorithm
+T70	术语 4133 4137	TROA
+T71	术语 4269 4272	TOA
+T72	术语 4298 4309	topic index
+T73	术语 4706 4710	TROA
+T74	术语 4736 4743	TR‐tree
+T75	术语 4750 4766	node‐topic index
+T76	术语 4788 4795	TR‐tree
+T77	术语 4919 4926	TR‐tree
+T78	术语 5117 5149	dynamic priority queue structure
+T79	术语 5248 5267	heuristic algorithm
+T80	术语 5278 5282	DLIA
+T81	术语 5685 5689	LTIM
+T82	研究结果 5623 5755	We formally introduce the location‐aware targeted influence ( LTIM ) problem and propose efficient solutions to solve this problem .
+T83	术语 5864 5887	TR‐tree index structure
+T84	术语 5910 5917	TR‐tree
+T85	术语 6024 6058	efficient approximation algorithms
+T86	引文作者 6458 6463	Kempe
+T87	引文时间 6476 6480	2003
+T88	术语 6500 6522	influence maximization
+T89	术语 6525 6527	IM
+T90	术语 6578 6594	greedy algorithm
+T91	引文的结果 6483 6656	first formulated influence maximization ( IM ) as a discrete optimization problem , and gave a greedy algorithm with provable approximation guarantee to solve this problem .
+T92	术语 6672 6688	greedy algorithm
+T93	引文的结果 6659 6807	Based on the greedy algorithm , there has been a large body of research work devoted to improving the efficiency while keeping the theoretical bound
+T94	引文作者 6810 6818	Leskovec
+T95	引文时间 6828 6832	2007
+T96	引文作者 6835 6839	Chen
+T97	引文时间 6849 6853	2010
+T98	引文作者 6856 6858	Li
+T99	引文时间 6868 6872	2014
+T100	引文作者 6875 6879	Chen
+T101	引文时间 6889 6893	2015
+T102	引文作者 6896 6900	Wang
+T103	引文时间 6910 6914	2016
+T104	术语 6945 6947	IM
+T105	术语 6963 6984	reverse influence set
+T106	术语 6987 6990	RIS
+T107	引文的结果 6921 6992	Another solution to the IM problem is the reverse influence set ( RIS )
+T108	引文作者 6995 7000	Borgs
+T109	引文作者 7003 7011	Brautbar
+T110	引文作者 7014 7020	Chayes
+T111	引文作者 7025 7031	Lucier
+T112	引文时间 7034 7038	2012
+T113	引文作者 7041 7043	Li
+T114	引文时间 7053 7057	2015
+T115	引文作者 7061 7065	Tang
+T116	引文作者 7068 7072	Xiao
+T117	引文作者 7077 7080	Shi
+T118	引文时间 7083 7087	2014
+T119	引文作者 7090 7094	Tang
+T120	引文作者 7097 7100	Shi
+T121	引文作者 7105 7109	Xiao
+T122	引文时间 7112 7116	2015
+T123	术语 7139 7159	heuristic algorithms
+T124	引文的结果 7134 7199	some heuristic algorithms were proposed to improve the efficiency
+T125	引文作者 7202 7206	Chen
+T126	引文作者 7209 7213	Wang
+T127	引文作者 7218 7222	Yang
+T128	引文时间 7225 7229	2009
+T129	引文作者 7232 7237	Jiang
+T130	引文时间 7247 7251	2011
+T131	引文作者 7430 7432	Li
+T132	引文时间 7445 7449	2015
+T133	术语 7463 7508	keyword‐based targeted influence maximization
+T134	术语 7511 7517	KB‐TIM
+T135	引文的结果 7453 7529	defined a keyword‐based targeted influence maximization ( KB‐TIM ) problem .
+T136	术语 7554 7557	RIS
+T137	术语 7598 7601	RIS
+T138	术语 7604 7608	WRIS
+T139	术语 7638 7644	KB‐TIM
+T140	术语 7686 7712	sampling procedure offline
+T141	术语 7795 7797	IM
+T142	引文作者 7897 7902	Aslay
+T143	引文作者 7905 7913	Barbieri
+T144	引文作者 7916 7922	Bonchi
+T145	引文作者 7929 7940	Baeza‐Yates
+T146	引文时间 7943 7947	2014
+T147	具体模型 8104 8107	MIA
+T148	引文的研究问题 8087 8164	By utilizing the MIA model to approximate the computation of influence spread
+T149	引文作者 8167 8171	Chen
+T150	引文时间 8184 8188	2015
+T151	引文的结果 8191 8305	proposed a best‐first framework with approximation ratio and devised efficient algorithms to address the problem .
+T152	引文作者 8308 8312	Chen
+T153	引文作者 8315 8318	Lin
+T154	引文作者 8325 8329	Yang
+T155	引文时间 8332 8336	2016
+T156	引文的结果 8339 8464	proposed to utilize the preprocessing methods for topics to avoid redoing influence maximization for each item from scratch .
+T157	引文作者 8467 8470	Chu
+T158	引文时间 8483 8487	2014
+T159	引文的结果 8490 8589	proposed effective techniques to estimate the influence bound and utilize the bound to do pruning .
+T160	术语 8655 8657	IM
+T161	术语 8713 8715	IM
+T162	引文作者 8718 8720	Li
+T163	引文时间 8733 8737	2014
+T164	术语 8767 8769	IM
+T165	引文的结果 8740 8845	studied the location‐aware IM problem and developed an efficient scheme that offers wide influence spread
+T166	术语 8884 8901	greedy algorithms
+T167	引文作者 8993 8997	Wang
+T168	引文时间 9010 9014	2016
+T169	术语 9044 9046	IM
+T170	引文的结果 9017 9142	defined the distance‐aware IM problem , which takes the distance between users and the promoted location into consideration .
+T171	具体模型 9210 9213	MIA
+T172	引文的方法 9193 9247	they adopted the MIA model for influence approximation
+T173	引文的结果 9278 9455	hey proposed three pruning strategies to prune unpromising nodes from expensive evaluation and achieve potential early termination in each iteration with the approximation ratio
+T174	引文作者 9460 9464	Zhou
+T175	引文时间 9477 9481	2015
+T176	具体模型 9495 9531	two phase ( TP ) influence diffusion
+T177	术语 9611 9613	IM
+T178	引文的结果 9484 9623	proposed a two phase ( TP ) influence diffusion model and devised two heuristic algorithms to solve the defined location‐based IM problem .
+T179	具体模型 9639 9669	novel conformity‐aware cascade
+T180	术语 9786 9792	CINEMA
+T181	术语 9821 9823	IM
+T182	引文的结果 9786 9831	CINEMA was proposed to address the IM problem
+T183	引文作者 9834 9836	Li
+T184	引文作者 9839 9847	Bhowmick
+T185	引文作者 9852 9855	Sun
+T186	引文时间 9858 9862	2013
+T187	引文作者 9869 9871	Li
+T188	引文作者 9874 9882	Bhowmick
+T189	引文作者 9885 9888	Sun
+T190	引文作者 9893 9896	Cui
+T191	引文时间 9899 9903	2015
+T192	术语 9911 9917	CINEMA
+T193	具体模型 10174 10177	MIA
+T194	引文作者 10186 10190	Chen
+T195	引文时间 10200 10204	2010
+T196	术语 10317 10321	LTIM
+T197	术语 10421 10425	LTIM
+T198	术语 10469 10473	LTIM
+T199	术语 10577 10581	LTIM
+T200	具体模型 10756 10759	MIA
+T201	术语 10769 10776	NP‐hard
+T202	引文作者 10779 10783	Chen
+T203	引文时间 10793 10797	2010
+T204	引文的结果 10699 10776	The traditional influence maximization problem under the MIA model is NP‐hard
+T205	术语 10879 10883	LTIM
+T206	术语 10890 10894	LTIM
+T207	术语 10911 10918	NP‐hard
+T208	术语 11046 11062	greedy algorithm
+T209	术语 11117 11121	LTIM
+T210	术语 11258 11281	TR‐tree index structure
+T211	术语 11293 11300	TR‐tree
+T212	术语 11447 11450	MBR
+T213	术语 11490 11492	TS
+T214	术语 12098 12101	MBR
+T215	术语 12401 12404	MBR
+T216	术语 12810 12813	MBR
+T217	图 12677 12742	Figure 1 describes six social users and their topic preferences .
+T218	图 12745 12814	Figure 2 describes the check‐in records of these users and their MBRs
+T219	术语 12838 12851	TR‐tree index
+T220	图 12819 12958	Figure 3 shows the TR‐tree index for these users , the documents pointed to by entries R7 and R8 , and the pseudo document pointed to by R3
+T221	图 12973 13036	Figure 1 describes six social users and their topic preferences
+T222	图 13041 13110	Figure 2 describes the check‐in records of these users and their MBRs
+T223	术语 13106 13109	MBR
+T224	术语 13134 13147	TR‐tree index
+T225	图 13115 13254	Figure 3 shows the TR‐tree index for these users , the documents pointed to by entries R7 and R8 , and the pseudo document pointed to by R3
+T226	术语 13364 13377	TR‐tree index
+T227	术语 13439 13446	TR‐tree
+T228	术语 13914 13928	R‐tree indexes
+T229	引文作者 13972 13976	Cong
+T230	引文作者 13979 13985	Jensen
+T231	引文时间 13988 13992	2016
+T232	引文的结果 13873 13969	there has been a number of keyword based R‐tree indexes to support efficient geo‐textual queries
+T233	术语 14032 14045	TR‐tree index
+T234	术语 14077 14091	R‐tree indexes
+T235	术语 14416 14423	TR‐tree
+T236	术语 14725 14732	TR‐tree
+T237	术语 15013 15020	TR‐tree
+T238	术语 15852 15855	TOA
+T239	研究结果 15738 15875	we first propose two kinds of indexes to efficiently store users ' estimated initial influences and then devise a TOA for seeds selection
+T240	表 16120 16169	Table 1 shows the topic index for topic t2 and t5
+T241	图 16176 16208	user index for users in Figure 1
+T242	表 16223 16272	Table 1 shows the topic index for topic t2 and t5
+T243	图 16279 16311	user index for users in Figure 1
+T244	引文的结果 16368 16396	the priority‐based framework
+T245	引文作者 16399 16403	Wang
+T246	引文时间 16413 16417	2016
+T247	术语 16648 16657	iteration
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	coauthor Arg1:T3 Arg2:T4	
+R3	coauthor Arg1:T4 Arg2:T5	
+R4	has_cited_time Arg1:T6 Arg2:T5	
+R5	field_similar_as Arg1:T3 Arg2:T1	
+R6	coauthor Arg1:T10 Arg2:T11	
+R7	coauthor Arg1:T11 Arg2:T12	
+R8	has_cited_time Arg1:T13 Arg2:T12	
+R9	results Arg1:T10 Arg2:T9	
+R10	results Arg1:T14 Arg2:T18	
+R11	coauthor Arg1:T14 Arg2:T15	
+R12	coauthor Arg1:T15 Arg2:T16	
+R13	has_cited_time Arg1:T17 Arg2:T16	
+R14	results Arg1:T20 Arg2:T19	
+R15	coauthor Arg1:T20 Arg2:T21	
+R16	coauthor Arg1:T21 Arg2:T22	
+R17	coauthor Arg1:T22 Arg2:T23	
+R18	coauthor Arg1:T23 Arg2:T24	
+R19	has_cited_time Arg1:T25 Arg2:T24	
+R20	coauthor Arg1:T26 Arg2:T27	
+R21	coauthor Arg1:T27 Arg2:T28	
+R22	coauthor Arg1:T28 Arg2:T29	
+R23	has_cited_time Arg1:T30 Arg2:T29	
+R24	field_similar_as Arg1:T26 Arg2:T20	
+R25	uses Arg1:T20 Arg2:T31	
+R26	results Arg1:T42 Arg2:T46	
+R27	coauthor Arg1:T42 Arg2:T43	
+R28	coauthor Arg1:T43 Arg2:T44	
+R29	has_cited_time Arg1:T45 Arg2:T44	
+R30	results Arg1:T53 Arg2:T57	
+R31	coauthor Arg1:T53 Arg2:T54	
+R32	coauthor Arg1:T54 Arg2:T55	
+R33	has_cited_time Arg1:T56 Arg2:T55	
+R34	results Arg1:T65 Arg2:T64	
+R35	has_cited_time Arg1:T66 Arg2:T65	
+R36	has_cited_time Arg1:T87 Arg2:T86	
+R37	results Arg1:T86 Arg2:T91	
+R38	results Arg1:T94 Arg2:T93	
+R39	has_cited_time Arg1:T95 Arg2:T94	
+R40	has_cited_time Arg1:T97 Arg2:T96	
+R41	has_cited_time Arg1:T99 Arg2:T98	
+R42	has_cited_time Arg1:T101 Arg2:T100	
+R43	has_cited_time Arg1:T103 Arg2:T102	
+R44	field_similar_as Arg1:T102 Arg2:T100	
+R45	field_similar_as Arg1:T100 Arg2:T98	
+R46	field_similar_as Arg1:T98 Arg2:T96	
+R47	field_similar_as Arg1:T96 Arg2:T94	
+R48	results Arg1:T108 Arg2:T107	
+R49	coauthor Arg1:T108 Arg2:T109	
+R50	coauthor Arg1:T109 Arg2:T110	
+R51	coauthor Arg1:T110 Arg2:T111	
+R52	has_cited_time Arg1:T112 Arg2:T111	
+R53	has_cited_time Arg1:T114 Arg2:T113	
+R54	coauthor Arg1:T115 Arg2:T116	
+R55	coauthor Arg1:T116 Arg2:T117	
+R56	has_cited_time Arg1:T118 Arg2:T117	
+R57	coauthor Arg1:T119 Arg2:T120	
+R58	coauthor Arg1:T120 Arg2:T121	
+R59	has_cited_time Arg1:T122 Arg2:T121	
+R60	field_similar_as Arg1:T119 Arg2:T115	
+R61	field_similar_as Arg1:T115 Arg2:T113	
+R62	field_similar_as Arg1:T113 Arg2:T108	
+R63	results Arg1:T125 Arg2:T124	
+R64	coauthor Arg1:T125 Arg2:T126	
+R65	coauthor Arg1:T126 Arg2:T127	
+R66	has_cited_time Arg1:T128 Arg2:T127	
+R67	has_cited_time Arg1:T130 Arg2:T129	
+R68	field_similar_as Arg1:T129 Arg2:T125	
+R69	has_cited_time Arg1:T132 Arg2:T131	
+R70	results Arg1:T131 Arg2:T135	
+R71	has_cited_time Arg1:T146 Arg2:T145	
+R72	coauthor Arg1:T142 Arg2:T143	
+R73	coauthor Arg1:T143 Arg2:T144	
+R74	coauthor Arg1:T144 Arg2:T145	
+R75	produces Arg1:T149 Arg2:T148	
+R76	has_cited_time Arg1:T150 Arg2:T149	
+R77	results Arg1:T149 Arg2:T151	
+R78	coauthor Arg1:T152 Arg2:T153	
+R79	coauthor Arg1:T153 Arg2:T154	
+R80	has_cited_time Arg1:T155 Arg2:T154	
+R81	results Arg1:T152 Arg2:T156	
+R82	has_cited_time Arg1:T158 Arg2:T157	
+R83	results Arg1:T157 Arg2:T159	
+R84	has_cited_time Arg1:T163 Arg2:T162	
+R85	results Arg1:T162 Arg2:T165	
+R86	has_cited_time Arg1:T168 Arg2:T167	
+R87	results Arg1:T167 Arg2:T170	
+R88	uses Arg1:T167 Arg2:T172	
+R89	results Arg1:T174 Arg2:T173	
+R90	has_cited_time Arg1:T175 Arg2:T174	
+R91	results Arg1:T174 Arg2:T178	
+R92	results Arg1:T183 Arg2:T182	
+R93	coauthor Arg1:T183 Arg2:T184	
+R94	coauthor Arg1:T184 Arg2:T185	
+R95	has_cited_time Arg1:T186 Arg2:T185	
+R96	coauthor Arg1:T187 Arg2:T188	
+R97	coauthor Arg1:T188 Arg2:T189	
+R98	coauthor Arg1:T189 Arg2:T190	
+R99	has_cited_time Arg1:T191 Arg2:T190	
+R100	has_cited_time Arg1:T195 Arg2:T194	
+R101	results Arg1:T202 Arg2:T204	
+R102	has_cited_time Arg1:T203 Arg2:T202	
+R103	results Arg1:T229 Arg2:T232	
+R104	coauthor Arg1:T229 Arg2:T230	
+R105	has_cited_time Arg1:T231 Arg2:T230	
+R106	results Arg1:T245 Arg2:T244	
+R107	has_cited_time Arg1:T246 Arg2:T245	

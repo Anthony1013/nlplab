@@ -1,0 +1,99 @@
+To sum up , although clear trends can be identified regarding self‐citation and the citation of unknown authors , few significant variations can be observed for the other categories , and no general trend can be identified across disciplines ( note that the contents of Tables 5 and 6 were computed independently based on the corresponding subsets of our data ) . 
+In order to study the citation context in more detail ( i.e. , the textual content of the sentence in which a citation occurs ) , we first need to explore the heterogeneity of these contexts with respect to the social relation . 
+We consider that citations often appear in clusters and that , in these cases , the citing authors treat them as equivalent . 
+In the following , we consider that two citations appear in the same cluster if they meet strict criteria . 
+This can be one of the following cases : both citations appear in the same footnote or endnote , with no intervening text ; both citations are grouped within the same parenthesis , such as “ ( 7 , 8 , 9 ) ” ; both citations appear in the same sentence with no intervening text , such as “ see MacDonald , 1997 ; Michael et al. , 1997 ; Pippenger and Goering , 1998 ; Baum et al. , 2001 ; Taylor et al. , 2001 ” . 
+If there is a textual element between two citations , they are considered to be part of separate clusters , illustrated by “ [ … ] proposed by Cass ( 1972 ) and , concerning OLG economies , by Shell ( 1971 ) [ … ] ” . 
+We extracted all such clusters from our corpus , retaining the social relation type for each citation . 
+Our objective in this part of the study was to measure the distribution and combination of social relations in these clusters , where the citing authors considered the citations as equivalent . 
+Table 7 shows several statistics related to the distribution of citations in clusters . 
+There is an important variation across disciplines in the clustering of citations . 
+Chemistry articles contain numerous and large clusters , covering a majority of the citations ; most of them are in fact footnotes containing nothing but a list of references . 
+Biology follows a similar scheme , but with a larger number of smaller clusters ( citations are mostly inline ) . 
+On the other side , Sociology and Maths authors scarcely regroup their citations in clusters , with a large majority of citations appearing isolated . 
+Economics articles show a profile very close to the average on these aspects . 
+We then measured the distribution of social relations inside these clusters and for isolated citations . 
+The order in which citations appear in a given cluster was not taken into account , as it may be conditioned by arbitrary criteria ( such as alphabetical or chronological order ) . 
+First , we computed the number of citations of each type that appear isolated , then the number of clusters in which a given pair of social relation types appeared . 
+The overall results are presented in Table 8 . 
+For example , we found 1,006 isolated self‐citations , 239 clusters where two or more self‐citations were listed , 16 clusters where a self‐citation co‐occurred with a 2_SameLab citation , and so on . 
+3_Collab/ Friend 4_Already Met 5_Known ByName We then performed a Monte‐Carlo simulation in order to estimate the distribution of social relation types in clusters when all citations are randomly distributed . 
+To do this , for each article in our collection , we ran 1000 random shuffles of all citations , preserving the original number and size of each citation cluster ( including isolated citations ) . 
+This gave us an expected distribution , which we used as a baseline for the identification of significant variations . 
+Table 9 shows adjusted Pearson residuals measured when comparing the observed distribution ( in Table 8 ) with expected values . 
+Absolute residuals above two are highlighted ( green indicates an observed frequency higher than expected , and red lower ) . 
+It appears that self‐citations are most likely to be isolated or associated with other self‐citations , but appear very rarely in association with other social relation types . 
+The same principle applies to 6_Unknown citations , which are not found in combination with other types ( especially self‐citations ) . 
+Mid‐range types ( 3_Collab/Friend and 4_AlreadyMet ) tend to appear in a group ( i.e. , not isolated ) and there is a good level of compatibility between them . 
+Globally , although homogeneity is observed for all types of clustered citations , the phenomenon seems to be stronger for citations with a low level of knowledge of the cited authors . 
+Another observation is the limited compatibility of citations of similar types , as shown in the second diagonal of Table 9 . 
+3_Collab/ Friend 4_Already Met 5_Known ByName Adjusted Pearson residuals for combined social relation types in citation clusters for the five disciplines and the overall corpus . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Figure 6 is a rough outline of the residuals for each discipline , following the same structure as Table 9 ( the first column is for isolated citations , other columns and rows correspond to relation types indicated by their numbers ) . 
+Exact values are not reported , but lighter colors indicate either positive or negative values under a threshold of two . 
+Similar tendencies can be observed for each subset of the data , although the effects are less visible for disciplines that favour isolated citations , such as math and sociology . 
+The last aspect we considered in the evaluation of variation in social relations was the context , i.e. , the text surrounding the citation . 
+This aspect of a citation is typically useful in order to identify its function ( Teufel , 2006 ) . 
+The work we describe here represents an initial attempt to identify whether there are any differences in the linguistic aspects of a citation , indicative of differences in the attitude of the citing author to the different types of citation . 
+To define the context of a citation , we adopt what Ritchie et al. , ( 2008 ) call the 3sentupto method , which consists in extracting the sentence the citation appears in , together with the preceding and following sentences , but truncating the context when another citation is found to the left or right of the target citation . 
+We restricted our study to isolated citations and homogeneous citation clusters ( i.e. , clusters in which all citations belong to the same social relation category ) . 
+As noted above , clustered citations can not be distinguished from one another , and within‐group heterogeneity leads to contradictory information . 
+In addition , large clusters would dominate if each citation in the cluster was taken into account . 
+Whatever the homogeneous cluster 's size , we thus considered it as only one instance of the corresponding social relation . 
+This led to the identification of 4,356 citation “ spots , ” characterized by a single social relation , for which we extracted the contexts . 
+We then trained a supervised logistic regression classifier ( with a cut‐off of 5 ) to categorize the context according to the social relation . 
+We used standard features to represent the context ( word lemmas unigrams , bigrams and trigrams ; bigrams of lemmas+POS tag ; trigrams of characters ) . 
+Each feature was limited to a binary value ( present/absent from the context ) . 
+The classifier was evaluated based on 10‐fold random cross‐validation . 
+The resulting accuracy was 43 % and the micro‐average F1‐measure was 0.43 . 
+Detailed scores as a function of social relations are indicated in Table 10 . 
+It is clear that different social relations influence the efficiency of the classifier . 
+Self‐citations and unknown citations were identified most easily . 
+The remaining levels have less accurate , but similar scores . 
+Similar values were found when we processed each discipline subset separately . 
+Next , we investigated the best predictor features for each class , based on their weights in the trained model . 
+Specifically , we selected word and word n‐grams ( as character n‐grams can not be interpreted easily ) , and manually examined some of the contexts to obtain an insight into linguistic phenomena . 
+For the 1_Self category , the best linguistic features related to temporal expressions such as “ previously ” and “ recently ” ( as in “ as previously shown ” ) , and first‐person pronouns and possessives ( “ we ” / “ us ” / “ our ” ) . 
+This confirms that most self‐citations explicitly refer to previous work by the authors . 
+For the 6_Unknown category some features related to methodological aspects ( “ use , ” “ parameter , ” “ software , ” “ database ” etc . 
+) and expressions such as “ e.g . 
+, ” and “ for example , ” indicating that the cited reference is just one out of several other possible choices . 
+For the other categories , although some features were identified they could not be interpreted as associated with the target class . 
+This can be explained by the low scores achieved by the classifier . 
+Finally , the confusion matrix of the classifier is shown in Table 11 . 
+2_Same Lab 3_Collab/ Friend 5_Known ByName It appears that , like citation cluster homogeneity , confusion between categories is higher when relation types are similar , and this is especially true for the lower end of the social relation spectrum . 
+In other words , citations of similar levels ( 4 and 5 , 5 and 6 ) are more difficult to discriminate . 
+This indicates that the citation context is impacted by the social relation , although its discriminative characteristics remain to be identified more precisely . 
+In this article , we developed a new approach to exploring scientific citations . 
+We focused on the relationships between citing and cited authors and we developed several analyses concerning the impact of these social links on scientific texts . 
+This led to the clear identification of several significant characteristics of self‐citations and citations of unknown authors . 
+Self‐citations are more common in the experimental sciences and mathematics than in the social sciences . 
+They are repeated more often in all sections of the article ; however , for articles that have an IMRaD structure they appear less frequently than other types in introductions and conclusions , but more often in methodology sections . 
+They are usually isolated , or appear alongside other self‐citations , and have distinctive contextual elements ( personal pronouns , past adverbials ) . 
+Unknown citations are the most common type in all disciplines , except mathematics . 
+They are rarely repeated and rarely appear in introductions . 
+They are generally isolated or appear with other unknown citations and , like self‐citations , have distinctive contextual elements ( vocabulary associated with the methodology ) . 
+As for the intermediate categories ( i.e. , references to known authors , ranging from close colleagues to researchers known by name but never met ) , only a few characteristics could differentiate them , based on the traces left in the text by the authors . 
+Together , they make up between half and two‐thirds of citations ( more in mathematics , less in biology and sociology ) . 
+Thus , most citations reflect social links between authors . 
+This opens up a new perspective for a better understanding of the role of communities in the production of scientific texts . 
+Citations of co‐workers from the same lab tend to be repeated more often , whereas the trend tails off in the direction of unknown authors . 
+We can conclude that , to some extent , the closer the cited author is to the citing author , the more they will be cited in the text . 
+Citations clusters – in which the author cites an indistinct set of references – tend to be homogeneous in terms of relationships . 
+This means that the textual equivalence of citations corresponds , in part , to the relational equivalence of their authors . 
+Furthermore , the textual context seems , in part , to be influenced by the social relations embedded in citations . 
+Although we were unable to identify any specific characteristics for the different social links , it is clear that citations where the social relationships are similar have textual contexts that are more similar than others . 
+The number of citations has become an indicator that is frequently used by many institutions to evaluate their researchers ( seen , for example , in the success of the h‐index ) . 
+As this article shows , in‐text references are more‐or‐less salient . 
+This raises the question of whether it is really relevant to count the number of citations obtained by a researcher , without considering the role of the reference in the texts . 
+Moreover , this study shows that there is a correlation between the textual characteristics of the citation and the relationship between the authors . 
+This strongly suggests that it is impossible to consider citations as objective indicators , with no social bias . 
+Our work reveals the overlap between citations and social networks , in the sense that the social structure is partially reflected in the textual features . 
+This suggests that inequalities between researchers regarding their social and relational capital ( notably seniority or gender ) , can also lead to differences in the positioning of the citation in the text , and impact the citation visibility . 
+Last , this study highlights a diversity of citation practices across disciplines . 
+We conclude that it is very difficult to have the same understanding of citations in such different disciplinary contexts . 
+Although this finding is frequently reported in the literature , it is still given little attention by institutions engaged in research evaluation . 
+Although pioneering , our study is limited in terms of disciplinary coverage and amount of data . 
+However , the results are promising , and confirm that citation behaviour is a very complex phenomenon that is influenced by a number of factors . 
+In particular , the relationships between authors seems to play an important role , which can not be neglected in further studies . 
+This study received funding from the French Agence Nationale de la Recherche ( ANR ) through the RESOCIT program ( ANR‐11‐BSH1‐0013 ) and Labex SMS ( ANR‐ 11‐LABX‐0066 ) . 
+The authors wish to thank all the researchers who accepted to be interviewed , the two interviewers , three transcribers and two coders who contributed to the study , as well as the anonymous reviewers for their help in improving the text . 

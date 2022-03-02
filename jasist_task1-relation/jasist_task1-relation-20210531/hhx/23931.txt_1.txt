@@ -1,0 +1,130 @@
+In recent years , social networks have become prevalent platforms for product promotion ( Li et al. , 2016 ; Liu , Cheung , & Lee , 2016 ) . 
+Aiming to find a certain number of users ( called seeds ) to maximize the expected number of influenced users ( called influence spread ) through the word‐of‐mouth effect , influence maximization is the key problem behind viral marketing in social networks ( Kempe , Kleinberg , & Tardos , 2003 ) . 
+Recently , some studies take the properties of users into consideration , and extend the traditional influence maximization to targeted influence maximization ( Li , Zhang , & Tan , 2015b ) or location‐aware influence maximization ( Li , Chen , Feng , Tan , & Li , 2014 ; Wang , Zhang , Zhang , & Lin , 2016 ) , in which researchers take users who have topic preferences or geographical preferences on given queries as targeted users , and find seeds to maximize the influence spread over these targeted users . 
+In fact , there are many real‐world applications which both have topic and geographical requirements in influence maximization . 
+For example , an art exhibition held in the Arts District , Los Angeles , wants to be promoted in a social network platform with viral marketing . 
+The promoting strategy is to provide free tickets for a limit k users , who can maximize the influence spread over the targeted users ( i.e. , users whose interests are in art , and who have geographical preferences on the Arts District , Los Angeles ) . 
+In this paper , we define a location‐aware targeted influence maximization ( LTIM ) problem . 
+In particular , given a social network , where each user has different preferences on different topics and locations , and a query with a spatial region , a topic set , and an integer k , the LTIM requires finding k seeds to maximize the expected influence over the targeted users , who have preferences on both the query topics and query region . 
+We show that , under the maximum influence arborescence ( MIA ) model , the LTIM problem is NP‐hard , and its influence spread is submodular and monotone . 
+Therefore , we could extend the existing greedy algorithm ( Chen , Wang , & Wang , 2010 ) with a approximation ratio to solve this problem . 
+However , the extended greedy algorithm suffers from poor efficiency . 
+Thus , in this paper we focus on the design of efficient solutions for the LTIM problem . 
+There are two main challenges in solving the LTIM problem . 
+The first is how to efficiently identify the targeted users and compute their preferences for given queries . 
+Thanks to the user‐generated content on social networks ( e.g. , Twitter ) , we can run text‐based topic discovery algorithms to obtain users ' topic preferences , such as the latent dirichlet allocation ( LDA ) model ( Blei , Ng , & Jordan , 2003 ) . 
+In particular , the LDA model is a generative probabilistic model to derive latent topics from a large document . 
+In LDA , each document is represented as a probability distribution over topics and each topic is represented as a probability distribution over a number of words . 
+Usually , Gibbs sampling is utilized to infer these two unknown distributions . 
+Meanwhile , by using the check‐in records , many social networks such as Foursquare11 www.foursquare.com and Twitter22 www.twitter.com could offer ways to obtain users ' geographical preferences . 
+Leveraging such information , we devise a TR‐tree index structure . 
+We can find the targeted users and obtain their preferences efficiently by traversing the TR‐tree in depth‐first order and pruning some tree nodes which have no topic or region intersection with the given queries . 
+The second challenge is to devise algorithms for efficient seeds selection . 
+To address this challenge , we devise algorithms from two complementary directions . 
+In one direction , we design new schemes to further improve the greedy algorithm . 
+Based on the priority‐based framework ( Wang et al. , 2016 ) , we propose two approximation algorithms , namely , topic oriented algorithm ( denoted TOA ) and TR‐tree oriented algorithm ( denoted TROA ) , with approximation ratio , which can avoid computing the exact marginal influences of a large number of candidate seeds . 
+In TOA , we first construct the topic index offline , which stores users ' influences on each topic . 
+Then , for a given query , we get the candidate seeds through the constructed index . 
+Finally , we use a priority queue structure to find the seeds efficiently by pruning some candidate seeds with small influences . 
+In particular , we devise a fast method to compute the upper bound of marginal influences of candidate seeds . 
+In TROA , we first construct the TR‐tree based node‐topic index offline , where each TR‐tree node associates with several lists which store users ' influences on each topic . 
+Then , given a query , we traverse the TR‐tree , identify the tree nodes which are fully covered by the query , and select the corresponding lists for finding candidate seeds . 
+Finally , to further improve the efficiency , we devise a dynamic priority queue structure for seeds selection . 
+In the other direction , we propose a fast discount local influence based heuristic algorithm ( denoted DLIA ) in which we compute users ' discount local influences by utilizing users ' local influences ( i.e. , users ' influences on their neighbors ) for seeds selection . 
+Experimental results conducted on real‐world data sets show the effectiveness and efficiency of our proposed algorithms . 
+Our contributions can be summarized as follows : We formally introduce the location‐aware targeted influence ( LTIM ) problem and propose efficient solutions to solve this problem . 
+To efficiently identify the targeted users and compute their preferences for given queries , we propose a TR‐tree index structure . 
+By traversing the TR‐tree in depth‐first order , we can efficiently obtain the preferences of the targeted users . 
+We propose two efficient approximation algorithms with approximation ratio , which can efficiently find seeds by pruning a large number of candidate seeds with small influences , and a fast heuristic algorithm for seeds selection by using users ' discount local influences . 
+We conduct a comprehensive performance evaluation on real‐world data sets . 
+The experimental results show the effectiveness and efficiency of our proposed algorithms . 
+Kempe et al . 
+( 2003 ) first formulated influence maximization ( IM ) as a discrete optimization problem , and gave a greedy algorithm with provable approximation guarantee to solve this problem . 
+Based on the greedy algorithm , there has been a large body of research work devoted to improving the efficiency while keeping the theoretical bound ( Leskovec et al. , 2007 ; Chen et al. , 2010 ; Li et al. , 2014 ; Chen et al. , 2015 ; Wang et al. , 2016 ) . 
+Another solution to the IM problem is the reverse influence set ( RIS ) ( Borgs , Brautbar , Chayes , & Lucier , 2012 ; Li et al. , 2015b ; Tang , Xiao , & Shi , 2014 ; Tang , Shi , & Xiao , 2015 ) . 
+Moreover , some heuristic algorithms were proposed to improve the efficiency ( Chen , Wang , & Yang , 2009 ; Jiang et al. , 2011 ) . 
+Recently , some studies take the attributes of nodes into consideration . 
+To maximize the expected influence over targeted users who have preferences on query keywords , Li et al . 
+( 2015b ) defined a keyword‐based targeted influence maximization ( KB‐TIM ) problem . 
+Based on the sampling RIS method , they first designed a weighted RIS ( WRIS ) sampling technique for the KB‐TIM query processing . 
+Then they moved the sampling procedure offline , and designed two disk‐based solutions to improve the efficiency . 
+Topic‐aware IM considers that the influence probabilities of any two users are different for different topics . 
+Aslay , Barbieri , Bonchi , and Baeza‐Yates ( 2014 ) exploited a tree‐based index to find similar neighbors index points for a query and combined their seed sets to get a final seed set . 
+By utilizing the MIA model to approximate the computation of influence spread , Chen et al . 
+( 2015 ) proposed a best‐first framework with approximation ratio and devised efficient algorithms to address the problem . 
+Chen , Lin , and Yang ( 2016 ) proposed to utilize the preprocessing methods for topics to avoid redoing influence maximization for each item from scratch . 
+Chu et al . 
+( 2014 ) proposed effective techniques to estimate the influence bound and utilize the bound to do pruning . 
+In addition , some researchers proposed solving other extended IM problems . 
+To meet the location‐aware requirement in IM , Li et al . 
+( 2014 ) studied the location‐aware IM problem and developed an efficient scheme that offers wide influence spread . 
+In particular , they proposed two greedy algorithms with approximation ratio and two efficient algorithms with approximation ratio for any . 
+Wang et al . 
+( 2016 ) defined the distance‐aware IM problem , which takes the distance between users and the promoted location into consideration . 
+To efficiently calculate the influence spread , they adopted the MIA model for influence approximation . 
+To speed up the search , they proposed three pruning strategies to prune unpromising nodes from expensive evaluation and achieve potential early termination in each iteration with the approximation ratio . 
+Zhou et al . 
+( 2015 ) proposed a two phase ( TP ) influence diffusion model and devised two heuristic algorithms to solve the defined location‐based IM problem . 
+Based on the novel conformity‐aware cascade model , which incorporates the interplay between conformity and influence to estimate the influence probabilities , CINEMA was proposed to address the IM problem ( Li , Bhowmick , & Sun , 2013 ) , ( Li , Bhowmick , Sun , & Cui , 2015a ) . 
+CINEMA first partitions the network into several subnetworks and then devises indices to find the seed set . 
+A social network is modeled as a directed graph , where nodes in model the users in the network and edges in model the friendships between them . 
+The MIA model ( Chen et al. , 2010 ) is proposed to approximate the influence propagation and calculate the influence spread of a seed set S . 
+A LTIM query Q consists of a topic set , a region R , and a budget number k , denoted by . 
+Definition 1.LTIM : Given a social network , and a query Q , LTIM finds k seeds to maximize the influence spread , that is , . 
+In particular , the influence spread of LTIM is calculated as , where the influence P ( S , v ) of the seed set S to v is computed by utilizing the MIA model . 
+The traditional influence maximization problem under the MIA model is NP‐hard ( Chen et al. , 2010 ) . 
+As the traditional influence maximization problem is a special case of the LTIM , our LTIM problem is also NP‐hard . 
+Theorem 1.Function is submodular and monotone . 
+Theorem 1.Function is submodular and monotone . 
+However , the extended greedy algorithm suffers from poor efficiency . 
+One challenge of the LTIM problem is to efficiently obtain the preferences of the targeted users for given queries . 
+To address this challenge , we construct a TR‐tree index structure . 
+In the TR‐tree , a leaf node O contains a number of entries of the form , where PD is the pointer to a document D , M refers to the minimum bounding rectangle ( MBR ) of locations within this entry , and TS is a set of topics on which users in this entry have preferences . 
+Let E denote an entry of O . 
+In particular , document D consists of the following four components . 
+U , which denotes users who have preferences on and . 
+TV , which denotes the topic vector of each user in U . 
+TN , which records the total number of check‐ins of each user in U . 
+LN , which records the number of check‐ins at each location contained in for each user in U . 
+In addition , a leaf node O contains a pointer to a pseudo document , which aggregates all documents pointed to by entries of O . 
+Let and denote the MBR and topic set of O . 
+The pseudo document also contains four components . 
+In particular , component LN in the pseudo document records the number of check‐ins within of each user . 
+A nonleaf node N contains a number of entries of the form where PC is the pointer to a child node of N , M is the MBR of all entries within this child node , and TS is a topic set which is a union of topic sets in entries of this child node . 
+A nonleaf node also contains a pointer to a pseudo document , which aggregates all pseudo documents contained in the children of N . 
+Example 1.Figure 1 describes six social users and their topic preferences . 
+Figure 2 describes the check‐in records of these users and their MBRs . 
+Figure 3 shows the TR‐tree index for these users , the documents pointed to by entries R7 and R8 , and the pseudo document pointed to by R3 . 
+Example 1.Figure 1 describes six social users and their topic preferences . 
+Figure 2 describes the check‐in records of these users and their MBRs . 
+Figure 3 shows the TR‐tree index for these users , the documents pointed to by entries R7 and R8 , and the pseudo document pointed to by R3 . 
+A social network and users ' topic preferences . 
+Users ' check‐in records and their rectangles . 
+The TR‐tree index . 
+To efficiently find the targeted users , we traverse the TR‐tree from the root to the leaf nodes in depth‐first order . 
+For a tree node B , if or , we prune B . 
+Otherwise , 1 ) if , we access the pseudo document of B to compute each user 's geographical preference on ; 2 ) if not , we visit the children of B . 
+Finally , we compute targeted users ' geographical preferences on given queries by adding up their geographical preferences on tree nodes which contain them . 
+Notice that there has been a number of keyword based R‐tree indexes to support efficient geo‐textual queries ( Cong & Jensen , 2016 ) . 
+The main differences between our TR‐tree index and the existing keyword‐based R‐tree indexes are shown as follows . 
+First , objects in existing tree indexes have certain locations , while our social users may check‐in a number of locations ( i.e. , social users have geographical preferences in different locations ) . 
+Thus , one object in previous trees exists in only one tree node , while a social user in the TR‐tree may exist in more than one tree node . 
+Second , different from the existing queries that return the objects satisfying the queries , another goal is to compute the preferences of users on given queries . 
+Therefore , we require storing more information in the tree nodes . 
+In particular , in our TR‐tree each tree node contains a pseudo document that stores the topic preferences and check‐in records of users . 
+Specifically , the check‐in records could be used to help us efficiently compute users ' geographical preferences on each tree node . 
+Last , since a social user in the TR‐tree may exist in more than one tree node , we first identify the tree nodes that satisfy the given queries by utilizing our proposed pruning strategy and then compute the geographical preferences on the given queries of users who exist in these tree nodes by adding up their preferences on these tree nodes . 
+In order to improve efficiency , an effective method is to precompute users ' influences offline . 
+Given a query Q , as users ' geographical preferences on Q can not exceed 1 ( i.e. , ) , we can use the maximum geographical preference ( i.e. , 1 ) of user u to estimate her/his influence on topic t by , where is the set of users who are influenced by u and have preferences on topic t . 
+In this section , we first propose two kinds of indexes to efficiently store users ' estimated initial influences and then devise a TOA for seeds selection . 
+Each topic t is associated with a decreasing list of triples , sorted by , where Ut is the set of users who have influence to the set Pt of users who have preferences on t . 
+Each user u is associated with a list of 2‐tuples . 
+Example 2.Table 1 shows the topic index for topic t2 and t5 , and user index for users in Figure 1 . 
+Example 2.Table 1 shows the topic index for topic t2 and t5 , and user index for users in Figure 1 . 
+We build a priority queue for each with and exploit the priority‐based framework ( Wang et al. , 2016 ) to efficiently find the seeds . 
+The basic idea of this framework is to prune the insignificant candidate seeds by estimating their marginal influences , which are the upper bound of their exact marginal influences . 
+In each iteration , it preferentially computes the exact marginal influences of candidate seeds who have larger estimated marginal influences . 
+To find the seeds efficiently , each user u in the priority queue has three states : invalid ( denoted by flag = 0 ) , the marginal influence of u is obtained from the last iteration or is the initial influence ; estimated ( denoted by flag = 1 ) , the marginal influence of u is the upper bound of the exact marginal influence obtained from a fast estimation method , which will be introduced later ; exact ( denoted by flag = 2 ) , the marginal influence of u is the exact one computed by Eq . 
+4 . 
+Note that we denote Iu and I as the sets of users who are influenced by u and the current seed set S , respectively . 
+Let u denote the top user in priority queue . 

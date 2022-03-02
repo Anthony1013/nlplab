@@ -1,0 +1,184 @@
+T1	术语 110 115	FNAQs
+T2	术语 244 249	FNAQs
+T3	研究问题 184 285	Our comparative analysis in this section aims to reveal how FNAQs are handled in web search engines .
+T4	术语 323 328	FNAQs
+T5	术语 766 771	FNAQs
+T6	研究方法 651 887	Therefore , herein , we opt for an alternative study : We analyze the search result pages retrieved as response to FNAQs and observe what kind of manipulation is performed over the original user query and how the results are presented .
+T7	术语 976 981	FNAQs
+T8	研究结果 890 981	This analysis gives us a hint about the actions taken by search engines when handling FNAQs
+T9	术语 1168 1190	Original Query Results
+T10	术语 1193 1199	OrgRes
+T11	术语 1328 1350	Original Query Results
+T12	术语 1376 1390	OrgResSugQuery
+T13	术语 1654 1677	Suggested Query Results
+T14	术语 1680 1691	SugQueryRes
+T15	术语 1969 1974	NoRes
+T16	表 2182 2252	The result presentation patterns we observed are summarized in Table 2
+T17	表 2257 2367	In Table 3 , for the three search engines , we report the number of query results falling under each pattern .
+T18	术语 2522 2536	OrgResSugQuery
+T19	术语 2619 2630	SugQueryRes
+T20	术语 2703 2709	OrgRes
+T21	术语 2809 2823	OrgResSugQuery
+T22	术语 2870 2884	Tables 1 and 3
+T23	术语 2900 2911	SugQueryRes
+T24	术语 2970 2974	NAQs
+T25	术语 2977 2982	NoRes
+T26	术语 3190 3193	NAQ
+T27	术语 3143 3154	SugQueryRes
+T28	术语 3422 3426	NAQs
+T29	术语 3542 3553	SugQueryRes
+T30	术语 3811 3816	NoRes
+T31	表 3725 3880	Table 4 reports the number of queries that return k or fewer results ( the column for NoRes pattern is repeated from Table 3 for the sake of completeness )
+T32	术语 3980 3991	SugQueryRes
+T33	术语 4052 4058	OrgRes
+T34	术语 4063 4077	OrgResSugQuery
+T35	术语 4174 4180	OrgRes
+T36	术语 4185 4199	OrgResSugQuery
+T37	术语 4361 4372	SugQueryRes
+T38	表 4455 4462	Table 4
+T39	表 4466 4473	Table 1
+T40	表 4530 4758	Table 1 shows that search engine C would retrieve at most two results for 6,368 queries ( Recall that what Table 1 reports is based on the number of results for the original query , but not the suggested query via some pattern )
+T41	术语 4797 4808	SugQueryRes
+T42	术语 5068 5073	FNAQs
+T43	术语 5404 5418	OrgResSugQuery
+T44	术语 5423 5434	SugQueryRes
+T45	术语 5697 5711	OrgResSugQuery
+T46	术语 5715 5726	SugQueryRes
+T47	表 5795 5889	In Table 5 , we present the modifications commonly encountered during this manual inspection .
+T48	术语 5995 5998	URI
+T49	术语 6062 6076	OrgResSugQuery
+T50	术语 6112 6115	URI
+T51	术语 6157 6168	SugQueryRes
+T52	术语 6335 6338	URI
+T53	表 6237 6353	As shown in Table 5 , the modifications observed in queries differ depending on the presence of a URI in the query .
+T54	术语 6394 6397	URI
+T55	术语 6546 6549	URI
+T56	表 6608 6811	there are mistakes possibly due to the poor memory of users who typed a wrong domain ( e.g. , typing “ .co ” instead of “ .co.uk ” ) or forgot the hyphen between the terms ( see the examples in Table 5 )
+T57	术语 7096 7109	edit‐distance
+T58	术语 7219 7222	URL
+T59	术语 7236 7240	URLs
+T60	表 7331 7338	Table 5
+T61	术语 7716 7730	OrgResSugQuery
+T62	术语 7734 7745	SugQueryRes
+T63	自建数据集 7619 7773	we randomly selected two subsets , each with 100 queries , from the queries that led to patterns OrgResSugQuery or SugQueryRes in all three search engines
+T64	图 8228 8350	In Figure 1 , we show the percentage of query suggestions labeled as relevant , irrelevant , and undecided by the judges .
+T65	术语 8462 8476	OrgResSugQuery
+T66	术语 8658 8661	URI
+T67	术语 8733 8736	URI
+T68	术语 8874 8877	URI
+T69	术语 9064 9075	SugQueryRes
+T70	术语 9283 9294	SugQueryRes
+T71	时间 9481 9493	January 2012
+T72	时间 9539 9548	July 2011
+T73	术语 9618 9622	FNAQ
+T74	表 9702 9709	Table 3
+T75	时间 9785 9794	July 2011
+T76	时间 9799 9811	January 2012
+T77	表 9714 9813	Table 6 shows the number of queries whose patterns had changed between July 2011 and January 2012 .
+T78	术语 9859 9863	NAQs
+T79	术语 9934 9939	NoRes
+T80	时间 10061 10073	January 2012
+T81	时间 10013 10022	July 2011
+T82	术语 10043 10049	OrgRes
+T83	术语 9996 10001	NoRes
+T84	术语 10203 10208	FNAQs
+T85	时间 10287 10299	January 2012
+T86	表 10213 10301	Table 7 reports the number of queries that returned k or fewer results in January 2012 .
+T87	表 10326 10333	Table 7
+T88	表 10352 10359	Table 4
+T89	术语 10494 10499	FNAQs
+T90	时间 10672 10684	January 2012
+T91	术语 10881 10895	OrgResSugQuery
+T92	术语 10899 10910	SugQueryRes
+T93	术语 11008 11012	FNAQ
+T94	术语 11168 11172	NAQs
+T95	术语 11326 11331	FNAQs
+T96	术语 11718 11722	NAQs
+T97	术语 11783 11788	FNAQs
+T98	研究结果 11658 11788	In this section we focus on queries that match no answers ( NAQs ) , which is a very specific and more problematic subset of FNAQs
+T99	术语 11967 11971	NAQs
+T100	术语 12054 12057	NAQ
+T101	表 11935 12059	Table 8 shows a small number of NAQs selected from the mentioned set , together with the potential reason for being an NAQ .
+T102	术语 12093 12097	NAQs
+T103	术语 12130 12134	NAQs
+T104	术语 12222 12225	URI
+T105	图 12440 12514	Figure 2 illustrates the query labeling procedure followed by the judges .
+T106	术语 12626 12629	NAQ
+T107	术语 12730 12734	URIs
+T108	术语 12738 12742	NAQs
+T109	术语 12803 12830	pattern‐matching techniques
+T110	术语 12905 12909	URIs
+T111	术语 12989 12993	NAQs
+T112	术语 13015 13018	URI
+T113	图 12933 13018	The results in Figure 3 indicate that about 57 % of the NAQs contain at least one URI
+T114	术语 13074 13077	URI
+T115	术语 13116 13120	URIs
+T116	术语 13175 13187	RFC 3986 URI
+T117	术语 13245 13249	NAQs
+T118	术语 13382 13386	NAQs
+T119	术语 13564 13568	NAQs
+T120	术语 13584 13588	URIs
+T121	术语 13612 13616	NAQs
+T122	术语 13841 13844	URI
+T123	术语 13829 13833	NAQs
+T124	术语 13906 13910	NAQs
+T125	术语 13920 13923	URI
+T126	术语 14041 14045	NAQs
+T127	术语 14072 14075	URI
+T128	术语 14150 14153	URI
+T129	术语 14180 14183	URI
+T130	术语 14299 14302	NAQ
+T131	术语 14339 14342	NAQ
+T132	术语 14432 14435	NAQ
+T133	术语 14451 14455	NAQs
+T134	术语 14610 14614	NAQs
+T135	图 14730 14776	The results of this test are shown in Figure 4
+T136	术语 14817 14821	NAQs
+T137	术语 15118 15122	NAQs
+T138	术语 15274 15277	NAQ
+T139	术语 15357 15361	NAQs
+T140	术语 15490 15494	NAQs
+T141	术语 15588 15592	NAQs
+T142	术语 15708 15712	NAQs
+T143	术语 15879 15883	NAQs
+T144	术语 15958 15961	AOL
+T145	引文作者 15974 15978	Pass
+T146	引文时间 15988 15992	2006
+T147	引文的结果 15954 15971	the AOL query log
+T148	术语 16072 16075	NAQ
+T149	术语 16157 16160	NAQ
+T150	术语 16267 16269	TS
+T151	术语 16295 16298	NAQ
+T152	术语 16486 16489	NAQ
+T153	术语 16621 16623	NQ
+T154	术语 16742 16745	NAQ
+T155	术语 16811 16813	RQ
+T156	术语 16790 16808	reformulated query
+T157	术语 16864 16867	NAQ
+T158	术语 16960 16963	NAQ
+T159	术语 17197 17199	TS
+T160	术语 17203 17205	NQ
+T161	术语 17389 17399	RQ‐noClick
+T162	术语 17404 17412	RQ‐click
+T163	术语 17509 17512	NAQ
+T164	术语 17539 17541	TS
+T165	术语 17544 17546	NQ
+T166	术语 17552 17562	RQ‐noClick
+T167	术语 17716 17724	RQ‐click
+T168	表 18099 18162	In Table 9 , we provide the results of our study for 665 NAQs .
+T169	术语 18156 18160	NAQs
+T170	术语 18165 18169	NAQs
+T171	术语 18189 18191	TS
+T172	术语 18195 18197	NQ
+T173	术语 18230 18234	NAQs
+T174	术语 18263 18267	NAQs
+T175	术语 18282 18292	RQ‐noClick
+T176	术语 18521 18524	AOL
+T177	术语 18440 18444	NAQs
+T178	图 18397 18644	In Figure 5 we display the distribution of NAQs and common queries ( an equal number of queries that are again sampled from AOL log and match at least one result ) as the query length increases ( computed by using a homemade query parsing tool ) .
+T179	术语 18689 18693	NAQs
+T180	术语 18913 18917	NAQs
+T181	术语 19001 19004	NAQ
+T182	术语 19215 19219	NAQs
+R1	has_cited_time Arg1:T146 Arg2:T145	
+R2	results Arg1:T145 Arg2:T147	

@@ -1,0 +1,60 @@
+This study measures the inappropriate use of corrected works by assuming citation of invalidated works is evidence of erroneous author reliance on invalidated works . 
+Secondary use of flawed literature is problematic because it has negative consequences for researchers and research subjects and raises questions about the effectiveness of the self‐correcting properties of science . 
+Correction and republication is a quality control mechanism for scholarly works whose meaning is marred by flaws not caused by malfeasance : In contrast to retraction due to misconduct , when an error is identified an updated version of the document is released , akin to a software patch or update . 
+This biblioremediative practice results in an anomalous pair of nearly identical articles , one of which is unreliable . 
+Previous research has compared citation rates of the two article versions , pre and post‐correction , ( Peterson , 2010 ) but the strength of the corrective effect relative to the natural citation patterns of normal articles has not been measured ; at least one such study has also used robust methods to compare citation patterns of retracted literature to controls ( Furman , Jensen , & Murray , 2012 ) . 
+This study analyzed the distribution over time of 15,021 citations to 548 PubMed‐indexed articles ( 86 corrected and republished articles and 462 controls ) , comparing anomalous articles to untainted articles that are comparable for a given attribute or dimension . 
+Rather than finding comparators that matched each article for multiple attributes ( a task that is both technically and rhetorically infeasible ) , controls were selected based on specific bibliographic characteristics . 
+It is possible that author or journal prominence are correlates of greater visibility and hence more widespread awareness ( and repudiation ) of flawed works , so corrected articles were paired with articles published in the same year and journal to control for impact factor or author . 
+It is possible that the natural skew and kurtosis common to citation curves is due to journal half‐ life , so it was also considered as a confounding factor . 
+Metadata for each anomalous article was used to identify the republished ( R ) version of the article , a randomly selected article published in the same year in the same journal ( ISSN ) , an article by the same author ( AU ) , and the top article identified as “ Similar ” by the PubMed interface ( S ) . 
+The study considers each of these potential correlates and includes the significant ones in the regression model . 
+Using PubMed , a sample was selected from the population of corrected and republished articles published from 2001 to 2010 . 
+Of these , a sample of 100 ( approximately 15 % of corrected articles in this period ) was randomly drawn , of which 82 were ultimately included in the study . 
+( Others were eliminated due to various deficiencies in their metadata or availability . 
+) Bibliographic metadata for the original version of each article was used to retrieve the bibliographic data for the control articles . 
+Citation data were exported from the Science Citation Index for the sample , XML‐based impact factor and half‐life data were obtained from Thompson 's Journal Citation Reports using JabRef , ( The Jabref Team , n.d. ) and exported to IBM SPSS Subscription via Microsoft Excel . 
+Because citation data are inherently positively skewed , equal variances are not assumed . 
+The nonparametric nature of citation data does not impede the analysis because the sample is large ( 548 articles and 15,000+ corresponding citations ) and consistent . 
+Additionally , nonparametric methods are robust to violations of assumptions and outliers and so are appropriate for the sample . 
+( Field , 2013 ) . 
+Histograms suggested there may be significant differences in citation levels among the article types . 
+( Figure 1 ) Post‐publication citation levels are known to be lower relative to their republished versions , and both the non‐parametric Kruskal‐Wallis test and bootstrapped t‐test comparison of lifetime citations to corrected and uncorrected literature confirmed that the difference extends to other comparators . 
+A plot of up to 16 years post publication also suggested that the citation curves of anomalous and non‐anomalous literature were different . 
+( Figure 2 ) Comparison of corrected articles to controls showed that corrected articles are cited less than articles with the same impact factor , author or topic . 
+Regression lines fitted to scatter plots also indicated that articles that have undergone post‐publication correction do not show the same slope as other articles both overall and when compared to articles paired by version , impact factor , author , or subject ( Table 1 ) . 
+Articles showed an average 27.7 lifetime citations , and an average 1.5 citations/year . 
+Uncorrected articles showed greater mean annual citation compared to corrected ones , ( x = 1.62 , [ 1.42 , 1.83 ] vs. x = .83 , [ .577,1.11 ] ) as well as greater average lifetime citation for uncorrected articles ( 31.62 and 16.38 , respectively ) . 
+Over a 20‐year period , corrected and republished articles are cited on average 51 % less when compared to all controls . 
+Corrected articles showed greater skewness and kurtosis than uncorrected article 's respectively , ( Skew = 2.38 , Kurtosis = 5.29 ) and ( Skew = 2.064 , Kurtosis = 5.723 ) , indicating that corrected articles rate of secondary citation drops more quickly . 
+Because normality is not guaranteed ( though the sample is large , citation data are not naturally normally distributed ) , nonparametric tests were used to detect a difference in citation . 
+Bootstrapped ANOVA indicated that corrected articles differed from literature in general and articles that were paired by characteristic by 2 years post correction . 
+Nonparametric methods confirmed that citations to corrected articles were different no more than 3 years post publication and remained so for more than a decade thereafter , with significance of difference exceeding 0.05 in year 13 or 14 for all samples . 
+This result suggested that reduced citation is not entirely attributable to the prominence of the journal , as impact factor did not seem to affect the duration of the corrective effect . 
+Correlation of correction status and average citations per year indicated that post‐publication correction is negatively correlated with average citations/year when compared to other article types and positively correlated with impact factor , ( r = ‐0.180 , p = 0.000 and r = 0.410 , p = 0.000 ) , respectively . 
+Neither author identity nor journal half‐life correlated significantly with average citation per year . 
+When articles were controlled pairwise by comparing the levels of citation over time within journals , the correction was still negatively correlated with citation : Kendall 's Tau‐beta reported correlation coefficients of r = ‐0.239 , p = 0.000 and r = 0.146 , p = 0.000 for correction status and impact factor , respectively . 
+The proposed regression model for the citation curve of invalidated literature is : Mean annual citations = β1×1 + β2×2 + error , where β1 is impact factor and β2 is correction status ( coded as 0 for uncorrected , 1 for corrected ) . 
+Analysis yielded regression coefficients ( Beta values ) for ×1 and ×2 , ( 0.341 CI 0.210 , ‐0.472 ) and ( ‐0.729 , CI : ‐1.015 , ‐0.436 ) respectively , comparing corrected articles to all others . 
+The regression comparing originals with all controls yielded an adjusted R2 value of 0.192 , suggesting that the model of impact factor and republication status account for about 19 % of the variation in citation levels , with a reported ANOVA F‐ratio of 49.104 and a significance less than 0.05 ( p = 0.000 ) . 
+Bootstrapped linear regression reported that the value comparing corrected and uncorrected articles with the same impact factor was R2 = 0.079 and a reported ANOVA F‐ratio of 4.734 and a significance of .011 . 
+Thus , the model that included republication status to predict average citation worked better than simply relying on impact factor to predict citation behavior . 
+A regression model incorporating impact factor and correction status indicated that correction negatively correlated with average citations per year . 
+Robust ANOVA confirmed that the practice of correction results in a difference in citation starting 2–3 years after publication and continuing for at least a decade . 
+The effect is long‐lasting ; the timeframe of 13–15 years exceeds the normal half‐life of a scholarly article . 
+( Davis & Cochran , 2015 ) . 
+Previous studies have confirmed that citation is an almost universally positive phenomenon , so this study assumes that citation is an indication of an author 's acceptance and incorporation of the cited work . 
+The bibliographic attributes identified for comparison were selected based upon previous studies and include all of the major known correlates ; the list is not exhaustive and there may be heretofore unidentified confounding factors that were not included in the study design . 
+Like many phenomena in the social sciences , citation data are intrinsically not normally distributed but instead follow a rough Pareto distribution . 
+This characteristic does not affect the validity of the study because the sample is large and because non‐parametric methods and bootstrapped ( robust ) methods were used when doing the comparison of means , the correlation and regression analysis . 
+Correction and republication is intended to prevent the use of invalid literature by alerting authors to its status , but there is little information available about the strength of the deterrent effect of post‐hoc quality control in the biomedical literature . 
+The problem of post‐correction citation exists , but the factors that contribute to the successful rejection of flawed information are not well understood . 
+Because the rejection of flawed literature requires the attention of the reader , it is possible that correction is more effective among higher profile publications . 
+Inappropriate citation is observed among articles with different provenance , suggesting that user awareness of anomalies is not solely attributable to the profile of the author , impact factor , or half‐life of the journal in which the flawed article was published . 
+Bootstrapped correlation analysis indicated that these factors do not significantly correlate to citation levels , ( p > 0.05 ) and that correction status and impact factor do . 
+Previous research has shown that corrected works are cited less than republished versions , but a quantitative comparison of citation rates to typical biomedical literature had not been made to date , viz . 
+no studies have measured the impact of the practice of correction and republication relative to comparable documents . 
+The results of this study indicate that over their lifetime , corrected articles are cited half as much as comparable non‐anomalous literature . 
+Robust regression indicates that correction is a significant and strong predictor of decreased citation . 
+The data indicate that the practice of correcting biomedical literature has a significant , fast‐acting , long‐term , negative effect on the number of citations invalidated articles receive . 
+Thus , correction is a significant and strong predictor of decreased citation and is a useful quality control mechanism for the biomedical literature . 

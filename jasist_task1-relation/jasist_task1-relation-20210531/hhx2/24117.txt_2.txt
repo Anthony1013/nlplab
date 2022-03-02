@@ -1,0 +1,130 @@
+More details about these implementations can be found there . 
+The considered methods include : VADER ( Hutto & Gilbert , 2014 ) , AFINN ( Nielsen , 2011 ) , OpinionLexicon ( Hu & Liu , 2004 ) , Umigon ( Levallois , 2013 ) , SO‐CAL ( Taboada et al. , 2011 ) , Pattern.en ( Smedt & Daelemans , 2012 ) , Sentiment140 ( Mohammad , Kiritchenko , & Zhu , 2013 ) , EmoLex ( Mohammad & Turney , 2013 ) , Opinion Finder ( Wilson et al. , 2005 ) , and SentiStrength ( Thelwall , 2013 ) . 
+A brief description of these methods can also in found in ( Ribeiro et al. , 2016 ) . 
+We also note that all methods exploit light‐weight unsupervised approaches that rely on lexical dictionaries , usually implemented as a hash‐like data structure . 
+For this reason , the execution performance of our combined , as well as the individual methods , does not require any powerful hardware platform . 
+As evaluation metric we use the popular Macro‐F1 score . 
+Macro‐F1 calculates the F1 score for each class separately and report the average of these scores for all classes . 
+It is important in data sets with high skewness ( as is the case here ) . 
+Our experiments were executed performing a 5‐fold cross validation setup , with the best parameters for the learning methods found using cross‐validation within the training set . 
+This procedure was applied to all considered data sets . 
+To compare the average results in the test sets of our experiments , we assess the statistical significance of our results by means of a paired t‐test with 95 % confidence . 
+We have checked the normality of the data distribution with a Shapiro–Wilk test before applying a Paired t‐test . 
+From output of test , the p − value > 0.05 we can not reject the null hypothesis about the normal distribution implying that the data are not significantly different from normal distribution . 
+To further investigate the normality verification and guarantee the data and the statistical significance of our results , we also performed Jarque Bera Test . 
+As a result , we assume normality of the data distributions and we consider statistically significant only results in which the value of p is less than 0.05 and any stated claim of superiority is based on these tests . 
+Finally , we adapted the original outputs values of base methods to our corresponding polarities . 
+An output equals to zero was considered as a neutral or “ absence of opinion. ” In our evaluation , we use 13 data sets of messages labeled as positive , negative and neutral from several domains , including messages from social networks , opinions and comments in news articles and videos . 
+These data sets were kindly shared by the authors of ( Ribeiro et al. , 2016 ) . 
+We only consider those with three classes ( positive , negative , and neutral ) . 
+The number of messages vary from few hundreds to a few thousands . 
+The data sets are usually very skewed , with usually one or two classes outnumbered the majority one by large margins . 
+The median of the average number of phrases pier message is around 2 whereas the average number of words vary from around 15 to approximately 60 . 
+We refer the reader to their work for more details about the data sets . 
+We emphasize that the diversity and amount of different data sets used in our evaluation allow us to accurately evaluate not only the prediction performance of the proposed method , but also measure the extent to which a method 's result varies when it is tested for different social media sources . 
+As 10SENT explores the output of 10 other individual methods , Majority Voting is a natural baseline.22 Notice that Weighted Majority Voting is not an option as a fair baseline , since to determine the weights we would need some type of supervision , something that our method does not exploit . 
+In any case , we compare our solution to a version of the Weighted Majority Voting method in the ‘ Upperbound Comparison ’ Section . 
+Voting is one of the simplest ways to combine several methods . 
+By assuming that each individual method gives us a unique label as output for a sentence , the result of Majority Voting is the label that the majority of the base classifiers returned as output for that sentence.33 In this method , ties are possible . 
+In this case , we assign a Neutral class to the sentence . 
+The major advantages of this approach are its simplicity and extensibility , i.e. , it is very easy to include new ( off‐the‐shelf ) methods . 
+Also , no training data is necessary for this method , which fits well with our purpose of an unsupervised solution . 
+On the other hand , majority voting is not as flexible as 10SENT in coping with all the diversity of the methods . 
+This is because of the training phase of 10SENT that allows it to capture some idiosyncrasies of each one of them . 
+In addition to this baseline , we also explore a lexical combination , since several methods are lexical‐based or have a dictionary of polarized terms for their prediction task . 
+As each method could fit well for different sources of data ( social media , review , comments ) , a simple approach of merge their lexicon in a unique one is an alternative to compare with other results . 
+To accomplish this , we extracted the lexicons , containing a set of term and polarity score , from 9 out of the 10 methods we have used ( except Umigon ) . 
+Although some methods present extra information as ( negation , intensifiers , POS tagging ) , we preferred to use just score as it is the common feature along all lists of terms . 
+Then , as they differ in the format and scale of measure , it was necessary a normalization step in all lexicon to fit them in a pattern ranging from ‐1 to +1 ( those that only have the nominal category turned to [ ‐1,0,1 ] ) . 
+To merge them , two strategies were adopted : ( a ) Average Merged—when a term appeared in more than one different lexicon , its score was calculated by the average scores of these occurrences , varying the values from ‐1 to +1 . 
+( b ) Majority Merged—When a term appeared in more than one lexicon , its score was made by vote among the occurrences to decide its polarity , in this lexicon the scores are discrete [ −1 , 0 , +1 ] . 
+Finally , to obtain a unsupervised sentiment classification of a document , we sum up the scores of all sentiment terms in the document , according to the polarized terms in our merged lexicon . 
+Also , for comparison , we use the Vader implementation but with our mean merged lexicon to assess the impact of the dictionary on classification . 
+Another approach considering lexicon‐based methods is to automatically build a new lexicon for sentiment classification . 
+HHSWE ( Wang and Xia. , 2017 ) does this by creating an expanded lexicon to enhance the quality of word embedding as well as the sentiment lexicon . 
+Their method uses a neural architecture to train a sentiment‐aware word embedding at both document and word level . 
+HHWSE 's authors shared with us a lexicon constructed by their method , trained with Sentiment140 , one of the 10 methods of 10SENT . 
+We used this expanded lexicon for sentiment prediction following the same methodology of the Merged Lexicon strategy . 
+We sum individual polarities of each word to give the final score , as described in ( Wang and Xia. , 2017 ) . 
+For comparison purposes , we also use Vader implementation within this lexicon . 
+Last , we incorporate a deep learning method as one of our baselines for comparison . 
+For this task , we used DeepMoji proposed in ( Felbo et al. , 2017 ) . 
+It is a method for sentiment analysis used primarily for predict emojis information for a text message . 
+However , deep learning methods such DeepMoji usually need a large amount of training data to build a new model , hence we applied the pre‐trained neural network model available by authors trained with millions of tweets containing emojis in order to adopt this method as an unsupervised tool . 
+This pre‐trained model is used to predict top 10 emojis for messages in our data set and each emoji is predicted with a probability . 
+We map some of these emojis as positive and negative and finally sum these scores to define final prediction following a threshold for add an emoji to the result . 
+Here , we discuss some decisions taken during the development of 10SENT . 
+We also start an investigation on issues related to transfer learning for sentiment analysis , showing the potential of this technique to improve our results . 
+10SENT is an unsupervised machine learning method as it does not exploit manually labeled data , only the agreement among the base methods . 
+Given that the bootstrapping process adds a set of instances with high confidence into a training set , it is possible to perform a learning step exploiting such data in the usual format training/validation . 
+Because of this , there is a need to investigate which classifier fits better this application . 
+Thus , we perform a series of tests with our method using different classification algorithms to choose the best one for this task . 
+In all these tests , we used all 10 methods of 10SENT . 
+We tested three different and widely used algorithms in our approach : Support Vector Machine ( SVM ) ( Chang & Lin , 2011 ) , Random Forest ( RF ) ( Breiman , 2001 ) and k‐Nearest Neighbors ( KNN ) ( Pedregosa et al. , 2011 ) . 
+Here we used the implementations of RF and KNN provided in scikit‐learn44 Available at http : //scikit-learn.org/stable/index.html and for SVM , we use LibSVM55 Available at http : //www.csie.ntu.edu.tw/~cjlin/libsvm/ package . 
+Specifically , we use a radial basis function ( RBF ) kernel with a grid search for the best parameters . 
+Overall , Random Forests produced the best results in most data sets , being the final choice for our bootstrapping method . 
+To verify the coherence with results obtained by Majority Voting , we perform a test with different number of methods used in the combination . 
+In this test , we want to check how the addition of a method can impact the outcome . 
+We evaluated results of 10SENT combining from 3 up to 10 methods . 
+In these experiments , we included from the best to the worst method in each data set , according to ( Ribeiro et al. , 2016 ) . 
+We noted that adding a new method improves the overall results , but it is possible to note that improvements get smaller with new inclusions . 
+Thus , after a certain number , the gain is minimal . 
+Therefore , we fixed 10 as a good choice to number of methods in 10SENT core . 
+In our method , we need to define two important parameters : the agreement and the confidence level . 
+Accordingly , we performed a study to better understand how our method performs when varying such parameters . 
+In more details , the first tested parameter was the minimum number of agreements among the methods we should use in the first round of classification ( Agreement Level ) . 
+Table 1 shows Macro‐F1 results for each number of agreements . 
+As we have a total of ten base methods , this table shows bootstrapping results when we use instances that at least 4 or more methods agree with each other , 5 and so on . 
+We did not show results with less than 3 agreements since there were no instances in such scenario . 
+As we can see in this table , the extreme cases of agreement or disagreement produce the worst results . 
+There is a small amount of instances with 100 % of agreement , which harms the training of the algorithm . 
+On the other hand , when the agreement is very low , there is a lot of noise in the training data . 
+In sum , the Agreement level represents a tradeoff between the amount of available data for training and the amount of noise . 
+The second parameter was the RF confidence Level , defined in Algorithm 1. as the constant C . 
+The confidence level is the confidence ratio of the Random Forest algorithm in its predictions . 
+We use this in order to add more data to train during the bootstrapping step . 
+Then , a similar variation of this parameter was tested , as shown in Table 2 . 
+As a final conclusion of these experiments , we arrive at a value of 7 for agreement and 0.7 for confidence , in most data sets , as a way to achieve the “ best ” balance between quantity and quality for the training data . 
+After the definitions of the parameters for the classification process , additional features can be extracted and combined with the predictions of other methods to improve results . 
+One example is the text of messages itself . 
+With the text , we can extract the Bag of Words representation ( BoW ) of the sentences included in the training . 
+We used the traditional TF‐IDF representation calculated for each sentence in each data set . 
+This was concatenated with the results of each method , as in the traditional 10SENT . 
+In Table 3 we find the results comparing the use of these different sets of features , the predictions outputted by all base methods and bag of words . 
+Here , we used all best parameters discovered in previous sections , including the random forest classifier . 
+Note that the combination of these two set of features improves results compared with each single one separately . 
+Although BoW individually presented better results in a few data sets it is not the best in all of them and alone , which suggests that using both sets of features is the best option for 10SENT . 
+In the next experiments , we always use this joint representation ( BoW + BaseMethods ) when me mention 10SENT . 
+Finally , we evaluate whether it is possible to explore some “ easily available ” knowledge from an external source . 
+We do so by exploring data sets in which messages are labeled with “ emoticons ” by the systems ' users themselves . 
+To use an approach that transfers knowledge from one task to another , it is usually necessary to map characteristics from the source problem into the target one , identifying similarities and differences . 
+Next we detail how we transfer knowledge from existing emoticons in the data sets to the task of sentence‐level sentiment analysis . 
+Emoticons are representations of an expression in a faced‐look set of characters . 
+They became very popular nowadays and even the Oxford English Dictionary has recently chosen an “ emoji ” as word of year ( in 2015 ) because of its notable and massive use around the world . 
+In our case , they are used to give us an idea of feelings in the text , like happiness or sadness . 
+Previous works have demonstrated that such messages , though not available in large volumes , are very precise . 
+In other words , labeling with emoticons used by the final user indeed provide trustful information about the polarity of message . 
+Accordingly , in these experiments , we used the “ rules of thumb ” suggested in ( Gonçalves et al. , 2013 ) to translate emoticons into polarities . 
+As one might expect , the fraction of messages containing emoticons is very low compared to the total number of messages . 
+As we can see in Table 4 emoticons appeared just in a very small amount of instances ( observed in the coverage column ) . 
+In spite of that , the accuracy of emoticons is often very precise to distinguish polarity of sentiment , reaching more than 90 % in “ nikolaos_ted ” data set . 
+This is also in agreement with previous efforts ( Gonçalves et al. , 2013 ) . 
+Our ultimate goal here is to extract some information about the text of those messages to our classification step . 
+For this , we incorporate into the training data these instances labeled with emoticons extracted from the respective data sets . 
+To compare the effect of transfer learning from emoticons , we separated it in three different experiments : first with our traditional 10SENT ; next we used just emoticon labels to create the training , without our majority voting predictions ; then we combined these two to check the impact of emoticons in our method . 
+Results of this experiment can be seen in Table 5 . 
+We can see that improvements of up to 6 % ( e.g. , in case of the sentistrength_myspace data set ) can be obtained in terms of Macro F1 , with no significant losses in most data sets and with no extra ( labeling ) cost . 
+Thus , this approach represents an interesting opportunity to provide to the user some help in terms of labeling effort . 
+Results for all baseline methods are shown in Table 6 . 
+As we can note , Majority Vote performed better than the others baselines in most cases ( 10 wins out of 12 , to be exact ) . 
+Considering the merged lexicon approaches , we can note that the merge with average of co‐occurrences presented better results than the majority merged approach . 
+However , both , as well as the Vader implementation using a merged lexicon , showed results worse than the Majority Voting baseline in terms of F1‐score . 
+This may be due to the fact that each dictionary was built with distinctive purposes and independent metrics . 
+Regarding the results of the expanded lexicon , they are usually better than the merged strategies , with two overall wins in case of HSSWE Sum ( sentistregth_myspace and sentistregth_rw ) , indicating that new terms found by expansion had some value for the classification task . 
+We can also see in Table 6 that the deep learning approach ( i.e. , DeeMoji ) achieved the best results in one data set ( aisopos_ntua ) despite adopting a pre‐trained model . 
+This shows the potential of this type of solution , but also evince that the need of a lot of training data in the right context and adaptation , given the not “ so‐strong ” results in the other data sets . 
+To summarize , Majority Voting , despite simple , was the strongest baseline when compared to merged , expanded and a pretrained deep learning baselines . 
+From now on , we will focus on this baseline . 
+We now turn our attention to the comparison between 10SENT , the “ strongest ” baseline ( Majority voting ) and the base methods . 
+We should point out that in these comparisons , a mention to 10SENT corresponds to the results obtained with the best unsupervised configuration found in the previous analyses , in other words , the original 10SENT representation ( methods ' decisions ) along with the Bag Of Words and the transfer learning . 

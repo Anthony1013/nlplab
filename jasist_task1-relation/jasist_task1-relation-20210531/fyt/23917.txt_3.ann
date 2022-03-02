@@ -1,0 +1,25 @@
+T1	引文作者 63 67	King
+T2	引文时间 70 74	2011
+T3	引文作者 1011 1017	Amorim
+T4	引文作者 1020 1026	Castro
+T5	引文作者 1029 1043	Rocha da Silva
+T6	引文作者 1048 1055	Ribeiro
+T7	引文时间 1058 1062	2016
+T8	引文作者 840 849	Wilkinson
+T9	引文时间 859 863	2016
+T10	标准数据集 755 764	Dataverse
+T11	标准数据集 767 775	FigShare
+T12	标准数据集 778 783	Dryad
+T13	标准数据集 786 799	Mendeley Data
+T14	标准数据集 802 808	Zenodo
+T15	标准数据集 811 818	DataHub
+T16	标准数据集 821 825	DANS
+T17	标准数据集 832 837	EUDat
+T18	研究结果 3228 3495	data citation is required to give credit to data creators and data curators ; it is a common belief that credit and attribution serve as an incentive to scientists for sharing more and better data , leading to the reproducibility of scientific experiments and results
+T19	研究展望 7955 8104	develop tools able to create citation for data selected through a graphical user interface and not necessarily through well‐formed and formal queries
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T9 Arg2:T8	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	coauthor Arg1:T4 Arg2:T5	
+R5	coauthor Arg1:T5 Arg2:T6	
+R6	has_cited_time Arg1:T7 Arg2:T6	

@@ -1,0 +1,130 @@
+Identifying them comprises the “ base rule ” of the procedure . 
+Ivanov Nikitina Vyazemskiy Medved Golub Landau Bidon'ko Substantival surnames have variable morphologies , which do not adhere to any particular rule . 
+Surnames of foreign origin are regular but also variable—some have regularities in morphology , and some do not—but it is difficult to estimate their pervasiveness in the Russian population . 
+Three additional considerations were addressed during the method development : database bias , territorial bias , and bias related to the lack of updated information on Russian surnames . 
+First , we considered the relative frequency of different surname types ( as presented in Table 1 ) . 
+With respect to people in scientific professions , the presence of certain types of surnames may vary from that of the general population . 
+Irregular surnames , especially among leading scientists , may be more frequent . 
+For example , among the 12 Russian/Soviet Physics Nobel Prize Laureates in the 20th century , seven had “ non‐Russian ” surnames . 
+The roots of this overrepresentation may go as far back as the foundation of Russian academic science in the 18th century and the persistence of Germanic scientific dynasties ( Lipski , 1953 ) . 
+This bias is addressed in the procedure by inspecting the names of the top 1 % most‐cited scientists in the Russian Science Citation Index ( RSCI ) .22 RSCI is a Web of Science index of more than 2000 Russian journals , developed in collaboration with the Scientific Electronic Library ( elibrary.ru ) . 
+In February 2017 , RSCI contained the names of 813,069 scientists . 
+The names of 8,130 top‐cited scientists were checked for nonconventional surnames . 
+Second , there is geographic diffusion and overlapping in Russian and other Eastern European naming traditions . 
+Some popular Russian names have naming patterns stemming from countries that are not currently within Russia 's borders . 
+Conversely , Russian surname morphology has been adopted in Central Asian countries , which now exist as separate nations . 
+Some Eastern European countries , such as Poland and Bulgaria , have patronymic suffix‐based naming morphology that is similar to the Russian naming morphology . 
+This territorial bias is addressed methodologically by including a selected sample of Russian surnames with the origin in Soviet countries in the identification procedure and by utilizing first name data to distinguish , where possible , between Russian and non‐Russian given name and surname combinations . 
+Third , the key name classification source ( Unbegaun , 1972 ) for this research is dated , and more recent studies are inadequate for providing reliable data on Russian surname morphology . 
+Therefore , the identification procedure was developed and tested in a sequential way to ensure the validity of each component . 
+The resulting Russian heritage identification procedure uses surname data and , when possible , first name data , and consists of four steps ( Figure 2 ) .33 Rules and dictionaries developed in this work are in Supporting Information Appendix , which is available separately . 
+The validity of each step is sequentially tested . 
+Sequential construction and testing of the procedure allows precision and recall tracking of its constituent elements and of the alternatives . 
+All steps in the procedure components use regex to identify relevant terms . 
+In implementing the procedure , we first identified authors whose names satisfied the “ base rule. ” For this opening step , we considered and tested three different alternative sources . 
+( 1.a . 
+) Russian lexicological morphology , a rule‐based identification of Russian patronymic and adjectival surname suffixes , was tested against more conventional dictionary‐based methods : ( 1.b ) a list of popular Russian surnames collected from the public domain , and ( 1.c . 
+) a list of popular Russian surnames composed by Zhuravlev ( 2005 ) . 
+In the second step , we identified “ known exceptions ” regarding the geographical bias related to the diffusion of names from the countries of the former Soviet Union , which might be origins for scientists currently working in Russia . 
+Regarding popularity , Soviet names constitute the largest minority of “ foreign ” surnames in Russia but are also frequent in the countries they originated from , which are now separate nations . 
+Using morphological regularities of “ Soviet ” surnames , we tested two alternative options : ( 2.a . 
+) a near‐exhaustive suffix list and ( 2.b . 
+) a more limited list of the suffixes popular in Russia specifically . 
+The third step explored possible “ further enrichments ” to the procedure concerning the database bias and with respect to various name minorities . 
+Unlike Steps 1 and 2 , which tested the efficiency of the alternatives against each other , Step 3 examined incremental improvements of the identification procedure , and all options that contributed to the improvements were used in its final version . 
+This step aimed to identify : ( 3.a . 
+) Russian surnames of Jewish or Germanic origin with a rule‐based query ; ( 3.b . 
+) irregular Russian surnames from a dictionary based on Unbegaun ( 1972 ) and information from the public domain ; ( 3.c . 
+) specific Russian surnames of Romanian and Baltic origin with a rule‐based query ; and ( 3.d . 
+) top‐performing scientists with irregular surnames , irrespective of origin , from a dictionary composed using the RSCI data . 
+After the selection of Russian surnames in Steps 1 through 3 , we disambiguated first names by using ( 4.a . 
+) a list of Russian given names retrieved from the public domain . 
+All first names that were not identified as Russian ( or when first name data was missing ) were excluded from the identification results . 
+The ORCID dataset is imbalanced in that only about 3 % of ORCID users report an address of work or study in Russia . 
+Therefore , the procedure aimed to identify the very small share of records in the data as “ ORCID users with Russian heritage. ” Imbalanced datasets present methodological difficulties ( Chawla , 2005 ) because attempts to increase recall of the minority class disproportionately affect the number of retrieved false positives . 
+With this limitation , to assess the effectiveness of the surname‐based identification procedure , we constructed a control dataset using an undersampling method . 
+Undersampling reduces the need to control for the imbalanced impact of precision and recall on the overall measure ( Drummond & Holte , 2003 ) . 
+Although undersampling methodologies ignore majority class qualities ( Liu , Wu , & Zhou , 2009 ) , we address this by sampling majority class surnames in proportion to their representation in the whole dataset . 
+Overall , 1,000 Russian surnames and 1,000 non‐Russian surnames were sampled . 
+The former is a random selection of authors with an affiliation history in Russia . 
+The names were manually inspected to ensure their true‐positive nature . 
+Non‐Russian surnames were randomly selected from pools of names with a registered affiliation in a country other than Russia according to that country 's popularity in the dataset ( see Table A1 in the Appendix ) . 
+False‐negative results for the majority class were excluded from the test dataset . 
+The effectiveness of data retrieval in the procedure was tested as an increment of the F‐measure through the sequence of steps probing alternative options . 
+F‐measure is a weighted harmonic mean score that reflects the trade‐off between recall and precision of information retrieval ( Buckland & Gey , 1994 ) . 
+The F‐measure is routinely used to assess the effectiveness of information retrieval in large datasets . 
+The binary principle of relevant results selection in this procedure also makes the F‐score the best accuracy measurement tool . 
+The next section presents the results of the surname‐based classification procedure testing in the control dataset . 
+The best identification sequence was then applied to the full ORCID dataset . 
+We tested the precision and recall of alternative variants of surname identification in a sequence of four steps ( refer to Figure 2 ) . 
+The results are summarized in Table 2 . 
+In the first step , identification of Russian heritage names based on lexicological morphology ( 1.a ) was the most effective alternative . 
+FM for the rule‐based identification was 87.6 % , compared with FMs below 50 % for the dictionary‐based methods ( 1.b . 
+and 1.c. ) . 
+Name dictionaries had very high precision , but were at a disadvantage regarding recall . 
+Therefore , the rule‐based lexicological morphology identification was used in the procedure for the subsequent testing . 
+Overall , an F‐measure of 87.6 % attained in the first step is comparable to the best identification results reported by past research . 
+However , because the ORCID dataset is highly imbalanced and we aimed to identify a minority class of ~3 % , we determined that higher F‐score was required . 
+In Step 2 , both options for identifying Russian surnames of Soviet origin affected recall positively and affected precision negatively . 
+However , the “ limited ” option of Step ( 2.b . 
+) had a better precision‐recall trade‐off than the “ near‐exhaustive ” option ( 2.a . 
+) and therefore was used in the procedure as the component for subsequent testing , improving the FM to 90.63 % . 
+In Step 3 , the use of Germanic and Jewish names ( 3.a . 
+) led to a significant increase in false‐positive results , and this component was not used in the procedure . 
+Changes in FM after identifying Baltic and Romanian surnames ( 3.c . 
+) were negligible , which might indicate the very low popularity of these types of names , and this component was not used either . 
+The lists of substantival Russian names ( 3.b . 
+) and irregular names associated with top scientists ( 3.d . 
+) did not significantly affect precision , but positively affected recall and were therefore used in the subsequent testing . 
+Overall , the combined results of the third step of the procedure improved the FM to 93.16 % . 
+In the final step , the use of a list of Russian given names to exclude false‐positive results led to an increase of precision at the expense of recall but also improved the FM . 
+The maximized FM of all four steps and five components of the surname‐based identification procedure amounted to 96.2 % . 
+The procedure correctly identified 940 of the 1,000 Russian names in the control dataset and captured 18 false‐positive results . 
+The surname‐based identification procedure returned high‐validity results when applied in a controlled dataset . 
+We applied the best‐performing variant of the procedure in the entire dataset of ORCID users to distinguish Russian names and , by proxy , ORCID users with Russian heritage . 
+The purpose was twofold . 
+First , we sought to indirectly estimate how well the procedure could identify a minority class in an imbalanced dataset . 
+Second , we aimed to demonstrate the use and usefulness of surname‐based identification by distinguishing five subsets of Russian surname holders and outlining research problems in bibliometrics that might be addressed . 
+One way to infer heritage beyond affiliation address is to use a tool to explore the research patterns of scientists , their mobility patterns , and collaboration network patterns . 
+To illustrate some of these opportunities , we distinguished the following categories of ORCID users : ORCID users with addresses in Russia who may have reported an international address in their career history ; ORCID users who reported Russian addresses , but no international addresses ; ORCID users who reported an international address and may have reported a Russian address ; ORCID users who reported at least one international and one Russian address ; ORCID users who reported an international address , but no Russian address . 
+For each of the five categories , we identified the number of scientists whose names suggest Russian heritage ( see Table 3 ) . 
+Insights from categories 1 , 2 , and 4 provide an idea of the extent of the internationalization of Russian science . 
+Of ORCID users with mobility experience to or from Russia ( Category 4 ) , 70 % have Russian names . 
+This implies that most of these mobile scientists are Russian researchers who have traveled abroad . 
+Among the scientists in Russia , almost 90 % of those who have never been mobile have Russian names , implying Russian heritage . 
+This finding supports our earlier assumption about the very limited numbers of foreign‐born students and researchers in the Russian research system . 
+By combining insights from Categories 1 and 4 , we can estimate that the number of overseas scientists who come to Russia to work or study does not exceed 5.5 % of the total number of scientists in the country . 
+The Russian research system appears to be highly nationally bounded and does not have a high presence of international researchers . 
+Categories 3 , 4 , and 5 provide insights into researchers with Russian heritage working outside Russia . 
+Comparing the number of Russian heritage ORCID users identified in Category 3 with the number in Category 2 , we estimate that the number of researchers with Russian heritage employed abroad equals to , and even exceeds , the number of researchers working only in Russia , at least in terms of representation in the ORCID database . 
+When applied in publication or patent datasets , this comparison can be used to indicate the extent of brain drain from Russia . 
+Category 4 identifies Russian heritage scientists who are considered “ first‐generation ” diaspora : they received training and worked both in Russia and abroad and contribute to the knowledge exchange both in their home and host countries . 
+Category 5 identifies “ second‐generation ” diaspora : ORCID users with Russian names who never reported affiliations in Russia . 
+However , they may have retained informal networks and ties with Russia , which could be enabled for international knowledge brokerage . 
+The application of the surname‐based identification methods has to date been limited because of inaccurate dictionary‐based surname classification techniques and the lack of validity testing opportunities . 
+Using lexicological morphology of surnames to infer the heritage of surname holders demonstrated superior performance , in contrast to most dictionary‐based methods , in identifying Russian heritage researchers . 
+As illustrated in Table 3 , the simplest rule‐based identification provided an F‐measure of more than 85 % , increasing to more than 96 % in a four‐step sequence . 
+To date , Russian surnames have rarely been explored in onomastics research . 
+This article serves as a reference material for further uses of this method in other datasets . 
+We also offer conceptual contributions by distinguishing ethnicity and heritage and by outlining a research agenda for the further use of this method . 
+ORCID as a source of metadata will become more relevant in bibliometric research as its adoption becomes more widespread . 
+For now , the use of name‐based identification helps to address the gaps in the ORCID coverage in research where ORCID is used as a repository of CV‐like data . 
+Applying the procedure to identify the Russian heritage in the ORCID also shows institutional influences on researcher strategies . 
+For example , our finding about the number of ORCID users with Russian heritage who work outside Russia being comparable with the number of ORCID users in Russia is likely because of the lower rates of ORCID penetration in Russia than in Europe and the USA , not because the size of Russian overseas diaspora is similar to the size of the domestic research system . 
+The general principles of the morphology‐based method outlined in this article can be tailored to identify a variety of types of ethnic and national heritage . 
+When used correctly , the method demonstrates superior performance in identifying names within traditions with strong morphological regularities , such as Finnish , Greek , Japanese , Vietnamese , or Turkish ( Table 4 ) . 
+For other ethnic and national groups , the limited or conditional use of the method can be envisioned : it may perform better in assigning names to US ethnic categories than dictionary‐based methods and could make distinctions within those categories . 
+The method could also account for variable , but morphologically regular surnames occurring within a country , such as French‐Canadian names . 
+The method could also be applicable to somewhat morphologically regular naming traditions , such as Indian , jointly with dictionaries and first‐name data to ensure reliable identification . 
+Inferring heritage from name data conceptually separates heritage and affiliation history in bibliometric datasets . 
+This methodological innovation enables exploration , on the aggregate level , of at least four areas of research , where previously the use of bibliometric tools has been limited . 
+First , the approach has utility for studies of scientific mobility . 
+There are increases in both the temporary and the permanent international mobility of scientists , with implications for national research systems and for how knowledge communities interact ( Archibugi & Filippetti , 2015 ) . 
+Conventional approaches in bibliometric studies of mobility take an author 's affiliation as a proxy of their country of origin . 
+Inferring heritage from name data instead could help to better identify the country of origin , which in turn enables distinguishing between different mobility steps in a research career of a scientist , between transborder crossing of domestic and foreign‐born scientists , and between return and onward mobility . 
+Second , as global scientific collaboration links are becoming denser , a growing area of research is concerned with how these networks are built , organized , and sustained . 
+In certain settings , it has been found that shared heritage facilitates corecruiting ( Tanyildiz , 2015 ) , transnational entrepreneurship ( Saxenian , 2002 ) , and ethnic collaboration ( Jin , Rousseau , Suttmeier , & Cao , 2007 ) . 
+Currently , most insights rely on survey data , and some hypotheses about the roles of mobile persons with hybrid heritage in transnational networks remain untested . 
+For example , it is difficult to distinguish second‐generation scientists and inventors from first‐generation migrants . 
+Heritage , in general cultural terms , persists through generations ( Khadria , 1999 ) . 
+There is interest in and hypotheses about the potential ability of second‐generation scientists to play a connecting role in transnational collaborations thus facilitating skills and knowledge transfer . 

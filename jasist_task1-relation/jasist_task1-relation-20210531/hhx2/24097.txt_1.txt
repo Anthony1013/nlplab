@@ -1,0 +1,130 @@
+While demonstrating the quality of scholarly work is not a recent phenomenon , the widespread use of indicators and metrics to assess research has “ proliferated ” over the last 2 decades ( Hicks , Wouters , Waltman , de Rijcke , & Rafols , 2015 ) . 
+Ranging from citations to article downloads , the impact factor to ranked journal lists , the growth of indicators and metrics has run parallel with an increasing focus on research evaluation in the higher education sector ( Box , 2010 ; Hicks et al. , 2015 ) . 
+Dahler‐Larsen ( 2014 ) ( referring to Koselleck ) makes the point that the components of evaluation systems are “ in constant tension with the reality they seek to describe ” ( 2012 , p. 213 ) . 
+For many social scientists , the reality is that indicators and metrics used in research evaluation are unlikely to fully reflect the quality of their work . 
+This tension at the individual level , and the potential of a “ more results‐oriented vocabulary ” ( Dahler‐Larsen , 2014 , p. 981 ) of academic environments to influence metrics use , is the focus of our study . 
+History and an abundance of literature demonstrate that bibliometrics are inadequate measures of research quality and impact for many fields in the social sciences . 
+Yet a range of metrics are often components of research evaluation , at all levels in the higher education sector . 
+When considered alongside peer review , quantifiable criteria for research evaluation have clear advantages in terms of the time required to gather data and the perception of numeric comparability . 
+However , this perception is frequently founded on misunderstandings or misinterpretations of the metrics available , and these metrics are better suited to fields for which the main form of research output is the journal article . 
+In 2004 , Diana Hicks ( p. 474 ) described the publications of social sciences as a “ messy set of literature. ” Focusing on the limitations of bibliometrics , Hicks explained the problems for four categories of published outputs in the social sciences : journal articles , books , national literatures , and nonscholarly literature . 
+Later research identified specific types of social science literature , such as book chapters , conference papers , magazines , reports , cases , and theses ( van Leeuwen , van Wijk , & Wouters , 2016 ) . 
+While these literatures each play an important role in scholarly communication for social scientists , they were , and remain , poorly indexed or not indexed at all in the main bibliometric tools , Web of Science and Scopus . 
+As a result , effective evaluation of the published output of social scientists is more complex than for the sciences and this presents a challenge for scholars wishing to show evidence of the value of their work . 
+Yet very little is known about if and why individual social scientists use metrics , and how they employ specific metrics in their work . 
+The perception and use of metrics has been studied in medicine and the science fields ( Aksnes & Rip , 2009 ; Derrick & Gillespie , 2013 ) , while others have included the social sciences in their samples ( Buela‐Casal & Zych , 2012 ; Hargens & Schuman , 1990 ) . 
+With the exception of a recent article ( Ma & Ladisch , 2016 ) , multidisciplinary studies have focused on a single bibliometric indicator . 
+Our approach is narrower , in that social scientists form the study population , but broader in its inclusion of a range of indicators and metrics . 
+This article explores : ( i ) the extent of indicator and metrics use ; ( ii ) the purpose and context of use ; and ( iii ) features of the research evaluation environment that appear to be associated with use . 
+An online questionnaire gathered data from social scientists working in Australia and Sweden , which presented the opportunity to explore indicator and metrics use by scholars from different national academic cultures and languages , and with different research evaluation systems in place . 
+The diverse publishing practices of the social sciences limits the use of indicators and metrics in the social sciences . 
+Books , book chapters , reports , conference papers , and a range of others are not uncommon publication forms ( Engels , Ossenblok , & Spruyt , 2012 ; Gumpenberger , Sorz , Wieland , & Gorraiz , 2016 ; Huang & Chang , 2008 ; Laudel & Gläser , 2006 ; Lindholm‐Romantschuk & Warner , 1996 ; Verleysen & Weeren , 2016 ) and only a tiny proportion of these are covered by Web of Science and Scopus , the most important citation indexes . 
+Over the last decade , the potential for alternative metrics to play a role in evaluating a range of publication types has been proposed ; however , the new metrics have yet to prove themselves as credible tools ( Wouters et al. , 2015 ) . 
+Thus , citation counts and related indicators are either unavailable or compromised as research evaluation criteria for much of the social science journal literature . 
+Some fields , particularly psychology and economics , are exceptions and are more widely indexed ( Butler , 2008 ; Hicks , 2004 ; Huang & Chang , 2008 ) . 
+Given that the vast majority ( 95.45 % ) of social science articles indexed by Web of Science are in English ( Gingras & Mosbah‐Natanson , 2010 ) , it is not surprising that these fields tend to publish in highly regarded English‐language international journals ( Verleysen & Weeren , 2016 ) . 
+Writing for national audiences in the national language is common to many social science fields ( Hicks , 2004 ; Sivertsen , 2016 ) , although there appears to be a move away from publishing in non‐English languages ( Engels et al. , 2012 ; Gumpenberger et al. , 2016 ; Hammarfelt & de Rijcke , 2015 ) . 
+In the Nordic context , Olsson and Sheridan ( 2012 ) raised concerns that research has been overlooked when published in the national language . 
+There are a number of possible explanations for this trend , such as perceptions that non‐English language journals are less scholarly ( Hicks & Wang , 2011 ) , and that English language articles have higher impact ( van Leeuwen , 2013 ) ; each feeding into research evaluation criteria . 
+Like indexing coverage , publication in languages other than English is more common to some social science fields , such as law ( de Jong , van Arensbergen , Daemen , van der Meulen , & van den Besselaar , 2011 ) . 
+The importance of national language publications has been acknowledged in the development of journal lists for research evaluation , and while the lists include titles that are not indexed by major citation databases , they are not without their own set of problems . 
+Criticisms include flawed methods for their development and the impact factor like assignment of a journal rank on individual articles ( Ferrara & Bonaccorsi , 2016 ; Rafols , Leydesdorff , O'Hare , Nightingale , & Stirling , 2012 ; Tourish & Willmott , 2015 ) . 
+It is worth noting that scholars in smaller English‐speaking countries , like Australia , can also be affected by indexing coverage and ranked journal lists ( Genoni & Haddow , 2009 ) . 
+Despite the limitations of bibliometrics and other indicators , scholars across all disciplines are inclined to use them . 
+Wouters ( 2014 , p. 56 ) notes the “ ambivalent attitudes with respect to performance and citation indicators ” evident in previous studies ; however , research into the use and perceptions of the impact factor ( Buela‐Casal & Zych , 2012 ) and citations ( Hargens & Schuman , 1990 ) found that social scientists use these citation indicators and , with some qualifications , regard them as reflecting quality . 
+A more recent study ( Ma & Ladisch , 2016 ) touches on issues that are of interest in this article , such as scholars ' strategies relating to perceptions of indicators , including alternative metrics . 
+The preliminary findings suggest the same ambivalent attitude to metrics , but they are used by scholars nevertheless . 
+Dahler‐Larsen ( 2012 , p. 14 ) describes evaluation as having “ the potential , to facilitate a new view of customary practice that breaks with existing habits and convictions ” and the effects of different evaluation systems can be wide‐ranging ( de Rijcke , Wouters , Rushforth , Franssen , & Hammarfelt , 2016 ; Lewis & Ross , 2011 ) . 
+Clearly , institutional policies and processes that include incentives ( or disincentives ) to comply are highly likely to influence individual responses ( Aagaard , Bloch , & Schneider , 2015 ; van Dalen & Henkens , 2012 ) . 
+In Australia , a new national research evaluation system was trialed in 2010 ( Australian Research Council , 2017 ) . 
+The Excellence in Research for Australia ( ERA ) was accompanied by a ranked journal list , introducing quality as a measure for journal publications . 
+By 2012 , the ranking of journals had been abandoned , although the list of approved titles remains as a criterion of eligibility for assessment . 
+Quality is assessed through peer review for all social science fields , with the exception of psychology , for which citation‐based metrics are applied . 
+However , in the development of the ERA , metrics were proposed as an indicator for all fields ( Butler , 2008 ) and they have been the subject of research and discussion in Australia for much longer ( Bourke , 1994 ; Royle & Over , 1994 ) . 
+Books , book chapters , conference papers , and creative works are eligible for assessment , but journal articles comprise the greatest proportion of assessed social sciences submissions ( Turner & Brass , 2014 ) . 
+The ERA Journal List is a key tool ( http : //www.arc.gov.au/era-2018 ) . 
+Titles are classified with between one and three Field of Research codes ( Australian Bureau of Statistics , 2008 ; Haddow , 2015 ) , and this classification is responsible for allocating research outputs to fields . 
+It is significant that although outcomes of an ERA assessment—ratings of Fields of Research by institution—have not been linked to funding to date , achieving high ratings is an important driver of research at Australian universities ( Knott , 2015 ) . 
+Sweden introduced a new system for research funding allocation to higher education institutions in 2009 , which is currently under revision . 
+Unlike the Australian model , it assesses research across all fields using citations and number of publications as measures ( Hammarfelt , Nelhans , Eklund , & Åström , 2016 ) . 
+This model has influenced funding allocation at an institutional level , with most Swedish institutions using bibliometric indicators to distribute funds . 
+Some universities have implemented the Norwegian model , which incorporates both quality , through a two‐tiered journal and publisher list , and quantity . 
+Like the national system , this model “ emphasizes international and peer reviewed publications ” ( Hammarfelt & de Rijcke , 2015 , p. 66 ) , and although English as the language of publication is not a specified criterion , the international component of the model means that English is likely to be the language of publication for many journals . 
+There are numerous terms , such as “ indicators ” and “ metrics , ” used interchangeably in the literature of bibliometrics and research evaluation , and it is beyond the scope of this article to attempt to differentiate between them . 
+Unless we are discussing a specific measure , the term “ metrics ” is used here to encompass the range of tools used in the evaluation of research , whether they are citation‐based metrics or other indicators , such as the Norwegian “ publication indicator ” ( Aagaard et al. , 2015 ) , the now‐defunct ranked ERA Journal List ( Australian Research Council , 2017 ) , and the ABS Academic Journal Guide ( Chartered Association of Business Schools , 2015 ) . 
+This article is reporting on a subset of a broader study involving social science and humanities ( SSH ) scholars in Australia and Sweden . 
+The humanities subset was explored separately and is reported elsewhere ( authors , in press ) . 
+Due to the large SSH populations in Australia and Sweden ( 17,840 and 7,791 , respectively ) , an online questionnaire was selected as the most effective research instrument . 
+A survey developed for arts and humanities scholars at a Swedish university ( Hammarfelt & de Rijcke , 2015 ) provided a base from which questions were added , modified , and omitted for the SSH study . 
+Demographic questions for country , academic position , time in academia , and gender allowed for the testing of associations across variables . 
+For identifying a research field , we used the research classification schemes relevant to Sweden , the revised Field of Science and Technology Classification ( OECD , Organisation for Economic Co‐operation and Development , 2007 ) , and Australia , the Australian and New Zealand Standard Research Classification ( Australian Bureau of Statistics , 2008 ) . 
+An extensive list of metrics was developed as response options and three open questions were designed to collect qualitative data about metrics use and changes in publication practices . 
+( See Appendix for an abridged version of the survey . 
+) Approval to conduct the research was gained from Curtin University 's Human Research Ethics Committee . 
+In order to attract a good response rate , several strategies were implemented , such as keeping the survey as brief as possible and distributing the initial invitation to scholars with “ legitimate authority ” ( academic line managers ) over the study population ( Dilman , 2006 , p. 20 ) . 
+The variety of university organizational structures and unit titles , as well as the time required to identify SSH academic areas meant that units with the title “ health science ” were excluded . 
+It is likely that some SSH‐related sub‐units ( for instance , psychology and social work ) were therefore omitted from the invitation to participate . 
+Individually addressed e‐mail invitations were sent to 134 Australian and 58 Swedish line managers , at 38 and 18 universities , respectively , requesting that they distribute the invitation . 
+After 4 weeks and reminder e‐mails , the survey had gathered only 503 responses . 
+Using what was essentially a random sample of universities—those from which no responses were received—invitations to all SSH scholars ( ~6,000 ) at the nonresponding universities with e‐mail addresses available were distributed . 
+The universities were representative of their country 's higher education sector and included research‐intensive universities , regional universities , and more teaching‐oriented institutions . 
+This second recruitment round doubled the responses to 1,189 . 
+Of these , 160 responses without university data were excluded , leaving a total of 1,029 completed surveys from SSH scholars . 
+The responses from social scientists accounted for 581 of these . 
+Like Hicks 's ( 2004 ) description of its literature , a definition of social science is a little messy . 
+For the purposes of this study , social science fields were defined by the OECD classification scheme , which comprises eight fields : Economics & Business , Educational Sciences , Law , Media & Communications , Political Science , Psychology , Social & Economic Geography , and Sociology , as well as an overarching “ Social Science ” and “ Other ” classification . 
+A total of 581 participants had noted one or more of these classifications : 249 ( 42.9 % ) Australians and 332 ( 57.1 % ) Swedish scholars . 
+As a proportion of all social scientists in Australia ( 11,049 ) and Sweden ( 5,228 ) , our respondent sample represents ~2.25 % and 6.35 % of the total population , respectively ( Statistics Sweden , 2017 ; Turner & Brass , 2014 ) . 
+The quantitative data analysis was performed using the survey software 's analysis functions and Excel to produce descriptive statistics and to explore some cross‐tabulations . 
+Comments made in response to the open questions were exported into documents in order to conduct manual counts and to extract quotes relating to identified themes . 
+In the Findings section , we first discuss the demographic profile of the participant group , followed by the results for the extent of use and types of metrics used . 
+We then discuss the purpose and context of use , and features of the research evaluation environment that appear to be associated with use . 
+The results are reported for the full set of responses ( 581 ) and , in some cases , the eight fields ( 477 ) . 
+Swedish social scientists participated in the study in higher numbers ( 57.1 % ) than their Australian peers ( 42.9 % ) , and the survey appeared to attract scholars in more senior positions , with over 45 % at the professor and associate professor levels . 
+In terms of academic age , the highest number of participants was in the 5–10 year range ( 25.3 % ) , followed closely by researchers who had worked in academia for over 20 years ( 23.4 % ) . 
+Females participated in slightly higher numbers ( 50.1 % ) than males ( 47.7 % ) , with some scholars choosing not to identify with a gender . 
+English was the preferred language of publication , with only 58 ( 17.4 % ) Swedish scholars indicating they preferred their national language . 
+For the analysis of discrete fields , 477 of the 581 scholars had indicated their research area as one or more of the eight fields ( 522 instances of fields ) . 
+Another 49 noted the general Social Sciences and 56 noted the Other Social Sciences classifications only . 
+These broad fields were not analyzed separately . 
+Economics & Business was the largest field with 139 participants , almost double the size of Educational Sciences ( 79 ) and Law ( 72 ) . 
+Scholars identifying with the remaining fields are : Sociology , 65 ; Political Science , 53 ; Psychology , 43 ; Media & Communications , 41 ; and Social & Economic Geography , 30 . 
+When the demographic data are compared by country ( Figure 1 ) , minor differences are apparent for gender , with stronger variations evident for position and academic age . 
+The much higher number of Australians at the lecturer position potentially relates to the way the title is used in Sweden , which is frequently associated with teaching rather than research positions . 
+It is possible the survey was regarded as less relevant to these academics . 
+The much higher number of Australians with an academic age of over 20 years is less explicable . 
+Due to the low numbers , postdoctoral , doctoral student , and research assistant responses are not presented in the figure ; however , a relatively high proportion of the Swedish respondents were doctoral students ( 14.8 % ) , compared to the Australian group ( 1.2 % ) . 
+This may be a product of distribution lists used in the recruitment of respondents . 
+It may also relate to the trend in Sweden for PhD students to publish during or as part of their doctoral work—perhaps considering themselves “ researchers ” —whereas thesis by publication is less common in Australia . 
+Very few of the participants did not respond to the demographic questions ; however , the number of responses to later questions varied and this is indicated with n in the results below . 
+When asked if they used one or more of a range of metrics in CVs , promotion , and grant applications , almost half ( 47.2 % ) of the social science participants ( n = 517 ) responded affirmatively . 
+However , a major difference in metrics use was found when the countries were compared , with 67.5 % of the Australian group ( n = 231 ) and 31.1 % of the Swedish scholars ( n = 286 ) reporting they had used one or more of the metrics listed . 
+We examined demographic factors to identify any possible associations with use and found that professors and associate professors reported using metrics in higher than expected numbers . 
+Scholars with an academic age of less than 5 years reported much lower use than the other ages , 17.6 % compared with a range of 45.9–57.1 % , which likely reflects their limited opportunity to submit grant applications and apply for promotion . 
+When use was analyzed for field and country ( Figure 2 ) , Law scholars reported the lowest use , although the majority of Australian Law participants reported using metrics , as did all Australian social science fields . 
+Australian Psychology and Sociology scholars used metrics in lower proportions than the overall use reported by Australians . 
+The exclusion of health science units from the recruitment process almost certainly resulted in fewer psychology scholars responding to the survey , and those who did are potentially more aligned with qualitative approaches . 
+In relation to the Sociology scholars ' use , our findings are higher than those reported previously for citations use ( Hargens & Schuman , 1990 ) . 
+On the basis of previous studies , Economics scholars would be expected to report high use and we speculated that the inclusion of Management in the classification influenced our results . 
+To test this , we examined the ANZSRC fields selected by the Economics & Business scholars and found that ~60 % of the cohort identified with fields outside of Economics . 
+Overall , the difference between countries clearly exceeds those concerning fields . 
+At the same time there are indications that some fields—like Law—are less inclined to use metrics . 
+An open question about which metrics were used and for what purpose provided data about specific tools . 
+Researchers who responded to this question had all reported using metrics in CVs , promotion , and/or grant applications . 
+Manual counting was performed to identify the metrics mentioned most often and these are presented as a percentage of the number of responses to the question for the Australian and Swedish groups ( Figure 3 ) . 
+Although there is only a slight difference between the Australian and Swedish groups ' reported use of citations and the h‐index , the Australians mentioned the impact factor and ranked journal lists in much higher proportions . 
+The poor coverage on non‐English language journals by Web of Science means that very few Swedish‐language journals will have an impact factor . 
+Indeed , the Source Publication List for the Social Sciences Citation Index lists only two journals in Swedish ( 2017 , http : //mjl.clarivate.com/publist_ssci.pdf ) . 
+The use of ranked journal lists is another point of difference . 
+Although the ERA ranked journal list was discontinued in 2012 , a good number of Australians mentioned it , along with the Australian Business Deans Council journals list . 
+In contrast , only four Swedish participants mentioned the Norwegian list . 
+Other lists , such as the Financial Times top 50 , SCImago Journal Rank , and the UK business journal rankings were also noted by a few researchers . 
+Library holdings , downloads , and altmetrics were listed only once . 
+Some scholars were less specific and recorded the names of sources , such as social media platforms , Google Scholar , Web of Science , and Scopus , without an associated metric . 
+Google Scholar was the most frequently recorded source by scholars from both countries . 
+In Figure 4 , the four metrics presented in Figure 3 are broken down for the social science fields . 
+Psychology scholars mentioned citations and the h‐index in much higher proportions than any other field . 
+Citations were used by the majority of Political Science scholars , as was the impact factor by researchers in Social & Economic Geography . 
+Law scholars most frequently used journal lists and the Sociology field exhibited relatively even use of the citation‐based tools . 
+Somewhat surprising is the finding that only a quarter of the Economics & Business scholars noted ranked journal lists , as this field tends to use discipline‐based lists ( Hammarfelt & Rushforth , 2017 ) . 
+We identified the purpose and context in which metrics were used from 227 responses to the open questions . 

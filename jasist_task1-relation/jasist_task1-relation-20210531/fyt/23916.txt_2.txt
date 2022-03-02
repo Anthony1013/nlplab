@@ -1,0 +1,95 @@
+Although this result is beyond our expectation , it may imply that the number of citations , which is one measurement of an author 's popularity ( Ding & Cronin , 2011 ) , is not a driving force for scientific collaboration . 
+Although our measurement is targeted on authors , it may also strengthen Hsu and Huang 's ( 2010 ) argument that “ predicting the citation number from the coauthor number can be more reliable than predicting the coauthor number from the citation number ” ( p. 317 ) . 
+In the “ topic ” related terms under “ Main Effects ” of both models , we compare the probability of gaining collaboration for the authors who most preferred Topic 2 , 3 , 4 , and 5 with the baseline where those authors most used Topic 1 , respectively . 
+For example , we find that in both models , authors who liked the topic Medical Information Retrieval most significantly have a higher chance to attract new collaborators , where the probability is increased by 63 % ( in Model I and 57 % in Model II . 
+We also observe the existence of the homophily effect in authors ' research interests . 
+The probability that authors collaborate with those who share the same research topic is 6.36 times in Model I and 3.67 times in Model II compared to the probability of the authors ' collaborating with those not sharing their interest . 
+When plotting the coauthorship network with nodes colored by the representing author 's most used topic ( shown in Figure 2 ) , we find that there exist many same‐color clusters , which demonstrates the authors ' preference for same or similar topic collaboration . 
+This finding is consistent with the conclusion of Ding ( 2011 ) , that in the field of IR , productive authors tend to directly collaborate with those who share the same research interests , and not directly coauthor with those who work on different topics . 
+Plot of collaboration . 
+( Note : each color represents one topic : [ yellow : Topic 1 Database ] , [ green : Topic 2 Medical IR ] , [ orange : Topic 3 IR Theory ] , [ blue : Topic 4 IR Systems ] , [ red : Topic 5 Image‐based IR ] . 
+) [ Color figure can be viewed at wileyonlinelibrary.com ] When examining the gender distribution in collaboration , we notice that to some extent the authors ' gender influences the patterns of authors ' collaboration . 
+Although neither male nor female is found to have a significant advantage in attracting collaboration , we find that there exists the homophily effect in authors ' gender ; scholars tend to collaborate with others who have the same gender . 
+The probability of same‐gender coauthorship is 1.45 times in Model I and 1.63 times in Model II compared to the probability of cross‐gender collaboration . 
+When plotting the coauthorship network with nodes colored by the representing author 's gender ( shown in Figure 3 ) , we find that there exist many same‐color clusters , which demonstrates the authors ' preference for the same‐gender collaboration . 
+Plot of collaboration . 
+( Note : each color represents one gender : [ blue : male ] , [ pink : female ] . 
+) [ Color figure can be viewed at wileyonlinelibrary.com ] In general , our first hypothesis was verified that homophily does influence the formation of scientific collaboration network . 
+Specifically , we find that the authors ' productivity measured by their single publication numbers has a counter‐homophily effect ; the authors ' impact does not bring any related homophily effect ; but both the authors ' research topics and their gender do bring a strong homophily effect on the creation of collaboration between authors . 
+We see that the parameter of the transitivity in the authorship network is positive and significant , which means that the effect of network 's transitivity strongly influences the authors ' collaborations . 
+The value of this parameter stands out in the fitted model , where , remarkably , the probability of one author collaborating with her/his coauthors ' coauthors is 11.70 ( ) times the probability of not collaborating . 
+The triangular collaboration , however , is far more likely to occur . 
+This result conforms to Newman and Park 's ( 2003 ) study point that the coauthorship network as a typical social network which has a high level of transitivity . 
+We thus observe a few triangular clusters in the collaboration graph in Figure 2 . 
+The second hypothesis that transitivity effect plays an important role in the formation of scientific collaboration network has been verified . 
+From the study results , we find a significant effect of preferential attachment in this coauthorship network . 
+The probability that one author would like to collaborate with another researcher who has more than one previous collaborator is about 1.90 ( ) times than those without collaborators . 
+A core‐periphery structure thus emerges , wherein a large group of nodes ( see the lower part of Figure 2 ) are well connected and form the “ core ” structure , which represents that this author preference accounts for most collaborations in the network . 
+The other nodes are loosely connected and form the “ periphery ” structure , and these authors have lower levels of collaboration . 
+The third hypothesis that the effect of preferential attachment plays an important role in the formation of scientific collaboration network has been confirmed . 
+Figure 4A–E shows the collaboration among the authors whose core research interests are Topic 1 to 5 , respectively . 
+From the figure , it is clear that the collaboration extent and patterns within each subarea of the IR field are quite different . 
+There are more scholars who mostly worked on Topic 1 ( database ) , compared with those working on other topics . 
+They have denser collaboration , and there is a big connected cluster in this subnetwork . 
+The researchers in Topic 2 ( Medical IR ) are the least in number . 
+We see two small closed clusters in this subnetwork , each of which reflects that the scholars are fully connected , as any two of them have coauthored before . 
+The scales of the other three subnetworks , formed by scholars working on Topic 3 ( IR Theory ) , Topic 4 ( IR Systems ) , and Topic 5 ( Image‐based IR ) are similar . 
+But the collaboration patterns vary . 
+Collaboration among scholars who published most in Topic 3 is more restricted to small groups ( formed by fewer than 10 people ) . 
+Except for some pairwise and triple‐wise coauthorship , however , there is a rather big and dense collaboration circle among scholars who work on Topic 4 , wherein most of the authors have at least three collaborators . 
+The collaboration among those whose main topic is Topic 5 shows chain structures , where one author collaborates with the other one , the other author further collaborates with the third one . 
+Plots of collaboration in each topic subnetwork . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Because the subnetwork of authors whose main topic is Topic 2 is too sparse , we did not fit it into the ERGM model . 
+For the other four topic subgraphs , we used the same model to fit each collaboration network . 
+Table 2 shows the results . 
+We find that in the subnetwork of Topic 3 ( IR Theory ) , the more non‐first‐authored publications one scholar has , the more likely he/she will gain new collaborators . 
+In the subnetwork of Topic 4 , IR Systems , researchers tend to coauthor with those who have written quite different amounts of single‐authored publications . 
+From the perspective of network structure effects , we find strong effects of transitive collaboration and preferential attachment when generating coauthorships within each topic of IR . 
+This paper provides a systematic analysis of scientific collaboration by comprehensively considering the simultaneous effects of scholars ' characteristics , including their productivities , number of citations , their main research interests , and their gender , as well as the homophily effect on these attributes , the transitivity , and the preferential attachment of their collaboration networks by using ERGMs . 
+The model built in this work reflects the generation of actual research collaboration , where authors ' individual characteristics and the structure of their embedded network interactively determine their collaboration levels and preferences . 
+We show concretely how each effect contributes to the collaboration simultaneously . 
+The major findings of this paper can be summarized as follows : the different types of publications one author has written play different roles in his/her collaborations , where the more papers she/he has collaborated with others as non‐first‐authors , the more likely he/she will gain more collaboration , whereas people prefer not to coauthor with those who have produced similar numbers of single‐authored publications . 
+The number of citations does not influence authors ' collaboration preference , although sharing the same research interest or having the same gender is crucial for generating collaboration between two authors . 
+An author 's tendency to form new collaborations with her/his coauthors ' collaborators is strong . 
+The more coauthors one author has , the more new collaborators he or she will attract . 
+From our analysis results , we find that the transitivity has the largest effect in forming this collaboration network , followed by the homophily effect of authors ' research interest , the effect of preferential attachment , and the homophily effect of gender . 
+The probability that a scholar will find a coauthor from her/his coauthors ' coauthors is about 3 times of that from researchers who share the same research interest with him/her . 
+Meanwhile , the probability for a scholar to find a coauthor from those sharing the same research topics is about 2 times that to find one if she/he has one more previous collaborator before ; it is also about 2 times that to find a coauthor from the same‐gender scholars . 
+From a deeper examination of collaboration at each topic level of the IR field , we find that Medical Information Retrieval is the topic where there is a tendency to collaborate with those authors whose main interests lie with theirs . 
+The number of non‐first‐authored and single‐authored publications on the topic of Information Retrieval Theory and Information Retrieval Systems , respectively , most influences the levels of within‐topic collaborations . 
+Scholars who mainly work on each topic presented herein all have a high propensity to collaborate with their coauthors ' coauthors , or those who already have many collaborators . 
+Both influences are the strongest for authors whose core topic is Information Retrieval Theory . 
+We could see that it is very likely for researchers who share common coauthors to form new collaboration . 
+Such a collaboration will result in a low search cost because the two parties of the collaboration could be introduced by the common collaborator . 
+It can also reach high efficiency because the two parties may have more common language by sharing the same collaborator . 
+Collaborating with coauthors ' coauthors also provide a path for a certain scholar to reach others from outside their domain ; thus a cross‐disciplinary collaboration could be formed , which has rather high innovation . 
+We believe that more opportunities and resources should be provided to support such kinds of collaboration . 
+For example , special funding could be offered to a certain scholar to arrange some informal meetings to bring her/his coauthors together ; particular forums with a similar purpose may be organized in some conferences ; conference organizers could even invite the coauthors of a speaker to attend the same session . 
+By these means , more isolated scholars could talk to each other and trigger future collaboration . 
+We also observe that well‐established scholars have a higher chance to attract collaborators . 
+For a newcomer , it could be practical for him/her to connect with those popular researchers to seek more collaboration opportunities . 
+We also find that it is easier for the scholars sharing the same topic or the same gender to form new collaborations . 
+However , it is widely recognized that multidisciplinary collaborations promote innovation ( Cummings & Kiesler , 2005 ) . 
+“ Innovation opportunities going forward will be at the cusps of different disciplines ” ( Mitra , 2009 ) . 
+“ Multidisciplinary projects should increase the likelihood of innovation due to their juxtaposition of ideas , tools , and people from different domains ” ( Cummings & Kiesler , 2005 , p. 704 ) . 
+The within‐topic collaboration may limit the innovation and creativity of the scientific products . 
+Without taking any action , people would be more reluctant to coauthor with those working on different topics . 
+Some interventions should be taken to encourage cross‐topic collaboration . 
+For example , funding agencies could continue requiring the collaboration teams to be assembled by researchers from different domains . 
+Universities could continue advocating cross‐institution collaboration by increasing the credit of such projects when evaluating the participants . 
+What is more , to make it more efficient for scholars to find the right persons to collaborate with , universities could host different workshops and meetings to help scholars from different departments get familiar with other topics ; a common ground could be developed during such a process . 
+Actions should also be taken to foster the trust among collaborators from different domains . 
+Agents should also keep exploring the way to effective formation of cross‐disciplinary collaboration ; for example , encouraging collaboration among scholars who come from a different background but share the same coauthors . 
+We also realize that gender could be a barrier for initiating collaboration . 
+For example , if restricting the collaborators to those who have the same gender , it will be difficult for the researchers who are the minority gender in their environment . 
+Certain policies should be implemented to encourage scholars in the majority gender to collaborate with those who have different gender ; for example , when making the tenure decisions , institutions could assign more credits to the majority gender scholars who have conducted research with mixed‐gender teams . 
+For the minority gender group , they are encouraged to conduct mixed‐gender collaboration ; but the reward system will not penalize their same‐gender collaboration due to the existing gender imbalance . 
+In this study we selected many common authors ' attributes , such as the productivity measured by different ways , the research topic , and gender ; the homophily effects on these attributes ; and the transitivity and the preferential attachment . 
+Although scholars in different disciplines may have different tendencies to collaborate ( Birnholtz , 2007 ) and different disciplines have various intellectual organizations ( Fuchs , 1992 ; Whitley , 2000 ) , we believe that in most disciplines the collaboration networks are social networks , and thus will have some attributes in common ; for example , displaying a high degree of transitivity that Newman ( 2001a ) demonstrated in the fields of both physics and biology and medicine ; the preferential attachment is also an important property in many large networks , such as collaboration networks in mathematics and neuroscience ( Barabási et al. , 2002 ) ; the homophily patterns have been observed in a few networks , such as collaboration networks in economics ( Boschini & Sjögren , 2007 ) . 
+The perspectives we select to investigate collaboration are three important features in social network studies . 
+Thus , we believe the three perspectives in our study could be applied to investigate collaboration in other fields . 
+In this work , we applied the ERGMs in a binary coauthor network . 
+Due to network sparseness , unfortunately we could not apply the same procedure in the weighted network . 
+In the future , we will apply ERGMs to author citation networks and overlay outcomes with the coauthorship network to study whether the impact can drive the levels and preferences of scientific collaboration . 
+In addition , we will conduct a temporal analysis to better understand the dynamic aspects of scientific collaboration . 
+We plan to model the change of coauthorship in a time range and investigate the ways in which the authors ' individual characteristics and structure features of their embedded network dynamically influence their scientific collaboration . 

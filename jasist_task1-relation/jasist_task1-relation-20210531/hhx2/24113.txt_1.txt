@@ -1,0 +1,130 @@
+Social network sites ( SNS ) such as Facebook build their business models on collecting and monetizing the user data . 
+To receive “ free ” information and communication service , a SNS user must release some of their personal information to the SNS company and advertisers . 
+For example , the user needs to create an account with a verifiable e‐mail address and , increasingly , a valid phone number . 
+He or she is often required to provide date of birth , gender , city of residence , and a photo of him/herself . 
+Moreover , the user 's daily activities and personal thoughts shared with friends in the network are visible at least to the SNS platform company . 
+All this personal information will be used to serve commercial purposes such as targeted advertising . 
+As most SNS users are aware of the fact that their personal data are being exploited by commercial entities , the privacy calculus theory contends that people make privacy‐related decisions based on weighing the anticipated benefits of the decision against its perceived privacy consequences ( Dinev & Hart , 2006 ; Min & Kim , 2015 ) . 
+Similarly , some researchers draw upon social exchange theory and liken self‐disclosure as an exchange of information as goods between individuals and corporates ( Krasnova , Spiekermann , Koroleva , & Hildebrand , 2010 ) . 
+Hence , privacy in SNS is an art of balancing between autonomy and disclosure , or an act of exchanging bits of “ self ” for the SNS services . 
+This type of theorization of privacy assumes an existing “ true self. ” Privacy settings in social information systems , therefore , are designed in such a way that a user 's vulnerable “ true self ” is shielded from external invasions ( Posey , Lowry , Roberts , & Ellis , 2010 ) . 
+The “ selective access ” conceptualization is in consistent with Altman and Taylor 's ( 1973 ) social penetration theory , which likens self as an onion with many layers : The outer layers contain superficial and non‐sensitive information that protects an intimate , central core representing the true self . 
+In the progression of social penetration , the protective outer layers are gradually peeled off as one discloses more and more information about oneself in interacting with others . 
+In his later writings , Altman ( Altman , Vinsel , & Brown , 1981 ) moved beyond social penetration theory by emphasizing that social relationships involved both openness and closedness among people . 
+Openness reflects a willingness to expose the self to another person , and closedness means shutting oneself off or withdrawing from others . 
+In this sense , privacy control is a set of mechanisms that regulate interaction with others : people choose how open or closed we are in response to changes in our internal states and external conditions . 
+But it is possible that people act on a more complex set of mechanisms than the simple trade‐off or open‐close principle when it comes to privacy . 
+An intriguing observation in some privacy studies is that there is little evidence of correlation between perceived privacy risk and the overall amount of self‐disclosure ( Taddicken , 2014 ; Tufekci , 2008 ) . 
+Research has also shown that people can be uncertain about their own privacy preferences even when they are aware of the consequences of their privacy decisions . 
+For instance , in a series of experiments , Brandimarte , Acquisti , and Loewenstein ( 2013 ) demonstrated that giving people more control over the publication of their personal information decreases their privacy concerns and increases their willingness to share , even when the risk probabilities remain the same or even increase . 
+To this end , I agree with Nissenbaum 's ( 2011 ) view that the “ notice‐and‐consent ” ( p. 34 ) , or “ transparency‐and‐choice ” ( p. 34 ) , approach to addressing privacy issues has failed . 
+Nissenbaum advocates a contextual approach to privacy online , emphasizing the importance of contextual integrity as personal information moves across heterogeneous online contexts . 
+Her theory of contextual integrity offers a critical perspective in analyzing current privacy practices of Internet companies and why those practices are inadequate or misleading . 
+Although not taking a psychological angle , Nissenbaum 's theory points out the urgency of studying privacy as a concept “ thickly integrated with social life ” ( p. 43 ) . 
+In line with Nissenbaum 's emphasis on social context , my understanding of privacy is rooted in the belief that the self is never “ autonomous. ” According psychology literature , self‐identity is constructed by oneself and others about how one is defined and regarded in social life ( Jenkins , 2008 ) . 
+Selfhood can be viewed from the perspective of the actor , in which case it refers to how one thinks oneself should be defined and regarded , or from the perspective of others , in which case it refers to how the others define and regard the actor . 
+Identity theorists consider the self as a reflective existence that can categorize itself in relation to other social categories ( Stets & Burke , 2000 ) . 
+Through this process of “ self‐categorization ” ( a key concept of social identity theory ) or “ identification ” ( a key concept of identity theory ) ,11 Identity theory and social identity theory have roots in different intellectual traditions , yet these two theories have substantial overlap . 
+See Hogg , Terry , and White ( 1995 ) and Stets and Burke ( 2000 ) . 
+self‐identity comes into being . 
+Because social categories for each individual vary , identity theorists place a great emphasis on the interconnected individuality in interaction contexts . 
+Therefore , the self does not merely exist at the level of one 's unique individuality ( as is usually assumed in autonomy‐based view of privacy ) ; rather , the self is always an inter‐subjective entity that implies the presence of others . 
+Through a cyclical and negotiating process , individuals come to find self‐understanding and be able to express the self‐identity ( Floridi , 2011 ) . 
+This socio‐psychological understanding of selfhood raises interesting questions about the relationship between privacy and the self . 
+Following the apparent connection between privacy and selfhood , I contend that the need for self‐identity is an important , but overlooked , factor that could help explain privacy‐related inconsistencies and contradictions . 
+Past studies have investigated related concepts such as self‐esteem in the context of online privacy . 
+For instance , Schwaig , Segars , Grover , and Fiedler ( 2013 ) examined the influence of self‐esteem on consumers ' attitude toward information privacy . 
+In their study , self‐esteem referred to a person 's belief and feeling of his or her own worth , but the authors considered self‐esteem as one of the “ individual differences ” rather than a more fundamental psychological factor . 
+Xu ( 2007 ) applied the concept of self‐construal to privacy study and argues that individuals view themselves either as a separate individual ( independent self ) or as part of a group ( interdependent self ) . 
+Although Xu 's work builds on the notion of self‐identity , the two selves were still considered as dichotomous personality and/or cultural traits . 
+James , Nottingham , Collignon , Warkentin , and Ziegelmayer ( 2016 ) included self‐ego and environment as two separate factors in their interpersonal privacy identity ( IPI ) model . 
+They rightly point out that privacy involves both information control and social interaction management . 
+Yet , like most other privacy researchers , James et al . 
+hold the view that a “ self‐ego ” independent from environmental influences is the foundation for autonomy and privacy . 
+In the next section , I adopt a socio‐psychological lens of self‐identity to investigate how the need for self‐identity influences people 's self‐disclosure and privacy management in SNS . 
+I propose a set of hypotheses and empirically test a theoretical model to explore possible connections between self‐identity and privacy . 
+The need for self‐identity refers to an individual 's need to have a clear sense of self ( Schlenker , 1980 ) . 
+The psychological need for self‐identity has been well documented in psychology and impression management literature ( e.g. , Leary , 1996 ) . 
+Most prior studies measure satisfaction of related needs such as self‐esteem ( Ellison , Steinfield , & Lampe , 2007 ) , or observable behaviors for fulfilling the need for self‐identity ( e.g. , Ma & Agarwal , 2007 ) , rather than the psychological need itself . 
+Drawing on Pierce , Kostova , and Dirks 's ( 2001 , 2003 ) psychological ownership framework , I decompose the need for self‐identity into three aspects : coming to know the self ( a need to define and learn about the self ) , expressing self‐identity ( a need to communicate self‐identity to others ) , and maintaining continuity of self‐identity ( a need to maintain an emotional connection between self‐identity and one 's past ) . 
+I postulate that the three aspects of need for self‐identity motivate people 's privacy management behaviors . 
+In the context of SNS use , privacy management refers to behaviors such as tweaking privacy settings , pruning online personal profiles , and various measures of removing one 's digital footprints ( Madden , 2012 ) . 
+I further explain how the three needs relate to privacy management below . 
+SNS provide people ample opportunities to satisfy their need for self‐identity . 
+SNS help define the self through creating user names , choosing avatars , displaying personal interests , and forming social relationships . 
+For example , in creating personal profiles on SNS , individuals contemplate the question – “ who am I ? 
+” and gather information that represents one 's self‐identity . 
+SNS platforms afford various types of feedback ( e.g. , number of followers , “ likes , ” comments ) that help users see the self through the eyes of others . 
+Hence , an individual comes to know the self from contemplating elements that could define his/her self‐identity as well as learning about others ' perceptions of his/her self‐identity ( Min & Kim , 2015 ) . 
+At the same time , people feel understood and satisfied when their self‐presented identities are confirmed in social interactions ( Goffman , 1967 ) . 
+The sense of self must be validated and constantly adjusted through expressing to others . 
+Evidences of identity expression in online social networks have been documented in the literatures of information science and related fields . 
+Ma and Agarwal ( 2007 ) analyzed how technology artifacts in online communities afford identity expression and verification in the process of knowledge sharing . 
+Bumgarner ( 2007 ) described Facebook as a place for establishing shared identities through exhibitionism and gossip . 
+Boyd and Heer ( 2006 ) analyzed millions of Friendster profiles to explore how users express their identities through crafting their profiles . 
+Similar self‐presentation and audience management strategies are seen in Twitter networks , where users maintain their self‐image through self‐censoring their tweets ( Marwick & Boyd , 2011 ) . 
+The profiles and posts created in SNS are essentially digital repositories of memories and actions , which helps individual users to maintain continuity of self‐identity and connect with their past . 
+For example , Facebook Timeline provides the reverse‐chronological display of a user 's history on Facebook and other life events . 
+A recorded history of one 's past events and actions enables the person to reflect on how the self has been expressed in long‐term and therefore helps to construct a coherent sense of self . 
+Moreover , social networking facilitates users ' emotional connection with the self 's past through discovering weak ties and maintaining strong ties ( Haythornthwaite , 2002 ) . 
+Contemplating , expressing , and reflecting on self‐identity in the context of social networking require the user to manage privacy options afforded by the SNS platform . 
+From a self‐identity perspective , I argue that the very purpose of privacy management is to define the parameters of social comparison ( e.g. , who can see my profiles and posts ) , manipulate perceived identity verification ( e.g. , which side of me should be seen by my friends , co‐workers , parents ) , and therefore satisfy the need for self‐identity . 
+Evidences from the literature also support the potential linkage between the need for self‐identity and engaging in social media . 
+For instance , Child , Pearson , and Petronio ( 2009 ) found that online bloggers with higher levels of internal self‐consciousness were more likely to enact blogging privacy management practices . 
+Therefore , I hypothesize that : H1 : The need for self‐identity is positively related to privacy management activities in SNS . 
+The need for self‐identity is also likely to motivate more self‐disclosure of personal information in SNS . 
+It is widely accepted in psychology literature that the sense of self comes into being through the collective experiences of interacting with others ( Jenkins , 2008 ) . 
+From this perspective , the three needs of self‐identity ( need for knowing the self , need for expressing the self , and need for continuity of self‐identity ) can only be fulfilled through disclosing the self to others . 
+An individual comes to know the self through evaluating implicit and explicit feedback from others on their behaviors , which must be first performed/expressed in the social space . 
+Of course , in order to maintain a coherent self‐image in the eyes of others , one needs to continuously release more information about the self over time . 
+Social media researchers have touched upon the connection between self‐identity and self‐disclosure in their empirical studies . 
+Christofides , Muise , and Desmarais ( 2009 ) linked the issue of self‐identity to people 's desire for popularity . 
+They postulate that the people who are most popular in SNS are likely to be those whose identity is most actively constructed in social interactions . 
+Therefore , limiting self‐disclosure of information in SNS also limits the potential for identity construction and greater popularity . 
+Ellison et al . 
+( 2007 ) described a strong correlation between students ' self‐esteem and intensity of Facebook activities among college students . 
+At the same time , SNS companies in general promote the idea of “ transparent identity ” ( van Dijck , 2013 , p. 200 ) and encourage users to disclose behavioral data and personal information in the process of socializing . 
+Hence , it is logical to hypothesize : H2 : The need for self‐identity is positively related to self‐disclosure of information in SNS . 
+When disclosing personal information to satisfy the need for self‐identity , SNS users usually picture either a very broad notion of a general audience or more targeted audiences in specific social groups . 
+They rely on privacy management tools to define when to disclose what information with which “ imagined audience ” ( Marwick & Boyd , 2011 ) . 
+One would expect that the more a person manages these parameters , the less information the person discloses . 
+The problem is that information often flows across social boundaries and a piece of information intended for a specific social group can find its way into the general audience ( Stutzman , Gross , & Acquisti , 2013 ) . 
+As a result , past research shows a much more nuanced reality in terms of how SNS users behave . 
+For instance , in a four‐year longitudinal study , Lewis ( 2011 ) followed the evolution of privacy behavior on Facebook and discovered an interdependence between friendship decisions and privacy behavior : on one hand , more college students chose to have a private profile over time , although each individual 's network size also increased ; on the other hand , students with larger networks are more likely to have a private profile . 
+In other words , there seem to be a strangely positive correlation between the act of keeping things private and the act of making more friends . 
+H1 : The need for self‐identity is positively related to privacy management activities in SNS . 
+H2 : The need for self‐identity is positively related to self‐disclosure of information in SNS . 
+These observations corroborate with findings from another stream of privacy research that focused on effectiveness of privacy management mechanisms on SNS platforms . 
+Mondal , Druschel , Gummadi , and Mislove 's ( 2014 ) study on social access control lists ( SACLs ) ( e.g. , Facebook “ Friends Lists ” and Google+ “ Circles ” ) reveal the complexity of identifying subsets of friends when sharing . 
+Their findings raise the question about the extent to which those SACLs capture the users ' real privacy preferences . 
+Combining survey and Facebook log data analysis , Bernstein , Bakshy , Burke , and Karrer ( 2013 ) discovered that the users ' estimation of their Facebook audience was only 27 % of its true size . 
+This mismatch , they argue , might have encouraged more information sharing because some users might not be comfortable broadcasting to a large audience . 
+In Liu , Gummadi , Krishnamurthy , and Mislove 's ( 2011 ) sample of Facebook accounts , the privacy settings matched users ' expectations only 37 % of the time , and when incorrectly configured , the settings almost always caused more self‐disclosure to unexpected audience . 
+These findings lead us to propose : H3 : Privacy management activities are positively related to self‐disclosure of information in SNS . 
+Stutzman et al . 
+( 2013 ) provided a plausible explanation for the increased self‐disclosure on Facebook : access to increasingly granular privacy settings have increased users ' feeling of control and encouraged high level of self‐disclosure . 
+In a series of studies by Xu and her collaborators , the researchers found that privacy management technology and privacy‐assurance policies can increase perceived control and subsequently ease people 's privacy concerns ( Hoadley , Xu , Lee , & Rosson , 2010 ; Xu , 2007 ; Xu , Dinev , Smith , & Hart , 2011 ) . 
+Specifically , they advocate the importance of conceptualizing privacy control as a psychological perception that reflects “ an individual 's beliefs in his or her ability to manage the release and dissemination of personal information ” ( Xu et al. , 2011 , p. 804 ) . 
+In a case study of Facebook News Feed privacy outcry in 2006 , Hoadley et al . 
+( 2010 ) acknowledge that the belief that one has control over privacy “ may be nothing more than an ‘ illusion ’ ” ( p. 56 ) . 
+The study shows how an “ illusory loss of control ” triggered users ' perceptions of increasing information accessibility and thus higher privacy concerns , which led to significant changes to privacy management mechanisms by Facebook in response to the outcry . 
+This implies that a proper privacy management mechanism would allow Facebook users to regain a sense of control and be willing to share information again . 
+Hoadley et al . 
+did not empirically test the connection between perceived privacy control and self‐disclosure , but I can follow their line of argument by proposing : H4 : Privacy management activities have a positive effect on perceived privacy control . 
+The more a SNS user manages his or her privacy settings , the more the user feels in control of privacy . 
+H5 : Perceived privacy control has a positive effect on self‐disclosure of information . 
+The more a user feels in control of privacy in SNS , the more likely he or she will disclose information . 
+Like prior studies of online privacy , I also took into consideration some demographic characteristics of SNS users as control variables , including : age , gender , and the intensity of SNS use . 
+These variables may have certain effects on people 's information behavior in SNS ( Ellison et al. , 2007 ; Litt , 2013 ) . 
+The conceptual relationships among the need for self‐identity , privacy management , perceived privacy control , and self‐disclosure are illustrated in a research model shown in Figure 1 . 
+H3 : Privacy management activities are positively related to self‐disclosure of information in SNS . 
+H4 : Privacy management activities have a positive effect on perceived privacy control . 
+The more a SNS user manages his or her privacy settings , the more the user feels in control of privacy . 
+H5 : Perceived privacy control has a positive effect on self‐disclosure of information . 
+The more a user feels in control of privacy in SNS , the more likely he or she will disclose information . 
+To develop a survey instrument to collect data for hypothesis testing , I searched the information science , psychology , and related literatures to identify rigorously validated survey items to measure the constructs specified in the research model . 
+Karahanna , Xu , and Zhang ( 2015 ) conducted a literature review on psychological ownership and found no available measurment scales for the needs for self‐identity . 
+They then developed a new scale and modeled the need for self‐identity as a second‐order construct with three underlying aspects as its formative first‐order constructs . 
+I followed Karahanna et al. ’ s approach and adapted their scales for measuring the need for knowing the self , the need for expressing the self , and the need for maintaining continuity of self‐identity . 
+Each construct is measured by three items ( e.g. , “ I feel a need to discover what kind of person I am. ” ) and anchored with 1 = strongly disagree and 7 = strongly agree . 
+To gauge privacy management behaviors , I used five items from Debatin , Lovejoy , Horn , and Hughes 's ( 2009 ) survey of Facebook users ' privacy practices and Madden 's ( 2012 ) Pew Internet report on privacy management on social media sites . 

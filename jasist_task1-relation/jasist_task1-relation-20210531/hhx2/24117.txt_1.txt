@@ -1,0 +1,130 @@
+Online social media systems are places where people talk about everything , sharing their take or their opinions about noteworthy events . 
+Not surprisingly , sentiment analysis has become an extremely popular tool in several analytic domains , but especially on social media data . 
+The number of possible applications for sentiment analysis in this specific domain is growing fast . 
+Many of them rely on monitoring what people think or talk about places , companies , brands , celebrities or politicians ( Bollen , Mao , & Zeng , 2011 ; Hu & Liu , 2004 ; Oliveira , Cortez , & Areal , 2013 ) . 
+Because of the enormous interest and applicability , many methods have been proposed in the last few years ( e.g. , SentiStrength ( Thelwall , 2013 ) , VADER ( Hutto & Gilbert , 2014 ) , Umigon ( Levallois , 2013 ) , SO‐CAL ( Taboada , Brooke , Tofiloski , Voll , & Stede , 2011 ) , HSSWE ( Wang and Xia. , 2017 ) ) . 
+In common , these methods are unsupervised11 They do not require explicit manually labeling data to be used in different domains . 
+tools and have been applied to identify sentiments ( i.e. , positive , negative , and neutral ) of short pieces of text such as tweets , in which the subject discussed in the text is known a priori . 
+The importance of being unsupervised is that , in a real application of sentiment analysis , it can be very hard to get previous labeled data to train a classifier . 
+These tools are all currently acceptable by the research community as the state‐of‐the‐art is not well‐established yet . 
+However , a recent effort ( Ribeiro , Araújo , Gonçalves , Gonçalves , & Benevenuto , 2016 ) has shown that the prediction performance of these methods varies considerably from one data set to another . 
+For instance , in that study , Umigon was ranked in the first position in five data sets containing tweets and was among the worst in a data set of news comments . 
+Even among similar data sets , existing methods showed low stability in terms of their ranked positions . 
+This suggests that existing unsupervised approaches should be used very carefully , especially for unknown data sets . 
+More importantly , it suggests that novel sentiment analysis methods should not only be superior to existing ones in terms of predictive performance , but they should also be stable , that is , its relative prediction performance should vary minimally when used in many different data sets and contexts . 
+Accordingly , in this article , we propose 10SENT , an unsupervised learning approach for sentence‐level sentiment classification that tells if a given piece of text ( i.e . 
+a tweet ) is positive , negative , or neutral . 
+To obtain better results than existing methods and guarantee stability across data sets , our approach exploits the combination of their classification outputs in a smart way . 
+Our strategy relies on using a bootstrapped learning classifier that creates a training set based on a combination of answers provided by existing unsupervised methods . 
+The intuition is that if most of the methods label an instance as positive , it is likely that it is positive , and it could be used to learn a classifier . 
+This self‐learning step provides to our method a level of adaptability to the current ( textual ) context , reducing prediction performance instability , a key aspect of an unsupervised approach . 
+We test our proposed approach by combining the top ( best ) ranked methods , according to a recent benchmark study ( Ribeiro et al. , 2016 ) . 
+We evaluate 10SENT with 13 gold standard data sets containing social media data from different sources and contexts . 
+Those data sets consist of different sets of labeled data annotated for positive , negative and neutral texts from social networks messages and from comments of news articles , videos , websites , and blogs . 
+Our approach showed to be statistically superior to ( or at least ties with ) the existing individual methods in most data sets . 
+Therefore , our approach obtains the best mean rank position considering all data sets . 
+Thus , our experimental results demonstrate that our combined method not only improves significantly the overall effectiveness in many data sets , but its cross‐data set performance variability is minimal ( maximum stability ) . 
+In practical terms , this means that one can use our approach in any situation in which the base methods can be exploited , without any extra cost ( since it is unsupervised ) and without the need to discover the best method for a given context , and still obtain top‐notch effectiveness in most situations . 
+We also show that 10SENT is superior to strong baseline combinations , such as a majority voting and combined lexical , with gains of up to 17 % against such baselines . 
+This highlights the importance of our bootstrapped strategy to improve the effectiveness of the sentiment classification task . 
+It is important to stress that the number of methods to be combined is not necessarily restricted to 10 . 
+Our self‐learning approach is very independent of the base methods , which means that it is highly extensible to incorporate any new additional method that can be created in the future . 
+To summarize , the main contribution of our work is an easily deployable and stable method that can produce results as good as or better than the best single method for most data sets in a completely unsupervised manner , being much superior than other unsupervised solutions such as majority voting and , in some cases , close to the best supervised ones . 
+As far as we know , this is the first time non‐trivial unsupervised learning used along with “ state‐of‐the‐practice ” sentiment analysis methods to tackle the problem of providing an unsupervised approach able to obtain stable prediction performance across many domain‐dependent data sets . 
+The experimental results demonstrate that our combined method ( aka , 10SENT ) improves the effectiveness of the classification task . 
+But more importantly , it tackles an important problem in the field—cross‐domain low stability—10SENT produces the best ( or close to best ) results in almost all considered contexts , without any additional costs ( e.g. , manual labeling ) . 
+Finally , as a second contribution , we start an investigation into a important question of our research : whether we can “ transfer ” some knowledge to our method from a data set labeled with emoticons by Twitter users , which is easily available , meaning that no extra labeling effort is necessary . 
+The main idea here is that such transfer of knowledge could provide additional ( unsupervised ) information to our method helping to improve it even further . 
+There are currently two distinct categories of sentiment analysis methods used in the social media domain : lexicon‐based and those based on machine learning techniques . 
+Machine learning methods comprise supervised classifiers trained with labeled data sets in which classes correspond to polarities ( e.g . 
+positive , negative or neutral ) ( Pang , Lee , & Vaithyanathan , 2002 ) . 
+One major challenge in this scenario is the difficulty in obtaining annotated data to train ( supervised ) methods due to issues such as cost and the inherent complexity of the labeling task . 
+Accordingly , in here , we propose an unsupervised solution to deal with this sentiment analysis task . 
+Lexicon‐based methods exploit lexical dictionaries , that is , word lists associated with sentiments or other specific features , which are usually not based on supervised learning . 
+Some challenges with lexicon‐based solutions including the construction of the lexicon itself ( which is usually manually done ) and difficulties in adapting for domains different from which they were originally designed . 
+Such issues naturally call for a combination of solutions that exploits their strengths while overcome their limitations . 
+The idea of combining different sentiment analysis strategies , however , has been only recently explored . 
+For instance , ( Prabowo & Thelwall , 2009 ) proposes a new hybrid classification method based on the combination of different strategies . 
+This work combines a rule‐based classification and other supervised learning strategies into a new hybrid sentiment classifier . 
+( Dang , Zhang , & Chen , 2010 ) combined machine learning and semantic‐orientation that consider words expressing positive or negative sentiments . 
+( Zhang , Ghosh , Dekhil , Hsu , & Liu , 2011 ) explore an entity‐level sentiment analysis method specific to the Twitter data . 
+In that work , the authors combined lexicon and learning‐based methods to increase the recall rate of individual methods . 
+Differently from our work , this method was proposed for the entity‐level , while ours focus on a sentence‐level granularity . 
+Similarly , Mudinas et al . 
+( Mudinas , Zhang , & Levene , 2012 ) proposed pSenti , a method for sentiment analysis developed as a combination of lexicon and learning approaches for a different granularity level , the concept‐level ( semantic analysis of texts by means of web ontologies or semantic networks ) . 
+Moraes et al . 
+( Moraes et al. , 2013 ) investigated approaches to detect the polarity of FourSquare tips using supervised ( SVM , Maximum Entropy and Naïve Bayes ) and unsupervised ( SentiWordNet ) learning . 
+They also investigate hybrid approaches , developed as a combination of the learning and lexical algorithms . 
+All techniques were tested separately and combined , but the authors did not obtain significant improvements with the hybrid approaches over the best individual techniques for this domain . 
+As lexicon is usually a key part of many sentiment analysis methods , there are many efforts that focus on automatically building one or expanding an existing lexicon . 
+In this direction , ( Bravo‐Marquez , Frank , & Pfahringer , 2015 ) present a supervised framework for expanding a sentiment lexicon for tweets . 
+The authors trained a SVM classifier with a corpus of tweets labeled with semantic orientation using attributes based on part‐of‐speech tags and information computed from data streams containing emoticons . 
+More recently , ( Wang and Xia. , 2017 ) proposed HSSWE , a method based on a sentiment‐aware word representation learning approach . 
+HSSWE uses a neural architecture to train a sentiment‐aware word embedding in both document and word‐level to enhance the quality of the sentiment lexicon . 
+Those approaches usually require a supervised step and are used for online lexicon expansion in specific domains to discover terms potentially significant for an individual application . 
+Our effort is complimentary to those as expanded lexicons can be used to create sentiment analysis methods for specific domains and combined with our proposed self‐learning approach to provide an additional level of domain adaptation . 
+In any case , we use HHWSE as one of our baselines . 
+There are other strategies for sentiment analysis that explore deep learning , well documented in a recent survey ( Zhang , Wang , & Liu , 2018 ) . 
+Particularly , ( Glorot , Bordes , & Bengio , 2011 ) uses a corpus from assorted domains to develop a deep learning approach that extracts meaningful representations of reviews to address the problem of domain adaptation . 
+They explore transfer learning for reviews for aspect‐level sentiment analysis by discovering relevant abstractions that are shared across different domains . 
+Differently , reference ( dos Santos & Gatti , 2014 ) uses a deep learning method to predict sentiment polarity on Twitter based on a convolutional neural network for sentiment analysis . 
+They extract features from the character‐level up to the sentence‐level using word embedding to compute an opinion score for a given sentence . 
+In a recent work , Felbo et al . 
+( Felbo , Mislove , Søgaard , Rahwan , & Lehmann , 2017 ) proposed a method namely DeepMoji that uses millions of texts on Twitter containing emojis for training a deep learning model to learn representations of emotional content in texts . 
+They used pre‐trained classifiers to predict which emoji were originally part of the text . 
+We also use DeepMoji as a baseline . 
+Overall , the increasing availability of huge amounts of data available might favor the development of deep learning methods on this field . 
+In our work , we focus on complimentary framework to combine methods based on a self‐learning ensemble step , aiming to provide performance stability across different data sets and domains . 
+Ultimately , all forms of methods , including those based on deep learning , can be combined within our proposed framework . 
+Considering the combination of methods , Gonçalves et al . 
+( Gonçalves , Dalip , Costa , Gonçalves , & Benevenuto , 2016 ) analyzed different data sets and considered supervised machine learning in the context of classifiers ' ensembles . 
+Their methodology also consisted of combining a set of different sentiment analysis methods in a “ off‐the‐self ” strategy to generate the ensemble method . 
+Their results suggest that it is possible to obtain significant improvements with ensemble techniques depending on the domain . 
+In here , we focus on a unsupervised solution enhanced with an automatic bootstrapping step . 
+Another effort on the ensemble direction , Gonçalves et al . 
+( Gonçalves , Araújo , Benevenuto , & Cha , 2013 ) exploits the power of the combination of some of the state‐of‐the‐art methods , showing that they can outperform individual methods . 
+Their results show the potential of simple solutions such as majority voting , but the authors did not delve deep in more complex combination strategies . 
+Some approaches use a limited amount of labeled data ( also known as weakly supervised classifier ) to predict the sentiment in some domains . 
+For example , ( Siddiqua , Ahsan , & Chy , 2016 ) proposed a weakly supervised classifier for Twitter sentiment analysis . 
+In this work , Naive‐Bayes ( NB ) is combined with a rule‐based classifier based on several publicly available sentiment lexicons to extract positive and negative sentiment words . 
+After the rule‐based classifier is applied , the NB is used to classify the remaining tweets as positive or negative . 
+Deriu et al . 
+( Deriu et al. , 2017 ) also uses a weakly supervised approach to multi‐language sentiment classification task . 
+The developed method evaluates large amounts of weakly supervised data in various languages to train a multi‐layer convolutional neural network , but its focus is on multilingual sentiment classification . 
+Wikisent , proposed by ( Mukherjee & Bhattacharyya , 2012 ) also describes a weakly supervised system for sentiment analysis classification . 
+They use text summarization focused on movie reviews domain to obtain knowledge about the various technical aspects of the movie . 
+After that , the summary of the opinions are classified by using the SentiWordNet lexicon method . 
+To summarize , many efforts proposed supervised ensemble classifiers , but differently from those , we propose a novel approach by combining a series of “ state‐of‐the‐practice ” existing methods in a totally unsupervised and in much more elaborated manner exploiting bootstrapping and ( unsupervised ) transfer learning . 
+Another major difference of our effort is that we evaluate using multiple labeled data sets , covering multiple domains and social media sources . 
+This is critical for an unsupervised approach given that the performance of the base methods varies significantly . 
+As we shall see , our solution produced the most consistent results across all data sets and contexts . 
+Sentiment analysis can be applied to different tasks . 
+We restrict our focus on combining those efforts related to detect the polarity ( i.e . 
+positivity , negativity , neutrality ) of a given short text ( i.e . 
+sentence‐level ) . 
+In other words , given a set S of opinionated sentences , we want to determine whether each sentence s in S expresses a positive , negative or neutral opinion . 
+We focus our effort on combining only unsupervised “ off‐the‐shelf ” methods . 
+Our strategy consists of using the output label predicted by each individual method as input for a bootstrapping technique—a self‐starting process supposed to proceed without external input . 
+Next , we present the proposed technique . 
+Our bootstrapping technique is an unsupervised machine learning algorithm that uses the sentiment scores produced by each individual sentiment analysis method to create a training set for a supervised machine learning algorithm . 
+With this algorithm , we can produce a final result regarding the sentiment of a sentence . 
+Note that , we did not need to use any manually labeled data in order to produce the model . 
+We describe the method in Algorithm 1 . 
+Suppose we have access to a set of sentences , which are candidates of being part of our training data . 
+Our goal is to use the unlabeled data S to produce a training set train and , then , apply it to unseen sentences for which we want to predict ( here represented as ) , generating the set of predictions P . 
+The training data train is represented by a set of pairs ( c , s ) where c is the class representing a sentiment ( positive , negative or neutral ) obtained by using the information of each sentiment analysis method described in Section 3 and s is a sentence represented by a set of features which , in our case , corresponds to the off‐the‐shelf sentiment methods ' outputs . 
+The test is represented by a set of sentences and , the prediction P , contains a set of triplets ( s , predicted _class , confidence ) representing the sentence , the predicted class and the confidence ( i.e. , a score representing how confident the machine learning method is in its prediction ) , respectively . 
+We use the function agree ( s ) , for each sentence s , which computes the Agreement level , in other words , the maximum number of sentiment analysis methods agreeing with each other regarding the sentiment in the sentence s . 
+If this number is higher than the threshold A , we add the sentence s in the training set train , removing it from S . 
+Note that , when adding a sentence to train we use the method agreeClass ( s ) in order to obtain the class c which will the sentiment assigned to s . 
+Class c is obtained by using the class which has the majority of sentiment analysis methods assigned to the sentence s . 
+After doing this for all the sentences in S , only sentences for which we could not infer a label with enough agreement remain in S . 
+Then , to increase our training data , we use our training set train to train a classification model and apply it to sentences in S , producing the predictions P . 
+By doing so , we can use P to add more sentences to train . 
+To avoid noise , we only add sentences for which the learned model produces a confidence higher than a threshold C . 
+Finally , we retrain with the new set train and apply it to test to produce , for each sentence s , a single score c representing its final sentiment score . 
+As mentioned before , our approach consists of combining popular “ off‐the‐shelf ” sentiment analysis methods freely available for use . 
+It is important to highlight that the number of methods to be combined is not necessarily restricted to ten . 
+In fact , there is no limit on the number of methods we can include as part of our approach—thus , we focus on the ones evaluated by ( Ribeiro et al. , 2016 ) as it provides the most recent and complete sentence‐level benchmark of off‐the‐shelf sentiment analysis methods . 
+There are few small adaptations on some methods to provide as output positive , negative and neutral decisions . 
+For this , we have used the codes shared by the authors of ( Ribeiro et al. , 2016 ) . 

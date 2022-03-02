@@ -1,0 +1,130 @@
+New technology implementations impact organizational behavior and outcomes , sometimes in unintended ways . 
+A combination of design decisions , altered affordances , and political struggles within an organization may change levels of service among one or more occupational groups within that organization . 
+For example , a new software implementation can reduce the levels of service provided within an organization by records managers , even as they desire to provide high‐quality records management activities . 
+In fact , some records managers in a deidentified state government did that as a result of a cloud computing implementation . 
+Records management is an occupation which has as key functions the timely maintenance , provision , scheduling , and disposition of an organization 's records in order to support organizational accountability for its transactions . 
+According to the International Standards Organization ( ISO ) , records are “ information created , received , and maintained as evidence and information by an organization or person , in pursuance of legal obligations or in the transaction of business ” ( ISO 15489–1 , 2001 , p. 3 ) . 
+Context‐specific definitions of records vary , however , and records managers in a particular organization will use their organization 's definition for practical purposes . 
+For example , state governments closely align their definition of records to that offered by the National Archives and Records Administration ( NARA ) , which defines records to : Include all books , papers , maps , photographs , machine‐readable materials , or other documentary materials , regardless of physical form or characteristics , made or received by an agency of the United States Government under Federal law or in connection with the transaction of public business and preserved or appropriate for preservation by that agency or its legitimate successor as evidence of the organization , functions , policies , decisions , procedures , operations , or other activities of the Government or because of the informational value of the data in them ( 44 U.S.C . 
+3301 ) . 
+Include all books , papers , maps , photographs , machine‐readable materials , or other documentary materials , regardless of physical form or characteristics , made or received by an agency of the United States Government under Federal law or in connection with the transaction of public business and preserved or appropriate for preservation by that agency or its legitimate successor as evidence of the organization , functions , policies , decisions , procedures , operations , or other activities of the Government or because of the informational value of the data in them ( 44 U.S.C . 
+3301 ) . 
+The portion of NARA 's definition of a record which says , “ regardless of physical form or characteristics ” was included in the definition in order to ensure that digital records are included and that the particular technological environment in which information resides does not influence whether or not a piece of information is considered to be a record , and therefore worthy of being the object of records management activities . 
+The format independence of the concept of record means that records managers must continually adapt to technological change and must manage records even in the face of changing technological environments and new information formats . 
+Cloud computing is one such new technological environment . 
+Cloud computing is a form of information technology ( IT ) provision that treats computing as a set of services that can be purchased on demand through networks . 
+Individuals and businesses can thereby use the type and amount of services they want to use without having to make large infrastructure investments that may lead to idle resources when computing needs are lower than maximum capacity . 
+This arrangement allows computing infrastructure , hardware , and software to be treated as modular packages that can be scaled up and down easily and with minimal ongoing interaction and negotiation with one 's computing service provider . 
+This arrangement also allows organizations to minimize the number of IT professionals necessary to meet the IT needs of the organization . 
+Thus , in a number of IT circles , cloud computing has become associated with the notion of economic sustainability ; it allows organizations to make use of large amounts of computing power without having to make correspondingly large capital investments in IT infrastructure ( Creeger , 2009 ) . 
+If cloud computing sometimes seems straightforward from the point of view of IT costs and service provision , however , its benefits for records management are murkier . 
+The U.S. National Archives and Records Administration ( NARA ) has suggested that agencies should be aware of the potentially adverse effects of cloud computing on records management work ( 2011 ) . 
+NARA notes that some cloud architectures “ lack formal technical standards governing how data is stored and manipulated in cloud environments , ” thereby threatening the long‐term trustworthiness and sustainability of the data . 
+In addition , a lack of portability standards might make it difficult to dispose of or transfer records in accordance with retention schedules , where a retention schedule is a schedule that indicates how long a record must be kept before being destroyed or forwarded to an archives . 
+Professional records management organization ARMA International points out that a wide range of potential records management risks are associated with cloud computing , such as the potential failure to meet regulatory requirements , jurisdictional issues regarding data storage , vendor continuity concerns , lack of clarity surrounding data ownership , and interoperability challenges ( 2010 ) . 
+Executives must be diligent to ensure that their organizations adopt appropriate records management policies and procedures when cloud computing services are contracted in order to satisfy recordkeeping requirements . 
+None of these described risks , however , include the possibility that records managers ’ willingness and ability to satisfy their organization 's recordkeeping requirements may decline after a cloud computing implementation , as occurred within the state government discussed here . 
+In 2012 , the state completed its implementation of Microsoft 365 , a cloud computing communications and collaboration service . 
+The e‐mail services of the entire executive branch migrated to the Cloud . 
+Recordkeeping stewards and executive management discussed their perceptions of the rationale for and effects of this implementation , and shared detailed information about their roles and responsibilities as recordkeepers . 
+The discussions revealed that the design of the new cloud system and its affordances pushed its records managers to reduce their levels of service . 
+This happened in spite of records managers ’ strongly expressed desire to manage records with excellence . 
+The cloud implementation was one step in a statewide IT consolidation strategy . 
+Prior to 2005 , the state operated within a federated information governance structure , with IT service provision spread across agencies , each of which operated largely independently . 
+In 2005 , however , under the authority of an Executive Order and Statute , the Department of Enterprise Technology ( DET ) was created . 
+The stated motivation for this statute was to achieve greater collaboration , clearer communication , and less redundancy of work between the diverse elements of state government , a goal still informing the state 's strategic planning activities . 
+Although the 2005 legislation provided additional central oversight of IT projects , at that point in time , numerous , separate e‐mail , voice , and voicemail systems existed . 
+As of 2007 , the Executive Branch had between 30–40 different e‐mail systems , as well as 30–40 different voicemail systems ( manager P‐19 ) . 
+Cohesive , shared communication within and between agencies was not yet possible . 
+As a result , in 2007 DET requested and received legislative approval to undertake a comprehensive consolidation of the executive branch 's communications infrastructure , and commenced the project in 2008 . 
+The project took 18 months to implement and when it was complete , senior executives in DET realized that in spite of having achieved project goals successfully ( P‐19 ) , the state was already falling behind technologically . 
+In addition , the executive managers in DET believed that in order to provide a cohesive enterprise‐wide communications structure they needed a system that could scale relatively easily and cost effectively . 
+An executive level interviewee noted , So , the RFP was fulfilled , we built it , and at the tail of that project … we 've got everybody on the same platform and here come some of the reasons why we considered the cloud solution . 
+We 're looking at the tail end of a project that tried to consolidate and was , at the origin , the most modern platform for communication . 
+… And when we were at the tail end of that , we were already behind , right ? 
+So we 've completed a project and we already have an obsolete system . 
+We look at any upgrades to that system and we look at another million bucks . 
+We see that this thing does n't scale very well . 
+We 've got a lot of difficulties in understanding exactly what will this take … we kind of scratch our head and go , “ Wow . 
+We 're going to be doing this e‐mail system , this e‐mail stuff , for quite a bit because , wow , it takes a lot of effort to do so. ” So it 's growing organically all over in the agencies , and now … if we look at both capacity , core competency , and simply limitations of being in this never‐ending support role of basic communication infrastructure , … right around that time is when the majority of the major vendors were saying , “ Cloud ! 
+Cloud ! 
+Cloud ! 
+” ( P‐19 ) . 
+So , the RFP was fulfilled , we built it , and at the tail of that project … we 've got everybody on the same platform and here come some of the reasons why we considered the cloud solution . 
+We 're looking at the tail end of a project that tried to consolidate and was , at the origin , the most modern platform for communication . 
+… And when we were at the tail end of that , we were already behind , right ? 
+So we 've completed a project and we already have an obsolete system . 
+We look at any upgrades to that system and we look at another million bucks . 
+We see that this thing does n't scale very well . 
+We 've got a lot of difficulties in understanding exactly what will this take … we kind of scratch our head and go , “ Wow . 
+We 're going to be doing this e‐mail system , this e‐mail stuff , for quite a bit because , wow , it takes a lot of effort to do so. ” So it 's growing organically all over in the agencies , and now … if we look at both capacity , core competency , and simply limitations of being in this never‐ending support role of basic communication infrastructure , … right around that time is when the majority of the major vendors were saying , “ Cloud ! 
+Cloud ! 
+Cloud ! 
+” ( P‐19 ) . 
+Non‐IT personnel recognized that the cloud computing implementation was tied tightly to the consolidation efforts , reporting that they could n't easily distinguish between the cloud computing implementation and its effects and the IT consolidation and its effects . 
+The overall result has been a feeling on the part of individual agency personnel that they have lost power within the organization . 
+Whether directly causing it or simply amplifying an already present attitude , the cloud computing adoption has brought to the surface expressions of resentment on the part of agencies ’ personnel towards DET . 
+The movement to consolidate IT services within the state received a boost during the legislative session of 2012 , when the legislature passed a bill that consolidated the entire state 's IT personnel into DET , which has now rebranded itself as ST.IT Services . 
+Now all agencies ’ CIOs report directly to the ST.IT Services CIO and all IT personnel have been folded into ST.IT Services , causing that organization to grow from one comprising about 350 people to about 1,800 people ( P‐13 ) . 
+In addition , all IT funding to the various agencies now flows directly from ST.IT Services , giving the newly consolidated organization considerably more control over purchasing decisions on the part of individual agencies ( P‐12 ) . 
+Because all IT funding passes through the State CIO 's office , the link between authority structures and financial structures is firmly cemented . 
+In addition , records managers no longer have the capacity to go directly into terminated employees ’ . 
+PST files for e‐mail to “ clean up ” the folders and ensure that retention requirements are met , as they did prior to the implementation ( P‐21 , P‐24 ) . 
+This increases the incidence of the terminated individuals ’ records being treated as if the individuals had not been terminated , leading to records being kept past their retention periods ; if one of those individuals were to be named in a legal discovery case , this could create problems for the records managers as well as the organization as a whole . 
+Any changes or updates that need to be made must go through Microsoft , via ST.IT Services . 
+Records managers worry about whether Microsoft can provide correct information in a timely enough manner to satisfy legal requirements , especially given a perception on the part of records managers that service provision has slowed down since the implementation . 
+The study of the cloud computing implementation in the state has been informed by several overarching questions : How do key recordkeeping stakeholders interact with each other with respect to recordkeeping activities within their cloud computing environments , and what do these relationships suggest about how records management occupational roles and responsibilities are being handled in the Cloud ? 
+How do key recordkeeping stakeholders perceive the roles and responsibilities of records management personnel ? 
+How does the cloud computing environment influence records management activities , as perceived by the key recordkeeping stakeholders ? 
+How do key recordkeeping stakeholders interact with each other with respect to recordkeeping activities within their cloud computing environments , and what do these relationships suggest about how records management occupational roles and responsibilities are being handled in the Cloud ? 
+How do key recordkeeping stakeholders perceive the roles and responsibilities of records management personnel ? 
+How does the cloud computing environment influence records management activities , as perceived by the key recordkeeping stakeholders ? 
+In this case , “ key recordkeeping stakeholders ” are defined to be those members of occupational groups who play a role in the stewardship or custodianship of the organization 's records . 
+Specifically , these included IT personnel , IT executive management , data practices liaisons,11 Data practices liaisons report to IPAD , or the Information Policy Analysis Division . 
+IPAD provides consultation and training and writes briefs on data practices within the state . 
+archivists , and records managers . 
+During 2012 and 2013 , 38 interviews were conducted with recordkeeping stakeholders from a variety of occupational groups and departmental affiliations who worked in state government agencies within which a cloud computing adoption had recently occurred . 
+During the course of each interview , snowball techniques were used to elicit other potential interviewees , based upon the current interviewee 's belief that the referred individual could help to provide new information or fresh points of view associated with the cloud implementation . 
+In addition , follow‐up e‐mail queries with the original interviewees resulted in 21 e‐mail “ conversations ” ( i.e. , 21 threads , not counting the back‐and‐forth responses on both sides ) . 
+Finally , as a result of interest in the project , some of the original interviewees spontaneously forwarded further documentation on the project or about their roles and responsibilities within the project and organization . 
+This occurred on 13 separate occasions . 
+A case study design embedded within an archival analysis of primary and secondary literature occurred , based on Yin 's ( 2009 ) recommendations for selection of a research strategy . 
+Three types of analysis informed the research—semistructured interview analysis , documentary analysis of selected organizations ’ source materials , and content analysis of published literature within the archives and records management field over a 40‐year period . 
+The results were triangulated ( Creswell , 2009 ; Small , 2011 ) to address not only the similarities and differences between the three source types , but also to take advantage of multiple modes of knowing about the subject matter at hand ( Glaser & Strauss , 2012 ) . 
+Primarily , the outcome of the triangulation was twofold . 
+The historical facts provided by the interviewees meshed well with the organizations ’ source materials , providing support for the reports of the interviewees ’ . 
+However , the source of dissimilarity provided by triangulation points to a key finding in this article . 
+As a profession , records management is particularly wedded to the ideal of accountability in recordkeeping . 
+Archives and records management literature heavily stresses the importance of accountability and its role as a value primary to recordkeeping work . 
+As a result , a strongly ingrained focus on ensuring accountability through actions taken to support excellent records retention and preservation permeates the two occupations . 
+One would expect that a value so professionally fundamental would not easily be overcome by other factors . 
+However , as shall be seen , records managers withheld key recordkeeping duties without appearing to notice that they eschewed a key ethical and professional ideal . 
+The results of the archival literature review provided no indication that such an outcome was possible . 
+The unit of analysis , which is the primary topic of the study , and is “ the same as the definition of the ‘ case ’ ” ( Yin , p. 30 ) , is not the same as the data sources , which can provide either direct or contextual information regarding the unit of analysis . 
+This study examined the perceptions of recordkeeping stakeholders regarding their roles , responsibilities , and relationships with stewards from different occupational groups . 
+Specifically , it looked at occupational group dynamics under conditions of recent technological change . 
+Several boundary conditions define the cases explored . 
+First , the particular technological change environment examined was the adoption of a cloud computing service in which one or more state‐level agencies participated . 
+Second , the occupational groups were examined within 2 years of the implementation “ going live , ” to ensure that the perceptions of how the cloud implementation had changed ( or were still changing ) group dynamics would still be fresh in participants ’ minds . 
+After each interview , all conversations were transcribed . 
+The transcripts were then compared against the audio files again when the audio files and transcripts were migrated to NVIVO 9.0 . 
+Line‐by‐line coding initially took place , as recommended by Charmaz ( 2006 ) . 
+She points out that this type of coding not only helps one remain “ open to the data and see nuances in it , ” but also helps one “ identify implicit concerns as well as explicit statements ” ( p. 50 ) . 
+Using the insights from this detailed coding effort , a number of relationships between codes , participant responses , and case study sites emerged as key categories , or themes , in the project . 
+This occurred by using Glaser and Strauss 's advice to engage in simultaneous data collection , coding , and analysis . 
+The data gathering was considered complete when conceptual saturation occurred . 
+To maintain privacy , interviewee responses have been anonymized and interviewees are distinguished using the identifiers P‐1 to P‐38 . 
+In addition , gender has been masked by using a random number generator to assign gender to each individual within each discussion that includes that individual . 
+As a result , P‐22 ( or any of the other people ) may appear as “ she ” within one passage of this article and as “ he ” in another passage . 
+The cloud computing implementation and consolidation inflamed already‐present resentments by presenting a new locus of domination for employees . 
+By strengthening the authoritative characteristics of the IT governance structure , ST.IT Services has received greater control over the internal actions of employees both within and external to ST.IT Services itself . 
+Because many of the work responsibilities of non‐IT occupational group members rely upon ST.IT Services infrastructure , ST.IT Services has effectively gained power over them . 
+Non‐IT workers are quite aware of this power shift , and have referred to it as a situation in which all of their local IT personnel , who were previously accountable to the agencies themselves , have been “ sucked into ” the central IT organization . 
+The perception that centralization has reduced the power of non‐IT agencies is recognized by the IT personnel , too . 
+Speaking about the cloud implementation itself , ST.IT Services employee P‐13 said , “ Initially , I think that there was some heartburn around it . 
+Um , you know , I can certainly see it 's a little bit of freedom that 's been given up by them. ” Among the interviewees , only the technical environment of the archivists remained unaffected by the implementation . 
+Archivist P‐8 was quick to emphasize the State Archives ’ separate status ( as part of the state 's Historical Society ) saying , “ … our IT functions have not been sucked up into the centralized unit. ” Nonetheless , they were aware of potential strains in relationships between agency personnel and ST.IT Services personnel and spoke of widespread perceptions that ST.IT Services “ often likes to set initiatives for the rest of the organization instead of the other way around , ” offering the hypothesis that this occurs because the possession of the data on ST.IT Services servers leads to a sense of ownership over that information : You know , this was never an issue before electronic records … but now our information resides on their [ ST.IT Services ] servers , in their systems , and so they see themselves as the stewards of this , and responsible for its management , whereas , you know … we are the content owners as it were . 
+We 're responsible for that content as well . 
+There 's a constant tension there between whose stuff is it and who gets to manage it ( P‐18 ) . 
+You know , this was never an issue before electronic records … but now our information resides on their [ ST.IT Services ] servers , in their systems , and so they see themselves as the stewards of this , and responsible for its management , whereas , you know … we are the content owners as it were . 
+We 're responsible for that content as well . 

@@ -1,0 +1,130 @@
+Research into scientific misconduct that is based on retractions of publications has received a considerable boost over recent years , even though retractions result not only from cases of actual misconduct but also from cases of honest error . 
+A line of research has evolved that uses the annotation of retractions in the biomedical database PubMed , which has introduced separate publication categories : retracted publications ( the original publications being retracted , RP ) and retractions of publication ( the documents announcing the retraction of an article , RoP ) . 
+Research on the prevalence , characteristics , and effects of retractions as an indicator of misconduct consequently relies heavily on PubMed and its classification of publication type . 
+Yet this is problematic since the coverage and consistency of PubMed 's indexing of retractions has never been systematically scrutinized . 
+Retractions are not even consistently counted throughout different studies , either on the level of RPs or RoPs . 
+On the other hand , other disciplinary and interdisciplinary databases—where the identifiability of retractions is even less transparent—are assessed to a lesser extent , although it is known from the few existing comparative studies that the occurrence of retractions in other fields is not entirely negligible . 
+PubMed has predominated as the favored choice of research object and frame ( Tetens , 2013 ) mainly because of easy access to its data , which has led to a disciplinary bias . 
+This harbors the danger that research on retractions might become synonymous with research on retractions in biomedical sciences— without conceptual justification . 
+This article addresses these issues by shedding light on inconsistencies in PubMed 's categorization of retractions and retracted publications and by assessing deficits in the annotations of each type in the Web of Science ( WoS ) . 
+Accordingly , it provides empirical evidence helpful for future decisions regarding corpus delineations and sampling as well as for improving the comparability of empirical retraction studies . 
+I begin by discussing the epistemic validity of retractions on a conceptual level by reviewing definitions of retractions and related publication types . 
+These definitions are compared to the implementation in databases in order to analyze delineation problems on both factual and technical levels . 
+The main part of this paper compares the validity of retraction annotation in PubMed and the WoS—as a large interdisciplinary database and possible alternative to PubMed—using an elaborate matching of PubMed data to the WoS . 
+Finally , search strategies in the WoS and a specially developed algorithm linking WoS RoPs and RPs are evaluated . 
+A retraction is a notification by a journal that an earlier publication in that same journal has been declared invalid . 
+The retraction often ( but not always ) contains some information concerning the reasons for the retraction . 
+Usually the content of the initial publication is not removed from the journal homepage . 
+Instead , it should be marked as retracted and , most of the time , linked to the retraction notice . 
+In PubMed , RoPs are predominantly electronically linked to the respective RPs . 
+In other databases , this is seldom the case . 
+In WoS , RPs and RoPs often contain bibliographical references to each other as part of their article titles . 
+According to the Committee on Publication Ethics ( COPE ) , of which many journal editors and most major publishers are members , “ Journal editors should consider retracting a publication if : they have clear evidence that the findings are unreliable , either as a result of misconduct ( e.g. , data fabrication ) or honest error ( e.g. , miscalculation or experimental error ) , the findings have previously been published elsewhere without proper cross‐referencing , permission or justification ( i.e. , cases of redundant publication ) , it constitutes plagiarism , it reports unethical research ” ( Wager , Barbour , Yentis , & Kleinert , 2009 , p. 532 ) . 
+Retractions are thus defined by COPE using two sufficient conditions : invalidity of results and unethical behavior . 
+Both conditions are combined in the phenomena fabrication and falsification , which unquestionably must be seen as deviant since they deliberately condone harm to the body of scientific knowledge . 
+Plagiarism and redundant/duplicate publication are commonly ( but not consistently ) categorized as misconduct throughout the literature . 
+Plagiarized authors are defrauded of their due credit ( Glänzel , Braun , Schubert , & Zosimo‐Landolfo , 2015 ) . 
+However , lines may indeed blur if the possibility of unconscious plagiarism is conceded . 
+Even though this basic categorization using the COPE guidelines seems reasonably clear , the difference between retracting or correcting a problematic paper is not clear cut : in the COPE guidelines , corrections and retractions are delineated by the extent to which results or texts have been affected ( “ small part ” ) . 
+The graduated nature of this definition of corrections in contrast to retractions thus seems to make space for a certain fuzziness in practice : tendencies to “ mega‐corrections ” have been observed ( Marcus & Oransky , 2012 ) . 
+Corrections have been documented as having been “ upgraded ” to retractions ( in the blog Retraction Watch ) ( Marcus & Oransky , 2014 ) and as having been issued even though misconduct was involved ( in the postpublication peer review website PubPeer ) ( Anonymous , 2014 ) . 
+On the other hand , the sometimes ambiguous and evasive phrasing of retraction notices ( Van Leeuwen & Luwel , 2014 ) to a certain degree makes it difficult to differentiate between actual misconduct and honest error within the retraction corpus . 
+Related categories exist which stakeholders neither define nor use with consistency . 
+For example , the publisher Elsevier uses the concept withdrawal for articles in press which have been accepted for publication but which have not yet been given complete volume , issue , and first page information since they have not yet appeared in print . 
+These articles are formally removed by Elsevier for the same reasons that apply to retractions . 
+Removals are very seldomly used in case of infringements of legal rights or the like and replacements in case of an article posing serious health risks ( Elsevier , 2015 ) . 
+COPE , on the other hand , defines the category expression of concern for cases of inconclusive evidence of misconduct or unreliable findings in which investigations by authors ' institutions are not yet completed , or will not take place , or the investigations are not considered fair and impartial ( Wager et al. , 2009 ) . 
+As they represent unproven suspicions , expressions of concern thus do not have the same status as retractions or withdrawals . 
+Expressions of concern seem not to be included in Elsevier 's policy and are not yet implemented as a publication type , either in the WoS nor in PubMed—the latter holds for withdrawals as well . 
+The comparison of these findings with other big publishing houses adds up to the following : apart from retractions , errata , corrigenda , and addenda , the publisher Taylor & Francis ( Taylor & Francis , 2016 ) employs COPE 's expression of concern , and does not define withdrawal as a specific category . 
+Additionally , removals are used as well as having resulted from a legal action . 
+The publisher Springer links to the COPE retraction policy ( Springer , 2017 ) , Nature ( Nature , 2017 ) mentions errata , corrigenda , addenda , retractions , but neither withdrawals nor expressions of concern . 
+Wiley ( Wiley , 2016 ) mentions expressions of concern apart from retractions and corrections , but not withdrawals . 
+These observations suggest a certain lack of standardization and that retractions should not simply be used as a proxy for misconduct , since it is not always clear what a retraction actually means or how it is differentiated from related publication types . 
+Furthermore , the degree to which the underlying phenomenon of misconduct—if it is discovered—is covered by the manifest observations at the publication level remains an open question . 
+Changed policies ( Steen , Casadevall , & Fang , 2013 ; Fanelli , 2013 ) and not fully institutionalized procedures ( Hesselmann , Wienefoet , & Reinhart , 2014 ) already have been at least discussed as relevant and problematic factors for the validity of prevalence analyses . 
+However , for all research questions and even if retractions are only taken as a manifest phenomenon whose effects are analyzed , missing coverage and inconsistent delineation on the database level are relevant factors for the respective studies ' data basis . 
+Accordingly , the main concern of this paper is to systematically scrutinize the empirical basis of the studies on retractions , something which so far has never been attempted . 
+The following research questions will be pursued : How complete and precise are the publication types for RoPs and RPs in PubMed , and how are RoPs and RPs identified in the WoS ? 
+To what extent are the delineation problems discussed here mirrored on the factual database level ? 
+How concordant are PubMed and the WoS in identifying RoPs and RPs ? 
+Which search strategies and time spans are advisable for surveying retractions in PubMed and the WoS ? 
+How effectively can RoPs and RPs be linked in the WoS on the basis of available metadata ? 
+Many studies are based on PubMed , predominantly using the publication type RP ( see , for example , Amos , 2014 ; Davis , 2012 ; Foo , 2011 ; Steen , 2011a , 2011b , 2011c ; Stretton et al. , 2012 ) . 
+Other authors use the publication type RoP ( Decullier , Huot , Samson , & Maisonneuve , 2013 ; Decullier , Huot , & Maisonneuve , 2014 ; Wager & Williams , 2011 ) . 
+In a couple of studies the precise retrieval for the search of retracted publications remains somewhat implicit ( Azoulay , Furman , Krieger , & Murray , 2015 ; Fang , Steen , & Casadevall , 2012 ; Furman , Jensen , & Murray , 2012 ; Madlock‐Brown & Eichmann , 2015 ) . 
+Grieneisen and Zhang ( 2012 ) , Mongeon and Larivière ( 2016 ) , as well as Rosenkrantz ( 2016 ) —the latter imprecise in labeling—use both types . 
+Furman et al . 
+( 2012 ) note that RoPs may actually contain several retractions . 
+Grieneisen and Zhang ( 2012 ) and Rosenkrantz ( 2016 ) add title‐based searches in PubMed , but do not elaborate on their precise quantitative effects . 
+Citation data from the WoS are added in several studies , but it is either done manually or the matching is not elaborated upon ( e.g. , Furman et al. , 2012 ; Madlock‐Brown & Eichmann , 2015 ; Mongeon & Larivière , 2016 ) . 
+Decullier et al . 
+( 2014 ) studied the stability of indexation in a small sample of RoPs in PubMed with the publication year 2008 by repeating an initial search at intervals of 3 months during the year 2011 . 
+They note 14 discrepancies out of 237 notices ; the latter were found in the first retrieval date in February 2011 . 
+They conclude that the number of retraction notices did not become definitely stable before November 2011 , 35 months counting from the end of the publication year serving as the study 's start point . 
+Chen , Hu , Milbank , and Schultz ( 2013 ) describe the annotation for RoPs in the WoS as consisting of the original title followed by the phase “ Retraction of ” and a reference to the numerical bibliographical data of the RP in the WoS title field , for example : “ ( Retraction of vol 351 , pg 637 , 1998 ) . 
+” The RP would be identified reciprocally by the title phrase “ ( Retracted article . 
+See vol 375 , pg 445 , 2010 ) . 
+” 11 Both descriptions have been basically confirmed by a Thomson Reuters representative to me in informal communication . 
+Varying search strategies are proposed in the literature , and are presented in Table 1 . 
+While manual verification and exclusion of false positives is sometimes mentioned ( e.g. , Grieneisen & Zhang , 2012 ; He , 2013 ) , it is nevertheless not clear to what degree the varying search strategies produce the same or differing result sets . 
+If further information of the retraction notice is to be incorporated into the analysis or for a control of the respective completeness , an exact linking has to be established , which so far has not been done algorithmically . 
+Fanelli ( 2013 ) and Bilbrey , O'Dell , and Creamer ( 2014 ) limit their analyses to the level of RoPs ; He ( 2013 ) uses both the RoP and RP corpora separately for different sections of the analysis . 
+Chen et al . 
+( 2013 ) extract the publication year of the retracting paper from the numerical reference in the “ retracted ” title phrase ; Lu , Jin , Uzzi , and Jones ( 2013 ) compare the respective RoP and RP lists . 
+They mention that some publications referred to by retraction notices have not been flagged and were added . 
+The database PubMed is a freely accessible search engine accessing primarily the content of MEDLINE . 
+PubMed consists of articles indexed for MEDLINE , in addition to older references from the print version of Index Medicus and references to journals before they were indexed for MEDLINE , very recent in‐process articles , a collection of books , and PMC citations . 
+Apart from RP and RoP , other relevant publication types in PubMed are : published erratum , corrected and republished article , and duplicate publication . 
+The WoS by Thomson Reuters is an interdisciplinary bibliographic database and abstract and citation index that has been an established standard for bibliometric databases for many years . 
+This study works primarily with the WoS raw data . 
+The WoS provides the relevant document types correction and addition and correction , which are apparently used for retractions as well as for corrections and errata . 
+Very recently , a document type retraction has been added which comprises only a very small number of very recent publications . 
+In a first step , I aim for an assessment of the consistency and completeness of PubMed 's categorization of publication types . 
+Are all RoPs linked to RPs and vice versa ? 
+Is it possible to identify further RoPs/RPs that are not identified by respective publication types ? 
+In a pragmatic approach , I searched for publications in PubMed that are explicitly identified as a retraction or retracted in their article titles,22 It has been checked for retractions that a retrieval strategy comprising “ all fields ” instead of the title field does not yield better results . 
+but not via publication type— that is , false negatives of the publication type categorization . 
+Additionally , the prevalence of withdrawals as related publications which are not covered by PubMed publication types are analyzed . 
+I queried the advanced search interface of PubMed with title words in combination with the exclusion ( and , in the case of related publication formats , inclusion as well ) of publication types RoP and RP . 
+Result sets were further processed with Perl regular expressions in order to perform a more precise search . 
+In a last step , the respective retraction notices were accessed and investigated in full text for final verification in cases of retractions and retracted papers . 
+How are PubMed RoPs and RPs annotated in the WoS ? 
+In order to address this question , some kind of matching between PubMed and the WoS is necessary . 
+The Web of Knowledge online interface incorporates a direct search for PMIDs and also includes PMIDs in output formats since 2014/2015 . 
+Nevertheless , I developed my own matching algorithm as it is a priori unknown how accurately the WoS algorithm performs , especially in cases of the rather difficult category retraction of publication . 
+Matching RoPs is more problematic than in standard scenarios because article titles in PubMed and WoS retractions consist of retraction‐specific phrases which are for the most part not concordant . 
+Several retractions and letters may share the same numerical metadata while at the same time RoPs and RPs are easy to confuse , sometimes deviating only in starting pages and title retraction/retracted phrases . 
+A cluster‐key approach to mapping bibliographic data from external sources with the WoS was introduced by Glänzel , Schubert , Braun , Rinia , and Brocken ( 1994 ) as well as by Braun , Glänzel , Rinia , and Schubert ( 1995 ) . 
+Strotmann and Zhao ( 2010 ) match PubMed results with Scopus , and Abdulhayoglu , Thijs , and Jeuris ( 2014 ) match author publication lists with the WoS , the first one with a Boolean query based on central metadata and the latter using basically Salton 's Cosine measure based on overlapping N‐grams . 
+Although convincing accuracy rates are reported for the latter two algorithms , they seem to be too unspecific for the described properties and problems of RoPs . 
+My matching algorithm for both data sets consists of a hierarchical system of single queries or match keys querying an Oracle database of the WoS with PubMed RoP and RP data , starting with relatively complete metadata and gradually allowing more variance ( such as erroneous or missing metadata on either side ) . 
+It deals with the title variances and frequently missing author names of RoPs by parsing and removing retraction‐specific phrases in PubMed data ( as much as was feasible with reasonable effort ) and by predominantly using the original , retracted PubMed article titles ( identified by way of PubMed 's linking between RoPs and RPs ) . 
+Additionally , I replaced missing RoP author names with author names from RPs . 
+For comparison , two variants of a simpler matching algorithm were calculated based on cluster keys similar to that of the WoS and Glänzel et al . 
+( 1994 ) . 
+The results of the WoS matching are analyzed as well . 
+A linking procedure was established in both directions from and to RPs and RoPs , respectively , in order to be able to compare the results reciprocally . 
+In both directions , linking relies basically on citing relations and the extraction of numerical bibliographic metadata from retraction/retracted‐specific phrases in article titles , added to by author names , title phrases , and sources . 
+In order to create an RoP/RP corpus in the WoS independently from external sources , a search algorithm for RoPs was set up and evaluated . 
+In a first step , the corpora of RoPs and RPs resulting from the matching procedure were searched iteratively for phrases indicating retractions , corrections , and withdrawals . 
+I constructed regular expressions ( RegEx ) based on these identified phrases denoting retractions . 
+I used these RegEx to characterize the pattern of annotations used in the WoS to mark publications as retracted or retraction . 
+Then several generalizations were applied to search for RPs and RoPs within the whole WoS database . 
+Finally , I analyzed the resulting RoP corpus in comparison to corpora derived from search strategies proposed in the literature as presented in Table 1 . 
+In order to assess the internal consistency of the PubMed publication types and the possible consequences for counting and further analyses , I first assessed the linkage structure of both publication types , determined in the time window 1980–2013 . 
+Links from RoPs to RPs and vice versa are provided in specific metadata fields . 
+RoP items contain the field ROF for “ Retraction Of ” ; RP items contain the field RIN for “ Retraction In. ” In most cases these fields comprise the respective PubMed ID ( PMID ) of the linked PubMed item , but in some cases the fields comprise only textual metadata of the referred publication in varying completeness , and sometimes the field is completely missing . 
+These are technical duplicates within the RoP corpus , combinations of partial and complete retractions or the like.33 I refrain from modifying the RoP corpus with regard to the above‐mentioned duplicates as it is my general strategy to establish error margins for given database standards and methods and not to correct database data . 
+With regard to RoPs , it makes sense to count on the level of ROF fields because in that way precisely single retraction incidents are counted . 
+This is not the case for RPs since , on the level of RIN fields , single retracted publications would be counted multiple times . 
+I therefore determined the RoP corpus on the level of ROF entries,44 If an ROF field is missing altogether , the item is counted once for one retraction incident . 
+but restrict the RP corpus to the item level ( Table 2 ) . 
+It must also be noted that 15 publications have both publication types and are therefore part of both RoP and RP corpora . 
+In all , 388 ROF fields out of 384 RoP items do not have links to RPs , which corresponds to a share of 11.1 % ( ROF level ) or 11.9 % , respectively , on the item level . 
+In the reciprocal direction , only 0.2 % of RPs are not linked and in 0.6 % of cases , RPs have links to items whose targets are probably not RoPs . 
+Missing RoP links are caused by the fact that an RoP and its ROF string have the same DOIs or numerical metadata , therefore RP and RoP are virtually combined in one document ; that original articles to be retracted are seemingly not indexed ; and eventually by the fact that original articles are indexed and could be manually identified by us , although RoPs miss metadata . 
+In a couple of these cases ROF strings are actually duplicates of other RoPs or may refer to a multitude of retracted publications ( in case of the journal Acta Crystallographica Section E ) . 
+In the next step , I assessed the completeness of the PubMed publication type categorization by searching the terms ” retraction ” and ” retracted , ” respectively , within the title field of PubMed , while publication types RoP and RP were excluded . 
+A more precise offline search with a Perl RegEx script complemented this basic search and identified smaller amounts of possible false positives . 
+Full texts ( or , if unavailable , at least PubMed abstracts ) have been manually assessed in order to evaluate the results . 

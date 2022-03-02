@@ -1,0 +1,188 @@
+T1	引文作者 686 697	Garoufallou
+T2	引文时间 707 711	2008
+T3	引文作者 1264 1269	Doerr
+T4	引文时间 1272 1276	2009
+T5	引文作者 1390 1403	van den Akker
+T6	引文时间 1413 1417	2013
+T7	引文作者 2483 2485	Hu
+T8	引文时间 2495 2499	2017
+T9	引文作者 4709 4714	Abbas
+T10	引文时间 4727 4731	2016
+T11	引文作者 5556 5563	Ronzino
+T12	引文作者 5566 5571	Amico
+T13	引文作者 5576 5586	Niccolucci
+T14	引文时间 5589 5593	2011
+T15	引文作者 6065 6069	Moen
+T16	引文时间 6072 6076	1998
+T17	引文作者 6378 6384	Koolen
+T18	引文时间 6397 6401	2009
+T19	引文作者 6847 6851	Liew
+T20	引文时间 6854 6858	2005
+T21	引文的结果 6861 6947	identified 10 key information retrieval features among various online exhibition sites
+T22	引文的结果 6952 7034	These features mainly cover search and browse facilities and interactive functions
+T23	引文作者 7312 7322	Foulonneau
+T24	引文作者 7327 7332	Riley
+T25	引文时间 7335 7339	2008
+T26	引文作者 7572 7576	Baca
+T27	引文时间 7579 7583	2003
+T28	引文的结果 7342 7554	emphasized that metadata was the key to interoperability , as metadata not only improved content sharing but also supported information exchange among and between electronic platforms and information repositories
+T29	引文的研究问题 6404 6484	discussed the fundamental problems of information retrieval in cultural heritage
+T30	引文的结果 6487 6670	arguing that these challenges come from the highly structured and standardized data in cultural heritage institutions that make such data generally difficult and expensive to maintain
+T31	引文的结果 6081 6357	cultural heritage resources include a variety of physical and digital objects such as physical artifacts and its digital derivatives , descriptive records designed for collection management , online tools such as thesauri and authoritative lists of artists ’ names , and so on
+T36	引文的结果 4734 4972	under the framework of “ information representation design ” and in the spirit of user‐centered design , understanding users ’ information behaviors and their information needs is of utmost importance for the design of information systems
+T37	引文的研究问题 5391 5553	investigates how users perceive the metadata schema as a whole , eliciting worthy issues at the schema level such as completeness , clarity , and interoperability
+T38	研究问题 5864 5944	the study also aims to provide a framework for the next stages of the evaluation
+T39	研究问题 5645 5845	the primary objective of this study is to evaluate the metadata schema for murals and stone cave temples so that suggestions can be made to inform the further development and improvement of the schema
+T40	引文作者 7171 7176	Jones
+T41	引文时间 7186 7190	2001
+T42	引文作者 7270 7276	Haynes
+T43	引文时间 7279 7283	2004
+T44	引文作者 7286 7298	Bhattacharya
+T45	引文时间 7301 7305	2006
+T47	引文的结果 7058 7168	geographical information was identified as frequently used when searching for information on cultural heritage
+T48	引文的结果 7588 7743	controlled vocabularies such as thesaurus and classification systems are required to populate metadata records , especially in the cultural heritage domain
+T49	引文的结果 7748 7947	Baca also addressed the development of local authority files and thesauri to enhance end user access , metadata mapping and crosswalks , and provide integrated access to diverse information resources
+T50	引文作者 8306 8315	Weinstein
+T51	引文时间 8318 8322	1998
+T52	引文作者 8325 8332	Maedche
+T53	引文作者 8335 8344	Zacharias
+T54	引文时间 8347 8351	2002
+T55	引文作者 8354 8363	Schuurman
+T56	引文作者 8366 8377	Leszczynski
+T57	引文时间 8380 8384	2006
+T59	数据源 8558 8617	the Digital Dunhuang project,22 http : //www.e-dunhuang.com
+T60	数据源 8618 8671	HistoricPlacesLA,33 http : //www.historicplacesla.org
+T61	数据源 8676 8730	Ancient Locations.44 http : //www.ancientlocations.net
+T62	引文作者 8879 8881	Hu
+T63	引文时间 8891 8895	2017
+T64	引文的结果 8731 8876	These sites provide rich metadata for digital surrogates of nonmovable cultural heritages , such as the landscape and stories of historical sites
+T65	引文作者 9202 9205	Lee
+T66	引文时间 9215 9219	2013
+T68	引文作者 9501 9506	Patel
+T69	引文时间 9519 9523	2005
+T70	引文的结果 9526 9782	pointed out that digital representations of physical artifacts required significant technical information ( for example , parameters related to creation , storage , and manipulation ) in the metadata in order to maintain and preserve these cultural objects
+T71	引文作者 10197 10204	Ronzino
+T72	引文时间 10214 10218	2012
+T73	引文的结果 9898 10194	It has been remarked that documentation of cultural heritage necessitates standardization that allows integration of cultural heritage information from multidisciplinary environments involving scholarly and professional users ranging from historians and conservators to sociologists and engineers
+T74	引文作者 10507 10512	Patel
+T75	引文时间 10522 10526	2005
+T77	引文作者 10741 10750	Gilliland
+T78	引文时间 10753 10757	2008
+T80	具体模型 11065 11105	CIDOC Conceptual Reference Model ( CRM )
+T81	具体模型 11150 11182	the Europeana Data Model ( EDM )
+T82	引文作者 11217 11222	Doerr
+T83	引文时间 11232 11236	2010
+T85	引文作者 11316 11321	Grant
+T86	引文作者 11324 11330	Cowton
+T87	引文时间 11333 11337	1997
+T90	引文作者 11377 11396	Library of Congress
+T91	引文时间 11399 11403	2014
+T93	引文作者 11433 11438	Corti
+T94	引文作者 11441 11447	Marcon
+T95	引文时间 11450 11454	2003
+T97	引文作者 11526 11568	Forum on Information Standards in Heritage
+T98	引文时间 11571 11575	2007
+T99	引文作者 11133 11138	CIDOC
+T100	引文时间 11141 11145	2003
+T101	引文作者 11582 11589	Ronzino
+T102	引文时间 11602 11606	2011
+T103	引文的研究问题 11609 11796	carried out an assessment and comparison of several national schemas and standards on cultural heritage assets including archaeological sites , museum objects , and architectonic elements
+T104	引文的结果 11801 11960	Their article highlights equivalencies and shortcomings of the schemas , and suggests that a more comprehensive standard for cultural heritage assets is needed
+T105	引文作者 11965 11974	Smiraglia
+T106	引文时间 11977 11981	2005
+T107	引文的结果 11984 12174	suggested that schemas should be derived with empirical understanding of the concepts to be represented , and metadata descriptions should be designed with the goal of facilitating retrieval
+T108	表 13745 13809	The core elements and their definitions are presented in Table 1
+T109	引文作者 14375 14379	Amin
+T110	引文时间 14392 14396	2008
+T111	引文作者 14433 14435	Hu
+T112	引文时间 14448 14452	2017
+T113	引文作者 14496 14498	Li
+T114	引文作者 14486 14491	Zhang
+T115	引文时间 14501 14505	2008
+T116	引文作者 15825 15829	Berg
+T117	引文时间 15839 15843	2004
+T119	引文的方法 15753 15770	snowball sampling
+T120	引文作者 17216 17220	Dent
+T121	引文时间 17223 17227	2011
+T123	引文作者 17588 17595	Strauss
+T124	引文作者 17598 17604	Corbin
+T125	引文时间 17607 17611	1994
+T126	引文的方法 17559 17585	A grounded theory approach
+T127	引文作者 18147 18153	McHugh
+T128	引文时间 18156 18160	2012
+T130	研究结果 18725 18871	These results showed that electronic resources were the predominant tools used in looking for information related to murals and stone cave temples
+T131	研究结果 18876 19033	This predetermines users ’ potential in benefitting from digitized cultural heritage information as well as metadata schemas designed for digital information
+T132	表 20357 20563	Table 2 presents the codes on individual metadata elements , including users ’ perceptions on its importance , its usefulness in searching , browsing , and organizing related information , and issues raised
+T133	表 20697 20745	Table 3 shows the codebook of main issues raised
+T134	表 20978 21138	Table 4 summarizes the distributions of the codes on element importance in the professional user group , as well as the percentages of the total of each element
+T135	研究问题 2887 3164	In order to bridge this gap and improve research in this field , the study aims to create more insight into developing and evaluating metadata schemas for the purpose of digitalizing and preserving cultural heritages , with particular reference to murals and stone cave temples
+T136	研究问题 3169 3348	This study also attempts to compare and contrast the experience and perceptions of different types of users according to their information needs and knowledge of the said heritage
+T137	研究方法 3777 3810	By evaluating the metadata schema
+T138	研究问题 3813 3893	we aim to identify potential problems and make suggestions to improve the schema
+T139	研究方法 3912 3972	by comparing the evaluation of professional and public users
+T140	研究问题 4141 4242	How do professionals and the general public seek and use information of murals and stone cave temples
+T141	研究问题 4253 4395	Which metadata elements are important and useful to these two groups of users in the drafted metadata schema for murals and stone cave temples
+T142	研究问题 4406 4498	Besides metadata elements , what other aspects of the metadata schema are relevant for users
+T143	研究方法 2737 2882	evaluates metadata schemas of cultural heritages with a user‐centered approach through which improvements on the schema can be made and sustained
+T144	研究方法 5165 5358	we set out to identify and explore metadata elements in the schema that may or may not be perceived as important or useful by users , thereby making suggestions on modifications of the elements
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	has_cited_time Arg1:T8 Arg2:T7	
+R5	has_cited_time Arg1:T10 Arg2:T9	
+R6	coauthor Arg1:T11 Arg2:T12	
+R7	coauthor Arg1:T12 Arg2:T13	
+R8	has_cited_time Arg1:T14 Arg2:T13	
+R9	produces Arg1:T11 Arg2:T37	
+R10	has_cited_time Arg1:T16 Arg2:T15	
+R11	has_cited_time Arg1:T18 Arg2:T17	
+R12	produces Arg1:T17 Arg2:T29	
+R13	has_cited_time Arg1:T20 Arg2:T19	
+R14	has_cited_time Arg1:T41 Arg2:T40	
+R15	has_cited_time Arg1:T25 Arg2:T24	
+R16	coauthor Arg1:T23 Arg2:T24	
+R17	has_cited_time Arg1:T27 Arg2:T26	
+R18	has_cited_time Arg1:T51 Arg2:T50	
+R19	coauthor Arg1:T52 Arg2:T53	
+R20	has_cited_time Arg1:T54 Arg2:T53	
+R21	coauthor Arg1:T55 Arg2:T56	
+R22	has_cited_time Arg1:T57 Arg2:T56	
+R23	has_cited_time Arg1:T63 Arg2:T62	
+R24	has_cited_time Arg1:T66 Arg2:T65	
+R25	field_similar_as Arg1:T50 Arg2:T52	
+R26	field_similar_as Arg1:T52 Arg2:T55	
+R27	has_cited_time Arg1:T72 Arg2:T71	
+R28	has_cited_time Arg1:T75 Arg2:T74	
+R29	has_cited_time Arg1:T100 Arg2:T99	
+R30	coauthor Arg1:T85 Arg2:T86	
+R31	has_cited_time Arg1:T87 Arg2:T86	
+R32	has_cited_time Arg1:T98 Arg2:T97	
+R33	has_cited_time Arg1:T91 Arg2:T90	
+R34	has_cited_time Arg1:T83 Arg2:T82	
+R35	has_cited_time Arg1:T78 Arg2:T77	
+R36	coauthor Arg1:T93 Arg2:T94	
+R37	has_cited_time Arg1:T95 Arg2:T94	
+R38	has_cited_time Arg1:T102 Arg2:T101	
+R39	produces Arg1:T101 Arg2:T103	
+R40	has_cited_time Arg1:T106 Arg2:T105	
+R41	has_cited_time Arg1:T110 Arg2:T109	
+R42	has_cited_time Arg1:T112 Arg2:T111	
+R43	coauthor Arg1:T114 Arg2:T113	
+R44	has_cited_time Arg1:T115 Arg2:T113	
+R45	uses Arg1:T116 Arg2:T119	
+R46	has_cited_time Arg1:T117 Arg2:T116	
+R47	coauthor Arg1:T123 Arg2:T124	
+R48	has_cited_time Arg1:T125 Arg2:T124	
+R49	uses Arg1:T123 Arg2:T126	
+R50	has_cited_time Arg1:T121 Arg2:T120	
+R51	has_cited_time Arg1:T128 Arg2:T127	
+R52	results Arg1:T9 Arg2:T36	
+R53	results Arg1:T17 Arg2:T30	
+R54	results Arg1:T15 Arg2:T31	
+R55	results Arg1:T40 Arg2:T47	
+R56	results Arg1:T19 Arg2:T22	
+R57	results Arg1:T23 Arg2:T28	
+R58	results Arg1:T26 Arg2:T48	
+R59	results Arg1:T26 Arg2:T49	
+R60	results Arg1:T101 Arg2:T104	
+R61	results Arg1:T105 Arg2:T107	

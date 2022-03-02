@@ -1,0 +1,89 @@
+T1	引文作者 86 95	MacCallum
+T2	引文作者 98 104	Browne
+T3	引文作者 111 119	Sugawara
+T4	引文时间 122 126	1996
+T5	引文作者 355 363	Henseler
+T6	引文作者 329 337	Reinartz
+T7	引文作者 340 348	Haenlein
+T8	引文时间 366 370	2009
+T9	引文作者 484 489	Cohen
+T10	引文时间 492 496	1988
+T11	引文作者 1243 1252	Palazzolo
+T12	引文时间 1255 1259	2005
+T13	引文作者 1747 1757	Krackhardt
+T14	引文时间 1760 1764	1992
+T15	引文作者 1767 1773	Maurer
+T16	引文作者 1776 1783	Bartsch
+T17	引文作者 1788 1793	Ebers
+T18	引文时间 1796 1800	2011
+T19	引文作者 1803 1810	Reagans
+T20	引文作者 1813 1820	McEvily
+T21	引文时间 1823 1827	2003
+T22	引文作者 1906 1912	Hansen
+T23	引文作者 1915 1922	Podolny
+T24	引文作者 1927 1934	Pfeffer
+T25	引文时间 1937 1941	2001
+T26	引文作者 2329 2337	Nahapiet
+T27	引文作者 2342 2349	Ghoshal
+T28	引文时间 2352 2356	1998
+T29	引文作者 2994 3001	Carlson
+T30	引文作者 3004 3009	Davis
+T31	引文时间 3012 3016	1998
+T32	引文作者 3019 3025	Zimmer
+T33	引文时间 3035 3039	2008
+T34	引文作者 3443 3450	Sparrow
+T35	引文作者 3453 3456	Liu
+T36	引文作者 3461 3467	Wegner
+T37	引文时间 3470 3474	2011
+T38	引文作者 3477 3483	Wegner
+T39	引文时间 3486 3490	1995
+T40	引文作者 3774 3786	Hollingshead
+T41	引文时间 3789 3793	1988
+T42	引文时间 3796 3801	1998a
+T43	引文时间 3804 3809	1998b
+T44	引文时间 3812 3816	2001
+T45	引文作者 4204 4206	Xu
+T46	引文时间 4216 4220	2011
+T47	引文作者 4594 4601	Agarwal
+T48	引文时间 4611 4615	2011
+T49	引文作者 4826 4828	Xu
+T50	引文时间 4838 4842	2011
+T51	研究结果 5181 5323	the social context in which individuals find themselves impacts the assessments of both the quality and accessibility of interpersonal sources
+T52	研究展望 5328 5465	Understanding this allows individuals to better leverage social capital and organizations to make better use of their knowledge resources
+R1	has_cited_time Arg1:T50 Arg2:T49	
+R2	has_cited_time Arg1:T48 Arg2:T47	
+R3	has_cited_time Arg1:T46 Arg2:T45	
+R4	has_cited_time Arg1:T41 Arg2:T40	
+R5	has_cited_time Arg1:T42 Arg2:T40	
+R6	has_cited_time Arg1:T43 Arg2:T40	
+R7	has_cited_time Arg1:T44 Arg2:T40	
+R8	coauthor Arg1:T34 Arg2:T35	
+R9	coauthor Arg1:T35 Arg2:T36	
+R10	has_cited_time Arg1:T37 Arg2:T36	
+R11	has_cited_time Arg1:T39 Arg2:T38	
+R12	has_cited_time Arg1:T31 Arg2:T30	
+R13	coauthor Arg1:T29 Arg2:T30	
+R14	has_cited_time Arg1:T33 Arg2:T32	
+R15	field_similar_as Arg1:T29 Arg2:T32	
+R16	field_similar_as Arg1:T34 Arg2:T38	
+R17	has_cited_time Arg1:T28 Arg2:T27	
+R18	coauthor Arg1:T26 Arg2:T27	
+R19	coauthor Arg1:T22 Arg2:T23	
+R20	coauthor Arg1:T23 Arg2:T24	
+R21	has_cited_time Arg1:T25 Arg2:T24	
+R22	has_cited_time Arg1:T14 Arg2:T13	
+R23	has_cited_time Arg1:T18 Arg2:T17	
+R24	has_cited_time Arg1:T21 Arg2:T20	
+R25	field_similar_as Arg1:T13 Arg2:T15	
+R26	coauthor Arg1:T15 Arg2:T16	
+R27	coauthor Arg1:T16 Arg2:T17	
+R28	field_similar_as Arg1:T15 Arg2:T19	
+R29	coauthor Arg1:T19 Arg2:T20	
+R30	has_cited_time Arg1:T12 Arg2:T11	
+R31	has_cited_time Arg1:T10 Arg2:T9	
+R32	coauthor Arg1:T6 Arg2:T7	
+R33	coauthor Arg1:T7 Arg2:T5	
+R34	has_cited_time Arg1:T8 Arg2:T5	
+R35	coauthor Arg1:T1 Arg2:T2	
+R36	coauthor Arg1:T2 Arg2:T3	
+R37	has_cited_time Arg1:T4 Arg2:T3	

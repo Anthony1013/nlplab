@@ -1,0 +1,60 @@
+T1	引文作者 1420 1426	Savova
+T2	引文时间 1436 1440	2010
+T3	引文作者 1503 1511	Ferrucci
+T4	引文时间 1521 1525	2009
+T5	引文作者 1959 1968	Kononenko
+T6	引文时间 1978 1982	2014
+T7	表 2132 2216	Table 5 provides a distribution of the extracted information from the above data set
+T8	引文作者 2387 2390	Cho
+T9	引文时间 2403 2407	2013
+T10	引文作者 2707 2717	Kummervold
+T11	引文时间 2730 2734	2002
+T12	引文作者 2799 2801	Li
+T13	引文作者 2804 2807	Lin
+T14	引文作者 2814 2818	Wang
+T15	引文时间 2823 2827	2015
+T16	图 8769 8941	As previously illustrated in Figure 2 , the proposed method builds a structured layer on top of the unstructured text of OSG posts , which can be utilized for OSG analytics
+T17	图 8946 9086	As shown in Figure 6 , each post can be represented using five dimensions that enable researchers to conduct OSG analytics and gain insights
+T18	图 9466 9648	Dimensional analysis : In this analysis we combine the age and gender dimensions shown in Figure 6 and present a demographic distribution of patients who report the symptom heartburn
+T19	图 9653 9740	Figure 7 shows the demographic distribution of posts that mention the symptom heartburn
+T20	表 10173 10283	Table 7 presents the top five other symptoms that coexist with the symptom heartburn in different age groups .
+T21	图 10411 10549	Figure 8 shows the temporal distribution of the post counts that report the symptom heartburn drawn for each month for a period of 3 years
+T22	引文作者 11090 11100	Ranasinghe
+T23	引文时间 11110 11114	2017
+T24	引文作者 11117 11128	Bandaragoda
+T25	引文时间 11138 11142	2018
+T26	引文作者 11145 11155	Ranasinghe
+T27	引文时间 11165 11169	2018
+T28	表 12073 12112	Table 8 presents the evaluation results
+T29	表 13495 13580	Table 9 and Table 10 present the gender and age classification results , respectively
+T30	研究问题 14572 14792	In this article , we present a novel method that imposes a relevant and reliable knowledge extraction layer on to large volumes of unstructured text in OSGs used by patients for information exchange and emotional support
+T31	图 698 783	Figure 5 shows experimental execution time results obtained against a number of posts
+T32	软件工具 1411 1417	cTAKES
+T34	软件工具 1662 1708	an open source search platform , Elasticsearch
+T36	引文的结果 2737 2794	report that women are more participative in OSGs than men
+T37	引文的结果 2830 2894	state that women tend to self‐disclose more information than men
+T38	研究方法 3550 3624	For this ranking we use a custom relevance measure based on age and gender
+T39	表 4982 5103	Excerpts from the top five results from our method and the two approaches of the full‐text search are provided in Table 6
+T41	研究结果 15916 16201	In summary , this novel approach for personalized knowledge extraction from crowdsourced OSG data elucidates a broad spectrum of individual and aggregate knowledge that makes a noteworthy contribution towards patient empowerment , patient‐centered care and “ health information for all
+T42	数据源 16005 16013	OSG data
+T33	研究方法 3272 3429	We first employed the medical information extracted from the patients ’ query to identify the posts that are experiences and contain same medical information
+T35	研究方法 3434 3545	Such posts are then ranked based on the demographic similarity of the author to the demographics of the patient
+T44	研究方法 4746 4977	For comparison of results we employed two approaches of full‐text search : ( i ) default search in the OSG , and ( ii ) search key terms with the Boolean aggregation “ AND ” ( retrieves the posts that contain all the search terms )
+T40	研究方法 12737 12800	We employed precision and recall statistics for this evaluation
+T45	研究展望 15140 15448	As future work , the knowledge extraction layer can be extended with further knowledge extraction modules to extract more information from unstructured text such as demographics ( ethnicity , weight , height , and so on ) and personal health information ( family history , allergies , surgeries , and so on )
+T46	研究展望 15453 15611	Moreover , other crowdsourced information sources such as Facebook and Twitter can be integrated to increase the coverage on public patient health information
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	has_cited_time Arg1:T9 Arg2:T8	
+R5	has_cited_time Arg1:T11 Arg2:T10	
+R6	has_cited_time Arg1:T15 Arg2:T14	
+R7	coauthor Arg1:T12 Arg2:T13	
+R8	coauthor Arg1:T13 Arg2:T14	
+R9	has_cited_time Arg1:T23 Arg2:T22	
+R10	has_cited_time Arg1:T25 Arg2:T24	
+R11	has_cited_time Arg1:T27 Arg2:T26	
+R12	field_similar_as Arg1:T22 Arg2:T24	
+R13	field_similar_as Arg1:T24 Arg2:T26	
+R14	results Arg1:T12 Arg2:T37	
+R15	results Arg1:T10 Arg2:T36	

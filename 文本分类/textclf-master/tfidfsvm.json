@@ -1,0 +1,40 @@
+{
+    "__class__": "MLTrainerConfig",
+    "params": {
+        "raw_data_path": "textclf.joblib",
+        "save_dir": "ckpts/",
+        "vectorizer": {
+            "__class__": "TfidfVectorizerConfig",
+            "params": {
+                "lowercase": true,
+                "stop_words": null,
+                "token_pattern": "(?u)\\b\\w+\\b",
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "max_df": 1.0,
+                "min_df": 1,
+                "max_features": null,
+                "norm": "l2",
+                "use_idf": true,
+                "smooth_idf": true,
+                "sublinear_tf": false
+            }
+        },
+        "model": {
+            "__class__": "LinearSVMConfig",
+            "params": {
+                "class_weight": "balanced",
+                "penalty": "l2",
+                "alpha": 0.0001,
+                "l1_ratio": 0.15,
+                "fit_intercept": true,
+                "max_iter": 1000,
+                "n_jobs": null,
+                "random_state": null,
+                "n_iter_no_change": 5
+            }
+        }
+    }
+}

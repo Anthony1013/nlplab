@@ -1,0 +1,94 @@
+{
+    "__class__": "DLTrainerConfig",
+    "params": {
+        "use_cuda": true,
+        "epochs": 10,
+        "score_method": "accuracy",
+        "ckpts_dir": "ckpts",
+        "save_ckpt_every_epoch": true,
+        "random_state": 2020,
+        "state_dict_file": null,
+        "early_stop_after": null,
+        "max_clip_norm": null,
+        "do_eval": true,
+        "load_best_model_after_train": true,
+        "num_batch_to_print": 10,
+        "optimizer": {
+            "__class__": "AdamConfig",
+            "params": {
+                "embedding_lr": 0.001,
+                "lr": 0.001,
+                "static_epoch": 0,
+                "betas": [
+                    0.9,
+                    0.999
+                ],
+                "eps": 1e-08,
+                "weight_decay": 0.0,
+                "amsgrad": false
+            }
+        },
+        "scheduler": {
+            "__class__": "ReduceLROnPlateauConfig",
+            "params": {
+                "mode": "min",
+                "factor": 0.1,
+                "patience": 10,
+                "verbose": true,
+                "threshold": 0.0001,
+                "threshold_mode": "rel",
+                "cooldown": 0,
+                "min_lr": 0.0,
+                "eps": 1e-08
+            }
+        },
+        "model": {
+            "__class__": "DLModelConfig",
+            "params": {
+                "embedding_layer": {
+                    "__class__": "BertEmbeddingLayerConfig",
+                    "params": {
+                        "dim": 768,
+                        "model_dir": "bert_pretrain"
+                    }
+                },
+                "classifier": {
+                    "__class__": "CNNClassifierConfig",
+                    "params": {
+                        "input_size": null,
+                        "output_size": null,
+                        "kernel_sizes": [
+                            2,
+                            3,
+                            4
+                        ],
+                        "num_kernels": 256,
+                        "top_k_max_pooling": 1,
+                        "hidden_layer_dropout": 0.5
+                    }
+                }
+            }
+        },
+        "data_loader": {
+            "__class__": "DataLoaderConfig",
+            "params": {
+                "raw_data_path": "textclf.joblib",
+                "batch_size": 32,
+                "max_len": 10,
+                "shuffle": false,
+                "num_workers": 0,
+                "pin_memory": true,
+                "drop_last": true
+            }
+        },
+        "criterion": {
+            "__class__": "CrossEntropyLossConfig",
+            "params": {
+                "use_cuda": null,
+                "weight": null,
+                "reduction": "mean",
+                "label_smooth_eps": null
+            }
+        }
+    }
+}

@@ -1,0 +1,130 @@
+The LSTM resolves these problems by introducing new gates such as input and forget gates that allow better control over the gradient flow and enable better preservation of long lag values ( Chung , Gulcehre , Cho , & Bengio , 2014 ; Hochreiter & Schmidhuber , 1997 ) . 
+Zhang ( 2003 ) developed a hybrid time‐series prediction model by using both the ARIMA and simple neural network models . 
+Since real‐life data sets contain both linear and nonlinear properties , the author builds such a model that can capture every pattern of real‐life problems . 
+However , the author does not describe clearly how the model deals with the time lags . 
+In this article , we use a weighted hybrid time‐series model by using both the ARIMA model and the LSTM model to capture the linear and nonlinear patterns accurately . 
+Our hybrid model performs better than the hybrid model of Zhang ( 2003 ) , because we solve different limitations of the simple neural network‐based approach by using the LSTM‐based technique . 
+We collected the Facebook status of a total of 726 users for our experiments , where the statuses of 388 Facebook users are used for building value models , and then statuses of 338 Facebook users for over 6 years are used for building the temporal value change models . 
+First , we develop a Facebook application that accesses the users ' status updates . 
+Later , we invited 750 users to allow us to collect Facebook statuses through the posts on Facebook , relevant mailing lists , and a word of mouth technique . 
+Among 750 Facebook users , 388 users ( male = 210 , female = 178 ) authenticated the application to read their timelines . 
+The users are members of a student and professional community . 
+We recruited users aged between 15 and 28 years , as they go through different stages of life such as high school , college , and starting a job . 
+This age group ( 15–28 ) is likely to change values compared to the age group of 35–50 years . 
+We collected 105,252 Facebook English statuses as of March 20 , 2016 . 
+The maximum , minimum , and average word counts of the collected statuses were 6,786 , 150 and 894.26 , respectively . 
+The statistics describe aggregated word counts for all the users of the value‐building data set . 
+We conducted 21 items PVQ ( Schwartz , 2003 ) test on a 6‐point Likert scale among these users to collect the ground truth data on value scores . 
+The PVQ describes short statements about different people that identify a participant 's value dimensions without directly asking her/him about a particular value ( Schwartz , 2003 ) . 
+The users were asked to fill out the survey questionnaire through an experimental webpage . 
+We also invited a new set of 695 Facebook users . 
+We collected a data set of 338 ( male = 196 , female = 142 ) active Facebook users by using our Facebook application to build a value change model and validated the model of value priority change in real life . 
+These users were aged between 17 and 26 years and they are also members of the student and professional community . 
+Since our model works on time‐series data , we selected the users who update statuses regularly ( that is , weekly five to seven statuses ) in Facebook during the last 6–10 years . 
+Each time interval ( 6 months ) data contain on average of 158.21 statuses . 
+The maximum , minimum , and average number of time intervals of each user were 19 , 14 , and 15.5 , respectively , in their timelines . 
+Again , each individual had 4,193 , 63 , and 1,494 maximum , minimum , and average word counts , respectively , for each time interval . 
+For the value change model , the first 70 % time interval data of each user were used for training and the remaining 30 % time interval data were used for testing . 
+We conducted the PVQ test to validate the predicted value scores of these users in real life . 
+In this article we identify temporal changes of value scores from Facebook statuses of 338 users . 
+To identify the temporal changes of values , we perform the following steps : We first build linear models for value computation from LIWC categories of Facebook statuses and PVQ scores of 388 users . 
+We divide all the statuses of 338 Facebook users into a 6‐month time interval for building a value change model . 
+We predict value score for each of the time interval statuses by using the models that we built in Step 1 . 
+We predict the value score of each user on a future date from his/her past predicted value scores using the ARIMA and the LSTM techniques . 
+We apply a weighted hybrid value prediction model by combining both the ARIMA model and the LSTM model . 
+We compute the statistical accuracy of the predicted value scores on a future date and the PVQ test result of the users in real life . 
+Finally , we compare our weighted hybrid model ( ARIMA+LSTM ) with an independent ARIMA model and LSTM model , and the baseline HMM‐based technique . 
+In this section we build a linear regression model to predict users ' value dimensions from their Facebook statuses . 
+We build our regression model by using the cross‐validation and regularization techniques . 
+These techniques can control overfitting and then enable us to build a machine‐learning model accurately ( Chen et al. , 2014 ; Yarkoni & Westfall , 2016 ) . 
+We build the linear regression model to predict values from psycholinguistic scores obtained through LIWC scores of 388 users ' Facebook statuses and PVQ scores as a ground truth data on values . 
+LIWC 2007 identifies 74 different features from text statuses into different categories , where each category contains hundreds of words ( Pennebaker et al. , 2007 ) . 
+These categories include standard counts ( word count , words longer than six letters , dictionary words , and function words ) , psychological processes ( social , affective , cognitive , sensory , and perceptual processes ) , relativity ( words on time , the past , and the future ) , personal concerns ( work , achieve , leisure , and health ) , and other dimensions ( counts of various types of punctuation and swear words ) . 
+We exclude the categories that are nonsemantic , for instance , proportion of long words and filler . 
+We use PVQ scores of users as a dependent variable ( ground truth ) on value scores and a subset of LIWC categories as independent variables . 
+We select the best subset of LIWC categories ( predictors ) by using the forward selection approach ( Derksen & Keselman , 1992 ) for each of the value dimension using leaps 11 https : //cran.r-project.org/web/packages/leaps R package implementation . 
+The leaps package performs an exhaustive search to find out the best subset of LIWC categories by using an efficient branch‐and‐bound algorithm . 
+For example , we find anx , cogmech , percept , feel , tentat , money , and so forth ; LIWC categories of words for computing the openness‐to‐change value from users ' statuses . 
+We also find human , affect , posemo , negemo , percept , feel , and so forth ; LIWC categories of words for computing the self‐transcendence value from users ' statuses . 
+In this way , we find five different subsets of features for computing five different values from LIWC categories of users ' statuses . 
+A major noise we found during the value prediction is the collinearity between LIWC categories . 
+Therefore , by following the methods of Yarkoni and Westfall ( 2016 ) and Chen et al . 
+( 2014 ) , we use Lasso penalized linear regression by using the R glmnet implementation package ( Friedman , Hastie , & Tibshirani , 2009 ) . 
+This technique reduces the coefficients to a low value or zero , and thus the model does not become overfitted . 
+We compute the linear regression model for each of the selected LIWC feature subsets and the value scores with a 10‐fold cross‐validation with 10 iterations . 
+We show that the R2 values are moderate across all the value dimensions . 
+Although we obtain moderate strength in our regression models , we can rely on the prediction result . 
+From the value study of Chen et al . 
+( 2014 ) , we find that the R2 strength of different value dimensions ranged from 13.8–18.2 % . 
+In contrast , we observe in our experiment that the R2 strength of different value dimensions ranged from 10.23–27.63 % . 
+We find that our experiment results show even better strength for self‐enhancement , openness‐to‐change , and conservation value dimensions than that of a previous study of values ( Chen et al. , 2014 ) . 
+Note that Boyd et al . 
+( 2015 ) also propose another value computation technique from social media usage . 
+In our experiment , we use the technique of Chen et al . 
+( 2014 ) that needs less intervention from users . 
+On the other hand , in the technique of Boyd et al . 
+( 2015 ) , we need to collect the following information from users : ( i ) users ' self‐descriptive values , ( ii ) last 7‐day behavior , ( iii ) Schwartz Value Survey ( SVS ) ( Lindeman & Verkasalo , 2005 ) , and ( iv ) users ' Facebook statuses . 
+Since the authors of the techniques of both Boyd et al . 
+( 2015 ) and Chen et al . 
+( 2014 ) compute values from language inference , we select the approach of Chen et al . 
+( 2014 ) , which needs to attend to the PVQ test only by the users . 
+In this section we build a model for predicting the transition of value priorities over a continuous time‐series data set . 
+First , we segment the statuses of 338 Facebook users by a 6‐month time interval starting from their account creation date . 
+In the well‐cited socio‐psychological study of Bardi et al . 
+( 2009 ) , the authors investigate the change of values among the students within a time span of 9 months . 
+Since we train machine‐learning models to predict value transition , we use a moderate time span ( 6 months ) , which is also a substantial duration to change values among adolescents . 
+Our data set has a total of Facebook statuses of 111 months ( January 2007 to March 2016 ) . 
+In the data set , we find that the average size of our training instances are 9.25 , 12.33 , and 18.5 for 1 year , 9 months , and 6 months time intervals , respectively . 
+Therefore , we can build a better time‐series‐based machine‐learning model by using the 6‐month time interval than that of 9 months and 1 year time intervals . 
+Later , we compute the linguistic features from each user 's time interval statuses by using LIWC . 
+We predict the value score from the statuses of each time interval by using the regression model that we built in the previous section . 
+After that , we apply different competitive time‐series techniques to predict the value transition based on the past observations of time interval statuses . 
+In the next subsection , we identify an appropriate machine‐learning model to capture the value transition of users from the data set . 
+Since a real‐world data set may contain both linear and nonlinear patterns , a single model may not able to capture different patterns effectively from the data set . 
+ARIMA ( Box et al. , 2015 ) is a linear model and it performs better than other competitive models over the linear data set ; however , the ARIMA model can not capture nonlinear patterns from the data . 
+On the other hand , among the nonlinear models , a simple neural network model can not use any lag values ( that is , past observations ) explicitly in their architecture ( Zhang , 2003 ) . 
+Another popular nonlinear model , the RNN , suffers from the vanishing error problem ( Hochreiter & Schmidhuber , 1997 ) . 
+In contrast , the nonlinear model , LSTM ( Hochreiter & Schmidhuber , 1997 ) , overcomes the above limitations , and thus we use LSTM as our model to capture the nonlinear patterns from the data set . 
+For simplicity and brevity of the presentation , in this article we only demonstrate the openness‐to‐change value transition model . 
+Without loss of generality , the transition models for other value dimensions can be built by using our proposed technique . 
+The ARIMA model predicts future results from past observations and errors ( Zhang , 2003 ) . 
+In this subsection , we apply the ARIMA in our openness‐to‐change value change prediction data set . 
+Time‐series data are called stationary if certain statistical properties such as mean , variance , and so forth , of the data remain constant over time . 
+Since these properties are constant , it follows a regular pattern over time . 
+However , real time‐series data have both stationary and nonstationary ( random ) properties . 
+To predict time‐series data in the long term , we need to transform the nonstationary parts of the data set into stationary to construct a regular pattern . 
+We first convert the nonstationary parts into stationary by using the log transformation technique ( Box et al. , 2015 ) . 
+Then we extract different components such as seasonal , trend , and residuals from our time‐series data ( Hyndman et al. , 2007 ) . 
+In particular , we separate out residuals from our time‐series data . 
+The residual is measured as the difference between the observed value and the predicted result based on previous observations . 
+Since we identify different unforeseeable events in our value transition data set , these residuals may represent the unforeseeable events . 
+We use the Python statsmodels package implementation ( Seabold & Perktold , 2010 ) of ARIMA to find out the linear patterns from our data set . 
+After applying the ARIMA model , we find that our initial openness‐to‐change value transition model is nonstationary . 
+In the model , we do not also find seasonality in our data set , as seasonal factors ( that is , summer or winter ) are not likely to influence one 's value priorities . 
+We do not observe any trend for value dimensions in our value transition data set . 
+It can not be guaranteed that certain values increase or decrease over time . 
+We also identify random noise due to some unforeseeable events ( for instance , death of a family member ) and the influence of friends and colleagues . 
+Figure 1 presents the openness‐to‐change value score distribution of a user by the 6‐month interval from 2007 to 2016 ( that is , 19 time intervals ) . 
+The figure shows the openness‐to‐change value scores of two different halves in a year . 
+We notice that the openness‐to‐change value scores range between 0.57–0.89 in different quarters in the duration of 10 years ( 2007–2016 ) . 
+For each user , we separate 70 % and 30 % of the time interval value scores into the training and the test data sets , respectively . 
+To predict time‐series data from the past observations , our time‐series data need to be stationary and autocorrelated with itself . 
+We check the stationarity property of the user time‐series data of the openness‐to‐change value transition by using the well‐known augmented Dickey‐Fuller ( ADF ) test ( Box et al. , 2015 ) . 
+We find that the p‐value of the test is .117 , and the value is not significant . 
+Therefore , we can not reject the null hypothesis , and our data set is not completely stationary . 
+Thus , we conclude that the user 's value transition data have nonstationary parts also . 
+We transform the nonstationarity part of the data set into stationary by changing the parameters of lag‐time , degree of differencing , and order of moving average . 
+We find the best result from the ARIMA ( 4,1,2 ) model where the model has 4 lags , mean 1 , and variance 2 . 
+We select the best model that has minimum AIC ( –28.72 ) and BIC ( –27.51 ) scores ( according to Box et al. , 2015 ) . 
+Figure 2 presents the actual value scores ( green line ) of the next 3 years ( next six intervals ) , and the predicted openness‐to‐change value score ( the blue line ) for the next 3 years ( six intervals ) . 
+We observe that the ARIMA model can not predict value changes closely for some points ( for instance , June 2013 and June 2014 ) due to the existence of nonlinear patterns in the data set . 
+From the above outcome of the ARIMA model , we may describe the following intuitive reasons for the existence of nonlinearity in the data set . 
+Users in our collected data set are students of universities in an open‐credit‐hour system , and young corporate service holders such as private bankers , software developers , and telecommunication engineers who might change jobs frequently . 
+Universities in an open‐credit‐hour system have two or three semesters in a year . 
+When the students start a new semester , they become acquainted with many new students . 
+They exchange ideas and thoughts among themselves about their observations and findings . 
+They also frequently update statuses through the social media about their new friends and environments . 
+Similarly , the young service holders are likely to change their job frequently due to reasons such as low job security , salary freezing , and willingness to seek new challenges in life . 
+In summary , the majority of the users in our data set pass through different turbulent stages of life . 
+Therefore , we may find several nonlinear patterns of the value change among these users that are difficult to model with the ARIMA only . 
+We observe that our model shows a .0468 p‐ value with 95 % confidence interval . 

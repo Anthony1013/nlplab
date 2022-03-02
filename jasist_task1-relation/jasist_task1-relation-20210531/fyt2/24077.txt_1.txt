@@ -1,0 +1,130 @@
+In information retrieval ( IR ) , there is a long tradition of assessing the effectiveness of IR systems with test collections and evaluation measures . 
+Through building and sharing test collections , the IR community fosters meaningful comparisons among retrieval engines . 
+Shared test collections are pervasive in well‐known evaluation campaigns , such as TREC ( Voorhees & Harman , 2005 ) , or NTCIR ( Kando , Sakai , & Sanderson , 2016 ) . 
+Furthermore , research teams sometimes need to build their own testbeds , for instance , to evaluate retrieval algorithms in specific domains ( Balog & Neumayer , 2013 ; Losada & Crestani , 2016 ) . 
+However , creating an IR test collection is expensive and time‐consuming . 
+Generating relevance assessments is a major bottleneck in building test collections . 
+It is customary to engage humans in this process and , thus , producing large amounts of judgments becomes burdensome . 
+The pooling method is a standard approach to extract a query‐biased sample of documents . 
+In this method , each query is sent to different search systems , and the top‐ranked documents supplied by the systems are merged into a pool of documents . 
+The pooled documents become candidates to be judged for relevance . 
+However , a key question still remains : how many pooled documents should we judge for each query ? 
+Full‐pool evaluation procedures are demanding . 
+For example , in the TREC5 ad hoc task , the pools were formed by the union of the top 100 retrieved documents . 
+On average , there were more than 2,500 pooled documents per query and the overall judgment effort consisted of evaluating 133,681 query‐document pairs . 
+Even with a large budget at our disposal , judging deeply the pools does not make the most of our resources . 
+Some queries have many relevant documents , while other queries have very few relevant documents . 
+Therefore , judging the entire pool for all queries is a waste of resources . 
+Some evaluation exercises opted for subset pooling methods . 
+For example , judging documents up to depth k ( with a low k ) . 
+Such a subsetting approach reduces the judgment effort , but still ignores the specifics of the queries . 
+Although there has been a steady stream of articles in cost‐effective evaluation methods ( Aslam , Pavlu , & Savell , 2003 ; Carterette , Allan , & Sitaraman , 2006 ; Cormack & Lynam , 2007 ; Losada , Parapar , & Barreiro , 2016 ; Moffat , Webber , & Zobel , 2007 ) , we claim that there has been little research on when to stop making relevance assessments . 
+Stopping is a practical problem in creating IR test collections , and we provide here a comprehensive study on this topic . 
+Combining effective adjudication methods with smart stopping permits reducing the number of judgments per query . 
+Following this strategy , evaluation exercises could spend the available budget on larger sets of queries . 
+As a matter of fact , there is a growing tendency to do fewer judgments per query ( Bodoff & Li , 2007 ; Sanderson & Zobel , 2005 ; Webber , Moffat , & Zobel , 2008 ) . 
+Building test collections with more topics and fewer judgments per topic has also been a priority in challenges like the Million Query TREC Track ( Carterette , Pavlu , Kanoulas , Aslam , & Allan , 2008 ) . 
+However , existing methods often make arbitrary decisions to reduce the judgment effort . 
+Our article provides systematic ways to reduce the effort required to create relevance judgments for each query . 
+The specific contributions of this article are : To the best of our knowledge , this is the first study that works with a diversified set of performance metrics and studies on when to stop making relevance assessments . 
+We provide a comprehensive analysis of different stopping strategies and propose ways to evaluate them . 
+We define , implement , and test a series of new methods for stopping the judgment process . 
+This covers a wide range of methods , including methods adapted from Time Series Analysis and Financial Trading . 
+We propose an innovative form to estimate recall . 
+This new estimate is employed here to support some stopping methods , but it can also contribute in other areas beyond IR evaluation . 
+The results clearly demonstrate that some stopping methods can substantially reduce the assessment effort and still produce reliable test collections . 
+As a matter of fact , the reduced set of judgments can be reliably employed to compare search systems using recall‐based and utility‐based metrics . 
+Let us define the problem of stopping in building an IR test collection . 
+For each query , we have multiple runs ( rankings of documents in decreasing order of estimated relevance ) . 
+These runs are supplied by different search systems . 
+Let us consider a document adjudication method that takes the set of runs and iteratively extracts documents to be judged for relevance . 
+We aim at reducing the costs associated with building test collections and , therefore , we assume that the document adjudication method selects documents following some estimation of relevance ( for instance , top‐ranked documents go first ) . 
+A stopping method is a mechanism that decides when to stop doing judgments . 
+A process with no stopping criterion would be equivalent to judging the entire set of retrieved documents . 
+We distinguish two main classes of stopping methods . 
+A fixed‐length method stops when a given number of judgments is reached : stop_after_n_judgments : This consists of judging n documents , and stopping after the nth relevance assessment . 
+Variable‐length stopping methods follow different strategies in making the stopping decision : stop_after_judging_x % _of_the_pool : This consists of judging a given percentage of the pool . 
+For each query , the pool is the union of the top‐ranked documents supplied by the contributing runs . 
+stop_after_n_rels : A natural approach consists of stopping after finding a given number of relevant documents . 
+However , this stopping method is questionable because the number of relevant documents per query is known to have a large variance . 
+We would produce many unnecessary judgments for queries with few relevant documents , and we would miss many relevant documents for other queries . 
+stop_after_n_non_rels : This method stops right after extracting the nth nonrelevant document . 
+So , a query with many relevant documents will be deeply explored . 
+However , this method is problematic for queries with few relevant documents . 
+We could stop with no relevant documents extracted . 
+stop_after_n_consecutive_non_rels : We only stop with a long sequence of nonrelevant items . 
+The occurrence of n consecutive nonrelevant documents might indicate that the pool has become exhausted of relevant documents . 
+This method keeps extracting documents from a pool that has supplied many nonrelevant documents , provided that nonrelevant documents alternate with relevant documents . 
+Observe that stop_after_n_rels , stop_after_n_non_rels and stop_after_n_consecutive_non_rels might produce exhaustive judgments ( when the respective stopping criterion is never met ) . 
+We also propose another class of stopping methods that implement different strategies to estimate our chances of finding relevant documents in the upcoming assessments . 
+All these methods need an estimate of the number of relevant documents that we can find in the unjudged documents . 
+First , we propose an innovative way to make this estimation . 
+Then , we present a number of stopping methods based on such predictions . 
+Zobel ( 1998 ) analyzed the depth of the rank used to form the pools and proposed a method for estimating how many unjudged documents are relevant . 
+Consider a set of runs , explored up to depth k . 
+This depth k pool identifies n relevant documents . 
+Now , imagine that we increase the depth to k + 1 . 
+The depth k + 1 pool contains n relevant documents plus n k + 1 new arrivals of relevant documents . 
+Zobel made a global analysis ( by averaging over a set of queries ) and concluded that a power law distribution provides a good estimate of the number of new relevant documents found at each pool depth . 
+He also suggested that it would be interesting to investigate whether similar estimates can be obtained for individual queries . 
+We took up this challenge and adapted Zobel 's proposal in a number of ways . 
+We do not work directly with the contributing runs , but iteratively examine the pooled documents as provided by the adjudication method . 
+As a consequence , the input to our stopping process can be seen as a ranked list of pooled documents . 
+We will therefore study the relationship between the rank position in this list and the ( binary ) relevance of the documents at each position . 
+Zobel hypothesized that good predictions could be made from an initial assessment of some documents from the top of the runs . 
+We tested this proposal and found that many assessments are needed to obtain a reliable fit . 
+For example , a curve fitted to the first 10 judgments strongly overestimates the number of relevant documents at lower positions . 
+The high proportion of relevant documents at the initial positions makes predictions overly optimistic . 
+The need of several dozens of judgments to have reliable fits prevents the implementation of early stopping methods . 
+We opted for a different strategy based on training queries . 
+Our innovative approach is explained in the next paragraphs . 
+Given a set of training queries ( ) , with full‐pool judgments , we study the pattern of occurrence of relevant documents in the sequence of judgments . 
+For each query we have a list of documents ranked by decreasing estimated relevance ( as provided by the document adjudication method ) , and we know the relevance value ( ∈ { 0 , 1 } ) of each document in the list . 
+The length of each ranked list equals the size of the pool for the training query and , therefore , the lengths of the n tq rankings ( ) are not the same . 
+Observe that rel can be equal to 0 and , thus , the subtraction of 1 in Equation 1 avoids here a log ( 0 ) term . 
+With linear regression we can straightforwardly obtain s and C , inject them into Equation 1 , and produce our estimates of rel for any position p . 
+By s q and C q we refer to the parameters of the function associated with query q . 
+Figure 1 shows two fits , one obtained with a query with few relevant documents and another one obtained with a query with many relevant documents . 
+With a sufficient number of training queries we can extract a variety of patterns of relevance , and employ them to make online predictions for test queries . 
+Given a test query , the training queries ' fitted curves can be used to estimate what we can expect from the ranking associated with the test query . 
+The idea is to ( i ) start judging documents from the pool of the test query ; ( ii ) estimate the similarity between the pattern of relevance of the current test query and the pattern of relevance of each training query ; and ( iii ) make a weighted estimation of relevance . 
+The first formula computes the precision at the given cutoff value and , therefore , ignores the positions of the top n documents that are relevant . 
+The second formula accumulates the precision scores at the relevant documents . 
+Observe that we do not divide this sum by the total number of relevant documents ( that is , we do not compute Average Precision ) because we only know the total number of relevant documents for the training queries . 
+In the following , the labels P and avgP refer to the estimation variant shown in Equations 5 and 6 , respectively . 
+Observe that the F 's estimate has perfect knowledge on precision , and estimates recall based on predicting the total number of relevant documents . 
+Figure 2 plots this estimate for three TREC ad hoc collections ( TREC6–8 , whose estimates were done using TREC5 for training ) and two Clinical Track collections ( CT15–16 , where CT14 was the training collection ) . 
+The plots show that our procedure makes a good job at learning the shape of the curves . 
+In TREC6–8 , we tend to slightly underestimate performance . 
+In CT15–16 , instead , we tend to overestimate performance . 
+We believe that this is due to the characteristics of training queries ( relative to the test queries ) . 
+This suggests that we could further improve our estimates . 
+For example , the current weighted average ( Equation 8 ) takes into account all training queries and , thus , it is dependent on the overall occurrence of relevant documents in the training pools . 
+A possible improvement could be to simply ignore all training queries that are dissimilar to the test query ( for instance , by doing the estimation based only on the closest queries ) . 
+This is left for future work . 
+Stopping the assessment process based on predicting F is judicious . 
+Figure 3 provides evidence to support this claim . 
+It plots the ( real ) F against the number of judgments ( averaged over the 50 queries ) .22 The judgments were ordered by Hedge , which is an online algorithm that is highly effective for prioritizing relevance judgments ( see Experiments ) . 
+The graph also plots the Kendall correlation between the official ranking of systems ( full pool ) and the ranking of systems built with each subset of judgments ( computed with Average Precision ) . 
+In all collections , we achieve high levels of correlation with few assessments , and the point with the highest F always has high correlation . 
+In practice , the real F is unknown , but the stopping decision can be guided by the estimate of F ( Equation 10 ) . 
+We propose several methods that iteratively update the estimate of F ( based on the available judgments ) and make the stopping decision based on the evolution of the estimated F : stop_if_bearish_crossover . 
+After n judgments , we have a series of n values of estimated F ( estimated F after the first judgment , estimated F after the second judgment , and so on ) . 
+We might want to keep assessing documents as long as the overall direction of the series of estimated F is upward . 
+In Time Series analysis , the moving average ( MA ) model is a well‐known method for modeling univariate time series ( Cootner , 1962 ) . 
+An MA analyzes data points by computing a series of averages of different subsets of the full set of points . 
+Imagine a series of data points ( for instance , temperature of a patient , collected at 1‐hour intervals ) , and a fixed window size ( for instance , 5 hours ) . 
+The first element of the MA is the average of the initial five temperatures available . 
+Then the window is shifted forward : the first temperature is excluded and the sixth temperature is included . 
+The second element of the MA is the average of this new window of five values . 
+This shifting is repeated over the entire series of values . 
+The MA plot connects all these numbers , and it is effective at smoothing out short‐term fluctuations of the original data and highlighting long‐term trends . 
+In economics , MA models are regularly employed to track financial data ( for example , stock prices ) . 
+We propose a stopping method based on MA and inspired by Financial Trading . 
+As stock prices are moving up , the MA will be below the price , and when stock prices are moving down the MA will be above the current price . 
+A crossover is a signal used by many traders to identify shifts in momentum . 
+A basic type of crossover happens when the price of a stock moves from one side of the MA and closes on the other . 
+Traders track these movements to make decisions on entry/exit strategies . 
+A cross below MA —or bearish crossover—occurs when the stock price breaks below the MA and is often interpreted as a sell signal ( beginning of a downtrend , the stock should be sold ) . 
+Conversely , a buy signal , suggesting the beginning of an uptrend , is associated with a close above the MA from below ( the stock price breaks above the MA , bullish crossover ) . 
+Figure 4 plots an example of a stock price and its MA ( smooth dashed line ) . 

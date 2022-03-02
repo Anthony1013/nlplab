@@ -1,0 +1,30 @@
+T1	时间 114 118	2016
+T2	时间 761 765	2016
+T3	时间 834 841	in 1953
+T4	时间 2415 2422	in 1998
+T5	时间 2962 2979	in September 2015
+T6	时间 1846 1853	in 1999
+T7	时间 6052 6062	since 2014
+T8	软件工具 6515 6522	Twitter
+T9	时间 7146 7153	of 2016
+T10	图 4894 4989	Figure 3 shows the overall distribution of tweets in each leadership dimension for each company
+T11	软件工具 4800 4807	Twitter
+T12	时间 3353 3372	March‐November 2015
+T13	引文时间 8775 8779	2007
+T14	引文作者 8764 8772	La Bella
+T15	引文作者 8750 8759	Barchiesi
+T16	时间 8036 8043	in 2015
+T17	时间 7669 7686	in September 2015
+T18	软件工具 10067 10074	Twitter
+T19	引文作者 11596 11603	Tashiro
+T20	引文时间 11613 11617	2012
+T21	软件工具 8933 8940	Twitter
+T22	引文作者 7844 7851	Pirelli
+T23	引文作者 7854 7855	C
+T24	研究结果 8512 8653	In this paper , we propose a text classification approach to evaluate perceived organizational leadership profiles , based on a SVM algorithm
+T25	研究结果 8883 9012	We analyzed the dialogue with the stakeholders on Twitter and the leadership styles of five large multinational Italian companies
+T26	研究结果 9017 9234	Results show that the insights and the measures provided by our methodology can allow an almost real‐time assessment of perceived leadership styles and could help studying the impact of real events involving a company
+R1	has_cited_time Arg1:T20 Arg2:T19	
+R2	coauthor Arg1:T15 Arg2:T14	
+R3	has_cited_time Arg1:T13 Arg2:T14	
+R4	coauthor Arg1:T22 Arg2:T23	

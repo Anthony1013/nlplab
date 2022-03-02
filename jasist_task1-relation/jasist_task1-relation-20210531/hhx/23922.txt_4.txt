@@ -1,0 +1,33 @@
+As previously mentioned , School is a dataset biased towards high‐quality articles . 
+Thus , such distribution is unlikely to be found in a random sample extracted from the original Wikipedia . 
+As consequence , a random training performed using Wikipedia articles is indeed more like a low‐quality training using School articles . 
+To infer how a high and a random quality training would perform in Wikipedia , we now compare our predictors trained with high and low‐quality School samples . 
+By doing so , we still observe a small difference in AUC . 
+However , the difference in precision is about 6 % ( at the expense of a small loss in recall ) . 
+Because the precision estimates the proportion of labels that the method correctly predicts as anchors , the larger is the precision , the less likely overlinking is . 
+Therefore , the training with high quality samples led to more precise anchor suggestions . 
+This way , the predictor is more appropriate to support authorship , as it can assist editor by recommending links while avoiding overlinking at the same time . 
+Finally , the similar results obtained with high quality training ( FA , AC or GA ) and medium quality training ( BC or CC ) suggests that either ( a ) the casual editor and the expert reviewer have a similar understanding about what should be a proper link , or ( b ) a proper linking style is not determinant on the distinction of medium and high quality classes , or ( c ) linking is so subjective that it is hard to assess its quality once some basic criteria are met ( for instance , no excessive redundancy , exclusion of common elements such everyday words , dates , major geographic features , etc. ) . 
+Overall , the apparent little use of links in Wikipedia identified by Paranjape et al . 
+( 2016 ) indicates that more research is necessary regarding this issue . 
+In this work , we evaluate our previously proposed link prediction model for wikification . 
+Our model outperformed the baselines even when trained using only 30 % of the training samples . 
+It reached gains of about 13 % in F 1 and 2 % in AUC . 
+Its latent component was clearly able to take advantage of additional data , as its performance increased when more training data was available . 
+We also noted that the standard error was in general smaller for our model . 
+Among the prediction components , the dyadic component performed the best , followed by the latent component . 
+The monadic component had little or no contribution to the overall model performance . 
+Although much redundant information is captured by the components , their combination was always able to provide the best results , which indicates that they are complementary . 
+Regarding the dyadic attributes , the best ones were Relatedness and Link probability . 
+Disambiguation confidence provides complementary information to latent factors . 
+However , the same information seems to be provided by Relatedness . 
+As observed in the components , all attributes are very dependent among them . 
+Regarding ambiguity , we observed that the precision degrades as the degree of ambiguity increases . 
+However , giving that this effect is very weak we can conclude that our model is able to steadily distinguish anchors independently of their ambiguity . 
+Among the components , it is clear that the latent component deals very well with ambiguous concepts , even though it is not associated with an explicitly disambiguation process . 
+From our experiments on the selection of training samples according to their quality rates , we observed that our model trained with high quality samples outperformed the model trained with low quality samples , achieving an additional gain of about 6 % in precision . 
+Thus , the training with high quality samples led to more precise anchor suggestions and less overlinking . 
+In addition , we observed very small differences among models trained using high quality and medium quality samples . 
+In concordance with the apparent little use of links in Wikipedia ( Paranjape et al. , 2016 ) , these results suggest that the linking guidelines ( or the Wikipedia reviewing process ) are not as effective as they should be . 
+In future work , we plan to evaluate the model on different domains and datasets such as those in Wikia service,1010 http : //www.wikia.com/fandom investigate new features and study the impact of selecting samples for training using automatic quality assessment methods . 
+We also plan to better understand which should be considered appropriate linking using statistical information , and use of articles in other languages to complement the identification of anchors . 

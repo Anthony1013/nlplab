@@ -1,0 +1,95 @@
+T1	引文作者 905 910	Kraus
+T2	引文作者 915 922	Donahue
+T3	引文时间 925 929	2012
+T4	引文作者 1263 1273	Harviainen
+T5	引文作者 1276 1281	Gough
+T6	引文作者 1288 1293	Sköld
+T7	引文时间 1296 1300	2012
+T8	引文作者 1307 1314	Monnens
+T9	引文时间 1327 1331	2009
+T10	引文作者 2621 2629	Anderson
+T11	引文作者 2634 2639	Delve
+T12	引文时间 2642 2646	2013
+T13	引文作者 2871 2878	Stuckey
+T14	引文作者 2881 2889	Swalwell
+T15	引文作者 2896 2905	Ndalianis
+T16	引文时间 2908 2913	2013a
+T17	引文作者 2920 2928	Swalwell
+T18	引文时间 2931 2935	2007
+T19	引文作者 4675 4679	Barr
+T20	引文时间 4682 4686	2014
+T21	引文作者 4689 4695	Newman
+T22	引文时间 4698 4702	2011
+T23	引文作者 4705 4710	Sköld
+T24	引文时间 4713 4717	2013
+T25	引文时间 4720 4724	2015
+T26	引文作者 5207 5213	Lowood
+T27	引文时间 5216 5220	2009
+T28	引文作者 5223 5231	Swalwell
+T29	引文时间 5234 5238	2014
+T30	引文作者 5241 5247	Winget
+T31	引文时间 5250 5255	2011b
+T32	引文作者 5484 5490	Winget
+T33	引文时间 5496 5501	2011a
+T34	引文作者 6395 6404	McDonough
+T35	引文时间 6417 6421	2010
+T36	引文作者 6426 6432	Newman
+T37	引文作者 6437 6443	Simons
+T38	引文时间 6446 6450	2009
+T39	引文作者 6459 6466	Stuckey
+T40	引文作者 6469 6477	Swalwell
+T41	引文作者 6484 6493	Ndalianis
+T42	引文时间 6496 6501	2013a
+T43	表 6508 6749	The first of the three empirical focal points suggested in Table 8 is the constitution and collections of videogame archives , that is , finding out what videogames and related videogame materials the archives keep and how they are described
+T44	表 7404 7659	This review was carried out using the basic analytic instruments of a series of fundamental but general questions ( the precodification scheme , see Table 2 ) and the broad notion of the EN , encompassing culture , social structures , discourse , and more
+T45	引文作者 8096 8109	Wardrip‐Fruin
+T46	引文时间 8112 8116	2009
+T47	引文作者 8381 8384	Cox
+T48	引文时间 8387 8391	2002
+T49	引文作者 8394 8403	Gilliland
+T50	引文作者 8406 8415	McKemmish
+T51	引文时间 8418 8422	2004
+T52	表 8645 9025	The study aims to examine the drivers and motivations , selection of content and materials , and methods of archiving suggested in the archiving literature regarding the preservation of videogames in a generic sense ( Table 3 ) and—which is of primary interest in the present paper and its principal knowledge contribution—as products of culture and social activity ( Tables 4-6 )
+T53	表 9497 9812	This rendering of what the EN of videogames in fact is in archival research is substantiated by an analysis that showed the connections between the aims and motivations of preserving videogames and the prioritizations of materials and methods that underpin the curation of archival videogame collections ( Table 7 )
+T54	表 9817 10081	The study furthermore seeks to suggest directions for future work ( Table 8 ) , a road map that hopefully will prove to be a resource for empirical research and meta‐analysis in the area of videogame preservation in academic , professional , and player communities
+T55	表 3677 3834	Table 8 shows the main suggestions for further research along with tentative formulations of research questions , empirical contexts , and related literature
+R1	has_cited_time Arg1:T51 Arg2:T50	
+R2	coauthor Arg1:T50 Arg2:T49	
+R3	has_cited_time Arg1:T48 Arg2:T47	
+R4	has_cited_time Arg1:T46 Arg2:T45	
+R5	field_similar_as Arg1:T45 Arg2:T47	
+R6	field_similar_as Arg1:T47 Arg2:T49	
+R7	has_cited_time Arg1:T42 Arg2:T41	
+R8	coauthor Arg1:T41 Arg2:T40	
+R9	coauthor Arg1:T40 Arg2:T39	
+R10	has_cited_time Arg1:T38 Arg2:T37	
+R11	coauthor Arg1:T37 Arg2:T36	
+R12	has_cited_time Arg1:T35 Arg2:T34	
+R13	field_similar_as Arg1:T34 Arg2:T36	
+R14	field_similar_as Arg1:T36 Arg2:T39	
+R15	has_cited_time Arg1:T33 Arg2:T32	
+R16	has_cited_time Arg1:T31 Arg2:T30	
+R17	has_cited_time Arg1:T29 Arg2:T28	
+R18	has_cited_time Arg1:T27 Arg2:T26	
+R19	field_similar_as Arg1:T26 Arg2:T28	
+R20	field_similar_as Arg1:T28 Arg2:T30	
+R21	has_cited_time Arg1:T25 Arg2:T23	
+R22	has_cited_time Arg1:T24 Arg2:T23	
+R23	has_cited_time Arg1:T22 Arg2:T21	
+R24	has_cited_time Arg1:T20 Arg2:T19	
+R25	field_similar_as Arg1:T19 Arg2:T21	
+R26	field_similar_as Arg1:T21 Arg2:T23	
+R27	has_cited_time Arg1:T18 Arg2:T17	
+R28	has_cited_time Arg1:T16 Arg2:T15	
+R29	coauthor Arg1:T15 Arg2:T14	
+R30	coauthor Arg1:T14 Arg2:T13	
+R31	has_cited_time Arg1:T12 Arg2:T11	
+R32	coauthor Arg1:T11 Arg2:T10	
+R33	field_similar_as Arg1:T13 Arg2:T17	
+R34	coauthor Arg1:T4 Arg2:T5	
+R35	coauthor Arg1:T5 Arg2:T6	
+R36	has_cited_time Arg1:T7 Arg2:T6	
+R37	has_cited_time Arg1:T9 Arg2:T8	
+R38	field_similar_as Arg1:T4 Arg2:T8	
+R39	coauthor Arg1:T1 Arg2:T2	
+R40	has_cited_time Arg1:T3 Arg2:T2	

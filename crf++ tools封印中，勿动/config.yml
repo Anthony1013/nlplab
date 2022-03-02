@@ -1,0 +1,39 @@
+model: POS Tagging
+model_params:
+    hidden_dim: 256
+    batch_size: 32
+    is_attention: False
+
+    epoch_num: 200
+    max_patience: 10 #eairlystop参数
+    char_embed: True
+    num_layers: 2 #bilstm层数
+    feature_nums: 1  #特征列数，最后一列标签不算
+    embed_params:
+    #每一列特征的参数
+    -   dropout_rate: 1
+        dimension: 200
+        pre_train: False # 此参数暂停使用
+        path: 'classical_vec.txt' # 此参数暂停使用,有兴趣的解决一下报错问题
+
+    use_crf: False # 最后是否有crf层
+    rnn_unit: 'lstm'  # 'lstm' or 'gru'
+    optimizer: 'Adam'
+    learning_rate: 0.001
+    clip: 5
+
+    dropout_rate: 1
+    path_save: 'modeloutput/lstm_crf'
+    model_restore_path: 'modeloutput/lstm_crf/1568296504'
+
+
+data_params:
+    feature_params:
+    -   min_count: 1
+        voc_name: 'f1_dic.pkl'
+        embed_name: 'f1_embed.pkl'
+
+    label2id:
+      ['B-word','I-word','E-word', 'S-word']
+
+    path_test: 'data/test.txt'

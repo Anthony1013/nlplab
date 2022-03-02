@@ -1,0 +1,56 @@
+In addition , for the last five scenarios , much more free‐text searches ( Group G3 ) were conducted than for the first five scenarios ( G1 ) . 
+For the first five scenarios , however , more ontology‐based searches were conducted ( G2 ) than for the last five scenarios ( G4 ) . 
+In both cases , more searches were conducted when participants already had some experience with the system ( although with a different interface ) . 
+Thus , we conclude that the order of the exposure to the interfaces influences the number of performed searches . 
+Average number of searches for ontology‐based and free‐text interfaces for different scenarios . 
+All differences between the ontology‐based and free‐text search interfaces are significant , p < .01 . 
+[ Color figure can be viewed in the online issue , which is available at wileyonlinelibrary.com . 
+] In the previous subsections , we saw that in terms of precision the text‐box‐based and ontology‐based interfaces performed quite similarly . 
+In terms of recall , the ontology interface was the best . 
+Next , we analyze and compare the user satisfaction with each of the interfaces . 
+As part of the questionnaire , participants had to assess the effectiveness and ease of use for each of the interfaces . 
+The average satisfaction rate for the effectiveness of the ontology‐based interface was significantly higher than that of the free‐text search interface ( 3.48 vs. 2.95 , respectively ) . 
+In particular , 62 % of participants assessed the ontology‐based interface as 4 or 5 on a Likert scale of 1 5 ( where 1 = not effective at all , 2 = not very effective , 3 = somewhat effective , 4 = effective , and 5 = very effective ) , and only 31 % of participants assessed the free‐text search with these high effectiveness rates . 
+Similarly , the majority of participants ( 63 % ) assessed the ontology‐based interface as easy and fast to use ( rated 4 and 5 of 5 ) versus only 33 % who assigned high rates to the free‐text search interface for this question . 
+These differences were found significant by t test , p < .01 . 
+Therefore , we conclude that in terms of user satisfaction with the interface , the users preferred the ontology‐based search rather than the free‐text type interface . 
+This is in contrast with previous research by Bar‐Ilan et al . 
+( 2012 ) and Hearst and Rosner ( 2008 ) . 
+A reason for this is that in the case of proverbs , the usage of terms is mostly metaphoric , and the themes of the proverbs are worded differently from their literal terminology . 
+Hence , it was difficult to locate proverbs by the scenario terms without the ontology that shows all the related concepts for the term searched by the user . 
+Thus , the most popular search strategy for the free‐text search reported by 40 % of the participants was “ to think of the proverbs relevant for a scenario and search by their key terms. ” Many of these participants also searched for synonyms of the relevant proverbs ' terms and their semantic interpretation . 
+On the other hand , using the ontology the most popular strategy ( reported by > 25 % of participants ) was to search in the ontology for terms from the scenario definition and semantic interpretation of proverbs , and then locate more relevant terms through ontological relationships : “ In the ontology‐based interface I did not have to think of proverbs so much as ontology helped with this ; ” and “ locating the proverbs with the ontology was easier and more effective than through free‐text search , since there was no need to think of very specific terms that appear in the relevant proverbs , but to search for more general themes/topics while more specific terms are related to them in the ontology and thus can be easily located. ” For example , for Scenario 1 , “ human wisdom expressed through the senses and body limbs , ” the most popular terms in the ontology‐based search were “ body limb , ” “ sense , ” and “ wisdom. ” For free‐text search , however , a list of various body limbs such as “ eye , ” “ head , ” “ ear , ” and senses such as “ hearing ” and “ vision ” were used . 
+In addition , about 35 % of the participants answered that they used “ expanded search ” to find more relevant search terms . 
+Thus , we conclude that participants preferred the ontological search due to its ability to provide semantically related terms ( from both explicit and metaphoric dimensions ) to those initially chosen by the user . 
+This could be particularly achieved by using the ontology search and further browsing features and through the automatic query expansion feature . 
+The related terms from the ontology reminded users of more relevant terms , contexts , and specific proverbs , and consequently , directly led to more relevant proverbs in the final search results for a scenario . 
+In addition , participants were asked to assess the amount of relevant terms in the ontology and in the autocomplete mechanism of the free‐text search interface . 
+The majority of participants for both interfaces ( 58 % for the ontology and 65 % for the free‐text autocomplete ) reported that there were enough terms to retrieve relevant proverbs . 
+Despite the higher user satisfaction with the number of terms for free‐text search , the effectiveness and recall of the retrieved proverbs was much lower for this interface . 
+We also found that about 11 % of the participants were not familiar with most of the proverbs ( according to their own self‐assessment in the questionnaire ) . 
+Only one was a new immigrant , and all of them were younger than 25 years of age . 
+This finding sheds some light on the differences in language knowledge between generations . 
+Finally , in an open‐ended question , participants were requested to comment on the retrieval process in general . 
+Most of the comments were in favor of the ontology‐based search : “ It is obvious that the ontology‐based search is better than free‐text search. ” “ Through ontology‐based search I was able to locate many relevant proverbs , that I could not find with the free‐text search. ” “ The ontological search helps since it retrieves results according to the term inter‐relationships and not just by specific terms and the interface was very easy to use. ” “ This ( through ontological search ) is a very effective way to learn new proverbs , the retrieval is easy once you understand how the system works. ” “ The ontology helps remind you of the relevant proverbs you know. ” “ This kind of system with ontological search could be very useful for new immigrants and language learners who are not so familiar with Hebrew proverbs. ” Thus , participants preferred the ontological interface since it enabled proverb retrieval by the given term 's relationships with other terms ; that is , a search expanded by contexts rather than by individual terms that a user could come up with . 
+There also were four negative comments about ontology : “ The ontology‐based search is not intuitive enough especially in the age of Google and you need to learn it first in order to use it successfully. ” “ I did not get along well with the ontology‐based interface. ” “ The categories were not well organized. ” “ The ontology‐based interface was complicated to use and not very user friendly . 
+In this study , we proposed and formally defined a generic , two‐phase method for the creation of a multidimensional ontology for proverbs . 
+The proposed method was further applied on a corpus of 100 popular Hebrew proverbs . 
+To assess the quality of the created ontology , an ontology‐based search interface was implemented . 
+A user study with 70 participants demonstrated the advantages of an ontology‐based search over the free‐text search utilized for proverbs . 
+In particular , the results show a more than 80 % increase in recall and up to 10 % in precision for ontology‐based retrieval compared to that for free‐text search . 
+Furthermore , the “ wisdom of the crowds ” relevance that includes only the proverbs retrieved by more than 10 participants achieved results very close to that of the experts ( 90 % precision , 82 % recall ) for the ontology‐based interface . 
+In addition , we also found that the ontology substantially minimized user effort in the search process . 
+The ontology enabled users to perform fewer searches for retrieving much more relevant proverbs . 
+The analysis of the user satisfaction questionnaire also was more positive for the ontology‐based search than it was for the free‐text search ( average scores = 3.48 vs. 2.95 of 5 , respectively ) . 
+Thus , we conclude that in the case of proverbs , an ontology is a necessary tool for effective and efficient search . 
+This is in contrast with previous work ( Bar‐Ilan et al. , 2012 ; Sinclair & Cardew‐Hall , 2008 ) with image and document retrieval in which an ontology was found as the most effective in terms of recall only , but its effectiveness assessment for other parameters was controversial . 
+Thus , Bar‐Ilan et al . 
+( 2012 ) reported that for their image‐retrieval experiments with four different user interfaces , the term cloud and free‐text search interfaces were more effective than was the ontology‐based interface , in terms of precision ( 89.5 and 89.3 vs. 86.3 % , correspondingly to whereas the ontology‐based search achieved the best recall ( 37.8 % ) over the other interfaces ( e.g. , 35.3 % for free‐text search ) . 
+For user satisfaction , they found that the free‐text search was assessed higher than was the ontology‐based interface ( average scores = 4.26 vs. 3.76 of 7 , respectively ) . 
+Sinclair and Cardew‐Hall ( 2008 ) conducted an experiment , comparing a folksonomy tag cloud and a free‐text search interface for answering questions , on a set of textual documents . 
+They found that when searching for specific information , the free‐text interface was preferred while the folksonomy was preferred by the users for more general tasks . 
+This difference between our results and previous research can be explained by the fact that idiomatic and metaphoric expressions , which are frequent in proverbs , are very difficult to retrieve without the ontology that classifies the proverbs , links together their explicit and metaphoric terminology , and enables search and browsing via related terms from different dimensions . 
+In summary , the introduced ontological model provides researchers , publicists , language teachers and students , and all folklore lovers with the semantic , ontology‐based search of proverbs by various aspects , including explicit terminology and semantic meaning . 
+The proposed ontological model can be easily extended with more dimensions . 
+For example , a literary source taxonomy could be inserted into the model . 
+Further work will enrich the resulting ontology with concepts created by collaborative tagging of new proverbs . 

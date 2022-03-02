@@ -1,0 +1,125 @@
+T1	引文时间 936 940	2008
+T2	引文作者 880 885	Sakai
+T3	引文作者 888 891	Lin
+T4	引文时间 894 898	2010
+T5	引文作者 918 923	Sakai
+T6	引文作者 1275 1280	Sakai
+T7	引文时间 1290 1294	2008
+T8	引文作者 1301 1306	Aslam
+T9	引文时间 1319 1323	2006
+T10	引文时间 1464 1468	1998
+T11	引文作者 1456 1461	Zobel
+T12	引文时间 2530 2534	2007
+T13	引文作者 2517 2527	Carterette
+T14	引文作者 2905 2913	Büttcher
+T15	引文作者 2916 2922	Clarke
+T16	引文作者 2925 2930	Yeung
+T17	引文作者 2935 2943	Soboroff
+T18	引文作者 2490 2496	Losada
+T19	引文时间 2506 2510	2017
+T20	引文时间 2946 2950	2007
+T21	表 4179 4225	Table 5 reports the results of this experiment
+T22	引文作者 5030 5038	Büttcher
+T23	引文时间 5048 5052	2007
+T24	引文时间 5277 5281	1998
+T25	引文作者 5269 5274	Zobel
+T26	引文时间 5854 5858	2006
+T27	引文作者 5836 5841	Aslam
+T28	引文作者 6691 6701	Carterette
+T29	引文时间 6704 6708	2008
+T30	引文作者 6718 6728	Carterette
+T31	引文时间 6741 6745	2006
+T32	引文作者 7739 7746	Cormack
+T33	引文时间 7759 7763	1998
+T34	引文作者 8028 8035	Cormack
+T35	引文作者 8405 8411	Losada
+T36	引文时间 8421 8425	2017
+T37	引文作者 8535 8545	Arampatzis
+T38	引文作者 8548 8553	Kamps
+T39	引文作者 8558 8567	Robertson
+T40	引文时间 8570 8574	2009
+T41	引文作者 8843 8850	Parapar
+T42	引文作者 8853 8870	Presedo‐Quindimil
+T43	引文作者 8875 8883	Barreiro
+T44	引文时间 8886 8890	2014
+T45	引文作者 8991 8995	Zhai
+T46	引文作者 8998 9004	Jansen
+T47	引文作者 9009 9014	Evans
+T48	引文时间 9017 9021	2000
+T49	引文时间 9714 9718	2016
+T50	引文作者 9703 9711	Grossman
+T51	引文作者 9691 9698	Cormack
+T52	引文作者 9535 9541	Losada
+T53	引文作者 9544 9551	Parapar
+T54	引文作者 9556 9564	Barreiro
+T55	引文时间 9567 9571	2018
+T59	引文的结果 1326 1417	also argued that more judging effort should be placed on documents that are likely relevant
+T61	引文的结果 2537 2703	also argued for dynamic methods and proposed stopping rules and document orderings that adapt to distributions of relevance ( as they are discovered through judging )
+T62	引文的结果 5284 5482	suggested that variable‐length pools could be a cost‐effective way to build retrieval collections , and outlined a method to predict the overall number of relevant documents at different pool depths
+T63	引文的研究问题 5861 5928	experimented with a method that produces a reduced set of judgments
+T64	引文的结果 6750 6904	he and his colleagues proposed the Minimal Test Collection ( MTC ) method , which can be used to rank retrieval systems with a minimal number of judgments
+T65	引文的结果 6589 6688	Carterette also contributed to this area with a number of low‐cost and robust evaluation strategies
+T66	研究展望 7643 7736	in the future we will study how to apply the lessons learned by these teams to our research .
+T67	引文的研究问题 7766 7823	studied the efficient construction of IR test collections
+T68	引文的结果 7828 7882	proposed a method to prioritize relevant assessments .
+T69	引文的方法 7907 7918	MoveToFront
+T70	引文的结果 8049 8184	study was not concerned with when to stop , it showed that you could assess 10 % of the pooled documents and still produce robust qrels
+T71	研究问题 8463 8532	the problem of finding an optimal point to stop reading a ranked list
+T74	引文的结果 9588 9688	if scores are available , score distribution models can effectively prioritize relevance judgments .
+T75	引文的研究问题 9721 9783	were interested in total recall in technology‐assisted reviews
+T76	引文的结果 9788 9970	They presented stopping methods oriented to estimate when nearly all relevant documents have been identified ( for instance , based on detecting a knee on the recall vs. rank curve )
+T77	研究结果 10361 10537	As shown in our experiments , effective stopping methods skip many judgments ( that is , we miss many documents that are potentially relevant ) but still produce robust qrels .
+T78	研究展望 10554 10672	we will further investigate whether these high‐recall stopping methods can be adapted for building IR test collections
+T56	引文的结果 5933 6031	They showed that you could sample as little as 4 % of the pools and still produce accurate results
+T57	引文的研究问题 6847 6904	rank retrieval systems with a minimal number of judgments
+T58	引文作者 8581 8591	Arampatzis
+T60	研究结果 10677 10789	In this article we proposed and compared a number of methods to determine when to stop doing relevance judgments
+T72	研究方法 11013 11161	We also proposed an innovative way to estimate recall , based on training queries , and we employed this estimate to plot a curve of F versus rank .
+R1	coauthor Arg1:T51 Arg2:T50	
+R2	has_cited_time Arg1:T49 Arg2:T50	
+R3	produces Arg1:T51 Arg2:T75	
+R4	results Arg1:T51 Arg2:T76	
+R5	results Arg1:T52 Arg2:T74	
+R6	coauthor Arg1:T52 Arg2:T53	
+R7	coauthor Arg1:T53 Arg2:T54	
+R8	has_cited_time Arg1:T55 Arg2:T54	
+R9	coauthor Arg1:T45 Arg2:T46	
+R10	coauthor Arg1:T46 Arg2:T47	
+R11	has_cited_time Arg1:T48 Arg2:T47	
+R12	coauthor Arg1:T41 Arg2:T42	
+R13	coauthor Arg1:T42 Arg2:T43	
+R14	has_cited_time Arg1:T44 Arg2:T43	
+R15	coauthor Arg1:T37 Arg2:T38	
+R16	coauthor Arg1:T38 Arg2:T39	
+R17	has_cited_time Arg1:T40 Arg2:T39	
+R18	has_cited_time Arg1:T36 Arg2:T35	
+R19	results Arg1:T34 Arg2:T70	
+R20	has_cited_time Arg1:T33 Arg2:T32	
+R21	produces Arg1:T32 Arg2:T67	
+R22	results Arg1:T32 Arg2:T68	
+R23	uses Arg1:T32 Arg2:T69	
+R24	has_cited_time Arg1:T31 Arg2:T30	
+R25	results Arg1:T30 Arg2:T64	
+R26	produces Arg1:T30 Arg2:T57	
+R27	results Arg1:T28 Arg2:T65	
+R28	has_cited_time Arg1:T29 Arg2:T28	
+R29	has_cited_time Arg1:T26 Arg2:T27	
+R30	results Arg1:T27 Arg2:T56	
+R31	produces Arg1:T27 Arg2:T63	
+R32	has_cited_time Arg1:T24 Arg2:T25	
+R33	results Arg1:T25 Arg2:T62	
+R34	has_cited_time Arg1:T23 Arg2:T22	
+R35	coauthor Arg1:T14 Arg2:T15	
+R36	coauthor Arg1:T15 Arg2:T16	
+R37	coauthor Arg1:T16 Arg2:T17	
+R38	has_cited_time Arg1:T20 Arg2:T17	
+R39	results Arg1:T13 Arg2:T61	
+R40	has_cited_time Arg1:T12 Arg2:T13	
+R41	has_cited_time Arg1:T19 Arg2:T18	
+R42	has_cited_time Arg1:T10 Arg2:T11	
+R43	has_cited_time Arg1:T9 Arg2:T8	
+R44	results Arg1:T8 Arg2:T59	
+R45	has_cited_time Arg1:T1 Arg2:T5	
+R46	coauthor Arg1:T2 Arg2:T3	
+R47	has_cited_time Arg1:T4 Arg2:T3	
+R48	has_cited_time Arg1:T7 Arg2:T6	

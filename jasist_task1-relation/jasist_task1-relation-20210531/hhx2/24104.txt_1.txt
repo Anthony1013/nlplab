@@ -1,0 +1,130 @@
+One of the uses of bibliometric research is to extricate information that is not explicitly presented in mainstream databases , such as inferring patterns of new technology emergence , the extent of novelty and originality in patents , or identifying author gender , academic age , or migration trajectories from research publications . 
+The exposition of implicit information can increase the value of data and its explanatory power . 
+The author name represents a data item from which further information can be deduced . 
+For example , some analysts have used first names to assign gender ( Meng & Shapira , 2010 ; Thelwall & Kousha , 2014 ) . 
+Surname data have been used to infer characteristics such as ethnic origin ( Webster , 2004 ) , but such data have found relatively little use in bibliometric scholarship . 
+This article seeks to extend the use of surname data to identify the national heritage of researchers in bibliometric datasets by offering an approach that uses the morphological regularities of names . 
+Despite ever‐increasing global mobility , the distribution of surnames still has clear geographic patterns both between and within countries ( Colantonio , Lasker , Kaplan , & Fuster , 2003 ) . 
+For many categories of names , it is possible to ascertain the probable heritage of their holders . 
+Existing name‐based identification methodologies predominantly use dictionaries to probabilistically assign names to ethnic , language , or country groups . 
+Dictionary‐based methods are appropriate for name types with low variability , such as Chinese names , and with names associated with “ broad ” ethnic groups such as “ Hispanic ” ( in US classifications ) . 
+For naming traditions with higher variability , these methodologies are inhibited by low sensitivity and low precision . 
+In bibliometric datasets specifically , testing the effectiveness of these methods has been limited because of the lack of reliable data for results comparison . 
+The objective of this article is to develop a methodology based on the approach of identifying names through morphological regularities . 
+The logic of this method can be used to identify a variety of surname types . 
+In this article , we applied the general principle on Russian surnames , with the aim to identify Russian heritage . 
+Although Russian surnames share some traits with Eastern European family names , the magnitude and impact of Russian research is much higher than that of other Slavic nations , which makes it a suitable case for a bibliometric dataset . 
+Following an established methodology for name research , we developed an identification procedure conceptually and then used the 2015 ORCID ( Open Researcher and Contributor ID ) public data file to construct a control dataset using a randomized proportionate undersampling method , in which the effectiveness of the procedure was tested . 
+This article makes three contributions . 
+First , the method described here can be adapted for any group of surnames , provided that group has identifiable morphological regularities . 
+Second , the method aims to identify heritage , and not ethnicity . 
+In fact , as we specify later , most studies that address the issue of ethnicity , which is a biological feature , actually mean heritage , which is a sociocultural trait . 
+Third , we outline areas of interest in science and innovation that would benefit from using this method : ( a ) research on scientific mobility , ( b ) the role of persons with a particular heritage in global networks and interactions , ( c ) research on the impact of heritage diversity on creativity and innovation , and ( d ) the influence of heritage on academic behavior and strategies . 
+The article is structured as follows . 
+The next section provides a background review on the use of surname data to infer the demographic properties of their holders . 
+We then outline the method and data . 
+Subsequent sections review the testing of the identification procedure and demonstrate the usefulness of the procedure by applying it to the dataset of ORCID users in 2015 . 
+The concluding section discusses the usefulness of the procedure , notes the limitations , and outlines its further applications in bibliometric research . 
+The longstanding tradition of using name data to infer the implicit characteristics of their holders spans multiple disciplines in both the social and the natural sciences . 
+In physical anthropology , human population biology , and genetics , the occurrence of the same surname in couples has been studied to analyze the persistence of naming patterns in geographical regions to infer inbreeding and genetic similarities . 
+These studies have found that surname clusters are characterized by low genetic distances ( Rodriguez‐Larralde , Gonzales‐Martin , Scapoli , & Barrai , 2003 ) and that patterns of social and health outcomes linked to genetic structures can be traced via surnames ( Kandt , Cheshire , & Longley , 2016 ) . 
+In the social sciences , the scope of research that uses surname data is also broad . 
+Research in history , sociology , and linguistics has explained the historical and social context of names , such as the socioeconomic determinants of naming ( Bloothooft & Onland , 2011 ) . 
+Another body of knowledge aims to explain how the properties of names change the behavior of individuals or groups who encounter holders of those names . 
+This research explains phenomena such as nominative determinism—the likelihood of a person to pursue and be perceived as successful at a particular career if their name resembles that career ( Gueguen & Pascual , 2011 ) , and nominative discrimination—the likelihood of not receiving certain privileges because of a name ( Hogan & Berry , 2011 ) . 
+Bibliometric data have been used in this vein to study alphabetical favoritism—the increased likelihood that scientists with earlier alphabetical initials will receive higher reputational rewards ( Einav & Yariv , 2006 ) . 
+Surnames can be used to infer the characteristics of certain name holders that are otherwise unobtainable in datasets . 
+Although variations exist among different naming traditions , it is possible to associate traits such as a person 's social class or faith from his or her name ( Clark & Cummins , 2015 ; Susewind , 2015 ) . 
+Name data can be reliably used to estimate ancestry in multiethnic populations so as to assess issues such as access to healthcare , long‐term population change , and ethnoregional disparities ( Mateos , 2007 ) . 
+Most of these latter studies infer ethnicity by developing name dictionaries . 
+Their efficiency is estimated by comparing probabilistic assignment with alternative reliable ethnicity data in testing scenarios . 
+The efficiency of dictionaries varies significantly between ethnicities . 
+“ Hispanic ” names obtain more than 85 % recall ( Wei , Virnig , John , & Morgan , 2006 ) , Chinese and Korean name lists return recall and precision on average above 70 % ( Kim , Lauderdale , Shin , & Lee , 2014 ; Quan et al. , 2006 ) , whereas such efficiency measures for “ Asian American ” or “ Arab ” ancestry lists do not exceed 60 % ( El‐Sayed , Lauderdale , & Galea , 2010 ; Lauderdale & Kestenbaum , 2000 ) . 
+Among recent methodological developments , combined geo‐coding and surname methodologies report the best results for multigroup classifications ( Elliott et al. , 2009 ) . 
+However , the vast majority of surname research in health and population studies use US data and broad US‐defined ethnicity categorizations ( which include “ Hispanic ” or “ Asian ” ) . 
+In bibliometric scholarship , the use of name data to extrapolate demographic characteristics is limited . 
+Bibliometric research that uses names also relies mainly on dictionaries . 
+Some studies have sought to distinguish a particular type of surname by using small datasets delineated by country , discipline , or population subgroup . 
+Here , name data serves mainly as an indication of ethnicity . 
+The scope of issues explored spans the productivity of immigrant inventors ( Kerr & Lincoln , 2010 ) , global technology transfer ( Kerr , 2008 ) , ethnic coauthorship ( Freeman & Huang , 2015 ) , mobility patterns within or across countries ( Lewison & Kundra , 2008 ) , and the identification of minority groups in scientific populations and their contributions ( Kissin & Bradley , 2013 ) . 
+Kerr 's name‐matching program ( Kerr , 2007 ) is the only method that has attempted to assign names to multiple ethnic categories . 
+It combines probabilistic assignment and manual coding within the US patent data , but only reports recall scores and does not address surname assignment overlaps . 
+The adaptation of named entity recognition methods from information science to use in bibliometrics has also been limited . 
+Despite promising attempts , empirical applications in bibliometrics have not been as effective as those in other fields ( Robinson‐Garcia , Noyons , & Costas , 2015 ) . 
+With respect to Russian‐named entities , significant progress has been reported ( Mozharova & Loukachevitch , 2016 ; Starostin et al. , 2016 ) . 
+However , these methods have almost exclusively been applied to texts in Cyrillic , aim to extract named entities from unstructured text , and do not distinguish between different types of named entities within a certain class ( for instance , surnames with different heritage ) . 
+Most bibliometric datasets are naturally limited in that they do not have the capacity to test the power of surname‐based inference . 
+Published works that report information retrieval scores prioritize recall over precision , and that affects the applicability of the method to large datasets . 
+Dictionary‐based matching identifies only the most “ popular ” names and does not account for name and spelling variability . 
+One alternative to using dictionaries is to use the structure of names to infer the demographic properties of their holders . 
+For example , Lewison ( 2001 ) identified female researchers from Iceland by selecting surnames ending in “ dottir. ” To date , the identification of population groups in bibliometric datasets based on surname structure has found limited application , despite its potential benefits . 
+Dictionaries , by themselves , can not be reliably used to infer the heritage of populations with high name variability . 
+We develop a method that instead takes advantage of morphological regularities of certain surname types , thus complementing dictionary‐based identification methods . 
+As a test group , Russian surname morphology is used . 
+Russian surnames have extremely high variability . 
+Dictionary‐based methods only identify the most common names . 
+Russian surnames have morphological regularities , which makes them a good empirical set to test the strength of this identification method . 
+Most studies in bibliometrics analyze the behavior of groups based on their shared heritage , not on ethnicity , despite frequently using the language of “ ethnicity. ” Surname‐based identification methods originated within genetics , evolutionary biology , and general population research . 
+Scholars from these disciplines use surname data to identify the ethnic origin of populations in order to assess the heightened health risks associated with particular ethnicities . 
+Although bibliometric studies borrow some of these methodologies for ethnicity identification , they usually use ethnicity as a proxy for particular traits of behavior , values , and social norms among researchers of a given origin . 
+Shared heritage is a preferable classification because heritage more plausibly influences an individual 's scientific behavior , not ethnicity , which is a biological feature . 
+Heritage links memory , language , and place with the construction of identity and communities ( Smith , 2006 ) . 
+It refers to shared values , attitudes , skills , and tacit knowledge , whereas ethnicity only implies genetic similarity . 
+In this research , we extend the notion of heritage by associating it with the concept of human capital . 
+Knowledge , skills , and other forms of noneconomic capital accumulated by each person become a part of that person 's heritage , in that they have an impact on the person 's identity , which , in turn , can influence their behavior . 
+Studying heritage refers more to accounting for those intrinsic and specific features of cultural capital within social groups that make the groups distinctive in how they approach problems and look for solutions . 
+It follows that in science and innovation , each specific type of heritage can be associated with specific configurations of scientific and technical ( S & T ) human and social capital ( Bozeman , Dietz , & Gaughan , 2001 ) . 
+Heritage indicates a particular identity , behavior , belonging to communities , embeddedness in certain networks , and other social characteristics that influence a person 's behavior . 
+For example , when Borjas and Doran ( 2012 ) studied the influence of the post‐1992 influx of Soviet mathematicians on the organization of US mathematics , they examined productivity patterns based on topic selection , collaboration strategies , and the publication practices of the two groups . 
+All of them stemmed from the differences between the US and Soviet heritage in mathematics . 
+Similarly , when Freeman and Huang ( 2015 ) used surname data to identify “ Chinese ethnicity , ” they aimed to study copublication strategies based on shared topic interests , shared tacit knowledge , and shared networks , all of which are manifestations of shared “ Chinese ” academic heritage . 
+When ethnicity and heritage do not coincide , it becomes important to distinguish them . 
+For example , Soviet heritage can be conceptualized as a shared legacy of a command‐and‐control research system dominated by the Academies of Sciences that had little interface with industry and featured divisions between research and teaching ( Vucinich , 1984 ) . 
+These specific traits of how research was organized influenced the type of human and social capital , skills , attitudes , and values of scientists and engineers who were trained in the USSR . 
+The impact of Soviet heritage is still felt across the countries of the former Soviet Union and the Eastern Bloc ( Radosevic , 2003 ) , but it has nothing to do with ethnicity . 
+Similarly , the contemporary Russian research system is heavily path‐dependent on its Soviet predecessor ( Karaulova , Gök , Shackleton , & Shapira , 2016 ; Karaulova , Shackleton , Liu , Gök , & Shapira , 2017 ) . 
+Russia is a multiethnic and multifaith country , yet in research and innovation it is appropriate to discuss post‐Soviet Russian heritage . 
+Specific normative attributes , skills , and strategies related to productivity , collaboration behaviour , career development patterns , technology transfer and patenting distinguish Russian scientists . 
+Heritage is not explicitly codified in publication data records and , therefore , has to be inferred . 
+This research uses surname data to infer heritage and compares the findings with ORCID profile data on education and affiliation history in Russia . 
+We test the proposition that Russian heritage can be inferred from the surname and first name . 
+We assume that ORCID users with an education and employment history in Russia are primarily likely to be Russian nationals with Russian names and heritage . 
+Multiple observations support this assumption . 
+First , before the breakup of the Soviet Union , holders of Russian surnames were mostly clustered in the territory of Russia ( Revazov , Paradeeva , & Rusakova , 1986 ) . 
+In research specifically , the Russian science system has remained relatively nationally bounded . 
+Russian is the dominant language of academic publications , and academic job mobility is very limited . 
+Although comprehensive statistical data about non‐Russian nationals employed in Russian research is not available , evidence indicates that foreign‐born student and researcher numbers remain low , despite policy efforts ( Sivak & Yudkevich , 2008 ) . 
+Therefore , it is reasonable to assume that Russian science employs mainly Russian scientists . 
+Based on this assumption , we validate the efficiency of surname‐based identification by comparing its results with the affiliation country of ORCID users . 
+This research uses name data to infer heritage . 
+Both given name and surname data are used in the procedure . 
+Surname data for the procedure does not need to be written in any particular format , as long as it is searchable separately from non‐name data in each record . 
+Surname data are complemented by given name data , where available . 
+Russian given names are diverse : they encompass Orthodox Christian names of biblical , Greek and Latin origin , Slavic names , and names specific to ethnic and religious minority groups . 
+After the 1918 Revolution , practices of name import and name creation emerged ( Petrovsky , 1966 ) . 
+Given ( or first ) name data by itself is unsuitable for identifying Russian heritage . 
+However , Russian variants of many Christian and Slavic given names have a specific spelling , and we use them as an extra tool to eliminate false‐positive results , thus complementing the surname‐based method . 
+The data for this study came from the Open Researcher and Contributor ID ( ORCID ) database , which is an open international initiative that aims to build a registry of unique researcher identifiers on a global scale ( see : https : //orcid.org/ ) . 
+The ORCID identifier is a nonproprietary alphanumeric code . 
+It provides a unique and persistent identifier for each individual user , which they can then assign to their funding bids and their publication metadata . 
+In 2017 , ORCID included over 3.1 million individual members ( Haak , 2017 ) . 
+ORCID is increasingly recognized as a cross‐platform identifier and is integrated with mainstream repository and reference systems , such as PLoS , the Royal Society , SCOPUS , ProQuest , and the Web of Science.11 ORCID is part of the International Standard name identifier as defined by the International Standard ISO 27729:2012 . 
+Early exploration of ORCID 's value in bibliometric research suggests that , although with some limitations , ORCID data can provide a way to solve long‐standing issues such as authorship ambiguity ( Youtie , Carley , Porter , & Shapira , 2017 ) . 
+A data file , which aggregates all public data in the ORCID registry associated with each ORCID member , is made available annually . 
+In this work , the 2015 ORCID public data file was used as a dataset for testing the surname‐based heritage inference approach . 
+After cleaning , the dataset contained 307,459 public ORCID identifiers , which were associated with 294,746 author names . 
+For each identifier , data on the following affiliation types and history were available : employment and education ; position ; dates of employment and education ; the name of the institution ; and its location ( city , region , and country ) . 
+At the time of the study , Russia ranked 12th among countries by ORCID user population : 8,799 users ( 2.98 % of all ORCID users ) reported that they either worked or studied in Russia . 
+In terms of coverage , the share of scientific publications with Russian affiliation addresses that contain ORCID identifiers in the Web of Science has been increasing and peaked at ~45 % in 2014 ( see Figure 1 ) . 
+The total number of Russian surnames exceeds 15,000 ( Balanovskaya , Solovyova , & Balanovsky , 2005 ) . 
+The semantic origins of Russian surnames are highly variable , which precludes composing an exhaustive list . 
+Similar to other Slavic naming traditions , a Russian surname can be composed of almost any word by adding one of several specific suffixes . 
+As a result , surnames in Russia are continuously being created : for example , both “ Lenin ” and “ Stalin ” are made‐up surnames , which were initially used as aliases . 
+A suffix is a linguistic unit that is placed at the end of the word . 
+The majority of surname suffixes indicate belonging to a family ( patronym ) , place , or profession . 
+In the Russian language , female surnames , with minor exceptions , are characterized by adding the ending –a after the suffix . 
+The method proposed in this article takes advantage of these morphological regularities to identify Russian surnames . 
+Boris Unbegaun 's ( 1972 ) landmark work , the most comprehensive Russian surname etymology study to date , provides a morphological classification of Russian surnames . 
+The “ overwhelming majority ” ( Unbegaun , 1972 , p. 2 ) of them have one of the three most popular patronymic suffixes –ov , ‐ev , and ‐in . 
+Minority types of Russian surnames include surnames with other patronymic suffixes , adjectival surnames ( derived from adjectives ) , substantival surnames ( derived from nouns ) , and surnames of various foreign origins ( see Table 1 ) . 
+All patronymic and adjectival suffixes have strong regularities , which makes them easily identifiable . 

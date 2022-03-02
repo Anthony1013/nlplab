@@ -1,0 +1,108 @@
+T1	引文作者 894 900	Taylor
+T2	引文时间 903 907	1968
+T3	引文作者 928 934	Cronin
+T4	引文时间 937 941	1981
+T5	引文作者 1017 1023	Maslow
+T6	引文时间 1026 1030	1943
+T7	引文作者 1075 1082	Chatman
+T8	引文时间 1085 1089	1996
+T9	引文作者 1137 1142	Dunne
+T10	引文时间 1145 1149	2002
+T11	引文作者 2652 2660	Duncombe
+T12	引文作者 2663 2668	Heeks
+T13	引文时间 2671 2675	2002
+T14	引文作者 2678 2689	Schilderman
+T15	引文时间 2692 2696	2002
+T16	引文作者 2779 2784	Gomez
+T17	引文时间 2794 2798	2012
+T18	引文作者 2801 2808	Sabelli
+T19	引文时间 2811 2815	2012
+T20	引文作者 3556 3563	Chatman
+T21	引文时间 3566 3570	1996
+T22	引文作者 3605 3611	Wilson
+T23	引文时间 3614 3618	1999
+T24	引文作者 3642 3650	McKenzie
+T25	引文时间 3653 3657	2003
+T26	引文作者 3710 3716	Putman
+T27	引文时间 3719 3723	2000
+T28	引文作者 3726 3734	Woolcock
+T29	引文作者 3737 3744	Narayan
+T30	引文时间 3747 3751	2000
+T31	引文作者 4753 4758	Agada
+T32	引文时间 4761 4765	1999
+T33	引文作者 4768 4774	Bailur
+T34	引文时间 4777 4781	2010
+T35	引文作者 4784 4792	Duncombe
+T36	引文作者 4795 4800	Heeks
+T37	引文时间 4803 4807	2002
+T38	引文作者 4810 4817	Sabelli
+T39	引文时间 4820 4824	2012
+T40	引文作者 5517 5524	Chatman
+T41	引文时间 5527 5531	1996
+T42	引文作者 5600 5604	Case
+T43	引文作者 5607 5612	Given
+T44	引文时间 5615 5619	2016
+T45	引文作者 5708 5716	Kuhlthau
+T46	引文时间 5719 5723	2004
+T47	引文作者 7533 7541	Duncombe
+T48	引文作者 7544 7549	Heeks
+T49	引文时间 7552 7556	2002
+T50	引文作者 7559 7564	Gomez
+T51	引文时间 7574 7578	2012
+T52	引文作者 7668 7676	Durrance
+T53	引文时间 7686 7690	2006
+T54	图 9628 9668	a metamodel is proposed ( see Figure 1 )
+T55	引文作者 9763 9772	Checkland
+T56	引文作者 9775 9782	Poulter
+T57	引文时间 9785 9789	2006
+T58	引文作者 10933 10943	Savolainen
+T59	引文时间 10946 10950	1995
+T60	引文作者 10953 10959	Wilson
+T61	引文时间 10962 10966	1999
+T62	研究结果 147 293	In summary , there is evidence of an important contribution to information need recognition , information sourcing , and information comprehension
+T63	研究结果 3006 3196	Findings also evidence the importance of recognizing the natural order of needs , and issues of receptiveness to other needs when fundamental basic needs ( for instance , shelter ) are unmet
+T64	研究结果 7697 7962	Our findings evidence issues of comprehension , and provide insight into constructive information intermediary behaviors , and in particular , the incremental and recursive nature of information cycles , and the personalized nature of meaningful information formats
+T65	研究结果 7967 8524	Our findings evidence an important intermediary role pivotal to progressive constructive information behaviors in disadvantaged and dependent circumstances , which can be distilled into three propositional statements to explain relationships between key concepts , and provide parameters for a theory of information intermediary intervention to guide ongoing examination : In situations of multiple needs , information intermediaries facilitate information needs recognition , and considered purposeful action , that takes account of the problematic context
+T66	研究展望 15760 16009	Beyond empirical and theoretical contributions , our findings have significant practical implications for public health policy and in particular digital health strategies , as they evidence an important human intermediary role among an at‐risk group
+T67	研究结果 16014 16209	In an era of digital transitions , our findings suggest that digital can not be viewed as a primary form of information dissemination , and that holistic interpersonal approaches remain important
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	has_cited_time Arg1:T8 Arg2:T7	
+R5	has_cited_time Arg1:T10 Arg2:T9	
+R6	coauthor Arg1:T11 Arg2:T12	
+R7	has_cited_time Arg1:T13 Arg2:T12	
+R8	has_cited_time Arg1:T15 Arg2:T14	
+R9	field_similar_as Arg1:T14 Arg2:T11	
+R10	has_cited_time Arg1:T17 Arg2:T16	
+R11	has_cited_time Arg1:T19 Arg2:T18	
+R12	field_similar_as Arg1:T18 Arg2:T16	
+R13	has_cited_time Arg1:T21 Arg2:T20	
+R14	has_cited_time Arg1:T23 Arg2:T22	
+R15	has_cited_time Arg1:T25 Arg2:T24	
+R16	has_cited_time Arg1:T27 Arg2:T26	
+R17	coauthor Arg1:T28 Arg2:T29	
+R18	has_cited_time Arg1:T30 Arg2:T29	
+R19	field_similar_as Arg1:T28 Arg2:T26	
+R20	has_cited_time Arg1:T32 Arg2:T31	
+R21	has_cited_time Arg1:T34 Arg2:T33	
+R22	coauthor Arg1:T35 Arg2:T36	
+R23	has_cited_time Arg1:T37 Arg2:T36	
+R24	has_cited_time Arg1:T39 Arg2:T38	
+R25	field_similar_as Arg1:T38 Arg2:T35	
+R26	field_similar_as Arg1:T35 Arg2:T33	
+R27	field_similar_as Arg1:T33 Arg2:T31	
+R28	has_cited_time Arg1:T41 Arg2:T40	
+R29	coauthor Arg1:T42 Arg2:T43	
+R30	has_cited_time Arg1:T44 Arg2:T43	
+R31	has_cited_time Arg1:T46 Arg2:T45	
+R32	coauthor Arg1:T47 Arg2:T48	
+R33	has_cited_time Arg1:T49 Arg2:T48	
+R34	has_cited_time Arg1:T51 Arg2:T50	
+R35	field_similar_as Arg1:T50 Arg2:T47	
+R36	has_cited_time Arg1:T53 Arg2:T52	
+R37	coauthor Arg1:T55 Arg2:T56	
+R38	has_cited_time Arg1:T57 Arg2:T56	
+R39	has_cited_time Arg1:T59 Arg2:T58	
+R40	has_cited_time Arg1:T61 Arg2:T60	
+R41	field_similar_as Arg1:T60 Arg2:T58	

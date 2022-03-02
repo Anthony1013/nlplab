@@ -1,0 +1,118 @@
+Interested readers can refer to ( Ge et al. , 2007 ) for more details . 
+Based on the CD‐tree algorithm , we propose to satisfy the balance constraint via the following steps : We first swap the images in each pair , reverse the sign of each label and add the results in the training set T . 
+Then we split T into the positive group and the negative group based on the training label , so that we can apply the CD‐Tree algorithm with significance constraint on these two groups respectively . 
+Because of the property of the CD‐Tree algorithm , the sizes of clusters in both two groups are all equal to , except the last cluster in each group , whose size may be larger than . 
+Finally , we find the group with fewer clusters , then repeatedly remove a cluster from this group and combine the removed cluster with its nearest cluster from the other group . 
+In this way , the sizes of the generated clusters are almost , and the ratio of positive examples to negative examples in each cluster is almost , consequently the significance constraint and the balance constraint are satisfied successfully . 
+The summary of our SCC algorithm is presented in Algorithm 1 . 
+Algorithm 1 Supervised Constrained Clustering Input : A training data set where denotes the image pair and is the label , significance constraint Output : The number of clusters K , a set of clusters 1 : Set ; 2 : for do 3 : Add to ST ; 4 : end for 5 : Set ; 6 : Assign each element in T to or based on its sign of ; 7 : Apply the CD‐Tree algorithm ( Ge et al. , 2007 ) on and with significant constraint , respectively . 
+Denote the results by and ; 8 : Set , let denote the set with fewer clusters between and , while denotes the other one ; 10 : Select the cluster from , calculate the distance between the mean vector of and that of each cluster in without the dimension of label r , find the cluster with the smallest distance and add to SC ; 11 : end for 12 : return SC ; At the beginning of our algorithm , is set to zero . 
+Then we update according to Eq . 
+12 when new training data arrives . 
+The loss bound analysis of the PA algorithm can be found in Crammer et al . 
+( 2006 ) and we will skip that due to page limitation . 
+Once a ranking model is learned , the determining factors in a certain ranking task are revealed . 
+Assume that we have found the Kn local models for a test image pair . 
+We can combine their weight vectors by averaging and obtain a model , where is the corresponding weight of attribute in a ranking task . 
+Thus the larger is , the more important attribute is , and indicates whether attribute has a positive effect or a negative effect on ranking . 
+For instance , in our shoes ranking based on suitability for sports scenario , attributes can be “ has high heel , ” “ is closed toe , ” and “ is black , ” and assume that their corresponding weights are −0.8 , 0.5 , and 0.01 . 
+Then we can explain our ranking model by saying “ closed toe shoes are sportier than those with high heels , however their colors do not matter much. ” Based on this , more complex sentence patterns can be made , but this is beyond our scope . 
+From this example , we can see that it is convenient to obtain an intuitive semantic explanation via the proposed framework , and we will present more examples in our experimental section . 
+In the aforementioned PSI framework , local ranking models cooperate via the Bayesian averaging mechanism , in which a set of parameters is employed to govern the property of the resulting model . 
+For boosting the performance of the proposed ranking framework , we propose to obtain the optimal values of these parameters via a regularized maximum likelihood estimator , instead of using empirical values . 
+In this section we validate the proposed method with a series of experiments . 
+Dataset : The proposed PSI framework is evaluated on the fine‐grained image ranking dataset UT‐Zap50K‐2 ( A. Yu & Grauman , 2014 ) , which contains 50 , 025 shoe images in total . 
+These images can be divided into 4 categories , or 21 subcategories . 
+Besides , 6 semantic groups , including 126 binary attributes and their groundtruths for each image are provided . 
+4 ranking tasks , that is , “ Open , ” “ Pointy , ” “ Sporty , ” and “ Comfort , ” are provided by this benchmark and are sufficient to validate the effectiveness of the proposed method . 
+Implementation details : All the experiments in this section are performed in MATLAB , with an I7 CPU of 3.40 GHz and RAM of 32.0 GB . 
+We use several low‐level features for attribute learning , including GIST , color histogram , HOG and LBP . 
+For each category , sub‐category or attribute , we use the whole training images to learn a logistic regression model with regularization via Fan et al . 
+( 2008 ) . 
+Attributes with not enough positive examples or low accuracy ( less than 90 % , validated on the training set ) are omitted . 
+Consequently , each image is represented by a 98‐D vector ( 4 categories , 15 subcategories and 70 attributes ) in our framework , as presented in Table 1 . 
+The margin in hinge loss Cl = 5 , and the trade‐off parameter in PA method throughout this article . 
+The significant constraint kc , and the optimal value of the number of clusters for local embedding Kn are found by grid search on the training set . 
+Accuracy is calculated by percentage of correctly predicted instances . 
+Baselines : in our experiments , we compare the proposed PSI framework with six state‐of‐the‐art methods as follows : Relative‐Attr ( Parikh & Grauman , 2011b ) : A global linear ranking model which minimizes l 2 norm of its model , with constraints that distance between an ordered image pair is larger than or equal to a soft threshold , whereas distance between a similar image pair is smaller than or equal to another soft threshold . 
+FG‐LocalPair ( A. Yu & Grauman , 2014 ) : Localized version of Relative‐Attr , it first learns a Mahalanobis metric via the ITML ( Davis et al . 
+2007 ) method , and then for each test pair , several nearest neighbors training pairs are selected to train the Relative‐Attr model on‐the‐fly . 
+KNN‐LocalPair : Replacing the Relative‐Attr model in FG‐LocalPair with the KNN method . 
+LocalPair+HOG ( Verma & Jawahar , 2015 ) : Learning patch based presentation with the Relative‐Attr model . 
+It emphasizes the effect of local grids of images . 
+LocalPair+ML+HOG ( Verma & Jawahar , 2015 ) : LocalPair+HOG with the Mahalanobis metric learned by the ITML method . 
+RankMKL ( Sharaf et al. , 2015 ) : Combining ranking SVMs with different kernels via the Generalize Multiple Kernel Learning method . 
+The performance of the proposed PSI framework against other state‐of‐the‐art methods is demonstrated in Table 2 . 
+The proposed PSI framework obtains significant advantages on the UT‐Zap50K‐2 benchmark by increasing the state‐of‐the‐art performance from 67.5 % to 68.65 % , especially in the “ Sporty ” ( 73.87 % ) and “ Comfort ” ( 67.11 % ) task . 
+We owe this performance gap to our probabilistic ensemble of multiple local ranking models . 
+To understand this , notice that in these four‐ranking tasks , “ Open ” and “ Pointy ” are two highly localized concepts , for example “ Pointy ” are closely related to the toe style , therefore , a local ranking model is more effective to capture this kind of property . 
+This can be validated via the results of LocalPair+HOG and RankMKL in “ Open ” and “ Pointy. ” Because PSI first projects images into the attribute space , which is highly abstract and is inevitable to lose the subtle localized information in low‐level image descriptors , the performance of PSI in the “ Open ” task is worse than conventional methods . 
+However , “ Sporty ” and “ Comfort ” are more generalized concepts and related to various abstract factors , for example , materials of shoes , height of heels . 
+In this case , a single local ranking model is not sufficient to capture such factors . 
+With the Bayesian model averaging of local ranking models , the proposed PSI can better combine the key factors among local models , and consequently has significant advantages in these two tasks . 
+Among the hyperparameters of PSI , the margin in hinge loss , Cl , is of great importance because it can directly control the behavior of local ranking models : a high value of Cl may cause the ranking model to change dramatically , whereas a small value may let the model be sensitive to outliers . 
+To understand how Cl affects the performance of PSI , we test PSI with Cl ranging from 0 to 10 on the benchmark . 
+Figure 4 demonstrates the results : it seems the “ Open ” task is affected by Cl significantly , whereas the performance of the remaining tasks is rather stable . 
+We consider this phenomenon again suggests the locality of the “ Open ” property , that is , subtle changes in the local ranking models are emphasized . 
+Fortunately , with the ensemble of multiple local ranking models via the Bayes ' rule , the performance of PSI with Cl between 4 and 6 is quite stable , which validates that PSI is a practical solution for the fine‐grained image ranking problem . 
+Demonstration of PSI with different Cl , the margin in hinge loss . 
+PSI gets the most stable performance at around Cl = 5 . 
+Another prominent advantage of the proposed framework is its efficiency . 
+In Table 3 , we compare the computation cost of major steps of PSI and FG‐LocalPair , including both training phase and test phase . 
+In the training phase , the major step of FG‐LocalPair is to learn a Mahalanobis metric via the ITML ( Davis et al. , 2007 ) method , whereas those of PSI include training attribute classifiers , building CD‐Trees and training local ranking models on the clusters . 
+In the test phase , the FG‐LocalPair first searches the whole training set to find the nearest neighbors ( in A. Yu & Grauman ( 2014 ) of a given test image pair , and then trains a local ranking model and perform ranking on‐the‐fly . 
+As to PSI , it needs to generate the probabilistic attribute‐based representation , find the Kn nearest clusters and combines the predictions of the Kn nearest local ranking models . 
+We begin the computational cost analysis of PSI and FG‐LocalPair with steps in the training phase . 
+In Table 3 , we do not present the cost of metric learning because it mainly depends on the parameter setting of the ITML method . 
+In the code provided by authors of ITML , the metric learning process stops when either the value of objective function converges ( ) or reaches the maximum iterations ( 105 ) . 
+However , in our experiments , ITML with its default setting fails to converge within the maximum iterations . 
+As a reference , we consider ITML with 104 iterations , whose performance is similar to those reported in A. Yu and Grauman ( 2014 ) and it costs about 5 minutes . 
+As to PSI , it takes about 20 minutes to train the attribute classifiers , 2 minutes to build CD‐Trees and 3 minutes to learn local ranking models . 
+It seems that the major cost of PSI is learning the attribute classifiers . 
+However , note that once the attribute classifiers are trained , they can be used for different tasks , whereas FG‐LocalPair needs to perform ITML for each task . 
+Therefore , training attributes is worthwhile in the long run . 
+What really reflects the efficiency of PSI happens in the test phase . 
+First of all , the ranking models in both PSI and FG‐LocalPair are linear models , therefore their prediction cost is small and similar . 
+However , the searching cost of PSI scales to , where K is the number of clusters , Na denotes the number of attributes ; while that for FG‐LocalPair scales to O ( ND ) , where N is the number of training examples , D denotes the dimension of image feature , as in previous sections . 
+In our tasks , it is obviously and . 
+Therefore , it takes about 0.08 ms for PSI to perform searching while that of FG‐LocalPair takes about 268 ms . 
+Besides , FG‐LocalPair needs to train a ranking model for each test image pair , which is time‐consuming as well ( about 569 ms ) . 
+Overall , it takes about 837.15 ms for FG‐LocalPair to process a test instance , whereas it can be accomplished via PSI within 1.11 ms . 
+Such speed indicates that PSI is suitable for real‐time or large‐scale applications . 
+Despite of the effectiveness and efficiency of PSI , what makes PSI differ from conventional methods is that the ranking model of PSI can be semantically interpreted . 
+To demonstrate this , we visualize the learned ranking models in PSI by constructing two wordclouds for each task . 
+Specifically , we first calculate the average weights of local ranking models , and then construct the positive ( negative ) wordcloud consisting attributes with positive ( negative ) weights . 
+And the size of a word is in proportion to the absolute value of its weight . 
+To compare the semantic interpretation of PSI with real rationales from human , we also exploit the rationale texts provided by the UT‐Zap50K‐2 benchmark . 
+We divide the texts into words and manually select those with semantic meanings ( e.g. , removing pronouns and conjunctions ) , and calculate the frequency of each word . 
+For each task , the top‐5 frequently occurred words are selected as the representative words . 
+Besides , we also sample a few rationales for intuitive understanding . 
+Figure 5 shows the results of our experiment of semantic interpretation : we find that the rationales given by users are quite trivial yet various . 
+For instance , someone may think a pair of shoes is pointier because it “ appears to be a boot for female ” or think out “ playing in high heels will break your ankle. ” Such phenomenon makes the distribution of key words become scattered , that is , the frequencies of the selected words are low . 
+But even under such circumstance , we find that the key attributes found by PSI is highly related to the rationales from users . 
+For example , in the “ Sporty ” task , from the wordcloud we can see the attribute “ Heels ” will reduce the ranking order of “ Sporty ” significantly , which is in accordance with the fact that “ Heel ” is the top‐1 representative word from users ' rationales . 
+More similar results can be found , such as “ toe ” in the “ Pointy , ” “ material ” and “ Heel ” in the “ Comfort ” task . 
+From these results , we can see that PSI does open a gate for understanding our ranking models . 
+Demonstration of the semantic interpretability of the proposed framework . 
+For each task on the UT‐Zap50K‐2 benchmark , we visualize the learned ranking models in PSI ( on the left ) , as well as the top‐5 words with the highest frequencies in rationales gathered by crowd‐sourcing ( right ) . 
+For PSI , we construct two wordclouds , where attributes with positive weights are presented on the left and those with negative weight are presented on the right . 
+The size of a word reflects the absolute value of its corresponding weight , for example shoes with heels ( SubCategory‐Heels ) are likely less sporty . 
+This figure shows that key attributes learned by PSI are highly related to the rationales from users . 
+Best viewed on a high‐resolution screen . 
+To validate the effectiveness of each component in the proposed framework , we conduct a series of experiments via replacing one component at a time . 
+We consider 4 variants of PSI , including : ( a ) PSI‐Global , which trains a global ranking model ; ( b ) PSI‐NN , which removes the probabilistic embedding method and directly outputs the prediction of nearest ranking model ; ( c ) PSI‐KMEANS , which replaces the SCC method with the k‐means clustering method ; and ( d ) PSI‐ASCC , which considers building CD‐Trees by converting all images pairs into positive , and then performs CD‐Tree method for clustering . 
+After that , it reverses half of the instances in each cluster to train ranking model . 
+Our experimental results are presented in Table 4 . 
+It is not surprising that the performance of PSI‐Global is the worst among the above variants of PSI , because as we have emphasized , the fine‐grained image problem is highly localized , and consequently it is hard to use a single model to fit for various test instances . 
+The performance of PSI‐NN can support this opinion as well : although PSI‐NN simply applies the local model trained on the nearest cluster of each test instance for prediction , it does exploit the local context of each test instance , therefore it outperforms PSI‐Global significantly in the “ Open ” task ( 63.09 % to 57.00 % ) . 
+The comparison between PSI‐NN and PSI demonstrates the importance of combing local ranking models : PSI not only increases the average performance of PSI‐NN by 4.67 % , it also outperforms PSI‐NN in all the 4 tasks , even for highly localized task like “ Open ” ( 68.27 % to 63.09 % ) . 
+As to the effectiveness of the SCC method , remember that the major targets of SCC are dual : generating ( a ) class‐balanced and ( b ) significance‐constrained clusters . 
+It is well‐known that k‐means is not guaranteed to satisfy these two constraints , therefore , we first compare the performance of PSI and PSI‐KMEANS . 
+From the results we can see that PSI does benefit from the SCC method because it outperforms PSI‐KMEANS with respect to average accuracy by 2.39 % . 
+Besides , we propose to compare PSI with PSI‐ASCC to validate the advantages of building positive and negative CD‐Trees individually . 
+From our experimental results , we can see that PSI is superior to PSI‐ASCC with respect to mean accuracy ( 68.65 % to 67.84 % ) . 
+We consider such performance gain directly comes from the fact that , the training instances of PSI are much various . 
+Note that in PSI , an important process is to combine positive and negative clusters , of which a cluster can be selected multiple times . 
+However , an instance can only be used one time in PSI‐ASCC . 
+Consequently , we can generate more compact separating hyperplanes in PSI . 
+Besides , PSI is compatible to asymmetric distance metrics ( for asymmetric metrics , reversing instances may disrupt the compactness of a cluster ) , and hence PSI is a more flexible solution . 

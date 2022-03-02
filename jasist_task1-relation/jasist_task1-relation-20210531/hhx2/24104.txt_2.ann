@@ -1,0 +1,60 @@
+T1	表 604 703	First , we considered the relative frequency of different surname types ( as presented in Table 1 )
+T2	引文作者 1244 1250	Lipski
+T3	引文时间 1253 1257	1953
+T4	时间 1573 1586	February 2017
+T5	引文作者 2610 2618	Unbegaun
+T6	引文时间 2621 2625	1972
+T7	图 2889 3163	The resulting Russian heritage identification procedure uses surname data and , when possible , first name data , and consists of four steps ( Figure 2 ) .33 Rules and dictionaries developed in this work are in Supporting Information Appendix , which is available separately
+T8	时间 3984 3988	2005
+T9	引文作者 6169 6175	Chawla
+T10	引文时间 6178 6182	2005
+T11	引文作者 6596 6604	Drummond
+T12	引文作者 6607 6612	Holte
+T13	引文时间 6615 6619	2003
+T14	引文作者 6697 6700	Liu
+T15	引文作者 6703 6705	Wu
+T16	引文作者 6710 6714	Zhou
+T17	引文时间 6717 6721	2009
+T18	表 7083 7293	Non‐Russian surnames were randomly selected from pools of names with a registered affiliation in a country other than Russia according to that country 's popularity in the dataset ( see Table A1 in the Appendix
+T19	引文作者 7673 7681	Buckland
+T20	引文作者 7684 7687	Gey
+T21	引文时间 7690 7694	1994
+T22	图 8138 8272	We tested the precision and recall of alternative variants of surname identification in a sequence of four steps ( refer to Figure 2 )
+T23	表 8277 8314	The results are summarized in Table 2
+T24	表 12052 12177	For each of the five categories , we identified the number of scientists whose names suggest Russian heritage ( see Table 3 )
+T25	表 16104 16323	When used correctly , the method demonstrates superior performance in identifying names within traditions with strong morphological regularities , such as Finnish , Greek , Japanese , Vietnamese , or Turkish ( Table 4 )
+T26	引文作者 17487 17495	Archibug
+T27	引文作者 17499 17509	Filippetti
+T28	引文时间 17512 17516	2015
+T29	引文作者 18239 18248	Tanyildiz
+T30	引文时间 18251 18255	2015
+T31	引文作者 18293 18301	Saxenian
+T32	引文时间 18304 18308	2002
+T33	引文作者 18340 18343	Jin
+T34	引文作者 18346 18354	Rousseau
+T35	引文作者 18357 18366	Suttmeier
+T36	引文作者 18371 18374	Cao
+T37	引文时间 18377 18381	2007
+T38	引文作者 18750 18757	Khadria
+T39	引文时间 18760 18764	1999
+T40	研究方法 6313 6474	With this limitation , to assess the effectiveness of the surname‐based identification procedure , we constructed a control dataset using an undersampling method
+T41	研究展望 14900 14993	This article serves as a reference material for further uses of this method in other datasets
+R1	has_cited_time Arg1:T3 Arg2:T2	
+R2	has_cited_time Arg1:T6 Arg2:T5	
+R3	has_cited_time Arg1:T10 Arg2:T9	
+R4	coauthor Arg1:T11 Arg2:T12	
+R5	has_cited_time Arg1:T13 Arg2:T12	
+R6	coauthor Arg1:T14 Arg2:T15	
+R7	coauthor Arg1:T15 Arg2:T16	
+R8	has_cited_time Arg1:T17 Arg2:T16	
+R9	coauthor Arg1:T19 Arg2:T20	
+R10	has_cited_time Arg1:T21 Arg2:T20	
+R11	coauthor Arg1:T26 Arg2:T27	
+R12	has_cited_time Arg1:T28 Arg2:T27	
+R13	has_cited_time Arg1:T30 Arg2:T29	
+R14	has_cited_time Arg1:T32 Arg2:T31	
+R15	coauthor Arg1:T33 Arg2:T34	
+R16	coauthor Arg1:T34 Arg2:T35	
+R17	coauthor Arg1:T35 Arg2:T36	
+R18	has_cited_time Arg1:T37 Arg2:T36	
+R19	has_cited_time Arg1:T39 Arg2:T38	

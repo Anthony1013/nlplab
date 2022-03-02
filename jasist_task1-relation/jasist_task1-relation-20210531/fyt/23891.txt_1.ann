@@ -1,0 +1,87 @@
+T1	时间 0 7	In 2002
+T2	引文作者 1233 1244	Dr. Capurro
+T3	引文作者 1591 1598	Capurro
+T5	引文时间 1622 1626	2003
+T6	引文作者 2302 2313	Dr. Capurro
+T7	引文作者 11175 11182	Capurro
+T8	引文作者 11187 11195	Hjørland
+T9	引文时间 11198 11202	2003
+T10	时间 10978 10990	back to 2003
+T11	引文作者 7894 7897	Ess
+T12	引文时间 7900 7904	2009
+T13	引文作者 7636 7643	Floridi
+T14	引文时间 7646 7650	2008
+T15	引文作者 7663 7666	Ess
+T16	引文时间 7669 7673	2009
+T17	引文作者 2913 2920	Capurro
+T18	引文作者 3222 3235	Matthew Kelly
+T19	引文作者 3240 3252	Jared Bielby
+T20	引文作者 3312 3318	Bielby
+T21	引文作者 3342 3353	Dr. Capurro
+T22	引文作者 3546 3557	Dr. Capurro
+T23	引文作者 3619 3624	Kelly
+T24	引文作者 4072 4079	Capurro
+T25	引文作者 4616 4623	Capurro
+T26	引文作者 4939 4954	Luciano Floridi
+T27	引文作者 4959 4973	Rafael Capurro
+T28	引文作者 5378 5390	David Bawden
+T29	引文作者 5395 5407	Lyn Robinson
+T30	引文作者 5427 5434	Capurro
+T31	引文作者 5988 5994	Popper
+T32	引文作者 5953 5960	Shannon
+T33	引文作者 6015 6022	Capurro
+T34	引文作者 6268 6287	Arun Kumar Tripathi
+T35	引文作者 6298 6302	Ihde
+T36	引文作者 6918 6930	John Burgess
+T37	引文作者 7037 7046	Capurrian
+T38	引文作者 7161 7168	Capurro
+T39	引文作者 7171 7178	Floridi
+T40	引文作者 7438 7445	Floridi
+T41	引文作者 7494 7501	Capurro
+T42	引文作者 7556 7563	Capurro
+T43	引文作者 7572 7579	Floridi
+T44	引文作者 7818 7821	Ess
+T45	引文时间 7824 7828	2009
+T46	引文作者 8315 8330	Christian Fuchs
+T47	引文作者 8358 8365	Capurro
+T48	引文作者 8366 8373	Floridi
+T49	引文作者 8840 8851	Hongladarom
+T50	引文作者 9046 9053	Capurro
+T51	引文作者 9272 9279	Capurro
+T52	引文作者 9686 9693	Capurro
+T53	引文作者 9639 9662	Fernando Flores Morador
+T54	引文作者 9906 9928	Gustavo Silva Saldanha
+T55	引文作者 9978 9985	Germany
+T56	引文作者 9994 10005	Wim Wenders
+T57	引文作者 10460 10474	Bernd Frohmann
+T58	引文作者 10492 10499	Capurro
+T59	引文作者 10528 10539	Paolo Virno
+T60	引文作者 10713 10721	Tripathi
+T61	引文作者 10852 10867	Jonathan Furner
+T62	引文作者 10993 10999	Furner
+T63	引文作者 11012 11019	Cappuro
+T64	引文作者 11024 11032	Hjørland
+T65	引文作者 11309 11315	Furner
+T66	引文作者 11669 11676	Capurro
+T67	引文作者 11603 11617	Joacim Hansson
+T68	引文作者 11622 11635	Vesa Suominen
+T69	引文作者 11788 11793	Fuchs
+T70	引文作者 11954 11974	Thomas Hausmanninger
+T71	引文作者 12296 12303	Capurro
+T72	引文作者 629 643	Rafael Capurro
+T73	引文作者 577 591	Rafael Capurro
+T74	引文作者 1471 1487	Fernanda Ribeiro
+T75	引文作者 1492 1517	Armando Malheiro da Silva
+T4	研究问题 734 753	what is information
+T76	引文作者 6092 6099	Brenner
+T77	引文作者 8024 8036	Heideggerian
+T78	引文作者 9425 9437	John Holgate
+T79	引文作者 9552 9559	Raphael
+T80	引文作者 10313 10321	Saldanha
+T81	研究展望 12670 12800	Librarians are required to take on the role of educators to ensure that students develop a working understanding of these concepts
+R1	has_cited_time Arg1:T5 Arg2:T3	
+R2	has_cited_time Arg1:T45 Arg2:T44	
+R3	has_cited_time Arg1:T14 Arg2:T13	
+R4	has_cited_time Arg1:T16 Arg2:T15	
+R5	coauthor Arg1:T7 Arg2:T8	
+R6	has_cited_time Arg1:T9 Arg2:T8	

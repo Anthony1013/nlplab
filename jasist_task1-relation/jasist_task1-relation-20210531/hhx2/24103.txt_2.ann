@@ -1,0 +1,142 @@
+T1	图 2712 2888	For example , we selected four frames ( specifically , the second , third , fourth , and sixth frames ) from Video 5 ( Figure 3 ) for the analysis of the video‐watching session
+T2	图 6151 6236	The shapes of the plots obtained from both sessions are similar ( Figures 4 and 5 ) .
+T3	引文作者 6498 6502	Luck
+T4	引文时间 6505 6509	2014
+T5	图 6612 6796	The grand‐average ERP waveforms at electrodes Fz and Cz elicited by the irrelevant shots exhibited large negativities peaking at ~350 ms ( N300 ) , followed by a long N400 ( Figure 6 )
+T6	引文作者 7249 7258	Sitnikova
+T7	引文时间 7271 7275	2008
+T8	引文作者 8248 8252	Abdi
+T9	引文时间 8255 8259	2007
+T10	表 8579 8758	Contrary to our expectation , the t‐test results indicated a significant difference in N300 activation in response to the topic‐relevant vs. the topic‐irrelevant shots ( Table 2 )
+T11	表 8887 9066	Contrary to our expectation , the t‐test results indicated a significant difference in N300 activation in response to the topic‐relevant vs. the topic‐irrelevant shots ( Table 2 )
+T12	表 9995 10151	The t‐test results indicate the presence of a clear N400 response and a significant difference in N400 activation between the two types of shots ( Table 3 )
+T13	表 10390 10546	The t‐test results indicate the presence of a clear N400 response and a significant difference in N400 activation between the two types of shots ( Table 3 )
+T14	表 11835 11950	The t‐test results indicated a significant difference in P600 activation between the two types of shots ( Table 4 )
+T15	表 12195 12310	The t‐test results indicated a significant difference in P600 activation between the two types of shots ( Table 4 )
+T16	引文作者 13185 13187	Xu
+T17	引文时间 13197 13201	2014
+T18	引文作者 14325 14329	Yang
+T19	引文时间 14339 14343	2012
+T20	引文作者 15355 15359	West
+T21	引文作者 15364 15371	Holcomb
+T22	引文时间 15374 15378	2002
+T23	引文作者 16100 16109	Sitnikova
+T24	引文作者 16112 16121	Kuperberg
+T25	引文作者 16128 16135	Holcomb
+T26	引文时间 16138 16142	2003
+T27	引文作者 16252 16261	Nieuwland
+T28	引文作者 16266 16272	Martin
+T29	引文时间 16275 16279	2012
+T30	引文作者 16508 16522	Martín‐Loeches
+T31	引文时间 16532 16536	2004
+T32	引文作者 16539 16549	van Berkum
+T33	引文时间 16559 16563	1999
+T34	引文作者 16722 16727	Kutas
+T35	引文作者 16730 16740	Federmeier
+T36	引文时间 16743 16747	2011
+T37	引文作者 16750 16759	Sitnikova
+T38	引文时间 16769 16773	2008
+T39	引文作者 16914 16923	Thornhill
+T40	引文作者 16926 16936	Van Petten
+T41	引文时间 16939 16943	2012
+T42	引文作者 16946 16956	van Berkum
+T43	引文时间 16966 16970	2005
+T44	引文作者 17379 17389	Allegretti
+T45	引文时间 17402 17406	2015
+T46	引文作者 17514 17520	Ruchki
+T47	引文作者 17524 17531	Johnson
+T48	引文作者 17534 17542	Mahaffey
+T49	引文作者 17549 17555	Sutton
+T50	引文时间 17558 17562	1988
+T51	引文作者 17716 17722	DeLong
+T52	引文作者 17725 17731	Quante
+T53	引文作者 17736 17741	Kutas
+T54	引文时间 17744 17748	2014
+T55	引文作者 17751 17756	Geyer
+T56	引文作者 17759 17766	Holcomb
+T57	引文作者 17769 17778	Kuperberg
+T58	引文作者 17783 17793	Perlmutter
+T59	引文时间 17796 17800	2006
+T60	引文作者 18417 18426	Sitnikova
+T61	引文时间 18436 18440	2008
+T62	引文作者 19490 19500	Acqualagna
+T63	引文作者 19503 19512	Blankertz
+T64	引文时间 19515 19519	2013
+T65	引文作者 19522 19528	Seoane
+T66	引文作者 19531 19537	Gabler
+T67	引文作者 19542 19551	Blankertz
+T68	引文时间 19554 19558	2015
+T69	引文作者 20347 20355	Ruotsalo
+T70	引文作者 20358 20365	Jacucci
+T71	引文作者 20368 20377	Myllymäki
+T72	引文作者 20382 20387	Kaski
+T73	引文时间 20390 20394	2015
+T74	引文作者 20508 20515	Mostafa
+T75	引文作者 20518 20525	Gwizdka
+T76	引文时间 20528 20532	2016
+T77	研究方法 8075 8245	We applied a Bonferroni correction , which is an adjustment made to the alpha value when several statistical tests are being performed simultaneously on a single data set
+T78	研究方法 13716 13910	Therefore , we used a cross‐validation method wherein each case was classified by the discriminate function derived from all cases ( 49 cases ) other than that case ( itself ) without a test set
+T79	表 13915 14056	Table 5 presents the results of the classification as a simple summary of numbers and percentages of cases classified correctly and incorrect
+T80	引文的结果 15311 15654	Our results are consistent with a report by West and Holcomb ( 2002 ) , who suggested that N300 and N400 are different components , in that N300 is related to the semantic processing of a nonverbal stimulus , while N400 reflects the activation of a model system integrating both conceptual and image‐based representations into a single context
+T81	引文的结果 16057 16247	This result is similar to that reported by Sitnikova , Kuperberg , and Holcomb ( 2003 ) , who used silent videos as experimental stimuli and observed a frontal‐central scalp pattern for N400
+T82	引文的结果 16252 16400	Nieuwland and Martin ( 2012 ) showed that false sentences elicit larger N400 differences at the posterior electrodes than at the anterior electrodes
+T83	引文的结果 17411 17509	who suggested that a central P600 effect occurs when making relevance judgments for visual stimuli
+T84	引文的研究问题 17514 17668	Ruchkin , Johnson , Mahaffey , and Sutton ( 1988 ) reported that a late frontal positivity is associated with memory retrieval tasks for graphical stimuli
+T85	引文的结果 17673 17874	Meanwhile , multiple linguistics studies ( DeLong , Quante , & Kutas , 2014 ; Geyer , Holcomb , Kuperberg , & Perlmutter , 2006 ) have reported that a posterior P600 occurs for anomalous verbal stimuli
+T86	研究结果 17879 18010	We can thus conclude that our observed anterior P600 is related to the context‐updating process in response to a nonverbal stimulus
+T87	研究方法 18447 18522	We used linear discriminant and ANN analyses to decode video shot relevance
+T88	研究问题 18885 19014	In our experiment , we measured a viewer 's brain activation in response to a visual shot that includes visual and audio elements
+T89	研究结果 18527 18651	We observed that the ANN produced particularly high success rates , 91.3 % from the training set and 100 % from the test set
+T90	引文的结果 19302 19487	Recent research on BCI has demonstrated that stimuli that are being paid attention to as targets can be discriminated based on EEG responses to other stimuli under laboratory conditions
+T91	研究展望 20401 20505	We anticipate that our proposed method can be used to investigate searching and searching behavior tasks
+R1	has_cited_time Arg1:T61 Arg2:T60	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T7 Arg2:T6	
+R4	has_cited_time Arg1:T9 Arg2:T8	
+R5	has_cited_time Arg1:T17 Arg2:T16	
+R6	has_cited_time Arg1:T19 Arg2:T18	
+R7	coauthor Arg1:T20 Arg2:T21	
+R8	has_cited_time Arg1:T22 Arg2:T21	
+R9	results Arg1:T20 Arg2:T80	
+R10	coauthor Arg1:T23 Arg2:T24	
+R11	coauthor Arg1:T24 Arg2:T25	
+R12	has_cited_time Arg1:T26 Arg2:T25	
+R13	results Arg1:T23 Arg2:T81	
+R14	coauthor Arg1:T27 Arg2:T28	
+R15	has_cited_time Arg1:T29 Arg2:T28	
+R16	results Arg1:T27 Arg2:T82	
+R17	has_cited_time Arg1:T31 Arg2:T30	
+R18	has_cited_time Arg1:T33 Arg2:T32	
+R19	field_similar_as Arg1:T32 Arg2:T30	
+R20	coauthor Arg1:T34 Arg2:T35	
+R21	has_cited_time Arg1:T36 Arg2:T35	
+R22	has_cited_time Arg1:T38 Arg2:T37	
+R23	field_similar_as Arg1:T37 Arg2:T34	
+R24	coauthor Arg1:T39 Arg2:T40	
+R25	has_cited_time Arg1:T41 Arg2:T40	
+R26	has_cited_time Arg1:T43 Arg2:T42	
+R27	field_similar_as Arg1:T42 Arg2:T39	
+R28	has_cited_time Arg1:T45 Arg2:T44	
+R29	results Arg1:T44 Arg2:T83	
+R30	coauthor Arg1:T46 Arg2:T47	
+R31	coauthor Arg1:T47 Arg2:T48	
+R32	coauthor Arg1:T48 Arg2:T49	
+R33	has_cited_time Arg1:T50 Arg2:T49	
+R34	produces Arg1:T46 Arg2:T84	
+R35	coauthor Arg1:T51 Arg2:T52	
+R36	coauthor Arg1:T52 Arg2:T53	
+R37	has_cited_time Arg1:T54 Arg2:T53	
+R38	coauthor Arg1:T55 Arg2:T56	
+R39	coauthor Arg1:T56 Arg2:T57	
+R40	coauthor Arg1:T57 Arg2:T58	
+R41	has_cited_time Arg1:T59 Arg2:T58	
+R42	field_similar_as Arg1:T55 Arg2:T51	
+R43	results Arg1:T51 Arg2:T85	
+R44	coauthor Arg1:T63 Arg2:T62	
+R45	results Arg1:T62 Arg2:T90	
+R46	coauthor Arg1:T69 Arg2:T70	
+R47	coauthor Arg1:T70 Arg2:T71	
+R48	coauthor Arg1:T71 Arg2:T72	
+R49	has_cited_time Arg1:T73 Arg2:T72	
+R50	coauthor Arg1:T74 Arg2:T75	
+R51	has_cited_time Arg1:T76 Arg2:T75	

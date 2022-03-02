@@ -1,0 +1,130 @@
+Eye movements and other artifacts were monitored using two electrodes ( vertical and horizontal electro‐oculograms ) , while the other 30 channels were placed on the scalp at locations based on the International 10–20 system . 
+EEG data were analyzed using a 7.09 CURRY program ( Compumedics Neuroscan ) . 
+Noise due to artifacts such as eye movements was removed using a covariance matrix . 
+EEG data from 5 out of the 30 subjects were eliminated from analysis due to sleeping and misunderstanding of the nature of the experiment . 
+The mean values from each participant 's EEG data during the 200 ms before stimulus onset were adjusted to zero as a baseline correction for the participant 's background brainwave . 
+ERP brainwave data were collected during the 1,000 ms after stimulus onset . 
+Thus , EEG data were analyzed primarily over a time period of 1,200 ms ( –200 ms to 1,000 ms ) . 
+We describe below the procedure for analysis of the EEG signals acquired from both topic‐relevance rating and video‐watching sessions . 
+The EEG signals acquired from the topic‐relevance rating session were preprocessed using the 7.09 CURRY program . 
+The preprocessing steps consisted of setting a bandpass filter from 0.1 to 35 Hz , which was applied to remove power‐line noise and extracting epochs from 200 ms before stimulus presentation to 1,000 ms after stimulus presentation . 
+Among the 1,350 epochs ( 54 epochs [ 9 multiplied by 6 ] per participant ) obtained from the 25 participants , 469 epochs were determined to be topic‐relevant , 484 epochs were partially relevant , and 397 epochs were topic‐irrelevant . 
+To obtain the EEG data for video shots observed during active video‐watching , 26 frames were selected out of a total of 54 frames . 
+The frames that appeared in the first part of each video were excluded because we hypothesized that the participants may not have recognized the topic of the video at the beginning . 
+Of the remaining 48 frames , we selected 26 frames with high agreement rates in the topic‐relevance assessments by the 25 participants ; as mentioned before , the 25 participants classified each frame as relevant ( 3 score ) , partially relevant ( 2 score ) , or irrelevant ( 1 score ) by pressing the keys on the computer keyboard . 
+Thus , if the average score of a frame is higher than 2.5 , then the frame was selected as a topic‐relevant frame ; when the average score of a frame was lower than 1.5 , then the frame was selected as a topic‐irrelevant frame . 
+These selected 26 frames ( for instance , four frames for each of four videos and five frames for each of two videos ) were used to identify the corresponding shots in the EEG video data file . 
+For example , we selected four frames ( specifically , the second , third , fourth , and sixth frames ) from Video 5 ( Figure 3 ) for the analysis of the video‐watching session . 
+The EEG signals acquired from the video‐watching session were analyzed using relevance ratings obtained from the relevance‐rating session . 
+Therefore , if a given frame was rated as topic‐relevant in the relevance‐rating session , then we regarded the video shot from which the given frame was extracted as topic‐relevant . 
+Using the same method as that used for the relevance‐rating session , epochs were extracted from 200 ms before to 1,000 ms after the shot presentation . 
+We obtained 650 epochs ( 26 epochs per participant ) from the 25 participants , of which 193 epochs were found to be topic‐relevant , 199 epochs were partially relevant , and 258 epochs were topic‐irrelevant . 
+When considering the two session procedures , we observed an inconsistency between the rating in the relevance‐rating session and that in the video‐watching session . 
+We conducted a discriminant analysis to examine how the relevance ratings match with the real‐time EEG signal waves of the 50 cases obtained while watching a video . 
+Fifty cases were composed of two cases for each of the 25 participants : one case for the mean of the maximum amplitudes of the topic‐relevant epochs and the other case for the mean of the minimum amplitudes of the topic‐irrelevant epochs . 
+We obtained a matching success rate of ~76 % . 
+That is , we determined that the EEG wave patterns of 38 out of 50 cases matched with the corresponding relevance ratings assigned to them later by participants . 
+There may be several causes for this discrepancy . 
+First , participants often do not know exactly what a video is regarding until they watch the video . 
+They may thus ultimately rate a given frame as irrelevant in the topic‐relevance rating session conducted after watching the video even if they thought that the corresponding shot was relevant while they were watching the video . 
+Second , while shots in the video‐watching session contained images , visual motion , and sound , the topic‐relevance rating sessions comprised still images ( frames ) without sound or visual motion . 
+In a standard ERP experiment , an experimental stimulus is presented after a brief presentation of a black screen . 
+This prestimulus period usually occurs 200 ms before the stimulus onset . 
+The background EEG is considered the baseline brain activation and is compared to the signal EEG to calculate the signal‐to‐noise ratio ( SNR ) , which is defined as the ratio of the signal EEG to the background EEG . 
+The background EEG is operationalized as an EEG response with no external stimulus , while the signal EEG is an EEG response after the onset of a stimulus . 
+However , when a video is shown one shot after another , as during natural video viewing , one should consider the issue of the operational definition of the background EEG because there is some residue of the previous shot before the onset of the next shot . 
+To investigate how the insertion of a black screen affects the noise level and SNR of ERP signals , we compared the results of the topic‐relevance rating session , wherein we used a black screen before the shot onset , to that of the video‐watching session , wherein we used the 200 ms prior to each shot boundary as a prestimulus period . 
+The shapes of the plots obtained from both sessions are similar ( Figures 4 and 5 ) . 
+In the relevance‐rating session , the noise level was 0.193 , and the maximum SNR was 25.1 . 
+In contrast , in the video‐watching session the noise was 0.162 , and the maximum SNR was 12.1 . 
+These SNR values were larger than the reasonable level of 10.0 ( Luck , 2014 ) . 
+We conclude that the 200 ms prior to each shot boundary can be used as a pre‐stimulus epoch . 
+The grand‐average ERP waveforms at electrodes Fz and Cz elicited by the irrelevant shots exhibited large negativities peaking at ~350 ms ( N300 ) , followed by a long N400 ( Figure 6 ) . 
+However , ERP waveforms elicited by the relevant shots exhibited small negativities peaking at ~480 ms ( N400 ) . 
+These responses were followed by a positive component peaking at ~600 ms ( P600 ) . 
+We observed that the overall time course of the N400 negativity in response to the irrelevant shots was more prolonged than that typical of N400 responses evoked by abruptly presented written words . 
+This is consistent with the observations of Sitnikova et al . 
+( 2008 ) , who reported that such results are not surprising because incongruous information unfolds over time in dynamic video scenes . 
+The grand‐average ERP waveform at the Pz electrode elicited by the irrelevant video shots had a positivity that peaked at ~270 ms . 
+In contrast , the relevant video shots led to a positivity that peaked at ~360 ms ( P3b ) . 
+This positivity is similar to that observed in response to irrelevant shots but had a longer peak latency and larger amplitude . 
+We performed a repeated‐measures t‐test with a within‐subject factor of topic‐relevance ( 1 : topic‐irrelevant , 3 : topic‐relevant ) to test the three hypotheses . 
+We used only 451 topic‐relevant and topic‐irrelevant shots . 
+Partially relevant shots were excluded due to their vague characteristics . 
+We applied a Bonferroni correction , which is an adjustment made to the alpha value when several statistical tests are being performed simultaneously on a single data set ( Abdi , 2007 ) . 
+We performed 30 comparisons in the current analysis . 
+Therefore , the critical p value used to determine statistical significance was .05 ( the alpha level ) divided by 30 , or .0017 . 
+Hypothesis 4.We aimed to determine whether an N300 effect appears for all video shots and observed clear N300 responses . 
+Contrary to our expectation , the t‐test results indicated a significant difference in N300 activation in response to the topic‐relevant vs. the topic‐irrelevant shots ( Table 2 ) . 
+Hypothesis 4.We aimed to determine whether an N300 effect appears for all video shots and observed clear N300 responses . 
+Contrary to our expectation , the t‐test results indicated a significant difference in N300 activation in response to the topic‐relevant vs. the topic‐irrelevant shots ( Table 2 ) . 
+At the statistical significance level of .01 , brainwave responses with more negative potential were observed in response to the topic‐irrelevant shots than to the topic‐relevant shots at the midline central lobe ( Cz ) . 
+In addition , at the statistical significance level of .05 , more negative potentials were elicited in response to the topic‐irrelevant shots than to the topic‐relevant shots at the right frontal and central regions ( F4 and C4 ) , the midline frontal‐central and right frontal‐central regions ( FCz and FC4 ) , and the midline central‐parietal region ( CPz ) . 
+However , none of these values remained significant after the Bonferroni correction ( p < .0017 ) . 
+Hypothesis 5.We verified the second hypothesis by demonstrating an N400 effect for the topic‐irrelevant shots . 
+More negative ERP signals were elicited in response to the topic‐irrelevant shots than for the topic‐relevant shots . 
+The t‐test results indicate the presence of a clear N400 response and a significant difference in N400 activation between the two types of shots ( Table 3 ) . 
+Hypothesis 5.We verified the second hypothesis by demonstrating an N400 effect for the topic‐irrelevant shots . 
+More negative ERP signals were elicited in response to the topic‐irrelevant shots than for the topic‐relevant shots . 
+The t‐test results indicate the presence of a clear N400 response and a significant difference in N400 activation between the two types of shots ( Table 3 ) . 
+At the statistical significance level of .01 , we observed more negative potentials for the topic‐irrelevant shots than those for the topic‐relevant shots at the midline frontal and right frontal lobes ( Fz and F4 ) , the midline frontal‐central and right frontal‐central regions ( FCz and FC4 ) , the midline central and right central lobes ( Cz and C4 ) , the midline central‐parietal and right central‐parietal lobes ( CPz and CP4 ) , and the right parietal lobe ( P4 ) . 
+At the statistical significance level of .05 , we observed higher negative potentials in response to the topic‐irrelevant shots than those for the topic‐relevant shots at the right prefrontal region ( FP2 ) , the left frontal‐central region ( FC3 ) , the left central region ( C3 ) , the midline parietal and right parietal regions ( Pz and P8 ) , the left central‐parietal region ( CP3 ) , and the right temporal–parietal region ( TP8 ) . 
+The differences in responses at the Cz , C4 , and FC4 remained significant after the Bonferroni correction ( p < .0017 ) . 
+Hypothesis 6.We verified the third hypothesis by demonstrating a P600 effect in response to the topic‐relevant shots . 
+More positive ERP signals were elicited in response to the topic‐relevant shots than to the topic‐irrelevant shots . 
+The t‐test results indicated a significant difference in P600 activation between the two types of shots ( Table 4 ) . 
+Hypothesis 6.We verified the third hypothesis by demonstrating a P600 effect in response to the topic‐relevant shots . 
+More positive ERP signals were elicited in response to the topic‐relevant shots than to the topic‐irrelevant shots . 
+The t‐test results indicated a significant difference in P600 activation between the two types of shots ( Table 4 ) . 
+At the statistical significance level of .01 , more positive potentials were observed in response to the topic‐relevant shots than for the topic‐irrelevant shots at the right frontal lobe ( F4 ) , the midline frontal‐central and right frontal‐central lobes ( FCz and FC4 ) , and the midline central and right central lobes ( Cz and C4 ) . 
+At the statistical significance level of .05 , more positive potentials were observed in response to the topic‐relevant shots than for the topic‐irrelevant shots at the midline frontal region ( Fz ) and the midline central‐parietal lobe ( CPz ) . 
+The differences at the Cz and FC4 remained significant after the Bonferroni correction ( p < .0017 ) . 
+We first used discriminant analysis to classify video shots as relevant or irrelevant because discriminant analyses have been successfully used in EEG signal classification ( Xu et al. , 2014 ) . 
+We used a stepwise discriminant analysis to construct a discriminant function . 
+When performing this type of analysis , one can split a data set into a training set and a test set when there is a sufficiently large number of cases . 
+The training set is used to build a discriminant function , and the test set is used to estimate predictability . 
+We had 50 cases ( two cases for each of the 25 participants ) and aimed to use as many cases as possible to build a more precise discriminant function . 
+Therefore , we used a cross‐validation method wherein each case was classified by the discriminate function derived from all cases ( 49 cases ) other than that case ( itself ) without a test set . 
+Table 5 presents the results of the classification as a simple summary of numbers and percentages of cases classified correctly and incorrectly . 
+The discriminant function was able to correctly classify 76 % of the original grouped cases and 74 % of the cross‐validated grouped cases . 
+Second , we used ANNs because the ANNs are well established in BCI research and have numerous successful applications ( Yang et al. , 2012 ) . 
+For the ANNs , we used 46 cases as a training set and four cases as a test set ; we obtained a classification success rate of 91.3 % from the training set and that of 100 % from the test set . 
+The ANNs produced much higher classification success rates than did the discriminant analysis ; however , conventional ANNs have drawbacks , such as the lack of an explicit input optimization mechanism , and the results of ANN learning are usually not easily interpretable . 
+We examined the integration phase of multimedia comprehension using viewers ' ERP responses to video shots using ERP components , assuming that N300 is specific to the categorization of a video shot ; N400 is specific to the mismatching process for a topic‐irrelevant shot ; and P600 is specific to the context updating process for a topic‐relevant shot . 
+We clearly observed an N300 but found no significant difference between the two types of shots after the Bonferroni correction . 
+Our results are consistent with a report by West and Holcomb ( 2002 ) , who suggested that N300 and N400 are different components , in that N300 is related to the semantic processing of a nonverbal stimulus , while N400 reflects the activation of a model system integrating both conceptual and image‐based representations into a single context . 
+N400 displayed more negative ERP responses to the topic‐irrelevant shots than to the topic‐relevant shots . 
+The differences in N400 amplitude in response to the two different shot types in the frontal‐central and central regions are significant even at a Bonferroni‐corrected alpha level of 0.0017 . 
+The N400 response evoked by visual shot stimuli exhibited a frontal‐central scalp pattern . 
+This result is similar to that reported by Sitnikova , Kuperberg , and Holcomb ( 2003 ) , who used silent videos as experimental stimuli and observed a frontal‐central scalp pattern for N400 . 
+Nieuwland and Martin ( 2012 ) showed that false sentences elicit larger N400 differences at the posterior electrodes than at the anterior electrodes . 
+This is consistent with the posterior N400 distribution observed in multiple linguistics experiments ( Martín‐Loeches et al. , 2004 ; van Berkum et al. , 1999 ) . 
+Thus , it appears that the scalp distribution of the negativity effect evoked by movie scenes is more frontal than that of the N400 response to words ( Kutas & Federmeier , 2011 ; Sitnikova et al. , 2008 ) . 
+Furthermore , the N400 latency ( 350–600 ms ) appears to be longer than that observed in previous linguistic studies ( 300–500 ms ) ( Thornhill & Van Petten , 2012 ; van Berkum et al. , 2005 ) . 
+P600 displayed more positive ERP responses to the topic‐relevant shots than to the topic‐irrelevant shots . 
+The differences in P600 amplitudes were significant between the two types of shots in the frontal‐central and central lobes at a Bonferroni‐corrected alpha level of 0.0017 . 
+The locations of the activated electrodes appear to reflect a fronto‐central P600 effect , similar to the report by Allegretti et al . 
+( 2015 ) , who suggested that a central P600 effect occurs when making relevance judgments for visual stimuli . 
+Ruchkin , Johnson , Mahaffey , and Sutton ( 1988 ) reported that a late frontal positivity is associated with memory retrieval tasks for graphical stimuli . 
+Meanwhile , multiple linguistics studies ( DeLong , Quante , & Kutas , 2014 ; Geyer , Holcomb , Kuperberg , & Perlmutter , 2006 ) have reported that a posterior P600 occurs for anomalous verbal stimuli . 
+We can thus conclude that our observed anterior P600 is related to the context‐updating process in response to a nonverbal stimulus . 
+Considering the findings of our study and those of related studies , we can speculate that an anterior brain area is related to the semantic processing of a nonverbal stimulus , while a posterior brain area is related to that of a verbal stimulus . 
+This assumes that visual stimuli activate graded semantic memory networks that are neuroanatomically distinct from those activated by verbal stimuli ( Sitnikova et al. , 2008 ) . 
+We used linear discriminant and ANN analyses to decode video shot relevance . 
+We observed that the ANN produced particularly high success rates , 91.3 % from the training set and 100 % from the test set . 
+Therefore , we believe that an EEG‐based technique for key‐shot extraction can be developed as a robust and effective method to analyze large data collections . 
+Our proposed method can be utilized to construct a video skim . 
+In our experiment , we measured a viewer 's brain activation in response to a visual shot that includes visual and audio elements . 
+It is thus not clear whether the viewer 's EEG response to the shot was due to its visual content , its audio content , or both . 
+Therefore , our method is more suitable for the production of a video skim rather than the construction of a static storyboard or a speech summary . 
+Recent research on BCI has demonstrated that stimuli that are being paid attention to as targets can be discriminated based on EEG responses to other stimuli under laboratory conditions ( Acqualagna & Blankertz , 2013 ; Seoane , Gabler , & Blankertz , 2015 ) . 
+Our proposed method can be utilized as a guide for the design of a BCI wherein the subject 's cognitive state is captured based on his or her ERP signals during a visual search . 
+For example , to determine a user 's implicit relevance assessment based on her or his ERP signals , the system requires a classification module ( for instance , using ANNs ) wherein the ERP data can be classified as relevant or irrelevant using training data . 
+In cases where a user 's ERP data show highly positive activation over the fronto‐central cortex ( for instance , the P600 effect ) , the system can classify the corresponding image as relevant . 
+The image can then automatically be added as another query image , thus relieving the user from the laborious task of providing feedback ( Ruotsalo , Jacucci , Myllymäki , & Kaski , 2015 ) . 
+We anticipate that our proposed method can be used to investigate searching and searching behavior tasks ( Mostafa & Gwizdka , 2016 ) . 
+In our experiment , the participants were all right‐handed male university students in their twenties . 
+Our study results may thus be subject to certain limitations regarding generalizability to individuals of different age or gender groups . 
+Another limitation regarding the generalizability of this study is that our sample videos are documentaries and educational . 
+Therefore , different genres of videos , such as news and movies , may lead to different results compared with those observed in this study . 
+We developed an ERP‐based method to extract semantically relevant shots from a video using three ERP components : N300 , N400 , and P600 . 

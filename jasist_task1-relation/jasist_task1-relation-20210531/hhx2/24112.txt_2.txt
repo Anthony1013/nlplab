@@ -1,0 +1,49 @@
+In general , the publications in SSH use more historical references and less WoS journal articles . 
+This pattern is stable over a long period ( cf . 
+Heinzkill , 1980 ) . 
+However , a clear difference between the social sciences and humanities is found in this study . 
+Figure 7 shows that social sciences are closer to basic sciences than humanities in terms of their reference patterns . 
+In the sciences , mathematics , geosciences , and physics display reference ageing patterns most similar to the SSH , whereas biosciences , biomedical research and clinical medicines stand on the other side of the ageing spectrum . 
+This is in line with the obsolescence differences between mathematical and social science literatures of prior studies ( Glänzel & Schöpflin , 1999 ) and reflects the finding of Glänzel and Schöpflin ( 1994 ) that the ageing of theoretical papers in the sciences ( e.g. , in mathematics ) are significantly “ slower ” than technology oriented or experimental research papers ( e.g. , in life sciences or engineering ) . 
+Aggregated authored books show very different reference patterns from journal articles in this study , citing more historical references than the other two publication types . 
+In terms of the field difference of four reference indicators , Figure 7 shows that the social sciences are closer to the sciences in aggregated authored books than in journal articles . 
+In other words , the differences between the sciences and the SSH according to the reference‐based indicators are more apparent in journal articles than in monographs . 
+In contrast with aggregated authored books , journal articles own more recent references and more references from serial publications . 
+Edited book chapters are more like journal literature compared to the whole book volumes . 
+These two individual work types have increasing shares of references to WoS journals and decreasing Price Index in most fields during the two observed periods . 
+The trend is generally in accordance with previous studies based only on journal literature ( see Larivière et al. , 2008 ; van Leeuwen , 2013 ) . 
+However ; in terms of the increasing average numbers of references per page over the two periods , the three publication types generally present the same trend which is in line with the observations of other studies of journal literature ( e.g. , Krampen , 2010 ; Marx & Bornmann , 2015 ; Peritz & Bar‐Ilan , 2002 ; Ucar et al. , 2014 ) . 
+In general , in the sciences , most notably , in physics and chemistry , one can observe a larger range of ageing indicator values among the three publication types than in other research areas . 
+One explanation for the reason why the largest ageing differences among publication types occurred in natural sciences is the high share of WoS coverage and journal publications in the fields . 
+According to the report based on a complete publication output data set in the higher education sector of Norway ( Sivertsen & Larsen , 2012 ) , 80 % of Norwegian output in the natural sciences are indexed in the WoS ; 89 % of Norwegian output in the natural sciences are journal articles , whereas 11 % of them are book chapters and 0.4 % are books . 
+The high percentage of journal articles ( especially in WoS ) and low percentage of book publications in the natural sciences are the most striking in all fields in the Norwegian study . 
+The largest gap between the publication amounts of different publication types may affect the results of the reference‐based indicators in this study with a biggest publication type difference across fields . 
+However , the significance of the concordance between these two findings could not be proven . 
+By contrast , the larger range of the measure of scholars ' journal use ( percentage of references to WoS journals ) among the three publication types is shown in the social sciences . 
+According to van Leeuwen ( 2006 ) , the faculties having more WoS publications cite larger shares of references to the indexed journal literature itself . 
+The large variance of referencing behavior in the social sciences is probably related to the distinct publishing behavior of social scientists . 
+For example , the share of journal articles in the social sciences has increased more than 100 % in the period 2000–2009 in a Flemish study while the share of books keeps a relatively stable growth of 35 % in the same fields ( Engels , Ossenblok , & Spruyt , 2012 ; Figure 6 ) . 
+Following the trend of journal‐oriented publication pattern in the social sciences ( see also Chi , 2015 ) , a changing communication behavior of social scientists in favour of citing more journal articles in their journal publications can be found in the largest increase of the share of WoS references over time ( see Figure 3 ) . 
+On the other hand , Figure 3 also shows that when publishing books , social scientists retain the similar behavior as humanists to cite mainly nonserial references , which reflects the stable evolution of books in the Flemish study . 
+All the three publication types have significant medium but negative correlations between the mean age of references and the Price Index ( Glänzel & Schöpflin , 1995 ) . 
+The authors citing more historical references do have a lower chance to have a high proportion of recent references . 
+Both ageing indicators correlate with the share of WoS serials references . 
+Price Index and the share of WoS serials references correlate with each other at a medium level ; the average reference age also has a significant negative correlation with the share of references to WoS journals in all the three publication types . 
+It implies that cited serials references are more recent than cited nonserials references . 
+This medium level correlation is like the finding that the percentage of references in serials has only a small effect on the reference age for journal articles , reported by Glänzel and Schöpflin ( 1999 ) . 
+However , book publications have weaker associations between the two ageing indicators and the share of WOS journal references than journal papers . 
+This could be a result of book authors ' preference of citing historical nonserial references , with low shares of WoS journal references especially in SSH . 
+Aggregated authored books ( monographs ) have significantly different reference patterns from journal articles . 
+Journal article authors cite more recent references and more references from serial publications ; journal articles have stronger correlations between ageing indicators and the share of WoS journal references than monographs . 
+Citing more WoS journal papers does not strongly shorten the reference age of monographs . 
+Thus , the field‐specific differences among reference‐based indicators are more apparent in journal articles than in monographic literature . 
+This difference between publication types suggests a cautious use of bibliometric indicators , that were originally designed for journal articles , in the context of book publications . 
+Furthermore , the difference between the sciences and the SSH is as obvious as the difference between two main publication types . 
+Publications in the sciences use more recent references and more references from WoS journals . 
+The reference‐based indicators in the SSH are as useful as those in the sciences to distinguish field characteristics , especially for revealing the gap between the reference patterns in the sciences and the SSH . 
+Another evident finding is the gap within SSH . 
+The reference patterns of the social sciences are much more similar to science fields than to humanities ( see Figure 7 ) . 
+As discussed in the previous study ( Chi , 2016 ) , humanities has the most distinct citation distributions among all the fields . 
+Its exceptional reference patterns shown in the present study may reveal the cause of the citation patterns reported in Chi ( 2016 ) . 
+Furthermore , the journal papers in the social sciences are more isolated from science fields in Figure 7 than the monographs in the social sciences . 
+These social sciences monographs have similar reference patterns to the monographs in ( theoretical oriented ) basic sciences than those in ( experimental oriented ) life sciences . 

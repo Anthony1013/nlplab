@@ -1,0 +1,89 @@
+Here , the innovation has been recognized and trusted , and adopters are no longer skeptical about the efficiency of the innovation . 
+Scientists no longer care about the technical problems of the innovation , but begin to apply the innovation to solve practical problems in different areas . 
+The type of task which the innovation is originally designed for and the form of the innovation itself are not changed . 
+In our case , more data‐related topics ( topic 27 and topic 28 ) are beginning to emerge at the end of the diffusion . 
+Fading shows that the original innovation is replaced by new ones , which does not occur once , but will constantly circulate along with the stage of implementation . 
+This means that the process of innovation diffusion will not end until an enormous innovation completely replaces the existing methods . 
+As shown in Figure 4a , topic 23 { Image , Semantic , Annotation , Segmentation , PLSA } and topic 29 { Image , Visual , Object , Scene , Feature } start to decline from 2009 to 2011 . 
+This decline is due to neural networks gradually replacing topic modeling in these two topics ( Li , Su , Xing , & Fei‐Fei , 2010 ) . 
+Improvement , which persists throughout the whole diffusion process , refers to enhancing the algorithms and compensating for the deficiencies ( i.e. , determining the number of the topics , and updating the existing parameters ) . 
+Related to methodology improvement and optimization , topic 5 { Inference , Bayesian , Mixture , Probabilistic , Sampling } has always been an important topic in LDA studies . 
+In this growth model , five stages of innovation diffusion exist simultaneously and attach to each other . 
+In other words , when the innovation is being tested , other researchers could also apply it , improve it , and extend it . 
+Note that we do not consider the stage of idea generation because our analysis of the growth process is based on the precondition that the innovation has already formed . 
+First , we need to figure out the key topic of each subject during the diffusion of LDA , that is , we identify how LDA is applied in each subject . 
+According to the introduction to Topic‐Subject matrix in the Methods section , we extract the corresponding topic to each subject with the maximum value in the matrix . 
+As seen in Figure 5 , the left side shows each subject and the right side shows the corresponding topic , from which we can clearly verify the research themes of distinct areas . 
+Topics from different subjects ( left side is subject and right side is topic ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Physical Sciences covers all three kinds of topics : technology‐related , data‐related , and application‐related . 
+Technology‐focused subjects , such as Computer Science and Mathematics , connect with the topic { Inference , Bayesian , Mixture , Probabilistic , Sampling } . 
+Earth and Planetary Science and Materials Science concentrate on the image annotation . 
+Unexpectedly , the results show that Energy is highly related to topic { Media , Twitter , News , Online , Event } . 
+When we take a close look at the original dataset , we find that there are only three Energy papers citing LDA and only one of them adopts LDA , in this case to extract topics in safety reports for maintenance action recommendation ( Das , 2013 ) . 
+Medical informatics has become a big growth area with the increased collaboration between medicine and data mining ( Quackenbush , 2006 ) . 
+In the Health Sciences , Medicine , Nursing , and Health Professions get three relevant topics , which are natural language processing ( technology‐related ) , medical disease ( data‐related ) , and human genes ( data‐related ) . 
+Some of the Health Sciences researchers apply LDA on text data directly , such as health checkup questionnaires ( Hatakeyama et al. , 2015 ) , and others extend LDA to the medical study and knowledge discovery tasks . 
+For example , Wang et al . 
+( 2011 ) described an algorithm called Bio‐LDA that uses extracted biological terminology to automatically identify latent topics , and provides a variety of measures to uncover putative relations among topics and bio‐terms . 
+In Life Sciences ( Agricultural and Biological Sciences , Biochemistry , Genetics and Molecular Biology , Immunology and Microbiology , Pharmacology , Toxicology and Pharmaceutics ) , the main topic is concentrated on the human genome , which refers to { human , expression , gene , functional , urban } . 
+Neuroscience mainly focuses on machine learning‐related topics , and often reveals textual information from the physical point of view while paying more attention to human behavior analysis . 
+For example , to analyze the variations in language based on personality , gender , and age , Schwartz et al . 
+( 2013 ) used 700 million words , phrases , and topic instances collected from the Facebook messages of 75,000 volunteers that give a comprehensive exploration of language and distinguish people and finds connections that are not captured with traditional closed‐vocabulary word‐category analyses . 
+Social Sciences covers the most diverse topics . 
+Opinion mining and sentiment analysis are the most‐related research themes . 
+Arts and Humanities attaches importance to natural language processing ( NLP ) in topic modeling for questions like understanding the history of cognition ( Priva & Austerweil , 2015 ) ; Business , Management and Accounting focuses on analyzing information behavior of online users ; Decision Sciences gives substantial attention to optimization model and algorithm improvements ; Economics , Econometrics , and Finance develops the method of LDA to extract the opinions from user reviews ; and Psychology concentrates on organizing knowledge on a semantic level . 
+In multidisciplinary researches , LDA is usually used in the forecast and foresee applications for the evolution of science and the development of subjects . 
+Overall , the corresponding topics of each subject ( Figure 5 ) provides an in‐depth understanding of the diffusion of innovation . 
+Interdisciplinary works give us opportunities to better understand how an innovation is diffused across disciplinary boundaries . 
+Subjects can be viewed as adopters , and the time they receive an innovation can be expressed in terms of the publication time of the first article citing the innovation . 
+The first article of the subject is likely to be interdisciplinary ; for example , an article assigned into subject A and B . 
+When A has already referenced LDA before B appears , A can be seen as a bridge where LDA diffuses to B . 
+This kind of bridge is not the same as the citation‐based knowledge flow . 
+On one hand , the individual adopter of the innovation , that is , the researcher , determines the source of the innovation‐related information . 
+Scientists may learn LDA by reading literature , listening to lectures , and communicating with other scholars , so we can not determine the channels by which a subject receives LDA . 
+Here , the bridge between subjects that we build represents the path of innovation diffusion . 
+It is also a process of knowledge accumulating . 
+On the other hand , the citation‐based knowledge flows use all citations between subjects , and here we only focus on the diffusion of LDA . 
+We depict the adoption time for different subjects during the LDA 's diffusion ( Figure 6 ) . 
+If the first article of the subject is an interdisciplinary study , we add a bridge between the signed subjects . 
+Subjects are coded with colors representing which subject areas they belong to . 
+A subject timeline for the LDA diffusion . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Interdisciplinary researches form the important intermediary for innovation diffusion . 
+In Figure 6 , most of the subjects first cited LDA are through interdisciplinary researches , except Psychology and Pharmacology , Toxicology and Pharmaceutics . 
+LDA needs to go through the interdisciplinary researches to reach the subjects . 
+In addition , subjects also play an important mediator role in the diffusion of LDA . 
+Computer Science , Mathematics , Engineering and Biochemistry , and Genetics and Molecular Biology build the major branches in this diffusion map . 
+At the very beginning of the diffusion process , innovation spreads out toward the adjacent subjects . 
+Starting from Computer Science , diffusion of LDA goes in sequence through Engineering , Business , Management and Accounting , Mathematics , and Physics and Astronomy , all of which belong to the Physical Sciences . 
+This result is also consistent with previous findings that publications in one discipline tend to cite papers in adjacent disciplines ( van Leeuwen & Tijssen , 2000 ) . 
+The distribution of the adoption time for each subject area is quite dispersed . 
+As shown in Figure 6 , Computer Science and Engineering are the earliest subjects to cite/adopt LDA . 
+Although both Energy and Engineering belong to the Physical Sciences , they first cite LDA in 2003 and 2013 . 
+Similarly , in Life Sciences LDA is first adopted by Agricultural and Biological Sciences in 2004 , and is finally diffused to Pharmacology , Toxicology , and Pharmaceutics in 2012 . 
+The interdisciplinary diffusion order does not therefore depend on whether the subjects directly belong to the same subject areas By combining the subject topics ( Figure 5 ) and adoption times ( Figure 6 ) , one finds that the adoption times for different subjects are relatively adjacent and continuous in years when the subjects have similar research interests . 
+For instance , Computer Science , Engineering , Mathematics , Physics and Astronomy , and Decision Science are mostly related to topic { Inference , Bayesian , Mixture , Probabilistic , Sampling } . 
+Their adoption times are all concentrated in the period from 2003 to 2005 . 
+Similarly , Arts and Humanities , Health Professions , and Social Sciences , which adopt LDA in 2006 and 2007 , are all interested in topic { Language , Natural , Computational , Linguistics , Processing } . 
+The reason behind this phenomenon is that people with similar interests are more likely to operate , communicate , and work together . 
+As innovation diffuses to different disciplines , the disciplinary boundary is broken , and a social network with potentially strong cohesion is established between researchers from different disciplines . 
+Some theories also emphasize that the evolution of disciplines is driven by the formation of social groups of scientists ( Bettencourt , Kaiser , & Kaur , 2009 ; Crane & Kaplan , 1973 ; Guimera , Uzzi , Spiro , & Amaral , 2005 ) . 
+This study analyzed the diffusion of innovation by using LDA citations as a proxy . 
+It highlights the diffusion stages of LDA using topic evolution and examines the cross‐boundary diffusion process between different subjects . 
+First , a topic modeling technique was applied to reveal the topic evolution of innovation between subjects . 
+We further divided the diffusion process of an innovation into five stages , including testing and evaluation , implementation , improvement , extending , and fading . 
+The stages develop simultaneously and attach to each other . 
+These findings thus contribute to the literature on the dynamic phases found in innovation diffusion . 
+Also , topic‐level studies are found to play a critical role in bringing more granular perspectives to the existing co‐occurrence‐based analyses . 
+In summarizing the corresponding topics of each subject , from the adoption time of LDA in different subjects , innovation is seen to first diffuse to adjacent subjects , and then transfers along to others with the evolution of topics . 
+These findings give us a better understanding of the diffusion process through subjects . 
+Furthermore , interdisciplinary researches and subjects both play an intermediary role in innovation diffusion . 
+Here we address some limitations and future work for this study . 
+One limitation is that Scopus is not expected to contain all important scholarly literature , which necessarily underestimates the true amount of citations among a set of journals―compared with biomedical‐related disciplines , social science and humanities may still have an inequitable visibility in Scopus . 
+The limited size of the dataset is also one of the shortcomings . 
+Although focusing on one particular topic such as LDA can give us deeper insights and closer views of the evolution process involved in innovation diffusion and how it transfers into different disciplinary areas , we need more cases to test our stage model 's general explanations on innovation diffusion regarding other innovations . 
+Finally , we only consider the direct citation while ignoring the indirect citations that can also represent the flow of knowledge . 
+There are some articles that adopt the innovation directly but are not indicated in the reference literature , which are also implicit diffusions of innovation . 
+To solve these problems , we need to use content‐based citation analysis to restore a comprehensive diffusion process . 
+Future work will focus on exploring factors that contribute to topic dynamics and patterns of the diffusion of an innovation . 
+This requires further analysis of the background and context of the citations ( e.g. , social network of the authors , and their full texts ) and identifying how LDA has been adopted , transferred , and improved during its diffusion phases . 
+Moreover , the evolution of LDA itself and similar technologies play an important role in the diffusion of innovation , and the interrelationships also need to be further explored . 

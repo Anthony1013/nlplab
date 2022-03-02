@@ -1,0 +1,63 @@
+Rose and Levinson ( 2004 ) described a framework for understanding the underlying goals of user queries , and their experience in using the framework to manually classify queries from a web search engine . 
+Their analysis suggested that navigational queries were less prevalent than generally believed . 
+They also considered that the entries within the transactional class could be classified into more subclasses . 
+Therefore , they replaced the transactional class with the resource class and subdivided the informational class and the resource class into more detailed classes ( Rose & Levinson , 2004 ) . 
+Jansen et al . 
+presented a methodology to classify user queries in terms of a set of characteristics for each category in Broder 's taxonomy . 
+They implemented a classification algorithm and automatically classified 1 million queries from a web search engine log submitted by several hundred thousand users ( Jansen et al. , 2007 , 2008 ; Jansen & Booth , 2010 ) . 
+U. Lee et al . 
+( 2005 ) proposed an approach for query classification by considering the click distribution , the average click frequency of each query , and the anchor text distribution . 
+They only considered two classes : navigational queries and informational queries ( U. Lee , Liu , & Cho , 2005 ) . 
+Herrera et al . 
+( 2010 ) presented a study on the impact of using several features extracted from the document collections and query logs for the query classification task . 
+Kang and Kim ( 2003 ) explored the occurrence patterns of query terms in web pages to detect the goal of a query as either navigational or informational . 
+Instead of classifying queries as informational , navigational , and transactional , the following studies developed classification schemes based on time series patterns . 
+Chien and Immorlica ( 2005 ) utilized temporal correlation to identify sets of similar queries . 
+They suggested that queries with similar frequency patterns were likely to be related ( Chien & Immorlica , 2005 ) . 
+Radinsky et al . 
+( 2012 ) explored how to use time series techniques to model and predict user behavior based on queries over time , including trends , periodicities , and surprises . 
+Shokouhi ( 2011 ) investigated seasonal queries that represent seasonal events that repeat every year ( i.e. , PMBQ queries in this article ) . 
+He focused on detecting seasonal queries using time series analysis technologies ( Shokouhi , 2011 ) . 
+Hong , Lin , and Wang ( 2002 ) used data‐mining techniques to mine browsing patterns from query logs to make rules for web page retrieval . 
+Tseng , Lin , and Chang ( 2008 ) proposed a novel data‐mining algorithm named Temporal N‐Gram ( TN‐Gram ) to discover and predict user navigation patterns by mining the query logs ) . 
+Kulkarni et al . 
+( 2011 ) studied the characteristics of user queries from four aspects by manually analyzing the query logs : the number of spikes , the shapes of the spikes , the periodicity of the queries , and the overall trends in popularity . 
+The following studies explore their own classification schemes . 
+Verberne et al . 
+( 2013 ) carried out similar studies on measuring the reliability of query intent assessments similar to those of Lewandowski , Drechsler , and Mach ( 2012 ) . 
+The difference is that they use a newly defined query classification scheme . 
+Their classification scheme consists of the following dimensions : Topic , Action type , Modus , Source authority sensitivity , Spatial sensitivity , Time sensitivity , and Specificity ( Verberne et al. , 2013 ) . 
+Roy , Katare , Ganguly , Laxman , and Choudhury ( 2015 ) took a deeper look at queries , focusing on individual words as possible indicators of user intent . 
+Their query term taxonomy was derived through rigorous manual analysis of large query logs ( Roy et al. , 2015 ) . 
+Jones and Diaz ( 2007 ) noted that temporal properties of queries can be used to diagnose the quality of the retrieval . 
+They presented three temporal classes of queries : atemporal queries , temporally unambiguous queries , and temporally ambiguous queries ( Jones & Diaz , 2007 ) . 
+Metzler et al . 
+( 2009 ) investigated implicitly year‐qualified queries that do not actually contain a year , but the user might have implicitly formulated the query with a specific year in mind . 
+Asur and Buehrer ( 2009 ) studied temporal signatures of three different types of queries , Navigational , Adult , and News queries , and proposed a method to classify a query into these three types by considering the trends in the queries ' time series . 
+Dakka , Gravano , and Ipeirotis ( 2008 ) proposed a framework for handling time‐sensitive queries and automatically identifying the important time intervals that were likely to be of interest for a query . 
+Bhatia , Brunk , and Mitra ( 2012 ) presented an analysis of the query logs from a commercial web search engine and studied the web search queries for their diversification requirements . 
+They analyzed queries based on click entropy and popularity , and proposed a query taxonomy based on their diversification requirements . 
+They then automatically classified web search queries into one of the classes of their proposed taxonomy ( Bhatia et al. , 2012 ) . 
+Y. Chang , He , Yu , and Lu ( 2006 ) analyzed user goals from the viewpoint of natural language processing . 
+They assumed that the subject of the hidden sentence in the user 's mind was the user himself and that the combined pair of the verb and object was called “ VOpair. ” Given a query , they attempted to identify the user 's goal ( VOpair ) from the web search results . 
+Y.J . 
+Lee , Lee , Chai , Hwang , and Ryu ( 2009 ) proposed a new temporal data‐mining technique that could extract temporal interval relation rules from temporal interval data using Allen 's theory ( Y.J . 
+Lee et al. , 2009 ) . 
+They also investigated a relatively unexamined query type : queries composed of URLs . 
+The extents , variations , and user click‐through behaviors were examined to determine the intents behind URL queries ( Lee & Sanderson , 2010 ) . 
+Nunes , Ribeiro , and David ( 2008 ) investigated the use of temporal expressions in web queries . 
+They found that temporal expressions were scarcely used in the queries , except for some specific topics such as Autos , Sports , News , and Holidays ( Nunes et al. , 2008 ) . 
+Although many studies have investigated the characteristics of user queries , to our knowledge , none of them studied the problem from the perspective employed in this article . 
+Generally , the differences between our study and existing studies are threefold : First , we use a different classification scheme whereas most existing studies have focused on Broder 's classification scheme or its variation . 
+Second , the most relevant study was performed by Kulkarni et al . 
+( 2011 ) . 
+However , they did not propose an automatic detection approach . 
+Third , although Shokouhi ( 2011 ) proposed an automatic detection approach , he only focused on seasonal queries ( i.e. , PMBQ ) using time series analysis technologies . 
+In this article , we study the problem of how to detect the temporal patterns of user queries . 
+We propose a query classification method to solve this problem . 
+Moreover , for the queries in which we can not determine their frequency curves due to a lack of data recorded in query logs , we propose two approaches to approximate their time series curves from the document data sets . 
+Our work can help to better understand query intents and to further improve the performance of search engines . 
+In future work , we will explore more features for temporal‐pattern‐based query classification . 
+In particular , we will explore features contained in web pages so that we can detect the pattern types as soon as possible . 
+For example , we hope to predict OBQ‐type queries tbefore the search volume increases sharply ( i.e. , in the early stages of events ) . 
+We also plan to study how different temporal patterns can be used to construct a retrieval model to improve the performance of information retrieval . 

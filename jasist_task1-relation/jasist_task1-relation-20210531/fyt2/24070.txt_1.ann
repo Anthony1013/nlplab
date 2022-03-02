@@ -1,0 +1,273 @@
+T1	引文作者 992 998	Julien
+T2	引文作者 1001 1006	Leide
+T3	引文时间 1100 1104	2013
+T4	引文作者 1011 1022	Bouthillier
+T5	引文时间 1025 1029	2008
+T6	引文作者 1032 1043	Lechtenfeld
+T7	引文作者 1046 1050	Fuhr
+T8	引文时间 1053 1057	2012
+T9	引文作者 1060 1063	Liu
+T10	引文作者 1066 1073	Barlowe
+T11	引文作者 1076 1080	Feng
+T12	引文作者 1083 1087	Yang
+T13	引文作者 1092 1097	Jiang
+T14	引文作者 1111 1114	Liu
+T15	引文时间 1127 1131	2013
+T16	引文时间 1479 1483	2013
+T17	引文作者 1470 1476	Hoeber
+T18	引文作者 2417 2426	Wildemuth
+T19	引文时间 2429 2433	2004
+T20	引文作者 2336 2345	Hsieh‐Yee
+T21	引文时间 2348 2352	1993
+T22	引文作者 2355 2360	Shiri
+T23	引文作者 2363 2368	Revie
+T24	引文时间 2371 2375	2003
+T25	引文作者 2378 2385	Vakkari
+T26	引文作者 2388 2396	Pennanen
+T27	引文作者 2401 2407	Serola
+T28	引文时间 2410 2414	2003
+T29	引文作者 2580 2587	Parsons
+T30	引文作者 2590 2595	Sedig
+T31	引文时间 2598 2602	2014
+T32	引文作者 2605 2613	Sihvonen
+T33	引文作者 2616 2623	Vakkari
+T34	引文时间 2626 2630	2004
+T35	引文作者 4012 4021	Robertson
+T36	引文时间 4024 4028	2001
+T37	引文作者 4443 4448	Rossi
+T38	引文作者 4451 4457	Lipsey
+T39	引文作者 4462 4469	Freeman
+T40	引文时间 4472 4476	2004
+T41	引文作者 4721 4723	Wu
+T42	引文作者 4726 4733	Vakkari
+T43	引文时间 4736 4740	2014
+T44	引文作者 5835 5838	Ahn
+T45	引文作者 5841 5852	Brusilovsky
+T46	引文时间 5855 5859	2013
+T47	引文作者 5862 5869	Manning
+T48	引文作者 5872 5880	Raghavan
+T49	引文作者 5885 5893	Schüutze
+T50	引文时间 5896 5900	2008
+T51	引文作者 6140 6143	Ahn
+T52	引文作者 6146 6157	Brusilovsky
+T53	引文时间 6160 6164	2013
+T54	引文作者 6167 6173	Hearst
+T55	引文时间 6176 6180	2009
+T56	引文时间 6713 6717	2001
+T57	引文作者 6696 6699	Heo
+T58	引文作者 6704 6710	Hirtle
+T59	引文时间 7393 7397	2004
+T60	引文作者 7382 7390	Beaulieu
+T61	引文作者 7366 7375	Sanderson
+T62	引文作者 7359 7363	Joho
+T63	软件工具 7414 7485	CiQuest ( Concept‐based Interactive QUery Expansion Support Tool ) tool
+T64	引文时间 8087 8091	2008
+T65	引文作者 8080 8084	Jose
+T66	引文作者 8071 8075	Joho
+T67	引文时间 8769 8773	2012
+T68	引文作者 8757 8766	Hemminger
+T69	引文作者 8745 8752	Ramdeen
+T70	引文时间 9485 9489	2013
+T71	引文作者 9471 9482	Brusilovsky
+T72	引文作者 9463 9466	Ahn
+T73	引文时间 10339 10343	2014
+T74	引文作者 10314 10326	Kangasrääsiö
+T75	引文作者 10982 10987	Kaski
+T76	引文作者 10966 10975	Myllymaki
+T77	引文作者 10956 10963	Jacucci
+T78	引文作者 10945 10953	Ruotsalo
+T79	引文时间 10990 10994	2015
+T80	引文时间 11606 11610	2004
+T81	引文作者 11596 11603	Vakkari
+T82	引文作者 11583 11591	Sihvonen
+T83	引文时间 12629 12633	2008
+T84	引文作者 12610 12616	Duggan
+T85	引文作者 12621 12626	Payne
+T86	引文时间 13765 13769	2010
+T87	引文作者 13760 13762	Fu
+T88	引文作者 13751 13755	Kang
+T89	引文时间 15233 15237	2016
+T90	引文作者 15225 15230	Huang
+T91	引文作者 15213 15218	Zhang
+T92	引文作者 15207 15210	Liu
+T93	引文作者 17121 17128	Vakkari
+T94	引文作者 17116 17118	Wu
+T95	引文时间 17131 17135	2014
+T96	图 18298 18438	Three tabs are present in the WNavi S interface : a TM , a topic‐based HT , and Wikipedia , as shown in Figures 2 , 3 , and 4 , respectively
+T97	图 16524 16660	As shown in Figure 1 , we briefly introduce the system framework for the IV tools that support Wikipedia searches and knowledge learning
+T98	图 18443 18496	Figure 2 shows the use of a TM ( ① ) on the first tab
+T99	图 18664 18741	Finally , the third tab shows the Wikipedia page ( ⑤ ) , as shown in Figure 4
+T100	图 18501 18659	In addition , a topic‐based HT ( ② ) is shown in the second tab ( ④ ) of the interface to provide users with an overview of the network , as shown in Figure 3
+T101	表 19042 19205	After receiving user feedback , we use algorithms to analyze the topic network ( TM ) by SNA methods—that is , centrality and cohesive measures—as shown in Table 1
+T102	引文时间 19639 19643	2011
+T103	引文作者 19634 19636	Wu
+T104	引文作者 19629 19631	Wu
+T105	引文作者 19612 19619	Vakkari
+T106	引文作者 19607 19609	Wu
+T107	引文时间 19622 19626	2014
+T108	图 20240 20325	Figure 5 shows the use of a topic map ( ① ) is on the first tab ( ② ) , as in WNavi S
+T109	图 20101 20235	In this interface there are three tabs : a TM , a topic‐based HT , and Wikipedia , as shown on the left sides of Figures 2 , 3 , and 4
+T110	图 20330 20495	Specifically , users select the related topic ( blue nodes ) to generate suggested terms ( ⑦ ) , which they then use to execute a search ( ④ ) , as shown in Figure 5
+T111	图 19874 20096	[ Color figure can be viewed at wileyonlinelibrary.com ] We extend the WNavi S interface by adding a search function and a term suggestion option to implement the WikiMap+ interface , as shown in the right side of Figure 4
+T112	研究问题 586 857	The current study examines to what extent the use of information visualization ( IV ) tools and search tools contributes to the successful identification of information and exploration of topics in various search tasks for users with different levels of subject knowledge
+T113	引文的结果 862 989	Knowledge ( graph ) map construction and clustering are important techniques to develop IV tools , as shown in previous studies
+T114	引文的研究问题 1209 1333	investigate how cluster‐based exploratory visualization systems ( EVSs ) support information seeking in large news documents
+T115	引文的方法 1134 1205	proposed an evaluation framework based on cognitive load theory ( CLT )
+T116	引文的结果 1338 1465	The results reveal that users provide considerable and useful feedback on the information organization in clustering‐based EVSs
+T117	引文的方法 1538 1588	through the use of lightweight visual enhancements
+T118	引文的研究问题 1486 1537	conducted a longitudinal study of HotMap web search
+T119	引文的结果 1486 1831	conducted a longitudinal study of HotMap web search through the use of lightweight visual enhancements to the list‐based representation of web search results ; their real‐world user evaluation study yields a deeper understanding of how a specific novel visual feature and interactive web search interface is used for online information retrieval
+T120	研究问题 2035 2156	Our study analyzes how IV tools support users during the search process and how this support is related to search outcome
+T121	引文的结果 2161 2333	Some studies show that the interaction between users and information retrieval systems depends on user subject knowledge , that is , what they know about the search subject
+T122	引文的结果 2440 2577	Results on the use of IV tools and related means suggest that experts benefit more from these tools in searching as compared with novices
+T123	研究问题 3391 3477	In this study , we explore how the features of IV tools help novices and intermediates
+T126	研究问题 3058 3225	In this study , we design and evaluate multiple IV tools to support search from multiple information sources , such as encyclopedia‐based websites and search engines .
+T124	研究问题 3228 3386	We analyze how the level of searcher subject knowledge is associated with the use of these tools and , consequently , with the search process and task outcome
+T125	引文的结果 3843 4009	In problem solving , intermediates fall between novices and experts ; although they possess a good deal of knowledge , it is not as well structured as that of experts
+T127	软件工具 4207 4215	WikiMap+
+T130	研究问题 4747 5069	The research problems of this work focus mainly on the effects of the proposed interfaces on different levels of subject knowledge : How the level of user subject knowledge—that is , novices and intermediates—is associated with the use of IV tools and the search tool , and consequently with the search process and outcome
+T131	研究方法 5262 5384	We conduct a series of evaluations to observe the user search process and outcomes to measure effectiveness and efficiency
+T132	研究方法 5389 5492	We introduce the Gain indicator to show the relative value of benefit ( correctness ) and cost ( time )
+T135	引文作者 6543 6549	Hearst
+T136	引文时间 6552 6556	2009
+T138	引文的研究问题 6720 6949	conducted an empirical study on the effects of different sizes of web spaces and different web visualization techniques—that is , distortion , zoom , or expanding outline techniques—on participants during information search tasks
+T139	引文的结果 6954 7209	They analyzed the results in terms of accuracy and response time , showing that general participants using the expanding outline tool outperform those using other tool groups ; the worst‐performing participants utilize zoom techniques for the search tasks
+T141	引文的方法 7400 7574	developed the CiQuest ( Concept‐based Interactive QUery Expansion Support Tool ) tool , integrated into the Okapi system to support information access in interactive searches
+T140	引文的研究问题 8094 8231	conducted a comparative evaluation of textual and visual forms of document representation as additional components of document surrogates
+T142	引文的结果 8585 8663	The results showed that poly‐representation helped searchers formulate queries
+T143	引文的研究问题 8776 8993	conducted a user study to investigate how a facet‐based search interface ( TextFacet ) affects the library catalog search experience of novice users compared with the traditional library catalog ( TextOnly ) interface
+T144	引文的研究问题 9012 9108	how user performance and preferences differ between the TextOnly and TextFacet search interfaces
+T145	引文的方法 9109 9228	by using three common task types ( known , partially known , and exploratory ) in terms of time , accuracy , and rating
+T146	引文的结果 9233 9390	The evaluation results showed that the participants need less time to answer questions using the TextFacet interface and feel more confident in their answers
+T147	引文的结果 9395 9458	Moreover , 36 of 40 participants prefer the TextFacet interface
+T148	引文的结果 9492 9595	proposed adaptive VIBE , a system that supports visualization‐based and personalized exploratory search
+T149	引文的结果 10346 10436	presented Intent Radar , a visual interface for organizing intents onto a radial interface
+T150	引文的方法 10997 11161	used interactive intent modeling to enhance human information exploration through visualization , and adapt scientific principles to accomplish complex search tasks
+T152	引文的结果 11431 11578	The results showed that SciNet significantly improves user task performance and increases the recall of novel information without loss of precision
+T153	引文的研究问题 11613 11810	explored how domain experts and novices in pedagogics search for information when using the ERIC thesaurus to improve interactive query expansion , and to what extent they found relevant references
+T154	引文的结果 12122 12258	Their results showed that experts exploit the terminological information provided by the thesaurus to improve their search effectiveness
+T155	引文的结果 12263 12396	They note that interactive query expansion does not seem to help novices to formulate queries and achieve better search effectiveness
+T156	引文的研究问题 12636 12716	explored how domain knowledge affects search behavior and performance on the web
+T157	引文的结果 13422 13746	Their results revealed that participant domain knowledge positively influences search scores , and showed that participants with greater domain knowledge spend less time on each webpage , use shorter queries , and thus complete more effective searches regardless of whether they know the answers before they searched the web
+T158	引文的研究问题 13772 13907	compared the search behavior of domain novices and experts when exploring information using a search engine and a social tagging system
+T159	引文的结果 14155 14263	From users ’ self‐reported domain knowledge , they found significant differences between experts and novices
+T160	引文的结果 14646 14807	The evaluation revealed that experts use keyword‐based queries and rely more on their domain knowledge in searching , whereas novices used more tag‐based queries
+T161	引文的结果 14812 14958	Interestingly , in delicious.com , the social tagging system , experts tended to share more tags and agree with each other more often than novices
+T162	引文的研究问题 15240 15375	examined the effects of objective task difficulty and domain knowledge ( i.e. , the medical domain ) on user query formulation behavior
+T128	软件工具 5218 5226	WikiMap+
+T129	软件工具 5206 5211	WNavi
+T133	软件工具 7692 7699	CiQuest
+T134	引文的结果 10694 10926	They conducted a study with 30 users to compare the interface with a simpler list‐based interface , showing that the visual interface helps users to find relevant , better‐quality , and novel information and improve task performance
+T137	表 19388 19535	Table 1 lists the labels used in association with SNA indicators using different colors and shapes to represent nodes based on the analyzed results
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	results Arg1:T1 Arg2:T113	
+R3	coauthor Arg1:T2 Arg2:T4	
+R4	has_cited_time Arg1:T5 Arg2:T4	
+R5	coauthor Arg1:T6 Arg2:T7	
+R6	has_cited_time Arg1:T8 Arg2:T7	
+R7	coauthor Arg1:T9 Arg2:T10	
+R8	coauthor Arg1:T10 Arg2:T11	
+R9	coauthor Arg1:T11 Arg2:T12	
+R10	coauthor Arg1:T12 Arg2:T13	
+R11	has_cited_time Arg1:T3 Arg2:T13	
+R12	field_similar_as Arg1:T1 Arg2:T6	
+R13	field_similar_as Arg1:T6 Arg2:T9	
+R14	has_cited_time Arg1:T15 Arg2:T14	
+R15	uses Arg1:T14 Arg2:T115	
+R16	produces Arg1:T14 Arg2:T114	
+R17	has_cited_time Arg1:T16 Arg2:T17	
+R18	produces Arg1:T17 Arg2:T118	
+R19	uses Arg1:T17 Arg2:T117	
+R20	results Arg1:T17 Arg2:T119	
+R21	results Arg1:T20 Arg2:T121	
+R22	has_cited_time Arg1:T21 Arg2:T20	
+R23	coauthor Arg1:T22 Arg2:T23	
+R24	has_cited_time Arg1:T24 Arg2:T23	
+R25	coauthor Arg1:T25 Arg2:T26	
+R26	coauthor Arg1:T26 Arg2:T27	
+R27	has_cited_time Arg1:T28 Arg2:T27	
+R28	has_cited_time Arg1:T19 Arg2:T18	
+R29	field_similar_as Arg1:T20 Arg2:T22	
+R30	field_similar_as Arg1:T22 Arg2:T25	
+R31	field_similar_as Arg1:T25 Arg2:T18	
+R32	coauthor Arg1:T29 Arg2:T30	
+R33	results Arg1:T29 Arg2:T122	
+R34	has_cited_time Arg1:T31 Arg2:T30	
+R35	coauthor Arg1:T32 Arg2:T33	
+R36	has_cited_time Arg1:T34 Arg2:T33	
+R37	field_similar_as Arg1:T29 Arg2:T32	
+R38	has_cited_time Arg1:T36 Arg2:T35	
+R39	results Arg1:T35 Arg2:T125	
+R40	coauthor Arg1:T37 Arg2:T38	
+R41	coauthor Arg1:T38 Arg2:T39	
+R42	has_cited_time Arg1:T40 Arg2:T39	
+R43	coauthor Arg1:T41 Arg2:T42	
+R44	has_cited_time Arg1:T43 Arg2:T42	
+R45	coauthor Arg1:T44 Arg2:T45	
+R46	has_cited_time Arg1:T46 Arg2:T45	
+R47	coauthor Arg1:T47 Arg2:T48	
+R48	coauthor Arg1:T48 Arg2:T49	
+R49	has_cited_time Arg1:T50 Arg2:T49	
+R50	coauthor Arg1:T51 Arg2:T52	
+R51	has_cited_time Arg1:T53 Arg2:T52	
+R52	has_cited_time Arg1:T55 Arg2:T54	
+R53	field_similar_as Arg1:T51 Arg2:T54	
+R54	field_similar_as Arg1:T44 Arg2:T47	
+R55	has_cited_time Arg1:T136 Arg2:T135	
+R56	coauthor Arg1:T57 Arg2:T58	
+R57	has_cited_time Arg1:T56 Arg2:T58	
+R58	produces Arg1:T57 Arg2:T138	
+R59	results Arg1:T57 Arg2:T139	
+R60	uses Arg1:T62 Arg2:T141	
+R61	coauthor Arg1:T62 Arg2:T61	
+R62	coauthor Arg1:T61 Arg2:T60	
+R63	has_cited_time Arg1:T59 Arg2:T60	
+R64	coauthor Arg1:T66 Arg2:T65	
+R65	has_cited_time Arg1:T64 Arg2:T65	
+R66	produces Arg1:T66 Arg2:T140	
+R67	results Arg1:T66 Arg2:T142	
+R68	coauthor Arg1:T69 Arg2:T68	
+R69	has_cited_time Arg1:T67 Arg2:T68	
+R70	produces Arg1:T69 Arg2:T143	
+R71	produces Arg1:T69 Arg2:T144	
+R72	uses Arg1:T69 Arg2:T145	
+R73	results Arg1:T69 Arg2:T146	
+R74	results Arg1:T69 Arg2:T147	
+R75	coauthor Arg1:T72 Arg2:T71	
+R76	has_cited_time Arg1:T70 Arg2:T71	
+R77	results Arg1:T72 Arg2:T148	
+R78	has_cited_time Arg1:T73 Arg2:T74	
+R79	results Arg1:T74 Arg2:T149	
+R80	results Arg1:T74 Arg2:T134	
+R81	coauthor Arg1:T78 Arg2:T77	
+R82	coauthor Arg1:T77 Arg2:T76	
+R83	coauthor Arg1:T76 Arg2:T75	
+R84	has_cited_time Arg1:T79 Arg2:T75	
+R85	uses Arg1:T78 Arg2:T150	
+R86	coauthor Arg1:T82 Arg2:T81	
+R87	has_cited_time Arg1:T80 Arg2:T81	
+R88	results Arg1:T78 Arg2:T152	
+R89	produces Arg1:T82 Arg2:T153	
+R90	results Arg1:T82 Arg2:T154	
+R91	results Arg1:T82 Arg2:T155	
+R92	coauthor Arg1:T84 Arg2:T85	
+R93	has_cited_time Arg1:T83 Arg2:T85	
+R94	produces Arg1:T84 Arg2:T156	
+R95	results Arg1:T84 Arg2:T157	
+R96	coauthor Arg1:T88 Arg2:T87	
+R97	has_cited_time Arg1:T86 Arg2:T87	
+R98	produces Arg1:T88 Arg2:T158	
+R99	results Arg1:T88 Arg2:T159	
+R100	results Arg1:T88 Arg2:T160	
+R101	results Arg1:T88 Arg2:T161	
+R102	coauthor Arg1:T92 Arg2:T91	
+R103	coauthor Arg1:T91 Arg2:T90	
+R104	has_cited_time Arg1:T89 Arg2:T90	
+R105	produces Arg1:T92 Arg2:T162	
+R106	coauthor Arg1:T94 Arg2:T93	
+R107	has_cited_time Arg1:T95 Arg2:T93	
+R108	coauthor Arg1:T106 Arg2:T105	
+R109	has_cited_time Arg1:T107 Arg2:T105	
+R110	coauthor Arg1:T104 Arg2:T103	
+R111	has_cited_time Arg1:T102 Arg2:T103	
+R112	field_similar_as Arg1:T106 Arg2:T104	

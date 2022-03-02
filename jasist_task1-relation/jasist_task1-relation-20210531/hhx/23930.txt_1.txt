@@ -1,0 +1,130 @@
+Detecting emerging research topics is useful for research foundations and policy makers aiming to promote and enhance the development of potentially promising research topics . 
+Evidence for the importance of identifying emerging research topics can be found in recent research projects . 
+For instance , the European Research Council ( ERC ) supported Emerging Research Areas and their Coverage by ERC‐Supported Projects ( ERACEP ) to identify emerging areas by topic and to analyze the extent to which ERC‐funded projects contributed to these emerging areas in 2009 ( Reiss , Vignola‐Gagne , Kukk , Glänzel , & Thijs , 2013 ) . 
+In addition , as discussed by Small , Boyack , and Klavans ( 2014 ) , the Intelligence Advanced Research Projects Activity ( IARPA ) funded Foresight and Understanding from Scientific Exposition ( FUSE ) in 2011 , one of the main purposes of which is to nominate emerging technologies . 
+In the light of current policy orientations , numerous studies have proposed definitions and methodologies designed to comprehend , define , and detect emerging topics ( e.g. , Glänzel & Thijs , 2012 ; Small , 2006 ; Small et al. , 2014 ) . 
+However , Cozzens et al . 
+( 2010 ) point out that most studies actually focus on the measurement of emerging research topics rather than the identification of these topics . 
+In terms of measurement , they observe that “ most of the quantitative studies of emerging technologies have taken the results of qualitative processes as a starting point , and characterized pre‐identified areas quantitatively ” ( p. 367 ) . 
+Although these types of studies are useful for understanding the attributes of an emerging topic , they can not satisfy the requirements of policy makers and funding agencies , who are more interested in discovering and revealing emerging research topics . 
+However , only a few studies have proposed methodologies that aim to fulfill this purpose ( e.g. , Reiss et al. , 2013 ; Small et al. , 2014 ) . 
+Regarding the definition of emergence , a recent paper by Rotolo , Hicks , and Martin ( 2015 ) systematically reviews various relevant definitions and major empirical approaches for the measurement and identification of emerging technologies . 
+These researchers acknowledge that although many concepts exist , the fundamental attributes of an emerging technology remain ambiguous , and the connections between definitions and the approaches that have been created are fragile . 
+They further indicate that although a wide variety of bibliometric indicators have been developed , bibliometric methods for the identification of emerging technologies generally “ lack strong connections to well thought out concepts that one is attempting to measure ” ( p. 1827 ) . 
+This conclusion is in line with those of Cozzens et al . 
+( 2010 ) and Small et al . 
+( 2014 ) , who also indicate that the concept of emergence is seldom defined even though the term is widely used . 
+The present study is in agreement with the opinions that the definition and attributes of an emerging topic are still ambiguous and that linkages between concepts and proposed indicators for operationalization are not well established . 
+This lack of clarity is in fact a general limitation of studies that intend to identify emerging topics . 
+To address this limitation , this study first adjusts the definition of an emerging technology that Rotolo et al . 
+( 2015 ) have proposed and develops a nuanced conception of what constitutes an emerging research topic . 
+Next , in accordance with this definition and carefully delineated attributes of emergence , a set of criteria for the identification of emerging topics is proposed . 
+This new approach is applied to research topics that are established using direct citation relations of individual publications by employing two sets of parameter values , and hence , several emerging topics are identified . 
+Finally , evaluation tests are conducted by demonstrating the proposed approach and comparing it with the results from previous studies . 
+The present study is more focused on the construction of connections between the concept of an emerging research topic and the indicators that have been created for identifying these topics . 
+Previous studies have proposed many methods for identifying emerging research topics , including both qualitative and quantitative measures . 
+Some have focused on the identification of emerging technologies ( e.g. , Cozzens et al. , 2010 ; Rotolo et al. , 2015 ) rather than of emerging research topics , as this study does on topics relating to science . 
+Although there is some overlap between technologies and research topics , they remain distinct concepts . 
+Rotolo et al . 
+( 2015 ) point out that although the importance of science for the development of technologies is widely acknowledged , “ not all technological revolutions may depend on breakthrough advances in science ” ( p. 1832 ) . 
+The discussion presented here is not , however , confined to emerging research topics ; some studies on the identification of emerging technologies are also reviewed . 
+Further , our focus is on the studies that have used quantitative approaches for the detection of emergence , especially those that are bibliometric‐based . 
+Within this scope , previous studies generally consist of two steps : constructing clusters of individual publications based on the direct citations among them , and then creating criteria to identify emerging research topics . 
+First , it should be mentioned that journal classification systems , such as Web of Science ( WoS ) and Scopus , are always coarse‐grained . 
+It is difficult to observe the dynamics of science using such systems . 
+For this reason , most studies on the identification of emerging topics establish a fine‐grained classification system at the outset . 
+Various types of relations among publications can be used to establish research topics , such as citation‐based , text‐based , and hybrid approaches . 
+In the case of text‐based approaches , some studies have established clusters based on the co‐occurrence of terms ( e.g. , Furukawa , Mori , Arino , Hayashi , & Shirakawa , 2015 ; Lee , 2008 ; see also Rotolo et al. , 2015 , p. 1834 ) . 
+In the case of citation‐based approaches , different citation relations , for instance direct citation relations ( e.g. , Kajikawa & Takeda , 2008 ; Kajikawa , Yoshikawa , Takeda , & Matsushima , 2008 ; Shibata , Kajikawa , Takeda , & Matsushima , 2008 ; Shibata , Kajikawa , Takeda , Sakata , & Matsushima , 2011 ) , bibliographic coupling relations ( e.g . 
+Morris , Yen , Wu , & Asnake , 2003 ) , and cocitation relations ( e.g . 
+Small , 2006 ; Upham & Small , 2010 ) , can all be used to aggregate publications . 
+Furthermore , Small et al . 
+( 2014 ) have combined cocitation and direct citation clustering methods into a large‐scale data set for detecting emerging topics . 
+In the case of hybrid approaches , Chen ( 2006 ) has established research topics using a combination of cocited relations and term‐based techniques to analyze emerging trends in the topics of mass extinction and terrorism as well as regenerative medicine ( Chen , Hu , Liu , & Tseng , 2012 ) . 
+Similarly , Glänzel and Thijs ( 2012 ) and Reiss et al . 
+( 2013 ) have assembled publications using a combination of bibliographic coupling and term‐based approaches . 
+In addition to these clustering‐based approaches , some new methods have also been applied . 
+For instance , Yan ( 2014 ) has created research topics using a topic modeling technique in which topics are not created by the aggregation of publications ; rather , each publication has a probability distribution over the generated topics . 
+The next step for identifying emerging research topics is to create indicators according to the definition and attributes of emergence . 
+Our study divides the proposed indicators into five types on the basis of employed analytical methods . 
+The first type is based on the annual number of publications used to detect an emergent trend . 
+For instance , Bengisu ( 2003 ) and Small et al . 
+( 2014 ) use growth in the number of publications as an indicator of fast growth ; the former further controls for stability after a rapid increase , and the latter also uses the number of publications in the previous time period of an emergent trend as an indicator of radical novelty . 
+The second type analyzes the “ core document ” in each cluster and tracks it to monitor the identification of emerging topics ( e.g. , Glänzel & Thijs , 2012 ; Reiss et al. , 2013 ; Small , 2006 ) . 
+The third type explores citation relations within and outside of clusters , analyzes and tracks the position of “ leading papers ” within clusters to identify emerging topics ( e.g. , Kajikawa et al. , 2008 ; Kajikawa & Takeda , 2008 ; Lee , 2008 ) . 
+Other studies have measured the frequency of new terms or keywords as a signal of emerging topics ( e.g. , Guo , Weingart , & Börner , 2011 ; Ohniwa , Hibino , & Takeyasu , 2010 ; Schiebel , Hörlesberger , Roche , François , & Besagni , 2010 ) . 
+The last type uses the transition in the number of authors within a research field as an indicator for the detection of emerging topics ( e.g. , Bettencourt , Kaiser , Kaur , Castillo‐Chavez , & Wojick , 2008 ; Guo et al. , 2011 ) . 
+It should be mentioned that most studies combine the previous mentioned indicators to explore emerging research topics . 
+For instance , Guo et al . 
+( 2011 ) propose using the frequency of keywords , the number of authors , and the interdisciplinarity of references as a whole to identify emerging topics . 
+Based on this review of previous literature , limitations on the identification of emerging topics can be summarized as follows . 
+First , in terms of definitions , there is no consensus on the concept of emergence . 
+Various concepts have been used , leading to a variety of indicators being developed . 
+For instance , Cozzens et al . 
+( 2010 ) summarize four major characteristics of emergence : fast recent growth , change to something new , market or economic potential , and increasing “ science‐based‐ness , ” whereas Small et al . 
+( 2014 ) claim that “ there is nearly universal agreement on two properties associated with emergence , novelty ( or newness ) and growth ” ( p. 1451 ) . 
+Furthermore , as mentioned above , Rotolo et al . 
+( 2015 ) criticize the bibliometric studies on the identification of emergence on the grounds that such approaches tend to focus on measuring the attributes of novelty and fast growth , and to ignore the consideration of other potentially important attributes , such as impact . 
+Second , in terms of the scope of research , most studies have conducted their analyses using a small database . 
+Some use publications selected from only one or a few specific research field ( s ) ( e.g. , Chen , 2006 ; Kajikawa & Takeda , 2008 ; Yan , 2014 ) . 
+More specifically , publications under investigation have been retrieved from predefined journals ( e.g. , Liu , Jiang , & Ma , 2013 ) or keywords ( e.g. , Kajikawa & Takeda , 2008 ) . 
+It is acknowledged that these studies are indeed useful for those studying related fields . 
+Yet , as Small et al . 
+( 2014 ) mention , these studies “ can not identify the currently emerging topics that are of interest to funding bodies and practitioners worldwide ” ( p. 1450 ) . 
+Only a few current studies have yet been performed using a large‐scale database , mainly those by two research groups , Small and colleagues ( Small , 2006 ; Small et al. , 2014 ; Upham & Small , 2006 ) and Glänzel and colleagues ( Glänzel & Thijs , 2012 ; Reiss et al. , 2013 ) . 
+Two recent large‐scale analyses of the identification of emerging topics merit further discussion . 
+One is the ERACEP report ( Reiss et al. , 2013 ) , the fundamental method of which is described by Glänzel and Thijs ( 2012 ) ; the other is an analysis conducted by Small et al . 
+( 2014 ) . 
+The ERACEP report includes WoS publications from 1998 to 2008 . 
+The researchers first identify several research fields with a sharp growth rate , and then cluster individual publications of such fields into micro research topics within each five‐year period separately . 
+After matching the clusters of the two different time slices , three paradigmatic cases are said to indicate emerging topics , namely an “ existing cluster with an exceptional growth , completely new cluster with its root in other clusters and existing cluster with a topic shift ” ( Glänzel & Thijs , 2012 , p. 404 ) . 
+Another recent study by Small et al . 
+( 2014 ) proposes an approach that combines a direct citation clustering with a co‐citation clustering method in a Scopus data set covering publications over a 15‐year period . 
+In this work , a direct citation clustering method is used as the primary source of detection , and a co‐citation model is used as a filtering step over the direct citation results . 
+Two properties , novelty and growth , are used to identify emerging topics . 
+It should be pointed out that the two approaches just discussed employ the technique of matching clusters . 
+To be specific , the approach proposed by Glänzel and Thijs ( 2012 ) needs to match the research topics obtained from different time slices by using the core dements in one period and all publications in the other period , whereas the strategy of Small et al . 
+requires a match of clusters from a direct citation clustering method and a cocitation clustering method . 
+It can be argued that the use of a matching strategy could yield more precise results and could guarantee the coherence of clusters . 
+For instance , Small et al . 
+( 2014 ) mention “ the combination of direct citation and co‐citation methods used [ here ] has contributed to this accuracy ” ( p. 1463 ) . 
+On the other hand , the matching step makes the approaches for identifying emerging topics more complex and less transparent . 
+For instance , understanding in full detail the matching procedures adopted in the two above‐mentioned studies is quite challenging . 
+In our opinion , because the effectiveness of any approach for identification is extremely difficult to verify , it is very important that the proposed approaches be transparent , straightforward , and in accord with the perception of emergence . 
+A further discussion of validation can be found at the beginning of the section “ Evaluation Tests. ” In sum , this study , in an attempt to transcend the limitations mentioned previously , adapts the concept defined by Rotolo et al . 
+( 2015 ) , develops a more precise definition of an emerging research topic , and puts forward a series of indicators for identifying emerging topics . 
+The effort is also made to establish the linkage between the concept and the constructed method . 
+The methodology and database are introduced in the next section . 
+Rotolo et al . 
+( 2015 ) indicate that the definition and fundamental attributes of an emerging technology are still ambiguous and therefore offer a new definition of an emerging technology : [ A ] radically novel and relatively fast growing technology characterized by a certain degree of coherence persisting over time and with the potential to exert a considerable impact on the socio‐economic domain ( s ) which is observed in terms of the composition of actors , institutions and patterns of interactions among those , along with the associated knowledge production processes . 
+Its most prominent impact , however , lies in the future and so in the emergence phase is still somewhat uncertain and ambiguous . 
+( Rotolo et al. , 2015 , p. 1828 ) [ A ] radically novel and relatively fast growing technology characterized by a certain degree of coherence persisting over time and with the potential to exert a considerable impact on the socio‐economic domain ( s ) which is observed in terms of the composition of actors , institutions and patterns of interactions among those , along with the associated knowledge production processes . 
+Its most prominent impact , however , lies in the future and so in the emergence phase is still somewhat uncertain and ambiguous . 
+( Rotolo et al. , 2015 , p. 1828 ) They further summarize five attributes of an emerging technology : radical novelty , relatively fast growth , coherence , prominent impact , and uncertainty and ambiguity . 
+By contrast , the present study aims to detect emerging research topics . 
+Although there is some overlap between technologies and research topics , they remain distinct concepts . 
+To put it simply , some advances in technologies are not necessarily connected with scientific breakthroughs ( Rotolo et al. , 2015 ) , whose definition is therefore not entirely appropriate here . 
+For this reason , we adjust the definition of an emerging technology that Rotolo et al . 
+( 2015 ) have proposed to accommodate the analysis . 
+First , the attribute of prominent impact needs to be rethought to be relevant to the detection of emerging research topics . 
+Rotolo et al . 
+( 2015 ) use this attribute specifically to refer to the societal and economic impacts of technologies . 
+However , considering the differences between science‐based research topics and technologies into account , for the former topics , scientific impact should be highlighted rather than societal and economic impact . 
+Second , uncertainty and ambiguousness is considered another attribute of emerging technologies because Rotolo et al . 
+hold that the societal and economic impact of an emerging technology “ lies in the future and so in the emergence phase is still somewhat uncertain and ambiguous ” ( p.1828 ) . 
+Although societal and economic impact is replaced by scientific impact for identifying emerging research topics , it is natural to assume that scientific impact lies in the future as well . 
+However , it should be stressed that scientific impact is more likely to show in a short time period after the emergence of a research topic because researchers tend to present their work at conferences or workshops before it has been officially published and indexed into bibliographic databases . 
+Meanwhile , researchers might easily track the latest developments in their field . 
+Given the above reasons , the scientific impact of a research topic should generally be identified within a relatively short time period after its emergence . 
+Nevertheless , one may argue that the scientific impact of some cases might be unrealized and , then , after a long time period , be noticed and discussed . 
+We acknowledge the existence of such a pattern . 
+However , we claim that if a research topic presents this pattern , it can hardly be considered emerging because such a pattern does not satisfy our definition on an emerging research topic . 
+Therefore , it is reasonable to require emerging research topics to exert a prominent scientific impact within a rather short time period after its emergence . 
+Hence , the attribute of uncertainty and ambiguousness is of little relevance to the present study . 
+With these considerations in mind , the following definition of an emerging research topic is proposed here : A radically novel and relatively fast growing research topic characterized by a certain degree of coherence , and a considerable scientific impact . 
+A radically novel and relatively fast growing research topic characterized by a certain degree of coherence , and a considerable scientific impact . 
+Accordingly , the four attributes of an emerging research topic become radical novelty , relatively fast growth , coherence , and scientific impact . 
+With this definition thus established , the groundwork has been laid to introduce the database and methodology used for the identification of emerging research topics , beginning with their construction . 
+Research topics are established based on the clustering method of Waltman and Van Eck ( 2012 , 2013 ) . 
+The reasons for choosing a direct , citation‐based clustering method are two‐fold . 
+On the one hand , a recent study by Small et al . 

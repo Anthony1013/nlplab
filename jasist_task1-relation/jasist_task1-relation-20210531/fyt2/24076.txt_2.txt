@@ -1,0 +1,130 @@
+When interpreting the results , however , we mention important findings related to both the edit count and size metrics . 
+Table 4 reports on the results for all access privileges and all namespaces , for the activity count ( 240 statistical tests ) , showing both the statistical significant ( in asterisks ) and directionality of effects ( green represent an increase in activity after role assignment event ; “ – ” represents a decrease ) . 
+Overall , we see a significant change in contributors ' activity patterns that is associated with the assignment of a new access privilege . 
+We observed these changes in activity patterns in terms of both the number of edits performed across the various namespaces and the scope of activity ( for both types of analyses , 14 of the 15 access privileges showed a significant difference in activity for at least one namespace ) . 
+We observe that receiving an additional access privilege may be associated with an increased or reduced editing activity . 
+Thus , when being assigned a special access privilege , contributors concentrate their efforts in certain namespaces , while investing less effort and reducing their editing activities in other namespaces . 
+When considering the counts of activities , in 42 of the 240 tests we saw a statistically significant increase in activity , while in 42 cases the activity was decreased . 
+For example , we see a significant decrease in the editing of the “ Main ” namespace after the assignment of a sysop access privilege ( p < .001 ) . 
+Similarly , the assignment of various access privileges ( rollbacker , reviewer , autoreviewer , confirmed , bureaucrat ) is associated with a significant decrease in “ Talk ” editing activity . 
+−.686****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.833****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+1.077***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.054**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.002****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.003****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.710**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.471****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.163****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.539****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.117****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.014****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.042****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.028****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.001****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.053****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.001****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.005****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.010****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.185***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.235***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.118***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.023****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.022****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.002****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.044****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.002**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.115****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−2.78***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.076****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.007***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−4.61**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.077**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.218****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.004**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.130***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.022***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.012****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.004***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.008**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−3.52****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.406**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+2.43****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.172**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.025****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.078****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.038****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.480****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.003****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.29**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.278**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.011**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.010**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.010**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.004***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.032**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.284**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.037**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.009**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.003**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.027**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 

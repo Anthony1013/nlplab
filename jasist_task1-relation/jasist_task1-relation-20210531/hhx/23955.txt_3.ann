@@ -1,0 +1,181 @@
+T1	图 182 261	Figure 6 shows the behavior in terms of the number of characters in the query .
+T2	术语 284 287	NAQ
+T3	术语 648 652	NAQs
+T4	术语 763 767	NAQs
+T5	术语 951 954	NAQ
+T6	图 920 1003	Figure 7 shows the fraction of NAQ terms for a certain number of matching results .
+T7	术语 1055 1059	NAQs
+T8	术语 1133 1136	NAQ
+T9	术语 1244 1248	NAQs
+T10	研究问题 1181 1250	In this section , we investigate the feasibility of predicting NAQs .
+T11	术语 1286 1289	NAQ
+T12	术语 1605 1627	Meta‐/federated search
+T13	术语 1634 1652	meta‐search system
+T14	术语 1692 1695	NAQ
+T15	研究方法 1946 2093	We cast the problem of predicting whether a query will return no results as a classification problem and solve it using machine‐learning techniques
+T16	表 2225 2287	The features used by the learned model are given in Table 10 .
+T17	术语 2353 2357	NAQs
+T18	引文作者 2832 2847	Balasubramanian
+T19	引文时间 2850 2854	2010
+T20	引文作者 2857 2859	He
+T21	引文作者 2862 2867	Ounis
+T22	引文时间 2870 2874	2006
+T24	术语 3016 3020	NAQs
+T25	术语 3502 3505	IDF
+T26	术语 3473 3499	inverse document frequency
+T27	引文作者 3532 3539	Kumaran
+T28	引文作者 3542 3550	Carvalho
+T29	引文时间 3553 3557	2009
+T30	引文的研究问题 3446 3529	minimum and maximum of the inverse document frequency ( IDF ) scores of query terms
+T31	引文作者 3590 3592	He
+T32	引文作者 3595 3600	Ounis
+T33	引文时间 3603 3607	2006
+T34	引文的研究问题 3563 3587	their standard deviation
+T35	引文作者 3799 3814	Balasubramanian
+T36	引文时间 3824 3828	2010
+T37	术语 3700 3704	URIs
+T38	术语 3982 4009	natural language processing
+T39	术语 4012 4015	NLP
+T40	术语 4104 4108	NAQs
+T41	研究结果 4390 4553	We compute certain features ( those whose names end with an X ) for three different versions of the query string : original , spelling‐corrected , and normalized .
+T42	术语 5004 5008	NAQs
+T43	术语 5179 5181	GE
+T44	术语 5396 5398	AV
+T45	术语 5511 5537	frequency‐related features
+T46	术语 5666 5668	AC
+T47	术语 5846 5867	Web Search query logs
+T48	术语 6380 6384	NAQs
+T49	术语 6530 6561	gradient boosted decision trees
+T50	术语 6564 6569	GBDTs
+T51	引文作者 6574 6582	Friedman
+T52	引文时间 6585 6589	2000
+T53	术语 6616 6620	GBDT
+T54	术语 6807 6811	GBDT
+T55	引文的结果 6803 6980	the GBDT classifier has been shown , many times , to achieve high classification accuracy values and outperform other machine‐learning techniques in various classification tasks
+T56	引文作者 6983 6988	Zheng
+T57	引文时间 6998 7002	2007
+T58	术语 7079 7112	receiver operating characteristic
+T59	术语 7115 7118	ROC
+T60	术语 7135 7138	ROC
+T61	术语 7185 7204	false‐positive rate
+T62	术语 7228 7231	AUC
+T63	术语 7349 7368	shrinkage parameter
+T64	术语 7375 7390	number of trees
+T65	术语 7553 7557	NAQs
+T66	术语 7566 7570	GBDT
+T67	图 7671 7756	Figure 8 shows the normalized relative importance of the most influential 15 features
+T68	术语 8581 8583	GE
+T69	术语 8586 8588	AV
+T70	术语 8595 8597	AC
+T71	术语 8668 8671	ROC
+T72	图 8604 8698	The results are summarized in Figure 9 , which shows a separate ROC curve for each feature set
+T73	术语 8736 8738	GE
+T74	术语 8793 8796	AUC
+T75	术语 8867 8869	AV
+T76	术语 8928 8931	AUC
+T77	术语 9136 9138	AC
+T78	术语 9167 9170	AUC
+T79	术语 9447 9451	NAQs
+T80	术语 9557 9561	NAQs
+T81	术语 9672 9675	AOL
+T82	术语 9738 9742	NAQs
+T83	术语 9952 9954	AC
+T84	术语 9971 9981	ROC curves
+T85	表 9971 10014	ROC curves for the feature sets in Table 10
+T86	术语 10542 10545	AUC
+T87	图 10482 10605	Figure 10 presents the results , where the y‐axis shows the AUC and the x‐axis shows the percentage of training instances .
+T88	术语 10860 10863	AUC
+T89	术语 11377 11380	AUC
+T90	术语 11504 11507	AUC
+T91	术语 12462 12465	AUC
+T92	图 12480 12535	In Figure 11 , we report the performance for every pair
+T93	术语 12911 12914	AUC
+T94	术语 13030 13034	NAQs
+T95	研究问题 12948 13105	In this section we discuss some techniques that might be appropriate for handling NAQs exhibiting certain characteristics as described in previous sections .
+T96	术语 13108 13112	NAQs
+T97	术语 13285 13289	NAQs
+T98	术语 13783 13787	NAQs
+T99	引文作者 14088 14095	Kumaran
+T100	引文作者 14098 14106	Carvalho
+T101	引文时间 14109 14113	2009
+T102	术语 13926 13942	machine‐learning
+T103	引文的研究问题 13904 14085	An earlier study used machine‐learning techniques to rank the subqueries of a long query and then replaces the original query with the best subquery to improve the retrieval quality
+T104	术语 14135 14139	NAQs
+T105	引文作者 14504 14514	Cambazoglu
+T106	引文作者 14517 14527	Altingovde
+T107	引文作者 14530 14535	Ozcan
+T108	引文作者 14540 14546	Ulusoy
+T109	引文时间 14549 14553	2012
+T110	引文作者 14928 14934	Jansen
+T111	引文作者 14937 14942	Booth
+T112	引文作者 14947 14952	Spink
+T113	引文时间 14955 14959	2009
+T114	引文作者 14962 14967	Jones
+T115	引文作者 14970 14973	Rey
+T116	引文作者 14976 14982	Madani
+T117	引文作者 14987 14994	Greiner
+T118	引文时间 14997 15001	2006
+T119	引文的结果 14800 14918	another possible solution is to adopt the methods that are proposed for generating query reformulations or suggestions
+T120	引文作者 15060 15065	Jones
+T121	引文时间 15078 15082	2006
+T122	引文的结果 15085 15200	generate substitutions for terms , phrases , or entire queries using external semantic resources or other queries .
+T123	术语 15244 15248	NAQs
+T124	术语 15260 15264	NAQs
+T125	术语 15466 15470	NAQs
+T126	术语 15602 15606	NAQs
+T127	术语 15689 15693	NAQs
+T128	引文的结果 16114 16160	first segmenting the word into many components
+T129	引文作者 16163 16165	Pu
+T130	引文作者 16168 16170	Yu
+T131	引文时间 16173 16177	2008
+T132	术语 16271 16275	NAQs
+T133	术语 16421 16425	NAQs
+T134	术语 16770 16777	non‐NAQ
+T135	术语 16916 16919	NAQ
+T136	研究结果 16960 17061	We provided a characterization of queries that match very few or no results in major search engines .
+T137	术语 17300 17304	NAQs
+T138	术语 17320 17336	machine‐learning
+T139	术语 17355 17359	NAQs
+T140	术语 17462 17466	NAQs
+T141	研究结果 17311 17506	We built machine‐learning models to predict NAQs for mobile and meta‐search scenarios , where such predictors may save various resources by preventing NAQs being submitted to the search engines .
+T142	术语 17564 17568	NAQs
+T143	术语 17679 17683	NAQs
+T144	研究结果 17645 17769	In this paper , by characterizing NAQs , we pave the way to the development of more sophisticated techniques to solve them .
+T145	术语 17790 17793	NAQ
+T146	术语 17977 17981	NAQs
+T147	研究展望 17906 17983	In the future , we plan to investigate possible techniques for solving NAQs .
+R1	has_cited_time Arg1:T19 Arg2:T18	
+R2	has_cited_time Arg1:T22 Arg2:T21	
+R3	coauthor Arg1:T20 Arg2:T21	
+R4	field_similar_as Arg1:T20 Arg2:T18	
+R5	produces Arg1:T27 Arg2:T30	
+R6	coauthor Arg1:T27 Arg2:T28	
+R7	has_cited_time Arg1:T29 Arg2:T28	
+R8	produces Arg1:T31 Arg2:T34	
+R9	has_cited_time Arg1:T33 Arg2:T32	
+R10	coauthor Arg1:T32 Arg2:T31	
+R11	has_cited_time Arg1:T36 Arg2:T35	
+R12	has_cited_time Arg1:T52 Arg2:T51	
+R13	has_cited_time Arg1:T57 Arg2:T56	
+R14	results Arg1:T56 Arg2:T55	
+R15	coauthor Arg1:T99 Arg2:T100	
+R16	has_cited_time Arg1:T101 Arg2:T100	
+R17	produces Arg1:T99 Arg2:T103	
+R18	coauthor Arg1:T105 Arg2:T106	
+R19	coauthor Arg1:T106 Arg2:T107	
+R20	coauthor Arg1:T107 Arg2:T108	
+R21	has_cited_time Arg1:T109 Arg2:T108	
+R22	results Arg1:T110 Arg2:T119	
+R23	coauthor Arg1:T110 Arg2:T111	
+R24	coauthor Arg1:T111 Arg2:T112	
+R25	has_cited_time Arg1:T113 Arg2:T112	
+R26	coauthor Arg1:T114 Arg2:T115	
+R27	coauthor Arg1:T115 Arg2:T116	
+R28	coauthor Arg1:T116 Arg2:T117	
+R29	has_cited_time Arg1:T118 Arg2:T117	
+R30	field_similar_as Arg1:T114 Arg2:T110	
+R31	has_cited_time Arg1:T121 Arg2:T120	
+R32	results Arg1:T120 Arg2:T122	
+R33	results Arg1:T129 Arg2:T128	
+R34	coauthor Arg1:T129 Arg2:T130	
+R35	has_cited_time Arg1:T131 Arg2:T130	

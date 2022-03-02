@@ -1,0 +1,130 @@
+Communication skills are often regarded as a physician 's interactive power . 
+Many patients like physicians who appear interested , listen well , explain clearly , are open to discussion , and involve the patient in decision‐making ( Gore & Ogden , 1998 ) . 
+Therefore , how a physician explains a diagnosis to a physician can earn the physician interactive power . 
+The effect of the quality of the physician‐patient interaction is twofold . 
+First , high quality interaction directly increases a patient 's trust . 
+Mechanic ( 2004 ) suggests that how a physician communicates and whether the physician is listening and caring is central to patients ’ trust . 
+Similarly , Laugharne , Priebe , McCabe , Garland , and Clifford ( 2012 ) suggest that having a caring attitude is significant to trust building . 
+Second , high quality interaction is likely to mitigate patients ’ suspicion in time of diagnosis inconsistency . 
+In case of inconsistency , if physicians treat patients empathetically , and can explain the inconsistency thoroughly , patients are very likely to respect their physicians ’ decision . 
+Agius and Stangeland ( 2016 ) suggested that good communication skills result in greatly improved relationships even though physicians do not necessarily agree with the information which the patients bring . 
+This interactive power would help reduce the damage of patients ’ suspicion . 
+Hence , we hypothesize : H5 : The interaction quality has a positive moderating effect on the effect of diagnosis inconsistency on trust . 
+H5 : The interaction quality has a positive moderating effect on the effect of diagnosis inconsistency on trust . 
+A patient 's trust in the physician affects the patient 's adherence in treatment . 
+Adherence is defined as the extent to which patients ’ behaviors coincide with healthcare providers ’ recommendations ( Lee et al. , 2013 ) . 
+A direct consequence of patients ’ trust is to follow physicians ’ advice and to be cooperative in a medical care process ( Trachtenberg , Dugan , & Hall , 2005 ) . 
+Conversely , those who lack trust may fail to adhere to the prescribed regimens . 
+Earlier studies suggest that lack of patient trust decreases adherence , whereas a trusting relationship leads to adherence , satisfaction , and improved health outcomes ( Liu et al. , 2015 ; Wu et al. , 2015 ) . 
+Although patients from various countries may vary in adherence , Wong , Jiang , and Griffiths ( 2010 ) found similar factors associated with drug adherence in China and western populations . 
+Therefore , we hypothesize : H6 : Patients ’ trust in their physicians has a positive effect on their adherence to the prescribed treatment . 
+H6 : Patients ’ trust in their physicians has a positive effect on their adherence to the prescribed treatment . 
+Disagreement and consequently the lowered trust may lead to uncooperative behavior . 
+Such behavior may manifest as direct , explicit verbal statement of disagreement or indirect , implicit behavior of disagreement . 
+Second‐opinion seeking and further Internet search after diagnosis could be considered as an implicit behavior of low trust ( Agius & Stangeland , 2016 ) . 
+Some patients seek a second‐opinion if they find a physician to be disinterested , dismissive , or incapable ( Bowes et al. , 2012 ) . 
+Particularly in countries where physicians do not encourage patients to seek a second‐opinion , seeking of a second‐opinion can be seen as an indicator that the previous physician is not trusted ( McKinstry et al. , 2006 ) . 
+In China , because the out‐of‐pocket spending is high ( Eggleston , 2012 ) , seeking of second‐opinion can be a strong indicator of lack of trust in the previous diagnosis . 
+For instance , Sun et al . 
+( 2013 , p. 91 ) found that “ after an initial diagnosis , many Chinese parents [ 43/69 ] took their children with autism to other hospitals for a second‐opinion before accepting the diagnosis. ” Such behavior was found in China and many countries ( Tam , Cheng , Ng , & Ngan , 2005 ) . 
+Another typical post‐visit practice for patients is to search online for verification . 
+After‐search can be used to obtain more disease related information based on a trusted diagnosis , or to challenge a less trusted diagnosis ( Agius & Stangeland , 2016 ) . 
+Sun et al . 
+( 2013 ) reported that 55 % of respondents searched online after diagnosis . 
+Another survey with 613 pregnant women from 24 countries including China found that over two‐thirds of respondents sought more information from the Internet ( Lagan , Sinclair , & George Kernohan , 2010 ) . 
+Some patients may do both : see another physician and search online . 
+Therefore , we hypothesize : H7 : Patients ’ trust in their physicians is negatively related to their seeking of second‐opinion by visiting another physician .H8 : Patients ’ trust in their physicians is negatively related to their amount of after‐search . 
+H7 : Patients ’ trust in their physicians is negatively related to their seeking of second‐opinion by visiting another physician . 
+H8 : Patients ’ trust in their physicians is negatively related to their amount of after‐search . 
+To better test our hypotheses , we included relevant control variables in the research model . 
+We included age , gender , education level of the subjects , and the expense of the visit . 
+Prior studies suggested that gender , age , and education affect online health information seeking ( e.g. , Trachtenberg et al. , 2005 ; Ybarra and Suman , 2006 ) . 
+Expense is another factor affecting patients ’ behavior ( Jacobson , 2007 ) . 
+We also included patient 's prior visits to a hospital , prior visits to a physician , hospital type ( Wu & Hu , 2012 ) , and hospital rank ( e.g. , hospitals in China are ranked by government ) as control variables . 
+We conducted a survey to test our hypotheses . 
+We adapted existing validated scales whenever possible in developing our survey instrument . 
+Specifically , for diagnosis inconsistency , we designed three formative items to assess inconsistency : diagnosed disease type , severity , and treatment process . 
+Although trust is often measured as a reflective construct with ability , benevolence and integrity as three dimensions , we measured trust with formative items which were based on the degree a patient trusts the disease type , severity , and treatment process suggested by a physician ( Thom et al. , 2002 ) . 
+Search time was measured based on a patient 's recall of time ( in hours ) spent on the Internet to search for relevant information . 
+Only one item was used to measure it . 
+We adopted the scale of interaction quality from Trachtenberg et al . 
+( 2005 ) , including the time , the details , and the friendliness of the physician in a conversation . 
+Interaction quality was measured as a reflective construct . 
+The professional status of a physician was based on the rank of a physician as certified by the relevant healthcare authority ( Manojlovich , 2007 ) . 
+The professional status of a physician used only one item . 
+Chronic condition was measured with a binary variable ( 1 = chronic disease , 0 = otherwise ) . 
+For consequences of trust , second‐opinion seeking was defined as a binary variable ( 1 = if a patient saw another physician , 0 = otherwise ) ; adherence was measured with one item based on the degree a patient follows a physician 's treatment plan ; after‐search was measured by the time ( in hours ) a patient searches online again for disease information . 
+The instrument is reported in the Appendix . 
+A small convenience sample was interviewed for comments on the instrument . 
+A pilot test was conducted with 200 patients . 
+Minor revisions were made based on the feedback . 
+Subjects in the pilot study were excluded from the main study . 
+An online survey was conducted in China for the main study . 
+The survey was conducted by a professional online survey company . 
+Only subjects who had visited a physician in the past 6 months and had searched for disease information online were eligible for participation . 
+In 602 subjects participated in the survey , nine ( 9 ) cases were deleted because their search time was zero . 
+A total of 96 cases were discarded because they filled out the questionnaire in time less than the average time minus two standard deviations . 
+Finally , if subjects chose “ not sure ” for any item of diagnosis inconsistency ( 78 cases ) , they were dropped . 
+The final sample size was 429 . 
+We compared the regional distribution of our sample with the national Internet user distribution of China ( CNNIC37 , 2016 ) based on the location of subjects . 
+The difference was insignificant ( chi‐square = 29.294 , df = 29 , p = 0.450 ) . 
+Table 1 reports the demographics of respondents . 
+These results are consistent with previous studies ( e.g. , McCarroll et al. , 2014 ) . 
+Age ( years ) We then conducted instrument validity check and hypothesis tests . 
+Interaction quality was the only reflective construct in our model . 
+A convergent validity test with confirmatory factor analysis indicated that the item of explanation time did not load well on the latent factor , hence was dropped . 
+The remaining items met the criteria for convergent validity ( MacKenzie , Podsakoff , & Podsakoff , 2011 ) . 
+Specifically , the average variance extraction ( AVE ) for interaction quality was 0.64 which was greater than the required cutoff 0.5 . 
+The minimum factor loading was 0.89 ; the composite reliability ( CR ) was 0.89 ; and the Cronbach 's alpha was 0.82 , which were all greater than 0.7 . 
+Diagnosis inconsistency and trust , operationalized as formative constructs , their validity was assessed by the significance of items . 
+All their items had a significant weight with a variance inflation factor ( VIF ) lower than 3.33 . 
+They met the requirement for formative constructs ( Cenfetelli & Bassellier , 2009 ) . 
+Because our research model has two formative constructs , partial least square ( PLS ) was used for model fitting ( Chin , 2010 ) . 
+A bootstrapping procedure was used to estimate standard errors for parameters ( Chin , 1998 ) . 
+Table 2 reports the correlation among constructs . 
+VIFs among variables were less than 3.3 , which also indicated appropriate discriminant validity . 
+To test moderating effects with formative construct , a two‐stage approach was employed as suggested by ( Henseler & Fassott , 2010 ) . 
+In the first stage , a PLS model with only main effects was used to estimate the latent variable scores . 
+In the second stage , the interaction terms were calculated as the product of latent scores , and added to the PLS model . 
+Figure 2 reports the PLS model fitting results with standardized path coefficients . 
+The result suggests that diagnosis inconsistency had a significant negative impact on patients ’ trust in their physicians , supporting Hypothesis 1 . 
+Search time significantly moderated the effect of diagnosis inconsistency on trust , supporting Hypothesis 2 . 
+The positive moderating effect indicated that the longer one searched online , the stronger the effect of diagnosis inconsistency on trust . 
+In support of Hypothesis 3 , chronic condition had a positive moderating effect on diagnosis inconsistency , suggesting that patients with chronic conditions regarded diagnosis inconsistency as an indicator of trust . 
+In support of Hypothesis 4 , the professional status of a physician moderated the effect of diagnosis inconsistency on trust , indicating that physicians with a higher rank were more trusted even if their diagnosis was different from a patient 's expectation . 
+Surprisingly , interaction quality did not moderate diagnosis inconsistency . 
+Therefore , Hypothesis 5 was not supported . 
+However , interaction quality had a significant main effect on trust . 
+PLS model fitting result . 
+Figure 2 also indicates that trust significantly reduced patients ’ second‐opinion seeking , lending support to Hypothesis 7 . 
+Trust boosted patients ’ adherence behavior , lending support to Hypothesis 6 . 
+Finally , trust reduced patient 's after‐search on the Internet , which supported Hypothesis 8 . 
+Among control variables , gender and education were found significant to trust . 
+Females were found less likely to trust physicians in the same circumstance . 
+Previous study ( Ybarra & Suman , 2006 ) had similar findings . 
+Moreover , we also found that patients who received a higher education level tend to trust their physicians more . 
+Other control variables were insignificant . 
+Our empirical findings confirmed the effect of most trust antecedents with the only exception that physician 's interaction quality did not moderate the effect of diagnosis inconsistency on trust . 
+However , interaction quality had a significant direct effect on trust . 
+Prior studies have suggested the importance of physician‐patient communication on the establishment and maintenance of a trusting relationship ( Asbring & Närvänen , 2004 ) . 
+The significant direct effect , together with the insignificant moderating effect , suggests that physician‐patient interaction enhances trust in both diagnosis consistency and inconsistency . 
+A plausible explanation is that in case of diagnosis consistency , quality interaction enhances trust through confirming patients ’ expectation . 
+In case of diagnosis inconsistency , interaction enhances trust through thoughtful and empathetic explanation that dismisses suspicion . 
+Therefore , quality interaction enhances trust in both cases , although the psychological reasons for trust might differ . 
+As a post hoc analysis , we compared the main effect of interaction quality and the moderating effect of search time . 
+The result indicates that the main effect of interaction quality is more significant than the moderating effect of search time on the effect of diagnosis inconsistency on trust , F ( 1 , 411 ) = 71.91 , p = .000 ; that of physician 's professional status , F ( 1 , 411 ) = 38.08 , p = .000 ; and that of chronic condition F ( 1 , 411 ) = 34.73 , p = .000 . 
+Therefore , interaction quality plays a central role in physician‐patient trust , whereas the shift of knowledge power by Internet search plays a secondary role . 
+Judging from F‐test , the effect of Internet search is even weaker than professional status and chronic condition . 
+Some prior studies ( Bowes et al. , 2012 ) suggested the personal interaction between patients and doctors is the most powerful influence on the trusting relationship . 
+Barnoy et al . 
+( 2011 ) suggested that patients search for Internet medical information as an additional information source , not as a substitute to the information from healthcare providers . 
+Similarly , Agius and Stangeland ( 2016 ) suggested that patients still regard physicians ’ opinion as of the highest value . 
+In conclusion , the application of high‐tech ( i.e. , the Internet usage ) does not diminish the importance of high‐touch approaches in healthcare . 
+The theoretical contributions of this study is multifold . 
+First , this study introduces a relatively comprehensive framework based on the knowledge power perspective . 
+Although Internet search changes patients ’ knowledge power ( Lenert , 2009 ) , our study analyzes its effect amidst other sources of knowledge power , including a physician 's professional status , a patient 's chronic conditions , and the execution of power through interaction quality . 
+This framework suggests that the Internet search operates among other sources of knowledge powers to change the disparity . 
+Overall , this framework can explain 37 % of the variance in physician‐patient trust . 
+Second , this study provides a contingent view of the effect of Internet search on physician‐patient trust . 
+This view differs from prior studies that either stressed the benefit of Internet search ( Chen , 2015 ) or raised concerns ( Sharma , Xu , Wickramasinghe , & Ahmed , 2006 ) . 
+We found the effect is contingent on the consistency between patients ’ self‐diagnosis and physician 's diagnosis . 

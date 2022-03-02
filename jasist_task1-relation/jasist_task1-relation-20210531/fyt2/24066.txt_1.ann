@@ -1,0 +1,159 @@
+T1	引文作者 1093 1099	Franck
+T2	引文时间 1102 1106	1999
+T3	引文作者 620 627	Gilbert
+T4	引文时间 630 634	1977
+T5	引文作者 637 642	Small
+T6	引文时间 645 649	2010
+T7	引文作者 1455 1461	Cronin
+T8	引文时间 1464 1468	2001
+T9	引文作者 1346 1351	Huang
+T10	引文作者 1354 1357	Lin
+T11	引文作者 1362 1366	Chen
+T12	引文时间 1369 1373	2011
+T13	引文作者 1376 1379	Zou
+T14	引文作者 1571 1577	Cronin
+T15	引文时间 1580 1584	2001
+T16	引文作者 1587 1594	Hartley
+T17	引文时间 1597 1601	2017
+T18	引文作者 1382 1390	Peterson
+T19	引文时间 1393 1397	2016
+T20	引文作者 1679 1685	Kosten
+T21	引文时间 1688 1692	2016
+T22	研究问题 1726 1831	analyze the composition and type of contributions from the authors of a paper and the paper 's references
+T23	研究问题 2723 2787	analyze the implications of contribution‐based credit allocation
+T24	引文作者 3247 3254	Gilbert
+T25	引文时间 3257 3261	1977
+T26	引文作者 3264 3269	Small
+T27	引文时间 3272 3276	2010
+T28	引文作者 3853 3861	Bornmann
+T29	引文作者 3864 3870	Daniel
+T30	引文时间 3871 3875	2008
+T31	引文作者 4036 4040	Ding
+T32	引文作者 4043 4049	Cronin
+T33	引文时间 4052 4056	2011
+T34	引文作者 4866 4871	Fiala
+T35	引文作者 4874 4879	Mareš
+T36	引文作者 4884 4890	Šesták
+T37	引文时间 4893 4897	2017
+T38	引文作者 4981 4985	Ding
+T39	引文时间 4995 4999	2014
+T40	引文作者 5789 5796	Waltman
+T41	引文作者 5799 5806	van Eck
+T42	引文作者 5811 5818	Wouters
+T43	引文时间 5821 5825	2013
+T44	引文作者 9572 9580	Washburn
+T45	引文时间 9583 9587	2008
+T46	引文作者 10099 10105	Correa
+T47	引文作者 10108 10113	Silva
+T48	引文作者 10116 10121	Costa
+T49	引文作者 10126 10133	Amancio
+T50	引文时间 10136 10140	2017
+T51	引文作者 10226 10230	Ding
+T52	引文时间 10240 10244	2014
+T53	引文作者 10291 10299	Garfield
+T54	引文时间 10302 10306	1965
+T55	引文作者 10428 10434	Chubin
+T56	引文作者 10439 10445	Moitra
+T57	引文时间 10448 10452	1975
+T58	引文作者 10374 10380	Lipetz
+T59	引文时间 10383 10387	1965
+T60	引文作者 10459 10473	Spiegel‐Rösing
+T61	引文时间 10476 10480	1977
+T62	引文作者 10778 10785	Gilbert
+T63	引文时间 10788 10792	1977
+T64	图 12382 12476	Figure 1 shows the composition of contributions to a given paper by its authors and references
+T65	图 12481 12562	The lower part of Figure 1 represents the references ' contributions to the paper
+T66	引文作者 13407 13414	Tideman
+T67	引文作者 13417 13426	Plassmann
+T68	引文时间 13429 13433	2008
+T69	引文作者 14545 14549	Diez
+T70	引文时间 14552 14556	2007
+T71	图 15903 16006	Figure 2 shows examples of different types of credit distributions to a paper 's authors and references
+T72	图 16011 16164	If a paper has no citations , then the credit assigned to its authors and references comes only from its innate credit , as illustrated in Figure 2 ( b )
+T73	图 16169 16429	If the contribution of the paper 's authors is small , such as when applying a well‐established method to a case that is very similar to others investigated using the same method , the credit allocated to its authors is small , as illustrated in Figure 2 ( c )
+T74	图 16434 16585	If a paper accrues substantial external credit , then its authors and references each obtain large amounts of credit , as illustrated in Figure 2 ( d )
+T76	图 17181 17294	the external credit of the paper shown in Figure 2 ( c ) is higher than that of the paper shown in Figure 2 ( b )
+T77	图 17369 17416	Figure 3 shows the credit flow of a given paper
+T78	引文作者 18000 18008	Rousseau
+T79	引文时间 18011 18015	1987
+T80	引文作者 18020 18022	Hu
+T81	引文作者 18025 18033	Rousseau
+T82	引文作者 18038 18042	Chen
+T83	引文时间 18045 18049	2011
+T84	引文作者 18058 18069	Fragkiadaki
+T85	引文作者 18074 18085	Evangelidis
+T86	引文时间 18088 18092	2014
+T87	图 18393 18500	In the hypothetical citation relationship shown in Figure 4 , paper P 1 is directly and indirectly cited by
+T97	引文作者 4613 4621	Garfield
+T98	引文时间 4624 4628	1979
+T99	引文的研究问题 4631 4740	questioned the rationality of assessing the quality of publications according to only the number of citations
+T100	引文的结果 4745 4863	A research evaluation based only on citations is not objective and can lead to the decline of the scientific community
+T101	引文的方法 4904 4978	Incorporating a contribution analysis based on a citation content analysis
+T103	研究方法 6576 6624	the method of allocating paper credit to authors
+T104	研究方法 6627 6680	the method of transferring paper credit to references
+T105	研究方法 6683 6724	the method considering indirect citations
+T106	研究方法 6731 6756	citation content analysis
+T113	引文的结果 10483 10621	listed 13 citation content categories that can be approximately regarded as categories for a reference 's contribution to the citing paper
+T117	术语 18363 18388	k‐th generation citations
+T118	术语 18308 18336	k +1‐th generation citations
+T119	研究方法 1836 1948	Based on the proportions of contributions , we allocate the credit a paper carries to its authors and references
+T120	研究方法 10799 11626	Therefore , we classify references ’ contributions to the citing paper into three categories : serving as motivation to conduct the research work in the citing paper , such as by being part of the history and state of the art for the research question under investigation and by inspiring authors to perform the research work ; supplying the basis for the research , such as the derivation of a fundamental equation , the introduction of a method used in the research , providing the theory , concepts , definitions and interpretations used in the paper , or providing the parameters of a theory or method used in the paper ; and providing evidence to persuade readers , such as containing evidence consistent with the results of the paper and results that are inferior to the results of the method proposed in the citing paper
+T121	数学公式 15273 15283	Equation 3
+T89	研究结果 2278 2457	In addition , we show that part of a paper 's credit comes from the papers citing it through credit allocation , and the citing papers ’ credit partly comes from those citing them
+T90	研究结果 2462 2542	Thus , credit transfer moves in a direction opposite that of knowledge diffusion
+T91	引文的结果 5582 5786	This phenomenon may be caused by authors copying references from the reference list of previous papers and may lead to randomness in a citation analysis in which only the number of citations is considered
+T92	研究方法 7806 7921	The present paper quantitatively described the proportions of contributions of each author and reference to a paper
+R1	has_cited_time Arg1:T4 Arg2:T3	
+R2	has_cited_time Arg1:T6 Arg2:T5	
+R3	field_similar_as Arg1:T3 Arg2:T5	
+R4	has_cited_time Arg1:T2 Arg2:T1	
+R5	coauthor Arg1:T9 Arg2:T10	
+R6	coauthor Arg1:T10 Arg2:T11	
+R7	has_cited_time Arg1:T12 Arg2:T11	
+R8	coauthor Arg1:T13 Arg2:T18	
+R9	has_cited_time Arg1:T19 Arg2:T18	
+R10	has_cited_time Arg1:T8 Arg2:T7	
+R11	has_cited_time Arg1:T15 Arg2:T14	
+R12	has_cited_time Arg1:T17 Arg2:T16	
+R13	field_similar_as Arg1:T14 Arg2:T16	
+R14	field_similar_as Arg1:T9 Arg2:T13	
+R15	has_cited_time Arg1:T21 Arg2:T20	
+R16	has_cited_time Arg1:T25 Arg2:T24	
+R17	has_cited_time Arg1:T27 Arg2:T26	
+R18	field_similar_as Arg1:T24 Arg2:T26	
+R19	coauthor Arg1:T29 Arg2:T28	
+R20	has_cited_time Arg1:T30 Arg2:T29	
+R21	coauthor Arg1:T31 Arg2:T32	
+R22	has_cited_time Arg1:T33 Arg2:T32	
+R23	produces Arg1:T97 Arg2:T99	
+R24	has_cited_time Arg1:T98 Arg2:T97	
+R25	coauthor Arg1:T34 Arg2:T35	
+R26	coauthor Arg1:T35 Arg2:T36	
+R27	has_cited_time Arg1:T37 Arg2:T36	
+R28	uses Arg1:T38 Arg2:T101	
+R29	has_cited_time Arg1:T39 Arg2:T38	
+R30	coauthor Arg1:T40 Arg2:T41	
+R31	coauthor Arg1:T41 Arg2:T42	
+R32	has_cited_time Arg1:T43 Arg2:T42	
+R33	has_cited_time Arg1:T45 Arg2:T44	
+R34	coauthor Arg1:T46 Arg2:T47	
+R35	coauthor Arg1:T47 Arg2:T48	
+R36	coauthor Arg1:T48 Arg2:T49	
+R37	has_cited_time Arg1:T50 Arg2:T49	
+R38	has_cited_time Arg1:T59 Arg2:T58	
+R39	has_cited_time Arg1:T54 Arg2:T53	
+R40	has_cited_time Arg1:T52 Arg2:T51	
+R41	coauthor Arg1:T55 Arg2:T56	
+R42	has_cited_time Arg1:T57 Arg2:T56	
+R43	has_cited_time Arg1:T63 Arg2:T62	
+R44	has_cited_time Arg1:T61 Arg2:T60	
+R45	coauthor Arg1:T66 Arg2:T67	
+R46	has_cited_time Arg1:T68 Arg2:T67	
+R47	has_cited_time Arg1:T70 Arg2:T69	
+R48	has_cited_time Arg1:T79 Arg2:T78	
+R49	coauthor Arg1:T80 Arg2:T81	
+R50	coauthor Arg1:T81 Arg2:T82	
+R51	has_cited_time Arg1:T83 Arg2:T82	
+R52	coauthor Arg1:T84 Arg2:T85	
+R53	has_cited_time Arg1:T86 Arg2:T85	
+R54	results Arg1:T60 Arg2:T113	

@@ -1,0 +1,48 @@
+T1	表 1070 1200	Table 2 shows the top 20 nonfiction works , all with at least 3,500 libcitations ; and the top 10 novels , all with at least 3,100
+T2	引文作者 1704 1709	White
+T3	引文时间 1719 1723	2009
+T4	表 1738 1871	and the authors in Table 2 include winners of the Pulitzer Prize , the National Book Award , and the Nobel Prize , to name only those
+T5	表 2094 2169	Table 2 thus sets a standard with which to compare other titles and authors
+T6	表 2174 2244	Table 3 exhibits the 20 titles with the highest ARL libcitation counts
+T7	表 2337 2476	Because these books are more scholarly , they have lower total libcitation counts than the books in Table 2 , but they still have sold well
+T8	表 2942 3063	Although the main Dewey class of most titles in Table 3 is “ Social sciences , ” their specific Dewey classes vary widely
+T9	表 3420 3601	Table 4 shows how many total libcitations and ARL libcitations in our sample would be needed to make the 90th or 50th percentile cutpoints in main Dewey classes and two time periods
+T10	引文作者 3729 3737	Bornmann
+T11	引文作者 3742 3746	Marx
+T12	引文时间 3749 3753	2013
+T13	表 4605 4653	In Table 4 , libcitations are similarly analyzed
+T14	表 5191 5293	In Table 4 almost every cutpoint for 2001–2006 is considerably lower than its equivalent for 1990–1995
+T15	时间 5228 5237	2001–2006
+T16	时间 5284 5293	1990–1995
+T17	表 5615 5720	However , Table 4 is meant not as history but simply to imply advisory uses of summary libcitation values
+T18	表 5725 5826	Tables 5 to 8 show what famous , average , and little‐known books in the main Dewey classes look like
+T19	表 6047 6202	In general , the top title in the group had the highest count in its particular sort ( or the highest count after removal of titles used in Tables 2 or 3 )
+T20	表 7439 7521	These same categories also fit many of the “ super ” bestsellers in Tables 2 and 3
+T21	表 7672 7815	The 20 medium or average titles in Tables 5 and 6 take up more specialized topics , and the U.S. emphasis is less apparent or absent altogether
+T22	表 8050 8144	Similar observations fit the books with different levels of ARL libcitations in Tables 7 and 8
+T23	引文作者 9221 9227	Sirkin
+T24	引文时间 9230 9234	2006
+T25	表 9316 9384	Tables 9a , ba and 9b display the distributions and the test results
+T26	表 9517 9640	The gamma of 0.77 in Table 9a , ba indicates a very strong relationship ; the gamma of 0.60 in Table 9b , a substantial one
+T27	表 9849 10114	To gloss Table 9a , ba , most titles with low libcitation counts are in the bottom two rows of the Wikipedia variable ( 13 + 5 ) ; most medium titles are in the middle two Wikipedia rows ( 12 + 1 ) , and most high titles are in the top two Wikipedia rows ( 6 + 12 )
+T29	引文作者 10679 10689	Hammarfelt
+T30	引文时间 10692 10696	2016
+T31	表 11978 12036	Table 2 displays books whose cultural impact is undeniable
+T32	表 12041 12198	At a minimum , the books in Tables 2 and 3 have entered into national or international dialogs , and a “ reception story ” could be assembled for any of them
+T33	表 12203 12319	Moreover , if this can be done for the titles in Tables 2 and 3 , it can also be done for titles in the other tables
+T34	引文作者 12816 12824	Thelwall
+T35	引文作者 12829 12836	Delgado
+T36	引文时间 12839 12843	2015
+T37	自建数据集 776 797	Zuccala–Guns database
+T38	数据源 1923 1932	Wikipedia
+T39	自建数据集 5307 5328	Zuccala–Guns database
+T41	数据源 3380 3388	WorldCat
+T42	数据源 10761 10769	WorldCat
+T28	表 10270 10311	Table 9a , bb may be read in the same way
+R1	has_cited_time Arg1:T3 Arg2:T2	
+R2	coauthor Arg1:T10 Arg2:T11	
+R3	has_cited_time Arg1:T12 Arg2:T11	
+R4	has_cited_time Arg1:T30 Arg2:T29	
+R5	has_cited_time Arg1:T24 Arg2:T23	
+R6	coauthor Arg1:T34 Arg2:T35	
+R7	has_cited_time Arg1:T36 Arg2:T35	

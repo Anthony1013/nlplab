@@ -1,0 +1,37 @@
+T1	软件工具 365 370	Disca
+T4	术语 844 864	API negative caveats
+T5	术语 873 887	Java API types
+T7	软件工具 506 511	Disca
+T9	术语 910 919	API types
+T10	表 892 1087	We selected three API types in Table 2 : javax.swing.JFrame , java.awt.event.ActionLi‐stener , and java.math.BigDecimal , which are mentioned frequently , moderately , and relatively infrequently
+T11	术语 1218 1227	API types
+T12	软件工具 1230 1235	Disca
+T13	表 1298 1406	For each term‐community , we list the top‐1 ranked API negative caveat as a representative caveat in Table 8
+T14	术语 1712 1732	API negative caveats
+T15	表 1657 1843	Compared with the lengthy official documentation , the API negative caveats ( 1.1 ) , ( 1.2 ) , and ( 1.3 ) in Table 8 show that Disca helps to reveal hard‐to‐notice API negative caveats
+T16	软件工具 1786 1791	Disca
+T17	术语 1823 1843	API negative caveats
+T18	软件工具 1862 1867	Disca
+T19	术语 2134 2154	API negative caveats
+T20	软件工具 2158 2163	Disca
+T21	术语 2184 2191	Javadoc
+T22	术语 2258 2264	JFrame
+T23	术语 2269 2275	JFrame
+T24	术语 2540 2546	JFrame
+T25	术语 2561 2567	JFrame
+T26	术语 2512 2518	JFrame
+T27	术语 2395 2401	JFrame
+T28	术语 2648 2651	API
+T29	术语 2598 2618	API negative caveats
+T30	术语 3138 3141	API
+T31	软件工具 3325 3330	Disca
+T32	术语 3345 3364	API negative caveat
+T33	术语 3208 3211	API
+T34	术语 3228 3248	API negative caveats
+T35	术语 2945 2951	JFrame
+T36	术语 2955 2961	JPanel
+T37	术语 2788 2808	API negative caveats
+T38	术语 2759 2766	Javadoc
+T39	研究结果 1657 1843	Compared with the lengthy official documentation , the API negative caveats ( 1.1 ) , ( 1.2 ) , and ( 1.3 ) in Table 8 show that Disca helps to reveal hard‐to‐notice API negative caveats
+T40	研究结果 1848 1964	Furthermore , Disca augments the official documentation with caveat ( 1.4 ) about multiple values for the same key .
+T41	研究结果 1411 1593	Results : For java.util.HashMap , its long official documentation mentions three negative caveats related to element order , multiple threads synchronization , and comparable element

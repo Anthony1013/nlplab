@@ -1,0 +1,61 @@
+They need to understand more about the implementation details and more about the style and content of IT personnel 's communications . 
+They are unlikely to be taken seriously until they are able to communicate with IT personnel in a manner that will be listened to . 
+If they suggest , for example , that there are problems with having records reside in China when in fact they reside within the boundaries of the state , IT personnel are unlikely to take them seriously and listen to further concerns . 
+If records managers were more aware of the technical requirements of cloud computing , they could communicate better with ST.IT Services . 
+This presents a training issue for archives and records management education , which should provide sufficient technological and communications training to prospective workers . 
+In addition , if records managers had begun thinking at a strategic level , they could have avoided some loss of power as well . 
+In all conversations it was clear that these workers considered ownership at the operational level of their own roles and responsibilities . 
+They did not behave strategically toward management . 
+When they requested communication with the state CIO and she agreed , they waited for her to take the next step . 
+Strategically , they could have taken the initiative to meet with her and to generate more venues for communication , increasing their own power base in the organization . 
+Instead , they waited passively and were disappointed . 
+This represents another area in which archives and records management training could begin providing additional value to records managers , who increasingly need to communicate with occupations and management levels outside their own . 
+Being able to communicate with strategic management and more powerful business units is crucial for garnering resources to enable better records management . 
+Occupational ties are neither static nor all‐encompassing , however . 
+There is some indication that individual attitudes toward the implementation are influenced not just by occupational identity , but also by identification with other groups in the organization . 
+For example , although records managers were overwhelmingly unhappy with the implementation , there was a single records manager who felt the implementation had occurred smoothly and with excellent results—her position reported directly to ST.IT Services . 
+It is not clear whether this reporting relationship led to a greater sense of identity with her structural reporting relationship than with her occupational ties , or whether other factors led to her attitude . 
+Among those who reported negatively on the implementation and their relationship with ST.IT Services , none reported to ST.IT Services . 
+Because different ( and sometimes conflicting ) roles and responsibilities and different perceptions of ownership exist across occupational entities , one can see that speaking about state ownership of information may be perfectly appropriate in some contexts , but it may not be granular enough for other purposes . 
+When designing governance and access agreements , one certainly wants to make sure that within vendor negotiations , the vendor acknowledges that the state owns its own information . 
+However , one must also ensure that , at a more granular level , bundles of responsibilities toward information internally are clearly defined and consistent with actual rights to use . 
+If the design of a system does not take this requirement into account , it can lead to inefficient use of both social and material resources , as seen in this case . 
+From the point of view of records managers , they should be able to act according to their occupational norms about records management roles and responsibilities , but they ca n't , because data ownership has been taken away . 
+This feeling of reduced ownership leads to reduced incentives to engage in the optimal level of information management ( Homburg & Bekkers 2002 ) . 
+The separation of ownership and use such as that seen in the state , where ST.IT Services appears to own the systems , but Microsoft , IT employees , and records managers share usage of the systems , creates a number of inefficiencies of use that are well illustrated by Homburg and Bekkers 's comment that “ rental cars are driven less carefully than cars driven by their owners ” ( p. 1669 ) . 
+Because the members of the individual business units using an information system owned by another department do not expect to gain the full benefits accruing from the use of the system , they do not have as strong an incentive to manage the information in a manner that will maximize its value to the organization as a whole ( Demsetz , 1967 ) . 
+The attenuated sense of information ownership leads those who “ rent ” the system to perform less careful actions upon it or reduce their willingness to deal with information management tasks of which they do not see themselves as owners . 
+Clear contracts , clearly defined roles and responsibilities , assigning tasks that can actually be achieved , and specifying consequences for mismanaging information would help improve the recordkeeping that occurs in the state . 
+However , this case also illustrates that the designers do not have total control over the outcomes of the implementation . 
+Because the distribution of power will change when a third party enters the production process , the outcomes will be determined by a complex set of potentially contradictory discourses throughout the organization . 
+Some of these discourses can be predicted and some may not be amenable to prediction . 
+The group with the most power may not even consciously recognize their own power over other groups , because their position of power is simply part of their status quo . 
+In addition , other groups have resources that they can use to moderate the impacts of the power shifts , if they remain attuned to their own sources of power within the organization . 
+Strategic thinking and production knowledge can provide strong leverage in a case such as this . 
+Much of the disturbance related to this cloud computing implementation could have occurred after any technologically new system implementation ; the impacts were primarily caused by tensions over power , rights , and responsibilities . 
+However , the nature of cloud computing exacerbated these political effects , and the specific changes brought about can be associated with the nature of cloud computing itself . 
+Public cloud computing changes the structure of rights to use over data ; when a third‐party vendor is brought in , tasks that were performed internally are often assigned to the vendor , necessarily influencing the balance of worker rights and responsibilities within the organization . 
+This redistribution of rights and responsibilities puts pressure on preexisting political apprehensions , leading to changes in behavior within , and between , workers with different occupational alliances . 
+Thus , in this case , the implementation of cloud computing reduced the willingness and ability for particular groups of workers to perform at the same level of quality as they had before the implementation . 
+A combination of design decisions and political struggles within the state 's cloud computing implementation negatively affected levels of service among the records managers , by their own admission . 
+The motivation of the implementation was to support the cost‐saving efforts of the state by designing a centralized technical infrastructure . 
+A fundamental decision related to the centralization effort was to bring in a third‐party vendor to perform actions previously performed in‐house . 
+Although functional and technical requirements were developed and followed , little to no effort to prepare for or manage the potential social and political effects occurred . 
+This can be seen as an error in design , but it also reflects the lack of perception of the records managers that they could engage in mitigating behavior that was available to them . 
+Others have reported that the notion of ownership plays a strong role in the ability to engage in successful management of records at an organizational or institutional level ( Bushey , Demoulin , & McLelland , 2015 ) . 
+Here , ST.IT Services “ owns ” the information systems , and as a result , they are perceived to own the information to at least some degree . 
+Because other units of government pay for the use ( and maintenance ) of those systems through chargeback mechanisms , one can expect these “ renters ” to have fewer incentives to manage the information within the systems thoroughly , ultimately resulting in lower‐quality information or more realized risk events . 
+Means for ensuring the clarity of the rights and responsibilities of all “ renters ” need to be discovered and implemented in order to increase records management quality in the new technological environment . 
+This can occur by modifying one or more of the design parameters , such as the rights over records management activities or the information governance ( West & O'Mahony , 2008 ) . 
+It can also occur by ensuring that less powerful occupations within the organization take advantage of their own negotiating capabilities—through education of members of these groups about communication across occupations and about strategic management of their own human resources . 
+This case provides several findings . 
+First , power relations appear to play a stronger role in the success of an implementation than do professional values . 
+Records management is a highly values‐driven occupation ; the literature of archives and records management shows that a strong commitment to accountability of action through proper management and preservation of records is inculcated in workers from the beginning of their education in the fields . 
+One would expect , in such an occupation , that the value‐driven nature of the occupation would be preeminent . 
+Nonetheless , the reduced control over resources and corresponding reduction in power played a greater role in the successful management of records postimplementation than did professional values . 
+Further studies should examine whether this is an anomalous case or the norm . 
+Second , while appropriate design of a new system must include the likely political response of the various occupational groups in an organization , the power of the designers over the outcomes is limited . 
+Occupational groups within the organization can choose to use their own power to support or oppose the implementation , regardless of the efficiency ( or inefficiency ) of the design . 
+Third , knowledge of individual and group power is necessary for appropriate reactions to power imbalances caused by an implementation . 
+Those groups who appear to have lost power can use strategic measures and interoccupational communication to mitigate their power reduction , thereby putting themselves in a position to negotiate better outcomes . 
+And fourth , the nature of cloud computing itself , insofar as it introduces a third‐party vendor into a relatively stable system , will change the balance of power in an organization , leading to the potential for destabilizing and unproductive results . 

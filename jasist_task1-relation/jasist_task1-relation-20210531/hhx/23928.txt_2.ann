@@ -1,0 +1,181 @@
+T1	术语 111 130	multichannel access
+T2	术语 63 82	multichannel access
+T3	术语 239 258	multichannel access
+T4	术语 352 371	multichannel access
+T5	术语 376 399	Social Influence ( SI )
+T6	术语 493 512	multichannel access
+T7	术语 569 571	SI
+T8	术语 851 867	Social influence
+T9	图 1043 1109	From Figure 3 , we can obtain this value directly from the website
+T10	术语 2340 2359	Multichannel access
+T11	表 2384 2449	The number and frequency of each variable are provided in Table 3
+T12	术语 2536 2538	MA
+T13	术语 2556 2558	MA
+T14	表 2738 2826	In Table 4 , the descriptive statistics and correlations for key variables are presented
+T15	术语 2844 2861	most correlations
+T16	术语 2892 2908	social influence
+T17	术语 2913 2932	multichannel access
+T18	具体模型 3029 3060	multinomial logistic regression
+T19	术语 3105 3121	social influence
+T20	术语 3125 3144	multichannel access
+T21	具体模型 3253 3280	ordinal logistic regression
+T22	术语 3329 3348	parallel lines test
+T23	具体模型 3381 3412	multinomial logistic regression
+T24	具体模型 3469 3498	Multiple logistic regressions
+T25	具体模型 3594 3622	binomial logistic regression
+T26	引文的结果 3697 3929	Given some information about the independent variables , these regressions can predict the categories to which a variable can belong , applying the maximum likelihood estimation after transforming the dependent into a logit variable
+T27	引文作者 3932 3940	Geraghty
+T28	引文作者 3943 3951	O'Mahony
+T29	引文时间 3954 3958	2016
+T30	术语 4200 4219	multichannel access
+T31	术语 4272 4295	multinomial probability
+T32	术语 4452 4468	social influence
+T33	术语 4707 4726	multichannel access
+T34	术语 4786 4788	SI
+T35	术语 4800 4822	Moderate Effect ( ME )
+T36	术语 4903 4919	social influence
+T37	术语 4959 4978	multichannel access
+T38	表 5005 5102	Table 5 provides an overall check on the relationship between dependent and independent variables
+T39	具体模型 5201 5211	chi‐square
+T40	术语 5250 5268	probability values
+T41	表 5455 5534	Table 6 shows the significant test of all independent variables in three models
+T42	术语 5473 5489	significant test
+T43	引文作者 5549 5557	Geraghty
+T44	引文作者 5562 5570	O'Mahony
+T45	引文时间 5573 5577	2016
+T46	引文的结果 5595 5690	the larger the chi‐square value , the greater the loss of model fit if the variable was deleted
+T47	术语 5699 5701	SI
+T48	术语 5727 5743	chi‐square value
+T49	术语 5893 5909	chi‐square value
+T50	术语 5957 5973	chi‐square value
+T51	术语 5977 5979	ME
+T52	术语 6004 6006	SI
+T53	表 6092 6205	The model parameter estimation is shown in Table 7 , which includes the coefficients and their significance level
+T54	术语 6187 6205	significance level
+T55	术语 6164 6176	coefficients
+T56	术语 6471 6473	SI
+T57	术语 6549 6568	multichannel access
+T58	研究结果 6602 6736	the more likely the focal physician is to provide more accessible channels in the online health community that support her or his work
+T59	术语 6850 6852	SI
+T60	术语 6792 6811	multichannel access
+T61	术语 6883 6902	multichannel access
+T62	术语 6973 6985	rating value
+T63	术语 7138 7140	SI
+T65	术语 7230 7232	MA
+T66	术语 7254 7256	ME
+T67	术语 7288 7307	multichannel access
+T68	术语 7376 7378	SI
+T64	术语 8167 8169	MA
+T69	术语 8211 8213	SI
+T70	术语 8286 8288	MA
+T71	术语 8538 8540	MA
+T72	术语 8468 8470	MA
+T73	自建数据集 8674 8726	We downloaded 18,640 observations from 141 hospitals
+T74	具体模型 8839 8854	binary logistic
+T75	具体模型 8869 8884	binary logistic
+T76	术语 9185 9214	maximum likelihood estimation
+T77	术语 9293 9295	MA
+T78	术语 9358 9360	MA
+T79	术语 9404 9406	MA
+T80	具体模型 9468 9478	robustness
+T81	表 9515 9647	The three models are as follows : Table 8 shows that the results of our robustness model are identical to the results in section 5.1
+T82	具体模型 9587 9597	robustness
+T83	术语 9672 9674	SI
+T84	术语 9722 9724	MA
+T85	术语 9878 9880	MA
+T86	研究结果 9833 10014	This indicates that the higher the degree of MA to the focal physician 's colleagues , the more access channels will be provided by the focal physician in an online health community
+T87	研究结果 10194 10283	This also shows that higher patient ratings encourage physicians to provide more channels
+T88	术语 10323 10325	SI
+T89	术语 10365 10367	MA
+T90	引文的结果 10423 10513	This proves the existence of an SI relationship that is both cooperative and competitive .
+T91	术语 10455 10457	SI
+T92	术语 10526 10528	SI
+T93	术语 10578 10580	MA
+T94	术语 10622 10624	ME
+T95	术语 10664 10666	SI
+T96	术语 10724 10726	MA
+T97	研究结果 10516 10755	Overall , SI and Rating show a significant positive effect on MA to the physician , whereas the effect of ME is significantly negative , i.e. , the SI negatively moderates the relationship between Rating and MA in online health communities
+T99	时间 10957 10977	February 1–28 , 2017
+T98	自建数据集 10923 10977	We collected the weekly data from February 1–28 , 2017
+T100	引文的方法 11111 11158	this method is widely used in existing research
+T101	引文作者 11161 11165	Mutz
+T102	引文作者 11168 11176	Wolbring
+T103	引文作者 11181 11187	Daniel
+T104	引文时间 11190 11194	2016
+T105	引文作者 11197 11200	Nov
+T106	引文作者 11203 11207	Laut
+T107	引文作者 11212 11219	Porfiri
+T108	引文时间 11222 11226	2016
+T109	术语 11098 11108	panel data
+T110	具体模型 11068 11087	logistic regression
+T111	术语 11276 11278	MA
+T112	数学公式 11523 11534	Equation 11
+T113	数学公式 11624 11635	Equation 11
+T114	术语 11659 11661	MA
+T115	数学公式 11702 11713	Equation 11
+T116	数学公式 11833 11844	Equation 12
+T117	术语 11806 11808	MA
+T118	术语 11889 11920	weak instrumental variable test
+T119	术语 11999 12020	instrumental variable
+T120	研究结果 12038 12138	This study contributes to the literature in information systems , SI , and online health communities
+T121	术语 12104 12106	SI
+T122	术语 12082 12101	information systems
+T123	术语 12185 12187	MA
+T124	术语 12262 12264	MA
+T125	术语 12404 12406	SI
+T126	具体模型 12431 12462	multinomial logistic regression
+T127	具体模型 12473 12488	binary logistic
+T128	术语 12602 12604	SI
+T129	术语 12703 12714	SI measures
+T130	术语 12778 12780	MA
+T131	术语 12816 12818	SI
+T132	术语 12822 12824	MA
+T133	术语 12833 12843	SI measure
+T134	术语 13003 13005	SI
+T135	术语 13137 13139	SI
+T136	引文的结果 13219 13306	Most of the SI literature considers SI to have a positive effect on individual behavior
+T137	术语 13231 13233	SI
+T138	术语 13255 13257	SI
+T139	引文作者 13309 13314	Bapna
+T140	引文作者 13317 13324	Umyarov
+T141	引文时间 13327 13331	2015
+T142	引文作者 13334 13343	Risselada
+T143	引文时间 13353 13357	2014
+T144	术语 13444 13446	SI
+T145	术语 13450 13452	MA
+T146	术语 13522 13524	SI
+T147	术语 13554 13556	SI
+T148	术语 13617 13619	MA
+T149	研究结果 13529 13691	The moderating effect of SI was studied on the relationship between patient ratings and MA in online health communities and is proven to be significantly negative
+T150	术语 13789 13791	SI
+T151	研究结果 13708 13825	this research provides a new aspect in examining the competitive relationship of SI by studying its moderating effect
+T152	术语 15889 15891	MA
+T153	研究展望 15919 15997	This study has several limitations that should be addressed in future research
+T154	术语 16023 16043	cross‐sectional data
+T155	术语 16494 16496	SI
+T156	研究展望 16443 16604	We intend to conduct future experiments to examine SI on these virtual social networks , which can be another critical factor affecting an individual 's behavior
+T157	术语 16144 16146	SI
+T158	术语 16150 16152	MA
+T159	研究结果 13885 14030	If we want to expand a new technology or product with higher quality and better performance to consumers , this study may provide a good strategy
+T160	研究结果 14877 15032	In addition , if patients want to access more excellent physicians in online health communities , our study provides a strategy for accomplishing this goal
+T161	术语 16349 16351	SI
+T162	研究问题 16324 16438	this study explores both SI in a department and online health communities as platforms for virtual social networks
+R1	coauthor Arg1:T27 Arg2:T28	
+R2	has_cited_time Arg1:T29 Arg2:T28	
+R3	results Arg1:T27 Arg2:T26	
+R4	coauthor Arg1:T43 Arg2:T44	
+R5	has_cited_time Arg1:T45 Arg2:T44	
+R6	results Arg1:T43 Arg2:T46	
+R7	uses Arg1:T101 Arg2:T100	
+R8	coauthor Arg1:T101 Arg2:T102	
+R9	coauthor Arg1:T102 Arg2:T103	
+R10	has_cited_time Arg1:T104 Arg2:T103	
+R11	coauthor Arg1:T105 Arg2:T106	
+R12	coauthor Arg1:T106 Arg2:T107	
+R13	has_cited_time Arg1:T108 Arg2:T107	
+R14	field_similar_as Arg1:T105 Arg2:T101	
+R15	results Arg1:T139 Arg2:T136	
+R16	coauthor Arg1:T139 Arg2:T140	
+R17	has_cited_time Arg1:T141 Arg2:T140	
+R18	has_cited_time Arg1:T143 Arg2:T142	
+R19	field_similar_as Arg1:T142 Arg2:T139	

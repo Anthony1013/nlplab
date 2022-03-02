@@ -1,0 +1,73 @@
+T1	术语 823 825	IT
+T2	术语 1625 1627	IT
+T3	术语 2306 2320	ST.IT Services
+T4	术语 2844 2846	IT
+T5	术语 2862 2865	DET
+T6	术语 3336 3339	DET
+T7	术语 3318 3320	IT
+T8	术语 4220 4222	IT
+T9	术语 4437 4439	IT
+T10	术语 4655 4673	IT manages storage
+T11	术语 4747 4749	IT
+T12	术语 5154 5156	IT
+T13	术语 5606 5608	IT
+T14	术语 6000 6015	cloud computing
+T15	术语 6033 6048	cloud computing
+T16	术语 6229 6243	ST.IT Services
+T17	术语 6788 6802	ST.IT Services
+T18	术语 6885 6899	ST.IT Services
+T19	术语 7867 7882	cloud computing
+T20	术语 8097 8106	Microsoft
+T21	术语 7281 7290	Microsoft
+T22	术语 6197 6206	Microsoft
+T23	术语 8746 8765	ST.IT Services P‐19
+T24	术语 11044 11069	delivery stand represents
+T25	术语 11180 11195	cloud computing
+T26	引文的结果 12370 12390	a double hermeneutic
+T27	引文作者 12415 12422	Giddens
+T28	引文时间 12425 12429	1987
+T29	术语 13108 13117	Microsoft
+T30	术语 13124 13138	ST.IT Services
+T31	术语 13393 13408	cloud computing
+T32	术语 13876 13878	IT
+T33	术语 13923 13925	IT
+T34	术语 14069 14071	IT
+T35	引文作者 14578 14583	Hayek
+T36	引文时间 14586 14590	1952
+T37	引文作者 14593 14605	Wittgenstein
+T38	引文时间 14608 14612	1958
+T39	引文的结果 14462 14575	Individuals ’ sense of individuality is inherently linked to the social and material systems in which they belong
+T40	术语 14868 14894	analytic conceptualization
+T41	术语 15663 15665	IT
+T42	术语 16114 16116	IT
+T43	术语 16664 16678	ST.IT Services
+T44	引文作者 16980 16987	Giddens
+T45	引文的结果 16988 17184	postulated that inherent in all action is a reflexivity with our social and material environment , wherein we act upon the structures of the world , which both constrain and are shaped by agency .
+T46	引文作者 17478 17485	Giddens
+T47	引文的结果 17498 17666	power is a fundamental principle of structuration , where it is seen as the ability of humans to effect change through a means–ends use of social and material resources
+T48	引文的结果 17671 17712	It is a capacity “ to make a difference ”
+T49	引文作者 17715 17722	Giddens
+T50	引文时间 17725 17729	1986
+T51	引文作者 17905 17912	Giddens
+T52	引文的结果 17915 17976	resources are seen as the medium through which power operates
+T53	术语 19173 19188	cloud computing
+T54	术语 19486 19488	IT
+T55	术语 19613 19627	ST.IT Services
+T56	术语 20088 20097	Microsoft
+T57	术语 20321 20323	IT
+T58	术语 20551 20565	ST.IT Services
+T59	术语 20677 20679	IT
+T60	术语 20803 20805	IT
+T61	术语 21111 21125	ST.IT Services
+T62	术语 21544 21546	IT
+R1	has_cited_time Arg1:T28 Arg2:T27	
+R2	results Arg1:T27 Arg2:T26	
+R3	has_cited_time Arg1:T36 Arg2:T35	
+R4	has_cited_time Arg1:T38 Arg2:T37	
+R5	field_similar_as Arg1:T37 Arg2:T35	
+R6	results Arg1:T35 Arg2:T39	
+R7	results Arg1:T44 Arg2:T45	
+R8	results Arg1:T46 Arg2:T47	
+R9	has_cited_time Arg1:T50 Arg2:T49	
+R10	results Arg1:T49 Arg2:T48	
+R11	results Arg1:T51 Arg2:T52	

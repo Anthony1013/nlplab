@@ -1,0 +1,130 @@
+In the past , bibliographic data and citation data pertaining to books were inaccessible , if not difficult to retrieve . 
+Now , as digital resources have improved , so has the priority to advance book‐related metrics . 
+This is partly due to the introduction of Thomson Reuters 's Book Citation Index ( BKCI ) ( Adams & Testa , 2011 ) 11 At the time that this research was carried out the Book Citation Index was owned by Thomson Reuters . 
+It is now part of the parent company Clarivate Analytics . 
+and the addition of books to Elsevier 's Scopus . 
+These commercial databases , however , are not the “ be‐all and end‐all ” for the discerning bibliometrician . 
+Recent assessments of the BKCI point to numerous indexing problems , which can lead to flawed evaluations ( Gorraiz , Purnell , & Glänzel , 2013 ; Leydesdorff & Felt , 2012 ; Torres‐Salinas , Robinson‐Garcia , Cabezas‐Clavijo , & Jimenez‐Contreras , 2014 ) . 
+Still , researchers continue to use the BKCI and/or Scopus by finding ways to extract book citations from journal articles ( Hammarfelt , 2011 ; Zuccala , Guns , Cornacchia , & Bod , 2014 ) . 
+Some have chosen instead to work with alternative resources , like Google Books ( Kousha & Thelwall , 2009 ) , Google Scholar ( Kousha & Thelwall , 2011 ) , and OCLC‐WorldCat ( Torres‐Salinas & Moed , 2009 ; White et al. , 2009 ) . 
+Concerted efforts are even being made to compare data that have been retrieved from multiple databases ( Kousha , Thelwall , & Abdoli , 2016 ; Zuccala & Cornacchia , 2016 ; Zuccala , Verleysen , Cornacchia , & Engels , 2015a ; Zuccala & White , 2015b ) . 
+The metric community is making rapid progress , but this is related primarily to the exploration of new data sources . 
+The BKCI indexing problem therefore persists . 
+One solution is to avoid studies based on citations and work with library holding counts instead ( Torres‐Salinas & Moed , 2009 ) . 
+With this option books cataloged in various international libraries ( e.g. , the OCLC‐WorldCat Union catalog ) may be evaluated according to “ their perceived impacts on culture and the life of the mind ” ( White et al. , 2009 , p. 1086 ) . 
+Thus far , the libcitation has generally been accepted , although researchers are reluctant to separate libcitations from citation counts , suggesting that both indicators might be used in a complementary manner ( Linmans , 2010 ; Zuccala & White , 2015b ) . 
+To a large extent , the citation is inexorable : it is the principal indicator upon which the BKCI was founded , and remains pertinent to the use of other databases as well ( e.g. , Scopus and Google Scholar ) . 
+Another solution for improving book‐related metrics is to take the problem of book indexing more seriously and put more emphasis on index‐related improvements . 
+This approach does not rest entirely with the bibliometrician 's expertise , yet most studies that rely on indexes/book catalogs still point to the same issue : regardless of where and how bibliographic and citation data are collected , it is essential to recognize that books often belong to bibliographic families . 
+Since bibliographic families may be examined both theoretically and empirically , the aim of this study is to do both . 
+First , we will examine and explain several interrelated concepts linked to a family‐oriented entity‐relationship model , known as the Functional Requirements for Bibliographic Records ( FRBR ) . 
+We have chosen to use this model because it can effectively illustrate the extent to which books , as complex entities , are not always indexed accurately in the BKCI , using appropriate metadata . 
+In the second empirical part of this study , we present some data collected specifically from the BKCI , OCLC‐WorldCat , and Goodreads , and use these data to demonstrate why a robust model is necessary , in order to improve the accuracy of book‐oriented metrics ( i.e. , citation counting ) . 
+The empirical aspect of our research is based on the following question : Do books currently indexed in the BKCI have adequate metadata and data designed to reflect inherent familial components and relationships ? 
+Counts of books as publications and/or counts of their received citations may be compounded or not , depending on how we recognize their intellectual and physical properties . 
+According to Lubetzky ( 1953 ) , all bibliographic entities possess at least two : an intellectual property , which we refer to as the work and a physical property , which is the container for the work . 
+It is worth noting that when Lubetzky ( 1953 ) first established these definitions , digital media had not yet been introduced . 
+Attempts have also been made since then to elaborate upon the term work ; hence , the general consensus today is that what we observe from a work is the synthesis of its ideational and semantic content ( Smiraglia , 2001 ) . 
+If we examine a journal article , we are likely to observe familial components based on a one‐to‐one , or a one‐to‐many relationship . 
+An article 's intellectual property begins as a piece of work and its physical property can manifest as an official print publication and/or a digital publication with a digital object identifier ( DOI ) . 
+The purpose of the DOI is to provide a persistent link to both the print and digital object . 
+Circa Lubetzy 's time period ( 1950s ) there would have been little confusion about what is counted when a journal article was accepted for publication , printed , and indexed . 
+Today , with print and digital publishing , it can be interesting to examine when an article is officially published—that is , if it is available online with a DOI , or printed and indexed at a later date ( Haustein , Bowman , & Costas , 2015 ) . 
+A monograph is similar to a journal article in that it typically appears first as one intellectual contribution , or work . 
+Like a journal article , it may be published in print or digital form . 
+Unlike the journal article , the monograph can be reitemized as a new edition . 
+Chi , Thijs , and Glänzel ( 2015 ) initially reflect on this problem when they note that the BKCI sometimes includes different editions of the same work : The BKCI distinguishes different editions of a book for some of its source items and indexes one or more editions of a work . 
+For example , “ CRIME SCENE TO COURT : THE ESSENTIALS OF FORENSIC SCIENCE , SECOND EDITION ( 2004 ) ” and “ CRIME SCENE TO COURT THE ESSENTIALS OF FORENSIC SCIENCE , 3RD EDITION ( 2010 ) ” coexist in the database . 
+Therefore , the citation links provided by the BKCI to the different editions of a book are edition‐sensitive and may need further judgment or weight for an additional evaluation process . 
+( p. 24 ) . 
+The BKCI distinguishes different editions of a book for some of its source items and indexes one or more editions of a work . 
+For example , “ CRIME SCENE TO COURT : THE ESSENTIALS OF FORENSIC SCIENCE , SECOND EDITION ( 2004 ) ” and “ CRIME SCENE TO COURT THE ESSENTIALS OF FORENSIC SCIENCE , 3RD EDITION ( 2010 ) ” coexist in the database . 
+Therefore , the citation links provided by the BKCI to the different editions of a book are edition‐sensitive and may need further judgment or weight for an additional evaluation process . 
+( p. 24 ) . 
+While it is clear that these items have been published as distinct editions , Chi et al . 
+'s ( 2015 ) use of the term work needs further attention . 
+A basic Google search for the second edition and third edition of “ CRIME SCENE TO COURT ” confirms that both have been published under the same title , with the same editor ( WHITE , PC ) , but in different publication years . 
+Moreover , a closer examination indicates that not only do they possess unique International Standard Book Numbers ( i.e. , ISBN : 978‐1‐84755‐065‐1 for the second edition and ISBN : 978‐1‐84755‐882‐4 for the third edition ) they also do not share the same content . 
+This is evidenced by the fact that each volume is made up of different chapter titles and different authors corresponding to each chapter . 
+Chi et al . 
+( 2015 ) have the impression that both editions of “ CRIME SCENE TO COURT ” are the same work , but we show that this may not be the case . 
+In the Functional Requirements for Bibliographic Records ( FRBR ) the term work is an abstract entity , which serves as the focal point for a full conceptual model of the bibliographic universe ( Tillet , 2005 ) . 
+The FRBR was first developed by a study group , affiliated with the International Federation of Library Associations and Institutions ( IFLA Study Group on the Functional Requirements for Bibliographic Records , 1998 ) , but Tillet ( 2005 ) , one of the original members of this group , explains that it was written to serve as “ a generalized view… independent of any cataloguing code or implementation ” ( p. 24 ) . 
+Now it is often recommended for the restructuring of catalogs : the number of records we make is a decision made up front by the cataloger based on local policies reflecting local user needs . 
+We may choose to catalog at various levels : the collection of works ( FRBR calls this an aggregation ) , an individual work , or a component of a work . 
+At the description level , we may include a description of all the parts and should provide access to each component . 
+At the component level , we should provide a link to relate to the larger “ whole. ” ( Tillet , 2005 , p. 27 ) the number of records we make is a decision made up front by the cataloger based on local policies reflecting local user needs . 
+We may choose to catalog at various levels : the collection of works ( FRBR calls this an aggregation ) , an individual work , or a component of a work . 
+At the description level , we may include a description of all the parts and should provide access to each component . 
+At the component level , we should provide a link to relate to the larger “ whole. ” ( Tillet , 2005 , p. 27 ) Long before the FRBR was introduced , O'Neill and Vizine‐Goetz ( 1989 ) were the first to examine the term work as part of an entity‐relationship model of the bibliographic family . 
+In this early model , the top concept of work refers abstractly to a common origin and content . 
+Subsequent concepts—that is , text , edition , printing , and book—are used to gradually represent a more narrow understanding of a work down to the individual printed book on the shelf of a library . 
+Book is the only term for a physical object and thus the only one that is not abstract . 
+O'Neill and Vizine‐Goetz ( 1989 ) explain also how a work and its physical object are linked on the basis of a one‐to‐many relationship : each book is affiliated with one work , but one work can have multiple books with which it is affiliated . 
+Tillet ( 2005 ) agrees with an abstract notion of work , but refers to a text and its specific arrangement of sentences , paragraphs chapters , etc . 
+as an expression . 
+The expression is then manifested by a specific version , leading to one example , which she calls an item ( p. 25 ) . 
+These four concepts—that is , work , expression , manifestation , and item— belong to a family tree with inherent relationships . 
+It is a bibliographic family because “ all texts of a work are derived from a single progenitor ” ( Smiraglia , 2001 , p. 75 ) . 
+At the level of the original work there may be expressed equivalent works , such as copies ( e.g. , hardcopy or paperback ) or reprints . 
+There might also be expressed derivatives , which can include multiple editions , revisions , translations , etc . 
+At the descriptive level , the family tree could also include reviews , commentaries , annotated editions , or critical evaluations of the original work ( Tillet , 2001 ) . 
+Figure 1 illustrates what the FRBR entity‐relationship model might look like as a guide to evaluating the current structure of the BKCI . 
+This is an adapted version of Tillet 's ( 2001 ) figure , which was printed first in Relationships in the Organization of Knowledge and reprinted later in What is FRBR ? 
+A conceptual model for the bibliographic universe ( Tillet , 2005 ) . 
+Note that our figure is designed to focus solely on scholarly work and indicates the cutoff point when an expression may be recognized as a new work . 
+Below Figure 1 , we present a list of concepts , which have also been adapted from Tillet ( 2001 , 2005 ) . 
+Our definitions do not deviate too much from the classical definitions , but we include references to other texts in some cases for further clarification . 
+Modified model of bibliographic families for a scholarly work ( Tillet , 2001 , 2005 ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] First Edition : The emblematic or original version of a work as an intellectual contribution . 
+Revised Edition : An edition that includes small corrections made to the original work . 
+Literal Translation : A direct translation of the original language text into another specified target language text ( e.g. , Danish to English ) whereby the intellectual domain and the historical‐temporal context of the original work is recognized and maintained ( Pellizzi , 2015 ) . 
+Augmented Edition : A new edition of a work that is based on an earlier work with augmented or new intellectual content . 
+Free Translation : An approach to translating a text , which intentionally recognizes the cultural gap between the “ intellectual world of the author and that of the translator ” ( Pellizzi , 2015 , p. 10 ) ; it modifies parts of the original language text , so that it appeals differently to the audience of the target language text . 
+Edited Series : By default every new expression of an edited series with new intellectual content will become a new work , even if the title of the edited series remains the same . 
+Review : A focused piece of work written by a new author to describe and review the intellectual content of the original , emblematic work or one of its expressions ( e.g. , a book review ) . 
+Criticism : An extensive piece of work written by a new author which critically evaluates the intellectual content of the original , emblematic work or one of its expressions in connection with other similar works ( e.g. , literary criticism ) . 
+Commentary : A work that explains and annotates an original work ( e.g. , a commentary on one or more expressions of the Bible ) . 
+At present , little is known about why certain books are included in the BKCI . 
+Most books that have been indexed have been published in 2005 or after , and there is currently a book‐by‐book editorial selection process in place at Thomson Reuters ( Testa , 2012 ) . 
+One of the goals of Thomson Reuters 's development team is to include books with a relatively high citation impact , yet it will always be unclear as to which particular item was originally used by the citing person ( s ) . 
+The distinct item that was used , however , is not important , as long as it has been accurately referenced . 
+This means that all manifestation details for an indexed item need to be accurate ( i.e. , author name , title , ISBN , publication date ) so that a decision can be made as to which expressions are equivalent and which shall be characterized as new work . 
+This is one of the key recommendations of FRBR , and thus far , it has had some impact already on other bibliographic structures like OCLC‐WorldCat ( see Bennett , Lavoie , & O'Neill , 2003 ) . 
+According to Bennett et al . 
+( 2003 ) , “ the majority of benefits associated with applying the FRBR ” may be “ obtained by concentrating on a relatively small number of complex works ” ( p. 45 ) . 
+Figure 2 illustrates what is meant by the term “ complex work. ” The example that we use is a monograph that was first written and published in Dutch , titled De Vergeten Wetenschappen : Een Geschiedenis van de Humaniora ( Bod , 2010 ) . 
+De Vergeten Wetenschappen has been reprinted in its first edition language , and has also been “ translated ” to Polish and Ukrainian ( i.e. , as two new expressions of the same “ work ” ) . 
+Note that the 2013 Polish and the 2016 Ukrainian expressions are linked back to the original “ work ” ; thus were not ( according to international catalogers linked to OCLC‐WorldCat ) recognized as new works . 
+In OCLC‐WorldCat they have been recorded as direct or “ literal translations ” of the Dutch progenitor , but the latest English expression has not ( see Figure 2 ) . 
+Model of a complex work with expressions and manifestations of a new work . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The term “ literal translation ” generally means that a source language text is rendered to a target language text , while retaining similar meaning and structure of content ( Bassnett , 2002 ) . 
+In this sense , the translation process seems relatively straightforward ; however , several factors can influence the exercise . 
+For instance , it may become more complex if there is a deeper focus on the cultural or historical background of the source language text and its author , as well as the target language text and translator ( e.g. , a free translation ) . 
+With some freely translated texts , changes are often rooted in the historical period in which the translation was carried out , including the conditions surrounding the translation and the intellectual world of the translator her/himself . 
+With other translated texts , more emphasis is placed on the reception and influence of the translation on the target language and culture . 
+In simpler terms , an author may have a work rewritten by a translator , or s/he may translate his/her own work , but the translated work can only be recognized later as a new work if it includes significant changes . 
+Note from Figure 2 that Rens Bod has translated and published an English derivative of De Vergeten Wetenshchappen , titled A New History of the Humanities : The Search for Principles and Patterns from Antiquity to the Present ( Bod , 2013 ) . 
+Again , this English expression , unlike the Dutch‐to‐Polish expression and Dutch‐to‐Ukrainian expression , has been identified ( in WorldCat ) as a new work . 
+In an e‐mail exchange with the author , we received the following information : I would consider the English [ expression ] as a kind of improved edition of the Dutch book . 
+When the Dutch work was translated into English , I sent it to OUP [ Oxford University Press ] and incorporated the comments by the 5 OUP reviewers into the English version ; I also had the book read by an arabist , indologist and a sinologist , and incorporated their comments as well . 
+And , I added a few additional humanists to the book ( e.g. , Mabillon ) 22 Jean Mabillon was a French Benedictine monk and scholar and Bod ( 2013 ) has referred to his De re dipomatica ( “ On the Science of Diplomatics ” ) in A New History of the Humanities . 
+as well as some additional concepts , such as the Chinese theory of parallel perspective . 
+( R. Bod , personal communication , June 16 , 2016 ) I would consider the English [ expression ] as a kind of improved edition of the Dutch book . 
+When the Dutch work was translated into English , I sent it to OUP [ Oxford University Press ] and incorporated the comments by the 5 OUP reviewers into the English version ; I also had the book read by an arabist , indologist and a sinologist , and incorporated their comments as well . 
+And , I added a few additional humanists to the book ( e.g. , Mabillon ) 22 Jean Mabillon was a French Benedictine monk and scholar and Bod ( 2013 ) has referred to his De re dipomatica ( “ On the Science of Diplomatics ” ) in A New History of the Humanities . 
+as well as some additional concepts , such as the Chinese theory of parallel perspective . 
+( R. Bod , personal communication , June 16 , 2016 ) In the future , Rens Bod notes that there will be new expressions of his work in “ Chinese ( just finished ) , Italian , Armenian and Korean versions…translated directly from the English version ” ( R. Bod , personal communication , June 16 , 2016 ) . 
+Clearly , one work has the potential to possess complex family relationships , and in the case of De Vergeten Wetenshchappen , we see that the bibliographic family is still growing . 
+With many more works like this , there are multiple implications for the structural design of the BKCI . 
+Currently , “ it is possible to distinguish bibliometrically between monographs and edited volumes among the books [ in the BKCI ] , ” but according to Leydesdorff and Felt ( 2012 ) “ monographs may be underrated in terms of citation impact or overrated because individual chapters are counted separately ” ( p. 1 ) . 
+This problem of overcounting or undercounting pertains solely to the metadata used for indexing monographs in the BKCI and their components as familial entities . 
+Our research focuses primarily on the BKCI , but in order to assess its reliability as a data source for bibliometric analyses , we have chosen to compare it to three other catalogs : i ) the Danish PURE repository system for scholarly research outputs , ii ) the OCLC‐WorldCat , and iii ) Goodreads . 
+Each database/catalog was selected for a specific reason . 
+The Danish PURE repository system is a collection of repositories corresponding to eight universities across Denmark . 
+Each university has created its own PURE database in order to register and maintain records of all scholarly research outputs . 
+Due to this system 's nationwide adoption , it is often used in conjunction with the performance‐based evaluation system in Denmark . 
+As of 2009 , all Danish scholars across the country received a mandate to register their scholarly publications in PURE . 
+Each year , performance points are then calculated on the basis of these PURE records and used to determine the amount of leftover government funding to be distributed across departments or research centers ( i.e. , 25 % of the new basic funds , which are 5 % of the total basic funding ) . 
+Monographs are included , and each registration earns a department or research center 5.00 points ( level 1 authority publisher ) or 8.00 points ( level 2 authority publisher ) ( Giménez‐Toledo et al. , 2016 ) . 
+The data retrieved for our study were a set of monographs that had been registered in eight University PURE repositories between the years 2005–2015 . 

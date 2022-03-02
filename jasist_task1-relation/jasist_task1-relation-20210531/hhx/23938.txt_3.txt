@@ -1,0 +1,17 @@
+Because of privacy and legal concerns , as well as employees ’ fears of reprisal or resistance to whistleblowing , research on the role of group attribution in insider threat situations is lacking . 
+Research on group attribution will move us beyond reliance on individual reports ( whistleblowing ) into understanding patterns of collective communication behavior . 
+This article enlightens the intelligence community that wishes to detect early warning signs of insider betrayal by building on sociotechnical works with both technical and behavioral evidence , tapping into the root cause of downward shifts in trustworthiness as assessed by interacting group members . 
+This inquiry extends Ho and Benbasat 's ( 2014 ) dyadic attribution model , arguing that use of communication cues and artifacts to analyze attributed shifts in trustworthiness may suggest insider threat activities . 
+This perspective further emphasizes the importance of integrity‐based trust as a stronger predictor of downward shifts in trustworthiness when insider betrayal is involved . 
+More research is encouraged to distinguish the efficacy of trustworthiness in moral and ethical situations , as well as the role of internal and external causality in this context . 
+With limited communicated cues embedded in group exchanges signaling downward shift of perceived trustworthiness , more evidence is required to correlate betrayal activities with low trustworthiness . 
+To advance on further research of insider threat detection , these propositions should be tested using communication artifacts and language‐action cues from insider threat simulations . 
+Human perceptions are not fully reliable , because not all information is available to the observers . 
+However , human observation naturally leads to attribution of people 's trustworthiness based on limited information and interactions . 
+Our framework advances the conventional attribution model by refocusing attribution of an actor 's trustworthiness when based on observed behaviors from “ human sensors ” within a group context . 
+Moreover , this framework contributes theoretical arguments and provides analytical insights in the arena of insider threat detection . 
+By understanding how “ group sensitivity ” and “ group consensus ” work and fluctuate in detecting insider threats , we may be able to derive a more timely aggregated assessment . 
+Similarly , most attributions are context‐specific , time‐dependent , and combined with assessment regarding an actor 's capability to maintain responsibility and accountability for achieving external goals . 
+This article suggests new attention be paid to “ human sensors ” as an important element in future “ design ” of sociotechnical artificial intelligence computational systems . 
+Future research can be expanded to the design and development of computational systems based on these theoretical stances . 
+The first author wishes to acknowledge the National Science Foundation Secure and Trustworthy Cyberspace ( SaTC ) Program for the support of EAGER # 1347113 award ( 09/01/13–08/31/15 ) . 

@@ -1,0 +1,100 @@
+T1	引文作者 1697 1703	Taylor
+T2	引文作者 1655 1664	Bollacker
+T3	引文作者 1667 1672	Evans
+T4	引文作者 1675 1683	Paritosh
+T5	引文作者 1686 1692	Sturge
+T6	引文时间 1706 1710	2008
+T7	引文作者 1400 1405	Jiang
+T8	引文时间 1415 1419	2015
+T9	引文作者 1391 1395	J.‐Y
+T10	图 1823 1914	Figure 3 gives a clear example , in which we simply extract two templates from five queries
+T11	引文作者 2913 2917	J.‐Y
+T12	引文作者 2922 2927	Jiang
+T13	引文时间 2937 2941	2015
+T14	引文作者 3037 3044	Koppula
+T15	引文时间 3054 3058	2010
+T16	图 4370 4550	Figure 4 shows three search‐result pages with the same pattern “ en.wikipedia.org/wiki/* ” for query “ Kobe Bryant. ” It is obvious that they express different topics over the quer
+T17	图 4785 4838	Figure 4 illustrates how we generate URL sub‐patterns
+T18	引文作者 6001 6009	Järvelin
+T19	引文作者 6012 6022	Kekäläinen
+T20	引文时间 6025 6029	2002
+T21	术语 5952 5998	Normalized Discounted Cumulative Gain ( NDCG )
+T22	引文作者 6961 6970	Buettcher
+T23	引文作者 6950 6956	Clarke
+T24	引文作者 6940 6947	Cormack
+T25	引文时间 6973 6977	2009
+T26	引文作者 10266 10271	Cheng
+T27	引文作者 10256 10259	Lin
+T28	引文作者 10250 10253	Liu
+T29	引文作者 10242 10247	Jiang
+T30	引文时间 10274 10278	2015
+T31	图 10518 10558	Figure 5 shows the change of performance
+T32	引文时间 11043 11047	2008
+T33	引文作者 11034 11040	Taylor
+T34	引文作者 11023 11029	Sturge
+T35	引文作者 11012 11020	Paritosh
+T36	引文作者 11004 11009	Evans
+T37	引文作者 10992 11001	Bollacker
+T38	引文作者 10233 10237	J.‐Y
+T39	时间 11064 11076	January 2015
+T40	时间 11476 11490	March 1 , 2016
+T41	时间 11494 11509	March 16 , 2016
+T42	表 12018 12039	) as shown as Table 1
+T43	表 12406 12452	The well‐tuned parameters are shown in Table 2
+T44	表 12457 12551	Note that the results of parameter tuning are consistent with the analysis as shown in Table 7
+T45	图 12457 12564	Note that the results of parameter tuning are consistent with the analysis as shown in Table 7 and Figure 7
+T46	引文作者 12640 12648	Voorhees
+T47	引文时间 12651 12655	1985
+T48	引文作者 12918 12925	Tombros
+T49	引文作者 12928 12933	Villa
+T50	引文作者 12938 12952	Van Rijsbergen
+T51	引文时间 12955 12959	2002
+T52	表 13297 13478	Table 4 shows the performance of ranking consistency of our approach and the default ranking , that is , original search engine , for overall types and three major types in Freebase
+T53	表 12662 12785	Table 3 shows the results of cocluster NN test of four data sets ; n is the number of URLs retrieved from the search engine
+T54	数据源 1644 1652	Freebase
+T55	研究方法 2792 2834	overlapping K‐nearest neighbors clustering
+T56	研究方法 6883 7001	Here we apply the reciprocal rank function proposed in ( Cormack , Clarke , & Buettcher , 2009 ) as our score function
+T58	数据源 10981 10989	Freebase
+T59	表 11816 11933	To evaluate performance in different domains , we also divide data into three major types , “ people/person ” ( Peo .
+T60	表 11936 11969	) , “ location/location ” ( Loc .
+T61	表 11972 12015	) and “ organization/organization ” ( Org .
+T62	数据源 12101 12109	Freebase
+T63	研究方法 2946 3089	we adopt URL patterns as topical clusters in web pages and apply the method presented in ( Koppula et al. , 2010 ) for discovering URL patterns
+T64	研究方法 5036 5166	In this article , we propose a two‐stage unsupervised approach to simultaneously improve ranking consistency and relevance ranking
+T65	研究方法 5171 5285	In the first stage , we determine the cocluster rank between each of coclustered search intent and topical cluster
+T66	研究方法 5498 5669	In the second stage , we transform the cocluster rank and the original rank into two relevance scores , and combine them as a final determinant according to two heuristics
+T67	数学公式 7456 7465	Eq. ( 3 )
+T68	数学公式 8013 8022	Eq. ( 3 )
+T57	引文的方法 10281 10335	optimized parameters by click‐through data effectively
+T69	具体模型 12577 12584	NN test
+T70	具体模型 26 33	NN test
+R1	coauthor Arg1:T9 Arg2:T7	
+R2	has_cited_time Arg1:T8 Arg2:T7	
+R3	coauthor Arg1:T2 Arg2:T3	
+R4	coauthor Arg1:T3 Arg2:T4	
+R5	coauthor Arg1:T4 Arg2:T5	
+R6	coauthor Arg1:T5 Arg2:T1	
+R7	has_cited_time Arg1:T6 Arg2:T1	
+R8	coauthor Arg1:T11 Arg2:T12	
+R9	has_cited_time Arg1:T13 Arg2:T12	
+R10	has_cited_time Arg1:T15 Arg2:T14	
+R11	coauthor Arg1:T19 Arg2:T18	
+R12	has_cited_time Arg1:T20 Arg2:T19	
+R13	coauthor Arg1:T24 Arg2:T23	
+R14	coauthor Arg1:T23 Arg2:T22	
+R15	has_cited_time Arg1:T25 Arg2:T22	
+R16	coauthor Arg1:T38 Arg2:T29	
+R17	coauthor Arg1:T29 Arg2:T28	
+R18	coauthor Arg1:T28 Arg2:T27	
+R19	coauthor Arg1:T27 Arg2:T26	
+R20	has_cited_time Arg1:T30 Arg2:T26	
+R21	uses Arg1:T38 Arg2:T57	
+R22	coauthor Arg1:T37 Arg2:T36	
+R23	coauthor Arg1:T36 Arg2:T35	
+R24	coauthor Arg1:T35 Arg2:T34	
+R25	coauthor Arg1:T34 Arg2:T33	
+R26	has_cited_time Arg1:T32 Arg2:T33	
+R27	has_cited_time Arg1:T47 Arg2:T46	
+R28	coauthor Arg1:T48 Arg2:T49	
+R29	coauthor Arg1:T49 Arg2:T50	
+R30	has_cited_time Arg1:T51 Arg2:T50	

@@ -1,0 +1,130 @@
+Cultural heritages are important records of human activities in history . 
+Buildings , paintings , music , and language are all examples of cultural heritages . 
+Studies of these heritages are of significant importance for diverse subjects such as archaeology , history , anthropology , information science , linguistics , and religious studies . 
+As some cultural heritages are nonmovable , people who like or need to observe these heritages must travel . 
+More importantly , these heritages may undergo deformation due to natural and/or man‐made causes . 
+Digitalizing these heritages for documentation and preservation is considered to be one of the solutions to this problem ( Garoufallou et al. , 2008 ) . 
+Moreover , when numerous digital resources are produced , organization of and access to these resources become crucial , which in turn calls for reliable , high‐quality metadata . 
+Gradually , more and more information from cultural artifacts in physical form are digitalized and disseminated to users through the virtual world that transcends the boundaries of time and space . 
+As well as professionals in information management and other fields , end users of cultural heritage information often also include members of the general public ( Doerr , 2009 ) who rely to a large extent on museums , libraries , and archives for accessing cultural heritage collections ( van den Akker et al. , 2013 ) . 
+Metadata of cultural heritages is keenly needed in order to meet the information needs of both professional users and the general public who are interested in cultural heritages . 
+China is renowned for its rich historic and cultural background , yet digitization of nonmovable cultural heritages in China is at an initial stage . 
+Organizations including academic libraries and research institutes are striving to develop fine practices , with major references given to the knowledge and experiences of other countries and international organizations . 
+Murals and stone cave temples are two major categories of nonmovable cultural heritages identified in China11 There are five other categories of nonmovable cultural heritage : archeological sites , ancient architecture , ancient tombs , large stone carvings , and historical sites . 
+( UNESCO , n.d. ) . 
+For instance , the Mogao Cave near Dunhuang , a remote city in northwest China , is a representative site with hundreds of stone cave temples decorated with numerous murals dating from 366 ce ( Hu et al. , 2017 ) . 
+Despite the efforts spent on digital preservation of cultural heritages around the world , there is no metadata schema developed specifically for murals and stone cave temples . 
+In addition , there is very little literature that evaluates metadata schemas of cultural heritages with a user‐centered approach through which improvements on the schema can be made and sustained . 
+In order to bridge this gap and improve research in this field , the study aims to create more insight into developing and evaluating metadata schemas for the purpose of digitalizing and preserving cultural heritages , with particular reference to murals and stone cave temples . 
+This study also attempts to compare and contrast the experience and perceptions of different types of users according to their information needs and knowledge of the said heritage . 
+A draft metadata schema was developed for murals and stone cave temples , with reference to a series of existing standards for cultural relics and museum collections . 
+As the schemas are sufficiently similar , in this study we regard them as one schema for evaluation purposes . 
+It is hoped that this schema may be useful for the murals and stone cave temples of China as well as those from other parts of the world . 
+By evaluating the metadata schema , we aim to identify potential problems and make suggestions to improve the schema . 
+In addition , by comparing the evaluation of professional and public users , this study has implications for personalized information services enabled by metadata design . 
+Specifically , the following research questions are proposed : RQ1 : How do professionals and the general public seek and use information of murals and stone cave temples ? 
+RQ2 : Which metadata elements are important and useful to these two groups of users in the drafted metadata schema for murals and stone cave temples ? 
+RQ3 : Besides metadata elements , what other aspects of the metadata schema are relevant for users ? 
+The first question mainly focuses on understanding how users , including professionals and the general public , access and use the information resources of murals and stone cave temples . 
+As addressed by Abbas et al . 
+( 2016 ) under the framework of “ information representation design ” and in the spirit of user‐centered design , understanding users ’ information behaviors and their information needs is of utmost importance for the design of information systems . 
+Users ’ information‐seeking behaviors could then inform their evaluation of the metadata schema , which is a crucial component of information systems . 
+In the second research question , we set out to identify and explore metadata elements in the schema that may or may not be perceived as important or useful by users , thereby making suggestions on modifications of the elements . 
+The third research question investigates how users perceive the metadata schema as a whole , eliciting worthy issues at the schema level such as completeness , clarity , and interoperability ( Ronzino , Amico , & Niccolucci , 2011 ) . 
+Deriving from the above research questions , the primary objective of this study is to evaluate the metadata schema for murals and stone cave temples so that suggestions can be made to inform the further development and improvement of the schema . 
+Furthermore , the study also aims to provide a framework for the next stages of the evaluation . 
+Cultural heritage information access is a unique domain due to the complex nature of the resources . 
+As stated by Moen ( 1998 ) , cultural heritage resources include a variety of physical and digital objects such as physical artifacts and its digital derivatives , descriptive records designed for collection management , online tools such as thesauri and authoritative lists of artists ’ names , and so on . 
+Alternatively , Koolen et al . 
+( 2009 ) discussed the fundamental problems of information retrieval in cultural heritage , arguing that these challenges come from the highly structured and standardized data in cultural heritage institutions that make such data generally difficult and expensive to maintain . 
+The uniqueness of cultural heritage resources and the related information organization and access process has attracted the attention of many researchers . 
+For example , Liew ( 2005 ) identified 10 key information retrieval features among various online exhibition sites . 
+These features mainly cover search and browse facilities and interactive functions . 
+In another study , geographical information was identified as frequently used when searching for information on cultural heritage ( Jones et al. , 2001 ) . 
+Metadata is an important basis for information organization and access ( Haynes , 2004 ; Bhattacharya , 2006 ) . 
+Foulonneau and Riley ( 2008 ) emphasized that metadata was the key to interoperability , as metadata not only improved content sharing but also supported information exchange among and between electronic platforms and information repositories . 
+According to Baca ( 2003 ) , controlled vocabularies such as thesaurus and classification systems are required to populate metadata records , especially in the cultural heritage domain . 
+Baca also addressed the development of local authority files and thesauri to enhance end user access , metadata mapping and crosswalks , and provide integrated access to diverse information resources . 
+This has been reflected in the drafted schema evaluated in this study . 
+Terms from thesauri are required or suggested for some elements such as “ Object/Work Type ” and “ Grade. ” Ontology‐based metadata has also been widely studied , as it helps with the integration of entities and standardization of terminologies for the cultural heritage domain ( Weinstein , 1998 ; Maedche & Zacharias , 2002 ; Schuurman & Leszczynski , 2006 ) . 
+With the help of computational technologies , several digital libraries and online repositories of cultural heritage sites have been established worldwide , including the Digital Dunhuang project,22 http : //www.e-dunhuang.com HistoricPlacesLA,33 http : //www.historicplacesla.org and Ancient Locations.44 http : //www.ancientlocations.net These sites provide rich metadata for digital surrogates of nonmovable cultural heritages , such as the landscape and stories of historical sites ( Hu et al. , 2017 ) . 
+Creating metadata for cultural heritage information poses various and significant challenges . 
+First is the question of the suitability of metadata for digitized cultural heritages . 
+Cultural items that are born digital , such as video games , have already faced metadata creation difficulties ( Lee et al. , 2013 ) , and digitized cultural heritage as derived from information objects may anticipate even more challenges . 
+Existing metadata schema and standards might be suitable for original , physical items , but fall short for digitized surrogates of cultural heritage . 
+For instance , Patel et al . 
+( 2005 ) pointed out that digital representations of physical artifacts required significant technical information ( for example , parameters related to creation , storage , and manipulation ) in the metadata in order to maintain and preserve these cultural objects . 
+Another challenge is that the metadata of cultural heritages needs to serve users from diverse backgrounds . 
+It has been remarked that documentation of cultural heritage necessitates standardization that allows integration of cultural heritage information from multidisciplinary environments involving scholarly and professional users ranging from historians and conservators to sociologists and engineers ( Ronzino et al. , 2012 ) . 
+Standards of metadata are important not only for supporting efficient searches for cultural heritage information , but also for improving interoperability across resource platforms . 
+In addition to scholars and professionals , metadata also serves users from the general public ( Patel et al. , 2005 ) . 
+Nontraditional users of metadata ( that is , the general public ) are recognized as having been adept at “ creating , exploiting , and assessing ” certain types of metadata of cultural heritage information ( Gilliland , 2008 , p. 1 ) . 
+Their potential contributions to such metadata justify the prominence of their opinions . 
+Many cultural institutions and national bodies have attempted to develop standards to address the wide‐ranging metadata requirements of the cultural heritage sector . 
+Well‐known standards include the CIDOC Conceptual Reference Model ( CRM ) for museum documentation ( CIDOC , 2003 ) , the Europeana Data Model ( EDM ) for European cultural heritages ( Doerr et al. , 2010 ) , the SPECTRUM coordinated by the Museum Documentation Association ( MDA ) ( Grant & Cowton , 1997 ) , the VRA Core for visual cultures ( Library of Congress , 2014 ) , the ICCD form in Italy ( Corti & Marcon , 2003 ) , and the UK Historic Environment Data Standard ( MIDAS Heritage ) ( Forum on Information Standards in Heritage , 2007 ) . 
+Ronzino et al . 
+( 2011 ) carried out an assessment and comparison of several national schemas and standards on cultural heritage assets including archaeological sites , museum objects , and architectonic elements . 
+Their article highlights equivalencies and shortcomings of the schemas , and suggests that a more comprehensive standard for cultural heritage assets is needed . 
+Smiraglia ( 2005 ) suggested that schemas should be derived with empirical understanding of the concepts to be represented , and metadata descriptions should be designed with the goal of facilitating retrieval . 
+Regardless of the complexity or the modernity of metadata schemas , they are often created based on resources at hand and existing standards , and the perspectives of end users might not have been taken into account . 
+There is currently a lack of a standardizing metadata schema for murals and stone cave temples , and , more importantly , a user‐centered evaluation of this metadata schema is required for improvements . 
+It is hoped that the schema refined from user evaluation can contribute to meeting the aforementioned challenges to the creation of metadata schema for information and resources of cultural heritages , particularly murals and stone cave temples . 
+With the aforementioned objectives , this study adopted a qualitative approach . 
+Interview is considered a suitable method for this study , as there is little literature on this topic , thus making hypothesis inappropriate at this stage . 
+Semistructured individual interviews with 30 participants from different backgrounds were conducted in order to gain an in‐depth understanding into current user practices in seeking information about murals and stone cave temples , and their evaluation of the draft metadata schema and its elements . 
+The draft metadata schema was developed by referencing existing standards published by the National Cultural Relics Bureau of China , as well as internationally well‐adopted metadata standards such as the CDWA ( Categories for the Description of Works of Art , Getty Trust , 2014 ) and DCMI ( Dublin Core Metadata Initiative , DCMI , 2012 ) . 
+The core elements and their definitions are presented in Table 1 . 
+Findings from this study can provide a framework to enable follow‐up studies to adopt a quantitative approach . 
+Thirty participants joined this study . 
+Nineteen were female and eleven were male . 
+The ages of participants ranged from 20–55 , with most participants ranging from 25–30 years old . 
+Participants were categorized into two groups : professionals ( N = 18 ) and the general public ( N = 12 ) . 
+The sample sizes are in line with previous studies on user‐centered metadata evaluation , namely , 17 cultural heritage experts as interviewees in Amin et al . 
+( 2008 ) , 14 users in different groups in Hu et al . 
+( 2017 ) , and 33 survey respondents in Zhang and Li ( 2008 ) . 
+The group of professionals included researchers and scholars in related fields such as art history , Buddhist study , and ancient architecture , as well as those who had jobs related to cultural heritage , such as teachers , journalists , graphic designers , and cultural heritage librarians . 
+This group of users had information needs for murals and stone cave temples for job‐ or profession‐related purposes . 
+On the other hand , participants in the general public group were those who had no expert knowledge or job‐related purpose in seeking mural and stone cave temple information . 
+Examples of their occupations included nurses , bankers , and so on . 
+This diverse user background was included for the purpose of collecting opinions from users with different information needs , so that implications can be used for informing how the metadata can serve different types of users . 
+Participants in the professional group were recruited using a snowball sampling method in Hong Kong and mainland China where people are likely to be familiar with murals and stone cave temples in Dunhuang and other historical monument sites in China . 
+It is important but difficult to identify and recruit experts in related domains , whereas snowball sampling can help obtain access to hard‐to‐reach populations ( Berg et al. , 2004 ) . 
+The group of the general public was recruited as a convenience sample , with efforts in diversifying participants ’ age , gender , and professions . 
+Each interview was structured into two parts . 
+The first was for collecting information‐seeking behaviors of the interviewees with regard to murals and stone cave temples . 
+Interviewees were expected to answer the questions based on their past experiences in seeking related information . 
+At the end of this part , to solicit users ’ viewpoints of how such information could be provided in a more user‐friendly way , interviewees were asked to give suggestions on what they needed most for improving access to mural and stone cave temple information . 
+It is noteworthy that , at this stage , the draft metadata schema was still hidden from the interviewees and they may or may not mention any metadata‐related issues . 
+In the second part , the core elements in the draft metadata schema were introduced to the interviewees . 
+They were asked to comment on the importance and usefulness of every core element of the metadata schema , as well as their opinions on the schema as a whole . 
+The interview protocol is presented in the Appendix . 
+The interviews were conducted either in‐person or by phone , which allowed synchronous feedback and interactions between the interviewees and the interviewer ( Dent , 2011 ) . 
+Each interview session lasted around 1 hour . 
+The participants voluntarily joined the interviews with no remuneration provided . 
+All audio recordings of interviews were transcribed and coded in a thematic content analysis approach . 
+Excerpts were defined as units with independent meanings and usually an utterance . 
+A grounded theory approach ( Strauss & Corbin , 1994 ) was adopted . 
+The codebooks were developed from the data through an iterative coding process and refined for multiple rounds of going through the data . 
+There were 1,119 excerpts extracted from the interview transcripts and 325 excerpts ( 29 % ) were double‐coded . 
+Cohen 's kappa coefficient was calculated to measure the interrater reliability of the coding . 
+The resultant kappa values ranged from 0.78–0.92 across the interview questions , implying an overall substantial to excellent level of agreement between coders ( McHugh , 2012 ) . 
+In terms of the methods used to seek information on murals and stone cave temples , websites/databases ( 15 times ) accounted for one‐third of the total count of 45 responses from the professionals , while search engines ( 12 ) took this role among the 35 responses from the general public group . 
+Comparing the two user groups , the remaining responses had similar counts and also included library catalogs ( 7 vs. 7 ) , visiting targeted museums and exhibitions ( 5 vs. 5 ) , visiting bookstores ( 2 vs. 3 ) , and using personal contacts ( 3 vs. 2 ) . 
+These results showed that electronic resources were the predominant tools used in looking for information related to murals and stone cave temples . 
+This predetermines users ’ potential in benefitting from digitized cultural heritage information as well as metadata schemas designed for digital information . 
+The most common type of cultural heritage information sought by the professional group was visual material ( for example , images , videos ) ( 9 out of 20 responses ) , whereas that by the public group was travel‐related information ( 9 out of 26 responses ) . 
+Both groups looked for the historical or cultural background of cultural heritage ( 6 vs. 6 ) , while reviews from other people were sought more by the public ( 5 ) than the professionals ( 1 ) . 
+When asked about how information of murals and stone cave temples can be provided in a more user‐friendly way to improve the information‐seeking experience , more than half of responses ( 7 ) from the professional group indicated that resources should be available online ( 4 ) , whereas more than one‐third ( 4 ) of the general public participants ( 10 ) mentioned the same . 
+High‐quality catalogs ( 2 vs. 2 ) and the availability of search functions ( 1 vs. 1 ) were similarly demanded by both user groups . 
+Metadata , as the backbone of catalogs and online searches , is therefore a potential requirement from users ’ perspectives . 
+Meanwhile , the provision of a map of cultural heritage sites was suggested by the public ( 2 ) exclusively . 
+Two codebooks were developed from responses to different interview questions on the metadata schema . 
+Table 2 presents the codes on individual metadata elements , including users ’ perceptions on its importance , its usefulness in searching , browsing , and organizing related information , and issues raised . 
+Participants were also asked to evaluate the proposed metadata schema as a whole , and identify issues the schema might have . 
+Table 3 shows the codebook of main issues raised . 
+There were 419 excerpts containing interviewees ’ views on individual metadata elements in the schema . 
+Of these , 240 were about their importance , 146 concerned their usefulness , and 33 indicated issues of the elements . 
+Table 4 summarizes the distributions of the codes on element importance in the professional user group , as well as the percentages of the total of each element . 
+“ Title ” ( rated as “ Necessary ” or “ Informative ” 6 times , representing 100 % of opinions on this element ) , “ Identifier ” ( 6 , 86 % ) , “ Current Location ” ( 5 , 100 % ) , and “ Material ” ( 7 , 87 % ) of a mural or stone cave temple can be viewed as the most important among all elements . 
+While most elements had only one to two responses of “ Not interested ” among the professional users , “ Damage , ” “ Context , ” and “ Description ” received the most “ Redundant ” ratings among this user group . 
+They commented that “ Damage ” ( 5 times , 62 % ) overlapped with “ Current Condition , ” while “ Context ” ( 3 times , 43 % ) and “ Description ” ( 3 times , 37 % ) might duplicate to some extent . 

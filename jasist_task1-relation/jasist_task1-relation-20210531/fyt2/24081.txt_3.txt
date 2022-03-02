@@ -1,0 +1,14 @@
+Our suggestion for further study of OGD portals mirrors that of Gonzalez‐Zapata and Heeks ( 2015 ) , in that “ stakeholder analysis and perspectives analysis ” are necessary to understand the effect of OGD . 
+This article is also limited by its scope . 
+In the study , we only tested the framework on U.S. municipal OGD portals . 
+To further demonstrate the value and applicability of the evaluation framework , additional studies of non‐U.S . 
+OGD portals , as well as state and federal‐level OGD portals , are needed . 
+While further refinement of the User Interaction Framework is necessary to understand the differing needs of users , the current U.S. municipal OGD portals still have much to do to improve user interaction and engagement , especially regarding trust , understanding data , integrating data , and user involvement and participation . 
+Some issues , such as the lack of multilanguages , the app showcase , documentation , and citation formats , may be remedied by the joint efforts of portal managers and source data providers . 
+However , to address issues like data completeness and data policy availability , city governments must first present a transparent plan for data selection and provision to their publics . 
+To help users understand and engage with data , cities may decide if OGD portals should provide tools to advance data literacy and user education , or opt to leave these issues to intermediaries . 
+This study tested the User Interaction Framework on 34 U.S. municipal governments ’ OGD portals , providing useful metrics for understanding the portals ’ characteristics and overall performance , from a user perspective . 
+This flexible framework has the potential to be improved and adapted for evaluating OGD portals at any level of government , or even in different countries . 
+The study revealed the performance variability of municipal OGD portals , and identified two possible factors : city population and the software platform . 
+To understand the variability fully , comparative case studies may be needed , to examine the political and socioeconomic diversity of local governments , and the heterogeneous character of municipal services ( Nahon et al. , 2015 ) . 
+To expand our knowledge of open data users , more research is needed to understand who actually uses the portals and the data , and for what purposes . 

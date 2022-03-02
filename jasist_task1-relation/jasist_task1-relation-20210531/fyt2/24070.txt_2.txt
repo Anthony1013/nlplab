@@ -1,0 +1,130 @@
+Users also execute their own search queries ( ③ ) using the search tool ( ④ ) , which is present on both tabs ( TM and HT ) for easy use . 
+The search results are then listed right of the two tabs ( ⑤ ) . 
+Note that users can save links that are of interest or are helpful to them . 
+The interface also allows users to save answers ( ⑧ ) . 
+Aggregated WikiMap+ interface . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Link‐based applications such as Wikipedia are becoming increasingly popular because they provide users with an efficient way to find needed knowledge , for instance , searching for definitions and information about a particular topic , and exploring articles on related topics . 
+Traditional methods can not represent all the relationships between hypertexts ; thus , users can easily change their search goals unconsciously or get lost when they explore or retrieve information in Wikipedia ( Wu & Vakkari , 2014 ) . 
+Accordingly , the proposed WNavi s application consists of three tools : a TM , a topic‐based HT , and topic summaries . 
+The goal of the topic network and topic tree tools is to help users to find the major concepts of a topic and identify relationships between these major concepts easily . 
+In addition , to locate specific information and enable users to explore and read topic‐related articles quickly , the topic tree and summaries for topics tools support users to gain topical knowledge quickly . 
+Wu and Vakkari ( 2014 ) evaluated whether the proposed WNavi s supports participants in finding more precise answers as compared with the traditional Wikipedia interface . 
+Our earlier research results showed that the use of TM and topic‐based HT tools is strongly associated with good performance in topical‐based tasks , and slightly associated with good performance in identifying direct conceptual relations for answering questions . 
+Note that in the direct relationship , users find answers via the main Wikipedia.com page or via links on the main page . 
+In the indirect relationship , users receive the lowest scores for the task of finding indirect relationships between concepts . 
+Thus , we conclude that for conceptual tasks , neither tool in WNavi s helps users to find indirect relationships between concepts to answer the questions ; this suggests that the indirect relationship‐based task is the most difficult for most users . 
+Moreover , users expressed the desire to use the search tool to find more web pages for topical knowledge . 
+Bron , Gorp , Nack , Baltussen , and Rijke 's ( 2013 ) study on aggregated search interfaces showed that , to obtain a comprehensive view of topics , users prefer to gather information from Wiki documents and web search engines . 
+However , they did not explore the issue of how to organize information using IV tools with the aid of a search tool to support information searches . 
+Accordingly , this suggests refinements to our application to help users achieve better performance on tasks . 
+In this study , the WikiMap+ application integrates the search function with relevance feedback and IV tools ( the TM and a topic‐based HT ) used to gather information from both Wikipedia article pages and Google search results . 
+In this work , we determine if users can find answers and accomplish tasks efficiently via the aggregated WikiMap+ application . 
+The methodological rule in evaluation requires defining the goals of the object of evaluation and developing measures of goal attainment and criteria of success for attaining the goal ( Järvelin et al. , 2015 ; Rossi , Lipsey , & Freeman , 2004 ) . 
+To evaluate the effectiveness of the proposed interfaces , we designed a series of search tasks based on extended evaluation measures to examine how the developed tools empower user searches . 
+Herein , we focus primarily on evaluating the effects of the proposed interface ( the IV tools and the search tool ) , and on supporting users with different levels of subject knowledge : novices and intermediate users . 
+We summarize the hypotheses with associated expected outcomes from the perspectives of both effects in this research . 
+Hypothesis 1 : Intermediates better identify relationships between important concepts and obtain topical knowledge more correctly when compared with novices , regardless of interfaces : For Outcome 1 , whether using the basic Wikipedia or the proposed interface , we expect intermediates to achieve better results when compared with novices due to the effects of domain knowledge . 
+We adopt two‐way analysis of variance ( ANOVA ) to examine the effects of the three interfaces and two levels of knowledge on user performance on the four tasks . 
+Hypothesis 2 : The effects of IV tools and the search tool ( i.e. , the proposed interface ) is more obvious among novices as compared with intermediates ( w.r.t . 
+percentage of improvement ) : We compare the improvement percentages among the interfaces for the two user groups : Wikipedia versus WNavi s , Wikipedia versus WikiMap + , and WNavi s versus WikiMap + . 
+For Outcome 2 , we expect novices to achieve more significant improvement with the aid of the proposed tools when compared with intermediates . 
+We adopt two‐way ANOVA and pairwise t‐tests and observe user tool usage behavior to examine the influence of each interface on various tasks for the novice and intermediate groups . 
+Hypothesis 3 : IV tools and the search tool support both user groups to identify relationships between important concepts correctly when compared with traditional interfaces : For Outcome 3 , we expect improved task performance for both user groups when using the proposed two interfaces rather than the basic Wikipedia . 
+Moreover , we expect subject novices to receive greater benefits from the IV tools provided by WNavi s and WikiMap+ applications when compared with intermediate users . 
+Hypothesis 4 : IV tools and the search tool support intermediate users in finding more accurate topical knowledge when compared with traditional interfaces : Expected Outcome 4 is that intermediate users formulate queries more correctly than novices . 
+We believe that WikiMap+ improves the performance of topic‐oriented tasks , especially for intermediate users . 
+Hypothesis 5 : Users achieve better gains when identifying relationships between important concepts and the learning of topical knowledge , and therefore construct more correct answers compared with the baseline ( higher gain ) : We define a metric for gain in Equation 3 . 
+That is , we measure how much it costs to derive the benefits of the interface . 
+As we provide a visual organization of the articles for topical knowledge , we expect this to help users learn more about the topic during exploration , and therefore construct a correct answer . 
+In Outcome 5 , we expect the IV or search tools to significantly improve task performance for both user groups . 
+Given the aforementioned expected outcomes of the system , we designed tasks with the associated measurements to determine to what extent the use of the navigation and search support tools contributes to the successful exploration of the topics , as shown in Table 2 . 
+The rationale used to design the tasks is the same as that in our recent work , which proves that tasks reflect how the interface helps users search , explore , or gain knowledge ( Wu & Vakkari , 2014 ) . 
+We briefly introduce the tasks below . 
+To understand the system 's benefits to its users , we observe the search process of each user . 
+First , in Tasks 1 and 2 we examine whether it takes users less time and fewer pages traversed to obtain better search results and a higher gain value . 
+We also observe whether the tools provided within the system help users to identify more topic‐related concepts and their relationships when compared with the baseline system . 
+Furthermore , in Task 3 we examine whether it takes users less time and fewer pages traversed to find related information on subtopics . 
+We also observe whether the tools help users increase the number of concepts for a specific subtopic during the search process , and whether a better gain value as a search result is obtained . 
+Finally , we examine whether our tool helps users to increase topical knowledge , and therefore construct a more correct answer in Task 4 , which is scored by an expert who counted the concepts that were identified to answer the question . 
+Table 2 summarizes the tasks , descriptions of tasks , and measurements for outcomes and outputs . 
+Scores of the answers Gain In this work , we seek to understand how user subject knowledge—in particular , that of novices and intermediate users—is associated with the use of the proposed WNavi s and WikiMap+ interfaces , and consequently with the search process and outcome . 
+Belkin and Muresan ( 2004 ) proposed that user satisfaction , user effort , efficiency , and expected search length are important aspects of both search performance and effort . 
+In this research , we measure the user search process and outcome from the perspective of efficiency and effectiveness . 
+For Tasks 1 , 2 , and 3 , the efficiency is measured in terms of time and number ( # ) of pages traversed , whereas the effectiveness is measured in terms of the number ( # ) of correct answers , score , and gain functions . 
+The nature of Task 4 is an open question ; thus , we have a knowledge management expert to estimate the effectiveness metric from the results using a 6‐point scale from excellent ( 5 ) to no answer ( 0 ) . 
+The score and gain functions of Tasks 1 , 2 , and 3 are introduced below . 
+Note that we take into account the efficiency and the correctness of the results simultaneously , as shown in Equation 3 . 
+Thus , we evaluate user task performance in terms of benefit ( correctness ) and cost ( time ) . 
+Basically , there is only one correct answer for each question for Tasks 1 and 3 . 
+The only exception is the first question for Task 2 , for which there are five correct items ; thus , for this first question we count the number of correct items . 
+Accordingly , users who select the correct five items from the candidate pool of items produce the Corr scores as shown in Equation 1 . 
+Otherwise , as Equation 1 also shows , they produce the Par_Corr scores . 
+Note that as the number of questions in each task is different , as shown in Table A.1 of Appendix A , the scoring of the tasks in this research varies by task type . 
+A total of 96 participants at Fu‐Jen Catholic University ( Taipei ) performed the search tasks during the evaluation . 
+An overview of the user profiles is shown in Table 3 . 
+We selected users who were all junior or senior undergraduate students in the Department of Information Management . 
+Accordingly , all the participants had similar learning backgrounds . 
+Furthermore , before selecting qualified users for the test , we asked about their confidence level with regard to searching for information and about how often they used Wikipedia . 
+We differentiated the confidence levels of search information into four levels : “ Very High , ” “ High , ” “ Normal , ” and “ Low , ” and transformed the linguistic feedback into scores of 3 , 2 , 1 , and 0 , respectively . 
+Table 3 shows that for both novices and intermediates under each interface , most user confidence levels were classified as “ High ” or “ Normal , ” thus scoring 2 or 1 points . 
+Most users used Wikipedia once a week . 
+We filtered out those who had not used it for the past month . 
+English‐language abilities were measured according to TOEIC scores or the entry examination for a university in Taiwan ; compared with students in Taiwan universities , each user 's English‐language proficiency was above average . 
+In our evaluation design , we sought to prevent the results from being influenced by diversity of user learning background , search experience , or English‐language ability ; we hence asked the above questions in advance . 
+In this work , we use “ novice ” and “ intermediate ” to indicate the knowledge levels for the KM subject . 
+The 48 novices were just beginning a KM course , and the 48 intermediates were students halfway through the KM course ; thus , had at least basic background knowledge of the KM subject . 
+The entire evaluation process took around 1 hour . 
+To ensure that participants understood how to use the new interface with multifunctions , we created a “ Practice ” button to allow use of the interface during the tutorial , which lasted approximately 20 minutes . 
+If any user was still confused about the interface , we extended the practice time to ensure that they knew how to use each function . 
+Note that we monitored user on‐screen behavior and keyboard/mouse input during the task performance process using Morae software . 
+We tagged all user behavior during the task performance . 
+We thus recorded the number of pages traversed , the number of clicks on the TM and HT tools in the WNavi s and WikiMap + interfaces , and how the users used the search tools in the WikiMap+ interfaces . 
+The four tasks took around 30 minutes . 
+After each search task , users filled out a questionnaire where they described their experiences using the interface . 
+We designed the questions to reflect our expected outcome of the developed interfaces compared with the traditional Wikipedia . 
+For each test , we invited four users to ensure that the two observers would be able to explain the evaluation clearly and help the users solve operational problems during the tests . 
+The computer requirements were four client computers and one server . 
+On the clients , we installed the implemented interface and the Morae application to record the user search behavior in the presented interface . 
+As shown in Table 4 , we assigned interfaces randomly to each participant to accomplish the assigned tasks ( topics ) . 
+We adopted two sets of between‐subject three‐group designs to conduct the experiments to avoid carryover effects from within‐subject designs : each user used a single interface to accomplish the same set of four tasks . 
+Table 5 shows that for Tasks 1 through 4 , the WNavi s and WikiMap + interfaces achieve higher average scores when compared with the results of the Wikipedia interface . 
+Table 6 shows that novices using Wikipedia obtain the lowest gains ( i.e. , score/time cost ) . 
+Shown in Table 7 , ANOVA tests reveal the significance of the gain values of the three interfaces for the four tasks for novices . 
+In Figure 6 , we also plotted bar graphs of score means with 95 % confidence intervals ( CI ) . 
+Table 7 shows that the effects of the three interfaces are significant for each task . 
+Table 7 and Figure 6 show that WNavi s and WikiMap + yield significantly greater gains per time unit used when compared with the baseline interface . 
+For Tasks 1 , and 4 , WikiMap + yielded significantly greater gains per cost ratio than WNavi s . 
+For Tasks 2 and 3 , users of the two interfaces performed equally well . 
+We conclude that the proposed interfaces benefit novices in their search for information . 
+Gain values with 95 % confidence intervals ( CI ) for novices . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Table 8 shows that in all of the tasks , when compared with the standard Wikipedia interface , users scored higher on average when using WNavi s or WikiMap + . 
+Table 9 shows that intermediate participants using Wikipedia obtained the lowest gains . 
+Both WNavi s and WikiMap + yielded greater gains per time unit compared with the baseline interface . 
+Intermediate participants using WikiMap + achieved the highest gains . 
+In Table 10 , ANOVA tests show the significance of the gain values of the three interfaces for the four tasks of intermediates ; the effects of the three interfaces were found to be significant for each task . 
+Table 10 and Figure 7 also show that WikiMap + yielded significantly larger gains when compared with the baseline interface : Intermediates perform tasks correctly and efficiently with the aid of WikiMap + as compared with the baseline . 
+With WNavi s , users achieved significantly better results than those generated using the baseline interface in Tasks 3 and 4 . 
+Gain values with 95 % confidence intervals ( CI ) for intermediates . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We used two‐way ANOVA to examine the effects of the three interfaces and the two knowledge levels on the user performance in the four tasks , as shown in Table 11 . 
+Moreover , in Table 12 we show the absolute and relative improvements in accuracy for the new interfaces as compared with the baseline among both novices and intermediates . 
+Observation 1 : The ANOVA analysis in Table 11 shows that we can not reject the null hypothesis : there is no statistically significant interaction effect ( task 1 , p = .951 ; task 2 , p = .482 ; task 3 , p = .586 ; task 4 , p = .687 ) between the interfaces and knowledge levels on the four tasks . 
+This suggests that we drop the interaction effect from the model . 
+Furthermore , we find the interface factor to be statistically significant for each task . 
+The effect of knowledge level is statistically significant for Task 1 but insignificant for Tasks 2 , 3 , and 4 . 
+This shows that the interface has a significant influence on user task performance , especially for Tasks 1 , 2 , and 3 . 
+Observation 2 : Table 12 shows the absolute and relative differences between scores in the baseline interface and those in the proposed interfaces among novices and intermediates in the search tasks . 
+Novices clearly achieved higher relative improvements in answer accuracy using WNavi s and WikiMap + as compared with the intermediates . 
+Overall , novices achieve better task performance using WNavi s and WikiMap + than intermediate participants without support ; that is , with the basic Wikipedia . 
+Observation 3 : As to the score differences between the proposed interfaces ( i.e. , WikiMap + – WNavi s ) shown in the last three columns of Table 12 , it appears that intermediates are helped more using the WikiMap + interface than novices are for Tasks 2 , 3 , and 4 . 
+Observation 1 ( Novices ) : Table 13 shows no significant differences in the pages traversed among the three interfaces . 
+Furthermore , Table 14 shows that novices generally traversed more internal links using Wikipedia than WikiMap + or WNavi s . 
+Observation 2 ( Intermediates ) : The results for intermediate users differ greatly from those for novices . 
+Table 13 shows that the effects of the three interfaces were found to be significant for Tasks 1 and 4 , according to the results of the ANOVA test . 
+For each task , Table 14 shows that users browsed far fewer pages using WikiMap + than Wikipedia and WNavi s . 
+We found that intermediate users traversed fewer pages in WikiMap+ than in the other interfaces . 
+Observation 1 ( TM ) : Table 15 shows that , for both user groups , WNavi s users utilized the TM tool more frequently than WikiMap+ users . 
+As Table 15 shows , both user groups clicked significantly more often on the TM tool in WNavi s than WikiMap+ for Tasks 1 and 2 ( i.e. , relationship‐based tasks ) , suggesting that users clicked more to find the correct concepts and relationships while using WNavi s than while using WikiMap+ . 
+Observation 2 ( HT ) : Table 15 shows that for both user groups , WNavi s users consulted the HT tool more frequently than WikiMap + users . 
+Specifically , for all tasks , novices clicked significantly more often on the HT tool in WNavi s compared with WikiMap+ , while intermediate users clicked significantly more often while completing Tasks 1 and 3 . 
+Observation 3 ( TM and HT tool ) : According to the average cumulative frequency of clicks for the four tasks , novices using WNavi s used the TM tool more frequently than intermediate users did . 
+In addition , intermediate users utilized the HT tool more frequently when using WikiMap + than novices . 

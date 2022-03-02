@@ -1,0 +1,353 @@
+T1	引文作者 1126 1137	Marchionini
+T2	引文时间 1140 1144	2006
+T3	引文作者 1166 1172	Hearst
+T4	引文时间 1175 1179	2009
+T5	引文作者 1260 1267	Collins
+T6	引文作者 1270 1276	Viegas
+T7	引文作者 1281 1291	Wattenberg
+T8	引文时间 1294 1298	2009
+T9	引文作者 1301 1307	Hearst
+T10	引文时间 1310 1314	2006
+T11	引文作者 1317 1322	Smith
+T12	引文作者 1325 1335	Czerwinski
+T13	引文作者 1338 1344	Meyers
+T14	引文作者 1347 1356	Robertson
+T15	引文作者 1361 1364	Tan
+T16	引文时间 1367 1371	2006
+T17	预标注术语 1624 1645	classification scheme
+T19	具体模型 1997 2009	Topic models
+T20	引文作者 2012 2016	Blei
+T21	引文作者 2019 2025	Jordan
+T22	引文时间 2028 2032	2003
+T23	引文作者 2035 2039	Blei
+T24	引文作者 2042 2044	Ng
+T25	引文作者 2049 2055	Jordan
+T26	引文时间 2058 2062	2003
+T27	引文作者 2065 2072	Hofmann
+T28	引文时间 2075 2079	1999
+T29	具体模型 2438 2450	Topic models
+T30	具体模型 2570 2582	Topic models
+T31	引文作者 2742 2748	Chaney
+T32	引文作者 2751 2755	Blei
+T33	引文时间 2758 2762	2012
+T34	引文作者 2765 2772	Ganguly
+T35	引文作者 2775 2782	Ganguly
+T36	引文作者 2785 2793	Leveling
+T37	引文作者 2798 2803	Jones
+T38	引文时间 2806 2810	2013
+T39	引文作者 2813 2823	Gretarsson
+T40	引文时间 2833 2837	2012
+T41	引文作者 2840 2849	Hinneburg
+T42	引文作者 2852 2858	Preiss
+T43	引文作者 2863 2871	Schröder
+T44	引文时间 2874 2878	2012
+T45	引文作者 2881 2887	Snyder
+T46	引文作者 2890 2897	Knowles
+T47	引文作者 2900 2906	Dredze
+T48	引文作者 2909 2916	Gormley
+T49	引文作者 2921 2926	Wolfe
+T50	引文时间 2929 2933	2013
+T51	术语 3225 3246	unsupervised learning
+T52	术语 2091 2103	unsupervised
+T53	术语 2106 2117	data‐driven
+T54	具体模型 3045 3057	Topic models
+T55	引文作者 3728 3734	Newman
+T56	引文作者 3722 3725	Lau
+T57	引文作者 3737 3743	Karimi
+T58	引文作者 3748 3755	Baldwin
+T59	引文时间 3758 3762	2010
+T60	引文作者 3765 3768	Lau
+T61	引文作者 3771 3778	Grieser
+T62	引文作者 3781 3787	Newman
+T63	引文作者 3792 3799	Baldwin
+T64	引文时间 3802 3806	2011
+T65	引文作者 3809 3812	Mei
+T66	引文作者 3815 3819	Shen
+T67	引文作者 3824 3828	Zhai
+T68	引文时间 3831 3835	2007
+T69	预标注术语 3524 3545	textual phrase labels
+T70	引文作者 3912 3919	Aletras
+T71	引文作者 3922 3931	Stevenson
+T72	引文时间 3934 3939	2013b
+T73	研究方法 4580 4713	These are used to represent topics generated from a digital archive of newswire stories , and evaluated in an exploratory search task
+T18	研究问题 4211 4422	there has not , to our knowledge , been any empirical validation of this intuition—a shortcoming that this article aims to address—in carrying out a task‐based evaluation of different topic model representations
+T74	研究问题 4718 4818	The aim of this study is to compare different topic representations within a document retrieval task
+T75	研究方法 4437 4575	we compare three approaches to representing topics : ( a ) a standard term list , ( b ) textual phrase labeling , and ( c ) image labeling
+T76	引文作者 6192 6195	Mei
+T77	引文作者 6198 6202	Zhai
+T78	引文时间 6205 6209	2005
+T79	引文作者 6212 6215	Teh
+T80	引文作者 6218 6224	Jordan
+T81	引文作者 6227 6231	Beal
+T82	引文作者 6236 6240	Blei
+T83	引文时间 6243 6247	2006
+T84	引文作者 6333 6336	Mei
+T85	引文时间 6349 6353	2007
+T86	引文作者 6801 6808	Magatti
+T87	引文作者 6811 6819	Calegari
+T88	引文作者 6822 6828	Ciucci
+T89	引文作者 6835 6841	Stella
+T90	引文时间 6844 6848	2009
+T91	标准数据集 6965 6985	the Google Directory
+T92	标准数据集 6990 7022	the OpenOffice English Thesaurus
+T93	术语 7103 7130	latent Dirichlet allocation
+T94	术语 7133 7136	LDA
+T95	术语 7386 7389	LDA
+T96	引文作者 7400 7403	Lau
+T97	引文时间 7416 7420	2010
+T98	术语 7654 7689	pointwise mutual information scores
+T99	术语 7692 7719	WordNet hypernymy relations
+T100	术语 7726 7751	distributional similarity
+T101	引文作者 7809 7812	Lau
+T102	引文作者 7825 7829	2011
+T103	标准数据集 7892 7901	Wikipedia
+T104	标准数据集 8043 8052	Wikipedia
+T105	标准数据集 8220 8229	Wikipedia
+T106	引文作者 8313 8320	Grieser
+T107	引文作者 8323 8330	Baldwin
+T108	引文作者 8333 8340	Bohnert
+T109	引文作者 8345 8354	Sonenberg
+T110	引文时间 8357 8361	2011
+T111	引文作者 8595 8598	Mao
+T112	引文时间 8611 8615	2012
+T113	引文作者 8814 8817	Mei
+T114	引文时间 8830 8834	2007
+T115	术语 8961 8990	the Jensen‐Shannon divergence
+T116	引文作者 9137 9143	Hulpus
+T117	引文作者 9146 9151	Hayes
+T118	引文作者 9154 9163	Karnstedt
+T119	引文作者 9170 9176	Greene
+T120	引文时间 9179 9183	2013
+T121	标准数据集 9213 9222	DBpedia11
+T122	标准数据集 9299 9306	DBpedia
+T123	标准数据集 9468 9475	DBpedia
+T124	引文作者 9486 9492	Basave
+T125	引文时间 9505 9509	2014
+T126	术语 9544 9547	LDA
+T127	软件工具 9596 9603	Twitter
+T128	软件工具 9690 9697	Twitter
+T129	引文作者 9759 9766	Aletras
+T130	引文作者 9771 9780	Stevenson
+T131	引文时间 9783 9787	2014
+T133	引文作者 9897 9901	Page
+T134	引文作者 9904 9908	Brin
+T135	引文作者 9911 9918	Motwani
+T136	引文作者 9923 9931	Winograd
+T137	引文时间 9934 9938	1999
+T138	引文作者 10030 10037	Aletras
+T139	引文作者 10042 10051	Stevenson
+T140	引文时间 10054 10059	2013b
+T142	引文的方法 10293 10301	PageRank
+T143	引文的方法 9886 9894	PageRank
+T144	引文的方法 10134 10246	A set of candidate images for a topic is retrieved by querying an image search engine with the top‐n topic terms
+T145	引文的方法 9612 9636	summarization techniques
+T146	引文的方法 8287 8310	word‐similarity measure
+T147	具体模型 10485 10499	Topic modeling
+T148	引文作者 10566 10572	Chaney
+T149	引文作者 10575 10579	Blei
+T150	引文作者 10589 10595	Chuang
+T151	引文作者 10598 10604	Ramage
+T152	引文作者 10607 10614	Manning
+T153	引文作者 10619 10623	Heer
+T154	引文时间 10626 10630	2012
+T155	引文作者 10633 10640	Ganguly
+T156	引文时间 10650 10654	2013
+T157	引文作者 10657 10664	Gardner
+T158	引文时间 10674 10678	2010
+T159	引文作者 10681 10690	Hinneburg
+T160	引文时间 10700 10704	2012
+T161	引文作者 10707 10713	Newman
+T162	引文时间 10723 10727	2010
+T163	引文作者 10730 10736	Snyder
+T164	引文时间 10746 10750	2013
+T165	引文作者 10753 10756	Wei
+T166	引文时间 10766 10770	2010
+T167	标准数据集 11909 11927	the Reuters Corpus
+T168	引文作者 11930 11934	Rose
+T169	引文作者 11937 11946	Stevenson
+T170	引文作者 11951 11960	Whitehead
+T171	引文时间 11963 11967	2002
+T172	标准数据集 12340 12358	the Reuters Corpus
+T173	表 12560 12688	Table 1 shows the Reuters Corpus topic categories used to form the collection , together with the number of associated documents
+T174	标准数据集 12574 12592	the Reuters Corpus
+T175	引文作者 12766 12776	David Blei
+T176	具体模型 12696 12699	LDA
+T177	引文作者 12894 12898	Blei
+T178	引文作者 12901 12907	Jordan
+T179	引文时间 12910 12914	2003
+T180	具体模型 13001 13004	LDA
+T181	引文作者 13039 13046	Stevens
+T182	引文作者 13049 13059	Kegelmeyer
+T183	引文作者 13062 13074	Andrzejewski
+T184	引文作者 13079 13086	Buttler
+T185	引文时间 13089 13093	2012
+T186	引文作者 13230 13237	Aletras
+T187	引文作者 13242 13251	Stevenson
+T188	引文时间 13254 13259	2013a
+T189	软件工具 13372 13427	the publicly available Topic Model Visualization Engine
+T190	软件工具 13430 13434	TMVE
+T191	引文作者 13437 13443	Chaney
+T192	引文作者 13446 13450	Blei
+T193	引文时间 13453 13457	2012
+T194	软件工具 13464 13468	TMVE
+T195	具体模型 13503 13506	LDA
+T196	软件工具 14016 14020	TMVE
+T198	数据源 14314 14323	Wikipedia
+T199	引文作者 14341 14344	Lau
+T200	引文时间 14354 14358	2011
+T201	数据源 14455 14464	Wikipedia
+T203	引文作者 14467 14474	Aletras
+T204	引文作者 14477 14486	Stevenson
+T205	引文时间 14489 14494	2013b
+T206	软件工具 14534 14538	TMVE
+T207	表 14667 14874	Table 2 shows examples of the labels generated by the three approaches for a sample topic.33 Note that the textual phrase and image labels are created automatically ( discussed later ) and may contain errors
+T208	表 14879 14990	In this example , the logo of the FBI may have been a more suitable image label than the one that was generated
+T209	软件工具 15288 15292	TMVE
+T210	引文作者 15549 15552	Lau
+T211	引文时间 15565 15569	2011
+T212	数据源 15845 15854	Wikipedia
+T215	软件工具 16072 16078	Google
+T216	数据源 16419 16428	Wikipedia
+T217	术语 16599 16633	Related Article Conceptual Overlap
+T218	术语 16636 16640	RACO
+T219	引文作者 16672 16679	Grieser
+T220	引文时间 16689 16693	2011
+T221	术语 16736 16740	RACO
+T222	术语 16999 17027	pointwise mutual information
+T223	术语 17030 17033	PMI
+T224	引文作者 17120 17130	David Blei
+T225	数据源 17376 17385	Wikipedia
+T226	引文作者 17803 17806	Lau
+T227	引文时间 17819 17823	2011
+T228	引文作者 17987 17994	Aletras
+T229	引文作者 17999 18008	Stevenson
+T230	引文时间 18011 18016	2013b
+T231	数据源 18070 18079	Wikipedia
+T232	软件工具 18181 18185	Bing
+T233	软件工具 18300 18309	Wikipedia
+T132	软件工具 15861 15925	Wikipedia 's native search application program interface ( API )
+T141	软件工具 15930 15962	Google 's site‐restricted search
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	field_similar_as Arg1:T1 Arg2:T3	
+R4	coauthor Arg1:T5 Arg2:T6	
+R5	coauthor Arg1:T6 Arg2:T7	
+R6	has_cited_time Arg1:T8 Arg2:T7	
+R7	has_cited_time Arg1:T10 Arg2:T9	
+R8	coauthor Arg1:T11 Arg2:T12	
+R9	coauthor Arg1:T12 Arg2:T13	
+R10	coauthor Arg1:T13 Arg2:T14	
+R11	coauthor Arg1:T14 Arg2:T15	
+R12	has_cited_time Arg1:T16 Arg2:T15	
+R13	field_similar_as Arg1:T5 Arg2:T9	
+R14	field_similar_as Arg1:T9 Arg2:T11	
+R15	coauthor Arg1:T20 Arg2:T21	
+R16	has_cited_time Arg1:T22 Arg2:T21	
+R17	coauthor Arg1:T23 Arg2:T24	
+R18	coauthor Arg1:T24 Arg2:T25	
+R19	has_cited_time Arg1:T26 Arg2:T25	
+R20	has_cited_time Arg1:T28 Arg2:T27	
+R21	field_similar_as Arg1:T20 Arg2:T23	
+R22	field_similar_as Arg1:T23 Arg2:T27	
+R23	has_cited_time Arg1:T40 Arg2:T39	
+R24	coauthor Arg1:T41 Arg2:T42	
+R25	coauthor Arg1:T42 Arg2:T43	
+R26	has_cited_time Arg1:T44 Arg2:T43	
+R27	coauthor Arg1:T45 Arg2:T46	
+R28	coauthor Arg1:T46 Arg2:T47	
+R29	coauthor Arg1:T47 Arg2:T48	
+R30	coauthor Arg1:T48 Arg2:T49	
+R31	has_cited_time Arg1:T50 Arg2:T49	
+R32	field_similar_as Arg1:T39 Arg2:T41	
+R33	field_similar_as Arg1:T41 Arg2:T45	
+R34	coauthor Arg1:T56 Arg2:T55	
+R35	coauthor Arg1:T55 Arg2:T57	
+R36	coauthor Arg1:T57 Arg2:T58	
+R37	has_cited_time Arg1:T59 Arg2:T58	
+R38	coauthor Arg1:T60 Arg2:T61	
+R39	coauthor Arg1:T61 Arg2:T62	
+R40	coauthor Arg1:T62 Arg2:T63	
+R41	has_cited_time Arg1:T64 Arg2:T63	
+R42	coauthor Arg1:T65 Arg2:T66	
+R43	coauthor Arg1:T66 Arg2:T67	
+R44	has_cited_time Arg1:T68 Arg2:T67	
+R45	field_similar_as Arg1:T56 Arg2:T60	
+R46	field_similar_as Arg1:T60 Arg2:T65	
+R47	coauthor Arg1:T76 Arg2:T77	
+R48	has_cited_time Arg1:T78 Arg2:T77	
+R49	coauthor Arg1:T79 Arg2:T80	
+R50	coauthor Arg1:T80 Arg2:T81	
+R51	coauthor Arg1:T81 Arg2:T82	
+R52	has_cited_time Arg1:T83 Arg2:T82	
+R53	field_similar_as Arg1:T76 Arg2:T79	
+R54	has_cited_time Arg1:T85 Arg2:T84	
+R55	coauthor Arg1:T86 Arg2:T87	
+R56	coauthor Arg1:T87 Arg2:T88	
+R57	coauthor Arg1:T88 Arg2:T89	
+R58	has_cited_time Arg1:T90 Arg2:T89	
+R59	has_cited_time Arg1:T97 Arg2:T96	
+R60	coauthor Arg1:T102 Arg2:T101	
+R61	coauthor Arg1:T106 Arg2:T107	
+R62	coauthor Arg1:T107 Arg2:T108	
+R63	coauthor Arg1:T108 Arg2:T109	
+R64	has_cited_time Arg1:T110 Arg2:T109	
+R65	has_cited_time Arg1:T112 Arg2:T111	
+R66	has_cited_time Arg1:T114 Arg2:T113	
+R67	coauthor Arg1:T116 Arg2:T117	
+R68	coauthor Arg1:T117 Arg2:T118	
+R69	coauthor Arg1:T118 Arg2:T119	
+R70	has_cited_time Arg1:T120 Arg2:T119	
+R71	has_cited_time Arg1:T125 Arg2:T124	
+R72	uses Arg1:T124 Arg2:T145	
+R73	coauthor Arg1:T129 Arg2:T130	
+R74	has_cited_time Arg1:T131 Arg2:T130	
+R75	uses Arg1:T133 Arg2:T143	
+R76	coauthor Arg1:T133 Arg2:T134	
+R77	coauthor Arg1:T134 Arg2:T135	
+R78	coauthor Arg1:T135 Arg2:T136	
+R79	has_cited_time Arg1:T137 Arg2:T136	
+R80	coauthor Arg1:T138 Arg2:T139	
+R81	has_cited_time Arg1:T140 Arg2:T139	
+R82	uses Arg1:T138 Arg2:T144	
+R83	coauthor Arg1:T148 Arg2:T149	
+T213	引文时间 10582 10586	2012
+R84	has_cited_time Arg1:T213 Arg2:T149	
+R85	coauthor Arg1:T150 Arg2:T151	
+R86	coauthor Arg1:T151 Arg2:T152	
+R87	coauthor Arg1:T152 Arg2:T153	
+R88	has_cited_time Arg1:T154 Arg2:T153	
+R89	has_cited_time Arg1:T156 Arg2:T155	
+R90	has_cited_time Arg1:T158 Arg2:T157	
+R91	has_cited_time Arg1:T160 Arg2:T159	
+R92	has_cited_time Arg1:T162 Arg2:T161	
+R93	has_cited_time Arg1:T164 Arg2:T163	
+R94	has_cited_time Arg1:T166 Arg2:T165	
+R95	field_similar_as Arg1:T148 Arg2:T150	
+R96	field_similar_as Arg1:T150 Arg2:T155	
+R97	field_similar_as Arg1:T155 Arg2:T157	
+R98	field_similar_as Arg1:T157 Arg2:T159	
+R99	field_similar_as Arg1:T159 Arg2:T161	
+R100	field_similar_as Arg1:T161 Arg2:T163	
+R101	field_similar_as Arg1:T163 Arg2:T165	
+R102	coauthor Arg1:T168 Arg2:T169	
+R103	coauthor Arg1:T169 Arg2:T170	
+R104	has_cited_time Arg1:T171 Arg2:T170	
+R105	coauthor Arg1:T177 Arg2:T178	
+R106	has_cited_time Arg1:T179 Arg2:T178	
+R107	coauthor Arg1:T181 Arg2:T182	
+R108	coauthor Arg1:T182 Arg2:T183	
+R109	coauthor Arg1:T183 Arg2:T184	
+R110	has_cited_time Arg1:T185 Arg2:T184	
+R111	coauthor Arg1:T186 Arg2:T187	
+R112	has_cited_time Arg1:T188 Arg2:T187	
+R113	coauthor Arg1:T191 Arg2:T192	
+R114	has_cited_time Arg1:T193 Arg2:T192	
+R115	coauthor Arg1:T203 Arg2:T204	
+R116	has_cited_time Arg1:T205 Arg2:T204	
+R117	has_cited_time Arg1:T200 Arg2:T199	
+R118	field_similar_as Arg1:T199 Arg2:T203	
+R119	has_cited_time Arg1:T211 Arg2:T210	
+R120	has_cited_time Arg1:T220 Arg2:T219	
+R121	has_cited_time Arg1:T227 Arg2:T226	
+R122	coauthor Arg1:T228 Arg2:T229	
+R123	has_cited_time Arg1:T230 Arg2:T229	

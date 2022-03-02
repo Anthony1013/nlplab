@@ -1,0 +1,130 @@
+In this paper we propose a mixed approach to the study of citations in scientific articles by considering them from both a social ( sociological ) and textual ( linguistic ) point of view . 
+Of course , both disciplines have a long history of studying scientific citations . 
+Contrasting with practices that consider citations as objective criteria for evaluating research , many sociological works have highlighted their social background , studying the motivations of the citing author ( Moravcsik & Murugesan , 1975 ) or characteristics of the cited one ( Bornmann & Daniel , 2008 ) . 
+The scientific community is also a key point for social analysis of citations . 
+Concentrating on wide‐coverage data available through bibliometric databases , the science community is seen as a network in which the cocitation links are traces of social groups ( Wallace et al. , 2012 ) . 
+Some studies based on more local and qualitative aspects have revealed the importance of interpersonal links between authors ( Cronin & Shaw , 2002 ) . 
+Even if they insist on intellectual proximities ( White , Wellman , & Nazer , 2004 ) , these studies are uncorrelated from the texts themselves . 
+Text analysis of citations consists in identifying the context of in‐text citations inside the main text of science articles and extracting features expressing the different choices made by the author ( Ding et al. , 2014 ) . 
+These features ( distribution , position , frequency , surrounding cues , etc . 
+) are then confronted to external characteristics afferent to the cited reference in order to provide the base for an empirical study ( Bertin et al. , 2016 ) or to train an automatic classifier ( Teufel et al. , 2006 ) . 
+Most of the target external characteristics are either subjective ( function , opinion or importance , assessed by an annotator or more rarely a posteriori by the author ) or loosely related to the citation act ( number of citations , age of the reference ) . 
+Few of these works go further in the analysis of the author 's attitude towards his/her citations . 
+From both sides , most of the studies try to capture the motivation behind a citation , although it is well known that this notion is extremely complex and is influenced by the large number of factors intervening in the writing of an academic article , both internal and external to the article itself . 
+In our opinion , it is more relevant to understand the social and relational context of the citation than the motivation of the authors , which is much more difficult to grasp . 
+The work we present here proposes to make some new steps in this direction . 
+We deploy citation context analyses aimed at the social relation between citing and cited authors . 
+More precisely , we focus on the level of knowledge between the authors as expressed by the citing author and measure its correlation with a set of features extracted from his/her text . 
+Our hypothesis is that an underlying social relation between authors may impact the inclusion of citations in the text . 
+This social characteristic has not been studied under this scope and we deem it to be an objective contribution to the understanding of citation networks . 
+Our method is therefore mixed and bi‐disciplinary , relying on the sociological side on a set of interviews of authors and on the textual side on an automated analysis of the in‐text citations extracted from their articles . 
+We base our experiments on 123 articles written by 84 authors from five different disciplines , containing a total of 6,656 in‐text citations . 
+By doing so we address the following questions : What is the distribution of the social relations between authors across these different disciplines ? 
+What measurable correlations can be found between these relations and the features of the corresponding in‐text citations ? 
+Do authors treat references differently when citing them according to the social or personal knowledge they have of their authors ? 
+Our results show a complex situation in which it clearly appears that the social relation is significant for a number of the choices made by a citing author , and that citations of references by authors of different levels of knowledge are indeed inserted differently in the text . 
+This confirms that the social context has to be taken into account when analyzing citations , either for research evaluation or for any study based on in‐text citations . 
+This paper is structured as follows . 
+The section Scientific Citation as a Social and Textual Object reviews the state‐of‐the‐art regarding both social and textual aspects of citations . 
+Our method is presented in Mixed Methods : Interviews , Coding , and Corpus Building , detailing how we gather our materials on both sides , and the detailed analysis and results are presented and discussed in Analysis and Results . 
+Citations have been studied by several disciplines , each addressing specific aspects . 
+Here , we present the current , main issues regarding the citation seen from a sociological and linguistic point of view and how we consider that each one can benefit from the other . 
+The social dimension of citations has been a longstanding topic of interest for researchers . 
+The motivation for citing another author was the first and principal area of investigation and many studies have attempted to classify the various responses . 
+Scholars who are asked why they cite a reference give several different answers , based on various functions ( Chubin & Moitra , 1975 ; Moravcsik & Murugesan , 1975 ) , including negative ones ( MacRoberts & MacRoberts , 1984 ) . 
+Several typologies have been developed that highlight the subtleties and complexity of an author 's motivations ; they include : to give credit ( positive or negative ) , to alert the reader to a new topic , or simply for information . 
+One in particular , “ social consensus ” ( Brooks , 1985 ) , is presented as an unspecified and vague perception of a consensus within the field . 
+This underlines that motivations to cite are not only a psychological process , but also have a social context . 
+Along these lines , more recent studies have sought to show the influence of the disciplinary context in the choice of references ( Harwood , 2009 ) ; in particular they emphasize the difference between natural and engineering sciences , and human and social sciences ( Larivière , Archambault , Gingras , & Vignola‐Gagné , 2006 ) . 
+Other researchers seek to understand the reasons for citing a particular author . 
+Thus , an increasing number of studies examine the characteristics of the most‐cited references , and seek to identify the conditions that favour the citation of a reference ( Bornmann & Daniel , 2008 ; Tahamtan , Safipour Afshar , & Ahamdzadeh , 2016 ) . 
+The findings of such studies emphasize the importance of : the number of authors , the length of the article , the journal in which it is published , the journal 's ranking , its accessibility , and the scientific field . 
+Other important factors in the choice of citations are the personal characteristics of authors . 
+Scientific renown – often associated with age – is a prime example , first highlighted by Merton who coined the famous term , the “ Matthew effect. ” Such work claims that an analysis of the individual is sufficient to explain differences in citation rates . 
+Other studies take into account the group , and ask new questions about the social dimension of scientific citations . 
+Some recent work has questioned the relational dimension or , at least , the place of the individual in his or her peer group . 
+The analysis of citation careers , or the overlap between the references cited by an author and those who cite him or her shows how a researcher 's citing circles are gradually built up ( White , 2001 ; Cronin & Shaw , 2002 ) . 
+Wallace et al. , ( 2012 ) analyzed the link between citations and collaborations and found that citations are a function of the disciplinary and structural conditions in a scientific field . 
+In these bibliometric studies , the social context is investigated in terms of the traces left in articles themselves ( coauthorship , references , journals , etc. ) . 
+It is well‐established , however , that citing is also a process of communication ( Cronin , 1984 ) . 
+Reinvestigating the pioneering analysis of invisible colleges ( Crane , 1972 ) , citation practices are studied in terms of the social links between researchers – informal communication ( Tuire & Erno , 2001 ) or co‐participation in conferences ( Zuccala , 2006 ) . 
+These studies consistently show that the congruence between social networks ( who knows whom ) and citations networks ( who cites whom ) is incomplete , and underline the need to understand where the differences lie . 
+In their study based on real‐life cases , Johnson and Oppenheim ( 2007 ) found that authors ’ references go beyond their social circles . 
+Baldi ( 1998 ) speaks of “ intellectual debt ” to qualify these cited authors . 
+A longitudinal study of a research group shows that citations reflect not individual strategies in the group but above all intellectual affinities and mutual esteems ( White , Wellman , & Nazer , 2004 ) . 
+All these studies show that references in scientific texts are not only the result of an individual choice , but also raise issues about social relations , groups , and institutional and disciplinary partitions . 
+In this article , we investigate these issues using mixed methods that focus on the relation between the citing and the cited authors . 
+Beyond social motivations or the need to communicate , we argue that focusing on social relations and circles ( Simmel , 1955 ) is a new way to understand the links between citations networks and social networks : do social relations between authors matter for in‐text citations ’ choices ? 
+In the current section , we present an overview of citation analysis studies that focus on the textual aspects of a citation , and how they can be tested against features such as social relations between authors . 
+The work presented here belongs to the field of citation context analysis , which has seen increased interest in the past few years , mainly thanks to the availability of data ( full‐text articles in exploitable formats ) and efficient natural language processing ( NLP ) tools ; see Bornmann and Daniel ( 2008 ) , Ding et al. , ( 2014 ) and Hernández‐Alvarez and Gomez ( 2016 ) for reviews of the subject . 
+The interest in citation context analysis is motivated by several objectives , both theoretical and practical : What aspects of the cited work are evoked in the citation ? 
+This can be done through the extraction of keywords from the citation context , which can be used to index the cited reference or to build lexical resources ( thesauri ) for a disciplinary field ( Schneider & Borlund , 2004 ) . 
+What is the function of this citation ? 
+This question is the main target of citation context experiments and studies . 
+It consists of deciding which function ( chosen from a pre‐established typology ) is best‐suited to a given citation , based on a number of cues ( Teufel et al. , 2006 ) . 
+The main applications concern the qualification of citation links in bibliographical databases . 
+There are a number of variations in the area , depending on the number and nature of the functions that are considered . 
+This can range from broad typologies ( op . 
+cit . 
+) to narrower distinctions , such as background vs. foreground references ( Tanguy et al. , 2009 ) . 
+What is the citing author 's opinion of the citation ? 
+This question can be seen as a subtopic of the previous one , but with a focus on the identification of positive ( praise ) and negative ( criticism ) citations in order to modify bibliometric indicators that are solely based on the number of citations that target a given article/author/journal . 
+This sub‐question has received much attention , because of its similarity to the task of opinion mining , and thus the availability of resources and tools in applied NLP ( Piao et al. , 2007 ) . 
+There are , of course , other considerations that provide incentives and orientations for exploring citation contexts but , ultimately , all automated approaches must exploit the ( relevant ) characteristics of the citation context . 
+These characteristics need to be easily and automatically extractable ( so that the method can be applied to a large number of articles ) , expressed as simple values ( so that they can be processed using standard machine learning classifiers ) and – hopefully – relevant to the given task and target characteristics of the citation . 
+Thanks to the large ( and growing ) number of such studies , these characteristics are now well‐known and can be easily listed . 
+We give more detail about the features used in the current study in Analysis and Results but , in general , they relate to the following aspects : frequency , position , integration and linguistic context . 
+The exploration and classification of citation contexts is currently popular because of the maturity of NLP tools and the availability of a large amount of raw data , and citation content analyses can be classified as follows : exploratory works that observe ( on a large scale ) citation characteristics ; contrastive studies that compare citation behaviours across disciplines , journals , or time periods ; classification experiments that target interpretive characteristics ( citation function , opinion , etc. ) . 
+The latter category , although the most promising in terms of both knowledge and application , is typically limited by the availability of reliable external characteristics . 
+Citation function is still a very open subject , with a large number of contending typologies—Bornmann and Daniel ( 2008 ) list more than a dozen—and the well‐known problem of assigning a category even if the annotator is an expert in the field ( Tanguy et al. , 2009 ) . 
+Even when acceptable inter‐annotator agreement is achieved , there often remains many “ unknown , ” “ other , ” or “ neutral ” categories ( Teufel et al. , 2009 ) . 
+Another target for classification can be the number of citations for a reference as indicated by bibliometric databases ( Hu et al. , 2013 , Ding et al. , 2013 , Boyack et al. , 2018 ) . 
+Fewer studies have focused on labels of their citations by their authors , such as the estimated influence a reference had on their article ( Zhu et al. , 2015 ) . 
+In the current study , we take the opportunity to target a more reliable but ignored aspect of citations , while benefiting from the accumulated knowledge and technical know‐how of citation content analysis studies . 
+In this section we describe the methods used to investigate the possible links between a citing author 's social relations with cited authors and the textual characteristics , of the citation . 
+First , semi‐structured interviews were conducted with authors from different disciplines regarding one of their published articles . 
+Starting with the list of references , we collected qualitative information about the relations between the interviewee and the cited authors , and used it to define a typology of scientific social circles ( Milard , 2014 ) 11 This article is a part of a broader investigation of scientific articles and their authors . 
+The whole semi‐structured interviews focused on the history of each paper and addressed the following points : Where did the idea for the article come from ? 
+Who collaborated on the paper and why ? 
+Who funded the research ? 
+Which authors were cited , and did they know each other ? 
+How did the journal evaluate the article ? 
+Has the article been cited ? 
+( see the interview schedule in Appendix 1 ) .. To test if these social circles impact the in‐text citations , we have selected several characteristics that are inherent in the article 's text . 
+These characteristics will be presented in detail in Analysis and Results , along with the observed differences . 
+This first method was an interview , directly linked to an article . 
+Each article was selected from the Web of Science published by Thomson Reuters® , one of the most well‐known and widely used bibliographic databases ; all articles had been published in international , prestigious journals . 
+Five disciplines or sub‐disciplines were investigated : coordination chemistry , molecular biology , mathematics , economics and sociology . 
+They were chosen for their diversity : natural sciences/social sciences ; experimental sciences and theoretical sciences ; and also because of the limited number of coauthors and references ( unlike physics , for example ) . 
+This choice provided favorable conditions for our method . 
+In the case of articles with multiple authors ( 80 % ) , the reprint ( or corresponding ) author was chosen to be interviewed because of his/her involvement in the publication process . 
+All authors were based in France , which was more convenient for face‐to‐face interviews . 
+It is possible that this may be a bias in our study as their mother tongue is often ( but not always ) French . 
+However , all authors have a great practice of English as a professional language , all journals are international and have high standards regarding language . 
+In the end the features we studied are only marginally influenced by the linguistic skill of the authors . 
+The 123 articles that formed the sample were published between 2004 and 2010 by 84 authors ( some authors were interviewed about two of their articles ) . 
+The selection criteria for the corpus were as follows : the authors had to ( a ) be tenured ; ( b ) have published at least two articles as corresponding author within a period of 5 years ; ( c ) be a member of a recognized laboratory in their field ; ( d ) have accepted the interview . 
+To have fruitful interviews , we selected articles with at least 15 references . 
+In the end , we have between 25 and 30 chemistry , economics , biology , and mathematics articles and 11 sociology articles . 
+We were targeting an equal number of articles in the five disciplines , but the constraints were too strict for sociology ( especially the fact that a large number of publications are in French ) . 
+Interviews were conducted in 2012 and 2013 , with the exception of those in the discipline of chemistry , which were conducted before 2010 . 
+They were conducted by three different interviewers , mainly in the authors ’ offices , and lasted between one and 3 hours each . 
+During the interview , the researcher under study answered the following question regarding each author listed in the bibliography22 For time efficiency , and because the main target of this part of the interview was cited authors , we followed the list of references and not the flow of citations in the body of the article 's text . 
+: “ Can you characterize the type of relationship you have with this person whose work is cited in the list of references , and if you do not know him/her personally , what do you know about him/her ? 
+” Based on the transcribed interviews , more than 8,000 qualitative answers were then hand‐coded by several coders , who classified the relationships . 
+All data were gathered in an ad‐hoc relational database . 
+As in previous work ( Milard , 2014 ) , this classification was based on the Simmelian theory of social circles ( Simmel , 1955 ) , applied to the scientific world . 
+A social circle is defined as a group of individuals who have common characteristics or activities , based on mutual recognition . 
+The link can be positive or negative , but the criterion that is taken into account is objective , and based on their relational experience : Do they know each other ? 
+Have they met ? 
+Do they work together ? 
+An example will make this clearer . 
+Figure 1 shows the first items in the target paper 's list of references , whereas Figure 2 contains an extract from the corresponding transcribed interview . 
+Bibliographical references in a mathematics article ( extract ) . 
+Interview of the main author of the mathematics article ( extract ) . 
+The interviews identified six types of relationships between the citing ( interviewed ) author and the cited author . 
+They are detailed below in order of decreasing closeness to the interviewed author . 
+The first type of relationship concerns self‐citations ( 1_Self hereafter ) , that is when the author cites his or her own work , as can be seen in the example of references 37 to 40 in Figure 2 . 
+The second and third categories concerned either members of the same team or laboratory ( 2_sameLab ) , or collaborators and friends ( 3_Collab/Fri end ) of the interviewed author . 
+Both colleagues and students were considered as a member of the team ( 2_SameLab ) , as seen in reference 2 in Figure 2 ; the decisive criterion is that the parties met in an institutional setting . 
+Collaboration is the most frequent example of a non‐institutional relationship ( 3_Collab/Friend ) , but close , informal ( friendly ) links also exist . 

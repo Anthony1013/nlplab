@@ -1,0 +1,225 @@
+T1	引文作者 161 167	Baayen
+T2	引文作者 170 178	Halteren
+T3	引文作者 181 186	Neijt
+T4	引文作者 191 198	Tweedie
+T5	引文时间 201 205	2002
+T6	时间 444 456	19th century
+T7	时间 488 492	1887
+T8	引文作者 734 738	Zipf
+T9	引文时间 741 745	1932
+T10	引文作者 1214 1220	Koppel
+T11	引文作者 1225 1231	Winter
+T12	引文时间 1234 1238	2014
+T13	引文的方法 527 731	Several studies in the 20th century have also focused on analyzing a text document by exploiting measurements of some stylometric features in order to determine the author 's writing style of the document
+T15	引文的结果 1241 1334	focused on the authorship verification problem , also called the similarity detection problem
+T16	引文作者 1647 1652	Savoy
+T17	引文时间 1655 1659	2015
+T18	引文作者 1662 1672	Stamatatos
+T19	引文时间 1675 1679	2009
+T20	引文的研究问题 1531 1644	Another important scenario , which has been studied extensively in the last few years , is authorship attribution
+T21	研究结果 1859 2165	In this article , we address another intriguing application scenario , which is also related to authorship analysis , called “ multi‐author document decomposition. ” The trajectory of this scenario is to decompose a document written by more than one author into components each written by only one author .
+T22	引文作者 2258 2268	Stamatatos
+T23	引文时间 2271 2275	2011
+T24	引文作者 2300 2308	Orebaugh
+T25	引文作者 2311 2317	Kinser
+T26	引文作者 2322 2329	Allnutt
+T27	引文时间 2332 2336	2014
+T28	引文作者 2339 2344	Grant
+T29	引文时间 2347 2351	2007
+T30	引文的结果 2235 2255	plagiarism detection
+T31	引文的结果 2280 2297	forensic analysis
+T32	引文的结果 2360 2379	intelligence issues
+T33	引文作者 2382 2388	Layton
+T34	引文作者 2391 2398	Watters
+T35	引文作者 2403 2410	Dazeley
+T36	引文时间 2413 2417	2010
+T37	引文作者 2494 2500	Koppel
+T38	引文作者 2503 2508	Akiva
+T39	引文作者 2511 2521	Dershowitz
+T40	引文作者 2528 2538	Dershowitz
+T41	引文时间 2541 2545	2011
+T42	引文的结果 2548 2649	considered a new unsupervised approach for decomposing a multi‐author document into authorial parts .
+T43	引文作者 2983 2988	Akiva
+T44	引文作者 2993 2999	Koppel
+T45	引文时间 3002 3006	2012
+T46	引文的结果 3009 3118	presented an unsupervised approach for identifying distinct authorial components of a multi‐author document .
+T47	引文作者 3154 3160	Koppel
+T48	引文时间 3173 3177	2011
+T49	引文作者 3446 3451	Akiva
+T50	引文作者 3456 3462	Koppel
+T51	引文时间 3465 3469	2013
+T52	引文作者 3680 3689	Giannella
+T53	引文时间 3692 3696	2015
+T54	引文的结果 3703 3828	an improved approach called BayesAD was proposed , where the number of authors of the document can be either known or unknown
+T55	引文作者 4024 4031	Aldebei
+T56	引文作者 4034 4036	He
+T57	引文作者 4043 4047	Yang
+T58	引文时间 4050 4054	2015
+T59	具体模型 4123 4137	Naive‐Bayesian
+T60	引文作者 4225 4229	Daks
+T61	引文作者 4234 4239	Clark
+T62	引文时间 4242 4246	2016
+T63	引文的结果 4251 4352	the authors proposed an unsupervised approach for segmenting documents according to their authorships
+T64	引文作者 4599 4608	Kestemont
+T65	引文作者 4611 4617	Luyckx
+T66	引文作者 4622 4631	Daelemans
+T67	引文时间 4634 4638	2011
+T68	引文作者 4641 4651	Oberreuter
+T69	引文作者 4654 4663	LHuillier
+T70	引文作者 4666 4670	Rios
+T71	引文作者 4675 4684	Velasquez
+T72	引文时间 4687 4691	2011
+T73	引文作者 4694 4697	Rao
+T74	引文作者 4700 4705	Gupta
+T75	引文作者 4708 4715	Singhal
+T76	引文作者 4720 4728	Majumder
+T77	引文时间 4731 4735	2011
+T78	引文的结果 4529 4596	The task , which was directly addressed in the PAN 2011 competition
+T79	引文作者 5514 5520	Brooke
+T80	引文作者 5523 5530	Hammond
+T81	引文作者 5537 5542	Hirst
+T82	引文时间 5545 5549	2012
+T83	时间 5718 5722	1922
+T84	引文的结果 5554 5733	have presented a model for automatically segmenting a stylistically inconsistent text , i.e. , identifying the points in a “ multi‐personal ” poem The Waste Land ( 1922 ) by T.S .
+T85	引文作者 5784 5790	Brooke
+T86	引文作者 5793 5798	Hirst
+T87	引文作者 5805 5812	Hammond
+T88	引文时间 5815 5819	2013
+T89	引文作者 6594 6600	Bishop
+T90	引文时间 6603 6607	2006
+T91	引文的结果 6491 6591	Sequential patterns are of great practical importance for many computational linguistic applications
+T92	具体模型 6897 6916	Hidden Markov Model
+T93	具体模型 6919 6922	HMM
+T94	引文作者 7072 7079	Aldebei
+T95	引文作者 7082 7084	He
+T96	引文作者 7087 7090	Jia
+T97	引文作者 7095 7099	Yang
+T98	引文时间 7102 7106	2016
+T99	具体模型 7122 7125	HMM
+T100	具体模型 7341 7344	HMM
+T101	研究结果 7274 7424	In this paper , we further extend our work and propose a two‐stage HMM model to utilize the sequential patterns among sentences more comprehensively .
+T102	引文作者 7574 7581	Aldebei
+T103	引文时间 7591 7595	2016
+T104	具体模型 7808 7811	HMM
+T105	研究方法 7655 7940	We propose to utilize the useful sequential correlations among the consecutive sentences to determine the authorial components and construct a two‐stage HMM called “ SequentialUD ” — Sequential Unsupervised Decomposition , to model the relationships between authorships and sentences .
+T106	具体模型 8005 8008	HMM
+T107	具体模型 8136 8139	HMM
+T108	具体模型 8211 8214	HMM
+T109	引文的结果 8404 8565	the new approach proposed in this paper further exhibits the benefits of exploring the sequential patterns of sentences for analyzing a document 's authorships .
+T110	具体模型 9173 9176	HMM
+T111	具体模型 9253 9256	HMM
+T112	具体模型 9487 9490	HMM
+T113	引文的结果 9557 9789	A refinement procedure based on a modified probability indication procedure is proposed to further improve the purity , detailed in “ Refinement With ModPIP. ” Then the experiments are presented , with conclusions given at the end .
+T114	具体模型 10507 10510	HMM
+T115	具体模型 10538 10541	HMM
+T116	图 10846 10922	As seen in Figure 1 , our proposed SequentialUD approach has two main stages
+T117	具体模型 11069 11072	HMM
+T118	具体模型 11139 11142	HMM
+T119	具体模型 11168 11171	HMM
+T120	具体模型 11456 11459	HMM
+T121	具体模型 11618 11621	HMM
+T122	具体模型 11977 11996	Hidden Markov Model
+T123	具体模型 11999 12002	HMM
+T124	具体模型 12109 12112	HMM
+T125	研究方法 11891 12162	To make use of the contextual information for document decomposition , we utilize the Hidden Markov Model ( HMM ) , a widely used effective technique for sequential learning models , and take benefit from the powerful HMM tools to improve the classification purity result
+T126	具体模型 12250 12253	HMM
+T127	具体模型 12336 12339	HMM
+T128	具体模型 12414 12417	HMM
+T129	具体模型 12731 12734	HMM
+T130	图 13283 13340	Figure 2 illustrates the graphical structure of the HMM .
+T131	具体模型 13335 13338	HMM
+T132	具体模型 14297 14300	HMM
+T133	具体模型 14517 14520	HMM
+T134	引文的结果 15796 16021	The selection of has a significant impact on the overall efficiency of the model , as it directly affects the convergence rate of the learning process , as well as whether the learning process can converge on a global maximum
+T135	引文作者 16024 16029	Hoang
+T136	引文作者 16032 16034	Hu
+T137	引文时间 16037 16041	2004
+T138	具体模型 16174 16177	HMM
+T139	研究结果 16048 16191	In our work , we propose a statistical approach and make use of the contextual information of sequential data to initiate the HMM parameter set
+T140	具体模型 18389 18411	Gaussian Mixture Model
+T141	具体模型 18414 18417	GMM
+T142	引文作者 18420 18429	McLachlan
+T143	引文作者 18432 18439	Basford
+T144	引文时间 18442 18446	1988
+T14	引文的方法 0 158	Authorship analysis is the process of analyzing the authors of a disputed anonymous document , which uses a statistical study of linguistics called stylometry
+T145	引文的方法 208 277	to identify the background of authors of the questioned text document
+R1	uses Arg1:T1 Arg2:T14	
+R2	coauthor Arg1:T1 Arg2:T2	
+R3	coauthor Arg1:T2 Arg2:T3	
+R4	coauthor Arg1:T3 Arg2:T4	
+R5	has_cited_time Arg1:T5 Arg2:T4	
+R6	uses Arg1:T1 Arg2:T145	
+R7	uses Arg1:T8 Arg2:T13	
+R8	has_cited_time Arg1:T9 Arg2:T8	
+R9	coauthor Arg1:T10 Arg2:T11	
+R10	has_cited_time Arg1:T12 Arg2:T11	
+R11	results Arg1:T10 Arg2:T15	
+R12	produces Arg1:T16 Arg2:T20	
+R13	has_cited_time Arg1:T17 Arg2:T16	
+R14	has_cited_time Arg1:T19 Arg2:T18	
+R15	field_similar_as Arg1:T18 Arg2:T16	
+R16	results Arg1:T22 Arg2:T30	
+R17	has_cited_time Arg1:T23 Arg2:T22	
+R18	results Arg1:T24 Arg2:T31	
+R19	coauthor Arg1:T24 Arg2:T25	
+R20	coauthor Arg1:T25 Arg2:T26	
+R21	has_cited_time Arg1:T27 Arg2:T26	
+R22	has_cited_time Arg1:T29 Arg2:T28	
+R23	field_similar_as Arg1:T28 Arg2:T24	
+R24	results Arg1:T33 Arg2:T32	
+R25	coauthor Arg1:T33 Arg2:T34	
+R26	coauthor Arg1:T34 Arg2:T35	
+R27	has_cited_time Arg1:T36 Arg2:T35	
+R28	coauthor Arg1:T37 Arg2:T38	
+R29	coauthor Arg1:T38 Arg2:T39	
+R30	coauthor Arg1:T39 Arg2:T40	
+R31	has_cited_time Arg1:T41 Arg2:T40	
+R32	results Arg1:T37 Arg2:T42	
+R33	coauthor Arg1:T43 Arg2:T44	
+R34	has_cited_time Arg1:T45 Arg2:T44	
+R35	results Arg1:T43 Arg2:T46	
+R36	has_cited_time Arg1:T48 Arg2:T47	
+R37	coauthor Arg1:T47 Arg2:T49	
+R38	coauthor Arg1:T49 Arg2:T50	
+R39	has_cited_time Arg1:T51 Arg2:T50	
+R40	has_cited_time Arg1:T53 Arg2:T52	
+R41	results Arg1:T52 Arg2:T54	
+R42	coauthor Arg1:T55 Arg2:T56	
+R43	coauthor Arg1:T56 Arg2:T57	
+R44	has_cited_time Arg1:T58 Arg2:T57	
+R45	coauthor Arg1:T60 Arg2:T61	
+R46	has_cited_time Arg1:T62 Arg2:T61	
+R47	results Arg1:T60 Arg2:T63	
+R48	results Arg1:T64 Arg2:T78	
+R49	coauthor Arg1:T64 Arg2:T65	
+R50	coauthor Arg1:T65 Arg2:T66	
+R51	has_cited_time Arg1:T67 Arg2:T66	
+R52	coauthor Arg1:T68 Arg2:T69	
+R53	coauthor Arg1:T69 Arg2:T70	
+R54	coauthor Arg1:T70 Arg2:T71	
+R55	has_cited_time Arg1:T72 Arg2:T71	
+R56	coauthor Arg1:T73 Arg2:T74	
+R57	coauthor Arg1:T74 Arg2:T75	
+R58	coauthor Arg1:T75 Arg2:T76	
+R59	has_cited_time Arg1:T77 Arg2:T76	
+R60	field_similar_as Arg1:T73 Arg2:T68	
+R61	field_similar_as Arg1:T68 Arg2:T64	
+R62	coauthor Arg1:T79 Arg2:T80	
+R63	coauthor Arg1:T80 Arg2:T81	
+R64	has_cited_time Arg1:T82 Arg2:T81	
+R65	results Arg1:T79 Arg2:T84	
+R66	coauthor Arg1:T85 Arg2:T86	
+R67	coauthor Arg1:T86 Arg2:T87	
+R68	has_cited_time Arg1:T88 Arg2:T87	
+R69	results Arg1:T89 Arg2:T91	
+R70	has_cited_time Arg1:T90 Arg2:T89	
+R71	coauthor Arg1:T94 Arg2:T95	
+R72	coauthor Arg1:T95 Arg2:T96	
+R73	coauthor Arg1:T96 Arg2:T97	
+R74	has_cited_time Arg1:T98 Arg2:T97	
+R75	has_cited_time Arg1:T103 Arg2:T102	
+R76	coauthor Arg1:T135 Arg2:T136	
+R77	has_cited_time Arg1:T137 Arg2:T136	
+R78	results Arg1:T135 Arg2:T134	
+R79	coauthor Arg1:T142 Arg2:T143	
+R80	has_cited_time Arg1:T144 Arg2:T143	

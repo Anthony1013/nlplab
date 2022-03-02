@@ -1,0 +1,561 @@
+T1	引文的结果 140 262	Links in Wikipedia articles are created both to support navigation and to provide a semantic interpretation of the content
+T2	引文作者 265 271	Adafre
+T3	引文作者 274 282	de Rijke
+T4	引文时间 285 289	2005
+T5	术语 517 528	anchor text
+T6	术语 531 544	source anchor
+T7	术语 548 554	anchor
+T8	术语 607 619	anchor texts
+T9	术语 710 723	anchor points
+T10	术语 942 949	anchors
+T11	引文的研究问题 1267 1329	software tools associated with tasks such as ontology learning
+T12	引文作者 1332 1337	Conde
+T13	引文作者 1340 1349	Larrañaga
+T14	引文作者 1352 1360	Arruarte
+T15	引文作者 1363 1372	Elorriaga
+T16	引文作者 1377 1381	Roth
+T17	引文时间 1384 1388	2016
+T18	引文的研究问题 1393 1418	word‐sense disambiguation
+T19	引文作者 1421 1423	Li
+T20	引文作者 1426 1429	Sun
+T21	引文作者 1434 1439	Datta
+T22	引文时间 1442 1446	2013
+T23	引文的研究问题 1451 1488	concept‐based document classification
+T24	引文作者 1491 1495	Malo
+T25	引文作者 1498 1503	Sinha
+T26	引文作者 1506 1515	Wallenius
+T27	引文作者 1520 1528	Korhonen
+T28	引文时间 1531 1535	2011
+T29	引文的研究问题 1544 1568	web‐based entity ranking
+T30	引文作者 1571 1578	Kaptein
+T31	引文作者 1581 1590	Serdyukov
+T32	引文作者 1593 1601	De Vries
+T33	引文作者 1606 1611	Kamps
+T34	引文时间 1614 1618	2010
+T35	术语 1701 1708	anchors
+T36	术语 1792 1799	anchors
+T37	引文作者 2210 2219	Wilkinson
+T38	引文作者 2222 2229	Smeaton
+T39	引文时间 2232 2236	1999
+T40	引文的结果 2145 2207	it was the case for the automatic creation of links in general
+T41	引文作者 2326 2334	Mihalcea
+T42	引文作者 2339 2345	Csomai
+T43	引文时间 2348 2352	2007
+T44	引文的研究问题 2418 2529	explore the free availability of Wikipedia content and the large ground truth of encyclopedic links it provides
+T45	引文作者 2539 2544	Milne
+T46	引文作者 2547 2553	Witten
+T47	引文时间 2556 2560	2008
+T48	术语 2676 2694	candidate concepts
+T49	术语 2970 2993	Machine learning ( ML )
+T50	术语 3016 3043	supervised machine learning
+T51	引文的结果 3747 3837	the effectiveness of ML‐based methods over manual wikification and unsupervised heuristics
+T52	引文作者 3840 3848	Mihalcea
+T53	引文作者 3851 3857	Csomai
+T54	引文时间 3860 3864	2007
+T55	引文作者 3867 3872	Milne
+T56	引文作者 3875 3881	Witten
+T57	引文时间 3884 3888	2008
+T58	引文作者 3891 3898	Ratinov
+T59	引文作者 3901 3905	Roth
+T60	引文作者 3908 3914	Downey
+T61	引文作者 3919 3927	Anderson
+T62	引文时间 3930 3934	2011
+T63	引文作者 3937 3941	West
+T64	引文作者 3944 3950	Precup
+T65	引文作者 3955 3961	Pineau
+T66	引文时间 3964 3968	2009
+T67	术语 4048 4050	ML
+T68	术语 4107 4136	graph topological information
+T69	术语 4321 4335	graph topology
+T70	术语 4394 4414	matrix factorization
+T71	术语 4454 4474	topology information
+T72	引文的结果 4454 4551	topology information was successfully used to predict links in many domains using such techniques
+T73	引文作者 4554 4559	Koren
+T74	引文时间 4562 4566	2008
+T75	引文作者 4569 4574	Menon
+T76	引文作者 4577 4582	Elkan
+T77	引文时间 4585 4589	2011
+T78	引文作者 4592 4598	Rendle
+T79	引文时间 4601 4605	2012
+T80	术语 4683 4685	ML
+T81	术语 5112 5128	link predictions
+T82	引文作者 5273 5281	Ferreira
+T83	引文作者 5284 5292	Pimentel
+T84	引文作者 5297 5303	Cristo
+T85	引文时间 5306 5310	2015
+T86	引文的结果 5313 5402	we proposed a prediction model which uses latent features to predict links in Wikipedia .
+T87	引文作者 5488 5493	Milne
+T88	引文作者 5496 5502	Witten
+T89	引文时间 5505 5509	2013
+T90	引文的研究问题 5430 5485	the gains obtained over a state‐of‐the‐art wikification
+T91	研究结果 5669 5901	we identified the opportunity to investigate distinct and interdependent parts of the model : the contribution of features , the effect of ambiguity , the impact of training size and the quality of links used as training instances .
+T92	研究结果 5918 6061	in this article we extend our previous work and report the following contributions : A comprehensive analysis of our latent model performance .
+T93	术语 6105 6129	representative baselines
+T94	数据源 6292 6301	Wikipedia
+T95	研究结果 6382 6627	we show that despite that the fact that the predictor based on link features ( dyadic predictor ) presents the best performance among the predictors , the combination of latent and dyadic predictors indicates they carry complementary information
+T96	数据源 126 135	Wikipedia
+T97	数据源 149 158	Wikipedia
+T98	数据源 867 876	Wikipedia
+T99	数据源 1153 1162	Wikipedia
+T100	数据源 1641 1650	Wikipedia
+T101	数据源 1828 1837	Wikipedia
+T102	数据源 3997 4006	Wikipedia
+T103	数据源 4905 4914	Wikipedia
+T104	数据源 5571 5580	Wikipedia
+T105	研究结果 6642 6691	we show which dyadic features contribute the most
+T106	研究结果 6766 6870	We observed a steady performance of the model independently from the degree of ambiguity of the concepts
+T107	研究结果 6939 7059	The same behavior was observed for the latent component , which suggests that the model naturally deals with ambiguity .
+T108	具体模型 7473 7494	link‐prediction model
+T109	引文的结果 7817 7933	the usual aim is to develop models able to predict links to newly created Wikipedia articles that is , with no links
+T110	引文作者 7936 7944	Mihalcea
+T111	引文作者 7947 7953	Csomai
+T112	引文时间 7956 7960	2007
+T113	引文作者 7963 7968	Milne
+T114	引文作者 7971 7977	Witten
+T115	引文时间 7980 7984	2008
+T116	引文时间 7987 7991	2013
+T117	术语 8349 8355	anchor
+T118	术语 8481 8487	anchor
+T119	术语 8568 8583	Wikipedia – D2W
+T120	引文的结果 8508 8583	The second problem is usually referred as disambiguation to Wikipedia – D2W
+T121	引文作者 8586 8593	Ratinov
+T122	引文时间 8603 8607	2011
+T123	引文作者 8614 8622	Mihalcea
+T124	引文作者 8627 8633	Csomai
+T125	引文时间 8636 8640	2007
+T126	引文的研究问题 8647 8762	among the first authors to use Wikipedia as a knowledge source for concept extraction and word sense disambiguation
+T127	引文的方法 8767 8935	They used a simple method , based on thresholds , to identify which labels should be taken as anchors and applied word sense disambiguation approaches to the D2W task .
+T128	术语 9095 9097	ML
+T129	引文的结果 9310 9414	they found that the automatic‐generated suggestions were very similar to the human‐generated suggestions
+T130	引文作者 9474 9482	Mihalcea
+T131	引文作者 9487 9493	Csomai
+T132	引文时间 9496 9500	2007
+T133	引文作者 9505 9510	Milne
+T134	引文作者 9515 9521	Witten
+T135	引文时间 9524 9528	2008
+T136	引文的结果 9531 9679	proposed a method based on global information , where all the labels were disambiguated simultaneously to achieve a coherence set of disambiguations
+T137	术语 9708 9711	D2W
+T138	术语 9736 9757	anchor identification
+T139	术语 9798 9800	ML
+T140	软件工具 9807 9829	tree‐based classifiers
+T141	软件工具 9838 9852	D2W classifier
+T142	软件工具 10133 10165	anchor identification classifier
+T143	引文作者 10406 10408	He
+T144	引文作者 10413 10421	de Rijke
+T145	引文时间 10424 10428	2010
+T146	引文作者 10435 10442	Ratinov
+T147	引文时间 10455 10459	2011
+T148	引文的研究问题 10462 10548	focused on the task of D2W , thus without trying to mimic the Wikipedia link structure
+T150	引文作者 10885 10889	Geva
+T151	引文作者 10892 10897	Kamps
+T152	引文作者 10902 10909	Trotman
+T153	引文时间 10912 10916	2009
+T149	引文的研究问题 10715 10882	the Initiative for the Evaluation of XML retrieval ( INEX ) launched a challenge where the aim was to determine the five best Wikipedia pages related to an anchor text
+T154	引文作者 11032 11034	He
+T155	引文作者 11039 11047	de Rijke
+T156	引文时间 11050 11054	2010
+T157	引文的方法 11057 11111	were the first researchers to adopt ranking algorithms
+T158	引文的结果 11116 11270	They have shown that these algorithms outperform the previous heuristics by using ranking metrics based on the same local features typically used before .
+T159	引文作者 11273 11280	Ratinov
+T160	引文时间 11293 11297	2011
+T161	引文的结果 11300 11374	observed that previous approaches were based on local or global evidence .
+T162	引文的结果 11420 11564	they proposed GLOW ( Global Wikification ) , an optimization approach where content similarity and global coherence are maximized simultaneously
+T163	具体模型 11710 11713	SVM
+T164	引文的结果 11827 12021	the authors have shown that GLOW outperformed the method by Milne and Witten ( 2008 ) in the task of disambiguating Wikipedia anchors , corresponding to named entities , in samples of paragraphs
+T165	引文作者 12048 12053	Cheng
+T166	引文作者 12058 12062	Roth
+T167	引文时间 12065 12069	2013
+T168	引文的研究问题 12072 12218	extended GLOW to consider the relationships between the entities observed in the local context , achieving still better disambiguation performance
+T169	引文作者 12253 12255	He
+T170	引文作者 12260 12268	de Rijke
+T171	引文时间 12271 12275	2010
+T172	引文作者 12347 12352	Milne
+T173	引文作者 12357 12363	Witten
+T174	引文时间 12366 12370	2013
+T175	引文的研究问题 12378 12458	extended their own previous work to collect statistics from the entire Wikipedia
+T177	研究方法 12712 12795	We use the method proposed by Milne and Witten ( 2013 ) as baseline in our research
+T178	引文作者 12742 12747	Milne
+T179	引文作者 12752 12758	Witten
+T180	引文时间 12761 12765	2013
+T181	术语 12836 12860	Wikipedia graph topology
+T182	引文作者 13127 13133	Adafre
+T183	引文作者 13138 13146	de Rijke
+T184	引文时间 13149 13153	2005
+T185	引文的方法 13156 13208	adopted a neighborhood‐based recommendation strategy
+T186	术语 13437 13448	anchor text
+T187	引文作者 13484 13488	West
+T188	引文时间 13501 13505	2009
+T189	引文的方法 13508 13625	use a similar recommendation strategy , but applying a different criteria to identify the links in the neighborhood .
+T190	引文的研究问题 13628 13691	Their method was designed to deal with sparsely‐linked articles
+T191	术语 13722 13743	link adjacency matrix
+T192	术语 13819 13832	feature space
+T193	术语 14061 14081	reconstruction error
+T194	引文的结果 14152 14203	Another strategy to deal with sparsity was proposed
+T195	引文作者 14207 14210	Cai
+T196	引文作者 14213 14217	Zhao
+T197	引文作者 14220 14223	Zhu
+T198	引文作者 14230 14234	Wang
+T199	引文时间 14237 14241	2013
+T200	术语 14277 14313	initial concept co‐occurrence matrix
+T201	术语 14411 14420	iteration
+T202	引文作者 14504 14508	West
+T203	引文时间 14521 14525	2009
+T204	引文的方法 14533 14563	also used matrix factorization
+T205	术语 14647 14675	supervised linear regression
+T206	引文作者 14844 14851	Gardner
+T207	引文作者 14856 14861	Xiong
+T208	引文时间 14864 14868	2009
+T209	引文的结果 14871 14982	proposed a method based on conditional random fields to determine the actual location of the label to be linked
+T210	术语 15235 15250	link prediction
+T211	引文的研究问题 15315 15346	the predicting of movie ratings
+T212	引文作者 15349 15354	Koren
+T213	引文时间 15357 15361	2008
+T214	引文的研究问题 15366 15443	the estimate of the likelihood of new interactions in social network analysis
+T215	引文作者 15446 15458	Liben‐Nowell
+T216	引文作者 15461 15470	Kleinberg
+T217	引文时间 15473 15477	2007
+T218	引文的研究问题 15486 15541	the predicting of click‐through outcomes in advertising
+T219	引文作者 15544 15549	Menon
+T220	引文作者 15552 15562	Chitrapura
+T221	引文作者 15565 15569	Garg
+T222	引文作者 15572 15579	Agarwal
+T223	引文作者 15584 15588	Kota
+T224	引文时间 15591 15595	2011
+T225	引文作者 15625 15630	Menon
+T226	引文作者 15635 15640	Elkan
+T227	引文时间 15643 15647	2011
+T228	引文的研究问题 15654 15708	a comprehensive literature review on link prediction .
+T229	术语 15879 15893	graph topology
+T230	引文作者 16245 16251	Rendle
+T231	引文时间 16254 16258	2012
+T232	引文的结果 16261 16358	proposed many general algorithms able to learn factor models which combine edge and node features
+T233	引文作者 16421 16426	Menon
+T234	引文作者 16431 16436	Elkan
+T235	引文时间 16439 16443	2011
+T236	引文的结果 16446 16575	proposed a linear factor model with dyadic and monadic components able to take advantage of edge and node features , respectively
+T237	引文作者 16617 16622	Menon
+T238	引文作者 16627 16632	Elkan
+T239	引文时间 16635 16639	2011
+T240	引文的研究问题 16592 16734	the important results by Menon and Elkan ( 2011 ) in terms of , for instance , scalability and appropriateness for imbalanced supervised tasks
+T241	引文的方法 16737 16798	in our previous work we extended their model for wikification
+T242	引文作者 16801 16809	Ferreira
+T243	引文时间 16819 16823	2015
+T244	研究结果 16830 17103	One novelty of our proposed model is the handling of directed graphs which we achieve by including a latent predictor composed of two latent components : one to capture the undirected aspect of the link , and another to capture the residual directional aspect of the link .
+T245	引文的研究问题 17133 17194	exploiting topological aspects of the Wikipedia concept graph
+T246	引文作者 17214 17218	West
+T247	引文时间 17231 17235	2009
+T248	术语 17262 17275	edge features
+T249	引文作者 17405 17410	Milne
+T250	引文作者 17415 17421	Witten
+T251	引文时间 17424 17428	2013
+T252	引文作者 17483 17491	Ferreira
+T253	引文时间 17501 17505	2015
+T254	研究问题 17587 17855	in this work we study the impact of different training sizes , the importance of each predictor component , the importance of each link feature , the effect of ambiguity in prediction performance , and the selection of training samples according to their quality rates
+T255	引文的结果 17917 17984	many authors have proposed general taxonomies of quality dimensions
+T256	引文作者 17987 17989	Ge
+T257	引文作者 17992 17999	Helfert
+T258	引文时间 18002 18006	2007
+T259	引文作者 18009 18014	Tejay
+T260	引文作者 18017 18024	Dhillon
+T261	引文作者 18029 18033	Chin
+T262	引文时间 18036 18040	2006
+T263	引文作者 18043 18047	Wang
+T264	引文作者 18050 18056	Strong
+T265	引文时间 18059 18063	1996
+T266	术语 18082 18092	dimensions
+T267	数据源 18635 18644	Wikipedia
+T268	引文作者 18647 18653	Dondio
+T269	引文作者 18656 18663	Barrett
+T270	引文作者 18666 18671	Weber
+T271	引文作者 18678 18686	Seigneur
+T272	引文时间 18689 18693	2006
+T273	引文的结果 18701 18807	the first authors to propose an automatic quality assessment method based on the aforementioned indicators
+T274	引文作者 18842 18851	Korfiatis
+T275	引文作者 18854 18860	Poulos
+T276	引文作者 18867 18872	Bokos
+T277	引文时间 18875 18879	2006
+T278	引文作者 18884 18892	Rassbach
+T279	引文作者 18895 18902	Pincock
+T280	引文作者 18909 18915	Mingus
+T281	引文时间 18918 18922	2007
+T282	引文作者 18927 18934	Kirtsis
+T283	引文作者 18937 18943	Stamou
+T284	引文作者 18946 18952	Tzekou
+T285	引文作者 18959 18964	Zotos
+T286	引文时间 18967 18971	2010
+T287	引文作者 18976 18982	Tzekou
+T288	引文作者 18985 18991	Stamou
+T289	引文作者 18994 19001	Kirtsis
+T290	引文作者 19008 19013	Zotos
+T291	引文时间 19016 19020	2011
+T292	引文作者 19029 19034	Dalip
+T293	引文作者 19037 19046	Gonçalves
+T294	引文作者 19049 19055	Cristo
+T295	引文作者 19062 19068	Calado
+T296	引文时间 19071 19075	2009
+T297	引文的结果 19084 19130	added text style and readability as indicators
+T298	引文的研究问题 18812 18841	Topology was also explored by
+T299	引文的研究问题 19135 19249	Other authors have proposed knowledge resources and guides for analyzing and developing quality measurement models
+T300	引文作者 19252 19256	Choi
+T301	引文作者 19259 19266	Stvilia
+T302	引文时间 19269 19273	2015
+T303	引文作者 19276 19283	Stvilia
+T304	引文作者 19286 19293	Twidale
+T305	引文作者 19296 19301	Smith
+T306	引文作者 19306 19312	Gasser
+T307	引文时间 19315 19319	2008
+T308	引文时间 19322 19326	2007
+T309	引文的结果 19420 19432	unsupervised
+T310	引文作者 19435 19441	Dondio
+T311	引文时间 19451 19455	2006
+T312	引文作者 19458 19460	Hu
+T313	引文作者 19463 19466	Lim
+T314	引文作者 19469 19472	Sun
+T315	引文作者 19475 19479	Lauw
+T316	引文作者 19484 19489	Vuong
+T317	引文时间 19492 19496	2007
+T318	引文的结果 19509 19519	supervised
+T319	引文作者 19522 19530	Rassbach
+T320	引文时间 19540 19544	2007
+T321	引文作者 19547 19549	Xu
+T322	引文作者 19552 19555	Luo
+T323	引文时间 19558 19562	2011
+T324	数据源 19641 19650	Wikipedia
+T325	引文的结果 19793 19832	missing links can exist for a long time
+T326	引文作者 19835 19843	Sunercan
+T327	引文作者 19846 19853	Birturk
+T328	引文时间 19856 19860	2010
+T329	引文的结果 19865 19918	links can be biased towards popularity and importance
+T330	引文作者 19921 19927	Hanada
+T331	引文作者 19930 19936	Cristo
+T332	引文作者 19941 19949	Pimentel
+T333	引文时间 19952 19956	2013
+T334	引文的结果 19965 19989	links are rarely clicked
+T335	引文作者 19992 20001	Paranjape
+T336	引文作者 20004 20008	West
+T337	引文作者 20011 20014	Zia
+T338	引文作者 20019 20027	Leskovec
+T339	引文时间 20030 20034	2016
+T340	引文作者 20173 20182	Paranjape
+T176	术语 12562 12565	F 1
+R1	results Arg1:T2 Arg2:T1	
+R2	coauthor Arg1:T3 Arg2:T2	
+R3	has_cited_time Arg1:T4 Arg2:T2	
+R4	produces Arg1:T12 Arg2:T11	
+R5	coauthor Arg1:T13 Arg2:T12	
+R6	coauthor Arg1:T14 Arg2:T13	
+R7	coauthor Arg1:T15 Arg2:T14	
+R8	coauthor Arg1:T16 Arg2:T15	
+R9	has_cited_time Arg1:T17 Arg2:T16	
+R10	produces Arg1:T19 Arg2:T18	
+R11	coauthor Arg1:T20 Arg2:T19	
+R12	coauthor Arg1:T21 Arg2:T20	
+R13	has_cited_time Arg1:T22 Arg2:T19	
+R14	produces Arg1:T24 Arg2:T23	
+R15	coauthor Arg1:T25 Arg2:T24	
+R16	coauthor Arg1:T26 Arg2:T25	
+R17	coauthor Arg1:T27 Arg2:T26	
+R18	has_cited_time Arg1:T28 Arg2:T27	
+R19	produces Arg1:T30 Arg2:T29	
+R20	coauthor Arg1:T31 Arg2:T30	
+R21	coauthor Arg1:T32 Arg2:T31	
+R22	coauthor Arg1:T33 Arg2:T32	
+R23	has_cited_time Arg1:T34 Arg2:T30	
+R24	results Arg1:T37 Arg2:T40	
+R25	coauthor Arg1:T38 Arg2:T37	
+R26	has_cited_time Arg1:T39 Arg2:T38	
+R27	coauthor Arg1:T42 Arg2:T41	
+R28	has_cited_time Arg1:T43 Arg2:T41	
+R29	produces Arg1:T45 Arg2:T44	
+R30	coauthor Arg1:T46 Arg2:T45	
+R31	has_cited_time Arg1:T47 Arg2:T45	
+R32	results Arg1:T52 Arg2:T51	
+R33	coauthor Arg1:T53 Arg2:T52	
+R34	has_cited_time Arg1:T54 Arg2:T52	
+R35	coauthor Arg1:T56 Arg2:T55	
+R36	has_cited_time Arg1:T57 Arg2:T55	
+R37	coauthor Arg1:T59 Arg2:T58	
+R38	coauthor Arg1:T60 Arg2:T59	
+R39	coauthor Arg1:T61 Arg2:T60	
+R40	has_cited_time Arg1:T62 Arg2:T61	
+R41	coauthor Arg1:T63 Arg2:T64	
+R42	coauthor Arg1:T65 Arg2:T64	
+R43	has_cited_time Arg1:T66 Arg2:T63	
+R44	field_similar_as Arg1:T63 Arg2:T58	
+R45	field_similar_as Arg1:T58 Arg2:T55	
+R46	field_similar_as Arg1:T55 Arg2:T52	
+R47	results Arg1:T73 Arg2:T72	
+R48	has_cited_time Arg1:T74 Arg2:T73	
+R49	coauthor Arg1:T76 Arg2:T75	
+R50	has_cited_time Arg1:T77 Arg2:T76	
+R51	has_cited_time Arg1:T79 Arg2:T78	
+R52	coauthor Arg1:T73 Arg2:T75	
+R53	coauthor Arg1:T75 Arg2:T78	
+R54	coauthor Arg1:T83 Arg2:T82	
+R55	coauthor Arg1:T84 Arg2:T83	
+R56	has_cited_time Arg1:T85 Arg2:T82	
+R57	results Arg1:T82 Arg2:T86	
+R58	produces Arg1:T87 Arg2:T90	
+R59	coauthor Arg1:T88 Arg2:T87	
+R60	has_cited_time Arg1:T89 Arg2:T87	
+R61	results Arg1:T110 Arg2:T109	
+R62	coauthor Arg1:T111 Arg2:T110	
+R63	has_cited_time Arg1:T112 Arg2:T110	
+R64	coauthor Arg1:T114 Arg2:T113	
+R65	has_cited_time Arg1:T115 Arg2:T113	
+R66	has_cited_time Arg1:T116 Arg2:T114	
+R67	results Arg1:T121 Arg2:T120	
+R68	has_cited_time Arg1:T122 Arg2:T121	
+R69	coauthor Arg1:T124 Arg2:T123	
+R70	has_cited_time Arg1:T125 Arg2:T123	
+R71	produces Arg1:T123 Arg2:T126	
+R72	uses Arg1:T123 Arg2:T127	
+R73	results Arg1:T123 Arg2:T129	
+R74	coauthor Arg1:T131 Arg2:T130	
+R75	has_cited_time Arg1:T132 Arg2:T131	
+R76	coauthor Arg1:T134 Arg2:T133	
+R77	has_cited_time Arg1:T135 Arg2:T134	
+R78	coauthor Arg1:T133 Arg2:T130	
+R79	results Arg1:T130 Arg2:T136	
+R80	coauthor Arg1:T144 Arg2:T143	
+R81	coauthor Arg1:T146 Arg2:T144	
+R82	has_cited_time Arg1:T145 Arg2:T143	
+R83	has_cited_time Arg1:T147 Arg2:T146	
+R84	produces Arg1:T143 Arg2:T148	
+R85	coauthor Arg1:T151 Arg2:T150	
+R86	coauthor Arg1:T152 Arg2:T151	
+R87	has_cited_time Arg1:T153 Arg2:T150	
+R88	produces Arg1:T150 Arg2:T149	
+R89	coauthor Arg1:T155 Arg2:T154	
+R90	has_cited_time Arg1:T156 Arg2:T154	
+R91	uses Arg1:T154 Arg2:T157	
+R92	results Arg1:T154 Arg2:T158	
+R93	results Arg1:T159 Arg2:T161	
+R94	has_cited_time Arg1:T160 Arg2:T159	
+R95	results Arg1:T159 Arg2:T162	
+R96	results Arg1:T159 Arg2:T164	
+R97	coauthor Arg1:T165 Arg2:T166	
+R98	has_cited_time Arg1:T167 Arg2:T165	
+R99	produces Arg1:T165 Arg2:T168	
+R100	coauthor Arg1:T170 Arg2:T169	
+R101	has_cited_time Arg1:T171 Arg2:T169	
+R102	coauthor Arg1:T173 Arg2:T172	
+R103	has_cited_time Arg1:T174 Arg2:T173	
+R104	produces Arg1:T173 Arg2:T175	
+R105	coauthor Arg1:T179 Arg2:T178	
+R106	has_cited_time Arg1:T180 Arg2:T178	
+R107	coauthor Arg1:T183 Arg2:T182	
+R108	has_cited_time Arg1:T184 Arg2:T182	
+R109	uses Arg1:T182 Arg2:T185	
+R110	uses Arg1:T187 Arg2:T189	
+R111	produces Arg1:T187 Arg2:T190	
+R112	has_cited_time Arg1:T188 Arg2:T187	
+R113	results Arg1:T195 Arg2:T194	
+R114	coauthor Arg1:T196 Arg2:T195	
+R115	coauthor Arg1:T197 Arg2:T196	
+R116	coauthor Arg1:T198 Arg2:T197	
+R117	has_cited_time Arg1:T199 Arg2:T195	
+R118	has_cited_time Arg1:T203 Arg2:T202	
+R119	uses Arg1:T202 Arg2:T204	
+R120	coauthor Arg1:T206 Arg2:T207	
+R121	has_cited_time Arg1:T208 Arg2:T206	
+R122	results Arg1:T206 Arg2:T209	
+R123	produces Arg1:T212 Arg2:T211	
+R124	has_cited_time Arg1:T213 Arg2:T212	
+R125	produces Arg1:T215 Arg2:T214	
+R126	coauthor Arg1:T216 Arg2:T215	
+R127	has_cited_time Arg1:T217 Arg2:T215	
+R128	produces Arg1:T219 Arg2:T218	
+R129	coauthor Arg1:T220 Arg2:T219	
+R130	coauthor Arg1:T221 Arg2:T220	
+R131	coauthor Arg1:T222 Arg2:T221	
+R132	coauthor Arg1:T223 Arg2:T222	
+R133	has_cited_time Arg1:T224 Arg2:T223	
+R134	coauthor Arg1:T225 Arg2:T226	
+R135	produces Arg1:T225 Arg2:T228	
+R136	has_cited_time Arg1:T227 Arg2:T226	
+R137	has_cited_time Arg1:T231 Arg2:T230	
+R138	results Arg1:T230 Arg2:T232	
+R139	coauthor Arg1:T234 Arg2:T233	
+R140	has_cited_time Arg1:T235 Arg2:T233	
+R141	results Arg1:T233 Arg2:T236	
+R142	coauthor Arg1:T238 Arg2:T237	
+R143	has_cited_time Arg1:T239 Arg2:T237	
+R144	produces Arg1:T237 Arg2:T240	
+R145	uses Arg1:T242 Arg2:T241	
+R146	has_cited_time Arg1:T243 Arg2:T242	
+R147	produces Arg1:T246 Arg2:T245	
+R148	coauthor Arg1:T250 Arg2:T249	
+R149	has_cited_time Arg1:T247 Arg2:T246	
+R150	has_cited_time Arg1:T251 Arg2:T250	
+R151	has_cited_time Arg1:T253 Arg2:T252	
+R152	results Arg1:T256 Arg2:T255	
+R153	coauthor Arg1:T257 Arg2:T256	
+R154	has_cited_time Arg1:T258 Arg2:T256	
+R155	coauthor Arg1:T260 Arg2:T259	
+R156	coauthor Arg1:T261 Arg2:T260	
+R157	has_cited_time Arg1:T262 Arg2:T261	
+R158	coauthor Arg1:T264 Arg2:T263	
+R159	has_cited_time Arg1:T265 Arg2:T264	
+R160	field_similar_as Arg1:T259 Arg2:T256	
+R161	field_similar_as Arg1:T263 Arg2:T259	
+R162	coauthor Arg1:T269 Arg2:T268	
+R163	coauthor Arg1:T270 Arg2:T269	
+R164	coauthor Arg1:T271 Arg2:T270	
+R165	has_cited_time Arg1:T272 Arg2:T271	
+R166	results Arg1:T268 Arg2:T273	
+R167	produces Arg1:T274 Arg2:T298	
+R168	coauthor Arg1:T275 Arg2:T274	
+R169	coauthor Arg1:T276 Arg2:T275	
+R170	has_cited_time Arg1:T277 Arg2:T276	
+R171	coauthor Arg1:T278 Arg2:T279	
+R172	coauthor Arg1:T280 Arg2:T279	
+R173	coauthor Arg1:T282 Arg2:T283	
+R174	coauthor Arg1:T283 Arg2:T284	
+R175	coauthor Arg1:T284 Arg2:T285	
+R176	has_cited_time Arg1:T281 Arg2:T278	
+R177	has_cited_time Arg1:T286 Arg2:T282	
+R178	coauthor Arg1:T288 Arg2:T287	
+R179	coauthor Arg1:T289 Arg2:T288	
+R180	coauthor Arg1:T290 Arg2:T289	
+R182	has_cited_time Arg1:T291 Arg2:T287	
+R183	coauthor Arg1:T292 Arg2:T293	
+R184	coauthor Arg1:T293 Arg2:T294	
+R181	coauthor Arg1:T294 Arg2:T295	
+R185	has_cited_time Arg1:T296 Arg2:T295	
+R186	results Arg1:T292 Arg2:T297	
+R187	produces Arg1:T300 Arg2:T299	
+R188	coauthor Arg1:T300 Arg2:T301	
+R189	has_cited_time Arg1:T302 Arg2:T301	
+R190	coauthor Arg1:T303 Arg2:T304	
+R191	coauthor Arg1:T304 Arg2:T305	
+R192	coauthor Arg1:T305 Arg2:T306	
+R193	has_cited_time Arg1:T307 Arg2:T306	
+R194	has_cited_time Arg1:T308 Arg2:T306	
+R195	field_similar_as Arg1:T300 Arg2:T303	
+R196	results Arg1:T310 Arg2:T309	
+R197	has_cited_time Arg1:T311 Arg2:T310	
+R198	coauthor Arg1:T312 Arg2:T313	
+R199	coauthor Arg1:T313 Arg2:T314	
+R200	coauthor Arg1:T314 Arg2:T315	
+R201	coauthor Arg1:T315 Arg2:T316	
+R202	has_cited_time Arg1:T317 Arg2:T316	
+R203	results Arg1:T319 Arg2:T318	
+R204	has_cited_time Arg1:T320 Arg2:T319	
+R205	coauthor Arg1:T321 Arg2:T322	
+R206	has_cited_time Arg1:T323 Arg2:T322	
+R207	field_similar_as Arg1:T321 Arg2:T319	
+R208	field_similar_as Arg1:T312 Arg2:T310	
+R209	results Arg1:T326 Arg2:T325	
+R210	coauthor Arg1:T326 Arg2:T327	
+R211	has_cited_time Arg1:T328 Arg2:T327	
+R212	results Arg1:T330 Arg2:T329	
+R213	coauthor Arg1:T330 Arg2:T331	
+R214	coauthor Arg1:T331 Arg2:T332	
+R215	has_cited_time Arg1:T333 Arg2:T332	
+R216	results Arg1:T335 Arg2:T334	
+R217	coauthor Arg1:T335 Arg2:T336	
+R218	coauthor Arg1:T336 Arg2:T337	
+R219	coauthor Arg1:T337 Arg2:T338	
+R220	has_cited_time Arg1:T339 Arg2:T338	
+R221	results Arg1:T340 Arg2:T334	

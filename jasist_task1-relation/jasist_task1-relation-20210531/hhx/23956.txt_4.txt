@@ -1,0 +1,35 @@
+Giannella performed the procedure for 100 trials . 
+In each trial , a multi‐author document is created , his approach on document decomposition is performed , and a matching accuracy is then computed . 
+After that , the mean and the 0.95 confidence intervals over the 100 accuracies of the approach are computed . 
+The experiments applied in this article ( excluding the six single topic documents ) assumed that there is a long sequence of consecutive sentences for each author . 
+It is interesting to see how our proposed approach can be applied to short documents with short consecutive sentences . 
+Therefore , we created short documents of four columnists of New York Times articles using the same procedure of Giannella ( 2015 ) . 
+Each created merged document contained exactly two runs of each columnist . 
+During each run of each columnist , the number of selected successive sentences of the columnist in that run was randomly chosen from an exponential distribution with meanARL ( when the chosen number is not an integer , we round it to the nearest integer ) . 
+Figure 7 shows the purity results of the SequentialUD approach and its refined version in short documents , which were composed by merging articles of four New York Times columnists using the same procedure of Giannella ( 2015 ) , when the mean author run length ( i.e. , meanARL ) is varied . 
+Comparison of the purity results obtained using the approach in Giannella ( 2015 ) , SequentialUD approach and refined SequentialUD approach on short documents with short consecutive sentences composed by merging articles of four New York Times columnists using the same procedure of Giannella ( 2015 ) , when the mean author run length ( i.e. , meanARL ) is varied the error bars depict 0.95 confidence intervals for the three approaches . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As shown in Figure 7 , the purity results of the SequentialUD and its refined version outperform the results of Giannella 's approach in all values of meanARL ( except in the case of meanARL = 25 , where SequentialUD achieves a purity equal to that achieved in Giannella 's approach ) . 
+To show the efficiency of our SequentialUD and its refined version on more realistic cases , we employed randomly selected scientific articles covering the same topics and created a set of merged articles . 
+Each merged article has two , three , or four authors and the topics among authors were not differentiated . 
+In the first set of experiments regarding the scientific articles , we created a merged article using two randomly selected scientific articles on a plagiarism detection topic ( i.e. , Kestemont et al. , 2011 ; Rao et al. , 2011 ) . 
+The merged article consists of 177 sentences written by two authors . 
+Our proposed approach achieved purities of 94.9 % by using the SequentialUD approach and 98.3 % by using its refined version . 
+In the second set of experiments regarding the scientific articles , we created a merged article using three randomly selected scientific articles on an authorship attribution topic ( i.e. , Baayen et al. , 2002 ; Layton et al. , 2010 ; Savoy , 2015 ) . 
+The merged article consists of 592 sentences written by three authors . 
+Our proposed approach achieved purities of 92.2 % by using the SequentialUD approach and 92.4 % by using its refined version . 
+In the last set of experiments regarding the scientific articles , we created a merged article using four randomly selected scientific articles on authorship‐based document decomposition topic ( i.e. , Aldebei et al. , 2016 ; Akiva & Koppel , 2013 ; Daks & Clark , 2016 ; Giannella , 2015 ) . 
+The merged article consists of 805 sentences written by four authors . 
+Our proposed approach achieved purities of 93.7 % by using the SequentialUD approach and 98.8 % by using its refined version . 
+It is clear that the purity results obtained with our approach on merged articles of two , three , or four authors are quite promising . 
+To also work on other types of non‐artificial , scientific documents , we applied our SequentialUD approach and its refined version on a scientific paper initially drafted by two PhD students ( i.e. , Students A and B ) . 
+Our proposed approach obtained purities of 95.5 % by using the SequentialUD approach and 96.8 % by using its refined version . 
+It is observed that the purity results obtained using the proposed approach on a non‐artificial , scientific document are very promising . 
+In this work , aiming at segmenting a multi‐author document into components according to authorship , we have proposed to utilize the useful sequential correlation among the consecutive sentences to determine the authorial components . 
+The well‐known sequential model , that is , Hidden Markov Model , was adopted to find the best sequence of authors that represents the corresponding sequence of sentences in the document . 
+Our comparative evaluation results with the state‐of‐the‐art have demonstrated the strength of our proposed idea in terms of effectively decomposing the document into sentences according to their authorship , regardless of their topics , languages , and so on . 
+It was noticed that the performance of the proposed approach is better when the length of successive sentences of each author is relatively long . 
+The great strength of our refined SequentialUD approach is the selection of the trusted sentences from the document and using them in reclassifying sentences , such as very short sentences , that do not have sufficiently discriminative features . 
+However , the proposed approach may not yet be effectively able to predict the authors of sentences when the majority of the sentences are very short . 
+For example , each message in a chat on a social network ( e.g. , Facebook ) often contains a few words only . 
+Furthermore , the proposed approach requires that the number of contributing authors of a document is known beforehand . 
+Estimating the number of authors may be a direction of future work . 

@@ -1,0 +1,58 @@
+T1	时间 6436 6452	January 1 , 2015
+T2	时间 7441 7457	January 1 , 2015
+T3	引文作者 8644 8650	Clough
+T4	引文时间 8655 8659	2012
+T5	引文作者 15233 15246	Barrón‐Cedeño
+T6	引文作者 16218 16229	Adeel Nawab
+T7	引文作者 16232 16241	Stevenson
+T8	引文作者 16246 16252	Clough
+T9	引文时间 16255 16259	2012
+T10	引文作者 16262 16268	Clough
+T11	引文作者 16271 16280	Stevenson
+T12	引文时间 16283 16287	2011
+T13	引文作者 16708 16715	Manning
+T14	引文作者 16718 16725	Schütze
+T15	引文作者 15249 15254	Gupta
+T16	引文作者 15259 15264	Rosso
+T17	引文时间 15267 15271	2013
+T18	引文时间 16728 16732	1999
+T19	引文作者 17213 17217	Wise
+T20	引文时间 17220 17224	1993
+T21	引文作者 18150 18154	Wise
+T22	引文时间 18157 18161	1993
+T23	具体模型 17026 17060	Longest Common Subsequence ( LCS )
+T24	具体模型 17065 17093	Greedy String Tiling ( GST )
+T26	引文作者 18918 18924	Porter
+T27	引文时间 18927 18931	2001
+T28	研究结果 6125 6257	This shows that reused text is generated independently of the source text and any overlap of words is very low between the text pair
+T29	表 13324 13501	Table 3 shows the absolute ( fr abc ) and relative ( fr rel ) frequencies of transformations in the set of 63 each Near Copy , Paraphrased Copy , and Independently Written pairs
+T30	研究结果 13747 13916	This demonstrates the fact that when sentence/passage pairs have Near Copy relations , they are almost exact copy of each other and very few edit operations are involved
+T34	研究结果 14116 14276	This demonstrate that these three are the favorite text altering operations used by the journalists in rewriting a newspaper story using the news agency 's text
+T36	研究结果 14441 14524	This means that complex rewriting has been used to create the Paraphrased Copy text
+T39	研究结果 14864 14953	This shows that in Independently Written pairs information is frequently added or deleted
+T41	研究结果 14958 15093	Moreover , it further highlights the fact that reused text is independently written without borrowing text from the news agency 's copy
+T42	引文的研究问题 15274 15327	compared different text similarity estimation methods
+T43	引文的结果 15332 15407	showed that Translation + Monolingual Analysis ( T+MA ) outperformed others
+T31	研究方法 15669 15802	we translated all the derived text sentence/passage pairs from Urdu to English language using an MT system , that is Google Translate
+T32	研究方法 15807 15997	In the second phase , we applied several mono‐lingual text similarity estimation methods such as , Word n‐gram overlap , Longest Common Subsequence , and Greedy String Tiling , on our corpus
+T25	具体模型 17098 17101	LCS
+T33	具体模型 17148 17151	GST
+T35	具体模型 15928 15954	Longest Common Subsequence
+T37	具体模型 15961 15981	Greedy String Tiling
+R1	has_cited_time Arg1:T27 Arg2:T26	
+R2	has_cited_time Arg1:T22 Arg2:T21	
+R3	has_cited_time Arg1:T20 Arg2:T19	
+R4	coauthor Arg1:T13 Arg2:T14	
+R5	has_cited_time Arg1:T18 Arg2:T14	
+R6	coauthor Arg1:T6 Arg2:T7	
+R7	coauthor Arg1:T8 Arg2:T7	
+R8	has_cited_time Arg1:T9 Arg2:T8	
+R9	coauthor Arg1:T10 Arg2:T11	
+R10	has_cited_time Arg1:T12 Arg2:T11	
+R11	field_similar_as Arg1:T6 Arg2:T10	
+R12	has_cited_time Arg1:T17 Arg2:T16	
+R13	coauthor Arg1:T5 Arg2:T15	
+R14	coauthor Arg1:T15 Arg2:T16	
+R15	produces Arg1:T5 Arg2:T42	
+R16	results Arg1:T5 Arg2:T43	
+R17	has_cited_time Arg1:T4 Arg2:T3	

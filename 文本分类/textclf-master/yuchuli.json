@@ -1,0 +1,12 @@
+{
+    "__class__": "PreprocessConfig",
+    "params": {
+        "train_file": "train.csv",
+        "valid_file": "text.csv",
+        "test_file": "text.csv",
+        "datadir": "examples/toutiao",
+        "tokenizer": "char",
+        "nwords": -1,
+        "min_word_count": 1
+    }
+}

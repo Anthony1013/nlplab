@@ -1,0 +1,130 @@
+The concept of word , which we define here as a sequence of characters delimited by special word boundary characters , is truly important in natural language processing . 
+There are several tasks and systems in this field that rely on word level information to achieve their goals . 
+For instance , tokenization , which is a common preprocessing stage in a wide range of systems , usually requires that words are correctly delimited by blank characters in order to identify the corresponding tokens correctly . 
+In this context,11 Not in our case , where a token is either a byte or a character . 
+a token is usually a word or a group of words that constitutes the most basic element to process in a particular task , such as in entity recognition ( Tjong Kim Sang & De Meulder , 2003 ) , POS tagging ( Ratnaparkhi , 1996 ) , or sentiment analysis ( Vilares , Alonso , & Gómez‐Rodríguez , 2017 ) . 
+Although an English speaker can easily discern the words in “ thepricewasfair , ” a machine can only see a sequence of characters—or more precisely , bytes—and may at first distinguish just one long word . 
+By explicitly executing a word segmentation procedure , the machine inserts word boundary characters between sequences of characters that would end up corresponding to words in some particular language . 
+The resulting text , in our example “ the price was fair , ” can now be further processed in a word‐by‐word basis , as these elements are now clearly isolated from each other . 
+It is worth noting that this scheme also works for incorrectly segmented texts such as “ th e pricew asf air ” by first removing all the word boundaries . 
+In Table 1 we show some example instances of the problem we are trying to solve . 
+Our proposed approach for word segmentation uses a beam search algorithm aided by a byte or character level language model , which is implemented using a neural network or an n‐gram model , respectively . 
+The beam search algorithm processes the input one token at a time ( a byte or character ) generating , for each step , a set of partial segmentation candidates by checking the likelihood of the current candidates and the probability of the next token corresponding to a word boundary . 
+This information is retrieved from the language model . 
+Then , at the end of each step the n best candidates are chosen as input for the next step . 
+The main objective of our work is to devise a word segmentation system that can be used as a preprocessing step for a microtext normalization system ( Doval , Vilares , & Gómez‐Rodríguez , 2015 ) . 
+In this context , the biggest challenge comes from the type of texts we are dealing with , which are affected by texting phenomena such as character repetition ( for instance , “ hiiii ” for “ hi ” ) or phonetic–based character substitution ( for instance , “ dawg ” for “ dog ” ) , to name just a few ( Thurlow & Brown , 2003 ) . 
+These phenomena introduce a great amount of data sparsity in the problem at hand , as “ hiiii ” is not exactly the same as “ hii ” or “ hi ” but must be treated equally by the segmenter as one word . 
+This kind of texts are abundant in popular social media networks and microblogging platforms such as Twitter or Facebook , where large amounts of nonstandard textual data are created every second ( at the time of this writing , http : //www.internetlivestats.com/one-second/ reports that 7,602 new tweets are published every second ) . 
+As it would be highly improbable to observe every standard word affected by every single type of texting phenomena , we abandon the word‐level processing of these texts and opt instead for a character or byte level approach in order to tackle the resulting data sparsity problem . 
+Furthermore , neural language models may also help in this regard thanks to the internal continuous representations they construct of their inputs . 
+These representations , usually real‐valued vectors , encode similarities between different input instances ( Kim , Jernite , Sontag , & Rush , 2015 ) , which can be later exploited in the task at hand . 
+This contrasts with the discrete treatment of a word‐based n‐gram model , where every possible input element is unrelated to each other . 
+Fortunately , a character‐based n‐gram model may be able to overcome this issue due to its finer‐grained processing , the reason why we consider this type of model in this work . 
+In our experiments we compared the described approach with the Microsoft Word Breaker ( Wang , Thrasher , & Hsu , 2011 ) and the WordSegment Python module by Grant Jenks.11 http : //www.grantjenks.com/docs/wordsegment/ The languages considered for our tests were English , Spanish , German , Turkish , and Finnish , and we also included a test set comprised of English tweets . 
+The latter three languages are known for their complex morphology , with Turkish and Finnish being agglutinative languages and thus constituting a greater challenge for a segmentation system ( Manning , Raghavan , & Schütze , 2008 , Chapter 2 ) . 
+Overall , our approach was able to outperform both the Word Breaker and WordSegment for all of the languages considered , with the sole exception of a tie with WordSegment in one of the Spanish data sets . 
+But most notably for us , our systems obtained notable improvements in such an interesting case as the Twitter data set . 
+Looking at the performance obtained by the different types of language models used , we surprisingly see strong numbers for the simpler and faster n‐gram model , which was in several cases on a par with the more sophisticated neural model . 
+Word segmentation is an important preprocessing step in several natural language‐processing systems , such as machine translation ( Koehn & Knight , 2003 ) , information retrieval ( Alfonseca , Bilac , & Pharies , 2008 ) , or speech recognition ( Adda‐Decker , Adda , & Lamel , 2000 ) . 
+On the other hand , most Asian languages , although retaining the concept of word , do not use word boundary characters in their writing systems to separate these elements . 
+As a result , the application of word segmentation for these languages has drawn a lot of attention from the research community , with abundant work in recent years ( Chen , Qiu , Zhu , Liu , & Huang , 2015 ; Pei , Ge , & Chang , 2014 ; Xu & Sun , 2016 ; Zheng , Chen , & Xu , 2013 ) . 
+Beyond the Asian context , we can also find European languages with highly complex morphology such as German , Turkish , or Finnish , which can also benefit from a conceptually different word segmentation procedure ( Alfonseca et al. , 2008 ; Koehn & Knight , 2003 ) . 
+In these cases , and mainly for agglutinative or compounding languages ( Krott , Schreuder , Harald Baayen , & Dressler , 2007 ) , new words are usually created just by joining together previously known words . 
+A system with a vocabulary lacking these new words may still be able to process them if some sort of word segmentation system is in place . 
+However , it is worth noting that this is a slightly different kind of word segmentation , as it is concerned with extracting the base words that form a compound word . 
+In contrast , our approach focuses on separating all words , compound or not , from each other . 
+Moving on to the web domain , there are special types of tokens that can also be targeted by a segmentation system . 
+The first ones to appear , and an essential concept for the web itself , are URLs ( Chi , Ding , & Lim , 1999 ; Wang et al. , 2011 ) . 
+These elements do not admit literal whitespaces in their formation , but most of the time they do contain multiple words in them . 
+Words may be separated by a special encoding of the whitespace character like percent‐encoding or a different encoding that uses URL‐safe characters . 
+Most other times , words are just joined together with no boundary characters , and thus the requirement for a segmentation process arises . 
+Then , with the advent of Web 2.0 , the use of special tokens called hashtags in social media became very common ( Maynard & Greenwood , 2014 ; Srinivasan , Bhattacharya , & Chakraborty , 2012 ) . 
+Similar to URLs , hashtags may also be formed by multiple words . 
+Unlike those , these elements do not use any word boundary character ( s ) between words , thus the use of a segmentation system seems more advantageous in this case . 
+The segmentation procedure that most of the previous work follows can be summarized in two steps . 
+First , they scan the input to obtain a list of possible segmentation candidates . 
+This step can be iterative , obtaining lists of candidates for substrings of the input until it is wholly consumed . 
+Sets of predefined rules ( Koehn & Knight , 2003 ) or other resources such as dictionaries and word or morpheme lexicons ( Kacmarcik , Brockett , & Suzuki , 2000 ) may be used for candidate generation . 
+Then , for the second step they select the best or n best segmentation candidates as their final solution . 
+In this case , they resort to some scoring function , such as the likelihood given by the syntactic analysis of the candidate segmentations ( Wu & Jiang , 1998 ) or the most probable sequence of words given a language model ( Wang et al. , 2011 ) . 
+Some other techniques , usually employed in the Chinese language , consider the word segmentation task as a tagging task ( Xue , 2003 ) . 
+Under this approach , the objective of the segmentation system is to assign a tag to each character in the input text , rendering the word segmentation task as a sequence labeling task . 
+The tags mark the position of a particular character in a candidate segmented word , and usually come from the following set : Beginning of word , middle of word , end of word , or unique character word . 
+Recently , neural network‐based approaches have joined traditional statistical ones based on Maximum Entropy ( Low , Ng , & Guo , 2005 ) and Conditional Random Fields ( Peng , Feng , & McCallum , 2004 ) . 
+These models may be used inside the traditional sequence tagging framework ( Chen , Qiu , Zhu , & Huang , 2015 ; Pei et al. , 2014 ; Zheng et al. , 2013 ) but , more interestingly , they also enable new approaches for word segmentation . 
+Cai and Zhao ( 2016 ) obtain segmented word embeddings from the corresponding candidate character sequences and then feed them to a neural network for scoring . 
+Zhang , Zhang , and Fu ( 2016 ) consider a transition‐based framework where they process the input at the character level and use neural networks to decide on the next action given the current state of the system : Append the character to a previous segmented word or insert a word boundary . 
+Both of these approaches use recurrent neural networks for the segmentation candidate generation and beam search algorithms to find the best segmentation obtained . 
+Outside the Chinese context , one of the most popular state‐of‐the‐art systems for word segmentation in multiple languages is the Microsoft Word Breaker from the Project Oxford ( Wang et al. , 2011 ) . 
+Its original article defines the word segmentation problem as a Bayesian Minimum Risk Framework . 
+Using a uniform risk function and the Maximum a posteriori decision rule , they define the a priori distribution , or segmentation prior , as a Markov n‐gram . 
+For the a posteriori distribution , or transformation model , they consider a binomial distribution and a word length‐adjusted model . 
+Finally , they solve the optimization problem posed by the decision rule using a word synchronous beam search algorithm . 
+The language model they use for the a priori distribution is presented in Wang , Thrasher , Viegas , Li , and Hsu ( 2010 ) . 
+This is a word‐based smoothed backoff n‐gram model constructed using the CALM algoritm ( Wang & Li , 2009 ) with the web crawling data of the Bing search engine.22 https : //www.bing.com / Some particular features of this model are that all the words are first lowercased and their non‐ASCII alphanumeric characters transformed or removed to fit in this set , and also that it is being continuously updated with new data from the web . 
+However , the aggressive preprocessing performed by this system may result in limitations in two particular domains : Microtexts and non‐English languages . 
+For the first case , data sparsity may pose a problem for a word‐based n‐gram language model . 
+This type of model would have to see every possible variation of a standard word in order to process it appropriately . 
+As an example , an appearance of the unknown word “ hii ” would mean using the ¡UNK¿ token instead of the information stored for the equivalent standard known word “ hi , ” which constitutes some loss of information . 
+Then , if the also unknown word “ theeere ” occurs , it would mean that the system has failed to use any relevant information to process the input . 
+Hence , the input “ hiitheeere ” could be incorrectly segmented into “ hii thee ere , ” a more likely path for the model given the known token “ thee. ” On the other hand , working only with lowercased ASCII alphanumeric characters leaves non‐Latin alphabets out of the question—although Latin transcriptions could be used—and limits the overall capacity of the system due to the loss of information from the removed or replaced characters . 
+For instance , consider “ momsday ” in the context of text normalization . 
+The n‐gram model would give higher likelihood to “ mom s day ” as it would have seen the token “ mom ” very frequently , both when appearing on its own and when swapping the “ ’ ” by a word boundary character in “ mom 's , ” obtaining “ mom s day. ” However , we prefer in this case “ moms day ” as the most likely answer , not only because it can be the correct answer but also because we can later correct the first word to include the apostrophe if needed and/or appropriate using a text normalization system . 
+The WordSegment Python module is an implementation of the ideas covered in Norvig ( 2009 ) . 
+It is based on 1‐gram and 2‐gram language models working at the word level that are paired with a Viterbi algorithm for decoding . 
+The system first obtains segmentation candidates that are scored using the n‐gram models , and then the best sequence of segmented words is selected using the Viterbi algorithm . 
+A clear advantage of this system for our work is that we can easily train its n‐gram models from scratch in order to adapt it for our text domains/languages . 
+This provides us with a better comparative framework than the Word Breaker . 
+Our current take on the word segmentation task extends the work in Doval , Gómez‐Rodríguez , and Vilares ( 2016 ) with a new beam search algorithm and newer implementations for the language model component . 
+We also broaden the scope of our work by targeting not only Spanish but also English , German , Turkish , and Finnish . 
+We have chosen the last three languages based on the need to test our approach with morphologically complex languages , with the agglutinative languages Turkish and Finnish being the most notable cases . 
+Before going into details , it is important to note that we will view the input text as a sequence of bytes when using the neural model and as a sequence of characters when using the n‐gram model . 
+We will refer to either a byte or a character as a token . 
+Our proposed approach is formed by two components : The beam search algorithm and the language model . 
+The search algorithm acquires the input text and first removes all word boundary tokens . 
+Then it analyzes the resulting text one token at a time , deciding whether a word boundary token would be appropriate in that position . 
+If it is , two partial segmentation candidates may be generated , with and without the boundary . 
+At some point , the number of candidates exceeds some predefined upper limit n , the beam width , and the n best candidates are chosen to continue the process . 
+When the whole input is processed by this algorithm , m candidates from the currently n best are chosen as the final result . 
+In Figure 1 we show a simplification of the described procedure . 
+All decisions made by the algorithm are based on the information retrieved from the language model , which estimates the likelihood of sequences of tokens . 
+More precisely , given an input token and a history of ρ previous tokens , the language model approximates the probability distribution over all the possible token values for the next token in the sequence . 
+In the following sections we describe each of these components in more detail . 
+We implemented the language model that provides all the necessary information for the search algorithm as a recurrent neural network ( Mikolov & Zweig , 2012 ) and an n‐gram model ( Heafield , Pouzyrevsky , Clark , & Koehn , 2013 ) . 
+For the neural model , ρ is defined at training time as a hyperparameter of the neural network used for the Truncated Back‐Propagation Through Time ( TBPTT ; Principe , Principe , & Kuo , 1993 ) . 
+In the case of the n‐gram model , ρ = n − 1 , where n is the order of the model , that is , the number of tokens in each n‐gram . 
+The choice of using a recurrent neural network is based on its focus on dealing with sequential data , such as text , as well as its wide use in several NLP tasks , such as machine translation ( Johnson et al. , 2016 ) , dependency parsing ( Vilares & Gómez‐Rodríguez , 2017 ) , question answering ( Iyyer , Boyd‐Graber , Claudino , Socher , & Daumé III , 2014 ) , or language modeling ( Sundermeyer , Schlüter , & Ney , 2012 ) . 
+Recurrent neural networks differ from traditional feedfoward networks in that they allow feedback loops in their architectures , thus being able to use the output information corresponding to the input t when processing input t + 1 . 
+The existence of different types of recurrent networks comes from the different designs of their recurrent units . 
+In our case , we used LSTM units ( Hochreiter & Schmidhuber , 1997 ) for the construction of our neural networks , as they have proven very effective for language modeling ( Sundermeyer et al. , 2012 ) . 
+These LSTM units contain a memory cell , which stores information from past computations , and three gates that control the information stored in the memory as well as the output of the whole unit . 
+Using a byte‐level approach we can reuse the same network design for multiple languages , as the character set is not a parameter in the design process . 
+This can also be an advantage for languages with large character sets , as fixing a smaller output size for the softmax operation in the last layer of the network avoids the bottleneck issues caused by this operation on large vocabularies . 
+Furthermore , to reduce even more the complexity of the problem , we do not consider those byte values corresponding to nonprintable characters except for the null byte 0 , which can be used as padding in the input sequence . 
+Assuming a Unicode encoding such as the popular UTF‐8 , these are the values in the range [ 1 , 31 ] . 
+The resulting neural networks receive as input one byte at a time from a given sequence and output the ( logarithmic ) probabilities for each of the possible next bytes in the sequence . 
+The general architecture of these networks is depicted in Figure 2 . 
+An n‐gram model is a structure that stores historic data about the n‐grams , sequences of n tokens , seen in a training corpus . 
+For constructing these models , we first have to set the order of the model , n , and usually the smoothing function , although in this case the Kneser‐Ney smoothing ( Heafield et al. , 2013 ; Kneser & Ney , 1995 ) seems to be the best option overall ( Chen & Goodman , 1996 ) . 
+We avoid the data sparsity problem mentioned in the Introduction by using language models that work at the byte and character level instead of the word level , and also by using neural networks . 
+These latter models transform the sparse discrete input data , usually one‐hot vectors , into continuous representations that encode meaningful information about the relations between the inputs and outputs of the network ( Kim et al. , 2015 ) . 
+Under this assumption , three words such as hiiii , hii , and hi would end up having similar continuous representations , as they are morphologically similar and would appear in similar contexts . 
+However , as powerful constructions as recurrent neural networks are , they tend to overfit the training data ( Zaremba , Sutskever , & Vinyals , 2014 ) . 
+To overcome this issue , several measures may be used , of which we have chosen Batch Normalization ( Ioffe & Szegedy , 2015 ) and keeping the network as small as possible while retaining a good precision in the task at hand . 
+Now we describe the beam search algorithm using a functional approach . 
+For all the following functions , we define the threshold parameter t , beam width b , number of final results m , word boundary element wb , and scoring function score as global constants in order to avoid long function signatures and improve readability . 
+In addition , the + and ⊕ symbols are used as the operators for string and list concatenation , respectively , s i denotes the character at position i from the string s , s i , j denotes the substring of s going from index i to j , and l i , j the sublist of l going from index i to j . 
+This function checks , using the scoring function score , if a candidate x with a word boundary in the last position followed by c is likely or not . 
+This is , if its associated score ( likelihood as returned by the scoring function ) is greater than the threshold parameter t . 
+If it is , it will return this new candidate . 
+In this section we describe the implementation details and followed procedure for validating our approach . 
+We implemented two versions of the system just described , one in Lua and the other in Python , due to the availability of the tools that we use to implement the language models . 
+Torch,33 http : //torch.ch / a scientific framework with support for neural networks , is available for Lua , and kenlm,44 https : //kheafield.com/code/kenlm/ a toolkit for n‐gram language modeling , has bindings for easy usage in Python . 
+Torch only includes by default the tools to build feedforward neural networks , so in order to use it for recurrent neural networks we imported the package rnn ( Léonard , Waghmare , Wang , & Kim , 2015 ) . 
+We also used the Adam optimization algorithm ( Kingma & Ba , 2014 ) from the optim55 https : //github.com/torch/optim Lua package . 
+On the other hand , the kenlm toolkit is straightforward to use . 
+The generation of the n‐gram models was performed from the command line , while their integration with the search algorithm took place inside a Python script . 
+All the implemented code is available at http : //www.grupocole.org/software/VCS/segmnt/ . 
+For the training and evaluation of the neural models , we tried to take full advantage of the parallelization features of Torch . 
+Thus , all computations are performed in batches by a GPU , in our case a GTX Titan X ( 2015 ) . 

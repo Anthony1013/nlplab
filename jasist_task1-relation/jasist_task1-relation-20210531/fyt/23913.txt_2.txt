@@ -1,0 +1,107 @@
+I assessed if corresponding journal entries refered to retractions , retracted publications ( sometimes not being clearly discernible , and also comprising withdrawal vocabulary ) , or to withdrawn publications alone . 
+In case of retracted publications , all together amount to about 2.5 % of the publication type‐based corpora ( 1.8 % if only explicit retraction/retracted cases are counted ) . 
+In case of retractions , the share of title‐searched retractions ( comprising withdrawals and technical retractions as well ) amounts to 2.7 % in case of explicit retractions and 3.1 % –3.3 % if withdrawals and technical removals are added , on the item level , respectively . 
+I refrain from more elaborate automatic deduplication procedures which would be necessary to render very exact prevalence numbers , in order to sum up the results so far : RoPs on the level of ROF entries quantify the number of retraction incidents in PubMed more accurately than the level of RPs . 
+A considerable range of inconsistencies and false‐negative errors are hidden behind the apparent transparency of the PubMed publication type categorization , which is the regular basis for many empirical analyses . 
+A further analysis was necessary to assess the extent to which documents similar to retractions are present in PubMed but not covered by publication types RP and RoP . 
+Using analogous title searches as described above , I searched for publication formats which are similar to retractions and not implemented in PubMed via publication type . 
+As before , false positives have been eliminated by way of an offline RegEx script . 
+In the case of withdrawals , a massive 17,436 items were found with the initial search query in PubMed , and reduced to 888 correct items . 
+Table 3 sums up the online search strategy in the first column and gives the absolute number of the respective manually cleaned results in the second column . 
+PubMed thus contains a massive number of withdrawn publications without the publication types RoP or RP : 888 items , corresponding to 25.3 % of the publication type‐delineated RoP corpus ( ROF level ) , are withdrawals or withdrawn publications . 
+Nearly all have the publication type journal article ; volume and first page data are for the most part missing . 
+A small set of publications is identifiable via “ withdrawn ” / “ withdrawal ” title phrases within the RoP corpus , in some cases having both “ withdrawn ” and “ retraction ” phrases in title . 
+These latter ones mostly contain volume and first page data . 
+As has been discussed before , Elsevier 's definition of withdrawn publications is the same as that of retractions with regard to content , only the advance online stadium of articles is specific . 
+There is thus good reason to incorporate PubMed withdrawals , which can be retrieved in the described manner , in prevalence studies . 
+As outlined in the methodological section , PubMed RoPs and RPs ( 1980–2013 ) —as identified by their respective publication types—have been matched with the WoS in order to assess to what degree and exactly how RoP and RP publications are annotated in the WoS . 
+The matching procedure leads to a negligible amount of false positives in the RP corpus , whereas in the RoP corpus the amount of false positives ( both identified in semimanual checking procedures ) is slightly higher . 
+However , there are also cases where it was not possible to definitely determine the correctness of a match or where inconsistencies within the WoS occurred.55 I mostly categorized matches as undeterminable due to unspecific article titles and missing full text links ; in some cases WoS items have been removed in the current web interface or are inconsistent with article titles in linked full texts . 
+The percentage of false positively‐matched PubMed RoPs can be estimated at 2.0 % ( including all these cases ) and 1.2 % ( false positives in a strict sense ) , both at the level of PubMed ROF entries and excluding false positives from ambiguous matches which are also matched to correct target articles . 
+In Table 4 alternative matching procedures are compared to the self‐developed algorithm in order to evaluate whether the initial assumptions and the modeling of the elaborate algorithm were adequate . 
+The table displays the respective precision and recall ratios ; they are estimated on the basis of the results of all four approaches , since no further manual searching of additional false negatives has taken place . 
+The results are given with respect to false positives in a wider sense ( as outlined above ) and are now given on the level of deduplicated matched WoS items , as it was not possible to work on the level of ROF entries in case of the WoS internal matching . 
+Thus , a focus was set on the altogether amount of correct WoS items in the matched corpus . 
+The simple matching key is based on abbreviated source titles , abbreviated author names , and numerical metadata . 
+In a second step , author names of linked PubMed RP were used for the expanded version if they were initially missing in RoP data . 
+Only a small number of correct matches were additionally delivered by one or more of the alternative algorithms , partly being quasi‐duplicates , while all other non‐overlapping matches ( resulting mostly from the expanded cluster key ) are incorrect . 
+Both the WoS matching algorithm and the simple cluster key approach identify at best fewer than one‐third of the WoS items found by our algorithm . 
+The expanded cluster key procedure performs much better due to the fact that many PubMed RoPs lack author names , which is also rectified by this variant . 
+In the case of the RPs , my algorithm and the WoS matching produce result sets are nearly the same size . 
+Six are newly and correctly matched RPs produced by the WoS algorithm . 
+To sum up , the WoS algorithm massively underperforms with regard to RoPs . 
+Additionally , both alternative matching algorithms based on cluster keys fail to achieve the matching results of my algorithm , which underlines the necessity of a tailored solution for this document type—not necessarily in every detail , but in the general architecture . 
+In the case of RPs , however , my algorithm and the WoS algorithm perform comparatively well . 
+I parsed both WoS corpora resulting from my matching algorithm in order to identify patterns of words and phrases which annotate WoS items as being retracted or as retraction , correction , or other . 
+Figures 1 and 2 plot the resulting categories with respect to the timeline ( horizontal axis ) . 
+The vertical axis represents the number of publications counted on the level of RoP ROF/RP item entries . 
+In the case of matched RoPs , the label Retraction ( standard ) denotes the standard label “ ( RETRACTION OF VOL 39 , PG 324 , 1991 ) , ” matched by the regular expression “ \ ( Retraction\sof\sVol. ” All other variants of denoting a retraction are labeled as Retraction ( nonstandard ) , including a couple of items only labeled as withdrawn/withdrawal or duplicate publications . 
+Corrections are labeled as such if only the volume/starting page/publication year data to the corrected/retracted publication are referenced in the title without any further hint of a retraction ( or withdrawal or expression of concern ) or if the item is only identifiable by the title phrase or document type “ Correction ” or “ Correction , Addition. ” In the RP corpus , no differentiation is shown between different labels denoting RPs— to a small degree , there are variances , but none of them would prevent a successful search for “ retracted article. ” Therefore , they are not separately labeled in the graphs . 
+Categorization of pubmed RP ( 1980–2013 ) , item level , matched to WoS raw data ( as of 17th calendar week 2015 ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Categorization of pubmed ROP ( 1980–2013 ) , ROF level , matched to WoS raw data ( as of 17th calendar week 2015 ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The most striking result here is the considerable amount of matched RoPs identified only as corrections in the WoS . 
+As in the case of RPs , a tendency towards standardization of RoP annotation becomes discernible from about 2000 onward . 
+The annual presentation reveals that between 1980 and 2000 , the share of correctly annotated retracted publications is much smaller than the share of publications not identified as retracted in the WoS , whereas the share of correctly annotated publications becomes dominant from 2000 onward . 
+Figure 2 shows the respective distribution for the RoP corpus matched to the WoS . 
+The most striking result here is the considerable amount of matched RoPs identified only as corrections in the WoS . 
+As in the case of RPs , a tendency towards standardization of RoP annotation becomes discernible from about 2000 onward . 
+Retraction notices— if accessible— of these cases have been parsed automatically and manually checked . 
+The vast majority of accessible notices have been categorized as retractions ( partly entailing correction‐ , withdrawal‐ , and removal‐specific terms as well , the former especially in page heading or rubric ) and around one‐sixth as withdrawals— which again demonstrates the practically blurred delineation between these types . 
+More important , it could thus be established that the PubMed categorization of this subcorpus is predominantly correct , but imprecise with respect to withdrawals , while the WoS is missing a considerable number of retractions , which dissolve in the larger correction corpus . 
+Moreover , the share of not‐matched items is considerably higher in the RoP corpus than in the RP corpus . 
+Figure 3 presents the matching results for both RoP and RP corpora as a percentage distribution . 
+Percentages of categories of pubmed RP , item level , ( left ) and ROP , ROF level , ( right ) , 1980–2013 , matched to WoS raw data ( as of 17th calendar week 2015 ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] This part of the analysis thus revealed for the first time significant incorrect and missing annotations in the case of both RoP and RP corpora in the WoS , the full extent of which are undetectable without external sources . 
+An examination of the items annotated as corrections in a currently updated raw database of WoS XML data in 2017 shows that these annotations are unchanged . 
+Besides , the annotation of PubMed retractions as corrections in the WoS seems to continue to some extent with regard to more current data as well . 
+In the next step , the analysis is complemented by the establishment of links between RoPs and RPs and vice versa by way of an algorithmical linking procedure . 
+By doing this , a complete corpus— which would allow incorporating citation information as well as content information from retraction notices— is created and the accuracy of this as well as the matching procedure assessed . 
+I work on the basis of the matched corpora resulting from the previous algorithmic step— false positives have been marked , but not corrected in order to make error‐propagation processes transparent . 
+The validation of the linking is based on the respective PubMed linking by way of systematically comparing linking targets with their matched counterparts . 
+Table 5 gives an overview of the respective shares of PubMed RoPs and RPs which could be matched and linked . 
+As discussed before , the share of matchings in the RP corpus is considerably higher than in the RoP corpus . 
+False positives of the linking procedure— which are more considerable in the case of RoPs than RPs— are in around half of these cases due to error propagation of false matches or incorrect PubMed metadata , followed by metadata errors ( concerning references and ROF phrases ) in the WoS . 
+Here again ambiguous linkings that have also correct target articles are not counted as false positive . 
+Linkings with missing match counterparts in the direction RP to RoP are largely ( 251 from 268 ) due to RoPs outside the defined time window 1980–2013 , added to by a small amount of PubMed RPs that have linked PMIDs , which are missing in the respective RoP corpus . 
+Six established links were evaluated , resulting in all being correct . 
+In the case of the other direction , 80 PubMed RoPs could be matched and linked that do not have PMID RP links , and have not been validated ; added to by two whose PubMed link targets were outside the RP corpus within the time window restriction . 
+Established links of twenty‐one RoPs were evaluated without the PubMed comparison in order to check for potential false negatives of the matching , resulting in about a half correct ones . 
+Summing up , the linking procedure generally works better in the direction from RoPs to RPs due to better utilizable metadata , but this is nearly counterbalanced by the lesser amount of matched RoP ( and very probably less complete coverage of RoPs . 
+In both cases the linking produces only small amounts of false negatives of the matching procedure , thus confirming this earlier result . 
+Up till now , I have analyzed the annotation and linking of RoPs and RPs in the WoS in comparison to PubMed on the basis of an elaborate matching procedure from PubMed to the WoS . 
+Although PubMed only covers biomedical research , I assume that the provided information on the WoS annotation can be transferred to nonbiomedical publications as well . 
+I now concentrate on search routines in the WoS . 
+Proposals for the retrieval of RPs are largely consensual between different studies ( see Table 1 ) and the matching and parsing results of PubMed RP generally confirm the adequacy of a simple search strategy . 
+However , proposals for the retrieval of RoPs vary significantly , and the parsed matching results of PubMed RoP display variances in the labeling as well . 
+I constituted a corpus by a number of RegEx derived from the identification of patterns in the matching results . 
+I processed the respective search strategies for RoPs as specified in Chen et al . 
+( 2013 ) , Fanelli ( 2013 ) , He ( 2013 ) , and Lu et al . 
+( 2013 ) with WoS raw data.66 In this comparison , I omitted Bilbrey , O'Dell , and Creamer ( 2014 ) because of the unclear specification as well as Grieneisen and Zhang ( 2012 ) because in the latter study retractions and retracted publications are retrieved by a combined single search strategy . 
+As the indexing of retraction notices has increased massively since the beginning of the last decade and their labeling before that is even more sparse and irregular , the comparison takes into account only publications within the time window 2000–2013 . 
+I estimated recall and precision of all retrieval strategies in relation to a gold standard corpus established from the comparison of the deviating items between my own and each of the other search approaches , added by small amounts resulting from the PubMed matching and items falsely retrieved as retracted publication , in Table 6 . 
+Precision ratios in particular are not meant to be applied to the original studies , as it is not always clear to what extent additional manual data cleaning has been carried out . 
+While the RegEx pattern‐based approach derived from the previous parsing of matched PubMed RoP has the best combination of estimated precision and recall ratios ( but lacks a simple reproducibility ) , the search for retractions with the word retraction combined with the restriction to the document types correction and correction , addition ( Fanelli , 2013 ) is slightly more precise , but has slightly less recall than my approach . 
+However , Fanelli 's approach can be seen as appropriately pragmatic for this period of time . 
+In contrast , the three other approaches come with relatively large amounts of false negatives and , in the case of one in particular , false positives as well . 
+A check of the current edge of publication data ( publication years 2015 and 2016 in a currently updated raw database of WoS XML data in March 2017 ) , however , results in nearly 100 publications that are attributed to the newly introduced doctype retraction ( while retracted publication is still missing ) in the WoS in 2016—but these of course only represent a fraction of the total amount of retractions in 2016 . 
+While it is too early to assess this new development adequately , to date we have no indication of a retrospective reworking by the database provider . 
+Thus , the results of the analysis remain valid , but for current publications an incorporation of the new document type in search strategies seems adequate . 
+The aim of this work was to analyze in detail database inconsistencies as a contributing factor to the completeness and accuracy of retractions as a data basis in the databases PubMed and the WoS . 
+The multiple segments of my study systematically revealed from different angles problems of completeness and consistency in PubMed and the WoS . 
+In the first place , prevalence studies on retractions differ in the most basic decision of counting RP or RoP , which seriously hinders the comparability between them . 
+I showed that the linkage of PubMed RoPs to RPs is incomplete in about 11 % of cases , which indicates strongly that RoPs are the more valid data source for estimating retraction incidents in comparison to RPs . 
+By way of several procedures , false negatives of the PubMed publication type categorization could be detected , but duplicates render the calculation of very precise prevalence numbers of RoPs and RPs cumbersome . 
+A significant number of withdrawn publications was detected in PubMed without any informative publication type categorization . 
+Withdrawn publications could at least in PubMed‐based studies be considered as a correcting factor when quantifying retractions . 
+They may as well be analyzed as a potential strategic instrument of journal publishers , since withdrawn publications are much less visible , discussed , and problematized than RPs . 
+The results of the matching and parsing procedures of both data corpora show several inconsistencies . 
+Most notably , nearly one‐third of PubMed RPs are not identifiable as retracted in the WoS , which amounts to 37 % of the corpus of correctly matched publications . 
+The amount of PubMed RoPs which could be matched and identified as retractions in the WoS is similar to that of RPs ( 58 % altogether including nonstandardized annotations , compared to 54 % in the case of RPs ) , whereas an additional amount of 13 % is matched and labeled as corrections ( 17 % of all RoPs correctly matched to the WoS ) — thus the conceptually difficult differentiation between corrections and retractions emerges again on the technical database level . 
+The linking procedure shows a satisfying recall of more 92 % in the direction RoPs to RPs and a lower recall of 79 % in the opposite direction . 
+Given the fact that neither the alternative matching procedures nor the linking of RPs to RoPs produces considerable amounts of false negatives in the initial matching procedure , it can be assumed that retractions are indeed missing in WoS . 
+In the last step of my analysis , search strategies for RoPs in the WoS as proposed in the literature were processed and compared with each other . 
+The results differ regarding recall and precision ; however , the strategy of Fanelli ( 2013 ) offers a sensible compromise between applicability and accuracy . 
+My analysis thus showed that the incompleteness of RoPs in WoS has to be accepted , while the annotation of RPs is even more unrealiable . 
+However , this does not necessarily count against any applicability— depending on the research questions together with the indication of error margins . 
+For studies analyzing the effects of retractions on citation scores , it might , however , be worth reflecting on the degree to which citing authors are aware of a retraction when annotation is not only lacking in social platforms such as Mendeley , but is also inconsistent in the standard literature databases . 
+In general , research on this empirical foundation should reflect the validity of the empirical databases— including false positive and negative errors and fuzzy delineations— for specific research questions . 

@@ -1,0 +1,243 @@
+T1	引文作者 1220 1227	Cameron
+T2	引文作者 1230 1235	Power
+T3	引文作者 1238 1246	Robinson
+T4	引文作者 1251 1254	Yin
+T5	引文时间 1257 1261	2012
+T6	引文作者 1264 1268	Zhou
+T7	引文作者 1271 1275	Chen
+T8	引文时间 1278 1282	2014
+T9	引文作者 1307 1311	Chen
+T10	引文作者 1314 1319	Amiri
+T11	引文作者 1322 1324	Li
+T12	引文作者 1329 1333	Chua
+T13	引文时间 1336 1340	2013
+T14	引文作者 1343 1347	Wang
+T15	引文作者 1350 1354	Chen
+T16	引文作者 1357 1360	Liu
+T17	引文作者 1365 1370	Emery
+T18	引文时间 1373 1377	2016
+T19	具体模型 4104 4131	Autoregressive Model ( AR )
+T20	引文作者 4864 4868	Chen
+T21	引文作者 4871 4876	Amiri
+T22	引文时间 4886 4890	2013
+T23	引文作者 4893 4899	Sakaki
+T24	引文作者 4902 4909	Okazaki
+T25	引文作者 4914 4920	Matsuo
+T26	引文时间 4923 4927	2010
+T27	引文作者 4934 4940	Sakaki
+T28	引文时间 4953 4957	2010
+T29	引文作者 5047 5052	Magdy
+T30	引文作者 5057 5064	Elsayed
+T31	引文时间 5067 5071	2014
+T32	引文作者 5491 5495	Chen
+T33	引文时间 5508 5512	2013
+T34	引文作者 5746 5755	Lancaster
+T35	引文作者 5758 5764	Seneta
+T36	引文时间 5767 5771	2005
+T37	引文作者 5894 5900	Becker
+T38	引文作者 5903 5907	Iter
+T39	引文作者 5910 5916	Naaman
+T40	引文作者 5923 5930	Gravano
+T41	引文时间 5933 5937	2012
+T42	引文作者 6188 6190	Yu
+T43	引文作者 6173 6181	Mehrotra
+T44	引文作者 6165 6170	Sadri
+T45	引文时间 6193 6197	2016
+T46	引文作者 6273 6276	Yue
+T47	引文作者 6279 6287	Joachims
+T48	引文时间 6290 6294	2009
+T49	引文时间 6606 6610	2014
+T50	引文作者 6600 6603	Mei
+T51	引文作者 6586 6593	Resnick
+T52	引文作者 6579 6583	Wang
+T53	引文作者 6574 6576	Li
+T54	引文时间 6983 6987	2015
+T55	引文作者 7159 7163	Wang
+T56	引文作者 6956 6960	Yang
+T57	引文作者 6963 6968	Kiang
+T58	引文作者 6975 6980	Shang
+T59	引文作者 7166 7170	Chen
+T60	引文作者 7173 7176	Fei
+T61	引文作者 7179 7182	Liu
+T62	引文作者 7189 7194	Emery
+T63	引文时间 7197 7201	2016
+T64	引文时间 7395 7399	2011
+T65	引文作者 7383 7392	Sindhwani
+T66	引文作者 7368 7376	Banerjee
+T67	引文作者 7357 7365	Melville
+T68	引文作者 7339 7354	Kasiviswanathan
+T69	引文作者 7637 7644	Cameron
+T70	引文时间 7654 7658	2012
+T71	引文作者 7661 7665	Zhou
+T72	引文作者 7668 7672	Chen
+T73	引文时间 7675 7679	2014
+T74	引文作者 8156 8161	Tarau
+T75	引文作者 8143 8151	Mihalcea
+T76	引文时间 8164 8168	2004
+T77	引文作者 8190 8194	Page
+T78	引文作者 8197 8201	Brin
+T79	引文作者 8204 8211	Motwani
+T80	引文作者 8216 8224	Winograd
+T81	引文时间 8227 8231	1999
+T82	引文时间 8401 8405	2010
+T83	引文作者 8395 8398	Sun
+T84	引文作者 8383 8388	Zheng
+T85	引文作者 8375 8380	Huang
+T86	引文作者 8369 8372	Liu
+T87	引文时间 8729 8733	2016
+T88	引文作者 8721 8726	Emery
+T89	引文作者 8711 8714	Liu
+T90	引文作者 8704 8708	Chen
+T91	引文作者 8697 8701	Wang
+T92	引文作者 8942 8946	Chen
+T93	引文时间 8959 8963	2013
+T94	引文时间 9233 9237	2013
+T95	引文作者 9227 9230	Yan
+T96	引文作者 9216 9220	Wang
+T97	引文作者 9210 9213	Liu
+T98	引文作者 9204 9207	Guo
+T99	引文作者 9196 9201	Cheng
+T100	引文时间 9546 9550	2016
+T101	引文作者 9529 9533	Wang
+T102	引文作者 9913 9918	Hasan
+T103	引文作者 9921 9923	Ng
+T104	引文时间 9926 9930	2014
+T105	图 9937 10086	Our proposed solution , termed ALMIK ( for Active Learning based on Multiple‐Instance learning with Keyword extraction ) , is illustrated in Figure 1
+T106	引文作者 12614 12620	Sedhai
+T107	引文作者 12623 12626	Sun
+T108	引文时间 12629 12633	2015
+T109	引文时间 14759 14763	2002
+T110	引文作者 14749 14756	Hofmann
+T111	引文作者 14718 14725	Andrews
+T112	引文作者 14728 14742	Tsochantaridis
+T113	研究结果 3399 3652	To summarize , the main contributions of this article are as follows : We propose an active learning method based on a multiple‐instance learning technique to achieve high precision with little human annotation effort in classifying event‐related tweets
+T114	研究方法 3798 3915	We propose a ranking function , which depicts not only relevance but also coverage of event representative keywords .
+T115	研究方法 3918 4051	When selected keywords could retrieve more event‐related tweets , we are able to achieve high recall by using a small set of keywords
+T116	研究方法 4056 4216	We further apply a time series model , namely , Autoregressive Model ( AR ) , to model the trend of a keyword based on its frequencies in different time windows
+T117	引文的方法 4960 5030	collected earthquake‐related tweets using a predefined set of keywords
+T119	引文的方法 5515 5610	filtered organization‐related tweets by both predefined keywords and dynamically generated ones
+T124	具体模型 7068 7103	Latent Dirichlet allocation ( LDA )
+T127	引文的方法 7564 7634	There are methods for collecting data using location‐based constraints
+T129	具体模型 8510 8513	LDA
+T130	引文的方法 8518 8617	Then they build a Topical PageRank to decompose traditional random walks specific to various topics
+T133	引文的方法 8966 9191	proposed a topic model that leverages general knowledge , that is , lexical semantic relations of words such as synonyms , antonyms , and adjective attributes , to help produce more coherent topics and representative keywords
+T134	具体模型 9719 9722	LDA
+T135	引文的方法 9553 9633	proposed a targeted topic model that could identify keywords of specific aspects
+T137	研究方法 10091 10158	The method works in a batch mode with a predefined time‐window size
+T138	研究方法 10255 10429	The batch mode processing enables us to derive keywords from tweets collected in the past time window , and to expand keywords for tweet collection in subsequent time windows
+T139	研究方法 10434 10484	The process starts with an initial set of keywords
+T140	研究方法 11429 11576	To tackle the first problem , we apply active learning based on multiple‐instance learning that could maintain high precision with less human input
+T141	研究方法 11581 11741	For the second problem , we rank keywords by investigating three properties of candidate words and select the most representative ones to expand the keyword set
+T118	引文的方法 5074 5147	prepared a static set of well‐defined queries about the topic of interest
+T120	引文的方法 5940 6096	leveraged term frequency analysis and event‐related concept extraction from external sources to generate dynamic queries for event‐related tweets collection
+T122	引文的方法 6200 6270	maximized query coverage by fitting it to a Multi‐armed Bandit problem
+T121	引文的方法 6613 6741	leveraged Rocchio algorithm and interactive classification to query data with high precision and high recall from search engines
+T123	引文的方法 6990 7154	collected messages from social media related to adverse drug reaction through Latent Dirichlet allocation ( LDA ) and a partially supervised classification approach
+T125	引文的方法 7204 7325	proposed a targeted topic model that leverages a latent variable to identify documents belonging to some specific aspects
+T128	引文的方法 8179 8187	PageRank
+T131	引文的方法 8736 8882	proposed a double‐ranking approach to select a set of keywords that could be used to collect tweets satisfying a given topic or a research problem
+T132	引文的结果 9240 9337	built a topic model by combining a term correlation matrix with non‐negative matrix factorization
+T136	研究方法 9783 9910	In this study , we do not consider keyphrase extraction and we refer readers to a recent survey on keyphrase extraction methods
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	has_cited_time Arg1:T5 Arg2:T4	
+R5	coauthor Arg1:T6 Arg2:T7	
+R6	has_cited_time Arg1:T8 Arg2:T7	
+R7	field_similar_as Arg1:T1 Arg2:T6	
+R8	coauthor Arg1:T9 Arg2:T10	
+R9	coauthor Arg1:T10 Arg2:T11	
+R10	coauthor Arg1:T11 Arg2:T12	
+R11	has_cited_time Arg1:T13 Arg2:T12	
+R12	coauthor Arg1:T14 Arg2:T15	
+R13	coauthor Arg1:T15 Arg2:T16	
+R14	coauthor Arg1:T16 Arg2:T17	
+R15	has_cited_time Arg1:T18 Arg2:T17	
+R16	field_similar_as Arg1:T9 Arg2:T14	
+R17	coauthor Arg1:T20 Arg2:T21	
+R18	has_cited_time Arg1:T22 Arg2:T21	
+R19	coauthor Arg1:T23 Arg2:T24	
+R20	coauthor Arg1:T24 Arg2:T25	
+R21	has_cited_time Arg1:T26 Arg2:T25	
+R22	field_similar_as Arg1:T20 Arg2:T23	
+R23	has_cited_time Arg1:T28 Arg2:T27	
+R24	uses Arg1:T27 Arg2:T117	
+R25	coauthor Arg1:T29 Arg2:T30	
+R26	has_cited_time Arg1:T31 Arg2:T30	
+R27	uses Arg1:T29 Arg2:T118	
+R28	has_cited_time Arg1:T33 Arg2:T32	
+R29	uses Arg1:T32 Arg2:T119	
+R30	coauthor Arg1:T34 Arg2:T35	
+R31	has_cited_time Arg1:T36 Arg2:T35	
+R32	uses Arg1:T37 Arg2:T120	
+R33	coauthor Arg1:T37 Arg2:T38	
+R34	coauthor Arg1:T38 Arg2:T39	
+R35	coauthor Arg1:T39 Arg2:T40	
+R36	has_cited_time Arg1:T41 Arg2:T40	
+R37	coauthor Arg1:T44 Arg2:T43	
+R38	coauthor Arg1:T43 Arg2:T42	
+R39	has_cited_time Arg1:T45 Arg2:T42	
+R40	uses Arg1:T44 Arg2:T122	
+R41	coauthor Arg1:T46 Arg2:T47	
+R42	has_cited_time Arg1:T48 Arg2:T47	
+R43	coauthor Arg1:T53 Arg2:T52	
+R44	coauthor Arg1:T52 Arg2:T51	
+R45	coauthor Arg1:T51 Arg2:T50	
+R46	has_cited_time Arg1:T49 Arg2:T50	
+R47	uses Arg1:T53 Arg2:T121	
+R48	coauthor Arg1:T56 Arg2:T57	
+R49	coauthor Arg1:T57 Arg2:T58	
+R50	has_cited_time Arg1:T54 Arg2:T58	
+R51	uses Arg1:T56 Arg2:T123	
+R52	coauthor Arg1:T68 Arg2:T67	
+R53	coauthor Arg1:T67 Arg2:T66	
+R54	coauthor Arg1:T66 Arg2:T65	
+R55	has_cited_time Arg1:T64 Arg2:T65	
+T126	引文的结果 7426 7559	the authors claim their dictionary learning‐based method could collect topic‐related data with good precision and recall on test data
+R56	has_cited_time Arg1:T64 Arg2:T126	
+R57	coauthor Arg1:T55 Arg2:T59	
+R58	coauthor Arg1:T59 Arg2:T60	
+R59	coauthor Arg1:T60 Arg2:T61	
+R60	coauthor Arg1:T61 Arg2:T62	
+R61	has_cited_time Arg1:T63 Arg2:T62	
+R62	uses Arg1:T55 Arg2:T125	
+R63	uses Arg1:T69 Arg2:T127	
+R64	has_cited_time Arg1:T70 Arg2:T69	
+R65	coauthor Arg1:T71 Arg2:T72	
+R66	has_cited_time Arg1:T73 Arg2:T72	
+R67	uses Arg1:T71 Arg2:T127	
+R68	field_similar_as Arg1:T69 Arg2:T71	
+R69	coauthor Arg1:T75 Arg2:T74	
+R70	has_cited_time Arg1:T76 Arg2:T74	
+R71	uses Arg1:T77 Arg2:T128	
+R72	coauthor Arg1:T77 Arg2:T78	
+R73	coauthor Arg1:T78 Arg2:T79	
+R74	coauthor Arg1:T79 Arg2:T80	
+R75	has_cited_time Arg1:T81 Arg2:T80	
+R76	coauthor Arg1:T86 Arg2:T85	
+R77	coauthor Arg1:T85 Arg2:T84	
+R78	coauthor Arg1:T84 Arg2:T83	
+R79	has_cited_time Arg1:T82 Arg2:T83	
+R80	uses Arg1:T86 Arg2:T130	
+R81	uses Arg1:T91 Arg2:T131	
+R82	coauthor Arg1:T91 Arg2:T90	
+R83	coauthor Arg1:T90 Arg2:T89	
+R84	coauthor Arg1:T89 Arg2:T88	
+R85	has_cited_time Arg1:T87 Arg2:T88	
+R86	has_cited_time Arg1:T93 Arg2:T92	
+R87	uses Arg1:T92 Arg2:T133	
+R88	coauthor Arg1:T99 Arg2:T98	
+R89	coauthor Arg1:T98 Arg2:T97	
+R90	coauthor Arg1:T97 Arg2:T96	
+R91	coauthor Arg1:T96 Arg2:T95	
+R92	has_cited_time Arg1:T94 Arg2:T95	
+R93	results Arg1:T99 Arg2:T132	
+R94	has_cited_time Arg1:T100 Arg2:T101	
+R95	uses Arg1:T101 Arg2:T135	
+R96	coauthor Arg1:T103 Arg2:T102	
+R97	has_cited_time Arg1:T104 Arg2:T103	
+R98	coauthor Arg1:T106 Arg2:T107	
+R99	has_cited_time Arg1:T108 Arg2:T107	
+R100	coauthor Arg1:T111 Arg2:T112	
+R101	coauthor Arg1:T112 Arg2:T110	
+R102	has_cited_time Arg1:T109 Arg2:T110	

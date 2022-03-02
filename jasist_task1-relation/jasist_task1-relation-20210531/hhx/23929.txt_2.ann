@@ -1,0 +1,308 @@
+T1	术语 287 293	Keppra
+T2	研究结果 385 490	Our goal is to classify each sentence in a forum post as whether it describes patient experience or not .
+T3	术语 1053 1067	global context
+T4	术语 1072 1085	local context
+T5	术语 1094 1108	global context
+T6	术语 1365 1378	local context
+T7	术语 1707 1721	global context
+T8	术语 1726 1739	local context
+T9	术语 1778 1792	global context
+T10	术语 2174 2188	global context
+T11	研究方法 780 922	We learn a classifier from labeled sentences with their content , context and labels , which then predict the labels for unlabeled sentences .
+T12	术语 2783 2797	global context
+T13	术语 2890 2906	Laplacian matrix
+T14	数学公式 3084 3094	Equation 3
+T15	具体模型 3150 3153	SVM
+T16	引文作者 3163 3170	Melacci
+T17	引文作者 3173 3179	Belkin
+T18	引文时间 3182 3186	2011
+T19	引文的结果 3133 3160	primal Laplacian SVM solver
+T20	数据源 3434 3461	MedHelp heart disease forum
+T21	术语 3626 3638	ground truth
+T22	术语 3670 3673	ADR
+T23	数据源 3529 3534	SIDER
+T24	术语 3714 3726	ground truth
+T25	术语 3743 3746	ADR
+T26	数据源 3764 3769	SIDER
+T27	引文作者 3772 3776	Kuhn
+T28	引文时间 3786 3790	2015
+T29	引文作者 4208 4211	Liu
+T30	引文作者 4214 4218	Chen
+T31	引文时间 4221 4225	2015
+T32	引文的结果 4201 4205	Sent
+T33	引文的结果 4230 4234	Post
+T34	引文作者 4237 4249	Sampathkumar
+T35	引文时间 4259 4263	2014
+T36	引文的结果 4272 4278	Thread
+T37	引文作者 4281 4285	Yang
+T38	引文作者 4288 4292	Yang
+T39	引文时间 4295 4299	2015
+T40	术语 4347 4349	PI
+T41	术语 4352 4354	PA
+T42	术语 4357 4360	PIE
+T43	术语 4367 4370	PAE
+T44	表 4145 4372	Table 1 shows the notation for three baseline methods : Sent ( Liu & Chen , 2015 ) , Post ( Sampathkumar et al. , 2014 ) , and Thread ( Yang & Yang , 2015 ) , and four variants of our proposed method : PI , PA , PIE , and PAE .
+T45	术语 4422 4424	AE
+T46	术语 4528 4535	drug‐AE
+T47	术语 4622 4629	drug‐AE
+T48	数据源 4744 4771	MedHelp heart disease forum
+T49	术语 4774 4781	Aspirin
+T50	术语 4784 4792	Atenolol
+T51	术语 4797 4806	Potassium
+T52	术语 4843 4851	Diazepam
+T53	术语 4856 4863	Inderal
+T54	术语 5000 5003	ADR
+T55	引文作者 5200 5204	Wang
+T56	术语 5163 5172	precision
+T57	术语 5177 5183	recall
+T58	引文的方法 5151 5183	such as the precision and recall
+T59	引文时间 5217 5221	2014
+T60	引文作者 5226 5230	Wang
+T61	引文作者 5233 5237	Jung
+T62	引文作者 5240 5250	Winnenburg
+T63	引文作者 5257 5261	Shah
+T64	引文时间 5264 5268	2015
+T65	引文作者 5273 5279	Harpaz
+T66	引文时间 5292 5296	2013
+T67	术语 5326 5335	precision
+T68	术语 5385 5388	ADR
+T69	术语 5420 5423	ADR
+T70	术语 5441 5447	recall
+T71	术语 5628 5631	ADR
+T72	术语 5711 5713	AE
+T73	术语 5743 5746	ADR
+T74	术语 5798 5801	ADR
+T75	数据源 5806 5811	SIDER
+T76	术语 5843 5846	ADR
+T77	术语 5881 5887	recall
+T78	术语 5938 5941	ADR
+T79	数据源 5963 5968	SIDER
+T80	术语 6066 6072	recall
+T81	术语 6025 6031	recall
+T82	术语 6131 6134	ADR
+T83	术语 6148 6168	Area Under the Curve
+T84	术语 6171 6174	AUC
+T85	引文作者 6179 6186	LePendu
+T86	引文时间 6196 6200	2013
+T87	引文作者 6203 6207	Wang
+T88	引文时间 6217 6221	2015
+T89	引文的结果 6148 6176	Area Under the Curve ( AUC )
+T90	术语 6246 6279	receiver operating characteristic
+T91	术语 6282 6285	ROC
+T92	术语 6534 6537	ROC
+T93	术语 6445 6462	binary classifier
+T94	术语 6609 6616	drug‐AE
+T95	术语 6626 6629	AUC
+T96	术语 6652 6655	ROC
+T97	术语 6723 6732	precision
+T98	术语 6737 6743	recall
+T99	术语 6802 6804	Eq
+T100	术语 6760 6763	ADR
+T101	术语 6830 6839	precision
+T102	术语 6844 6850	recall
+T103	术语 6964 6971	drug‐AE
+T104	术语 7219 7226	Aspirin
+T105	术语 7229 7237	Atenolol
+T106	术语 7240 7249	Potassium
+T107	术语 7252 7260	Diazepam
+T108	术语 7265 7272	Inderal
+T109	图 7126 7289	Figures 4-8 show the performance comparison of the variants of our proposed methods for drug Aspirin , Atenolol , Potassium , Diazepam and Inderal , respectively .
+T110	术语 7562 7564	PI
+T111	术语 7593 7595	PA
+T112	术语 7629 7636	drug‐AE
+T113	图 7469 7708	According to Figures 4 ( a ) , 5 ( a ) , 6 ( a ) , and 8 ( a ) , we can clearly observe that PI has a higher precision than PA , which indicates that in‐thread drug‐AE pair cooccurrences are more reliable than across‐thread cooccurrences .
+T114	术语 7718 7721	PIE
+T115	术语 7725 7728	PAE
+T116	术语 7814 7816	PI
+T117	术语 7820 7822	PA
+T118	术语 7982 7989	drug‐AE
+T119	术语 8008 8014	recall
+T120	图 7885 8052	Figures 4 ( b ) , 5 ( b ) , 6 ( b ) , 7 ( b ) and 8 ( b ) show that by considering across‐thread drug‐AE association , the recall can be improved when K becomes larger
+T121	术语 8066 8072	recall
+T122	术语 8114 8117	ADR
+T123	术语 8265 8268	PAE
+T124	术语 8398 8403	Top‐K
+T125	数据源 8420 8425	SIDER
+T126	术语 8541 8546	Top‐K
+T127	数据源 8563 8568	SIDER
+T128	术语 8681 8686	Top‐K
+T129	数据源 8703 8708	SIDER
+T130	术语 8822 8827	Top‐K
+T131	数据源 8844 8849	SIDER
+T132	术语 8962 8967	Top‐K
+T133	数据源 8984 8989	SIDER
+T134	术语 9169 9172	PAE
+T135	图 9102 9198	Figure 9-13 show the performance comparison of our proposed method PAE with the existing methods
+T136	术语 9223 9226	PAE
+T137	术语 9288 9291	PAE
+T138	术语 9485 9488	PAE
+T139	术语 9514 9517	ADR
+T140	术语 9546 9551	top‐K
+T141	术语 9664 9667	PAE
+T142	术语 9687 9693	recall
+T143	术语 9697 9703	Thread
+T144	术语 9706 9710	Post
+T145	术语 9717 9721	Sent
+T146	术语 9753 9756	PAE
+T147	术语 9775 9781	recall
+T148	术语 9834 9841	Aspirin
+T149	术语 9894 9898	Post
+T150	术语 9920 9923	PAE
+T151	术语 10062 10065	ADR
+T152	术语 9991 10000	precision
+T153	术语 10005 10011	recall
+T154	术语 10075 10080	Top‐K
+T155	数据源 10097 10102	SIDER
+T156	术语 10107 10114	aspirin
+T157	术语 10215 10220	Top‐K
+T158	数据源 10237 10242	SIDER
+T159	术语 10247 10255	atenolol
+T160	术语 10356 10361	Top‐K
+T161	数据源 10378 10383	SIDER
+T162	术语 10388 10396	atenolol
+T163	术语 10497 10502	Top‐K
+T164	数据源 10519 10524	SIDER
+T165	术语 10529 10537	diazepam
+T166	术语 10638 10643	Top‐K
+T167	数据源 10660 10665	SIDER
+T168	术语 10670 10677	inderal
+T169	术语 10894 10911	ranking functions
+T170	术语 10930 10939	precision
+T171	引文作者 11018 11022	Wang
+T172	引文时间 11035 11039	2014
+T173	引文的结果 10926 10971	the precision is not monotonically decreasing
+T174	术语 11130 11133	ADR
+T175	术语 11165 11168	ADR
+T176	术语 11277 11280	ADR
+T177	数据源 11285 11290	SIDER
+T178	术语 11429 11432	ADR
+T179	术语 11597 11601	Sent
+T180	术语 11605 11608	PIE
+T181	术语 11613 11621	Diazepam
+T182	术语 11649 11652	ADR
+T183	术语 11776 11785	precision
+T184	术语 11790 11796	recall
+T185	术语 11834 11852	Top‐100 AUC values
+T186	表 11739 11874	Besides performance evaluation using precision and recall , we also evaluate all methods using Top‐100 AUC values , as shown in Table 2
+T187	术语 11895 11898	PAE
+T188	术语 11915 11918	AUC
+T189	术语 12005 12013	Atenolol
+T190	术语 12086 12090	Post
+T191	研究结果 11879 12092	As we can see , PAE has the highest AUC value on all the tested drugs , except that it is the second‐best method for the drug Atenolol , with very close performance ( 0.1 % difference ) as the best method , Post .
+T192	术语 12189 12198	precision
+T193	术语 12238 12245	Aspirin
+T194	术语 12248 12256	Atenolol
+T195	术语 12261 12270	Potassium
+T196	术语 12303 12311	Diazepam
+T197	术语 12316 12323	Inderal
+T198	图 12151 12325	As we can see from Figures 9-13 , the precision values of all systems to process drugs Aspirin , Atenolol and Potassium are higher than those for drugs Diazepam and Inderal .
+T199	术语 12398 12405	drug‐AE
+T200	术语 12426 12429	PAE
+T201	术语 12516 12523	drug‐AE
+T202	表 12328 12552	To analyze that , we calculate the total number of occurrences of all drug‐AE pairs identified by PAE for each drug in the data set , and the average number of occurrences for each unique drug‐AE pair , as shown in Table 3 .
+T203	术语 12646 12653	drug‐AE
+T204	术语 12612 12621	precision
+T205	研究结果 12572 12688	all systems consistently achieve better precision on drugs that have more drug‐AE pair occurrences in the data set .
+T206	术语 12832 12840	Diazepam
+T207	术语 12859 12861	AE
+T208	术语 12960 12963	ADR
+T209	研究结果 12978 13146	This demonstrates that with the growing content of health forums , the data analytics methods have potential to achieve better and more reliable performance over time .
+T210	术语 13212 13215	ADR
+T211	术语 13249 13255	recall
+T212	术语 13302 13308	recall
+T213	术语 13417 13420	ADR
+T214	数据源 13435 13440	SIDER
+T215	术语 13472 13475	ADR
+T216	术语 13520 13526	recall
+T217	术语 13580 13583	ADR
+T218	术语 13628 13631	ADR
+T219	数据源 13646 13651	SIDER
+T220	术语 13685 13692	drug‐AE
+T221	术语 13767 13773	recall
+T222	术语 13799 13802	AUC
+T223	术语 13876 13879	AUC
+T224	术语 13902 13911	ROC curve
+T225	术语 13918 13921	ROC
+T226	术语 13936 13942	recall
+T227	术语 14001 14020	False Positive Rate
+T228	术语 13951 13970	False Positive Rate
+T229	术语 14036 14050	False Positive
+T230	术语 14067 14081	False Positive
+T231	术语 14086 14099	True Negative
+T232	术语 14112 14126	False Positive
+T233	术语 14131 14144	True Negative
+T234	术语 14191 14193	AE
+T235	术语 14227 14230	AUC
+T236	引文作者 14302 14306	Wang
+T237	引文作者 14316 14320	2014
+T238	引文的结果 14325 14494	there are mismatches between the terms from the official knowledge base and those from the health forums , which justifies the need of evaluation with human annotation .
+T239	术语 14580 14605	across‐thread association
+T240	术语 14610 14627	experience mining
+T241	术语 14727 14739	ground truth
+T242	术语 14857 14860	ADR
+T243	术语 14866 14873	Aspirin
+T244	术语 15016 15023	Aspirin
+T245	术语 15105 15112	drug‐AE
+T246	术语 15141 15143	AE
+T247	术语 15221 15233	ground truth
+T248	术语 15441 15448	drug‐AE
+T249	术语 15496 15498	AE
+T250	术语 15560 15563	ADR
+T251	术语 15819 15821	AE
+T252	术语 15888 15891	ADR
+T253	术语 15858 15860	AE
+T254	术语 15931 15943	ground truth
+T255	术语 15977 15984	drug‐AE
+T256	数据源 16058 16063	SIDER
+T257	术语 16100 16112	ground‐truth
+T258	术语 16113 16120	drug‐AE
+T259	术语 16181 16196	precision ( P )
+T260	术语 16199 16211	recall ( R )
+T261	术语 16218 16235	f‐measure ( F 1 )
+T262	术语 16267 16276	precision
+T263	术语 16326 16329	ADR
+T264	术语 16361 16364	ADR
+T265	术语 16374 16380	recall
+T266	术语 16430 16433	ADR
+T267	术语 16458 16461	ADR
+T268	术语 16525 16534	f‐measure
+T269	术语 16570 16579	precision
+T270	术语 16584 16590	recall
+T271	术语 16553 16566	harmonic mean
+T272	表 16597 16657	Table 4 shows the evaluation results with human annotation .
+T273	研究结果 16660 16754	Among the existing methods , Sent achieves the highest precision but suffers the lowest recall
+T274	术语 16689 16693	Sent
+T275	术语 16715 16724	precision
+T276	术语 16748 16754	recall
+T277	术语 16787 16793	recall
+T278	术语 16816 16825	precision
+T279	研究结果 16759 16825	Thread achieves the highest recall , but with the lowest precision
+R1	results Arg1:T16 Arg2:T19	
+R2	coauthor Arg1:T16 Arg2:T17	
+R3	has_cited_time Arg1:T18 Arg2:T17	
+R4	has_cited_time Arg1:T28 Arg2:T27	
+R5	results Arg1:T29 Arg2:T32	
+R6	coauthor Arg1:T29 Arg2:T30	
+R7	has_cited_time Arg1:T31 Arg2:T30	
+R8	results Arg1:T34 Arg2:T33	
+R9	has_cited_time Arg1:T35 Arg2:T34	
+R10	results Arg1:T37 Arg2:T36	
+R11	coauthor Arg1:T37 Arg2:T38	
+R12	has_cited_time Arg1:T39 Arg2:T38	
+R13	uses Arg1:T55 Arg2:T58	
+R14	has_cited_time Arg1:T59 Arg2:T55	
+R15	coauthor Arg1:T60 Arg2:T61	
+R16	coauthor Arg1:T61 Arg2:T62	
+R17	coauthor Arg1:T62 Arg2:T63	
+R18	has_cited_time Arg1:T64 Arg2:T63	
+R19	has_cited_time Arg1:T66 Arg2:T65	
+R20	field_similar_as Arg1:T60 Arg2:T55	
+R21	field_similar_as Arg1:T65 Arg2:T60	
+R22	results Arg1:T85 Arg2:T89	
+R23	has_cited_time Arg1:T86 Arg2:T85	
+R24	has_cited_time Arg1:T88 Arg2:T87	
+R25	field_similar_as Arg1:T87 Arg2:T85	
+R26	results Arg1:T171 Arg2:T173	
+R27	has_cited_time Arg1:T172 Arg2:T171	
+R28	coauthor Arg1:T237 Arg2:T236	
+R29	results Arg1:T236 Arg2:T238	

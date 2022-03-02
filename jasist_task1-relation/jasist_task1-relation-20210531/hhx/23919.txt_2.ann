@@ -1,0 +1,92 @@
+T2	研究结果 179 321	The numbers show that most studies are inclined to create and use their own datasets , rather than reusing previously created and curated data
+T3	术语 606 609	URL
+T4	术语 661 664	URL
+T1	图 1466 1533	Figures 4 and 5 show the disciplinary characteristics of data use .
+T5	数据源 1633 1655	wileyonlinelibrary.com
+T6	数据源 1761 1783	wileyonlinelibrary.com
+T7	术语 2189 2196	GenBank
+T8	术语 2199 2208	SwissProt
+T9	术语 2211 2218	MEDLINE
+T10	术语 2225 2248	Gene Expression Onmibus
+T11	图 2705 3094	As shown in Figure 5 , while it is common that articles in Social Sciences ( 79 % ) , Medicine and Health Sciences ( 69 % ) , Biology ( 64 % ) , and Mathematics ( 61 % ) had data sections , the occurrence of designated data sections for articles in Engineering ( 22 % ) , Ecology and Environmental Sciences ( 13 % ) , Agriculture ( 11 % ) , and Research and Analysis Methods ( 4 % ) is low
+T12	研究结果 3099 3203	The results show that there has not been a common view or practice on how to describe data in research .
+T13	图 3206 3278	Figures 6 and 7 show the disciplinary characteristics of data collection
+T14	数据源 3402 3424	wileyonlinelibrary.com
+T15	数据源 3542 3564	wileyonlinelibrary.com
+T16	自建数据集 3770 3842	all nine articles that used datasets had data collected by their authors
+T17	图 4064 4240	Figure 7 shows that among articles that self‐collected data , their corresponding disciplines behaved differently in terms of specifying data collection dates or time durations
+T18	术语 4912 4918	tweets
+T19	图 4982 5050	Figures 8 and 9 show the disciplinary characteristics of data access
+T20	数据源 5114 5136	wileyonlinelibrary.com
+T21	数据源 5246 5268	wileyonlinelibrary.com
+T22	图 5271 5352	Figure 8 shows that articles in most disciplines provided free access to datasets
+T23	自建数据集 5929 5984	some studies have their datasets collected by companies
+T24	术语 6306 6327	left e‐mail addresses
+T25	术语 6550 6553	URL
+T26	图 6629 6775	as shown in Figure 9 , particularly in Agriculture ( 89 % ) , Engineering ( 89 % ) , Physics ( 83 % ) , and Research and Analysis Methods ( 83 % )
+T27	术语 7151 7155	DOIs
+T28	术语 7204 7207	DOI
+T29	引文的研究问题 7775 7931	in a study that tried to gain access to data by contacting authors via e‐mails from 141 articles published by the American Psychological Association ( APA )
+T30	引文的结果 7934 8024	the study showed that only 25.7 % of the datasets were finally obtained through this means
+T31	引文作者 8027 8035	Wicherts
+T32	引文作者 8038 8046	Borsboom
+T33	引文作者 8049 8053	Kats
+T34	引文作者 8058 8066	Molenaar
+T35	引文时间 8069 8073	2006
+T36	图 8286 8351	Figure 10 shows the disciplinary characteristics of data curation
+T37	数据源 8418 8440	wileyonlinelibrary.com
+T38	图 8443 8535	Journal‐specific spaces are the main type of data archives in most disciplines ( Figure 10 )
+T39	数据源 8583 8591	PLoS One
+T41	术语 10664 10685	quantitative analyses
+T42	术语 10829 10833	URLs
+T43	术语 11431 11434	URL
+T44	术语 11674 11692	system evaluations
+T45	术语 11975 11978	URL
+T46	术语 12310 12314	DOIs
+T47	研究结果 12866 12963	The results showed a lack of naming , preserving , and publishing the datasets scholars collected
+T48	引文的结果 12986 13054	their efforts in processing datasets could not help them get credits
+T49	引文作者 13057 13064	Borgman
+T50	引文时间 13067 13071	2012
+T51	研究结果 13222 13444	The disciplines that usually involve data obtained from human subjects , including Biology , Medicine and Health Sciences , and Social Sciences , show higher percentages of “ no access ” datasets than the other disciplines
+T53	引文作者 13531 13538	Tenopir
+T54	引文时间 13548 13552	2015
+T52	引文的结果 13557 13759	in which the authors indicated that scholars in the disciplines involving studies with human subjects showed less willingness of data sharing , with the concern of data sensitivity and confidentiality .
+T55	引文的结果 14243 14398	even though scholars have the perception and willingness to share their datasets , they would not do that if the procedure is complicated or time‐consuming
+T56	引文作者 14401 14406	Huang
+T57	引文时间 14416 14420	2012
+T58	引文作者 14423 14429	Wallis
+T59	引文时间 14439 14443	2013
+T60	研究结果 14657 14807	One‐third of articles in Ecology and Environmental Sciences archived datasets in commercial data repositories , which is higher than other disciplines
+T61	引文的结果 15061 15135	the National Oceanographic Data Center in archiving oceanographic datasets
+T62	研究结果 15156 15284	popularizing such repositories and providing easy‐to‐use tools might be a more effective way to encourage data archive behaviors
+T63	引文作者 15138 15144	Belter
+T64	引文时间 15147 15151	2014
+T65	术语 15433 15437	DOIs
+T66	研究结果 15505 15596	indicates that the use of data repositories can promote dataset citation and trackability .
+T67	术语 15608 15611	DOI
+T68	术语 15616 15633	dataset citations
+T69	术语 15767 15770	URL
+T70	术语 15855 15858	URL
+T71	术语 15874 15877	URL
+T72	研究方法 16668 16763	In this study , we proposed a content analysis method by utilizing grounded theory approaches .
+T73	研究结果 16906 17056	The results showed that data mentions and citations varied greatly in disciplines in terms of how datasets were collected , referenced , and curated .
+T74	术语 17150 17154	DOIs
+T75	术语 17159 17173	data citations
+T76	研究结果 17416 17527	This study revealed the current state of data mentions and citations across a variety of scientific disciplines
+T77	研究结果 17532 17667	It provided a comprehensive understanding of how data are used in science and helps institutions and publishers make good data policies
+R5	results Arg1:T31 Arg2:T30	
+R12	has_cited_time Arg1:T35 Arg2:T34	
+R13	coauthor Arg1:T31 Arg2:T32	
+R16	coauthor Arg1:T32 Arg2:T33	
+R18	coauthor Arg1:T33 Arg2:T34	
+R19	has_cited_time Arg1:T50 Arg2:T49	
+R20	results Arg1:T49 Arg2:T48	
+R21	has_cited_time Arg1:T54 Arg2:T53	
+R22	results Arg1:T53 Arg2:T52	
+R23	results Arg1:T56 Arg2:T55	
+R25	field_similar_as Arg1:T56 Arg2:T58	
+R26	has_cited_time Arg1:T57 Arg2:T56	
+R27	has_cited_time Arg1:T59 Arg2:T58	
+R28	has_cited_time Arg1:T64 Arg2:T63	
+R29	results Arg1:T63 Arg2:T61	
+R1	produces Arg1:T31 Arg2:T29	

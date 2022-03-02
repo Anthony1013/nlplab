@@ -1,0 +1,241 @@
+T1	引文时间 2 6	2016
+T2	引文的结果 9 107	showed that 66 % of the links are never clicked and that approximately 1 % reach around 100 clicks
+T3	引文的研究问题 202 223	link prediction model
+T4	引文作者 256 264	Ferreira
+T5	引文时间 274 278	2015
+T6	术语 976 993	vector transposes
+T7	术语 1117 1124	L2‐norm
+T8	数据源 1230 1239	Wikipedia
+T9	术语 1479 1492	concept graph
+T10	图 1497 1694	Figure 1 shows a portion of a concept graph with eight articles ( e.g. , Charles Darwin , Stephen Baxter , and Natural Selection ) and six links ( e.g. , the link from Charles Darwin to Evolution )
+T11	术语 1699 1712	Concept graph
+T12	数据源 1787 1796	Wikipedia
+T13	术语 1897 1903	labels
+T14	图 1924 2186	in Figure 1 , the article Charles Darwin is composed by labels such as “ Natural Selection , ” “ naturalist , ” “ evolution , ” and “ theory. ” When editors write articles , they must decide which labels should be linked to other appropriate Wikipedia articles .
+T15	数据源 2166 2175	Wikipedia
+T16	术语 2300 2307	anchors
+T17	术语 2457 2464	anchors
+T18	术语 2548 2554	anchor
+T19	术语 2851 2870	initial definitions
+T20	研究问题 3787 3853	Our goal is to make predictions for unobserved pairs of articles .
+T21	术语 4184 4209	underlying graph topology
+T22	术语 4274 4297	matrix factor component
+T23	数学公式 4301 4311	Equation 1
+T24	术语 4409 4424	diagonal matrix
+T25	术语 4536 4551	latent features
+T26	术语 4576 4587	dot‐product
+T27	引文作者 4635 4643	Ferreira
+T28	引文时间 4653 4657	2015
+T29	术语 4907 4922	latent features
+T30	术语 4942 4969	inlink and outlink behavior
+T31	术语 4978 5009	factorization enforces symmetry
+T32	术语 5058 5073	latent features
+T33	术语 5095 5122	inlink and outlink behavior
+T34	术语 5166 5183	undirected graphs
+T35	术语 5204 5223	inlink and outlinks
+T36	术语 5252 5266	concept graphs
+T37	术语 5296 5329	directed and rarely bidirectional
+T38	数据源 5377 5386	Wikipedia
+T39	引文作者 5411 5417	Zlatic
+T40	引文作者 5420 5429	Bozicevic
+T41	引文作者 5432 5441	Stefancic
+T42	引文作者 5446 5453	Domazet
+T43	引文时间 5456 5460	2006
+T44	引文的结果 5349 5408	almost 70 % of the links in Wikipedia are not bidirectional
+T45	术语 5544 5559	directed graphs
+T46	数学公式 5573 5583	Equation 3
+T47	术语 5597 5632	stochastic gradient descent ( SGD )
+T48	术语 5686 5689	SGD
+T49	术语 6825 6840	link prediction
+T50	引文作者 7127 7132	Koren
+T51	引文时间 7135 7139	2008
+T52	研究方法 7144 7263	we use different parameters to control the learning rate ( γ ) and the impact of regularization ( in our implementation
+T54	引文时间 7396 7400	2012
+T55	引文作者 7387 7393	Bottou
+T53	研究方法 7268 7357	We also update the learning rate along the iterations using an exponential decay strategy
+T56	术语 7816 7829	edge features
+T57	术语 7971 7987	Link probability
+T58	术语 8056 8062	anchor
+T59	数据源 8015 8024	Wikipedia
+T60	引文的结果 7971 8113	Link probability : defined as the number of Wikipedia articles that use a label u as anchor , divided by the number of articles that mention u
+T61	引文作者 8116 8124	Mihalcea
+T62	引文作者 8127 8133	Csomai
+T63	引文时间 8136 8140	2007
+T64	术语 8245 8281	average and maximum link probability
+T65	图 8308 8495	Figure 1 , one would expect that the link probability of “ evolution ” ( between articles Charles Darwin and Evolution ) is greater than “ author ” ( between Stephen Baxter and a Author )
+T66	引文作者 8398 8412	Charles Darwin
+T67	术语 8500 8511	Relatedness
+T68	术语 8685 8692	anchors
+T69	术语 8726 8740	central thread
+T70	引文作者 9039 9044	Milne
+T71	引文作者 9047 9053	Witten
+T72	引文时间 9056 9060	2008
+T73	引文的结果 8956 9010	where cu refers to any candidate concept in article ci
+T74	术语 9213 9228	link‐worthiness
+T75	引文作者 9744 9749	Milne
+T76	引文作者 9752 9758	Witten
+T77	引文时间 9761 9765	2008
+T78	术语 9772 9797	Disambiguation confidence
+T79	引文作者 9864 9869	Milne
+T80	引文作者 9874 9880	Witten
+T81	引文时间 9883 9887	2008
+T82	引文的结果 9800 9860	estimate provided by the disambiguation classifier presented
+T83	数据源 9991 10000	Wikipedia
+T84	术语 10242 10276	average and maximum disambiguation
+T85	引文作者 10428 10433	Milne
+T86	引文作者 10438 10444	Witten
+T87	引文时间 10447 10451	2008
+T88	引文作者 10550 10555	Milne
+T89	引文作者 10560 10566	Witten
+T90	引文时间 10569 10573	2008
+T91	引文的研究问题 10576 10627	kept only the concept with highest confidence value
+T92	术语 10705 10718	node features
+T93	术语 10778 10788	Generality
+T94	引文的结果 10884 11031	This allows the classifier to distinguish specialized concepts that the reader may not know about from general ones that do not require explanation
+T95	引文作者 11034 11039	Milne
+T96	引文作者 11042 11048	Witten
+T97	引文时间 11051 11055	2008
+T98	术语 11062 11074	Inlink ratio
+T99	术语 11195 11208	Outlink ratio
+T100	软件工具 11361 11393	Java API Wikipedia Miner Toolkit
+T101	引文作者 11433 11438	Milne
+T102	引文作者 11443 11449	Witten
+T103	引文时间 11452 11456	2013
+T104	数据源 11560 11569	Wikipedia
+T105	术语 11724 11737	preprocessing
+T106	术语 11774 11778	HTML
+T107	术语 11783 11792	MediaWiki
+T108	数据源 11816 11825	Wikipedia
+T109	术语 11946 11952	n‐gram
+T110	术语 12076 12092	link probability
+T111	术语 12097 12117	relatedness features
+T112	术语 12331 12340	Wikipedia
+T113	术语 12536 12545	Wikipedia
+T114	数据源 12801 12810	Wikipedia
+T115	数据源 13173 13182	Wikipedia
+T116	术语 13319 13342	Featured Article ( FA )
+T117	术语 13345 13359	A‐Class ( AC )
+T118	术语 13362 13381	Good Article ( GA )
+T119	术语 13384 13398	B‐Class ( BC )
+T120	术语 13401 13415	C‐Class ( CC )
+T121	术语 13418 13436	Start‐Class ( ST )
+T122	术语 13439 13456	Stub‐Class ( SB )
+T123	表 13461 13627	Table 1 shows the quality rate distribution in our dataset ( Wikipedia School ) and in the snapshot of Wikipedia ( English edition ) from where School was extracted .
+T124	数据源 13522 13531	Wikipedia
+T125	数据源 13564 13573	Wikipedia
+T126	术语 13756 13758	ST
+T127	术语 13763 13765	SB
+T128	数据源 13801 13810	Wikipedia
+T129	数据源 13862 13871	Wikipedia
+T130	术语 14131 14144	concept graph
+T131	术语 14534 14574	Receiver Operating Characteristics Curve
+T132	术语 14577 14580	AUC
+T133	引文作者 14607 14611	Ling
+T134	引文作者 14614 14619	Huang
+T135	引文作者 14626 14631	Zhang
+T136	引文时间 14634 14638	2003
+T137	引文作者 14664 14668	Hand
+T138	引文作者 14673 14677	Till
+T139	引文时间 14680 14684	2001
+T140	引文的结果 14689 14852	this is a statistically consistent metric that provides a single‐number summary for the performance of a classifier and is also more discriminating than accuracy .
+T141	术语 14869 14872	AUC
+T142	术语 15156 15159	AUC
+T143	术语 15220 15229	F‐measure
+T144	术语 15261 15269	F1‐score
+T145	术语 15335 15343	F1‐score
+T146	术语 15393 15399	recall
+T147	术语 15379 15388	precision
+T148	术语 15488 15491	AUC
+T149	术语 15496 15499	F 1
+T150	术语 15513 15536	5‐fold cross validation
+T151	引文作者 15539 15545	Witten
+T152	引文作者 15548 15553	Frank
+T153	引文时间 15556 15560	2011
+T154	引文的方法 15479 15536	estimate AUC and F 1 values using 5‐fold cross validation
+T155	术语 16017 16031	standard error
+T156	引文作者 16034 16053	Campbell & Swinscow
+T157	引文时间 16056 16060	2011
+T158	术语 16101 16115	standard error
+T159	术语 16145 16148	F 1
+T160	术语 16153 16156	AUC
+T161	术语 16192 16212	normally distributed
+T162	术语 16795 16802	Z‐score
+T163	术语 17002 17005	SGD
+T164	术语 17019 17032	learning rate
+T165	术语 17039 17058	regularizer factors
+T166	术语 17107 17123	cross validation
+T167	术语 17143 17157	learning rates
+T168	术语 17179 17195	side‐information
+T169	术语 17200 17214	latent weights
+T170	术语 17269 17284	weight matrices
+T171	术语 17323 17350	number of latent dimensions
+T172	软件工具 17510 17522	MATLAB 2013a
+T173	软件工具 17528 17553	3.47Ghz 6‐core i7 machine
+T174	引文作者 17608 17613	Milne
+T175	引文作者 17618 17624	Witten
+T176	引文时间 17627 17631	2013
+T177	术语 17785 17802	anchor prediction
+T178	术语 17908 17914	MW2013
+T179	术语 17989 18006	candidate anchors
+T180	术语 18149 18162	feature model
+T181	引文的结果 18237 18298	collaborative filtering and link prediction in social network
+T182	引文作者 18301 18304	Chu
+T183	引文作者 18307 18311	Park
+T184	引文时间 18314 18318	2009
+T185	引文作者 18321 18325	Yang
+T186	引文时间 18335 18339	2011
+T187	术语 18492 18505	pair of nodes
+T188	术语 18461 18477	bilinear setting
+T189	术语 18519 18532	loss function
+T190	术语 18545 18553	logistic
+T191	术语 18578 18597	logistic regression
+T192	术语 18605 18623	bilinear component
+R2	produces Arg1:T4 Arg2:T3	
+R1	has_cited_time Arg1:T5 Arg2:T4	
+R3	has_cited_time Arg1:T28 Arg2:T27	
+R4	results Arg1:T39 Arg2:T44	
+R5	coauthor Arg1:T39 Arg2:T40	
+R6	coauthor Arg1:T40 Arg2:T41	
+R7	coauthor Arg1:T41 Arg2:T42	
+R8	has_cited_time Arg1:T43 Arg2:T42	
+R9	has_cited_time Arg1:T51 Arg2:T50	
+R10	has_cited_time Arg1:T54 Arg2:T55	
+R11	coauthor Arg1:T61 Arg2:T62	
+R12	has_cited_time Arg1:T63 Arg2:T62	
+R13	results Arg1:T61 Arg2:T60	
+R14	results Arg1:T70 Arg2:T73	
+R15	has_cited_time Arg1:T72 Arg2:T71	
+R16	coauthor Arg1:T70 Arg2:T71	
+R19	has_cited_time Arg1:T77 Arg2:T76	
+R17	coauthor Arg1:T75 Arg2:T76	
+R18	results Arg1:T79 Arg2:T82	
+R20	coauthor Arg1:T79 Arg2:T80	
+R21	has_cited_time Arg1:T81 Arg2:T80	
+R22	coauthor Arg1:T85 Arg2:T86	
+R23	has_cited_time Arg1:T87 Arg2:T86	
+R24	coauthor Arg1:T88 Arg2:T89	
+R25	has_cited_time Arg1:T90 Arg2:T89	
+R26	produces Arg1:T88 Arg2:T91	
+R27	results Arg1:T95 Arg2:T94	
+R28	coauthor Arg1:T95 Arg2:T96	
+R29	has_cited_time Arg1:T97 Arg2:T96	
+R30	coauthor Arg1:T101 Arg2:T102	
+R31	has_cited_time Arg1:T103 Arg2:T102	
+R32	coauthor Arg1:T133 Arg2:T134	
+R33	coauthor Arg1:T134 Arg2:T135	
+R34	has_cited_time Arg1:T136 Arg2:T135	
+R35	coauthor Arg1:T137 Arg2:T138	
+R36	has_cited_time Arg1:T139 Arg2:T138	
+R37	results Arg1:T133 Arg2:T140	
+R38	field_similar_as Arg1:T133 Arg2:T137	
+R39	uses Arg1:T151 Arg2:T154	
+R40	coauthor Arg1:T151 Arg2:T152	
+R41	has_cited_time Arg1:T153 Arg2:T152	
+R42	has_cited_time Arg1:T157 Arg2:T156	
+R43	coauthor Arg1:T174 Arg2:T175	
+R44	has_cited_time Arg1:T176 Arg2:T175	
+R45	results Arg1:T182 Arg2:T181	
+R46	coauthor Arg1:T182 Arg2:T183	
+R47	has_cited_time Arg1:T184 Arg2:T183	
+R48	field_similar_as Arg1:T185 Arg2:T182	
+R49	has_cited_time Arg1:T186 Arg2:T185	

@@ -1,0 +1,130 @@
+Proverbs are a fascinating folklore genre that constitutes an important part of a nation 's cultural heritage and reflects its collective wisdom . 
+“ The wisdom of nations lies in their proverbs … collect and learn them , they are notable measures of directions for human life . 
+… ” ( Penn , 1793 , p. 25 ) . 
+The study of proverbs has long been a subject of research by scholars from different disciplines , such as folklorists , philologists , logicians , psychologists , and anthropologists . 
+Consequently , various research motivations and methods have produced diverse approaches toward organization and classification of proverbs into convenient indices for further search and retrieval . 
+These approaches mostly differ in what should be considered key proverbial characteristics on which an index or classification scheme should be devised , such as text , logical or syntactic structure , context of usage , literary source , time and country of origin , or semantic field ( Hasan‐Rokem & Kats , 2009 ) . 
+To resolve these disagreements , we construct an ontology for proverbs . 
+Ontologies have been proposed and widely employed in the past decade as formal domain vocabularies specifying content‐specific agreements for a variety of knowledge‐sharing activities ( Gruber , 1995 ) . 
+An ontology is a semantic scheme that comprises the main classes ( concepts ) of a given domain of knowledge , their properties , interrelationships , and instances ( Noy & McGuinness , 2001 ) . 
+The basic ontological relationship types are IS‐A ( hyponymy ) and instance‐of ( a concrete type‐of ) , which constitute the basis of the concept hierarchy , but other thesauri‐like ( e.g. , “ part‐of , ” “ used‐for ” ) or content‐driven relationships ( e.g. , “ located‐at , ” “ produced‐by ” ) are allowed as well . 
+A pair of concepts ( or instances ) , C1 and C2 , and the relationship type , R , binding them semantically , constitute a triple of the form ( C1 R C2 ) , representing an ontological relation and a fact in the domain of knowledge , such as ( lion IS‐A animal ) , ( fire causes smoke ) , and ( Rome instance‐of city ) . 
+Furthermore , some logical inference rules might be applied to create new relations ( facts in the domain ) that can be derived from the semantics of the existing relations in the ontology . 
+Thus , the defined logical and semantic structure of ontologies makes them superior in applications such as information retrieval , as compared to thematic taxonomies based on unstructured heterogeneous associations between themes . 
+For example , for a user query “ human personality traits , ” a search engine enhanced with the domain ontology will retrieve relevant documents even if they do not contain the exact query terms but rather their related hyponymy concepts in the ontology , such as “ kindness , ” “ jealousy , ” “ diligence , ” and other specific traits . 
+One of the major challenges in proverb retrieval is that most proverbs are idiomatic and metaphoric ; that is , their semantic meaning is not expressed by their individual terms . 
+To tackle this problem , semantic theme classifications have been proposed . 
+One of the most prominent schemes was proposed by Kuusi ( 1972 ) and further widely adopted and explored in the literature ( Lauhakangas , 2001 , 2007 ) . 
+Kuusi developed a thematic classification of proverbs that consists of 13 main semantic themes and their 52 main classes divided into 325 subgroups . 
+However , the structure of the thematic hierarchy is based on free associations that might in some cases be quite controversial . 
+In addition , some of the theme classes represent the explicit terminology of the proverbs related to them ( e.g. , “ natural elements ” ) , whereas the others convey their implicit meaning ( e.g. , “ social position ” ) . 
+Furthermore , every proverb belongs only to a single theme even when it clearly fits several themes , some by terms and the others by meaning . 
+These inconsistencies can be resolved by designing a multidimensional ontology with well‐defined classes and properties ( relationships ) that separates explicit terminology classes from the semantic meaning classes . 
+Recently , multidimensional or multiperspective ontologies have been proposed by both information scientists and computer scientists ( e.g. , Zhitomirsky‐Geffet , Bar‐Ilan , Miller , & Shoham , 2010 ) . 
+A multiperspective ontology contains several categorization schemes ; that is , it is composed of multiple orthogonal sets of categories . 
+Each of these sets describes a different aspect or dimension of the classified objects . 
+The goal of this research is to develop a generic ontological model for proverbs that unifies potential classification criteria and various characteristics of proverbs at different dimensions . 
+Because proverbs , as mentioned earlier , can be described and indexed by multiple characteristics and criteria , we suggest that multidimensional ontologies fit very well for proverb classification . 
+To test the proposed method and the effectiveness of the constructed ontological model we developed an online proverb search and retrieval system . 
+Using this system , we conducted a large‐scale user experiment . 
+In our experiment , 70 users were divided into two groups and asked to search a proverb repository using two different interfaces : a free‐text search interface and an ontology‐based interface . 
+The first group was exposed to the ontology search and then to the free‐text search interface , and the second group used the free‐text search interface and then the ontology‐based search . 
+At the end of the experiment , users were asked to evaluate their search experience with both interfaces in a short questionnaire . 
+The results of the experiment were analyzed by standard recall and precision measures , and the questionnaire was analyzed by standard statistical methods . 
+The following research questions were investigated in the user study : RQ1 . 
+Whether and how much is ontology‐based search more effective than the free‐text search for proverb retrieval in terms of precision and recall ? 
+RQ2 . 
+Does the ontology help minimize user effort during proverb search compared to the free‐text search ? 
+RQ3 . 
+What is the level of user satisfaction with the ontology‐based search system compared to the free‐text search ? 
+RQ4 . 
+Does the order of exposure to the interfaces ( ontology‐based search first or free‐text search first ) influence the results ? 
+RQ5 . 
+What is the most popular search strategy applied by users to retrieve proverbs when using ontology versus without ontology ? 
+RQ6 . 
+Do proverbs with high user consensus ( “ wisdom of the crowds ” ) yield higher recall and precision than all the user‐selected proverbs ( evaluated by experts ' selected golden standard ) ? 
+The introduced classification model provides researchers , publicists , and writers , literature and linguistics teachers and students , and all the folklore lovers with the semantic ontology‐based search of proverbs by various aspects and criteria , including explicit terminology and semantic meaning . 
+A practical contribution of this work is an automated web‐based proverb search and retrieval system which incorporates the proposed multidimensional ontological scheme . 
+To our knowledge , there are no existing ontologies for proverbs . 
+Therefore , in this section , we review related work in the field of cultural heritage ontologies . 
+Many of these also are multidimensional ontologies , which are particularly relevant for our study . 
+Two fundamental upper level ontologies were recently developed for the domain of cultural heritage by two large research groups : the International Committee for Documentation of the International Council of Museums Conceptual Reference Module ( CIDOC‐CRM ) , a result of a 10‐year project ( http : //www.cidoc‐crm.org/ , Doerr , 2003 ) , and the Europeana Data Model ( Winer , 2011 , 2014 ) . 
+They are being successfully employed and extended by many national projects for cultural heritage digitization . 
+One example is a metrical ontology for Spanish poetry ( González‐Blanco et al. , 2014 ) . 
+This ontological model includes all the common structural characteristics of ancient poetry from different time periods and genres , and thus provides a common terminology for linking various repertoires . 
+The ontology was constructed in two steps : ( a ) the generic ontology for the shared genre‐independent characteristics of the poems and then ( b ) enrichment of the ontology with specific concepts and properties specific for Castilian poetry . 
+Another extension of the CIDOC‐CRM model and Functional Requirements for Bibliographic Records Object Oriented ( FRBRoo ) ontology ( Bekiari , Doerr , & Le Boeuf , 2010 ) for bibliographic data is the Sharing Ancient Wisdoms ( SAWS ) ontology built as part of the SAWS project ( Jordanous , Lawrence , Hedges , & Tupman , 1984 ) . 
+This project focuses on collections of ideas and opinions which make up the ancient genre of philosophical texts , wisdom literature . 
+An ontology for describing the types of relationships present between or within these texts has been constructed ( http : //www.ancientwisdoms.ac.uk ; http : //www.ancientwisdoms.ac.uk/media/ontology/doc—SAWS ontology ) . 
+SAWS concentrates mainly on Ancient Greek and Arabic manuscripts containing wisdom literature . 
+All class descriptions were provided by domain experts . 
+In 2008 , Luchev , Paneva , and Rangochev introduced a generic ontological model of knowledge of art objects that belong to Bulgarian folklore . 
+This model is a step toward building a digital library of Bulgarian folklore tradition and contains 70 concepts ( e.g. , “ Song , ” “ Ritual , ” “ Faith , ” and “ Food ” ) and 81 properties . 
+An ontology for Chinese poetry has been developed by combining the well‐known Chinese vocabulary thesaurus ( TYCCL ; Mei , Zhu , Gao , & Yin , 1984 ) with poems and resources ( Yang , Tseng , Liao , & Liang , 2013 ) . 
+First , a set of keywords was selected as representative of 300 Chinese poems by consulting a domain expert . 
+Some of the keywords conveyed information on a poem ( e.g. , “ poem title , ” “ person 's name , ” “ building name , ” “ location name ” ) while other keywords were abstract ( e.g. , “ love , ” “ farewell , ” “ sad ” ) . 
+This ontology allowed rapid access to poems that contain user query terms . 
+Another related project is a collaborative generation of a multiperspective ontology from users tags for images of Jewish cultural heritage ( Zhitomirsky‐Geffet et al. , 2010 ) . 
+As an image might be perceived differently by users with varying interests and viewpoints ( e.g. , historical object vs. religious symbol ) , a mechanism for expressing various user perspectives was integrated into the ontology . 
+Each perspective , including its concepts and their interrelationships , can be viewed as a separate dimension of the ontology . 
+In this study , we adopted and combined the methodological approaches presented in the reviewed literature described earlier . 
+Thus , we use and inherit entities from the existing generic models , build the ontological model with multiple dimensions , perform two‐phase design that consists of the upper level ontology and its extension , use a corpus of representative objects ( proverbs ) to fetch the basic vocabulary , and employ the ontology to improve search and retrieval . 
+Next , we describe our methods in greater detail . 
+At the first stage of the research , we developed a method for creating a multidimensional ontological model for proverbs . 
+Then , this method was applied on a set of proverbs , and an ontology was constructed and further utilized as part of the proverb‐retrieval system . 
+Finally , a large‐scale user study was arranged to evaluate the effectiveness of the created ontology . 
+The process of ontology creation consists of two steps : ( a ) creating the generic upper ontology for proverbs based on the existing models and then ( b ) refining and extending it with more specific classes and relationships from a selected proverb corpus . 
+The upper level ontology for proverbs is generic and can be easily translated into different languages ; it will serve for interoperability purposes . 
+The lower level ontology is facilitated to represent the realm of Hebrew proverbs . 
+To build an upper ontological model for proverbs , we explored the existing ontologies in the field of cultural heritage , such as the CIDOC‐CRM ( http : //www.cidoc‐crm.org/ , Doerr , 2003 ) , the FRBR‐OO ( Bekiari et al. , 2010 ) , the SAWS ( http : //www.ancientwisdoms.ac.uk/ ) , and the DM2E ( http : //dm2e.eu ) . 
+The classes most related to proverbs include : E33_Linguistic_object in CIDOC_CRM— “ This class comprises identifiable expressions in natural language . 
+Instances of E33_Linguistic_Object can be expressed in many ways : e.g . 
+as written texts , recorded speech or sign language . 
+However , the CRM treats instances of E33 Linguistic Object independently from the medium or method by which they are expressed ” ( http : //erlangen‐crm.org/docs/ecrm/110317/classes/E33_Linguistic_Object___‐1216445709.html ) . 
+F2 : Expression in FRBR‐OO— “ This class comprises the intellectual or artistic realisations of works in the form of identifiable immaterial objects , such as texts , poems , jokes , musical or choreographic notations , movement pattern , sound pattern , images , multimedia objects , or any combination of such forms that have objectively recognisable structures ” ( http : //erlangen‐crm.org/docs/efrbroo/120131/classes/F2Expression___1414340666.html ) . 
+emd : ProvidedCHO ( Provided Cultural Heritage Object ) class in DM2E— “ This class comprises the Cultural Heritage objects that Europeana collects descriptions about ” ( http : //dm2e.eu ) . 
+We defined a new class proverb as a subclass of the three classes as follows , where rdf and rdfs are RDF/S language namespaces , ecrm is the namespace of CRM‐CIDOC , efrbroo stands for the namespace of FRBR‐OO , and edm is the DM2E model namespace :           This class inherits the properties from its superclasses . 
+In particular , the dc : description property contains the text of the proverb , and other metadata properties such as edm : genre states whether the proverb is literal or idiomatic , efrbroo : has component property holds the main terms of the proverb that are to be searchable , ecrm : has language comprises the language of the proverb , and ecrm : has translation is used for the proverb 's translation . 
+Next , the proverb content is considered . 
+One of the main characteristics of the proverb content is that its meaning is typically metaphoric and is not expressed explicitly by its terminology . 
+Hence , there is a need in modeling proverb content at two distinct , but interrelated , dimensions : ( a ) the explicit terminology ( ET ) and ( b ) the metaphoric terminology ( MT ) . 
+Each of these dimensions consists of a set of classes and triples , which correspond to literal or semantic ( metaphoric ) subjects of proverbs . 
+To create the upper ontology for proverb subjects , we set the root ( most abstract ) class of the entire hierarchy to be “ Entity ” and define its two direct subclasses as Explicit subject and Metaphoric subject classes . 
+For the upper level ontology at the ET dimension , we chose the following generic classes based on the WordNet ontology ( Fellbaum , 1998 ) : physical entity , abstract entity , and living entity . 
+At the MT dimension , we selected the following most generic Kuusi 's categories : social element , cognitive element , element in human life , element of time , and element of religion . 
+The Conceptual Mapping ( CM ) Model ( Ahrens , 2002 ) and the Contemporary Theory of Metaphor ( Lakoff , 1993 ) analyze the linguistic correspondence between a source and a target ( knowledge ) domain to determine the underlying reason for the source–target pairings . 
+The underlying reason is formulated in terms of a Mapping Principle : that a target domain will select only source domains that involve unique mapping principles . 
+Inspired by this theory , matching pairs of subjects ( source from the ET dimension and target from the MT dimension ) associated with the same proverb will be linked by a new ontological property : has metaphoric target . 
+Table 1 demonstrates sample proverbs and their semantic interpretation . 
+Stone–reward evil , ungratefulness Water–good , kindness Well–person Bread–good Water–man Find ( bread ) –be rewarded Ant–diligence Sluggard–lazy person Wise–diligent In addition , we define the following new properties of the Proverb class : has interpretation ( semantic meaning ) of the proverb ( string ) , has explicit subject , and has metaphoric subject . 
+The values for both types of subjects are of the E55_Type from the CIDOC‐CRM and are defined in the bidimensional ontology of proverbs ' subjects described earlier . 
+The ecrm : E55_Type class 's has broader term and has narrower term properties are employed in defining the taxonomy of subjects for both subject‐ontology dimensions , ET and MT . 
+Additional properties represent other dimensions of proverbs such as has syntactic structure and has logical structure ( Hasan‐Rokem & Katz , 2009 ) . 
+However , in this study , we focus on the ET and MT dimensions of proverbs and leave the other dimensions for future research . 
+An instance sample of the Proverb Class ( for Proverb 3 in Table 1 ) is shown in Figure 1 . 
+A sample instance of the proverb class with the various properties . 
+Once the upper ontology has been constructed , it can be enriched with more specific classes associated with a specific proverb 's collection . 
+We propose a general method for this process . 
+First , the raw vocabulary ( ET ) of the proverbs is to be normalized , extended , and formulated , to build the bidimensional ontology . 
+To this end , we took a bottom‐up approach , divided into the following steps : At first , all the individual terms with self‐defined meaning are extracted , nouns ( transformed into their basic morphologic derivation and singular form ) , verbs and adjectives ( transformed into their noun form ) , and multiterm collocations are retrieved as well in their singular form ( e.g. , “ good fortune , ” “ spilt milk ” ) . 
+Synonyms and similar terms are unified into WordNet‐style . 
+Each synset represents a concept in the ontology . 
+Pairs of the created concepts ( synsets ) are interlinked by hyponymy relationship , and additional abstract concepts from WordNet are added as hypernyms at the upper level of the hierarchy . 
+In addition , a few concepts of parallel themes from Kuusi 's scheme ( http : //lauhakan.home.cern.ch/lauhakan/etsi.asp ) are incorporated as well , such as “ natural element ” and “ animal. ” The nonhierarchical and domain‐specific relationship types between the concepts are added . 
+Thus , creation of the ET dimension of the ontology is finalized . 
+The next phase is to construct the MT dimension of the ontology . 
+Most of the proverb terms include metaphors which refer to a different meaning in another semantic field . 
+Therefore , we further detect all the concepts that are used as metaphors in the corresponding proverbs to compose a set of their semantic interpretation concepts ( e.g. , for the concept “ lion , ” a concept “ leader ” was added into the MT concept set ) . 
+The interpretation terms are mostly extracted from the proverb meaning description appearing on the websites from which the proverbs were collected as explained further in the Experimental setup section . 
+Further , Steps 2 to 4 are to be repeated for the MT concept set . 
+Finally , to bind the metaphoric concepts to their semantic interpretations , a new cross‐dimensional relationship type “ has metaphoric target ” is employed . 
+Once the ontological structure is complete , each concept from both dimensions is linked to its proverbs . 
+Finally , to facilitate the proposed ontological model for real‐life applications , a web‐based proverb‐retrieval system was implemented by adapting the interfaces from the previous work ( Bar‐Ilan , Zhitomirsky‐Geffet , Miller , & Shoham , 2012 ) and can be accessed at http : //www.ontology.org.il/ . 
+Two interfaces were constructed to enable object ( in our case , proverb ) retrieval from the database based on query terms selected by users : ( a ) ontology‐based interface and ( b ) free‐text search interface . 
+In the ontology‐based interface , query terms could be selected from the ontology ; in the free‐text search interface , there was no ontology available but rather a plain text box with autocomplete from the flat list of terms coming from the proverbs or their interpretations . 
+To start working with the system , a user had to log in into one of the two interfaces ( a different user name was provided for each interface ) and then choose a scenario from the scenario list . 
+Then , the user had to pick term/s and construct the query for search . 
+In each of the interfaces , clicking on the search button retrieved the list of proverbs that were linked with the selected concepts ( with the exception of expanded search , where additional related proverbs were retrieved as well ) . 
+displays part of the results for the query “ Success. ” The users were asked to mark all proverbs that were relevant to the specific scenario , along with their semantic interpretations . 
+Users also had an option to see all proverbs that they picked as relevant for each of the scenarios , and they could remove proverbs from this set if they felt that they were not really relevant for the scenario . 
+Then , another scenario could be selected for search by the user . 

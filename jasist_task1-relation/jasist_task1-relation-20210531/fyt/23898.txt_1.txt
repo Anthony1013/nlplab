@@ -1,0 +1,130 @@
+An innovation is defined as an idea , practice , or object that is perceived as having new values by an individual or other unit of adoption ( Rogers , 1962 ) . 
+Widely seen as the driving force of economic growth and social creativity , innovations are a central plank of national and local policies and consume billions of dollars of investment worldwide . 
+In both academic and practitioner communities , it is commonly perceived that organizations should innovate to be effective , or even survive . 
+Diffusion is the process by which an innovation is communicated through certain channels over time among the members of a social system ( Rogers , 1962 ) . 
+The value of innovation can only be reflected in the adoption and diffusion processes . 
+For scientific research , diffusion of innovations is particularly important . 
+Because scientific innovation is very difficult and time‐consuming , such as the invention of drugs that requires a combination of many skills and a long period of repeated experiments . 
+Without effective adoption and diffusion , research achievements will lose their value and do not fully come into play . 
+So understanding the diffusion of innovations is central to promoting new ideas , bringing necessary progress , and staying competitive . 
+Citations of academic publications document the diffusion process and trajectory of innovation . 
+Latour ( 1987 ) argued that citations from a paper reinforce its arguments and connect it to an intellectual lineage . 
+It also may indicate existing knowledge upon which the current publication builds ( Cole , 2000 ) . 
+Although scholars have continually investigated questions about the diffusion of innovations , such as the process of diffusions ( Chatterjee & Eliashberg , 1990 ; Hägerstrand , 1967 ) , the rate of idea adoption ( Abrahamson & Rosenkopf , 1997 ; Mintrom & Vergari , 1998 ) , and the decision‐making process in the diffusion of innovations ( Rogers & Shoemaker , 1971 ) , most data are collected via semistructured interviews and surveys used for descriptive purposes , which is a limited approach that has bias . 
+With large‐scale citation data , we can quantitatively analyze the scientific diffusion of innovation , where publications and citations provide especially good footprints to trace the pathway of scientific and technical progress . 
+Diffusion and implementation of innovations require knowledge and the ability to apply that knowledge in novel ways and across a variety of disciplines ( Desouza et al. , 2009 ) . 
+For instance , Latent Dirichlet Allocation ( LDA ) is a topic model that was first proposed in the Computer Science field in 2003 ( Blei , Ng , & Jordan , 2003 ) . 
+When it is cited by other disciplines , the original algorithm can be upgraded and reconstructed into new models ( Wang et al. , 2011 ) or be used for solving a new problem ( Au Yeung & Jatowt , 2011 ) . 
+The exchanging and recombination process of concepts show us how innovative ideas and technologies from different areas can be adopted , integrated , and ameliorated . 
+In this paper , we quantitatively measure the diffusion of a particular innovation , building on previous work that defines the trail of progress in terms of citations . 
+With a case study of the evolution of LDA , we demonstrate the sequence and progress of the growth of innovation , explore the patterns of applying or improving innovative ideas , and reveal the cross‐boundary diffusion between different subjects . 
+Rogers popularized the diffusion of innovations theory , where he synthesized over 500 diffusion studies across numerous fields in his seminal book ( 1962 ) . 
+During the 1970s , the theoretical model gradually integrated the organizational changes and innovation diffusion . 
+The Stage theory model , which suggests that innovation adoption goes through various stages that require discipline‐specific strategies , became the primary model to describe the phenomenon of innovation diffusion ( Cooper & Zmud , 1990 ; Kwon & Zmud , 1987 ; Lewin , 1947 ; McFarlan , McKenney , & Pyburn , 1983 ) . 
+These Stage models tend to view this process as linear and sequential , whereas in practice it is more likely to be iterative and recursive ( Saren , 1984 ) . 
+For example , Rogers ( 1962 ) proposed five stages , including agenda‐setting , matching , redefining/restructuring , clarifying , and routinizing , where later stages in the innovation process can not be undertaken until earlier stages have been completed . 
+Kwon and Zmud ( 1987 ) proposed that information technology ( IT ) implementation follows six stages , including initiation , adoption , adaptation , acceptance , routinization , and infusion . 
+There are also many studies that attempt to discover which stages in the development process or features of a new product are most critical to achieving market success and wide adoption ( Henard & Szymanski , 2001 ) . 
+In a recent study , Yasir Mehmood , Barbieri , and Bonchi ( 2016 ) proposed a stochastic framework for modeling user adoption and different stages of innovation diffusion . 
+Continuing with Roger 's theory , their model explained the propensity of new projects to spread through the population and the rate at which adoption occurs at various stages . 
+With the increase of social network data , diffusion researches have moved their focus onto the relationship between the entities that are diffused ( Goyal , Heidari , & Kearns , 2014 ; Tang , Sun , Wang , & Yang , 2009 ; Weng , Flammini , Vespignani , & Menczer , 2012 ) , as well as the role of individual users through the diffusion process of innovation in a network ( Backstrom , Huttenlocher , Kleinberg , & Lan , 2006 ; Rong & Mei , 2013 ; Ugander , Backstrom , Marlow , & Kleinberg , 2012 ) . 
+For example , Montanari and Saberi ( 2010 ) found that innovation spreads quickly in locally connected networks and high‐degree nodes slow down the diffusion process . 
+Rong and Mei ( 2013 ) regarded algorithms in computer science as the nodes of an innovation network and citations as links to study two different interrelationships among innovations ( competition and collaboration ) and how they affect users ' adoption behavior . 
+Cross‐disciplinary knowledge flows are specifically associated with the co‐occurrence of innovation diffusion ( e.g. , some of the domain‐specific methods are introduced into new disciplines , original concepts are reassembled , and new knowledge is generated ) . 
+As argued by Kusiak ( 2016 , p. 255 ) , “ A building block of innovation science is connecting seemingly unrelated ideas . 
+We are flooded with discoveries in isolated domains . 
+Making quick connections between , for instance , biology and technology , could lead to bigger ideas and redirect research and development. ” Generally considered as the indictor of knowledge flow , citations are often adopted to examine patterns of dynamic disciplinary knowledge production and diffusion ( Cronin & Meho , 2008 ; Kiss , Broom , Craze , & Rafols , 2010 ; Levitt , Thelwall , & Oppenheim , 2011 ; Yan & Yu , 2015 ; Zhao & Wu , 2014 ) . 
+Using citation analysis , studies have found that scientific works in one discipline tended to cite publications from adjacent disciplines ( van Leeuwen & Tijssen , 2000 ) and citations to publications of their own discipline occurred sooner than citations to papers in other disciplines ( Rinia , Van Leeuwen , Bruins , Van Vuren , & Van Raan , 2001 ) . 
+When looking at specific areas of research , it is found that a few library and information science journals heavily cited communication science journals ( Borgman & Rice , 1992 ) and journal knowledge flows in library and information science is frequent ( Zhao & Wu , 2014 ) . 
+Similarly , Leydesdorff and Probst ( 2009 ) revealed that communication science journals have a strong connection with political science and social psychology journals . 
+Another thread of citation‐based knowledge diffusion studies use citation data to explore the knowledge path across various disciplines . 
+For example , using part of the Journal Citation Index data from 1969 , Narin , Carpenter , and Berlt , ( 1972 ) proposed a cross‐field model that utilizes the relationships between journal citations . 
+They found that the fields of science and nature function as a link for physics and biology , and there is a knowledge path through the fields of biology – biochemistry – chemistry – physics – mathematics . 
+Rorissa and Yuan ( 2012 ) used citation data for 10 years ( 2000–2009 ) and found the top five disciplines that contribute to information retrieval are computer science , library and information science , engineering , telecommunications , and management . 
+Yan and Yu ( 2015 ) built a discipline‐level citation network based on a journal‐to‐journal citation matrix and found several connected knowledge paths ( e.g. , Medicine – Biochemistry – Agriculture Sciences – Environmental Science and Medicine – Biochemistry – Chemistry – Materials Science – Physics – Earth and Planetary Science ) . 
+Based on the assumption that authors cite the works that influence them , some studies have specially used citation as a proxy for innovation diffusion . 
+Jaffe and Trajtenberg ( 1996 ) , for example , use citations of all U.S. patents granted since 1963 to measure the diffusion of knowledge on the geographic portrait . 
+The results show that patents granted to United States inventors are much more likely to cite previous United States patents than are patents granted to inventors of other countries . 
+Mowery and Ziedonis ( 2002 ) interpret patent citations as measures of the importance of the contribution to inventive knowledge and find higher citation rates among patents originating from university labs . 
+Indeed , citations can not represent directly adoption of innovation and scientists have pointed to a number of concerns about citation analysis , including biases in citation patterns , motivations to cite that extend beyond intellectual influence , wrong or misleading citations , variation between specialties , and authors ' ignorance of some relevant literature ( MacRoberts & MacRoberts , 1996 ) . 
+However , the data from citation‐based approaches still have much more advantages for innovation diffusion research compared with the data gathered from conventional approaches , including interviews , questionnaires , and in‐depth case studies , and also social network data . 
+First , citations are associated with high quality and credibility after peer review , which means the publications get admitted to the scientific community . 
+Second , citations are easily accessible in electronic form for revealing the content of the diffusion process . 
+As Small ( 1978 ) argues , citations are considered part of the cognitive process of producing written discourse . 
+Moreover , publications are linked to inventiveness and contain a trace of what knowledge they build upon through the citation of prior art . 
+Last , the traditional method can only collect data for a period of time with a small number of samples . 
+Citation is a cumulative number and the duration is very long , so we can map the entire diffusion process of the innovation . 
+Citations have become intellectual linkages across academic and professional disciplines and can be used to study the nature and the development of different domains ( Zhang , Ding , & Milojević , 2013 ) . 
+Tang ( 2004 ) used citation analysis to study the scholarship maturity of Library and Information Science ( LIS ) and found that LIS is a highly interdisciplinary field that exchanges knowledge with a variety of disciplines from the domains of science , social science , and the humanities . 
+By analyzing interdisciplinary bridges between pairs of disciplines , Levitt et al . 
+( 2011 ) found that LIS grew the fastest in interdisciplinarity between 1990 and 2000 among all social science fields . 
+Yan ( 2015b ) found that the subjects of chemical engineering , energy , and environmental science have the fastest growth . 
+In summary , previous studies have been more concerned about offering a quantitative proxy of the diffusion of innovations and generally do not consider how innovations are adapted and improved over time . 
+In this study , we choose LDA as a research instance and reveal the diffusion process of LDA by analyzing its citation history . 
+The citations we identify not only show the trajectory of the innovative idea diffusing and evolving , but also reveal the knowledge flows across disciplines . 
+Latent Dirichlet Allocation ( LDA ) is a generative probabilistic model used for clustering sets of discrete data ( Blei et al. , 2003 ) . 
+Due to its scalability and meaningful results , LDA has become an important tool for scientific research as well as many academic and business fields , such as sentiment analysis ( Pang & Lee , 2008 ) , image retrieval ( Hare , Lewis , Enser , & Sandom , 2006 ) , and social network analysis ( Mccallum , Wang , & Corrada‐Emmanuel , 2005 ) . 
+According to Scopus , the citation of LDA has reached more than 6,800 in 2015 . 
+Because of the large number of citations and a wide range of applications , we chose LDA 's citations in the case study . 
+Although Google Scholar tends to have the most comprehensive data on journals and proceedings , it ca n't show the full dataset because of its search mechanism . 
+Only part of the citation data can be accessed and the quality of the dataset is not carefully controlled . 
+Scopus includes a more expanded spectrum of journals than PubMed and Web of Science ( Falagas , Pitsouni , Malietzis , & Pappas , 2008 ; Klavans & Boyack , 2009 ; Leydesdorff , de Moya‐Anegón , & de Nooy , 2014 ; Meho & Yang , 2007 ) . 
+The search result of citation numbers of LDA is 6,822 in Scopus and only 3,797 in Web of Science between 2003 and 2015 . 
+So in this study , we used LDA citation extracted from Scopus . 
+The citations are taken from articles , review articles , and proceeding papers published between 2003 and 2015 , and the metadata contains the title , abstract , year , authors . 
+Academic disciplines are simply particular branches of knowledge and together they form the whole or unity of knowledge that has been created by the scientific endeavor ( Krishnan , 2009 ) . 
+Many studies choose to use Subject Categories to represent scientific disciplines and to study knowledge flow and diffusion ( Leydesdorff & Rafols , 2009 ; Rafols & Leydesdorff , 2009 ; Yan , 2015a ) . 
+Scopus uses journal‐to‐journal citation data to predefine its own journal classification schema—ASJC ( All Science Journals Classification ) . 
+According to the journal 's assigned subject , a paper is typically associated with one or more subjects and these , in turn , are grouped into one of the four subject areas : Life Sciences , Social Sciences , Physical Science , and Health Sciences . 
+Moreover , some papers are also signed into a subject area termed Multidisciplinary . 
+In this study , we use subject as a proxy for the discipline and focus on the analysis of the diffusion process of LDA . 
+There are a total of 6,822 citations that cited LDA from 2003 to 2015 . 
+The largest subject is Computer Science , with 5,576 articles , followed by Engineering . 
+Energy gets the smallest number of papers , with three articles . 
+The numbers of papers that are associated with different numbers of subjects are illustrated in Table 1 ( b ) . 
+Unlike the subject area “ multidisciplinary , ” which is predefined by Scopus , in our study an interdisciplinary study is considered as a paper signed into two or more subjects . 
+It shows that up to 55 % ( 3,758/6,822 ) of papers are associated with one major subject and up to 45 % ( 3,064/6,822 ) are interdisciplinary studies . 
+To illustrate the relationships between different subjects , we built a two‐mode network based on links of paper‐subject ( Figure 1 ) consisting of 6,822 articles and 25 subjects . 
+Each article belongs to one or more subjects , where the size of the label for each subject is determined by the number of associated articles . 
+For the visualizations , we use Gephi ( Bastian , Heymann , & Jacomy , 2009 ) to construct the network and apply Hu 's ( 2005 ) layout method to map the network structure . 
+Paper‐subject network for LDA citations . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] To reveal the diffusion process of LDA , we first examine the topic evolution in the whole citation history of LDA to answer questions about which research topic attracts the most attention and what topics have been proposed during the process of adopting LDA . 
+The second step builds the subject‐topic matrix and then extracts the most relevant topics for each subject . 
+Titles and abstracts of LDA citations are preprocessed : ( a ) All words are converted to lowercase and the plural changed its singular form ; and ( b ) a stop word list is used to filter the common words , and words that have fewer than three letters are removed . 
+The LDA topic discovery model ( Blei et al. , 2003 ) is an unsupervised algorithm for performing statistical topic modeling using a “ bag of words ” approach that treats each document as a vector of words . 
+Each document is represented as a probability distribution over certain topics , where each topic is a probability distribution of words . 
+The multinomial parameters and are sampled respectively as latent random variables from a Dirichlet prior with parameters and . 
+Each document is obtained using the following generative process ( Figure 2 ) : ( a ) Sample a K‐vector of document specific mixing weights from the Dirichlet distribution ; and ( b ) for each word , sample topic assigns according to mixing weights and draws a word according to . 
+Graphic model presentation of LDA . 
+The Gensim library was used for the LDA topic modeling ( Řehůřek & Sojka , 2010 ) , where we apply standard parameters provided by Gensim ( alpha = “ symmetric , ” eta = None , decay = 0.5 , eval_every = 10 , iterations = 50 , gamma_threshold = 0.001 , update_every = 1 ) . 
+Considering the disciplinary differences in relation to the size , diversity , and duration of the current dataset , the number of topics was set at 30 for this study . 
+Based on previous studies ( Griffiths & Steyvers , 2004 ) , popular topics are found to be those with high topic proportions among a number of articles . 
+Topic popularity is calculated through , the per‐document topic proportion for document . 
+For example , as illustrated in Table 2 , five papers are assigned to three topics . 
+For each topic , the popularity of topic can be calculated through aggregating . 
+With the topic distribution of each paper , we can obtain the most‐related topic for each subject by manipulating the Paper‐Subject matrix and Topic‐Paper matrix . 
+Figure 3 shows the way to form the Topic‐Subject matrix . 
+We define the subject topic as the topic with the maximum value . 
+The formation of a topic‐subject matrix . 
+In this section , we analyze the research topics generated from the citations of LDA . 
+Table 3 lists 30 topics labeled by the top five words with the highest associations for each topic . 
+These topics give us a general understanding of LDA‐related researches . 
+We further divide these topics into three categories : Technology‐related topics ( 1–12 ) , which mainly focus on LDA algorithm , evaluation , parameter setting , and extension/improvement ; Application‐related topics ( 13–23 ) , which consist of text mining , topic modeling , system design , automatic translation , information retrieval , user recommendation , sentiment analysis , opinion mining , and image annotation ; and Data‐related topics ( 24–30 ) , which include biological data , scientific data , medical data , image data , and social media data . 
+Obviously , these three types are interrelated . 
+For example , sentiment analysis ( application‐related ) mainly uses social media data ( data‐related ) and inextricably links with natural language processing ( technology‐related ) . 
+LDA originally applied in topic modeling and text mining ( Blei et al. , 2003 ) is found to produce more technology‐related and application‐related derivatives . 
+Next , we use the topic popularity in each year ( ) to determine the top five popular topics per year , as shown in Figure 4a . 
+Diffusion stages of innovation . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Rogers ( 1962 ) identified five stages of the innovation diffusion process from the perspective of the users ' adoption decision : knowledge : becoming aware of how an innovation functions ; persuasion : forming an favorable or unfavorable attitude ; decision : engaging in activities that lead to a choice to adopt or reject the innovation ; implementation : putting into use ; and confirmation : evaluating the results . 
+The weakness of this stage model is that the decision‐making process is only part of the diffusion process and it does not show the entire innovation cycle ; for example , innovation may change during the diffusion process . 
+What 's more , diffusion of scientific innovation involves cross‐domain applications , which are different from products that have long been used to solve a particular problem/task and remain in a stable form . 
+In the context of citation‐based diffusion of innovation , citations represent indirect diffusion of innovation , which means that , first , innovation has been formed , and second , diffusion of innovation can be expressed as the transmission of knowledge and not necessarily adoption , and finally , the form of innovation is not immutable . 
+Based on the topic evolution of LDA and following Rogers ' diffusion model ( 1962 ) , we further divide the diffusion process of innovation into five phases , as shown in Figure 4b : Testing and Evaluation , Implementation , Improvement , Extending , and Fading . 
+Testing and Evaluation is the first stage of diffusion and deals principally with the assessment of the performance and efficiency of the innovation . 
+In the early period of the diffusion of LDA ( 2003–2006 ) , topics are mainly technology‐related and application‐related , which means that adopters question the performance of the innovation and use different ways to evaluate its algorithms and outcomes . 
+Corresponding to knowledge and the persuasion stage of Rogers ' diffusion model , testing and evaluation can accelerate the diffusion of innovation and help scientists in other disciplines understand the advantages of innovation . 
+Implementation , which occurs in the early period of innovation diffusion , means that researchers begin to put the innovation into practical applications . 
+In this stage , innovation is widely accepted by scientists in the originally proposed field and transformed into other forms to solve other types of problems . 
+For instance , LDA is upgraded into Multimodal Multi‐Instance Multi‐Label LDA ( M3LDA ) for the image annotation task ( Nguyen , Zhan , & Zhou , 2013 ) . 
+We can also find the rapid growth of topic 23 { Image , Semantic , Annotation , Segmentation , PLSA } and topic 29 { Image , Visual , Object , Scene , Feature } during 2004–2006 in Figure 4a . 
+Extending , which plays a crucial role in the whole diffusion process , is the stage when the innovation is applied across the disciplinary boundary into other domains . 

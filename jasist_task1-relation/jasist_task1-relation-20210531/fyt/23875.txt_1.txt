@@ -1,0 +1,130 @@
+What are the conditions for obtaining information about noncurrent videogames , now and in the future ? 
+This key question for many modes of videogame research centers to a large extent on the topic of this paper : videogame archives and the practices and modes of thought that shape them.11 All general expressions denoting the selection , collection , and safeguarding of games and game‐related information ( e.g. , “ videogame archiving ” and “ videogame preservation ” ) are used equivalently . 
+“ Videogames ” is similarly used as an umbrella term for electronic games , including computer games , smartphone games , console games , and arcade games . 
+By way of a literature review , the present paper investigates how videogames are understood as archival objects in the archival literature , and how they are seen to be best ingested into archival collections . 
+The conventional way of preserving videogames is to safeguard their accessibility either by emulation or collection of physical copies of games and the hardware needed to run them ( McDonough et al. , 2010 ) . 
+Although this approach is crucial to the endeavor of videogame archiving as a whole and a complex practice in its own right , it has seen considerable research attention in recent years and is therefore largely left aside here . 
+Instead , the paper places special emphasis on investigating archival literature that engages with the expanded notion of videogames ( “ the EN ” ) . 
+The EN is a concept introduced in this paper to collectively refer to aspects of videogames other than the purely material : game culture , cultural and social aspects including experience , play , and community life and activity . 
+This particular focus constitutes the major contribution of the present paper in relation to earlier reviews of research and practice in the field of videogame preservation ( e.g. , Winget , 2011b ) . 
+The term “ videogames ” designates a broad set of software with varying manners of use , consumption , distribution , and sales—ranging from multiplatform and large‐scale studio productions to smartphone games and independently released PC games for niche audiences . 
+Even though there are many views on where the boundary should be drawn between the game and what is “ game‐related , ” it is nonetheless clear that videogames have strong connections to hardware ( consoles , controllers ) , software ( operating systems , drivers ) , network connections ( LAN or Internet ) , and other materials ( game boxes , manuals ) alongside the social relations and cultures of videogame players ( Kraus & Donahue , 2012 ; McDonough et al. , 2010 ; Winget , 2011b ; Winget & Murray , 2008 ) . 
+The reasons put forward for the creation and curation of videogame archives often pertain to the cultural and economic significance of games , and the ubiquity of play ( e.g. , Bachell & Barr , 2014 ; Lowood , 2004 ) . 
+Preservational motivations aside , videogames have also attained scholarly importance , and game research is carried out in multiple disciplines , including game studies , an interdisciplinary field focused on researching videogames and associated phenomena . 
+The increasing economic , cultural , societal , and scholarly weight of videogames has heralded a broad array of museum and archival projects and scholarly work aimed at ensuring that videogames are preserved and kept available for future study and use . 
+Examples of major research projects in this area are the Preserving Virtual Worlds ( PVW ) ( McDonough et al. , 2010 ) and KEEP ( Pinchbeck et al. , 2009 ) projects . 
+PVW broadly investigates issues relating to videogame archiving ( including intellectual property law , migration , emulation , and metadata models ) using a case‐study approach , while KEEP focuses on developing software to facilitate the use of emulation as a preservational technique . 
+An array of approaches is also visible in prominent videogame archives and museums . 
+The ambulating videogame exhibition Game 2.0 ( Barbican International Enterprises , n.d. ) is marketed primarily as an arcade , offering its visitors the opportunity to play a wide selection of older games , which is markedly different from the British National Videogame Archive ( Newman & Simons , 2009 ) and its orientation towards preserving videogame culture . 
+Scholarly contributions to the theory and practice of videogame archiving show a similar spread of focal points : gameplay and the available ways of gameplay capture are a salient theme in Lowood 's writing ( 2004 , 2009 , 2011 ) ; Winget ( 2011a ) explores player‐made collections of videogame‐related materials and how they can benefit the work of preserving videogames , and Swalwell ( 2009 , 2014 ) investigates different ways of telling videogame history via archival and museum collections . 
+As the above examples show , there are substantial differences in the conceptions and practical approaches underpinning the building and curation of videogame archives . 
+While archival efforts of many kinds are needed to capture videogames ( McDonough et al. , 2010 ) , research relating to the creation and development of archives in general shows that self‐reflexivity and the interlocking of theory and practice are crucial factors in successful preservational projects ( Cox , 2002 ; Gilliland & McKemmish , 2004 ) . 
+Work on videogame preservation can thus only fully contribute to the advancement of the archival field if it is complemented by an examination of the patterns of archival reasoning and suggested practice present therein . 
+The scarcity of such meta‐analysis in the videogame‐archiving field motivates this paper : to explore the questions of what the EN of videogames is from the viewpoint of videogame archiving , and to see how varying conceptions and definitions of the EN of videogames inform preservational practice . 
+The first aim of the present study is to examine the overarching motivations and drivers for videogame preservation so as to provide a background for subsequent discussions in the paper . 
+Second , the study seeks to show how the EN of videogames is construed in the videogame‐preservation literature by investigating patterns of motivations and drivers , selection of content and materials , and methods of preservation . 
+The third aim of the study is to identify rewarding directions for future work and highlight important points of debate . 
+The study is a critical systematic literature review ( Grant & Booth , 2009 ) of publications originating from a broad range of academic disciplines and videogame‐archiving projects . 
+Content analysis ( Krippendorff , 2004 ) and writings on the method of systematic literature reviews ( e.g. , vom Brocke et al. , 2009 ; Webster & Watson , 2002 ) inform the paper 's theoretical and methodological approach . 
+The present review draws on a selection of method papers on qualitative systematic literature reviews ( Bandara , Miskon , & Fielt , 2011 ; Dixon‐Woods et al. , 2006 ) , including literature‐review methods accentuating the need for transparency and rigor ( vom Brocke et al. , 2009 ; Webster & Watson , 2002 ) . 
+Although distinctions do exist among these works , the review connects to their common methodological thrust : to make transparent the reviewer 's resources and literature search processes . 
+The review has also drawn inspiration from Burda and Teuteberg 's ( 2013 ) systematic review of digital‐preservation literature in terms of research design , article structure , and table layouts . 
+The publication types included in the review are English‐language , peer‐reviewed scholarly journals and conference proceedings , book chapters , white papers , and project reports . 
+Based on the argument that the academic journal is the primary medium of communication in the research domains most relevant for this paper , the review excludes monographs , professional journals , and brief documents ( posters , extended abstracts ) . 
+Following Dixon‐Woods et al . 
+( 2006 ) , the selection of publications to include in the present review was based on topical relevance . 
+Three such criteria were employed : Topically , the review focuses on works that address the motivations for and procedures of videogame archiving and the definition of games as archival objects . 
+Texts discussing the preservation of software in general have been omitted from the review , as have those that focus on games in relation to libraries , museums , or cultural heritage without engaging with matters of videogame archiving . 
+Publications that focus on conceptual modeling , metadata description , or the technical aspects of videogame archiving are not included despite their importance for the larger project of preserving games . 
+Preliminary database searches indicated that the field of game‐preservation research has no easily identifiable core journals or conference proceedings . 
+Hence , the scope of this review is not defined with reference to any particular disciplines or publication venues ; the search results are instead wholly determined by the above limitations in conjunction with the chosen databases and search strings ( see Table 1 ) . 
+The database resources at the author 's disposal were those provided by Uppsala University Libraries with the addition of Google Scholar . 
+Google Scholar arguably has more breadth than traditional academic databases and was included to lessen the risk of missing important contributions that would otherwise not be included in the review . 
+Preliminary searches led to the identification of six databases to be included in the review , along with six search strings to query them ( Table 1 ) . 
+The selection of databases and search strings was based on the topical relevance of the databases in combination with the quality of the results from the preliminary searches . 
+The database queries resulted in 53 unique hits . 
+Based on an analysis of the abstract , introduction , and concluding sections of each yielded document , a first selection of relevant texts was made . 
+This led to the exclusion of a total of 24 items . 
+The remaining 29 texts comprised the starting point of a backward and a forward reference search ( Bandara et al. , 2011 ) , which yielded a total of 42 texts to include in the review . 
+The analysis of the extracted publications was performed using content analysis ( Krippendorff , 2004 ) . 
+In preparation of the first steps of coding , a precodification scheme ( Table 2 ) was established based on research aims 1 and 2 and fundamental themes outlined in best‐practice archiving literature ( e.g. , Good practice handbook , 2003 ; cf . 
+Bandara et al. , 2011 ; vom Brocke et al. , 2009 ; Burda & Teuteberg , 2013 ) . 
+The purpose of the scheme was to provide a theoretical structure for the review , strengthening its conceptual focus and serving to tie the analysis to the aims of the paper . 
+With initial direction from the precodification scheme , the coding of the selected publications proceeded inductively and cyclically with guidance from grounded theory ( as per Charmaz , 1983 , pp . 
+111–116 ) and the related method of constant comparison ( Corbin & Strauss , 1990 , p. 9 ) . 
+The 42 publications under review were analyzed in full text , and this analysis resulted in the creation of 22 discrete same‐level categories ( see Tables 3-6 ) ordered in the five high‐order themes of the precodification scheme . 
+The design of this review has several limitations . 
+The review 's critical focus means that it provides less descriptive detail and overview in favor of analysis and discussion . 
+Additionally , the choices and prioritizations implicit in the processes of literature search and coding significantly impact the findings and conclusions of this paper . 
+To ensure the intersubjective confirmability of the results , the literature review was carried out in accordance with the guidelines of systematic literature reviews and includes a high degree of transparency in method . 
+Since the review method and precodification scheme have been adjusted to the specifics of the present study , their transferability is limited . 
+If due adaptive efforts are made , however , the combination of the procedures of the systematic review , the precodification scheme , and inductive coding approach can provide guidance for research on the principles and practices of other archival fields as well . 
+Table 3 provides an overview of the motivations and drivers of videogame preservation found in the reviewed archiving literature . 
+The main portion of the categories are mainstays in the general discussion of videogame archiving . 
+These categories include technological motivation of two kinds : first , that of access at risk due to the fragility of hardware and the extensive dependencies of both videogame software and the machines needed to run it . 
+McDonough et al . 
+( 2010 ) explore this extensively in the Preserving Virtual Worlds Final Report alongside many other studies ( Gooding & Terras , 2008 ; Monnens et al. , 2009 ; Thompson , McAllister , & Ruggill , 2009 ) . 
+The second motivation is that videogames are drivers of technology , and hence a valuable resource in the rendering of computing history ( Anderson , Delve , & Pinchbeck , 2010 ; Galloway , 2011 ) . 
+A range of publications ( Esposito , 2005a , 2005b ; Lowood , 2011 ; Newman , 2011 ; Winget , 2011b ) use one of the broadest modes of reasoning for keeping videogames in the archives , referring to the impact of videogames in contemporary society : games are understood as a weighty factor in the shaping of culture and media consumption patterns , including play . 
+Similarly , the size of the videogame industry is also presented as a reason to safeguard games , principally due to its current and prospective business values and its parity with other media already established in the archival sphere , like books and movies . 
+Of lower visibility is the way of reasoning that games should be kept because of their informational potential , as seen in Winget and Sampson ( 2011 ) and Guo and Iosup ( 2012 ) . 
+In this view , developers , educators , and students would benefit from access to noncurrent videogames so that they can employ and study them for their respective purposes . 
+The motivations and drivers of archiving the EN of videogames can be structured into three principal groupings . 
+The first is “ ontology ” ( O ) —where videogame culture and the act of play is seen as an inalienable part of what a videogame is . 
+The second is “ contextuality ” ( C ) —accentuating the EN of videogames as vital contextual information . 
+The third is “ epistemology ” ( E ) —where documentation of the EN is considered to be important for understanding past and present forms of social life involving digital technologies ( Table 4 ) . 
+The ontological argument for preserving the EN is that videogames are essentially contextually bound , interactable artifacts that archival strategy must account for in a way that preserves this defining characteristic . 
+Galloway ( 2011 ) and Stuckey , Swalwell , and Ndalianis ( 2013a ) employ the notion of culture to characterize the relationship between games and their contexts of use , while other publications use the concepts of play and interaction ( Newman , 2011 ; Shipman & Marshall , 2014 ) . 
+The contextual reasons for the archiving of the EN that emerge in the reviewed literature emanate from a viewpoint of collection and documentation . 
+Publications such as Kraus and Donahue ( 2012 ) accentuate why archives need to reflect the context of videogames in order to competently safeguard videogames . 
+The argument presented here is that videogame archives must hold contextual information so as to provide their users with the opportunity to better interpret the impact and consequences of individual titles , the development of gaming and gameplay , and other vital aspects of videogames . 
+Lowood ( 2004 ) , among others , focuses instead on the ecosystems of videogames , arguing that it is important—in videogame archiving—to acknowledge the many relationships that together define what a videogame is ; for example , software , performance , and a part of an industry . 
+The epistemological grouping stresses the relationship between the EN of videogames and broader cultural formations , which are understood as shaping each other . 
+The value of documenting the EN is here seen as stemming from the ability of such materials to provide a window into the development and constitution of contemporary society and digital culture , as well as the processes of computer appropriation and the history of software development ( Barwick , Dearnley , & Muir , 2008 ; Murphy , 2013 ) . 
+This section focuses on the processes of selection geared towards preserving the EN of videogames . 
+In order to elucidate both the aims and implementations of selection , distinction is here made between content and material in the analysis . 
+The former describes the information that is desirable for the game archives to retain . 
+The latter denotes the types of materials that would need to be collected . 
+Table 5 shows the processes of selection ordered into three principal groupings : “ videogame users ” ( U ) , “ videogame communities ” ( COM ) , and “ the artifact of the game ” ( G ) . 
+The selection of materials providing insights into core and peripheral modes of gameplay emerges in the studied publications as a main strategy in the preservation of the EN ( Antonescu , Guttenbrunner , & Rauber , 2009 ; Lowood , 2004 , 2009 , 2011 ; Newman , 2009 , 2012a , 2012b ) . 
+Newman ( 2011 ) and Sköld ( 2013 ) , among others , suggests that user‐produced materials ( www-materials,22 “ www–materials ” is a shorthand term for websites , forums , blogs , wikis , Twitter , and similar services . 
+speedruns ) can tell of the development and regulation of gameplay . 
+Sources relaying user experiences and memories—including memories of gameplay as well as shared social experiences—are additionally seen as important . 
+These sources encompass hardware ( displays , gamepads ) , videogame journalism and news publications , user‐produced www-materials , and videogame paraphernalia ( Barwick , Dearnley , & Muir , 2011 ; Guttenbrunner , Rauber , & Heister , 2008 ; Swalwell , 2007 ) . 
+Many efforts aiming to preserve videogames are driven by volunteer work . 
+Such videogame deposits often exist online either in the form of websites or file‐distribution networks . 
+The literature suggests that the form and content of these community‐run services and collections can be of use in the institutional archiving of the EN of videogames . 
+Specifically , game files or ROMs , metadata , and technical documentation are examples of materials of interest in this regard ( Galloway , 2011 ; Kraus & Donahue , 2012 ; Newman , 2012a ) . 
+Several of the studied publications argue for the collection of documentation relating to the structure of social life and meaning‐making in videogame communities . 
+In Table 5 such materials are denoted by the catch‐all term “ videogame culture. ” To gather user‐produced materials is suggested here , but also the approach of creating materials like descriptions of important in‐world locations . 
+Recorded oral information and event transcripts are other types of materials mentioned in this context ( Anderson et al. , 2010 ; Kraus & Donahue , 2012 ; McDonough et al. , 2010 ; McDonough & Olendorf , 2011 ; Newman & Simons , 2009 ) . 
+The reviewed literature states that the preservation of the EN encompasses also the collection of retail versions of games and in some cases contemporary hardware setups . 
+Further , it is noted that materials should be selected that provide information on the life cycle of games , from development ( design documents , concept art ) to reception ( reviews , www-materials , sales figures ) and postrelease work ( ports , patch documentation ) ( Anderson & Delve , 2013 ; Bachell & Barr , 2014 ; Swalwell , 2007 ) . 
+The publications in review offer a range of responses to the question of the proper way to archive the EN of videogames ( Table 6 ) . 
+The methods detailed in Table 6 do not include the most general approaches of collection creation ; for example , the gathering of games and related hardware . 
+These methods are , of course , of great relevance in the archiving of the EN ( e.g. , Guttenbrunner , Becker , & Rauber , 2010 ; Lowood , 2009 ; McDonough et al. , 2010 ) . 
+Related to the selection and collection of software and hardware are the methods of collection and creation of “ context materials ” ( Kraus & Donahue , 2012 ; McDonough & Olendorf , 2011 ; see also Table 5 ) . 
+A recurring viewpoint is that there is an incompatibility between the traditional archival concepts and the characteristics of videogames . 
+Winget and Sampson ( 2011 ) discuss the notion “ original ” from this viewpoint , and Swalwell ( 2014 ) “ authenticity. ” Successful work with videogames as archival objects is hence seen to necessitate the development of the archival conceptual framework . 
+Several publications highlight the importance of strengthening the definition of videogames as archival objects of worth . 
+Such a redefinition would aim at harnessing support for and aid in videogame preservation in general ( Newman & Simons , 2009 ) , but also specifically from memory institutions ( Swalwell , 2007 ) and the videogame industry ( Bachell & Barr , 2014 ; Kraus & Donahue , 2012 ) . 
+The authors reviewed describe cooperation as a method that aims to add to the resources needed to safeguard the EN . 
+They regard cooperation between institutions like archives and museums as beneficial . 
+Areas of responsibility could be drawn up ( Barwick et al. , 2008 ) and work on establishing interinstitutional praxis in the curation of videogames as archival objects could be coordinated ( McDonough et al. , 2010 ) . 
+The knowledge and the collections of videogame communities , including the communities of retrogaming and fan‐driven game‐preservation projects , are valuable prospective partners concerning game archive service design , technical knowledge , the documentation of lived experience , and metadata work ( application and structure ) ( Galloway , 2011 ; Newman , 2012a ; Stuckey , Swalwell , & Ndalianis , 2013a ; Stuckey , Swalwell , Ndalianis , & de Vries , 2013b ; Takhteyev , 2013 ) . 
+Cooperation with the videogame industry , in turn , potentially yields materials with provenance in the development process and the opportunity to circumvent the legal hindrances to videogame preservation presented by IP law ( Bachell & Barr , 2014 ; Conley , Andros , Chinal , Lipkowitz , & Perez , 2004 ; Winget & Sampson , 2011 ) . 
+A strong theme in the reviewed literature is the consideration of the videogame platform as a crucial type of material . 
+Due to the many dependencies of software , methods of adaption are required to maintain the capacity to access archived videogames . 
+Emulation and migration are the two methods of adaptation currently available , and they are thoroughly discussed in the publications under study in terms of benefits and drawbacks , implementations , and long‐term consequences ( Anderson et al. , 2010 ; Guttenbrunner et al. , 2008 , 2010 ; McDonough et al. , 2010 ; Murphy , 2013 ; Pinchbeck et al. , 2009 ) . 
+The main finding of this study is how videogames are construed as archival objects in archival literature that shows an interest in the social and cultural contexts of videogames , that is , what has been termed “ the EN ” in this paper . 
+These results form the basis of suggested directions for future work in the area of videogame archiving ( see Table 8 ) . 
+Table 7 synthesizes the results of the review and shows the three core conceptions of the EN that emerged from the analysis , along with their main motivations and reasons , prioritized informational content and materials , and recommended preservational methods . 
+The three core conceptions of the EN of videogames are : Videogames are essentially culture , community activity , and play ( the EN ) . 
+Materials with a provenance in videogame culture , community activity , and play ( the EN ) are important in the archiving of videogames . 
+Materials with a provenance in videogame culture , community activity , and play ( the EN ) are an important resource in the study of present‐day technology and society , and its recent history . 
+Perspective A relates to the significant characteristics of videogames while B and C primarily address how the EN of videogames connects to broader cultural and social contexts . 
+In perspective A , the EN of videogames is construed as a key significant property—that is , the aspects that should be represented in the archive—of the archival object of the videogame . 
+Successful efforts in the area of videogame archiving must , in this view , include elements of play and culture ; the mere safekeeping of software and hardware is considered to be only a partial fulfillment of the basic aims of videogame preservation . 
+The content types in focus in this specific archival formulation of videogames are those that speak of the cultures and social interactions of videogame communities , including gameplay and its regulation . 
+Prioritized materials include www-materials and recorded gameplay , for instance gameplay videos , machinima , and walkthroughs . 
+The view the EN of videogames as expressed in perspective A is shared by , for example , Newman ( 2011 ) , Lowood ( 2004 ) , Gooding and Terras ( 2008 ) , and Sköld ( 2013 ) . 

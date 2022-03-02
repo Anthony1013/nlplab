@@ -1,0 +1,130 @@
+( 2016 ) showed that 66 % of the links are never clicked and that approximately 1 % reach around 100 clicks . 
+This may indicate flaws in the reviewing processes . 
+In this section , we summarize the link prediction model detailed in our previous work ( Ferreira et al. , 2015 ) . 
+In our presentation we use boldface uppercase letters , such as M , to denote matrices , and boldface lowercase letters , such as v , to denote vectors . 
+The i th row of M is denoted as where the element at the i th row and j th column in M is denoted by . 
+The i th element in v is denoted by vi . 
+In this work , we also use coefficients to refer to nodes or pair of nodes . 
+Thus , and can denote the vector v associated with an instance i or a pair of instances ( i , j ) , respectively . 
+The same way , we can use Yij to refer to a scalar associated with pair ( i , j ) . 
+The intended meaning will be clear given the context . 
+Given M and v , we use and to denote matrix and vector transposes , and to denote matrix M with entries outside the main diagonal equal zero . 
+The Frobenius norm of M is given by and the L2‐norm of v by . 
+Sets are represented by uppercase letters such as and its cardinality by . 
+At high level , Wikipedia can be viewed as a directed graph where the set of nodes represents the articles and the set of edges represents the links between the articles . 
+As each article is associated with a concept ( expressed by its title ) , we refer to as a concept graph . 
+Figure 1 shows a portion of a concept graph with eight articles ( e.g. , Charles Darwin , Stephen Baxter , and Natural Selection ) and six links ( e.g. , the link from Charles Darwin to Evolution ) . 
+Concept graph associated with articles Charles Darwin , Stephen Baxter , and author . 
+Wikipedia articles refer to many concepts , expressed by means of different words and phrases , which we call labels . 
+To illustrate , in Figure 1 , the article Charles Darwin is composed by labels such as “ Natural Selection , ” “ naturalist , ” “ evolution , ” and “ theory. ” When editors write articles , they must decide which labels should be linked to other appropriate Wikipedia articles . 
+By doing that , editors allow readers to better understand the current article . 
+We call these linked labels anchors . 
+For instance , from the set of possible labels in the article about Stephen Baxter , the underlined labels ( “ British ” and “ Evolution ” ) are anchors . 
+Note that a label corresponding to a concept will not necessarily be chosen as anchor ( e.g. , “ author ” in Stephen Baxter ) . 
+Moreover , a concept can be referred to by different labels ( e.g. , “ English ” and “ British ” refer to England ) and the same label can refer to different concepts ( “ evolution ” refers to Evolution and Evolution ( Baxter novel ) ) . 
+Given these initial definitions , the Wikification problem consists in determining , from a set of labels used in an article , ( a ) to which concepts these labels refer , and ( b ) which labels should be anchors . 
+As in related works , in this article we deal with a relaxed version of this problem . 
+In particular , we treat an article as a set of labels and treat as single label two different labels of an article when they are associated with the same concept . 
+This is not a serious issue because editors of encyclopedias are encouraged to avoid adding to an article i multiple links to the same article j . 
+The wikification problem is equivalent to a link prediction problem ( see Predicting Links in Other Domains ) . 
+As such , its training set consists of a partially observed concept graph which is described by pairs of articles where and Yij is assigned to 1 if a link is observed from i to j , otherwise is assigned to 0 . 
+Our goal is to make predictions for unobserved pairs of articles . 
+To accomplish this , we must to define a predictor function such that the larger is , the larger is the probability of i pointing to j . 
+We can use this estimate to solve the link classification problem , that is , to determine if a pair ( i , j ) is a link or not . 
+To take advantage of many latent patterns present on the underlying graph topology , not easily captured by human‐engineered features , we added a matrix factor component in Equation 1 . 
+To accomplish that , we have factorized the adjacency matrix as , where and are matrix U and diagonal matrix of k latent features , respectively . 
+Thus , the relationship between i and j may be modelled by associating latent features of each node taking the dot‐product such that and . 
+However , as we pointed in ( Ferreira et al. , 2015 ) , a predictor based on simple combination of such matrix component and the features associated with ( i , j ) , and i and j need to be extended to support the directed aspect of Wikipedia graph because the matrix component uses the same matrix of latent features ( and ) to capture inlink and outlink behavior . 
+The factorization enforces symmetry in our model because it uses the same matrix of latent features ( U ) to capture the inlink and outlink behavior of an article . 
+This is not an issue for undirected graphs because there is no inlink and outlinks in such cases . 
+However , concept graphs of reference collections are directed and rarely bidirectional . 
+For instance , almost 70 % of the links in Wikipedia are not bidirectional ( Zlatic , Bozicevic , Stefancic , & Domazet , 2006 ) . 
+Thus , to apply this model to wikification , we need to extend it to support directed graphs . 
+To solve Equation 3 , we use the stochastic gradient descent ( SGD ) algorithm , as described in Algorithm 1 . 
+By using SGD , we can determine the weights which minimize the regularized loss function . 
+Require : Number of epochs E Require : Learning rates γ 0 , γ 1 , γ 2 , γ 3 Require : Regularizer factors λ 0 , λ 1 , λ 2 , λ 3 , λ 4 , and λ 5 Require : Percentual of random sample Sperc Require : Link function Ensure : Weights learned 1 : Start , and using random values . 
+2 : Let = set of pairs ( i , j ) . 
+For each pair ( i , j ) where i does not link to j , yij = 0 . 
+If i links to j , yij = 1 . 
+3 : for e = 1 to E do 4 : for n = 0 to 4 do 5 : 6 : end for 7 : Let a random sampling of Sperc examples from 8 : for each pair do 9 : 10 : 11 : 12 : 13 : 14 : 15 : 16 : 17 : 18 : 19 : 20 : 21 : 22 : 23 : 24 : 25 : 26 : 27 : 28 : 29 : 30 : end for 31 : end for As we can note , the minimum of the regularized loss function is approximated in E steps ( lines 3–30 ) . 
+The algorithm starts by initializing the weights in Θ with random values ( line 1 ) . 
+In each step , a random sample of examples from training set is picked up ( line 8 ) . 
+This means that not all examples in the training set need to be computed in each step . 
+Thus , the link prediction is computed for positive and negative examples ( i , j ) ( i.e. , linked or not linked ) extracted from a sample of training collection ( lines 9–10 ) . 
+According to the observed error , the gradients associated with each weight in Θ are updated ( lines 11–29 ) . 
+As in the work by Koren ( 2008 ) , we use different parameters to control the learning rate ( γ ) and the impact of regularization ( in our implementation . 
+We also update the learning rate along the iterations using an exponential decay strategy ( line 5 ) , as suggested by Bottou ( 2012 ) . 
+We describe the features we used to capture statistics of the edges ( ) and nodes ( x i ) from the Wikipedia 's concept graph . 
+Most are well known features in the wikification literature , designed to model the affinity between two concepts in terms of edges , that is , the pair of concepts . 
+We propose two additional features to describe concepts individually : inlink ratio and outlink ratio . 
+The edge features are related to concept associations between articles i and j , where i is the source article and j is a candidate to destination article . 
+Link probability : defined as the number of Wikipedia articles that use a label u as anchor , divided by the number of articles that mention u ( Mihalcea & Csomai , 2007 ) . 
+Because different labels may have been used to mention the same concept , two features are used : average and maximum link probability . 
+To illustrate , given Figure 1 , one would expect that the link probability of “ evolution ” ( between articles Charles Darwin and Evolution ) is greater than “ author ” ( between Stephen Baxter and a Author ) . 
+Relatedness : estimates how much two concepts are related , based on how many inlinks they share , by means of two features : and . 
+gives more importance to labels more often used as anchors and more strongly related to the central thread of article ci . 
+The intuition behind is that the more strongly a set of concepts cu is related to the context of article ci , the more likely ci links to cj if cj is also related to cu . 
+is a relaxed version of where cu refers to any candidate concept in article ci , instead of only anchors ( Milne & Witten , 2008 ) . 
+Frequency : the number of times the concept cj is mentioned in document ci . 
+This metric captures the importance of cj and , by extension , its link‐worthiness . 
+Location and spread : features based on the locations where concepts are mentioned ( normalized by the length of the document ) : ( a ) first occurrence , because concepts mentioned in introduction tend to be more important ; ( b ) last occurrence , because concepts mentioned at conclusion may be important ; and ( c ) spread which measures the distance between first and last occurrences , because important concepts tend to be discussed in introductions , conclusions and consistently throughout documents ( Milne & Witten , 2008 ) . 
+Disambiguation confidence : estimate provided by the disambiguation classifier presented by Milne and Witten ( 2008 ) . 
+This classifier is trained using pairs of labels and associated concepts observed on a sample of Wikipedia articles that already contain links . 
+Each pair is represented basically by the frequency which the label is used to represent the concept and by the relatedness of the concept . 
+As observed for link probability , we use as features the average and maximum disambiguation confidence because many different labels may have been used to mention the same concept . 
+Note we use the disambiguation confidence differently from Milne and Witten ( 2008 ) . 
+We here use the estimate as an feature for each possible concept related to a label , where Milne and Witten ( 2008 ) kept only the concept with highest confidence value . 
+As consequence , we have more concepts likely to be valid labels . 
+The node features are related to characteristics of one particular concept : Generality : measures the length of the path from the root of the category hierarchy to the concept j . 
+This allows the classifier to distinguish specialized concepts that the reader may not know about from general ones that do not require explanation ( Milne & Witten , 2008 ) . 
+Inlink ratio : measure the popularity of given concept j by the number of inlinks normalized by the total of links in collection . 
+Outlink ratio : measure the number of outlinks pointed by j normalized by the total of links in collection . 
+All aforementioned features were obtained by using the Java API Wikipedia Miner Toolkit , which is freely available on the web Milne and Witten ( 2013 ) .33 https : //github.com/dnmilne/wikipediaminer The toolkit provides several resources to manipulate Wikipedia data including tools for preprocessing , indexing , searching , and algorithms to automate the tasks of disambiguation and anchor detection . 
+Regarding preprocessing , we used the toolkit to remove the HTML and MediaWiki markups , to build the Wikipedia label vocabulary from a Wikipedia dump , and to detect labels . 
+The label detection consists in gathering overlapping n‐gram words ( where n is the maximum label length in ) and filtering out the ones not observed in . 
+For each extracted label , link probability and relatedness features are computed . 
+Combined with the disambiguation tool , it is possible to estimate the probability that the mentioned label represents a given concept . 
+Our collection is based on a sample of articles from the Wikipedia snapshot of December 8 , 2014.44 http : //en.wikipedia.org/wiki/Wikipedia : Database_download This sample consists of 6,000 articles commonly used in wikification research , which we refer as to Wikipedia for Schools ( for short , School ) .55 http : //www.sos-schools.org/wikipedia-for-schools From this sample , we kept only the quality‐rated articles ( and their corresponding inlinks and outlinks within the sample ) , which resulted in 5,132 pages . 
+In Wikipedia , the quality of an article is summarized by a rate given according to a formal review process of assessment . 
+The rates are based on a quality scale , where letters indicate the quality of the article . 
+It reflects mainly how factually complete the article is about a topic considering , for example , its content , its structure and quality of writing . 
+Wikipedia adopts a quality scale of seven levels66 https : //en.wikipedia.org/wiki/Wikipedia : Version_1.0_Editorial_Team/Assessment as follows : Featured Article ( FA ) ; A‐Class ( AC ) ; Good Article ( GA ) ; B‐Class ( BC ) ; C‐Class ( CC ) ; Start‐Class ( ST ) ; Stub‐Class ( SB ) . 
+Table 1 shows the quality rate distribution in our dataset ( Wikipedia School ) and in the snapshot of Wikipedia ( English edition ) from where School was extracted . 
+The rating distributions are very different , with School being a dataset featuring few low‐quality articles ( only 13.2 % of ST and SB articles in School against 92 % in Wikipedia ) . 
+The distribution is also much more skewed in Wikipedia than in School . 
+The 5,132 nodes of School are interconnected by 169 thousand links . 
+If we consider all possible pairs that could be linked ( a concept/article a 1 could be linked to any other concept/article a 2 if a 2 appears as a label in a 1 ) , the concept graph could have more than 26 million links . 
+Thus , if treated as a classification problem , this is a very skewed one , with much more negative examples ( 1 positive example for 155 negative ones ) . 
+As expected for a reference collection , School is densely interconnected , with an average of 33 links per article . 
+To assess the performance of the methods , we use the Area under the Receiver Operating Characteristics Curve ( AUC ) measure . 
+As shown by Ling , Huang , and Zhang ( 2003 ) , based on the work by Hand and Till ( 2001 ) , this is a statistically consistent metric that provides a single‐number summary for the performance of a classifier and is also more discriminating than accuracy . 
+Intuitively , AUC gives larger scores for methods that rank positive cases ( links , in our scenario ) above negative cases ( not links ) . 
+It is particularly useful in situations such as wikification where the class distribution is very skewed ( most pairs of articles will not be linked ) because AUC is insensitive to imbalanced classes . 
+We also report the F‐measure performance ( also as known as F1‐score ) as this is a common comparison metric used in wikification . 
+F1‐score is defined as the harmonic mean of precision and recall . 
+To properly assess how the methods generalize in independent datasets , we estimate AUC and F 1 values using 5‐fold cross validation ( Witten & Frank , 2011 ) . 
+We partition the original collection into 5 subsamples . 
+From the 5 subsamples , one is used as test set while the remaining 4 are used as the training set . 
+The process is repeated 5 times , with each of the 5 subsamples used once as the test set . 
+The partitions used for training and test were the same in all experiments for each method . 
+To ensure that the differences among methods we compare are statistically significant , we use the standard error ( Campbell & Swinscow , 2011 ) with confidence level of 95 % . 
+The standard error figures were calculated over F 1 and AUC computed to each article to ensure normally distributed values . 
+We use as training data the pairs of articles that could be linked . 
+To select such pairs , for each article ai , we pick up the training pairs ( ai , aj ) , where aj appears at least once as a label in ai . 
+In this way , we avoid placing links to a target article whose concept does not appear as a label in the source article . 
+Before performing the experiments , we standardized and scaled the numeric features to avoid their values varying widely . 
+The idea is transforming the values so that they maintain their general distribution and ratios . 
+We used a Z‐score normalization so that all features are centered around zero and have unit‐variance . 
+The scaling parameters are derived from the training data . 
+In all experiments , we use the best selection of SGD parameters ( learning rate λ and regularizer factors γ ) learned in separated validation sets . 
+In cross validation , we use different learning rates and regularizers for side‐information and latent weights . 
+For each turn , a different initialization of the weight matrices was used . 
+In all experiments , the number of latent dimensions k was set to 5 . 
+This value was derived from previous studies and constituted a good trade‐off between space and performance . 
+The experiments were run in MATLAB 2013a on a 3.47Ghz 6‐core i7 machine with 16GB of RAM . 
+Our main baseline is the work by Milne and Witten ( 2013 ) and , in our experiments , we used their publicly available code.77 https : //github.com/dnmilne/wikipediaminer/wiki/Downloads As we are interested on anchor prediction , we employed the anchor detector from the toolkit and henceforth denote the anchor detector baseline as MW2013 . 
+We also use other algorithms available including the disambiguator of candidate anchors and the estimator of relatedness between concepts . 
+We start assessing the performance of our model by comparing with two baselines . 
+The feature model is purely based on features which have been used in related tasks such as collaborative filtering and link prediction in social network ( Chu & Park , 2009 ; Yang et al. , 2011 ) . 
+In this approach , the variable to be predicted is a linear combination of attributes associated with nodes ( in a bilinear setting ) and links ( pair of nodes ) . 
+As the loss function used is the logistic , this method is called logistic regression with a bilinear component . 

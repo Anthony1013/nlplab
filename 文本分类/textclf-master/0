@@ -1,0 +1,12 @@
+{
+    "__class__": "PreprocessConfig",
+    "params": {
+        "train_file": "train.csv",
+        "valid_file": "valid.csv",
+        "test_file": "test.csv",
+        "datadir": "dataset",
+        "tokenizer": "char",
+        "nwords": -1,
+        "min_word_count": 1
+    }
+}

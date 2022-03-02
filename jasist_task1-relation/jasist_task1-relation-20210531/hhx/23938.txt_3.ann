@@ -1,0 +1,13 @@
+T1	引文作者 697 699	Ho
+T2	引文作者 704 712	Benbasat
+T3	引文时间 718 722	2014
+T4	具体模型 725 743	dyadic attribution
+T5	研究结果 1889 2082	Our framework advances the conventional attribution model by refocusing attribution of an actor 's trustworthiness when based on observed behaviors from “ human sensors ” within a group context
+T6	研究展望 2796 2919	Future research can be expanded to the design and development of computational systems based on these theoretical stances .
+T7	研究结果 2618 2793	This article suggests new attention be paid to “ human sensors ” as an important element in future “ design ” of sociotechnical artificial intelligence computational systems .
+T8	时间 3087 3104	09/01/13–08/31/15
+T9	术语 3029 3033	SaTC
+R1	has_cited_time Arg1:T3 Arg2:T2	
+R2	coauthor Arg1:T1 Arg2:T2	
+T10	引文的结果 752 892	arguing that use of communication cues and artifacts to analyze attributed shifts in trustworthiness may suggest insider threat activities .
+R3	results Arg1:T1 Arg2:T10	

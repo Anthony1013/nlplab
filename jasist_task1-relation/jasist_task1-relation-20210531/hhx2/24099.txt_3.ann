@@ -1,0 +1,150 @@
+T1	引文作者 784 788	Wang
+T2	引文作者 791 794	Cao
+T3	引文作者 797 800	Xia
+T4	引文作者 805 812	de Melo
+T5	时间 1059 1085	January 2007 to March 2016
+T6	引文作者 1333 1340	Chollet
+T7	引文时间 1343 1347	2015
+T8	时间 1545 1554	2007–2016
+T9	引文时间 8209 8213	2009
+T10	引文作者 8191 8196	Bardi
+T11	引文时间 8553 8557	2009
+T12	引文作者 8535 8540	Bardi
+T13	引文时间 8801 8805	2014
+T14	引文作者 8783 8788	Celli
+T15	引文作者 9653 9658	Bardi
+T16	引文时间 9671 9675	2009
+T17	时间 9785 9802	October 25 , 2017
+T18	时间 9834 9851	October 10 , 2016
+T19	引文作者 9997 10002	Bible
+T20	引文作者 10007 10013	Tadros
+T21	引文时间 10016 10020	2014
+T22	时间 10106 10110	2004
+T23	时间 10115 10119	2010
+T24	引文作者 10914 10923	Lancaster
+T25	引文作者 10928 10934	Seneta
+T26	引文时间 10937 10941	2005
+T27	引文作者 11417 11426	Lancaster
+T28	引文作者 11429 11435	Seneta
+T29	引文时间 11438 11442	2005
+T30	引文作者 11703 11708	Gupta
+T31	引文作者 11711 11718	Dhingra
+T32	引文时间 11721 11725	2012
+T33	引文作者 11728 11731	Hsu
+T34	引文作者 11734 11740	Kakade
+T35	引文作者 11745 11750	Zhang
+T36	引文时间 11753 11757	2012
+T37	引文时间 13544 13548	2010
+T38	引文作者 13520 13526	Visser
+T39	引文作者 13529 13541	Speekenbrink
+T40	引文作者 14418 14423	Hsieh
+T41	引文时间 14436 14440	2014
+T42	引文作者 14449 14459	Verplanken
+T43	引文作者 14464 14471	Holland
+T44	引文时间 14474 14478	2002
+T45	时间 15389 15398	July 2016
+T46	研究方法 279 413	We apply the LSTM‐based approach to minimize the random errors observed in the ARIMA model due to nonlinear patterns of the data set .
+T47	研究方法 416 564	In this subsection , we apply the LSTM model , which has a deep network architecture , to capture the nonlinear patterns in our time‐series data set
+T48	具体模型 68 73	ARIMA
+T49	具体模型 169 174	ARIMA
+T50	具体模型 247 252	ARIMA
+T51	具体模型 292 296	LSTM
+T52	具体模型 358 363	ARIMA
+T53	具体模型 450 454	LSTM
+T54	具体模型 588 592	LSTM
+T55	具体模型 710 714	LSTM
+T56	具体模型 843 847	LSTM
+T57	软件工具 1226 1254	keras implementation package
+T58	具体模型 1316 1320	LSTM
+T59	图 1354 1486	Figure 3 presents the openness‐to‐change value transition result of a user for a two‐window size neural network‐based LSTM technique
+T60	具体模型 1472 1476	LSTM
+T61	图 1491 1640	In the figure , the x axis shows the time ( that is , 2007–2016 , a total of 19 intervals ) of capturing values and the y axis shows the value scores
+T62	图 1781 1922	The blue line in the figure represents the original value ( that is , openness‐to‐change ) scores of the user found in our data set over time
+T63	图 1927 2028	The green and red lines represent the prediction over the training and the test data , respectively .
+T64	具体模型 2282 2287	ARIMA
+T65	具体模型 2357 2361	LSTM
+T66	具体模型 2384 2388	LSTM
+T67	具体模型 2504 2508	LSTM
+T68	具体模型 2632 2636	LSTM
+T69	具体模型 2761 2765	LSTM
+T70	具体模型 2815 2820	ARIMA
+T71	具体模型 2829 2833	LSTM
+T72	具体模型 3504 3509	ARIMA
+T73	具体模型 3514 3518	LSTM
+T74	具体模型 3728 3733	ARIMA
+T75	具体模型 3742 3746	LSTM
+T76	图 4627 4789	Figure 4 presents the residual value scores of the user , where the x axis shows the time of capturing values and the y axis represents the change of value scores
+T77	具体模型 4439 4444	ARIMA
+T78	具体模型 4286 4291	ARIMA
+T79	具体模型 4300 4304	LSTM
+T80	具体模型 4108 4113	ARIMA
+T81	具体模型 4122 4126	LSTM
+T82	具体模型 3921 3926	ARIMA
+T83	具体模型 3935 3939	LSTM
+T84	图 5364 5486	Figure 5 presents that our LSTM model can predict the nonlinear residual value scores of our data set with a good accuracy
+T85	具体模型 5391 5395	LSTM
+T86	图 5491 5610	The blue line in the figure represents the residual values that we find after applying the ARIMA in our experiment data
+T87	具体模型 5582 5587	ARIMA
+T88	具体模型 5266 5271	ARIMA
+T89	具体模型 5276 5280	LSTM
+T90	图 4848 4984	We also observe that a large number of users ' value changes have a similar nonlinear property ( according to Figure 4 ) in the data set
+T91	具体模型 4995 5000	ARIMA
+T92	具体模型 5156 5160	LSTM
+T93	图 5760 5903	The blue line in the figure represents the original value ( that is , openness‐to‐change ) scores that are computed from our data set over time
+T94	图 5908 6010	The green and red lines represent the prediction over the training and the testing data , respectively
+T95	图 6536 6588	We show the value score of a single user in Figure 5
+T96	具体模型 7020 7024	LSTM
+T97	具体模型 7439 7444	ARIMA
+T98	具体模型 7453 7457	LSTM
+T99	研究方法 7484 7589	In this section , first we validate our hybrid model through a questionnaire among the users in real life
+T100	研究方法 7677 7792	Later , we compare the accuracy of our hybrid model with other baseline techniques by using the chi‐square ( ) test
+T101	自建数据集 7980 8053	237 ( discarding the 101 users ' data of weight learning ) Facebook users
+T102	引文的结果 8810 9006	it is also shown that a moderate personality prediction strength can be achieved from the myPersonality data set ( N = 250 ) with the minimum and average word count of 1 and 585.004 , respectively
+T103	引文的研究问题 9977 10150	In another study of Bible and Tadros ( 2014 ) , the authors only show the value change among the business major students between 2004 and 2010 , which is also a single trial
+T104	研究方法 10359 10597	In this direction , we compute the correlation by using the chi‐square ( ) test in a single trial between the value levels ( that is , high , medium , or low ) obtained from our hybrid prediction model and the PVQ test levels in real life
+T105	表 10760 10896	Table 1 shows a significant correlation between the predicted value and the PVQ test levels for a single trial by using our hybrid model
+T106	具体模型 11542 11545	HMM
+T107	具体模型 11580 11583	HMM
+T108	具体模型 11979 11984	ARIMA
+T109	具体模型 11999 12003	LSTM
+T110	具体模型 12043 12046	HMM
+T111	具体模型 12699 12702	HMM
+T112	具体模型 12808 12811	HMM
+T113	具体模型 12912 12930	Markov chain model
+T114	具体模型 13316 13319	HMM
+T115	研究方法 13405 13565	We computed the transition matrices of five value dimensions for these 237 validation users using the R depmixS4 ( Visser & Speekenbrink , 2010 ) implementation
+T116	具体模型 13619 13624	ARIMA
+T117	具体模型 13708 13713	ARIMA
+T118	研究方法 13570 13721	We compute our value transition problem with the ARIMA model independently ( according to subsection Predicting value transition with the ARIMA model )
+T119	研究问题 14123 14259	In this subsection , we investigate whether the users ' change of value priorities relates to their decision‐making process in real life
+T120	研究问题 14264 14385	In this experiment , we explore how users ' movie‐watching preferences might change due to the change of value priorities
+T121	具体模型 14108 14112	LSTM
+T122	具体模型 13950 13953	RNN
+T123	具体模型 13960 13964	LSTM
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	has_cited_time Arg1:T7 Arg2:T6	
+R5	has_cited_time Arg1:T9 Arg2:T10	
+R6	has_cited_time Arg1:T11 Arg2:T12	
+R7	has_cited_time Arg1:T13 Arg2:T14	
+R8	results Arg1:T14 Arg2:T102	
+R9	has_cited_time Arg1:T16 Arg2:T15	
+R10	coauthor Arg1:T19 Arg2:T20	
+R11	has_cited_time Arg1:T21 Arg2:T20	
+R12	produces Arg1:T19 Arg2:T103	
+R13	coauthor Arg1:T24 Arg2:T25	
+R14	has_cited_time Arg1:T26 Arg2:T25	
+R15	coauthor Arg1:T27 Arg2:T28	
+R16	has_cited_time Arg1:T29 Arg2:T28	
+R17	coauthor Arg1:T30 Arg2:T31	
+R18	has_cited_time Arg1:T32 Arg2:T31	
+R19	coauthor Arg1:T33 Arg2:T34	
+R20	coauthor Arg1:T34 Arg2:T35	
+R21	has_cited_time Arg1:T36 Arg2:T35	
+R22	field_similar_as Arg1:T33 Arg2:T30	
+R23	coauthor Arg1:T38 Arg2:T39	
+R24	has_cited_time Arg1:T37 Arg2:T39	
+R25	has_cited_time Arg1:T41 Arg2:T40	
+R26	coauthor Arg1:T42 Arg2:T43	
+R27	has_cited_time Arg1:T44 Arg2:T43	

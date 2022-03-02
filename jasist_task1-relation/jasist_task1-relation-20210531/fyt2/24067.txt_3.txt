@@ -1,0 +1,130 @@
+We made our data set publicly available.66 https : //github.com/IRNLPCoder/CaveatDataSet The configuration of Disca is based on the performance of a development set ( java.util.HashMap ) . 
+Accordingly , for each of the 10 API types , we use the top‐100 prominent terms in its candidate API negative caveats to construct the term co‐occurrence graph with term co‐occurrence frequency being set at 3 . 
+The resulting term co‐occurrence graph has 3 to 6 term‐communities . 
+The α and β parameters for are set to 0.5 . 
+Our approach is a data‐driven approach and is unsupervised , because there are no training data to learn from . 
+This limits our choices of baseline methods , as many recent summarization methods adopt supervised learning and require training data ( see Automatic Text Summarization ) . 
+Thus , we compare Disca with four classical text‐summarization methods . 
+All methods take candidate API negative caveats for an API type as input , and independently select a subset of sentences as summaries . 
+LexRank : This method selects important sentences based on the concept of eigenvector centrality in a graph representation of sentences ( Erkan & Radev , 2004 ) . 
+Cosine similarity is used to calculate the similarity between two sentences . 
+LDA : This method represents each sentence in a vector space using Latent Dirichlet Allocation ( LDA ) topic model ( Blei et al. , 2003 ) . 
+For each topic , the sentence with the maximum probability is selected as an API negative caveat . 
+KM : This method represents each sentence with a TF‐IDF vector and performs a k‐means algorithm ( MacQueen et al. , 1967 ) to cluster the sentences , then chooses the centroids in clusters as API negative caveats . 
+MMR : This method iteratively selects API negative caveats with the maximal marginal relevance that measures novelty and diversity of the selected sentences ( Goldstein et al. , 1999 ) . 
+We use two evaluation metrics , namely , ROUGE and nDCG . 
+ROUGE measures the quality of a summary by counting the unit overlaps between a machine‐generated summary and a set of gold standard summaries . 
+ROUGE‐N is the n‐gram recall computed as follows : ( 3 ) where n represents the length of the n‐gram , and ref is the set of the gold standard summaries . 
+In our evaluation , we used the ROUGE toolkit ( Lin , 2004 ) ( v. 1.5.5 ) with ROUGE‐1 ( unigram‐based ) and ROUGE‐2 ( bigram‐based ) . 
+We also use ROUGE‐SU4 that measures unigram recall and skip‐bigram recall with maximum skip distance of 4 . 
+These three ROUGE measures have been shown to be able to identify the machine‐generated summary that is the most correlated with human summaries ( Lin & Hovy , 2003 ; Ganesan , Zhai , & Han , 2010 ) . 
+nDCG measures the performance of a ranked list based on graded relevance levels . 
+The main idea of nDCG is that the more relevant items should be ranked higher than those less relevant items . 
+It is computed as follows : ( 4 ) is the Discounted Cumulative Gain accumulated at a particular rank position k . 
+The idea of is that highly relevant documents appearing lower in ranking results should be penalized . 
+is the normalized discounted cumulative gain , with respect to IDCG , which is the discounted cumulative gain of the ideal ordering of all instances . 
+reli is the relevance score of the i‐th element in the ranked list . 
+LexRank and MMR output a ranked list of sentences . 
+For LDA and KM , we rank the centroids based on cluster size . 
+In Disca , Algorithm 1 ranks the API negative caveats for a term community . 
+A ranked list of API negative caveats across communities is then obtained by ranking all term‐communities based on the highest degree centrality of the communities . 
+For the relevance judgment , the relevance level of each negative caveat is defined as the number of annotators who select the sentence . 
+For example , the relevance of a negative caveat is 3 if all three annotators select this sentence in their gold standard summary and the relevance is 0 if no annotator selects it . 
+To make a fair comparison , selecting the same number of words or sentences is commonly used in the comparison of text‐summarization methods ( Wang , Zhu , Li , & Gong , 2012 ; Ganesan et al. , 2010 ) . 
+In our experiments , for each API type in Table 2 we use each of the four baseline methods to select the same number of API negative caveats as Disca selects . 
+Then we mix the selected sentences of the five methods for human annotation . 
+The annotators do not know which sentences are from which methods . 
+We recruit three annotators who all have more than 4 years of programming experience in Java and are familiar with the 10 Java types in Table 2 . 
+Because there are five methods , we ask each annotator to select 20 % of sentences from the mixed sentences , based on the following criteria : ( i ) the selected sentences should cover prominent and diverse topics , and ( ii ) the selected sentences should be informative and context‐independent . 
+Overall , 25.9 % , 19.2 % , 14.5 % , 20.3 % , and 20.1 % of the selected sentences by annotators are from Disca , LexRank , LDA , KM , and MMR , respectively . 
+We consider the selected sentences by the three annotators as three independent gold standard summaries for an API type , because the evaluation metric ROUGE can handle multiple gold standard summaries . 
+The Jackknifing procedure ( Lin , 2004 ; Ganesan et al. , 2010 ) is widely used to estimate average human performance from multiple reference summaries . 
+Thus , we use the Jackknifing procedure to quantitatively assess the interannotator agreement . 
+With this procedure , the ROUGE scores are computed over K sets of K – 1 reference summaries . 
+That is , each human summary is evaluated against the remaining K – 1 gold standard summaries , and the average ROUGE scores are computed as reported in Table 3 . 
+Observe from the table that the average scores of ROUGE‐1 , ROUGE‐2 , and ROUGE‐SU4 are 0.7571 , 0.6325 , and 0.6363 , respectively . 
+The largest standard deviation is about 0.0136 , which indicates that the ROUGE scores of different annotators are close to the mean . 
+In short , we can see that the annotators have good agreement among themselves . 
+Motivation : A novel approach , Disca , is proposed in this work to distill API negative caveats from a large amount of unstructured data . 
+Experimental Settings lists four classical text‐summarization methods . 
+We would like to investigate whether the proposed Disca performs better than the baseline methods in terms of ROUGE and nDCG . 
+Approach : We have generated gold standard summaries for the Java API types in Table 2 , where annotators achieved a good agreement among them . 
+Given gold standard summaries , we compare the performance of Disca with the four baselines . 
+Moreover , we apply the paired t‐test to test the statistical significance of the improvements between Disca and baseline methods . 
+Results : We first report the ROUGE and nDCG scores for the negative caveats produced by each method against the gold standard summaries . 
+Table 4 reports the ROUGE scores of the five methods , and Figure 5 plots nDCG values of these methods at different rank positions . 
+We also list ROUGE‐1 , ROUGE‐2 , and ROUGE‐SU4 for the 10 Java API types using Disca in Table 5 . 
+From the results , we made the following observations . 
+nDCG values of the five methods at different ranking positions { 1 , 2 , 3 , 4 , 5 , all } . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] First , Disca achieves the best performance against the four baseline methods in terms of all ROUGE scores and all nDCG values . 
+In terms of ROUGE scores , Disca achieves 22.47 % , 12.25 % , 10.66 % , and 10.60 % improvements over LDA , KM , LexRank , and MMR , respectively . 
+For nDCG , Disca achieves 42.87 % , 17.65 % , 20.01 % , and 17.63 % improvements over the four methods . 
+The improvements are statistically significant for the three kinds of ROUGE scores and nDCG under paired t‐test with . 
+As shown in Figure 5 , the higher the nDCG , the better the ranking result . 
+With our approach , the most relevant caveats for an API are ranked at top‐most positions leading to a higher nDCG . 
+We attribute this to the fact that Disca takes context‐independence , prominence , semantic diversity , and semantic nonredundancy into account when selecting desirable API negative caveats . 
+Second , LDA yields the worst performance in terms of ROUGE scores and nDCG . 
+A challenge in using LDA is to set an appropriate number of topics . 
+In this evaluation , the number of topics is based on the number of API negative caveats that Disca distills . 
+From the results of LDA , we note that having too many topics results in the extracted topics to be similar to each other . 
+On the other hand , too few topics makes the extracted topics less meaningful or noninterpretable . 
+Unfortunately , without prior knowledge of the distribution of candidate API negative caveats , it is difficult to set the right topic number . 
+According to the ROUGE scores in Table 4 , MMR outperforms KM . 
+That is , the summaries of MMR are closer to gold standard summaries than KM without considering the relevance ranking of selected sentences . 
+However , when considering the relevance ranking of the selected sentences , Figure 5 shows that KM outperforms MMR in nDCG values . 
+This is because the sentences selected by KM are ranked by cluster size that reflects the prominence of the selected sentences . 
+The performance of LexRank is comparable to that of MMR , because LexRank takes into account both relevance ranking and diversity . 
+Recall that LexRank first ranks candidate API negative caveats in a graph model based on sentence similarity . 
+Then it uses a greedy algorithm to select diverse sentences . 
+The main issue of LexRank and MMR is that both are based on sentence‐level lexical similarity , which can not distinguish lexically different but semantically redundant sentences . 
+Third , although the performance of Disca varies for different API types in Table 5 , Disca outperforms all baseline methods for all API types.77 Detailed results not reported for the interests of page space . 
+We used Pearson 's correlation test and the results show that there is no correlation between the number of mentions of a type and the ROUGE score obtained by Disca . 
+Among the 10 API types , Disca has the best performance for javax.xml.bind.JAXB and the worst performance for java.io.IOException . 
+For javax.xml.bind.JAXB , most candidate API negative caveats discuss issues related to “ XML document , ” “ unmarshal ” and “ marshal . 
+” These repetitive discussions have more n‐gram overlap , which leads to higher ROUGE scores . 
+For java.io.IOException , it is a common IO exception class that can be thrown in many different scenarios . 
+As such , the sentences that discuss IOException have the least level of overlap , which leads to lower ROUGE score . 
+Motivation : As shown in Discovering Semantically Diverse Aspects , Disca discovers semantically diverse aspects using a graph clustering technique . 
+Given gold standard summaries , RQ1 investigated the overall performance of Disca and the baseline methods . 
+We would like to confirm the ability of Disca in guaranteeing diversity over the baseline methods . 
+Approach : To answer this research question , we conduct an intermethod comparison , which compares the relative performance between one method and the other four methods using the Jackknifing procedure ( Lin , 2004 ) . 
+That is , we treat the summary of one method as a machine‐generated summary , and the summaries of the other four methods as reference summaries . 
+Then we measure the performance of each combination in terms of ROUGE score . 
+Results : Table 6 reports the results of the intermethod comparison . 
+First , LexRank and MMR outperform LDA and KM . 
+This is in line with our previous analysis that LexRank and MMR take into account both relevance ranking and diversity , while LDA and KM do not . 
+Second , the table shows that Disca achieves the best performance in all ROUGE scores when the summaries of the other four baseline methods are used as reference summaries . 
+In contrast , the performance of the other four baseline methods is poorer when the summary of Disca is used as a reference summary . 
+These results indicate that none of the baseline methods can well cover API negative caveats that Disca distills , but Disca covers theirs . 
+We attribute this to the fact that Disca can distinguish lexically different but semantically redundant– sentences ( see Discovering Semantically Diverse Aspects ) , while LexRank and MMR only consider sentence‐level lexical similarity . 
+In short , the summaries of Disca are more diverse than the baseline methods . 
+Motivation : Some API negative caveats are documented when API designers wrote software documentation . 
+The distilled caveats by Disca are from crowd‐generated Q & A discussions . 
+We are interested to know how many caveats stated in official API documentation the proposed Disca may miss . 
+Approach : To answer this research question , we compare the API negative caveats mentioned in official API documentation and those distilled by Disca . 
+We recruited two developers to read the official documentation of the 10 Java API types to annotate the API negative caveats mentioned in these documents . 
+If a distilled API negative caveat and a mentioned API negative caveat both discuss the same aspect of a given API type , we manually judge that they match each other . 
+For inconsistent judgments , the two developers reached a consensus through discussion . 
+Result : Table 7 reports the results of this comparative study . 
+The three columns show the numbers of negative caveats that are mentioned in official documentation , distilled by Disca , and the matched ones . 
+Observe that only 5 out of 10 official documentation mention negative caveats and in total six negative caveats are mentioned . 
+Disca manages to identify four out of the six mentioned negative caveats . 
+One missed negative caveat is about rounding behavior of java.math.BigDecimal class.88 If no rounding mode is specified and the exact result can not be represented , an exception is thrown . 
+https : //docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html The other missed negative caveat is from javax.swing.JFrame.99 Serialized objects of this class will not be compatible with future Swing releases . 
+https : //docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html By checking our data set , we find that none of the candidate API negative caveats for BigDecimal mention “ rounding mode ” or relevant concepts ; the same observation holds for JFrame . 
+Searching Stack Overflow website using queries “ BigDecimal rounding mode ” and “ JFrame serialized objects ” results in 105 and 45 posts , respectively . 
+We did not find any negative sentences discussing the two issues in the search results . 
+The results suggest that the two missed API negative caveats have not been well discussed on Stack Overflow . 
+Motivation : RQ3 reveals that two out of six negative caveats were missed by Disca . 
+However , little is known about how many of the negative caveats distilled by Disca are false‐positive instances . 
+Moreover , we would like to investigate to what extent the Disca approach augments the official API documentation . 
+Approach : We recruited two developers to examine the distilled negative caveats to find the false positives . 
+The annotation was done individually by the two developers and for inconsistent judgments , the two developers reached a consensus through discussion . 
+Results : For the 10 API types , Disca distills 164 negative caveats related to 46 semantic aspects of the 10 API types . 
+Recall that each term‐community is considered a semantic aspect of an API , and it may have several complementary API negative caveats ( see Figure 4 ) . 
+The annotation finds that there are only 18 false‐positive instances . 
+There are two main reasons for false‐positive instances . 
+First , Disca distills seven programming exceptions as API negative caveats . 
+For example , one of the false positive instances is “ Exception : IOException is not compatible with throws clause in Plants.eat ( ) . 
+” This is an exception related to the implementation of a specific program , Plants.eat ( ) , but not the API IOException . 
+Second , 11 false‐positive instances are context‐dependent sentences that our sentence filtering patterns fail to filter out . 

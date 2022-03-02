@@ -1,0 +1,291 @@
+T1	数据源 66 80	Stack Overflow
+T2	术语 94 102	API type
+T3	术语 155 163	Java SDK
+T4	术语 169 186	java.util.HashMap
+T5	术语 282 285	API
+T6	术语 528 548	API negative caveats
+T7	术语 717 725	API type
+T8	术语 914 934	API negative caveats
+T9	术语 1085 1105	API negative caveats
+T10	术语 1679 1699	API negative caveats
+T11	术语 1967 1970	API
+T12	术语 2036 2039	API
+T13	术语 2136 2143	HashMap
+T14	术语 2188 2195	HashMap
+T15	术语 2336 2355	API negative caveat
+T16	术语 2425 2432	API use
+T17	术语 2506 2523	java.util.HashMap
+T18	术语 2602 2609	API use
+T19	术语 2699 2702	API
+T20	术语 2721 2738	java.util.HashMap
+T21	术语 3012 3020	API type
+T22	术语 3105 3128	API 's negative caveats
+T23	术语 3185 3204	API negative caveat
+T24	术语 3266 3273	HashMap
+T25	术语 3333 3340	HashMap
+T26	术语 3573 3580	API use
+T27	软件工具 3806 3811	Disca
+T28	图 3795 3889	we propose Disca ( for Dis tilling crowdsourced API negative ca veats ) , as shown in Figure 1
+T29	术语 3843 3864	API negative ca veats
+T30	软件工具 3910 3915	Disca
+T31	软件工具 4012 4017	Disca
+T32	术语 4037 4041	APIs
+T33	术语 4201 4209	Java SDK
+T34	术语 4217 4226	API types
+T35	数据源 4337 4351	Stack Overflow
+T36	数据源 4478 4492	Stack Overflow
+T37	引文作者 4582 4590	Ponzetto
+T38	引文作者 4593 4599	Strube
+T39	引文时间 4602 4606	2007
+T40	引文作者 4609 4618	Robillard
+T41	引文作者 4621 4628	Chhetri
+T42	引文时间 4631 4635	2015
+T43	引文作者 6518 6522	Shen
+T44	引文作者 6525 6529	Wang
+T45	引文作者 6534 6537	Han
+T46	引文时间 6540 6544	2015
+T47	引文作者 6454 6459	Tjong
+T48	引文作者 6462 6465	Kim
+T49	引文作者 6468 6472	Sang
+T50	引文作者 6477 6487	De Meulder
+T51	引文时间 6490 6494	2003
+T52	术语 4686 4695	HTML tags
+T53	数据源 4957 4971	Stack Overflow
+T54	数据源 5204 5218	Stack Overflow
+T55	术语 5285 5305	API negative caveats
+T56	术语 6028 6036	API type
+T57	术语 6151 6159	API type
+T58	术语 6233 6253	API negative caveats
+T59	术语 6385 6388	API
+T60	术语 6303 6323	API negative caveats
+T61	术语 6330 6333	API
+T62	术语 6433 6451	entity recognition
+T63	术语 6501 6515	entity linking
+T64	术语 6697 6700	API
+T65	术语 7011 7014	API
+T66	术语 6898 6915	java.util.HashMap
+T67	术语 7059 7062	API
+T68	术语 7355 7359	APIs
+T69	术语 7451 7454	API
+T70	术语 7924 7927	API
+T71	数据源 8302 8316	Stack Overflow
+T72	引文作者 6764 6766	Ye
+T73	引文作者 6769 6773	Xing
+T74	引文作者 6776 6779	Foo
+T75	引文作者 6782 6785	Ang
+T76	引文时间 6797 6801	2016
+T77	软件工具 6734 6761	software‐specific tokenizer
+T78	引文作者 7185 7191	Treude
+T79	引文作者 7194 7203	Robillard
+T80	引文时间 7206 7210	2016
+T81	引文作者 7213 7215	Ye
+T82	引文作者 7218 7222	Xing
+T83	引文作者 7225 7228	Foo
+T84	引文作者 7231 7233	Li
+T85	引文作者 7238 7243	Kapre
+T86	引文时间 7246 7250	2016
+T87	引文作者 7253 7262	Bacchelli
+T88	引文作者 7265 7270	Cleve
+T89	引文作者 7273 7278	Lanza
+T90	引文作者 7283 7288	Mocci
+T91	引文时间 7291 7295	2011
+T92	引文作者 7298 7304	Rahman
+T93	引文作者 7307 7310	Roy
+T94	引文作者 7315 7317	Lo
+T95	引文时间 7320 7324	2016
+T96	数据源 7555 7569	Stack Overflow
+T97	引文作者 7661 7663	Ye
+T99	引文作者 7666 7670	Xing
+T100	引文作者 7673 7676	Foo
+T101	引文作者 7679 7681	Li
+T102	引文作者 7686 7691	Kapre
+T103	引文时间 7694 7698	2016
+T104	引文作者 7701 7705	Chen
+T105	引文作者 7708 7712	Xing
+T106	引文作者 7717 7721	Wang
+T107	引文时间 7724 7728	2017
+T109	引文作者 7801 7806	Beyer
+T110	引文作者 7809 7816	Pinzger
+T111	引文时间 7819 7823	2016
+T112	引文作者 7826 7828	Ye
+T113	引文作者 7831 7835	Xing
+T114	引文作者 7838 7841	Foo
+T115	引文作者 7844 7846	Li
+T116	引文作者 7851 7856	Kapre
+T117	引文时间 7859 7863	2016
+T118	引文作者 7866 7870	Chen
+T119	引文作者 7873 7877	Xing
+T120	引文作者 7882 7886	Wang
+T121	引文时间 7889 7893	2017
+T123	引文作者 8158 8165	C. Chen
+T124	引文时间 8175 8179	2017
+T125	术语 8191 8213	API‐mention variations
+T126	标准数据集 8120 8155	software‐specific synonym thesaurus
+T127	术语 8321 8341	API negative caveats
+T128	图 8967 9056	Figure 2 illustrates three examples dependency parse trees produced by Stanford Parser.44
+T129	术语 9003 9025	dependency parse trees
+T131	术语 9757 9761	APIs
+T132	术语 9833 9836	API
+T133	术语 10188 10191	API
+T134	术语 10224 10227	API
+T135	图 10196 10321	More specifically , a given API must exist in nsubj or dobj syntactic role in a sentence , as highlighted in blue in Figure 2
+T136	术语 11499 11519	API negative caveats
+T137	术语 11546 11565	API negative caveat
+T138	术语 11640 11647	API use
+T139	术语 11693 11713	API negative caveats
+T140	术语 11767 11774	API use
+T141	引文作者 11798 11802	Park
+T142	引文作者 11805 11815	Patwardhan
+T143	引文作者 11818 11830	Visweswariah
+T144	引文作者 11837 11842	Gates
+T145	引文时间 11845 11849	2008
+T146	引文作者 11856 11863	C. Chen
+T147	引文时间 11876 11880	2017
+T148	术语 11966 11986	API negative caveats
+T149	术语 12080 12100	API negative caveats
+T150	数据源 12422 12436	Stack Overflow
+T151	术语 12676 12696	API negative caveats
+T152	术语 12932 12940	API uses
+T153	术语 13016 13033	java.util.HashMap
+T154	术语 13124 13141	java.util.HashMap
+T155	术语 13211 13228	java.util.HashMap
+T156	术语 13322 13325	API
+T157	术语 13379 13399	API negative caveats
+T158	术语 13774 13794	API negative caveats
+T159	术语 13932 13935	API
+T160	术语 14049 14063	Louvain method
+T161	图 14214 14323	Figure 3 shows the community detection results for prominent terms of API java.util.HashMap in our evaluation
+T162	术语 14404 14424	API negative caveats
+T163	图 14574 14687	Observe that the detected term communities are semantically diverse ( highlighted in different colors in Figure 3
+T164	术语 14752 14769	java.util.HashMap
+T165	引文作者 13496 13499	Hua
+T166	引文作者 13502 13506	Wang
+T167	引文作者 13509 13513	Wang
+T168	引文作者 13516 13521	Zheng
+T169	引文作者 13526 13530	Zhou
+T170	引文时间 13533 13537	2015
+T171	引文作者 13540 13544	Lund
+T172	引文作者 13547 13554	Burgess
+T173	引文时间 13557 13561	1996
+T175	术语 13404 13424	Semantic relatedness
+T176	术语 13462 13493	term co‐occurrence in sentences
+T177	引文作者 14066 14073	Blondel
+T178	引文作者 14076 14085	Guillaume
+T179	引文作者 14088 14097	Lambiotte
+T180	引文作者 14102 14110	Lefebvre
+T181	引文时间 14113 14117	2008
+T182	引文作者 15531 15534	Aho
+T183	引文作者 15537 15545	Hopcroft
+T184	引文时间 15548 15552	1974
+T185	术语 15521 15528	NP‐hard
+T186	引文作者 15661 15668	Blondel
+T187	引文时间 15678 15682	2008
+T189	术语 16475 16496	API negative caveasts
+T190	图 17683 17770	Figure 4 shows the API negative caveats selected by Algorithm 1 for this term community
+T191	图 17564 17678	Consider the “ multiple thread synchronized ” term community for java.util.HashMap ( in orange color ) in Figure 3
+T192	术语 18113 18130	API documentation
+T193	术语 18134 18141	HashMap
+T194	术语 18202 18206	APIs
+T195	术语 18273 18293	API negative caveats
+T196	软件工具 18459 18464	Disca
+T197	研究问题 18430 18503	How much improvement can the Disca approach achieve over baseline methods
+T198	研究问题 18514 18610	How effective is the proposed Disca approach in guaranteeing diversity over the baseline methods
+T199	研究问题 18621 18726	To what extent does the Disca approach miss the API negative caveats stated in official API documentation
+T200	研究问题 18737 18814	To what extent does the Disca approach augment the official API documentation
+T201	研究问题 18825 18899	How important are the distilled API negative caveats by the Disca approach
+T202	软件工具 18544 18549	Disca
+T203	软件工具 18645 18650	Disca
+T204	软件工具 18761 18766	Disca
+T205	术语 18709 18726	API documentation
+T206	术语 18797 18814	API documentation
+T207	术语 18857 18877	API negative caveats
+T208	软件工具 18885 18890	Disca
+T209	数据源 18991 19005	Stack Overflow
+T210	术语 19144 19157	Java API type
+T211	术语 19260 19268	API type
+T212	表 19307 19506	Reported in Table 2 ( the first three column ) , the 10 API types have a wide range of mention frequency ( MF ) and candidate API negative caveats ( Candx ) ranging from tens to hundreds of sentences
+T213	术语 19363 19372	API types
+T214	术语 19394 19418	mention frequency ( MF )
+T215	术语 19433 19453	API negative caveats
+T216	时间 19038 19048	March 2016
+T217	术语 17414 17419	Candx
+T218	术语 16411 16416	Candx
+T219	术语 12367 12372	Candx
+T220	术语 12141 12146	Candx
+T221	术语 12042 12047	Candx
+T222	术语 11533 11538	Candx
+T108	数学公式 15503 15517	Equation ( 1 )
+T122	数学公式 15849 15863	Equation ( 1 )
+T174	数学公式 16675 16685	Equation 2
+T130	图 9256 9289	highlighted in orange in Figure 2
+R1	coauthor Arg1:T182 Arg2:T183	
+R2	has_cited_time Arg1:T184 Arg2:T183	
+R3	has_cited_time Arg1:T187 Arg2:T186	
+R4	coauthor Arg1:T177 Arg2:T178	
+R5	coauthor Arg1:T178 Arg2:T179	
+R6	coauthor Arg1:T179 Arg2:T180	
+R7	has_cited_time Arg1:T181 Arg2:T180	
+R8	coauthor Arg1:T165 Arg2:T166	
+R9	coauthor Arg1:T166 Arg2:T167	
+R10	coauthor Arg1:T167 Arg2:T168	
+R11	coauthor Arg1:T168 Arg2:T169	
+R12	has_cited_time Arg1:T170 Arg2:T169	
+R13	field_similar_as Arg1:T165 Arg2:T171	
+R14	coauthor Arg1:T171 Arg2:T172	
+R15	has_cited_time Arg1:T173 Arg2:T172	
+R16	coauthor Arg1:T141 Arg2:T142	
+R17	coauthor Arg1:T142 Arg2:T143	
+R18	coauthor Arg1:T143 Arg2:T144	
+R19	has_cited_time Arg1:T145 Arg2:T144	
+R20	has_cited_time Arg1:T147 Arg2:T146	
+R21	has_cited_time Arg1:T124 Arg2:T123	
+R22	coauthor Arg1:T109 Arg2:T110	
+R23	has_cited_time Arg1:T111 Arg2:T110	
+R24	coauthor Arg1:T112 Arg2:T113	
+R25	coauthor Arg1:T113 Arg2:T114	
+R26	coauthor Arg1:T114 Arg2:T115	
+R27	coauthor Arg1:T115 Arg2:T116	
+R28	has_cited_time Arg1:T117 Arg2:T116	
+R29	coauthor Arg1:T118 Arg2:T119	
+R30	coauthor Arg1:T119 Arg2:T120	
+R31	has_cited_time Arg1:T121 Arg2:T120	
+R32	has_cited_time Arg1:T107 Arg2:T106	
+R33	coauthor Arg1:T106 Arg2:T105	
+R34	coauthor Arg1:T105 Arg2:T104	
+R35	has_cited_time Arg1:T103 Arg2:T102	
+R36	coauthor Arg1:T102 Arg2:T101	
+R37	coauthor Arg1:T101 Arg2:T100	
+R38	coauthor Arg1:T100 Arg2:T99	
+R39	coauthor Arg1:T99 Arg2:T97	
+R40	coauthor Arg1:T78 Arg2:T79	
+R41	has_cited_time Arg1:T80 Arg2:T79	
+R42	coauthor Arg1:T81 Arg2:T82	
+R43	coauthor Arg1:T82 Arg2:T83	
+R44	coauthor Arg1:T83 Arg2:T84	
+R45	coauthor Arg1:T84 Arg2:T85	
+R46	has_cited_time Arg1:T86 Arg2:T85	
+R47	coauthor Arg1:T87 Arg2:T88	
+R48	coauthor Arg1:T88 Arg2:T89	
+R49	coauthor Arg1:T89 Arg2:T90	
+R50	has_cited_time Arg1:T91 Arg2:T90	
+R51	coauthor Arg1:T92 Arg2:T93	
+R52	coauthor Arg1:T93 Arg2:T94	
+R53	has_cited_time Arg1:T95 Arg2:T94	
+R54	field_similar_as Arg1:T78 Arg2:T81	
+R55	field_similar_as Arg1:T81 Arg2:T87	
+R56	field_similar_as Arg1:T87 Arg2:T92	
+R57	coauthor Arg1:T72 Arg2:T73	
+R58	coauthor Arg1:T73 Arg2:T74	
+R59	coauthor Arg1:T74 Arg2:T75	
+R60	has_cited_time Arg1:T76 Arg2:T75	
+R61	coauthor Arg1:T47 Arg2:T48	
+R62	coauthor Arg1:T48 Arg2:T49	
+R63	coauthor Arg1:T49 Arg2:T50	
+R64	has_cited_time Arg1:T51 Arg2:T50	
+R65	coauthor Arg1:T43 Arg2:T44	
+R66	coauthor Arg1:T44 Arg2:T45	
+R67	has_cited_time Arg1:T46 Arg2:T45	
+R68	coauthor Arg1:T37 Arg2:T38	
+R69	has_cited_time Arg1:T39 Arg2:T38	
+R70	coauthor Arg1:T40 Arg2:T41	
+R71	has_cited_time Arg1:T42 Arg2:T41	

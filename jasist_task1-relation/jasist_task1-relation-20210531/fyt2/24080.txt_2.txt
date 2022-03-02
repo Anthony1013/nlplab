@@ -1,0 +1,130 @@
+In Brazil , younger students who have just finished high school typically prefer to start their undergraduate majors in the beginning of the year ( first semester ) , whereas in the second semester , a greater number of adult learners is observed . 
+The first semester comprises the period from February to June , and the second semester starts in August and finishes in December . 
+To answer RQ4 , the types of the discussions with more interactions ( posts ) were analyzed in both majors . 
+In a network , edges can be directed or undirected . 
+Directed edges are appropriate when mapping friendship , for example , where A likes B but the friendship is not reciprocated ( Henneberg , Swart , Naudé , Jiang , & Mouzas , 2009 ) . 
+We understand that the relationship among participants in an ODF is undirected , meaning that they have a mutual relationship ; one participant posts a message and the other one reads it and may reply to it or not . 
+If some participant has posted a message , he/she will probably continue to follow updates on that discussion . 
+So , we think of a discussion thread as a space where participants interact with all the others by either posting or reading messages ( after they have posted at least one message ) . 
+The linkages among participants are thus nondirectional and valued ( the number of participations increases the weight of the edge ) . 
+Besides , the centrality measures used in this study to identify central participants are common in nondirectional relationships . 
+Centrality should not be confused with the notion of prestige , which is relevant only in directional networks where the actors explicitly indicate such choices in their relationships with each other ( Behara , Sunil , & Smart , 2014 ) . 
+The relationships among participants in each network and the role each one plays in these networks have been identified by evaluating several SNA metrics . 
+The simplest one is the degree centrality , which represents the total number of nodes a specific node is connected to . 
+Another centrality measure is node‐betweenness centrality , which refers to the extent to which a particular point lies between the various other nodes in the graph . 
+Betweenness refers to the number of paths that pass through an actor on the shortest paths connecting two other actors . 
+The concept behind this metric is based on information flow : a node has high betweenness if it lies on many shortest paths connecting two other nodes . 
+This is an important metric because a node with high betweenness centrality has better access to information , is better positioned to act as an intermediary in exchanges , and may be able to control flows of information or exchange ( Sloane & O'Reilly , 2013 ) . 
+Besides , it can control communication flows and can potentially serve as a liaison between isolated areas of the network ( Carter , Ellram , & Tate , 2007 ) . 
+Network analyses were carried out using the Ucinet software , which features a large number of metrics that can be used to characterize whole networks and positions of nodes within networks ( Borgatti , Everett , & Freeman , 2014 ) . 
+To aid our analysis , network diagrams were drawn using Gephi ( https : //gephi.org/ ) . 
+The results are shown and analyzed in the next section , considering each of the research questions and networks described previously . 
+This section describes the interaction networks as described previously . 
+First , the general characteristics of the ODF interaction networks of the Accounting and Business Administration courses are presented using data from the second semester of 2016 ( 2016/02 ) . 
+Then , for each network , the most central participants are identified using SNA metrics such as centrality degree and betweenness . 
+Then the main components of each network are analyzed . 
+The evolution of the interaction network is evaluated considering relationships in three semesters 2014/02 , 2015/02 , and 2016/02 . 
+Finally , the discussion topics with more interactions are analyzed . 
+In this section , the results for the interaction networks in ODFs in the majors of Accounting and Business Administration are presented , considering data obtained in the second semester of 2016 , giving support to answer RQ1 . 
+Nine different networks were formed , considering each major semester , from the 1st to 8th and also a network with data from all courses of each major . 
+Table 3 shows the network measures calculated for each of these networks . 
+Considering the whole majors , they present similar metrics . 
+In a semester , an ODF participant is connected to 10.69 other participants in the Accounting major and is related to 13.87 other different people in the Business Administration major . 
+Although the Business Administration major presents greater average degree , the standard deviation for this metric is also higher , which shows that there are people who participate a lot in ODFs but also people who do not participate very often . 
+The average distance between nodes is around 2.3 for both majors , which indicates that with few steps it is possible to reach every node in each network . 
+Networks are sparse with low density , which shows that only a few of the possible connections among participants exist . 
+Considering course semesters , an irregular interaction pattern is observed when the average degree is analyzed . 
+In the Accounting major , participants interact more in the first semester and interaction diminishes in the last semesters . 
+In the Business Administration major , there is also more interaction in the first semesters but also a very intense collaboration when students reach the end of their major . 
+The reasons why students interact more at the beginning of their university lives could be related to being more enthusiastic at first , to a tendency of following guidelines provided by tutors and coordinators more closely , and also to a deeper concern of coordinators or even teachers with students who are entering the university , especially in a fully online major . 
+Anyway , such reasons should be deeply investigated in future work . 
+With this analysis , major coordinators and professors could come up with new actions to keep students engaged as well as identify semesters in which students have not been participating in discussions adequately . 
+RQ2 inquires about who the most central participants are in the interaction network comprising all ODF interactions retrieved in 2016/02 . 
+The most basic metric is the centrality degree , which indicates the number of connections , in this case ODF interactions , each participant in the network has . 
+Thus , the degree centrality only reflects how many interactions a participant has had with others . 
+Table 4 presents the 15 participants who have had the highest centrality degrees in the 2016/02 network for the Accounting and Business Administration majors . 
+For confidentiality reasons , participants ' names were substituted with unique identifiers . 
+The participant type is also presented . 
+It can be observed that for the Accounting major , students participate intensely . 
+The student with more participations is connected to 200 other participants of the ODFs . 
+The coordinator of the major ranks 13th , showing that she is constantly in contact with her students in the ODFs . 
+In the Business Administration major , there are also students who are greatly related to other participants , but the participant with more connections is a tutor . 
+These results show that these students who are greatly connected to others can be used as stimulators for increasing students ’ engagement or conveying information and expected behavior of the coordination of the major . 
+Betweenness centrality is another SNA measure that represents the importance of a node in the network . 
+As explained before , this index measures if a node is on the shortest path of many pairs of nodes , and consequently if it is in a critical position to act as an information hub . 
+In an interaction network , a participant presenting high betweenness centrality can be considered an actor who connects different groups who would not be linked to one another if it were not for this participant in particular . 
+Table 5 displays the 15 most central participants , considering the betweenness centrality index , in the interaction networks of the second semester of 2016 of the Accounting and Business Administration majors . 
+By comparing data presented in Table 4 , it is possible to infer that more collaborations with others do not necessarily imply that a participant is more central in the network , for just a few participants appear in both tables . 
+Figures S1 and S2 ( available in Supporting Information Appendix , online ) depict the ODF interaction network for the majors in Accounting and Business Administration in the second semester of 2016 . 
+In these graphs , each circle is an ODF active participant and its size is related to the participant 's degree in the network . 
+Red circles represent students , green vertices are professors , and blue nodes correspond to tutors . 
+With such visualization , it is possible to see how tutors and professors interact with students and how they are positioned in the network . 
+It is also possible to see the formation of groups , as it is clearer in the Business Administration major , where there is a large set of active students in ODFs related to a tutor who was also very active . 
+Other smaller groups cluster themselves around a professor . 
+Wasserman and Faust ( 1994 ) define a component as a maximal connected subgraph , that is , a path exists between all authors in the subgraph ( all nodes are reachable ) and there is no path between a node in the component and any node outside the component . 
+The main component is the one with the largest number of actors . 
+In a network , there are usually components of varying sizes and researchers often investigate whether or not a giant component is present . 
+A giant component is the component having the largest number of connected vertices . 
+It is usually present in established and mature networks and it should comprise at least 50 % of the nodes of the network ( Newman , 2004 ) . 
+Studies have found large components of varying sizes , from 57 % to almost 90 % of the network size ( De Stefano et al. , 2011 ) . 
+As the global and local metrics are measured for the giant component , detecting the largest component and determining its size is crucial to understanding the topological features of the network ( Kumar & Jan , 2013 ) . 
+So , the analysis of components in all networks gives support to answers to RQ1 , RQ3 , and RQ5 . 
+Very active participants may be responsible for the formation of the giant component because active participants are , on average , more centrally located in the network when compared with all other participants with less interaction . 
+Moreover , participants who are linked by chains of interactions are more likely to be of a similar interest group . 
+Table 6 displays information on the largest component of the interaction network of both majors in the last 3 second semesters of the past years . 
+The giant component phenomenon was observed in all six networks constructed . 
+The size of the largest component obtained varied from 80.53 % to 97.49 % . 
+To evaluate how collaborations in the ODF networks have evolved in the past years and to answer RQ5 , interactions from ODFs in these majors were analyzed in the second semester of the past 3 years ( 2014/02 , 2015/02 , 2016/02 ) . 
+Table 7 shows the general characteristics of these networks . 
+The network properties present , in general , constant and similar characteristics . 
+The results do not seem to exhibit a clear tendency of improving interaction in ODFs . 
+In the last 3 years , the number of active participants has been around 45 % to 50 % in both majors , which represents the need to develop incentives so that students can interact more and engage themselves in collaborative learning . 
+The Accounting major seems to be slowly developing a strategy to improve interaction because participants present a higher degree ( are connected to more participants ) and lower average distance ( are more connected and reachable with fewer steps ) in 2016/02 . 
+The Accounting network has presented an increase in density , also demonstrating that more connections have been established among participants . 
+Finally , to better comprehend interactions among participants in the network , discussion types were also analyzed . 
+Table 8 displays information on the most popular discussions of the Accounting and Business Administration majors in 2016/02 , giving support to answer RQ4 . 
+It is possible to see that the number of posts rapidly decline , showing that only few discussions are able to make participants really interact . 
+Among the most popular discussions , three different types were found : Assignment ( a discussion created in which student participation is graded by the professor ) , WhatsApp Group ( a discussion in which students request participation in an external WhatsApp group ) , and Course Feedback ( a discussion in which students give feedback on the course to the professor ) . 
+One can observe in Table 8 that in the Business Administration major , all top 15 discussions are of the Assignment type . 
+In the Accounting major , Assignment discussions also frequently occur , but there are also discussions of the WhatsApp Group and Course Feedback types . 
+These results show that students currently do not actively participate in ODFs , except when they are graded by the professor . 
+Students also seem to feel less confident to engage themselves in the ODFs in the university virtual environment and might prefer to create an external environment , the WhatsApp groups , where they may feel more secure to give their opinions and express themselves because professors are not invited to these groups . 
+Tang and Hew ( 2017 ) argue that there is currently a growing obsession with smartphone applications , in particular instant messaging , which is probably the most popular , especially among young adults . 
+Among such applications , WhatsApp is now leading the worldwide market by owning more than 1 billion customers in over 180 countries ( https : //www.whatsapp.com/about/ ) . 
+By carrying out a literature review , the authors observed that instant messaging applications are used in different ways with pedagogical purposes , such as journaling ( posting self‐reflection comments ) , dialogic ( emphasizing the discourse among participants ) , communication ( broadcasting or transmitting information to students ) , constructionist with peer feedback ( construction of a meaningful product ) , helpline ( solving homework problems ) , and assessment ( conducting summative assessments ) . 
+In the courses where this study took place , WhatsApp was not used by lecturers , only by students . 
+They decided to form their own group outside the learning virtual environment . 
+Investigating the reasons students decided to do so is important and considered in future work . 
+WhatsApp instant messaging makes learning easy , favors problem solving , and resolves learning difficulties related to the learning process or content . 
+The mobile learning technology helps students to create a learning community , to easily construct knowledge , and to share it with other members of a WhatsApp group through instant messaging . 
+The use of such instant messaging applications might be understood as the adoption of a more learner‐centered approach . 
+Students feel free to post their own questions and comments , to reply to other peers ' posts , and to share knowledge and experiences . 
+Lay and Balakrishnan ( 2017 ) state that the shift from a traditional teacher‐centered to a student‐centered approach emphasizes the importance of fostering students ' engagement and interactions with their peers and lecturers . 
+Moreover , the use of mobile technology in the classroom improves students ' engagement by providing a platform to gather their feedback and to respond to their queries . 
+The objective of this study was to analyze through SNA the social interaction among participants in ODFs . 
+Data were collected from ODF logs of the majors in Business Administration and Accounting in a Brazilian private university . 
+This study identified who the most central participants in the community are , the topological properties of the networks , the interaction patterns , and analyzed the evolution of the interactions in the last 3 years . 
+This study found that these interaction networks are sparse , with low density , which shows that only a few of all the possible connections among participants exist and students could be more engaged in participating , interacting , and collaborating with others . 
+An irregular interaction pattern is observed as far as major 's semesters are concerned . 
+In the Accounting major , participants interact more in the first semester and interaction diminishes in the last semesters . 
+In the Business Administration major , there is also more interaction in the first semester , but also a very intense collaboration when students reach the end of their major . 
+The giant component phenomenon was observed in all networks constructed . 
+The size of the largest component obtained varied from 80.53 % to 97.49 % . 
+In the last 3 years , the number of active participants has been around 45 % to 50 % . 
+The results have also shown that the main incentive to participate in an ODF seems to exist when students are graded by the professor . 
+Students also seem to feel less confident to engage themselves in the ODFs in the university environment and seem willing to create a second environment via WhatsApp groups , where they might feel more secure to give their opinions and express themselves . 
+In a DE environment , collaboration among students is a key factor for promoting and developing learning and engagement . 
+We believe that students participating in ODFs form a Community of Practice . 
+To develop student learning and gain real value from group work , the process of belonging to a team becomes significant . 
+Thus , it is important to identify key participants in such communities because learners will also become more involved with and engaged in activities if they are stimulated by others ' behavior . 
+This work contributes to scholars and practitioners by presenting a case study that adopted SNA to investigate interaction among participants in ODFs . 
+The results of this study show that , by using SNA , major coordinators and professors could identify and characterize interactions as well as develop new actions to keep students engaged by identifying courses in which students have not been participating in discussions adequately . 
+Also , SNA allowed the identification of those students who are greatly connected to others and can be used to stimulate student participation or convey information and expected behavior from the coordinators . 
+There are some limitations to this study . 
+First of all , this study assumes that the relationship among participants in an ODF is undirected , meaning that they have a mutual relationship ; one participant posts a message and the others read it and may reply to it or not . 
+In this context , participants in an ODF interact with all the others by either posting or reading messages . 
+Thus , the relationships among participants are nondirectional . 
+Assembling networks with directed edges would be interesting if individuals ' prestige was to be investigated . 
+In this case , we would analyze the choices participants make on whom to reply to and who the participants with more replies are . 
+Because this study concerns participation patterns and the discussion thread is seen as a community in which all members who have posted at least one message interact , networks were formed with undirected links . 
+Consequently , no distinction as to whether a post was a response to a specific post or a reply to the entire thread was made . 

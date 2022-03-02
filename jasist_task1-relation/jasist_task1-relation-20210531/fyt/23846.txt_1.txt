@@ -1,0 +1,130 @@
+The long‐term success of publications measured in terms of citations is suggested to be an important indicator in research evaluation ( Leydesdorff et al. , 2016 ) . 
+However , in the current practice of research evaluation , relatively short citation windows ( up to 3 or 5 years ) are normally used ( Waltman , 2016 ; Wang , 2013 ) . 
+One important reason for the use of short citation windows in the evaluative context is that reviewers are generally interested in the performance over recent years . 
+Both time perspectives in research evaluation—long‐ and short‐term citation impact—also produce specific citation phenomena , which can be called delayed recognition and instant credit . 
+Whereas gaining instant credit—that is , when most of the credit arises within 3 to 5 years after publication—is the common citation distribution of many papers having a considerable number of citations , delayed recognition is a more or less rare phenomenon . 
+In recent years , a number of studies have introduced methods for identifying papers with delayed recognition or have presented single publications as cases of articles with delayed recognition . 
+Most recently , Ke , Ferrara , Radicchi , and Flammini ( 2015 ) proposed the so called “ beauty coefficient ” ( denoted as B ) to quantify the extent to which a given article can be considered as an article with delayed recognition . 
+Because B is an interesting parameter‐free coefficient , which can be used to identify sleeping beauties ( SBs ) among publications published in different fields and publication years , we would like to take up and extend the coefficient with the instant credit perspective . 
+Following a brief literature review on SBs , we will present the extended coefficient for unifying instant credit and delayed recognition . 
+Since 1955 , when Garfield ( 1955 , 1979 ) introduced the citation index , citation analysis has become more and more popular . 
+Over the last few decades citation analysis has developed into the core method in scientometrics where two research topics are in the focus : the development and improvement of citation‐based indicators as well as the investigation of specific citation phenomena . 
+A few examples of the development and improvements of indicators are the h‐index ( Hirsch , 2005 ) , citation percentiles ( Bornmann & Mutz , 2011 ) , the integrated impact indicator ( I3 , Leydesdorff & Bornmann , 2011 ) , and matrix metrics ( Ye & Leydesdorff , 2014 ) . 
+At the end of the 1980s , Garfield ( 1989a , 1989b , 1990 ) started to investigate the delayed recognition phenomenon of publications in some research fields . 
+He chose two criteria to address delayed recognition : ( a ) highly cited articles that had low citation counts for the first 5 or more years ( with more than 10 years being preferred ) ; ( b ) Articles with a low initial citation frequency , that is , being close to the average of one citation per year . 
+By using both criteria , he found 5 typical examples of delayed recognition from the Science Citation Index ( SCI ) Citation Classics via annual citation curves , including Steven Weinberg 's article published in 1967 ( Weinberg , 1967 ) . 
+The articles of Garfield ( 1989a , 1989b ) were starting points for further studies on delayed recognition and possible methods for detecting corresponding articles . 
+Glänzel , Schlemmer , and Thijs ( 2003 ) defined an article published in 1980 as having delayed recognition , if it received ( a ) only one citation in an initial 3‐year period or ( b ) at most two citations in an initial 5‐year period , and ( c ) if it is now highly cited ( i.e. , has received at least 100 citations in the remaining period up to 2000 ) . 
+The authors found 77 articles out of the almost 450,000 publications under the weak condition ( a ) and 29 articles under the stronger condition ( b ) . 
+After changing condition ( c ) to articles with at least 50 citations and 10 times the average journal impact , the selection resulted in a set of 60 articles ( under a , the weak condition ) and 16 articles ( under b , the strong condition ) . 
+The 3‐ or 5‐year citation window was chosen , because—as a rule—more than 80 % of the articles in a database are cited in an initial 3‐year citation window and more than 90 % in an initial 5‐year citation window in terms of first‐citation statistics ( Glänzel et al. , 2003 ) . 
+In a short article by Glänzel and Garfield ( 2004 ) , delayed recognized articles are defined as those articles which were initially rarely cited during a period of 5 years but became highly cited during the next 15 years ( at least 50 citations or 10 times the journal 's 20‐year cumulative impact factor ) . 
+After analyzing the citation histories of 450,000 articles and reviews indexed in the 1980 edition of the SCI , they found that a statistically marginal share of 1.3 per 10,000 articles were neglected initially , but generated relatively high citation impact later on.van Raan ( 2004 ) was the first to name publications with delayed recognition as SBs . 
+Since then , this term has become established in scientometrics . 
+The back‐story for this naming is as follows : a SB is a princess ( a single publication ) that sleeps ( goes unnoticed ) for a long time , is awakened rather suddenly by a prince ( another publication ) and generates a lot of citation impact after that ( Braun , Glänzel , & Schubert , 2010 ) . 
+Quantitatively , van Raan ( 2004 ) suggested the following three variables for identifying SBs : ( a ) depth of sleep ( Cs ) : the publication received at most 1 citation per year on average ( deep sleep ) or between 1 and 2 citations per year on average ( less deep sleep ) for a few years after publication ; ( b ) length of sleep ( s ) : the duration of the sleeping period ; ( c ) the awakening intensity ( Cw ) : the number of citations per year during the 4 years following the sleeping period . 
+As an important contribution , van Raan ( 2004 ) developed the so called Grand SB Equation : N = f { s , cs , cw } ∼s − 2.7·cs 2.5·cw − 6.6 , where N is the number of SBs . 
+Costas , van Leeuwen , and van Raan ( 2010 ) technically defined various types of article durability in terms of citations regardless of publication year and total number of citations . 
+In their study , “ Yr 50 % ” identifies the year when a publication has received at least 50 % of its citations ; “ P25 ” denotes the prior 25 % citations as a one‐fourth quartile criterion ; and “ P75 ” denotes the prior 75 % citations as a three‐fourth quartile criterion . 
+Costas et al . 
+( 2010 ) concluded that “ Yr 50 % ” < “ P25 ” characterizes instant credit ( in other words “ flashes in the pan ” or “ early rise , rapid decline ” ; Aversa , 1985 ) . 
+“ Yr 50 % ” > “ P75 ” identifies delayed recognition ( in other words “ delayed rise , no decline ” ) ; and “ P25 ” < “ Yr 50 % ” < “ P75 ” indicates “ normal ” or “ medium rise‐slow decline. ” Li and Ye ( 2012 ) introduced the “ all‐elements‐sleeping‐beauties ” ( ASBs ) , where “ spindles , sleeping beauties , and princes ” co‐exist . 
+The citation distribution of ASB articles follows the story in the fairy tale : initially , the articles generate considerable impact as if the SBs are not asleep at the beginning . 
+Then , they start a low citation period as if the SBs prick their fingers on the spindles and fall into a sleeping period . 
+This period is finished by publication years with considerable impact again . 
+In a follow‐up article , Li , Shi , Zhao , and Ye ( 2014 ) defined the “ heartbeat spectra ” of SBs . 
+Whereas the “ heartbeat ” of a SB is its annual citations in the sleeping period , the “ heartbeat spectrum ” is the vector of the SB 's heartbeat . 
+Let ci denotes the number of citations which the SB received in the ith year of the sleeping period . 
+Then , the SB 's heartbeat in the ith year is ci . 
+Vector H = ( c1 , … , ci… , cn ) becomes the heartbeat spectrum , where n indicates the duration of the sleeping period . 
+Two further studies ( Huang , Hsu , & Ciou , 2015 ; Li & Shi , 2016 ) deal with the awakening of SBs . 
+According to Cressey ( 2015 ) , the beauty coefficient B is an elegant and effective method for the identification of SBs in big data . 
+In this article , we try to reveal its dynamic characteristics and extend B—the SB coefficient by a “ smart girl ” ( SG ) component . 
+Furthermore , a simple indicator—the citation angle—is suggested for unifying the approaches of instant and delayed recognition . 
+With the distinction between SBs and SGs in this study , we follow Baumgartner and Leydesdorff ( 2014 ) who define two groups of articles . 
+First are articles that have a lasting impact on a field . 
+These articles can be called “ citation classics ” or “ sticky knowledge claims. ” SBs are a specific sub‐group among these articles , because the lasting impact is not combined with ( substantial ) citation impact shortly after publication . 
+( b ) The other article group defined by Baumgartner and Leydesdorff ( 2014 ) has an initial burst of citation impact followed by a fast decrease shortly after publication . 
+According to Baumgartner and Leydesdorff ( 2014 ) these articles are contributions at the research front and can be defined as “ transient knowledge claims. ” Comins and Leydesdorff ( 2016 ) used the method called “ multi‐References Publication Years Spectroscopy ” ( multi‐RPYS—a method which is based on the analysis of cited references in a article set ) to investigate the existence of both article types empirically . 
+A typical SG ( or “ flash in the pan ” ) is defined as a publication with an early citation peak and later annual citations which are much lower than the early peak . 
+A typical SB ( “ delayed recognition ” ) is defined as a publication with a late citation peak , and prior annual citations which are much lower than the peak citations . 
+The year of the zero point is set to 1 year subsequent to the publication year and ( 0 , 0 ) is set to the zero point . 
+At the zero point , both time and citation number are 0 . 
+According to these three definitions ( SG , SB , and zero point ) , a unified analytical framework for SGs and SBs can be introduced . 
+In Figure 1 , β is a dynamic angle between the straight line ( linking the zero point with the citation peak ) and the time axis . 
+If the zero point were not set to ( 0,0 ) , the line l in the figure would not be a straight line and the citation angle could not be formed . 
+The unified analytical framework for “ smart girls ” ( SGS ) and “ sleeping beauties ” ( SBS ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The straight line l links the zero point with any citation peak in the annual citation distribution ( see Figure 1 ) . 
+Citation angle β is the angle between the straight line and the time axis . 
+As citation distributions can be characterized by many citation peaks , β is a dynamic angle with many possible linking lines . 
+If the line is fixed , the angle is unique . 
+There are max { 1 , ch } =c1 , max { ch , ct } =c2 , and cm = max { 1 , ct } =max { c1 , c2 } ( i.e. , βm= max { β1 , β2 } ) , and t is the total citation time . 
+The citation period of a single publication is divided into two equal parts . 
+Suppose th as the half of the citation period and ch as the number of citations received in the year th . 
+th is generally > 5 , because delayed recognition articles are initially rarely cited over a period of 5 years but become highly cited during the next 15 years ( see Glänzel & Garfield , 2004 ) . 
+ct is defined as the number of citations received in the t th year after publication , t as the number of years since publication , and c0 as the number of citations in the publication year . 
+In the two equal parts of the citation period , let t1 be the year in which the citations reach an early peak and c1 the citations in the year t1 < th . 
+t2 is defined as the year with the late citation peak and c 2 as the citations in the year t 2 > th . 
+If c1 > 10 and t1 ≤ 5 , c1/t1 > 2 , which lead to β1 > arctan ( 2 ) ∼ 63°27 ' . 
+Thus , β1 > 60° may identify SGs . 
+c2 > 10 and t2 ≤ 15 lead to β2 > arctan ( 2/3 ) ∼ 33°41 ' . 
+In case of c2 > 10 and t2 ≤ 100 , c2/t2 > 0.1 , β2 = arctan ( 0.1 ) ∼ 5°42 ' , so that β2 > 5° may identify SBs . 
+According to van Raan ( 2004 ) , SBs receive more than 20 citations after their awakening ( within 4 years , including the peak year ) , which means that the 4 year citations ( using symbol SCb ) > 20 . 
+Then , SGs are suggested to receive more than 20 citations until an early peak ( within 4 years , including the peak year ) , which means that the 4 year citations ( using symbol SCa ) > 20 . 
+The mean annual citations ( AC ) should be less than or equal to 2 for SBs during the sleeping period ; the AC are suggested to be less than or equal to 10 for SGs after the peak . 
+We start from the premise that there are many articles in citation databases for which t1 ≤ 5 and t2–t1 ≥ 10 . 
+Thus , we suggest identifying SBs and SGs in the databases with the criteria listed in Table 1 . 
+In the table , we distinguish between possible , typical , and higher than typical SGs and SBs . 
+If an article shows typical characteristics of both SGs and SBs , we classify it as a typical ASB . 
+Because the beauty coefficient B ( Ke et al. , 2015 ) considers only one citation peak , it can not be used to differentiate SGs from SBs . 
+However , this is possible for the citation angle β. Visually , c1 ≫ c2 is a tendency towards SGs and c1 ≪ c2 a tendency towards SBs . 
+β1 ≫β2 probably leads to SGs ; whereas the probability of SBs increases with β1 ≪β2 . 
+The advantage of the citation angle β lies in its ability to identify both SGs and SBs in a simple and straightforward way . 
+To exemplify the identification of SGs and SBs in a large dataset , we used all articles published in 1980 in the natural sciences ( n = 166,870 ) . 
+The data was derived from an in‐house database at the Max Planck Society which is based on the Web of Science ( WoS ) . 
+We used the assignments of WoS journal sets to the broad subject area “ natural sciences ” ( undertaken by the OECD ) 11 http : //ipscience‐help.thomsonreuters.com/incitesLive/globalComparisonsGroup/globalComparisons/subjAreaSchemesGroup/oecd.html to select the natural sciences articles . 
+For each article in the dataset , the annual number of citations is available from 1980 until 2015 ( 36 annual citation counts per article ) . 
+We restricted the dataset to articles with the document type “ article , ” the publication year 1980 , and the subject area “ natural sciences ” to compare the annual citation impact of articles which are ( more or less ) similar . 
+The analyses of this study are based on annual citations including self‐citations . 
+It is not possible to identify self‐citations in our in‐house database . 
+This might be a limitation of the study because self‐citations can play a role in the awakening process of SBs ( van Raan , 2015 ) . 
+In our dataset ( n = 166,870 articles ) , we identified 24,131 articles ( 14.5 % ) with a “ smart ” angle > 60° and 42,212 articles ( 25.3 % ) with a “ sleeping ” angle > 5° . 
+There are 6,800 articles ( 4.1 % ) with a “ smart ” angle > 60° and with SCa > 20 ; 3,456 articles ( 2.1 % ) have a “ sleeping ” angle > 5° with SCb > 20 . 
+Thus , about 4 % of the articles are possible SGs and 2 % possible SBs ( according to the criteria in Table 1 ) . 
+Furthermore , we identified 5,718 articles ( 3.43 % ) in the dataset with a “ smart ” angle > 60° , SCa > 20 , and AC ≤ 10 ( in t2–t1 ≥ 10 ) . 
+126 articles ( 0.0755 % ∼ 0.1 % ) have a “ sleeping ” angle > 5° with SCb > 20 and AC ≤ 2 ( in t2–t1 ≥ 10 ) . 
+Only 10 SGs and 7 SBs are higher than typical cases . 
+This means that about 3 % of the articles are typical SGs , and about 0.1 % typical SBs . 
+As expected , SGs are a more frequent phenomenon than SBs . 
+Accordingly , there are 5 typical ASBs in the dataset which meet the criteria “ smart ” angle > 60° , “ sleeping ” angle > 5° , SCa > 20 , SCb > 20 , and AC ≤ 2 ( in t2–t1 ≥ 10 ) . 
+The main parameters ( β1 , β2 , and B ) and bibliographic information of the typical ASBs as well as the higher than typical SGs and SBs are shown in Table 2 . 
+It is interesting to see that typical ASBs and higher than typical SBs in Table 2 are mostly published in field‐specific journals . 
+In contrast , the higher than typical SGs appeared in journals which are categorized as multidisciplinary by Thomson Reuters ( e.g. , Science ) . 
+It seems that these journals focus on the publication of manuscripts addressing hot topics without long‐term impact . 
+If we analyze the subject categories of the typical SGs ( n = 5718 ) and SBs ( n = 126 ) in our dataset , we receive the percentages in Figure 2 . 
+The results in the figure indicate that typical SGs are ( with 10 % ) significantly more often published in journals of the multidisciplinary category than typical SBs ( with 2.4 % ) . 
+Percentage of typical “ smart girls ” ( SGS ) and “ sleeping beauties ” ( SBS ) in different subject categories . 
+The subject categories with the most SGS and SBS are shown . 
+If articles belong to more than one category , the papers in the mixed categories are counted . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] To show typical citation curves of SGs , SBs , and ASBs , we show in the following two higher than typical cases of SGs and SBs as well as two typical cases of ASBs from Table 2 . 
+The selected six articles are shaded grey in the table . 
+The higher than typical SG articles on the “ preselection of sex – the social consequences of choice ” ( WOS : A1980JL87600005 ) and on “ Saturn 's magnetosphere , rings , and inner satellites ” ( WOS : A1980JB22600022 ) exhibit a high citation impact at the beginning of their citation histories followed by early decreases . 
+The further histories are characterized by zero or low citation counts with some peaks which do not , however , reach the level of the early phase . 
+The articles have the following parameters : β1 = 88.9° , β2 = 0 , and B = 0 ( WOS : A1980JL87600005 ) and β1 = 88.02° , β2 =6.58° , and B = 0 ( WOS : A1980JB22600022 ) . 
+The selected higher than typical SBs from Table 2 are articles on the “ super‐radiance triggering spectroscopy ” ( WOS : A1980JK05300034 ) and “ on the structure of ternary arsenides ” ( WOS : A1980KA96400011 ) with the following parameters.β1 = 36.87° , β2 =30.58° , and B = 84.02 ( WOS : A1980JK05300034 ) and β1 = 33.39° , β2 =31.83° , and B = 214.64 ( WOS : A1980KA96400011 ) . 
+The article on the super‐radiance triggering spectroscopy shows very low citation counts for nearly 20 years followed by a large increase around the year 2000 ( see Figure 3 ) . 
+The article on the structure of ternary arsenides shows a similar annual citation curve where the awakening of the article happens at a later time point : nearly thirty years after its publication , the article receives comparably high numbers of citations . 
+Annual citation curves of two higher than typical “ smart girLS ” ( SGS ) and sleeping beauties ( SBS ) as well as two typical all‐elements‐sleeping beautieS ( ASBS ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Figure 3 also shows two typical mixed cases which are both SGs and SBs . 
+We selected the following two articles from Table 2 for visualizing their citation curves : the first article is on “ anomalous specific heat of CEB6 ” ( WOS : A1980KD49700015 ) and the second on “ Saturn 's magnetosphere and its interaction with the solar wind ” ( WOS : A1980KS08700002 ) . 
+The corresponding parameters are β1 = 66.8° , β2 =26.56° , and B = 7.83 ( WOS : A1980KD49700015 ) and β1 = 77.47° , β2 =20.32° , and B = 0.32 ( WOS : A1980KS08700002 ) . 
+Both articles show an early peak in their citation curve with a subsequent decrease . 
+A longer phase of years with low citation counts is finished by an impact increase 15 to 20 years after their publication . 
+In the dynamic view , we can assume a wave‐like annual citation curve in the period from 0 to t for most of the publications ( see our examples in Results ) . 
+Figure 4 shows the dynamic view of a citation curve , where the first citation peak is located at c1 and the late peak at c2 . 
+A dynamic view on a citation curve . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Over the whole citation curve , the line that links the zero point with the citation peak extends dynamically via l1→la→lb→l2 , while the citation angle β changes from β1 to β2 . 
+Generally , given the same number of annual citations over time , the citation angle β will decrease . 
+When the citation curve reaches a late pronounced peak , β becomes β2 . 
+The citation angle β is a simple indicator for measuring the change process in citation distributions , which could be used as a simple dynamic coefficient . 
+Although the beauty coefficient B could also be used here , it does not show regular changes , because there is no simple regulation in its definition ( c.f . 

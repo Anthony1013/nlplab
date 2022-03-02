@@ -1,0 +1,110 @@
+Regarding the NB model , all factors except for institution prestige , country prestige , and title length significantly associate with number of tweets . 
+Journal impact factor significantly associates with an increased number of tweets and a unit change in the factor increases the number of tweets by 11.1 % . 
+Individual and international collaborations also associate with increased tweets , although individual collaboration demonstrates a weak association ( articles with one additional author potentially receive 0.1 % more tweets ) . 
+International collaboration strongly associates with increased tweets and one additional country likely contributes to a 9.5 % increase in the number of tweets . 
+Research funding has the strongest association with number of tweets ; funded research receives 24.6 % more tweets than unfunded research . 
+Articles with longer and easier abstracts to read receive 0.5 % more tweets . 
+Furthermore , articles with a longer list of references likely receive 0.2 % more tweets . 
+Articles from bigger subject fields receive 0.1 % more tweets . 
+Additionally , articles in Medical & Natural Sciences and Engineering & Technology receive 14.7 % fewer tweets than that of Social Sciences & Humanities . 
+The logit model shows that only journal impact factor and individual collaboration significantly associate with decreased zero tweets , whereas all other factors are insignificant factors of zero number of tweets ( Table 3 ) . 
+With respect to the NB model , individual collaboration , institution prestige , country prestige , abstract readability and length , number of references , and field size are insignificant factors of number of Facebook posts . 
+However , journal impact factor , international collaboration , and research funding are significantly positively associated with increased posts . 
+A unit increase in the journal impact factor , international collaboration , and research funding increases the number of posts by 7 % , 14.2 % , and 86.2 % , respectively . 
+Title length associates with a decreased number of Facebook posts , indicating that articles with longer titles receive 5.8 % fewer posts than the articles with shorter titles . 
+Field type also associates with decreased posts , demonstrating that Medical & Natural Sciences and Engineering & Technology research likely receives 28.3 % fewer posts than Social Sciences & Humanities research . 
+With respect to the logit model , only journal impact factor , research funding , abstract length , and number of references significantly associate with decreased zero posts . 
+Individual collaboration significantly associates with increased zero posts , but all other factors are insignificant factors of zero Facebook posts ( Table 3 ) . 
+The NB model results find that research funding , abstract readability , abstract length , and number of references are not significant factors for blog posts , but all other factors significantly associate with the number of posts . 
+Journal impact factor significantly associates with increased blog posts and a unit increase in the factor increases the number of posts by 7 % . 
+Individual and international collaborations also significantly associate with increased blog posts ; one additional author and one additional country in the paper contributes to a 0.1 % and 15.3 % increase in the number of posts , respectively . 
+Institution and country prestige associates with 1.7 % and 0.1 % increase in the number of posts , respectively . 
+Field size significantly associates with increased blog posts , whereas field type associates with decreased number of posts . 
+Articles from bigger fields have been more blogged than the articles from smaller domains . 
+Articles from Medical & Natural Sciences and Engineering & Technology likely have 37.2 % fewer blog posts than that of Social Sciences & Humanities . 
+Title length significantly associates with decreased posts , indicating that articles with shorter titles have 7.2 % more blog posts than articles with longer titles . 
+With respect to the logit model , abstract readability , abstract length , and number of references are insignificant factors of zero posts , whereas the other factors significantly associate with zero posts . 
+Among the significant factors , only title length and field type significantly associate with increased zero posts . 
+Journal impact factor , number of authors , number of countries , institution prestige , country prestige , research funding , and field size significantly associate with decreasing zero blog mentions ( Table 4 ) . 
+Results from the NB model found that all factors except for research funding , abstract length , title length , number of references , and field size are significantly associated with increased news posts . 
+Journal impact factor associates with increased posts and a unit increase in the factor contributes to a 4.4 % increase in the number of news posts . 
+Individual and international collaborations also associate with increased posts and a unit increase in each factor increases the number of posts by 0.7 % and 14.6 % , respectively . 
+Institution and country prestige associates with increased news posts and a unit increase in each factor contributes to 2.2 % and 0.1 % increase in the number of posts , respectively . 
+Abstract readability associates with decreased news posts , showing that articles with easier abstracts are less mentioned in news . 
+Articles from Social Sciences & Humanities are mentioned more in news posts than from Engineering & Technology and Medicine & Natural Sciences . 
+With respect to the logit model , journal impact factor , institution prestige , country prestige , and research funding significantly associate with decreased zero posts , whereas individual collaboration , abstract readability , title length , number of references , and field type significantly associate with increased zero posts ( Table 4 ) . 
+In the following discussion section , the results are presented factor by factor and followed by an examination of the results as framed by the research questions . 
+Journal impact : As widely confirmed in previous studies ( Didegah , 2014 ) , journal impact is the most important determinant of citations . 
+Similarly , it was found to be an important factor for both citations and altmetric events in the current study . 
+In the case of citations , it is perceived that top journals contain higher‐quality content and thus they are cited more . 
+Social media users also tend to choose higher‐quality content , as high‐impact journals are more read on Mendeley , more tweeted , more posted on Facebook , and more mentioned in blog and news posts . 
+It is interesting to note that the journal impact factor effect is even higher on Twitter posts than on citations , showing that high‐impact journals are also popular on social media platforms ; however , it is important to know that the majority of journals , particularly top journals such as Nature , Science , PLoS One , etc . 
+have Twitter accounts and tweet their recent articles regularly . 
+Individual and international collaboration : This factor is significantly associated with increased numbers of tweets , and blog and news posts , demonstrating that the more authors a paper contains , the higher the number of tweets and blog and news posts the paper receives . 
+More collaborators are assumed to increase visibility , as the more authors in a paper , the more people who know them and look their articles up , share them , or comment on them . 
+The results for citation counts contradict the results of prior research , that is , the positive association between the number of authors and citation counts ( Chen , 2012 ; Franceschet & Costantini , 2010 ; Gazni & Didegah , 2010 ; Persson , 2010 ) . 
+A recent study examined this factor for altmetric events ( i.e. , blog posts , Twitter users , public Facebook shares , Google+ , and news and mainstream media ) and found that the number of authors was an important factor for all altmetric events examined ( Haustein et al. , 2015 ) , which confirms the results of this work for the number of tweets , blog posts , and news posts , but contradicts the results for Facebook posts . 
+This contradiction may be due to several reasons , including different data samples—for example , this work investigates research articles by Finnish researchers over 3 years , whereas the earlier work ( Haustein et al. , 2015 ) examined all WoS documents from 2012—and also because the earlier work used simpler statistical tests to model the factors rather than simultaneously modeling the factors , as was done in this work . 
+Moreover , the limitation with Facebook data that only public posts are accessible may have also affected the results . 
+International collaboration is an important factor for both citation and altmetric counts . 
+The more countries collaborating on a paper , the higher the number of citations and also all altmetric counts to the paper . 
+International collaboration has been found to be significant for increased citations in the majority of previous studies ( Persson , 2010 ; Sin , 2011 ) . 
+This significant association with altmetric counts also agrees with the results of Haustein et al . 
+( 2015 ) . 
+Researchers are active on social media such as Twitter and tweet about research outputs ( Tsou , Bowman , Ghazinejad , & Sugimoto , 2015 ) . 
+Therefore , having an international network can also have an influence on the author connections on social media and boost their online network toward more international connections . 
+And more online connections will definitely increase author visibility and their articles ’ visibility consequently . 
+Institution and country prestige : Similar to Didegah ( 2014 ) , the results indicate that papers published by top‐ranked institutions and countries receive more citations . 
+The findings show that scholars have a propensity toward citing and reading publications from prestigious institutions and countries , whereas the institution is not important for tweeters or Facebook users . 
+The similarity between citations and Mendeley readership is ( most likely ) due to similar types of users , as previous work has found that Mendeley users are primarily scholars ( Mohammadi , Thelwall , Haustein , & Larivière , 2015 ) ; however , in a study of tweeters who tweeted about articles from four top journals ( Nature , Science , PLoS One , and PNAS ) , nearly half of the tweeters were part of the scholarly community ( Tsou et al. , 2015 ) . 
+The difference between these platforms could , however , be explained by other reasons , such as that Twitter and Facebook are mainly used to consume or disseminate research that discusses current trending topics and important events or the research that is freely accessible on the web regardless of which institution was associated with the research , whereas scholars may cite publications from top institutions to lend more attention to their own work or to persuade journal editors or other authors about the high quality of their research . 
+Research funding : The results show that funding has a very strong impact on citation counts and that funded articles receive 40.3 % more citations than unfunded articles . 
+This has also been claimed in previous studies ( Zhao , 2010 ) , although the association between citation impact and research funding varies across different subject fields ( Didegah , 2014 ) . 
+The factor is also important for the number of Mendeley readers , tweets , and Facebook posts , but it is not an important factor for the number of blog posts and news posts . 
+Research funding supports scientists and paves the way for creative and high‐quality research , especially in experiment‐based research fields . 
+Insufficient funds may lead to shortcomings in the research , as researchers may not be able to do high‐quality work due to a lack of equipment and materials . 
+Because scholars may assess funded research as being of a higher quality than unfunded research , they may then favor saving funded research to their Mendeley library . 
+Funded research is also more mentioned on Twitter and Facebook than unfunded research , which could be caused by requirements placed on the researchers by the funding agencies that charge them with providing evidence of social impact . 
+These requirements may cause the researchers to be more active on Twitter and Facebook with regard to promoting their own research and the research of others . 
+Abstract readability : Articles with more difficult abstracts to read receive more citations , and are more reported in the news , whereas articles with easier abstracts to read are added more to Mendeley and tweeted more often on Twitter . 
+Previous studies also demonstrated that articles with more difficult abstracts are cited more ( Didegah , 2014 ) , which may be due to the fact that scholars are experts in their own fields and have prior knowledge of their complex terminologies . 
+Thus , a text may be considered difficult for nonexperts , as indicated by Flesch scores , but it may be easy to understand for the experts . 
+This notion of expertise may also apply to news posts , as some of the news posts are written by journalists who may specialize in a specific topic and thus have a better understanding of the specialized vocabulary . 
+Although it has been found that many of those tweeting about science are scholars ( Tsou et al. , 2015 ) , those scholars who do tweet may be choosing to tweet about articles with abstracts that are easier to read because they know that many of their own followers are members of the general public . 
+Mendeley readers also tend to add articles with easier abstracts to their library , indicating that Mendeley readers may have a general readership behavior that does not limit them to exclusively read articles from their own field . 
+Abstract readability is not an important factor for Facebook and blog posts . 
+Abstract and title length : The longer the article abstract , the more citations and tweets . 
+One reason explaining why an article with a longer abstract may have more citations and social media mentions is that an extensive abstract is a more complete representation of a paper , providing citers and tweeters with more details and enabling them to make a decision about the usefulness of the work . 
+However , it seems Mendeley readers , Facebookers , bloggers , and news providers do not mind how long an article abstract is and they take some other important features of the article into account . 
+Moreover , the shorter the article title , the more it is cited , which has also been widely confirmed in previous studies that shorter titles have a citation advantage ( Didegah , 2014 ; Ayres & Vars , 1999 ) . 
+Shorter titles are more attractive in Mendeley also , and it may be that longer titles can not easily draw a reader 's attention to the main message of the article , whereas a shorter title may increase a reader 's ability to filter relevant articles from the plethora of available academic documents . 
+Number of references : References in an article attract other researchers to the article , researchers who are searching for relevant studies through citations . 
+Therefore , more references in the article increase the chance of more attention to the article . 
+Higher online and offline attention to works with more references is expected because the more the references , the more comprehensive the paper is expected to be ; and that reference‐based searching in databases increases the chance of more visibility . 
+In the traditional citation context , there is a hypothesis that authors tend to cite the works of their ex‐citers ( Webster , Jonason , & Schember , 2009 ) , showing that the more one cites , the more he/she receives citations in return . 
+However , this hypothesis may not be applied to the online platforms such as Mendeley and Twitter and some other reasons may have influence , such as that more references in the article act as more channels to find that article more easily and quickly among so many other relevant works . 
+Field size and type : Field size is not an important factor for citation counts , nor is it for altmetric scores . 
+How big a field is in terms of authors or publications influence its visibility and impact . 
+Articles from smaller fields are assumed to be less visible than the articles from broader fields ( King , 1987 ) . 
+The field size affects some other factors such as the number of references , which is an important factor for increasing visibility and articles from broad fields are found to have longer lists of references . 
+Field type is an important positive factor for citation counts , but its association with all altmetric events is negative . 
+This shows that articles from Medical & Natural Sciences are more cited than those from Engineering & Technology , and articles from Engineering & Technology are also cited more than those from Social Sciences & Humanities . 
+It is , however , the opposite for altmetric events , as Social Sciences & Humanities articles have more mentions on altmetric platforms than articles from Engineering & Natural sciences . 
+This could be due to the readability of Social Sciences & Humanities research ( easier to read and comprehend than Engineering , Medicine & Natural Sciences research ) . 
+To answer the first research question , the results indicate that except for field size , all other factors are driving both citations and all , or some , of the altmetric events . 
+Journal impact factor and international collaboration are the two factors that significantly associate with increased citation counts and all altmetric scores . 
+Therefore , it seems that some of the citation factors are also important for altmetric counts . 
+As clearly shown in Table 5 , citation and Mendeley readership only behave differently based on three factors : abstract readability , abstract length , and field type . 
+The factors driving other altmetric events behave much more differently from the way they are driving citations . 
+To answer the second research question , the data supports the conclusion that the altmetric events differ from each other in terms of specific factors . 
+For instance , whereas institution prestige and country prestige do not matter for Twitter posts and Facebook posts , they significantly associate with increased blog and news posts . 
+As shown in Table 5 , blog and news posts have similar associations across nine factors , whereas Twitter and Facebook have similarity in association across seven factors . 
+This research provides an increased understanding of factors that may affect the ways in which scientific work receives online attention . 
+Although the results found in this work partly differ from the research by Haustein , Costas , and Larivière ( 2015 ; most likely due to the differences in statistical tests used , the difference in samples , and differences in timeframes ) , what is important is that these results point to the uncertainty that comes from studying altmetric events that are being captured from constantly changing ecosystems with a large ( mostly ) invisible user base . 
+As researchers continue to develop theoretical and methodological models to study this context , the different results found in this early stage of research should be made clear . 
+What is apparent is that more research is needed using different models , theories , and populations to study these phenomena . 
+The generalization of the current findings to other contexts and other countries is dependent on several factors ; the countries should have fairly similar overall research profiles , science communication in social media should be at the same level , and publishing practices should be similar . 
+In this study , Finland was chosen as the object to study and no comparisons to other countries were thus made . 
+Future research could focus on disciplinary differences , in which case the results might be more generalizable . 
+The findings from this study can contribute to the continued development of theoretical models and methodological developments associated with capturing , interpreting , and understanding altmetric events . 
+This work can also aid research policy makers with identifying important factors driving altmetric events . 

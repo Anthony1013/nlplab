@@ -1,0 +1,406 @@
+T1	时间 512 516	2004
+T2	时间 1097 1101	2004
+T3	术语 1261 1282	intellectual property
+T4	引文作者 1340 1347	Verizon
+T5	引文时间 1350 1354	2017
+T6	引文的结果 1307 1337	Cyber espionage is on the rise
+T7	引文的结果 1371 1469	90 % of cyber espionage breaches are designed to capture trade secrets and proprietary information
+T8	引文作者 1472 1479	Verizon
+T9	引文时间 1482 1486	2016
+T10	术语 1576 1596	trusted interactions
+T11	引文时间 2105 2109	2001
+T12	引文作者 2821 2823	Ho
+T13	引文作者 2826 2834	Benbasat
+T14	引文时间 2837 2841	2014
+T15	引文的结果 2552 2818	Insider threat is a reference to situations in which a “ focal actor ” —someone with authorized access—inflicts damage to their own organization by behaving against the interests of the organization ( i.e. , betraying ) , generally in an illegal and unethical manner
+T16	引文时间 3790 3794	2014
+T17	引文的结果 3485 3779	Regardless of whether Snowden 's motivation for leaking classified government information was to alert the public about the surveillance state of the government , or was based on his interest in freedom and privacy , the result significantly impacted U.S. intelligence operations and reputation
+T18	引文的结果 1957 2082	This case of espionage by a trusted and authorized insider shows how insider malfeasance can adversely affect an organization
+T19	引文作者 4014 4018	Tate
+T20	引文时间 4021 4025	2013
+T21	引文的结果 3801 3979	Likewise , Chelsea Elizabeth Manning ( formerly Bradley Edward Manning ) who posted U.S. Army 's classified documents to WikiLeaks , was convicted for violating the Espionage Act
+T22	引文作者 4417 4424	Verizon
+T23	引文时间 4427 4431	2017
+T24	引文的结果 4476 4543	indicated that 94 % of breaches had a financial or espionage motive
+T25	术语 4469 4473	DBIR
+T26	引文的结果 4567 4629	breaches involving insiders had increased 12 % since last year
+T27	时间 4632 4636	2016
+T28	引文作者 4980 4987	Mitnick
+T29	引文作者 4990 4995	Simon
+T30	引文时间 4998 5002	2002
+T31	引文的方法 5009 5349	This article provides inquiries into insider threat research , and moreover contributes to gaps in existing research by arguing for a new perspective of trustworthiness attribution to examine insider threat situations through collective group attribution that reflects the perceived trustworthiness of a focal actor in group communication .
+T32	术语 6877 6913	information communication technology
+T33	术语 6916 6919	ICT
+T34	术语 6924 6942	cloud environments
+T35	引文作者 7064 7069	Patel
+T36	引文作者 7072 7079	Taghavi
+T37	引文作者 7082 7092	Bakytiyari
+T38	引文作者 7097 7103	Junior
+T39	引文时间 7106 7110	2013
+T40	引文的结果 6822 7061	that caused by the sophistication and increased use of information communication technology ( ICT ) , cloud environments have enabled a greater magnitude of damage , and made infrastructure even more vulnerable to insider threat activities
+T41	引文作者 7292 7297	Toxen
+T42	引文时间 7300 7304	2014
+T43	引文的结果 7117 7193	The case with Snowden illegally copying 1.7 million documents from the N.S.A
+T44	引文的结果 7198 7289	's internal SharePoint systems ( a private cloud ) without authorization is an illustration
+T45	引文作者 7498 7503	Debar
+T46	引文作者 7506 7512	Dacier
+T47	引文作者 7517 7522	Wespi
+T48	引文时间 7525 7529	1999
+T49	引文的结果 7320 7495	current computational approaches require large “ appropriate ” and “ complete ” data sets to train the system to analyze and compare patterns of behavior with predefined rules
+T50	术语 8025 8028	IDS
+T51	术语 8029 8032	IPS
+T52	引文作者 8354 8362	Willison
+T53	引文作者 8365 8374	Warkentin
+T54	引文时间 8377 8381	2013
+T55	引文的结果 8177 8351	The ineffectiveness of current technological solutions points to an alternative way of adopting an interdisciplinary approach , that combines social and technological methods
+T56	引文作者 8533 8538	Moore
+T57	引文作者 8541 8549	Cappelli
+T58	引文作者 8552 8557	Caron
+T59	引文作者 8560 8564	Shaw
+T60	引文作者 8571 8579	Trzeciak
+T61	引文时间 8582 8586	2009
+T62	术语 8733 8754	intellectual property
+T63	引文的结果 8589 8907	classified four types of insider threat situations : IT sabotage , theft or modification of information for financial gain ( fraud ) , theft of intellectual property ( IP ) for business advantage , and corporate or government espionage for other reasons , and argued that each requires different technical deterrents .
+T64	引文时间 9256 9260	2014
+T65	引文作者 9276 9280	Tate
+T66	引文时间 9283 9287	2013
+T67	引文的结果 9304 9352	they do not share a common profile or motivation
+T68	引文作者 9355 9359	Wall
+T69	引文时间 9362 9366	2012
+T70	引文作者 9523 9531	Willison
+T71	引文作者 9534 9543	Warkentin
+T72	引文时间 9546 9550	2013
+T73	引文的结果 9399 9520	that future research on insider threats needs to include understanding about the thought processes of potential offenders
+T74	引文作者 10228 10230	Ho
+T75	引文作者 10233 10240	Hancock
+T76	引文作者 10245 10250	Booth
+T77	引文时间 10253 10257	2016
+T78	引文的结果 10056 10225	although the intentions of the perpetrators ( i.e. , betrayers ) can not be predicted because they vary greatly , they tend to provide communication cues of their intent
+T79	引文作者 10405 10410	Liang
+T80	引文作者 10413 10418	Biros
+T81	引文作者 10423 10427	Luse
+T82	引文时间 10430 10434	2016
+T83	引文的结果 10273 10402	insider betrayal tends to represent socio‐psychological behavioral problems that are fundamentally difficult to detect in advance
+T84	引文作者 10561 10566	Debar
+T85	引文时间 10576 10580	1999
+T86	引文的结果 10441 10558	The ability to obtain measures of a person 's baseline behavior is important in efforts to predict future malfeasance
+T87	引文作者 10802 10804	Ho
+T88	引文时间 10814 10818	2017
+T89	引文的结果 10728 10799	understanding group interactions could help with early threat detection
+T90	引文作者 10951 10956	Smith
+T91	引文作者 10959 10966	Schwarz
+T92	引文时间 10969 10973	2016
+T93	引文作者 11155 11162	Schwarz
+T94	引文时间 11165 11169	2015
+T95	术语 11001 11027	collective group cognition
+T96	引文作者 11455 11457	Ho
+T97	引文时间 11467 11471	2017
+T98	引文的结果 11314 11452	Empirical research indicates that ethical dilemmas can be attributed collectively by group members during interactive online communication
+T99	引文作者 11710 11712	Ho
+T100	引文作者 11715 11724	Warkentin
+T101	引文时间 11727 11731	2017
+T102	引文的结果 11478 11707	Communication artifacts , such as blog posts , texts , and emails produced during group activities can be codified to assess shifts in the trustworthiness of a focal actor from the perspectives of a group 's collective assessment
+T103	术语 12806 12833	trustworthiness attribution
+T104	引文的结果 12840 12938	Provide early warning insights of insider anomalous activity from socio‐psychological perspectives
+T105	引文作者 12948 12952	Wall
+T106	引文时间 12955 12959	2012
+T107	引文的结果 12974 13018	humans ’ distributed metacognitive abilities
+T108	引文作者 13021 13028	Schwarz
+T109	引文时间 13031 13035	2015
+T110	引文作者 13038 13043	Smith
+T111	引文作者 13046 13053	Schwarz
+T112	引文时间 13056 13060	2016
+T113	引文作者 13206 13208	Ho
+T114	引文作者 13211 13219	Benbasat
+T115	引文时间 13222 13226	2014
+T116	引文的结果 13066 13196	correlate complex observations in order to sense and filter subtle cues of a focal actor 's trustworthiness in group communication
+T117	引文作者 13386 13388	Ho
+T118	引文时间 13398 13402	2017
+T119	引文的方法 13233 13376	Incorporate collective group intelligence to process dynamic social interaction and communication rather than focusing on individual activities
+T120	引文作者 13527 13529	Ho
+T121	引文作者 13532 13539	Hancock
+T122	引文作者 13542 13547	Booth
+T123	引文作者 13552 13555	Liu
+T124	引文时间 13558 13562	2016
+T125	术语 13456 13468	social media
+T126	术语 13473 13490	computer‐mediated
+T127	引文的结果 13409 13517	Correlate observations and data collected from social media and computer‐mediated communication environments
+T128	引文的结果 13569 13635	Accommodate a panoramic view of the dynamics of insider activities
+T129	引文作者 13645 13647	Ho
+T130	引文作者 13650 13659	Warkentin
+T131	引文时间 13662 13666	2017
+T132	术语 13732 13759	trustworthiness attribution
+T133	研究方法 13764 13948	We first conceptualize the insider threat scenario , define the research constructs , and then postulate 15 propositions based on the merger of trustworthiness and attribution theories
+T134	引文的结果 13982 14086	a perpetrators intent is usually embedded in either face‐to‐face relationships , or online communication
+T135	引文作者 14089 14091	Ho
+T136	引文作者 14094 14102	Benbasat
+T137	引文时间 14105 14109	2014
+T138	引文作者 14313 14315	Ho
+T139	引文作者 14320 14328	Benbasat
+T140	引文时间 14334 14338	2014
+T142	引文的结果 14341 14508	dyadic attribution model provides a theoretical foundation for analyzing the causal relationships underlying behavioral observations , as indicators of trustworthiness
+T141	具体模型 14341 14359	dyadic attribution
+T143	具体模型 14532 14550	dyadic attribution
+T144	引文作者 15160 15162	Ho
+T145	引文时间 15172 15176	2017
+T146	术语 15848 15866	attribution theory
+T147	引文作者 16308 16314	Hosmer
+T148	引文时间 16317 16321	1995
+T149	引文的结果 16324 16520	characterized trust as “ the expectation by one person , group or firm of ethically justifiable behavior—that is , morally correct decisions and actions based upon ethical principles of analysis ”
+T150	引文作者 16740 16747	Piccoli
+T151	引文作者 16750 16754	Ives
+T152	引文时间 16757 16761	2003
+T153	引文的结果 16614 16737	When competence‐based trust is violated , a trustor may feel a breach of psychological contract against the collective goal
+T154	引文作者 16944 16946	Ho
+T155	引文时间 16956 16960	2017
+T156	引文的结果 16768 16941	When integrity‐based trust is violated , it may trigger a natural attribution process involving extensive cognitive and affective reactions among trustors toward the trustee
+T157	引文作者 16967 16972	Tyler
+T158	引文作者 16977 16983	Degoey
+T159	引文时间 16986 16990	1996
+T160	引文的结果 16993 17120	proposed trustworthiness attributions of subordinates to their authority figures ( e.g. , supervisors and ad hoc team leaders )
+T161	引文作者 17414 17419	Tyler
+T162	引文作者 17424 17430	Degoey
+T163	引文时间 17433 17437	1996
+T164	术语 17470 17497	trustworthiness attribution
+T165	引文的结果 17440 17739	specifically mentioned that “ trustworthiness attribution ” of authority is predominantly made on the basis of the relational aspects , suggesting that focal actors ( e.g. , the authority figures ) will be trusted simply because of their role , even with little prior knowledge of their competence .
+T166	引文作者 18247 18249	Ho
+T167	引文作者 18252 18260	Benbasat
+T168	引文时间 18263 18267	2014
+T169	引文作者 18270 18272	Ho
+T170	引文作者 18275 18284	Warkentin
+T171	引文时间 18287 18291	2017
+T172	引文的结果 18294 18436	provide evidence that groups unknowingly22 Unconsciously ; not making a conscious choice such as reporting an incident or filling out a survey
+T173	引文作者 19261 19265	Lord
+T174	引文作者 19268 19273	Smith
+T175	引文时间 19276 19280	1983
+T176	引文的研究问题 19210 19258	one 's learned skills or actions being evaluated
+T177	引文作者 19490 19492	Ho
+T178	引文作者 19495 19503	Benbasat
+T179	引文时间 19506 19510	2014
+T180	引文作者 19538 19540	Ho
+T181	引文时间 19550 19554	2017
+T182	引文的结果 19459 19487	dyadic attribution mechanism
+T183	引文的研究问题 19516 19535	group communication
+T184	具体模型 19565 19583	dyadic attribution
+T185	引文作者 20028 20034	Levine
+T186	引文作者 20037 20046	McCornack
+T187	引文时间 20049 20053	1991
+T188	引文的结果 19865 20025	these observations can lead to correct attributions of downward shifts in perceived trustworthiness when focal actors initiate in actual “ betrayal activities ”
+T189	引文作者 20156 20164	Meyerson
+T190	引文作者 20167 20172	Weick
+T191	引文作者 20177 20183	Kramer
+T192	引文时间 20186 20190	2006
+T193	引文的结果 20060 20153	Trustworthiness refers to the reliability , assessed quality or characteristic of the trustee
+T194	引文作者 20725 20727	Ho
+T195	引文作者 20730 20738	Benbasat
+T196	引文时间 20741 20745	2014
+T197	引文作者 20748 20754	Hosmer
+T198	引文时间 20757 20761	1995
+T199	引文的结果 20327 20722	Perceived trustworthiness , on the other hand , refers to the perception of a trustee , defined as a generalized expectation concerning the degree of congruence between an actor 's communicated intentions and behavioral outcomes , which remain reliable , ethical and consistent , and any fluctuation between perceived intentions and actions does not exceed the observer 's expectations over time
+T200	引文的结果 21602 21760	the lens of multilevel variance considerations of both individual level ( a focal actor ) , and group level ( observers ) in organizational or social contexts
+T201	引文作者 21763 21775	Burton‐Jones
+T202	引文作者 21778 21786	Gallivan
+T203	引文时间 21789 21793	2007
+T204	引文的结果 21800 21910	Social actors , as observers in close relationships , communicate and construct meaning within an organization
+T205	引文作者 21913 21919	Bigley
+T206	引文作者 21922 21928	Pearce
+T207	引文时间 21931 21935	1998
+T208	引文的结果 21942 22056	Through communication , peers in group interactions will naturally evaluate the trustworthiness of the focal actor
+T209	引文作者 22059 22065	Hardin
+T210	引文时间 22068 22072	1996
+T211	引文的结果 22079 22191	The accuracy of the group 's judgment depends on the level of group sensitivity to behavioral shifts and changes
+T212	引文作者 22194 22201	Winship
+T213	引文作者 22204 22209	Hardy
+T214	引文时间 22212 22216	1999
+T215	术语 22398 22425	trustworthiness attribution
+T216	引文作者 22959 22965	Heider
+T217	引文时间 22968 22972	1944
+T218	引文作者 22975 22981	Kelley
+T219	引文时间 22984 22988	1973
+T220	引文的结果 22747 22956	Attribution theory argues that observers observe a focal actor 's behavior over time , making inferences about causes behind changes in behavior that signify something either consistent , different or abnormal
+T221	引文作者 23448 23450	Ho
+T222	引文作者 23453 23461	Benbasat
+T223	引文时间 23464 23468	2014
+T224	引文作者 24082 24084	Ho
+T225	引文时间 24094 24098	2017
+T226	引文的结果 23851 24060	When trust is violated , the trustee ( i.e. , the focal actor ) may no longer be perceived as trustworthy , and could have a sense of ethical dilemma because of betrayal or trust violation against the trustors
+T227	引文作者 24293 24299	Finkel
+T228	引文作者 24302 24309	Rusbult
+T229	引文作者 24312 24321	Kumashiro
+T230	引文作者 24326 24332	Hannon
+T231	引文时间 24335 24339	2002
+T232	引文的结果 24105 24290	Betrayal is an act of trust violation by the trustee who has knowingly departed from the norms—assumed to govern the relationship with the trustor—and , thus causing harm to the trustor
+T233	引文作者 24526 24532	Finkel
+T234	引文时间 24542 24546	2002
+T235	引文的结果 24357 24523	betrayal implies an act of deliberate disloyalty , which violates trust against the norms as perceived by the trustor in a close “ implicit or explicit ” relationship
+T236	引文作者 24779 24781	Ho
+T237	引文时间 24791 24795	2017
+T238	引文的结果 24596 24776	that perceived trustworthiness can be attributed by the close work group of a focal actor , reflecting or indicating the status of actual trustworthiness or insider threat betrayal
+T239	引文作者 24817 24822	Mayer
+T240	引文作者 24827 24832	Davis
+T241	引文时间 24835 24839	1999
+T242	引文作者 24846 24851	Mayer
+T243	引文作者 24854 24859	Davis
+T244	引文作者 24866 24875	Schoorman
+T245	引文时间 24878 24882	1995
+T246	引文的结果 24885 24981	defined trustworthiness based on three specific factors : benevolence , integrity and competence
+R1	results Arg1:T4 Arg2:T6	
+R2	has_cited_time Arg1:T5 Arg2:T4	
+R3	has_cited_time Arg1:T9 Arg2:T8	
+R4	results Arg1:T8 Arg2:T7	
+R5	results Arg1:T12 Arg2:T15	
+R6	coauthor Arg1:T13 Arg2:T12	
+R7	has_cited_time Arg1:T14 Arg2:T13	
+R8	results Arg1:T19 Arg2:T21	
+R9	has_cited_time Arg1:T20 Arg2:T19	
+R10	has_cited_time Arg1:T23 Arg2:T22	
+R11	results Arg1:T22 Arg2:T24	
+R12	coauthor Arg1:T28 Arg2:T29	
+R13	has_cited_time Arg1:T30 Arg2:T29	
+R14	uses Arg1:T28 Arg2:T31	
+R15	results Arg1:T35 Arg2:T40	
+R16	coauthor Arg1:T35 Arg2:T36	
+R17	coauthor Arg1:T36 Arg2:T37	
+R18	coauthor Arg1:T37 Arg2:T38	
+R19	has_cited_time Arg1:T39 Arg2:T38	
+R20	results Arg1:T41 Arg2:T44	
+R21	results Arg1:T35 Arg2:T43	
+R22	has_cited_time Arg1:T42 Arg2:T41	
+R23	results Arg1:T45 Arg2:T49	
+R24	coauthor Arg1:T45 Arg2:T46	
+R25	coauthor Arg1:T46 Arg2:T47	
+R26	has_cited_time Arg1:T48 Arg2:T47	
+R27	results Arg1:T52 Arg2:T55	
+R28	coauthor Arg1:T52 Arg2:T53	
+R29	has_cited_time Arg1:T54 Arg2:T53	
+R30	coauthor Arg1:T56 Arg2:T57	
+R31	coauthor Arg1:T57 Arg2:T58	
+R32	coauthor Arg1:T58 Arg2:T59	
+R33	coauthor Arg1:T59 Arg2:T60	
+R34	has_cited_time Arg1:T61 Arg2:T60	
+R35	has_cited_time Arg1:T66 Arg2:T65	
+R36	results Arg1:T60 Arg2:T63	
+R37	has_cited_time Arg1:T69 Arg2:T68	
+R38	results Arg1:T68 Arg2:T67	
+R39	coauthor Arg1:T70 Arg2:T71	
+R40	has_cited_time Arg1:T72 Arg2:T71	
+R41	results Arg1:T70 Arg2:T73	
+R42	results Arg1:T74 Arg2:T78	
+R43	coauthor Arg1:T74 Arg2:T75	
+R44	coauthor Arg1:T75 Arg2:T76	
+R45	has_cited_time Arg1:T77 Arg2:T76	
+R46	results Arg1:T79 Arg2:T83	
+R47	coauthor Arg1:T79 Arg2:T80	
+R48	coauthor Arg1:T80 Arg2:T81	
+R49	has_cited_time Arg1:T82 Arg2:T81	
+R50	results Arg1:T84 Arg2:T86	
+R51	has_cited_time Arg1:T85 Arg2:T84	
+R52	has_cited_time Arg1:T88 Arg2:T87	
+R53	results Arg1:T87 Arg2:T89	
+R54	coauthor Arg1:T90 Arg2:T91	
+R55	has_cited_time Arg1:T92 Arg2:T91	
+R56	has_cited_time Arg1:T94 Arg2:T93	
+R57	results Arg1:T96 Arg2:T98	
+R58	has_cited_time Arg1:T97 Arg2:T96	
+R59	results Arg1:T99 Arg2:T102	
+R60	coauthor Arg1:T99 Arg2:T100	
+R61	has_cited_time Arg1:T101 Arg2:T100	
+R62	results Arg1:T105 Arg2:T104	
+R63	results Arg1:T22 Arg2:T26	
+R64	has_cited_time Arg1:T106 Arg2:T105	
+R65	results Arg1:T108 Arg2:T107	
+R66	has_cited_time Arg1:T109 Arg2:T108	
+R67	has_cited_time Arg1:T112 Arg2:T111	
+R68	coauthor Arg1:T110 Arg2:T111	
+R69	coauthor Arg1:T113 Arg2:T114	
+R70	has_cited_time Arg1:T115 Arg2:T114	
+R71	results Arg1:T113 Arg2:T116	
+R72	uses Arg1:T117 Arg2:T119	
+R73	has_cited_time Arg1:T118 Arg2:T117	
+R74	results Arg1:T120 Arg2:T127	
+R75	coauthor Arg1:T120 Arg2:T121	
+R76	coauthor Arg1:T121 Arg2:T122	
+R77	coauthor Arg1:T122 Arg2:T123	
+R78	has_cited_time Arg1:T124 Arg2:T123	
+R79	has_cited_time Arg1:T131 Arg2:T130	
+R80	coauthor Arg1:T129 Arg2:T130	
+R81	results Arg1:T129 Arg2:T128	
+R82	results Arg1:T135 Arg2:T134	
+R83	coauthor Arg1:T135 Arg2:T136	
+R84	has_cited_time Arg1:T137 Arg2:T136	
+R85	coauthor Arg1:T138 Arg2:T139	
+R86	has_cited_time Arg1:T140 Arg2:T139	
+R87	results Arg1:T138 Arg2:T142	
+R88	has_cited_time Arg1:T145 Arg2:T144	
+R89	has_cited_time Arg1:T148 Arg2:T147	
+R90	results Arg1:T147 Arg2:T149	
+R91	results Arg1:T150 Arg2:T153	
+R92	coauthor Arg1:T150 Arg2:T151	
+R93	has_cited_time Arg1:T152 Arg2:T151	
+R94	results Arg1:T154 Arg2:T156	
+R95	has_cited_time Arg1:T155 Arg2:T154	
+R96	coauthor Arg1:T157 Arg2:T158	
+R97	has_cited_time Arg1:T159 Arg2:T158	
+R98	results Arg1:T157 Arg2:T160	
+R99	coauthor Arg1:T161 Arg2:T162	
+R100	has_cited_time Arg1:T163 Arg2:T162	
+R101	results Arg1:T166 Arg2:T165	
+R102	coauthor Arg1:T166 Arg2:T167	
+R103	has_cited_time Arg1:T168 Arg2:T167	
+R104	coauthor Arg1:T169 Arg2:T170	
+R105	has_cited_time Arg1:T171 Arg2:T170	
+R106	field_similar_as Arg1:T169 Arg2:T166	
+R107	produces Arg1:T173 Arg2:T176	
+R108	coauthor Arg1:T173 Arg2:T174	
+R109	has_cited_time Arg1:T175 Arg2:T174	
+R110	results Arg1:T177 Arg2:T182	
+R111	coauthor Arg1:T177 Arg2:T178	
+R112	has_cited_time Arg1:T179 Arg2:T178	
+R113	produces Arg1:T180 Arg2:T183	
+R114	has_cited_time Arg1:T181 Arg2:T180	
+R115	results Arg1:T185 Arg2:T188	
+R116	coauthor Arg1:T185 Arg2:T186	
+R117	has_cited_time Arg1:T187 Arg2:T186	
+R118	results Arg1:T189 Arg2:T193	
+R119	coauthor Arg1:T189 Arg2:T190	
+R120	coauthor Arg1:T190 Arg2:T191	
+R121	has_cited_time Arg1:T192 Arg2:T191	
+R122	coauthor Arg1:T194 Arg2:T195	
+R123	has_cited_time Arg1:T196 Arg2:T195	
+R124	has_cited_time Arg1:T198 Arg2:T197	
+R125	field_similar_as Arg1:T197 Arg2:T194	
+R126	results Arg1:T194 Arg2:T199	
+R127	results Arg1:T201 Arg2:T200	
+R128	coauthor Arg1:T201 Arg2:T202	
+R129	has_cited_time Arg1:T203 Arg2:T202	
+R130	results Arg1:T205 Arg2:T204	
+R131	coauthor Arg1:T205 Arg2:T206	
+R132	has_cited_time Arg1:T207 Arg2:T206	
+R133	results Arg1:T209 Arg2:T208	
+R134	has_cited_time Arg1:T210 Arg2:T209	
+R135	results Arg1:T212 Arg2:T211	
+R136	coauthor Arg1:T212 Arg2:T213	
+R137	has_cited_time Arg1:T214 Arg2:T213	
+R138	results Arg1:T216 Arg2:T220	
+R139	has_cited_time Arg1:T219 Arg2:T218	
+R140	has_cited_time Arg1:T217 Arg2:T216	
+R141	field_similar_as Arg1:T218 Arg2:T216	
+R142	has_cited_time Arg1:T223 Arg2:T222	
+R143	coauthor Arg1:T221 Arg2:T222	
+R144	has_cited_time Arg1:T225 Arg2:T224	
+R145	results Arg1:T224 Arg2:T226	
+R146	results Arg1:T227 Arg2:T232	
+R147	coauthor Arg1:T227 Arg2:T228	
+R148	coauthor Arg1:T228 Arg2:T229	
+R149	coauthor Arg1:T229 Arg2:T230	
+R150	has_cited_time Arg1:T231 Arg2:T230	
+R151	has_cited_time Arg1:T234 Arg2:T233	
+R152	results Arg1:T233 Arg2:T235	
+R153	results Arg1:T236 Arg2:T238	
+R154	has_cited_time Arg1:T237 Arg2:T236	
+R155	coauthor Arg1:T239 Arg2:T240	
+R156	has_cited_time Arg1:T241 Arg2:T240	
+R157	coauthor Arg1:T242 Arg2:T243	
+R158	coauthor Arg1:T243 Arg2:T244	
+R159	has_cited_time Arg1:T245 Arg2:T244	
+R160	results Arg1:T242 Arg2:T246	

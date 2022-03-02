@@ -1,0 +1,130 @@
+Textual features are extracted from the metadata associated with the images . 
+The textual information is formed by concatenating the title and the url fields of the search result . 
+These represent , respectively , the web page title containing the image , and the image file name . 
+The textual information is preprocessed by tokenization and removal of stop words . 
+Visual information is extracted using low‐level image keypoint descriptors ; that is , scale‐invariant feature transform ( SIFT ) features ( Lowe , 1999 , 2004 ) sensitive to color information . 
+Image features are extracted using dense sampling and described using Opponent color SIFT descriptors provided by the colordescriptor package.99 http : //koen.me/research/colordescriptors The SIFT features are clustered to form a visual codebook of 1,000 visual words using k‐means clustering , such that each feature is mapped to a visual word . 
+Each image is represented as a bag‐of‐visual words ( BOVW ) . 
+A graph is created using the candidate images as the set of nodes . 
+Edges between images are weighted by computing the cosine similarity of their BOVWs . 
+Then , Personalised PageRank ( PPR ; Haveliwala , Kamvar , & Jeh , 2003 ) is used to rank the candidate images . 
+The personalization vector of PPR is initialized by measuring average word association between topic words and image metadata based on PMI , as in Aletras and Stevenson ( 2013b ) . 
+The image with the highest PageRank score is selected as the topic label . 
+The aim of the task was to identify as many documents as possible that are relevant to a set of queries . 
+Each participant had to retrieve documents for 20 queries ( see Table 1 ) , with 3 minutes allocated for each query . 
+In addition to the query ( e.g. , Travel & Tourism ) , participants also were provided with a short description of documents that would be considered for the query ( e.g. , News articles related to the travel and tourism industries , including articles about tourist destinations ) to assist them in identifying relevant documents . 
+Participants were asked to perform the retrieval task as a two‐step procedure . 
+They first were provided with the list of LDA topics represented by a given modality ( term list , textual label , or image ) , and a query . 
+Next , they were asked to identify all topics that were potentially related to the query . 
+Figure 1 shows the topic browser interface for the three different modalities . 
+In the second step , participants were presented with a list of documents associated with the selected topics . 
+Documents were presented in random order . 
+Each document was represented by its title , and users were able to read its content in a pop‐up window . 
+Figure 2 shows a subset of the documents that are associated with the topics selected in the first step . 
+The documents that are presented to the user in the second step have high conditional probabilities of being associated with the topics that were selected in the first stage . 
+However , note that this does not guarantee that they also are relevant to any given query . 
+Topic browsing interfaces . 
+[ Color figure can be viewed in the online issue , which is available at wileyonlinelibrary.com . 
+] Topic browsing : List of documents . 
+[ Color figure can be viewed in the online issue , which is available at wileyonlinelibrary.com . 
+] In addition , we asked users to complete a posttask questionnaire once they had completed the retrieval task . 
+The questionnaire consisted of five questions , which were intended to provide insights into participant satisfaction with the retrieval task and the topic browsing system . 
+Participants assigned an integer score from 1 to 7 ( ranging from useful/easy/familiar to very useful/easy/familiar ) in response to each question . 
+First , we asked about the usefulness of the different topic representations ( i.e. , term list , textual labels , and image labels ) . 
+We also asked about the difficulty level of the task ( “ Ease of Search ” ) and the familiarity of the participants with the queries . 
+The questions were as follows : How useful were the term lists in representing topics ? 
+( “ Usefulness [ Term list ] ” ) How useful were the textual phrases in representing topics ? 
+( “ Usefulness [ Textual label ] ” ) How useful were the images in representing topics ? 
+( “ Usefulness [ Image ] ” ) How easy was the task ? 
+( “ Ease of Search ” ) Did you find the queries easy to understand ? 
+( “ Query Familiarity ” ) We recruited 15 members of the research staff and graduate students at the University of Sheffield , University of Melbourne , and King 's College , London for the user study . 
+All participants had a computer science background and also were familiar with online digital library and retrieval systems . 
+Each participant was first asked to sign up to our online system so we could track a given user session across time . 
+After logging in , participants had access to a personalized main page where they could read the instructions for the task , see how many queries they had completed so far , or select to perform a new query . 
+Participants were asked to perform the task for each of the 20 queries , which were presented in random order . 
+Topic representation for each query was randomly chosen , and participants annotated different topics using varying topic representations . 
+Topics and documents were presented in random order to ensure that there was no learning effect where participants became familiar with the order and were able to more quickly annotate some queries . 
+We also encouraged participants to perform their allocated queries in multiple sessions by allowing them to return to the interface to complete further queries , provided that they completed the overall task within 1 week . 
+We begin by exploring the number of documents retrieved and the proportion of retrieved documents that were relevant . 
+Further analysis is carried out to determine relevance of the retrieved documents based on the topics that were selected in the first stage . 
+Finally , results from the posttask questionnaire are discussed . 
+We assume that the number of retrieved documents for the three topic browsing systems is indicative of the time required to interpret topics and identify relevant ones . 
+Topic representations that are difficult to interpret will require more time for participants to understand , which will have a direct effect on the number of documents retrieved . 
+Table 3 shows the number of documents retrieved for each query and modality . 
+Representing topics using lists of terms results in the lowest number of documents retrieved both overall ( 1,086 ) and for the majority of the queries . 
+The highest number of documents retrieved ( 1,264 ) occurs when the topics are represented using textual phrase labels . 
+This suggests that textual phrase labels are easier to interpret than are the other two representations , thereby allowing participants to more quickly identify relevant topics . 
+The number of documents retrieved for the image representation is slightly higher than the term lists , but lower than textual phrase labels . 
+The number of retrieved documents is high for queries that are associated with many relevant documents ( Sports in term lists , textual phrase labels , and image labels ; Domestic Politics [ USA ] in image labels ) . 
+The relatively large number of relevant documents leads to LDA generating a large number of topics relevant to them , which in turn provides users with many topics through which relevant documents can be selected . 
+In addition , queries such as Weather and Religion are highly distinct from other queries , making it easier to identify documents relevant to them . 
+On the other hand , the queries for which the fewest documents are retrieved are those that are associated with a small number of relevant documents ( Travel & Tourism and Biographies ) . 
+Further analysis compared the documents retrieved for individual queries . 
+We computed the Pearson 's correlation coefficient between the number of documents retrieved for each query across the three topic representations . 
+We observe a high correlation between term lists and textual phrase labels ( r = 0.76 ) , and term lists and image labels ( r = 0.74 ) , while the correlation between textual phrase and image labels is lower ( r = 0.63 ) . 
+These results demonstrate that the topic representation does not strongly affect the relative number of documents retrieved for each query . 
+For example , for all three topic representations , two queries ( Sports and Weather ) appear within the top five of the ranking of documents retrieved , and three queries ( Biographies , Personalities , People ; Crime , Law Enforcement ; and Defense ) appear within the bottom five . 
+The correlation between term lists and textual phrase labels , and term lists and image labels , is higher than the correlation between textual phrase and image labels . 
+The main reason might be that both textual phrase and image labels are automatically generated from the topics , which introduces noise.1010 Note that the topics themselves are , of course , automatically generated and potentially noisy , but in terms of topic labeling , constitute the ground truth for a given topic . 
+Comparing two noisy methods produces a lower correlation than when just one of them is noisy . 
+We also tested the performance of the different topic representations in terms of the proportion of retrieved documents that are relevant to the query , by computing the average precision for each query across all 15 users . 
+The results are shown in Table 4 . 
+Term lists achieve a higher precision ( 0.59 ) than did either the textual phrase ( 0.53 ) or image ( 0.56 ) labels . 
+This is somewhat expected since labeling is a type of summarization , and some loss of information is inevitable . 
+Another possible reason is that the textual phrase and image labels are assigned using automatic methods ( discussed earlier ) , which leads to occasional bad label assignments to topics . 
+Queries such as Sports , Health , Religion , and War—Civil War are in the top‐three precision for the three topic representations . 
+Identifying relevant documents might be easier for these queries since they tend to be distinct from other queries , making the process of identifying relevant documents more straightforward . 
+On the other hand , we observed low precision for queries that have a low number of relevant documents associated with them such as Welfare , Social Services ; and Biographies , Personalities , People . 
+We computed the Pearson 's correlation coefficient between the precisions for the queries across topic representations . 
+An interesting finding is the similarly high correlation achieved between term lists and textual phrase labels ( r = 0.83 ) , and term lists and image labels ( r = 0.84 ) . 
+Correlation between textual phrase and image labels is lower ( r = 0.79 ) , suggesting that there is greater disparity between the queries for which the two methods achieve high/low precision . 
+This also is likely to happen because of bad labeling of topics . 
+Table 5 shows the results of the average probability sum for relevant and irrelevant documents retrieved by users for each query and topic representation . 
+The results show that both labeling methods perform better than the term list representation for retrieving relevant documents . 
+Textual phrase labels perform best while image labels obtain comparable performance . 
+Apart from the fact that labeling methods allow users to retrieve more documents , they also allow users to select more relevant topics for a given query . 
+On the other hand , the probability sum for irrelevant topics selected using the labeling algorithms is higher than are the term lists . 
+Using lists of terms , participants select a lower number of irrelevant topics , which results in a lower irrelevant probability sum . 
+The main reason might be the false labels assigned to topics by these algorithms , resulting in irrelevant topic selection by users . 
+We computed the ratio of the probability masses of the relevant and irrelevant documents retrieved for each topic . 
+The highest ratio ( 2.5 ) was obtained when the image labels were used . 
+The ratio for the topic terms is similar ( 2.3 ) while the ratio for textual phrases is lower ( 1.8 ) . 
+This suggests that the topic terms and image labels allow users to identify potentially relevant topics more accurately than when textual labels were used . 
+This is supported by the rankings of the different approaches in terms of their overall precision ( see Table 4 ) . 
+The main finding of the posttask questionnaire is that all of the modalities achieve similar scores in terms of usefulness , as detailed in Table 6 . 
+Term lists achieve the highest average score ( 4.33 ) while textual phrase labels are close behind ( 4.26 ) , and image labels slightly lower again ( 4.00 ) . 
+This demonstrates that there is room for improvement in all modalities ( recalling that the scores are of 7 in total ) and that the different topic representations can be complementary in topic browsers , providing users with alternative ways to explore a document collection . 
+Participants found the retrieval task quite challenging ( 3.53 ) , although the average score for Query Familiarity was higher ( 4.40 ) . 
+Combined , these suggest that the majority of users were reasonably comfortable with the queries and that this is not a likely the cause of the lower score for ease of search . 
+Rather , we consider it to be reflective of the nature of the task and the limited time available for each query . 
+We conducted further analysis to explore the accuracy of the topic labeling methods . 
+A crowdsourcing experiment was carried out in which participants were asked to rate topic labels using an annotation task that is similar to the “ intruder detection ” task ( Chang et al. , 2009 ) used to quantify topic interpretability . 
+Human judgments of the suitability of each label were obtained using the Crowdflower crowdsourcing platform.1111 http : //crowdflower.com The document with the highest marginal probability is identified for each of the 84 topics used in the previous experiment . 
+This document is shown to the annotator together with four labels , one representing the topic and the other three representing randomly selected topics with low marginal probability for the document . 
+The same three random topics are shown to all annotators for each document ( although note that different random topics are used across questions ) . 
+The order in which the topics are shown to annotators is randomized . 
+Annotators were asked to judge the appropriateness of each topic label from 0 ( irrelevant ) to 3 ( very relevant ) with respect to the document 's main thematic content . 
+The four topics were represented using each of the three topic modalities ( i.e. , term lists , text phrases , and images ) , and each topic was rated by at least 10 annotators . 
+Figure 3 shows the interface of the crowdsourcing experiment . 
+Document topic relevance judgement interface . 
+This allows us to directly evaluate the interpretability of the topic representations since we assume that if the topic labels are appropriate , then annotators will assign higher scores to labels which are relevant to a document than to those which are randomly chosen . 
+Quality control in crowdsourcing experiments ensures reliability ( Kazai , 2011 ) . 
+To avoid random answers , control questions with obvious answers were included in the survey . 
+For example , we presented annotators with a document about finance in which the four available labels were a topic about finance and three stop words . 
+Annotations by participants who failed to correctly answer these questions or gave the same rating to all topics were ignored . 
+A total of 2,520 filtered responses was obtained from 66 participants . 
+The average response for each document–topic pair was calculated to create the final similarity judgment . 
+The variance across judges ( excluding control questions ) was in the range of 0.22 to 0.29 . 
+To measure inter‐annotator agreement ( IAA ) , we first calculated Spearman 's ρ between the ratings given by an annotator and the average ratings from all other annotators for those same document–topic pairs . 
+We then averaged the ρ across annotators and document–topic pairs . 
+Average IAA scores are shown in Table 7 . 
+The lower agreement for the image labels indicates that the annotators found it more difficult to identify the correct label . 
+Topic representations were analyzed using the following two metrics : Top‐1 average rating : the average human rating assigned to each topic label . 
+This provides an indication of the overall quality of the labels that the annotators judge as the best one . 
+The highest possible score averaged across all topics is 3 . 
+Match @ 1 : the relative frequency of the correct topic for a given representation being rated the highest of the four topics . 
+Results are shown in Table 8 . 
+Term lists achieve the best performance for both the Top‐1 Average and Match @ 1 measures , with scores of 1.70 and 0.92 , respectively . 
+As discussed earlier , term lists have the advantage of being more descriptive and informative since they consist of more words than do textual phrase labels . 
+The average ratings assigned by annotators are lower than the average scores assigned by humans to textual phrase and image labels in similar crowdsourcing experiments ( Aletras & Stevenson , 2013b ; Lau et al. , 2011 ) . 
+This is due to our labeling task being different in nature . 

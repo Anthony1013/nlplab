@@ -1,0 +1,212 @@
+T1	术语 1920 1923	TOA
+T2	引文的结果 1932 1956	priority‐based framework
+T3	引文作者 1959 1963	Wang
+T4	引文时间 1973 1977	2016
+T5	术语 2373 2376	TOA
+T6	术语 2358 2369	pseudo‐code
+T7	术语 3054 3082	estimated marginal influence
+T8	术语 490 508	marginal influence
+T9	术语 664 682	marginal influence
+T10	数学公式 686 700	Equation ( 4 )
+T11	术语 1018 1037	marginal influences
+T12	术语 1047 1075	estimated marginal influence
+T13	数学公式 1557 1571	Equation ( 5 )
+T14	术语 1742 1770	estimated marginal influence
+T15	术语 3232 3235	TOA
+T16	引文的结果 3240 3268	the priority‐based framework
+T17	引文作者 3271 3275	Wang
+T18	引文时间 3285 3289	2016
+T19	术语 3608 3637	estimated marginal influences
+T20	术语 3674 3685	pseudo‐code
+T21	术语 3689 3692	TOA
+T22	术语 3721 3724	TOA
+T23	术语 3911 3914	TOA
+T24	术语 4063 4070	TR‐tree
+T25	术语 4086 4112	TR‐tree oriented algorithm
+T26	术语 4115 4119	TROA
+T27	术语 4247 4249	Ri
+T28	术语 4594 4596	Ri
+T29	术语 4631 4635	TROA
+T30	术语 4658 4662	TROA
+T31	术语 4683 4690	TR‐tree
+T32	术语 4720 4727	TR‐tree
+T33	数学公式 5563 5578	Equation ( 10 )
+T34	数学公式 5656 5670	Equation ( 4 )
+T35	术语 5981 5985	TROA
+T36	术语 6014 6017	TOA
+T37	术语 6022 6026	TROA
+T38	术语 6069 6088	marginal influences
+T39	术语 6384 6387	LIA
+T40	术语 6410 6413	LIA
+T41	术语 6576 6580	DLIA
+T42	术语 6515 6565	Discount Local Influence based Heuristic Algorithm
+T43	研究结果 6503 6645	we devise a Discount Local Influence based Heuristic Algorithm ( denoted DLIA ) for seeds selection by using users ' discount local influences
+T44	术语 6747 6751	DLIA
+T45	术语 6732 6743	pseudo‐code
+T46	标准数据集 6817 6828	DoubanEvent
+T47	数据源 6880 6886	Douban
+T48	自建数据集 7126 7213	we randomly sample 10K users , 50K users , 100K users , and 400K users for the data set
+T49	标准数据集 7252 7256	YELP
+T50	数据源 7312 7326	YELP Challenge
+T51	引文作者 7402 7404	Hu
+T52	引文时间 7414 7418	2014
+T53	引文的结果 7361 7399	YELP is a popular business review site
+T54	图 7637 7690	The statistics of the data sets are shown in Figure 5
+T55	标准数据集 7840 7851	DoubanEvent
+T56	标准数据集 7869 7873	YELP
+T57	具体模型 7967 7989	weighted cascade model
+T58	具体模型 7994 8010	trivalency model
+T59	引文作者 8013 8017	Chen
+T60	引文时间 8027 8031	2010
+T61	标准数据集 8102 8113	DoubanEvent
+T62	具体模型 8269 8288	common events model
+T63	引文作者 8293 8295	Li
+T64	引文作者 8298 8303	Cheng
+T65	引文作者 8306 8308	Su
+T66	引文作者 8311 8313	Li
+T67	引文作者 8318 8322	Yang
+T68	引文时间 8325 8329	2016
+T69	引文时间 8333 8337	2017
+T70	引文的结果 8126 8290	the propagation probability P ( u , v ) between user u and v by the ratio of the number of attending events of v influenced by user u ( called common events model )
+T71	术语 8548 8564	Greedy Algorithm
+T72	术语 8567 8571	CELF
+T73	引文作者 8574 8582	Leskovec
+T74	引文时间 8592 8596	2007
+T75	术语 8601 8605	PMIA
+T76	引文作者 8608 8612	Chen
+T77	引文时间 8622 8626	2010
+T78	术语 8635 8639	WRIS
+T79	引文时间 8654 8658	2015
+T80	术语 8722 8730	Greedy‐E
+T81	术语 8733 8739	CELF‐E
+T82	术语 8742 8748	PMIA‐E
+T83	术语 8755 8761	WRIS‐E
+T84	术语 8800 8806	WRIS‐E
+T85	术语 8892 8896	DLIA
+T86	术语 8909 8924	Degree Discount
+T87	术语 8927 8929	DD
+T88	引文作者 8934 8938	Chen
+T89	引文时间 8948 8952	2009
+T90	术语 8959 8962	LIA
+T91	标准数据集 9055 9059	YELP
+T92	术语 9161 9163	DD
+T93	术语 9178 9191	TR‐tree index
+T94	术语 9132 9151	baseline algorithms
+T95	术语 9204 9228	approximation algorithms
+T96	术语 9238 9244	WRIS‐E
+T97	术语 9360 9363	TOA
+T98	术语 9382 9393	topic index
+T99	术语 9398 9408	user index
+T100	术语 9415 9419	TROA
+T101	术语 9433 9449	node‐topic index
+T102	术语 9454 9464	user index
+T103	表 9469 9546	The details of the index sizes and the construction time are shown in Table 2
+T104	标准数据集 9715 9726	DoubanEvent
+T105	具体模型 9742 9764	weighted cascade model
+T106	具体模型 9767 9783	trivalency model
+T107	具体模型 9790 9809	common events model
+T108	图 9661 9824	Figures 6 , 7 , 6 , 7 , and 8 show the results on the DoubanEvent data sets with weighted cascade model , trivalency model , and common events model , respectively
+T109	标准数据集 9863 9867	YELP
+T110	具体模型 9882 9904	weighted cascade model
+T111	具体模型 9909 9925	trivalency model
+T112	标准数据集 10048 10059	DoubanEvent
+T113	标准数据集 10073 10077	YELP
+T114	术语 10109 10117	Greedy‐E
+T115	标准数据集 10215 10226	DoubanEvent
+T116	具体模型 10290 10293	MIA
+T117	术语 10419 10443	approximation algorithms
+T118	术语 10453 10461	Greedy‐E
+T119	术语 10464 10470	WRIS‐E
+T120	术语 10473 10479	CELF‐E
+T121	术语 10482 10488	PMIA‐E
+T122	术语 10491 10494	TOA
+T123	术语 10501 10505	TROA
+T124	标准数据集 10579 10590	DoubanEvent
+T125	具体模型 10605 10627	weighted cascade model
+T126	标准数据集 10785 10796	DoubanEvent
+T127	具体模型 10811 10827	trivalency model
+T128	标准数据集 10985 10996	DoubanEvent
+T129	具体模型 11011 11030	common events model
+T130	标准数据集 11188 11192	YELP
+T131	具体模型 11212 11234	Weighted Cascade Model
+T132	具体模型 11245 11261	Trivalency Model
+T133	术语 11337 11339	DD
+T134	术语 11392 11396	DLIA
+T135	术语 11425 11428	LIA
+T136	术语 11433 11435	DD
+T137	标准数据集 11587 11598	DoubanEvent
+T138	标准数据集 11603 11607	YELP
+T139	标准数据集 11704 11715	DoubanEvent
+T140	具体模型 11733 11755	weighted cascade model
+T141	具体模型 11758 11774	trivalency model
+T142	具体模型 11781 11800	common events model
+T143	图 11622 11815	Figures 10 , 11 , 10 , 11 , and 12 show the running time of all algorithms on the DoubanEvent dataset with the weighted cascade model , trivalency model , and common events model , respectively
+T144	标准数据集 11878 11882	YELP
+T145	具体模型 11901 11923	weighted cascade model
+T146	具体模型 11928 11944	trivalency model
+T147	图 11820 11944	Figure 13 shows the running time of all algorithms on the YELP data set with the weighted cascade model and trivalency model
+T148	术语 11968 11976	Greedy‐E
+T149	术语 12059 12065	WRIS‐E
+T150	术语 12083 12091	Greedy‐E
+T151	术语 12191 12197	WRIS‐E
+T152	术语 12327 12333	WRIS‐E
+T153	术语 12351 12357	CELF‐E
+T154	术语 12424 12430	CELF‐E
+T155	术语 12462 12481	marginal influences
+T156	术语 12513 12532	submodular property
+T157	术语 12537 12543	PMIA‐E
+T158	术语 12561 12567	CELF‐E
+T159	术语 12591 12597	PMIA‐E
+T160	术语 12660 12664	TROA
+T161	术语 12669 12672	TOA
+T162	术语 12689 12695	PMIA‐E
+T163	术语 12782 12801	marginal influences
+T164	术语 12845 12849	TROA
+T165	术语 12862 12865	TOA
+T166	术语 12874 12878	TROA
+T167	术语 12932 12954	dynamic priority queue
+T168	术语 12994 13014	heuristic algorithms
+T169	术语 13024 13028	DLIA
+T170	术语 13031 13034	LIA
+T171	术语 13041 13043	DD
+T172	标准数据集 13107 13118	DoubanEvent
+T173	具体模型 13133 13155	weighted cascade model
+T174	标准数据集 13307 13318	DoubanEvent
+T175	具体模型 13333 13349	trivalency model
+T176	标准数据集 13501 13512	DoubanEvent
+T177	具体模型 13527 13546	common events model
+T178	标准数据集 13698 13702	YELP
+T179	具体模型 13722 13744	Weighted Cascade Model
+T180	具体模型 13755 13771	Trivalency Model
+T181	标准数据集 13898 13909	DoubanEvent
+T182	具体模型 13928 13950	weighted cascade model
+T183	图 13955 14000	The evaluation results are shown in Figure 14
+T184	术语 14304 14306	DD
+T185	标准数据集 14497 14508	DoubanEvent
+T186	图 14522 14582	Figure 15 shows the results for effectiveness and efficiency
+T187	术语 14724 14730	WRIS‐E
+T188	术语 14733 14739	CELF‐E
+T189	术语 14746 14752	PMIA‐E
+T190	术语 14781 14784	TOA
+T191	术语 14789 14793	TROA
+T192	术语 14820 14839	marginal influences
+T193	研究问题 14989 15091	In this paper we studied the location‐aware targeted influence maximization problem in social networks
+T194	具体模型 15106 15109	MIA
+T195	术语 15147 15154	NP‐hard
+T196	术语 15314 15337	TR‐tree index structure
+T197	研究结果 15501 15621	the experimental results in real‐world data sets demonstrate the effectiveness and efficiency of our proposed algorithms
+R1	results Arg1:T3 Arg2:T2	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	results Arg1:T17 Arg2:T16	
+R4	has_cited_time Arg1:T18 Arg2:T17	
+R5	results Arg1:T51 Arg2:T53	
+R6	has_cited_time Arg1:T52 Arg2:T51	
+R7	has_cited_time Arg1:T60 Arg2:T59	
+R8	coauthor Arg1:T63 Arg2:T64	
+R9	coauthor Arg1:T64 Arg2:T65	
+R10	coauthor Arg1:T65 Arg2:T66	
+R11	coauthor Arg1:T66 Arg2:T67	
+R13	has_cited_time Arg1:T69 Arg2:T67	
+R14	results Arg1:T63 Arg2:T70	
+R12	has_cited_time Arg1:T68 Arg2:T63	
+R15	has_cited_time Arg1:T89 Arg2:T88	

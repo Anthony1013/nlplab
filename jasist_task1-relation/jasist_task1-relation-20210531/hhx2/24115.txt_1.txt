@@ -1,0 +1,130 @@
+In diachronous studies and depending on their citation curves or ageing profiles articles can be categorized in different ways . 
+In ( Smith Aversa , 1985 ) the author makes , for highly cited papers , a distinction between delayed rise in received citations combined with a slow decline , on the one hand , and early rise combined with a rapid decline , on the other . 
+More recently , Costas , van Leeuwen , and van Raan ( 2010 ) classify documents into three general types : delayed documents , which receive the main part of their citations later than normal documents ; flashes‐in‐the‐pan ( Van Dalen & Henkens , 2005 ) , which receive citations immediately after their publication but are not cited or influential in the long term ; and normal documents , documents with a typical distribution of citations over time , that is , the number of yearly citations first increases , usually reaching a peak after about 3 to 5 years , and then slowly declines ( Rousseau , Jin , Yang , & Liu , 2001 ) .Note that this is a post hoc classification , meaning that classification of this type is only possible after publication . 
+The group of delayed documents include so‐called sleeping beauties ( van Raan , 2004 ) , a term we replace here by the gender‐neutral term “ hibernators , ” articles suffering from delayed or late recognition , being premature discoveries , being ahead of one 's time , suffering from Mendel 's syndrome or being late bloomers ( all synonyms or near‐synonyms , describing the same phenomenon ) . 
+To meet the new requirements of JASIST ( Sugimoto & Mostafa , 2018 ) we use the gender‐neutral terms “ hibernator ” and “ awakener ” to replace the terms “ sleeping beauty ” and “ prince ” ( Hu , Hu , Zhang & Rousseau , 2018 ) . 
+This article is further organized as follows . 
+In the next section we explain what brought us to this investigation . 
+Next , we explain the terms hibernator , under‐cited influential and chimera . 
+This leads us to the methodology used to find these citation chimeras . 
+A large part is then devoted to an attempt to describe and characterize the resulting articles . 
+Our investigation leads to several new research questions , mentioned in the discussion . 
+Finally , we conclude by stating that we have found a positive answer to our research question stated in the title of this contribution . 
+Stimulated by recent research by ourselves—about under‐cited influential publications ( see further ) ( Hu & Rousseau , 2016 ; Hu & Rousseau , 2017a ) and by others about delayed recognition ( Du & Wu , 2016 ; Ke , Ferrara , Radicchi , & Flammini , 2015 ; Li & Shi , 2016 ; Li & Ye , 2016 ; van Raan , 2015 , 2017 ) we became interested in the question if an article can suffer delayed recognition ( an aspect of its first forward citation generation ) and at the same time be under‐cited influential ( an aspect mainly determined by subsequent citation generations ) . 
+In the natural sciences rare events are often of extreme importance . 
+In the social sciences this is less the case , but still , the existence of publications such as the one we are trying to find , combining two not‐so‐common properties , may contain a warning not to overlook them and may further contribute to classifications of publications . 
+Rare is not the same as non‐existing . 
+Hence our research question is : RQ1 : Do articles suffering from delayed recognition exist which are also under‐cited influential ? 
+Finally , we mention that this article is an extended version of a presentation made in Wuhan ( China ) at the occasion of the 16th conference of the International Society of Scientometrics and Informetrics ( Hu & Rousseau , 2017b ) . 
+We already mentioned hibernators and under‐cited influential articles . 
+In this section we provide definitions and context . 
+Recently the topic of hibernators has attracted a lot of attention ( Du & Wu , 2016 ; El Aichouchi & Gorry , 2018 ; Ke et al. , 2015 ; Li , 2014 ; Li & Shi , 2016 ; Li & Ye , 2016 ; van Raan , 2015 , 2017 ) , leading among others to the study of articles that at first receive some attention , then go through a period in which they are hardly noticed , followed by a period of being highly cited , activated by an awakener ( Li & Ye , 2012 ) . 
+Figure 1 shows the citation curve of ( Romans , 1986 ) , a typical hibernator studied by van Raan ( 2004 ) . 
+It received no citations for 9 years and then during the next 6 years received more than 100 citations . 
+After a peak its citation curve shows a gradual and irregular decline like “ normally cited ” articles . 
+Lachance and Larivière ( 2014 ) studied so‐called sleepers , a group of papers that received their first citation ( s ) 10 full years or more since their publication . 
+This group includes hibernators , but also other less‐cited articles . 
+Sleepers were compared with a reference group of “ non‐sleepers. ” Most of the sleepers , namely 92.6 % , received a life‐time number of citations less than or equal to five , while only 0.06 % received more than 50 citations . 
+These authors recall that there is no unique definition of what is or is not a hibernator and point out that the questions of what constitutes “ hibernation , ” and how to measure and operationalize it , remain central problems in the study of hibernators . 
+In a recent article ( Hu , et al. , 2018 ) we introduced the category of authoritative citers in the study of hibernators . 
+These articles are like the awakener ( formerly known as the prince ) , but just are n't the first to awaken the hibernator . 
+It was shown that authoritative citers often play an important role in spreading the knowledge about the hibernator—once awakened—and keeping it in the scientific limelight . 
+In the remainder of this article we will write the terms hibernator , awakener and authoritative citer in full , except in tables , figures or when referring to figures where we use the abbreviations HIB , AW and AT . 
+All the types of articles mentioned above are based on the—direct—citation distribution . 
+Yet , recently Hu and Rousseau ( 2016 , 2017a ) introduced another type of articles in which first , second and third citation generations play a role . 
+Such articles , referred to as under‐cited influential articles , are characterized by three properties : ( a ) they are reasonably well‐cited ( a basic requirement to be influential ) ; ( b ) citations of citations ( second generation citations ) are rather high , so that the original one is influential in an indirect way ( a more refined token of influence ) ; ( c ) given condition two , these articles received fewer citations than expected ( being under‐cited ) . 
+Each of these three requirements is operationalized leading to two formulae referred to as sparking indices ( Hu & Rousseau , 2017a ) and explained in more detail further on . 
+Although the framework we use to describe our results is in principle database neutral ( admitting that some databases are more suited to find the data we need , for example , Clarivate Analytics ' Web of Science ( WoS ) is much easier to use than Google Scholar ) . 
+Indeed , for this reason all used data were retrieved from the WoS . 
+Next , we briefly recall the methodology to calculate these sparking indices . 
+First , we note that an important aspect is that we not only consider direct but also indirect citations ( Hu , Rousseau & Chen , 2011 ) . 
+First , second , and third generation citations are defined as non‐overlapping sets ( not as multisets ) . 
+According to the definition given in ( Hu & Rousseau , 2016 ; Hu & Rousseau , 2017a ) we say that publication A is an under‐cited influential publication on the 1 % level , if its sparking index S1 ( A ) is higher than the top percentile most‐cited articles ( publications of article type ) in the field ( operationalized as a WoS subject category ) , with same publication year as publication A and is also higher than the number of direct citations received by publication A . 
+To make sure that an under‐cited influential article is itself cited a reasonable number of times it is further required that publication A is cited more than 200 times . 
+We note that the field of publication A is determined by publications in the WoS which are classified as being of article type . 
+Yet , publication A may be of any publication type such as a chapter of an edited book . 
+If the journal in which article A is published belongs to more than one WoS subject category then A must satisfy the requirements for being an under‐cited influential article with respect to each category . 
+Moreover , if A is published in a multidisciplinary journal or in a publication not included in the WoS , then its field is determined as the WoS category to which the largest number of citing articles belongs . 
+Further details are provided in ( Hu & Rousseau , 2016 ; Hu & Rousseau , 2017a ) . 
+These two articles also show that such under‐cited influential articles are neither common , nor extremely rare . 
+Many foundational articles written by Nobel Prize winners , but also other—including recent—articles , fall into the group of under‐cited influential articles . 
+We recall that also Eugene Garfield , the founder of the Institute for Information Science ( ISI ) , has several under‐cited influential articles on the 10 % level ( Rousseau & Hu , 2018 ) . 
+Before continuing our investigation , we want to clarify the terminology of under‐cited influential articles . 
+These are articles are influential : they are reasonably well cited and , through citing articles , their influence on the development of ideas that started with them is even higher . 
+Many of them , like the Nobel Prize winning articles studied in ( Hu & Rousseau , 2017a ) , can even be described as foundational articles . 
+Yet , we also call these articles under‐cited . 
+By this we do not mean that they are treated unfairly . 
+We just want to stress that many articles that built on them receive more citations . 
+One reason could be that these citing articles added new results that incorporated the results of the “ under‐cited ” one , so that later investigators do not feel the need to refer to the—foundational—original . 
+Clearly hibernators and under‐cited influential articles differ in many aspects except that in short‐term evaluations based on bibliometric indicators , they both are under‐valued . 
+Hibernators usually begin with a long period of no or few citations and then direct citations ( first generation ) go up . 
+Under‐cited influential articles usually are rather well‐cited but citing articles ( second generation citations ) are even more cited . 
+In ( Hu & Rousseau , 2016 ) we provided an example of a recent article ( Deltcheva et al. , 2011 ) on the hot topic of CRISPR that already satisfied the definition of being under‐cited influential . 
+This means that already in a few years this article had been cited by articles that had received even more citations ( in an even shorter period ! 
+) . 
+These considerations led us to the research question detailed in the next section . 
+As being a hibernator and at the same time being under‐cited influential means that the article belongs to two categories of articles which are usually separate we refer to them as chimeras . 
+We recall that the Chimera in Greek mythology is a hybrid creature composed of the parts of more than one animal . 
+For this reason the term chimera has come to describe any fictional animal composed of parts taken from various animals , or even to describe anything composed of very disparate parts ; for example : the famous CRISPR/Cas9 technique has led to the creation of chimeric antigen receptor T cells ( Eyquem et al. , 2017 ) . 
+We first identify articles which are hibernators as well as under‐cited influential followed by a deeper investigation of their characteristics . 
+We looked through a set of articles dealing with delayed recognition and determined 49 articles considered to be hibernators , restricting them to those published in 1950 or later and included in the Science Citation Index Expanded ( SCI‐E ) . 
+As a universally accepted , precise definition of a hibernator does not exist , we do not discuss if these articles are really hibernators . 
+We just accept the opinion of the authors who discussed these articles . 
+Bibliographic information on these hibernators is given in Table A1 ( Appendix A ) , whereas the articles discussing these hibernators can be found in Table A2 ( Appendix A ) . 
+For all these hibernators we checked if they are also under‐cited influential articles . 
+Citations were collected and calculations made in December 2017 . 
+To study the characteristics of these special citation chimeras we make a thorough investigation from two different points of view : from the point of view of hibernators , and from the point of view of citation generations , tracing the evolution of scientific ideas . 
+To realize this , more than 90,000 articles in their subsequent generations were downloaded to identify awakeners and potential authoritative citers for each “ citation chimera. ” This included determining the number of cocitations with their respective hibernators . 
+Results of our investigations are shown in Table 1 . 
+We found 13 hibernators of the 49 checked that are also under‐cited influential articles . 
+This is 27 % . 
+Of course numbers are too small to accord any meaning to this percentage . 
+Obviously , we obtained a positive answer to our research question . 
+In the next section we will try to characterize the results of our search . 
+The article by Romans ( 1986 ) turned out to be also under‐cited influential according to our definition . 
+This is illustrated in Figures 2 and 3 where , besides the original citation curve we also show the curve of the citing curves with the second most citations . 
+Figure 2 shows yearly ( diachronous ) distributions and Figure 3 shows cumulative numbers of citations . 
+As the top 1 % ( rounded up ) citing articles consists of four articles we show the second one among these ( referred to as the median citing article ) . 
+This median citing article , published in 1999 , received already in the year 2000 more citations that Romans 's ( Figure 2 ) and the next year its cumulative total citations was higher than Romans 's ( Figure 3 ) . 
+This is just an illustration as such an intersection is neither necessary nor enough to be an under‐cited influential article ( we recall that the definition also includes further citation generations ) . 
+Interestingly , we found out that , for each article shown in Table 1 , there exists a group of authoritative citers among its citing articles , most of them having received a high number of citations , and having a “ considerable ” number of cocitations with the hibernators ( see Appendix B ) . 
+This illustrates the indirect influence of these hibernators . 
+Concretely , we observe two interesting phenomena related to authoritative citers : ( a ) many authoritative citers are much stronger than the awakener , this in number of received citations as well as in number of cocitations with the hibernator ; ( b ) new authoritative citers appear continuously in time , probably triggered by the scientific attractiveness of the hibernator , and hence increasing its attractive power . 
+Hokin 's article on “ Enzyme secretion and the incorporation of P32 into phospholipids of pancreas slices ” ( Hokin & Hokin , 1953 ) is a typical example for which we observe strong authoritative citers . 
+The hibernator was awakened by an awakener in the year 1981 ( Michell , Kirk , Jones , Downes , & Creba , 1981 ) . 
+The awakener received 461 citations and has 71 cocitations with the hibernator ( up to December 2017 ) . 
+In the following years , this hibernator was co‐cited with a group of authoritative citers which are much stronger than the original awakener , such as ( Streb , Irvine , Berridge , & Schulz , 1983 ) , denoted as AC1 , with 1914 citations and 141 cocitations with the SB ; Nishizuka ( 1984 ) , denoted as AC2 , with 7,981 citations and 121 cocitations ) ; Berridge and Irvine ( 1984 ) , denoted as AC3 , with 5,991 citations and 130 cocitations ; and Berridge ( 1984 ) , denoted as AC4 , with 3,725 citations and 113 cocitations . 
+This is illustrated in Figure 4a , b . 
+The article “ Mechanism of yellow luminescence in GaN ” ( Ogino & Aoki , 1980 ) is a good example illustrating the case of a hibernator who leads to a continuous flow of authoritative citers , triggered by the hibernator , even many years after its awaking . 
+Figure 5a shows that , after a long and deep hibernating period ( the hibernator received only 11 citations during 15 years ) , it was awakened by an awakener in the year 1995 ( Glaser et al. , 1995 ) with 305 citations , leading to a considerable number of cocitations ( 163 cocitations ) . 
+Yet , in the next year , the hibernator drew the attention of two stronger authoritative citers , AC1 ( Neugebauer & Van de Walle , 1996 ) and AC2 ( Ponce , Bour , Gotz , & Wright , 1996 ) . 
+Among the 801 citations received by AC1 , 185 are cocitations with the hibernator ; similarly , among AC2 's 353 citations , 68 are cocitations with the hibernator . 
+In the following years , many subsequent authoritative citers came to the front , showing that the hibernator stayed influential for a long period . 
+This is further illustrated by the curves of AC3 and AC4 in Figure 5b . 
+One may see ( Figure 5a ) that in the year 2004 , AC3 ( Van de Walle & Neugebauer , 2004 ) became highly visible in a very short period of time : this article received 1,354 citations and had 24 cocitations with the hibernator , most of them in the last 5 years . 
+An even more remarkable case emerged in the year 2010 , namely AC4 ( Lyons , Janotti , & Van de Walle , 2010 ) . 
+Among its 228 citations , 44are cocitations with the hibernator . 
+Moreover , this number of cocitations has been growing during the latest years , up to 11 cocitations in the year 2017 ! 
+This observation leads to the question if , in the wake of authoritative citer 4 , the hibernator is becoming more interesting again ? 
+Consider the set of directly and indirectly citing articles ( different generations of citing articles ) of the article of interest . 
+We refer to it as its citers ' set . 
+If now a member of the citer set of an under‐cited influential hibernator receives more citations than the hibernator we refer to such an article as an influential citer . 
+Following the path spread out by subsequent citation generations , we thoroughly studied three generations of under‐cited influential hibernators , and found influential citers in the second as well as the third generation . 
+Consider , as an example , Romans 's article ( Romans , 1986 ) . 
+Among its 363 citing articles ( first generation ) , five have at least 454 citations . 
+The most‐cited article ( Polchinski , 1995 ) among these has 1,711 citations ; 28 citing articles of this most‐cited article ( second generation ) received more than 367citations ( data up to the third generation ) . 
+The second‐ranked citing article ( Myers , 1999 ) received 919 citations , seven of them ( second generation ) have more than 396 citations ; the third‐ranked article ( Maldacena & Nuñez , 2001 ) , has 571 citations , among which 10 have more than 414 citations ; number four , ( Lukas , Ovrut , Stelle , & Waldram , 1999 ) , received 467 _citations , among which 10 were cited at least 369 times ; finally number 5 , ( Polchinski & Witten , 1996 ) , received 454 citations , 11 of which received more than 395 citations . 
+Please see Figure 6 . 
+Romans 's article is not an exceptional one in terms of influential citers . 
+Indeed , having influential citers is a general characteristic for under‐cited influential articles . 
+This means that the citation performance of subsequent generations is better than that of the original article . 
+This is part of the definition of sparking indices at the 1 % or 10 % levels ( Hu & Rousseau , 2016 , 2017a ) . 
+One of the possible reasons for this phenomenon is that some subsequent articles are interested in new developments described in the citing papers and much less in the original breakthrough by Romans . 
+Yet , cocitations show that some citers are clearly interested in the work of influential citers as well as in the original one . 
+We start this discussion with a caveat : the notions of hibernators and under‐cited influential articles are not precisely defined or depend on some ad hoc rules . 
+This leads to the questions : do these 13 articles , or most of these , really belong to the two types mentioned , or would a slight change in definition to one of the two types make a consequential difference ? 
+To which extent are results database dependent ? 
+In particular : are hibernators according to the WoS or Scopus also hibernators in Google Scholar ? 
+Yet , we think that strict delineations , even if they could be defined , do not deter from the observed facts , concretely from the observation that some articles of the type referred to as hibernators have a highly remarkable citation history when studied over several generations . 
+We further note the following research questions : Assume that we have a strict definition of a hibernator , then we wonder after how many years is it clear that an article is a hibernator ? 
+Is it , at that moment , also possible to say that this hibernator is moreover under‐cited influential ( for which a strict , be it ad hoc , definition exists ) or is it then usually too early , as one needs three generations of citing articles and it took quite some time before the first generation was “ large enough ” and hence does not easily leads to many second and third generation citations ? 

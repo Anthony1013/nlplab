@@ -1,0 +1,40 @@
+T16	表 1772 1857	Table 7 shows several statistics related to the distribution of citations in clusters
+T17	表 2935 2979	The overall results are presented in Table 8
+T18	表 3719 3845	Table 9 shows adjusted Pearson residuals measured when comparing the observed distribution ( in Table 8 ) with expected values
+T19	表 4646 4769	Another observation is the limited compatibility of citations of similar types , as shown in the second diagonal of Table 9
+T20	图 5012 5076	Figure 6 is a rough outline of the residuals for each discipline
+T21	表 5079 5246	following the same structure as Table 9 ( the first column is for isolated citations , other columns and rows correspond to relation types indicated by their numbers )
+T22	引文作者 5784 5790	Teufel
+T23	引文时间 5793 5797	2006
+T24	引文时间 6121 6125	2008
+T25	引文作者 6102 6109	Ritchie
+T26	表 7619 7694	Detailed scores as a function of social relations are indicated in Table 10
+T27	表 9151 9220	Finally , the confusion matrix of the classifier is shown in Table 11
+T28	研究展望 13908 14003	Although pioneering , our study is limited in terms of disciplinary coverage and amount of data
+T29	研究结果 13552 13626	this study highlights a diversity of citation practices across disciplines
+T30	研究结果 13631 13752	We conclude that it is very difficult to have the same understanding of citations in such different disciplinary contexts
+T31	表 244 359	note that the contents of Tables 5 and 6 were computed independently based on the corresponding subsets of our data
+T1	引文的方法 6097 6379	what Ritchie et al. , ( 2008 ) call the 3sentupto method , which consists in extracting the sentence the citation appears in , together with the preceding and following sentences , but truncating the context when another citation is found to the left or right of the target citation
+T2	研究方法 6088 6379	we adopt what Ritchie et al. , ( 2008 ) call the 3sentupto method , which consists in extracting the sentence the citation appears in , together with the preceding and following sentences , but truncating the context when another citation is found to the left or right of the target citation
+T3	研究方法 7081 7223	We then trained a supervised logistic regression classifier ( with a cut‐off of 5 ) to categorize the context according to the social relation
+T4	研究结果 8561 8648	This confirms that most self‐citations explicitly refer to previous work by the authors
+T5	研究结果 9268 9472	It appears that , like citation cluster homogeneity , confusion between categories is higher when relation types are similar , and this is especially true for the lower end of the social relation spectrum
+T6	研究结果 9583 9743	This indicates that the citation context is impacted by the social relation , although its discriminative characteristics remain to be identified more precisely
+T8	研究结果 10130 10233	Self‐citations are more common in the experimental sciences and mathematics than in the social sciences
+T9	研究结果 10631 10713	Unknown citations are the most common type in all disciplines , except mathematics
+T10	研究结果 11351 11409	Thus , most citations reflect social links between authors
+T11	研究结果 11685 11818	We can conclude that , to some extent , the closer the cited author is to the citing author , the more they will be cited in the text
+T12	研究结果 11957 12080	This means that the textual equivalence of citations corresponds , in part , to the relational equivalence of their authors
+T13	研究结果 11823 11952	Citations clusters – in which the author cites an indistinct set of references – tend to be homogeneous in terms of relationships
+T14	研究结果 12085 12199	Furthermore , the textual context seems , in part , to be influenced by the social relations embedded in citations
+T15	研究结果 12614 12681	As this article shows , in‐text references are more‐or‐less salient
+T32	研究结果 12867 13015	Moreover , this study shows that there is a correlation between the textual characteristics of the citation and the relationship between the authors
+T33	研究结果 13020 13132	This strongly suggests that it is impossible to consider citations as objective indicators , with no social bias
+T34	研究结果 13137 13293	Our work reveals the overlap between citations and social networks , in the sense that the social structure is partially reflected in the textual features .
+T35	研究结果 13296 13540	This suggests that inequalities between researchers regarding their social and relational capital ( notably seniority or gender ) , can also lead to differences in the positioning of the citation in the text , and impact the citation visibility
+T36	研究结果 0 241	To sum up , although clear trends can be identified regarding self‐citation and the citation of unknown authors , few significant variations can be observed for the other categories , and no general trend can be identified across disciplines
+T37	研究方法 6384 6552	We restricted our study to isolated citations and homogeneous citation clusters ( i.e. , clusters in which all citations belong to the same social relation category ) .
+T38	研究方法 8006 8117	Next , we investigated the best predictor features for each class , based on their weights in the trained model
+T39	研究问题 9832 9994	We focused on the relationships between citing and cited authors and we developed several analyses concerning the impact of these social links on scientific texts
+R1	has_cited_time Arg1:T23 Arg2:T22	
+R2	has_cited_time Arg1:T24 Arg2:T25	

@@ -1,0 +1,130 @@
+In health forums , a patient is sometimes represented by his/her caregiver , for example , the patient 's mother . 
+As they are closely related , the caregiver 's description or corresponding opinions are also counted as the patient 's experience . 
+On the other hand , “ I heard that Keppra could cause birth defects . 
+It is really not a safe drug ” is not patient experience . 
+Our goal is to classify each sentence in a forum post as whether it describes patient experience or not . 
+We model the problem as a classification task . 
+Consider a set of sentences in a health forum . 
+Let be the corresponding labels , where , yi = 1 indicates that si is a sentence describing patient experience , and indicates otherwise . 
+Each sentence has its context information . 
+We learn a classifier from labeled sentences with their content , context and labels , which then predict the labels for unlabeled sentences . 
+We propose to exploit the context for patient experience mining . 
+We classify the context of a sentence into two categories : global context and local context . 
+The global context of a sentence is the context information of the post containing that sentence . 
+It can be extracted from the post author profile ( e.g. , whether the author is a doctor ) , or the thread context of a post ( e.g. , the post position in a thread ) . 
+The local context refers to the context information within a post . 
+For the local context , we have two observations . 
+First , adjacent sentences tend to have the same label . 
+Second , sentences in the same post tend to have the same label . 
+Now we introduce a unified context‐aware experience extraction framework that incorporates both global context and local context for patient experience mining . 
+The global context , such as author context and thread context , can be considered as features of s sentence , which suggests that we can exploit global context via feature engineering . 
+Let be the set of k 1 sentence‐level features extracted from the content of each sentence , such as the presence of pronouns , the verb tense and modality , etc . 
+Let be the set of k 2 features extracted from global context . 
+Let be the union of sentence‐level feature set and context feature set of size for each individual sentence . 
+Let be the feature matrix representation for l labeled sentences with feature set F . 
+Because we can easily collect a large amount of unlabeled sentences from online health forums , we extend the above proposed framework to incorporate unlabeled sentences . 
+Let SU be a set of m unlabeled sentences . 
+We use to denote the matrix representation of SU and = to denote the matrix representation of labeled and unlabeled sentences . 
+Similarly , we extract features to model global context and construct the sentence‐sentence label consistency matrix to model local context . 
+The Laplacian matrix is built based on for both labeled and unlabeled data . 
+The formulation extending the framework to incorporate unlabeled data is then updated by replacing X and L with and in Equation 3 . 
+This problem can be solved by the primal Laplacian SVM solver ( Melacci & Belkin , 2011 ) . 
+In this section , we present the experimental evaluation by comparing our proposed methods with existing methods . 
+We collected 120,275 posts with 998,637 sentences , which are included in 34,065 threads that are publicly available in the MedHelp heart disease forum . 
+We used the whole data set for our large‐scale evaluation with SIDER , and sampled a small set for the evaluation with human annotation . 
+We use two types of ground truth to evaluate the performance of ADR discovery methods . 
+The first type of ground truth is the official ADR knowledge base : SIDER ( Kuhn et al. , 2015 ) , which allows us to evaluate the proposed methods in a large‐scale fashion and with negligible human effort . 
+The second type of ground truth is human annotation . 
+Although the second one is labor‐intensive , it is still extensively used in the existing work , as it provides some advantages over the first one , which will be discussed later . 
+Table 1 shows the notation for three baseline methods : Sent ( Liu & Chen , 2015 ) , Post ( Sampathkumar et al. , 2014 ) , and Thread ( Yang & Yang , 2015 ) , and four variants of our proposed method : PI , PA , PIE , and PAE . 
+E denotes our approach that considers drug and AE occurrences appearing in sentences describing experience . 
+I denotes our approach that considers the drug‐AE pairs that appear within the same thread ; whereas A denotes the approach that allows drug‐AE pairs that appear across different threads . 
+We present the results for three frequently mentioned drugs in the MedHelp heart disease forum : Aspirin , Atenolol and Potassium , and two randomly selected drugs : Diazepam and Inderal , which are less frequently mentioned in the forum . 
+We use two metrics to evaluate system performance . 
+The task of identifying an ADR from a forum can be considered as a retrieval task , and therefore can be evaluated using classical rank‐based measures in information retrieval , such as the precision and recall , as adopted by Wang et al . 
+( 2014 ) ; Wang , Jung , Winnenburg , and Shah ( 2015 ) ; Harpaz et al . 
+( 2013 ) . 
+For a given drug , the precision is the ratio of the number of correctly returned ADRs to the number of all returned ADRs given K . 
+The recall is the ratio of the number of correctly returned ADRs given K to the number of all ADRs in the data set . 
+However , it is too expensive to count the total number of ground‐truth ADRs in the data set , as that requires to manually check if each pair of drug and AE occurrence is a ground‐truth ADR . 
+Thus , for a given drug , we use the number of ADRs in SIDER in lieu of the total number of ADRs in the data set to calculate the recall . 
+Because the data set does not contain all the ADRs of a drug listed in SIDER , the recall derived in this way is lower than the real recall , but is proportional to the real recall . 
+Another evaluation metrics used in the literature for ADR discovery is Area Under the Curve ( AUC ) ( LePendu et al. , 2013 ; Wang et al. , 2015 ) . 
+In statistics , a receiver operating characteristic ( ROC ) curve is created by plotting the true positive rate against the false positive rate at various threshold settings . 
+It can illustrate the performance of a binary classifier system over varying discrimination threshold . 
+For a given drug , an ROC curve is created by setting various thresholds for the support of each drug‐AE pair . 
+AUC is the area under the ROC curve . 
+First , we present the system performance measured using precision and recall . 
+We rank all ADR pairs based on the support defined in Eq . 
+1 , and evaluate the precision and recall for the top‐K results returned by each method . 
+We set K to be 100 ; that is , we only consider top‐100 ranked drug‐AE pairs returned by each method , because lower ranked pairs often have only one or two occurrences in the data and thus are not statistically reliable . 
+Figures 4-8 show the performance comparison of the variants of our proposed methods for drug Aspirin , Atenolol , Potassium , Diazepam and Inderal , respectively . 
+The overall trend of the precision is decreasing with the increasing of K , indicating that the results ranked higher by these systems are indeed more likely to be accurate . 
+According to Figures 4 ( a ) , 5 ( a ) , 6 ( a ) , and 8 ( a ) , we can clearly observe that PI has a higher precision than PA , which indicates that in‐thread drug‐AE pair cooccurrences are more reliable than across‐thread cooccurrences . 
+Also , PIE or PAE has a higher precision than their counter‐part that does not use experience mining , PI or PA , which confirms the positive effect of experience mining . 
+Figures 4 ( b ) , 5 ( b ) , 6 ( b ) , 7 ( b ) and 8 ( b ) show that by considering across‐thread drug‐AE association , the recall can be improved when K becomes larger . 
+A higher recall is important if we want to discover rare ADRs , which were mentioned less frequently and not necessarily mentioned by a patient in the same post or thread . 
+Among all the proposed methods , PAE achieves a good trade‐off between the precision and recall , which will be used as our default method for further comparison . 
+Top‐K evaluation with SIDER for aspirin among the variants of the proposed method . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for atenolol among variants of the proposed method . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for potassium among variants of the proposed method . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for diazepam among variants of the proposed method . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for diazepam among variants of the proposed method . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Figure 9-13 show the performance comparison of our proposed method PAE with the existing methods . 
+Among all methods , PAE achieves the highest precision in almost all data points . 
+PAE especially excels in achieving a high precision when K is relatively small , such as K = 20 or 30 . 
+The reason is that with the patient as the information unit and with hearsays pruned out , PAE is able to rank accurate ADR higher , thus a more robust top‐K performance . 
+In Figures 9 ( b ) , 10 ( b ) , 11 ( b ) , 12 ( b ) and 13 ( b ) , when K is relatively small , PAE achieves a similar recall to Thread , Post , and Sent . 
+With the increasing of K , PAE achieves a higher recall than existing methods for all tested drugs , except Aspirin where it has slightly inferior performance than the Post method . 
+Overall , PAE achieves better performance than other comparison methods for both precision and recall , and is especially effective in ranking accurate ADR high . 
+Top‐K evaluation with SIDER for aspirin by comparing with the existing methods . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for atenolol by comparing with the existing methods . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for atenolol by comparing with the existing methods . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for diazepam by comparing with the existing methods . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Top‐K evaluation with SIDER for inderal by comparing with the existing methods . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The overall trend of the precision is decreasing with the increasing of K , which verifies the effectiveness of the ranking functions . 
+However , the precision is not monotonically decreasing . 
+Such phenomena have also been observed by Wang et al . 
+( 2014 ) . 
+In our experiment , we observe that the top‐ranked results are not necessarily true ADRs . 
+For instance , top‐ranked ADRs often include terms like “ stressed , ” “ worried ” and “ panic. ” Although these terms are on the list of ADRs in SIDER for some drugs , sometimes their occurrences on a health forum only represent common feelings that patients have , but not necessarily an ADR of a particular drug . 
+One possible solution to mitigate this problem will be discussed in the ” Conclusions and Future Work ” section . 
+Some methods , such as Sent or PIE for Diazepam , which retrieve candidate ADRs supported with lower cooccurrence frequency , are more vulnerable to such noises . 
+Besides performance evaluation using precision and recall , we also evaluate all methods using Top‐100 AUC values , as shown in Table 2 . 
+As we can see , PAE has the highest AUC value on all the tested drugs , except that it is the second‐best method for the drug Atenolol , with very close performance ( 0.1 % difference ) as the best method , Post . 
+This shows the effectiveness of our proposed method . 
+As we can see from Figures 9-13 , the precision values of all systems to process drugs Aspirin , Atenolol and Potassium are higher than those for drugs Diazepam and Inderal . 
+To analyze that , we calculate the total number of occurrences of all drug‐AE pairs identified by PAE for each drug in the data set , and the average number of occurrences for each unique drug‐AE pair , as shown in Table 3 . 
+As can be seen , all systems consistently achieve better precision on drugs that have more drug‐AE pair occurrences in the data set . 
+This is expected , because all methods are based on data analytics , and noises have bigger impact on small data sets . 
+For instance , for Diazepam , on average each AE only has three occurrences , which does not provide reliable statistical signals to make accurate ADR discovery . 
+This demonstrates that with the growing content of health forums , the data analytics methods have potential to achieve better and more reliable performance over time . 
+In fact , with a larger data set , it is more likely that more ADRs may be reported , thus a higher recall is expected . 
+However , in our evaluation , recall does not have significant differences among the tested drugs . 
+This is because we use the total number of ADRs of a drug in SIDER in lieu of the total number of ADRs of a drug in the data set to calculate the recall , because of the high cost of obtaining ground‐truth ADRs in the data set manually . 
+The number of ADRs of a drug in SIDER is not impacted by the number of drug‐AE occurrences in the data ; thus no significant differences on the reported recall . 
+We also observe that AUC does not show much difference among the tested drugs . 
+This is because AUC is the area under the ROC curve , and ROC is plotted by recall against False Positive Rate at various thresholds , where False Positive Rate is computed as False Positive over the sum of False Positive and True Negative . 
+As both False Positive and True Negative are large for drugs with a few occurrences of AEs , there is no clear pattern for AUC changes across the tested drugs . 
+As observed in the existing work ( Wang et al. , 2014 ) , there are mismatches between the terms from the official knowledge base and those from the health forums , which justifies the need of evaluation with human annotation . 
+Besides , we also want to investigate how the proposed system components , such as across‐thread association and experience mining , affect the performance . 
+Thus we also conduct performance evaluation using human annotation as ground truth . 
+Two graduate students were hired to annotate the data . 
+In the human annotation experiment , we focused on the ADRs for Aspirin , which is the most frequently mentioned drug in the heart disease forum . 
+We randomly selected a subset of 130 threads that have mentioned Aspirin , which include 763 posts with 7859 sentences . 
+Among them , we identified 913 drug‐AE pairs in which the drug and AE occur in the same thread . 
+Among the 913 pairs , 221 pairs were labeled as ground truth , which means that the same patient took the drug and experienced the adverse reaction , and we can not definitively rule out the possible causal relationship between them . 
+We further check across‐thread drug‐AE pairs . 
+The goal is to identify the drug and AE that occur in two different threads but can be considered as ADR . 
+Specifically , we look for the cases where one thread mentions that the patient took the drug , and in another thread , the same patient experienced the adverse events . 
+Unless we can easily rule out the causal relationship between the drug and the AE , we consider that the drug and the AE as a ground‐truth pair for ADR . 
+We identified 28 such pairs as the ground truth . 
+Together , we identified 249 drug‐AE pairs as ground truth . 
+Different from the large‐scale evaluation with SIDER , now as we have identified all the ground‐truth drug‐AE occurrence pairs in the sampled data set . 
+Now we can use precision ( P ) , recall ( R ) , and f‐measure ( F 1 ) as evaluation measures . 
+The precision is the ratio of the number of correctly returned ADRs to the number of all returned ADRs . 
+The recall is the ratio of the number of correctly returned ADRs to the total number of ADRs that should be returned according to the ground truth . 
+The f‐measure is defined as the harmonic mean of precision and recall : . 
+Table 4 shows the evaluation results with human annotation . 
+Among the existing methods , Sent achieves the highest precision but suffers the lowest recall . 
+Thread achieves the highest recall , but with the lowest precision . 

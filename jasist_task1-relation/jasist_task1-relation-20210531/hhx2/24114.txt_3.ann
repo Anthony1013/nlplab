@@ -1,0 +1,11 @@
+T1	引文作者 3 8	Lloyd
+T2	引文时间 11 15	2010
+T3	引文作者 1166 1171	Trace
+T4	引文时间 1174 1178	2007
+T5	引文作者 1928 1932	Weng
+T6	引文时间 1942 1946	2013
+T7	引文的结果 0 142	As Lloyd ( 2010 ) noted , information and knowledge often arise from people 's collective understanding of physical environments and practices
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	results Arg1:T1 Arg2:T7	
+R3	has_cited_time Arg1:T4 Arg2:T3	
+R4	has_cited_time Arg1:T6 Arg2:T5	

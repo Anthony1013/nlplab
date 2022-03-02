@@ -1,0 +1,131 @@
+T1	引文作者 44 50	Godlee
+T2	引文时间 60 64	2004
+T3	引文作者 308 313	Finch
+T4	引文时间 323 327	2013
+T5	引文作者 330 336	Proaño
+T6	引文时间 346 350	2016
+T7	引文作者 574 580	Godlee
+T8	引文时间 590 594	2004
+T9	引文作者 782 787	Kumar
+T10	引文时间 797 801	2018
+T11	引文作者 2345 2352	Epstein
+T12	引文时间 2365 2369	2010
+T13	引文作者 2376 2383	Bechtel
+T14	引文作者 2388 2392	Ness
+T15	引文时间 2397 2401	2010
+T16	引文作者 3276 3279	Lee
+T17	引文时间 3289 3293	2014
+T18	引文作者 5009 5014	Tanis
+T19	引文时间 5017 5021	2008
+T20	引文作者 5436 5438	Oh
+T21	引文时间 5441 5445	2012
+T22	引文作者 5900 5905	Zhang
+T23	引文时间 5908 5912	2015
+T24	引文作者 6251 6256	Gupta
+T25	引文时间 6269 6273	2014
+T26	引文作者 6876 6881	Gupta
+T27	引文时间 6891 6895	2014
+T28	引文作者 6902 6906	Tang
+T29	引文时间 6919 6923	2013
+T30	引文作者 7437 7440	Cho
+T31	引文时间 7453 7457	2013
+T32	引文作者 7684 7687	Cho
+T33	引文时间 7697 7701	2013
+T34	引文作者 8139 8141	Ku
+T35	引文时间 8154 8158	2014
+T36	图 9163 9362	It is appropriate to start this section with an illustrative comparison ( Figure 1 ) of the existing method for information retrieval from OSGs and the proposed knowledge extraction based structure .
+T37	图 11449 11632	As illustrated in Figure 1b , the proposed method overcomes these issues by introducing a knowledge extraction layer that structures OSG posts and queries based on extracted knowledge
+T38	图 12517 12652	Figure 2 presents the expanded illustration of the proposed method , which shows the proposed knowledge extraction layer in more detail
+T39	引文作者 13382 13387	Zhang
+T40	引文时间 13390 13394	2015
+T41	引文作者 13518 13521	Liu
+T42	引文时间 13534 13538	2015
+T43	引文作者 13545 13549	Park
+T44	引文时间 13562 13566	2010
+T45	引文作者 16228 16231	Qiu
+T46	引文作者 16234 16237	Kan
+T47	引文作者 16242 16246	Chua
+T48	引文时间 16249 16253	2004
+T49	引文作者 16301 16307	Lappin
+T50	引文作者 16312 16317	Leass
+T51	引文时间 16320 16324	1994
+T52	引文作者 16585 16592	Baldwin
+T53	引文时间 16595 16599	1997
+T54	表 16798 16855	Column 2 of Table 1 presents posts with resolved pronouns
+T55	表 16997 17133	Column 3 of Table 1 shows the prominent human mention noun of sample posts , which are used to determine the narrative type ( column 4 )
+T56	表 17465 17522	Some sample age mentions are shown in Column 1 of Table 2
+T57	引文作者 17738 17742	Yang
+T59	引文时间 2196 2200	2001
+T64	具体模型 1854 1890	patient‐centered care ( PCC ) models
+T67	研究方法 3835 4021	In this article , we propose an approach that generates this knowledge extraction layer , which then interposes an investigable and extensible structure on hitherto unstructured OSG text
+T68	引文的结果 5024 5191	presented six general motives for information seekers on OSGs : to seek information , seek emotional support , inclusion , support others , pass time , and convenience
+T69	引文的结果 5196 5299	The study indicates active participation is a key predictor of better coping with the medical condition
+T70	引文的研究问题 5448 5543	examined factors that motivate information providers to share knowledge and information on OSGs
+T71	引文的结果 5548 5647	Altruism , enjoyment , and efficacy were key motivators for those responding to information seekers
+T72	引文的研究问题 5809 5897	study examined the sustained use of OSGs for the attainment of long‐term health benefits
+T73	引文的结果 5919 6069	Emotional needs such as individuality , small group interactions , respectful treatment , and decision‐making awareness aided sustained use of the OSG
+T74	引文的结果 6276 6349	presented a method for the identification of medical entity types in OSGs
+T75	具体模型 6547 6572	Lexico‐syntactic patterns
+T76	引文的方法 6547 6678	Lexico‐syntactic patterns are used to extract new entities not found in seed dictionaries , abbreviated terms , and spelling errors
+T77	引文的结果 6805 6873	In evaluation , it outperformed MetaMap , OBA , and a CRF classifier
+T78	引文的结果 6926 7080	developed a hybrid clinical temporal information extraction system to derive temporal expressions and temporal relations from hospital discharge summaries
+T79	引文的方法 7219 7280	rule‐based and machine learning ( classification ) approaches
+T80	引文的结果 7460 7535	proposed the use of OSG text for Comparative Effectiveness Research ( CER )
+T82	引文的结果 7708 7874	They proposed demographic information extraction from OSG text as an alternative to the traditional approaches of observational studies and randomized clinical trials
+T83	引文的结果 8161 8271	proposed a text‐mining framework to determine self‐disclosing health information with unusual messages on OSGs
+T85	引文的方法 13569 13680	extracted sentences that express patient experience using a classifier trained on different linguistic features
+T87	表 14502 14586	For example , the first column of Table 1 shows three sample posts taken from an OSG
+T88	软件工具 16135 16159	pronoun resolution tools
+T89	软件工具 16213 16225	JavaRAP tool
+T90	具体模型 16575 16582	CogNIAC
+T60	引文的结果 67 202	proposed that the World Health Organization adopt a focal position towards attaining the goal of “ Health Information for All ” by 2015
+T58	研究方法 4153 4276	Design and develop a layer for extraction of knowledge from OSGs by integrating the above techniques with domain ontologies
+T61	引文的结果 6074 6246	As proposed in this article , personalization of information retrieval leads to individuality and thereby continuous use of OSGs for the achievement of such long‐term goals
+T62	具体模型 1987 1990	PCC
+T63	具体模型 2214 2217	PCC
+T65	具体模型 2406 2409	PCC
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	coauthor Arg1:T3 Arg2:T5	
+R5	has_cited_time Arg1:T8 Arg2:T7	
+R6	has_cited_time Arg1:T10 Arg2:T9	
+T66	引文作者 2172 2193	Institute of Medicine
+R7	has_cited_time Arg1:T59 Arg2:T66	
+R8	has_cited_time Arg1:T12 Arg2:T11	
+R9	coauthor Arg1:T13 Arg2:T14	
+R10	has_cited_time Arg1:T15 Arg2:T14	
+R11	has_cited_time Arg1:T17 Arg2:T16	
+R12	has_cited_time Arg1:T19 Arg2:T18	
+R13	has_cited_time Arg1:T21 Arg2:T20	
+R14	produces Arg1:T20 Arg2:T70	
+R15	has_cited_time Arg1:T23 Arg2:T22	
+R16	has_cited_time Arg1:T25 Arg2:T24	
+R17	has_cited_time Arg1:T27 Arg2:T26	
+R18	has_cited_time Arg1:T29 Arg2:T28	
+R19	has_cited_time Arg1:T31 Arg2:T30	
+R20	has_cited_time Arg1:T33 Arg2:T32	
+R21	has_cited_time Arg1:T35 Arg2:T34	
+R22	has_cited_time Arg1:T40 Arg2:T39	
+R23	has_cited_time Arg1:T42 Arg2:T41	
+R24	has_cited_time Arg1:T44 Arg2:T43	
+R25	coauthor Arg1:T45 Arg2:T46	
+R26	coauthor Arg1:T46 Arg2:T47	
+R27	has_cited_time Arg1:T48 Arg2:T47	
+R28	coauthor Arg1:T49 Arg2:T50	
+R29	has_cited_time Arg1:T51 Arg2:T50	
+R30	has_cited_time Arg1:T53 Arg2:T52	
+R31	uses Arg1:T43 Arg2:T85	
+R32	results Arg1:T34 Arg2:T83	
+R33	results Arg1:T30 Arg2:T80	
+R34	results Arg1:T32 Arg2:T82	
+R35	results Arg1:T28 Arg2:T78	
+R36	uses Arg1:T28 Arg2:T79	
+R37	results Arg1:T26 Arg2:T77	
+R38	results Arg1:T24 Arg2:T74	
+R39	uses Arg1:T24 Arg2:T76	
+R40	produces Arg1:T22 Arg2:T72	
+R41	results Arg1:T22 Arg2:T73	
+R42	results Arg1:T22 Arg2:T61	
+R43	results Arg1:T18 Arg2:T68	
+R44	results Arg1:T1 Arg2:T60	

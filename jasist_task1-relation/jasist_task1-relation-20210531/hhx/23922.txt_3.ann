@@ -1,0 +1,150 @@
+T1	数学公式 79 89	Equation 1
+T2	引文作者 140 145	Milne
+T3	引文作者 150 156	Witten
+T4	引文时间 159 163	2013
+T5	具体模型 284 290	MW2013
+T6	术语 302 315	decision tree
+T7	引文作者 449 454	Milne
+T8	引文作者 459 465	Witten
+T9	引文时间 468 472	2013
+T10	引文的结果 404 436	implementation of algorithm C4.5
+T11	图 479 536	Figure 2a , b compare these two methods with our approach
+T12	数学公式 630 640	Equation 2
+T13	术语 662 665	AUC
+T14	术语 670 673	F 1
+T15	术语 1132 1135	AUC
+T16	术语 1163 1166	F 1
+T17	术语 1301 1304	AUC
+T18	术语 1309 1312	F 1
+T20	术语 1777 1780	AUC
+T21	术语 1785 1788	F 1
+T23	术语 2103 2106	F 1
+T24	具体模型 2152 2158	MW2013
+T22	术语 2091 2094	AUC
+T25	术语 2172 2175	F 1
+T26	术语 2185 2188	AUC
+T27	具体模型 2210 2216	MW2013
+T28	术语 2287 2290	AUC
+T29	研究结果 2193 2299	As consequence , MW2013 was competitive with logistic regression only when compared using the AUC metric .
+T30	术语 2557 2560	AUC
+T31	术语 2565 2568	F 1
+T32	术语 2768 2774	latent
+T33	术语 2777 2784	monadic
+T34	术语 2791 2797	dyadic
+T35	术语 2889 2902	concept graph
+T36	术语 2911 2928	monadic component
+T37	术语 2981 2997	dyadic component
+T38	表 3320 3539	The result of this analysis is summarized in Table 2 , where columns Single and Excluded present the average performance observed on test sets for each predictor component , taken in isolation or excluded , respectively
+T39	数学公式 3688 3698	Equation 2
+T40	术语 3749 3752	AUC
+T41	术语 3845 3848	F 1
+T42	术语 3999 4005	dyadic
+T43	具体模型 4068 4076	Latent88
+T44	具体模型 4103 4109	Latent
+T45	术语 4143 4162	symmetric component
+T46	术语 4171 4191	asymmetric component
+T47	具体模型 4291 4297	Latent
+T48	术语 4395 4415	asymmetric component
+T49	术语 4480 4499	symmetric component
+T50	术语 4628 4644	latent component
+T51	术语 4709 4722	concept graph
+T52	术语 4802 4818	dyadic component
+T53	术语 4927 4934	monadic
+T54	术语 4997 5000	AUC
+T55	术语 5045 5051	dyadic
+T56	术语 5056 5073	latent components
+T57	术语 5149 5165	dyadic component
+T58	术语 5195 5198	AUC
+T59	术语 5226 5242	latent component
+T60	研究结果 5265 5393	These results imply that , as expected , most of the information on the latent component is also present in the dyadic component
+T61	术语 5337 5353	latent component
+T62	术语 5377 5393	dyadic component
+T63	术语 5428 5444	latent component
+T64	术语 5532 5548	latent component
+T65	术语 5613 5629	dyadic component
+T66	研究结果 5634 5738	This suggests that the latent component is able to capture patterns not observed in the dyadic component
+T67	术语 5657 5673	latent component
+T68	术语 5722 5738	dyadic component
+T69	术语 5771 5788	monadic component
+T70	术语 5863 5878	baseline figure
+T71	术语 5830 5844	standard error
+T72	术语 5962 5979	monadic component
+T73	表 6403 6479	Table 3 summarizes the impact of each attribute when included in the model .
+T74	术语 6490 6507	dyadic attributes
+T75	术语 6563 6585	basic latent predictor
+T76	表 6590 6685;6686 6695	None of them , however , could surpass the combination of latent and dyadic components ( cf . 
+ Table 4 )
+T77	表 6389 6396	Table 2
+T80	术语 6723 6734	Relatedness
+T81	术语 6737 6753	Link probability
+T82	术语 6760 6785	Disambiguation confidence
+T83	研究结果 6893 7149	This suggests that the relatedness between a pair of concepts and its probability of being observed as an anchor in the past constitute better pieces of evidence to distinguish what should be a link than the location and frequency of the pair of concepts .
+T84	术语 7152 7155	F 1
+T85	术语 7203 7206	AUC
+T86	术语 6999 7005	anchor
+T87	表 7211 7304	Table 4 is like Table 3 , but infers the impact of an attribute by removing it from the model
+T19	具体模型 1869 1875	MW2013
+T88	术语 7481 7484	AUC
+T89	术语 7489 7492	F 1
+T90	术语 7518 7529	Relatedness
+T91	术语 7670 7673	AUC
+T92	术语 7953 7964	Relatedness
+T93	术语 7969 7985	Link probability
+T78	表 6686 6693	Table 4
+T79	术语 8134 8159	Disambiguation confidence
+T94	术语 6648 6676	latent and dyadic components
+T95	术语 8020 8045	Disambiguation confidence
+T96	术语 8094 8102	Location
+T97	术语 8107 8116	Frequency
+T98	研究结果 8258 8376	This suggests that Disambiguation confidence provides complementary information to that provided by the latent factors
+T99	术语 8277 8302	Disambiguation confidence
+T100	术语 8504 8515	Relatedness
+T101	表 8530 8628	the small gains observed in Table 4 indicate that all the attributes carry dependent information .
+T102	术语 8646 8672	disambiguation information
+T103	术语 8696 8721	Disambiguation confidence
+T104	术语 8726 8737	Relatedness
+T105	术语 8752 8763	Relatedness
+T106	术语 8768 8772	Link
+T107	图 9513 9609	Figure 3 summarizes the performance of our model when applied to increasingly ambiguous concepts
+T108	术语 10170 10177	anchors
+T109	术语 10345 10354	ambiguity
+T110	术语 10357 10371	disambiguation
+T111	术语 10374 10384	confidence
+T112	术语 10391 10402	Relatedness
+T113	术语 10457 10482	disambiguation attributes
+T114	图 10665 10806	Figure 4 summarizes the performance of these two versions when applied to increasingly ambiguous concepts using the same pairs as in Figure 3
+T115	图 10949 11127	Figure 4a shows the predictor based only on disambiguation features is not much effective to distinguish anchors as labels become increasingly ambiguous , except for the last bin
+T116	图 11429 11592	Figure 4b shows the predictor based only on latent features achieves better performance in distinguishing anchors from not anchors than the one showed in Figure 4a
+T117	术语 11248 11255	anchors
+T118	术语 11614 11630	latent component
+T119	研究结果 11835 11905	This suggests that the latent component naturally deals with ambiguity
+T120	术语 11983 11996	concept graph
+T121	术语 12145 12159	graph topology
+T122	术语 12469 12485	latent component
+T123	术语 12631 12638	anchors
+T124	数据源 12690 12699	Wikipedia
+T125	数据源 13229 13238	Wikipedia
+T126	引文作者 13287 13296	Paranjape
+T127	引文时间 13309 13313	2016
+T128	引文的结果 13320 13406	The authors found that most of the links placed by editors are never or rarely clicked
+T129	引文作者 13558 13567	Paranjape
+T130	引文时间 13580 13584	2016
+T131	引文的结果 13595 13666	linking guidelines are not satisfactorily followed by Wikipedia editors
+T132	研究问题 15283 15352	we evaluated the performance of our complete model to predict anchors
+T133	表 15357 15414	Table 5 shows the results of AUC , precision and recall .
+T134	术语 15386 15389	AUC
+T135	术语 15392 15401	precision
+T136	术语 15406 15412	recall
+T137	术语 15417 15432	Standard errors
+T138	术语 16013 16016	AUC
+T139	研究结果 16167 16326	Although the difference was statistically significant , the gain was rather small to , at first glance , justify the selection of high quality training samples
+T140	研究结果 16341 16464	we also note that the performance obtained using the random training is more like the ones achieved with BC and CC training
+R1	coauthor Arg1:T2 Arg2:T3	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	results Arg1:T7 Arg2:T10	
+R4	coauthor Arg1:T7 Arg2:T8	
+R5	has_cited_time Arg1:T9 Arg2:T8	
+R6	has_cited_time Arg1:T127 Arg2:T126	
+R7	results Arg1:T126 Arg2:T128	
+R8	has_cited_time Arg1:T130 Arg2:T129	
+R9	results Arg1:T129 Arg2:T131	

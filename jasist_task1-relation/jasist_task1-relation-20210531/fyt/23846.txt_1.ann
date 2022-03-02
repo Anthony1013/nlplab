@@ -1,0 +1,206 @@
+T1	引文作者 136 147	Leydesdorff
+T2	引文时间 157 161	2016
+T3	引文作者 304 311	Waltman
+T4	引文时间 314 318	2016
+T5	引文作者 321 325	Wang
+T6	引文时间 328 332	2013
+T7	引文作者 1204 1212	Flammini
+T8	引文时间 1215 1219	2015
+T9	引文作者 1174 1176	Ke
+T10	引文作者 1179 1186	Ferrara
+T11	引文作者 1189 1197	Radicchi
+T12	时间 1814 1824	Since 1955
+T13	引文作者 1832 1840	Garfield
+T14	引文时间 1843 1847	1955
+T15	引文时间 1850 1854	1979
+T16	引文作者 2294 2300	Hirsch
+T17	引文时间 2303 2307	2005
+T18	引文作者 2335 2343	Bornmann
+T19	引文作者 2346 2350	Mutz
+T20	引文时间 2353 2357	2011
+T21	引文作者 2401 2412	Leydesdorff
+T22	引文作者 2415 2423	Bornmann
+T23	引文作者 2396 2398	I3
+T24	引文时间 2426 2430	2011
+T25	引文作者 2456 2458	Ye
+T26	引文作者 2461 2472	Leydesdorff
+T27	引文时间 2475 2479	2014
+T28	引文作者 2512 2520	Garfield
+T29	引文时间 2523 2528	1989a
+T30	引文时间 2531 2536	1989b
+T31	引文时间 2539 2543	1990
+T33	引文作者 3177 3185	Weinberg
+T34	引文时间 3188 3192	1967
+T35	引文作者 3368 3375	Glänzel
+T36	引文作者 3378 3387	Schlemmer
+T37	引文作者 3394 3399	Thijs
+T38	引文时间 3402 3406	2003
+T39	时间 3711 3721	up to 2000
+T40	引文作者 4382 4389	Glänzel
+T41	引文时间 4399 4403	2003
+T42	引文作者 4432 4439	Glänzel
+T43	引文作者 4444 4452	Garfield
+T44	引文时间 4455 4459	2004
+T45	引文作者 5403 5408	Braun
+T46	引文作者 5411 5418	Glänzel
+T47	引文作者 5423 5431	Schubert
+T48	引文时间 5434 5438	2010
+T49	引文作者 5462 5470	van Raan
+T50	引文时间 5473 5477	2004
+T51	引文作者 5980 5988	van Raan
+T52	引文时间 5991 5995	2004
+T53	引文作者 6151 6159	van Raan
+T54	引文时间 6162 6166	2010
+T55	引文作者 6758 6764	Aversa
+T56	引文时间 6767 6771	1985
+T57	引文作者 6979 6981	Ye
+T58	引文作者 6972 6974	Li
+T59	引文时间 6984 6988	2012
+T60	引文作者 8162 8169	Cressey
+T61	引文时间 8172 8176	2015
+T62	引文作者 9044 9055	Baumgartner
+T63	引文作者 9060 9071	Leydesdorff
+T64	引文时间 9074 9078	2014
+T65	引文作者 9349 9360	Leydesdorff
+T66	引文作者 9338 9344	Comins
+T67	引文时间 9363 9367	2016
+T68	引文作者 9208 9219	Leydesdorff
+T69	引文作者 9192 9203	Baumgartner
+T70	引文时间 9222 9226	2014
+T71	图 10699 10815	The straight line l links the zero point with any citation peak in the annual citation distribution ( see Figure 1 )
+T72	引文作者 11593 11600	Glänzel
+T73	引文作者 11603 11611	Garfield
+T74	引文时间 11614 11618	2004
+T75	引文作者 13405 13407	Ke
+T76	引文时间 13417 13421	2015
+T77	引文作者 15082 15090	van Raan
+T78	引文时间 15093 15097	2015
+T79	图 18718 18893	The article on the super‐radiance triggering spectroscopy shows very low citation counts for nearly 20 years followed by a large increase around the year 2000 ( see Figure 3 )
+T80	图 19387 19457	Figure 3 also shows two typical mixed cases which are both SGs and SBs
+T81	图 20303 20427	Figure 4 shows the dynamic view of a citation curve , where the first citation peak is located at c1 and the late peak at c2
+T82	研究问题 508 692	Both time perspectives in research evaluation—long‐ and short‐term citation impact—also produce specific citation phenomena , which can be called delayed recognition and instant credit
+T83	引文作者 3215 3223	Garfield
+T84	引文时间 3226 3231	1989a
+T85	引文时间 3234 3239	1989b
+T86	图 10265 10393	In Figure 1 , β is a dynamic angle between the straight line ( linking the zero point with the citation peak ) and the time axis
+T87	引文的方法 9395 9442	multi‐References Publication Years Spectroscopy
+T88	数学公式 11085 11199	max { 1 , ch } =c1 , max { ch , ct } =c2 , and cm = max { 1 , ct } =max { c1 , c2 } ( i.e. , βm= max { β1 , β2 } )
+T89	表 17440 17617	To show typical citation curves of SGs , SBs , and ASBs , we show in the following two higher than typical cases of SGs and SBs as well as two typical cases of ASBs from Table 2
+T90	表 16368 16497	It is interesting to see that typical ASBs and higher than typical SBs in Table 2 are mostly published in field‐specific journals
+T91	图 16770 16914	If we analyze the subject categories of the typical SGs ( n = 5718 ) and SBs ( n = 126 ) in our dataset , we receive the percentages in Figure 2
+T92	表 16206 16363	The main parameters ( β1 , β2 , and B ) and bibliographic information of the typical ASBs as well as the higher than typical SGs and SBs are shown in Table 2
+T93	表 15440 15551	Thus , about 4 % of the articles are possible SGs and 2 % possible SBs ( according to the criteria in Table 1 )
+T94	时间 13963 13970	in 1980
+T95	表 13070 13164	Thus , we suggest identifying SBs and SGs in the databases with the criteria listed in Table 1
+T96	引文作者 12388 12396	van Raan
+T97	引文时间 12399 12403	2004
+T98	引文作者 8638 8649	Leydesdorff
+T99	引文作者 8622 8633	Baumgartner
+T100	引文时间 8652 8656	2014
+T101	引文作者 8066 8071	Huang
+T102	引文作者 8074 8077	Hsu
+T103	引文作者 8082 8086	Ciou
+T104	引文时间 8089 8093	2015
+T105	引文作者 8096 8098	Li
+T106	引文作者 8101 8104	Shi
+T107	引文时间 8107 8111	2016
+T108	引文作者 7533 7535	Li
+T109	引文时间 7560 7564	2014
+T110	引文作者 7555 7557	Ye
+T111	引文作者 7544 7548	Zhao
+T112	引文作者 7538 7541	Shi
+T113	引文作者 6590 6596	Costas
+T114	引文时间 6609 6613	2010
+T115	表 19462 19751	We selected the following two articles from Table 2 for visualizing their citation curves : the first article is on “ anomalous specific heat of CEB6 ” ( WOS : A1980KD49700015 ) and the second on “ Saturn 's magnetosphere and its interaction with the solar wind ” ( WOS : A1980KS08700002 )
+T116	时间 2489 2509	the end of the 1980s
+T117	标准数据集 3042 3064	Science Citation Index
+T118	标准数据集 3067 3070	SCI
+T120	时间 3438 3445	in 1980
+T121	时间 4801 4812	in the 1980
+T122	标准数据集 4828 4831	SCI
+T123	引文作者 4990 4998	van Raan
+T124	引文时间 5001 5005	2004
+T125	数学公式 6042 6088	N = f { s , cs , cw } ∼s − 2.7·cs 2.5·cw − 6.6
+T126	引文作者 6133 6144	van Leeuwen
+T127	引文作者 6124 6130	Costas
+T128	引文的方法 9447 9457	multi‐RPYS
+T129	表 13169 13263	In the table , we distinguish between possible , typical , and higher than typical SGs and SBs
+T130	数据源 13978 13994	natural sciences
+T131	数据源 14110 14124	Web of Science
+T132	数据源 14069 14087	Max Planck Society
+T133	数据源 14127 14130	WoS
+T134	数据源 14164 14167	WoS
+T135	标准数据集 14209 14225	natural sciences
+T136	时间 14507 14527	from 1980 until 2015
+T137	时间 14665 14674	year 1980
+T138	研究结果 15975 16018	SGs are a more frequent phenomenon than SBs
+T139	表 18334 18713	The selected higher than typical SBs from Table 2 are articles on the “ super‐radiance triggering spectroscopy ” ( WOS : A1980JK05300034 ) and “ on the structure of ternary arsenides ” ( WOS : A1980KA96400011 ) with the following parameters.β1 = 36.87° , β2 =30.58° , and B = 84.02 ( WOS : A1980JK05300034 ) and β1 = 33.39° , β2 =31.83° , and B = 214.64 ( WOS : A1980KA96400011 )
+T140	时间 18867 18876	year 2000
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	coauthor Arg1:T9 Arg2:T10	
+R5	coauthor Arg1:T10 Arg2:T11	
+R6	coauthor Arg1:T11 Arg2:T7	
+R7	has_cited_time Arg1:T8 Arg2:T7	
+R8	has_cited_time Arg1:T14 Arg2:T13	
+R9	has_cited_time Arg1:T15 Arg2:T13	
+R10	has_cited_time Arg1:T17 Arg2:T16	
+R11	coauthor Arg1:T18 Arg2:T19	
+R12	has_cited_time Arg1:T20 Arg2:T19	
+R13	coauthor Arg1:T23 Arg2:T21	
+R14	coauthor Arg1:T22 Arg2:T21	
+R15	has_cited_time Arg1:T24 Arg2:T22	
+R16	coauthor Arg1:T26 Arg2:T25	
+R17	has_cited_time Arg1:T27 Arg2:T26	
+R18	field_similar_as Arg1:T16 Arg2:T18	
+R19	field_similar_as Arg1:T18 Arg2:T23	
+R20	field_similar_as Arg1:T23 Arg2:T25	
+R21	has_cited_time Arg1:T29 Arg2:T28	
+R22	has_cited_time Arg1:T30 Arg2:T28	
+R23	has_cited_time Arg1:T31 Arg2:T28	
+R25	has_cited_time Arg1:T34 Arg2:T33	
+R24	has_cited_time Arg1:T84 Arg2:T83	
+R26	has_cited_time Arg1:T85 Arg2:T83	
+R27	coauthor Arg1:T35 Arg2:T36	
+R28	coauthor Arg1:T36 Arg2:T37	
+R29	has_cited_time Arg1:T38 Arg2:T37	
+R30	has_cited_time Arg1:T41 Arg2:T40	
+R31	coauthor Arg1:T42 Arg2:T43	
+R32	has_cited_time Arg1:T44 Arg2:T43	
+R33	has_cited_time Arg1:T124 Arg2:T123	
+R34	coauthor Arg1:T46 Arg2:T47	
+R35	has_cited_time Arg1:T48 Arg2:T47	
+R36	has_cited_time Arg1:T50 Arg2:T49	
+R37	has_cited_time Arg1:T52 Arg2:T51	
+R38	coauthor Arg1:T45 Arg2:T46	
+R39	coauthor Arg1:T126 Arg2:T53	
+R40	coauthor Arg1:T127 Arg2:T126	
+R41	has_cited_time Arg1:T114 Arg2:T113	
+R42	has_cited_time Arg1:T56 Arg2:T55	
+R43	coauthor Arg1:T58 Arg2:T57	
+R44	has_cited_time Arg1:T59 Arg2:T57	
+R45	coauthor Arg1:T108 Arg2:T112	
+R46	coauthor Arg1:T111 Arg2:T110	
+R47	coauthor Arg1:T112 Arg2:T111	
+R48	has_cited_time Arg1:T109 Arg2:T110	
+R49	coauthor Arg1:T101 Arg2:T102	
+R50	coauthor Arg1:T102 Arg2:T103	
+R51	has_cited_time Arg1:T104 Arg2:T103	
+R52	coauthor Arg1:T105 Arg2:T106	
+R53	has_cited_time Arg1:T107 Arg2:T106	
+R54	has_cited_time Arg1:T61 Arg2:T60	
+R55	coauthor Arg1:T99 Arg2:T98	
+R56	has_cited_time Arg1:T100 Arg2:T98	
+R57	coauthor Arg1:T62 Arg2:T63	
+R58	has_cited_time Arg1:T64 Arg2:T63	
+R59	coauthor Arg1:T69 Arg2:T68	
+R60	has_cited_time Arg1:T70 Arg2:T68	
+R61	coauthor Arg1:T66 Arg2:T65	
+R62	has_cited_time Arg1:T67 Arg2:T65	
+R63	uses Arg1:T66 Arg2:T87	
+R64	coauthor Arg1:T72 Arg2:T73	
+R65	has_cited_time Arg1:T74 Arg2:T73	
+R66	has_cited_time Arg1:T97 Arg2:T96	
+R67	has_cited_time Arg1:T76 Arg2:T75	
+R68	uses Arg1:T66 Arg2:T128	

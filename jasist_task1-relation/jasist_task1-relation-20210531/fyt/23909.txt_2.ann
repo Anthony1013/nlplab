@@ -1,0 +1,50 @@
+T1	引文作者 294 302	Thelwall
+T2	引文时间 305 310	2017b
+T3	引文作者 394 401	Maflahi
+T4	引文作者 404 412	Thelwall
+T5	引文时间 415 419	2016
+T6	图 929 1037	The jumps in the average Mendeley reader counts ( Figures 1-6 ) raise the issue of article publication dates
+T7	引文作者 1248 1256	Haustein
+T8	引文时间 1266 1270	2015
+T9	引文作者 1455 1462	Waltman
+T10	引文作者 1465 1472	van Eck
+T11	引文作者 1475 1486	van Leeuwen
+T12	引文作者 1489 1495	Visser
+T13	引文作者 1500 1508	van Raan
+T14	引文时间 1511 1515	2011
+T15	引文作者 1585 1592	Glänzel
+T16	引文作者 1595 1599	Moed
+T17	引文时间 1602 1606	2002
+T18	引文作者 1938 1946	Haustein
+T19	引文时间 1956 1960	2015
+T20	图 2902 3146	Focusing on the first 2016 issues , although by the end of the year there is a positive Spearman correlation between Mendeley readers and Scopus citations for all journals ( 0.07–0.46 ) , earlier correlations are sometimes negative ( Figure 8 )
+T21	图 3549 3891	Despite the existence of jumps in numbers of Mendeley readers at the time of the publication of a journal issue ( Figures 1-6 ) , the discussion above suggests that Mendeley readers for an article do not suddenly appear when an issue is published but steadily increase from the moment when the article is first available online in any version
+T22	引文作者 4197 4205	Thelwall
+T23	引文时间 4208 4213	2017a
+T24	引文作者 5262 5269	Wouters
+T25	引文作者 5272 5278	Costas
+T26	引文时间 5281 5285	2012
+T27	引文作者 5158 5168	Fairclough
+T28	引文作者 5171 5179	Thelwall
+T29	引文时间 5182 5186	2015
+T30	研究结果 4791 5062	Comparisons between articles from journals with differing publication delays should avoid bias against articles in rapidly publishing journals by using the online first date rather than the official issue publication date when comparing articles or normalizing indicators
+T31	研究结果 4669 4786	These indicators can be useful for all journals but will be more powerful for journals with long publication backlogs
+T32	研究结果 3896 4040	Thus , Mendeley readership counts can , in theory , be used as early impact indicators from even before an article 's journal issue is published
+T33	研究结果 4441 4664	Until then , it would be possible to generate reasonable field‐normalized indicators on the date when an issue is published because its existing Mendeley readers can be associated with the published versions of the articles
+R1	coauthor Arg1:T27 Arg2:T28	
+R2	has_cited_time Arg1:T29 Arg2:T28	
+R3	coauthor Arg1:T24 Arg2:T25	
+R4	has_cited_time Arg1:T26 Arg2:T25	
+R5	has_cited_time Arg1:T23 Arg2:T22	
+R6	has_cited_time Arg1:T19 Arg2:T18	
+R7	coauthor Arg1:T15 Arg2:T16	
+R8	has_cited_time Arg1:T17 Arg2:T16	
+R9	coauthor Arg1:T9 Arg2:T10	
+R10	coauthor Arg1:T10 Arg2:T11	
+R11	coauthor Arg1:T11 Arg2:T12	
+R12	coauthor Arg1:T13 Arg2:T12	
+R13	has_cited_time Arg1:T14 Arg2:T13	
+R14	has_cited_time Arg1:T8 Arg2:T7	
+R15	coauthor Arg1:T4 Arg2:T3	
+R16	has_cited_time Arg1:T5 Arg2:T4	
+R17	has_cited_time Arg1:T2 Arg2:T1	

@@ -1,0 +1,138 @@
+T1	引文时间 845 849	2008
+T2	引文作者 838 842	Owen
+T3	引文作者 828 835	Montesi
+T4	引文时间 821 825	2010
+T5	引文作者 810 818	Bar‐Ilan
+T6	图 5649 5865	The mean trend of PubRatio ( left in Figure 4 ) shows that authors who made their debut in a conference or both in a conference and a journal are likely to prefer conferences to journals as they publish more articles
+T7	引文时间 8704 8708	2013
+T8	引文作者 8696 8701	Valle
+T9	引文作者 8685 8691	Wainer
+T10	图 8834 8917	In Figure 5a , the CoauOverlap ratio trend is shown over the number of publications
+T11	图 9920 10077	According to Figure 5b , the cosine similarity of coauthors participating in both conferences and journals starts around 0.47 and keeps increasing up to 0.69
+T12	引文作者 9737 9745	Bar‐Ilan
+T13	引文时间 9748 9752	2010
+T14	引文作者 9755 9760	Vardi
+T15	引文时间 9763 9767	2009
+T16	引文作者 9770 9776	Wainer
+T17	引文作者 9779 9784	Valle
+T18	引文时间 9787 9791	2013
+T19	图 10328 10603	In addition , the rising trend of CoauOverlap ( Figure 5a ) and CoauCosine ( Figure 5b ) indicate that as scholars publish more articles , they become to involve more coauthors both in conference and journal articles and to collaborate more frequently with specific coauthors
+T20	图 10608 10696	The CoauOverlap and CoauCosine ratio trends were also plotted per debut year in Figure 6
+T21	图 10907 11219	This means that young CS scholars start to work with specific coauthors but as they grow older academically , they keep finding new coauthors for conferences and journals ( Figure 6a ) and diversify collaboration frequencies with coauthors who work together for both conference and journal articles ( Figure 6b )
+T22	图 11520 11693	Note that while the CoauOverlap and CoauCosine in Figure 5 show steady increases overall as scholars publish more articles , those in Figure 6 decrease as scholars get older
+T23	引文作者 13135 13143	Bar‐Ilan
+T24	引文时间 13146 13150	2010
+T25	引文作者 13406 13414	Bar‐Ilan
+T26	引文时间 13417 13421	2010
+T27	引文作者 13424 13431	Montesi
+T28	引文作者 13434 13438	Owen
+T29	引文时间 13441 13445	2008
+T30	引文作者 13448 13454	Wainer
+T31	引文作者 13457 13462	Valle
+T32	引文时间 13465 13469	2013
+T33	图 14564 14689	A similar trend is also observed in Figure 7b , where the mean ratio of WordCosine is plotted over the number of publications
+T34	图 15489 15651	Especially , scholars whose debut years are between the mid‐1980s and mid‐2010s show higher WordCosine values than other older and younger colleagues in Figure 8b
+T35	图 15021 15217	This concentration of topics , however , seem to accompany topical diversity across conferences and journals , which is depicted by the rising but low mean ratios of overlapping words in Figure 7a
+T36	图 16236 16435	In Figure 7 , the values of WordOverlap and WordCosine appear below 0.2 and around 0.3 , respectively , for the production range between 2 and 17 , which covers almost 80 % of all authors in the data
+T37	引文作者 19135 19145	Elmacioglu
+T38	引文作者 19148 19151	Lee
+T39	引文时间 19154 19158	2005
+T40	引文作者 19161 19172	Franceschet
+T41	引文时间 19175 19179	2011
+T42	引文作者 19342 19347	Reitz
+T43	引文作者 19350 19358	Hoffmann
+T44	引文时间 19361 19365	2010
+T45	引文作者 19368 19374	Wainer
+T46	引文作者 19377 19384	Eckmann
+T47	引文作者 19387 19398	Goldenstein
+T48	引文作者 19403 19408	Rocha
+T49	引文时间 19411 19415	2013
+T50	引文作者 17507 17514	Michels
+T51	引文作者 17517 17519	Fu
+T52	引文时间 17522 17526	2014
+T53	引文作者 19819 19822	Kim
+T54	引文时间 19825 19829	2018
+T55	引文作者 19832 19835	Kim
+T56	引文作者 19838 19845	Diesner
+T57	引文时间 19848 19852	2015
+T58	时间 335 339	2016
+T60	研究结果 1228 1401	This indicates that career years in conferences and journals per author is not necessarily proportional , implying some authors have a preference for conferences or journals
+T61	图 1945 2134	In Figure 2 , the horizontal axis represents the number of articles ( x ) and the vertical axis the ratio of authors who have written x or more publications over the total number of authors
+T62	图 2260 2500	Especially , the plots were fitted to power law slopes for 90 % of authors in conferences ( circles in Figure 2 , 1 ≤ x ≤ 21 , y = 1.32x −1.80 , R 2 = 0.98 ) and journals ( triangles in Figure 2 , 1 ≤ x ≤ 13 , y = 1.15x −1.92 , R 2 = 0.99 )
+T63	研究结果 2517 2625	the production of CS scholars in both conferences and journals may be modeled to follow predictable patterns
+T64	图 4355 4578	As detailed for Figure 1 in Debut/Career Year , authors who have published only in either conferences or journals are excluded from analysis , as this study considers only authors publishing both in conferences and journals
+T65	图 3402 3569	The mean PubRatio of authors per debut year is plotted in the left subfigure of Figure 3 , showing that the younger CS scholars are , the higher their mean PubRatio is
+T67	图 12715 12797	In Figure 7a , the WordOverlap ratio trend is shown over the number of publication
+T68	引文的结果 13277 13403	Previous studies found that the ratios of conference articles that transit into journals have been 25~33 % in computer science
+T69	研究结果 13474 13580	which is comparable to the mean ratio of overlapping title words for conferences ( 26.21 % ) in this study
+T70	数据源 14435 14439	DBLP
+T71	图 15222 15305	In Figure 8 , the WordOverlap and WordCosine ratio trend was plotted per debut year
+T72	研究结果 15310 15484	Overall , authors who published their first publication in recent years tend to show higher WordOverlap and WordCosine values than those who made their debut in earlier years
+T73	研究结果 15656 15777	This means that CS scholars in this debut range work on more focused topics for both conferences and journals than others
+T74	图 16066 16231	Such a difference may be mainly due to the fact that the majority of CS scholars publish a small number of articles in both conferences and journals ( see Figure 2 )
+T75	研究结果 16581 16799	CS scholars were found to usually make their debut in conference articles , publish more articles in conferences than journals , and collaborate with more colleagues in conference publications than journal publications
+T76	研究结果 16804 16937	CS scholars ' focus on conference articles began around the 1980s , strengthened over time , and seems to continue in the near future
+T77	研究结果 16942 17017	As such , conferences are the main vehicle of scholarly communication in CS
+T78	研究结果 17022 17151	An interesting finding is that , overall , conference publications do not seem to be preliminary work aimed at journal submission
+T80	研究结果 17533 17865	According to the trends of the conference‐journal publication ratio , coauthor overlap , and title word overlap per author , CS conference publications look like having served as a distinct vehicle of research communication for several decades , corroborating findings of previous studies on this topic from an author‐based approach
+T81	研究展望 18479 18572	First , this study only considered the count of publication for representing research outputs
+T82	研究展望 18577 18689	This approach ignores the content and quality of articles that are both important dimensions of scholarly impact
+T83	研究展望 18694 18834	Also , this study does not consider the increase of conference venues , especially around the 1990s , when many conferences were established
+T84	研究展望 18839 18915	This might contribute to the increased number of publications per CS authors
+T85	研究展望 18920 19021	Second , the validity of all these findings is based on the coverage and correctness of the DBLP data
+T86	数据源 19012 19016	DBLP
+T87	引文的结果 19026 19132	Although DBLP data have been assumed by many scholars to cover the majority of relevant publications in CS
+T88	引文的结果 19184 19339	its coverage is not perfect : that is , its coverage of CS is different from other bibliometric databases such as IEEE Xplore , SCOPUS , and Web of Science
+T89	数据源 19298 19309	IEEE Xplore
+T90	标准数据集 19312 19318	SCOPUS
+T91	标准数据集 19325 19339	Web of Science
+T92	研究展望 19429 19482	some CS journals are indexed with some issues missing
+T94	研究展望 19630 19703	Importantly , the accuracy of DBLP in identifying authors can be an issue
+T95	研究展望 19859 20041	However , it surely has disambiguation errors due to faulty merging or splitting of unique identities ( for details , see Kim ( 2018 ) ) , which may affect the outcomes of this study
+T96	研究展望 20151 20313	Although this study showed that CS scholars tend to publish more in conferences than in journals , it could not give any clue to factors affecting such propensity
+T97	研究展望 20046 20146	Thus , the findings of this study should be understood to represent only the given data set as it is
+T59	研究结果 1521 1607	This indicates that conferences are a more prevalent channel of research communication
+T98	引文作者 2628 2633	Lotka
+T99	引文时间 2636 2640	1926
+T100	研究结果 3574 3730	This means that , on average , young computer scientists tend to depend more on conferences than journals for scholarly communication than their older peers
+T101	图 4832 4951	In addition , as shown in subfigure ( b ) , authors who have a small number of publications tend to have a low PubRatio
+T102	研究结果 6325 6476	All observations in this section indicate that conferences will continue to be a dominant venue type for CS scholars , if the current trends continue .
+T66	图 15989 16061	In addition , these trends contrast to increased trend‐lines in Figure 7
+R1	has_cited_time Arg1:T54 Arg2:T53	
+R2	coauthor Arg1:T55 Arg2:T56	
+R3	has_cited_time Arg1:T57 Arg2:T56	
+R4	coauthor Arg1:T42 Arg2:T43	
+R5	has_cited_time Arg1:T44 Arg2:T43	
+R6	coauthor Arg1:T45 Arg2:T46	
+R7	coauthor Arg1:T46 Arg2:T47	
+R8	coauthor Arg1:T47 Arg2:T48	
+R9	has_cited_time Arg1:T49 Arg2:T48	
+R10	field_similar_as Arg1:T53 Arg2:T56	
+R11	results Arg1:T42 Arg2:T88	
+R12	results Arg1:T37 Arg2:T87	
+R13	coauthor Arg1:T37 Arg2:T38	
+R14	has_cited_time Arg1:T41 Arg2:T40	
+R15	has_cited_time Arg1:T39 Arg2:T38	
+R16	field_similar_as Arg1:T37 Arg2:T40	
+R17	coauthor Arg1:T50 Arg2:T51	
+R18	has_cited_time Arg1:T52 Arg2:T51	
+R19	has_cited_time Arg1:T26 Arg2:T25	
+R20	coauthor Arg1:T27 Arg2:T28	
+R21	has_cited_time Arg1:T29 Arg2:T28	
+R22	has_cited_time Arg1:T32 Arg2:T31	
+R23	field_similar_as Arg1:T25 Arg2:T27	
+R24	field_similar_as Arg1:T27 Arg2:T30	
+R25	has_cited_time Arg1:T24 Arg2:T23	
+R26	results Arg1:T25 Arg2:T68	
+R27	has_cited_time Arg1:T13 Arg2:T12	
+R28	has_cited_time Arg1:T15 Arg2:T14	
+R29	has_cited_time Arg1:T18 Arg2:T17	
+R30	field_similar_as Arg1:T12 Arg2:T14	
+R31	field_similar_as Arg1:T14 Arg2:T16	
+R32	coauthor Arg1:T9 Arg2:T8	
+R33	has_cited_time Arg1:T7 Arg2:T8	
+R34	has_cited_time Arg1:T99 Arg2:T98	
+R35	has_cited_time Arg1:T1 Arg2:T2	
+R36	coauthor Arg1:T2 Arg2:T3	
+R37	has_cited_time Arg1:T4 Arg2:T5	
+R38	field_similar_as Arg1:T5 Arg2:T3	

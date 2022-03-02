@@ -1,0 +1,129 @@
+This assured that tokens such as “ this , ” “ This , ” and “ this ? 
+” would all be treated appropriately—in the last case , by creating two tokens , one containing the word “ THIS ” and another containing the character/word “ ? 
+” . 
+Analysis was performed in all cases by selecting the nearest training document using normalized cosine distance ( Noecker & Juola , 2009 ) based on vectors created from the appropriate feature histograms . 
+The specific feature/event sets used were as follows : Characters . 
+Each Unicode character was treated as an independent feature . 
+Words . 
+The JGAAP framework defines words very simply as maximal sequences of nonblank characters ( equivalent to the UNIX wc command ) . 
+Character n‐grams . 
+N‐grams are simply collections of n adjacent items , in this case , characters . 
+For example , the phrase “ in the middle ” contains the 4‐grams “ in t ” ( because spaces count as characters ) , “ n th , ” “ the , ” “ the , ” and “ the m ” as well as others . 
+Our study focuses initially on character 4‐grams ( but see below ) . 
+Word pairs . 
+Pairs of adjacent words , or alternatively word 2‐grams . 
+Word lengths . 
+Words were replaced with symbols representing their lengths ( for instance , the word ” this ” would be treated as the symbol ” 4 ” and then distances were calculated based on the histograms of length distribution ) . 
+Note that this method is not the often‐proposed and ineffective ( de Morgan , 1851/1882 ) “ average word length ” method . 
+First word in sentence ( FWIS ) . 
+Sentence boundaries were identified using the LaTeX algorithm ( for instance , a sentence‐ending punctuation mark such as a period , question mark , or exclamation point , followed by a capital letter ) . 
+Linguists ( McMenamin , 2011 ) have suggested that “ sentence openers , ” the first words in a sentence , are psycholinguistically salient and may be a useful feature for authorship attribution . 
+The 50 most frequent words ( 50MFW ) . 
+The most frequent words in any discourse tend to be so‐called “ function words ” that have been shown in numerous studies ( Binongo , 2003 ; Burrows , 1989 ; Hoover , 2004a ) to be effective markers of authorship . 
+Punctuation . 
+Specific choices of punctuation ( Abbasi & Chen , 2008 ) can also be useful cues to authorship . 
+These eight feature sets were applied to both the English subcorpus as well as the Greek subcorpus as described above . 
+Given the significance of n‐grams in the literature ( Stamatatos , 2013 ; Mikros & Perifanos , 2013 ; Juola et al. , 2013 ) and the potential for unrepresentative cherry‐picking of the parameter n , we performed additional experiments to see whether the length of the n‐grams ( in the case of both words and characters ) played a significant role either in performance or in comparative accuracy . 
+We therefore ran experiments for values for n from 1.20 for characters and for 1.8 for words . 
+In addition , we analyzed these documents using only the 50 most frequent word n‐grams ( in any given training set ) from n = 1 through 8 . 
+Our analysis focuses on three specific questions . 
+First , can authorship attribution be successfully performed on this corpus with better accuracy than random guessing ? 
+Second , do the same methods that perform well in English and in other languages also perform well in Modern Greek ? 
+Third , and most interestingly , is the authorship attribution problem easier or harder in Modern Greek than in English , or ( alternatively ) , are the expected levels of performance under similar conditions in Modern Greek higher or lower than they would be in English ? 
+The first question is relatively straightforward to answer . 
+Since , as discussed , each experiment was performed as a tightly controlled binary decision , the chance baseline is exactly 50 % ( p = .5 ) and follows a well‐understood binomial distribution . 
+To determine specific significance thresholds , it is merely necessary to do the calculations . 
+For a single experimental condition , in a single language , in a single direction , there are 100 documents analyzed ( two documents each for 50 pairs ) . 
+The standard 5 % alpha significance threshold ( one‐tailed ) then would be 59+ correct analyses ; the 1 % significance threshold ( again , one‐tailed ) would be 63+ . 
+For bidirectional analyses , there are 200 documents analyzed , and the respective significance thresholds are 113+ and 117+ . 
+It is also possible to compare aggregate performance across multiple experimental conditions by simply adding the number of correct analyses and recalculating with the revised number of trials . 
+However , the structure of the Mikros corpus affords a so‐far unique opportunity to address the second and third questions . 
+Typically , the results of any two experiments in different languages are not directly comparable ; even if the number of authors involved are the same , the authors themselves are different , and often the documents are of different genres , different lengths , and , at a minimum , different topics . 
+( For example , even the category “ mystery novels ” in English includes authors [ and subgenres ] as different as Arthur Conan Doyle , Raymond Chandler , and John Grisham . 
+) However , the documents in the Mikros corpus are by the same authors and on the same topics , and thus can be usefully compared . 
+To compare performance across languages , we used three separate types of analysis . 
+In a typical experiment on a typical set of corpora , it may happen that performance in language X is significantly better than chance , but performance in language Y is not . 
+However , it is not easy to tell whether this is because language X is easier to analyze in general , or because the problem posed in language X is an easier problem to solve ( perhaps because more data are available in language X , or because the documents in language X are from a more stereotyped genre and hence less variable ) . 
+Performance in any specific condition can be compared using two‐sample proportions tests . 
+To test general trends in the aggregate , we also used aggregated proportions tests , but also a sign test and a Wilcoxon signed‐rank test . 
+The results of each of these tests are reported below . 
+Finally , we analyzed the relationship between n‐gram length , language , and performance graphically , as shown in the following section . 
+The results of the first experiment are attached as Table 1 . 
+The results are reported as the number of correctly assigned documents in the condition described , and are out of 100 possible documents each for the single direction results and out of 200 possible for when both directions are added . 
+As can be seen from Table 1 , accuracy levels across the board are above the chance performance level of 0.5 , and usually significantly so ( at p < .05 or better ) , answering the first research question posed above . 
+Correlation ( using Pearson 's r ) between performance on English and on Greek was not found to be significant , suggesting ( in answer to the second research question ) that the same methods that perform well in English may not perform well in Greek , and vice versa . 
+In answer to the third question , accuracy on the English language texts is usually higher than Greek accuracy ( of the 16 experimental conditions , English scored better on 13/16 , Greek on 2/16 , with one tie ) . 
+These differences were significant ( using the bionomial test ) in seven of the 16 conditions . 
+The sign test and Wilcoxon signed‐rank test confirmed that these differences were highly significant ( p < .01 ) . 
+Similar results were found when the unidirectional experiments were joined to make a bidirectional analysis ( although in this case , the sign test was no longer significant , but the Wilcoxon continued to be highly significant ) . 
+The results of the progressive length character n‐gram experiments are presented graphically as Figure 1 . 
+All results in this graph are bidirectional , representing the sum of both directions 1 and 2 . 
+Greek and English accuracy score for character n‐grams at differing lengths . 
+A final comment on the above‐mentioned results is that the relatively low accuracy values obtained can be explained also by the text size and corpus size restrictions available in the used corpus . 
+More specifically , both text sizes used and number of documents per author are smaller than most of the current authorship attribution studies and add a further diminishing factor in the performance of our methods . 
+The overall shape of both curves is clear and shows that performance generally increases with increasing length of character n‐grams ) until ( in English ) a maximum is reached at approximately n = 16 . 
+However , starting at n = 18 , some analysis were found not to work , as there were no shared n‐grams of that length between the training and testing corpora . 
+No clear maximum was found for Greek , and no length limitations were observed up to and including n = 20 . 
+However , performance on character n‐grams was better for English in all circumstances except n = 1 . 
+The results of the progressive length word n‐gram experiments are presented graphically as Figures 2 and 3 . 
+As before , all results in this graph are bidirectional . 
+The overall results are similar to the results with character n‐grams , with substantial outperformance by English , limited by an ability to do the analysis at larger values of n . 
+Greek and English accuracy score for word n‐grams at differing lengths . 
+Greek and English accuracy score for 50 most frequent word n‐grams at differing lengths . 
+Our first finding is that authorship attribution is practical in Modern Greek using the same system ( JGAAP ) and settings that work in English . 
+This is not surprising , given previous work on involving JGAAP and its known flexibility . 
+In particular , in no trial did the system underperform the chance baseline , and in all trials but one the system outperformed chance , significantly so in 10 of the 16 individual method‐trials ( as seen in Table 1 ) . 
+It should be clear , then , that the resolution of disputes involving documents in Greek via stylometry is practical , and we therefore recommend that this technology should be considered for admissibility as evidence in Greek courts , just as it is in US and UK courts ( Chaski , 2013 ; Grant , 2013 ) . 
+Perhaps obviously , the same caveats about data sufficiency and selection of appropriate methods will apply in Greek as in English . 
+Furthermore , performance of many methods in Greek not only outperforms chance , but outperforms the naive baseline of using vocabulary ( individual words , presented here as word “ 1‐grams ” ) as well . 
+For Greek , character n‐gram lengths from 9–20 , word n‐gram lengths from 5–8 , and analysis of punctuation all outperformed word 1‐grams “ significantly ” ( proportions test , n = 200 , p < .05 ) . 
+For English , though , no method “ significantly ” outperformed the already high‐performing word 1‐gram baseline . 
+We also observed that the transference , as measured by correlation , between methods performing well in Greek and methods performing well in English was substantially lower than that seen in other studies ( Juola , 2006 , 2009b ; Hasanaj et al. , 2014 ) . 
+There are at least two plausible explanations for this finding . 
+The first is that most of the languages previously studied are more similar to English than Greek is . 
+The second is that most of the studies performed used a larger variety of different methods , including methods that are now known to work poorly in English as well as other studied languages . 
+( This , of course , makes intuitive sense ; a method designed by an English‐speaking researcher to analyze English language documents that nevertheless does not perform well on those documents is unlikely to magically improve in performance when applied to a completely novel language that the researcher does n't even speak . 
+) Perhaps there is such a “ magic ” method for Greek , but , more likely , previous studies have artificially inflated the correlation by including methods that simply do n't work irrespective of application language . 
+Further work is needed to address this point , and , of course , the Mikros corpus will be valuable for this further work . 
+The most intriguing finding , in our opinion , is that , for comparable documents and comparable authors under nearly‐identical conditions , the author can be determined with substantially higher accuracy in English than in Greek , or , to put it more colloquially , the authorship attribution problem is harder in Greek than in English . 
+Of the 16 primary experiments , English outperformed in 13 of them , and five times by a significant margin . 
+The overall proportions test , the sign test , and the Wilcoxon signed rank test , all confirmed this finding . 
+In the ancillary experiments involving the lengths of different types of n‐grams , such formal statistics are probably inappropriate [ due to violation of assumed independence : it would be hard to believe that performance on n‐grams is independent of performance on ( n + 1 ) ‐grams ] , but a glance at the curves still shows that English outperforms Greek by a significant margin . 
+We have identified three potential explanations for this finding , any or all of which would be appropriate for future work . 
+The first is simply selection bias ; all of the methods tested are known to perform well on English and/or English‐like languages ( like French or German ) . 
+We have no test methods known to do badly on English on the off‐chance that they would miraculously do well on Greek , but a further study of authorship specifically in Greek may find such candidates . 
+The second possibility has to do with bias in the authorship pool . 
+Although all authors are highly proficient in English , none of them are ( believed to be ) native speakers , and thus they will all be expected to produce more errors in English than in Greek . 
+If these errors are consistent within writers , but differ across writers , this would suggest more individual variation in English , and hence an easier task . 
+This is , of course , best addressed by the development of more corpora , including ( ideally ) , essays written by native speakers of English who are qualified to teach Greek , but such people may be difficult to find and recruit . 
+The third , and most interesting from a linguistic point of view , is that there is some property of the Greek language itself that makes it harder to extract individual authorship features . 
+As discussed in the background section , the Greek lexicon , morphology , and syntax all have properties that strongly differ from English ; the relative availability of common synonyms in English may make it possible to use them specifically as features and make word‐ or word n‐gram‐based methods work more effectively , perhaps explaining the results of the current experiment . 
+Alternatively , the relatively free word order of Greek may affect the power of n‐gram‐based methods . 
+Much further work is needed to explore this possibility . 
+The ancillary experiments show at least one clear similarity and three clear differences between English and Greek . 
+The similarity is simply that high‐order n‐grams may be more useful than previously suspected . 
+For example , a typical analysis in English will use character 4‐ or 5‐grams , when our results suggest that 10‐ or 12‐grams , perhaps even as high as 16‐grams , would be more appropriate . 
+This may even rise to the level of a recommended “ best practice ” for high accuracy in authorship attribution generally . 
+Although high‐order n‐grams can result in a combinatorial explosion of feature space , and hence make analysis slow , for many applications ( that is , forensic analyses for the justice system ) , computational time is a distant second to accuracy in importance . 
+The first difference is simply that the n‐grams themselves remain meaningful for a much longer distance in Greek than in English . 
+This suggests that one possibility for finding a best practice specifically for Greek involves the use of such long grams , despite being methods that would not work at all in English . 
+Indeed , character 19‐grams and word 7‐grams both outperformed any of the “ standard ” methods tested . 
+This , in turn , suggests that interword relationships last much longer in Greek than in English . 
+The second difference , unfortunately , is that even the high‐order n‐grams in Greek do not perform at a level comparable to their English counterparts . 
+Furthermore ( as a third difference ) , one of the most common and powerful techniques in English ( use of frequency culling to reduce noise in the feature set , for example , by using only the most frequent words or word pairs ) not only does not deliver comparable improvement in Greek , but appears instead to reduce accuracy substantially . 
+This may be related to the relatively smaller number and frequency of “ function words ” given the more complex Greek morphological system , which in turn suggests that incorporating a Greek‐language morphological tagger into the analysis might provide a boost in performance , both in absolute terms and also relative to the improvement gained in English . 
+One notable omission from our experimental setup is the use of parts‐of‐speech ( POS ) tags and their corresponding n‐grams . 
+Unfortunately , while JGAAP supports part‐of‐speech tagging for English documents , it does not include that capacity for Greek . 
+While such software exists ( Koleli , 2011 ; Malakasiotis , 2005 ; Asikis , 2016 ; Pappas , 2008 ) , it has not yet been incorporated into the JGAAP system . 
+Furthermore , given the wide variation in accuracy rates between different taggers and also between different languages ( given the morphological complexity of Greek , a tagging accuracy of 99.97 % or better is fairly easy , while English accuracy is typically only 97 % or thereabouts ) . 
+Error rates in English are thus a hundred times greater than in Greek ; it is not clear that the differences in attribution accuracy should be attributed to linguistic and not merely technological differences . 
+We therefore omitted POS tags as a feature set in this experiment , but adding such a tagger ( ideally , many such taggers ) for Greek and testing performance would be an obvious and simple extension of this study . 
+The newly available Mikros corpus affords researchers an unusual opportunity to perform the same authorship attribution task ( using the same authors and the same topics ) in two different languages , ( Modern ) Greek and English . 
+Using the JGAAP system , we have done this analysis and shown that in almost all cases studied , accuracy on the English part of the corpus was substantially better than accuracy on the Greek part ; this disparity persisted across eight different major categories of feature sets and across a wide range of lengths for n‐grams . 
+We have speculated about possible reasons for this difference , but additional research into this question is appropriate . 
+We have also found that the typical lengths of n‐grams used in this kind of authorship experiment may be too small , in both English and Greek . 
+Again , additional research is indicated . 
+Finally , this article also establishes that , even with the lowered performance , “ standard ” authorship attribution practice can determine the correct author of a document in Modern Greek with accuracy substantially above chance , and thus this technology should be able to be used to resolve issues of questioned documents in Greek as well as in other , more studied , languages . 
+Future work will include systematic experiments with novel features that can capture cross‐linguistic stylistic choices . 
+Another interesting dimension of this research is the investigation of the research hypothesis that non‐native speakers of English have a larger and more diverst set of distinctive linguistic habits , as they do not master the grammatical and stylistic conventions to the same extent as native speakers . 
+This could be tested by examining whether classification performance on these non‐native English essays is similar to performance on similar essays written by native speakers . 

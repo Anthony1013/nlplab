@@ -1,0 +1,5 @@
+T1	研究结果 617 690	we propose a functionality based mobile app recommendation architecture .
+T2	研究方法 693 876	Our method recommends apps by revealing their detailed functionalities of apps and truly capturing users ' functional requirements , which have not been considered by existing works .
+T3	研究结果 906 1010	user reviews can be used to enrich item information and can be incorporated to enhance recommendations .
+T4	研究展望 2007 2198	In future work , it would be possible to extract other non functional aspects from user reviews , which can be incorporated in the ranking process to enable a sophisticated ranking approach .
+T5	研究展望 2788 3034	In future work , we will investigate the impact of product category on user requirement modeling and extend our work by coming up with strategies to capture user requirements by differentiating utilitarian and hedonic products in recommendation .

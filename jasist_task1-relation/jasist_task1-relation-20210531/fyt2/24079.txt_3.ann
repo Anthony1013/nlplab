@@ -1,0 +1,13 @@
+T1	引文作者 558 567	De Sutter
+T2	引文作者 570 582	Van Den Oord
+T3	引文作者 336 341	Vardi
+T4	引文时间 344 348	2009
+T5	引文时间 585 589	2012
+T6	引文作者 1384 1391	Eckmann
+T7	引文时间 1401 1405	2012
+T8	数据源 496 502	Scopus
+T10	数据源 507 521	Web of Science
+T11	时间 522 540	from 2004 and 2008
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T5 Arg2:T2	
+R3	has_cited_time Arg1:T7 Arg2:T6	

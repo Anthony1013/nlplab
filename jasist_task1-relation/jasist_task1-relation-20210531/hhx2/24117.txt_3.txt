@@ -1,0 +1,66 @@
+We can observe in Figure 1 that our method has a higher Macro‐F1 , above the baselines , in most data sets . 
+In fact , 10SENT is the best method in 7 out of 13 data sets and it is close to the top of the rank in several others . 
+This is also reflected in the Mean Rank , shown in Table 7 , confirming that 10SENT is the overall winner across all tested data sets . 
+In fact , 10SENT can be considered as the most stable method as it produces the best ( or close to the best ) results in most data sets in different domains and applications . 
+In other words , by using our proposed method , one can almost always guarantee top‐notch results , at no extra cost , and without the need to discover the best method for a given context/dataset/domain . 
+For analysis purposes , we also perform a comparison of 10SENT with some “ uppperbound ” baselines which use some type of privileged information , most notably the real label of the instances in the training set , an information not available to us . 
+The idea here it to understand how far our proposed unsupervised approach is from the ones that exploit such information as well as to understand the limits to what we can achieve with an unsupervised solution . 
+The first “ upperbound ” baseline is a fully supervised approach which uses all the labeled information available in the training data . 
+As normally done in fully supervised approaches , the parameters of the RF algorithm are determined using a validation set . 
+The second baseline is an Exhaustive Weighted Majority Voting method that uses the real labels of messages of the data sets to find the best possible linear combination of weights for each base method . 
+Differently from the Majority Voting baseline , in which all methods have the same weight , in this approach , each individual base method has a different weight , so that the influence of each one in the final classification is different . 
+The weights for each method are found by means of an exhaustive search in each ( training portion of the ) data set . 
+That is , for each data set we found the “ close‐to‐ideal ” weights that would lead to the best possible result when combining the exploited base methods . 
+Then , for each method , a weight was associated with its output and , finally , the class with the highest weight was marked as the resulting label of each instance . 
+This search was performed in exhaustive mode , that is , we evaluate every possible combination , seeking to maximize the Macro‐F1 in each data set . 
+During the experiments , we limited the search to five different weights in the range [ 0 − 1 ] : W = { 0 , 0.25 , 0.5 , 0 , 75 , 1 } ) to estimate “ close‐to‐best ” results , while maintaining feasible computational costs . 
+Table 8 shows the average weights and corresponding standard deviation for each method in some data sets , but for all the results are similar . 
+We can see that most methods have different behaviors in different data sets ( implied by the large deviations ) . 
+In other words , the same method may have a huge variance in effectiveness in different data sets , which precludes the use of a single unique method for all cases . 
+Despite this , we can observe that some methods have clearly a higher average than others even with this high deviation . 
+Finally , the third “ upperbound ” baseline is the best single base method in each data set . 
+Since the base methods are unsupervised “ off‐the‐shelf ” ones , we determine the best method for each data set also using the labels in the training sets . 
+It is also an “ upperbound ” because the best method can not be determined , in advance , without supervision , that is , a training set . 
+The results of those upperbounds are shown in Table 9 . 
+For comparative purposes we also included in this table the results of the unsupervised Majority Voting . 
+As before , all results correspond to the average performance in the 5 test sets of the folded cross‐validation procedure using 10SENT with its best configuration including Bag of Words and Transfer Learning . 
+Values marked with “ * ” in this table indicate that the difference was not statistically significant when compared to 10SENT in a paired‐test with 95 % confidence . 
+Results reported with “ Δ ” are those statistically better than those of 10SENT . 
+On the other hand , our method demonstrated to be statistically superior to the ones whose values are marked with “ ∇ ” . 
+As highlighted before , 10SENT is tied or better than the traditional majority voting in most data sets , being statistically superior in 7 out of 12 cases , tying in other 5 and losing only in one data set ( sentistrength_rw ) . 
+Gains can achieve up to 23.8 % against this baseline . 
+When compared to the best individual method in each data set , 10SENT wins ( 4 cases ) or ties ( 7 cases ) in 11 out of 13 cases , a strong result . 
+This shows that 10SENT is a good and consistent choice among all available options , independently of which data set is used . 
+When compared to supervised Exhaustive Weighted Majority Voting , a first observation is that , as expected , it is always superior to the simple Majority Voting . 
+Although we can not beat this “ upperbound ” baseline , we tie with it in four data sets ( sentistrenth_youtube , sentistrength_twitter , tweet_semevaltest , english_dailabor ) and get close results in others such as aisopos_ntua , sanders and debate . 
+This with no cost at all in terms of labeling effort . 
+Regarding the strongest upperbound baseline—Fully Supervised—an interesting observation to make is that in some data sets its results get very close to those of the Exhaustive Weighted Majority Voting , even losing to it in two ( sentistrength_bbc , vader_nyt ) . 
+This is a surprising result , meaning that the combination of both strategies is also an interesting venue to pursue in the future . 
+When comparing this baseline to 10SENT , as expected , we can also not beat it , but can tie with it in two data sets and get close results in others , mainly in those cases in which our method was a good competitor against Exhaustive Weighted Majority Voting . 
+We consider these very strong results . 
+For a deeper understanding of the results , Table 10 shows the set size of 10SENT used to train the classifier before and after the bootstrapping step ( lines 9‐11 of Algorithm 1 ) . 
+As we can see , the majority voting heuristics selects a relative large amount of training data from the original data sets . 
+This may explain some of the good results obtained in our experiments , since the classifiers have a reasonable amount of data to be trained with . 
+However , this is only part of the story . 
+One question that remains to be answered is : “ What is the quality of the automatically labeled training set ” . 
+We can answer this question by looking at the columns “ Accuracy ” in the table . 
+This metric calculates the proportion of correctly assigned labels in the training sets when compared to the “ real labels ” . 
+For a considerable number of data sets , the accuracy is relatively high , between 0.6‐0.8 . 
+In fact , the cases in which 10SENT gets closer to the fully supervised method correspond to those in which the accuracy in the training is higher . 
+We can also see that after the bootstrapping , in general the accuracy in the training drops a bit , which is natural since the heuristics is not perfect , but this is compensated by the increase in training size , resulting in a learned model that generalizes better . 
+Finally , we can see that the absolute results of the best overall method in each data set are still not very high ( maximum of 76 % ) , which shows the difficulty of the sentiment analysis task and that there is a lot of room for improvements . 
+We presented a novel unsupervised approach for sentiment analysis on sentence‐level derived from the combination of several existing “ off‐the‐shelf ” sentiment analysis methods . 
+Our solution was thoroughly tested in a wide and diversified environment . 
+We cover a vast amount of methods and labeled data sets from different domains . 
+The key advantage of 10SENT is that it is a first step towards fixing one major issue in this field—the large variability of the methods across domains and data sets . 
+Our experimental results show that our self‐learning approach has the lowest prediction performance variability because of its ability to slightly adapt to different contexts . 
+This is a crucial issue in an area in which researchers are mostly interested in using an “ off‐the‐shelf ” method to different contexts . 
+Our approach is also easily expandable to include any new developed unsupervised method . 
+Our experimental results also show that 10SENT achieves good effectiveness compared to our baselines . 
+10SENT was superior to all existing individual methods and also obtained better results than the traditional majority voting , with gains of up to 17.5 % . 
+In an upperbound comparison , we saw that 10SENT can get close to the best supervised results . 
+Finally , our analysis on transfer learning shows us the possibility of adapting the method to include more strategies that can lead to better results . 
+We also release our codes and data sets to the research community as part of known sentiment analysis benchmark systems ( Araújo et al. , 2016 ) . 
+As future work , we intend to better explore weighting strategies as well choosing other setups for different scenarios . 
+Particularly , we plan to investigate whether machine learning models trained with specific data sets can be used as input for the ensemble step as well as which trained data sets are better suited for our method . 
+Additionally , we will explore other syntactic and semantic aspects of the text of the messages to improve results . 

@@ -1,0 +1,111 @@
+Distribution of codes on element importance in the general public user group is presented in Table 5 . 
+For this group of participants , the most important elements were “ Current Location ” ( “ Necessary ” or “ Informative , ” rated 5 times , 100 % ) , “ Description ” ( 5 , 87 % ) , “ Context ” ( 5 , 71 % ) , and “ Related Knowledge ” ( 5 , 71 % ) . 
+The public users rated some elements as “ Not interested ” more often than the sum of “ Necessary ” and “ Informative , ” including “ Measurements ” ( 60 % ) , “ Related Visual Documentation ” ( 57 % ) , “ Materials ” ( 50 % ) , and “ Right ” ( 43 % ) . 
+Similar to the professional group , “ Damage ” was deemed redundant by the public users as well . 
+More than two‐thirds of the excerpts were coded as “ Necessary ” or “ Informative , ” by both groups of participants , indicating that most elements are considered important . 
+Only 16 % and 15 % of the excerpts respectively in the two groups were coded as “ Redundant ” . 
+“ Current Location , ” “ Description , ” and “ Related Knowledge ” were perceived to be important by both user groups . 
+However , in the group of professionals , “ Description ” and “ Related Knowledge ” were perceived more as “ Necessary ” than “ Informative , ” while the case was reversed in the public group . 
+Tables 6 and 7 present the code distributions in the two user groups regarding their opinions on the capacity of each metadata element in supporting the searching , browsing , and organizing of information of murals and stone cave temples . 
+The percentages were calculated against the total number of codes on each function ( for example , searching ) of each element . 
+Elements considered useful for searching by both user groups included “ Creation ” ( all opinions on this element were “ useful ” in both user groups ) , and “ Title ” ( all opinions in the professional group and 67 % in the public group were “ useful ” ) . 
+“ Current Location ” received “ useful ” ratings ( 100 % ) from the public group but not the professional group , corroborating the importance of travel‐related information to the public users . 
+“ Inscriptions/Marks ” was viewed by the public as “ useful ” for searching ( 100 % ) but “ not useful personally ” by the professionals . 
+Some interviewees in the general public group opined that users might remember inscriptions on some ( famous ) murals and use it for searching , which could further improve the popularity of the heritage . 
+“ Measurements , ” “ Techniques , ” “ Environment , ” “ Materials , ” “ Description , ” and “ Right ” were viewed by both groups as not useful or not useful personally for searching . 
+Some professionals ( especially researchers ) expressed that elements such as “ Measurements ” were too technical and might only be useful to a specific group of “ insiders ” when conducting information search . 
+For browsing , “ Inscriptions/Marks ” was regarded as “ useful ” consistently by both user groups , indicating users ’ need for textual content as a type of browsing surrogate of visual cultural objects . 
+“ Techniques ” and “ Materials ” were also considered useful by the professional group but received diverse opinions from the public group . 
+“ Classification , ” “ Title , ” “ Identifier , ” and “ Current Condition ” were exclusively considered by professionals to be useful for browsing , as they could yield information of research value . 
+In contrast , only the general public group perceived “ Current Location ” and “ Related Knowledge ” as useful for browsing , which were related by this user group to traveling to cultural heritage sites . 
+“ Identifier ” was , not surprisingly , considered useful for organizing related information by both groups . 
+In terms of issues for the elements , both groups of interviewees thought some elements were confusing with one another , such as “ Object/Work Type ” and “ Type ” ( 2 times by professionals and 1 time by public ) , “ Creation ” and “ Disposal History ” ( 2 vs. 1 ) . 
+The public users exclusively indicated that “ Context ” and “ Related Knowledge ” ( 2 times ) were confusing , whereas professionals expressed confusion over more elements , including “ Description ” ( 3 times ) , “ Inscriptions/Marks ” ( 3 ) , “ Environment ” ( 2 ) , “ Identifier ” ( 1 time ) , “ Grade ” ( 1 ) , “ Current Condition ” ( 1 ) , and “ Damage ” ( 1 ) . 
+Another issue pointed out by the professional group was the lack of standardization in cataloging some elements such as “ Description ” ( 1 time ) , “ Classification ” ( 1 ) , “ Current Location ” ( 1 ) , “ Creation ” ( 1 ) , and “ Grade ” ( 1 ) . 
+Only participants in the professional group commented on the metadata schema as a whole . 
+They pointed out concerns such as element redundancy ( 8 times ) , completeness ( 6 ) , terminology ( 3 ) , order arrangement ( 2 ) , and variable usages for different user groups ( 2 ) . 
+Other issues , presented in Table 3 , including interoperability and difficulty in cataloging , were each commented on once . 
+The issue of element redundancy was mentioned above . 
+When interviewees talked about the completeness of the schema , the reflections were generally positive . 
+“ I think there is nothing that has to be added because I think [ the collection of elements ] is pretty comprehensive. ” ( Participant 7 ) There were also concrete suggestions made for further enhancement of the completeness of the schema : “ [ The ] uncovering process [ of the heritage ] could also be an integral part of cultural heritage ; … I think digital resources should be categorized in more than just one simple element , there 's so much going on in the tech [ nological ] world . 
+The schema needs to put potential future development into consideration as well ; … I think some travel information might also be helpful in this schema. ” ( Participant 30 ) . 
+When terminology was concerned , suggestions were raised to clarify terms by using modifiers : “ If I see elements such as ‘ Creation ’ and ‘ Coverage , ’ these names are very confusing . 
+Maybe it can show ‘ Creation ’ first , then under which there would be ‘ Creator , ’ ‘ Creation Time , ’ ‘ Creation Location , ’ and so on. ” ( Participant 8 ) Some participants mentioned that the schema may need to cater to different user groups : “ If various communities [ of users ] are using [ the metadata ] , the information that concerns them would be different . 
+This might be a difference in terms of the use of the metadata. ” ( Participant 2 ) Interoperability was raised as a suggestion for future development : “ The search engines are effective because people use the same or similar metadata . 
+If we develop a new schema , it is hoped that it can also be used by other countries , so it [ the schema ] needs to be able to integrate with international standards. ” ( Participant 19 ) . 
+One interviewee expressed her concern on the difficulty of cataloging : “ It [ cataloging ] needs both fundamental knowledge in organizing information , and professional knowledge [ in murals and stone cave temple ] . 
+” ( Participant 12 ) . 
+Under the spirit of user‐centered design and the framework of “ information representation design ” ( Abbas et al. , 2016 ) , current information‐seeking practices of potential users are informative for metadata requirements . 
+The foremost preference of both user groups is electronic forms of cultural heritage information , better from online sources . 
+Nonetheless , professional users opted for online databases rather than search engines that were more often used by general public users . 
+This can be attributed to professionals ’ familiarity with databases that store relevant cultural heritage information , such as Artstor,55 www.artstor.org an online repository of images in arts , humanities , architecture , sciences , etc . 
+This is consistent with findings from prior studies that found experts of cultural heritage preferred reputable online sources over search engines ( Amin & Nispen , 2008 ) . 
+The distinctive purposes of seeking cultural heritage information and the types of information sought by the two user groups in this study necessitate a requirement of the metadata schema to support a variety of information needs in multidisciplinary environments for cultural heritage . 
+Regarding the types of information being sought , the professionals ’ needs for visualized materials imply that the metadata should contain elements describing related images and videos . 
+On the other hand , participants in the general public group tended to search for travel information and were interested in other cultural heritage sites nearby when traveling . 
+In addition , unlike their professional counterparts , public users tended to rely on online reviews to learn more about the heritage . 
+In view of these practices , the proposed metadata schema should facilitate information seeking of users with various information searching experience and information needs . 
+Functions that the metadata schema could serve can include , but are not limited to , standardizing the way to locate online cultural heritage resources , providing a consistent and cross‐disciplinary descriptive framework to manage properties of cultural heritage resources ( for example , geographical location , damage conditions , photos of the resources , etc . 
+) , categorizing the resources based on a well‐defined taxonomy , facilitating resource ranking and sorting for customized user experience , etc . 
+It is also prudent to seek the advice of and suggestions from researchers and professionals during the process of refining the metadata schema , owing to their exposure to the heritage in question , and their familiarity with online databases of cultural heritage information . 
+Users ’ perceived importance or usefulness of specific elements in the metadata schema correlated with their information‐seeking practices . 
+“ Related Knowledge ” is an important element to both groups of users . 
+It can facilitate indexing and searching not only of the cultural heritage itself but also knowledge related to it ( for example , related historic events , myths , and legends ) . 
+This element was valued by the professionals as research and teaching materials . 
+For the general public group , “ Related Knowledge , ” rated as informative and useful for browsing , can be learning resources to help further their understanding of a mural or a stone cave temple . 
+In addition , both user groups perceived “ Current Condition ” as useful in supporting searching . 
+A participant from the general public group ( Participant 13 ) pointed out that the real condition of a mural or stone cave temple could be different from its digitized forms , which could have been edited or enhanced . 
+On the other hand , a number of metadata elements were deemed not useful for searching , by both groups of users , including “ Measurements , ” “ Materials , ” and “ Techniques. ” While the general public thought these elements were uninteresting , some researchers in the professional group perceived them as very technical and would be useful only to certain groups of “ insiders ” in a specific field ( for example , archeologists ) . 
+“ Object/Work Type ” was regarded as problematic by both groups of users , in that it was ambiguously termed and could overlap with other elements such as “ Classification ” and “ Type. ” Common perceptions between these two user groups on specific elements imply that these elements necessitate immediate review and modification in terms of their terminology , definitions , and functions . 
+There were a number of noteworthy differing opinions between the two user groups . 
+“ Related Visual Documentation ” was a necessary element to the group of professionals , attributable to their needs for visual materials . 
+An example is the use of visuals by journalists in writing articles and news reports about cultural heritage sites . 
+On another note , this is related to the tremendous contribution of visual materials to the promotion and preservation of cultural heritage , since visuals are powerful in demonstrating the values of tangible heritage ( Waterton & Watson , 2010 ) . 
+It seems counterintuitive that the general public was uninterested in this element , but the terminology of “ Documentation ” may have sounded intimidating to them . 
+“ Classification , ” “ Title , ” and “ Current Condition ” were regarded by the professional users as highly important elements in supporting their job‐oriented searching and browsing activities . 
+Users in the general public group searched for cultural heritage information for more personal objectives such as planning trips to heritage sites . 
+Therefore , “ Current Location ” was a popular element identified as important and useful for searching and browsing . 
+“ Context ” was also held as an important element by the general public , as contextual information of a mural and stone cave temple , probably related to its historical background , could arouse the interest of visitors to the heritage sites . 
+Although “ Context ” was perceived as less an important element for professionals , they still commented that it could help enhance the understanding of the general public group towards the heritage . 
+This nevertheless implies that professional users were more knowledgeable about the relevant contextual information of murals and stone cave temples , and did not perceive it as a necessary element in the metadata . 
+Another difference was found between the two groups in that the general public group was not too interested in “ Right , ” while researchers and professionals were less opinionated towards this element . 
+Despite their disinterest in this element , these general public users still made comments involving copyrights , ownership , and duplication of heritage , reflecting their awareness of intellectual property issues involved in cultural heritage . 
+In terms of functions of the metadata elements , “ Identifier ” was seen as useful for organizing heritage information by the professionals , but it was regarded as not useful personally to the general public users . 
+There is no doubt that professionals found “ Identifier ” largely helpful in facilitating heritage resource management , with some even valuing it as a unique ID contributing to the completeness of the metadata . 
+Conversely , general users viewed themselves as “ laymen ” or “ outsiders ” who did not need , or even have concerns about , such information . 
+One participant ( Participant 18 from the public group ) specified that “ Identifier ” would not be useful when traveling to the heritage site . 
+Lastly , “ Description ” was shown to cause more confusion among professionals than public users , despite the fact that both groups pointed to its unclear definition . 
+Professional users tended to be more critical in evaluating the metadata schema , as also shown from the fact that only this group of users commented on the schema as a whole in addition to each element . 
+Improvements in the metadata elements informed by users ’ information‐seeking practices would also enhance the overall quality of the metadata schema as a whole . 
+Following are the major aspects or concerns of the metadata schema raised from this study . 
+Based on the results , a clear definition of the proposed metadata elements and removal of redundant elements are suggested for minimizing confusion among users , especially when these elements cause confusion in both professional and general public groups . 
+Cataloging rules are necessary and integrated parts of metadata schemas , and need to be developed soon . 
+Controlled vocabularies are also necessary for ensuring consistency in cataloging . 
+The draft metadata schema refers to existing controlled vocabularies as much as possible . 
+However , for cultural heritages such as murals and stone cave temples , more controlled vocabularies need to be developed and/or refined to describe their unique construction techniques , materials , and structures . 
+Interoperability allows different information systems or platforms to exchange and integrate data so that information resources can be shared and enriched under limited financial , technical , or human resources . 
+A higher interoperability could enhance the experience of different types of users from the multidisciplinary environments of cultural heritage information . 
+As some elements of the evaluated schema were created based on existing schemas , interoperability was taken into account from the beginning . 
+Nonetheless , in further refinements of the schema , new elements specific to mural or stone cave temple heritages need to be carefully designed , including crosswalks and mappings to other existing standards . 
+At this stage , there is still an ongoing effort to refine the draft metadata schema . 
+It is advantageous to evaluate the schema along with its development process . 
+The integrated process of development and evaluation is iterative , with considerations of the perspectives of both user groups . 
+In fact , the findings of this study have been applied to revisions of the schema , resulting in several modifications that attempt to solve issues raised by both groups in this study : “ Object/Work Type ” was renamed “ Subject , ” while the “ Type ” element was eliminated to avoid duplication . 
+“ Related Visual Documentation ” was extended to “ Related Digital Resources , ” to cover a broader range of digital derivatives , and to ensure its appeal to users from different backgrounds . 
+“ Coverage ” and “ Disposal History ” were eliminated to avoid overlaps with other elements ( for example , “ Damage , ” “ Description ” ) . 
+“ Damage ” was renamed “ Damage Cause , ” to be further differentiated from “ Current Condition. ” “ Description ” was modified to include information not covered by other elements , particularly “ Context , ” which emphasizes the spatiotemporal and social background of murals and stone cave temples . 
+New elements , “ Shape ” and “ Structure , ” were added to describe the unique construction structures of murals and stone cave temples . 
+Due to the complexity of cultural heritage resources , there could be more elements , sub‐elements , and qualifiers added in the future . 
+New elements and local rules would continue being declared to form the most suitable metadata schema . 
+It is also essential for the schema to offer the greatest flexibility for customization to users from multiple disciplines and backgrounds with different information needs . 
+As a qualitative study , this work was limited by the small sample of participants , and thus the results are not intended for generalization . 
+Future studies will continue evaluation of the draft metadata schema . 
+A larger‐scale study with quantitative data ( for example , surveys ) is needed to obtain more generalizable findings . 
+Feedback from a larger set of users in both mainland China and Hong Kong are being collected through questionnaires . 
+Trial cataloging has been conducted with a sample of five images taken from one of the Mogao caves and will be continued for more samples . 
+A prototype digital collection will then be built based on the results of trial cataloging and usability testing of the prototype collection will be conducted as a high‐fidelity user evaluation approach . 
+The metadata schema will be reviewed and refined based on the issues and challenges identified during the evaluation process . 
+Further work will take reference from this study and consider more diversified groups of users , including those outside of the greater China region . 
+Cultural heritage metadata is an essential area of investigation due to the exigent demands of preservation . 
+The growth of online platforms and virtual reality technologies allow all kinds of users to interact with digitized cultural heritage information via the Internet . 
+Findings of this study are expected to serve as a framework for ongoing development and evaluation of cultural heritage metadata , contributing to the goal of improving the access to and usage of nonmovable cultural heritage resources . 

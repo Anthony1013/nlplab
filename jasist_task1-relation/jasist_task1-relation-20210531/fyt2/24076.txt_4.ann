@@ -1,0 +1,125 @@
+T1	引文时间 2777 2781	2014
+T2	引文作者 2762 2767	Arazy
+T3	引文作者 8124 8129	Faraj
+T4	引文时间 8139 8143	2011
+T5	引文作者 7876 7882	Butler
+T6	引文时间 7892 7896	2008
+T7	引文作者 7130 7133	Zhu
+T8	引文时间 7143 7147	2011
+T9	引文作者 7077 7082	Arazy
+T10	引文时间 7092 7096	2015
+T11	引文作者 7099 7106	Collier
+T12	引文时间 7116 7120	2008
+T13	引文的方法 7012 7074	Some studies have linked activity profiles to structural roles
+T14	引文作者 5816 5821	Arazy
+T15	引文时间 5831 5835	2016
+T16	时间 5660 5675	the end of 2014
+T17	引文作者 9827 9836	Dahlander
+T18	引文作者 9839 9847	O'Mahony
+T19	引文时间 9850 9854	2011
+T20	引文作者 9965 9970	Arazy
+T21	引文时间 9980 9984	2014
+T22	引文作者 10845 10851	Turner
+T23	引文时间 10854 10858	1986
+T24	引文作者 11269 11275	Bechky
+T25	引文时间 11278 11282	2006
+T26	引文作者 11285 11290	Brown
+T27	引文作者 11293 11303	Eisenhardt
+T28	引文时间 11306 11310	1997
+T29	引文作者 11524 11531	Puranam
+T30	引文作者 11534 11539	Alexy
+T31	引文作者 11544 11551	Reitzig
+T32	引文时间 11554 11558	2014
+T33	引文作者 13058 13063	Faraj
+T34	引文时间 13073 13077	2011
+T35	引文作者 13092 13097	Arazy
+T36	引文时间 13107 13111	2016
+T37	引文作者 13289 13294	Auray
+T38	引文时间 13297 13301	2012
+T39	引文作者 13304 13309	Forte
+T40	引文时间 13319 13323	2009
+T41	引文作者 13326 13335	Schroeder
+T42	引文作者 13338 13344	Wagner
+T43	引文时间 13347 13351	2012
+T44	引文作者 16274 16283	Majchrzak
+T45	引文作者 16286 16292	Wagner
+T46	引文作者 16297 16302	Yates
+T47	引文时间 16305 16309	2013
+T48	引文作者 16312 16318	Wagner
+T49	引文作者 16321 16330	Majchrzak
+T50	引文时间 16333 16337	2007
+T51	引文作者 18818 18825	de Laat
+T52	引文时间 18828 18832	2012
+T53	引文作者 19574 19581	Raymond
+T54	引文时间 19584 19588	1999
+T55	研究结果 19202 19349	In conclusion , the tension between structure and agency is paramount for understanding collaboration patterns within online production communities
+T56	数据源 121 130	Wikipedia
+T57	研究结果 1020 1216	Our findings show that for every one of Wikipedia 's structural access privileges changes between pre‐ and postrole‐assignment‐event were statistically significant in at least one form of activity
+T62	软件工具 5957 5964	WikiDAT
+T63	研究结果 3883 4034	we found that role‐transition events were linked to changes in communication patterns ( as reflected in activity in the User and User‐Talk namespaces )
+T64	研究结果 4039 4215	The exact nature of these changes differed between functional roles , in some cases increasing in the breadth of activity and in others decreasing in the scope of communication
+T65	研究结果 4717 4854	we observed that upon assuming extra privileges , participants got more involved in the management of their identity within the community
+T66	研究结果 4859 4964	Specifically , when assigned the sysop role , participants increased their activity in the User namespace
+T67	研究结果 4979 5106	we noticed that after assuming structural roles , participants often get involved in the definition of those structural roles .
+T68	研究问题 5441 5551	this study investigated the interplay between structural roles and activity patterns ( i.e. , emergent roles )
+T69	研究方法 5971 6292	To disentangle contributors ' positions on the core‐periphery from their activity profile , our analysis controlled for the quantity of activity , focusing solely on the nature of activity and defining a contributor 's activity profile in terms of the percentage of activity allocated to each of the activity categories .
+T70	研究结果 6295 6378	Triangulating results across the views of activity and metrics proved very powerful
+T71	研究结果 6383 6702	Dependencies between structural roles and activity profiles that were found for the global namespace activity were often different from the dependencies observed for the detailed annotated production activity , and the results recorded for using one metric were at times different than those recorded for another metric
+T72	研究结果 8239 8600	Our finding show that ~50 % of the structural role transitions were associated with statistically significant changes in activity patterns , thus suggesting that neither perspective accurately captures Wikipedia 's role system : the truth lies in between , and Wikipedia blends limited structure with ample opportunities for contributors to express their agency
+T73	研究结果 8605 8740	In particular , we found that Wikipedians stay close to the “ production ground floor ” even when assuming additional access privileges
+T74	引文的结果 9658 9824	Some have argued that role transitions ( e.g. , transitioning from a regular member status to serving on the board of an open‐source community ) are lateral movements
+T76	引文的结果 10719 10842	The literature currently suggests that roles could be understood through two primary lenses : structural and interactionist
+T78	研究结果 12599 12750	our findings suggest that role‐alignment in online production communities is only partial , such that much of the enactment represents emergent behavio
+T82	研究结果 13794 13975	We believe that the permeable role boundaries help privileged members easily and transiently fill in for one another , thus contributing to organizational flexibility and robustness
+T83	数据源 14843 14852	Wikipedia
+T84	研究展望 16925 17436	few dependencies exist between structural access privileges and contributors ' activity profiles , some are irrelevant for this study ( e.g. , nonregistered members can not create a new article , but those were excluded from this study ) , but other dependencies have a direct effect on the findings in this study.66 https : //en.wikipedia.org/wiki/Wikipedia : User_access_levels Second , our analysis provided a high‐level view of each role , looking at the pre‐ and postrole‐assignment event activity profiles
+T85	研究展望 17441 17543	A more detailed analysis could “ zoom‐in ” to consider the other access privileges held at that time .
+T86	研究展望 17546 17759	That is , we propose that future research would distinguish between , for example , progression into sysop when holding at that time the filemover role from promotions to sysop when not holding the additional role
+T87	研究展望 17918 18020	our findings were based on a large‐scale quantitative analysis , relying on Wikipedia 's activity logs
+T88	研究展望 18025 18324	Although such an analysis is useful in capturing the breadth of the phenomenon and in providing a vivid portrait of the intricacies of roles–activities relationships within Wikipedia , other research methods—namely , qualitative research—are particularly suitable for addressing questions of “ How ?
+T89	研究展望 17764 17905	Such an analysis has the potential to yield more nuanced understanding of the relationship between structural and emergent roles in Wikipedia
+T90	研究展望 18345 18603	Hence , we suggest that future research in the area will employ a mixed method approach , combining qualitative analysis of activity logs with qualitative methods to yield more refined explanations for the relationship between structural and emergent roles .
+T91	研究展望 18329 18340	and “ Why ?
+T92	研究展望 18853 19197	we recommend that future research moves beyond Wikipedia to other online production communities , in particular those that differ from Wikipedia in terms of their governance structure ( and especially , the structural role system ) , and investigate roles and activities in those settings , paying attention to the effects of contextual factors
+T58	研究结果 14632 14815	Our empirical investigation centered on Wikipedia and findings from this study reveal some intricate patterns in the interplay between structure and agency in Wikipedia 's role system
+T59	数据源 14791 14800	Wikipedia
+T60	研究结果 15295 15444	Our findings highlight that it is possible to coordinate the activity of masses of contributors through a rather “ thin ” and flexible role structure
+T61	研究结果 19707 19976	Demonstrating the way in which contributors ' choices to enact particular actions are intertwined with their formal responsibilities is of key importance , given that roles—both emergent and structural—represent one of the chief coordination mechanisms in organizations
+R1	has_cited_time Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T15 Arg2:T14	
+R3	uses Arg1:T9 Arg2:T13	
+R4	has_cited_time Arg1:T10 Arg2:T9	
+R5	has_cited_time Arg1:T12 Arg2:T11	
+R6	has_cited_time Arg1:T8 Arg2:T7	
+T75	引文时间 7123 7127	2010
+R7	has_cited_time Arg1:T75 Arg2:T11	
+R8	has_cited_time Arg1:T6 Arg2:T5	
+R9	has_cited_time Arg1:T4 Arg2:T3	
+R10	has_cited_time Arg1:T21 Arg2:T20	
+R11	results Arg1:T17 Arg2:T74	
+R12	coauthor Arg1:T17 Arg2:T18	
+R13	has_cited_time Arg1:T19 Arg2:T18	
+R14	results Arg1:T22 Arg2:T76	
+R15	has_cited_time Arg1:T23 Arg2:T22	
+R16	has_cited_time Arg1:T25 Arg2:T24	
+R17	coauthor Arg1:T26 Arg2:T27	
+R18	has_cited_time Arg1:T28 Arg2:T27	
+R19	coauthor Arg1:T29 Arg2:T30	
+R20	coauthor Arg1:T30 Arg2:T31	
+R21	has_cited_time Arg1:T32 Arg2:T31	
+R22	field_similar_as Arg1:T24 Arg2:T26	
+R23	has_cited_time Arg1:T36 Arg2:T35	
+R24	has_cited_time Arg1:T34 Arg2:T33	
+R25	has_cited_time Arg1:T38 Arg2:T37	
+R26	has_cited_time Arg1:T40 Arg2:T39	
+R27	has_cited_time Arg1:T43 Arg2:T42	
+R28	field_similar_as Arg1:T37 Arg2:T39	
+R29	field_similar_as Arg1:T39 Arg2:T41	
+R30	coauthor Arg1:T44 Arg2:T45	
+R31	coauthor Arg1:T45 Arg2:T46	
+R32	has_cited_time Arg1:T47 Arg2:T46	
+R33	coauthor Arg1:T48 Arg2:T49	
+R34	has_cited_time Arg1:T50 Arg2:T49	
+R35	field_similar_as Arg1:T44 Arg2:T48	
+R36	has_cited_time Arg1:T52 Arg2:T51	
+R37	has_cited_time Arg1:T54 Arg2:T53	

@@ -1,0 +1,91 @@
+T1	研究方法 1640 1660	the iterative method
+T2	研究方法 2083 2099	iterative method
+T4	引文作者 2524 2532	Rousseau
+T5	引文时间 2535 2539	1987
+T7	引文作者 2546 2558	Sidiropoulos
+T8	引文作者 2563 2575	Manolopoulos
+T9	引文时间 2578 2582	2005
+T10	引文的结果 2585 2658	suggest considering seven generations in determining the credit of papers
+T12	研究方法 2766 2802	contribution‐based credit allocation
+T13	引文作者 3221 3226	Price
+T14	引文时间 3229 3233	1981
+T15	引文的方法 3190 3218	even paper credit assignment
+T17	引文的方法 3240 3270	uneven paper credit assignment
+T19	引文作者 3280 3285	Hodge
+T20	引文作者 3288 3297	Greenberg
+T21	引文时间 3300 3304	1981
+T22	引文作者 3307 3319	Van Hooydonk
+T23	引文时间 3322 3326	1997
+T24	引文作者 3329 3337	Lukovits
+T25	引文作者 3340 3347	Vinkler
+T26	引文时间 3350 3354	1995
+T27	引文作者 3357 3362	Egghe
+T28	引文作者 3365 3373	Rousseau
+T29	引文作者 3378 3390	Van Hooydonk
+T30	引文时间 3393 3397	2000
+T31	引文作者 3400 3403	Liu
+T32	引文作者 3406 3410	Fang
+T33	引文时间 3413 3417	2012
+T34	引文作者 3420 3429	Stallings
+T35	引文时间 3439 3443	2013
+T36	研究方法 3615 3662	the contribution‐based credit allocation method
+T38	引文作者 5247 5251	Ding
+T39	引文时间 5261 5265	2014
+T41	研究方法 6593 6624	artificial intelligence methods
+T42	研究方法 7620 7644	machine learning methods
+T43	引文的方法 8380 8445	Related investigations have been conducted by several researchers
+T44	引文作者 8455 8461	Bertin
+T45	引文作者 8464 8474	Atanassova
+T46	引文作者 8477 8485	Sugimoto
+T47	引文作者 8490 8499	Lariviere
+T48	引文时间 8502 8506	2016
+T49	引文作者 8509 8513	Cano
+T50	引文时间 8516 8520	1989
+T51	引文作者 8523 8525	Hu
+T52	引文作者 8528 8532	Chen
+T53	引文作者 8537 8540	Liu
+T54	引文时间 8543 8547	2013
+T55	引文作者 8550 8557	Ritchie
+T56	引文时间 8560 8564	2008
+T57	引文作者 8567 8572	Small
+T58	引文时间 8575 8579	2011
+T59	研究方法 5365 5448	First , the references are classified according to their role to the citing paper .
+T60	研究方法 5901 6081	Second , a thesaurus for each class of reference is constructed , and the words and phrases included in the thesaurus are extracted from the citation context in the research papers
+T61	研究方法 6278 6375	Third , the relative importance of each of the different subcategories of references is estimated
+T3	图 195 265	A citation relationship such as that in Figure 4 forms a citation tree
+R1	coauthor Arg1:T44 Arg2:T45	
+R2	coauthor Arg1:T45 Arg2:T46	
+R3	coauthor Arg1:T46 Arg2:T47	
+R4	has_cited_time Arg1:T48 Arg2:T47	
+R5	has_cited_time Arg1:T50 Arg2:T49	
+R6	coauthor Arg1:T51 Arg2:T52	
+R7	coauthor Arg1:T52 Arg2:T53	
+R8	has_cited_time Arg1:T54 Arg2:T53	
+R9	has_cited_time Arg1:T56 Arg2:T55	
+R10	has_cited_time Arg1:T58 Arg2:T57	
+R11	uses Arg1:T44 Arg2:T43	
+R12	field_similar_as Arg1:T44 Arg2:T49	
+R13	has_cited_time Arg1:T39 Arg2:T38	
+R14	coauthor Arg1:T24 Arg2:T25	
+R15	has_cited_time Arg1:T26 Arg2:T25	
+R16	coauthor Arg1:T27 Arg2:T28	
+R17	coauthor Arg1:T28 Arg2:T29	
+R18	has_cited_time Arg1:T30 Arg2:T29	
+R19	coauthor Arg1:T31 Arg2:T32	
+R20	has_cited_time Arg1:T33 Arg2:T32	
+R21	has_cited_time Arg1:T35 Arg2:T34	
+R22	coauthor Arg1:T19 Arg2:T20	
+R23	has_cited_time Arg1:T21 Arg2:T20	
+R24	has_cited_time Arg1:T23 Arg2:T22	
+R25	has_cited_time Arg1:T14 Arg2:T13	
+R26	uses Arg1:T13 Arg2:T15	
+R27	uses Arg1:T19 Arg2:T17	
+R28	field_similar_as Arg1:T19 Arg2:T22	
+R29	field_similar_as Arg1:T22 Arg2:T24	
+R30	field_similar_as Arg1:T24 Arg2:T27	
+R31	field_similar_as Arg1:T27 Arg2:T31	
+R32	field_similar_as Arg1:T31 Arg2:T34	
+R33	coauthor Arg1:T7 Arg2:T8	
+R34	has_cited_time Arg1:T9 Arg2:T8	
+R35	has_cited_time Arg1:T5 Arg2:T4	
+R36	results Arg1:T7 Arg2:T10	

@@ -1,0 +1,130 @@
+Among the enormous scientific literature that is being published annually , the reaction of the research community to the quality of a particular article , measured by the number of times it is being referred to by others , that is , is cited , varies dramatically . 
+Some articles may become instant hits , receive a large number of citations within the first few years of their publication , whereas most of the scientific articles are never cited at all ( Seglen , 1992 ) , although the proportion of these has been decreasing over time ( Lariviére , Gingras , & Archambault , 2009 ) . 
+Indeed , it has been shown that the number of citations of most articles , as a general rule , peaks within the first few years of their publication ( Costas , van Leeuwen , & van Raan , 2010 ; Glänzel & Schoepflin , 1995 ; Glänzel , Schlemmer , & Thijs , 2003 ) and thereafter , over the years , follow a decreasing trend till they receive none , and are then finally buried in the archives . 
+However , there are some exceptions to this general evolution of citations . 
+Articles that attract none or only few citations for a long time ( sleep ) since their publication and then suddenly their citation numbers burst ( are awakened ) are called Sleeping Beauties ( SBs ) ( van Raan , 2004 ) . 
+Such articles achieve prominence after being cited by another article ( the “ prince ” ) . 
+In scientometrics , this phenomenon is also known under appellations like : resisted discoveries ( Barber , 1961 ) , premature discoveries ( Stent , 1972 ; Wyatt , 1961 ) , delayed recognition ( Cole , 1970 ; Garfield , 1990 ; Glänzel et al. , 2003 ) , and information awakening ( Wang , Ma , Chen , & Rao , 2012 ) . 
+On the other hand , articles that begin with a considerable number of citations in the initial years after their publication can go to sleep for many years until they are again awakened by some prince ; those are called “ all‐elements‐sleeping‐beauties ” ( Li & Ye , 2012 ) . 
+Opposite to SBs are the flash‐in‐the‐pans : articles that begin with many citations in the initial years of their publication but thereafter are forgotten completely ( van Dalen & Henkens , 2005 ) . 
+The content of the paper , reputation of the author and his/her institute ( Cole , 1970 ; Merton , 1968 ) , impact factor of the journal—the percentage of uncited articles in high‐ranking journals is far less than those in the lower‐ranked journals ( van Dalen & Henkens , 2005 ) , initial uncitedness—the longer an article takes to its first citation , the lesser the chance that it will ever be cited ( Glänzel & Garfield , 2004 ) , and number of references—the more of them in the bibliography the more are the chances of article being cited ( Stern , 1990 ) are considered factors that determine whether a given article will be a future SB . 
+On the other hand , Burrell ( 2005 ) assumed the accumulation of citations to be purely random and showed that theoretically SBs can occur by chance without any need for the awakening prince or for any of the special attributes discussed above . 
+Looking for a possible SB in the sea of scientific literature is a task no less than looking for a needle in a haystack . 
+Nevertheless , scanning of entire citation databases have thrown up contrasting results on the occurrence of SBs . 
+van Raan ( 2004 ) concluded that SBs are indeed rare , whereas Glänzel et al . 
+( 2003 ) and Ke , Ferrara , Radicchi , and Flammini ( 2015 ) found the phenomenon not to be so exceptional . 
+The contrasting results arise due to the different choice of threshold parameters like time of sleep and the depth of the sleep , that is , number of citations received during sleeping time . 
+Thus , the longer the time of sleep and the more the depth of sleep ( lesser number of citations ) , the lesser the number of SBs ( van Raan , 2004 , 2015 ) and vice‐versa ( Glänzel et al. , 2003 ) . 
+When unearthed SBs turn out to be application‐oriented publications ( van Raan , 2015 ) or having presented fundamental results ( Glänzel et al. , 2003 ) , often ahead of their time , or are related to important discoveries , many later winning a Nobel Prize for the authors ( Li & Shi , 2016 ) . 
+Three of the large‐scale studies , van Raan ( 2004 , 2015 ) and Glänzel et al . 
+( 2003 ) , analyzed the literature published after the year 1980 , whereas Ke et al . 
+( 2015 ) , a more recent one , analyzed publications of the American Physical Society from 1893 and that of the Web of Science from 1900 . 
+Obviously , any SBs older than the dates covered in these studies would be left out . 
+Further , the citation practices vary among the disciplines ( journals ) and many potential SBs from a low citations discipline ( journal ) may slip through when analysis is done in conjunction with a discipline ( journal ) of higher citations . 
+SBs from low‐citation journals ( Kozak , 2013 ) and subjects of study ( Ohba & Nakao , 2012 ) have been reported . 
+See also : Teixeira , Vieira , and Abreu ( 2017 ) or da Fonseca ( 2015 ) . 
+Individual papers of authors that went on to become SBs have also been pointed out . 
+Van Calster ( 2012 ) reported a remarkable increase in the citations of Peirce ( 1884 ) , a short note in Science . 
+Marx ( 2014 ) showed that Shockley and Queisser ( 1961 ) is a notable example of a scientific SB . 
+Gorry and Ragouet ( 2016 ) found that Dotter and Judkins ( 1964 ) , a paper that lead to the birth of interventional radiology , is an SB . 
+Below we introduce “ Benford 's law ” ( BL ) , an empirical observation that certainly was ahead of its time despite neither having any fundamental result nor being related to any prize‐winning discovery . 
+The first significant digit of a number is its left‐most nonzero digit . 
+According to BL , in large data the proportion of a digit as the first significant digit decreases logarithmically as the value of the digit increases . 
+Thus , the smallest digit , 1 , will appear as the first digit with the highest proportion ( 30 % ) , whereas the largest digit , 9 , will appear as first digit with the least proportion ( 4 % ) . 
+This goes completely against the common thinking that the first digits of decimal numbers in large data ought to be distributed uniformly , with an equal proportion of about 11 % , irrespective of the digit value . 
+Simply unconvincing for novices , the law is also challenging the wisdom of researchers . 
+Many attempts have been made to prove the law , but even after more than a century of its discovery , there is no agreement on the mathematical foundations of the law ( Ausloos , Herteliu , & Ileanu , 2015 ; Berger & Hill , 2011 ; Gauvrit & Delahaye , 2008 , 2009 ) . 
+The popular explanation , regularity and large spread of the data , for the ubiquity of the phenomenon by Feller ( 1966 ) has been found to be inaccurate too ( Berger & Hill , 2010 , 2011 , 2015 ) . 
+BL has been shown to be the only scale‐invariant digit law ( Pinkham , 1961 ) ; its base invariance has also been established ( Hill , 1995b ) . 
+Further , BL has been verified on data from an enormous range of processes ( Mir , 2012 , 2014 ; Mir , Ausloos , & Cerqueti , 2014 ) . 
+Yet its universal nature is shattered by some data sets whose digit distributions do not follow the law . 
+There is no set of absolute rules one can use to predict , on inspection , which type of data will conform to the law and which will not . 
+Some rules of thumb , arrived at from the experience of working with data over the years , are i ) the appearance of numbers in the data should be free from any human restrictions ; ii ) the data must span several orders of magnitude ; and iii ) the number of records in the data must be large enough for the manifestation of individual digits . 
+Notwithstanding the skepticism in the earlier years of its discovery , BL has emerged as a subject matter of books , peer‐reviewed papers , popular magazine articles , patents , newspaper reports , and blogs . 
+According to Nigrini ( 2012 ) , up to 1975 only 50 papers on BL were published and by 2000 there were about 150 papers . 
+In other words only 100 papers were published in a period of 25 years , an average of four papers per year . 
+Compare this with the present rate ( Mir , 2016 ) , of more than 50 papers being published every year . 
+The phenomenal growth of BL‐related research is interestingly driven by two of its contrasting peculiarities . 
+Indeed , papers will keep pouring in as long as there is no consensus on the mathematical foundations of the law . 
+The simple mathematical form of the law , on the other hand , makes its application quite straightforward : for testing the validity of BL , one essentially needs data , plethora of which are readily available from the Internet . 
+Below , we quantify the delayed recognition of BL through the use of bibliometric indicators . 
+Specifically , the yearly number of citations received by Newcomb ( 1881 ) and Benford ( 1938 ) are analyzed . 
+While doing so , we only discuss the contributions : reviewing the vast literature is a formidable task , which from time to time has repositioned BL as a subject of practical usage requiring much academic rigor . 
+Nevertheless , it is immediately found that Newcomb ( 1881 ) was in deep sleep for 110 years , whereas the time of deep sleep for Benford ( 1938 ) is 31 years only—the immediate appreciation of the latter being attributed to its preceding an important physics paper by Bethe , Rose , and Smith ( 1938 ) . 
+We argue that the lack of acknowledgment of Newcomb ( 1881 ) in ( all ) the papers of prominent workers—some of which are currently the most cited papers on BL , may have further contributed to its long deep sleep . 
+The number of citations to both papers started to increase significantly following the publications of Hill ( 1995a ) and Nigrini ( 1996 ) , two VERY important papers on BL : the former dealt with the mathematical explanation of the law , whereas the latter provided the first practical application of the law . 
+Hill ( 1995a ) emerges as the prince for both Newcomb ( 1881 ) and Benford ( 1938 ) . 
+Work done on BL has been reviewed previously ( see Raimi , 1976 ; and Nigrini , 1994 ) . 
+Hurlimann ( 2006 ) gathered 349 papers published on BL up to July 5 , 2006 . 
+There is also an exhaustive compilation by Beebe ( 2016 ) . 
+Further on , as a quick reference for interesting researchers , the single online resource updated continuously and exclusively dedicated to the publications on mathematical aspects of the law and on its applications across multiple disciplines should be pointed out , and is “ Benford Online Bibliography ” ( BOB ) ( Hill , Berger , & Rogers , 2009 ) . 
+As of March 30 , 2016 , this database had indexed 976 articles . 
+Articles can be arranged by the year of their publication and also according to order of the alphabets of the respective first author names . 
+Furthermore , it provides a complete reference and online information about the selected article , the articles citing a given article , and the articles a given article is citing within its own database . 
+Although present study is not about testing the validity of BL , a curious reader might nevertheless ask how does the law fare against the numbers quantifying its own literature . 
+Two bibliometric indicators , number of publications and their citations , immediately come to mind . 
+Miller ( 2015 ) studied the yearly number of “ Benford relevant ” publications listed on BOB and found their first digit distribution to be in good agreement with BL . 
+Next , Mir ( 2016 ) used Google Scholar ( GS ) to collect the data on the numbers of citations received by all the articles citing Newcomb ( 1881 ) and Benford ( 1938 ) . 
+He found that the distribution of the first digits of citations data are in very good agreement with BL ; this has remained consistently true over the years . 
+To study the evolution of research on BL , we arranged all the publications indexed on BOB in chronological order . 
+The first publication on BL obviously is Newcomb ( 1881 ) . 
+We noted down the yearly number of articles published on BL . 
+Many of the entries on BOB are found to be magazine articles , newspaper reports , and blog items , which usually do not have any bibliography . 
+In line with our aim of studying the citation history of the BL , we visually inspected the reference list of each of the articles indexed on BOB to find out which ones really cite , that is , refer to , Newcomb ( 1881 ) and Benford ( 1938 ) . 
+For example , 10 articles were published on BL in the year 1981 , but none of which cite Newcomb ( 1881 ) , whereas Benford ( 1938 ) is cited by two texts only ; another example : 15 publications are listed for the year 1998 , but the former paper is cited by only five , whereas the latter is cited by nine of them . 
+The ( yearly ) time dependence of the number of citations received by Newcomb ( 1881 ) is plotted in Figure 1 . 
+The increase in citation rate is found to be exponential , with a regression coefficient such that ; after reaching a peak , the number of citations goes down relatively faster . 
+In the decay , the regression coefficient is smaller due to the small number of data points ( see Table 2 ) . 
+This is similar to what is found in the literature either for scientific citations ( Della Briotta Parolo et al. , 2015 ) or sales ( Lambiotte & Ausloos , 2006 ) . 
+In some sense , scientific reports through journals is akin to authors “ sale ” of papers ( first to editors , next to reviewers , and , in fine , to their community ) —whence a possible “ attention dependence interpretation ” ( van Dalen & Henkens , 2005 ; Huberman , Romero , & Wu , 2009 ) of the data citation history , in general and for BL in particular . 
+Yearly citations of Newcomb ( 1881 ) and Benford ( 1938 ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The yearly number of citations received by Benford ( 1938 ) is also plotted in Figure 1 . 
+The characteristic features of an SB , that is , no or very few citations for an initially long time , followed by a rather sudden jump in citations , are clearly visible . 
+Newcomb ( 1881 ) was cited for the first time in 1920 by Boring ( 1920 ) , 38 years after its publication . 
+Then it went on without any citations for another 55 years up to the year 1975 . 
+It received two citations each in the years 1976 , 1978 , and only one citation in 1979 . 
+Thus , in the 100‐year period , from 1881 to 1980 , Newcomb ( 1881 ) had received only six citations . 
+For the next 10 years , from 1981 to 1990 , it received in all nine citations : four of these citations coming in the year 1984 alone . 
+With an average of one citation per year , Newcomb ( 1881 ) was in a deep sleep for a massive 110 years . 
+It continued to receive 1‐digit citations per year from 1991 to 2000 leading to a total of 37 citations , in this decade , that is , 3.7 citations per year . 
+Thus , it is in this decade that Newcomb ( 1881 ) was awakened from its deep sleep . 
+Next , we will show that this awakening is due to Hill ( 1995a ) . 
+In the year 1995 , Newcomb ( 1881 ) received a total of four citations , out of which three citations alone came from the papers of Hill . 
+Benford ( 1938 ) received its first citation in 1944 after a silence gap of 6 years since its publication . 
+Next it received citations ( one each ) in 1948 , 1961 , 1966 , and 1968 . 
+With a total of five citations up to 1968 , Benford ( 1938 ) was in a deep sleep for a period of 31 years . 
+Citations jumped to four in 1969 . 
+The paper was in a “ less deep sleep ” for another 7 years from 1969 to 1975 , when it received an average of 1.85 ( 13/7 ) citations per year . 
+The 1‐digit citations to Benford ( 1938 ) continued up to 1995 , in which year it received eight citations—out of which three came from Hill ( 1995a,1995b,1995c ) . 
+In 1996 , Benford ( 1938 ) received 10 citations . 
+Thus , Benford ( 1938 ) was also awakened by Hill ( 1995a ) . 
+The sudden drop in the respective curves towards the end of the examined time interval can be attributed to incomplete data mining for 2014 , 2015 , and 2016 . 
+Indeed , there is a certain delay between the publication of an article and its indexing on BOB . 
+Further , on the date of accession , the online bibliography was shown to have been “ last update ( d ) ” on May 1 , 2015 . 
+The different evolution of citations of the two papers is further illustrated in Figure 2 , where the yearly number of papers citing i ) Newcomb ( 1881 ) but not Benford ( 1938 ) ( N/B ) ; ii ) Benford ( 1938 ) but not Newcomb ( 1881 ) ( B/N ) ; and iii ) of those citing both the papers ( B & N ) are compared . 
+As can be seen from the inset plot from 1938 to 1975 , there are no citations to Newcomb ( 1881 ) . 
+Up to 1995 the values of B/N are greater than both N/B and B & N. In fact B/N exceeds N/B throughout the citation history of the two papers , indicating that whenever Newcomb ( 1881 ) is cited Benford ( 1938 ) is also cited , but the reverse is not true . 
+It is only after 1996 that B & N exceeds B/N , that is , researchers increasingly begin to cite the two papers simultaneously , thereby again reaffirming the fact that Hill ( 1995a ) brought Newcomb ( 1881 ) back in focus . 
+Comparison of yearly citations received by Benford ( 1938 ) only ( B/N ) , Newcomb ( 1881 ) only ( N/B ) , and both ( B & N ) . 
+Inset plot is for years 1938–1974 . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Goudsmith and Furry ( 1944 ) ( 32 citations ) cited Benford ( 1938 ) for the first time attempting an explanation of the phenomenon , with further expansion by Furry and Hurwitz ( 1945 ) . 
+When after 33 years Goudsmith ( 1977 ) revisited the problem , 40 papers on BL had already appeared , much contrary to his anticipation . 
+Thus , Goudsmith ( 1977 ) and Logan and Goudsmith ( 1978 ) attribute the quick pick up of Benford ( 1938 ) to its good fortune of preceding Bethe et al . 
+( 1938 ) , an important physics paper in the same volume and issue of the journal . 
+None of these publications but Logan and Goudsmith ( 1978 ) cited Newcomb ( 1881 ) . 
+It is fascinating to note that in terms of citations Benford ( 1938 ) has marched much ahead of Bethe et al . 
+( 1938 ) . 
+A GS search on May 3 , 2016 , showed that the former had 1,114 citations , whereas the latter had only 289 citations . 
+The above insight behind the immediate pick up of Benford ( 1938 ) looks convincing when the present citations to Mitchell ( 1881 ) and Sylvester ( 1881 ) articles preceding and succeeding Newcomb ( 1881 ) are taken into account . 
+A GS search performed on May 3 , 2016 , showed only one citation to the former and 20 citations to the latter paper . 
+Thus , the position of Newcomb ( 1881 ) in the journal was less fortunate . 
+However , Newcomb ( 1881 ) did not receive the attention that would be expected , strangely , even after the publication of papers that are currently the most cited papers on BL . 
+In 1961 , Roger Pinkham worked out two most significant results on BL . 
+The first is the scale‐invariance of the law which means that the law should apply irrespective of the units in which measurements of a given process are expressed . 
+This implies that if the law holds for data on the area of rivers , that is , the first sample mentioned in Benford ( 1938 ) , measured in square meters , it will also hold if the measurements were to be expressed in square feet . 
+In other words , scale‐invariance of BL implies its invariance under multiplication . 
+If all the numbers in a sample of data obeying BL are multiplied by a nonzero constant , then the resulting sample will also obey the law . 
+The second rule Pinkham ( 1961 ) worked out is that BL is the only scale‐invariant distribution of first significant digits . 
+Pinkham ( 1961 ) did not cite Newcomb ( 1881 ) but cited only Benford ( 1938 ) . 
+With 190 citations , Pinkham ( 1961 ) is the second‐most‐cited paper on BL . 
+Newcomb ( 1881 ) did not receive a single citation for 15 years after Pinkham ( 1961 ) ( Figures 1 and 2 ) till it was cited in another prominent paper ( Raimi , 1976 ) . 

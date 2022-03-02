@@ -1,0 +1,26 @@
+T1	引文作者 145 152	Aletras
+T2	引文作者 155 164	Stevenson
+T3	引文时间 167 172	2013b
+T4	引文作者 175 178	Lau
+T5	引文时间 188 192	2011
+T8	引文作者 3805 3812	Aletras
+T9	引文作者 3815 3824	Stevenson
+T10	引文时间 3827 3832	2013b
+T11	引文作者 3835 3838	Lau
+T12	引文时间 3848 3852	2011
+T13	引文的结果 3566 3802	The information in term lists was found to be more accurate , which is to be expected since the labels are effectively summaries of the topics and , since they are generated automatically from the topics , inevitably contain some errors
+T14	研究结果 4003 4111	textual phrases and image labels can be interpreted more quickly than can term lists , but not as accurately
+T15	研究结果 4138 4236	automatically generated labels are a suitable way for representing topics within search interfaces
+T6	研究展望 4543 4686	In the future , we would like to make use of other digital library collections to find out how successful these techniques are in other domains
+T7	研究展望 4691 4790	We also would like to explore the connection between improved labeling methods and task performance
+T17	研究结果 4412 4538	Retrieval performance is comparable to when term lists are used and is likely to increase with improved topic labeling methods
+T18	研究结果 4241 4407	They have the advantage of being more compact than are the term lists that are normally used , providing greater flexibility in the creation of exploratory interfaces
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T3 Arg2:T2	
+R3	has_cited_time Arg1:T5 Arg2:T4	
+R4	field_similar_as Arg1:T1 Arg2:T4	
+R5	coauthor Arg1:T8 Arg2:T9	
+R6	has_cited_time Arg1:T10 Arg2:T9	
+R7	has_cited_time Arg1:T12 Arg2:T11	
+R8	field_similar_as Arg1:T8 Arg2:T11	
+R9	results Arg1:T8 Arg2:T13	

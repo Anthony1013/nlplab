@@ -1,0 +1,79 @@
+In 2002 , I took a course on “ classification theory ” at the University of Washington . 
+At the first meeting we were asked to define the word “ information , ” write it down on two index cards ( yes , write it down on index cards ) , and keep one for ourselves and give one to the instructor . 
+My definition was something like , “ Information is anything that we have the potential to contemplate. ” At the end of the quarter we revisited our definitions to make adjustments as we saw fit . 
+In reading Information Cultures in the Digital Age : A Festschrift in Honor of Rafael Capurro , I was reminded of this process . 
+Rafael Capurro has dedicated much of his scholarly life to understanding and answering the question of “ what is information. ” The essays in this Festschrift are as diverse , interesting , and important as each of our answers to the question may be . 
+Few of us can expect that when ( or if ) we are honored with a collection of essays related to our work that those essays will draw on a historical trajectory leading from the ancient Greeks to our digital world of the 21st century and encompass fields as diverse , yet connected , as art history , philosophy , library science , and informatics . 
+Dr. Capurro 's work has international impact . 
+This is clearly shown in the final section of this collection . 
+His achievements impact LIS education and theory . 
+It makes sense to refer back to the first section of the volume where Fernanda Ribeiro and Armando Malheiro da Silva discuss the importance of the four paradigms of information science that Capurro presented in Brazil in 2003 : custodial , historicist , patrimonial , and technical ( p. 16 ) . 
+They answer their own introductory question in a resoundingly positive tone . 
+Has Information Science ( IS ) the theoretical and methodological arsenal to investigate issues that greatly exceed the technical dimension of the descriptive and classificatory instruments facilitating access and use ( p. 111 ) ? 
+Has Information Science ( IS ) the theoretical and methodological arsenal to investigate issues that greatly exceed the technical dimension of the descriptive and classificatory instruments facilitating access and use ( p. 111 ) ? 
+This collection of essays is a worthy honor to the work of Dr. Capurro . 
+That said , while the editors envisioned a text that could also serve as an introduction to information culture , including information ethics , much of the Festschrift would be a challenging read for those not familiar with the concepts of epistemology , ontology , hermeneutics , and the philosophy of language . 
+Each of the contributions to this Festschrift offer ample material for a thoughtful review . 
+It was not possible to do them justice in this limited space . 
+They all serve their combined purpose extremely well . 
+That being said , they each display the importance of Rafael Capurro 's work to the field of library and information science specifically , and to the study of ethics and epistemology in general . 
+This collection demonstrates the ongoing importance for the “ information community to keep re‐evaluating its sense of praxis ” ( p. 83 ) . 
+The editors of this volume , Matthew Kelly and Jared Bielby , provide an insightful introduction to the collection . 
+Bielby works extensively with Dr. Capurro and is co‐chair for the International Center for Information Ethics as well as editor for the International Review of Information Ethics . 
+Both of these respected entities were initiated by Dr. Capurro and are key resources in the field of information ethics . 
+Kelly 's research and expertise focuses on the epistemic factors that influence the choice of library materials by public librarians . 
+The editors offer an overarching theme for the collection , namely “ what it means to be motivated by the concept of information ( or alternately to resist information as the defining motif of practice and signification in dealing with documents and data ) in the early 21st century ” ( p. 9–10 ) . 
+Early on , Dr. Capurro argued for combining education for the library profession with information science . 
+Thus creating what has become the standard for most programs around the world , namely , programs in library and information science ( LIS ) . 
+What is unique about the LIS discipline is the focus ; which is not only on information , but the social aspects inherent throughout all aspects of the information lifecycle . 
+With this in mind , one can imagine the range of topics that can be analyzed or at least addressed through some aspect of Dr. Capurro 's works . 
+The collection is comprehensive and consists of 26 essays divided into six sections : culture and philosophy of information ; information ethics ; from information to message ; historic and semiotic themes ; resisting informational hegemony ; and futures , information education . 
+The debate between Luciano Floridi and Rafael Capurro is a recurring theme , as are questions of what we understand when we talk about information , ethics , and humanity . 
+I will briefly introduce each section and highlights from some of the chapters . 
+I hope that in the space allotted I can inspire others to read the rich and diverse collection of essays , or messages , offered here . 
+Following a comprehensive introduction essay by the editors , David Bawden and Lyn Robinson write that one way Capurro 's impact on the future of LIS can be seen is through information literacy . 
+In the past , it may have been considered enough to teach specific skills to individuals in order to provide them with the tools for literacy . 
+Today , digital literacy requires a more holistic set of resources that encompasses the role of information as part of an immersive experience that has an impact throughout people 's lives ( p. 39 ) . 
+The concept of information , as indicated in my Introduction , has varied meanings : from Shannon 's message and receiver to Popper 's three worlds . 
+Capurro 's work can also be considered across a range of ways of knowing and Brenner focuses on the relationship of logic to reality . 
+The goal of which may be in the convergence of science and philosophy working towards the common good ( p. 45 ) . 
+Arun Kumar Tripathi , quoting Ihde , writes , “ a material hermeneutics is a hermeneutics that ‘ gives things voices where there had been silence , and brings sight to that which was invisible ’ ” ( p. 153 ) . 
+As with the concept of digital literacy , we can not separate our experience of the digital world from our physical encounters , thus the concept of a “ digital hermeneutics ” which , to expand on the quote above , brings into view the disembodiedness of the digital ( p. 154 ) . 
+The field of LIS has long debated the role of those in our profession as either supporters of social responsibility or of library neutrality ( p. 161 ) . 
+John Burgess addresses this division by presenting a eudiamonic virtue ethics approach . 
+This option aligns with the Capurrian assertion that both of these concepts are moral goods and important across all cultures ( p. 168 ) . 
+Along with Capurro , Floridi has become one of today 's most well‐known information ethicists . 
+The two take different approaches to the issues embedded in the field of information ethics and how to represent the discussion . 
+The crux of their divergence lies in what has been called Floridi 's “ non‐androcentric ” view of information and Capurro 's more Heideggerian stance . 
+The critique given by Capurro is that Floridi 's claim , “ to be is to be an informational entity ” ( Floridi , 2008 , p. 199 in Ess , 2009 , p. 160 ) leads down a slippery slope which will lead to a scenario that undermines the value and importance of human beings as moral agents ( Ess , 2009 , p. 165 ) . 
+This disagreement has not yet been resolved and , Ess ( 2009 ) writes , “ Whether or not the deep ontological divide between an intercultural information ethics resting in part on Heideggerian foundations , and an information ethics resting on a more radical , non‐androcentric philosophy of information , can be bridged in some way remains very much an open question—and a question whose responses will carry with them enormously different consequences ” ( p. 165 ) . 
+Christian Fuchs deals extensively with the Capurro/Floridi debate in Information Ethics in the Age of Digital Labour ( pp . 
+173–190 ) and focuses on the distinctions between the scholars ’ conceptions of information ethics and who has agency to act ethically . 
+The essay drives one to explore the distinctions in the conception not only of ethics , but of what counts as humanity . 
+Does such an embrace of “ humanity ” ignore the diversity of values held in different cultures or are there in fact universal values ? 
+Hongladarom proposes leaving such a question behind in favor of asking which values are useful . 
+This pragmatist approach prioritizes the ongoing negotiation that is required to create a just society . 
+Capurro 's intercultural information ethics does not equate to a push for the universality of values , but rather to a recognition of the needs we have to address problems in our societies . 
+Section three is devoted to what Capurro has called angeletics , which focuses on the importance of the message and messenger in relation to what we perceive as information ( p. 3 ) . 
+John Holgate displays how through utilizing the theory of angeletics the messenger comes to the fore through an examination of Raphael 's School of Athens from the Perspective of Angeletics . 
+This is followed by Fernando Flores Morador with an examination of Capurro 's angeletics itself , highlighting the fact that few scholars are able to engage with history and the importance of sharing information for both the messenger as well as the receiver . 
+The section closes with Gustavo Silva Saldanha 's examination of ethics and language in divided Germany via the Wim Wenders 's film “ Der Himmel über Berlin. ” The film is an appropriate vehicle of a discussion of angeletics , as its two main characters , Daniel and Cassiel , are angels who observe Berlin and see the pain and solitude of the “ socio‐human struggle ” ( p. 254 ) . 
+What is special about this analysis is the way Saldanha merges “ historical epistemology , a hermeneutics of information studies and a pragmatic analysis of scientific concepts ” ( p. 253 ) . 
+Bernd Frohmann uses the work of Capurro to inspire his inquiry into Paolo Virno 's concept of general intellect ( p. 271 ) . 
+Ultimately asking , “ do we not also need to become thinkers of the unintelligible ? 
+” ( p. 285 ) . 
+Which relates back to Tripathi 's concept of digital hermeneutic discussed in the first section . 
+While we may need to become thinkers of the unintelligible , Jonathan Furner in his chapter , “ Data ” : The data , focuses on the importance of the terms data and data set . 
+Referring back to 2003 , Furner quotes from Cappuro and Hjørland , noting that , “ For a science like information science ( IS ) , it is of course important how fundamental terms are defined ” ( p. 287 from Capurro and Hjørland , 2003 , p. 344 ) . 
+While our common knowledge is to assume that documents are made up of data and data sets , Furner flips this definition and asserts that in fact “ a dataset is made up of documents ; and the dataset is a species of document ” ( p. 287 ) . 
+In the final two essays of this section we return to the library and the importance of documents , legitimacy , and humanism . 
+Both authors , Joacim Hansson and Vesa Suominen , in turn , present the power of Capurro 's work to help interpret professional library ethics and the rationality of the library and librarianship . 
+Fuchs , in section two , presents his contribution in the form of a discussion of digital labor . 
+We return to questions of labor and the market , section five . 
+Thomas Hausmanninger reflects on the types of productivity that have emerged and are valued in the digital era . 
+Rather than considering the market as competition , is it possible to imagine a paradigm where success is measured through cooperation . 
+The final section of this volume draws attention to the importance of education . 
+Dr. Capurro 's influence can be seen across many spheres : from undergraduate LIS education , to postgraduate programs in Brazil , and the African Network for Information Ethics and the African Centre ( sic ) of Excellence for Information Ethics . 
+To be information literate today means to understand more than the basics of copyright and ownership of digital information . 
+Librarians are required to take on the role of educators to ensure that students develop a working understanding of these concepts . 
+This type of information literacy is important for all students . 

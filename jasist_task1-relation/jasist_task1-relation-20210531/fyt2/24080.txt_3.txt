@@ -1,0 +1,9 @@
+In conclusion , we assumed that by posting a comment or a reply in a discussion thread , the participant interacts with all the other participants of the thread . 
+Considering these facts , we understand that investigating different forms of assembling the interaction network could also yield interesting results and is planned as future work . 
+This study analyzed the evolution of the ODF networks in the past 3 years considering each year 's second semester . 
+Although no substantial difference among semesters was observed , investigating students ' participation in ODF in the first semester of the past years should be done in the short term to understand if there are variations in the conclusions made so far . 
+This study opens several possibilities for future work . 
+More case studies are needed to investigate different interaction patterns among distinct majors and careers . 
+In the university where the study took place , there are only two totally online majors . 
+Comparing the patterns observed in this study with other Brazilian universities or even international universities is considered future research . 
+In addition , different actions to stimulate students ' participation might be proposed and its effect on ODFs could be measured to assess these actions ' efficacy . 

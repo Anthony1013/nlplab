@@ -1,0 +1,237 @@
+T1	软件工具 110 115	Disca
+T2	术语 167 184	java.util.HashMap
+T4	术语 224 233	API types
+T5	术语 288 308	API negative caveats
+T6	术语 418 442	term co‐occurrence graph
+T7	术语 326 350	term co‐occurrence graph
+T8	术语 356 384	term co‐occurrence frequency
+T9	软件工具 829 834	Disca
+T10	术语 913 933	API negative caveats
+T11	具体模型 1025 1032	LexRank
+T12	引文作者 1163 1168	Erkan
+T13	引文作者 1171 1176	Radev
+T14	引文时间 1179 1183	2004
+T16	术语 1190 1207	Cosine similarity
+T17	具体模型 1270 1273	LDA
+T18	具体模型 1513 1515	KM
+T19	具体模型 1730 1733	MMR
+T21	具体模型 1337 1384	Latent Dirichlet Allocation ( LDA ) topic model
+T22	引文作者 1387 1391	Blei
+T23	引文时间 1401 1405	2003
+T24	术语 1489 1508	API negative caveat
+T25	术语 1562 1575	TF‐IDF vector
+T26	术语 1591 1608	k‐means algorithm
+T27	术语 1705 1725	API negative caveats
+T28	术语 1960 1965	ROUGE
+T29	术语 1970 1974	nDCG
+T30	术语 1979 1984	ROUGE
+T31	术语 2126 2133	ROUGE‐N
+T32	术语 2315 2328	ROUGE toolkit
+T33	术语 2362 2369	ROUGE‐1
+T34	术语 2392 2399	ROUGE‐2
+T35	术语 2433 2442	ROUGE‐SU4
+T36	术语 2543 2548	ROUGE
+T37	术语 2835 2839	nDCG
+T38	引文作者 1611 1619	MacQueen
+T39	引文时间 1629 1633	1967
+T40	引文作者 1889 1898	Goldstein
+T41	引文时间 1908 1912	1999
+T42	引文作者 2331 2334	Lin
+T43	引文时间 2337 2341	2004
+T44	引文作者 2678 2681	Lin
+T45	引文作者 2684 2688	Hovy
+T46	引文时间 2691 2695	2003
+T47	引文作者 2698 2705	Ganesan
+T48	引文作者 2708 2712	Zhai
+T49	引文作者 2717 2720	Han
+T50	引文时间 2723 2727	2010
+T51	术语 2734 2738	nDCG
+T55	术语 3215 3219	IDCG
+T56	具体模型 3376 3383	LexRank
+T57	具体模型 3388 3391	MMR
+T58	具体模型 3434 3437	LDA
+T59	具体模型 3442 3444	KM
+T60	术语 3528 3548	API negative caveats
+T61	术语 3591 3611	API negative caveats
+T63	引文作者 4209 4213	Wang
+T64	引文作者 4216 4219	Zhu
+T65	引文作者 4222 4224	Li
+T66	引文作者 4229 4233	Gong
+T67	引文时间 4236 4240	2012
+T68	引文作者 4243 4250	Ganesan
+T69	引文时间 4260 4264	2010
+T70	软件工具 4415 4420	Disca
+T71	术语 4391 4411	API negative caveats
+T72	术语 4301 4309	API type
+T73	表 4271 4428	In our experiments , for each API type in Table 2 we use each of the four baseline methods to select the same number of API negative caveats as Disca selects
+T74	表 4583 4726	We recruit three annotators who all have more than 4 years of programming experience in Java and are familiar with the 10 Java types in Table 2
+T75	软件工具 5138 5143	Disca
+T76	具体模型 5146 5153	LexRank
+T77	具体模型 5156 5159	LDA
+T78	具体模型 5162 5164	KM
+T79	具体模型 5171 5174	MMR
+T80	术语 5305 5313	API type
+T81	术语 5346 5351	ROUGE
+T82	引文作者 5428 5431	Lin
+T83	引文时间 5434 5438	2004
+T84	引文作者 5441 5448	Ganesan
+T85	引文时间 5458 5462	2010
+T86	术语 5574 5595	Jackknifing procedure
+T87	术语 5680 5685	ROUGE
+T88	术语 5966 5973	ROUGE‐1
+T89	术语 5976 5983	ROUGE‐2
+T90	术语 5990 5999	ROUGE‐SU4
+T91	术语 5863 5868	ROUGE
+T92	表 5751 5911	That is , each human summary is evaluated against the remaining K – 1 gold standard summaries , and the average ROUGE scores are computed as reported in Table 3
+T93	术语 6126 6131	ROUGE
+T94	软件工具 6304 6309	Disca
+T95	术语 6348 6368	API negative caveats
+T96	术语 6598 6603	ROUGE
+T97	术语 6608 6612	nDCG
+T98	表 6617 6759	Approach : We have generated gold standard summaries for the Java API types in Table 2 , where annotators achieved a good agreement among them
+T99	软件工具 6538 6543	Disca
+T100	软件工具 6826 6831	Disca
+T101	软件工具 6963 6968	Disca
+T102	术语 7024 7029	ROUGE
+T103	术语 7034 7038	nDCG
+T104	表 7135 7265	Table 4 reports the ROUGE scores of the five methods , and Figure 5 plots nDCG values of these methods at different rank positions
+T105	术语 7155 7160	ROUGE
+T106	术语 7209 7213	nDCG
+T107	术语 7283 7290	ROUGE‐1
+T108	术语 7293 7300	ROUGE‐2
+T109	术语 7307 7316	ROUGE‐SU4
+T110	术语 7328 7342	Java API types
+T111	软件工具 7349 7354	Disca
+T112	表 7270 7365	We also list ROUGE‐1 , ROUGE‐2 , and ROUGE‐SU4 for the 10 Java API types using Disca in Table 5
+T113	术语 7428 7432	nDCG
+T114	软件工具 7588 7593	Disca
+T115	术语 7674 7679	ROUGE
+T116	术语 7695 7699	nDCG
+T117	具体模型 7813 7816	LDA
+T118	具体模型 7819 7821	KM
+T119	具体模型 7824 7831	LexRank
+T120	具体模型 7838 7841	MMR
+T121	术语 7723 7728	ROUGE
+T122	软件工具 7872 7877	Disca
+T123	术语 7865 7869	nDCG
+T124	术语 8038 8043	ROUGE
+T125	术语 8055 8059	nDCG
+T126	图 8089 8163	As shown in Figure 5 , the higher the nDCG , the better the ranking result
+T127	术语 8127 8131	nDCG
+T128	术语 8278 8282	nDCG
+T129	具体模型 8490 8493	LDA
+T130	术语 8535 8540	ROUGE
+T131	术语 8552 8556	nDCG
+T132	具体模型 8582 8585	LDA
+T133	软件工具 8322 8327	Disca
+T134	术语 8456 8476	API negative caveats
+T135	具体模型 8765 8768	LDA
+T136	软件工具 8726 8731	Disca
+T137	术语 8700 8720	API negative caveats
+T138	术语 9046 9066	API negative caveats
+T139	表 9119 9180	According to the ROUGE scores in Table 4 , MMR outperforms KM
+T140	术语 9136 9141	ROUGE
+T141	具体模型 9162 9165	MMR
+T142	具体模型 9178 9180	KM
+T143	具体模型 9259 9261	KM
+T144	具体模型 9212 9215	MMR
+T145	具体模型 9507 9509	KM
+T146	具体模型 9648 9651	MMR
+T147	具体模型 9427 9429	KM
+T148	具体模型 9442 9445	MMR
+T149	术语 9449 9453	nDCG
+T150	具体模型 9615 9622	LexRank
+T151	具体模型 9662 9669	LexRank
+T152	具体模型 9742 9749	LexRank
+T153	术语 9772 9792	API negative caveats
+T154	具体模型 9937 9940	MMR
+T155	具体模型 9925 9932	LexRank
+T156	术语 10153 10162	API types
+T157	表 10107 10173	the performance of Disca varies for different API types in Table 5
+T158	软件工具 10176 10181	Disca
+T159	术语 10223 10232	API types
+T160	术语 10437 10442	ROUGE
+T161	软件工具 10461 10466	Disca
+T162	软件工具 10496 10501	Disca
+T163	术语 10484 10493	API types
+T164	术语 10646 10666	API negative caveats
+T165	术语 10695 10707	XML document
+T166	术语 10824 10829	ROUGE
+T167	术语 10989 11000	IOException
+T168	术语 11056 11061	ROUGE
+T169	软件工具 11375 11380	Disca
+T170	引文作者 11642 11645	Lin
+T171	引文时间 11648 11652	2004
+T173	具体模型 11980 11983	MMR
+T174	具体模型 11995 11998	LDA
+T175	具体模型 12003 12005	KM
+T176	具体模型 11968 11975	LexRank
+T177	术语 11872 11877	ROUGE
+T178	表 11898 11955	Table 6 reports the results of the intermethod comparison
+T179	具体模型 12137 12140	LDA
+T180	具体模型 12145 12147	KM
+T181	术语 12232 12237	ROUGE
+T182	具体模型 12070 12073	MMR
+T183	具体模型 12058 12065	LexRank
+T184	软件工具 12189 12194	Disca
+T185	软件工具 12430 12435	Disca
+T186	软件工具 12590 12595	Disca
+T187	术语 12543 12563	API negative caveats
+T188	具体模型 12786 12793	LexRank
+T189	具体模型 12798 12801	MMR
+T190	软件工具 12649 12654	Disca
+T191	软件工具 12882 12887	Disca
+T192	术语 12953 12973	API negative caveats
+T193	术语 12994 12997	API
+T194	软件工具 13066 13071	Disca
+T195	术语 13181 13198	API documentation
+T196	软件工具 13212 13217	Disca
+T197	术语 13292 13312	API negative caveats
+T198	术语 13335 13352	API documentation
+T199	软件工具 13376 13381	Disca
+T200	术语 13459 13473	Java API types
+T201	术语 13490 13510	API negative caveats
+T202	术语 13559 13578	API negative caveat
+T203	术语 13595 13614	API negative caveat
+T204	术语 13655 13663	API type
+T205	表 13815 13868	Table 7 reports the results of this comparative study
+T206	软件工具 13988 13993	Disca
+T207	软件工具 14151 14156	Disca
+T208	数据源 14908 14922	Stack Overflow
+T209	术语 15186 15206	API negative caveats
+T210	数据源 15239 15253	Stack Overflow
+T211	软件工具 15335 15340	Disca
+T212	软件工具 15423 15428	Disca
+T213	软件工具 15521 15526	Disca
+T214	术语 15558 15575	API documentation
+T215	术语 15868 15877	API types
+T216	软件工具 15880 15885	Disca
+T217	术语 15957 15966	API types
+T218	图 15971 16122	Recall that each term‐community is considered a semantic aspect of an API , and it may have several complementary API negative caveats ( see Figure 4 )
+T219	软件工具 16268 16273	Disca
+T220	术语 16315 16335	API negative caveats
+T221	术语 16407 16418	IOException
+T222	术语 16584 16599	API IOException
+T3	研究方法 11437 11639	Approach : To answer this research question , we conduct an intermethod comparison , which compares the relative performance between one method and the other four methods using the Jackknifing procedure
+T15	表 12168 12330	the table shows that Disca achieves the best performance in all ROUGE scores when the summaries of the other four baseline methods are used as reference summaries
+R1	coauthor Arg1:T12 Arg2:T13	
+R2	has_cited_time Arg1:T14 Arg2:T13	
+R3	has_cited_time Arg1:T23 Arg2:T22	
+R4	has_cited_time Arg1:T39 Arg2:T38	
+R5	has_cited_time Arg1:T41 Arg2:T40	
+R6	has_cited_time Arg1:T43 Arg2:T42	
+R7	coauthor Arg1:T44 Arg2:T45	
+R8	has_cited_time Arg1:T46 Arg2:T45	
+R9	coauthor Arg1:T47 Arg2:T48	
+R10	coauthor Arg1:T48 Arg2:T49	
+R11	has_cited_time Arg1:T50 Arg2:T49	
+R12	coauthor Arg1:T63 Arg2:T64	
+R13	coauthor Arg1:T64 Arg2:T65	
+R14	coauthor Arg1:T65 Arg2:T66	
+R15	has_cited_time Arg1:T67 Arg2:T66	
+R16	has_cited_time Arg1:T69 Arg2:T68	
+R17	field_similar_as Arg1:T63 Arg2:T68	
+R18	has_cited_time Arg1:T83 Arg2:T82	
+R19	has_cited_time Arg1:T85 Arg2:T84	
+R20	field_similar_as Arg1:T82 Arg2:T84	
+R21	has_cited_time Arg1:T171 Arg2:T170	

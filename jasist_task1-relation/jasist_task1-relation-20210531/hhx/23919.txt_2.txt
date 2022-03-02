@@ -1,0 +1,105 @@
+Within the 312 articles that used datasets , 74 % collected and created datasets by authors ; among these , 72 % provided the date or the time period when data were collected . 
+The numbers show that most studies are inclined to create and use their own datasets , rather than reusing previously created and curated data . 
+For data attribution methods , citations and data identifiers are considered the most normative by facilitating ways of data tracking . 
+However , only 6 % and 9 % of the articles respectively attributed datasets in such formal ways . 
+Meanwhile , 60 % of the articles provided URLs to locate datasets . 
+The concern is that once a URL expires , we will lose track of the dataset . 
+Furthermore , 24 % of the articles just provided the names of the datasets , some of which are quite unique to be located , while others may refer to multiple data entities . 
+Some articles also attached an e‐mail address so that readers can send e‐mails to request data . 
+With regard to the means of data storage , 49 % of the articles stored datasets in the journal 's website as attachments to papers , followed by housing the dataset in governmental ( 18 % ) , institutional ( 14 % ) , and commercial ( 9 % ) repositories . 
+In addition , 4 % of the articles hosted data in researchers ' personal websites . 
+In this subsection , we report the characteristics of the 12 disciplines from the aspects of data use , attribution , and curation . 
+Figures 4 and 5 show the disciplinary characteristics of data use . 
+The percentage of articles using datasets in each discipline . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The percentage of articles having data sections in each discipline . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Datasets played an indispensable role in all disciplines included in this study , among which eight disciplines had more than half of the articles that used datasets . 
+Medicine and Health Sciences is the discipline with the highest dataset use ( 90 % ) , because most studies in this area relied heavily on datasets obtained from clinical trials , experimental subjects , or medical databases such as GenBank , SwissProt , MEDLINE , and Gene Expression Onmibus , as we found in our coding . 
+About 66 % of the articles in Social Sciences used datasets . 
+Mathematics ( 66 % ) and Physics ( 60 % ) also pertained to the prevalence of dataset use . 
+Our data did not find the popularity of dataset use in Chemistry ( 24 % ) , Agriculture ( 18 % ) , or Engineering ( 18 % ) . 
+Among the articles that used datasets , there is a variation of the extent to which they have data sections or any equivalent sections . 
+As shown in Figure 5 , while it is common that articles in Social Sciences ( 79 % ) , Medicine and Health Sciences ( 69 % ) , Biology ( 64 % ) , and Mathematics ( 61 % ) had data sections , the occurrence of designated data sections for articles in Engineering ( 22 % ) , Ecology and Environmental Sciences ( 13 % ) , Agriculture ( 11 % ) , and Research and Analysis Methods ( 4 % ) is low . 
+The results show that there has not been a common view or practice on how to describe data in research . 
+Figures 6 and 7 show the disciplinary characteristics of data collection . 
+The percentage of articles collecting data by their own authors in each discipline . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The percentage of articles indicating data collection dates in each discipline . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Figure 6 shows the percentages of articles whose authors collected the data . 
+Among articles that used datasets , most articles had data collected by their authors . 
+In particular , in Engineering , all nine articles that used datasets had data collected by their authors . 
+The high percentages of data self‐collection demonstrate an inconsistency of data reuse ; that is , scholars invested time and effort in collecting new data , rather than reusing the datasets of previous research . 
+Figure 7 shows that among articles that self‐collected data , their corresponding disciplines behaved differently in terms of specifying data collection dates or time durations . 
+All articles from Research and Analysis Methods provided data collection dates , followed by Medicine and Health Sciences ( 93 % ) , Earth Sciences ( 92 % ) , Agriculture ( 88 % ) , and Computer and Information Science ( 87 % ) . 
+In several other disciplines , such as Chemistry , Biology , and Social Science , only about half of the articles provided data collection dates . 
+Knowing when the datasets were collected is vital to reproduce and verify research results , especially for time‐sensitive studies . 
+For research within Social Science and Earth Sciences , data from different times could make a difference and even lead to different outcomes ( e.g. , tweets from different periods of time in presidential elections ) . 
+Figures 8 and 9 show the disciplinary characteristics of data access . 
+Can we access the data . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The trackability of datasets ( categories are not mutually exclusive ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Figure 8 shows that articles in most disciplines provided free access to datasets . 
+In Biology and Medicine and Health Science ; however , the percentages of articles that provided free access to data , which are 46 % and 62 % , respectively , are lower than the percentages of other disciplines . 
+Part of the reason is that some collected datasets involved information about human subjects and patients and thus can not be published due to privacy and policy concerns . 
+Purchased access appeared in four disciplines : Chemistry ( 17 % ) , Biology ( 11 % ) , Mathematics ( 3 % ) , and Medicine and Health Science ( 2 % ) . 
+In Chemistry and Biology , some studies have their datasets collected by companies . 
+In Mathematics and Medicine and Health Science , the main reason of the existence of purchased access is that some studies obtained datasets from commercial databases . 
+In Medicine and Health Science , five articles ( 11 % of the articles that used datasets ) indicated that datasets are available upon request and left e‐mail addresses as points of contact , which is a way of providing data access , but also shows fair share of the nonstandard practice of providing access to data . 
+Although DOIs and citations are the formal ways to identify datasets , URLs are the most popular for articles across all disciplines in our dataset , as shown in Figure 9 , particularly in Agriculture ( 89 % ) , Engineering ( 89 % ) , Physics ( 83 % ) , and Research and Analysis Methods ( 83 % ) . 
+Data citations only occurred in five disciplines with low popularity : Mathematics ( 18 % ) , Biology ( 18 % ) , Medicine and Health Sciences ( 11 % ) , Computer and Information Sciences ( 4 % ) , and Research and Analysis Methods ( 4 % ) . 
+On the one hand , about 35 % of the articles in Ecology and Environmental Sciences and 20 % in Medicine and Health Science used DOIs to identify datasets . 
+On the other hand , no DOI use was found in Chemistry , Agriculture , Mathematics , and Biology . 
+In terms of dataset labels , about half of the articles in Chemistry , Mathematics , Computer and Information Science , and Ecology and Environmental Sciences provided the names of datasets for tracking . 
+In Ecology and Environmental Sciences , Social Sciences , Medicine and Health Sciences , and Biology , a low percentage of articles provided e‐mail addresses to track data sets . 
+The effectiveness of relying on e‐mails to get access to data , however , is debatable . 
+For instance , in a study that tried to gain access to data by contacting authors via e‐mails from 141 articles published by the American Psychological Association ( APA ) , the study showed that only 25.7 % of the datasets were finally obtained through this means ( Wicherts , Borsboom , Kats , & Molenaar , 2006 ) . 
+Last , about 40 % of the articles in Medicine and Health Science and 43 % in Biology did not provide names of datasets , thus making it challenging to track and reuse the data produced in these studies . 
+Figure 10 shows the disciplinary characteristics of data curation . 
+Types of dataset archives . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Journal‐specific spaces are the main type of data archives in most disciplines ( Figure 10 ) , which is largely attributed to the fact that PLoS One allows authors to upload small datasets as supporting information files . 
+About 3–4 % of the articles stored their datasets in personal websites . 
+In addition , the type “ other ” occurred in all disciplines , which means that those articles did not provide any data access or data tracking information , so there is no way to find out where they archived the datasets . 
+In addition to journal‐specific archives , government repositories are also a popular choice : in Mathematics , about 30 % of the articles archived datasets in government spaces and this number is 22 % and 17 % for Ecology and Environmental Sciences and Earth Sciences , respectively . 
+Studies in these disciplines often used data published by government departments and organizations . 
+In Mathematics , Research and Analysis Methods , and Medicine and Health Sciences , 27 % , 22 % , and 18 % , repectively , of the articles have datasets stored in institutional repositories . 
+In Ecology and Environmental Sciences , about 35 % of the articles archived datasets in commercial data repositories ( both for‐profit and nonprofit ) such as Figshare and Dryad Data , which is higher than other disciplines and may imply a manner of scholarly communication in this discipline . 
+For governmental and institutional data storage , it should be noted that it may not be the authors who archive datasets by their own , but the datasets they used may have existed in those spaces . 
+For personal website , journal‐specific , and commercial storage , it is the authors who formatted , uploaded , and archived their datasets . 
+Beyond the aspects involved in the coding scheme , the discussions of findings in this section are organized by the two research questions . 
+In Chemistry , a small proportion of articles used datasets ; the reason we observed from the coding process is that a number of the articles analyzed specific chemicals such as molecules and sequences by testing them in a variety of environments and the conclusions came from the observations or test results rather than the quantitative analyses of any dataset . 
+Within the articles using datasets , only less than half of them mentioned the dataset names and a majority of them provide URLs , while most of the datasets can be accessed freely . 
+Similar to Chemistry , a small percentage of articles in Agriculture used datasets ( 18 % ) , for many articles did cultivation experiments , field experiments , and plant material experiments rather than statistical analysis based on datasets . 
+Higher than most other disciplines , articles that used datasets provided data collection dates , which is vital in this field as findings and conclusions in agriculture are closely related to current environments and climates . 
+Meanwhile , most of the articles in Agriculture only provided URLs of the datasets , with only a small number providing dataset names . 
+In Engineering , many articles focused on algorithms , system designs , and performance and function tests , and , accordingly , their contributions were mainly about system evaluations . 
+For the articles using datasets , all of them were collected by authors , which showed a significant lack of data reuse in engineering , which might due to the individuality of the designed systems . 
+Regarding dataset mentions , articles in most disciplines tended to provide URLs without a dataset name when the datasets were created by the authors themselves . 
+Most of the URLs directed to PLoS One websites , as the journal allows authors to upload their datasets as supplementary materials . 
+In the meantime , articles that used public datasets are more inclined to mention datasets with their names or DOIs or cite them formally . 
+For instance , in Mathematics the percentage of articles utilizing publicly available datasets ( 57 % ) is higher than other disciplines and the percentage of articles that cited datasets formally is also higher than other disciplines , because a number of articles evaluated their algorithms by conducting population‐based research through the use of public datasets published by government departments . 
+Most of those public datasets usually provided an explicit way ( e.g. , an article with a dataset ) to cite them . 
+The results showed a lack of naming , preserving , and publishing the datasets scholars collected , which could be that their efforts in processing datasets could not help them get credits ( Borgman , 2012 ) . 
+In terms of dataset accessibility , we observed a distinct difference between disciplines that involve human subjects and those that do not . 
+The disciplines that usually involve data obtained from human subjects , including Biology , Medicine and Health Sciences , and Social Sciences , show higher percentages of “ no access ” datasets than the other disciplines . 
+This finding is consistent with another survey about data sharing across fields ( Tenopir et al. , 2015 ) , in which the authors indicated that scholars in the disciplines involving studies with human subjects showed less willingness of data sharing , with the concern of data sensitivity and confidentiality . 
+Therefore , there needs to be more explicit policies regarding the accessibility of datasets containing participant information . 
+In this study , archiving datasets in journal‐specific spaces provided by PLoS One is the most popular approach for dataset archiving in most disciplines . 
+However , it is necessary to consider the fact that PLoS One provided the space for authors to upload their datasets when evaluating the results , because some earlier surveys indicated that even though scholars have the perception and willingness to share their datasets , they would not do that if the procedure is complicated or time‐consuming ( Huang et al. , 2012 ; Wallis et al. , 2013 ) . 
+Another problem brought up by archiving datasets in journal‐specific spaces is that there is no identity for those datasets , and , as a result , they can be difficult to be searched , found , or reused . 
+One‐third of articles in Ecology and Environmental Sciences archived datasets in commercial data repositories , which is higher than other disciplines . 
+This finding implies a discipline‐specific feature regarding the use of data repository and suggests policies to suit themselves to each field . 
+For instance , since there have been some popular data repositories within different fields , such as the National Oceanographic Data Center in archiving oceanographic datasets ( Belter , 2014 ) , popularizing such repositories and providing easy‐to‐use tools might be a more effective way to encourage data archive behaviors . 
+These efforts can also help establish pertinent data policies for different fields . 
+Moreover , a higher percentage of articles ( 35 % ) used DOIs to identify datasets in Ecology and Environmental Sciences , which indicates that the use of data repositories can promote dataset citation and trackability . 
+Although DOI and dataset citations are the most reliable ways to track datasets , only a small proportion of articles adopted the two approaches ( 15 % ) . 
+Instead , URL is the most popular way to track datasets in most disciplines . 
+The risk of using URL is that once a URL changes or expires , the tracking is lost , and the similar risk also exists in datasets whose authors archive them in their personal websites . 
+The second most popular way to track datasets is to provide their names in the full‐text , but it is not sufficient in many circumstances , as the names may refer to different entities . 
+With the increasing importance of data in scientific research , issues related to dataset use , access , and curation are drawing attentions from stakeholders in multiple spheres . 
+There has been a wide agreement on promoting data sharing and accessibility , but the progress faces challenges due to practical obstacles and complexities . 
+Therefore , there is the need to examine empirically how researchers deal with data mentions and citations . 
+In this study , we proposed a content analysis method by utilizing grounded theory approaches . 
+This study provided evidence of data mentions and citations based on a content analysis of 600 stratified sampled PLoS One publications . 
+The results showed that data mentions and citations varied greatly in disciplines in terms of how datasets were collected , referenced , and curated . 
+While most articles provided free access to data , formal ways of data attribution such as DOIs and data citations were used in a limited number of articles . 
+Most datasets were archived in PLoS One websites as supporting files . 
+Additionally , a high percentage of articles collected their own data rather than reusing datasets from prior research . 
+This study revealed the current state of data mentions and citations across a variety of scientific disciplines . 
+It provided a comprehensive understanding of how data are used in science and helps institutions and publishers make good data policies . 

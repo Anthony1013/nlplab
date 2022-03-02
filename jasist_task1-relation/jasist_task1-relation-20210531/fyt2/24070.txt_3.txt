@@ -1,0 +1,79 @@
+Overall , WNavi s users used IV tools more frequently than WikiMap + users . 
+To support users searching for information , WikiMap + suggests terms and revises queries based on user feedback behavior . 
+We observe user search behavior from three aspects : ( a ) the frequency of search tool use , that is , the iterations of searches issued by the user for each task performance ; ( b ) the number of browse or click ( B & C ) search results ; and ( c ) the average number of keywords used for each search iteration . 
+Note that for a browse search result , the user 's mouse pauses over the search result to examine the result abstract ; for a click search result , the user clicks on the search results to open a new page . 
+Observation 1 ( Google Search ) : Table 16 shows that the results of the four tasks between the two user groups for the number of search iterations are not statistically significant . 
+This indicates that the number of search iterations for each task is not an important factor in task performance . 
+Observation 2 ( B & C search result ) : Table 16 shows that in Task 4 , intermediates clicked and browsed for significantly more results than novices . 
+Conversely , novices clicked and browsed for more results compared with intermediates in Task 3 . 
+Observation 3 ( Average keyword usage ) : Table 16 shows that intermediates used significantly fewer keywords on average when compared with novices in Tasks 1 , 2 , and 3 . 
+There was no significant difference between the two user groups in Task 4 . 
+The results indicate that the intermediates knew how to formulate short queries to find the correct answers . 
+The results confirmed our hypotheses , with expected outcomes via our extended evaluation measures . 
+Below we discuss the results and suggest the implications thereof . 
+Discussion 1 : Overall , intermediate users performed better than novices on search tasks in terms of accuracy and gain values across all four tasks in each interface . 
+Thus , subject knowledge did influence user task performance . 
+Based on our interviews with intermediate users after the evaluation , most knew how to use the proposed HT to gain an overview of the topic , and how to find answers using the search tool or by browsing Wikipedia . 
+Interestingly , some intermediate users mentioned that the IV tools are a good place to find and select keywords , which they can then use to search for information using the search tool . 
+This shows that intermediate users knew how to formulate short queries by utilizing the HT tool to find the correct answers . 
+This was also why intermediate users accessed the HT more frequently than novices . 
+The results show that intermediates knew how to leverage IV tools within the search tool to find answers in WikiMap + ; this confirms our hypotheses and the expected outcomes 1 , 4 , and 5 . 
+In learning theory , human knowledge is described in terms of knowledge structures , which consist of concepts and their relation to some phenomenon ( Kintsch , 1988 ; Vakkari , 2016 ) . 
+We infer that intermediates and experts possess more stable conceptual ( knowledge ) structure compared with novices ; thus , they prefer to use the HT to gain an overview of the topic and select relevant keywords . 
+A study by Sihvonen and Vakkari ( 2004 ) showed that domain knowledge influences user ability to choose appropriate search terms . 
+A higher level of domain knowledge is associated with an ability to select concepts , which leads to better search performance . 
+Duggan and Payne 's ( 2008 ) study shows that higher levels of background knowledge help users find more and demonstrates that web search technologies can amplify user task performance . 
+Our research further reveals that the new interface leads to different search behavior for users with different levels of subject knowledge . 
+To the best of our knowledge , few empirical studies have examined how the level of subject knowledge is associated with the use of IV tools , and how IV tools support keyword‐based search engines . 
+It is important to create new tools that , for example , support structuring a search result list according to the potential conceptual structures in documents ; for instance , the HT tool to enhance task performance . 
+Discussion 2 : Although intermediate users performed better than novices on search tasks across all four tasks in each interface , novices achieved a greater relative accuracy improvement in answering questions with the assistance of the proposed tools compared with intermediates , as shown in Table 12 . 
+The results also show that WikiMap + provided novice users with a significantly greater gain per cost ratio as compared with intermediate users . 
+Novices clearly benefited more from IV tools and the search tool than intermediate participants did without the support of these tools . 
+Thus , the proposed IV tools and the search tool helped close the knowledge gap between novices and intermediates in various information search tasks . 
+These results confirmed our hypotheses and the expected outcomes 2 and 3 . 
+Although previous work reveals that experts have the ability to more fully use IV tools and related means compared with novices , it did not examine the relative improvement when using different interfaces ( Parsons & Sedig , 2014 ; Sihvonen & Vakkari , 2004 ) . 
+Our study fills this gap by further examining the effect of interface , knowledge level , and interaction effect between each for task performance . 
+In our study , novices possess no background knowledge of KM , whereas intermediates had at least a basic background knowledge of the KM subject . 
+That is , the knowledge of intermediates was not as well structured as that of experts . 
+The proposed interface improved novice task performance significantly as compared with intermediate users . 
+This indicates that the proposed interface helps novices pick up important subject knowledge contained in a large amount of data with the aid of tools . 
+This finding is important for designing visualized interfaces for intermediates and novices that will improve search performance . 
+In the future , we may invite domain experts to use the proposed interface to evaluate the effect when they use the interface . 
+Discussion 3 : The ANOVA results show that the interface has an effect on performance , as shown in Table 11 . 
+These results are similar to our review of previous research ( Ahn & Brusilovsky , 2013 ; Joho & Jose , 2008 ; Kangasrääsiö et al. , 2014 ) . 
+Interestingly , one important finding of our study was confirming that the interface effect is more important than the effect of knowledge level . 
+Both user groups improved task performance when using the proposed interfaces , especially WikiMap + . 
+These results confirm our hypotheses and the expected outcomes 3 , 4 , and 5 . 
+Accordingly , we seek to understand how the proposed interfaces helped users to accomplish tasks . 
+According to the results of our post‐questionnaire , both novice and intermediate users assigned the highest score to the WikiMap + search tool . 
+Specifically , both novices and intermediates gave the highest score to the question “ The usage of the search tool presented in the interface is easy to understand , ” suggesting that the search tool helps users accomplish their tasks by actively searching for the answers . 
+During our post‐evaluation interview , novices mentioned their preference for the search tool instead of IV tools when using WikiMap+ to find answers . 
+Moreover , we found that intermediate users traversed fewer pages in WikiMap + than in other interfaces and achieved better performance for finding indirect relationships between concepts . 
+This indicates that with the aid of the search tool , those with a higher level of domain knowledge locate answers using a shorter path . 
+It confirms that intermediates are able to use multiple tools or sources to quickly find answers . 
+Overall , this shows that the elaborate interface helps users—especially those with higher domain knowledge—to find answers while traversing fewer articles . 
+These results have implications for improving the proposed interface . 
+Born et al. ’ s ( 2013 ) study on aggregated search interfaces also shows that users prefer to gather information from free content encyclopedias websites and web search engines to obtain a comprehensive view of topics . 
+Our research further shows that embedding the IV and search tools in the interface can result in different search behavior but improved task performance for both user groups . 
+Discussion 4 : Some novice users did , however , note that WNavi s was complicated and took more time to understand and use . 
+They also noted that it took a lot of time to explore information in the topic map ( i.e. , the TM tool ) and that they seldom used the HT tool to find information . 
+Although the TM tool is attractive to novices , it was not easy for them to use . 
+We seek to explore how to refine the TM tool to represent the semantic relationships of nodes in the TM to help novices explore information more efficiently and improve search effectiveness . 
+We may highlight important connections between nodes in the TM tool to help novices explore the semantic content between articles ( Sihvonen & Vakkari , 2004 ) . 
+Also , we recommend that novices leverage the HT tool within the search tool to gain a comprehensive view , select better keywords , and formulate queries precisely ; that is , by searching like experienced users . 
+Previous work ( Julien et al. , 2008 ; Lechtenfeld & Fuhr , 2012 ; Liu et al. , 2013 ) shows that knowledge ( graph ) map construction and clustering are important techniques to develop IV tools . 
+Our research suggests improvements and refinements to our integrated interface by recommending keywords used by users with a higher level of domain knowledge ( Liu , Zhang , & Huang , 2016 ; Kang & Fu , 2010 ) . 
+First , we should use qualitative tools to collect user search experiences in detail . 
+This would help us to refine the tools in the proposed interface based on user comments during the search processes . 
+Second , we note that all participants were selected from junior or senior undergraduate students in the Department of Information Management . 
+Although all had similar learning backgrounds , we did not directly test user levels of prior knowledge before the evaluation . 
+In the future , we would like to determine what influence prior knowledge has on search behavior ( Duggan & Payne , 2008 ; Kang & Fu , 2010 ) . 
+Moreover , although we designed different types of tasks , we did not intend to measure each topic 's task difficulty when testing the interfaces ( Liu et al. , 2016 ) . 
+In the future , we would like to explore task difficulty and task type to determine if the proposed interface supports the user accomplishing difficult tasks . 
+Our results confirm that the proposed interfaces help close the gap between novices and intermediate users in answering various types of questions . 
+The results of this study provide implications for interface design regarding the level of subject knowledge . 
+Intermediates can take advantage of the search tool by leveraging the IV tools to find indirect relationships between concepts , browse subtopics , and formulate better queries . 
+Although novices note that the IV tools in the WNavi s interface are complicated , they find the integrated tools in the WikiMap+ interface to be helpful . 
+Overall , browsing and searching activities were used to accomplish tasks in WikiMap+ , which led to successful search results for both user groups . 
+It also shows that an increase in the number of information sources—web‐based , free content encyclopedias , and search pages—helped users achieve better task performance . 
+The evaluation process and results provide valuable insight into the integrated searches , which can help to build better interfaces with IV tools to support browsing and searching for subject knowledge . 

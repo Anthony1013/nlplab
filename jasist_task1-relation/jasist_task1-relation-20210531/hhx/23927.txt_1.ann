@@ -1,0 +1,276 @@
+T1	术语 45 53	metadata
+T2	时间 77 82	1960s
+T4	术语 412 420	metadata
+T5	术语 466 489	library catalog records
+T6	术语 492 509	data dictionaries
+T7	术语 703 721	GPS location fixes
+T8	术语 728 740	data brokers
+T9	术语 680 700	Internet search logs
+T10	术语 663 677	e‐mail headers
+T11	术语 753 776	communications metadata
+T12	术语 871 887	digital metadata
+T13	引文的结果 745 1030	Despite communications metadata having had historically less legal protections than message contents , the mass collection of digital metadata is central to the ongoing debates surrounding the legality and efficacy of the intelligence gathering programs in the United States and abroad
+T14	引文作者 1033 1039	Landau
+T15	引文时间 1042 1046	2013
+T16	术语 1073 1081	metadata
+T17	术语 1248 1268	information sciences
+T18	术语 1310 1318	metadata
+T19	术语 1397 1417	information sciences
+T20	术语 1504 1512	metadata
+T22	引文作者 1989 1996	Vasalou
+T23	引文作者 1999 2007	Oostveen
+T24	引文作者 2010 2016	Bowers
+T25	引文作者 2021 2026	Beale
+T26	引文时间 2029 2033	2015
+T27	引文作者 2036 2043	Clement
+T28	引文作者 2046 2050	Obar
+T29	引文时间 2053 2057	2016
+T30	引文作者 2060 2066	Martin
+T31	引文作者 2069 2076	Shilton
+T32	引文的研究问题 1874 1979	A small number of information science scholars have examined privacy implications of digital technologies
+T33	术语 2177 2197	information sciences
+T3	时间 212 224	June of 2013
+T21	时间 1590 1603	December 2016
+T34	术语 2247 2255	metadata
+T35	术语 2445 2453	metadata
+T36	术语 2612 2620	metadata
+T37	术语 2771 2779	metadata
+T38	术语 3018 3026	metadata
+T39	术语 3079 3087	Metadata
+T40	引文的结果 3079 3213	Metadata describe a digital or physical object by providing context , indicating quality , or documenting other object characteristics
+T41	引文作者 3216 3225	Greenberg
+T42	引文时间 3228 3232	2005
+T43	术语 3239 3247	Metadata
+T44	引文作者 3320 3329	Gilliland
+T45	引文作者 3521 3530	Gilliland
+T46	引文时间 3533 3537	2008
+T47	引文的结果 3346 3518	distinguished between five kinds of metadata—administrative , descriptive , preservation , technical , and use—which have different functions in digital information systems
+T48	术语 3382 3390	metadata
+T49	术语 3560 3568	metadata
+T50	术语 3650 3658	metadata
+T51	引文的结果 3964 4193	Indeed , Facebook 's new fake news initiative to combat viral false claims in users ’ newsfeeds relies on weighing engagement metadata and advertising practices with fact checking to limit misinformation while avoiding censorship
+T52	引文作者 4196 4201	Isaac
+T53	引文时间 4204 4208	2016
+T54	术语 4312 4320	metadata
+T55	术语 4384 4392	metadata
+T56	术语 4868 4876	metadata
+T57	引文的结果 4928 5039	Metaphors like “ data exhaust ” that are used to describe “ the digital trail that people leave in their wake ”
+T58	引文作者 5042 5059	Mayer‐Schonberger
+T59	引文作者 5062 5068	Cukier
+T60	引文时间 5071 5075	2013
+T61	术语 5145 5153	metadata
+T62	术语 5187 5209	communication metadata
+T63	术语 5470 5478	metadata
+T64	术语 5677 5703	Internet network protocols
+T65	术语 5706 5721	sensing systems
+T66	术语 5757 5787	mobile communication standards
+T67	研究问题 5397 5532	In this paper , we illustrate five key sociotechnical characteristics of metadata within digital networks that challenge such metaphors
+T68	术语 5796 5804	metadata
+T69	术语 5925 5933	Metadata
+T70	术语 6050 6058	metadata
+T71	引文的结果 5925 5976	Metadata are always recorded with some intended use
+T72	引文作者 5979 5988	Greenberg
+T73	引文时间 5991 5995	2005
+T74	术语 6219 6227	metadata
+T75	引文的结果 6104 6248	decisions were made by the designers of the initial versions of Internet protocols to only attach certain kinds of metadata to Internet messages
+T76	引文作者 6251 6257	Fidler
+T77	引文作者 6260 6265	Acker
+T78	引文时间 6268 6272	2014
+T79	术语 6345 6353	metadata
+T80	引文的结果 6291 6466	wireless devices are designed to collect and transmit metadata about the time and location from which data are sent , as well as the routes that data take through the networks
+T81	引文作者 6469 6474	Acker
+T82	引文时间 6477 6481	2014
+T83	术语 6501 6517	routing metadata
+T84	术语 6841 6849	metadata
+T85	术语 6999 7007	Metadata
+T86	引文的结果 7067 7141	Formal distinctions between data and metadata are fuzzy and hard to define
+T87	术语 7104 7112	metadata
+T88	引文作者 7144 7153	Gilliland
+T89	引文时间 7156 7160	2008
+T90	术语 7176 7184	metadata
+T91	术语 7390 7398	metadata
+T92	术语 7514 7522	metadata
+T93	引文的结果 7476 7747	Certain digital traces may serve as “ metadata ” in one context because they provide information about people 's activity or behaviors , but they may also serve as “ data ” if they are themselves analyzed in other contexts and used as evidence to make a claim or argument
+T94	引文作者 7750 7757	Borgman
+T95	引文时间 7760 7764	2015
+T96	术语 7791 7799	metadata
+T97	引文的结果 7771 7896	Calling something “ metadata ” as opposed to “ data ” is a contextual classification that rarely has a self‐evident rationale
+T98	引文作者 7899 7910	Boellstorff
+T99	引文时间 7913 7917	2013
+T100	术语 7951 7966	sensor networks
+T101	术语 8078 8093	sensor networks
+T102	术语 8215 8234	background metadata
+T103	引文的结果 8190 8339	These technical data are background metadata to the scientist , but are essential data to the network operator who monitors and maintains the network
+T104	引文作者 8342 8349	Borgman
+T105	引文作者 8352 8358	Wallis
+T106	引文作者 8363 8371	Mayernik
+T107	引文时间 8374 8378	2012
+T108	术语 8472 8480	metadata
+T109	术语 8682 8701	aggregated metadata
+T110	术语 9132 9140	metadata
+T111	术语 9181 9189	metadata
+T112	引文的结果 9361 9565	car insurance companies have begun to offer lower rates to customers who agree to install a GPS monitoring receiver on their cars that tracks their driving habits : acceleration and stopping in particular
+T113	引文作者 9568 9574	Lieber
+T114	引文时间 9577 9581	2014
+T115	术语 9728 9736	Metadata
+T116	引文作者 9926 9935	Schroeder
+T117	引文时间 9938 9942	2014
+T118	引文的结果 9728 9923	Metadata collected by social media platforms like Twitter and Facebook underlie a cottage industry of analyses of technology use patterns , personal networks , and information distribution trends
+T119	术语 9978 9986	big data
+T120	术语 10003 10015	big metadata
+T121	引文的结果 10095 10176	The NSA programs revealed by Edward Snowden operated in a “ collect it all ” mode
+T122	引文作者 10179 10188	Nakashima
+T123	引文作者 10191 10198	Warrick
+T124	引文时间 10201 10205	2013
+T125	术语 10330 10338	metadata
+T126	时间 10612 10620	May 2014
+T127	引文的结果 10519 10664	This is vividly illustrated by former US CIA and NSA director Michael Hayden 's statement in May 2014 , that “ we kill people based on metadata ”
+T128	引文作者 10667 10671	Cole
+T129	引文时间 10674 10678	2014
+T130	术语 10848 10866	communication data
+T131	术语 10871 10879	metadata
+T132	引文的结果 10780 11024	But as multiple internal NSA documents described , the scale of the communication data and metadata collection present many logistical , technical , and analytical challenges that may , in fact , hinder the production of actionable intelligence
+T133	引文作者 11027 11032	Maass
+T134	引文时间 11035 11039	2015
+T135	术语 11062 11070	metadata
+T136	术语 11152 11160	metadata
+T137	术语 11280 11288	Metadata
+T138	引文的结果 11512 11642	They must formalize aspects of human behavior into digital representations that can be transmitted and manipulated algorithmically
+T139	引文作者 11645 11649	Agre
+T140	引文时间 11652 11656	1997
+T141	术语 11663 11671	Metadata
+T142	术语 11922 11941	underlying metadata
+T143	时间 12022 12033	August 2015
+T144	术语 12251 12268	released metadata
+T145	引文的结果 11998 12279	individuals named in an August 2015 release of account information stolen from the adult dating site Ashley Madison were at risk of being identified as having conducted extramarital affairs , although such conclusions were not directly supported by the released metadata themselves
+T146	引文作者 12282 12288	Victor
+T147	引文时间 12291 12295	2015
+T148	术语 12342 12357	metadata system
+T149	引文的结果 12302 12368	Reality is always more complex than any metadata system can depict
+T150	引文作者 12371 12377	Bowker
+T151	引文时间 12380 12384	2014
+T152	术语 12391 12410	Executable metadata
+T153	引文的结果 12391 12544	Executable metadata needed for data transmission and communication permeates our networked culture ; indeed , infrastructures can not function without it
+T154	引文作者 12547 12553	Fidler
+T155	引文作者 12556 12561	Acker
+T156	引文时间 12564 12568	2014
+T157	术语 12597 12605	metadata
+T158	术语 12736 12744	metadata
+T159	术语 12916 12924	metadata
+T160	术语 13015 13023	metadata
+T161	术语 13104 13112	metadata
+T162	术语 13241 13257	digital metadata
+T163	术语 13468 13476	metadata
+T164	术语 13640 13648	metadata
+T165	术语 13661 13684	Internet communications
+T166	引文的结果 13621 13894	This site uses the metadata attached to Internet communications to illustrate how many ( or most ) Internet communications originating across the globe travel through network nodes in the United States , thereby making their potential interception by the US NSA more likely
+T167	引文作者 13897 13904	Clement
+T168	引文时间 13907 13911	2014
+T169	引文的结果 13918 14012	As these five characteristics illustrate , metadata are fundamentally sociotechnical phenomena
+T170	术语 13961 13969	metadata
+T171	引文作者 14015 14022	Edwards
+T172	引文作者 14025 14033	Mayernik
+T173	引文作者 14036 14046	Batcheller
+T174	引文作者 14049 14056	Borgman
+T175	引文作者 14061 14067	Bowker
+T176	引文时间 14070 14074	2011
+T177	术语 14272 14280	Metadata
+T178	术语 14498 14506	metadata
+T179	引文的结果 14484 14567	digital trace metadata can be “ remarkably revelatory ” of our lives and activities
+T180	引文作者 14570 14576	Landau
+T181	引文时间 14579 14583	2016
+T182	术语 14822 14830	metadata
+T183	引文的结果 14714 14891	privacy activists have noted how keeping information about some life events ( such as pregnancy ) away from metadata collection programs requires deliberate and sustained effort
+T184	引文作者 14894 14902	Schneier
+T185	引文时间 14905 14909	2015
+T186	术语 14950 14958	metadata
+T187	术语 15024 15032	metadata
+T188	术语 15308 15316	metadata
+T189	引文的结果 15234 15347	Netflix 's hit show “ House of Cards ” was produced based on analytics of metadata descriptors generated by users
+T190	引文作者 15350 15354	Carr
+T191	引文时间 15357 15361	2013
+T192	术语 15386 15394	metadata
+T193	术语 15464 15472	Metadata
+T194	术语 15624 15632	metadata
+T195	术语 15806 15814	metadata
+T196	引文的结果 15724 15857	In order to participate in the digital world , people must submit to having their metadata created and used for a variety of purposes
+T197	引文作者 15860 15869	van Dijck
+T198	引文时间 15872 15876	2014
+T199	术语 15944 15964	information sciences
+R1	results Arg1:T14 Arg2:T13	
+R2	has_cited_time Arg1:T15 Arg2:T14	
+R3	produces Arg1:T22 Arg2:T32	
+R4	coauthor Arg1:T22 Arg2:T23	
+R5	coauthor Arg1:T23 Arg2:T24	
+R6	coauthor Arg1:T24 Arg2:T25	
+R7	has_cited_time Arg1:T26 Arg2:T25	
+R8	coauthor Arg1:T27 Arg2:T28	
+R9	has_cited_time Arg1:T29 Arg2:T28	
+R10	coauthor Arg1:T30 Arg2:T31	
+T200	引文时间 2079 2083	2016
+R11	has_cited_time Arg1:T200 Arg2:T31	
+R12	field_similar_as Arg1:T30 Arg2:T27	
+R13	field_similar_as Arg1:T27 Arg2:T22	
+R14	results Arg1:T41 Arg2:T40	
+R15	has_cited_time Arg1:T42 Arg2:T41	
+R16	results Arg1:T44 Arg2:T47	
+R17	results Arg1:T45 Arg2:T47	
+R18	has_cited_time Arg1:T46 Arg2:T45	
+R19	results Arg1:T52 Arg2:T51	
+R20	has_cited_time Arg1:T53 Arg2:T52	
+R21	results Arg1:T58 Arg2:T57	
+R22	coauthor Arg1:T58 Arg2:T59	
+R23	has_cited_time Arg1:T60 Arg2:T59	
+R24	results Arg1:T72 Arg2:T71	
+R25	has_cited_time Arg1:T73 Arg2:T72	
+R26	results Arg1:T76 Arg2:T75	
+R27	coauthor Arg1:T76 Arg2:T77	
+R28	has_cited_time Arg1:T78 Arg2:T77	
+R29	has_cited_time Arg1:T82 Arg2:T81	
+R30	results Arg1:T81 Arg2:T80	
+R31	results Arg1:T88 Arg2:T86	
+R32	has_cited_time Arg1:T89 Arg2:T88	
+R33	results Arg1:T94 Arg2:T93	
+R34	has_cited_time Arg1:T95 Arg2:T94	
+R35	results Arg1:T98 Arg2:T97	
+R36	has_cited_time Arg1:T99 Arg2:T98	
+R37	results Arg1:T104 Arg2:T103	
+R38	coauthor Arg1:T104 Arg2:T105	
+R39	coauthor Arg1:T105 Arg2:T106	
+R40	has_cited_time Arg1:T107 Arg2:T106	
+R41	results Arg1:T113 Arg2:T112	
+R42	has_cited_time Arg1:T114 Arg2:T113	
+R43	results Arg1:T116 Arg2:T118	
+R44	has_cited_time Arg1:T117 Arg2:T116	
+R45	results Arg1:T122 Arg2:T121	
+R46	coauthor Arg1:T122 Arg2:T123	
+R47	has_cited_time Arg1:T124 Arg2:T123	
+R48	has_cited_time Arg1:T129 Arg2:T128	
+R49	results Arg1:T128 Arg2:T127	
+R50	results Arg1:T133 Arg2:T132	
+R51	has_cited_time Arg1:T134 Arg2:T133	
+R52	results Arg1:T139 Arg2:T138	
+R53	has_cited_time Arg1:T140 Arg2:T139	
+R54	has_cited_time Arg1:T147 Arg2:T146	
+R55	results Arg1:T146 Arg2:T145	
+R56	has_cited_time Arg1:T151 Arg2:T150	
+R57	results Arg1:T150 Arg2:T149	
+R58	coauthor Arg1:T154 Arg2:T155	
+R59	has_cited_time Arg1:T156 Arg2:T155	
+R60	results Arg1:T154 Arg2:T153	
+R61	has_cited_time Arg1:T168 Arg2:T167	
+R62	results Arg1:T167 Arg2:T166	
+R63	coauthor Arg1:T171 Arg2:T172	
+R64	coauthor Arg1:T172 Arg2:T173	
+R65	coauthor Arg1:T173 Arg2:T174	
+R66	coauthor Arg1:T174 Arg2:T175	
+R67	has_cited_time Arg1:T176 Arg2:T175	
+R68	results Arg1:T171 Arg2:T169	
+R69	results Arg1:T180 Arg2:T179	
+R70	has_cited_time Arg1:T181 Arg2:T180	
+R71	has_cited_time Arg1:T185 Arg2:T184	
+R72	results Arg1:T184 Arg2:T183	
+R73	results Arg1:T190 Arg2:T189	
+R74	has_cited_time Arg1:T191 Arg2:T190	
+R75	has_cited_time Arg1:T198 Arg2:T197	
+R76	results Arg1:T197 Arg2:T196	

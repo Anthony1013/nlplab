@@ -1,0 +1,121 @@
+Creation of new data portals can be understood as a tool for releasing knowledge paid with public funds , a modern method of public management and a tool for public accountability and transparency . 
+It may also contribute towards more participatory and economically autonomous forms of society ( Dobson , 2017 ) . 
+Kim and Yoon ( 2017 ) conclude in an analysis done on scientists ' data reuse behaviours that availability of data and perceived usefulness , perceived concern and the availability of internal resources impact on data reuse intentions . 
+Factors enabling the successful implementation include the improvement of the quality of government information , the actual adoption of a culture of open government , the analysis of the demanded data , and the provision of tools and instruments aimed to help using the data . 
+The goal of this work is to describe the process of impact generation of open data , from the beginning , when data are inside the information technology systems of the organization , to the publication in an open data portal facility and to the use of the data by reusers and the impact generated . 
+This stage involves the identification of data origins candidates across the internal information technology–IT‐ systems of the organization . 
+Before any data is ready to be published , it must be internally found , identified , and listed in an inventory of data origins as a potential data source . 
+Successful publication depends upon being able to overcome several filters . 
+It must fulfil privacy and security issues and agree with intellectual property legislation . 
+Additionally , it is required to check if the organization is the actual owner of the data . 
+It is not uncommon to find out that some data belong to the information systems of contractors and that there is not a legal framework for those data to be transferred . 
+The data source 's technical format could require of a technical transformation before being published . 
+Finally , quality concerns should be considered . 
+Frequently , data quality for internal work is considered insufficient to be published , and therefore it should be cleansed . 
+However , cleansing process is not in place and requires for additional resources to the organization and structured methods ( Rahm & Do , 2000 ) . 
+Once that a dataset is ready for publication a process , to move the data‐ready information to the publication facility is required ( Arzberger et al. , 2004 ) . 
+The extent of automation for this step could be critical in the publication process . 
+The less digitalized the organization , the more critical the role played by internal participation in the data process ( Ward & Peppard , 2016 ) . 
+As an example , legal considerations could open tricky issues to publish information , while managers requiring from a perfect quality of data before publication could argue a lack of resources to reach the mentioned quality . 
+Finally , data format conversion could mean a technical defiance unsolvable for current technical competences in the organization . 
+Organizations without a proper data governance could struggle to run an open data initiative . 
+Data governance does not only include a proper management of data inventory and workflow , data responsible people , but also sponsoring actions to create awareness in the organization to care about data ( Khatri & Brown , 2010 ) . 
+This stage involves the transfer of the information from the internal systems to the open data facility . 
+Generally , this stage implies the gathering of the metadata , and its attachment to the raw data—authorship , updating frequency , size , data model description , structure , help , contact , license , etc.—before publishing ( Janssen , Charalabidis , & Zuiderwijk , 2012 ) even more , for those datasets released with semantic information ( linked data ) , it could include the enrichment and transformation of the data ( Zuiderwijk , Jeffery , & Janssen , 2012 ) . 
+From the organizational standpoint it also implies approval before publishing . 
+Therefore , somehow a workflow or permission management must be in place . 
+Case of those entities with poor data governance , this process is manual . 
+Other cases , it hopefully involves the use of a tool supporting the workflow . 
+This could be from modest content management systems to more dedicated open data portals solutions . 
+In manual cases , this process only works properly if the updated process is rarely executed ( once a week , once a month ) . 
+Some studies suggest that open data increase their demand with their frequent updates ( Kang , Son , & Stankovic , 2004 ) so manual processes are condemned to live together with some others with much shorter updating period . 
+Whenever an organization has to regularly publish data , a wide range of tools are used ( Davies & Bawa , 2012 ) . 
+More advanced tools allow active open data publishers to cope with the required tasks . 
+Otherwise , the manual interaction with non‐professional tools or manual processes will require repetitive and non‐added‐value tasks . 
+And they will cease to work properly as soon as the management impulse would decay . 
+So , it is a good practice to implement suitable tools for caring of open datasets . 
+It should be able to retrieve as automatically as possible the data from the original system and attach their associated metadata . 
+It has to include some kind of digital workflow for a quick approval of the data publication . 
+In order to profit from the management of data and to comply with privacy and security regulations , it has to restrict access to certain registers or to certain fields of the datasets . 
+Sometimes it is quicker just to authorise the public columns to be publish than to create a view of the original dataset with just the selected columns ( Conradie & Choenni , 2014 ) . 
+This stage comprises from the moment the data are made public through any open data facility to the moment when data are effectively reused by someone else , either organization or individual reuser . 
+Main goal for the publishing organizations is the reuse of the published information . 
+But their mere availability does not mean data reuse as seen in the statistics of some open data portals . 
+As an example , the pan European open data portal ( http : //europeandataportal.eu/ ) aggregates more than half a million dataset 's metadata ( August , 2016 ) with less than 11 visits a day to download a single dataset . 
+In Paris open data portal ( https : //opendata.paris.fr/ ) , dataset 's downloads ranges from more than five hundred a day to less than one a year ( March , 2018 ) . 
+In addition , EMT Madrid portal ( http : //opendata.emtmadrid.es/ ) provides transport information ( real‐time ) and claims to have peaks of more than five million daily connections to its API . 
+These situations share the lack of a model that provides some insights about what is happening , what the reasons for such different demands are , what the role of the ecosystem is and how the available resources can be assigned . 
+Success in reuse is achieved by getting a lively ecosystem of reusers . 
+Getting the involvement in such ecosystem is a tough task that few data portals have fully achieved . 
+Helsinki region data portal ( http : //www.hri.fi/en/ ) aggregates 201 applications ( March , 2018 ) and deploys some of the best practices in the world to care for its ecosystem of reusers . 
+It is featured by its regular contests on data reuse . 
+It also provides a multi and agile feedback channel , and a biweekly in person meeting with users and developers is run . 
+Currently , an open data portal can be accessed from any person or organization around the world with very different interests . 
+The governmental process of ‘ making citizens ’ has to do with producing affective responses of citizen 's desires and needs ( Darling , 2017 ) . 
+The challenge of participation requires from a more insightful analysis of these reusers ( Janssen et al. , 2012 ) if we are to succeed in the promotion of their participation in the data portal . 
+Following Abella , Ortiz‐de‐Urbina‐Criado and De‐Pablos‐Heredero ( 2017a ) , a classification of reusers is proposed ( Figure 1 ) . 
+First group are primary open data sources . 
+Data publishers ( 1a ) are the organizations releasing data , mostly they are Public Administrations . 
+For example , the geographic department of the National Government publishes the cartography that is reused by the department of social services . 
+Second , publishers related organizations ( 1b ) are mostly other public organizations depending on the data publishers . 
+An example of this group is a public agency reusing data originally published by the Ministry of Economy . 
+Civil society also reuses published open data ( 2–3 ) . 
+Second group is composed by direct open data reusers that provide products/services for others . 
+Professional reusers ( 2a ) are for‐profit entities using the data to innovate in products/services offered to others . 
+An example could be the provider of an app with tourist information enriched with the transport facilities of the city purchased by a tourist tour operator . 
+Social reusers ( 2b ) are non‐profit organizations providing services to others . 
+For example , a NGO ( 2b ) proving information about social living facilities to other NGO ( 3c ) . 
+Third group are end users . 
+Professional users ( 3a ) are for‐profit entities consuming products/services based on open data . 
+For example , a consulting company ( 3a ) that uses information about public tendering supply by a professional reuser ( 2a ) to apply for public bids in its field of activity . 
+Citizens ( 3b ) can access information directly from the original data sources or direct reusers ( 2a‐b ) . 
+For example , a citizen using an app about traffic jams . 
+Social users ( 3c ) are non‐profit entities providing social services . 
+For example , a NGO ( 3c ) that helps immigrants ( 3b ) to find home using a service based on open data living facilities of the city ( 2b ) . 
+Finally , academic users ( 3d ) access directly to the open data published or through direct reusers ' services . 
+For example , the access to open data to do a research on living conditions in a city . 
+In this stage , reusers incorporate the data released by creating new services or improving existing ones . 
+Open data portals and associated ecosystems could be one of the best starting points for the analysis of open data impact . 
+However , few of them have relevant data about their data and reusers ' ecosystem , turn them into low valuable resources . 
+It is not clear how data reuse impacts on the surrounding society . 
+Some of the economic and social effects were identified in previous studies but the mechanisms how this impact is produced remain mostly unknown . 
+In this field , Jetzek , Avital , and Bjørn‐Andersen ( 2014 ) have analyzed the different mechanisms of value creation , including transparency , participation , efficiency and innovation . 
+These authors use social and economic parameters for the full society at country level . 
+Other authors ( Carrara , San Chan , Fischer , & Van Steenbergen , 2015 ; Vickery , 2011 ) infer their results from estimations based on surveys applied to an ad hoc model . 
+The global approach of Jetzek et al . 
+( 2014 ) lacks the required resolution to be useful for the management of individual open data portals . 
+Then , it would be good to find alternatives focused on local parameters and local agents of the ecosystem . 
+European Union is a rather active region on the leverage of open data reuse to turn it into social and economic impact . 
+Some European research and development projects have been launched since 2012 . 
+For example , Apps for Europe ( 2012–2015 ) tried to help open data contests to become successful sources of new start‐ups . 
+Finodex ( 2013–2016 ) explored the potential use of open data together with the technological framework FIWARE ( https : //www.fiware.org/ ) . 
+ODINE ( https : //opendataincubator.eu/ ) has reviewed more than 2000 proposals for projects using open data . 
+These examples reinforce the idea that innovation is the value creation mechanism that highly contributes to open data impact . 
+Figure 2 describes the global process of impact generation of open data . 
+The open data impact process allows a better understanding of the different steps to follow . 
+From this process , some examples containing best practices have been identified ( Table 1 ) . 
+Data governance platform ( as Collibra ) applying to NetApp or George Washington Universityaa https : //www.collibra.com/stories/ . 
+Categorise openness of databb https : //www.w3.org/2013/share‐psi/bp/cod/ . 
+DBpediacc http : //wiki.dbpedia.org/about . 
+Application Programming Interface –API‐dd http : //knowhow.opendatamonitor.eu/odresearch/open‐data‐software‐and‐apis/ . 
+Practical guidebook to publish open data ( Carrara et al. , 2018 ) Helsinki region data portal Open data and institutional ecosystems : cases ( Kassen , 2018 ) Creating Value through Open Data ( Carrara et al. , 2015 ) McKinsey report ( Manyika et al. , 2013 ) Capgemini report ( Tinholt , 2013 ) Figure 2 presents an integrative model . 
+Previous research has proposed partial explanations focused on one or more of the steps . 
+For example , Carrara , Enzerink , Oudkerk , Radu , and Van Steenbergen ( 2018 ) develop the Open Data lifecycle to explain the processes to publish open data : Collecting , preparing , publishing and maintaining . 
+Berends , Carrara , Engbers , and Vollers ( 2017 ) present the Open Data Value Chain : Creation , validation , aggregation , analysis , services and product , and aggregated services . 
+Abella , Ortiz‐de‐Urbina‐Criado , and De‐Pablos‐Heredero ( 2017b ) propose a model of data reuse value creation in smart cities based in three steps : reusability degree , reuse value , and economic and social value . 
+Additionally , the reusers ' categories proposed are aimed to improve previous classifications . 
+For example , Veenswijk , Koerten , and Poot ( 2012 ) differentiate between public and private sector reusers . 
+Berends et al . 
+( 2017 ) identify Data Value Chain Archetypes : suppliers , aggregators , enrichers , developers , and enablers . 
+Although open data impact has been studied , theoretical models are needed to identify critical elements for open data policies . 
+They can become the best methods to release data , to connect data with other sources to reuse data , to attend different needs coming from different reusers ' profiles , to redefine internal data governance policy and to seek for relevant data for promoting customized services . 
+The effective reuse of data published in open data portals is one of the main goals of decision makers . 
+However , the general lack of information about data reuse limits local analysis . 
+The growth in the amount of open data portals across the world is undeniable but none of them is expected to reach their saturation level in the short term . 
+The global impact of open data could be based on the analysis of the different open data portals , however , their general lack of information about the dynamics inside their ecosystems turn them into low valuable resources . 
+Alternative approaches must be explored while open data portals do not compile regularly this kind of information . 
+Open data portal tools would enable organizations to be sustainable data publishers since they reduce the manual intervention and allow frequently updated datasets to be properly managed . 
+However , without proper data governance , these tools will not fit the manual processes and potential conflicts may appear because of data publication . 
+The categories of reusers proposed would help open data portal managers to define more efficient and accurate promotion policies . 
+Yoon ( 2017 ) studied data reusers ' trust along data reuse process but , future studies could consider trust development associated with each category . 
+Future research could also address data demand assessment depending on reusers ' categories and focus on the viability of their business models . 

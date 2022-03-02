@@ -1,0 +1,130 @@
+In recent years , a large amount of information has been made available online in digital libraries , collections , and archives . 
+Much of this information is stored in unstructured format ( e.g. , text ) and is not organized using any classification system . 
+The sheer volume of available information can be overwhelming for users , making it very difficult to find specific information or even explore such collections . 
+The majority of search interfaces rely on keyword‐based search . 
+However , this approach only works when users have sufficient domain knowledge to be able to generate appropriate queries , but this is not always the case . 
+Users may not know what information is available or not be sufficiently familiar with the information to be able to select appropriate keywords . 
+There are , of course , alternatives to keyword‐based search which are useful in situations where the user is not familiar with the collection . 
+Approaches that provide the user with an overview of the information available in the collection have proved useful for information‐seeking tasks such as exploratory search ( Marchionini , 2006 ) and sense‐making ( Hearst , 2009 ) . 
+For example , faceted browsing has proved useful for exploratory search ( Collins , Viegas , & Wattenberg , 2009 ; Hearst , 2006 ; Smith , Czerwinski , Meyers , Robertson , & Tan , 2006 ) . 
+However , these approaches often presuppose a consistent classification scheme for the collection . 
+Unfortunately , these do not exist for all collections ( e.g. , because the collection is constructed from a disparate set of documents with no classification scheme , or is aggregated across collections with incompatible schemes ) , and manual classification is impractical for all but the smallest of collections . 
+These problems can be ameliorated by using large‐scale automatic data‐analysis techniques to present the unstructured information to the user in a distilled manner which they can browse through . 
+Topic models ( Blei & Jordan , 2003 ; Blei , Ng , & Jordan , 2003 ; Hofmann , 1999 ) offer an unsupervised , data‐driven means of capturing the themes discussed within document collections . 
+These are represented via a set of latent variables called “ topics. ” Each topic is a probability distribution over words occurring in the collection such that words that co‐occur frequently are each assigned high probability in a given topic . 
+Topic models also represent documents in the collection as probability distributions over the topics that are discussed in them . 
+Topic models have been shown to be a useful way of representing the content of large document collections , for example , via visualization interfaces ( topic browsers ) ( Chaney & Blei , 2012 ; Ganguly , Ganguly , Leveling , & Jones , 2013 ; Gretarsson et al. , 2012 ; Hinneburg , Preiss , & Schröder , 2012 ; Snyder , Knowles , Dredze , Gormley , & Wolfe , 2013 ) . 
+These systems enable users to navigate through the collection by presenting them with sets of topics . 
+Topic models are well‐suited for use in these interfaces since they are able to identify underlying themes in collections and can be applied at low human cost , through the use of unsupervised learning . 
+Topics are often represented using a list of terms ; that is , the top‐n words with highest marginal probability within a topic , such as school , student , university , college , teacher , class , education , learn , high , program . 
+Alternative representations such as textual phrase labels ( e.g. , education for our example topic ) can potentially assist with the interpretations of topics , and researchers have developed methods to automatically generate these ( Lau , Newman , Karimi , & Baldwin , 2010 ; Lau , Grieser , Newman , & Baldwin , 2011 ; Mei , Shen , & Zhai , 2007 ) . 
+Approaches that make use of alternative modalities , such as images ( Aletras & Stevenson , 2013b ) , also have been proposed , with the advantage that they are language‐independent and potentially provide at‐a‐glance access to the collection . 
+Intuitively , labels represent topics in a more accessible manner than does the standard term list approach . 
+However , there has not , to our knowledge , been any empirical validation of this intuition—a shortcoming that this article aims to address—in carrying out a task‐based evaluation of different topic model representations . 
+In this , we compare three approaches to representing topics : ( a ) a standard term list , ( b ) textual phrase labeling , and ( c ) image labeling . 
+These are used to represent topics generated from a digital archive of newswire stories , and evaluated in an exploratory search task . 
+The aim of this study is to compare different topic representations within a document retrieval task . 
+We aim to understand the impact of different topic‐representation modalities in finding relevant documents for a given query , and also measure the level of difficulty in interpreting the same topics through different representation modalities . 
+We are interested in answering the following research questions : RQ1 . 
+Which topic representations are suitable within a document browser interface ? 
+RQ2 . 
+What is the impact of different topic representations on human search effectiveness for a given query ? 
+Which topic representations are suitable within a document browser interface ? 
+What is the impact of different topic representations on human search effectiveness for a given query ? 
+First , we review previous work on automatically labeling topics and the use of topic models to create search interfaces . 
+Then , we introduce an experiment in which three approaches to topic labeling are applied and evaluated within an exploratory search interface . 
+The results of the experiment on exploratory search are presented next , followed by intrinsic evaluation of the labels generated by the different methods . 
+In early research on topic modeling , topics were represented as ranked lists of terms with the highest probability , and textual labels were sometimes manually assigned to topics for convenience of presentation of research results ( Mei & Zhai , 2005 ; Teh , Jordan , Beal , & Blei , 2006 ) . 
+The first attempt to automatically assigning labels to topics was described by Mei et al . 
+( 2007 ) . 
+In their approach , a set of candidate labels is extracted from a reference collection using noun chunks and bigrams with high lexical association . 
+Then , a relevance scoring function is defined , which minimizes the distance between the word distribution in a topic and the word distribution in candidate labels . 
+Candidate labels are ranked according to their relevance , and the top‐ranked label is chosen to represent the topic . 
+Magatti , Calegari , Ciucci , and Stella ( 2009 ) introduced an approach for labeling topics that relies on two manually labeled hierarchical knowledge resources : the Google Directory and the OpenOffice English Thesaurus . 
+The automatic labelling of topics algorithm computes the similarity between latent Dirichlet allocation ( LDA ) ‐inferred topics and categories in the topic tree , a preexisting hierarchical set of labeled categories , by computing scores using six standard similarity measures . 
+The label for the most similar category in the topic tree is assigned to the LDA topic . 
+Lau et al . 
+( 2010 ) proposed selecting the most representative term from a topic as its label by computing the similarity between each word and all others in the topic . 
+Several sources of information are used to identify the best label , including pointwise mutual information scores , WordNet hypernymy relations , and distributional similarity . 
+These features are combined in a reranking model . 
+Lau et al . 
+( 2011 ) proposed a method for automatically labeling topics , using Wikipedia article titles as candidate labels . 
+A set of candidate labels is generated in four phases . 
+Primary candidate labels are generated from Wikipedia article titles by querying using topic terms . 
+Then , secondary labels are generated by chunk parsing the primary candidates to identify chunk n‐grams that exist as Wikipedia article titles . 
+Outlier labels are identified using a word‐similarity measure ( Grieser , Baldwin , Bohnert , & Sonenberg , 2011 ) and removed . 
+Finally , the top‐five topic terms are added to the candidate set . 
+The candidate labels are ranked using information from word‐association measures , lexical features , and an information retrieval technique . 
+Mao et al . 
+( 2012 ) introduced a method for labeling hierarchical topics which makes use of sibling and parent–child relations of topics . 
+Candidate labels are generated using a similar approach to the one used by Mei et al . 
+( 2007 ) . 
+Each candidate label is then assigned a score by creating a distribution based on the words it contains , and measuring the Jensen‐Shannon divergence between this and a reference corpus . 
+Results show that incorporating information about the relations between topics improves label quality . 
+Hulpus , Hayes , Karnstedt , and Greene ( 2013 ) use the structured data in DBpedia11 http : //dbpedia.org to label topics . 
+Their approach maps topic words to DBpedia concepts and identifies the best ones using graph centrality measures , assuming that words co‐occurring in text likely refer to concepts that are closer in the DBpedia graph . 
+Basave et al . 
+( 2014 ) presented a method for labeling LDA topics trained on social media streams ( i.e. , Twitter ) using summarization techniques . 
+Their method generates labels which exist in the Twitter stream rather than relying on external knowledge sources . 
+Aletras and Stevenson ( 2014 ) introduced an unsupervised graph‐based method that selects textual phrase labels for topics . 
+PageRank ( Page , Brin , Motwani , & Winograd , 1999 ) is used to weigh the words in the graph and score the candidate labels . 
+In contrast , Aletras and Stevenson ( 2013b ) proposed a method for labeling topics using images rather than text . 
+A set of candidate images for a topic is retrieved by querying an image search engine with the top‐n topic terms . 
+The most suitable image is selected using PageRank . 
+The ranking algorithm makes use of textual information from the metadata associated with each image , and visual features extracted from the analysis of the images themselves . 
+Topic modeling has been used to support browsing in large document collections ( Chaney & Blei , 2012 ; Chuang , Ramage , Manning , & Heer , 2012 ; Ganguly et al. , 2013 ; Gardner et al. , 2010 ; Hinneburg et al. , 2012 ; Newman et al. , 2010 ; Snyder et al. , 2013 ; Wei et al. , 2010 ) . 
+The collection is often presented to users as a set of topics . 
+Users can access documents in the collection by selecting topics of interest . 
+The vast majority of topic‐based browsers developed so far have relied on using lists of terms to represent the topics , and have not made use of previous research on automatically generating labels for topics . 
+We address this limitation by making use of three approaches to labeling topics within a topic‐based browser and carrying out experiments to compare their effectiveness . 
+We conducted an experiment to compare three topic representations : ( a ) lists of terms , ( b ) textual phrase labels , and ( c ) image labels . 
+Users were provided with an interface representing a set of topic models derived from a collection and asked to search for documents that were relevant to a set of queries . 
+We chose to use a search task , given the widely used and well‐understood methods that are available . 
+Interfaces based on topic models are more suited to document browsing , but quantifying performance is less straightforward for this task . 
+We make use of a subset of the Reuters Corpus ( Rose , Stevenson , & Whitehead , 2002 ) , which is both freely available and has manually assigned topic categories associated with each document . 
+The topic categories are used both as queries in the retrieval task and to provide relevance judgments to determine the accuracy of the documents retrieved by users . 
+Twenty topic categories were selected , and 100,000 documents were randomly extracted from the Reuters Corpus . 
+Each document is preprocessed by tokenization , removal of stop words , and removal of words appearing fewer than 10 times in the collection , resulting in a vocabulary of 58,162 unique tokens . 
+Table 1 shows the Reuters Corpus topic categories used to form the collection , together with the number of associated documents . 
+An LDA model was trained22 We make use of the implementation provided by David Blei . 
+https : //www.cs.princeton.edu/~blei/lda‐c/index.html over the document collection using variational inference ( Blei & Jordan , 2003 ) . 
+The number of topics learned was set to T = 100 since topic interpretability in LDA tends to stabilize when T ≥ 100 ( Stevens , Kegelmeyer , Andrzejewski , & Buttler , 2012 ) . 
+Default settings are used for all other parameters . 
+Topics that are difficult to interpret were identified using the method of Aletras and Stevenson ( 2013a ) and removed , leaving a total of 84 topics . 
+The topic‐browsing system developed for this study is based on the publicly available Topic Model Visualization Engine ( TMVE ; Chaney & Blei , 2012 ) . 
+TMVE uses a document collection and an LDA model trained over that collection ( discussed earlier ) . 
+It generates a topic‐browsing system with three main components : ( a ) a main page , ( b ) topic pages , and ( c ) document pages . 
+The main page contains the list of automatically generated topics . 
+Each topic page shows a list of documents with the highest conditional probability given that topic . 
+Document pages show the content of a document together with its topic distribution . 
+We created three separate browsing systems based on TMVE . 
+The only difference between the three systems is the way in which they represent topics , namely : ( a ) term lists , ( b ) textual phrase labels , and ( c ) images . 
+The term lists are created using a standard approach ( discussed later ) , the textual phrase labels are generated from Wikipedia article titles ( Lau et al. , 2011 ) ( discussed later ) , and the image labels are generated using publicly available images from Wikipedia ( Aletras & Stevenson , 2013b ) ( discussed later ) . 
+By default , TMVE only supports the term list representation of topics , and required modification to support textual phrase and image labels . 
+Table 2 shows examples of the labels generated by the three approaches for a sample topic.33 Note that the textual phrase and image labels are created automatically ( discussed later ) and may contain errors . 
+In this example , the logo of the FBI may have been a more suitable image label than the one that was generated . 
+In addition , in the topic page , each topic is associated with its top‐300 highest likelihood documents given the topic . 
+We restrict the number of documents shown to the user for each topic to avoid the task becoming overwhelming . 
+Term lists are generated using the default approach of TMVE : selecting the top‐10 terms with the highest conditional probability within the topic . 
+This is the standard approach to representing topics used within the topic modeling research community . 
+Textual phrase labels are generated using the approach of Lau et al . 
+( 2011 ) , in two phases : candidate generation and candidate ranking . 
+In candidate generation , we use the top‐seven topic terms44 From preliminary experiments , we found that using the top‐10 terms for search occasionally yields no results for a number of topics . 
+to search Wikipedia using Wikipedia 's native search application program interface ( API ) and Google 's site‐restricted search . 
+We collect the top‐eight article titles returned from each of the search engines ; 55 The version of the Google search API used in the original article limited the maximum number of results per query to eight . 
+these constitute the primary candidates . 
+To generate more candidates , we chunk‐parse the primary candidates to extract noun chunks and generate component n‐grams from the noun chunks , excluding n‐grams that do not themselves exist as Wikipedia titles . 
+As this procedure generates a number of labels , we introduce an additional filter to remove labels that have low association with other labels , based on the Related Article Conceptual Overlap ( RACO ) lexical association method ( Grieser et al. , 2011 ) . 
+The component n‐grams that pass the RACO filter constitute the secondary candidates . 
+Last , we include the top‐five topic terms as additional candidates . 
+In the candidate ranking phase , we generate a number of lexical association features of the label candidate with the top‐10 topic terms : pointwise mutual information ( PMI ) , Student 's t test , Pearson 's χ 22 We make use of the implementation provided by David Blei . 
+https : //www.cs.princeton.edu/~blei/lda‐c/index.html test , log likelihood ratio , and two conditional probability variants . 
+Term co‐occurrence frequencies for computing these measures are sampled from the full collection of the English Wikipedia with a sliding window of length 20 words . 
+We also include two features based on the lexical composition of the label candidate : the raw number of terms it contains and the proportion of terms in the label candidate that are top‐10 topic terms . 
+We combine all the features using a support vector regression model to rank the candidates.66 The model is trained using the labeled data collected by the authors in Lau et al . 
+( 2011 ) . 
+The highest ranked candidate is selected as the textual phrase label for the topic . 
+We associate topics with image labels using the approach described by Aletras and Stevenson ( 2013b ) . 
+We generate candidate labels using images from Wikipedia , available under the Creative Commons license . 
+The top‐five terms from a topic are used to query Bing using its Search API.77 http : //datamarket.azure.com/dataset/bing/search The search is restricted to the English Wikipedia,88 http : //en.wikipedia.org with image search enabled . 
+The top‐20 images retrieved for each search are used as candidates for the topic and are represented by textual and visual features . 

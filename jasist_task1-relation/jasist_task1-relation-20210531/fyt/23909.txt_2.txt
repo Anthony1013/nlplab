@@ -1,0 +1,28 @@
+Similarly , the absence of information about how the article search works in the Mendeley API raises the possibility that it is more accurate for some journals than others . 
+The results confirm that articles can have substantial numbers of Mendeley readers when they first appear in Scopus ( Thelwall , 2017b ) and there is no need to wait for the end of the publication year to check this ( Maflahi & Thelwall , 2016 ) . 
+The findings extend previous Mendeley‐related papers by giving evidence that the reason why articles have substantial numbers of readers when they first appear in Scopus is that they were likely to have already been recorded in Mendeley . 
+It also shows , for the first time , that the average number of Mendeley readers per article steadily increases during the publication year and that there are substantial differences between journals in the meaningfulness of the date first indexed in Scopus . 
+The jumps in the average Mendeley reader counts ( Figures 1-6 ) raise the issue of article publication dates . 
+Articles may be published multiple times in different formats , including emailed private preprints , online public preprints , publishers ' online early view versions , and in the official journal issue ( Haustein et al. , 2015 ) . 
+For research evaluation purposes , it is important to know the publication date so that citation or reader counts for an article can be compared against others of the same age ( Waltman , van Eck , van Leeuwen , Visser , & van Raan , 2011 ) . 
+For traditional evaluations with citation windows of 3 years ( Glänzel & Moed , 2002 ) , the time differences between the different publication dates may not make much difference , except for journals with long publication or refereeing delays . 
+For evaluations of recent articles , these differences are more important . 
+The best available solution for early evaluations might be to use the online first date ( Haustein et al. , 2015 ) since the results for the journals analyzed here show that articles can attract substantial numbers of Mendeley readers before their issue publication date , which is therefore obsolete . 
+The necessity for this is clear from the JASIST graphs above because JASIST articles would otherwise have an unfair citation and readership lead over articles in the faster publishing journals . 
+The online first solution gives an advantage to authors that share preprints before the online first version is available , but it does not seem practical yet to systematically gather preprint publication dates for articles . 
+They may appear in various subject repositories , institutional repositories , academic social network sites , or author home pages , which makes systematic data gathering difficult . 
+The data can be used to assess how the correlation between Mendeley readers and Scopus citations evolves weekly for individual issues . 
+Focusing on the first 2016 issues , although by the end of the year there is a positive Spearman correlation between Mendeley readers and Scopus citations for all journals ( 0.07–0.46 ) , earlier correlations are sometimes negative ( Figure 8 ) . 
+This is possible because most citation counts are zero when an issue is first published and so the direction of the correlation can be influenced by individual articles . 
+Spearman correlations between Scopus citations and Mendeley readers for the first issue of each journal over time . 
+Correlations are calculated only for dates when Scopus returned at least three articles from the issue . 
+Despite the existence of jumps in numbers of Mendeley readers at the time of the publication of a journal issue ( Figures 1-6 ) , the discussion above suggests that Mendeley readers for an article do not suddenly appear when an issue is published but steadily increase from the moment when the article is first available online in any version . 
+Thus , Mendeley readership counts can , in theory , be used as early impact indicators from even before an article 's journal issue is published . 
+This is not possible yet for field‐normalized impact indicators , however , because these need comprehensive sets of articles for comparison purposes ( Thelwall , 2017a ) and it is impossible to get comprehensive lists of publications from a journal from Mendeley . 
+This may be practical in the future for journals that publish early view articles that are systematically indexed by Scopus . 
+Until then , it would be possible to generate reasonable field‐normalized indicators on the date when an issue is published because its existing Mendeley readers can be associated with the published versions of the articles . 
+These indicators can be useful for all journals but will be more powerful for journals with long publication backlogs . 
+Comparisons between articles from journals with differing publication delays should avoid bias against articles in rapidly publishing journals by using the online first date rather than the official issue publication date when comparing articles or normalizing indicators . 
+As a reminder , all users of Mendeley‐based indicators should consider systematic biases ( Fairclough & Thelwall , 2015 ) and the potential for manipulation , if used for important evaluations ( Wouters & Costas , 2012 ) . 
+Finally , the substantial numbers of readers on the official publication date of articles and the surrounding discussion suggest that it is now common for articles to be read before they are published in a journal issue . 
+This readership may come from early view articles or preprints shared by authors in other ways but the shift represents a fundamental change in the importance of the formal publication of a journal issue . 

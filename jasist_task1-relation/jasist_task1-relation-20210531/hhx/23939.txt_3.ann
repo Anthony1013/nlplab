@@ -1,0 +1,55 @@
+T1	术语 102 104	IT
+T2	术语 217 219	IT
+T3	术语 425 427	IT
+T4	术语 578 593	cloud computing
+T5	术语 631 645	ST.IT Services
+T6	术语 1209 1212	CIO
+T7	术语 2415 2429	ST.IT Services
+T8	术语 2767 2781	ST.IT Services
+T9	术语 2733 2747	ST.IT Services
+T10	引文作者 3996 4003	Homburg
+T11	引文作者 4006 4013	Bekkers
+T12	引文时间 4014 4018	2002
+T13	引文的结果 3875 3993	This feeling of reduced ownership leads to reduced incentives to engage in the optimal level of information management
+T14	术语 4100 4114	ST.IT Services
+T15	术语 4148 4157	Microsoft
+T16	术语 4160 4162	IT
+T17	引文作者 4296 4303	Homburg
+T18	引文作者 4308 4315	Bekkers
+T19	引文的结果 4334 4404	rental cars are driven less carefully than cars driven by their owners
+T20	引文作者 4750 4757	Demsetz
+T21	引文时间 4760 4764	1967
+T22	术语 6177 6192	cloud computing
+T23	术语 6399 6414	cloud computing
+T24	术语 6529 6544	cloud computing
+T25	术语 6556 6578	Public cloud computing
+T26	术语 7100 7115	cloud computing
+T27	术语 7345 7360	cloud computing
+T28	引文的结果 8155 8303	the notion of ownership plays a strong role in the ability to engage in successful management of records at an organizational or institutional level
+T29	引文作者 8306 8312	Bushey
+T30	引文作者 8315 8323	Demoulin
+T31	引文作者 8328 8337	McLelland
+T32	引文时间 8340 8344	2015
+T33	术语 8358 8372	ST.IT Services
+T34	引文作者 9179 9183	West
+T35	引文作者 9186 9194	O'Mahony
+T36	引文时间 9197 9201	2008
+T37	引文的结果 9026 9176	This can occur by modifying one or more of the design parameters , such as the rights over records management activities or the information governance
+T38	研究结果 9534 9652	First , power relations appear to play a stronger role in the success of an implementation than do professional values
+T39	研究结果 10354 10560	Second , while appropriate design of a new system must include the likely political response of the various occupational groups in an organization , the power of the designers over the outcomes is limited .
+T40	研究结果 10750 10884	Third , knowledge of individual and group power is necessary for appropriate reactions to power imbalances caused by an implementation
+T41	术语 11132 11147	cloud computing
+T42	研究结果 11105 11358	And fourth , the nature of cloud computing itself , insofar as it introduces a third‐party vendor into a relatively stable system , will change the balance of power in an organization , leading to the potential for destabilizing and unproductive results
+R1	has_cited_time Arg1:T12 Arg2:T11	
+R2	coauthor Arg1:T10 Arg2:T11	
+R3	results Arg1:T10 Arg2:T13	
+R4	coauthor Arg1:T17 Arg2:T18	
+R6	has_cited_time Arg1:T21 Arg2:T20	
+R7	results Arg1:T29 Arg2:T28	
+R5	results Arg1:T17 Arg2:T19	
+R8	coauthor Arg1:T29 Arg2:T30	
+R9	coauthor Arg1:T30 Arg2:T31	
+R10	has_cited_time Arg1:T32 Arg2:T31	
+R11	coauthor Arg1:T34 Arg2:T35	
+R12	has_cited_time Arg1:T36 Arg2:T35	
+R13	results Arg1:T34 Arg2:T37	

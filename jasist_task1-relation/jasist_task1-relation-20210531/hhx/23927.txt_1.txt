@@ -1,0 +1,92 @@
+For much of its short existence , the term “ metadata ” ( coined in the late 1960s ) was rarely used outside of information or computer professional discussions of technical systems . 
+This changed overnight in June of 2013 with the first publication of news stories based on Edward Snowden 's leaks of documents about the US National Security Agency 's ( NSA ) digital intelligence collection systems . 
+If “ metadata ” previously referred largely to things like library catalog records , data dictionaries , descriptions of files in Geographical Information Systems , and keywords assigned to academic articles , the term now evokes cell phone call records , e‐mail headers , Internet search logs , GPS location fixes , and data brokers . 
+Despite communications metadata having had historically less legal protections than message contents , the mass collection of digital metadata is central to the ongoing debates surrounding the legality and efficacy of the intelligence gathering programs in the United States and abroad ( Landau , 2013 ) . 
+Increasingly , mass metadata collection represents the future of commercial analytics , software technology development , privacy and human rights , and the production of digital culture . 
+The information sciences have traditionally been at the center of metadata‐focused research . 
+Yet there has been surprisingly little discussion in the information sciences that speaks directly to these broader academic and social debates about the nature of metadata , and their importance within networked communication systems . 
+As of late December 2016 , for example , the Thompson Reuters Web of Science and Google Scholar citation indices return no papers published within JASIS & T that have referred to Edward Snowden by name , and only a couple of papers that refer to the NSA ( none specifically about metadata ) . 
+A small number of information science scholars have examined privacy implications of digital technologies ( cf . 
+Vasalou , Oostveen , Bowers , & Beale , 2015 ; Clement & Obar , 2016 ; Martin & Shilton , 2016 ) , but privacy is only one of many issues related to the NSA leaks that are relevant to the information sciences . 
+In this editorial , we focus on the roles of metadata within networked communication systems , drawing on a range of research that points to current and future challenges in a range of sectors . 
+Traces of human behavior that get recorded as metadata are often hidden from users of digital information infrastructures and computing technologies . 
+But with the publication of numerous NSA news stories about metadata collection programs , and a near constant flow of additional stories about Internet‐based leaks and hacks of user data from Yahoo ! 
+to Target , the metadata‐intensive nature of governments , corporations , and organizations in contemporary society is becoming inescapable . 
+The Internet , cell phone networks , online commerce , and any other “ smart ” device function through the exchange of metadata about our communications and digital activities . 
+Metadata describe a digital or physical object by providing context , indicating quality , or documenting other object characteristics ( Greenberg , 2005 ) . 
+Metadata serve different purposes , and may be categorized in different ways . 
+Gilliland , for example , distinguished between five kinds of metadata—administrative , descriptive , preservation , technical , and use—which have different functions in digital information systems ( Gilliland , 2008 ) . 
+“ Descriptive ” metadata may provide a user with reviews of product from other purchasers , while “ use ” metadata may involve a user 's collective purchase history and allow a system to provide a list of recommendations , advertisements , or even fake news . 
+These functions of metadata , often touted as value‐free and neutral , however , can blur together over time , sometimes in surprising or unexpected ways . 
+Indeed , Facebook 's new fake news initiative to combat viral false claims in users ’ newsfeeds relies on weighing engagement metadata and advertising practices with fact checking to limit misinformation while avoiding censorship ( Isaac , 2016 ) . 
+The collection of traces from people 's everyday behavior in public and private spheres point to metadata as objects of new scholarly inquiry . 
+Theorizing contexts of metadata and creating empirical evidence about its creation and circulation as sociotechnical phenomena of infrastructures and organizations will be one of the animating features that information scientists will need to address in the near future . 
+If we are to engage in meaningful discussions about our digital traces , or make informed decisions about new policies and technologies , it is essential to develop theoretical and empirical frameworks for characterizing the role of metadata within networked communication infrastructures . 
+Metaphors like “ data exhaust ” that are used to describe “ the digital trail that people leave in their wake ” ( Mayer‐Schonberger & Cukier , 2013 , p. 113 ) when using computers or cell phones obscure the nature of metadata within these systems . 
+Calling communication metadata “ exhaust ” or “ smog ” implies that these traces are inevitable , a by‐product of human and technical activities that can not be avoided , and once produced are out of human control . 
+In this paper , we illustrate five key sociotechnical characteristics of metadata within digital networks that challenge such metaphors . 
+These characteristics draw on recent research in the information and social sciences into a number of networked infrastructures , including Internet network protocols , sensing systems used for scientific research , and mobile communication standards . 
+The metadata produced by any technical system result from an active selection by the system designers of what to record and when . 
+Metadata are always recorded with some intended use ( Greenberg , 2005 ) , even if future uses and secondary applications of metadata are not always predictable . 
+For example , decisions were made by the designers of the initial versions of Internet protocols to only attach certain kinds of metadata to Internet messages ( Fidler & Acker , 2014 ) . 
+Similarly , wireless devices are designed to collect and transmit metadata about the time and location from which data are sent , as well as the routes that data take through the networks ( Acker , 2014 ) . 
+These traces—routing metadata—show the designers and operators of communication infrastructures how the networks are operating and where problems occur . 
+Cell network operators , for example , can determine where phone calls are being dropped , or where a cell tower has failed . 
+In another example , shopping franchises from Target to Amazon track metadata about consumers shopping and browsing behavior over time through shopping rewards programs to determine their needs , habits , and buying trends . 
+Metadata are thus designed to enable specific uses and outcomes . 
+Formal distinctions between data and metadata are fuzzy and hard to define ( Gilliland , 2008 ) . 
+Data and metadata are often designated in contradistinction to each other , depending on their different functions and means of interpretation within specific contexts of origin and use . 
+Information traces that serve as metadata for one purpose might be the central data analyzed to study other issues . 
+Certain digital traces may serve as “ metadata ” in one context because they provide information about people 's activity or behaviors , but they may also serve as “ data ” if they are themselves analyzed in other contexts and used as evidence to make a claim or argument ( Borgman , 2015 ) . 
+Calling something “ metadata ” as opposed to “ data ” is a contextual classification that rarely has a self‐evident rationale ( Boellstorff , 2013 ) . 
+For example , new types of sensor networks allow researchers to produce scientific data that were previously difficult or impossible to collect . 
+These sensor networks also produce technical information about data collection instruments and data transmissions . 
+These technical data are background metadata to the scientist , but are essential data to the network operator who monitors and maintains the network ( Borgman , Wallis , & Mayernik , 2012 ) . 
+Similarly , government and humanitarian aid organizations are increasingly marshalling metadata from social media and mobile networks as data to enable more effective targeting of relief aid , the allocation of emergency resources , and deployment of police forces . 
+The use and applications of aggregated metadata did not originate in digital communications infrastructures . 
+Libraries have used structured large‐scale cataloging systems to provide access to information for centuries . 
+Similarly , nation states have collected information about their citizens en masse , such as census data , death certificates , tax records , for hundreds of years . 
+In all of these contexts , embedded sociotechnical assumptions and values impact how metadata are collected and applied . 
+Once such metadata are collected , new applications may be built on top of them opportunistically , to extend services or to create new markets , among other possibilities . 
+For example , car insurance companies have begun to offer lower rates to customers who agree to install a GPS monitoring receiver on their cars that tracks their driving habits : acceleration and stopping in particular ( Lieber , 2014 ) . 
+Open questions remain about how widely these tracking incentives will be deployed , and what parameters will entice people to take them . 
+Metadata collected by social media platforms like Twitter and Facebook underlie a cottage industry of analyses of technology use patterns , personal networks , and information distribution trends ( Schroeder , 2014 ) . 
+In many of these studies , “ big data ” is actually “ big metadata ” that show how digital services are used , relied upon , and standardized . 
+The NSA programs revealed by Edward Snowden operated in a “ collect it all ” mode ( Nakashima & Warrick , 2013 ) , with the goal of collecting as many forms of electronic communication as possible . 
+The goal in aggregating masses of metadata , however , is often to use those metadata to analyze the behavior and intentions of specific individuals , and potentially single out those individuals for particular actions . 
+This is vividly illustrated by former US CIA and NSA director Michael Hayden 's statement in May 2014 , that “ we kill people based on metadata ” ( Cole , 2014 ) . 
+The scale of the NSA programs was explicitly described as necessary to their effectiveness . 
+But as multiple internal NSA documents described , the scale of the communication data and metadata collection present many logistical , technical , and analytical challenges that may , in fact , hinder the production of actionable intelligence ( Maass , 2015 ) . 
+By definition , metadata do not represent every facet of the object ( s ) they describe . 
+For example , metadata about e‐mails may show where , when , and to whom messages are sent , but can not show why those e‐mails were sent . 
+Metadata are thus always showing an incomplete and partial perspective that meets functional needs for particular applications . 
+Computing systems , however , can only operate on the information that they explicitly represent . 
+They must formalize aspects of human behavior into digital representations that can be transmitted and manipulated algorithmically ( Agre , 1997 ) . 
+Metadata that underlie how infrastructures transmit information are designed for a certain set of standards and criteria , but not for others . 
+Analyses of social network activity or digital communications may not account for the limitations or gaps in the underlying metadata , leading to biased or faulty results . 
+For example , individuals named in an August 2015 release of account information stolen from the adult dating site Ashley Madison were at risk of being identified as having conducted extramarital affairs , although such conclusions were not directly supported by the released metadata themselves ( Victor , 2015 ) . 
+Reality is always more complex than any metadata system can depict ( Bowker , 2014 ) . 
+Executable metadata needed for data transmission and communication permeates our networked culture ; indeed , infrastructures can not function without it ( Fidler & Acker , 2014 ) . 
+Yet the partiality of metadata and their capacity for being aggregated present a crucial tension in society . 
+The confusion about the role and significance of metadata within the NSA intelligence programs or “ fake news ” related to the 2016 US presidential election reflects our lack of understanding as a society about the centrality of metadata within our networked devices . 
+Technologists , engineers , and designers need access to metadata in order to monitor , assess , modify , and support infrastructures . 
+We need metadata to land planes , to filter water , to route traffic , and to transport resources across the globe . 
+The immense collection of digital metadata from infrastructures creates new opportunistic encounters for studying the behavior of individuals and groups based purely on their digital traces . 
+As discussed in characteristic # 2 above , however , these metadata may also be repurposed . 
+A vivid example is the IXmaps.ca website developed by Andrew Clement and colleagues at the University of Toronto . 
+This site uses the metadata attached to Internet communications to illustrate how many ( or most ) Internet communications originating across the globe travel through network nodes in the United States , thereby making their potential interception by the US NSA more likely ( Clement , 2014 ) . 
+As these five characteristics illustrate , metadata are fundamentally sociotechnical phenomena ( Edwards , Mayernik , Batcheller , Borgman , & Bowker , 2011 ) . 
+Examining metadata in this light helps to understand the intersections between technologies and social practices , both of which shape the ways we study , create , and critique knowledge . 
+Metadata are central to the design and operation of technical infrastructures , but it is easy to take for granted how much of our personal lives can show up in our digital traces . 
+As one scholar has put it , digital trace metadata can be “ remarkably revelatory ” of our lives and activities ( Landau , 2016 ) . 
+The NSA leaks have illustrated , for example , how mobile phone bills are not simply banal private documents . 
+Likewise , privacy activists have noted how keeping information about some life events ( such as pregnancy ) away from metadata collection programs requires deliberate and sustained effort ( Schneier , 2015 ) . 
+Through analyzing and folding our metadata back in , these systems continue to become more effective . 
+As metadata from our digital communication grow in volume and our use of digital tools proliferates , they will be used and aggregated in ways both known and unknown , intended and opportunistic . 
+For example , Netflix 's hit show “ House of Cards ” was produced based on analytics of metadata descriptors generated by users ( Carr , 2013 ) . 
+The stories these metadata create about our lives will be complex but inherently incomplete . 
+Metadata , such as phone and census records , have always been connected to bodies and lives . 
+Increasingly , this is amplified in the digital space . 
+Such metadata matters are transforming the ways we conceive of data governance and even human rights . 
+In order to participate in the digital world , people must submit to having their metadata created and used for a variety of purposes ( van Dijck , 2014 ) . 
+Given the visibility of this issue , it is critical that the information sciences engage with these issues in a substantive fashion . 

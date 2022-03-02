@@ -1,0 +1,130 @@
+The scale included statements about common privacy control behaviors across social media platforms , such as adjusting default privacy settings and removing privacy sensitive information in SNS . 
+For online self‐disclosure , Min ( 2016 ) argues that self‐presentational information disclosure in SNS is more relevant to user privacy than personally identifiable information disclosure ( e.g. , name and date of birth ) . 
+Hence , I adapted survey items from Taddicken 's ( 2014 ) Self‐Disclosure on the Social Web scale , which assesses the extent to which a person reveals “ personal photos , ” “ personal experiences , ” “ daily activities , ” “ thoughts and opinions , ” and “ feelings , and concerns ” in SNS . 
+Lastly , I adapted four perceived privacy control measurement items developed by Xu et al . 
+( 2011 ) . 
+I assessed the survey instrumentation 's content validity , construct validity , and reliability . 
+Content validity is usually established through literature review and domain expert review . 
+In this case , all survey items were adapted from previously validated instruments in the literature , and an early version of the questionnaire was sent to three senior academics for review . 
+Additional comments about the questionnaire design were gathered through a free‐text question at the end of an online pilot survey ( detailed below ) . 
+After carefully considering both the experts ' and the pilot study respondents ' suggestions , I made minor changes to the instrument , including rephrasing certain items , reordering the blocks of questions , and improving the online interface . 
+To assess the instrumentation 's construct validity and reliability , I conducted a pilot study with workers on Amazon Mechanical Turk ( MTurk ) . 
+MTurk is an online labor marketplace where registered workers volunteer to perform small tasks . 
+Past research has shown that MTurk has the advantage of reaching a more diversified research population than college students and the quality of data collected on MTurk is as good as that collected in conventional survey environments ( Buhrmester , Kwang , & Gosling , 2011 ) . 
+To ensure the quality of the data , I set the prescreening criteria on MTurk to restrict the survey access to workers who had a high task approval rate ( greater than 95 % ) , lived in the United States , and were active SNS users . 
+Once a worker accepted the “ Human Intelligence Task ” or HIT , he or she was then directed to a web‐based survey platform ( Qualtrics ) where the survey was hosted . 
+Qualtrics was also configured to allow only one survey response from each IP address and the IP must be in the United States . 
+175 MTurk workers accepted the HIT and 173 responses were complete and usable . 
+I built a measurement model using SmartPLS and conducted confirmatory factor analysis to assess the validity ( convergent validity and discriminant validity ) and reliability of the instrument . 
+Convergent validity is the degree to which the measurement items for a theoretical construct are correlated with one another , whereas discriminant validity is the degree to which the measures of each construct differ ( Gefen & Straub , 2005 ) . 
+Upon examining the variable loadings and cross‐loadings on each construct , I found high variable loadings ( greater than 0.70 ) on their measured construct , with no cross‐loadings above 0.40 . 
+Reliability is usually assessed by two criteria : Cronbach 's alpha and composite reliability . 
+In this case , Cronbach 's alphas ranged from 0.82 to 0.89 and the composite reliability 0.82 to 0.91 , both indicating good reliability of the instrumentation . 
+In summary , the pilot study established the validity and reliability of the construct measures . 
+Given the target population of the present study ( i.e. , active SNS users ) , I decided to recruit my participants on the most popular SNS platform – Facebook . 
+Conducting the empirical study with Facebook users also helps create a direct dialogue between this study and many previous SNS studies that focused on the same platform . 
+I posted the survey invitation on an American university 's unofficial alumni Facebook Page . 
+The university is a large , public research university located in the East Coast and enrolls more than 37,000 students . 
+The unofficial alumni Page attracted visits from both alumni and some of the current students . 
+At the time I started the survey , the page had accumulated nearly 45,000 “ likes ” and 139,000 “ visits. ” The online survey ( hosted on Qualtrics ) had been active for approximately two months and I received 274 responses in total . 
+I discarded 25 responses that were either incomplete or had obvious validity issues ( for example , identical answers to almost all questions ) . 
+Therefore , my statistical analysis is based on 249 data points ( N = 249 ) . 
+Among the respondents , 137 ( 55 % ) were female , 110 ( 44.2 % ) male , and two ( 0.8 % ) did not reveal their gender . 
+Most of the respondents were in the age groups of 25–34 ( 41.8 % ) and 35–44 ( 27.7 % ) . 
+This is unsurprising given the fact that most of the visitors to the Page were people graduated from the university in recent years . 
+According to data I extracted from Facebook Insights ( facebook.com/ads/audience_insights ) at the time of this writing , the sex distribution in the survey sample is very similar to that of Facebook user population ( 54 % female and 46 % male ) , but I oversampled the 25–44 year olds ( Facebook population : 25–34 , 26 % and 35–44 , 19.5 % ) . 
+Although the sample might not be a representative sample of the Facebook population , I believe it is still a more diverse sample than the college student samples used in previous studies ( e.g. , Wisniewski et al. , 2015 ) . 
+I examined the validity criteria in SmartPLS to confirm the validity of the measurement model ( Table 1 ) . 
+All items loaded higher on their respective constructs than on the other constructs and the cross‐loading differences were much higher than the suggested threshold of 0.1 ( Gefen & Straub , 2005 ) . 
+The square root of average variance extracted ( AVE ) for each latent construct is greater than the correlation between the construct and any other construct , which is an important indication of adequate discriminant validity of the measures ( Fornell & Larcker , 1981 ) . 
+To test for common method variance ( CMV ) , I followed Craighead , Ketchen , Dunn , and Hult 's ( 2011 ) suggestion to use a confirmatory factor analysis ( CFA ) approach in Harman 's single‐factor test . 
+If the covariance among measures is mainly because of common method bias , a one‐factor CFA model would fit better than the measurement model . 
+In this case , the one‐factor model ( Χ 2 = 1675.76 , CFI =0.49 ) yielded a considerable worse fit than the measurement model ( Χ 2 = 337.45 , CFI = 0.94 ) . 
+In addition , I examined the correlation matrix of the factors and found no highly correlated factors ( highest r = 0.502 ) . 
+Therefore , there is little evidence that common method bias would pose a serious threat to my analysis and interpretation of the data . 
+I then examined the structural paths in the research model with all constructs modeled as being reflective , except for the second‐order construct of the need for self‐identity . 
+I tested the hypotheses by examining the sign and significance of the path coefficients . 
+A bootstrapping technique in SmartPLS was applied to estimate the significance of the path coefficients . 
+Of five hypotheses I assessed , only H5 was not supported by the data . 
+The data analysis results are summarized in Table 2 and illustrated in Figure 2 . 
+The motivation of this study is to explore a self‐identity perspective of privacy in the context of SNS use . 
+My research model presents a possible theorization of the relationships between people 's need for self‐identity and their privacy behaviors in SNS . 
+More specifically , the empirical study conducted with Facebook users demonstrates how the need for self‐identity is related to behaviors of privacy management and self‐disclosure . 
+The survey data strongly support H1 in that the need for self‐identity has a positive effect on people 's privacy management behaviors in SNS ( β = 0.588 , p < 0.001 ) . 
+The need for self‐identity also explains a significant amount of variance in privacy management ( R2 = 0.345 ) . 
+Although the literature on self‐identity rarely touches upon the issue of privacy , this result is consistent with psychology research in that individuals high in the need for self‐identity are more concerned about what other people think of them and therefore likely to engage in impression management behavior ( Reno & Kenny , 1992 ) . 
+In the context of SNS use , the need for self‐identity could motivate people to adjust their privacy settings and tidy up their digital breadcrumbs to create a more favorable self‐image to their intended audience ( Min & Kim , 2015 ) . 
+The need for self‐identity has a relatively small but statistically significant direct effect on self‐disclosure ( β = 0.170 , p < 0.05 ) , support H2 . 
+The need for self‐identity also has an indirect effect on self‐disclosure , through privacy management as a mediator . 
+In fact , the positive effect of privacy management on self‐disclosure seems strong ( β = 0.352 , p < 0.001 ) , indicating that activities such as changing default privacy settings and restricting the readership of their posts could lead to greater degree of information release . 
+This finding corroborates with a small number of previous studies showing that privacy control mechanisms could increase SNS users ' willingness to publish sensitive information ( Brandimarte et al. , 2013 ; Stutzman et al. , 2013 ) . 
+Privacy management sets the parameters of one 's boundaries in SNS ( i.e. , what to show and to whom ) and defines one 's initial intention of self‐disclosure in social interactions . 
+It is not surprising to see a positive relationship between privacy management and perceived privacy control ( β = 0.191 , p < 0.01 ) , thus supporting H4 . 
+After all , the very purpose of privacy management is to have control over one 's privacy . 
+As prior research shows , having the option of adjusting the privacy settings afforded by social networking platforms is likely to give the user a feeling of control ( Xu et al. , 2011 ) . 
+Brandimarte et al . 
+( 2013 ) believe that this feeling of control gives users a false sense of safety and misplaced confidence , which encourages more self‐disclosure . 
+However , the data do not support this postulation in H5 . 
+I found no statistically significant relationship between perceived privacy control and self‐disclosure . 
+This seems to suggest that Facebook users in the study undertook privacy management in order to feel in control , but this feeling of control had little to do with their actual disclosure of personal information . 
+A possible interpretation of this intriguing finding is that people accept the inevitable consequence of using SNS ( i.e. , disclosure of personal information ) , no matter how they feel about privacy control . 
+Self‐disclosure behaviors of the survey participants did not vary systematically by age or gender , but the intensity of SNS use correlated positively with disclosure . 
+This is expected because the more active a user is in SNS the more chances are there for them to disclose information . 
+In sum , the results support my view that SNS are , by definition , for co‐creating social spaces where individuals fulfill their need for self‐identity through managing the self‐disclosure . 
+To this end , the common practices among SNS companies that focus on “ informed consent ” ( e.g. , lengthy privacy policy agreement ) are not in line with why and how users disclose their information ( Acquisti et al. , 2015 ) . 
+Although individuals attempt to distinguish themselves from their interaction counterparts , the dissimilarities must be expressed and then negotiated in social interactions . 
+SNS users maintain a self‐identity that is “ simultaneously autonomous and socially valued ” ( Livingstone , 2008 , p. 397 ) . 
+People selectively disclose their information through privacy management to construct the self in different social interaction scenarios . 
+A Facebook user could come to know , express , and maintain a professional self‐identity in her co‐workers ’ network while at the same time present a casual and playful self‐image in her close friends circle . 
+The user is likely to disclose different set of personal information within these two social circles , but the combined amount of information disclosed on the platform is also likely to increase . 
+The results also demonstrate that current privacy management mechanisms implemented by many SNS companies do not seem to fit for purpose . 
+SNS platform operators need to respect the fact that different and sometimes conflicting psychological needs co‐exist in everyday technology use . 
+Although no system design is able to encompass all possible privacy‐sensitive social circumstances , an identity‐based perspective would encourage system designers to move away from a simple public‐versus‐private dichotomy . 
+Dourish and Anderson ( 2006 ) cite studies of offline information behaviors such as teenagers ' secret‐keeping and long‐haul truckers ' information behaviors to illustrate that privacy behavior is a marker of social affiliation and group identity . 
+Therefore , privacy could be considered as a collective , rather than individual , information practice ( Squicciarini , Xu , & Zhang , 2011 ) . 
+This article critically examines the autonomy‐based discourse in information privacy research and argues that the need for self‐identity is an overlooked but important factor in understanding people 's privacy behavior . 
+An empirical study of Facebook users confirms my main hypotheses that the need for self‐identity relates positively to privacy management and self‐disclosure in SNS . 
+I also found that privacy management may boost SNS users ' perceived privacy control , but such perception has little effect on people 's self‐disclosure behavior . 
+The study makes several important contributions . 
+First , my conceptualization of privacy and the empirical results contribute to a deeper understanding of the dialectics in privacy management . 
+I recognize the central role of others in discerning the tension between being public and private , a view in line with Petronio 's ( 2002 ) communication privacy management ( CPM ) theory . 
+CPM highlights the fact that privacy and disclosure are inseparable aspects of a unified dialectical process . 
+Disclosure can not occur if there exists no private information that can be released to others – “ privacy is a necessary condition that one protects or gives up through disclosure ” ( Petronio , 2002 , p. 15 ) . 
+People must give up some measure of privacy to make the private‐public boundary meaningful . 
+However , coming from an interpersonal communication perspective , CPM emphasizes co‐creation of rules in managing privacy boundaries . 
+By contrast , this paper takes a socio‐psychological perspective to explain privacy in relation to the co‐creation of self‐identity with others . 
+In this regard , I expand on the idea of “ inherent need to maintain the boundary ” ( Xu et al. , 2011 ) and provide a self‐identity‐based explanation for the dialectics in privacy management . 
+Second , this study helps explain the so‐called “ privacy paradox ” in the context of online social interactions , i.e. , people say they are concerned about privacy online but act as if they are not . 
+Some researchers have challenged the privacy paradox premise by showing that the more a person is concerned about privacy , the more likely they will employ privacy protection strategies online ( Chen , Beaudoin , & Hong , 2016 ; Utz & Krämer , 2009 ) . 
+These studies tend to focus on SNS users ' profile page protection ( e.g. , restrict public access to one 's personal profile ) , rather than a broader range of information activities as investigated in the present study . 
+As I have discussed earlier , fine‐grained profile settings may create an illusion of control and lead to disclosure of sensitive information to unintended audience in daily communications in SNS ( Hoadley et al. , 2010 ) . 
+From the perspective of self‐identity , it is evident that the seeming “ paradox ” reveals different innate needs of SNS users . 
+In the process of forming one 's self‐identity in social settings , autonomy and disclosure are two sides of the same coin . 
+Individuals are never truly autonomous and privacy is not only about information protection . 
+In a world of mass production and all‐pervading commodification , the physical objects we possess are mostly reproducible and identical to what others have . 
+Sociologists believe that anxiety may arise from being unable to discern “ self ” from “ others ” in society ( Giddens , 1991 ) . 
+This has led to , in the words of Floridi ( 2010 ) , rampant “ informational re‐appropriation ” ( p. 15 ) in online spaces : We try to retain individualism by giving away individual details . 
+In other words , we share information about ourselves to become less informationally indiscernible . 
+Third , this study supports the view that SNS platform designers should adopt privacy management approaches that go “ beyond access control ” ( Mondal et al. , 2014 , p. 1 ) . 
+The tick‐box approach makes sense in relatively straightforward transactional relationship between consumers and merchants but fails to capture the fluidity and complexity of social identity . 
+The one‐size‐fits‐all privacy settings may result in what Marwick and Boyd ( 2011 ) have termed “ context collapse , ” where privacy‐sensitive contexts are not distinguished in access control mechanisms . 
+Individual users are either forced to perform for the lowest common denominator of the broadest possible audience , or struggle to produce plysemic selves that are inherently consistent ( Papacharissi & Gibson , 2011 ) . 
+Some SNS platforms have begun to recognize the privacy needs in different scenarios and tweaked their platform designs in recent years . 
+For example , Google+ Circles and Facebook Groups allow users to categorize their connections based on social categories ( acquaintances , close friends , co‐workers , etc. ) . 
+An individual 's privacy valuation in each of these circles or groups would be different . 
+Such changes are encouraging , but still not fully addressing the fluidity of social circles and dynamics of self‐identity formation . 
+In academic research , Squicciarini et al . 
+'s ( 2011 ) idea of collaborative privacy management in online social networks is a step closer to identity‐based privacy management . 
+Similarly , Lampinen , Lehtinen , Lehmuskallio , and Tamminen ( 2011 ) proposed a design framework that considers disclosure as an interpersonal process in which people collaboratively choose what to disclose about each other . 
+Finally , conceiving privacy in relation to self‐identity helps avoid pitfalls in “ normative and sometimes emotionally charged ” privacy debates ( Smith et al. , 2011 , p. 1003 ) . 
+Autonomy is a value‐laden term that carries the baggage of liberal individualism ( Cohen , 2012 ) , which may overshadow alternative conceptualizations of privacy in academic discussions . 
+Identity , on the other hand , is a more neutral concept that has been included in diverse discourses in various intellectual traditions . 
+An identity‐based privacy view may help encourage diverse theorizations and new insights in privacy research . 
+It is worth clarifying that I am not arguing for the superiority of the self‐identity perspective over other frameworks in studying information privacy , nor do I imply that the research model presents a complete picture of complex relations between self‐identity and other socio‐psychological factors relevant to privacy . 
+Rather , my aim has been to illustrate the potential of a somewhat overlooked concept in explaining SNS users ' privacy behavior and in generating plausible and interesting hypotheses . 
+To this end , this study has its limitations and leaves some open questions for future research . 
+First , the study focuses on self‐identity of individual users in a large SNS with heterogeneous social relationships , omitting the important dimension of group identity in small social groups with more homogeneous social relationships ( Squicciarini et al. , 2011 ) . 
+Social psychologists and information science researchers have long observed the effects of group identity on individual members ' behavior , both offline and online ( e.g. , Ahn , 2011 ; Terry , Hogg , & White , 1999 ) . 
+According to Smith et al. ’ s ( 2011 ) interdisciplinary literature review , very few studies have considered the group level of analysis in information privacy research . 
+Several promising research questions arise when consider both identity and privacy at a group level : In an online social group , how does an individual 's self‐identity interact with her group identity in shaping her privacy behavior ? 
+Does a strong identification with the group lead to more disclosure of personal information ? 

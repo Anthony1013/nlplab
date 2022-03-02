@@ -1,0 +1,89 @@
+T1	引文作者 2810 2817	Cootner
+T2	引文时间 2820 2824	1962
+T3	引文时间 7082 7086	2017
+T4	引文作者 7071 7079	Barreiro
+T5	引文作者 7057 7064	Parapar
+T6	引文作者 6845 6850	Aslam
+T7	引文作者 6853 6858	Pavlu
+T8	引文作者 6863 6869	Yilmaz
+T9	引文时间 6872 6876	2006
+T10	引文作者 6879 6889	Carterette
+T11	引文时间 6892 6896	2007
+T12	引文作者 6899 6906	Cormack
+T13	引文作者 6909 6915	Palmer
+T14	引文作者 6920 6926	Clarke
+T15	引文时间 6929 6933	1998
+T16	引文时间 6952 6956	2016
+T17	引文作者 6959 6965	Moffat
+T18	引文时间 6975 6979	2007
+T19	引文作者 6936 6942	Losada
+T20	表 5612 5687	Table 1 presents the statistics of the collections used for experimentation
+T21	引文时间 7939 7943	2003
+T22	引文作者 7921 7926	Aslam
+T23	引文作者 7957 7963	Losada
+T24	引文时间 7973 7977	2017
+T25	引文作者 9209 9218	Culpepper
+T26	引文作者 9196 9202	Moffat
+T27	引文作者 9191 9193	Lu
+T28	引文时间 9221 9225	2016
+T29	引文作者 10100 10106	Yilmaz
+T30	引文作者 10109 10114	Aslam
+T31	引文作者 10119 10128	Robertson
+T32	引文时间 10131 10135	2008
+T33	引文作者 10720 10728	Voorhees
+T34	引文时间 10731 10735	2000
+T35	引文作者 12047 12049	Lu
+T36	引文作者 12052 12058	Moffat
+T37	引文作者 12065 12074	Culpepper
+T38	引文时间 12077 12081	2016
+T39	引文作者 12956 12962	Yilmaz
+T40	引文作者 12965 12970	Aslam
+T41	引文作者 12975 12984	Robertson
+T42	引文时间 12987 12991	2008
+T43	引文作者 13576 13584	Voorhees
+T44	引文时间 13587 13591	2000
+T45	图 14799 14898	These two collections were also used for learning the fits of the training queries ( see Figure 1 )
+T46	表 15260 15407	The parameters learned with the training collection ( and tuning grids ) are reported in Table 2 , and the test results are shown in Tables 3 and 4
+T47	具体模型 126 128	MA
+T48	具体模型 220 222	MA
+T49	具体模型 613 615	MA
+T50	具体模型 520 522	MA
+T51	具体模型 2738 2740	MA
+T54	引文的结果 10559 10717	A number of researchers have considered that levels of correlation above 0.85 indicate that the rankings of runs , although not identical , are highly similar
+T55	研究结果 17084 17317	The results clearly demonstrate that some stopping methods can substantially reduce the assessment effort , and the suitability of the resulting relevance assessments as a tool for evaluating retrieval performance was not compromised
+T52	研究方法 7207 7357	We therefore adopted Hedge as our reference method to adjudicate documents for judgment and focused on evaluating the stopping methods discussed above
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	coauthor Arg1:T6 Arg2:T7	
+R3	coauthor Arg1:T7 Arg2:T8	
+R4	has_cited_time Arg1:T9 Arg2:T8	
+R5	has_cited_time Arg1:T11 Arg2:T10	
+R6	coauthor Arg1:T12 Arg2:T13	
+R7	coauthor Arg1:T13 Arg2:T14	
+R8	has_cited_time Arg1:T15 Arg2:T14	
+R9	has_cited_time Arg1:T16 Arg2:T19	
+R10	has_cited_time Arg1:T18 Arg2:T17	
+R11	field_similar_as Arg1:T6 Arg2:T10	
+R12	field_similar_as Arg1:T10 Arg2:T12	
+R13	field_similar_as Arg1:T12 Arg2:T19	
+R14	field_similar_as Arg1:T19 Arg2:T17	
+R15	coauthor Arg1:T5 Arg2:T4	
+R16	has_cited_time Arg1:T3 Arg2:T4	
+R17	has_cited_time Arg1:T21 Arg2:T22	
+R18	has_cited_time Arg1:T24 Arg2:T23	
+R19	coauthor Arg1:T27 Arg2:T26	
+R20	coauthor Arg1:T26 Arg2:T25	
+R21	has_cited_time Arg1:T28 Arg2:T25	
+R22	coauthor Arg1:T29 Arg2:T30	
+R23	coauthor Arg1:T30 Arg2:T31	
+R24	has_cited_time Arg1:T32 Arg2:T31	
+R25	results Arg1:T33 Arg2:T54	
+R26	has_cited_time Arg1:T34 Arg2:T33	
+R27	coauthor Arg1:T35 Arg2:T36	
+R28	coauthor Arg1:T36 Arg2:T37	
+R29	has_cited_time Arg1:T38 Arg2:T37	
+R30	coauthor Arg1:T39 Arg2:T40	
+R31	coauthor Arg1:T40 Arg2:T41	
+R32	has_cited_time Arg1:T42 Arg2:T41	
+R33	has_cited_time Arg1:T44 Arg2:T43	
+T53	引文时间 13594 13598	2001
+R34	has_cited_time Arg1:T53 Arg2:T43	

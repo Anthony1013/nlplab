@@ -1,0 +1,64 @@
+T1	引文作者 147 151	Ding
+T2	引文作者 154 160	Cronin
+T3	引文时间 163 167	2011
+T4	引文作者 309 314	Huang
+T5	引文作者 301 304	Hsu
+T6	引文时间 320 324	2010
+T8	引文作者 1656 1660	Ding
+T9	引文时间 1663 1667	2011
+T10	图 2727 2979;2980 3001	When plotting the coauthorship network with nodes colored by the representing author 's gender ( shown in Figure 3 ) , we find that there exist many same‐color clusters , which demonstrates the authors ' preference for the same‐gender collaboration . 
+ Plot of collaboration
+T11	图 2727 2979;2980 3001	When plotting the coauthorship network with nodes colored by the representing author 's gender ( shown in Figure 3 ) , we find that there exist many same‐color clusters , which demonstrates the authors ' preference for the same‐gender collaboration . 
+ Plot of collaboration
+T13	引文作者 15562 15570	Barabási
+T14	引文时间 15336 15341	2001a
+T15	引文时间 15580 15584	2002
+T16	引文作者 15697 15705	Boschini
+T17	引文作者 15708 15715	Sjögren
+T18	引文时间 15718 15722	2007
+T19	引文作者 15014 15023	Birnholtz
+T20	引文作者 15101 15106	Fuchs
+T21	引文作者 12477 12482	Mitra
+T22	引文时间 12485 12489	2009
+T23	引文时间 15109 15113	1992
+T24	引文作者 15116 15123	Whitley
+T25	引文时间 15126 15130	2000
+T26	引文时间 15026 15030	2007
+T27	引文作者 15327 15333	Newman
+T28	引文作者 12654 12662	Cummings
+T29	引文作者 12665 12672	Kiesler
+T30	引文时间 12675 12679	2005
+T31	引文时间 12375 12379	2005
+T32	引文作者 12365 12372	Kiesler
+T33	引文作者 12354 12362	Cummings
+T34	图 4825 5078	A core‐periphery structure thus emerges , wherein a large group of nodes ( see the lower part of Figure 2 ) are well connected and form the “ core ” structure , which represents that this author preference accounts for most collaborations in the network
+T35	图 4293 4373	We thus observe a few triangular clusters in the collaboration graph in Figure 2
+T36	引文时间 4173 4177	2003
+T37	引文作者 4163 4167	Park
+T38	引文作者 4152 4158	Newman
+T39	研究展望 16141 16348	In the future , we will apply ERGMs to author citation networks and overlay outcomes with the coauthorship network to study whether the impact can drive the levels and preferences of scientific collaboration
+T40	研究展望 16353 16471	In addition , we will conduct a temporal analysis to better understand the dynamic aspects of scientific collaboration
+T41	研究结果 13919 13973	gender could be a barrier for initiating collaboration
+T42	研究结果 15151 15264	in most disciplines the collaboration networks are social networks , and thus will have some attributes in common
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T3 Arg2:T2	
+R3	coauthor Arg1:T5 Arg2:T4	
+R4	has_cited_time Arg1:T6 Arg2:T4	
+T12	图 2727 2975	When plotting the coauthorship network with nodes colored by the representing author 's gender ( shown in Figure 3 ) , we find that there exist many same‐color clusters , which demonstrates the authors ' preference for the same‐gender collaboration
+T43	图 5381 5496	Figure 4A–E shows the collaboration among the authors whose core research interests are Topic 1 to 5 , respectively
+T7	图 1338 1601	When plotting the coauthorship network with nodes colored by the representing author 's most used topic ( shown in Figure 2 ) , we find that there exist many same‐color clusters , which demonstrates the authors ' preference for same or similar topic collaboration
+R5	has_cited_time Arg1:T9 Arg2:T8	
+R6	coauthor Arg1:T38 Arg2:T37	
+R7	has_cited_time Arg1:T36 Arg2:T37	
+R8	coauthor Arg1:T33 Arg2:T32	
+R9	has_cited_time Arg1:T31 Arg2:T32	
+R10	coauthor Arg1:T29 Arg2:T28	
+R11	has_cited_time Arg1:T22 Arg2:T21	
+R12	has_cited_time Arg1:T30 Arg2:T29	
+R13	has_cited_time Arg1:T26 Arg2:T19	
+R14	has_cited_time Arg1:T25 Arg2:T24	
+R15	has_cited_time Arg1:T23 Arg2:T20	
+R16	has_cited_time Arg1:T14 Arg2:T27	
+R17	coauthor Arg1:T16 Arg2:T17	
+R18	has_cited_time Arg1:T18 Arg2:T17	
+R19	has_cited_time Arg1:T15 Arg2:T13	

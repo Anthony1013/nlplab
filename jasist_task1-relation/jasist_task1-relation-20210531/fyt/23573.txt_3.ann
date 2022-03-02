@@ -1,0 +1,40 @@
+T1	研究结果 440 544	we conclude that the order of the exposure to the interfaces influences the number of performed searches
+T2	术语 909 918	precision
+T3	术语 1010 1016	recall
+T4	研究结果 2120 2257	in terms of user satisfaction with the interface , the users preferred the ontology‐based search rather than the free‐text type interface
+T5	引文作者 2308 2316	Bar‐Ilan
+T6	引文时间 2329 2333	2012
+T7	引文作者 2340 2346	Hearst
+T8	引文作者 2351 2357	Rosner
+T9	引文时间 2360 2364	2008
+T10	研究结果 4280 4469	participants preferred the ontological search due to its ability to provide semantically related terms ( from both explicit and metaphoric dimensions ) to those initially chosen by the user
+T11	研究展望 5616 5706	This finding sheds some light on the differences in language knowledge between generations
+T12	研究结果 6662 6902	participants preferred the ontological interface since it enabled proverb retrieval by the given term 's relationships with other terms ; that is , a search expanded by contexts rather than by individual terms that a user could come up with
+T13	软件工具 7040 7046	Google
+T14	研究结果 7781 7944	In particular , the results show a more than 80 % increase in recall and up to 10 % in precision for ontology‐based retrieval compared to that for free‐text search
+T15	研究结果 7949 8189	Furthermore , the “ wisdom of the crowds ” relevance that includes only the proverbs retrieved by more than 10 participants achieved results very close to that of the experts ( 90 % precision , 82 % recall ) for the ontology‐based interface
+T16	研究结果 8227 8297	the ontology substantially minimized user effort in the search process
+T17	研究结果 8302 8397	The ontology enabled users to perform fewer searches for retrieving much more relevant proverbs
+T18	研究结果 8627 8719	in the case of proverbs , an ontology is a necessary tool for effective and efficient search
+T19	引文作者 8765 8779	Bar‐Ilan et al
+T20	引文时间 8783 8787	2012
+T21	引文作者 8801 8812	Cardew‐Hall
+T22	引文时间 8815 8819	2008
+T23	引文作者 9018 9026	Bar‐Ilan
+T24	引文时间 9039 9043	2012
+T25	引文作者 9643 9654	Cardew‐Hall
+T26	引文作者 9630 9638	Sinclair
+T27	引文时间 9657 9661	2008
+T28	研究展望 10800 10910	Further work will enrich the resulting ontology with concepts created by collaborative tagging of new proverbs
+T29	引文作者 8790 8798	Sinclair
+R1	coauthor Arg1:T21 Arg2:T29	
+R2	has_cited_time Arg1:T22 Arg2:T21	
+R3	has_cited_time Arg1:T20 Arg2:T19	
+R4	field_similar_as Arg1:T19 Arg2:T29	
+R5	has_cited_time Arg1:T24 Arg2:T23	
+R6	coauthor Arg1:T25 Arg2:T26	
+R7	has_cited_time Arg1:T27 Arg2:T25	
+R8	has_cited_time Arg1:T9 Arg2:T8	
+R9	coauthor Arg1:T8 Arg2:T7	
+R10	has_cited_time Arg1:T6 Arg2:T5	
+R11	field_similar_as Arg1:T5 Arg2:T7	

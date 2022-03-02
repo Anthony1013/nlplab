@@ -1,0 +1,76 @@
+Among the five analyzed enterprises , Telecom Italia‐TIM and Unicredit Group are the only ones which received for 2016 the CRF Institute “ Top Employers Italia ” certification.33 http : //www.top‐employers.com/Certified‐Top‐Employers/ ? 
+Certificate=61 Telecom Italia‐TIM constantly invests in new technologies , such as the development of a new 4G mobile network and of new high‐speed fixed line connections . 
+The investment strategy has been the object of many communication campaigns . 
+In addition , these campaigns have been supported by corporate communication efforts with a high level of symbolic meanings , focused on organizational values . 
+The corporate communication has also supported the rebranding process , which ended at the beginning of 2016 . 
+Eni is an Italian multinational oil and gas company . 
+Founded in 1953 , it operates in 79 countries and is currently one of the top 20 world 's largest industrial companies . 
+Eni is a state‐owned enterprise : the Italian government owns more than 30 % of the company . 
+The number of tweets about the organization , collected during the first week of observation , is roughly four times the value obtained for the same firm in the other two collection periods . 
+This is probably because of a journalistic inquiry that involved the company and to which the company decided to answer publicly via Twitter . 
+In the inquiry , Eni was suspected to have paid a huge kickback to probe the seabed in Nigeria . 
+The company made a big effort to control the discourse on Twitter , succeeding in significantly reducing the negative impact on its reputation . 
+Enel is an Italian multinational enterprise operating in the utilities industry . 
+It produces and distributes electricity and gas in Italy and abroad . 
+Established as a public company in 1962 , it was privatized in 1999 . 
+At the present , the Italian government owns more than 25 % of the company shares . 
+Fortune acknowledged Enel with the fifth position in the “ Change the world ” 2015 list.44 http : //fortune.com/change‐the‐world/2015/ This list comprises companies that had positive social impact through activities that are part of their core business strategy . 
+Enel achieved this acknowledgement thanks to its ability to overcome barriers to the development of renewable energy . 
+UniCredit Group is an Italian global banking and financial services company founded in 1998 , operating in 50 markets and in 17 countries . 
+The Group is committed in social issues and is a reference point for nonprofit organizations thanks to the Unicredit Foundation . 
+The involvement in social topics is well promoted through social networks . 
+Unicredit Group was rewarded with the 2016 CRF Institute “ Top Employers Italia ” certification,55 http : //www.top‐employers.com/Certified‐Top‐Employers/ ? 
+Certificate=61 together with Telecom Italia‐TIM . 
+Layoff plans involving 12,000 employees were announced by Unicredit in September 2015 . 
+Pirelli & C. is an Italian multinational tire manufacturer , active in more than 160 countries with 19 manufacturing sites around the world . 
+It is the world 's fifth‐largest tyre manufacturer , after Bridgestone , Michelin , Continental and Goodyear . 
+Pirelli & C. experienced a change in the ownership of the company in 2015 , when it was acquired by ChemChina ( March‐November 2015 ) . 
+Since 1907 the company has been sponsoring major sport competitions , becoming the exclusive supplier for the 2011–2019 Formula One Championships and for the FIM World Superbike Championship . 
+Table 2 shows the results of our classification algorithm , together with the number of collected tweets for each company . 
+As Table 2 shows , the highest volume of tweets was observed in the first collection week for all the leadership dimensions . 
+Eni had the highest volume of tweets in each area , with more than 55 % of all the tweets in the period : This was probably driven by the fact that at that time there was a journalistic inquiry about the company . 
+Beside the unbalanced distribution of tweets among collection periods , we also notice that most of the tweets that refer to a leadership area pertain to the symbolic one , which accounts for more than 20 % of the whole traffic volume . 
+The fact that a relatively large proportion of tweets is classified as “ none of the others ” is because a significant part of the discourse is related to topics which are not directly connectable to leadership styles . 
+What is more important in our study is to understand the relative proportions of tweets in the different leadership areas , to have a first understanding of the leadership profiles of the analyzed companies . 
+Moreover , if a manager should discover that the discourse about his/her company on Twitter is completely unrelated to leadership styles , this would be an important warning . 
+Figure 3 shows the overall distribution of tweets in each leadership dimension for each company . 
+Overall distribution of tweets . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] This study was neither conceived with the aim of presenting a ranking of the five companies , nor with the idea of proving a causal link between the results and specific facts or management policies . 
+These companies offer different products and operate in different business sectors , so they are not directly comparable . 
+Our main objective is to present a tool which can offer a quick assessment of perceived leadership styles to company managers . 
+Telecom Italia‐TIM had its best results in the Symbolic and Behavioral dimensions , probably partially influenced by the fact that the company has a dedicated customer service on Twitter , which allowed direct interactions with customers , and by the rebranding campaign promoted to advertise the new company values . 
+A lower performance was found in the Political and Structural areas ; this might have been partially influenced by the frequent changes in the corporate governance that have been going on since 2014 . 
+These changes could have produced some fear in the employees because of the possibility of a downsizing of the company ; moreover , such rotations in the governance could have generated a sense of uncertainty , even with respect to the possibility of actually realize the planned investments . 
+Results for Eni were partially influenced by the journalistic inquiry that involved the company and to which the company decided to answer publicly via Twitter . 
+The company made a big effort to successfully control the discourse on Twitter . 
+The best performance was in the Symbolic dimension followed by the Political one . 
+Enel had a relatively good performance in all the four dimensions of leadership , except for the Behavioral area . 
+The area in which Enel had its best performance is the Symbolic dimension . 
+This is in line with Fortune having acknowledged the company with the fifth position in the “ Change the world ” 2015 list . 
+About the good performance in the Structural dimension , this could be partially justified with the fact that , at the beginning of 2016 , the CEO of Enel Green Power ( one of the subsidiaries of Enel ) led the merger between the subsidiary and the parent company , to take advantage of the potential synergies of the two organizations . 
+Among the five organizations analyzed UniCredit Group is the one that had the lowest number of tweets . 
+Results show that Unicredit had its best performance in the Behavioral area , followed by the Structural and Symbolic areas . 
+This good positioning was obtained notwithstanding the layoff plans announced in September 2015 , probably thanks to the social activities carried out by the Unicredit Foundation . 
+The performance in the Political dimension was rather poor . 
+Last , Pirelli & C. showed relatively poor results in the Behavioral , Political and Structural areas . 
+This seems to be at least partially influenced by the change in the ownership of the company in 2015 , when it was acquired by the foreign company ChemChina . 
+The only dimension in which the organization had a good performance is the Symbolic area ; this is probably attributable to the fact that Pirelli is the exclusive supplier of major sport competitions , such as the Forumla One Championship . 
+This has a strong communicative impact , consistent with the brand positioning , and enforces the trust of consumers in the high quality of the company products . 
+In this paper , we propose a text classification approach to evaluate perceived organizational leadership profiles , based on a SVM algorithm . 
+We referred to the four leadership dimensions of the 10‐factor leadership model proposed by Barchiesi and La Bella ( 2007 ) , which was combined with our methods to overcome some of the limitations of traditional surveys . 
+We analyzed the dialogue with the stakeholders on Twitter and the leadership styles of five large multinational Italian companies . 
+Results show that the insights and the measures provided by our methodology can allow an almost real‐time assessment of perceived leadership styles and could help studying the impact of real events involving a company . 
+The tool we developed can be very useful for firms which aim to understand their perceived leadership styles , as they emerge from the dialogue with the stakeholders and as they may appear to the generic social media user . 
+Finally , an automated assessment of perceived leadership can also be helpful to compare the positioning of the company with respect to its competitors . 
+This could be done analyzing a set of companies operating in the same industry . 
+In this way , insights about a leadership repositioning strategy could be obtained , identifying the areas of possible improvement . 
+Moreover , the analysis could be repeated over time , to draw a trajectory in the evolution of leadership profiles . 
+This experimental study has several limitations , such as the monitoring of a single social media platform ( Twitter ) and the discussion of results that are referred to companies operating in different industries . 
+We suggest replicating our experiment , possibly including other social media platforms , such as Facebook , choosing a more homogeneous sample of firms and , if possible , distinguishing the tweets of the internal employees from those of the external stakeholders . 
+We also suggest extending the observation period , to soften the effects of events which might happen just before or during the data collection . 
+In this way , the assessment could be more pertinent to the actual feelings of the stakeholders , without being biased by exceptional events . 
+For a more extensive assessment of perceived leadership styles , one could also consider seasonal trends . 
+However , the objective of our case study was not to provide a complete evaluation of company profiles , for instance for a year , but to illustrate a method which can provide an almost real‐time assessment , for specific events or timeframes . 
+Last , our SVM classifier could be improved including the analysis of the sentiment of the language used in the tweets . 
+Such a choice could offer a new element to help distinguishing between positive and negative tweets affecting each leadership area . 
+It would also be possible to replicate the study looking at the internal communication of employees and leaders , for instance considering email messages instead of tweets , to combine text mining with other leadership performance indicators ( Tashiro et al. , 2012 ) . 

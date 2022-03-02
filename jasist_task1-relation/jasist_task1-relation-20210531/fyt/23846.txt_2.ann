@@ -1,0 +1,18 @@
+T1	引文作者 1238 1247	Avramescu
+T2	引文时间 1250 1254	1979
+T3	引文作者 1257 1259	Li
+T4	引文作者 1262 1264	Ye
+T5	引文时间 1267 1271	2014
+T6	引文作者 2459 2463	Marx
+T7	引文时间 2466 2470	2014
+T8	研究结果 1450 1504	less than 5 % of the articles from 1980 are SGs or SBs
+T9	研究结果 1516 1570	more than 90 % of the articles are neither SGs nor SBs
+T10	研究展望 1575 1691	Further studies could try to identify additional typical citation patterns in the annual citation counts of articles
+T11	研究结果 3467 3679	Because more or less pronounced early peaks ( SGs ) and late peaks ( SBs ) are characteristics of nearly all annual citation distributions , the citation angle β could be used to explore various citation patterns
+T12	研究展望 3684 3799	The investigation of these patterns using the citation angle concept could be interesting topics for future studies
+T13	研究结果 3230 3384	Despite its inherent limitations ( see above ) , the citation angle β is a promising measure to analyze and describe the changes in annual citation curves
+T14	研究结果 878 1034	By using the citation angle β and the beauty coefficient B as unified measures , the citation phenomena SG and SB can be simply united and uniformly studied
+R1	has_cited_time Arg1:T7 Arg2:T6	
+R2	has_cited_time Arg1:T2 Arg2:T1	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	has_cited_time Arg1:T5 Arg2:T4	

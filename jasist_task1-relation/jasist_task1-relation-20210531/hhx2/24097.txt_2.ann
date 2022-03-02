@@ -1,0 +1,72 @@
+T1	图 987 1095	Quality was associated with all the main metrics presented in Figure 3 and generally related to publications
+T2	引文作者 8440 8447	Bennett
+T3	引文作者 8450 8456	Genoni
+T4	引文作者 8461 8467	Haddow
+T5	引文时间 8470 8474	2011
+T6	引文时间 8485 8489	2015
+T7	引文作者 8477 8482	Knott
+T8	引文作者 9789 9795	Butler
+T9	引文作者 9805 9814	Verleysen
+T10	引文作者 9817 9823	Weeren
+T11	引文时间 9826 9830	2016
+T12	引文时间 9798 9802	2008
+T13	引文的结果 9520 9786	Nevertheless , they support previous work relating to citation coverage and publication practices for Psychology , which used metrics ( citations and h‐index ) in the highest proportions , and Law , which used citation‐based tools ( h‐index and impact factor ) least
+T14	引文的结果 9963 10158	The research also confirms one of the few previous studies of citations use in the social sciences , with Sociology scholars using all the citation‐based tools in relatively high numbers ( 45 % )
+T15	引文作者 10161 10172	Buela‐Casal
+T16	引文作者 10175 10179	Zych
+T17	引文时间 10182 10186	2012
+T18	引文作者 11285 11291	Naylor
+T19	引文时间 11301 11305	2001
+T20	引文的结果 11360 11537	the journal article is “ king , ” and these publications are most able to provide quantifiable assessments in an environment that is focused on a “ results‐oriented vocabulary ”
+T21	引文作者 11540 11553	Dahler‐Larsen
+T22	引文时间 11556 11560	2014
+T23	引文时间 11894 11898	2012
+T24	引文作者 11792 11799	Burrows
+T25	引文的结果 12467 12527	an ambivalent attitude towards using metrics is not uncommon
+T26	引文的结果 12572 12741	the tension emanating from “ a message from the exogenous evaluation that directly contradicts the endogenous valuation of communication channels by their disciplines. ”
+T27	引文的结果 12742 12936	In this study , fields that traditionally produce books are seeing the value of those research outputs diminishing , which may in turn lead to the breaking of “ existing habits and convictions ”
+T28	引文作者 12423 12429	Laudel
+T29	引文作者 12432 12438	Gläser
+T30	引文作者 12448 12455	Wouters
+T31	引文时间 12441 12445	2006
+T32	引文时间 12458 12462	2014
+T33	引文作者 12534 12540	Laudel
+T34	引文作者 12545 12551	Gläser
+T35	引文作者 12939 12952	Dahler‐Larsen
+T36	引文时间 12955 12959	2012
+T37	引文时间 13349 13353	2015
+T38	引文作者 13325 13331	Malsch
+T39	引文作者 13336 13343	Tessier
+T40	引文的研究问题 13305 13612	This finding evokes Malsch and Tessier 's ( 2015 , p. 85 ) autoethnographic research about ranked journal lists in accounting , in which the term “ identity fragmentation ” is used to describe junior researchers ' experience of being driven “ professionally and intellectually in contradictory directions. ”
+T41	研究展望 14247 14422	If a similar study was to be conducted , using free text for the field question , may produce more precise results in order to compare differences across the social sciences .
+T42	时间 16596 16600	2018
+R1	coauthor Arg1:T2 Arg2:T3	
+R2	coauthor Arg1:T3 Arg2:T4	
+R3	has_cited_time Arg1:T5 Arg2:T4	
+R4	has_cited_time Arg1:T6 Arg2:T7	
+R5	field_similar_as Arg1:T7 Arg2:T2	
+R6	results Arg1:T8 Arg2:T13	
+R7	has_cited_time Arg1:T12 Arg2:T8	
+R8	coauthor Arg1:T9 Arg2:T10	
+R9	has_cited_time Arg1:T11 Arg2:T10	
+R10	field_similar_as Arg1:T9 Arg2:T8	
+R11	results Arg1:T15 Arg2:T14	
+R12	coauthor Arg1:T15 Arg2:T16	
+R13	has_cited_time Arg1:T17 Arg2:T16	
+R14	has_cited_time Arg1:T19 Arg2:T18	
+R15	results Arg1:T21 Arg2:T20	
+R16	has_cited_time Arg1:T22 Arg2:T21	
+R17	has_cited_time Arg1:T23 Arg2:T24	
+R18	coauthor Arg1:T28 Arg2:T29	
+R19	has_cited_time Arg1:T31 Arg2:T29	
+R20	has_cited_time Arg1:T32 Arg2:T30	
+R21	field_similar_as Arg1:T30 Arg2:T28	
+R22	results Arg1:T33 Arg2:T25	
+R23	coauthor Arg1:T33 Arg2:T34	
+R24	results Arg1:T34 Arg2:T26	
+R25	results Arg1:T28 Arg2:T25	
+R26	results Arg1:T35 Arg2:T27	
+R27	has_cited_time Arg1:T36 Arg2:T35	
+R28	coauthor Arg1:T38 Arg2:T39	
+R29	has_cited_time Arg1:T37 Arg2:T39	
+R30	produces Arg1:T38 Arg2:T40	

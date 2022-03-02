@@ -1,0 +1,130 @@
+Authorship analysis is the process of analyzing the authors of a disputed anonymous document , which uses a statistical study of linguistics called stylometry ( Baayen , Halteren , Neijt , & Tweedie , 2002 ) to identify the background of authors of the questioned text document . 
+The task of authorship analysis is considered as a very old research topic . 
+The first endeavor for identifying the writing style of a text document was in the 19th century with the study of Mendenhall ( 1887 ) on the Shakespeare 's plays . 
+Several studies in the 20th century have also focused on analyzing a text document by exploiting measurements of some stylometric features in order to determine the author 's writing style of the document ( Zipf , 1932 ) . 
+In recent years , authorship analysis has received increasing attention and has been considered an important problem in many fields , including information retrieval and computational linguistics . 
+This importance springs from the fact that a large amount of disputed information of documents on the internet needs to be analyzed and investigated . 
+Many different scenarios have been considered for studying authorship analysis . 
+For example , the work of Koppel and Winter ( 2014 ) focused on the authorship verification problem , also called the similarity detection problem . 
+It aimed to determine whether two documents were written by the same author without the attention of the real author . 
+In this case , there is no need to have a set of candidate authors . 
+Another important scenario , which has been studied extensively in the last few years , is authorship attribution ( Savoy , 2015 ; Stamatatos , 2009 ) . 
+The idea is that , given text samples of a number of candidate authors , we are required to determine which of them is the real author of a given disputed text document . 
+In this article , we address another intriguing application scenario , which is also related to authorship analysis , called “ multi‐author document decomposition. ” The trajectory of this scenario is to decompose a document written by more than one author into components each written by only one author . 
+Although this problem is very important because of applications in plagiarism detection ( Stamatatos , 2011 ) , forensic analysis ( Orebaugh , Kinser , & Allnutt , 2014 ; Grant , 2007 ) , and intelligence issues ( Layton , Watters , & Dazeley , 2010 ) , studies in this area have been extremely limited so far . 
+The work in Koppel , Akiva , Dershowitz , and Dershowitz ( 2011 ) considered a new unsupervised approach for decomposing a multi‐author document into authorial parts . 
+They created artificially merged documents by using only one dataset containing five biblical books , which were written in Hebrew by five authors . 
+However , this approach is limited to a specific type of document only ( i.e. , Hebrew‐language documents ) , and it has been tested using only documents formed by two authors . 
+Akiva and Koppel ( 2012 ) presented an unsupervised approach for identifying distinct authorial components of a multi‐author document . 
+Unlike the approach described in Koppel et al . 
+( 2011 ) , this approach has been tested on documents written by two , three , and four authors , and also it is a language‐independent approach . 
+However , the overall accuracy of this approach is not high enough . 
+One year later , this approach was further improved in Akiva and Koppel ( 2013 ) by taking advantage of distance‐based methods . 
+However , when the number of authors increased to more than two , the accuracy degraded significantly . 
+For the same purpose , the approach was examined in Giannella ( 2015 ) and an improved approach called BayesAD was proposed , where the number of authors of the document can be either known or unknown . 
+However , only documents with very few turns among authors were tested in the work , and its performance heavily relied on the parameter setting . 
+Recently , we presented a new approach in Aldebei , He , and Yang ( 2015 ) for unsupervised multi‐author document decomposition based on the Naive‐Bayesian model . 
+It requires the estimate of a threshold value to produce good results . 
+In Daks and Clark ( 2016 ) , the authors proposed an unsupervised approach for segmenting documents according to their authorships . 
+However , they assumed that each document had been written by only a single author . 
+Some researchers have focused on the task of text intrinsic plagiarism detection . 
+The task , which was directly addressed in the PAN 2011 competition ( Kestemont , Luyckx , & Daelemans , 2011 ; Oberreuter , LHuillier , Rios , & Velasquez , 2011 ; Rao , Gupta , Singhal , & Majumder , 2011 ) , aims to determine whether a given suspicious document contains plagiarized text or not when no reference documents are provided . 
+Furthermore , it detects plagiarized text in the case that the document has a plagiarism . 
+Most algorithms in intrinsic plagiarism detection attempt to detect plagiarized passages by analyzing style changes within the document . 
+Unlike the task of this article , in intrinsic plagiarism detection usually most sentences of the document are written by one author ( i.e. , the main author ) with a limited percentage of the document written by other authors of which the number is not known . 
+Whereas in the task that our work targets , each author has written long successive sentences in a document . 
+Some other researchers , such as Brooke , Hammond , and Hirst ( 2012 ) , have presented a model for automatically segmenting a stylistically inconsistent text , i.e. , identifying the points in a “ multi‐personal ” poem The Waste Land ( 1922 ) by T.S . 
+Eliot , where the style changes . 
+The work in Brooke , Hirst , and Hammond ( 2013 ) has also considered an unsupervised approach to distinguish voices in the same poem . 
+Typically , classical learning models are considered for constructing a classifier that can accurately predict the labels of new data given some training data . 
+The main assumption made with regard to these models is that the data are independently and identically distributed ( IID ) from an unknown probability distribution . 
+In our work , instead of assuming that the data are IID , we propose a novel idea to make use of the sequence of the data , that is , the contextual relationship between the sentences . 
+These sequences provide valuable sequential correlations . 
+Sequential patterns are of great practical importance for many computational linguistic applications ( Bishop , 2006 ) , where they have been employed to enhance the prediction accuracy of classifiers . 
+In our work , we propose to segment a multi‐author document into components according to authorship . 
+We consider the contextual information hidden among a series of sentences and propose to use the Hidden Markov Model ( HMM ) to explore the sequential patterns in the document . 
+Note that the initial idea of this work has recently been published in the ACL conference ( Aldebei , He , Jia , & Yang , 2016 ) . 
+A simple HMM was constructed to find a useful sequential correlation between consecutive sentences of the document , which achieved very encouraging results . 
+In this paper , we further extend our work and propose a two‐stage HMM model to utilize the sequential patterns among sentences more comprehensively . 
+Apart from more details and experiments that are included to disclose the benefit of this idea , this paper distinguishes from our previous work ( Aldebei et al. , 2016 ) significantly in the following three new contributions : We propose to utilize the useful sequential correlations among the consecutive sentences to determine the authorial components and construct a two‐stage HMM called “ SequentialUD ” — Sequential Unsupervised Decomposition , to model the relationships between authorships and sentences . 
+To further boost the performance of this approach , a boosted HMM learning procedure is proposed . 
+The initial classification results obtained using the statistically learned and preliminary HMM are used to create a labeled training dataset to learn a more accurate HMM . 
+Moreover , the contextual relationships among sentences are further utilized to refine the classification results and a refined version of the SequentialUD is proposed . 
+In summary , the new approach proposed in this paper further exhibits the benefits of exploring the sequential patterns of sentences for analyzing a document 's authorships . 
+This approach is completely unsupervised and does not require the availability of any information of authors or document 's context . 
+It is effective even when the topics in the document are not distinguishable among authors . 
+When the number of authors increases , the performance of this approach is still very satisfactory . 
+To the best of our knowledge , there have been no similar ideas reported in the literature . 
+The following section presents the framework of our proposed SequentialUD approach . 
+The detailed procedure of estimating the initial parameters and learning the preliminary HMM using our proposed statistical approach are first given . 
+The preliminary HMM is then used for the initial sentence decoding . 
+In the section “ Learning the Boosted HMM , ” the predicted labels are then used to create a labeled dataset from the unlabeled input , which is used to learn the final , boosted HMM . 
+Eventually , sentence classification results are produced . 
+A refinement procedure based on a modified probability indication procedure is proposed to further improve the purity , detailed in “ Refinement With ModPIP. ” Then the experiments are presented , with conclusions given at the end . 
+The problem of multi‐author document decomposition can be more formally presented as follows . 
+Suppose that there are N ( a known number greater than 1 ) authors who have participated in creating a document C , where each author has written long successive sentences in the document and each sentence is written by only one author . 
+The goal is to decompose the sentences in the document into components according to their authorship , so that all sentences in a component are written by only one author . 
+The framework of the proposed approach is shown in Figure 1 . 
+The modules enclosed by dashed lines represent the two stages of the proposed SequentialUD approach , that is , Estimating the Preliminary HMM , and Learning the Boosted HMM . 
+Optionally , the classification results can be refined to further improve its purity by performing ModPIP , resulting in a refined version of the SequentialUD approach . 
+The framework of the proposed SequentialUD and its refined version . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As seen in Figure 1 , our proposed SequentialUD approach has two main stages . 
+In the first stage , given unlabeled input data , we first propose a statistical approach to estimate the initial parameters of a preliminary HMM , which enables the Baum–Welch Algorithm to learn the preliminary HMM . 
+Once the preliminary HMM is learned , it is used to estimate the best sequence of authors for sentences in document C using the Viterbi Algorithm . 
+With these initial prediction results , the approach then proceeds to Stage 2 , where the problem now becomes a supervised learning problem to learn a boosted HMM . 
+The predicted labels resulting from the first stage are now used to create a new , labeled training dataset , which is then used to learn a more accurate HMM . 
+In the end , the Viterbi Algorithm is used again to find a more accurate sequence of authors for the sequence of all sentences of document C . 
+As an optional step , the classification results can be further refined by making use of the contextual information . 
+To make use of the contextual information for document decomposition , we utilize the Hidden Markov Model ( HMM ) , a widely used effective technique for sequential learning models , and take benefit from the powerful HMM tools to improve the classification purity result . 
+In this section , for the integrity of this paper , we first briefly introduce the HMM . 
+Then we focus on how we formulate our document decomposition problem into the HMM and address the parameter initialization problem with no labeled data . 
+HMM is a statistical probabilistic model for sequential data consisting of a sequence of observable data and a hidden variable , which is not directly observable , for all observed data . 
+The observable data are called “ observations ” and the hidden variables are called “ hidden states ” . 
+The hidden states in HMM form a Markov chain and the probability distribution of the observation depends on the underlying state . 
+Let us denote the T observations as and the hidden states as , where qt is the hidden state of the tth observation ot . 
+Each observation , which is assumed to be a discrete symbol , has one of the possible values from the set of observations and each hidden state has one of the values from the set of states . 
+Here M and N represent the number of distinct observations and the number of distinct states in the model , respectively . 
+Figure 2 illustrates the graphical structure of the HMM . 
+A graphical model of the HMM with T hidden states ( ) and T observations ( ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The conditional probability is called the “ transition probability ” . 
+The transition probabilities of all possible state values can be formed in an N × N transition matrix , denoted by A . 
+Each probability is given by , where si , sj and . 
+The initial state q 1 is defined as a marginal distribution . 
+All initial states are represented by a vector , denoted by . 
+Each probability is given by , where and . 
+The conditional probability is called the “ emission probability ” . 
+In this article , because we assume that the observations are discrete symbols where each observation has one of the M possible values , the emission probabilities of all observations given their states are formed in an N × M emission matrix , denoted by B . 
+Each conditional probability is given by , where wk , si . 
+An HMM can be defined by the above three probabilities , denoted as , with = { A , B , } , for brevity . 
+In this article , to prevent computational underflow , all probabilities are computed as logarithms . 
+We consider HMM for a document decomposition problem , where each observation represents one sentence and the hidden states represent the authors of the document . 
+The goal is to decompose the document based on the writing style , which is determined by the hidden state , that is , authorship . 
+The size of the observation and hidden state sequence , denoted by T , is the number of sentences in the document . 
+In our model , due to that the number of distinct observations is not clearly observable , and the chance of having more than one sentence with the same syntactic structure is very low , we consider the number of unique observations ( i.e. , M ) is also equal to the number of sentences in the document ( i.e. , T ) . 
+Specifically , where is the number of sentences in document C . 
+The number of unique states is equal to the number of authors of the document , which is denoted by N . 
+The purpose of this model is to find the most probable sequence of authors who could have generated a given series of sentences in a document . 
+Normally , the learning process starts with some initial values of . 
+For unsupervised learning problems ( like the one we are dealing with ) , the initial values of are not directly observed and therefore need to be manually set . 
+The selection of has a significant impact on the overall efficiency of the model , as it directly affects the convergence rate of the learning process , as well as whether the learning process can converge on a global maximum ( Hoang & Hu , 2004 ) . 
+In our work , we propose a statistical approach and make use of the contextual information of sequential data to initiate the HMM parameter set . 
+Next , we give the details of initializing these parameters in the order of transition matrix A , prior , and emission probability B . 
+These are detailed as follows . 
+We first create a sequence of segments , where each segment is a series of v successive sentences from the document and does not overlap with any other segments . 
+Intuitively , the segment length v relates to the length of the document , as well as the mean Author Run Length ( simplified as meanARL ) , which represents the mean number of successive sentences in the document written by the same author . 
+In the section Experiments , a detailed analysis is provided to find the most appropriate value of v for a given document . 
+We then collect the statistic of the segments . 
+Note that working on segments instead of sentences allows us to capture the sequential patterns of sentences . 
+Formally , let us denote the series of segments as : . 
+For a document of size , this produces e segments , where . 
+Notice that each segment may be either a pure segment , where its sentences are produced by a single author , or a mixed segment , where its sentences are produced by more than one author . 
+For each segment , we then extract a feature vector based on the concept of “ Bag of Words ” . 
+To do this , first a word list is created for the document , where distinct words ( i.e. , the words occurred three or more times in the document ) are added into a word list , denoted by , where D 1 is the length of the list ( i.e. , the total number of words in the list ) . 
+In this paper , a word is defined as a consecutive sequence of letters and digits . 
+Then each segment is represented as a D1‐dimension binary vector using the word list BagOfWords 1 , where each dimension takes a value of 1 or 0 , with 1 indicating the corresponding word in the list appears in the segment and 0 indicating not . 
+Thus , the segments SEG can be represented as a sequence of e D1‐dimension binary feature vectors , denoted by . 
+More details can be found in the Experiments section . 
+With the binary feature vectors X , we then cluster them into different groups , each representing a unique writing style . 
+The Gaussian Mixture Model ( GMM ; McLachlan & Basford , 1988 ) is adopted for clustering after comparing with classical clustering methods such as K‐means . 
+Because there are N authors who have contributed writing the document C , the GMMs have N Gaussian components , each representing a different author 's writing style . 
+Each vector xi , , is clustered into one of the N Gaussian components . 

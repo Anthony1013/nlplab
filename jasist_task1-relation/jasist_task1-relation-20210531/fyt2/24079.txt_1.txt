@@ -1,0 +1,130 @@
+A unique characteristic of scholarly communication in computer science ( CS ) is the role of conference publications . 
+CS community regards conference articles as a primary channel of disseminating research outcomes as much as journal articles ( Bar‐Ilan , 2010 ; Franceschet , 2010 ; Glänzel , Schlemmer , Schubert , & Thijs , 2006 ; Vardi , 2009 ) . 
+Unlike conferences in other science fields , the CS conferences usually attract original research articles , which go through a peer‐review process . 
+For some conferences , reviews get synthesized by meta‐reviewers , who are similar to journal editors . 
+The competitiveness and prestige of a conference is often indicated by its acceptance rate . 
+Leading conferences typically show an acceptance rate lower than 20 % ( Cabanac & Preuss , 2013 ) . 
+The CS community has discussed its conference‐centric publishing culture , especially on the subject of review system and article quality ( Birman & Schneider , 2009 ; Fortnow , 2009 ; Ragone , Mirylenka , Casati , & Marchese , 2013 ) . 
+However , the tradition of holding conference publications in high regard has been established as a de facto norm by the practice of computer scientists for decades , and has been even legitimized as a formal method of evaluating CS scholars for hiring , promotion , and tenure ( Franceschet , 2010 ; Montesi & Owen , 2008 ; Vardi , 2009 ) . 
+In addition , large bibliometric databases such as Scopus and Web of Science that had focused on peer‐reviewed journal articles began to index conference proceedings for citation counting around the mid‐2000s ( De Sutter & Van Den Oord , 2012 ) . 
+Accounting for the importance of conference publications in CS , researchers have investigated both conference and journal articles , and sometimes , conference articles alone ( for instance , Cavero , Vela , & Caceres , 2014 ; Franceschet , 2011 ; González‐Albo & Bordons , 2011 ; Kuhn & Wattenhofer , 2008 ; Staudt , Schumm , Meyerhenke , Gorke , & Wagner , 2012 ) . 
+These bibliometrics studies have provided a birds‐eye view of authorship characteristics in conferences and journals through advanced data mining techniques applied to large‐scale authorship data from , for instance , CiteSeer , Google Scholar , and DBLP . 
+What is still missing , however , is the understanding of how conference and journal publications are different in terms of individual CS scholars . 
+A few examples of specific questions may include : ( i ) Does an author who publishes many articles in conferences tend to do so in journals ? 
+And ( ii ) how many coauthors of an author work with the author both in conference and journal articles ? 
+These questions can be answered when individual authors are considered as a unit of analysis for mining publication data across conferences and journals . 
+Such microscopic observations of publishing patterns per author can be aggregated into insights that help others ( esp . 
+from the fields where conferences are not a main venue of communicating research ) better understand the distinct publishing culture in CS . 
+A proper understanding of CS publication practice by non‐CS people matters because it can guide hiring bodies , funding organizations , and promotion committees “ to make more informed decisions ” about how to evaluate CS conference publications ( Freyne , Coyle , Smyth , & Cunningham , 2010 ) , as many CS scholars get hired and conduct research in a variety of disciplines . 
+As such , this article aims to add new knowledge to previous research on the CS authorship by taking an author‐based approach to comparing the conference versus journal publications . 
+In the following section , related work is introduced to contextualize this study . 
+The difference between conference and journal publications has been often discussed with respect to article quality . 
+For example , Chen and Konstan ( 2010 ) found that articles in conferences with a low acceptance rate ( around 30 % ) attract the same amount of citations as or more citations than journal articles . 
+On the other hand , Freyne et al . 
+( 2010 ) argued that articles in leading conferences show an impact , as measured via the Web of Science 's journal citation metrics , similar to that of articles published in intermediate‐level ranking journals . 
+Analyzing more than 300,000 publication records , a recent study showed that top CS conference articles are more highly cited than journal articles , but articles in medium or low‐ranking conferences are not much different in citation frequency from journal articles ( Vrettas & Sanderson , 2015 ) . 
+Some researchers , however , raised the concern that citation‐based metrics may underestimate the impact of conference articles because bibliometric databases such as ACM 's digital library , Scopus , and Web of Science do not fully cover conference publications ( De Sutter & Van Den Oord , 2012 ) . 
+Another branch of research has focused on the extension of conference articles into journal articles or vice versa . 
+In a study of sampled CS scholars , around 25~33 % of CS‐related conference articles were found to lead to journal publications ( Bar‐Ilan , 2010 ) , supporting the similar findings from an interview with 22 editors of 13 CS journals and 122 authors ( Montesi & Owen , 2008 ) . 
+Recently , a study surveying 200 articles reported that about 26 % of conference articles were extended or republished in journals ( Wainer & Valle , 2013 ) . 
+A similar conference‐to‐journal transition ratio ( 30 % ) was reported for research publication in the field of computer vision ( Eckmann , Rocha , & Wainer , 2012 ) . 
+These transition ratios are lower than the one for medicine ( 30~50 % ) ( Miguel‐Dasit , Martí‐Bonmatí , Sanfeliu , & Aleixandre , 2006 ) and comparable to or lower than 33 % in informetrics ( Aleixandre‐Benavent , Gonzalez‐Alcaide , Miguel‐Dasit , Navarro‐Molina , & Valderrama‐Zurian , 2009 ) . 
+Some researchers have argued that the conference‐to‐journal transition of research articles can be explained by authors ' motivation to enhance research visibility and impact , as journal articles are believed to attract more citations than conference articles ( González‐Albo & Bordons , 2011 ; Goodrum , McCain , Lawrence , & Giles , 2001 ; Lisée , Larivière , & Archambault , 2008 ) . 
+Others have studied publishing and collaboration patterns of individual scholars . 
+Their results have shown that , for example , the average number of authors per article has increased over time across CS subfields regardless of journals and conferences ( Fernandes & Monteiro , 2017 ) . 
+On average , conference articles have a larger number of authors ( 2.69 ) than journal articles ( 2.35 ) ( Franceschet , 2011 ) . 
+CS scholars need to seek many coauthors who appear only once in their publication and not ever in others , if they want to publish many articles ( Cabanac & Preuss , 2013 ) . 
+Productivity of CS scholars has been shown to increase with the number of subfields in which authors have published journal articles ( Subramanyam , 1984 ) . 
+For conferences , scholars who have collaborated with a diverse group of scholars are more productive than others ( Shi et al. , 2011 ) . 
+In addition , the coauthorship network of scholars who appear in conference articles has a smaller average shortest path than the journal‐articles‐based network ( Franceschet , 2011 ) . 
+Despite their contributions , the aforementioned studies neglect a relevant research aspect . 
+The extension of conference articles into journal articles has been discussed mostly with regard to topics or contents at a document level , not in terms of individual scholars . 
+Two exceptions exist . 
+The first is the work by Franceschet ( 2010 ) comparing the difference of conference versus journal publication counts of three top CS scholar groups ( top 10 prolific , top 10 high in h‐index , and 16 ACM Turing Awardees ) . 
+The study did not , however , extend the comparison to a larger pool of ordinary CS scholars . 
+Also relevant is a survey of 200 CS articles in Wainer and Valle ( 2013 ) , which found that among articles extended into subsequent studies , 62 % ( conference ) and 55 % ( journal ) of authors continued to appear in the extended work . 
+The authorship transition was , however , not distinguished for journal‐to‐conference and conference‐to‐journal coauthorship transitions per author . 
+In coauthorship network or productivity studies where individual authors are analyzed , either conference or journal authorship data are mined without justification of the selection , or , when they are studied together , they are often treated as the same type of publication , not as two different ones . 
+Several digital library services provide a comprehensive authorship profile of individual scholars in CS conferences and journals . 
+However , their fine‐grained authorship information for each scholar does not usually result in the aggregate knowledge of how the difference of conference and journal authorship patterns can lead to an overall publishing trend of CS scholars . 
+Thus , this study aims to complement previous studies by comparing the difference of conference versus journal publication patterns at an individual level and thereby understanding better the publication trend in CS . 
+For this purpose , especially , this article calculates ratios of overlapped coauthors and title words per author using a TF‐IDF‐based cosine similarity measure , which is utilized for the first time on this topic . 
+In the present study , the analysis was performed with regard to debut year , publication count , coauthorship , and title keyword . 
+In the next section , the data acquisition and processing for this task is detailed . 
+Authorship information about CS scholars was obtained from the DBLP computer science bibliography ( subsequently referred to as DBLP ) ( Ley , 2002 ) . 
+Each record has a unique publication id , author name ( s ) , year , publication venue , title , and so on . 
+DBLP indexes publications in computing research in a broad sense , including major venues in library and information science , and indexes articles published both in conferences and journals . 
+DBLP is highly recognized for its quality control using an algorithmic author name disambiguation enhanced with manual inspection ( Ley , 2009 ; Reitz & Hoffmann , 2013 ) . 
+DBLP data have been analyzed in numerous studies for name disambiguation , collaboration mapping , and data management ( for instance , Cavero et al. , 2014 ; Franceschet , 2011 ; Kim & Diesner , 2017 ; Shi et al. , 2011 ) . 
+Recently , the accuracy of DBLP author name disambiguation was evaluated on multiple labeled data sets ( Kim , 2018 ; Kim & Diesner , 2015 ) . 
+The DBLP disambiguation was highly accurate and performed better than other algorithmic disambiguation techniques except on some homonym cases ( Kim , 2018 ) . 
+The XML format of DBLP collection ( September 2017 version ) was downloaded and parsed using Java parsers provided by DBLP.11 Downloaded at dblp.org/xml/release/dblp-2017-09-03.xml.gz A total of 3,404,499 conference or journal article records were selected for analysis after several filtering steps . 
+( i ) Publications other than conference and journal articles ( such as books , reviews , and theses ) and conference or journal articles without author names , titles , or publication years were excluded . 
+( ii ) Conference publications in DBLP appeared first in 1959 , while the record of journal publications goes back to 1936 . 
+For the purpose of comparing authorship difference in conferences and journals , articles published before 1959 were omitted . 
+Also , articles published in 2017 were excluded because records for that year are incomplete due to , for instance , the lag time in publisher indexing . 
+( iii ) Following Cabanac , Hubert , and Milard ( 2015 ) , articles in CoRR22 Computing Research Repository ( http : //arxiv.org/corr/about ) . 
+or IACR Cryptology ePrint Archive33 https : //eprint.iacr.org/ were excluded . 
+Although they are categorized as journal articles in DBLP , they are not peer‐reviewed , their status ( for instance , draft , preprint , or published ones ) is unclear , and they often lead to duplicate records ( for instance , both a preprint in CoRR and its journal version article are recorded in DBLP ) . 
+( iv ) Articles that have common titles such as editorial , news , and introduction , and appear three or more times in DBLP were filtered . 
+( v ) Finally , articles were not included if they have the same titles and authors in the same venues . 
+As this study aims to analyze how an author 's publishing pattern in conferences and journals is different , only authors who have ever published both in conferences and journals were selected for the target population , resulting in a total of 517,763 unique authors . 
+Note that in DBLP , unique authors are represented by name strings . 
+Some authors share names ( homonyms ) and , if not properly disambiguated , can be mistaken as the same author . 
+To handle these homonymous cases , DBLP team uses a network‐based community detection technique as well as manual inspection and assigns four‐digit numbers to each distinct author with the same name ( for instance , Wei Wang , Wei Wang 0001 , Wei Wang 0002 , and so on ) ( Momeni & Mayr , 2016 ) . 
+In contrast , some unique authors are recorded by two or more name strings ( synonyms ) in the DBLP raw data . 
+For these cases , the DBLP online service matches different author name strings believed to refer to the same scholar and list them on the scholar 's publication profile ( “ a.k.a ” section ) . 
+For this study , such synonyms were consolidated using the “ a.k.a ” information.44 The list of 39,152 author name pairs in synonym relation was kindly provided by Florian Reitz at DBLP . 
+Next , each unique author was assigned a list of her/his conference and journal publications . 
+This process produced a total of 7,652,228 author‐publication instances . 
+For example , if author A has published 12 articles in conferences and 8 in journals , then s/he comes to have a list of 20 author‐publication instances . 
+Each instance was formatted as follows : author name , venue type ( conference or journal ) , publication year , coauthor names , and article title . 
+This list was used to measure the differences of conference versus journal publications per author and the outcomes of all authors were aggregated for calculating mean , median , and standard deviation ( SD ) values . 
+A debut year , as a proxy of an academic age , is the year where an author 's first publication appears in DBLP . 
+This was found to be the strongest predictor of actual age ( in terms of birth and PhD years ) of scholars ( Nane , Lariviere , & Costas , 2017 ) . 
+A limitation is that the debut year of a scholar includes the dormant period of scholarly publication after the last article has been published . 
+Meanwhile , a career year of a scholar is the duration of publication activity ( Milojević , 2012 ) , which is measured as the difference of the last and the first years when his/her publication appears in conferences ( conference career year ) or journals ( journal career year ) . 
+The value varies between –1 ( complete dominance of journal publication ) , 0 ( balance ) , and 1 ( complete dominance of conference publication ) . 
+This calculation is a variation of the Jaccard Coefficient and its interpretation is intuitive . 
+The CoauOverlap varies between 0 ( no shared coauthor ) and 1 ( every coauthor appears both in conference and journal articles ) . 
+Here , each coauthor list ( CC = conference coauthor list and JC = journal coauthor list ) is represented as a vector of coauthors where the value of each coauthor ( CC i or JC i ) is the TF‐IDF weight of his/her appearance . 
+The TF ( Term Frequency ) counts how often a coauthor has collaborated in each list with a target author ( for whom the cosine similarity is calculated ) , which is normalized by the number of unique coauthors in each list . 
+This normalized TF discounts two lists ' similarity when one long list includes all coauthors in the other and they are regarded to be highly similar . 
+The IDF ( Inverse Document Frequency ) considers how often a coauthor in each list appears in other target authors ' coauthor lists , discounting the effect of common coauthors who would make lots of lists to appear similar to each other . 
+It is calculated by counting the total of coauthor lists ( regardless of whether they are conference or journal lists ) in data , dividing it by the number of coauthor lists containing the specific coauthor , and then getting the logarithm ( base 10 in this study ) of the output . 
+Finally , the TF‐IDF is the product of TF and IDF . 
+The value of CoauCosine varies between 0 ( quite dissimilar ) and 1 ( quite similar ) but , unlike CoauOverlap , its interpretation may not be straightforward . 
+This can be illustrated in Table 1 . 
+Let 's assume that an author has two coauthor lists and both of them contain A , B , C , and D coauthors . 
+The numbers in each cell represent the TF‐IDF weights of each coauthor . 
+As the author has the same sets of coauthors , the CoauOverlap values in three cases are the same ( = 1.00 ) . 
+Depending on the TF‐IDF values , however , the CoauCosine values can differ much . 
+In Case 1 , A has different weights across lists while other coauthors have constant weights . 
+In Case 2 , weights in one list are reversed in order in the other list . 
+In Case 3 , weights in one list increase or decrease by the same proportion ( that is , ×4 ) in the other list . 
+These examples show that CoauCosine measures coauthor list similarity in a different way from CoauOverlap . 
+Specifically , given a set of overlapping coauthors between conference and journal articles , CoauCosine will be high if coauthors collaborate with a target author by a similar order of collaboration frequency both in conference and journal articles ( for instance , top frequent coauthors in conference and journal articles are the same , and the next frequent coauthors are the same , and so on ) , while each coauthor 's effect on similarity will be discounted by the length of the list containing the coauthor and the frequency of the coauthor 's appearance in other lists . 
+The value varies between 0 ( no shared word ) and 1 ( every word appears both in conference and journal articles ) . 
+Here , each word list ( CW = conference word list and JW = journal word list ) is represented as a vector of words where the value of each word ( CW i and JW i ) is the TF‐IDF weight of its appearance . 
+The TF ( Term Frequency ) counts how often a word has appeared in each list for a target author , which is normalized by the number of unique words in each list . 
+The IDF ( Inverse Document Frequency ) considers how often a word in each list appears in other target authors ' word lists . 
+It is calculated by counting the total of word lists ( regardless of whether they are conference or journal lists ) in data , dividing it by the number of word lists containing the specific word , and then getting the logarithm ( base 10 in this study ) of the output . 
+The value of WordCosine varies between 0 ( quite dissimilar ) and 1 ( quite similar ) . 
+Given a set of overlap title words between conference and journal articles , WordCosine will be high if words appear by a similar order of frequency both in conference and journal articles ( for instance , top frequent words in conference and journal articles are the same , and the next frequent words are the same , and so on ) , while each word 's effect on similarity will be penalized by the length of the list containing it and its frequency in other lists . 
+An author 's academic debut , as a proxy of academic age , is the first year when a publication written by the author appears in conferences and/or journals . 
+As the submission‐to‐publication time in conferences is shorter than that in journals ( Birman & Schneider , 2009 ; Fortnow , 2009 ; Freyne et al. , 2010 ) , it may be inappropriate to directly compare publication years of conferences and journals to find which type of venue , journal or conference , serves as the debut stage of an author . 
+In this study , however , publication year is considered as it is . 
+Out of 517,763 authors who have ever been active in both conferences and journals during the 1959–2016 period , 64.20 % ( 332,394 ) of them first published at a conference and 25.44 % ( 131,707 ) in a journal . 
+A total of 53,663 authors ( 10.36 % ) made a debut in the same year both in a conference and a journal . 
+Thus , for CS scholars , conferences are the main debut venue . 
+In Figure 1 the number of authors per debut year is plotted in three lines : conference‐first ( solid ) , journal‐first ( dotted ) , and simultaneous ( double ) . 
+The figure shows that CS scholars made more first debuts as authors in conferences than in journals starting from the early 1980s ( see the inset figure ) and the gap between conference and journal has increased ever since . 
+This observation is in line with the statement that conference‐based publication began to dominate the CS research since the early 1980s ( Vardi , 2009 ) . 
+The figure also shows that both conference‐first and journal‐first debuts made their peak around 2007–2008 , while the both‐conference‐journal debut is consistently increasing . 
+This observation should , however , be taken with caution because this study only considers authors who have published at least once both in conferences and journals as of 2016 . 
+Authors who have published in conferences or journals in recent years but not in the other outlets as of 2016 are not detected in this study . 
+Such a lack of data coverage might lead to the abrupt decline of conference‐first and journal‐first debut trends after 2010 in the figure . 
+This explanation is supported by the observation that authors who had first appeared in conferences made their first appearance in journals on average 3.96 years later ( SD = 3.79 ) and those who had first appeared in journals made their debut in conferences after on average 5.55 years ( SD = 5.75 ) . 
+An author 's academic career is the length between the first and last years of publication . 
+The mean academic career of CS scholars , based on both conference and journal articles , is 10.08 year . 
+Conference career ( median = 4 ; mean = 6.96 ) lasts slightly longer than journal career ( median = 3 ; mean = 5.66 ) . 

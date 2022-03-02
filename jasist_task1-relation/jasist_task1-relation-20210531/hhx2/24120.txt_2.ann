@@ -1,0 +1,98 @@
+T1	时间 892 896	2018
+T2	引文作者 1797 1800	Lee
+T3	引文时间 1803 1807	2014
+T4	引文时间 1810 1814	2017
+T5	引文作者 1774 1784	Hornbostel
+T6	引文作者 1789 1794	Sachs
+T7	表 2675 2858	So , it could be assumed that when considering the accords between music scientific and bibliographic classifications , for example in Table 1 , that these are all caused by influence
+T8	引文作者 4253 4256	Lee
+T9	引文时间 4259 4263	2014
+T10	引文作者 4739 4742	Lee
+T11	引文时间 4748 4752	2015
+T12	引文作者 5632 5637	Dewey
+T13	引文作者 5640 5647	Sweeney
+T14	引文作者 5650 5655	Clews
+T15	引文作者 5660 5668	Matthews
+T16	引文时间 5671 5675	1980
+T17	引文作者 5977 5982	Dewey
+T18	引文时间 5995 5999	1980
+T19	引文作者 7349 7354	Jacob
+T20	引文时间 7357 7361	2010
+T21	引文作者 7561 7568	Beghtol
+T22	引文时间 7571 7575	2003
+T23	时间 8074 8079	1970s
+T24	时间 8084 8089	1980s
+T25	引文作者 9597 9603	Busoni
+T26	引文时间 9616 9620	1957
+T27	引文作者 10859 10867	Hjørland
+T28	引文作者 11182 11187	Blake
+T29	引文时间 11190 11194	2011
+T30	引文作者 12351 12358	Kartomi
+T31	引文时间 12361 12365	1990
+T32	引文作者 12597 12603	Galpin
+T33	引文时间 12606 12610	1937
+T34	引文作者 12985 12995	Hornbostel
+T35	引文作者 12998 13003	Sachs
+T36	引文时间 13006 13010	1992
+T37	时间 13029 13033	1880
+T38	引文作者 13254 13261	Kartomi
+T39	引文时间 13264 13268	1990
+T40	时间 13455 13459	1914
+T41	引文作者 13916 13919	Lee
+T42	引文时间 13922 13926	2017
+T43	时间 14179 14183	1880
+T44	时间 14232 14236	1914
+T45	引文作者 14415 14418	Lee
+T46	引文时间 14421 14425	2017
+T47	时间 14530 14534	1880
+T48	时间 14754 14758	1914
+T49	引文作者 15550 15561	Bifurcation
+T50	引文时间 15568 15572	2017
+T51	时间 16152 16156	1914
+T52	引文作者 16710 16717	Dournon
+T53	引文时间 16720 16724	1992
+T54	引文作者 16736 16740	Hood
+T55	引文时间 16743 16747	1971
+T56	引文作者 16869 16877	Campbell
+T57	引文作者 16880 16887	Greated
+T58	引文时间 16890 16894	1987
+T59	图 18247 18342	Therefore , the 26 examples from Table 1 can be divided between these three groups—see Figure 1
+T60	图 18347 18573	( The number of music domain relationships differs between Table 1 and Figure 1 : some relationships listed as both an accord and discord in Table 1 only need to appear once when they are described as a bifurcation in Figure 1
+T61	图 18580 18744	Figure 1 is novel as it emphasizes that there is no singular relationship between scientific and bibliographic music classification , and that similarity is dynamic
+T62	表 18347 18573	( The number of music domain relationships differs between Table 1 and Figure 1 : some relationships listed as both an accord and discord in Table 1 only need to appear once when they are described as a bifurcation in Figure 1
+T63	图 19044 19161	Other possibilities are illustrated in Figure 2 , which also shows the so‐called traditional approach in a darker box
+T64	图 19417 19473	These are combined in a model and visualized in Figure 3
+T65	图 20085 20214	The traditional approach is depicted in this model as a red circle , placed where accord and influence are both high—see Figure 3
+T66	图 21139 21217	The temporal dimension is important and is also shown as an arrow—see Figure 3
+T67	图 22592 22820	So this model ( Figure 3 ) shows how the connections between music scientific classifications and bibliographic classifications are actually an amalgamation of various , interconnected relationships in three different dimensions
+T68	引文的研究问题 5595 5794	For example , the Phoenix schedule ( Dewey , Sweeney , Clews , & Matthews , 1980 ) uses various terms from , and partially echoes the structure of , the scientific classification Hornbostel and Sachs
+R1	coauthor Arg1:T5 Arg2:T6	
+R2	coauthor Arg1:T6 Arg2:T2	
+R3	has_cited_time Arg1:T3 Arg2:T2	
+R4	has_cited_time Arg1:T9 Arg2:T8	
+R5	has_cited_time Arg1:T11 Arg2:T10	
+R6	coauthor Arg1:T12 Arg2:T13	
+R7	coauthor Arg1:T13 Arg2:T14	
+R8	coauthor Arg1:T14 Arg2:T15	
+R9	has_cited_time Arg1:T16 Arg2:T15	
+R10	produces Arg1:T12 Arg2:T68	
+R11	has_cited_time Arg1:T18 Arg2:T17	
+R12	has_cited_time Arg1:T20 Arg2:T19	
+R13	has_cited_time Arg1:T22 Arg2:T21	
+R14	has_cited_time Arg1:T26 Arg2:T25	
+R15	has_cited_time Arg1:T29 Arg2:T28	
+T69	引文时间 10870 10874	2008
+R16	has_cited_time Arg1:T69 Arg2:T27	
+R17	has_cited_time Arg1:T33 Arg2:T32	
+R18	has_cited_time Arg1:T31 Arg2:T30	
+R19	has_cited_time Arg1:T36 Arg2:T35	
+R20	coauthor Arg1:T34 Arg2:T35	
+R21	has_cited_time Arg1:T39 Arg2:T38	
+R22	has_cited_time Arg1:T42 Arg2:T41	
+R23	has_cited_time Arg1:T46 Arg2:T45	
+R24	has_cited_time Arg1:T50 Arg2:T49	
+R25	has_cited_time Arg1:T53 Arg2:T52	
+R26	has_cited_time Arg1:T55 Arg2:T54	
+R27	coauthor Arg1:T56 Arg2:T57	
+R28	has_cited_time Arg1:T58 Arg2:T57	
+R29	field_similar_as Arg1:T54 Arg2:T52	

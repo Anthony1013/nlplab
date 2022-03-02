@@ -1,0 +1,29 @@
+We asked annotators to judge the appropriateness of the label given a document with high probability for that topic while previous experiments ( Aletras & Stevenson , 2013b ; Lau et al. , 2011 ) seek to find the appropriateness of the label given the term list for a topic . 
+Textual phrase labels also perform well , with annotators able to identify the correct topic 83 % of the time . 
+Scores for this representation are close to those for the term lists despite the verbosity of topic labels generally being much lower than term lists . 
+The average length of the textual phrase labels used in the experiment was 2.7 words while term lists contained 10 words . 
+It is possible that the performance of textual phrase labels may equal , or even exceed , that of term lists with better labeling algorithms . 
+On the other hand , results for image labels are substantially lower ( Top‐1 Average = 0.83 , and Match @ 1 = 0.67 ) . 
+This suggests that the image labels are not as clear as are the other two types , making it difficult for annotators to identify the correct one . 
+Image labels also are generated automatically , and mistakes in this process are likely to explain the lower performance to some extent . 
+However , it also is possible that images are inherently more ambiguous than are the other two types of labels , making it difficult for annotators to identify the correct topic . 
+The results from this experiment indicate some variation between how effectively the three topic representations are able to convey the semantics of a topic . 
+However , results from the exploratory search experiment ( discussed earlier ) suggest that any of the three are useful ways of representing documents within a collection and , in particular , allow relevant documents to be identified . 
+Term lists provide a faithful representation of a topic since they are generated directly from its keywords while the textual phrase and image labels are generated using labeling algorithms which rely on external resources and may make errors . 
+On the other hand , the textual phrase and image labels are more compact than are term lists , allowing them to be interpreted more quickly and more to be fitted onto an interface . 
+It is likely that these factors ( fidelity and verbosity ) balance out when the topic representations are used in the exploratory search interface . 
+It also is possible , of course , that performance using textual phrase or image labels could be improved with the development of more accurate labeling algorithms . 
+We compared three representations for automatically generated topics : ( a ) lists of terms , ( b ) textual phrase labels , and ( c ) image labels . 
+These representations were compared within an exploratory browsing interface , and an experiment was carried out in which users were asked to retrieve relevant documents using the interface . 
+Results show that participants were able to identify relevant documents using any of the three topic representations . 
+They were able to identify more documents when labels were used to represent topics than when term lists were used , suggesting that participants can interpret labels more quickly . 
+However , a greater proportion of the retrieved documents are relevant to the query for term lists than for either type of label , suggesting that term lists contain more accurate information than do the labels . 
+This hypothesis was explored in a further experiment in which participants were asked to identify the most appropriate topics for documents . 
+The information in term lists was found to be more accurate , which is to be expected since the labels are effectively summaries of the topics and , since they are generated automatically from the topics , inevitably contain some errors ( Aletras & Stevenson , 2013b ; Lau et al. , 2011 ) . 
+Despite this , the number of relevant documents retrieved in the exploratory search experiment is very similar for all approaches . 
+Overall , textual phrases and image labels can be interpreted more quickly than can term lists , but not as accurately . 
+Results indicate that automatically generated labels are a suitable way for representing topics within search interfaces . 
+They have the advantage of being more compact than are the term lists that are normally used , providing greater flexibility in the creation of exploratory interfaces . 
+Retrieval performance is comparable to when term lists are used and is likely to increase with improved topic labeling methods . 
+In the future , we would like to make use of other digital library collections to find out how successful these techniques are in other domains . 
+We also would like to explore the connection between improved labeling methods and task performance . 

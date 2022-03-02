@@ -1,0 +1,126 @@
+T1	表 303 345	See Table 1 for additional characteristics
+T2	引文作者 478 485	Saldaña
+T3	引文时间 488 492	2015
+T4	引文的结果 416 475	Investigators developed descriptive codes using open coding
+T5	引文作者 565 573	Auerbach
+T6	引文作者 576 587	Silverstein
+T7	引文时间 590 594	2003
+T8	引文的研究问题 499 562	Codes were then categorized and aggregated into emerging themes
+T9	引文的结果 601 677	To ensure reliability and credibility , consensus on the themes was achieved
+T10	引文作者 680 688	Boyatzis
+T11	引文作者 691 695	1998
+T12	引文的方法 702 814	Transcripts were recoded into the agreed‐upon themes , which were compared and collapsed for clarity/conciseness
+T13	引文作者 817 824	Saldaña
+T14	引文时间 827 831	2015
+T15	引文作者 907 914	Lincoln
+T16	引文作者 917 921	Guba
+T17	引文时间 924 928	1985
+T18	引文的研究问题 838 904	Validity of the results were member‐checked with five participants
+T19	表 1580 1692	As Table 2 shows , they discussed adapting recommendations to match one 's preferences and physical capabilities
+T20	表 2350 2357	Table 2
+T21	表 2645 2652	Table 2
+T22	表 3488 3495	Table 2
+T23	术语 106 118	hypertension
+T24	术语 153 165	hypertension
+T25	术语 1396 1408	hypertensive
+T26	术语 1472 1484	hypertension
+T27	术语 3353 3365	hypertension
+T28	研究结果 3755 3864	This study uniquely showed that participants used information sharing to reinforce information for themselves
+T29	引文的结果 3885 3970	the significant correlation information sharing and use for self‐management decisions
+T30	引文作者 3973 3978	Jones
+T31	引文作者 3981 3987	Veinot
+T32	引文作者 3990 3998	Pressler
+T33	引文时间 4010 4014	2017
+T34	引文作者 4176 4182	Veinot
+T35	引文时间 4185 4189	2010
+T36	术语 4085 4097	hypertension
+T38	引文的结果 4196 4305	These practical strategies involved “ translations ” of biomedical information into spiritual and family life
+T39	引文作者 4308 4316	Kaziunas
+T40	引文作者 4319 4327	Ackerman
+T41	引文作者 4332 4338	Veinot
+T42	引文时间 4341 4345	2013
+T37	引文的结果 4021 4173	Women in this study shared information about self‐management of hypertension , the form of peer‐based health information called “ practical strategies ”
+T43	引文的研究问题 4352 4475	This topical focus differs from prior research that emphasizes online searching among lay health information intermediaries
+T44	引文作者 4478 4488	Abrahamson
+T45	引文作者 4491 4497	Fisher
+T46	引文作者 4500 4506	Turner
+T47	引文作者 4509 4517	Durrance
+T48	引文作者 4522 4528	Turner
+T49	引文时间 4531 4535	2008
+T50	引文作者 4538 4545	Cutrona
+T51	引文时间 4555 4559	2016
+T52	引文的结果 4588 4681	participants stated that sharing information with others made them feel good about themselves
+T53	引文作者 4684 4690	Veinot
+T54	引文时间 4693 4697	2010
+T55	引文作者 4700 4704	Wolf
+T56	引文作者 4707 4713	Veinot
+T57	引文时间 4716 4720	2015
+T58	引文的结果 4915 4955	network‐mediated information opportunity
+T59	引文作者 4960 4966	Veinot
+T60	引文时间 4969 4973	2009
+T61	引文的结果 5537 5647	information sharing primarily occurs in close relationships that are already established , such as with family
+T62	引文作者 5650 5660	Abrahamson
+T63	引文时间 5670 5674	2008
+T64	引文作者 5677 5684	Cutrona
+T65	引文时间 5694 5698	2016
+T67	引文的结果 6007 6146	those who share health information with others are more likely to search for , and create , online health information than those who do not
+T68	引文作者 6149 6156	Cutrona
+T69	引文时间 6166 6170	2016
+T70	引文的结果 6192 6290	women who seek health information online are more likely to have better‐controlled blood pressures
+T71	引文作者 6293 6298	Jones
+T72	引文作者 6301 6307	Veinot
+T73	引文作者 6312 6320	Pressler
+T74	引文时间 6323 6327	2017
+T75	研究展望 6334 6421	Thus , it is important to further assess older patients ' interest in online activities
+T76	研究问题 6426 6504	We explored information sharing among African‐American women with hypertension
+T77	术语 6492 6504	hypertension
+T78	研究结果 6509 6668	The study findings highlight women 's motivation to share blood pressure information , and its perceived benefits for both the information recipient and sharer
+T79	研究结果 6673 6821	The findings also emphasize the practical focus of the shared information , and identify approaches and assessment practices that can profit sharing
+T66	术语 6953 6965	hypertension
+R1	results Arg1:T2 Arg2:T4	
+R2	has_cited_time Arg1:T3 Arg2:T2	
+R3	produces Arg1:T5 Arg2:T8	
+R4	coauthor Arg1:T5 Arg2:T6	
+R5	has_cited_time Arg1:T7 Arg2:T6	
+R6	results Arg1:T10 Arg2:T9	
+R7	coauthor Arg1:T10 Arg2:T11	
+R8	uses Arg1:T13 Arg2:T12	
+R9	has_cited_time Arg1:T14 Arg2:T13	
+R10	coauthor Arg1:T15 Arg2:T16	
+R11	produces Arg1:T15 Arg2:T18	
+R12	has_cited_time Arg1:T17 Arg2:T16	
+R13	results Arg1:T30 Arg2:T29	
+R14	coauthor Arg1:T30 Arg2:T31	
+R15	coauthor Arg1:T31 Arg2:T32	
+R16	has_cited_time Arg1:T33 Arg2:T32	
+R17	results Arg1:T34 Arg2:T37	
+R18	has_cited_time Arg1:T35 Arg2:T34	
+R19	results Arg1:T39 Arg2:T38	
+R20	coauthor Arg1:T39 Arg2:T40	
+R21	coauthor Arg1:T40 Arg2:T41	
+R22	has_cited_time Arg1:T42 Arg2:T41	
+R23	produces Arg1:T44 Arg2:T43	
+R24	coauthor Arg1:T44 Arg2:T45	
+R25	coauthor Arg1:T45 Arg2:T46	
+R26	coauthor Arg1:T46 Arg2:T47	
+R27	coauthor Arg1:T47 Arg2:T48	
+R28	has_cited_time Arg1:T49 Arg2:T48	
+R29	has_cited_time Arg1:T51 Arg2:T50	
+R30	field_similar_as Arg1:T50 Arg2:T44	
+R31	results Arg1:T53 Arg2:T52	
+R32	has_cited_time Arg1:T54 Arg2:T53	
+R33	coauthor Arg1:T55 Arg2:T56	
+R34	has_cited_time Arg1:T57 Arg2:T56	
+R35	field_similar_as Arg1:T55 Arg2:T53	
+R36	results Arg1:T59 Arg2:T58	
+R37	has_cited_time Arg1:T60 Arg2:T59	
+R38	results Arg1:T62 Arg2:T61	
+R39	has_cited_time Arg1:T65 Arg2:T64	
+R40	has_cited_time Arg1:T63 Arg2:T62	
+R41	field_similar_as Arg1:T64 Arg2:T62	
+R42	results Arg1:T68 Arg2:T67	
+R43	has_cited_time Arg1:T69 Arg2:T68	
+R44	results Arg1:T71 Arg2:T70	
+R45	coauthor Arg1:T71 Arg2:T72	
+R46	coauthor Arg1:T72 Arg2:T73	
+R47	has_cited_time Arg1:T74 Arg2:T73	

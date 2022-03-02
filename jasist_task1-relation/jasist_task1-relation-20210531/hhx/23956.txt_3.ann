@@ -1,0 +1,184 @@
+T1	引文作者 436 447	Gary Becker
+T2	引文作者 488 502	Richard Posner
+T3	时间 545 549	2004
+T4	引文作者 794 803	Giannella
+T5	引文时间 806 810	2015
+T6	表 889 1012	evaluate the performance of his work ( see Table 2 ) , where each document has sentences representing only a single topic .
+T7	表 1490 1578	These articles , having diverse topics , were written by four columnists ( see Table 3 )
+T8	自建数据集 1402 1487	We test our approach on the third corpus , a group of 1,182 New York Times articles .
+T9	引文作者 2692 2695	Rao
+T10	引文时间 2708 2712	2011
+T11	引文作者 2719 2728	Kestemont
+T12	引文时间 2741 2745	2011
+T13	引文作者 2918 2924	Baayen
+T14	引文时间 2937 2941	2002
+T15	引文作者 2946 2952	Layton
+T16	引文时间 2965 2969	2010
+T17	引文作者 2978 2983	Savoy
+T18	引文时间 2986 2990	2015
+T19	引文作者 3252 3258	Koppel
+T20	引文时间 3271 3275	2011
+T21	引文作者 3280 3289	Giannella
+T22	引文时间 3292 3296	2015
+T23	引文作者 3301 3305	Daks
+T24	引文作者 3310 3315	Clark
+T25	引文时间 3318 3322	2016
+T26	引文作者 3331 3338	Aldebei
+T27	引文作者 3341 3343	He
+T28	引文作者 3346 3349	Jia
+T29	引文作者 3356 3360	Yang
+T30	引文时间 3363 3367	2016
+T31	引文作者 4502 4508	Koppel
+T32	引文时间 4521 4525	2011
+T33	引文作者 4530 4535	Akiva
+T34	引文作者 4540 4546	Koppel
+T35	引文时间 4549 4553	2012
+T36	引文时间 4556 4560	2013
+T37	引文作者 4569 4576	Aldebei
+T38	引文时间 4589 4593	2015
+T39	引文作者 5151 5157	Koppel
+T40	引文时间 5170 5174	2011
+T41	引文作者 5179 5184	Akiva
+T42	引文作者 5189 5195	Koppel
+T43	引文时间 5198 5202	2012
+T44	引文时间 5205 5209	2013
+T45	引文作者 5218 5225	Aldebei
+T46	引文时间 5238 5242	2015
+T47	具体模型 5493 5496	HMM
+T48	图 9130 9349	Figure 3 shows the recall rates of the clustering process using words that have occurred at least once , twice , three times , four times , and five times , respectively , in four documents as features of BagOfWords 1 .
+T49	图 9593 9750	as shown in Figure 3 , using all words that have occurred three or more times achieved higher recall rates on the clustering process for all four documents .
+T50	表 10356 10447	The 10 documents are related to either different genres or the same genre ( see Table 1 ) .
+T51	表 10450 10755	In Tables 4 and 5 , we report the purity results obtained by applying the proposed approach SequentialUD and its refined version on the documents composed by merging two biblical books of different genres ( Table 4 ) and the documents composed by merging two biblical books of the same genre ( Table 5 ) .
+T52	引文作者 10867 10873	Koppel
+T53	引文时间 10886 10890	2011
+T54	引文作者 10895 10900	Akiva
+T55	引文作者 10905 10911	Koppel
+T56	引文时间 10914 10918	2013
+T57	引文作者 10923 10928	Akiva
+T58	引文作者 10933 10939	Koppel
+T59	引文时间 10942 10946	2013
+T60	引文作者 10967 10974	Aldebei
+T61	引文时间 10987 10991	2015
+T62	引文作者 11036 11041	Akiva
+T63	引文作者 11046 11052	Koppel
+T64	引文时间 11055 11059	2012
+T65	表 10998 11111	The purity results of the approach in Akiva and Koppel ( 2012 ) were used further for the comparison in Table 5 .
+T66	表 11510 11556	for the Jer‐Prov document mentioned in Table 4
+T67	引文作者 11616 11622	Koppel
+T68	引文时间 11635 11639	2011
+T69	引文作者 11677 11682	Akiva
+T70	引文作者 11687 11693	Koppel
+T71	引文时间 11696 11700	2013
+T72	引文作者 11753 11759	Koppel
+T73	引文时间 11772 11776	2011
+T74	引文作者 11783 11788	Akiva
+T75	引文作者 11793 11799	Koppel
+T76	引文时间 11802 11806	2013
+T77	表 12372 12499	As shown in Table 6 , the purity results achieved by applying our proposed approach on this document are significantly higher .
+T78	具体模型 12635 12638	HMM
+T79	具体模型 12645 12656	Boosted HMM
+T80	表 12689 12820	Table 6 shows the intermediary and final purity results achieved by applying our SequentialUD approach on the Becker–Posner blogs .
+T81	具体模型 12855 12858	HMM
+T82	具体模型 12924 12927	HMM
+T83	具体模型 13007 13018	Boosted HMM
+T84	具体模型 13228 13231	HMM
+T85	具体模型 13318 13328	BoostedHMM
+T86	表 13412 13520	In the second part of our experiments regarding this corpus , the six single‐topic documents ( see Table 2 )
+T87	引文作者 13541 13550	Giannella
+T88	引文时间 13553 13557	2015
+T89	引文作者 13875 13884	Giannella
+T90	引文时间 13887 13891	2015
+T91	图 13721 13834	Figure 4 illustrates the purity results obtained using our proposed SequentialUD approach and its refined version
+T92	引文作者 14116 14125	Giannella
+T93	引文时间 14128 14132	2015
+T94	引文作者 14893 14900	Aldebei
+T95	引文时间 14913 14917	2015
+T96	引文作者 15026 15031	Akiva
+T97	引文作者 15036 15042	Koppel
+T98	引文时间 15045 15049	2012
+T99	引文时间 15052 15056	2013
+T100	图 15276 15400	Figure 5 shows the purity results of applying our SequentialUD and refined SequentialUD on the five aforementioned documents
+T101	引文作者 15519 15524	Akiva
+T102	引文作者 15529 15535	Koppel
+T103	引文时间 15538 15542	2012
+T104	引文时间 15545 15549	2013
+T105	引文作者 15556 15563	Aldebei
+T106	引文时间 15576 15580	2015
+T107	引文作者 15632 15637	Akiva
+T108	引文作者 15642 15648	Koppel
+T109	引文时间 15651 15655	2012
+T110	引文作者 15660 15665	Akiva
+T111	引文作者 15670 15676	Koppel
+T112	引文时间 15679 15683	2013
+T113	引文作者 15692 15699	Aldebei
+T114	引文时间 15712 15716	2015
+T115	图 15909 16093	As shown in Figure 5 , the purities achieved by our SequentialUD approach and its refined version are significantly higher no matter if a document is written by three or four authors .
+T116	引文作者 16436 16441	Akiva
+T117	引文作者 16446 16452	Koppel
+T118	引文时间 16455 16459	2013
+T119	图 16254 16461	Figure 5 also shows that , in the experiments involving the four‐author document ( i.e. , MD‐GC‐TF‐PK ) , the refined SequentialUD produces a 34 % higher purity than the approach in Akiva and Koppel ( 2013 )
+T120	具体模型 16649 16659	BoostedHMM
+T121	图 17500 17711	Figure 6 shows the purity results of the SequentialUD approach and its refined version on merged documents created by merging 1 , 5 , 10 , 15 , and 20 randomly selected articles of two , three , and four authors
+T122	图 17716 17804	Figure 6 also shows the 0.95 confidence intervals for the refined SequentialUD version .
+T123	图 18244 18377	As shown in Figure 6 , the purity results obtained with our proposed approach on New York Times short documents are quite promising .
+T124	引文作者 18383 18392	Giannella
+T125	引文时间 18395 18399	2015
+T126	引文的研究问题 18404 18568	the author examined his approach of document decomposition on short documents created by merging a few sentences of the four columnists of New York Times articles .
+R1	has_cited_time Arg1:T5 Arg2:T4	
+R2	has_cited_time Arg1:T10 Arg2:T9	
+R3	has_cited_time Arg1:T12 Arg2:T11	
+R4	has_cited_time Arg1:T14 Arg2:T13	
+R5	has_cited_time Arg1:T16 Arg2:T15	
+R6	has_cited_time Arg1:T18 Arg2:T17	
+R7	has_cited_time Arg1:T20 Arg2:T19	
+R8	has_cited_time Arg1:T22 Arg2:T21	
+R9	coauthor Arg1:T23 Arg2:T24	
+R10	has_cited_time Arg1:T25 Arg2:T24	
+R11	coauthor Arg1:T26 Arg2:T27	
+R12	coauthor Arg1:T27 Arg2:T28	
+R13	coauthor Arg1:T28 Arg2:T29	
+R14	has_cited_time Arg1:T30 Arg2:T29	
+R15	has_cited_time Arg1:T32 Arg2:T31	
+R16	coauthor Arg1:T33 Arg2:T34	
+R17	has_cited_time Arg1:T35 Arg2:T33	
+R18	has_cited_time Arg1:T36 Arg2:T34	
+R19	has_cited_time Arg1:T38 Arg2:T37	
+R20	has_cited_time Arg1:T40 Arg2:T39	
+R21	coauthor Arg1:T41 Arg2:T42	
+R22	has_cited_time Arg1:T43 Arg2:T41	
+R23	has_cited_time Arg1:T44 Arg2:T42	
+R24	has_cited_time Arg1:T46 Arg2:T45	
+R25	has_cited_time Arg1:T53 Arg2:T52	
+R26	coauthor Arg1:T54 Arg2:T55	
+R27	has_cited_time Arg1:T56 Arg2:T55	
+R28	coauthor Arg1:T57 Arg2:T58	
+R29	has_cited_time Arg1:T59 Arg2:T58	
+R30	has_cited_time Arg1:T61 Arg2:T60	
+R31	coauthor Arg1:T62 Arg2:T63	
+R32	has_cited_time Arg1:T64 Arg2:T63	
+R33	has_cited_time Arg1:T68 Arg2:T67	
+R34	coauthor Arg1:T69 Arg2:T70	
+R35	has_cited_time Arg1:T71 Arg2:T70	
+R36	has_cited_time Arg1:T73 Arg2:T72	
+R37	coauthor Arg1:T74 Arg2:T75	
+R38	has_cited_time Arg1:T76 Arg2:T75	
+R39	has_cited_time Arg1:T88 Arg2:T87	
+R40	has_cited_time Arg1:T93 Arg2:T92	
+R41	has_cited_time Arg1:T90 Arg2:T89	
+R42	has_cited_time Arg1:T95 Arg2:T94	
+R43	coauthor Arg1:T96 Arg2:T97	
+R44	has_cited_time Arg1:T98 Arg2:T96	
+R45	has_cited_time Arg1:T99 Arg2:T97	
+R46	coauthor Arg1:T101 Arg2:T102	
+R47	has_cited_time Arg1:T103 Arg2:T101	
+R48	has_cited_time Arg1:T104 Arg2:T102	
+R49	has_cited_time Arg1:T106 Arg2:T105	
+R50	coauthor Arg1:T107 Arg2:T108	
+R51	has_cited_time Arg1:T109 Arg2:T108	
+R52	coauthor Arg1:T110 Arg2:T111	
+R53	has_cited_time Arg1:T112 Arg2:T111	
+R54	has_cited_time Arg1:T114 Arg2:T113	
+R55	coauthor Arg1:T116 Arg2:T117	
+R56	has_cited_time Arg1:T118 Arg2:T117	
+R57	has_cited_time Arg1:T125 Arg2:T124	
+R58	produces Arg1:T124 Arg2:T126	

@@ -1,0 +1,54 @@
+The study of journal ranking metrics has burgeoned recently , pursuant to developments such as the h‐index ( Hirsch , 2005 ) , g‐index ( Egghe , 2006 ) , and e‐index ( Zhang , 2009 ) , among many others ( Bornmann et al. , 2011 ) . 
+Numerous empirical studies of the h‐index and its variants now exist ( e.g. , Alonso et al. , 2009 ; Cronin & Meho , 2006 ; Haley , 2013 ) , as well as studies regarding metric variability across citation databases ( e.g. , Haley , 2014 ; Wildgaard , 2015 ) . 
+Among the most conspicuous needs in the journal ranking endeavor are metric adjustments that permit sound comparisons across metrics and fields ( e.g. , Iglesias & Pecharromán , 2007 ; Pudovkin & Garfield , 2004 ) . 
+The need for adjustment stems from a variety of factors ( Bornmann et al. , 2013 ) such as field size , citation culture , co‐authoring culture , field popularity , journal editor behavior , and the presence of coercive or collusive citation ( Haley , 2017a ; Martin , 2013 ; Wilhite & Fong , 2012 ) . 
+Various metric‐adjustment solutions have been proposed . 
+Examples include percentile scores , such as the Eigen Factor‐ % and Article Influence‐ % from eignfactor.org ( e.g. , Haley , 2016 ) , and standardization ( e.g. , McAllister et al. , 1983 ) . 
+Re‐scalings , or normalizations , based on the average citation rate of the journal or average citation rate in a field ( e.g. , Radicchi et al. , 2008 ) are also popular . 
+Other more comprehensive efforts involve fractional counting of impact factors ( e.g. , Leydesdorff et al. , 2013 ) . 
+Although percentiles , standard deviations , and averages are useful in normalization ( or standardization ) processes , computing them for a field requires a large amount of metric data from journals of all ranks . 
+In contrast , it is far simpler to compute the metric score for the top journal in each field , and then use this maximum value as the normalization factor . 
+In addition , the “ maximum‐normalization ” conveniently maps the raw metric scores to the [ 0,1 ] interval , which facilitates inter‐metric and inter‐field comparisons . 
+However , distributional adjustments to the rank‐score curve may also be necessary . 
+Distributional asymmetries are best understood by example . 
+The two dashed lines in Figure 1 are the maximum‐normalized h‐index scores and AWCR‐index scores for 50 top economics and finance journals ( from Haley , 2014 ) . 
+Despite this normalization , the functions are quite different ; i.e. , the maximum‐normalized h‐index curve declines more slowly than does the normalized AWCR‐index . 
+Thus , a maximum‐normalized value of 0.5 for one of these metrics is not directly comparable to a 0.5 value in the other . 
+The approach outlined below remediates this distributional asymmetry . 
+AWCR‐index and h‐index for 50 top economics and finance journals . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The distributional adjustment approach proposed herein uses the parametric assumption that all maximum‐normalized journal ranking metrics can be approximated with a general function known up to a finite‐dimensional vector of parameters.11 Other parametric approaches exist ( e.g. , Mansilla et al. , 2007 ; Sangwal , 2013 ) , though the approach here is most similar to Haley ( 2017b ) . 
+These parameters can be estimated using modest amounts of metric data from top journals , and the results can be extrapolated to lower‐ranked journals because of the parametric structure . 
+Different metrics will induce different parameterizations of the common parent function , but are relatable through the parent function and its inverse . 
+The Mean Absolute Errors ( MAEs ) are 0.016 and 0.018 , respectively , indicating a strong fit.33 The MAE ≡ ( 1/n ) ∑|ŷ – y| , where ŷ denotes the fitted values and y denotes the observed values . 
+With these functions fitted , a maximum‐normalized estimated value can be computed for any rank , x . 
+For example , a rank of x = 25 corresponds to Ψ_h‐index ( x = 25 ) ≈ 0.36 and an Ψ_AWCR ( x = 25 ) ≈ 0.19 . 
+Inverting Equations 6 and 7 permits the user to compute a rank for a given maximum‐normalized value , which in turns permits a fluid translation from any raw metric to another , provided the equivalents of Equations 6 and 7 have been fitted for said metrics . 
+This translation process is best understood using illustrations . 
+Suppose journals A , B , and C have known h‐index scores . 
+What are the approximate corresponding AWCR scores ? 
+They are estimable using Equations 6 and 7 , and the following steps : Maximum‐normalize the h‐index scores by dividing each by the largest h‐index score in the field . 
+Insert the maximum‐normalized h‐index scores into the inverse of Equation 6 to produce the approximate rank of the journals . 
+Insert these rank values into Equation 7 to produce the corresponding maximum‐normalized AWCR ( AWCR‐norm ) values . 
+Multiply the estimated maximum‐normalized AWCR values by the largest AWCR‐index in the field to produce the estimated AWCR values . 
+These steps are demonstrated in Table 1.44 Note that these steps would not be possible without the fitted functional form ; that is , using only the observed metric scores would not permit this type of conversion . 
+If sound estimates of metric‐specific functions exist for all widely applied journal ranking metrics used in a field , then , moving forward , all can , in principle , be compared by simply scoring one “ parent metric ” ( perhaps the h‐index ) and converting to the other metrics , as needed . 
+Note that the ( parametric ) functional form obtained through this procedure permits comparisons beyond the sample of n top journals . 
+In fact , the scores for journals C and D in Table 1 are extrapolated in this manner . 
+Note also that the MAE for journals 25–50 is better than the MAE for journals 1–24 ; an encouraging sign for extrapolating the results beyond the sample of n top journals . 
+Translating metric scores from one field to another is also possible using the four steps outlined above . 
+Table 2 illustrates this feature by comparing the g‐index for n = 70 top accounting and economics journals , where N = 1000 for Economics and N = 125 for Accounting.55 http : //www.scimagojr.com/journalrank.php ? 
+category=1402 The resulting fits are depicted in Figure 2 , and the respective MAEs are 0.021 and 0.020. g‐index for 70 top economics and accounting journals . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The approach can also translate two different metric scores across two different fields . 
+Table 3 illustrates this feature by comparing the g‐index in Economics to the e‐index in Accounting , for the same n = 70 journals used above . 
+The resulting fits are depicted in Figure 3 , and the respective MAEs are 0.021 and 0.019. g‐index for 70 top economics journals and e‐index for 70 top accounting journals . 
+This article revisits the problem of comparing journal ranking metric scores within a field and across fields , and proposes a parametric adjustment process to facilitate such comparisons . 
+The method focuses on the maximum‐normalization concept and the least‐squares principle . 
+Other least‐squares‐based parametric approaches exist . 
+For example , Equation 3 from Mansilla et al . 
+( 2007 ) might also work well in the four‐step translation process because it is easily inverted ; however , their Equation 4 is not easily inverted . 
+The parametric specification posed by Sangwal ( 2013 ) is invertible and may therefore be a competitor for Ψ ( · ) . 
+Sangwal 's specification is essentially a linear function of a rational function of rank , with two parameters , whereas Ψ ( · ) is a power function of a nonlinear function of a rational function of rank , with one additional parameter . 
+Which delivers better fits is an empirical question for future research . 
+The maximum‐normalization , although offering a clean interpretation , is de facto a constraint . 
+Relaxing this constraint would allow the normalization factor to become a decision variable , which may improve the fit of Ψ ( · ) . 
+Exploring this would also be an interesting research topic . 

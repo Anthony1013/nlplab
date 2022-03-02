@@ -1,0 +1,130 @@
+Users annotate Social tags to Web pages , images , videos or other media to facilitate their personal information organization ( Golbeck , Koepfler , & Emmerling , 2011 ; Xu , Ma , Chen , & Ma , 2013 ) . 
+Those tags become a popular approach for search and retrieval of digital information as well as making recommendation on different types of websites especially in social media and social commerce ( Guy , Zwerdling , Ronen , Carmel , & Uziel , 2010 ; Kim , Alkhaldi , El Saddik , & Jo , 2011 ) . 
+Taobao , the biggest e‐commerce platforms in China , designs the positive tag about product comments as words in red and the negative one in green . 
+Colored Tags on Taobao is a public tool summarizing consumers ' reviews into categories by product attributes or user perceptions , which is helpful for new users to get the outline of a targeted product from the personal buying and using experience of previous purchasers . 
+For example , there are 6 positive colored tags inked in red and another four negative colored tags inked in green on the top of the main webpage of a cellphone on Taobao . 
+A new customer knows the basic performance of this cellphone with the help of 10 colored tags extracted from all 1800 reviews rather than reading the whole reviews . 
+Colored tags are a unique type in social tags . 
+There are two features of the colored tag : the text of tag ( positive comments or negative comments ) and the color of tag ( red or green ) . 
+Previous studies often analyzed tagging behavior and tagging usage from the text of tags ( Kim , 2011 ; Xu et al. , 2013 ; Yang , Hua , Wang , & Zhang , 2011 ) or the representation of tags ( e.g. , color , size ) such as the visualization of tag cloud ( Lohmann , Heimerl , Bopp , Burch , & Ertl , 2015 ; Park , Joshi , & Loui , 2012 ) separately . 
+Meanwhile , the valence of colored tags such as the emotion or feeling is evoked from not just the inner feature of tags ( the text of tags ) but also the external character of tags ( the color of tags ) . 
+The presence of colored tags is different from common tags , which are only the plain text inked in black . 
+The color in common social tags are color words such as “ light red ” and “ dark green ” pointed to images or videos and represented as the chromatic features of multimedia objects ( Knautz & Stock , 2011 ; Lin , Yang , & Chen , 2011 ) . 
+Experts only focused on the emotion aroused by those chromatic feature tags when considering the relationships between colors and emotions in social tagging systems ( Feng , Lesot , & Detyniecki , 2010 ; Lim & Kim , 2017 ) . 
+We analyze the two main features ( the color and the text ) of colored tags together . 
+Our study explores the congruity between the color and the text about colored tags and finds the preference character of colored tags ( color or text ) according to users ' information behavior . 
+Those findings can help to design colored tags for recommendation systems according to users ' cognitive behavior . 
+Red and green are the basic level and category in chromatic terms except white and black ( Collier , Berlin , & Kay , 1973 ) , in addition , white and black are outcasts and do n't count as true , physical colors associated the visible spectrum of light waves with the description of the color . 
+For example , everything is black when we enter a room that reflects very little light at all . 
+Wright and McManus claimed that red and green are the complementary colors ( Wright & McManus , 1999 ) , so those two colors are often used together . 
+On Taobao , the positive tags about product comments are designed as words in red and the negative ones in green . 
+However , there are still doubt about users ' judgment toward red and green . 
+Some studies showed the red can induce more positive and dominant attraction emotion than green or other colors ( Dreiskaemper , Strauss , Hagemann , & Büsch , 2013 ; Elliot & Niesta , 2008 ) . 
+Briki and Hue ( 2016 ) pointed out red was strongly associated with exciting emotions while green was slightly associated with those . 
+Sometimes red was associated with negative meaning but indicated the positive consequence ( Chan & Ng , 2009 ) . 
+However , other studies found that green could induce more positive emotion than red ( Gil & Le Bigot , 2016 ; Mammarella , Di Domenico , Palumbo , & Fairfield , 2016 ) especially in some specific context such as stock markets , which define the default color for the visualization of graphs and tables ( Kliger & Gilad , 2012 ) . 
+The color red has cultural effect when associated with traditional customs but sometimes reflects the different modernity or natural function ( Wang , Shu , & Mo , 2014 ) . 
+For example , red is a lucky sign with happiness and a fortune in some traditional Chinese festivals . 
+However , red is used as a stop sign and the prominent color in most public areas of China such as the public transportation , hospital , meteorological department and environmental department . 
+Similar things happen to Western countries . 
+For instance , the color red is a powerful and energetic symbol in sports ( Dreiskaemper et al. , 2013 ) but typically the danger color in western customs . 
+So this article focuses on the online color usage exclude cultural factors and the study on cultural effect for the color red and green on websites will be one of the future research interests . 
+Consumers associate different colors with different meanings and different colors , which cause different effects on user evaluations of an attitude object . 
+Some experts agreed that the combinations of similar elements ( e.g. , similar colors ) in advertisements should cause more positive evaluations of an object than incongruent stimuli ( Schramm‐Klein , Steinmann , & Rollin , 2017 ) and the congruent in one object could be explored using Stroop effect . 
+The incongruent of word meaning and the font color is examined when naming the font color of printed chromatic terms in the original Stroop test ( Stroop , 1935 ) , whereas the emotional Stroop effect , one type of modified Stroop effect , focuses on the conflict between the emotional relevance to the participants and the word ( Phaf & Kan , 2007 ) . 
+We imitate the classic emotional Stroop effect to find the emotional valence of red and green ( Hanslmayr et al. , 2008 ; Van Hooff , Dietz , Sharma , & Bowman , 2008 ) . 
+In other words , we need to know whether positive words inked in red and negative words inked in green are congruent . 
+In the past research , the semantic conflict in original Stroop effect and emotional Stroop one can be tested by ERP ( Event‐Related Potential ; Zurrón , Ramos‐Goicoa , & Díaz , 2013 ) . 
+The appearance of colored tag on Taobao is used as the recommendation tools summarizing the online reviews about products from purchased consumers for subsequent users . 
+In previous research , much work explored tagging behavior and social networks among users to improve the quality of tag‐based item recommendations ( Gedikli & Jannach , 2013 ; Guy et al. , 2010 ; Kim et al. , 2011 ) . 
+Further studies analyzed the users ' emotions in recommendation systems . 
+They used opinion mining and affirmative computing to find the emotions invoked from the text of tags ( Dong , OMahony , Schaal , McCarthy , & Smyth , 2016 ; Zhao , Fang , & Xu , 2011 ; Zheng , Mobasher , & Burke , 2013 ) . 
+On the other hand , as for the recommendation in online shopping platforms or social media platforms such as Taobao or Twitter , researchers only focused on improving the model and recommendation approach for those platforms ( Alaimo & Kallinikos , 2017 ; Chang , Jiang , Dou , Yu , & Fang , 2016 ; Jin , 2017 ; Liang , Yin , & Yiu , 2015 ; Zhu et al. , 2017 ) . 
+The color is just studied as the complementary component of information visualization for rating and recommendations ( Maharani , Widyantoro , & Khodra , 2016 ) . 
+Few studies pay attention to the preference between color and text in colored tags . 
+However , post‐consumers may distract attentions between the main character of colored tags ( the text of tags and the color of tags ) before making decisions and buying products . 
+Earlier In 1971 , Simon ( 1971 ) pointed out that “ a wealth of information creates a poverty of attention. ” The capacity of a human 's cognitive system is limited . 
+It is unable to process all the information presented in the environment at the same time . 
+Petty and Cacioppo ( 1986 ) illustrated how the key factors of consumer 's personal traits and external stimulus influence information elaboration in the Elaboration Likelihood Model ( ELM ) , which determines users ' perception and behavior in e‐commerce ( e.g. , Pickard , Jenkins , & Nunamaker , 2012 ; Sicilia & Ruiz , 2010 ; Tam & Ho , 2005 ; Yang , 2015 ) . 
+The content of e‐commerce platforms is the central route users need to examine all relevant information thoughtfully and then make decisions , whereas the design of websites is the peripheral route users might spend less cognitive effort on evaluating information and make quick decisions ( Petty & Cacioppo , 1986 ) . 
+There are two similar features in colored tags : the inner one is the text of tags and the external is the color of tags . 
+Our work intends to find the dominant factor of colored tags between the text of tags and the color of tags . 
+We argue that consumers would be affected by the text of tags more than the emotions under the incongruity condition and vice verse . 
+When the cognitive load is high , consumers would pay more attention to the emotions induced by the colors than the text of tags and vice verse . 
+Eye tracking is only a complementary technique firstly for usability evaluation when using expert inspections and user observation in Human Computer Interface and e‐commerce ( Tzanidou , 2003 ) . 
+And then experts use eye tracking as the main method to observe users ' search behaviors and design the better representation of search results in different devices ( Kim , Thomas , Sankaranarayana , Gedeon , & Yoon , 2015 , 2016 ) . 
+Eye tracking can also be used to integrate into the recommendation systems and improve implicit feedbacks from recommendation systems . 
+( Buscher , Dengel , Biedert , & Elst , 2012 ; Chen & Wang , 2016 ; Granka , Joachims , & Gay , 2004 ; Joachims , Granka , Pan , Hembrooke , & Gay , 2005 ) . 
+More and more researchers recognize that Eye tracking is a good way to observe the sequent track of eye movements and then find the dominant or key factor in consumers ' behavior and decisions . 
+Some experts use eye tracking to fixate the placement of social annotations on search results and analyze how social annotations affect user behavior ( Fernquist & Chi , 2013 ) and others ( Menon , Sigurdsson , Larsen , Fagerstrøm , & Foxall , 2016 ) find the importance of pricing in e‐commerce using the observational behavior data from Eye Tracking . 
+Meanwhile , electrophysiological data from ERP ( event related potential ) start to be used to explore the underlying neural mechanism about users ' behavior and decision‐making ( Bai , Yao , Cong , & Zhang , 2015 ; Gwizdka , Hosseini , Cole , & Wang , 2017 ; Luan , Yao , & Bai , 2017 ; Wang , Meng , Liu , Wang , & Ma , 2015 ) . 
+Eye tracking and ERP are increasing widely used together in social commerce and e‐commerce research . 
+They often analyze key factors and cognitive processes in consumers ' search behavior according to their reviews about products . 
+Our study intends to solve the two research questions : RQ1 : Are colored tags inked in red congruent with users ' positive comments and colored tags inked in green congruent with users ' negative comments ? 
+RQ2 : Does the color of tags influence users ' behavior more than the text of tags when users browse the webpage and search for useful comments under the high cognitive load ? 
+Does the color of tags influence users ' behavior less than the text of tags when users are exposed under the low cognitive load ? 
+Two experiments are designed for those two research questions as follows . 
+The first experiment is used to verify the valence of users ' emotions induced by the colors using ERP . 
+In other words , the experiment is designed to find how users associate the color red or green with positive or negative feelings and then the two colors cause different effects on user evaluations of products on the online shopping website . 
+The second experiment can find the dominant factor of colored tags between the text of tags and the color of tags with the help of eye tracking instrument . 
+We introduce them one by one and discuss two experiments together in the following sections . 
+Twenty‐four students ( 16 women ) with a mean age of 22.18 years contributed data to the experiment . 
+Participation was reimbursed with 50 Yuan . 
+All participants were native Chinese speakers without any neurological or neuropsychological disorder according to self‐report . 
+The informed consent documents were obtained before experiment . 
+This experimental session consisted of three parts , with brief rest periods between each . 
+In the first part of the session , 60 colored nonwords ( consisting of four letters “ x ” ‐xxxx‐ , with 30 stimuli for each of two colors : red , or green ) were presented . 
+These nonword stimuli were presented first and separately from the other parts to ensure that they were processed only as chromatic stimuli and were not influenced by semantic words ( in most studies about Stroop task , a string of letters “ x ” is the nonword stimulus most commonly used and is presented first ; Zurrón et al. , 2013 ) . 
+Participants in this session were asked to differentiate the color of those nonwords , left mouse button for “ red , ” right for “ green. ” In the second part , 180 stimuli consisted of 45 positive words ( e.g. , satisfaction , prize , and praise ) inked in red and green and 45 negative words ( e.g. , cowardice , ignorance , decadence ) inked in red and green were presented . 
+Among them , 90 stimuli are congruent ( positive words in red and negative words in green ) and the others are incongruent ( positive words in green and negative words in red ) . 
+Participants in the second session were asked to distinguish between valence of words ( valence word stroop task ) , left mouse button for positive words and right for negative words . 
+In the third part , 180 stimuli with 90 new words of each color ( 45 positive words and 45 negative words in red and green color ) were presented . 
+Participants in this part were asked to tell the color of the words ( color word stroop task ) . 
+In all three parts , the stimuli sequence was permuted pseudorandomly , so that more than three consecutive words from the same category ( congruent or incongruent ) or in the same color were never shown . 
+The electroencephalographic ( EEG ) activity , reaction times ( RTs ) , and the number of errors were recorded during in the whole session . 
+Before recording , a training block of 10 colored nonword stimuli was presented to ensure that the participants understood the instructions and responded correctly . 
+The stimuli were designed with the E‐prime ( version 2.0 ) . 
+The images were displayed on a 20‐inch screen placed 1 m from the participants . 
+To make sure all the words presented in the identical size and color , all stimuli were firstly saved as JPG file . 
+The background of the screen was always black , even during the interval between stimuli . 
+Each stimulus was displayed for 500 milliseconds , with an inter stimuli interval ( ISI ) of 2,500 milliseconds . 
+The positive and negative words were selected from the version of the Chinese Positive and Negative Words Dictionary 1.0 ( Li , 2011 ) . 
+A total of 180 different words ( 90 positive words and 90 negative words ) were selected . 
+The words are nouns , verbs , and adjectives between one and four letters long , and all are common words in Chinese . 
+The participants were seated in a comfortable chair in a shielded laboratory with attenuated sound and lighting levels , and they were instructed not to move during the recording sessions and to look at the center of the screen . 
+The EEG was recorded from 64 active tin electrode sites using a 64‐channel elastic head cap with standard international 10–20 system ( Synamps 2/ RT , Neuroscan , Compumedics , TX , USA ) . 
+Eye movements were recorded simultaneously by electrodes located on the outer canthi of each eye ( HEOG ) , as well as above and below the left eye ( VEOG ) . 
+All electrodes were referenced to the common vertex during the recording session and were later referenced to mean electric activity of the mastoids offline . 
+The online EEG was sampled at 1000 Hz ( 24 bit A/D resolution ) , and all impedances were reduced to 5 kΩor less to get good quality recordings . 
+Offline Curry 7 processing tool was used to analyze EEG data in a time course of 1,000 ms , which started 200 ms before the presentation of a stimulus picture and ended at 800 ms later . 
+The EEG data were filtered offline using 0.1 Hz high‐pass and 30 Hz low‐pass digital filters . 
+Signals exceeding ± 100 μV were automatically excluded from the averages . 
+The ERP waveforms of participants were obtained by averaging 82 to 90 epochs for each type of stimulus . 
+There were no differences in the number of averaged epochs between the different types of stimuli . 
+Five of the 24 participants were excluded from the study because of an insufficient number of epochs , and therefore the final ERP sample comprised 19 participants . 
+An averaged waveform ( offline ) was obtained for each condition . 
+Based on the visual inspection of the ERP waveforms , the following 12 electrode points were chosen for statistical analysis : PO6 , PO4 , OZ , PZ , P3 , P4 , CZ , C3 , C4 , FCZ , FC3 , FC4 . 
+Three time windows of interest were identified : ( a ) 100 to 200 milliseconds , ( b ) 250 to 350 milliseconds , and ( c ) 550 to 650 milliseconds , corresponding to the visual N170 , N2c , and LPC components , respectively . 
+Meanwhile , repeated‐measures ANOVA results have been discussed in the Valence‐Word Stroop and related parameters analyzed in the Color‐Word Stroop . 
+In the valence‐word Stroop task , repeated‐measures ANOVA with the stimulus as the within‐subject factor ( congruent color words and incongruent color words ) showed that the reaction times ( M = 595.21 ) were significantly longer in response to incongruent color words than in response to congruent color words ( M = 584.4 ) , F ( 1,38 ) = 8.121 , p < .01 . 
+Repeated‐measures ANOVA on the accuracy rates showed that the effect of condition type was not significant , F ( 1,38 ) = 1.748 , p > .1 . 
+In the color‐word Stroop task , neither the response time , F ( 1,38 ) = 0.018 , p > .5 , nor the accuracy rates , F ( 1,38 ) = 0.165 , p > .5 , was insignificantly different between the two conditions . 
+Previous studies have found that N170 in posterior lateral sites was related to the emotional conflict . 
+When the participants were asked to respond to the meanings of emotional words , N170 amplitude was less negative in the incongruent condition than in the congruent condition ( Zhu , Zhang , Wu , Luo , & Luo , 2010 ) . 
+If red induced positive emotion ( green induced negative emotion ) , N170 should be observed larger in the condition of positive red words ( negative green words ) ( Figure 1 ) . 
+A repeated measures ANOVA on the N170 amplitude showed significant main effects of condition , F ( 1,19 ) = 4.51 , p < .05 , which showed that occipital N170 amplitude was significantly lower in incongruent condition than in congruent condition . 
+No significant differences were observed in the N170 complex between incongruent stimuli and nonword stimuli , F ( 1,19 ) = 0.462 , p > .5 . 
+According to previous studies on N2c ( Folstein & Petten , 2008 ; West , Jakubek , & Wymbs , 2005 ) , this component peaking between 250 and 350 ms reflects a phasic negativity over the central and posterior region of the scalp . 
+This component is a reflection of a sub process of stimulus classification and induced by response conflict ( Van Veen & Carter , 2002 ) . 
+Its amplitude is greater in incongruent than congruent or neutral trials ( Kopp , Rist , & Mattler , 1996 ) . 
+A significant difference also observed in the valence word Stroop task , amplitude of N2c located in the central and posterior region of the scalp was larger in the incongruent condition than in the congruent , F ( 1,19 ) = 4.786 , p < .05 , and nonword condition , F ( 1,19 ) = 5.512 , p < .05 , ( Figure 2 ) . 
+LPC is a positive ERP deflection happened between 550 and 650 ms post stimulus over the frontal–central scalp region . 
+It was found to be related to conflict resolution of the late cognitive processing . 
+A greater LPC was observed in the incongruent condition in the classic Stroop task ( West & Alain , 1999 ) and the number interference task . 
+In both tasks , the participants had to control the interference of the word meaning to avoid making a wrong response . 
+Similarly , in our valence word Stroop task , the participants focused on the valence of color words and had to control the interference of the valence of the emotion caused by colors , so there was also a response conflict in the incongruent condition . 
+Besides that , Kusak , Grune , Hagendorf , and Metz ( 2000 ) observed that the LPC amplitude increased as task difficulty increased . 
+In our task , because of the conflict of the valence between words and the emotion caused by colors , it was more difficult to make a correct response and the participants had to spend more attentional resources in resolving the interference in the incongruent condition . 
+Thus , under the incongruent condition , the LPC may be elicited as participants require more attentional resources to identify and process the conflict accurately . 
+In accordance with our prediction , LPC was observed in the time window 550 and 650 milliseconds . 
+Mean amplitudes in this window was significantly larger in incongruity condition than in congruity , F ( 1,19 ) = 4.441 , p < .05 , and nonword condition , F ( 1,19 ) = 5.239 , p < .05 , ( Figure 3 ) . 

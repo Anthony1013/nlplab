@@ -1,0 +1,302 @@
+T1	引文的结果 297 375	almost half of the users switch between search engines at least once per month
+T2	引文作者 378 383	White
+T3	引文作者 386 396	Richardson
+T4	引文作者 399 406	Bilenko
+T5	引文作者 411 416	Heath
+T6	引文时间 419 423	2008
+T7	引文作者 426 431	White
+T8	引文作者 434 440	Dumais
+T9	引文时间 443 447	2009
+T10	引文的结果 758 906	Despite the advances in effectiveness of web search engines , a tangible portion of web queries remain unsolved even by the major web search engines
+T11	引文作者 909 917	Zaragoza
+T12	引文作者 920 930	Cambazoglu
+T13	引文作者 935 946	Baeza‐Yates
+T14	引文时间 949 953	2010
+T15	引文的结果 1054 1169	in general , it is agreed that non‐navigational , infrequent , or long queries tend to be relatively more difficult
+T16	引文作者 1172 1187	Balasubramanian
+T17	引文作者 1190 1197	Kumaran
+T18	引文作者 1202 1210	Carvalho
+T19	引文时间 1213 1217	2010
+T20	引文作者 1220 1226	Downey
+T21	引文作者 1229 1235	Dumais
+T22	引文作者 1240 1247	Horvitz
+T23	引文时间 1250 1254	2007
+T24	引文作者 1257 1265	Zaragoza
+T25	引文时间 1275 1279	2010
+T26	术语 1714 1718	FNAQ
+T27	研究问题 1286 1440	In this paper , we focus on a specific subset of difficult queries : those that match very few or no answers when they are issued to a web search engine .
+T31	术语 2715 2719	FNAQ
+T29	研究问题 2587 2720	First , we investigate the result retrieval and query suggestion mechanisms employed by the current web search engines to solve FNAQs
+T33	研究结果 2725 2853	We show that , although these mechanisms improve the result quality of FNAQs , the problem is far from being completely solved .
+T35	研究问题 2856 2972	Second , we investigate an extreme case of FNAQs : queries for which no result can be retrieved by the search engine
+T36	术语 3025 3029	NAQs
+T37	术语 3005 3022	no‐answer queries
+T38	术语 3241 3245	NAQs
+T39	研究结果 3141 3414	Our analysis reveals that around 0.1 % of the unique queries ( from a large query log excerpt ) are NAQs , which would constitute a small yet probably non‐negligible number of queries for a commercial search engine that may be receiving billions of unique queries per day .
+T40	术语 3474 3478	NAQs
+T41	术语 3436 3452	machine‐learning
+T42	研究结果 3417 3534	Third , we build a machine‐learning model to predict the NAQs observed in a real‐life query log obtained from Yahoo !
+T43	术语 3640 3644	NAQs
+T44	术语 3825 3829	NAQs
+T45	术语 3691 3713	meta‐/federated search
+T46	术语 3669 3686	mobile web search
+T47	研究方法 3718 3829	We evaluate our prediction model under different assumptions and demonstrate the feasibility of predicting NAQs
+T48	术语 4052 4066	Sampling FNAQs
+T49	术语 4136 4150	Handling FNAQs
+T50	术语 4224 4229	FNAQs
+T32	术语 2796 2801	FNAQs
+T34	术语 2899 2904	FNAQs
+T30	术语 2476 2481	FNAQs
+T28	术语 2152 2157	FNAQs
+T51	术语 4278 4282	NAQs
+T52	术语 4298 4302	NAQs
+T53	术语 4359 4363	NAQs
+T54	术语 4454 4458	NAQs
+T55	术语 4488 4492	NAQs
+T56	术语 4636 4663	Turkish Academy of Sciences
+T57	术语 4666 4670	TUBA
+T58	术语 4673 4708	Distinguished Young Scientist Award
+T59	术语 4711 4716	GEBIP
+T60	时间 4717 4721	2016
+T61	术语 4596 4612	I. S. Altingovde
+T62	术语 4821 4826	FNAQs
+T63	引文作者 5028 5030	Li
+T64	引文作者 5033 5045	Schijvenaars
+T65	引文作者 5050 5058	de Rijke
+T66	引文时间 5061 5065	2017
+T67	术语 5010 5025	academic search
+T68	引文的结果 4909 5025	while search failures have recently been a topic of interest for more restricted scenarios , such as academic search
+T69	引文作者 5445 5452	Beitzel
+T70	引文作者 5455 5461	Jensen
+T71	引文作者 5464 5473	Chowdhury
+T72	引文作者 5476 5484	Grossman
+T73	引文作者 5491 5498	Frieder
+T74	引文时间 5503 5507	2004
+T75	引文的研究问题 5510 5600	analyzed the temporal trends for queries that are topically categorized by human editors .
+T76	引文作者 5676 5682	Broder
+T77	引文时间 5695 5699	2007
+T78	引文的结果 5702 5824	exploited retrieved query results for classification and aimed to improve the selection of advertisements for rare queries
+T79	引文作者 5833 5839	Bailey
+T80	引文作者 5842 5847	White
+T81	引文作者 5850 5853	Liu
+T82	引文作者 5860 5867	Kumaran
+T83	引文时间 5872 5876	2010
+T84	引文的方法 5879 5964	classified rare queries by matching them against previously seen classified queries .
+T85	引文作者 6080 6086	Jansen
+T86	引文作者 6089 6094	Spink
+T87	引文作者 6101 6108	Koshman
+T88	引文时间 6111 6115	2007
+T89	引文的结果 6120 6223	analysis of a large query log revealed that almost half of the users ( 46 % ) reformulate their queries
+T90	引文作者 6753 6761	Cucerzan
+T91	引文作者 6764 6769	Brill
+T92	引文时间 6772 6776	2004
+T93	引文的结果 6616 6750	Spelling correction was found to be more difficult in the web environment due to the diversity of terms that require special solutions
+T94	引文作者 6586 6594	Cucerzan
+T95	引文作者 6597 6602	Brill
+T96	引文时间 6605 6609	2004
+T97	引文的结果 6509 6583	It was shown that around 10–15 % of search queries contain spelling errors
+T98	引文作者 6783 6789	Carmel
+T99	引文作者 6792 6799	Yom‐Tov
+T100	引文作者 6802 6808	Darlow
+T101	引文作者 6815 6821	Pelleg
+T102	引文时间 6824 6828	2006
+T103	引文的研究问题 6831 6879	analyzed the reasons that make a query difficult
+T104	引文的结果 6884 7049	They found that , when the distance of queries and relevant documents from the entire collection is not sufficiently large , the queries are more difficult to answer
+T105	引文作者 7054 7063	Bendersky
+T106	引文作者 7068 7073	Croft
+T107	引文时间 7076 7080	2009
+T108	引文的结果 7083 7279	showed that , in the case of longer queries , the users tend to click on lower‐ranked results more often , implying that longer queries are relatively more difficult to answer than shorter queries
+T109	引文作者 7284 7291	Kumaran
+T110	引文作者 7296 7304	Carvalho
+T111	引文时间 7307 7311	2009
+T112	引文的结果 7314 7440	proposed solving long queries by substituting them with shorter subqueries that will potentially lead to better result quality
+T113	引文作者 7448 7463	Balasubramanian
+T114	引文时间 7476 7480	2010
+T115	引文的结果 7485 7559	the long query reduction problem is addressed in the context of web search
+T116	引文作者 7564 7570	Huston
+T117	引文作者 7575 7580	Croft
+T118	引文时间 7583 7587	2010
+T119	引文的结果 7590 7753	also focused on long queries and reported that simply reducing the length of a query by learning and removing stop structures can improve the retrieval performance
+T120	引文作者 7761 7767	Downey
+T121	引文时间 7780 7784	2007
+T122	引文的研究问题 7789 7850	characteristics of rare and popular queries were investigated
+T123	引文的结果 7855 8086	It was shown that , in the case of rare queries , the users click on fewer search results and perform a larger number of query reformulations , indicating that rare queries are more difficult to answer compared to popular queries .
+T124	引文作者 8267 8277	Altingovde
+T125	引文时间 8287 8291	2012
+T126	术语 8432 8437	FNAQs
+T127	术语 8535 8539	NAQs
+T128	术语 8636 8640	NAQs
+T129	术语 8738 8741	RQs
+T130	术语 8755 8760	FNAQs
+T131	术语 8883 8888	FNAQs
+T132	研究问题 8769 8890	What presentation mechanisms do commercial web search engines employ to provide the search results in the case of FNAQs ?
+T133	术语 8926 8931	FNAQs
+T134	研究问题 8901 8981	Does special handling of FNAQs help to increase the number of matching results ?
+T135	术语 9070 9075	FNAQs
+T136	研究问题 8992 9077	What modifications are observed in the queries suggested as an alternative to FNAQs ?
+T137	术语 9135 9140	FNAQs
+T138	研究问题 9088 9151	Are the queries suggested as an alternative to FNAQs relevant ?
+T139	术语 9171 9176	FNAQs
+T140	研究问题 9162 9227	Are more FNAQs solved by search engines over the course of time ?
+T141	术语 9245 9249	NAQs
+T142	术语 9286 9290	NAQs
+T143	术语 9310 9314	NAQs
+T144	术语 9408 9412	NAQs
+T145	研究问题 9258 9292	What are the root causes of NAQs ?
+T146	研究问题 9303 9365	How do NAQs affect the user satisfaction with search results ?
+T147	研究问题 9376 9414	What are the common features of NAQs ?
+T148	术语 9428 9432	NAQs
+T149	术语 9513 9516	NAQ
+T150	研究问题 9441 9565	Can we predict , using machine‐learning techniques , that a query is an NAQ before submitting the query to a search engine ?
+T151	术语 9577 9582	FNAQs
+T152	术语 9705 9710	FNAQs
+T153	研究问题 9591 9712	What presentation mechanisms do commercial web search engines employ to provide the search results in the case of FNAQs ?
+T155	术语 9771 9775	NAQs
+T156	研究问题 9743 9777	What are the root causes of NAQs ?
+T158	术语 9876 9879	NAQ
+T159	研究问题 9804 9928	Can we predict , using machine‐learning techniques , that a query is an NAQ before submitting the query to a search engine ?
+T154	术语 9730 9734	NAQs
+T157	术语 9791 9795	NAQs
+T160	术语 10001 10006	FNAQs
+T161	研究结果 9931 10182	The main findings of our work can be summarized as follows : Handling FNAQs : Search engines present their results in four different ways ( original query results , original query results + a suggested query , suggested query 's results , no results )
+T162	引文的结果 10187 10352	In all three search engines we examined , about one fourth of the FNAQs are answered by returning the results of a suggested query instead of the original user query
+T163	术语 10528 10533	FNAQs
+T164	术语 10573 10576	URI
+T165	术语 10662 10667	FNAQs
+T166	研究结果 10672 10773	Through a user study , we showed that the query suggestions are perceived as useful by the endusers .
+T167	研究结果 10538 10667	We also found that the presence of URIs in queries can make a big difference in the way suggested queries are generated for FNAQs
+T168	术语 10841 10846	FNAQs
+T170	术语 10896 10900	NAQs
+T171	术语 11031 11035	NAQs
+T172	术语 11069 11072	URI
+T173	术语 11191 11194	NAQ
+T174	术语 11287 11291	NAQs
+T169	术语 10866 10870	NAQs
+T175	术语 11320 11324	NAQs
+T176	研究结果 11296 11477	Finally , we found that NAQs usually contain spelling errors , are longer than common queries , and are more likely to contain terms that are not in the vocabulary of search engines
+T177	术语 11493 11497	NAQs
+T178	术语 11598 11602	NAQs
+T179	研究结果 11500 11604	We observed that frequency‐ and length‐based features are the most useful features for predicting NAQs .
+T180	术语 11751 11754	AUC
+T181	术语 11728 11748	area under the curve
+T182	引文作者 12440 12444	Pass
+T183	引文作者 12447 12456	Chowdhury
+T184	引文作者 12461 12469	Torgeson
+T185	引文时间 12472 12476	2006
+T186	引文的结果 12420 12437	the AOL query log
+T187	术语 12424 12427	AOL
+T188	术语 12606 12611	FNAQs
+T189	术语 12621 12624	AOL
+T190	术语 13125 13128	AOL
+T191	术语 13165 13168	API
+T192	引文作者 13201 13206	Ozcan
+T193	引文作者 13211 13217	Ulusoy
+T194	引文作者 13188 13198	Altingovde
+T195	引文时间 13220 13224	2011
+T196	引文的结果 13154 13185	Web Search API in December 2010
+T197	时间 13362 13371	July 2011
+T198	术语 13355 13358	API
+T199	术语 13500 13503	API
+T200	术语 13652 13657	FNAQs
+T201	引文作者 13696 13702	McCown
+T202	引文作者 13707 13713	Nelson
+T203	引文时间 13716 13720	2007
+T204	术语 13768 13771	API
+T205	术语 13876 13879	API
+T206	引文的结果 13723 13927	claimed that query results obtained from the API of a search engine may differ from those obtained from its web interface , as the index employed by the API is likely to be smaller than the full web index
+T207	术语 14010 14015	FNAQs
+T208	时间 14171 14180	July 2011
+T209	术语 14499 14503	NAQs
+T210	表 15174 15279	In Table 1 , for the three search engines , we report the number of queries that match k or fewer results
+T211	表 15501 15625	In Table 1 , we present only the number of results retrieved for the original query , but not for such a possible suggestion
+T212	术语 15955 15959	NAQs
+T213	术语 16064 16069	FNAQs
+T214	术语 16090 16095	FNAQs
+T215	术语 16261 16264	API
+T216	术语 16407 16410	AOL
+T217	术语 16772 16776	NAQs
+T218	术语 16444 16461	singleton queries
+T219	术语 16505 16525	nonsingleton queries
+T220	表 16795 16802	Table 1
+T221	研究结果 16680 16802	This experiment showed that the ranking of search engines with respect to the percentage of NAQs is the same as in Table 1
+R1	results Arg1:T2 Arg2:T1	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	coauthor Arg1:T4 Arg2:T5	
+R5	has_cited_time Arg1:T6 Arg2:T5	
+R6	coauthor Arg1:T7 Arg2:T8	
+R7	has_cited_time Arg1:T9 Arg2:T8	
+R8	field_similar_as Arg1:T7 Arg2:T2	
+R9	results Arg1:T11 Arg2:T10	
+R10	coauthor Arg1:T11 Arg2:T12	
+R11	coauthor Arg1:T12 Arg2:T13	
+R12	has_cited_time Arg1:T14 Arg2:T13	
+R13	coauthor Arg1:T16 Arg2:T17	
+R14	coauthor Arg1:T17 Arg2:T18	
+R15	has_cited_time Arg1:T19 Arg2:T18	
+R16	coauthor Arg1:T20 Arg2:T21	
+R17	coauthor Arg1:T21 Arg2:T22	
+R18	has_cited_time Arg1:T23 Arg2:T22	
+R19	has_cited_time Arg1:T25 Arg2:T24	
+R20	field_similar_as Arg1:T24 Arg2:T20	
+R21	field_similar_as Arg1:T20 Arg2:T16	
+R22	results Arg1:T16 Arg2:T15	
+R23	results Arg1:T63 Arg2:T68	
+R24	coauthor Arg1:T63 Arg2:T64	
+R25	coauthor Arg1:T64 Arg2:T65	
+R26	has_cited_time Arg1:T66 Arg2:T65	
+R27	coauthor Arg1:T69 Arg2:T70	
+R28	coauthor Arg1:T70 Arg2:T71	
+R29	coauthor Arg1:T71 Arg2:T72	
+R30	coauthor Arg1:T72 Arg2:T73	
+R31	has_cited_time Arg1:T74 Arg2:T73	
+R32	produces Arg1:T69 Arg2:T75	
+R33	has_cited_time Arg1:T77 Arg2:T76	
+R34	results Arg1:T76 Arg2:T78	
+R35	coauthor Arg1:T79 Arg2:T80	
+R36	coauthor Arg1:T80 Arg2:T81	
+R37	coauthor Arg1:T81 Arg2:T82	
+R38	has_cited_time Arg1:T83 Arg2:T82	
+R39	uses Arg1:T79 Arg2:T84	
+R40	coauthor Arg1:T85 Arg2:T86	
+R41	coauthor Arg1:T86 Arg2:T87	
+R42	has_cited_time Arg1:T88 Arg2:T87	
+R43	results Arg1:T85 Arg2:T89	
+R44	results Arg1:T94 Arg2:T97	
+R45	coauthor Arg1:T94 Arg2:T95	
+R46	has_cited_time Arg1:T96 Arg2:T95	
+R47	results Arg1:T90 Arg2:T93	
+R48	coauthor Arg1:T90 Arg2:T91	
+R49	has_cited_time Arg1:T92 Arg2:T91	
+R50	coauthor Arg1:T98 Arg2:T99	
+R51	coauthor Arg1:T99 Arg2:T100	
+R52	coauthor Arg1:T100 Arg2:T101	
+R53	has_cited_time Arg1:T102 Arg2:T101	
+R54	produces Arg1:T98 Arg2:T103	
+R55	results Arg1:T98 Arg2:T104	
+R56	coauthor Arg1:T105 Arg2:T106	
+R57	has_cited_time Arg1:T107 Arg2:T106	
+R58	results Arg1:T105 Arg2:T108	
+R59	coauthor Arg1:T109 Arg2:T110	
+R60	has_cited_time Arg1:T111 Arg2:T110	
+R61	results Arg1:T109 Arg2:T112	
+R62	has_cited_time Arg1:T114 Arg2:T113	
+R63	results Arg1:T113 Arg2:T115	
+R64	coauthor Arg1:T116 Arg2:T117	
+R65	has_cited_time Arg1:T118 Arg2:T117	
+R66	results Arg1:T116 Arg2:T119	
+R67	has_cited_time Arg1:T121 Arg2:T120	
+R68	produces Arg1:T120 Arg2:T122	
+R69	results Arg1:T120 Arg2:T123	
+R70	has_cited_time Arg1:T125 Arg2:T124	
+R71	results Arg1:T182 Arg2:T186	
+R72	coauthor Arg1:T182 Arg2:T183	
+R73	coauthor Arg1:T183 Arg2:T184	
+R74	has_cited_time Arg1:T185 Arg2:T184	
+R75	results Arg1:T194 Arg2:T196	
+R76	coauthor Arg1:T194 Arg2:T192	
+R77	coauthor Arg1:T192 Arg2:T193	
+R78	has_cited_time Arg1:T195 Arg2:T193	
+R79	coauthor Arg1:T201 Arg2:T202	
+R80	has_cited_time Arg1:T203 Arg2:T202	
+R81	results Arg1:T201 Arg2:T206	

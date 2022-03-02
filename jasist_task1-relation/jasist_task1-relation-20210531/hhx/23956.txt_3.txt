@@ -1,0 +1,130 @@
+Second , written in the Hebrew language , this corpus gives an opportunity to test non‐English documents . 
+Third , because the five bible books are related to two literatures , it allows evaluating the effectiveness of our approach in documents created by merging two books of the same literature . 
+The second corpus , referred to as “ The Becker–Posner Blog ” , is a group of 690 blogs written by the Nobel Prize‐winning economist Gary Becker and the legal scholar and federal judge Richard Posner . 
+The Becker–Posner Blog was started in 2004 to discuss current issues of law , economics , and policy in a dialogic format . 
+It provides a good basis for inspecting the performance of various approaches on documents where the topics among authors are not differentiated . 
+The work in Giannella ( 2015 ) manually created six single‐topic documents from the Becker–Posner blogs to evaluate the performance of his work ( see Table 2 ) , where each document has sentences representing only a single topic . 
+In this work , we use these documents because each of these documents has only a single topic , all these documents are short , and the total number of consecutive sentences of each author in these documents is relatively small . 
+Therefore , this corpus makes the task of distinguishing the sentences in a document , according to authorship , rather than topics , more challenging . 
+We test our approach on the third corpus , a group of 1,182 New York Times articles . 
+These articles , having diverse topics , were written by four columnists ( see Table 3 ) . 
+We use this corpus to evaluate the performance of the proposed approach on documents that are written by more than two authors ( i.e. , three or four authors ) . 
+Furthermore , to show the efficiency of the proposed approach on more realistic cases , we randomly selected some scientific articles , which are cited in the References section , covering the same topics . 
+The articles of each topic are mixed in one article and the proposed approach is then applied to recover the author of each sentence in the mixed article . 
+Due to the difficulty of finding articles written by single authors and covering the same topics , as well as due to the fact that , in most cases , there is one main author of an article whose writing style can be found throughout the article , we consider each article produced by more than one author as an article produced by only one author . 
+In each selected article , we have ignored all metadata ( e.g. , titles , author names , references , equations , tables , and citations ) . 
+We randomly select two articles on a plagiarism detection topic . 
+The articles are Rao et al . 
+( 2011 ) and Kestemont et al . 
+( 2011 ) . 
+The lengths of these articles are 66 and 111 sentences , respectively . 
+We also randomly select three articles on authorship attribution topic . 
+The articles are Baayen et al . 
+( 2002 ) , Layton et al . 
+( 2010 ) , and Savoy ( 2015 ) . 
+The lengths of these articles are 91 , 197 , and 304 sentences , respectively . 
+Furthermore , we randomly select four articles on the authorship‐based document decomposition topic ( i.e. , the same topic addressed in this article ) . 
+The articles are Koppel et al . 
+( 2011 ) , Giannella ( 2015 ) , Daks and Clark ( 2016 ) , and Aldebei , He , Jia , and Yang ( 2016 ) . 
+The lengths of these articles are 257 , 215 , 104 , and 229 sentences , respectively . 
+The four articles also used the same datasets in their approaches . 
+Note that all articles of each topic are randomly selected , in which each article is produced by different authors . 
+To also work on other types of a non‐artificial document , we tested the proposed approach on a very early draft of a scientific paper produced by two PhD students ( Students A and B ) in our research team . 
+To use this document , we ignored all the figures as well as all metadata ( e.g. , titles , author names , references , and citations ) . 
+The paper consists of 313 sentences and has six sections ( including the Abstract and Conclusion ) . 
+Each author has written three sections . 
+Student A has written 131 sentences and Student B has written 182 sentences . 
+The performance of the proposed approach ( i.e. , SequentialUD and its refined version ) is examined through a set of experiments on different documents . 
+In the first four experiments , artificially created documents are prepared by employing the same procedure used in Koppel et al . 
+( 2011 ) , Akiva and Koppel ( 2012 , 2013 ) , and Aldebei et al . 
+( 2015 ) for fairness of comparison , which is summarized as follows . 
+Suppose that there are N authors , each having written a group of documents . 
+The document of N authors is composed by recursively picking up a random number ( m ) of unselected successive sentences from a document of a randomly chosen author and merging them together until all sentences in all documents of N authors are selected . 
+During each iteration , the value of m is randomly chosen from a uniform distribution ranging from 1 to V . 
+We also follow the approaches described in Koppel et al . 
+( 2011 ) , Akiva and Koppel ( 2012 , 2013 ) , and Aldebei et al . 
+( 2015 ) and assign 200 to V . 
+In our experiments , we empirically assign 15 to the threshold R for the refined SequentialUD approach . 
+To determine the optimal segment length v , which is employed to estimate the transition matrix A of the preliminary HMM , we group documents from the datasets based on the number of their sentences into two categories , that is , Long Documents ( containing 500 or more sentences ) and Short Documents ( containing fewer than 500 sentences ) . 
+Furthermore , based on our observations , the segment length v also depends on the meanARL . 
+To depict the impact of document length and meanARL on v , for each category we randomly pick up one document and apply our SequentialUD approach on its sentences with different values of meanARL . 
+We employ the same procedure described above and use the sentences of the document to create merged documents with different values of meanARL . 
+The meanARL of a document is determined by setting the value of V , which results in a mean of around 0.5V successive sentences from the same author on the document . 
+A document resulted from merging the biblical books of Ezekiel and Proverbs ( Eze‐Prov ; containing 2,188 sentences ) and the two‐student scientific document ( containing 313 sentences ) were selected to determine the best segment length for Long and Short Documents , respectively . 
+Our experiments on the Eze‐Prov document ( a Long Document ) show that the proposed approach yields higher purity results when v is less than meanARL and 60 . 
+Recall that , in our work each author is assumed to have written long successive sentences in a document ( i.e. , a larger meanARL ) and most Long Documents used in our experiments are created with a meanARL of around 100 ( i.e. , V = 200 ) . 
+Our experiments also show that the highest purity result in the Eze‐Prov document with the meanARL of around 100 is achieved when v is 30 . 
+Therefore , we assign 30 to v for all Long Documents in our experiments . 
+However , for the scientific document ( a Short Document ) , our experiments show that the proposed approach achieves higher purity results when v is less than the meanARL and 40 . 
+Furthermore , our experiments show that the highest purity results on the scientific document are achieved when v is 10 . 
+Therefore , we assign 10 to v for all Short Documents in our experiments . 
+To ensure that the number of segments used in the clustering process ( Step 3 of “ Estimating Transition Matrix A ” ) is always larger than the number of clusters , the segment length v for Short Document is set to , where F represents the commonly known floor function . 
+In our approach , to reduce the influence of topics on final results , only those words appearing at least three times in the document are used as features of BagOfWords 1 to depict the writing style of the segments ( see Step 2 of the subsection “ Estimating Transition Matrix A ” ) . 
+However , note that these words may not necessarily be purely topic‐independent words . 
+Based on our observation on different documents , the words selected in the feature set are mostly function words and words that are independent of topics . 
+Increasing the frequency threshold does help to exclude these topic‐specific words , but in the meantime it also decreases the recall rates of pure segments on the clustering process ( Step 3 of the same subsection ) , and this results in insufficient data being produced for the estimation process . 
+Also note that we use recall rates to evaluate clustering results , because our interest here is to evaluate the capability of the clustering process for retrieving pure segments . 
+Furthermore , we observe that choosing words appearing for at least three times as features of BagOfWords 1 in a Short or Long Document produces generally higher recall rates on the clustering process . 
+Figure 3 shows the recall rates of the clustering process using words that have occurred at least once , twice , three times , four times , and five times , respectively , in four documents as features of BagOfWords 1 . 
+The documents of Becker–Posner Blogs and four‐author columnists of the New York Times articles have been used as Long Documents . 
+The documents of Traffic Congestion and a scientific paper have been used as Short Documents . 
+Obviously , as shown in Figure 3 , using all words that have occurred three or more times achieved higher recall rates on the clustering process for all four documents . 
+The recall rates of the clustering process obtained using words that have occurred at least once , twice , three times , four times , and five times in four documents as features of BagOfWords1 . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Next , the results of the proposed approach SequentialUD and its refined version are compared with those obtained by five state‐of‐the‐art approaches . 
+For the first set of experiments , the five biblical books of five authors were utilized to produce a set of total 10 merged documents of two authors by using the procedure mentioned before . 
+The 10 documents are related to either different genres or the same genre ( see Table 1 ) . 
+In Tables 4 and 5 , we report the purity results obtained by applying the proposed approach SequentialUD and its refined version on the documents composed by merging two biblical books of different genres ( Table 4 ) and the documents composed by merging two biblical books of the same genre ( Table 5 ) . 
+In both cases , the results of the SequentialUD and its refined version were compared with the approaches of Koppel et al . 
+( 2011 ) , Akiva and Koppel ( 2013 ) , Akiva and Koppel ( 2013 ) ‐SynonymSet , and Aldebei et al . 
+( 2015 ) . 
+The purity results of the approach in Akiva and Koppel ( 2012 ) were used further for the comparison in Table 5 . 
+From the purity results presented in the tables , we can observe that the results obtained with our proposed approach SequentialUD and its refined version are quite promising , with a purity of over 99.5 % achieved on some documents . 
+We can also see that the overall purities of our proposed approach are remarkably better than those obtained using other approaches . 
+In some cases ( e.g. , for the Jer‐Prov document mentioned in Table 4 ) , SequentialUD produces a 37 % larger purity result than Koppel et al . 
+( 2011 ) and 33 % larger purity result than Akiva and Koppel ( 2013 ) ‐SynonymSet . 
+Note that two of them , that is , Koppel et al . 
+( 2011 ) and Akiva and Koppel ( 2013 ) ‐SynonymSet , were specially developed for biblical books only , and not applicable for other documents . 
+For the second set of experiments , we applied the proposed approach on the merged documents composed from the Becker–Posner blogs corpus . 
+In the first part of our experiments using this corpus , we worked on a document created by merging all Becker blogs and Posner blogs . 
+The merged document has 26,922 sentences and 246 turns between the two authors . 
+It does not have any topic indication that can be used to differentiate between authors . 
+As shown in Table 6 , the purity results achieved by applying our proposed approach on this document are significantly higher . 
+In fact , it is important to know the effectiveness of applying the procedures of our SequentialUD approach , i.e. , the preliminary HMM , the Boosted HMM , and the ModPIP refinement . 
+Table 6 shows the intermediary and final purity results achieved by applying our SequentialUD approach on the Becker–Posner blogs . 
+In this table , “ 4‐First‐Stage HMM ” is the purity obtained by applying the first‐state preliminary HMM , and “ 5‐Our SequentialUD ” is the purity obtained after further applying the Boosted HMM , and “ 6‐Our Refined SequentialUD ” is the result obtained after applying the ModPIP refinement in the end . 
+From these results , it can be clearly seen that ( a ) The purity achieved using our preliminary HMM is already very effective and has outperformed the other three approaches ; ( b ) Our BoostedHMM and ModPIP refinement have further improved the purity results , each by 0.6 % . 
+In the second part of our experiments regarding this corpus , the six single‐topic documents ( see Table 2 ) manually created by Giannella ( 2015 ) from the Becker–Posner blogs were used to test the performance of the proposed approach , where each document has sentences representing only a single topic . 
+Figure 4 illustrates the purity results obtained using our proposed SequentialUD approach and its refined version , compared with that of the approach in Giannella ( 2015 ) . 
+As shown in the figure , both versions of our approach yielded better purity results ( up to 42.5 % in the “ Traffic Congestion ( TC ) ” document ) in all six documents . 
+Purity results of the approaches proposed by Giannella ( 2015 ) , our SequentialUD , and our refined SequentialUD using the six single‐topic documents of Becker–Posner blogs . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] In these experiments we employed the New York Times articles of four columnists to create a set of merged documents , and the merged documents had two , three , or four authors . 
+In the first set of experiments regarding this corpus , all possible documents of two authors were composed and six documents were produced . 
+We found that the purity results of the six documents ranged from 94.1 % to 97.0 % and from 95.5 % to 98.0 % using SequentialUD and refined SequentialUD , respectively . 
+We also found that the purity results of our approach exceeded the results obtained using Aldebei et al . 
+( 2015 ) in all of the six documents . 
+Furthermore , these results outperform the purity of 88.0 % , acquired by Akiva and Koppel ( 2012 , 2013 ) . 
+In the second set of our experiments regarding this corpus , all possible documents of three or four authors were composed . 
+This resulted in four documents of three authors and one document of four authors . 
+Figure 5 shows the purity results of applying our SequentialUD and refined SequentialUD on the five aforementioned documents ( i.e. , four documents having three authors and one document having four authors ) , compared with the approaches of Akiva and Koppel ( 2012 , 2013 ) and Aldebei et al . 
+( 2015 ) . 
+Purity results of the approaches proposed by Akiva and Koppel ( 2012 ) , Akiva and Koppel ( 2013 ) , and Aldebei et al . 
+( 2015 ) , SequentialUD and refined SequentialUD using documents composed by merging articles of three and four New York Times columnists . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As shown in Figure 5 , the purities achieved by our SequentialUD approach and its refined version are significantly higher no matter if a document is written by three or four authors . 
+In addition , it should be noted that the proposed approach consistently outperforms the other three state‐of‐art approaches in all of the five documents . 
+Figure 5 also shows that , in the experiments involving the four‐author document ( i.e. , MD‐GC‐TF‐PK ) , the refined SequentialUD produces a 34 % higher purity than the approach in Akiva and Koppel ( 2013 ) . 
+Once again , comparing the purity results obtained in all of the five documents using the refined and nonrefined version of our approach , one can see that applying our ModPIP on the BoostedHMM has further improved the performance by 2.2 % on average . 
+This clearly demonstrates the effectiveness of the ModPIP procedure . 
+To examine the proposed approach in shorter documents , another set of experiments regarding the New York Times corpus was applied . 
+In this set of experiments , merged documents of two , three , and four columnists composed of only n different randomly selected articles of each columnist were created . 
+For each resultant merged document , the SequentialUD approach and its refined version were applied and the purity results computed . 
+We repeated this process 50 times and then the mean purity results over the 50 trials for SequentialUD and its refined version were computed . 
+The 0.95 confidence intervals over the 50 purity results for the refined SequentialUD version were also computed . 
+Figure 6 shows the purity results of the SequentialUD approach and its refined version on merged documents created by merging 1 , 5 , 10 , 15 , and 20 randomly selected articles of two , three , and four authors . 
+Figure 6 also shows the 0.95 confidence intervals for the refined SequentialUD version . 
+Purity results of SequentialUD approach and its refined version on merged documents created by merging 1 , 5 , 10 , 15 , and 20 randomly selected articles of two , three , and four authors . 
+The error bars depict 0.95 confidence intervals for the refined SequentialUD approach . 
+In many cases the confidence intervals are quite small and are not easily seen in the figure . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As shown in Figure 6 , the purity results obtained with our proposed approach on New York Times short documents are quite promising . 
+In Giannella ( 2015 ) , the author examined his approach of document decomposition on short documents created by merging a few sentences of the four columnists of New York Times articles . 
+These documents were created using a procedure that is different from the one used in this study . 
+The procedure aims to create a merged document containing a specific number of runs of successive sentences of each columnist . 

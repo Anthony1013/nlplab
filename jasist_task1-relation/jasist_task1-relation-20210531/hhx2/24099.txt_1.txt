@@ -1,0 +1,130 @@
+In recent times , Social Networking Sites ( SNS ) have become a major platform of communications of users on the web . 
+Every day , millions of people use social media to share ideas , thoughts , and opinions with their friends , family , and acquaintances . 
+These SNS data bring a wide range of opportunities for researchers to identify cognitive and psychological attributes such as basic human values ( Chen , Hsieh , Mahmud , & Nichols , 2014 ) , personality ( Chua & Chua , 2016 ; Golbeck , Robles , & Turner , 2011 ) , behavior ( Arbelaitz , Martínez‐Otzeta , & Muguerza , 2016 ) , and sentiment ( Paltoglou , 2016 ) . 
+In this article , we focus on identifying the change of basic human value priorities of users from their social network uses . 
+Basic human values ( or , values for short ) represent a set of criteria such as security , self‐enhancement , and so forth , that are used by individuals to take different actions . 
+According to the study of Schwartz ( 2003 ) , values can be categorized into four higher‐level dimensions : self‐transcendence , self‐enhancement , conservation , and openness‐to‐change . 
+Schwartz describes that hedonism , one of the 10 root‐level values , shares elements of both openness‐to‐change and self‐enhancement higher‐level value dimensions . 
+The author also describes that hedonism can be categorized 75 % of the time under the openness‐to‐change value dimension . 
+However , in a recent study ( Chen et al. , 2014 ) the authors consider five higher‐level value dimensions , where hedonism and openness‐to‐change are considered as two separate values . 
+Their motivation was to separate the effect of hedonism and openness‐to‐change from each other . 
+Values influence user behavior and actions such as reading habits , buying products , and technology use ( Bagchi , Udo , Kirs , & Choden , 2015 ; Dunbar , Proeve , & Roberts , 2017 ) . 
+A recent study was conducted for predicting higher‐level values from user 's word use in Reddit , an online social news‐sharing community ( Chen et al. , 2014 ) . 
+Hsieh , Chen , Mahmud , and Nichols ( 2014 ) show the correlation between user 's reading interest and his/her values from tweets . 
+In another study , Boyd et al . 
+( 2015 ) identified values from Facebook by using an open vocabulary‐based technique . 
+None of these approaches can capture the value priority change of users over time , which is our main focus in this article . 
+Values may differ from one person to another . 
+The ordered set of values form a system of value priorities . 
+High priority of a value induces intense and rigid pursuit of that value ( Schwartz , 2003 ) . 
+For example , a person who emphasizes achievement is likely to possess a high score on the self‐enhancement value dimension . 
+Similarly , a person who has a high priority in helping society is likely to possess a high score on the self‐transcendence value dimension . 
+Recent psychological studies ( Bardi , Lee , Hofmann‐Towfigh , & Soutar , 2009 ; Bible & Tadros , 2014 ; Gouveia , Vione , Milfont , & Fischer , 2015 ; Myyry , Juujärvi , & Pesso , 2013 ) show that value changes over time . 
+Bardi et al . 
+( 2009 ) proposed a value change structure of an individual . 
+They found that values change over time among adolescents . 
+People assign different weights to value priorities over time to make a choice against the situational changes . 
+Bible and Tadros ( 2014 ) found that value and ethical behavior change through experience and education . 
+The value priority of a person may change over time due to various factors that include technologies ( Danis , Liu , & Vacek , 2011 ; Lee & Lyu , 2016 ) , events ( Becker , 2004 ) , environments ( Friedkin & Johnsen , 1990 ) , and so forth . 
+For example , a person might have more preference to get a job quickly ( that is , hedonism ) after the completion of her/his undergraduate studies ( that is , an event ) , but his/her value priority can be shifted to pursue higher studies ( that is , self‐enhancement ) by observing other fellow members of their class ( that is , environment ) . 
+In this article , we propose a technique to identify five higher‐level value changes from social network use . 
+Motivated by the work of Chen et al . 
+( 2014 ) , first we build a linear regression model from Linguistic Inquiry and Word Count ( LIWC ) ( Pennebaker , Booth , & Francis , 2007 ) scores of Facebook statuses and portrait value questionnaire ( PVQ ) ( Schwartz , 2003 ) test results of the Facebook users . 
+Then we capture our value prediction results from different time intervals ( for instance , 6‐month interval ) by using a weighted hybrid time‐series model . 
+In our hybrid time‐series model , we combine both autoregressive integrated moving average ( ARIMA ) ( Box , Jenkins , Reinsel , & Ljung , 2015 ) and long short‐term memory ( LSTM ) ( Hochreiter & Schmidhuber , 1997 ) techniques , which capture both linear and nonlinear patterns effectively from the data . 
+We observed that the ARIMA model produces large residual errors while predicting values , and thus we apply the LSTM model as our next step to predict these residual errors . 
+We compare our hybrid model with the hidden Markov model ( HMM ) ( Ghahramani , 2001 ) ‐based value change technique , which works as the baseline model in our experiment . 
+We observed that our weighted hybrid model performs better than other independent time‐series‐based value change prediction models . 
+We validate the value priority changes of Facebook users through a questionnaire in real life . 
+To show the correlation of value change and real‐world decision‐making process , we conduct a detailed experimental study of users ' movie‐watching preference . 
+In our experimental study , we used the Facebook status of a total of 726 users . 
+We build a linear regression model for predicting value from the statuses and PVQ scores of 388 active Facebook users . 
+Then we build and validate our hybrid time‐series model with a total of 338 active Facebook users for the duration of an average of 7.5 years , where first 70 % time interval data of each user are used for training and the remaining 30 % time interval data are used for testing . 
+We observe that on average our hybrid model reduces the root mean square error ( RMSE ) by 41 % and 34.49 % than the LSTM and the ARIMA models , respectively . 
+Our model also reduces the RMSE by 58.35 % than the HMM‐based baseline technique . 
+We also observe that our hybrid model captures the value changes accurately for self‐transcendence , openness‐to‐change , and conservation value dimensions in real life . 
+A large number of applications can benefit from our value priority change identification that include major or career path selection , prediction of customers ' buying behavior or shifting of product selection preference , and detection of lifestyle changes ( for instance , fashion , trend ) . 
+For example , the identification of value priority change of customers may help business owners to do targeted marketing based on changing lifestyles ( for instance , fashion , trend ) , and product preferences . 
+Thus , a recommender system can produce customized suggestions on products to users based on their changing value preferences . 
+In summary , our contributions in this article are : We are the first to propose a technique to identify temporal value changes from social media use . 
+We develop a weighted hybrid time‐series‐based technique to capture the value priority changes over different time intervals . 
+We validate our hybrid technique with a real‐world scenario through a questionnaire and compare our technique with other baseline techniques . 
+We demonstrate how the change of values relates to the users ' movie‐watching preferences . 
+A preliminary version of this work appeared in Mukta , Ali , and Mahmud ( 2017 ) , where we predict the value transition with the HMM‐based technique only . 
+We find that the HMM‐based technique sometimes can not capture unforeseeable events accurately from our data set . 
+Therefore , the model does not perform well for building the value transition model . 
+In this study , we investigate further two potential time‐series techniques : ARIMA and LSTM . 
+First , we build value transition model by using the ARIMA and the LSTM techniques independently . 
+Later , we find that the ARIMA and the LSTM models perform better for our data set with linear and nonlinear properties , respectively . 
+We also find that both of these models outperform the HMM‐based technique to predict the value transition . 
+Then we combine both the ARIMA‐ and the LSTM‐based techniques using a weighted hybrid time‐series‐based technique . 
+The rest of the article is organized as follows . 
+We discuss preliminaries and related works . 
+Then we present the data collection process and describe the high‐level steps to solve our problem . 
+Later , we show the technique of the value building model and then present the value transition model . 
+Next , we compare our value transition model with competitive baseline models . 
+We provide an experiment to show how the change of values affects our decision‐making process in real life . 
+Then we discuss our experiments and findings . 
+Finally , we conclude the article with a discussion of future works . 
+Our goals , actions , beliefs , and behaviors depend on our values . 
+Our values define who we are and what we do . 
+Values signify the importance of different things such as power , security , tradition , success , happiness , and social status in our life . 
+Society , culture , religion , and life experiences build the priorities of numerous values in individuals . 
+The priorities differ from one individual to another , which results in diversities of an individual 's actions in different situations . 
+Schwartz ( 2003 ) presented 10 root‐level values : self‐direction , stimulation , hedonism , achievement , power , security , conformity , tradition , benevolence , and universalism . 
+The author portrayed the discrepancies and likenesses between these values . 
+He also maps the 10 root‐level values into four higher‐level values : self‐transcendence , openness‐to‐change , self‐enhancement , and conservation . 
+Schwartz ( 1994 ) showed that the hedonism value is related to both openness‐to‐change and self‐enhancement value dimensions . 
+In the recent study of Chen et al . 
+( 2014 ) , the authors considered hedonism as a separate higher‐level value , so that they can measure the scores of openness‐to‐change , self‐enhancement , and hedonism values distinctly . 
+To measure the values , Schwartz et al . 
+( 2001 ) developed 21 items for a PVQ . 
+The PVQ describes short statements about different people . 
+Each statement reports one 's importance on a single value dimension . 
+These statements identify a participant 's value dimensions without directly asking her/him about a particular value ( Schwartz et al. , 2001 ) . 
+Users were asked to fill out the 21‐item PVQ questionnaire to measure an individual 's value orientations . 
+The survey also contained several questions about the demographics of the survey participants . 
+The PVQ includes 21 items that require responses on a 6‐point Likert scale . 
+There are two items for each of the 10 value types discussed above , except for universalism , which contains three questions . 
+Each item describes a third person ( she or he ) , and the survey attendee is asked to rate how much the person in the question is like him/her . 
+Schwartz et al . 
+( 2001 ) computed Cronbach 's alphas for internal consistency for psychometric questionnaire results . 
+Chen et al . 
+( 2014 ) identify five higher‐level values from user 's pattern of word use in social media . 
+The authors analyzed the statuses and comments of Reddit , an online news‐sharing community , using LIWC . 
+They also conducted the PVQ test among Reddit users . 
+Later , the authors computed the Pearson correlation analysis between LIWC categories and PVQ scores . 
+The authors predicted the value scores by computing the linear regression analysis . 
+Boyd et al . 
+( 2015 ) identified values from the statuses of 767 Facebook users . 
+They identified values with a data‐driven approach . 
+Mukta et al . 
+( 2016 ) identified values from both user‐generated ( that is , statuses ) and supported contents ( that is , page‐likes ) in Facebook . 
+Hsieh et al . 
+( 2014 ) found a relation between user 's reading interest and values in Twitter . 
+They computed regression analysis for three different values , such as universalism , achievement , and hedonism . 
+However , none of the above articles investigated whether the value priority changes or can be tracked over time . 
+In this article , we devise a novel technique to identify the changes of values in real life . 
+Several psychological studies ( Bardi et al. , 2009 ; Bible & Tadros , 2014 ; Gouveia et al. , 2015 ; Myyry et al. , 2013 ) show that values change due to different factors . 
+Bardi et al . 
+( 2009 ) show that values change over time . 
+They show that values are likely to change among adolescents due to cognitive , biological , and psychological factors . 
+They also used the PVQ to obtain users ' value scores . 
+In this article , the authors conduct the PVQ among students at 9‐month interval . 
+Bible and Tadros ( 2014 ) also show that values and ethical behavior change by conducting an experiment among business major students . 
+A longitudinal study ( Roberts , Walton , & Viechtbauer , 2006 ) also showed that the pattern of mean‐level personality changes over time where mean‐level change refers to an absolute change in an individual 's certain psychological attribute , that is , personality and values . 
+The authors show that few personality traits change across different life courses among the young adults ( age 20–40 ) . 
+To predict future values , we find a number of studies for sequential time‐series forecasting . 
+ARIMA ( Box et al. , 2015 ) is a widely used linear time‐series forecasting model among researchers in statistics and econometrics . 
+The model is powerful for incorporating both stationary and nonstationary properties of a time‐series data . 
+The ARIMA builds a preassumed linear structure of the model ( Zhang , 2003 ) . 
+The model can not capture and predict nonlinear pattern of a real‐world data set . 
+HMM ( Ghahramani , 2001 ) is another well‐used technique for modeling time‐series data . 
+The HMM model predicts the future data based on a probability distributions over a sequence of observations . 
+The model is expensive in terms of memory and computation time for dynamic programming ( UCSC , 1996 ) . 
+The model also needs to train with a large number of seeds . 
+In another study , Connor Martin , and Atlas ( 1994 ) use a recurrent neural network ( RNN ) to predict time‐series data . 
+The RNN has feedback connections from the output neurons , and sends back the error to the input neurons ( Hochreiter & Schmidhuber , 1997 ) . 
+The RNN does not work well for long lags due to the error backflow problem . 
+The LSTM uses an RNN‐based architecture that applies the gradient‐based algorithm to control the error backflow problem like other modern RNN variants such as real‐time recurrent learning , back propagation through time , recurrent cascade correlation , and so forth ( Hochreiter & Schmidhuber , 1997 ) . 
+These RNN variants suffer from vanishing and exploding gradient problems . 

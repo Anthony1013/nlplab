@@ -1,0 +1,133 @@
+T1	引文作者 2464 2469	Zobel
+T2	引文时间 2472 2476	2007
+T3	引文作者 2453 2459	Webber
+T4	引文作者 2444 2450	Moffat
+T5	引文作者 2304 2309	Aslam
+T6	引文作者 2312 2317	Pavlu
+T7	引文作者 2322 2328	Savell
+T8	引文时间 2331 2335	2003
+T9	引文作者 2338 2348	Carterette
+T10	引文作者 2351 2356	Allan
+T11	引文作者 2361 2370	Sitaraman
+T12	引文作者 2380 2387	Cormack
+T13	引文时间 2373 2377	2006
+T14	引文作者 2390 2395	Lynam
+T15	引文时间 2398 2402	2007
+T16	引文作者 2405 2411	Losada
+T17	引文作者 2414 2421	Parapar
+T18	引文作者 2426 2434	Barreiro
+T19	引文时间 2437 2441	2016
+T20	引文作者 3011 3017	Bodoff
+T21	引文作者 3020 3022	Li
+T22	引文时间 3025 3029	2007
+T23	引文作者 3032 3041	Sanderson
+T24	引文作者 3044 3049	Zobel
+T25	引文时间 3052 3056	2005
+T26	引文作者 3059 3065	Webber
+T27	引文作者 3068 3074	Moffat
+T28	引文作者 3079 3084	Zobel
+T29	引文时间 3087 3091	2008
+T30	引文作者 409 414	Kando
+T31	引文作者 369 377	Voorhees
+T32	引文作者 380 386	Harman
+T33	引文时间 389 393	2005
+T34	引文作者 417 422	Sakai
+T35	引文作者 427 436	Sanderson
+T36	引文时间 439 443	2016
+T37	引文作者 594 599	Balog
+T38	引文作者 602 610	Neumayer
+T39	引文时间 613 617	2013
+T40	引文作者 620 626	Losada
+T41	引文作者 629 637	Crestani
+T42	引文时间 640 644	2016
+T43	引文作者 3246 3256	Carterette
+T44	引文作者 3259 3264	Pavlu
+T45	引文作者 3267 3275	Kanoulas
+T46	引文作者 3278 3283	Aslam
+T47	引文作者 3288 3293	Allan
+T48	引文时间 3296 3300	2008
+T49	引文作者 7636 7641	Zobel
+T50	引文时间 7644 7648	1998
+T51	图 10460 10606	Figure 1 shows two fits , one obtained with a query with few relevant documents and another one obtained with a query with many relevant documents
+T52	数学公式 10179 10189	Equation 1
+T53	数学公式 10305 10315	Equation 1
+T54	数学公式 12581 12591	Equation 8
+T55	数学公式 13779 13790	Equation 10
+T56	图 16193 16269	Figure 4 plots an example of a stock price and its MA ( smooth dashed line )
+T57	图 13030 13078	Figure 3 provides evidence to support this claim
+T58	图 11929 12144	Figure 2 plots this estimate for three TREC ad hoc collections ( TREC6–8 , whose estimates were done using TREC5 for training ) and two Clinical Track collections ( CT15–16 , where CT14 was the training collection )
+T59	引文作者 14406 14413	Cootner
+T60	引文时间 14416 14420	1962
+T62	引文的研究问题 2268 2301	cost‐effective evaluation methods
+T63	研究问题 2575 2696	Stopping is a practical problem in creating IR test collections , and we provide here a comprehensive study on this topic
+T64	研究方法 2701 2812	Combining effective adjudication methods with smart stopping permits reducing the number of judgments per query
+T68	研究结果 4245 4394	The results clearly demonstrate that some stopping methods can substantially reduce the assessment effort and still produce reliable test collections
+T69	研究方法 5023 5176	we assume that the document adjudication method selects documents following some estimation of relevance ( for instance , top‐ranked documents go first )
+T70	引文的研究问题 7651 7704	analyzed the depth of the rank used to form the pools
+T71	引文的结果 7709 7784	proposed a method for estimating how many unjudged documents are relevant .
+T72	引文的结果 8122 8253	concluded that a power law distribution provides a good estimate of the number of new relevant documents found at each pool depth .
+T74	具体模型 14317 14344	moving average ( MA ) model
+T75	具体模型 14933 14935	MA
+T76	具体模型 14430 14432	MA
+T77	具体模型 15056 15058	MA
+T78	具体模型 15228 15237	MA models
+T79	具体模型 15712 15714	MA
+T80	具体模型 15904 15906	MA
+T81	具体模型 15358 15360	MA
+T82	具体模型 15435 15437	MA
+T83	具体模型 15506 15508	MA
+T84	具体模型 15834 15836	MA
+T85	具体模型 16115 16117	MA
+T86	具体模型 14729 14731	MA
+T87	具体模型 16164 16166	MA
+T61	研究问题 4934 5004	We aim at reducing the costs associated with building test collections
+T65	引文的方法 8056 8117	made a global analysis ( by averaging over a set of queries )
+R1	has_cited_time Arg1:T60 Arg2:T59	
+R2	has_cited_time Arg1:T50 Arg2:T49	
+R3	produces Arg1:T49 Arg2:T70	
+R4	uses Arg1:T49 Arg2:T65	
+R5	results Arg1:T49 Arg2:T71	
+R6	results Arg1:T49 Arg2:T72	
+R7	has_cited_time Arg1:T48 Arg2:T47	
+R8	coauthor Arg1:T43 Arg2:T44	
+R9	coauthor Arg1:T44 Arg2:T45	
+R10	coauthor Arg1:T45 Arg2:T46	
+R11	coauthor Arg1:T46 Arg2:T47	
+R12	has_cited_time Arg1:T29 Arg2:T28	
+R13	coauthor Arg1:T26 Arg2:T27	
+R14	coauthor Arg1:T27 Arg2:T28	
+R15	has_cited_time Arg1:T25 Arg2:T24	
+R16	coauthor Arg1:T23 Arg2:T24	
+R17	has_cited_time Arg1:T22 Arg2:T21	
+R18	coauthor Arg1:T20 Arg2:T21	
+R19	field_similar_as Arg1:T20 Arg2:T23	
+R20	field_similar_as Arg1:T23 Arg2:T26	
+R21	has_cited_time Arg1:T2 Arg2:T1	
+R22	coauthor Arg1:T3 Arg2:T1	
+R23	coauthor Arg1:T4 Arg2:T3	
+R24	has_cited_time Arg1:T19 Arg2:T18	
+R25	coauthor Arg1:T17 Arg2:T18	
+R26	coauthor Arg1:T16 Arg2:T17	
+R27	coauthor Arg1:T5 Arg2:T6	
+R28	produces Arg1:T5 Arg2:T62	
+R29	coauthor Arg1:T6 Arg2:T7	
+R30	has_cited_time Arg1:T8 Arg2:T7	
+R31	coauthor Arg1:T9 Arg2:T10	
+R32	coauthor Arg1:T10 Arg2:T11	
+R33	has_cited_time Arg1:T13 Arg2:T11	
+R34	coauthor Arg1:T12 Arg2:T14	
+R35	has_cited_time Arg1:T15 Arg2:T14	
+R36	field_similar_as Arg1:T5 Arg2:T9	
+R37	field_similar_as Arg1:T9 Arg2:T12	
+R38	field_similar_as Arg1:T12 Arg2:T16	
+R39	field_similar_as Arg1:T16 Arg2:T4	
+R40	coauthor Arg1:T37 Arg2:T38	
+R41	has_cited_time Arg1:T39 Arg2:T38	
+R42	coauthor Arg1:T40 Arg2:T41	
+R43	has_cited_time Arg1:T42 Arg2:T41	
+R44	coauthor Arg1:T30 Arg2:T34	
+R45	coauthor Arg1:T34 Arg2:T35	
+R46	has_cited_time Arg1:T36 Arg2:T35	
+R47	coauthor Arg1:T31 Arg2:T32	
+R48	has_cited_time Arg1:T33 Arg2:T32	
+R49	field_similar_as Arg1:T37 Arg2:T40	

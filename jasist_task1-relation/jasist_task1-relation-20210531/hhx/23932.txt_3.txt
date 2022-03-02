@@ -1,0 +1,23 @@
+This implies that users ' interests and requirements are easier to predict within one class ( either free apps or paid apps ) . 
+Moreover , the recall values for the paid app subset are higher than for the free app subset . 
+This is reasonable , because users will consider more about what they need when they are installing paid apps so it is easier to capture their requirements . 
+On either the free app or paid app subset , our proposed AppRank method outperforms all the other methods . 
+Comparison of recall @ 100 for free and paid subsets . 
+Higher diversity indicates better result . 
+In this article , we propose a functionality based mobile app recommendation architecture . 
+Our method recommends apps by revealing their detailed functionalities of apps and truly capturing users ' functional requirements , which have not been considered by existing works . 
+Furthermore , we show that user reviews can be used to enrich item information and can be incorporated to enhance recommendations . 
+The experiment conducted on a real world dataset shows that our proposed AppRank method is robust in data sparse settings , and it is able to significantly improve recommendation accuracy and diversity . 
+In particular , our proposed AppRank method doubles the recall value of the second best method ( CB ) under an extremely sparse setting , increases the overall ranking accuracy of the second best method ( RSVD ) by 14.27 % , and retains a high diversity of 0.99 . 
+This research not only provides theoretical contributions to recommendation literature , but also has practical implications . 
+The proposed solution can be implemented as an effective real world app RS helping users to discover apps that meet their requirements . 
+The recommended apps would be more accurate , more diverse , and have fewer overlapping functionalities . 
+Our solution has some limitations . 
+First , when ranking the candidate apps with similar functionalities , we simply use the average rating . 
+In future work , it would be possible to extract other non functional aspects from user reviews , which can be incorporated in the ranking process to enable a sophisticated ranking approach . 
+Second , as the rating data were collected from active users in the evaluation , it may have some selection bias . 
+This can be addressed in future work by using a more general dataset and conducting user studies . 
+Third , because most apps in the current dataset have sufficient reviewers , our method can be extended by incorporating other information to consider the situation where some apps have fewer reviewers . 
+In addition , our method focuses more on the apps providing functionalities for users . 
+However , there are also apps that may not be functionality oriented . 
+In future work , we will investigate the impact of product category on user requirement modeling and extend our work by coming up with strategies to capture user requirements by differentiating utilitarian and hedonic products in recommendation . 

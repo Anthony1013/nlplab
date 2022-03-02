@@ -1,0 +1,130 @@
+Application programming interfaces ( APIs ) are foundations of software development . 
+To program with an API , developers need to know not only “ how to use the API , ” but also “ how not to use the API. ” Table 1 lists seven examples of “ how not to use an API ” extracted from Stack Overflow,11 https : //stackoverflow.com/ a Q & A website for topics in programming . 
+We refer to such “ how not to use an API ” directives as API negative caveats . 
+API documentation is an important resource for developers to learn unfamiliar APIs ( Kramer , 1999 ; Robillard & Deline , 2011 ; Dagenais & Robillard , 2012 ; Stylos , Faulring , Yang , & Myers , 2009 ) . 
+By providing important information about functionality , parameters , and use scenarios of an API , API documentation often does a good job at explaining “ how to use an API ” ( Robillard & Deline , 2011 ; Subramanian , Inozemtseva , & Holmes , 2014 ) . 
+More often than not , API documentation does not mention any API negative caveats . 
+Even when negative caveats are mentioned , they are often buried in the verbose descriptions of the API and can be barely noticed by developers . 
+Not mentioning API negative caveats is not always because API designers are reluctant to document negative caveats . 
+We will use the examples in Table 1 to further illustrate this point . 
+First , an API negative caveat is sometimes related to a broader context in which an API is used . 
+For example , java.awt.event.ActionListener is often implemented as an inner class . 
+According to Java language specification , an inner class can not access nonfinal variables from the scope that contains the inner class . 
+Second , an API negative caveat may be rooted in the API 's design . 
+For example , javax.swing.JTextArea is designed to display plain text only ; as such , it does not support styled text . 
+Third , API negative caveats may also emerge from practical use scenarios , which API designers are unable to foresee . 
+As an example , it is not expected that javax.swing.text.html.ListView to be used inside a ScrollView . 
+Nevertheless , once an API negative caveat has slipped a programmer 's attention , it is very likely to result in unexpected programming errors . 
+An effective way of seeking a solution is to post a question on Stack Overflow , and wait for suggestions from other developers . 
+Often , the answers explicitly point out the overlooked API negative caveats and suggest ways to avoid such errors , as shown in Table 1 . 
+Such Q & A discussions effectively document negative experiences emerging from overlooking API negative caveats in practice . 
+They are also referred to as crowd documentation ( Parnin , Treude , Grammel , & Storey , 2012 ) , which generates a rich source of content that complements the official API documentation . 
+If we could extract such crowdsourced API negative caveats like those in Table 1 , we may highlight the hard‐to‐notice negative caveats in API documentation or augment the API documentation with the missing negative caveats . 
+Such augmentation would raise developer 's caution to avoid misuse of APIs , or to help them fix errors caused by overlooking API negative caveats . 
+However , these API negative caveats , present in crowdsourced Q & A discussions , are informal , redundant , and are often related to different aspects of API use . 
+How to effectively distill API negative caveats from unstructured Q & A discussions is a challenging task . 
+For this , for example , we present Disca , an approach for automatically distilling API negative caveats from large‐scale unstructured Q & A discussions . 
+To the best of our knowledge , our work is the first attempt to tackle the problem of negative uses of APIs . 
+We formulate the problem as a text‐summarization task and identify four desirable properties for the distilled API negative caveats : context‐independence , prominence , semantic diversity , and semantic nonredundancy . 
+Given a set of programming‐related sentences extracted from Stack Overflow discussions , Disca first selects a set of candidate sentences , that is , sentences mentioning a specific API with negative expressions . 
+Then , Disca selects context‐independent sentences that identify issues about an API use without referring to the discussion contexts . 
+Next , Disca selects semantically diverse and nonredundant sentences that cover prominent domain‐specific terms through a combination of techniques including relative entropy , term co‐occurrence analysis , and set cover . 
+We conduct both quantitative and qualitative evaluations to demonstrate the effectiveness of Disca . 
+For quantitative evaluation , we aim to answer the following research questions : RQ1 : How much improvement can the Disca approach achieve over baseline methods ? 
+and RQ2 : How effective is the proposed Disca approach in guaranteeing diversity over baseline methods ? 
+For RQ1 , we compare the performance of Disca against four text‐summarization techniques : eigenvector centrality of sentence graph ( LexRank ; Erkan & Radev , 2004 ) , topic modeling ( LDA , Blei , Ng , & Jordan , 2003 ) , sentence clustering ( KM MacQueen et al. , 1967 ) , and sentence diversification ( MMR , Goldstein , Kantrowitz , Mittal , & Carbonell , 1999 ) . 
+We evaluate the performance of Disca and the baseline methods with two commonly used metrics : Recall‐Oriented Understudy for Gisting Evaluation ( ROUGE ) and Normalized Discounted Cumulative Gain ( nDCG ) . 
+Our results show that Disca outperforms the four baselines by 10.60 % to 22.47 % for ROUGE and 17.63 % to 42.87 % for nDCG , respectively . 
+For RQ2 , we conduct an intermethod comparison , which compares the relative performance between one method and the other four methods using the Jackknifing procedure ( Lin , 2004 ) . 
+The results of intermethod comparison show that the summaries of Disca are more diverse than the baseline methods . 
+For qualitative evaluation , we aim to answer the following research questions : RQ3 : To what extent does the Disca approach miss the API negative caveats stated in official API documentation ? 
+RQ4 : To what extent does the Disca approach augment the official API documentation ? 
+and RQ5 : How important are the distilled API negative caveats by the Disca approach ? 
+For RQ3 and RQ4 , we compare the negative caveats that are documented in the API documentation of 10 Java API types and the ones mined by Disca . 
+The results show that official API documents mention only six negative caveats , while Disca distills 164 from Stack Overflow . 
+These 164 negative caveats cover four out of the six negative caveats mentioned in API documentation ( that is , two negative caveats missed ) . 
+More important , Disca greatly augments the official API documents of the 10 Java APIs with 146 correctly identified negative caveats out of 164 . 
+In order to answer RQ5 , we conduct a case study to present the distilled API negative caveats of four Java API types . 
+The results show that Disca helps to reveal hard‐to‐notice API negative caveats . 
+These distilled negative caveats are difficult to document by API designers and are hard to foresee , because they mainly emerge from misuse in practice . 
+This section outlines potential threats to the validity of this study . 
+All APIs investigated in our evaluation are Java JDK APIs , and our evaluation uses only Stack Overflow discussions . 
+The framework of Disca makes no specific assumptions about APIs and discussion data . 
+Therefore , it is generally applicable for other programming languages or third‐party libraries or other Q & A websites , which we leave as our future work . 
+Our quantitative evaluation is based on gold standard summaries generated by human annotators . 
+They could be biased . 
+But our interannotator agreement analysis suggests that the gold standard summaries used in the evaluation are acceptable . 
+First , Disca currently uses a simple name‐matching strategy to select candidate sentences . 
+Entity linking approaches ( Ji , Sun , Cong , & Han , 2016 ; Ye , Xing , Foo , Li , & Kapre , 2016 ; Moro , Raganato , & Navigli , 2014 ) based on machine learning could improve the performance of Disca , because these approaches can better handle API‐mention variations and thus provide more candidate sentences for selection . 
+Second , based on our observation , important information about a caveat mostly appears in a single sentence on Stack Overflow . 
+Disca may miss some multiple‐sentences caveats because Disca is designed at the single sentence level . 
+However , it is infeasible to get the number of multiple‐sentence caveats without manual annotation of the data . 
+We show one example here : “ Iterator returned by HashMap are fail‐fast while Enumeration returned by the HashTable are fail‐safe . 
+Fail‐safe is relevant from the context of iterators . 
+If an iterator has been created on a collection object and some other thread tries to modify the collection object ‘ structurall , ’ a concurrent modification exception will be thrown. ” These three sentences are about the caveat of “ thread safe. ” Although our approach will not extract these three sentences , it will extract “ HashMap is not thread safe for concurrent access ” from many other single‐sentence candidates for this caveat . 
+Third , the sentence selection process of Disca may result in missing some caveats because of some strict restrictions ( for example , removing subjective opinions in section Input Data , selecting explicitly negative sentences in section Selecting Candidate Sentences , selecting prominent terms in section Identifying Prominent Domain‐Specific Terms ) . 
+Given the thousands of sentences to be examined during the sentence selection process , annotating intermediate results and analyzing influence factors requires much human effort , if even feasible . 
+As many sentences are available for important caveats , our proposed approach is able to pick up the representative sentences even though some sentences are missed . 
+This research identifies a new task of distilling crowdsourced API negative caveats from a large volume of programming‐related discussions . 
+We present an effective text‐summarization approach to distilling context‐independent , prominent , semantically diverse , and nonredundant API negative caveats . 
+Our approach significantly outperforms other text‐summarization methods , including the methods that are based on eigenvector centrality of sentence graph , topic modeling , sentence clustering , and sentence diversification . 
+Furthermore , our approach greatly augments official API documentation with crowdsourced API negative caveats and explanations , as well as suggestions ( for example , alternative APIs ) for solving API use issues . 
+We are developing web applications that can push distilled API negative caveats when developers read API documents . 
+On the other hand , through this , we demonstrate how to cast a domain‐specific problem into an interesting text summarization problem , and how to work on every single step in this data‐driven framework to achieve the desired result . 
+Our proposed solution opens a way to better support programmers leveraging official API documentation and social discussions in a Q & A website . 
+As a part of future study , we will mine programming errors related to API negative caveats to develop semantic search systems that can provide direct answers to such errors caused by overlooking API negative caveats . 
+Given the commonality of crowd‐generated content , our related work section is divided into three parts : works on crowdsourced knowledge in software development , App review opinion mining , and automatic text summarization . 
+Several studies have contributed effort on aiding developers in software development using crowdsourced knowledge . 
+The crowdsourced knowledge was generally derived from two types of sources : code snippet and textual content . 
+For crowdsourced code snippets , there are studies ( Sahavechaphan & Claypool , 2006 ; Thummalapenta & Xie , 2007 ) investigating the problem of how to integrate code snippets in Integrated Development Environment ( IDE ) to recommend code examples during software development . 
+For example , XSnippet ( Sahavechaphan & Claypool , 2006 ) , a context‐sensitive code assistant framework , allows developers to query a sample repository for code snippets that are relevant to the programming task at hand . 
+Other studies ( Brandt , Dontcheva , Weskamp , & Klemmer , 2010 ; Kim , Lee , Hwang , & Kim , 2009 ; Zagalsky , Barzilay , & Yehudai , 2012 ) investigated the problem of how to build a new code search by utilizing source snippets on the web . 
+In addition , a few studies focused on recovering the traceability of various software artifacts , such as the link between source code snippets and official API documentation ( Kim et al. , 2009 ; Subramanian et al. , 2014 ) and the link between source code snippets and their learning resources ( Dagenais & Robillard , 2012 ) . 
+Such existing studies on crowdsourced code snippet are based on code search engines and code static analysis . 
+In contrast , Disca is designed to distill negative caveats that are expressed in natural language . 
+Another type of crowdsourced knowledge is textual content . 
+Many studies developed tools to integrate Q & A resources into the IDE , such as Seahawk ( Bacchelli , Ponzanelli , & Lanza , 2012 ) , and Prompter ( Ponzanelli , Bacchelli , & Lanza , 2013 ; Ponzanelli , Bavota , Di Penta , Oliveto , & Lanza , 2014 ) . 
+Studies also developed question answering systems to answer programming questions by leveraging official content and social context of software documentation ( Li , Xing , Ye , & Zhao , 2016 ; Li , Sun , & Xing , 2018 ; Li , Xing , & Kabir , 2018 ) . 
+In addition , researchers have contributed their efforts for program comprehension by using software textual content ( Ponzanelli et al. , 2013 ; Treude , Barzilay , & Storey , 2011 ) . 
+These existing studies link or recommend crowdsourced knowledge from the point view of “ how to use an API ” at the post level or document level . 
+In contrast , our work distills insights at the fine‐grained sentence level from the point view of “ how not to use an API. ” Recently , Treude and Robillard ( 2016 ) presented SISE , which automatically augments API documentation with insight sentences from Stack Overflow . 
+This work is the closest to our work . 
+However , in Treude and Robillard ( 2016 ) , the authors trained a binary classifier with hand‐coded features in a supervised manner and the solution does not consider the factors of redundancy , diversity , and negative expression in the summarization algorithm . 
+In short , existing studies focus on general relevance of the recommended knowledge , while our work specifically focuses on negative insights related to API uses . 
+To the best of our knowledge , no prior work has been done on negative uses of APIs . 
+Our work summarizes the crowd‐generated sentences with respect to APIs . 
+It is similar to crowd‐generated reviews for Apps . 
+Miao , Li , and Zeng ( 2010 ) exploited the domain knowledge to assist product feature extraction and sentiment orientation identification from unstructured reviews . 
+Wisniewski , Xu , Lipford , and Bello‐Ogunu ( 2015 ) examined two prominent Facebook features that promote confidant disclosures : tagging and third‐party applications . 
+The results illustrate the complexity of the trade‐off between privacy concerns , engaging with friends through tagging and Apps , and Facebook use . 
+Gu and Kim ( 2015 ) presented SURMiner , which classifies reviews into five categories ( that is , aspect evaluation , bug reports , feature requests , praise , and others ) and extract aspects in sentences using a pattern‐based parser . 
+Chen , Lin , Hoi , Xiao , and Zhang ( 2014 ) developed AR‐Miner , which helps App developers extract the most valuable information from raw user review data . 
+Vu , Nguyen , Pham , and Nguyen ( 2015 ) proposed MARK , a keyword‐based framework for semiautomated review summarization and visualization . 
+These existing works focused on opinion‐aspect phrase extraction ( Vu et al. , 2016 ) and conducted sentiment analysis of opinion words ( Gu & Kim , 2015 ; Serva , Senzer , Pollock , & Vijay‐Shanker , 2015 ) . 
+Although API negative caveats are expressed in negative sentences , they state a neutral fact about API use rather than a polarity opinion . 
+Thus , sentiment analysis followed by aspect extraction in the above work is generally not applicable for distilling API negative caveats from crowd‐generated discussions . 
+In recent years , there has been an explosion in the amount of text data , which need to be effectively summarized to be useful . 
+Those existing approaches in general fall into two categories : extractive summarization and abstractive summarization . 
+Extractive summarization methods select a few relevant sentences from the original document as a summary . 
+Summary sentence selection therefore is a critical step in the extractive summarization process . 
+Most previous shallow models estimate the salience of a sentence using predefined features , such as lexical chains ( Barzilay & Elhadad , 1999 ) , word co‐occurrence ( Matsuo & Ishizuka , 2004 ) , and centrality ( Erkan & Radev , 2004 ) . 
+Recently , many advanced models were developed to learn deep semantic features . 
+For example , Cao et al . 
+( 2015 ) developed PriorSum , which applies enhanced convolutional neural networks to capture the summary prior features derived from length‐variable phrases . 
+The learned prior features are concatenated with document‐dependent features for sentence ranking . 
+Ren et al . 
+( 2017 ) proposed a neural extractive model , named contextual relation‐based summarization , to take advantage of contextual relations among sentences so as to improve the performance of sentence regression . 
+Abstractive summarization methods produce a new concise text that includes words and phrases different from the ones in the source document . 
+Structure‐based approaches have been studied extensively , such as rule‐based ( Genest & Lapalme , 2012 ) , ontology‐based ( Lee , Jian , & Huang , 2005 ) , and template‐based ( Harabagiu & Lacatusu , 2002 ) approaches . 
+Recently , semantic‐based approaches were widely investigated . 
+Bing et al . 
+( 2015 ) proposed an abstractive multidocument summarization framework that can construct new sentences by exploring more fine‐grained syntactic units than sentences . 
+Nallapati , Zhou , Santos , Gülçehre , and Xiang ( 2016 ) proposed an abstractive text summarization model using attentional encoder‐decoder recurrent neural networks . 
+Paulus , Xiong , and Socher ( 2017 ) proposed a neural network model with a novel intra‐attention that attends over the input and continuously generated output separately . 
+This model combines standard supervised word prediction and reinforcement learning for abstractive summarization . 
+Tan , Wan , and Xiao ( 2017 ) proposed a graph‐based attention mechanism in the sequence‐to‐sequence framework . 
+This framework introduced a new hierarchical decoding algorithm with a reference mechanism to generate the abstractive summaries . 
+Although these existing studies leverage advanced neuro‐linguistic programming ( NLP ) techniques to generate summaries , they require a great amount of training data . 
+For this research problem , for example , there are no training data available . 
+The advantage of our framework is that it is an unsupervised and a data‐driven method . 
+The raw input to our approach is a set of programming‐related sentences extracted from online discussion . 

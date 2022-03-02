@@ -1,0 +1,16 @@
+T1	引文作者 1228 1236	Lachance
+T2	引文作者 1239 1248	Larivière
+T3	引文时间 1251 1255	2014
+T4	引文作者 1421 1429	van Raan
+T5	引文时间 1432 1436	2015
+T6	引文时间 1439 1443	2017
+T7	引文作者 1577 1579	Hu
+T8	引文作者 1582 1590	Rousseau
+T9	引文时间 1593 1597	2018
+T10	研究结果 1631 1824	We conclude that we have shown that there do exist articles that are hibernators and are at the same time under‐cited influential , or in other words , citation chimeras of this type do exist .
+T11	研究展望 1827 1926	Moreover , hibernators may lead to influential citers , which is a potential clue for further study
+R1	has_cited_time Arg1:T5 Arg2:T4	
+R2	coauthor Arg1:T1 Arg2:T2	
+R3	has_cited_time Arg1:T3 Arg2:T2	
+R4	coauthor Arg1:T7 Arg2:T8	
+R5	has_cited_time Arg1:T9 Arg2:T8	

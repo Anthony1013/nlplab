@@ -1,0 +1,42 @@
+T1	引文作者 650 658	Gerolami
+T2	引文时间 661 665	2015
+T3	引文时间 837 841	2010
+T4	引文作者 1173 1181	Gerolami
+T5	引文时间 1184 1188	2015
+T6	引文作者 696 706	Andrew Lau
+T7	引文作者 681 691	Ronald Day
+T8	引文的结果 707 834	argue that , from a Deleuzian perspective , one of the tasks of an information provider is to foster personal and social change
+T9	引文时间 2404 2408	2013
+T10	引文作者 2590 2597	Deleuze
+T11	引文作者 2600 2608	Guattari
+T12	引文时间 2611 2615	2004
+T13	引文时间 4683 4687	2015
+T14	引文作者 4669 4677	Gerolami
+T15	引文时间 7655 7659	2013
+T16	引文作者 7568 7583	Schultz Nybacka
+T17	引文的结果 7584 7652	discusses this as a parallel development of tradition and innovation
+T18	引文作者 9079 9085	Mouffe
+T19	引文时间 9088 9092	2013
+T20	引文作者 9623 9638	Rivano Eckerdal
+T21	引文时间 9641 9645	2017
+T25	引文作者 2339 2345	Mouffe
+T26	引文的结果 2283 2401	Understanding of library as a verb is also in line with Mouffe 's proposition that democracy is a never‐ending process
+T27	引文的结果 2422 2587	The proposal involves moving our attention from a constant state , which may be threatened and must be defended , to a continuous production , enactment and becoming
+T28	引文作者 2256 2271	Rivano Eckerdal
+T29	引文时间 2272 2276	2016
+T23	研究结果 2702 2902	It is suggested here that this proposition opens up possibilities to grasp the often difficult circumstances that libraries and librarians are facing and approach these in a creative and proactive way
+T24	研究结果 4908 5091	I argue that , with an emphasis on the performance of a library , there follows an equally important aspect of this performance that is a crucial part of doing a library , librarizing
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	coauthor Arg1:T7 Arg2:T6	
+R3	results Arg1:T7 Arg2:T8	
+R4	has_cited_time Arg1:T3 Arg2:T6	
+R5	has_cited_time Arg1:T5 Arg2:T4	
+R6	has_cited_time Arg1:T29 Arg2:T28	
+R7	results Arg1:T10 Arg2:T27	
+R8	coauthor Arg1:T10 Arg2:T11	
+R9	has_cited_time Arg1:T12 Arg2:T11	
+R10	has_cited_time Arg1:T13 Arg2:T14	
+R11	has_cited_time Arg1:T15 Arg2:T16	
+R12	results Arg1:T16 Arg2:T17	
+R13	has_cited_time Arg1:T19 Arg2:T18	
+R14	has_cited_time Arg1:T21 Arg2:T20	

@@ -1,0 +1,130 @@
+Medical resources are both limited and irrationally distributed ( Patel , Vaidya , Naik , & Borker , 2005 ) . 
+Large cities have the most medical services , causing many patients in small cities and countries to struggle for basic medical care . 
+In 2006 , the World Health Organization estimated that 57 countries were short more than 4 million health workers , including doctors , nurses , and related healthcare workers . 
+According to a World Health Organization report,11 http : //www.who.int/healthsystems/task_shifting_booklet.pdf this situation has continued to worsen , with the figure increasing to 7.2 million in 2013 and being estimated to reach 12.9 million by 2035 . 
+This problem is especially critical in developing countries with a shortage of trained midwives : ∼90 % of all maternal deaths and 80 % of all stillbirths occur in 58 countries . 
+With the emergence of Web 2.0 technology , online health communities have been introduced to daily life . 
+Through these virtual communities , patients have access to other sufferers , communicate with them , receive suggestions from physicians , and make appointments . 
+For example , many online health websites , including Haodaifu ( http : //www.haodf.com/ ) and Guahao ( http : //www.guahao.com/ ) in China , and Practo ( https : //www.practo.com/ ) in India , provide channels to inquire about medical problems by searching the related health information and making appointments with physicians . 
+Online health communities have become one of the most important channels for improving medical services and redistributing health resources . 
+Previous academic research has focused on studying the quality of information in online health communities and investigating the factors that affect user adoption . 
+According to the existing research , information quality is increasing ( Rozenkranz , Eckhardt , Kühne , & Rosenkranz , 2013 ) . 
+Meanwhile , increasing numbers of physicians supply online services that go beyond making treatment suggestions ( Jones , 2009 ) . 
+Therefore , social influence becomes an important factor in such online health communications . 
+Multichannel access is another key point that influences customer adoption in the online health communities . 
+However , there is little research in the online health community related to social influence and multichannel access . 
+With respect to multichannel access to physicians in the online health communities , which shows the number of accessible channels provided by a physician , social influence ( SI ) is represented by the average degree of focal physician 's colleagues ' multichannel access . 
+In addition , we observed the patients ' ratings , which reflect the patients ' evaluations of a physician 's service . 
+We focus on the following research questions : Does social influence affect multichannel access of physicians in the online health communities ? 
+Do patients ' ratings affect multichannel access of physicians in the online health communities ? 
+Does social influence mediate the effect between patients ' rating and physicians ' multichannel access ? 
+We collected the physicians ' data from Haodaifu , a Chinese online health community . 
+We adopted the multinomial logistic regression model to explore the effects of social influence and patients ' rating on physicians ' multichannel access in the online health communities . 
+The moderating effect of social influence on the relationship between patients ' rating and multichannel access was also investigated by the research model . 
+This study makes several contributions to the literature . 
+First , we examine the factors influencing multichannel access to physicians in the online health communities . 
+Whereas previous studies discussed user adoption , we extend them to multichannel access in the online health community and investigate the impacts of both social influence and patients ' rating . 
+Second , we introduce social influence research in the field of online health communities and extend existing research that focuses on the physician 's basic factors and platform 's characteristics . 
+Third , we contribute to the social influence literature by demonstrating the intraorganizational competitive relationship , which is denoted by the negative moderating effect of social influence on the relationship between patients ' rating and multichannel access to the physician in the online health communities . 
+Social influence has been investigated in different fields , such as marketing ( Katona , Zubcsek , & Sarvary , 2011 ; Li , Luo , Ding , Tang , & Kong , 2017 ) and information systems ( Lee , Hosanagar , & Tan , 2015 ; Luo , Chen , & Wu , 2016 ) , both of which demonstrate the strong , positive effects of social influence on an individual 's behavior and performance . 
+According to the theory of the herd effect , people tend to emulate the behavior of others , especially that of their friends ( Katona et al. , 2011 ) . 
+Based on interactions with their friends , individuals obtain substantial information about those friends ' behavior , strengthening the effects of social influence on their own behavior . 
+Because of the predictive power of social influence , substantial effort has been made to study it . 
+Prior to the blockbuster growth of the internet , scholars focused on surveys , interviews , and questionnaires to collect social influence data . 
+With advances in technology , social influence has been expanded because of both the convenience of interacting with other people ( mobile phone and internet communication ) and the diversity of communication platforms ( microblogs , discussion boards , and online social networks ) . 
+In addition , new technologies provide significant resources for studying social influence using a high number of participants and retrieving more datasets . 
+Numerous studies propose and present significant effects of social influence on high‐technology product adoption through mobile telecommunication ( Risselada , Verhoef , & Bijmolt , 2014 ) , product ratings in e‐commerce ( Sridhar & Srinivasan , 2012 ) , and buying decisions in online social networks ( Bond et al. , 2012 ) . 
+In Table 1 , we summarize the prior literature . 
+We find that existing social influence research focuses on its positive effect on human behavior such as adoption , rating , drinking , and buying . 
+Data are obtained from online social networks . 
+As an emerging internet application , online health communities are important and useful . 
+However , there has been little social influence research in the context of online health communities . 
+We fill the research gap in online health communities with social influence and multichannel access . 
+Multichannel access has been adopted as a strategy in marketing , and firms that provide interchangeable service channels appear increasingly appealing to customers ( Bendoly , Blocher , Bretthauer , Krishnan , & Venkataramanan , 2005 ) . 
+Academic research related to multichannel access focuses on two sets of general marketing issues : customer segmenting and the process of examining channel selection . 
+Customer segmentation has important practical implications in multichannel strategy design ( Neslin et al. , 2006 ) . 
+With respect to methods of customer segmentation , scholars have adopted many aspects in an attempt to profile the multichannel customers . 
+Some studies evaluated customers ' channel usage of segmentation ( Kollmann , Kuckertz , & Kayser , 2012 ; Konuş , Verhoef , & Neslin , 2008 ) , and these studies tend to be quite descriptive . 
+For example , Thomas and Sullivan ( 2005 ) identified the rates of various shopping segments with a year 's worth of behavioral data . 
+The other issue is channel selection , which focuses on understanding how customers either choose a specific channel or migrate to another channel ( Dholakia et al. , 2010 ) . 
+Several studies have explored the various influencing factors , including price expectation ( Brynjolfsson & Smith , 2000 ) , product type ( Heitz‐Spahn , 2013 ) , switching costs , and efficiency concerns ( Johnson , 2008 ) . 
+Moreover , the idea of channel changes over time has been proposed ( Dholakia , Blazevic , Wiertz , & Algesheimer , 2009 ) . 
+Using e‐commerce data , scholars investigated migration to different channels ( Gupta , Su , & Walter , 2004 ) and the effects of various factors ( Thomas & Sullivan , 2005 ) . 
+They find that because migration to the internet creates a shortage of personal contact , such migration reduces both cost and customer loyalty ( Ansari , Mela , & Neslin , 2008 ) . 
+Collectively , Table 2 summarizes the research related to multichannel access . 
+We find that most research either explores the effect of multichannel on purchasing decision or attempts to identify the factors affecting the channel choice . 
+Some studies concentrate on channel migration and switching . 
+However , all of the studies related to multichannel access ignore the factors that influence providers . 
+We collected data from online health communities , adopted the perspective of multichannel access to physicians , and studied the effects of social influence on multichannel access in the online health community , thus contributing to both multichannel access and the online health community . 
+In summary , we arrived at the following conclusions about the existing research . 
+The social influence literature focuses on the positive effect of social influence on human behavior , like buying , rating , adoption , and ignoring negative effects , especially when there exists both positive and negative effects in an organization . 
+About multichannel access , most scholars are concerned about the influence of multichannel access on purchasing decisions , along with the factors affecting channel selection , migration , or switching . 
+They ignore the factors that influence the decision to provide more multichannel access and do n't explore the effect of social influence . 
+Unlike previous studies , we introduce social influence to multichannel access in online health communities . 
+We explore both the direct impact of social influence in an online health community and its moderating effect on the relationship between the patients ' rating and multichannel access . 
+In this study we focus on the relationship between a focal physician 's colleagues ' multichannel access ( social influence , SI ) and multichannel access to physicians in an online health community ( H1 ) . 
+Furthermore , we examine how patients ' rating affects the multichannel access to the physician ( H2 ) . 
+We also study the moderating effect , which is the influence of the focal physician 's colleagues ' multichannel access on the relationship between patients ' rating of physician 's performance and multichannel access to a physician ( H3 ) . 
+The conceptual model is shown in Figure 1 . 
+Research framework . 
+As discussed in the related work , social influence is considered an important factor affecting an individual 's behavior . 
+This proposition has been proved in various research fields . 
+In information systems , many studies prove the effects of social influence in the adoption or use of new technology and systems ( Wang , Meister , & Gray , 2013 ) . 
+In marketing , many scholars explored the effects of social influence between customers in the decision to adopt a new product ( Risselada et al. , 2014 ; Shen , Zhang , & Zhao , 2016 ) , demonstrating the value of investment in advertisement to enhance social influence ( Terlutter & Capella , 2013 ) . 
+In e‐commerce , neighbors or friends have been observed to purchase similar products and adopt similar sales channels ( Bapna & Umyarov , 2015 ) . 
+Similarly , in our study the social influence denotes the effects of a colleagues ' participation degree or multichannel access in an online health community . 
+Multichannel access to the physician represents the degree to which physicians participate in the online health community . 
+The more multichannel access , the easier it is for the physicians to be connected and the greater degree of physician participation . 
+As a new technology and helpful communication platforms between physicians and patients increase , the use and adoption of online health communities is highly recommended among physicians and is a useful tool to help physicians to have contact with more patients . 
+When some physicians use and acquire the benefits of an online health community , they will introduce and talk about it with their colleagues , thus creating an unconscious influence that leads to an increasing number of physicians using it . 
+This social influence will affect other colleagues to enhance their degree of participation in the online health community . 
+Physicians who have never used such a community will attempt to use it . 
+Physicians who provide few or no access channels may attempt to provide more access in an attempt to achieve the same benefits as their colleagues . 
+As a result , we propose the following hypothesis : H1 . 
+The average degree of focal physician 's colleagues ' multichannel access positively affects the multichannel access to the physician in the online health community . 
+H1 . 
+The average degree of focal physician 's colleagues ' multichannel access positively affects the multichannel access to the physician in the online health community . 
+There are many researches proving that there is a direct influence from rating to individual behavior . 
+Especially in marketing , it has been demonstrated many times that the rating affects the product sales ( Moe & Trusov , 2011 ) and sales rank ( Li , Ch'ng , Chong , & Bao , 2016 ) . 
+The direct influence of rating to product performance has been explored in different products , like movies ( Legoux , Larocque , Laporte , Belmati , & Boquet , 2016 ) and books ( Chevalier & Mayzlin , 2006 ) . 
+Moreover , there are also some studies which show the influence of ratings to teacher 's performance ( Zabaleta , 2007 ) . 
+Applying a similar logic , when patients ' ratings or recommendations are high , the focal physician is represented as having greater technical ability and providing better service . 
+Thus , patients are more willing to consult or make appointments with that physician because the high ratings or recommendations make them believe that the physician will have a high performance level . 
+This , in turn , encourages the physician to provide more accessible channels in online health communities . 
+Moreover , when physicians first use an online health community , they may try it out by experimenting with a single access channel . 
+After having a good experience ( such as better ratings from patients ) , physicians may be willing to open more access channels . 
+Accordingly , we develop the following hypothesis : H2 . 
+Patients ' rating of physician 's performance positively affects the multichannel access to physicians in the online health community . 
+H2 . 
+Patients ' rating of physician 's performance positively affects the multichannel access to physicians in the online health community . 
+Workers within an organization have relationships with one another that are both cooperative and competitive . 
+The cooperative relationship has been discussed in H1 wherein SI would have a positive effect on multichannel access to focal physicians in the online health community . 
+A competitive relationship demonstrates that the goals of workers in the same organization are competitively and negatively related : one person 's progress interferes with his ( her ) colleagues ' goal attainment ( Tjosvold , 1989 ) . 
+Scholars have shown the existence of both cooperative and competitive relationships in a group . 
+For example , a study related to cooperative and competitive relationships had been examined by Hwang and Arbaugh ( 2009 ) , who focused on its different influence on learning outcomes . 
+Another study adopted 91 dyadic relationships using interorganizational information technology and investigated competitive and cooperative relationships in the supply chain ( Klein , Rai , & Straub , 2007 ) . 
+The situation in some industries is similar , and the competitive relationship is very obvious . 
+The physicians in the same department belong to this setting , and they compete for patients . 
+In addition , if one physician has high patient ratings and a high degree of multichannel access along with colleagues who answer online inquires and publish articles in their personal homepages , patients may have a higher service expectation . 
+High patient ratings indicate high quality , and colleagues ' better online performance shows better organization . 
+In this situation , a discrepancy between heightened expectations and the reality of a physician 's service provision may lead to lower satisfaction and evaluations , causing the focal physician to provide less multichannel access . 
+Otherwise , the physician receives a lower percentage of patient ratings and provides a lower degree of multichannel access than her or his colleagues , resulting in a lower service expectation . 
+The discrepancy between lower expectations and service provision in reality may lead to high satisfaction and ratings , thus encouraging the physician to provide more accessible channels in the online community . 
+Accordingly , we present the following hypothesis : H3 . 
+The average degree of focal physician 's colleagues ' multichannel access negatively moderates the relationship between the patients ' rating on the physician 's performance and the multichannel access to a physician in the online health community . 
+H3 . 
+The average degree of focal physician 's colleagues ' multichannel access negatively moderates the relationship between the patients ' rating on the physician 's performance and the multichannel access to a physician in the online health community . 
+We collected data from the Haodaifu website , which is one of the most popular online healthcare communities in China . 
+The website was launched in 2006 and had more than 323,732 doctors from 3,235 hospitals in different cities . 
+Haodaifu ( Figure 2 ) provides an interaction platform that allows patients to search information , seek consultation , and make appointments . 
+Moreover , it also provides rich research data about the online health community , which has been studied in existing research ( Yang , Guo , & Wu , 2015 ) . 
+The haodf.com home page in April 2016 . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The data were collected on April 2016 , and we chose doctors in hospitals located in Beijing . 
+Using a web crawler , we obtained our research data with 30,996 ( n ) doctors from 169 hospitals in Beijing . 
+For each physician , we collected his/her basic information , including the title and hospital level , multichannel access value , and rating value by patients . 
+We replaced the variables such as hospital level , title , and hospital with the dummy values . 
+The multichannel access was measured by the count of access channels of a physician , and the SI is the average value of multichannel access of focal physician 's colleagues . 
+Multichannel Access ( MA ) is the dependent variable measuring the number of channels for accessing the focal physicians and indicating each physician 's participation and activity level in an online health community . 
+For example , in Figure 2 there are three physicians . 
+The last column provides the contact information for each doctor . 
+One physician , “ Xue Fulin , ” is not accessible ( no contact information ) , and we set his “ multichannel access value ” as 0 , which indicates the lowest multichannel access level . 

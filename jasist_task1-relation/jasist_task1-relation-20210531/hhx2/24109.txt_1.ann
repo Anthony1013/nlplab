@@ -1,0 +1,124 @@
+T1	引文作者 61 67	Wagner
+T2	引文作者 72 79	Jonkers
+T3	引文时间 82 86	2017
+T4	引文作者 257 262	Plume
+T5	引文作者 265 273	Kamalski
+T6	引文时间 276 280	2014
+T7	引文作者 1101 1108	Persson
+T8	引文作者 1111 1118	Glänzel
+T9	引文作者 1123 1129	Danell
+T10	引文时间 1132 1136	2004
+T11	引文作者 1139 1145	Wagner
+T12	引文作者 1148 1159	Leydesdorff
+T13	引文时间 1162 1166	2005
+T14	引文作者 1169 1175	Wagner
+T15	引文作者 1178 1186	Whetsell
+T16	引文作者 1189 1193	Baas
+T17	引文作者 1198 1205	Jonkers
+T18	引文时间 1208 1212	2018
+T19	引文作者 1449 1462	van den Daele
+T20	引文作者 1465 1473	Weingart
+T21	引文时间 1476 1480	1975
+T22	时间 1555 1564	2003–2013
+T23	引文作者 1653 1659	Wagner
+T24	引文作者 1664 1671	Jonkers
+T25	引文时间 1674 1678	2017
+T26	引文作者 2446 2452	Wagner
+T27	引文作者 2457 2464	Jonkers
+T28	引文时间 2467 2471	2017
+T29	表 3016 3334	In order to avoid problems with this difference in the scale of the measurement , we use percentile classes of articles as dependent variables at 50 % , 10 % , and 1 % of the most frequently cited articles , normalized with reference to the corresponding subject categories in WoS and publication years ( see Table 1 )
+T30	时间 2585 2594	2001–2011
+T31	引文作者 1725 1730	Luwel
+T32	引文时间 1704 1708	2017
+T33	引文时间 1733 1737	2004
+T34	引文作者 3606 3613	Waltman
+T35	引文作者 3616 3625	Schreiber
+T36	引文时间 3628 3632	2013
+T37	时间 4217 4221	1976
+T38	时间 4224 4228	1963
+T39	引文作者 4389 4395	Aksnes
+T40	引文作者 4398 4407	Sivertsen
+T41	引文作者 4410 4421	van Leeuwen
+T42	引文作者 4426 4431	Wendt
+T43	引文时间 4434 4438	2017
+T44	引文作者 4574 4578	Long
+T45	引文作者 4581 4587	Freese
+T46	引文时间 4590 4594	2006
+T47	引文作者 4961 4966	Hilbe
+T48	引文时间 4969 4973	2014
+T49	时间 5092 5096	2016
+T50	表 5153 5287	The results of the models show that the coefficients for international collaboration and expenditure are close to zero ( see Table 2 )
+T51	表 5292 5391	In order to interpret the results of the regression models , Table 3 shows average marginal effects
+T52	引文作者 6557 6566	Sandström
+T53	引文作者 6569 6586	Van den Besselaar
+T54	引文时间 6589 6593	2018
+T55	引文作者 7046 7052	Asknes
+T56	引文时间 7062 7066	2017
+T57	引文作者 7073 7084	Leydesdorff
+T58	引文作者 7089 7095	Wagner
+T59	引文时间 7098 7102	2008
+T60	引文作者 7285 7291	Taylor
+T61	引文时间 7294 7298	2016
+T62	引文作者 7308 7315	Shelton
+T63	引文作者 7318 7329	Leydesdorff
+T64	引文时间 7332 7336	2012
+T65	引文作者 7564 7570	Coccia
+T66	引文作者 7580 7585	Grupp
+T67	引文时间 7573 7577	2010
+T68	引文时间 7588 7592	1995
+T69	引文作者 7874 7880	Wagner
+T70	引文时间 7883 7887	2008
+T71	引文的研究问题 0 282	To view the national impact of international collaboration , Wagner and Jonkers ( 2017 ) assigned articles and impact measures to countries using fractional counting and a field‐weighted citation index ( FWCI ) , as defined by the Scopus team at Elsevier ( Plume & Kamalski , 2014 )
+T72	引文的结果 287 423	They found “ a clear correlation between a nation 's scientific influence and the links it fosters with foreign researchers. ” ( p. 32 )
+T73	引文的结果 428 540	The authors show that public R & D funding is only weakly correlated with the citation impact of a nation 's art
+T74	研究结果 5153 5287	The results of the models show that the coefficients for international collaboration and expenditure are close to zero ( see Table 2 )
+T75	研究结果 6072 6210	We confirm findings that international collaboration has a statistically significant and positive effect on the citation impact of nations
+T76	研究结果 6337 6595	However , our conclusions are “ on average : ” some nations appear to be more effective in turning funding into citation impact than others—several small nations punch above their weight in impact relative to spending ( Sandström & Van den Besselaar , 2018 )
+T77	研究结果 6600 6778	Our results suggest diminishing returns of investments : additional government funding seems not to be absorbed by authors and institutions who produce more highly cited articles
+T78	引文的结果 7073 7179	Leydesdorff and Wagner ( 2008 ) found large differences in the price ( in US $ ) per article among nations
+T79	引文的结果 7724 7889	This research suggests that the links between funding and outputs are partly decoupled from a national base , especially at the international level ( Wagner , 2008 )
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	has_cited_time Arg1:T3 Arg2:T2	
+R3	produces Arg1:T1 Arg2:T71	
+R4	coauthor Arg1:T4 Arg2:T5	
+R5	has_cited_time Arg1:T6 Arg2:T5	
+R6	coauthor Arg1:T7 Arg2:T8	
+R7	coauthor Arg1:T8 Arg2:T9	
+R8	has_cited_time Arg1:T10 Arg2:T9	
+R9	coauthor Arg1:T11 Arg2:T12	
+R10	has_cited_time Arg1:T13 Arg2:T12	
+R11	coauthor Arg1:T14 Arg2:T15	
+R12	coauthor Arg1:T15 Arg2:T16	
+R13	has_cited_time Arg1:T18 Arg2:T17	
+R14	coauthor Arg1:T16 Arg2:T17	
+R15	field_similar_as Arg1:T14 Arg2:T11	
+R16	field_similar_as Arg1:T11 Arg2:T7	
+R17	coauthor Arg1:T19 Arg2:T20	
+R18	has_cited_time Arg1:T21 Arg2:T20	
+R19	coauthor Arg1:T23 Arg2:T24	
+R20	has_cited_time Arg1:T25 Arg2:T24	
+R21	has_cited_time Arg1:T33 Arg2:T31	
+R22	coauthor Arg1:T26 Arg2:T27	
+R23	has_cited_time Arg1:T28 Arg2:T27	
+R24	coauthor Arg1:T34 Arg2:T35	
+R25	has_cited_time Arg1:T36 Arg2:T35	
+R26	coauthor Arg1:T39 Arg2:T40	
+R27	coauthor Arg1:T40 Arg2:T41	
+R28	has_cited_time Arg1:T43 Arg2:T42	
+R29	coauthor Arg1:T44 Arg2:T45	
+R30	has_cited_time Arg1:T46 Arg2:T45	
+R31	has_cited_time Arg1:T48 Arg2:T47	
+R32	coauthor Arg1:T52 Arg2:T53	
+R33	has_cited_time Arg1:T54 Arg2:T53	
+R34	has_cited_time Arg1:T56 Arg2:T55	
+R35	coauthor Arg1:T57 Arg2:T58	
+R36	has_cited_time Arg1:T59 Arg2:T58	
+R37	results Arg1:T57 Arg2:T78	
+R38	has_cited_time Arg1:T61 Arg2:T60	
+R39	coauthor Arg1:T62 Arg2:T63	
+R40	has_cited_time Arg1:T64 Arg2:T63	
+R41	has_cited_time Arg1:T67 Arg2:T65	
+R42	has_cited_time Arg1:T68 Arg2:T66	
+R43	field_similar_as Arg1:T66 Arg2:T65	
+R44	has_cited_time Arg1:T70 Arg2:T69	
+R45	results Arg1:T69 Arg2:T79	

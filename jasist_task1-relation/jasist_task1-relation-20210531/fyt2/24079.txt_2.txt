@@ -1,0 +1,130 @@
+Large numbers of authors have only one career year in each outlet : conferences ( 161,647 ) and journals ( 210,496 ) . 
+One career year means that an author publishes only one article in conferences and/or journals . 
+This indicates that many authors appear only once in conferences and/or journals and have not appeared again until 2016 . 
+This might be due to the fact that many CS students who have coauthored with academic advisors might go to industry after graduation , or that many scholars made their debut in recent years and have not yet published their next articles . 
+Especially , the larger number of one‐time publishing authors in journals than in conferences may be related to the conjecture that journal articles involve higher costs in terms of time and effort than conference articles ( Bar‐Ilan , 2010 ; Montesi & Owen , 2008 ) . 
+Does an author who has a long conference career tend to also have a long journal career , or vice versa ? 
+The association between conference and journal careers was tested through Kendall 's rank‐order correlation ( tau , τ ) because career distribution is highly skewed and has many tied values . 
+The test showed an intermediate level of correlation ( τ = 0.42 ) . 
+This indicates that career years in conferences and journals per author is not necessarily proportional , implying some authors have a preference for conferences or journals . 
+On average , CS scholars published 14.78 articles : 9.12 articles in conferences and 5.65 articles in journals . 
+This indicates that conferences are a more prevalent channel of research communication . 
+Authors who publish many articles in conferences ( or journals ) tend to publish many articles in journals ( or conferences ) , but the strength of association is weak ( τ = 0.42 ) . 
+The production distribution of authors in conferences , journals , and both , can be plotted on a cumulative log–log plot to see its skewedness . 
+In Figure 2 , the horizontal axis represents the number of articles ( x ) and the vertical axis the ratio of authors who have written x or more publications over the total number of authors . 
+All the plots show that a small group of authors have produced many articles while most authors have published a few . 
+Especially , the plots were fitted to power law slopes for 90 % of authors in conferences ( circles in Figure 2 , 1 ≤ x ≤ 21 , y = 1.32x −1.80 , R 2 = 0.98 ) and journals ( triangles in Figure 2 , 1 ≤ x ≤ 13 , y = 1.15x −1.92 , R 2 = 0.99 ) , implying that the production of CS scholars in both conferences and journals may be modeled to follow predictable patterns ( Lotka , 1926 ) . 
+A degree of conference‐journal publication balance per author can be assessed by PubRatio . 
+About half ( 281,371 ; 54.34 % ) of scholars have more publications in conferences than in journals ( that is , PubRatio > 0 ) , while slightly more than one‐fifth ( 123,320 ; 23.82 % ) of scholars have published more often in journals ( that is , PubRatio < 0 ) . 
+Among those ( 113,072 ; 21.84 % ) who published equally in conferences and journals ( that is , PubRatio = 0 ) , almost two‐thirds ( 82,830/113,072 ; 73.25 % ) have only two publications ; that is , each in one conference and one journal . 
+The mean PubRatio of all authors is 0.15 , which indicates that CS authors have a tendency to publish a little more in conferences than in journals . 
+The mean PubRatio of authors per debut year is plotted in the left subfigure of Figure 3 , showing that the younger CS scholars are , the higher their mean PubRatio is . 
+This means that , on average , young computer scientists tend to depend more on conferences than journals for scholarly communication than their older peers . 
+The right subfigure shows that as CS scholars publish more articles , they tend to publish more in conferences : the mean PubRatio starts at zero for two publications , rises towards 0.2 around 10 publications , and then keeps hovering higher than 0.2 until reaching 100 publications . 
+A note is that in order to reduce the noise in visualization hereafter , authors who have published 100 or more articles ( 9,909 out of 517,763 ; 1.91 % ) are aggregated together for the calculation of mean , median , and SD values . 
+In the left subfigure , the mean trend 's decline around 2012 may be due to incomplete data . 
+As detailed for Figure 1 in Debut/Career Year , authors who have published only in either conferences or journals are excluded from analysis , as this study considers only authors publishing both in conferences and journals . 
+For CS scholars who made their debut in recent years , this selection can result in the overrepresentation of authors who made their debut in a conference and a journal at the same time and have not yet published more ( their PubRatio is zero ) . 
+In addition , as shown in subfigure ( b ) , authors who have a small number of publications tend to have a low PubRatio . 
+These factors seem to contribute to the declining PubRatio trend for recently debuted authors . 
+With regard to the conference versus journal preference of CS scholars , an interesting question would be how the debut venue type is associated with an author 's choice of publication venue type afterwards . 
+For example , does an author who first published an article in a journal tend to prefer journals as s/he continues to publish ? 
+For this , the mean PubRatio of authors can be calculated per their debut venue type ( conference‐first , journal‐first , or both‐conference‐journal ) over numbers of published articles . 
+The results are shown in Figure 4 with median and SD trends . 
+The mean trend of PubRatio ( left in Figure 4 ) shows that authors who made their debut in a conference or both in a conference and a journal are likely to prefer conferences to journals as they publish more articles . 
+Their conference‐preferred trends are stable ( solid line ) or slightly increasing ( double line ) . 
+In contrast , journal‐debut authors tend to choose journals over conferences in their early publications but keep increasing the ratio of conference articles as they publish more . 
+Their PubRatio trend ( dotted line ) goes up and down around –0.1 until ~40 publications and then fluctuates toward/around zero . 
+Median also shows similar trends . 
+All observations in this section indicate that conferences will continue to be a dominant venue type for CS scholars , if the current trends continue . 
+The number of authors who have published all articles in journals and conferences as a single author is 2,849 out of 517,763 ( 0.55 % ) . 
+This means that collaboration is a typical mode of knowledge production for CS scholars . 
+Overall , authors in the data set have on average 20.08 unique collaborators : 13.93 in conferences and 10.56 in journals . 
+Specifically , 54.44 % ( 281,855/517,763 ) of CS authors collaborate with a larger number of unique authors ( mean 20.33 ) on conference articles than journal articles ( mean 9.70 ) . 
+In contrast , 31.86 % ( 164,966/517,763 ) of authors have more unique collaborators ( mean 14.89 ) in journals than in conferences ( mean 7.33 ) . 
+The remaining 13.70 % authors ( 70,942/517,763 ) have equal numbers of unique collaborators ( mean 3.88 ) in both outlets . 
+Does an author who has many collaborators in conferences tend to have many collaborators in journals ? 
+A correlation test shows a Kendall 's tau of 0.44 : an intermediate level of association . 
+How about collaboration across conferences and journals ? 
+In other words , do coauthors of a scholar in conferences also tend to appear in journals , or vice versa ? 
+The overlap in unique coauthors ( that is , coauthors who work together both in conferences and journals with a target author ) is on average 4.41 coauthors . 
+For more details , the ratio of coauthor overlap over the total of unique coauthors per author ( CoauOverlap ) is calculated . 
+The mean CoauOverlap is 0.29 for all authors in the data . 
+This means that on average 29 % of coauthors per author participate both in writing conference and journal articles with the author . 
+In terms of conference collaboration , the overlapping coauthors constitute on average 39.81 % of all conference coauthors per author , which means that about 40 % of coauthors who ever collaborate in conference articles with an author also appear in the author 's journal publications . 
+In terms of journal collaboration , on average 49.52 % of coauthors who work together in journal articles with an author also appear in his/her conference publications . 
+These observations can be compared with the article‐level findings in Wainer and Valle ( 2013 ) that 62 % of authors in conference articles and 55 % of authors in journal articles also appeared in extended articles . 
+In Figure 5a , the CoauOverlap ratio trend is shown over the number of publications . 
+Roughly until 20 publications , the mean ratio of overlapping coauthors tends to decrease . 
+Although it increases steadily as scholars publish more articles , the mean ratio trend continues to move below 0.3 . 
+This implies that CS scholars have a distinct set of collaborators for conferences versus journals . 
+In other words , the collaboration in conference articles does not necessarily lead to that in journal publication , or vice versa . 
+Especially if we assume that coauthors from a conference article would work together for developing their article into a journal submission , the mean proportion of overlapping coauthors for conferences ( that is , 39.81 % ) indicate that many conference articles may not be extended into journal articles , possibly supporting the findings of previous studies ( Bar‐Ilan , 2010 ; Vardi , 2009 ; Wainer & Valle , 2013 ) . 
+With regard to overlapping coauthors , their contributions for authors seem to differ across conferences and journals . 
+According to Figure 5b , the cosine similarity of coauthors participating in both conferences and journals starts around 0.47 and keeps increasing up to 0.69 . 
+The overall CoauCosine values imply that coauthors of an author contribute to conference and journal articles in different ways . 
+For example , coauthors who team up frequently in conferences with an author may collaborate less in journals . 
+In addition , the rising trend of CoauOverlap ( Figure 5a ) and CoauCosine ( Figure 5b ) indicate that as scholars publish more articles , they become to involve more coauthors both in conference and journal articles and to collaborate more frequently with specific coauthors . 
+The CoauOverlap and CoauCosine ratio trends were also plotted per debut year in Figure 6 . 
+Authors who have published their first publication in recent years ( that is , have short academic ages ) tend to show higher CoauOverlap and CoauCosine than those who made their debut in earlier years . 
+This means that young CS scholars start to work with specific coauthors but as they grow older academically , they keep finding new coauthors for conferences and journals ( Figure 6a ) and diversify collaboration frequencies with coauthors who work together for both conference and journal articles ( Figure 6b ) . 
+The per‐debut‐year CoauOverlap and CoauCosine trends appear mostly below 0.3 and 0.5 , respectively , which are similar to the per‐publication trend‐lines in Figure 5 , confirming the aforesaid observation that CS scholars seem to have distinct sets of coauthors for conferences and journals . 
+Note that while the CoauOverlap and CoauCosine in Figure 5 show steady increases overall as scholars publish more articles , those in Figure 6 decrease as scholars get older . 
+This implies that older academic age ( that is , earlier debut year ) is not strongly correlated with high research production in CS , which can be confirmed by the low Kendall 's tau ( = 0.26 ) between length of academic age ( 2017 − debut year ) and number of publication . 
+CS scholars in the data have used on average 41.49 unique title words in conferences and 30.16 unique title words in journals . 
+However , the mean word count per article is slightly lower for conferences ( 6.29 ) when compared with journals ( 6.95 ) . 
+This may indicate that journal titles tend to be more detailed or specific . 
+How do title words appear across conferences and journals ? 
+On average , unique title words in conferences and journals per author overlap for 16.79 % ( 11.09 words ) of all unique words per author ( WordOverlap = 0.1679 ) . 
+The shared title words constitute on average 26.21 % of all unique title words in conferences per author , while they constitute on average 34.57 % in journals per author . 
+In Figure 7a , the WordOverlap ratio trend is shown over the number of publication . 
+Despite a sharp value drop from two to three publications , the mean ratio of overlapping words between conference and journal articles per author tends to increase , although it hits the maximum below 0.3 . 
+If we assume that a conference article is turned into a journal article with exact or similar title words ( for instance , Bar‐Ilan , 2010 ) , this observation implies that many CS conference articles may not be extended into journal articles ( or vice versa ) . 
+Previous studies found that the ratios of conference articles that transit into journals have been 25~33 % in computer science ( Bar‐Ilan , 2010 ; Montesi & Owen , 2008 ; Wainer & Valle , 2013 ) , which is comparable to the mean ratio of overlapping title words for conferences ( 26.21 % ) in this study . 
+A note is that these preceding studies used articles as a unit of analysis , not individual authors . 
+Despite such a difference in methodology , the author‐based observations of this study seem to add evidence to findings that many conference articles are not turned into journal articles.77 This interpretation requires discretion . 
+This study followed preceding studies in using title‐word match as a proxy of measuring article similarity via Jaccard coefficient . 
+In reality , authors may publish similar or same conference articles in journals ( or vice versa ) using different titles . 
+Abstracts or full texts should be used to correctly capture the transition of conference articles into journal articles . 
+However , this approach may not be feasible due to the difficulty in obtaining abstracts and full texts of all articles in the DBLP data used in this study . 
+Like CoauOverlap , the mean ratio of WordOverlap increases as authors publish more articles . 
+A similar trend is also observed in Figure 7b , where the mean ratio of WordCosine is plotted over the number of publications . 
+The trend starts at a very low level ( below 0.3 ) but rises up close to 0.7 . 
+An implication of this increasing Jaccard coefficient and cosine similarity is that as CS scholars produce more articles , they come to focus on specific topics across journals and conferences , if we assume that title words represent topics . 
+This concentration of topics , however , seem to accompany topical diversity across conferences and journals , which is depicted by the rising but low mean ratios of overlapping words in Figure 7a . 
+In Figure 8 , the WordOverlap and WordCosine ratio trend was plotted per debut year . 
+Overall , authors who published their first publication in recent years tend to show higher WordOverlap and WordCosine values than those who made their debut in earlier years . 
+Especially , scholars whose debut years are between the mid‐1980s and mid‐2010s show higher WordCosine values than other older and younger colleagues in Figure 8b . 
+This means that CS scholars in this debut range work on more focused topics for both conferences and journals than others . 
+But the per‐debut‐year WordOverlap and WordCosine trends appear mostly below 0.2 and around 0.3 , respectively , indicating that many conference articles are not extended into journal work or vice versa . 
+In addition , these trends contrast to increased trend‐lines in Figure 7 . 
+Such a difference may be mainly due to the fact that the majority of CS scholars publish a small number of articles in both conferences and journals ( see Figure 2 ) . 
+In Figure 7 , the values of WordOverlap and WordCosine appear below 0.2 and around 0.3 , respectively , for the production range between 2 and 17 , which covers almost 80 % of all authors in the data . 
+This article identified publication patterns and trends in CS conferences and journals , using individual scholars as a unit of analysis . 
+CS scholars were found to usually make their debut in conference articles , publish more articles in conferences than journals , and collaborate with more colleagues in conference publications than journal publications . 
+CS scholars ' focus on conference articles began around the 1980s , strengthened over time , and seems to continue in the near future . 
+As such , conferences are the main vehicle of scholarly communication in CS . 
+An interesting finding is that , overall , conference publications do not seem to be preliminary work aimed at journal submission . 
+This proposition is based on the observation that sets of coauthors per author across conferences and journals do not overlap much , which is also observed for sets of title words . 
+Such observations may counter‐argue the “ worries that conference proceedings are merely a preceding step to a journal submission ” that are often raised outside CS ( Michels & Fu , 2014 ) . 
+According to the trends of the conference‐journal publication ratio , coauthor overlap , and title word overlap per author , CS conference publications look like having served as a distinct vehicle of research communication for several decades , corroborating findings of previous studies on this topic from an author‐based approach . 
+These findings , however , do not imply that conferences should be prioritized over journals to understand computing research publications . 
+Instead , a take‐away of this study is that conference publication should be studied with special interests in order to properly understand CS scholars ' scholarly communication . 
+Bibliometrics studies have focused on journals as main outlets for disseminating research outcome and measuring performance of individual scholars . 
+Such a journal‐centric approach may be appropriate for other fields , but , for computing , it is not . 
+Some limitations apply . 
+First , this study only considered the count of publication for representing research outputs . 
+This approach ignores the content and quality of articles that are both important dimensions of scholarly impact . 
+Also , this study does not consider the increase of conference venues , especially around the 1990s , when many conferences were established . 
+This might contribute to the increased number of publications per CS authors . 
+Second , the validity of all these findings is based on the coverage and correctness of the DBLP data . 
+Although DBLP data have been assumed by many scholars to cover the majority of relevant publications in CS ( Elmacioglu & Lee , 2005 ; Franceschet , 2011 ) , its coverage is not perfect : that is , its coverage of CS is different from other bibliometric databases such as IEEE Xplore , SCOPUS , and Web of Science ( Reitz & Hoffmann , 2010 ; Wainer , Eckmann , Goldenstein , & Rocha , 2013 ) . 
+Also , some CS journals are indexed with some issues missing . 
+For example , the first 22 volumes of the Journal of the Association for Information Science and Technology ( JASIS & T ) are not included . 
+Importantly , the accuracy of DBLP in identifying authors can be an issue . 
+The DBLP name disambiguation showed a good performance against a sample of authors with most ambiguous names ( Kim , 2018 ; Kim & Diesner , 2015 ) . 
+However , it surely has disambiguation errors due to faulty merging or splitting of unique identities ( for details , see Kim ( 2018 ) ) , which may affect the outcomes of this study . 
+Thus , the findings of this study should be understood to represent only the given data set as it is . 
+Although this study showed that CS scholars tend to publish more in conferences than in journals , it could not give any clue to factors affecting such propensity . 
+Some possible factors can be listed as follows . 
+Regarding publication cost , journals seem to be more attractive than conferences : publishing an article in a journal is usually free of charge , but conferences generally require fees for accepted articles and authors to present to an audience . 

@@ -1,0 +1,130 @@
+The leaders occupy a small fraction of the total researchers ( potential authors ) , so N 2 is set to be far less than N 1 . 
+Meanwhile , the number of paper teams within a research team is far more than that between research teams , so N 3 is set to be small . 
+In practice , N 3 could be a decimal belonging to the interval , which means implementing Rule ( b ) under probability N 3 at each time step . 
+Because the model is stochastic , we generate 20 networks with the same parameters , and compare their statistical indicators in Table 1 . 
+The finding is that the model is robust on those indicators . 
+The indicator modularity in Table 1 shows that the same as the empirical networks , the modeled networks have clear communities . 
+The reason is that nodes in the same “ research team ” probably belong to the same community because of Rule ( a ) , and the fraction of connections between “ research teams ” is small because of Rule ( b ) . 
+Thus edges within communities are significantly more than those between communities , which results to the clear community structures . 
+A leader of a research team often collaborates with all of the team members . 
+Hence the leader acts as a hub in the subnetwork of coauthorship restricted in the leader 's research team . 
+The communications between research teams make empirical coauthorship networks have a giant component . 
+Hence , authors evolving in the communications ( e.g. , visiting scholars or students ) also act as hubs in macroscopic scale . 
+Therefore , it is reasonable to regard that bi‐level ( maybe multilevel ) hub structures exist in coauthorship networks . 
+In the model , because of Rule ( a ) , a lead node also plays the role of hub in the subgraph restricted in its zone , because all of the nodes in the zone connect to the lead node . 
+Because of the randomly selection in Rule ( b ) , the nodes in large zones are preferably connected by the nodes of other zones , which makes the nodes in the large zones hubs for the nodes in the small zones . 
+Hence the modeled networks also have a bi‐level hub structure , which is a reason for that the average shortest path length of each empirical or synthetic network scales as the logarithm of the number of nodes ( Table 1 ) . 
+Coauthorship networks , in essential , are hypergraphs , which leads the high clustering coefficient . 
+An author of an article connecting to the other coauthors generates very many triangles . 
+Together with the average shortest path length scaling as the logarithm of the number of nodes , the synthetic networks can be regarded having the small‐world property of the empirical networks . 
+In the model , a subgraph restricted in a zone will form a component by itself , if its nodes are not selected by Rule ( b ) . 
+The distributions of component sizes are like those of the empirical data ( Figure 3a ) , which validates the reasonability of taking the zonal sizes from a power‐law function . 
+The distributions of component sizes NC ( s ) and the average proportion of the largest cliques in s‐components ( components with size s ) LC ( s ) of the first four networks in Table 2 . 
+If there is an s that makes , it means the s‐components are nearly fully connected . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Authors in small research teams ( no larger than the mean size of paper teams ) are more likely to write articles together . 
+With the growth of research‐team‐sizes , some authors will stop writing , which causes the average proportion of the largest cliques in a component decreases with the growth of component size ( Figure 3b ) . 
+The model also captures this feature , which reinforces the reasonability of model design . 
+The degree distributions of coauthorship networks ( the distributions of collaborators per author ) appear two common features , namely a hook head and a fat tail , which can be sufficiently fitted by generalized Poisson and power‐law distributions , respectively ( Figure 4 ) . 
+The boundary points of generalized Poisson parts in degree distributions are detected by the algorithm in Table 2 . 
+Inputs are degrees as observations , and . 
+The degree distributions of the first four networks in Table 2 . 
+The fitting functions are the pdfs of generalized Poisson and power‐law for the heads and tails , respectively . 
+The RMSEs are 0.01 ( generalized Poisson ) , 0.019 ( power‐law ) for PNAS AND 0.009 ( Poisson ) , 0.02 ( power‐law ) for DBLP‐Math . 
+The fittings pass the KS test at significance level 5 % . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] In statistics , if regarding authors of a coauthorship network as samples , such a mixture distribution means those samples come from different populations , namely the collaboration mode of authors with small degrees differs from that with large degrees . 
+Authors mainly are teachers and students in institutes and universities , who can be viewed as two distinct populations . 
+The collaboration modes of students and teachers are different . 
+Many students only write a few articles , and do not write after graduations , but their teachers could continuously write articles collaborating with their new students or other researchers . 
+There are two essential questions for the emergence of such degree distributions : why the distributions emerge generalized Poisson and power‐law ; is there any essential relation between them ? 
+We attempt to give an answer by analyzing and simulating collaboration modes as follows . 
+Collaboration behaviors are dependent on authors ' choices . 
+We simply treat the choices ( e.g. , whether or not a researcher joins a research team ) as “ yes/no ” decisions . 
+So , the size of a research team is equal to the number of successes in a sequence of n decisions , where n is the number of candidates for the members of the research team . 
+Approximate the probability p of “ yes ” by its expected value , and suppose those “ yes/no ” decisions to be independent . 
+Then , the sizes of research teams will follow a binomial distribution . 
+When n is large and is small , can be approximated by a Poisson distribution with mean ( Poisson limit theorem ) . 
+The value of is not a constant because of the diversity of research teams ' attractive abilities . 
+The “ yes/no ” decisions could be affected by previous occurrences , e. g. students sometimes introduce their research teams to their juniors . 
+So for small research teams , it is reasonable to regard their sizes as random variables drawn from a generalized Poisson distribution ( which allow the probability of an event 's occurrence to affect by previous events ( Consul & Jain , 1973 ) ) . 
+For large research teams , the numbers of their candidates are large enough that the “ yes/no ” decisions can be regarded to be independent . 
+So , their sizes could be regarded as random variables drawn from a range of Poisson distributions with sufficiently large means . 
+The diversity of attractive abilities of research teams gives the possibility of a few research teams having highly attractive abilities , and then guarantees the relative commonness for a few authors getting collaborators that greatly exceed the average . 
+The commonness reflects as a feature of the distribution with a power‐law tail , or asymptotically . 
+The analytical derivations ( in Appendix ) and numerical evidences ( the blue diamonds in Figure 4 ) illustrate the ability of our model in reproducing the empirical degree distributions . 
+The tunable model parameters give our model flexibility for empirical networks in diverse fields . 
+Specifically , the power exponents of fat tails and the hook peaks can be tuned by β and the expected value of f 1 , respectively . 
+In what follows , an intuitionistic explanation is given to show how the geometric aspect of the model is necessary to fit the empirical degree distributions . 
+In our model , nodes are generated according to a Poisson point process , hence the number of nodes covered by a zone is a random variable drawn from a Poisson distribution with an expected value in proportion to the zonal size . 
+Our model generates a range of Poisson distributions with means taking values from a power‐law function . 
+Now we analyze how the emergence of generalized Poisson is captured by our model . 
+The nodes with small degrees usually belong to only one small hyperedge , or come from small “ research team , ” the sizes of which are no larger than the mean size of hyperedges . 
+For the first case , the empirical data show that the heads of hyperedge size distributions are well fitted by generalized Poisson ( Figure 2 ) . 
+Hence the degrees of nodes which belong to only one small hyperedge are equal to the size of the hyperedge minus one , hence also follow a generalized Poisson distribution . 
+For the second case , nodes in those small “ research teams ” probably belong to one hyperedge . 
+Ignoring the minority of connections between “ research teams ” generated by Rule ( b ) , the degrees of those nodes are the sizes of corresponding “ research teams ” minus one , therefore also follow Poisson distributions . 
+Therefore , the heads of the modeled degree distributions follow a mixture distribution , and can be well fitted by a generalized Poisson distribution with proper parameters . 
+Next , we turn to the power‐law . 
+The nodes with large degrees are the nodes of large hyperedges or the lead nodes of large research teams . 
+Consider the first case . 
+The tails of the input hyperedge‐size distributions follow a power‐law distribution , as the empirical data do . 
+For example , in PNAS , the sizes of large hyperedges follow a power‐law distribution with exponent ( Figure 2 ) . 
+If supposing each node belongs to only one of such hyperedges , then the degrees of those nodes are drawn from a power‐law distribution with exponent . 
+However , the supposition is not fully established ( Figure 5b ) . 
+Consider the second case . 
+The lead nodes usually “ collaborate ” with all their team members . 
+Ignoring the minority of “ collaborations ” between “ research teams ” , the degree of a lead node is the size of its “ research team ” minus one . 
+A power‐law can appear when averaging a range of Poisson distributions with expected values from a power‐law function . 
+Our model generates such Poisson distributions by making the sizes of influential zones from a power‐law function , which gives a sufficient diversity for lead nodes ' attractive abilities . 
+In fact , the scale‐free property of the modeled networks is hidden in the diverse sizes , which is the reason for the remarkable data‐model fit ( Figure 4 ) . 
+The components of the authors with many collaborators . 
+Panel ( a ) shows the distribution of paper‐team ( hyperedge ) sizes and its boundary point ( the detecting way of which is described in The Data ) for PNAS 1999–2013 . 
+the red circles and blue diamonds in panel ( b ) express the degree distributions of the networks extracted from the paper teams with sizes s < 40 and , respectively . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The mathematical deduction of generating power‐law from Poisson is proposed in Appendix , where the calculations in Equation ( 6 ) are inspired by some of the same general ideas as explored in the cosmological networks ( Krioukov et al. , 2012 ) . 
+In fact , the deduction illustrates the relation between the Poisson and power‐law . 
+It shows that “ scale‐free ” , namely the emergence of power‐law tails , partly comes from many Poisson processes , consequently from many “ yes/no ” decisions . 
+In this sense , coauthorship networks give good examples of “ 1 + 1 > 2 ” for systems science and complexity . 
+The transition from Poisson to power‐law is smooth in DBLP‐Math , but not in PNAS ( Figure 4 ) . 
+A reason for the difference is that the components of large degree nodes in the two data sets are different . 
+Authors with large degrees in PNAS partly come from large paper teams ( Figure 5 ) , but DBLP‐Math has no large paper team . 
+If an author only writes articles with small paper teams , the growing process of his or her degree is smooth . 
+In our model , the growing process is represented by the smoothly increasing process of each research team 's cumulative size ( Equation [ 1 ] ) . 
+Meanwhile , model parameter q tunes the proportion of large paper teams . 
+Hence , when q is small , the transitions of modeled networks , for example , Modeled network 2 , are smooth . 
+As global features , the positive Pearson correlation coefficient of degrees between pairs of collaborated authors ( degree assortativity ) and high global clustering coefficient ( the fraction of connected triples of nodes which also form “ triangles ” ) are common in coauthorship networks . 
+A general interpretation for degree assortativity of social networks is the homophily of nodes , namely similar people attract one another ( Newman , 2002 ) . 
+The homophily in research interests is the precondition of collaborations . 
+The homophily is also an explanation for high global clustering coefficient , because the relation of similarity between nodes is symmetric , reflexive and transitive . 
+It can be found that the clustering behavior and degree correlation differ from the authors with small degrees to those with large degrees . 
+Denote the average local clustering coefficient and average neighbor degree of k‐degree nodes by C ( k ) and N ( k ) , respectively . 
+Degree correlation can be measured by the slope of N ( k ) ( Pastor‐Satorras , Vázquez , & Vespignani , 2001 ) . 
+If the function is increasing , nodes with large degrees connect to nodes with large degrees on average , which means the network is assortative . 
+There exist transitions in the C ( k ) and N ( k ) of the empirical data ( Figures 6 and 7 ) . 
+The tipping points of those functions are detected by the algorithm in Table 3 . 
+The inputs are C ( k ) /N ( k ) , and / . 
+Using those inputs is based on the observation of C ( k ) and N ( k ) . 
+Using the term “ tipping point ” is suitable for PNAS data , because the features in the two regions splitted by the points have significant difference . 
+However , the term is not quite accurate for the C ( k ) of DBLP‐Math , because its transition is not so sharp . 
+Using boundary point may be more suitable . 
+The relation between local clustering coefficient and degree . 
+The panels show the average local clustering coefficient of k‐degree nodes for four networks in Table 2 , respectively . 
+The RMSE for the theoretical prediction is 0.04597 for PNAS and 0.01476 for DBLP‐Math . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The relation between degree and average degree of neighbors . 
+The panels show k‐degree nodes ' average degree of their neighbors for four networks in Table 2 , respectively . 
+The RMSE for the linearly increasing trend IS 3.075 for PNAS and 1.313 for DBLP‐Math . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] When k is larger than the tipping point , C ( k ) of each empirical network emerges a decreasing trend , which is proportional to . 
+Meanwhile , the correlation coefficients of k and N ( k ) in the two regions of k split by tipping points are 0.416/–0.025 and 0.250/–0.046 for PNAS and DBLP‐Math , respectively . 
+The existence of tipping points in C ( k ) and N ( k ) provides an evidence for the difference between the collaboration behavior of authors with small degrees and that with large degrees . 
+The low local clustering coefficients of large degree nodes can not be explained by homophily , so does and non‐positive correlation coefficients of degree k and N ( k ) in large k regions . 
+An explanation is given as follows . 
+The analysis in above section has illustrated that authors in small research teams ( no larger than the mean size of paper teams ) are more likely to write articles together , and have small degrees on average . 
+Hence the authors in a small research team may have high local clustering coefficients and similar degrees . 
+As the cumulative size of a research team increases over time , the degree difference emerges between the leader and other members , because the leader usually collaborates with all members , but non‐leaders only write a few articles with a few members on average . 
+So , the degrees of nonleaders , on average , do not increase with the growth of their leaders ' degree , which leads to the nonpositive correlation coefficients in large k regions . 
+Meanwhile , the neighbors of nonleaders probably are nonleaders and in the same paper team . 
+So non‐leaders have high local clustering coefficients , and collaborated nonleaders have similar degrees on average , which is a reason for positive correlation coefficients in small k regions . 
+In the above analysis , the sizes of paper teams are approximated by their expected value . 
+However , the existence of large paper teams can increase the correlation coefficients . 
+For example , the correlation coefficients in the large k‐regions are −0.025 and −0.045 for PNAS and Sub‐PNAS , respectively ( Figure 8a ) . 
+In addition , some nonleaders could leave their teams , and so are unlikely to collaborate with new coming members . 
+For example , many students leave their research teams after graduation , so the students studied in different periods of time are unlikely to collaborate . 
+The leaving also leads to the low local clustering coefficient of leaders . 

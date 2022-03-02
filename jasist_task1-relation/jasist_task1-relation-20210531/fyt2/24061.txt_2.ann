@@ -1,0 +1,91 @@
+T1	图 0 159	This is the case of the author cited in references 32 and 33 in Figure 2 , who the interviewee knows well , although they have never published a paper together
+T2	图 333 384	This is the case for references 4 and 5 in Figure 2
+T3	引文作者 1235 1241	Milard
+T4	引文时间 1244 1248	2014
+T5	引文作者 4120 4127	Glänzel
+T6	引文作者 4130 4135	Thijs
+T7	引文时间 4138 4142	2004
+T8	引文作者 5779 5785	Tanguy
+T9	引文时间 5797 5801	2009
+T10	图 6389 6528	Therefore , the distribution is slightly different to that observed in Mixed Methods : Interviews , Coding and Corpus Building ( Figure 3 )
+T11	引文作者 7619 7625	Snyder
+T12	引文作者 7630 7635	Bonzi
+T13	引文时间 7638 7642	1998
+T14	引文作者 8205 8211	Boyack
+T15	引文时间 8221 8225	2018
+T16	引文作者 11439 11445	Boyack
+T17	引文时间 11455 11459	2018
+T18	引文作者 12418 12421	Zhu
+T19	引文时间 12433 12437	2013
+T20	引文作者 14042 14048	Swales
+T21	引文时间 14051 14055	1990
+T22	引文作者 14319 14325	Teufel
+T23	引文时间 14328 14332	2010
+T24	引文作者 16488 16495	Agresti
+T25	引文时间 16498 16502	2013
+T26	表 18409 18501	We then applied the same procedure to the Conclusions : the results are presented in Table 6
+T27	表 18506 18647	This detailed measure shows that there are differences between biology and chemistry , which could not be seen in the first study ( Table 6 )
+T28	表 17893 18001	Adjusted Pearson residuals are shown in Table 5 here again , absolute values above two have been highlighted
+T29	表 15059 15228	The results presented in Table 3 show that the IMRaD structure does not apply in mathematics or social sciences , and is limited to experimental sciences ( as expected )
+T30	表 14465 14509	The overall results are presented in Table 3
+T31	图 12010 12107	Figure 5 shows the relative position of citations as a function of discipline and social relation
+T32	引文作者 11327 11333	Bertin
+T33	引文时间 11343 11347	2016
+T34	引文作者 11205 11207	Hu
+T35	引文时间 11217 11221	2013
+T36	表 8447 8529	Table 2 shows the detailed results as a function of discipline and social relation
+T37	引文作者 8004 8007	Zhu
+T38	引文时间 8017 8021	2015
+T39	图 6533 6634	The number of citations for each discipline and each type of social relation is indicated in Figure 4
+T40	图 3487 3629	As a preliminary result , Figure 3 presents the relations between citing and cited authors , for all references , according to the disciplines
+T41	表 1694 1750	The breakdown , per discipline , is indicated in Table 1
+T42	数据源 1411 1465	Interviews to Capture Social Relations Between Authors
+T43	研究方法 2087 2304	In‐text citations were explicitly marked up ( using an ad‐hoc XML schema ) , and allocated a number that was cross‐referenced to the information obtained from the interviews with authors , and details of the reference
+T45	引文的结果 7648 7740	self‐citations , which were found to be significantly more frequent in experimental sciences
+T46	引文的结果 8228 8342	found that references cited only once in an article are generally highly cited according to bibliometric databases
+T47	引文的结果 8024 8192	have measured that the number of times a reference , is cited in an article is correlated to the citing author 's estimation of the reference 's influence on their work
+T48	表 8534 8832	2_Same Lab 3_Collab/ Friend 4_Already Met 5_Known ByName The colors of the cells in Table 2 show , for each discipline , the higher ( in green ) and lower ( in red ) values , that is , the relative variation in the numbers of citations per social relation for each discipline , and for all articles
+T49	研究结果 10193 10351	The results highlight differences between disciplines , notably mathematics and biology have a higher overall repetition rate than the other three disciplines
+T50	表 10356 10568	It is interesting to note that this finding is independent of the article 's length , or even the total number of citations per article which show significant differences between these disciplines ( see Table 1 )
+T51	引文的结果 11224 11320	found that references cited in the first parts of an article have globally higher citation rates
+T52	引文的结果 11350 11430	found invariant schemes of distribution of citation in the position of citations
+T53	引文的结果 11462 11508	found important differences across disciplines
+T54	图 12192 12300	Figure 5 shows that most citations occur in the first parts of an article , but rarely at the very beginning
+T56	引文作者 14221 14227	Bertin
+T57	引文作者 14230 14240	Atanassova
+T58	引文时间 14243 14247	2014
+T59	引文作者 14276 14282	Bertin
+T60	引文时间 14292 14296	2016
+T61	引文的研究问题 14176 14218	study linguistic variations in the context
+T62	引文的研究问题 14252 14273	the age of a citation
+T63	引文的研究问题 14304 14316	its function
+T64	研究方法 14339 14460	In order to explore this aspect , we manually tagged each section heading in our corpus according to the IMRaD categories
+T65	表 16081 16226	Table 4 shows adjusted Pearson residuals for the Introduction ( I ) , Methods ( M ) , Results and Discussion ( RD ) and Conclusion ( C ) sections
+T44	图 13231 13420	However , the lower set of boxplots shown in Figure 5 indicate that , with the exception of the 6_Unknown category , the better‐known the author , the later the citation appears in the text
+R1	has_cited_time Arg1:T25 Arg2:T24	
+R2	has_cited_time Arg1:T21 Arg2:T20	
+R3	has_cited_time Arg1:T60 Arg2:T59	
+R4	has_cited_time Arg1:T58 Arg2:T57	
+R5	coauthor Arg1:T56 Arg2:T57	
+R6	has_cited_time Arg1:T23 Arg2:T22	
+R7	produces Arg1:T22 Arg2:T63	
+R8	has_cited_time Arg1:T19 Arg2:T18	
+R9	has_cited_time Arg1:T17 Arg2:T16	
+R10	has_cited_time Arg1:T33 Arg2:T32	
+R11	has_cited_time Arg1:T35 Arg2:T34	
+R12	has_cited_time Arg1:T15 Arg2:T14	
+R13	has_cited_time Arg1:T38 Arg2:T37	
+R14	coauthor Arg1:T11 Arg2:T12	
+R15	has_cited_time Arg1:T13 Arg2:T12	
+R16	has_cited_time Arg1:T9 Arg2:T8	
+R17	coauthor Arg1:T5 Arg2:T6	
+R18	has_cited_time Arg1:T7 Arg2:T6	
+R19	has_cited_time Arg1:T4 Arg2:T3	
+R20	produces Arg1:T56 Arg2:T61	
+R21	produces Arg1:T59 Arg2:T62	
+R22	results Arg1:T16 Arg2:T53	
+R23	results Arg1:T32 Arg2:T52	
+R24	results Arg1:T34 Arg2:T51	
+R25	results Arg1:T37 Arg2:T47	
+R26	results Arg1:T14 Arg2:T46	
+R27	results Arg1:T11 Arg2:T45	

@@ -1,0 +1,33 @@
+T1	引文作者 1748 1753	Doval
+T2	引文时间 1763 1767	2016
+T3	引文作者 3626 3631	Doval
+T4	引文时间 3641 3645	2016
+T5	数学公式 288 298	Equation 2
+T6	时间 2103 2107	2013
+T7	时间 2256 2260	2013
+T8	图 5435 5504	In Figure 3 we show validation error curves for a few relevant models
+T9	表 5509 5584	in Table 2 the precision numbers obtained by those in the segmentation task
+T10	图 6251 6489	However , it seems that our networks can not grow indefinitely in width ( number of neurons per layer ) with respect to depth ( number of layers ) , as this may cause serious unstability issues during the training process ( see Figure 4 )
+T11	表 7104 7202	The precision numbers for each of these models on the development data sets can be seen in Table 3
+T12	表 8316 8521	In order to account for the difference in execution time for different languages , we show in Table 4 the average counts of words , characters , and bytes per line ( instance ) in the development data sets
+T13	时间 9361 9371	April 2017
+T14	表 10163 10359	The results are shown in Table 5 , where we can see that both the n‐gram and neural models were able to obtain higher precision numbers than both WordSegment and Word Breaker on the test data sets
+T15	引文作者 13210 13215	Doval
+T16	引文时间 13225 13229	2016
+T17	引文时间 13900 13904	2016
+T18	引文作者 13882 13887	Doval
+T19	数据源 904 967	WMT17 shared task , available at http : //www.statmt.org/wmt17/
+T20	时间 885 889	2016
+T21	研究结果 14863 14949	The best neural models obtain the best precision figures overall on the test data sets
+T22	研究结果 14954 15082	Surprisingly , the performance of the simpler n‐gram models was close to their neural counterparts while being noticeably faster
+T23	研究结果 15087 15178	Compared to WordSegment and the Word Breaker , our approach obtained better results overall
+T24	研究结果 14437 14593	In our experiments , we explored possible configurations for our systems by adjusting the search algorithm parameters and the language model hyperparameters
+T25	研究展望 15449 15589	Aside from this , as future lines of work we plan on integrating this system into a microtext normalization pipeline as a preprocessing step
+T26	研究展望 15594 15697	We may also see how this solution fares in the more studied context of Asian languages , mainly Chinese
+T27	研究方法 13373 13752	In this work we presented a new approach to tackle the word segmentation problem consisting of two components : A beam search algorithm , which generates and chooses over possible segmentation candidates incrementally while scanning the input one token at a time , and a language model working at the byte or character level , which enables the algorithm to rank those candidates
+T28	研究方法 13757 13846	We considered recurrent neural networks and n‐gram models to implement the language model
+T29	研究方法 14733 14858	Then we compared the performance of the different configurations of our system , WordSegment , and the Microsoft Word Breaker
+R1	has_cited_time Arg1:T17 Arg2:T18	
+R2	has_cited_time Arg1:T16 Arg2:T15	
+R3	has_cited_time Arg1:T4 Arg2:T3	
+R4	has_cited_time Arg1:T2 Arg2:T1	

@@ -1,0 +1,327 @@
+T1	术语 0 31	Adverse Drug Reactions ( ADRs )
+T2	时间 166 181	January of 2000
+T3	引文作者 237 241	Kohn
+T4	引文作者 244 252	Corrigan
+T5	引文作者 257 266	Donaldson
+T6	引文时间 269 273	2000
+T7	术语 230 234	ADRs
+T8	引文的结果 128 234	The Institute of Medicine reported in January of 2000 that an estimated 7,000 deaths occur because of ADRs
+T9	时间 315 319	2007
+T10	术语 381 385	ADRs
+T11	引文作者 388 396	Kongkaew
+T12	引文作者 399 404	Noyce
+T13	引文作者 409 417	Ashcroft
+T14	引文时间 420 424	2008
+T15	引文的结果 280 385	A systematic overview conducted in 2007 shows that 5.3 % of hospital admissions were associated with ADRs
+T16	术语 452 455	ADR
+T17	引文的结果 431 513	It is estimated that ADR is the fourth leading cause of death in the United States
+T18	引文作者 516 523	Lazarou
+T19	引文作者 526 534	Pomeranz
+T20	引文作者 539 544	Corey
+T21	引文时间 547 551	1998
+T22	引文作者 554 558	Chee
+T23	引文作者 561 567	Berlin
+T24	引文作者 572 578	Schatz
+T25	引文时间 581 585	2011
+T28	术语 671 675	ADRs
+T27	时间 1229 1233	2016
+T29	引文作者 1263 1269	Hazell
+T30	引文作者 1274 1280	Shakir
+T31	引文时间 1283 1287	2006
+T32	时间 1648 1652	2016
+T33	时间 1665 1669	2016
+T34	时间 1691 1695	2016
+T35	时间 1719 1723	2016
+T26	术语 997 1001	ADRs
+T36	术语 2364 2368	ADRs
+T37	术语 2386 2389	ADR
+T38	术语 2411 2432	cooccurrence analysis
+T39	术语 2582 2602	adverse event ( AE )
+T40	术语 2634 2636	AE
+T41	术语 2654 2657	ADR
+T42	术语 2674 2677	ADR
+T43	术语 2733 2735	AE
+T44	术语 2799 2820	cooccurrence analysis
+T45	术语 2824 2827	ADR
+T46	引文作者 2870 2876	Benton
+T47	引文时间 2889 2893	2011
+T48	术语 2920 2922	AE
+T49	引文的结果 2896 3004	considers a drug and an AE that co‐occur within a window of 20 words in the same post as potentially related
+T50	引文作者 3025 3028	Liu
+T51	引文作者 3033 3037	Chen
+T52	引文时间 3040 3044	2015
+T53	术语 3071 3073	AE
+T54	引文的结果 3047 3130	considers a drug and an AE that cooccur in the same sentence as potentially related
+T55	引文作者 3135 3139	Yang
+T56	引文作者 3142 3146	Yang
+T57	引文作者 3153 3158	Jiang
+T58	引文时间 3161 3165	2014
+T59	引文作者 3172 3179	H. Yang
+T60	引文作者 3184 3188	Yang
+T61	引文时间 3191 3195	2015
+T62	术语 3267 3270	ADR
+T63	引文的结果 3198 3280	use a drug and an AE that cooccur in the same thread as evidence for ADR discovery
+T64	术语 3331 3334	ADR
+T65	术语 3285 3301	Machine‐learning
+T66	引文的研究问题 3285 3372	Machine‐learning techniques are also used for ADR discovery , which consider a sentence
+T67	引文作者 3375 3384	Nikfarjam
+T68	引文作者 3387 3393	Sarker
+T69	引文作者 3396 3404	O'connor
+T70	引文作者 3407 3411	Ginn
+T71	引文作者 3416 3424	Gonzalez
+T72	引文时间 3427 3431	2015
+T73	引文的研究问题 3436 3442	a post
+T74	引文作者 3445 3457	Sampathkumar
+T75	引文作者 3460 3464	Chen
+T76	引文作者 3469 3472	Luo
+T77	引文时间 3475 3479	2014
+T78	引文作者 3482 3487	Yates
+T79	引文作者 3490 3498	Goharian
+T80	引文作者 3503 3510	Frieder
+T81	引文时间 3513 3517	2015
+T82	引文的研究问题 3525 3533	a thread
+T83	引文作者 3536 3540	Wang
+T84	引文作者 3543 3545	Li
+T85	引文作者 3548 3556	Ferguson
+T86	引文作者 3561 3565	Zhai
+T87	引文时间 3568 3572	2014
+T88	术语 3715 3724	semantics
+T89	术语 3678 3684	syntax
+T90	术语 3783 3785	AE
+T91	术语 3889 3892	ADR
+T92	术语 3860 3885	semantic information unit
+T93	术语 3940 3942	AE
+T94	术语 3989 3992	ADR
+T95	术语 4001 4009	semantic
+T96	术语 4045 4054	syntactic
+T97	术语 4266 4273	aspirin
+T98	术语 4470 4477	aspirin
+T99	术语 4520 4522	AE
+T100	术语 4819 4826	aspirin
+T101	术语 4884 4891	aspirin
+T102	术语 4929 4936	aspirin
+T103	术语 4986 4988	AE
+T104	术语 5074 5076	AE
+T105	术语 5129 5132	ADR
+T106	术语 5193 5196	ADR
+T107	术语 5232 5251	information quality
+T108	术语 5343 5349	Keppra
+T109	术语 5417 5420	ADR
+T110	术语 5532 5538	Keppra
+T111	术语 5621 5624	ADR
+T112	术语 5683 5686	ADR
+T113	引文作者 5843 5846	Liu
+T114	引文作者 5851 5855	Chen
+T115	引文时间 5858 5862	2015
+T116	术语 5968 5971	ADR
+T117	引文的结果 5865 6005	show that differentiating patient experience from hearsay can significantly improve the performance of ADR discovery in empirical evaluation
+T118	术语 6154 6157	ADR
+T119	研究结果 6121 6287	we propose a novel framework for ADR discovery on online health forums that is based on automated patient‐centered information association and experience‐aware mining
+T120	术语 6236 6259	information association
+T121	术语 6264 6280	experience‐aware
+T122	术语 6313 6336	information association
+T123	术语 6654 6670	experience‐aware
+T124	术语 6715 6718	ADR
+T125	研究结果 6622 6728	we build a patient‐centered and experience‐aware health information database and apply it to ADR discovery
+T126	图 6806 6854	Figure 1 presents the architecture of our system
+T127	术语 6907 6933	Data Preprocessing process
+T128	术语 7328 7354	Data Preprocessing process
+T129	术语 7400 7422	adverse events ( AEs )
+T130	引文的结果 7433 7447	SIDER database
+T131	引文作者 7450 7454	Kuhn
+T132	引文作者 7457 7464	Letunic
+T133	引文作者 7467 7473	Jensen
+T134	引文作者 7478 7482	Bork
+T135	引文时间 7485 7489	2015
+T136	引文的结果 7496 7558	consumer health vocabulary ( CHV ) developed in the literature
+T138	引文作者 7561 7565	Zeng
+T139	引文作者 7568 7571	Tse
+T140	引文时间 7574 7578	2006
+T141	术语 7684 7706	adverse drug reactions
+T142	术语 7728 7744	drug indications
+T137	引文的结果 7981 8124	Each professional term in SIDER or consumer term in CHV has a concept unique identifier ( CUI ) in the Unified Medical Language System ( UMLS )
+T143	引文作者 8127 8135	Lindberg
+T144	引文作者 8138 8147	Humphreys
+T145	引文作者 8152 8158	McCray
+T146	引文时间 8161 8165	1993
+T147	术语 8084 8124	Unified Medical Language System ( UMLS )
+T148	术语 8043 8076	concept unique identifier ( CUI )
+T149	术语 8200 8203	CUI
+T150	术语 8237 8240	ADR
+T151	术语 8281 8284	CUI
+T152	术语 8474 8476	AE
+T153	术语 8508 8511	ADR
+T154	术语 8290 8298	diarrhea
+T155	术语 8370 8378	diarrhea
+T156	术语 8385 8405	loose bowel movement
+T157	术语 8630 8633	AEs
+T158	术语 8680 8682	AE
+T159	术语 8694 8697	ADR
+T160	术语 8714 8716	AE
+T161	术语 8743 8764	Cooccurrence analysis
+T162	术语 8803 8807	ADRs
+T163	术语 8900 8902	AE
+T164	术语 8846 8853	drug‐AE
+T165	术语 9157 9164	drug‐AE
+T166	术语 9110 9118	semantic
+T167	研究方法 9078 9282	we consider each patient as the semantic information unit , and only count the drug‐AE pairs whose occurrences are associated with the same patient , as identified by the Patient‐Centered Mining process .
+T168	术语 9317 9324	drug‐AE
+T169	术语 9371 9373	AE
+T170	术语 9515 9518	ADR
+T171	术语 9547 9554	drug‐AE
+T172	术语 9598 9605	drug‐AE
+T173	术语 9635 9637	AE
+T174	术语 9800 9807	drug‐AE
+T175	术语 9823 9825	AE
+T176	引文作者 9940 9947	LePendu
+T177	引文时间 9960 9964	2013
+T178	术语 9989 9996	drug‐AE
+T179	术语 10011 10013	AE
+T180	引文的方法 9969 10084	for each identified drug‐AE pair , if the AE is the indication of that drug according to SIDER , we remove the pair
+T181	术语 10115 10117	AE
+T182	图 10277 10310	The overview is shown in Figure 2
+T183	术语 10537 10554	preprocessed data
+T184	术语 10679 10700	Person Identification
+T185	术语 10703 10720	Person Resolution
+T186	术语 10723 10745	Patient Identification
+T187	术语 10752 10782	Health Information Association
+T188	软件工具 10997 11014	Person Resolution
+T189	术语 11266 11296	Health Information Association
+T191	时间 11737 11741	2016
+T190	软件工具 11685 11708	Stanford Core NLP tools
+T192	具体模型 11711 11734	Stanford Core NLP Tools
+T193	软件工具 11748 11760	MetaMap tool
+T194	引文作者 11763 11770	Aronson
+T195	引文时间 11773 11777	2006
+T196	术语 11783 11787	UMLS
+T197	术语 11831 11855	Named Entity Recognition
+T198	术语 11858 11861	NER
+T199	术语 11909 11923	Part of Speech
+T200	术语 11926 11929	POS
+T201	术语 11957 11972	person mentions
+T202	术语 12124 12132	semantic
+T203	软件工具 12149 12156	MetaMap
+T204	术语 12169 12184	person mentions
+T205	术语 12270 12278	semantic
+T206	术语 12289 12301	family group
+T207	术语 12341 12349	semantic
+T208	术语 12325 12338	living beings
+T209	引文作者 12552 12555	Lee
+T210	引文时间 12565 12569	2013
+T211	引文的结果 12511 12549	Stanford coreference resolution system
+T212	术语 12687 12715	sensory integration disorder
+T213	术语 13325 13332	drug‐AE
+T214	术语 13404 13407	ADR
+T215	研究结果 13615 13723	As there are no publicly available systems for inter‐post person resolution , we develop techniques for that
+T216	软件工具 14589 14611	semantic role labeling
+T217	软件工具 14614 14617	SRL
+T218	引文作者 14622 14631	Collobert
+T219	引文时间 14641 14645	2011
+T220	软件工具 14653 14661	Propbank
+T221	引文作者 14664 14670	Palmer
+T222	引文作者 14673 14679	Gildea
+T223	引文作者 14684 14693	Kingsbury
+T224	引文时间 14696 14700	2005
+T225	术语 14730 14738	semantic
+T226	术语 14782 14786	verb
+T227	术语 14836 14844	semantic
+T228	引文作者 15099 15109	Punyakanok
+T229	引文作者 15112 15116	Roth
+T230	引文作者 15121 15124	Yih
+T231	引文时间 15127 15131	2008
+T232	软件工具 15046 15096	Illinois semantic role labeling visualization tool
+T233	图 15021 15154	One example generated by Illinois semantic role labeling visualization tool ( Punyakanok , Roth , & Yih , 2008 ) is given in Figure 3
+T234	术语 15284 15292	semantic
+T235	术语 15467 15490	pharmacologic substance
+T236	术语 15546 15569	pharmacologic substance
+T237	术语 15578 15597	disease or syndrome
+T238	术语 15608 15616	semantic
+T239	软件工具 15686 15693	MetaMap
+T240	术语 15729 15757	sensory integration disorder
+T241	术语 15814 15842	sensory integration disorder
+T242	术语 15853 15861	semantic
+T243	术语 15869 15888	disease or syndrome
+T244	软件工具 16548 16555	MetaMap
+T245	术语 17105 17109	ADRs
+T246	研究结果 17082 17193	We propose to discover ADRs only from patient‐reported health experience for evidence‐based knowledge discovery
+T247	术语 17283 17296	context‐aware
+T248	术语 17593 17599	Keppra
+T249	术语 17373 17391	Patient experience
+T250	术语 17343 17361	patient experience
+T251	术语 17228 17246	patient experience
+T252	术语 17641 17659	patient experience
+R1	coauthor Arg1:T3 Arg2:T4	
+R2	coauthor Arg1:T4 Arg2:T5	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	results Arg1:T3 Arg2:T8	
+R5	coauthor Arg1:T11 Arg2:T12	
+R6	coauthor Arg1:T12 Arg2:T13	
+R7	has_cited_time Arg1:T14 Arg2:T13	
+R8	results Arg1:T11 Arg2:T15	
+R9	results Arg1:T18 Arg2:T17	
+R10	coauthor Arg1:T18 Arg2:T19	
+R11	coauthor Arg1:T19 Arg2:T20	
+R12	has_cited_time Arg1:T21 Arg2:T20	
+R13	coauthor Arg1:T22 Arg2:T23	
+R14	coauthor Arg1:T23 Arg2:T24	
+R15	has_cited_time Arg1:T25 Arg2:T24	
+R16	field_similar_as Arg1:T22 Arg2:T18	
+R17	coauthor Arg1:T29 Arg2:T30	
+R18	has_cited_time Arg1:T31 Arg2:T30	
+R19	has_cited_time Arg1:T47 Arg2:T46	
+R20	results Arg1:T46 Arg2:T49	
+R21	coauthor Arg1:T50 Arg2:T51	
+R22	has_cited_time Arg1:T52 Arg2:T51	
+R23	results Arg1:T50 Arg2:T54	
+R24	coauthor Arg1:T55 Arg2:T56	
+R25	coauthor Arg1:T56 Arg2:T57	
+R26	has_cited_time Arg1:T58 Arg2:T57	
+R27	coauthor Arg1:T59 Arg2:T60	
+R28	has_cited_time Arg1:T61 Arg2:T60	
+R29	results Arg1:T59 Arg2:T63	
+R30	produces Arg1:T67 Arg2:T66	
+R31	coauthor Arg1:T67 Arg2:T68	
+R32	coauthor Arg1:T68 Arg2:T69	
+R33	coauthor Arg1:T69 Arg2:T70	
+R34	coauthor Arg1:T70 Arg2:T71	
+R35	has_cited_time Arg1:T72 Arg2:T71	
+R36	produces Arg1:T74 Arg2:T73	
+R37	coauthor Arg1:T74 Arg2:T75	
+R38	coauthor Arg1:T75 Arg2:T76	
+R39	has_cited_time Arg1:T77 Arg2:T76	
+R40	coauthor Arg1:T78 Arg2:T79	
+R41	coauthor Arg1:T79 Arg2:T80	
+R42	has_cited_time Arg1:T81 Arg2:T80	
+R43	field_similar_as Arg1:T78 Arg2:T74	
+R44	produces Arg1:T83 Arg2:T82	
+R45	coauthor Arg1:T83 Arg2:T84	
+R46	coauthor Arg1:T84 Arg2:T85	
+R47	coauthor Arg1:T85 Arg2:T86	
+R48	has_cited_time Arg1:T87 Arg2:T86	
+R49	coauthor Arg1:T113 Arg2:T114	
+R50	has_cited_time Arg1:T115 Arg2:T114	
+R51	results Arg1:T113 Arg2:T117	
+R52	results Arg1:T131 Arg2:T130	
+R53	coauthor Arg1:T131 Arg2:T132	
+R54	coauthor Arg1:T132 Arg2:T133	
+R55	coauthor Arg1:T133 Arg2:T134	
+R56	has_cited_time Arg1:T135 Arg2:T134	
+R57	results Arg1:T138 Arg2:T136	
+R58	coauthor Arg1:T138 Arg2:T139	
+R59	has_cited_time Arg1:T140 Arg2:T139	
+R60	coauthor Arg1:T143 Arg2:T144	
+R61	coauthor Arg1:T144 Arg2:T145	
+R62	has_cited_time Arg1:T146 Arg2:T145	
+R63	results Arg1:T143 Arg2:T137	
+R64	has_cited_time Arg1:T177 Arg2:T176	
+R65	uses Arg1:T176 Arg2:T180	
+R66	has_cited_time Arg1:T195 Arg2:T194	
+R67	results Arg1:T209 Arg2:T211	
+R68	has_cited_time Arg1:T210 Arg2:T209	
+R69	has_cited_time Arg1:T219 Arg2:T218	
+R70	coauthor Arg1:T221 Arg2:T222	
+R71	coauthor Arg1:T222 Arg2:T223	
+R72	has_cited_time Arg1:T224 Arg2:T223	
+R73	coauthor Arg1:T228 Arg2:T229	
+R74	coauthor Arg1:T229 Arg2:T230	
+R75	has_cited_time Arg1:T231 Arg2:T230	

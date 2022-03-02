@@ -1,0 +1,130 @@
+We have achieved 0.65 root mean squared error ( RMSE ) by using the ARIMA model , which is better than the random baseline . 
+We find that the RMSE for random baseline ARIMA model is 0.671 . 
+However , we find high random errors while using the ARIMA model in our data set . 
+We apply the LSTM‐based approach to minimize the random errors observed in the ARIMA model due to nonlinear patterns of the data set . 
+In this subsection , we apply the LSTM model , which has a deep network architecture , to capture the nonlinear patterns in our time‐series data set . 
+We can compute the LSTM‐based time‐series prediction by using the window‐size architecture , as this architecture performs better than other LSTM‐based architectures for our problem setting . 
+It is also evident ( Wang , Cao , Xia , & de Melo , n.d. ) that the window‐size LSTM method works better for a small training data set . 
+In our case , time‐series data of each person are also limited in numbers . 
+For example , we find several users who are active for the whole duration from January 2007 to March 2016 ( 19 time intervals ) . 
+We also find that few users have only 14–15 time intervals of time‐series data . 
+We use the Python theano based keras implementation package to run the window size ( for instance , 2 , 3 ) based on the LSTM technique ( Chollet , 2015 ) . 
+Figure 3 presents the openness‐to‐change value transition result of a user for a two‐window size neural network‐based LSTM technique . 
+In the figure , the x axis shows the time ( that is , 2007–2016 , a total of 19 intervals ) of capturing values and the y axis shows the value scores . 
+For each user , we separate 70 % and 30 % of the time interval value scores into the training and the test data sets , respectively . 
+The blue line in the figure represents the original value ( that is , openness‐to‐change ) scores of the user found in our data set over time . 
+The green and red lines represent the prediction over the training and the test data , respectively . 
+We set the lookback and epoch parameters as 3 and 2,000 , respectively . 
+The lookback parameter determines the total number of lag values and the epoch parameter describes how many times we train the data set . 
+Although we use 4 lag values in the ARIMA model , we find that the lag value of 3 gives the best result in our LSTM model . 
+We test the LSTM technique with our data set by varying epochs from 10 to 2,000 . 
+We find that with a minimum 2,000 epochs in our LSTM model , we can adjust weights accurately . 
+We achieved 0.61 RMSE for the adjusted weights with 2,000 epochs by using our LSTM model . 
+These RMSE scores are better than random baselines . 
+We find that random baseline for RMSE is 0.74 by using our LSTM model . 
+In the previous section we applied the ARIMA and the LSTM techniques to capture the value transitions of the same set of users . 
+We observed that different techniques produce different RMSEs . 
+The technique that produces less RMSE is likely to predict more accurately than the other techniques . 
+Therefore , we build a weighted hybrid time‐series prediction model . 
+Here , the weight signifies the relative performance of each model . 
+To build a weighted hybrid time‐series prediction model , we perform the following two steps : ( i ) compute the weight for each model , and ( ii ) combine the weighted time‐series models . 
+For the value transition prediction , we determine the weights for both models , that is , ARIMA and LSTM . 
+First , we segment the statuses of the 101 ( 30 % of the users in the validation data set ) Facebook users by 6‐month time interval and predict the value score for each interval . 
+Then we apply both the ARIMA and the LSTM models over the time interval value scores to predict the future value score . 
+Later , we calculate the average RMSE scores of all these users ' time interval data for the ARIMA and the LSTM models independently . 
+The model that produces less error is considered to have more potential . 
+In our experiment , we obtain that the average RMSE scores for the ARIMA and the LSTM models are 0.65 and 0.61 , respectively . 
+Then we compute the weight for each model by subtracting the RMSE from 1.0 . 
+Thus , we find that weights for the ARIMA and the LSTM models are 0.35 and 0.39 , respectively . 
+After computing the weights , we build our hybrid model as follows . 
+We first apply the ARIMA model to our data set . 
+We predict the change of value scores over time . 
+Then we capture the residuals by computing the difference between actual and predicted value scores . 
+Figure 4 presents the residual value scores of the user , where the x axis shows the time of capturing values and the y axis represents the change of value scores . 
+We find that residuals are nonlinear in structure . 
+We also observe that a large number of users ' value changes have a similar nonlinear property ( according to Figure 4 ) in the data set . 
+Since ARIMA is a linear model , the residuals of its outcome will more likely have a nonlinear property . 
+We store these residual value scores . 
+Then we apply the LSTM technique over our residual data set . 
+Later , we compute the hybrid value score by using the weighted ARIMA and LSTM models ( according to the weights that we obtain in the weight‐learning part ) . 
+Figure 5 presents that our LSTM model can predict the nonlinear residual value scores of our data set with a good accuracy . 
+The blue line in the figure represents the residual values that we find after applying the ARIMA in our experiment data . 
+For each user , we again separate 70 % and 30 % of the time interval value scores into the training and the testing data sets , respectively . 
+The blue line in the figure represents the original value ( that is , openness‐to‐change ) scores that are computed from our data set over time . 
+The green and red lines represent the prediction over the training and the testing data , respectively . 
+We observe that our hybrid model can closely predict the nonlinear data set than that of the independent ARIMA and LSTM models . 
+Note that we randomly split the data set into 30 % and 70 % for the learning weights and the training hybrid model , respectively . 
+Splitting the data set is somewhat similar to the cross‐validation where we learn from one data set and apply it to another data set . 
+Thus , we keep the training and the testing data sets separate for weight learning while building the hybrid model . 
+We show the value score of a single user in Figure 5 . 
+We predict the future value score of an individual user by using our hybrid model based on the training data set constructed by his 70 % time intervals . 
+Therefore , we can not show an aggregated value prediction model for the all users in a single figure . 
+We segment our validation data set into a 6‐month time interval . 
+Therefore , we limited the number of time intervals for each user . 
+However , since we use the LSTM‐based model in our hybrid approach , our technique can perform better with the small training data set ( Hochreiter & Schmidhuber , 1997 ) . 
+After applying the hybrid value prediction model , we achieve a lower average RMSE score , 0.461 , which is a substantial improvement over the previous RMSE . 
+In particular , the accuracy of the weighted hybrid model is increased by 41 % , and 32.13 % than that of the ARIMA and the LSTM models , respectively . 
+In this section , first we validate our hybrid model through a questionnaire among the users in real life . 
+Then we investigate how accurate our hybrid model can capture the value change . 
+Later , we compare the accuracy of our hybrid model with other baseline techniques by using the chi‐square ( ) test . 
+Finally , we check how the value change prediction results are compatible with our real‐life decision‐making processes . 
+In this subsection , we first extract users ' statuses from 237 ( discarding the 101 users ' data of weight learning ) Facebook users to validate them in real life . 
+We divide the statuses of each user into the time interval data set . 
+By following the experiment of Bardi et al . 
+( 2009 ) , we divide these statuses based on the 6‐month time interval . 
+To get sufficient status updates and detection of every value change , we find that the 6‐month interval is suitable for our experiment . 
+We select such a time interval , which is close to the interval ( that is , 9 months ) considered in the work of Bardi et al . 
+( 2009 ) and has a substantial amount of intervals to train the time‐series model effectively . 
+The minimum and average word counts for each of our time interval data set are 63 and 1,494 , respectively . 
+In a previous study of Celli et al . 
+( 2014 ) , it is also shown that a moderate personality prediction strength can be achieved from the myPersonality data set ( N = 250 ) with the minimum and average word count of 1 and 585.004 , respectively . 
+Then we predict the users ' value scores from each of their time interval data by using our value prediction model ( according to the section Building Models of Values ) . 
+We capture all the changes of value scores by using our hybrid time‐series model . 
+Later , we predict a user 's value score on a future date ( that is , 1 year later ) with our hybrid time‐series model . 
+Based on the predicted value scores , we define three different labels : low ( less than 0.4 ) , medium ( between 0.4 to 0.7 ) , and high ( greater than 0.7 ) . 
+On the future date , we conduct the PVQ test among these 237 users . 
+By following the study of Bardi et al . 
+( 2009 ) , we conducted the PVQ survey in only a single trial among the validation users after 1 year and 15 days ( October 25 , 2017 ) when we predict the future ( October 10 , 2016 ) value scores . 
+We predict the next two intervals ( that is , 6 months each ) and conduct the validation in real life . 
+In another study of Bible and Tadros ( 2014 ) , the authors only show the value change among the business major students between 2004 and 2010 , which is also a single trial . 
+Hence , we show the change of value among the validation users only for a single trial . 
+Next , we investigate how accurate our model can capture the change of values based on the past observations . 
+In this direction , we compute the correlation by using the chi‐square ( ) test in a single trial between the value levels ( that is , high , medium , or low ) obtained from our hybrid prediction model and the PVQ test levels in real life . 
+We obtain two categorical variables ( the predicted value and the PVQ test levels ) each with three different levels , which form a 3×3 contingency table . 
+Table 1 shows a significant correlation between the predicted value and the PVQ test levels for a single trial by using our hybrid model . 
+According to Lancaster and Seneta ( 2005 ) , we obtain the significance level *p  = 9.488 with the degrees of freedom ( df ) equal to 4 ( based on the contingency table ) , where df = ( # rows‐1 ) × ( # col‐1 ) . 
+By using our hybrid model , we observe that self‐transcendence , openness‐to‐change , and conservation values are significant . 
+Therefore , we reject the null hypothesis and infer that values have an effect over time . 
+We also conclude that we can capture the change of values in the real world ( Lancaster & Seneta , 2005 ) . 
+For the first baseline , we assume that the transition of values can be predictable with the HMM‐based technique . 
+We select the HMM as a baseline because the model has been successful in analyzing and predicting time‐series data in previous studies ( Gupta & Dhingra , 2012 ; Hsu , Kakade , & Zhang , 2012 ) . 
+For example , the model has been widely used in diverse applications including speech recognition , stock market prediction , and genomic sequence modeling . 
+Then we also predict our value transition by using the ARIMA model and the LSTM model independently . 
+We present the HMM‐based value transition model as the first baseline in our experiment . 
+As we describe in subsection Validation through questionnaire , we define the predicted value scores into three different labels : low ( less than 0.4 ) , medium ( between 0.4 to 0.7 ) , and high ( greater than 0.7 ) . 
+We predict whether our value levels are changed ( that is , from medium to high ) over time . 
+The changes of value levels over a continuous time can be represented as a stochastic process with a probability distribution . 
+Such probability distributions are typically determined by our prediction model of values over each of the time‐series data . 
+The HMM model is a formal foundation for constructing a stochastic model over a sequence of observations . 
+The HMM invokes three different states , one for each of the three labels : low , medium , and high . 
+The Markov chain model predicts the next state depending on the current state . 
+The HMM maintains hidden states also to capture other information to predict the next state . 
+We assume that our hidden states can capture different unforeseeable circumstances , for instance , a particular event , influence of friends , and so forth , that might influence the change of our values . 
+Thus , we select the HMM as a potential baseline model that can accurately deal with our problem scenario . 
+We computed the transition matrices of five value dimensions for these 237 validation users using the R depmixS4 ( Visser & Speekenbrink , 2010 ) implementation . 
+We compute our value transition problem with the ARIMA model independently ( according to subsection Predicting value transition with the ARIMA model ) . 
+We assume that the value transition can be captured by using only linear time‐series technique . 
+We again assume that value transition can be captured accurately by using a nonlinear technique . 
+To this end , we use the RNN‐based LSTM technique to predict the value change over time . 
+We use a similar technique that we used in subsection Predicting value transition with the LSTM model . 
+In this subsection , we investigate whether the users ' change of value priorities relates to their decision‐making process in real life . 
+In this experiment , we explore how users ' movie‐watching preferences might change due to the change of value priorities . 
+Motivated by the studies of Hsieh et al . 
+( 2014 ) , and Verplanken and Holland ( 2002 ) , we hypothesize a link between the openness‐to‐change value with the movie‐watching preferences of a particular genre . 
+Later , we compute correlation between the predicted value change and the movie‐watching preference at a future date . 
+The high openness‐to‐change value dimension has a strong connection with the sci‐fi/adventurous movies . 
+An individual who has a high score in the openness‐to‐change value dimension is likely to give high importance to the futuristic view and active imagination . 
+He/she likes to experience challenges and excitements in her/his life . 
+Since sci‐fi/adventurous movies contain new ideas and stimuli in the movie content , it is likely that an individual with a high score in the openness‐to‐change value prefers to watch those movies . 
+First , we collect a new data set of 123 ( male = 70 , female = 53 ) active Facebook users through our application as of July 2016 . 
+Users are from the same ethnic group , but they are from different educational and professional backgrounds . 

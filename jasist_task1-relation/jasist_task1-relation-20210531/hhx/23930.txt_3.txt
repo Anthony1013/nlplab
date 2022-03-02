@@ -1,0 +1,124 @@
+This is why Topic 13 is not detected as an emerging research topic using a five‐year time interval . 
+The information for the remaining topics that have been identified can be found in Table 4 and Figure 3 . 
+These topics will not be demonstrated individually here , but the results indicate that it is reasonable to consider them as emerging . 
+As discussed in the beginning of this section , comparing with previous analyses on the detection of emerging topics may not provide sufficient evidence for validating our results . 
+Despite this , a brief comparison can still provide useful information . 
+Therefore , in this subsection , the identified topics are further verified by a comparison with the results from previous scientific studies and other types of documents , such as reports . 
+In addition , it should again be stressed that the aim here is not to systematically examine and compare the effectiveness and accuracy of various methodologies but , rather , to offer insight into how the present results cohere with previous analyses . 
+Previous work on the identification on emerging topics were searched for on Google by combining keywords of our identified topics and terms associated with emergence , which are “ emerging , ” “ hot , ” “ front , ” and “ fast growth . 
+” Topic 1 serves as an example to illustrate this point further . 
+We use several keywords of Topic 1 , such as “ graphene oxide , ” “ graphene nanoribbon , ” and “ bilayer graphene ” as well as terms related with emergence , such as those just mentioned . 
+However , this process leads to a sizable number of publications . 
+The reason could be that researchers tend to use exaggerated positive terms to describe the outcomes and impact of their work ( Vinkers , Tijdink , & Otte , 2015 ) . 
+It proves that only the publications aimed at identifying and analyzing emerging topics can provide useful evidence . 
+Based on this type of literature , it finally appears that many studies on analyzing emerging topics have used graphene research as a case for elaborating the attributes of emergence ( e.g. , Boyack , Klavans , Small , & Ungar , 2014 ; Klincewicz , 2016 ) . 
+Specifically , Small et al . 
+( 2014 ) identify eight research topics with the term graphene in the labels as emerging . 
+It is possible that Topic 1 has been separated into several clusters in the study of Small et al . 
+( 2014 ) , because their analysis was conducted at the micro‐level of aggregation , namely , around 85,000 clusters . 
+Regarding the rest of the research topics identified in the present study , Table 5 shows those also identified in previous works . 
+However , only a few of these works identify emerging research topics from a global perspective . 
+The two main references are the paper by Small et al . 
+( 2014 ) and the information provided by ScienceWatch , which belongs to Thomson Reuters . 
+ScienceWatch conducts analyses based on the publications selected by Essential Science Indicators , and provides various types of analyses of results , for instance , emerging research fronts , fast‐moving fronts , and top topics . 
+Unfortunately , the definition and methodology behind these indicators are insufficiently clear , making it difficult to distinguish these entangled terms . 
+It is nevertheless assumed that the different terms mentioned in ScienceWatch can be considered as emerging . 
+Adams J . 
+& Pendlebury D. ( 2011 ) . 
+Global Research Report : Materials science and technology . 
+Online : http : //strategiprocessen.stratresearch.se/Documents/Strategiprocessen/grr-materialscience.pdf Boyack , K. W. et al . 
+( 2014 ) . 
+Characterizing the emergence of two nanotechnology topics using a contemporaneous global micro‐model of science . 
+Journal of Engineering and Technology Management Small , H. et al . 
+( 2014 ) . 
+Identifying emerging topics in science and technology . 
+Research Policy Klincewicz , K. ( 2015 ) . 
+The emergent dynamics of a technological research topic : the case of graphene . 
+Scientometrics Small , H. et al . 
+( 2014 ) . 
+Ibid ScienceWatch . 
+( 2009 ) . 
+What 's new in research Online : http : //webcache.googleusercontent.com/search ? 
+q=cache : YukLtxj‐ahMJ : archive.sciencewatch.com/sciencewatch/dr/sci/09/nov22–09_3+ & cd=6 & hl=en & ct=clnk & gl=dk Small , H. et al . 
+( 2014 ) . 
+Ibid ScienceWatch . 
+( 2011 ) . 
+What 's hot in medicine Online : http : //webcache.googleusercontent.com/search ? 
+q=cache : YlHUd37yyFcJ : archive.sciencewatch.com/ana/hot/med2011/+ & cd=1 & hl=en & ct=clnk & gl=dk Small , H. et al . 
+( 2014 ) . 
+Ibid ScienceWatch . 
+( 2009 ) . 
+DNA and RNA Sequencing Online : http : //webcache.googleusercontent.com/search ? 
+q=cache : exlxa3OZlHsJ : sciencewatch.com/dr/tt/2009/09‐aprtt‐MOL/+ & cd=1 & hl=en & ct=clnk & gl=dk ScienceWatch . 
+( 2011 ) . 
+What 's hot in Physics Online : http : //webcache.googleusercontent.com/search ? 
+q=cache : mKULR_YCes8J : archive.sciencewatch.com/ana/hot/phy2011/+ & cd=1 & hl=en & ct=clnk & gl=dk ScienceWatch . 
+( 2008 ) . 
+Emerging research fronts : thin‐film organic solar cells Online : http : //webcache.googleusercontent.com/search ? 
+q=cache:1Tud2CmLtN4J : sciencewatch.com/dr/erf/maps/08apr_phy/+ & cd=2 & hl=en & ct=clnk & gl=dk Sharp D.W. ( 2012 ) . 
+Medicine top ten : New treatment for at‐risk patients with aortic stenosis . 
+Online : http : //sciencewatch.com/articles/medicine-top-ten-new-treatment-risk-patients-aortic-stenosis ScienceWatch . 
+( 2011 ) . 
+Research front map : Photocatalytic hydrogen production . 
+Online : http : //webcache.googleusercontent.com/search ? 
+q=cache : k1n4pMzC3qAJ : archive.sciencewatch.com/dr/rfm/+ & cd=2 & hl=en & ct=clnk & gl=dk Scientists achieve major breakthrough in thin‐film magnetism Online : http : //phys.org/news/2015-08-scientists-major-breakthrough-thin-film-magnetism.html Unusual discovery in thin film magnetism Online : https : //www.sciencedaily.com/releases/2015/08/150813150504.htm Chen , A. et al . 
+( Eds. ) . 
+( 2014 ) . 
+Ibid ScienceWatch . 
+( 2012 ) Fast breaking papers Online : http : //webcache.googleusercontent.com/search ? 
+q=cache : MetMLSeUPdsJ : archive.sciencewatch.com/dr/fbp/+ & cd=2 & hl=en & ct=clnk & gl=dk Small , H. et al . 
+( 2014 ) . 
+Ibid Sciencewatch . 
+( 2010 ) . 
+Top Topics Online : http : //webcache.googleusercontent.com/search ? 
+q=cache : PSLBZtWI5sYJ : archive.sciencewatch.com/dr/tt/2010/10‐juntt/+ & cd=1 & hl=en & ct=clnk & gl=dk In this section , research topics relevant to studies in LIS serve as an example for conducting an in‐depth analysis because readers of this study are likely to be familiar with this field . 
+This analysis can also contribute to further examine whether the proposed criteria for identifying emerging topics are appropriate and generate meaningful results . 
+The first step is to extract the LIS‐related clusters from our established research topics , and the WoS subject categories are helpful in this respect . 
+A cluster can be regarded as a LIS‐related research topic , meaning that more than 50 % of publications belong to the subject category of LIS . 
+In this way , nine clusters are selected from among all research topics . 
+The frequent terms and the two most‐cited publications of these clusters are provided in Table A2 . 
+As with the time intervals that are set in previous sections , two intervals are used here , and . 
+Table 6 shows the attributes of emergence for these topics . 
+As can be seen from Table 6 , when we set , three research topics have growth rates that are slightly greater than the mean value of maximum growth rates , namely , 1.34 , which are Topics 90 , 7266 and 9354 . 
+Among them , Topic 9354 has the highest growth rate , but it is a loosely connected cluster . 
+The growth rates of the other two research topics are lower than our parameter value of growth , that is , . 
+This implies that no LIS‐related topics have a relatively fast growth when using a two‐year interval . 
+Regarding scientific impact , only Topic 90 presents a relatively strong impact . 
+However , Topic 90 can hardly be regarded as a radically novel topic because its number of publications at the beginning year of its emergence is higher than 200 . 
+When , the three above‐mentioned research topics still show fast growth rates higher than the mean value . 
+In fact , the growth rate of Topic 90 is even greater than the 90th growth percentile , that is , . 
+In addition , this topic shows a strong scientific impact from 2005 to 2010 . 
+It is not considered as emerging in the previous analysis because of its lack of novelty that the number of publications in 2005 is 327 , which exceeds the parameter value for novelty . 
+As can be seen from Table A2 , Topic 90 concerns the use of citations for research evaluation , which is an essential subject in bibliometric studies . 
+This does not seem to be a very novel research topic . 
+However , Hirsch proposed an H‐index in 2005 that can be used to assess the performance of individual researchers ( Hirsch , 2005 ) . 
+As Waltman and Van Eck ( 2012 ) indicate , “ [ t ] he introduction of the h‐index ( or Hirsch index ) in 2005 has had an enormous influence on bibliometric and scientometric research ” ( p. 406 ) . 
+Zhang , Thijs , and Glänzel ( 2011 ) also conclude that the paper on the H‐index has attracted a great deal of interest across the entire scientific community , including the natural and social sciences . 
+It implies that Topic 90 can be regarded as the most emerging topic in the LIS field during the 10‐year time period , even though it does not satisfy the two sets of criteria used in this study . 
+This outcome also suggests that the parameter values should be defined based on the specific research purpose and the research field under investigation . 
+This study proposed a new methodology for the detection of emerging research topics . 
+The proposed approach was applied to topics that were constructed based on the direct citation relations of individual publications . 
+Using two sets of parameter values , several emerging research topics were identified . 
+The evaluation was performed by demonstrating the proposed approach , and by referring to previous studies and reports regarding the identification of emerging topics . 
+In addition , an in‐depth analysis on the field of LIS was conducted to examine this approach further . 
+The merit of the proposed method lies in the fact that the present study carefully elaborates a definition of an emerging research topic and stresses the linkages between the attributes of emergence and the indicators that have been developed . 
+In addition , the definition and attributes of emerging research topics proposed in this study follow the work of Rotolo et al . 
+( 2015 ) in explaining the relationship between each attribute of emergence and its operational indicator . 
+Thus , the present approach can improve on current bibliometric approaches to identifying emerging topics because it is conceptually straightforward and operationally transparent . 
+Furthermore , our approach is flexible , which implies that it can be adjusted to satisfy various purposes . 
+For researchers interested in identifying emerging topics in a particular field , the parameter values of the present approach could be re‐set based on the field under investigation . 
+Of course , a suitable aggregated level should also be selected to perform the identification of emergence in the target field . 
+Specifically , when researchers are only concerned about emerging research topics in social science studies , certain factors should be considered , for instance , the fact that research topics in social science tend to have a relatively small number of publications and are likely to show a slow rate of knowledge renewal . 
+Under such circumstances , it is better to proceed on a more fine‐grained aggregation level and to relax the restriction of certain parameter values , such as growth . 
+In short , when researchers are concerned about a field , the identification of emerging topics should be performed at a suitable aggregated level with a comprehensive consideration of the characteristics of this field . 
+Moreover , it should be noted that the proposed approach can be applied only once users concur regarding the definition of emergence used in this paper . 
+Potential users must therefore carefully consider whether their understanding of emergence is consistent with the one that is advanced in this study before employing the present approach . 
+However , some general limitations remain of bibliometric‐based studies that identify emerging topics . 
+First , our analysis was based on the publications in the WoS database with the document types of article and review . 
+In this case , the methodology proposed may be less useful for the fields that take other document types , such as monographs and conference papers , as novel knowledge carriers . 
+For instance , few computer science topics were identified as emerging in this paper . 
+The reason could be that frontier research of computer science is mainly presented at conferences . 
+Furthermore , bibliometric approaches are sensitive to fluctuations in the database such as the indexing of new journals associated with a certain research topic , as discussed in “ Methodology , ” which could also influence the accuracy of analyses . 
+Rotolo et al . 
+( 2015 ) suggest that other data sources may be useful for the detection of emerging topics , such as funding information and social media . 
+This may be worth studying in future research . 

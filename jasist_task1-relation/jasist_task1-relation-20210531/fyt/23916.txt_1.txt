@@ -1,0 +1,130 @@
+The relation between authors ' productivities and their collaboration has been demonstrated in many fields . 
+For example , de Solla Price and Beaver ( 1966 ) , when investigating the collaboration of memos ( informal publications , mostly preprints of articles ) between members of an information exchange group in health‐related domains , found that the more prolific one author is , the more collaboration he was involved in . 
+Similar results were also found by Pravdić and Oluić‐Vuković ( 1986 ) . 
+Based on the study of the curricula vitae and surveys of 443 scholars associated with the National Science Foundation or Department of Energy , Lee and Bozeman ( 2005 ) showed a strong correlation between one scientist 's publishing productivity , and the number of collaborators she/he had . 
+Even in humanity disciplines , such as musicology , Pao ( 1982 ) found the two most productive musicologists were also the most collaborative . 
+But in most studies , such relations were simply studied by correlation , where the analysis was descriptive , suggesting that this research would benefit from more in‐depth examination . 
+In addition , most research was conducted in the direction that scientific collaboration leads to productivity . 
+In this work , we argue that this influence works both ways , in that the more productive one scholar is , the more other researchers may tend to collaborate with him/her . 
+We thus investigate the effect of authors ' productivity on their collaboration . 
+Most efforts that investigated the relation between scholarly collaboration and impact were found to be at the article level , such as in examining how collaboration contributes to the increase of citations of a work . 
+Leimu and Koricheva ( 2005 ) analyzed the citation rates of works resulting from different types of collaborations in the field of ecology . 
+They found the influence of collaboration on the impact of the resulting work is not always positive or even minor , in general . 
+Thurman and Birkinshaw ( 2006 ) found that the number of citations was significantly associated with the number of coauthors in six leading journals in medicine . 
+When Hsu and Huang ( 2010 ) explored the correlations between the number of citations and the number of coauthors in eight scientific journals , they found that “ predicting the citation number from the coauthor number can be more reliable than predicting the coauthor number from the citation number ” ( p. 317 ) . 
+Focusing on authors rather than the articles here , we explore whether the authors ' impact ( the number of citation she/he receives ) makes any difference on the number of collaborations he/she has , and include the effects of authors ' citation numbers on their collaborations . 
+Studies that have demonstrated the relation between collaboration and authors ' research interests include that of Kraut et al . 
+( 1988 ) , who pointed out that sharing research similarities encourages scientific collaboration , and Ding ( 2011 ) , who found productive authors in the information retrieval ( IR ) field have a tendency to coauthor with those who share similar research interests with them . 
+A few studies investigated authors ' collaboration patterns at the topic level within one broad domain . 
+For example , Huang , Zhuang , Li , and Giles ( 2008 ) generated coauthorship networks in six topics from CiteSeer data and contrasted the collaboration characteristics . 
+In this paper , we examine the effect of authors ' research interests on their collaborations and further explore these collaborations in each topical subgraph . 
+By examining a cohort sample of PhD economists , McDowell and Smith ( 1992 ) found that researchers tend to collaborate with those of the same sex . 
+When modeling the coauthorship patterns during 1991–2002 in three top economics journals , Boschini and Sjögren ( 2007 ) found that females tend to collaborate with same‐gender authors . 
+In this paper , we also explore the role gender plays on researchers to form collaboration . 
+A few scholars confirmed the effects of homophily in coauthorship patterns . 
+Boschini and Sjögren ( 2007 ) , in investigating coauthorship patterns in articles published during 1991–2002 in three top economics journals , found that women were twice as likely as men to collaborate with women ; and the female–male gap in the propensity to collaborate with a female author increases with the presence of women . 
+Sie et al . 
+( 2012 ) noted the importance of authors ' similarities when forming collaborations , and thus adopted the similarities between authors ' keywords as a rule for suggesting future coauthors for scientific paper writing . 
+The evaluation showed this similarity‐based method to be feasible . 
+Similar studies include that of Freeman and Huang ( 2014 ) for homophily on authors ' ethnicity and Boschini and Sjögren ( 2007 ) for authors ' sex . 
+In this paper , we analyze the homophily effect based on the collaboration graph , where all the coauthors are examined to show how the homophily mechanism influences the evolution of collaboration network . 
+The collaboration network is a type of social network where transitivity has been widely investigated . 
+Newman analyzed the transitivity of coauthorship in a few domains such as biology , physics , and mathematics and computer science ( Newman , a–c , 2004 ) . 
+He used the clustering coefficient to quantify the networks ' transitivity , and found that “ the probability of a pair of scientists collaborating increases with the number of other collaborators they have in common ” ( Newman , 2001a , p. 1 ) . 
+From an analysis of collaboration in the field of computer science since 1936 , including both journal publications and conference articles , Franceschet ( 2011 ) found the chance that two researchers shared common collaborators in a publication was quite high . 
+He also found the transitivity of journal publication coauthorship networks was even higher than that of conference proceeding collaboration networks . 
+As transitivity is a small‐scale characteristic of the social networks ( Newman & Park , 2003 ) , the transitivity index has been used as “ a global metric quantifying the tendency of this small‐scale attribute over the entire graph ; it is proportional to ratio of the number of triangles over the total number of connected triples ” ( Aghagolzadeh , Barjasteh , & Radha , 2012 , p. 145 ) . 
+How a network 's transitivity affects the formation of its ties is important , but the transitivity index in these studies was only a static index and could not reveal the variations of this characteristic in the network ( Aghagolzadeh et al. , 2012 ) . 
+Instead of showing a static index of transitivity , this paper measures how this transitive structure precisely influences the emergence of new scholarly collaborations . 
+Preferential attachment has been widely known to influence the generation of new scholarly collaborations . 
+Newman ( 2001a ) analyzed the preferential attachment in coauthor networks in physics and biology and found the number of new collaborations one author gained each year increased with the number of past collaborators . 
+Barabási et al . 
+( 2002 ) demonstrated the presence of preferential attachment in two collaboration networks in mathematics and neuroscience for an 8‐year period and found the emergence of a new publication was more likely to occur among those who already had a large number of coauthors . 
+Jeong et al . 
+( 2003 ) , in measuring the preferential attachment effect , found the attachment rate is sublinear in the coauthorship network of neuroscience . 
+Milojević ( 2010 ) found that authors in nanoscience with more than 20 collaborators benefit from preferential attachment when forming new coauthorships . 
+In this paper , we examine the precise effect of the preferential attachment process in scientific collaboration . 
+Papers and their corresponding citations for this paper are harvested from the Web of Science ( WoS ) in the time range of 1956–2014 . 
+Information retrieval was selected as the testing field . 
+Information retrieval is a subdomain in Computer Science and a transdisciplinary field . 
+According to Franceschet and Costantini ( 2010 ) , the scholars in the field of computer science produce more valuable papers with moderate collaboration . 
+The coauthorship in a computer science paper demonstrates that one author played a substantial role in this publication ( Solomon , 2009 ) . 
+Unlike disciplines that usually have a large list of coauthors , such as biomedicine and high‐energy physics ( Cronin , 2001 ) , every coauthor in one publication found in IR has a significant level of involvement in the collaboration . 
+We refer to Ding ( 2011 ) for a list of query terms . 
+The dataset contains 59,162 authors who published 20,359 papers , in which there are 558,498 references . 
+To disambiguate author names , a simple two‐step matching procedure based on author name and affiliation ( Yu , Long , Lv , Shao , & He , 2014 ) was employed . 
+After applying their method , we identify 44,770 distinct authors in the dataset . 
+According to the literature , we already know that the number of publications and the number of citations one author has are associated with their levels of collaboration . 
+Thus , we incorporate their effects in this study . 
+In addition , we investigate the effects of an author 's different types of publications—single‐authored , collaborating and serving as the first author , and collaborating but as a nonfirst author . 
+We thus collected these three variables separately . 
+Meanwhile , as we examined the effects of the authors ' research similarities on their collaborations , the top research interest of each author was included . 
+We are also interested in how the authors ' gender ( McDowell & Smith , 1992 ) plays a role in their collaboration ; thus , we collected the authors ' gender information . 
+In total , we collected the following six attributes for each author : The number of single‐authored papers one author published ( count variable ) ; The number of collaborating‐first‐authored papers one author published ( count variable ) ; The number of collaborating–non‐first‐authored papers one author published ( count variable ) ; The number of citations one author 's all publications received ( count variable ) ; The most frequently used topic ( categorical variable ) ; and The gender information ( categorical variable ) . 
+We first rank all the authors by the number of papers each author published . 
+Initially we wanted to select the top 500 productive authors . 
+Because the authors numbered from the 447th to the 633rd all have published six papers , we included all these 633 most productive authors in the dataset . 
+Each author represents one node in the network . 
+If two authors have collaborated in one paper , a tie is added between them . 
+We do not consider the frequency of collaborations between two authors as the weight of their tie , so that the network is binary . 
+We use the Author‐Conference‐Topic ( ACT ) model by Tang , Jin , and Zhang ( 2008 ) to extract the authors ' research topic distribution . 
+We set the number of topics to extract as five and used the topic with the highest weight in each author 's distribution as her/his core research interest . 
+If there is more than one topic having the same highest weight , we randomly select one of them for the dataset . 
+From Eq . 
+( 2 ) , we understand that the logarithm of the ratio of the probability that a tie is formed to the probability that is not formed is equal to the changes of any covariate or local network structure when the tie is flipped from 0 to 1 . 
+The coefficients in the ERGM were interpreted like this , which we call “ log odds. ” For example , if the coefficient of one effect is , we could say the possibility of creating a tie is times of the possibility of not creating such a tie , according to the changes brought by one unit of difference in this certain effect . 
+Based on the existing literature , we propose our hypotheses as below : H1 . 
+Homophily effect plays an important role in the formation of a scientific collaboration network.Based on the existing literature reviewed above , we further specify this hypothesis into four different hypotheses : H1a . 
+Homophily effect measured by the authors ' productivity influences the generation of collaboration ties.H1b . 
+Homophily effect measured by the authors ' impact influences the generation of collaboration ties.H1c . 
+Homophily effect measured by the authors ' research topics influences the generation of collaboration ties.H1d . 
+Homophily effect measured by the authors ' gender influences the generation of collaboration ties.H2 . 
+Transitivity effect plays an important role in the formation of a scientific collaboration network.H3 . 
+The effect of preferential attachment plays an important role in the formation of a scientific collaboration network . 
+H1 . 
+Homophily effect plays an important role in the formation of a scientific collaboration network . 
+Based on the existing literature reviewed above , we further specify this hypothesis into four different hypotheses : H1a . 
+Homophily effect measured by the authors ' productivity influences the generation of collaboration ties . 
+H1b . 
+Homophily effect measured by the authors ' impact influences the generation of collaboration ties . 
+H1c . 
+Homophily effect measured by the authors ' research topics influences the generation of collaboration ties . 
+H1d . 
+Homophily effect measured by the authors ' gender influences the generation of collaboration ties . 
+H2 . 
+Transitivity effect plays an important role in the formation of a scientific collaboration network . 
+H3 . 
+The effect of preferential attachment plays an important role in the formation of a scientific collaboration network . 
+We first examine the number of authors ' publications and the number of citations they received . 
+In the network , the maximum number of publications one author has is 36 , whereas the minimum is 6 . 
+On average , each author has written about 9 papers . 
+One author has written at most 16 single‐authored papers ; 22 collaborating‐first‐authored papers ; and 28 collaborating–non‐first‐authored papers . 
+Some authors did not write any articles individually , or did not coauthor with others at all . 
+The highest number of citations one author received is 3,557 and the lowest is 0 . 
+The average number of citations is more than 168 . 
+We manually labeled the five topics extracted from the author‐topic‐modeling as : Database ( Topic 1 ) , Medical Information Retrieval ( Topic 2 ) , Information Retrieval Theory ( Topic 3 ) , Information Retrieval Systems ( Topic 4 ) , and Image‐based Information Retrieval ( Topic 5 ) . 
+It is worth noting that in this study the weights of authors ' collaboration are ignored . 
+We care about whether one author collaborates with different other authors , but we do not care about the strength or degree of collaboration , that is , how one researcher coauthors with another one repeatedly . 
+We first investigated the overall picture of collaboration among these scholars . 
+We want to know how the authors ' attributes and structures of their collaboration networks spur one author to cooperate or not with other scholars . 
+In this study , we fit the ERGMs twice . 
+In the first ERGM , we want to know how the effects brought by the authors ' attributes influence the generation of ties in this coauthorship network . 
+So we first model both the main and homophily effects of authors ' attributes : the number of publications in different types , the number of citations , the most frequently used research topic , and the gender in Model I . 
+In the second ERGM , a more comprehensive model is fitted , in which the effects of several local network structures are added ( see Equation 1 ) . 
+Table 1 shows the results . 
+As indicated by the AIC , the model fit index , we find that the second model , which includes the effects of both authors ' attributes and networks structures , has a better performance , with the AIC improving from 276,325 to 8,323 ( indicating the smaller the better ) . 
+The effects of authors ' attributes in two models , however , almost remain the same , which demonstrates that the modeling of authors ' attributes is stable and reliable . 
+Taking the network structures into consideration thus enables a better explanation of the network 's formation . 
+Model II shows the ways in which authors ' attributes and the network 's structures simultaneously affect the generation of the scholarly network . 
+We further interpret the results and examine the effects of several features mentioned above . 
+Several points are particularly relevant to the study 's outcomes . 
+We first notice that the number of author 's publications in which they did not serve as first authors has a significantly positive influence on their collaboration in both models . 
+From the estimates , we find that if keeping all the other features unchanged , the probability of gaining a new collaboration tie for one author who has one more unit of non‐first‐authored publication is 1.06 ( ) times that of the other author in Model I and 1.05 ( ) times in Model II ; the probability of collaboration increases by 6 % /5 % when adding one unit of non‐first‐authored publication . 
+Although such an effect is not very strong , it verifies the pattern we observe in Figure 1A , wherein the larger‐sized nodes ( those authors who have produced more non‐first‐authored publications ) tend to have a few more connections . 
+Plot of collaboration— ( A ) Nodes sized by number of non‐first‐authored publication ; ( B ) nodes sized by number of single‐authored publication . 
+( Note : each color represents one topic : [ yellow : Topic 1 Database ] , [ green : Topic 2 Medical IR ] , [ orange : Topic 3 IR Theory ] , [ blue : Topic 4 IR Systems ] , [ red : Topic 5 Image‐based IR ] . 
+) [ Color figure can be viewed at wileyonlinelibrary.com ] It is interesting that from the perspective of homophily , the number of non‐first‐authored publications does not affect the authors ' collaboration levels . 
+Instead , we find the number of single‐authored publications has a counter‐homophily effect , in that scholars who published a similar number of single‐authored articles do not tend to collaborate with each other . 
+These significantly negative estimates indicate that there are only 86 % ( ) and 92 % ( ) chance in Model I and Model II , respectively , that authors will select a coauthor who has published the same or a similar number of single‐authored works with him/her , compared with selecting a coauthor whose number of single‐authored work is quite different . 
+This also confirms the pattern observed in Figure 1B , in which each node stands for one scholar in the coauthorship network whereas the size reflects her/his number of single‐authored publications , collaborative ties emerge more between nodes with different sizes , than those with similar sizes . 
+It is also interesting that by examining the number of citations one author has received , we find this value has no relation with the authors ' collaboration at all : neither the authors with more citations tend to receive more collaboration ( from the main effect perspective ) , nor the authors with the same or a similar number of citations are more likely to coauthor with each other ( from the homophily effect perspective ) . 

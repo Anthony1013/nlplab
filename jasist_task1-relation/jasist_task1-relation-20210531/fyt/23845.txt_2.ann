@@ -1,0 +1,321 @@
+T1	引文作者 21 28	Benford
+T2	引文时间 31 35	1938
+T3	引文作者 103 110	Pinkham
+T4	引文时间 113 117	1961
+T5	时间 124 141	From 1961 to 1995
+T6	引文作者 144 151	Newcomb
+T7	引文时间 154 158	1881
+T8	引文作者 165 172	Pinkham
+T9	引文时间 175 179	1961
+T10	引文作者 235 242	Benford
+T11	引文时间 245 249	1938
+T12	引文作者 277 284	Pinkham
+T13	引文时间 287 291	1961
+T14	引文作者 310 317	Newcomb
+T15	引文时间 320 324	1881
+T16	引文作者 352 359	Benford
+T17	引文时间 362 366	1938
+T18	引文作者 425 432	Pinkham
+T19	引文时间 435 439	1961
+T20	引文作者 447 454	Benford
+T21	引文时间 457 461	1938
+T22	引文作者 523 530	Newcomb
+T23	引文时间 533 537	1881
+T24	引文作者 656 661	Raimi
+T25	引文时间 664 669	1969a
+T26	引文作者 558 563	Raimi
+T27	引文作者 700 705	Raimi
+T28	引文时间 708 713	1969b
+T29	引文作者 742 749	Benford
+T30	引文时间 752 756	1938
+T31	引文时间 830 834	1881
+T32	引文作者 820 827	Newcomb
+T33	图 720 898	Both papers cite only Benford ( 1938 ) , which received four citations in 1969 , whereas none cited Newcomb ( 1881 ) , which received no citation at all in this year ( Figure 2 )
+T34	引文作者 920 927	Newcomb
+T35	引文时间 930 934	1881
+T36	引文作者 941 948	Benford
+T37	引文时间 951 955	1938
+T38	引文作者 1001 1006	Raimi
+T39	引文时间 1009 1013	1976
+T40	引文作者 903 908	Raimi
+T41	引文作者 1090 1095	Raimi
+T42	引文时间 1098 1102	1976
+T43	时间 1176 1186	Up to 1995
+T44	引文作者 1189 1194	Raimi
+T45	引文时间 1197 1201	1976
+T46	引文时间 1242 1246	1881
+T47	引文作者 1232 1239	Newcomb
+T48	引文作者 1281 1286	Raimi
+T49	引文时间 1289 1293	1976
+T50	引文时间 1378 1382	1938
+T51	引文作者 1368 1375	Benford
+T52	引文作者 1312 1319	Newcomb
+T53	引文时间 1322 1326	1881
+T54	引文作者 1399 1404	Raimi
+T55	引文时间 1407 1411	1985
+T56	引文作者 1500 1507	Pinkham
+T57	引文时间 1510 1514	1961
+T58	引文作者 1521 1526	Raimi
+T59	引文时间 1529 1533	1976
+T60	引文作者 1538 1545	Benford
+T61	引文时间 1548 1552	1938
+T62	时间 1588 1598	up to 1995
+T63	引文时间 1667 1671	1938
+T64	引文作者 1657 1664	Benford
+T65	时间 1690 1697	in 1996
+T66	引文作者 1797 1804	Newcomb
+T67	引文时间 1807 1811	1881
+T68	时间 1850 1860	up to 1995
+T69	引文作者 1942 1946	Hill
+T70	引文时间 1949 1954	1995a
+T71	引文时间 1955 1960	1995b
+T72	引文时间 1961 1966	1995c
+T73	引文作者 1987 1994	Newcomb
+T74	引文时间 1997 2001	1881
+T75	引文作者 2008 2015	Benford
+T76	引文时间 2018 2022	1938
+T77	引文作者 2063 2067	Hill
+T78	引文时间 2070 2075	1995a
+T79	引文作者 2374 2381	Benford
+T80	引文作者 2420 2424	Hill
+T81	引文时间 2427 2432	1995a
+T82	引文作者 2471 2475	Hill
+T83	引文时间 2478 2483	1995b
+T84	引文作者 2600 2604	Hill
+T85	引文时间 2607 2611	1988
+T86	引文作者 2642 2646	Hill
+T87	引文作者 2681 2688	Benford
+T88	引文时间 2691 2695	1938
+T89	引文作者 2730 2735	Raimi
+T90	引文时间 2738 2742	1976
+T91	引文作者 2749 2754	Cohen
+T92	引文时间 2757 2761	1976
+T93	引文作者 2802 2809	Benford
+T94	引文时间 2812 2816	1938
+T95	引文作者 2832 2839	Newcomb
+T96	引文时间 2842 2846	1881
+T97	引文作者 3082 3086	Hill
+T98	时间 3090 3094	1995
+T99	引文作者 3424 3431	Nigrini
+T100	引文时间 3434 3438	1992
+T101	引文作者 3640 3647	Newcomb
+T102	引文时间 3650 3654	1881
+T103	引文作者 3661 3668	Benford
+T104	引文时间 3671 3675	1938
+T105	引文作者 3713 3720	Nigrini
+T106	引文时间 3751 3755	1993
+T107	引文作者 3863 3870	Nigrini
+T108	引文时间 3873 3877	1994
+T109	引文作者 3911 3918	Nigrini
+T110	引文时间 3957 3961	1996
+T111	引文作者 4055 4062	Benford
+T112	引文时间 4065 4069	1938
+T113	引文作者 4080 4087	Newcomb
+T114	引文时间 4090 4094	1881
+T115	引文作者 4111 4118	Nigrini
+T116	引文作者 4160 4167	Nigrini
+T117	引文时间 4170 4174	1999
+T118	引文作者 4177 4184	Nigrini
+T119	引文作者 4187 4198	Mittermaier
+T120	引文时间 4201 4205	1997
+T121	引文作者 4226 4233	Newcomb
+T122	引文时间 4236 4240	1881
+T123	引文作者 4288 4295	Newcomb
+T124	引文时间 4298 4302	1881
+T125	引文作者 4309 4316	Benford
+T126	引文时间 4319 4323	1938
+T127	引文作者 4385 4393	Schubert
+T128	引文时间 4396 4400	2010
+T129	引文作者 4606 4613	Newcomb
+T130	引文时间 4616 4620	1881
+T131	引文作者 4627 4634	Benford
+T132	引文时间 4637 4641	1938
+T133	表 4537 4665	The most cited papers on BL and the number of their cocitations with Newcomb ( 1881 ) and Benford ( 1938 ) are listed in Table 3
+T134	引文作者 4670 4677	Pinkham
+T135	引文时间 4680 4684	1961
+T136	引文作者 4691 4698	Nigrini
+T137	引文时间 4701 4705	1996
+T138	引文作者 4756 4763	Newcomb
+T139	引文时间 4766 4770	1881
+T140	引文作者 4816 4823	Newcomb
+T141	引文时间 4826 4830	1881
+T142	引文作者 4850 4855	Raimi
+T143	引文时间 4858 4862	1976
+T144	引文作者 4869 4873	Hill
+T145	引文时间 4876 4881	1995a
+T146	引文作者 4979 4986	Newcomb
+T147	引文时间 4989 4993	1881
+T148	引文作者 5032 5037	Raimi
+T149	引文时间 5040 5044	1976
+T150	图 4888 5091	However , the latter being the most‐cited paper on BL ( 305 citations ) , and cocited with Newcomb ( 1881 ) 203 times , more frequently than is Raimi ( 1976 ) , clearly emerges as the prince ( Figure 3 )
+T151	引文作者 5116 5123	Newcomb
+T152	引文时间 5126 5130	1881
+T153	引文作者 5137 5141	Hill
+T154	引文时间 5144 5149	1995a
+T155	引文作者 5230 5237	Benford
+T156	引文时间 5240 5244	1938
+T157	引文作者 5292 5296	Hill
+T158	引文时间 5299 5304	1995a
+T159	引文作者 5311 5318	Nigrini
+T160	引文时间 5321 5325	1996
+T161	图 5372 5446	The citations of Hill ( 1995a ) and Benford ( 1938 ) are shown in Figure 4
+T162	引文作者 5389 5393	Hill
+T163	引文时间 5396 5401	1995a
+T164	引文作者 5408 5415	Benford
+T165	引文时间 5418 5422	1938
+T166	引文作者 5451 5455	Hill
+T167	引文时间 5458 5463	1995a
+T168	引文作者 5482 5489	Benford
+T169	引文时间 5492 5496	1938
+T170	引文作者 5561 5568	Benford
+T171	引文时间 5571 5575	1938
+T172	引文作者 5614 5618	Hill
+T173	引文时间 5621 5626	1995a
+T174	时间 5642 5649	in 2008
+T175	引文作者 5663 5670	Benford
+T176	引文时间 5673 5677	1938
+T177	时间 5686 5693	in 2009
+T178	时间 5738 5745	in 2009
+T179	引文作者 5750 5754	Hill
+T180	引文时间 5757 5762	1995a
+T181	引文作者 5794 5801	Benford
+T182	引文时间 5804 5808	1938
+T183	引文时间 5845 5849	1938
+T184	引文作者 5835 5842	Benford
+T185	引文作者 5856 5860	Hill
+T186	引文时间 5863 5868	1995a
+T187	引文作者 5915 5922	Newcomb
+T188	引文时间 5925 5929	1881
+T189	引文作者 5936 5943	Benford
+T190	引文时间 5946 5950	1938
+T191	引文作者 6087 6092	Bethe
+T192	引文时间 6105 6109	1938
+T193	引文作者 6203 6210	Newcomb
+T194	引文时间 6213 6217	1881
+T195	引文作者 6266 6273	Benford
+T196	引文时间 6276 6280	1938
+T197	时间 6483 6490	in 1995
+T198	引文作者 6507 6511	Hill
+T199	引文时间 6514 6519	1995a
+T200	引文作者 6629 6636	Newcomb
+T201	引文时间 6639 6643	1881
+T202	引文作者 6650 6657	Benford
+T203	引文时间 6660 6664	1938
+T204	引文作者 7003 7010	Newcomb
+T205	引文时间 7013 7017	1881
+T206	引文作者 7024 7031	Benford
+T207	引文时间 7034 7038	1938
+T208	引文作者 7449 7456	Kosteas
+T209	引文时间 7459 7463	2015
+T210	引文作者 619 625	Banach
+T212	引文的结果 2884 3077	it reported that the initial digits of 6‐digit numbers written by students in a classroom experiment , although not in complete agreement with BL , were found more likely to be the small digits
+T213	引文作者 3257 3264	Nigrini
+T214	引文作者 3460 3467	Nigrini
+T215	引文的结果 3480 3616	BL can be used for the detection of manipulations of income tax returns filed by individuals to the Internal Revenue Services of the USA
+T216	引文作者 3621 3628	Nigrini
+T217	引文作者 4363 4368	Braun
+T218	引文作者 4371 4378	Glänzel
+T219	引文作者 5517 5524	Nigrini
+T220	时间 6675 6684	mid‐1990s
+T221	引文作者 6855 6862	Benford
+T222	引文作者 7828 7835	Benford
+T223	引文作者 8243 8250	Benford
+T224	引文作者 8441 8448	Newcomb
+T225	引文作者 8453 8460	Benford
+T226	研究结果 8895 9124	However , going by the current spurt in activity surrounding BL , it is safe to claim that there is no other scientific discovery than BL , with such a humble beginning and yet raison d'être , for the popularity of its proponents
+T227	研究结果 8342 8402	Had it been the era of computers there would have been no BL
+R1	has_cited_time Arg1:T209 Arg2:T208	
+R3	has_cited_time Arg1:T192 Arg2:T191	
+R8	has_cited_time Arg1:T207 Arg2:T206	
+R9	has_cited_time Arg1:T205 Arg2:T204	
+R10	has_cited_time Arg1:T199 Arg2:T198	
+R2	has_cited_time Arg1:T201 Arg2:T200	
+R11	has_cited_time Arg1:T203 Arg2:T202	
+R12	has_cited_time Arg1:T194 Arg2:T193	
+R13	has_cited_time Arg1:T196 Arg2:T195	
+R14	has_cited_time Arg1:T188 Arg2:T187	
+R15	has_cited_time Arg1:T190 Arg2:T189	
+R16	has_cited_time Arg1:T186 Arg2:T185	
+R17	has_cited_time Arg1:T183 Arg2:T184	
+R18	has_cited_time Arg1:T182 Arg2:T181	
+R19	has_cited_time Arg1:T180 Arg2:T179	
+R4	has_cited_time Arg1:T176 Arg2:T175	
+R5	has_cited_time Arg1:T173 Arg2:T172	
+R6	has_cited_time Arg1:T167 Arg2:T166	
+R7	has_cited_time Arg1:T165 Arg2:T164	
+R20	has_cited_time Arg1:T163 Arg2:T162	
+R21	has_cited_time Arg1:T169 Arg2:T168	
+R22	has_cited_time Arg1:T171 Arg2:T170	
+R23	has_cited_time Arg1:T156 Arg2:T155	
+R24	has_cited_time Arg1:T158 Arg2:T157	
+R25	has_cited_time Arg1:T160 Arg2:T159	
+R26	has_cited_time Arg1:T149 Arg2:T148	
+R27	has_cited_time Arg1:T145 Arg2:T144	
+R28	has_cited_time Arg1:T143 Arg2:T142	
+R29	has_cited_time Arg1:T2 Arg2:T1	
+R30	has_cited_time Arg1:T4 Arg2:T3	
+R31	has_cited_time Arg1:T11 Arg2:T10	
+R32	has_cited_time Arg1:T17 Arg2:T16	
+R33	has_cited_time Arg1:T9 Arg2:T8	
+R34	has_cited_time Arg1:T7 Arg2:T6	
+R35	has_cited_time Arg1:T15 Arg2:T14	
+R36	has_cited_time Arg1:T13 Arg2:T12	
+R37	has_cited_time Arg1:T23 Arg2:T22	
+R38	has_cited_time Arg1:T21 Arg2:T20	
+R39	has_cited_time Arg1:T19 Arg2:T18	
+R40	has_cited_time Arg1:T25 Arg2:T24	
+R41	has_cited_time Arg1:T28 Arg2:T27	
+R42	has_cited_time Arg1:T30 Arg2:T29	
+R43	has_cited_time Arg1:T31 Arg2:T32	
+R44	has_cited_time Arg1:T37 Arg2:T36	
+R45	has_cited_time Arg1:T35 Arg2:T34	
+R46	has_cited_time Arg1:T39 Arg2:T38	
+R47	has_cited_time Arg1:T42 Arg2:T41	
+R48	has_cited_time Arg1:T46 Arg2:T47	
+R49	has_cited_time Arg1:T45 Arg2:T44	
+R50	has_cited_time Arg1:T49 Arg2:T48	
+R51	has_cited_time Arg1:T53 Arg2:T52	
+R52	has_cited_time Arg1:T50 Arg2:T51	
+R53	has_cited_time Arg1:T61 Arg2:T60	
+R54	has_cited_time Arg1:T59 Arg2:T58	
+R55	has_cited_time Arg1:T57 Arg2:T56	
+R56	has_cited_time Arg1:T55 Arg2:T54	
+R57	has_cited_time Arg1:T63 Arg2:T64	
+R58	has_cited_time Arg1:T67 Arg2:T66	
+R59	has_cited_time Arg1:T70 Arg2:T69	
+R60	has_cited_time Arg1:T71 Arg2:T69	
+R61	has_cited_time Arg1:T72 Arg2:T69	
+R62	has_cited_time Arg1:T74 Arg2:T73	
+R63	has_cited_time Arg1:T76 Arg2:T75	
+R64	has_cited_time Arg1:T78 Arg2:T77	
+R65	has_cited_time Arg1:T81 Arg2:T80	
+R66	has_cited_time Arg1:T83 Arg2:T82	
+R67	has_cited_time Arg1:T85 Arg2:T84	
+R68	has_cited_time Arg1:T90 Arg2:T89	
+R69	has_cited_time Arg1:T92 Arg2:T91	
+R70	has_cited_time Arg1:T94 Arg2:T93	
+R71	has_cited_time Arg1:T96 Arg2:T95	
+R72	has_cited_time Arg1:T88 Arg2:T87	
+R73	has_cited_time Arg1:T100 Arg2:T99	
+R74	has_cited_time Arg1:T104 Arg2:T103	
+R75	has_cited_time Arg1:T102 Arg2:T101	
+R76	has_cited_time Arg1:T106 Arg2:T105	
+R77	has_cited_time Arg1:T110 Arg2:T109	
+R78	has_cited_time Arg1:T117 Arg2:T116	
+R79	has_cited_time Arg1:T120 Arg2:T119	
+R80	field_similar_as Arg1:T116 Arg2:T118	
+R81	has_cited_time Arg1:T122 Arg2:T121	
+R82	has_cited_time Arg1:T108 Arg2:T107	
+R83	has_cited_time Arg1:T112 Arg2:T111	
+R84	has_cited_time Arg1:T114 Arg2:T113	
+R85	coauthor Arg1:T217 Arg2:T218	
+R86	coauthor Arg1:T218 Arg2:T127	
+R87	has_cited_time Arg1:T128 Arg2:T127	
+R88	has_cited_time Arg1:T124 Arg2:T123	
+R89	has_cited_time Arg1:T126 Arg2:T125	
+R90	has_cited_time Arg1:T130 Arg2:T129	
+R91	has_cited_time Arg1:T132 Arg2:T131	
+R92	has_cited_time Arg1:T137 Arg2:T136	
+R93	has_cited_time Arg1:T135 Arg2:T134	
+R94	has_cited_time Arg1:T141 Arg2:T140	
+R95	has_cited_time Arg1:T139 Arg2:T138	

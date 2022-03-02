@@ -1,0 +1,119 @@
+T1	具体模型 1498 1500	NB
+T2	表 1249 1473	The logit model shows that only journal impact factor and individual collaboration significantly associate with decreased zero tweets , whereas all other factors are insignificant factors of zero number of tweets ( Table 3 )
+T3	表 2609 2769	Individual collaboration significantly associates with increased zero posts , but all other factors are insignificant factors of zero Facebook posts ( Table 3 )
+T4	表 4398 4612	Journal impact factor , number of authors , number of countries , institution prestige , country prestige , research funding , and field size significantly associate with decreasing zero blog mentions ( Table 4 ) .
+T5	表 5898 5972	and field type significantly associate with increased zero posts ( Table 4
+T6	引文作者 6205 6212	Didegah
+T7	引文时间 6215 6219	2014
+T8	引文作者 7761 7765	Chen
+T9	引文时间 7768 7772	2012
+R1	has_cited_time Arg1:T9 Arg2:T8	
+T10	引文作者 7775 7786	Franceschet
+T11	引文作者 7789 7799	Costantini
+T12	引文时间 7802 7806	2010
+R2	has_cited_time Arg1:T12 Arg2:T11	
+T13	引文作者 7809 7814	Gazni
+T14	引文作者 7817 7824	Didegah
+T15	引文时间 7827 7831	2010
+T16	引文作者 7834 7841	Persson
+T17	引文时间 7844 7848	2010
+R3	coauthor Arg1:T13 Arg2:T14	
+R4	has_cited_time Arg1:T15 Arg2:T14	
+R5	has_cited_time Arg1:T17 Arg2:T16	
+R6	coauthor Arg1:T10 Arg2:T11	
+R7	field_similar_as Arg1:T16 Arg2:T13	
+R8	field_similar_as Arg1:T13 Arg2:T10	
+R9	field_similar_as Arg1:T10 Arg2:T8	
+T18	引文作者 9187 9194	Persson
+T19	引文时间 9197 9201	2010
+T20	引文作者 9204 9207	Sin
+T21	引文时间 9210 9214	2011
+R10	field_similar_as Arg1:T20 Arg2:T18	
+R11	has_cited_time Arg1:T21 Arg2:T20	
+R12	has_cited_time Arg1:T19 Arg2:T18	
+T22	引文作者 8114 8122	Haustein
+T23	引文时间 8132 8136	2015
+R13	has_cited_time Arg1:T23 Arg2:T22	
+T24	引文作者 8493 8501	Haustein
+T25	引文时间 8511 8515	2015
+R14	has_cited_time Arg1:T25 Arg2:T24	
+T26	引文的结果 8021 8111	found that the number of authors was an important factor for all altmetric events examined
+R15	results Arg1:T22 Arg2:T26	
+T27	引文的结果 8147 8284	confirms the results of this work for the number of tweets , blog posts , and news posts , but contradicts the results for Facebook posts
+R16	results Arg1:T22 Arg2:T27	
+T28	引文的结果 9064 9184	International collaboration has been found to be significant for increased citations in the majority of previous studies
+R17	results Arg1:T18 Arg2:T28	
+T29	引文时间 9325 9329	2015
+T30	引文作者 9304 9312	Haustein
+T31	引文作者 9426 9430	Tsou
+T32	引文作者 9433 9439	Bowman
+T33	引文作者 9442 9452	Ghazinejad
+T34	引文作者 9457 9465	Sugimoto
+T35	引文时间 9468 9472	2015
+R18	coauthor Arg1:T31 Arg2:T32	
+R19	coauthor Arg1:T32 Arg2:T33	
+R20	coauthor Arg1:T33 Arg2:T34	
+R21	has_cited_time Arg1:T35 Arg2:T34	
+T36	引文作者 18987 18995	Haustein
+T37	引文作者 18998 19004	Costas
+T38	引文作者 19011 19020	Larivière
+T39	引文时间 19023 19027	2015
+R22	coauthor Arg1:T36 Arg2:T37	
+R23	coauthor Arg1:T37 Arg2:T38	
+R24	has_cited_time Arg1:T39 Arg2:T38	
+T40	表 17966 18133	As clearly shown in Table 5 , citation and Mendeley readership only behave differently based on three factors : abstract readability , abstract length , and field type
+T41	引文作者 16574 16578	King
+T42	引文时间 16581 16585	1987
+R25	has_cited_time Arg1:T42 Arg2:T41	
+T43	引文的结果 16474 16571	Articles from smaller fields are assumed to be less visible than the articles from broader fields
+R26	results Arg1:T41 Arg2:T43	
+T44	引文作者 15846 15853	Webster
+T45	引文作者 15856 15863	Jonason
+T46	引文作者 15868 15876	Schember
+T47	引文时间 15879 15883	2009
+R27	has_cited_time Arg1:T47 Arg2:T46	
+R28	coauthor Arg1:T44 Arg2:T45	
+R29	coauthor Arg1:T45 Arg2:T46	
+T48	引文的结果 15888 15966	showing that the more one cites , the more he/she receives citations in return
+R30	results Arg1:T44 Arg2:T48	
+T49	引文作者 14860 14867	Didegah
+T50	引文时间 14870 14874	2014
+T51	引文作者 14877 14882	Ayres
+T52	引文作者 14885 14889	Vars
+T53	引文时间 14892 14896	1999
+R31	coauthor Arg1:T51 Arg2:T52	
+R32	has_cited_time Arg1:T53 Arg2:T52	
+R33	has_cited_time Arg1:T50 Arg2:T49	
+R34	field_similar_as Arg1:T51 Arg2:T49	
+T54	引文作者 13548 13552	Tsou
+T55	引文时间 13562 13566	2015
+R35	has_cited_time Arg1:T55 Arg2:T54	
+T56	引文作者 12947 12954	Didegah
+T57	引文时间 12957 12961	2014
+R36	has_cited_time Arg1:T57 Arg2:T56	
+T58	引文作者 11402 11406	Zhao
+T59	引文时间 11409 11413	2010
+R37	has_cited_time Arg1:T59 Arg2:T58	
+T60	引文作者 11529 11536	Didegah
+T61	引文时间 11539 11543	2014
+T62	引文作者 10604 10608	Tsou
+T63	引文时间 10618 10622	2015
+R38	has_cited_time Arg1:T63 Arg2:T62	
+T64	引文作者 10352 10361	Mohammadi
+T65	引文作者 10364 10372	Thelwall
+T66	引文作者 10375 10383	Haustein
+T67	引文作者 10388 10397	Larivière
+T68	引文时间 10400 10404	2015
+R39	coauthor Arg1:T64 Arg2:T65	
+R40	coauthor Arg1:T65 Arg2:T66	
+R41	coauthor Arg1:T66 Arg2:T67	
+R42	has_cited_time Arg1:T68 Arg2:T67	
+T69	引文作者 9831 9838	Didegah
+T70	引文时间 9841 9845	2014
+R43	has_cited_time Arg1:T70 Arg2:T69	
+T71	引文的结果 9850 9956	the results indicate that papers published by top‐ranked institutions and countries receive more citations
+R44	results Arg1:T69 Arg2:T71	
+T72	引文的结果 10172 10349	The similarity between citations and Mendeley readership is ( most likely ) due to similar types of users , as previous work has found that Mendeley users are primarily scholars
+R45	results Arg1:T64 Arg2:T72	
+T73	引文的结果 10409 10601	however , in a study of tweeters who tweeted about articles from four top journals ( Nature , Science , PLoS One , and PNAS ) , nearly half of the tweeters were part of the scholarly community
+R46	results Arg1:T62 Arg2:T73	

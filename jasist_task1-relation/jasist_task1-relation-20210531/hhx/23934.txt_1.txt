@@ -1,0 +1,130 @@
+Traditionally , citations have been used as the main indicators for measuring research impact ( Bornmann & Daniel , 2008 ) , but they have been criticized for not being able to reflect a broader impact of research ( Holmberg , Didegah , & Bowman , 2015 ) , such as educational , cultural , environmental , and economic impact . 
+For this purpose , some novel data sources and indicators are being investigated . 
+The term “ altmetrics ” is described as the collection and measure of online events relating to the consumption and dissemination of scientific documents and the filtering of scientific documents from the vast stream of information that is available online ( Priem , Taraborelli , Groth , & Neylon , 2010 ) . 
+Altmetrics seeks to investigate mentions of various research outputs , such as scientific articles and datasets , from online sources with the assumption that these mentions could reveal something about the impact or influence research has had on different audiences beyond academia ( Priem , 2014 ) . 
+Earlier altmetrics research focused on investigating possible connections between mentions of scientific articles on different online platforms and the number of citation those articles later received , finding evidence of such a connection , for instance , for articles that were bookmarked on Mendeley ( Thelwall & Wilson , 2016 ) , mentioned in Wikipedia ( Evans & Krauthammer , 2011 ) , and tweeted on Twitter ( e.g. , Thelwall , Tsou , Weingart , Holmberg , & Haustein , 2013 ) . 
+More recently , altmetrics research has moved on to incorporate other approaches in its pursuit to explain the meaning of and motivations behind altmetrics ( e.g. , Vainio & Holmberg , 2017 ) . 
+As motivations to create citations can vary , a large number of studies ( see Didegah , 2014 , for a comprehensive review of factors examined ) have investigated the reasons and motivations for creating citations to help scholars and institutions better understand what attracts citations to scientific papers , but there are very few studies trying to investigate factors and reasons for mentions of research articles on altmetric platforms . 
+A survey of 679 Mendeley users showed that the main motivation for adding articles to the Mendeley library was to cite them later ( Mohammadi , 2014 ) . 
+Another research on Twitter showed that articles are mainly posted on Twitter by scholars themselves for publicizing purposes ( Thelwall et al. , 2013 ) . 
+Articles with funny and light titles and common social topics were also more tweeted ( Didegah , Bowman , Bowman , & Hartely , 2016 ; Neylon , 2014 ) . 
+This study aims to measure some other factors and reasons in association with altmetric counts to research articles . 
+These factors are mainly the characteristics of articles including : the impact of journal that the article is published in ; whether the article is single author or multiauthor or is in collaboration with international peers ; the prestige of institution and country that the author ( s ) of the article come from ; whether the article is published from a funded project ; how readable and long the article abstract is ; how long the article title is ; how many references to the article are cited ; and how large and what type the subject field of an article is . 
+These article characteristics have been widely examined in association with article traditional citation counts in previous studies . 
+Some factors such as journal impact or number of authors were found to be important for citations but some other features such as field size were not significant factors ( Didegah & Thelwall , 2013 ; Vanclay , 2013 ) . 
+So , it is interesting to measure whether important factors for citations can also be determinants of altmetric counts to articles . 
+Furthermore , altmetrics also lacks a specific set of theories and frameworks to define its functions and applications . 
+Haustein , Bowman , and Costas ( 2015 ) made an attempt to apply existing citation and social theories to different altmetric platforms . 
+Normative and social constructivist theories are among the most important citation theories that they theoretically discussed in relation to altmetric events . 
+According to the social constructivist view of citations , research properties ( i.e. , article characteristics such as the ones mentioned above ) other than research quality ( i.e. , a focus on normative theory of citations ) can contribute to citation impact ( Baldi , 1998 ; Gilbert , 1977 ; White , 2004 ) . 
+In addition , citations may occur for persuasion , perfunctory or critical reasons , or a Matthew effect may cause increasing citations . 
+Haustein et al . 
+( 2015 ) tried to theoretically apply this view to some altmetric events such as Mendeley and Twitter . 
+For example , a social constructivist theory could be applied to Mendeley in relation to Mohammadi 's ( 2014 ) study that found readers mainly save articles to cite them later in their own research ; or , for instance , they argue that there may be some forms of persuasion in posting articles on Twitter , or that there are negative mentions of articles in tweets . 
+Examining article characteristics in association with altmetric counts is actually an empirical attempt to test the social constructivist theory on altmetric events and the results can contribute to the development of a theory for altmetrics . 
+Moreover , the results will lead to a better understanding of altmetrics and contribute to the discourse concerning the rationale behind the generation of such indicators and whether they can be considered as alternatives or complements to citations . 
+Publishing in a high‐impact journal is an important signal for increasing attention to a research paper . 
+Most studies confirm that the journal impact factor is the most significant determinant of citations ( Vanclay , 2013 ) ; however , at least one study demonstrates an exception ( Stremersch , Verniers , & Verhoef , 2007 ) . 
+The similarity between the journals and the small sample size of that study may have affected the results for the journal impact factor , as only the five top journals in marketing were taken into account . 
+Multiauthor research has been widely found to have a citation advantage ( Chen , 2012 ; Gazni , & Didegah , 2010 ; Rousseau , 1992 ; Sooryamoorthy , 2009 ) . 
+Moreover , the number of authors is a significant factor in all subject fields , although the extent to which it associates with increased citations varies from 1.2 % in Space Sciences to 16.3 % in Economics and Business ( Didegah , 2014 ) . 
+However , a few studies have found no correlation between additional authors and increased citations ( Bornmann , Schier , Marx , & Daniel , 2012 ; Haslam et al. , 2008 ) . 
+International collaboration is another important factor contributing to increased citation counts ( Persson , 2010 ; Sin , 2011 ) . 
+Although multi‐institutional research has been found to receive more citations than single‐institutional research ( Sooryamoorthy , 2009 ) , modeling this factor simultaneously with the other two above‐mentioned patterns of collaboration demonstrated that it is not an important citation factor ( Didegah , 2014 ) . 
+Other citation factors have revealed that researchers from high‐ranked institutions receive more citations to their papers than those from low‐ranked institutions ( Leimu & Koricheva , 2005 ) , presumably ( at least partly ) because they tend to be better researchers . 
+In addition , researchers from a particular country may produce papers with relatively higher impact ( West & McIlwaine , 2002 ) . 
+For example , in ecological journals , UK authors receive more citations than authors from other European countries ( Leimu & Koricheva , 2005 ) . 
+Medical papers with longer abstracts have been found to receive more citations ( Kostoff , 2007 ) , whereas papers with longer titles in psychology seem to receive fewer citations ( Haslam et al. , 2008 ) . 
+Articles with a higher number of references also tend be cited more often ( Vieira & Gomes , 2010 ) . 
+Articles with more readable ( easier ) abstracts receive higher numbers of citations in Social Sciences only , whereas it is the opposite in Physical and Natural Sciences ( Didegah , 2014 ) . 
+Funded research in medical education research ( Reed et al. , 2007 ) , library and information science ( Zhao , 2010 ) , and biomedical research ( Lewison & Dawson , 1998 ) is more cited than unfunded research , although it may vary across subject domains in a single country ( Jowkar , Didegah , & Gazni , 2011 ) . 
+Field type , in terms of Natural Sciences versus Social Sciences or theoretical sciences versus applied sciences , is also a driver of citations ( Callaham , Wears , & Weber , 2002 ; Kulkarni , Busse , & Shams , 2007 ; Peters & Van Raan , 1994 ) , with natural and applied sciences having an advantage over the others . 
+This advantage is also demonstrated in the UK Research Assessment Exercise ( RAE ) from 2001 , where the mean citation counts for biomedical articles was about 30 , for social science articles five , and for humanities articles two ( Mahdi , D'este , & Neely , 2008 ) . 
+Furthermore , articles in smaller fields normally receive fewer citations than those in more general fields ( King , 1987 ) , and for this reason the citation assessment of institutions is always related to the average citation impact of the field ( Van Raan , 2003 ) . 
+In addition , open‐access journals are found to receive a higher number of citations than nonopen‐access journals ( Eysenbach , 2006 ; Vanclay , 2013 ) . 
+As reviewed above , the factors included in the current study have been widely studied in association with citation counts in prior research , whereas studies into citation factors in the context of altmetrics are scarce . 
+Haustein et al . 
+( 2015 ) studied the association between discipline and document type , title , and paper length , number of references , and research collaboration with both citation and altmetric counts including blogs , Twitter , Facebook , Google+ , mainstream media , and newspaper mentions . 
+They concluded that factors driving citations and altmetric counts mostly differ from each other , although research collaboration and number of listed references in the research articles were found to increase both citation and altmetric counts . 
+In another research , study types of medical articles that have been mentioned on Twitter were examined ( Andersen & Haustein , 2015 ) . 
+Meta‐analyses , systematic reviews , and clinical trials were the most frequently tweeted types , whereas basic research is the least frequently tweeted . 
+The authors conclude that those study types that are more interesting to layman and patients have been tweeted more often . 
+Didegah et al . 
+( 2016 ) focused on the characteristics of titles of highly tweeted articles with that of highly mentioned articles on other platforms and highly cited articles and reported significant differences between the platforms , such as that whereas highly tweeted articles may have funny and more general titles , highly cited articles in the Web of Science and also in Wikipedia had serious titles with more technical words . 
+So , it would be interesting to investigate and compare more factors across different altmetric and citation platforms . 
+Using a more advanced simultaneous statistical model—a NB‐logit hurdle model—this research will study the association between 12 factors and six platforms . 
+Previous studies have used mostly simple regression or correlation tests that do not allow a simultaneous assessment of factors . 
+This is a key omission because inappropriate models may generate misleading conclusions and nonsimultaneous tests may identify significant factors that are not relevant when other factors are also considered ( Didegah , 2014 ) . 
+Although not the first to research altmetric factors , this work examines newer and additional factors contributing to altmetric events using an advanced statistical model . 
+The goals of this study can be summarized in the following research questions : Do the factors driving citations differ from those driving altmetric events ? 
+Does the influence of the factors differ between each altmetric platform ? 
+The research questions address the differences between citation and altmetric factors and attempt to determine whether or not similar factors are influencing both citations and altmetric indicators and whether or not altmetrics can be considered as alternatives or complements to citations . 
+An increase in understanding how different factors affect altmetrics will allow for a greater understanding of the events and for a more complete definition of altmetrics . 
+Based on the known similarities and differences between the platforms , such as the knowledge that scholars are primarily involved in citation databases and Mendeley , while both scholars and the general public are contributing to social media platforms , then the research hypothesis is that citation and Mendeley readership do behave similarly but there are differences between these two indicators with social media indicators . 
+All available records for documents with at least one author with an affiliation with a Finnish organization and published from 2012 to 2014 as indexed by the Web of Science ( WoS ) , Thomson Reuters , were collected . 
+To obtain the sample , a query was run in WoS by selecting Finland as the country and publishing years from 2012 to 2014 . 
+The time period of 2012–2014 was chosen , as this is the timeframe during which online mentions have been more systematically identified and collected by Altmetric.com . 
+We acknowledge that this may have an impact on the results , where citations are concerned , as the citation window is limited . 
+Thus , the results on the analysis of the association between citation counts and the other factors may rather be an underestimation of the actual situation . 
+A total of 46,730 documents of all types and covering any disciplines were retrieved , out of which 37,183 documents were identified as having a DOI ( Document Object Identifier ) . 
+To obtain the number of tweets , Facebook posts , and blog and news posts , those documents that had a DOI were searched and matched with altmetric data ( as collected by Altmetric.com ) , resulting in a final sample of 13,623 documents having altmetric events . 
+Altmetric.com also retrieves Mendeley readership , but it only collects the number of readers for DOIs that have already been tweeted , posted on Facebook , or mentioned in the news , etc . 
+Therefore , the number of Mendeley readers was retrieved through Mendeley API separately ; out of the 37,183 documents with DOIs , 35,980 documents were found in Mendeley and 35,972 documents had at least one reader ( eight documents were added to the Mendeley library but had zero readers ) . 
+As this study compares the factors associating with both “ nonzero altmetric events ” and “ zero altmetric events , ” the entire Finnish dataset of 46,730 documents was considered for modeling ; altmetric events ( the number of tweets , and number of Facebook , blog , and news posts ) and the number of readers for each document that were not found in Altmetric.com and/or Mendeley were assigned a zero value . 
+Given that only 13,623 ( 30 % ) documents were matched in the Altmetric.com dataset , there was an excessive number of zeroes in the Twitter , Facebook , blog , and news data . 
+Therefore , the statistical model implemented in this study ( as explained below ) was chosen because it is designed to deal with excess zeroes . 
+Hence , the results should not be biased by the number of zeroes in the datasets . 
+A 30 % match on altmetric.com may not represent the population , especially because altmetric indicators have bias toward specific fields , for instance , Medical and Health research is more tweeted than other type of research . 
+But this low match is due to limitations of altmetric tools that only retrieve documents using their DOIs and not any other bibliographic information that may affect the results of this study . 
+There are two groups of dependent and independent variables in this study . 
+Dependent variables include citation counts , Mendeley readers , Twitter posts , Facebook posts , blog posts , and news posts . 
+Independent variables include journal impact factor , individual and international collaborations , institution and country prestige , research funding , abstract readability and length , title length , number of references , field size , and field type . 
+It is difficult to analyze collinear variables because their effect on the outcome may result from either true associations or spurious correlations . 
+Hence , as institutional collaboration is highly correlated with individual and international collaborations , this factor was not included in the model . 
+In addition to the dependent variables listed above , open access was also taken into consideration and modeled by using data from the Directory of Open Access Journals ( DOAJ ) .11 https : //doaj.org/ However , open access was not included in the final conclusions because the obtained results seemed inconsistent with previous work ( Eysenbach , 2006 ) and because the data from DOAJ may be inaccurate . 
+Regarding the field type factor , the same Organization for Economic Cooperation and Development ( OECD ) classification used in Gazni and Thelwall ( 2015 ) was used in this study . 
+Each publication in WoS has a subject area that was mapped into one of the OECD subfields.22 http : //incites.isiknowledge.com/common/help/h_field_category_oecd_wos.html The subfields were categorized into six fields including Natural Sciences , Engineering & Technology , Medical & Health Sciences , Agricultural Sciences , Social Sciences , and Humanities using OECD mapping instruction.33 http : //incites.isiknowledge.com/common/help/h_field_category_oecd.html Then the six fields were mapped into three broad fields resulting in all publications having been categorized into the three fields : Social Sciences & Humanities ; Medical & Natural Sciences ; and Engineering & Technology . 
+To measure the field size , each article was assigned to a subcategory . 
+The OECD subcategories given to the articles were used for this purpose . 
+Field size was calculated by the number of publications , number of authors , number of journals , number of institutions , and number of countries in the subcategory . 
+These measures were highly correlated , so only field size ( in terms of the number of publications ) was used in the models . 
+Regarding the abstract readability , the Flesch Reading Ease Score was used , as it is the most popular measure of text readability . 
+The Flesch Score ranges between 0 and 100 , where 0 indicates a text that is the most difficult to read and 100 represents the easiest text to read . 
+Table 1 summarizes how each of the variables were measured . 
+Journal impact factor ( JIF ) Individual collaboration ( no . 
+authors ) International collaboration ( no . 
+countries ) Abstract readability ( abs . 
+readability ) Abstract length ( abs . 
+length ) Number of cited references ( no . 
+references ) Given that the dependent variables of this study are count data ( citation and altmetric counts ) , count regression models are the most appropriate models . 
+The basic count models are Poisson and Negative Binomial ( NB ) models . 
+Because the data in this study are over dispersed , the Poisson model , in which the mean and the variance are assumed to be equal ( Cameron & Trivedi , 1998 ) , is not appropriate , whereas the NB model addresses these types of data . 
+Furthermore , the data have more zeros than are accounted for in the NB distribution , requiring a count model that can deal with excess zeroes . 
+A negative binomial‐logit hurdle model is the best fit for the data ; this model creates a scenario in which the positive counts follow a Poisson or NB distribution after passing a hurdle to gain positive counts . 
+The model has two parts : an NB part that models the positive nonzero observations and a binary ( or logit ) part that models the zero observations . 
+Hence , the significant factors of both positive counts and zero counts of dependent variables can be determined through the two parts of the model . 
+The hurdle model is also preferred because it simultaneously assesses a number of factors with citation and altmetric counts rather than the simpler regression models that separately test factors , which may generate inappropriate models . 
+The results are presented in six sections : citation counts , Mendeley readers , Twitter posts , Facebook posts , and blogs , and news posts , respectively . 
+In each section , the results of hurdle models are discussed in two parts : the first part presents the results of the NB component of the model demonstrating the factors that associate with increased or decreased citation or altmetric counts ; the second part presents the results of the logit component demonstrating the factors that associate with zero citation or altmetric counts . 
+The results of the hurdle model for citation counts are presented in Table 2 . 
+The NB component of the model shows that all factors are significant factors of citations except for field size . 
+Journal impact factor increases the number of citations by 7.7 % . 
+International collaboration also associates with increased citation counts and a unit change in the factor contributes to 6.2 % increased citations , whereas individual collaboration contributes to decreased citation counts . 
+Institution and country prestige also associate with increased tweets and a unit change in each factor associates with 2.5 % and 0.1 % increase , respectively . 
+Research funding significantly associates with increased citation counts and a unit increase in the factor associates with 40.3 % increase in the number of citations . 
+Although articles with longer abstracts receive 0.1 % more citations , articles with easier abstracts to read potentially receive 0.7 % fewer citations than the articles with more difficult abstracts . 
+Articles with shorter titles by one word receive 1.6 % more citations and articles with one more reference in their reference lists receive 0.5 % more citations . 
+Field type significantly associates with citation counts , demonstrating that Medical & Natural Sciences research articles are 51.2 % more likely cited than articles in Engineering & Technology and Social Sciences & Humanities . 
+The logit component of the model establishes that international collaboration , abstract readability , abstract length , title length , and field size are insignificant , whereas journal impact factor , institution prestige , country prestige , research funding , and number of references significantly associate with decreased zero citations . 
+Journal impact factor , institution prestige , country prestige , research funding , number of references , and field type decrease the number of zero citations by 15 % , 0.8 % , 0.1 % , 42.7 % , 2 % , and 60.6 % respectively . 
+Individual collaboration significantly associates with increased zero citation counts and a unit change in the factor increases zero counts by 7.3 % . 
+The results of the NB model demonstrate that all factors significantly associate with increased readers except for field size . 
+Journal impact factor associates with an increased number of readers and a unit increase in the factor increases the number of readers by 0.1 % . 
+Although international collaboration increases the probability of more readership by 0.4 % , individual collaboration decreases this chance by 1.9 % . 
+Articles from more prestigious institutions and countries are more often added to Mendeley and likely receive 3.1 % and 1.4 % more readers than articles from less prestigious institutions and countries . 
+Funded research will likely have 28.3 % additional readers than unfunded research . 
+Articles with easier abstracts have 2.3 % additional readers than the articles with more difficult abstracts , but articles with longer abstracts receive 0.1 % fewer readers . 
+Articles with longer titles also have 4.6 % fewer readers , but articles with a longer list of references have 0.9 % additional readers . 
+Finally , there is a negative association between field type and number of readers , indicating that articles in Social Sciences & Humanities have the largest number of readers ; Medical & Natural Sciences and Engineering & Technology are predicted to have 19.7 % fewer readers than that of articles from Social Sciences & Humanities . 
+When examining the results of the logit model , the following factors do not significantly associate with zero readership rates : research funding , title length , field size , and field type . 
+Journal impact factor , international collaboration , institution and country prestige , abstract readability , abstract length , and number of references significantly associate with decreased zero citations , whereas individual collaboration contributes to increased zero citations ( Table 2 ) . 

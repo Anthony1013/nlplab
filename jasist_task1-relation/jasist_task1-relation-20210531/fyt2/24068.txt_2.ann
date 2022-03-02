@@ -1,0 +1,179 @@
+T1	引文作者 34 36	Ge
+T2	引文时间 46 50	2007
+T6	具体模型 1128 1131	SCC
+T8	引文作者 1525 1527	Ge
+T9	引文时间 1537 1541	2007
+T10	引文作者 2141 2148	Crammer
+T11	引文时间 2161 2165	2006
+T14	具体模型 3364 3367	PSI
+T15	自建数据集 3926 3937	UT‐Zap50K‐2
+T16	具体模型 3857 3860	PSI
+T17	引文作者 3940 3945	A. Yu
+T18	引文作者 3948 3955	Grauman
+T19	术语 4473 4479	MATLAB
+T20	引文时间 4800 4804	2008
+T21	引文作者 4784 4787	Fan
+T22	引文作者 5561 5567	Parikh
+T23	引文作者 5570 5577	Grauman
+T24	引文时间 5580 5585	2011b
+T25	术语 4626 4629	HOG
+T26	术语 4634 4637	LBP
+T27	术语 4601 4605	GIST
+T28	术语 4608 4623	color histogram
+T29	术语 5123 5125	Cl
+T30	表 4939 5093	Consequently , each image is represented by a 98‐D vector ( 4 categories , 15 subcategories and 70 attributes ) in our framework , as presented in Table 1
+T31	具体模型 5163 5165	PA
+T32	引文作者 5883 5888	A. Yu
+T33	引文作者 5891 5898	Grauman
+T34	引文时间 5901 5905	2014
+T35	引文作者 5999 6004	Davis
+T36	引文时间 6015 6019	2007
+T37	引文作者 6269 6274	Verma
+T38	引文作者 6277 6284	Jawahar
+T39	引文时间 6287 6291	2015
+T40	引文作者 6436 6441	Verma
+T41	引文作者 6444 6451	Jawahar
+T42	引文时间 6454 6458	2015
+T43	引文作者 6546 6552	Sharaf
+T44	引文时间 6562 6566	2015
+T45	表 6672 6783	The performance of the proposed PSI framework against other state‐of‐the‐art methods is demonstrated in Table 2
+T46	具体模型 5484 5487	PSI
+T47	引文的方法 5545 5863	Relative‐Attr ( Parikh & Grauman , 2011b ) : A global linear ranking model which minimizes l 2 norm of its model , with constraints that distance between an ordered image pair is larger than or equal to a soft threshold , whereas distance between a similar image pair is smaller than or equal to another soft threshold
+T48	引文的方法 5868 5996	FG‐LocalPair ( A. Yu & Grauman , 2014 ) : Localized version of Relative‐Attr , it first learns a Mahalanobis metric via the ITML
+T49	术语 5965 5983	Mahalanobis metric
+T51	具体模型 6128 6147	Relative‐Attr model
+T53	具体模型 6339 6358	Relative‐Attr model
+T54	引文的方法 6417 6531	LocalPair+ML+HOG ( Verma & Jawahar , 2015 ) : LocalPair+HOG with the Mahalanobis metric learned by the ITML method
+T58	具体模型 6589 6593	SVMs
+T60	引文的方法 6571 6667	Combining ranking SVMs with different kernels via the Generalize Multiple Kernel Learning method
+T61	具体模型 6801 6804	PSI
+T62	具体模型 6704 6707	PSI
+T63	自建数据集 6853 6864	UT‐Zap50K‐2
+T64	具体模型 8077 8080	PSI
+T65	具体模型 8233 8236	PSI
+T66	术语 8266 8268	Cl
+T67	术语 8381 8383	Cl
+T68	具体模型 8554 8557	PSI
+T69	具体模型 8568 8571	PSI
+T70	术语 8577 8579	Cl
+T71	图 8622 8782	Figure 4 demonstrates the results : it seems the “ Open ” task is affected by Cl significantly , whereas the performance of the remaining tasks is rather stable
+T72	术语 9308 9310	Cl
+T73	术语 9227 9229	Cl
+T74	具体模型 9049 9052	PSI
+T75	术语 9058 9060	Cl
+T76	具体模型 9116 9119	PSI
+T77	具体模型 9208 9211	PSI
+T78	表 9395 9525	In Table 3 , we compare the computation cost of major steps of PSI and FG‐LocalPair , including both training phase and test phase
+T79	具体模型 9458 9461	PSI
+T80	具体模型 9466 9478	FG‐LocalPair
+T81	引文作者 9633 9638	Davis
+T82	引文时间 9648 9652	2007
+T83	具体模型 9572 9584	FG‐LocalPair
+T84	术语 9599 9617	Mahalanobis metric
+T86	具体模型 9681 9684	PSI
+T87	术语 9735 9743	CD‐Trees
+T88	具体模型 9822 9834	FG‐LocalPair
+T89	引文作者 9908 9913	A. Yu
+T90	引文作者 9916 9923	Grauman
+T91	引文时间 9926 9930	2014
+T92	引文作者 10864 10871	Grauman
+T93	引文作者 10854 10859	A. Yu
+T94	引文时间 10874 10878	2014
+T95	术语 11008 11016	CD‐Trees
+T97	具体模型 10264 10267	PSI
+T98	具体模型 10272 10284	FG‐LocalPair
+T99	具体模型 10041 10044	PSI
+T100	表 10322 10450	In Table 3 , we do not present the cost of metric learning because it mainly depends on the parameter setting of the ITML method
+T104	具体模型 10920 10923	PSI
+T105	具体模型 11097 11100	PSI
+T106	具体模型 11255 11267	FG‐LocalPair
+T108	具体模型 11413 11416	PSI
+T109	具体模型 11497 11509	FG‐LocalPair
+T110	具体模型 11619 11622	PSI
+T111	具体模型 11724 11736	FG‐LocalPair
+T112	具体模型 6216 6228	FG‐LocalPair
+T114	具体模型 11991 12003	FG‐LocalPair
+T115	具体模型 12200 12212	FG‐LocalPair
+T116	具体模型 12037 12049	FG‐LocalPair
+T117	具体模型 11952 11955	PSI
+T118	具体模型 12277 12280	PSI
+T119	具体模型 12452 12455	PSI
+T120	具体模型 12623 12626	PSI
+T121	具体模型 12435 12438	PSI
+T122	具体模型 12518 12521	PSI
+T123	自建数据集 13084 13095	UT‐Zap50K‐2
+T124	具体模型 12994 12997	PSI
+T125	图 13454 13600	Figure 5 shows the results of our experiment of semantic interpretation : we find that the rationales given by users are quite trivial yet various
+T126	标准数据集 14625 14636	UT‐Zap50K‐2
+T127	具体模型 14692 14695	PSI
+T128	具体模型 14829 14832	PSI
+T129	术语 15100 15117	SubCategory‐Heels
+T130	具体模型 15196 15199	PSI
+T131	具体模型 15475 15478	PSI
+T132	具体模型 15499 15509	PSI‐Global
+T134	具体模型 15556 15562	PSI‐NN
+T135	具体模型 15773 15781	PSI‐ASCC
+T136	具体模型 15683 15693	PSI‐KMEANS
+T137	具体模型 15715 15718	SCC
+T138	具体模型 15735 15760	k‐means clustering method
+T140	表 16007 16056	Our experimental results are presented in Table 4
+T141	具体模型 16158 16161	PSI
+T142	具体模型 16106 16116	PSI‐Global
+T143	具体模型 16356 16362	PSI‐NN
+T144	具体模型 16407 16413	PSI‐NN
+T145	具体模型 16694 16700	PSI‐NN
+T146	具体模型 16598 16608	PSI‐Global
+T147	具体模型 16705 16708	PSI
+T148	具体模型 16771 16774	PSI
+T149	具体模型 16821 16827	PSI‐NN
+T150	具体模型 16860 16866	PSI‐NN
+T151	具体模型 16991 16994	SCC
+T152	具体模型 17039 17042	SCC
+T153	具体模型 17265 17268	PSI
+T154	具体模型 17273 17283	PSI‐KMEANS
+T155	具体模型 17321 17324	PSI
+T156	具体模型 17347 17350	SCC
+T157	具体模型 17381 17391	PSI‐KMEANS
+T158	具体模型 17480 17488	PSI‐ASCC
+T159	具体模型 17624 17627	PSI
+T160	具体模型 17643 17651	PSI‐ASCC
+T162	具体模型 17471 17474	PSI
+T163	具体模型 17843 17846	PSI
+T164	具体模型 18022 18030	PSI‐ASCC
+T165	具体模型 17805 17808	PSI
+T166	具体模型 18105 18108	PSI
+T167	具体模型 18123 18126	PSI
+T168	具体模型 18274 18277	PSI
+T169	具体模型 17156 17163	k‐means
+T13	具体模型 5931 5944	Relative‐Attr
+T50	具体模型 6193 6212	Relative‐Attr model
+T52	引文的方法 6253 6358	LocalPair+HOG ( Verma & Jawahar , 2015 ) : Learning patch based presentation with the Relative‐Attr model
+T3	研究结果 18035 18108	Consequently , we can generate more compact separating hyperplanes in PSI
+T4	研究结果 18113 18307	Besides , PSI is compatible to asymmetric distance metrics ( for asymmetric metrics , reversing instances may disrupt the compactness of a cluster ) , and hence PSI is a more flexible solution .
+T5	引文时间 3958 3962	2014
+T7	图 15147 15247	This figure shows that key attributes learned by PSI are highly related to the rationales from users
+R1	coauthor Arg1:T93 Arg2:T92	
+R2	has_cited_time Arg1:T94 Arg2:T92	
+R3	coauthor Arg1:T89 Arg2:T90	
+R4	has_cited_time Arg1:T91 Arg2:T90	
+R5	has_cited_time Arg1:T82 Arg2:T81	
+R6	coauthor Arg1:T40 Arg2:T41	
+R7	has_cited_time Arg1:T42 Arg2:T41	
+R8	uses Arg1:T40 Arg2:T54	
+R9	uses Arg1:T43 Arg2:T60	
+R10	has_cited_time Arg1:T44 Arg2:T43	
+R11	coauthor Arg1:T37 Arg2:T38	
+R12	has_cited_time Arg1:T39 Arg2:T38	
+R13	uses Arg1:T37 Arg2:T52	
+R14	coauthor Arg1:T32 Arg2:T33	
+R15	has_cited_time Arg1:T34 Arg2:T33	
+R16	uses Arg1:T32 Arg2:T48	
+R17	coauthor Arg1:T22 Arg2:T23	
+R18	has_cited_time Arg1:T24 Arg2:T23	
+R19	uses Arg1:T22 Arg2:T47	
+R20	has_cited_time Arg1:T20 Arg2:T21	
+R21	coauthor Arg1:T17 Arg2:T18	
+R22	has_cited_time Arg1:T5 Arg2:T18	
+R23	has_cited_time Arg1:T11 Arg2:T10	
+R24	has_cited_time Arg1:T9 Arg2:T8	
+R25	has_cited_time Arg1:T2 Arg2:T1	

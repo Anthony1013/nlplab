@@ -1,0 +1,143 @@
+T1	术语 115 138	Functionality Extractor
+T2	软件工具 265 274	toolkit22
+T3	术语 430 433	POS
+T4	表 1791 1874	Table 1 shows a simple example to illustrate the process of vocabulary construction
+T5	术语 3245 3273	graph‐based ranking approach
+T6	术语 3399 3418	functionality graph
+T7	术语 3552 3571	functionality graph
+T8	图 3523 3571	Figure 3 shows an example of functionality graph
+T9	术语 3587 3606	functionality graph
+T10	图 3899 4078	In Figure 3 , for example , the edge from navigation to weather forecast indicates users who use the functionality of navigation may also use the functionality of weather forecast
+T11	术语 4092 4106	directed graph
+T12	术语 4620 4630	thresholds
+T13	引文的结果 4571 4679	To simplify the configuration of the model , the thresholds are usually predefined based on domain knowledge
+T14	引文作者 4682 4688	Davale
+T15	引文作者 4691 4697	Shende
+T16	引文时间 4700 4704	2015
+T17	引文作者 4707 4711	Kaur
+T18	引文作者 4714 4719	Madan
+T19	引文时间 4722 4726	2015
+T20	引文作者 4768 4777	D. R. Liu
+T21	引文作者 4780 4784	Shih
+T22	引文时间 4787 4791	2005
+T23	引文作者 4794 4801	Sandvig
+T24	引文作者 4804 4812	Mobasher
+T25	引文作者 4817 4822	Burke
+T26	引文时间 4825 4829	2007
+T27	引文作者 4832 4837	Smyth
+T28	引文时间 4847 4851	2005
+T29	术语 4904 4915	Mobilewalla
+T30	术语 4984 5009	minimum support threshold
+T31	术语 5018 5046	minimum confidence threshold
+T32	图 5760 5977	as shown in Figure 5 , suppose a user has already used a weather forecast app and a flight information app at this stage , then the vertex weather forecast and the vertex flight information will be given a large value
+T33	术语 6405 6428	requirement propagation
+T34	术语 6719 6746	overlapping functionalities
+T35	图 7370 7539	in Figure 6 , suppose the app YouTube ranks first among both music apps and video apps ; then it will be awarded the from vertex listen music and watch video , that is ,
+T36	术语 8641 8664	Collaborative Filtering
+T37	术语 8667 8687	Matrix Factorization
+T38	术语 8694 8716	Content‐Based approach
+T39	术语 8775 8778	RSs
+T40	引文的结果 8753 8869	A basic assumption of RSs is that “ a system that provides more accurate predictions will be preferred by the user ”
+T41	引文作者 8872 8877	Shani
+T42	引文作者 8880 8891	Gunawardana
+T43	引文时间 8894 8898	2011
+T44	术语 8998 9001	RSs
+T45	术语 9252 9254	RS
+T46	术语 9440 9446	recall
+T47	术语 9757 9763	recall
+T48	数据源 9902 9917	Apple App Store
+T49	图 10525 10595	The distribution of app categories in our dataset is shown in Figure 7
+T50	图 11243 11352	The results in Figure 8 show that the coverage of recommendation increases when a larger number of M are used
+T51	图 11498 11669	the results in Figure 8 also show that the training time of the model moves up when M increases , and there is a rapid rise of training time when M increases from 50 to 60
+T52	研究结果 11880 11986	We find that the number of extracted aspects M shows no significant effect on the recommendation quality .
+T53	具体模型 12036 12044	PageRank
+T54	表 12406 12450	The qualitative results are shown in Table 2
+T55	研究结果 12740 12921	The results show that our proposed method is effective in extracting app functionalities of good quality from user reviews , which guarantees the effectiveness of the whole solution
+T56	研究方法 12926 13065	In this experiment , we compare our method with other methods for generating the top N recommendations using different training‐test ratios
+T57	引文的结果 13164 13177	User‐Based CF
+T58	术语 13180 13183	UCF
+T59	引文作者 13186 13193	Resnick
+T60	引文时间 13203 13207	1994
+T61	引文的结果 13212 13225	Item‐Based CF
+T62	术语 13228 13231	ICF
+T63	引文作者 13234 13240	Sarwar
+T64	引文时间 13250 13254	2001
+T65	引文的结果 13259 13282	Content‐Based Filtering
+T66	术语 13285 13287	CB
+T67	引文作者 13290 13297	Pazzani
+T68	引文作者 13300 13307	Billsus
+T69	引文时间 13310 13314	2007
+T70	引文的结果 13319 13352	Non‐Negative Matrix Factorization
+T71	术语 13355 13358	NMF
+T72	引文作者 13361 13364	Lee
+T73	引文作者 13367 13372	Seung
+T74	引文时间 13375 13379	1999
+T75	引文的结果 13384 13455	Regularized Singular Value Decomposition ( RSVD ) and its variant SVD++
+T76	术语 13427 13431	RSVD
+T77	引文作者 13458 13465	Paterek
+T78	引文时间 13468 13472	2007
+T79	术语 13487 13489	CB
+T80	术语 14099 14105	recall
+T81	图 14081 14136	The corresponding recall values are shown in Figure 9 .
+T82	术语 14153 14159	recall
+T83	具体模型 14267 14274	AppRank
+T84	研究结果 14232 14413	The results show that our proposed AppRank method is less sensitive to the training‐test ratio compared to other methods , and it always outperforms other methods on all tp values .
+T85	研究结果 14552 14691	the results also show that our method is less sensitive to data sparsity , and its improvement is more salient in extremely sparse settings
+T86	具体模型 14732 14739	AppRank
+T87	术语 14806 14808	CB
+T88	具体模型 14875 14882	AppRank
+T89	研究结果 14833 14920	The results show the effectiveness of our AppRank method in alleviating data sparsity .
+T90	术语 15202 15208	recall
+T91	术语 15261 15267	recall
+T92	图 15145 15327	The results of the comparison in Figure 10 show that the recalls of all methods increase along with the N , and the recall of our method outperforms all other methods for different N
+T93	具体模型 15362 15369	AppRank
+T94	研究结果 15332 15454	The results indicate that our AppRank method has significant improvement on ranking accuracy for the top N recommendations
+T95	术语 15473 15479	recall
+T96	术语 15492 15498	recall
+T97	术语 15588 15592	NDCG
+T98	具体模型 15767 15774	AppRank
+T99	术语 15798 15802	NDCG
+T100	术语 15832 15836	NDCG
+T101	术语 15881 15885	RSVD
+T102	术语 16042 16046	NDCG
+T103	图 15700 15900	From the results shown in Figure 11 , we can see that our proposed AppRank method has the highest NDCG value , and it increases the NDCG value of the second‐best method , that is , RSVD , by 14.27 % .
+T104	研究结果 15903 16023	The results show that our method is effective in improving the correctness of the overall ranking for all candidate apps
+T105	术语 16058 16062	NDCG
+T106	图 16409 16443	The results are shown in Figure 12
+T107	术语 16635 16638	UCF
+T108	术语 16641 16644	ICF
+T109	术语 16651 16653	CB
+T110	术语 16780 16783	UCF
+T111	研究结果 16829 16937	The results indicate that our method is less sensitive to data sparsity in terms of recommendation diversity
+T112	术语 17182 17188	Recall
+T113	图 17283 17317	The results are shown in Figure 13
+T114	研究结果 17322 17466	From the results , we find that for all methods , the recall values for both free app and paid app subsets are higher than for the whole dataset
+R1	results Arg1:T14 Arg2:T13	
+R2	coauthor Arg1:T14 Arg2:T15	
+R3	has_cited_time Arg1:T16 Arg2:T15	
+R4	coauthor Arg1:T17 Arg2:T18	
+R5	has_cited_time Arg1:T19 Arg2:T18	
+R6	field_similar_as Arg1:T17 Arg2:T14	
+R7	coauthor Arg1:T20 Arg2:T21	
+R8	has_cited_time Arg1:T22 Arg2:T21	
+R9	coauthor Arg1:T23 Arg2:T24	
+R10	coauthor Arg1:T24 Arg2:T25	
+R11	has_cited_time Arg1:T26 Arg2:T25	
+R12	has_cited_time Arg1:T28 Arg2:T27	
+R13	field_similar_as Arg1:T27 Arg2:T23	
+R14	field_similar_as Arg1:T23 Arg2:T20	
+R15	results Arg1:T41 Arg2:T40	
+R16	coauthor Arg1:T41 Arg2:T42	
+R17	has_cited_time Arg1:T43 Arg2:T42	
+R18	results Arg1:T59 Arg2:T57	
+R19	has_cited_time Arg1:T60 Arg2:T59	
+R20	results Arg1:T63 Arg2:T61	
+R21	has_cited_time Arg1:T64 Arg2:T63	
+R22	coauthor Arg1:T67 Arg2:T68	
+R23	has_cited_time Arg1:T69 Arg2:T68	
+R24	results Arg1:T67 Arg2:T65	
+R25	results Arg1:T72 Arg2:T70	
+R26	coauthor Arg1:T72 Arg2:T73	
+R27	has_cited_time Arg1:T74 Arg2:T73	
+R28	results Arg1:T77 Arg2:T75	
+R29	has_cited_time Arg1:T78 Arg2:T77	

@@ -1,0 +1,130 @@
+The main ontology‐based search interface of the system is displayed in Figure 2 . 
+Note that query terms for proverb search might be first looked up in the ontology . 
+This can be done by picking a dimension ( explicit or metaphoric ) and then browsing the taxonomy of this dimension or by searching the ontology by typing a term in the text box . 
+When a specific concept was found and selected in the ontology , all related concepts from both dimensions are displayed and can be added to the query manually or by activating the automatic “ query expansion ” option . 
+The semantic links ( by “ has metaphoric target ” relationship ) between the concepts from different dimensions enable sophisticated , cross‐dimensional queries such as : “ find proverbs on people 's social positions. ” The retrieved proverbs might not include the original query terms at all but only their related concepts in the ontology ( e.g. , “ leader , ” “ lion ” ) . 
+To our knowledge , this is the first system for proverb retrieval by semantic meaning . 
+The system interface for proverb search and retrieval with the two‐dimensional ontology . 
+[ Color figure can be viewed in the online issue , which is available at wileyonlinelibrary.com . 
+] The ontology was displayed in four columns . 
+The rightmost column listed the dimensions ( Hebrew is written from right to left . 
+) Selecting a dimension displayed all the concepts assigned to the dimension in the third column from the right . 
+In the second and the fourth columns , related concepts are shown . 
+In the second column from the right , only hierarchically related concepts are shown ; in the fourth column from the right , hierarchically related child concepts as well as otherwise‐related concepts ( e.g. , part‐of , time , location , agent ) are shown . 
+A mouse over these concepts shows the exact relation between the selected concept in the third column and the concept in the fourth column . 
+Double clicking on a concept selects it as a search term . 
+Several concepts could be selected ( interpreted as a Boolean AND ) ( Bar‐Ilan , Zhitomirsky‐Geffet , Miller , & Shoham , 2010 , p. 3 ) . 
+As a baseline for comparative evaluation , an alternative interface was implemented , a free‐text search Google style ( see Figure 3 ) interface with autocompletion from terms of all the proverbs and also from proverbs ' semantic interpretations available online ( Recall that the terms of the ontology also were taken mostly from the proverbs and their interpretations . 
+) This interface enabled searching for proverbs linked with two or more terms ( Boolean AND ) . 
+Too search for concepts that contained more than one word , users had to use quotation marks ( Bar‐Ilan et al. , 2010 , p. 3 ) . 
+Free‐text search interface with autocomplete . 
+[ Color figure can be viewed in the online issue , which is available at wileyonlinelibrary.com . 
+First , we applied the proposed method on the domain of Hebrew proverbs , and two basic dimensions of proverbs were composed : ( a ) the ET and ( b ) the MT . 
+To this end , as a case study , a set of 100 popular Hebrew proverbs was created . 
+A proverb was selected to be included only if its popularity in use by native speakers is high ( as assessed by the third author of this article ) and if it appeared and its source was cross‐verified in all three reliable online Hebrew proverb collections : The virtual library site of the Israeli Ministry of Education ( http : //lib.cet.ac.il/ ) Wiktionary ( http : //he.wiktionary.org/wiki/ ) Wikiquote ( http : //en.wikiquote.org/wiki/Category : Proverbs ) . 
+An additional criterion for proverb selection was to ensure that they cover a broad spectrum of topics and as many Kuusi categories ( http : //lauhakan.home.cern.ch/lauhakan/etsi.asp ) as possible . 
+Overall , our ontology for 100 proverbs consisted of 405 concepts ( synsets ) and related concept triples ( 677 ) on the ET dimension , and 120 concepts and 166 triples on the MT dimension . 
+Concept sets of the two dimensions were mostly disjoint , having only 12 % ( 63 ) concepts in common ( e.g. , “ Human traits ” in Figure 4 ) . 
+For some proverbs , these concepts appear in the text and thus are included in the ET dimension ; for others , however , they belong to the semantic meaning of the proverb and therefore are part of the MT dimension taxonomy . 
+The major classes of the ET dimension were “ physical entity ” ( 46 associated proverbs ) and “ living entity ” ( 46 associated proverbs ) . 
+The MT concepts mostly concentrate in the field of “ social element ” ( 50 proverbs ) , “ element of human life ” ( 18 proverbs ) , cognition ( 17 proverbs ) , and “ morality ” ( 16 proverbs ) . 
+Two other popular categories— “ Person ” ( 47 proverbs ) and “ human trait ” ( 51 proverbs ) —were common for both dimensions . 
+The upper level ontology and the proverbs were further translated into English and also to the formal RDF/S representation . 
+To this end , English proverbs closest in meaning to the original Hebrew proverbs were located . 
+Both Hebrew and English versions are available at http : //www.ontology.org.il . 
+A fragment of the proverb ontology linked with the two‐dimensional ontology translated into English . 
+The concepts of the metaphoric dimension are in ellipses with dotted line while the concepts of the explicit terminology dimension are in double‐lined ellipses . 
+“ Human trait ” and its hyponyms belong to both dimensions ; therefore , they are split and are simultaneously with both types of lines . 
+Single‐solid arrows represent the taxonomic relationships ( sometimes indirect , e.g. , between “ ant ” and “ living entity ” there is a more general concept , “ animal , ” that was omitted for simplicity of the diagram ) . 
+double‐solid arrows indicate the instance‐of relationships . 
+triple‐line‐solid arrows show the has subject relationships . 
+Double‐slashed arrows between proverbs and concepts represent the has metaphoric subject relationships . 
+dotted arrows between two concepts correspond to the has metaphoric target relationships . 
+[ Color figure can be viewed in the online issue , which is available at wileyonlinelibrary.com . 
+] To evaluate the effectiveness of the ontology for proverb retrieval as compared to the free‐text search approach , a user study was conducted based on an approach used by Bar‐Ilan et al . 
+( 2012 ) . 
+Seventy participants ( students in the Information Science department ) , in two randomly assigned groups of about 35 participants each , were asked to select all proverbs that they found relevant to each of the 10 scenarios ( i.e. , tasks ) presented to them . 
+Average age of the participants was 26 , and 85 % of them were under the age of 30 . 
+The scenarios were the following : Human wisdom : Find all the proverbs in which “ wisdom ” is expressed through the senses and body limbs . 
+Failure and success : Find all proverbs which deal with failure and success . 
+Quantitative advantage : Find all proverbs which deal with quantitative advantage as a factor which leads to success and qualitative advantage as well as those that show the opposite ( i.e. , a numerical advantage does not lead to success at all ) . 
+Water : Find all the proverbs where the word “ water ” appears in the sense of well , help , caring , and kindness . 
+Wealth : Find all the proverbs relating directly or indirectly to social classes , especially to wealth and to wealthy people . 
+Deception : Find all the proverbs relating to the issue of deception , for example , when external traits are not identical to internal traits and in which a certain idea and its opposite appear in the same proverb . 
+Human traits : Find all the proverbs in which various human characteristics are compared to animals . 
+Leaders : Find all the proverbs that show the positive and negative sides of leaders , rulers , and influential people . 
+Reward : Find all proverbs which deal with the ideas of “ reward , ” in the positive and negative senses , “ judgment , ” “ reward and punishment , ” and the compensation a person will receive for his or her actions . 
+Work : Find all the proverbs that emphasize the importance of work and diligence as well as those that deal with futile effort . 
+Note that Scenarios 1 ( “ human wisdom ” ) , 7 ( “ human traits ” ) , and 4 ( “ water ” ) are explicitly cross‐dimensional and require results that are in the intersection of both dimensions of the ontology . 
+For example , for Scenario 1 , relevant proverbs include terms related to senses and body limbs ( e.g. , “ eye , ” “ head , ” “ hearing ” ) from the ET dimension of the ontology , whose metaphoric targets are related to wisdom in the MT dimension . 
+We believe that the proposed ontology with the has metaphoric target property could be especially effective for this kind of scenario . 
+All proverbs , tasks , and terminology were in Hebrew . 
+Each group had two search sessions : each with a different subset of the aforementioned scenarios and with a different interface . 
+G1/G4 : These participants first searched the database through a free‐text search for the first five scenarios mentioned earlier ( denoted as searching session “ G1 ” ) , and then they switched the interface to the ontology‐based interface and worked with the other five scenarios in the list ( referred as “ G4 ” throughout this article ) . 
+G2/G3 : Participants in this group did their first search session with the ontology‐based interface and the first five scenarios ( G2 session ) mentioned earlier and then moved to the text box search with the last five scenarios ( G3 session ) . 
+Prior to the experiment , participants were instructed by the authors on how to use each of the interfaces by demonstrating the search with the system for two “ training ” scenarios ( proverbs on family relationships and proverbs on timing and its importance ) . 
+Then , participants were given an opportunity to practice ( before starting the main experiment ) using each of the interfaces to search for proverbs on the value of silence . 
+Participants also were provided with a document describing all the existing search options in both interfaces . 
+Two of the authors were present for the whole experiment to supply technical support to participants who needed more help while working with the system . 
+Participants were asked to locate as many proverbs for a project on a given scenario as they could . 
+They were particularly guided to pick relevant proverbs that reflect all the aspects of the scenario . 
+In addition , we were interested in users ' satisfaction with the system and the search interfaces . 
+After finishing both search sessions , participants answered a short questionnaire , which included Likert scale and assertion questions on whether the database contained relevant proverbs for the scenarios , on their satisfaction with each of the search interfaces , and on the quality of the concepts in the ontology . 
+They also were asked about their level of familiarity with the proverbs . 
+In addition , there were two open questions : one on the retrieval method that they employed and another where they were asked to express their positive and negative impressions of the system . 
+The entire experiment , including both search sessions and filling out the questionnaire , was limited to approximately 90 min ; all participants managed to complete it in that time . 
+The golden standard relevance of the proverbs for the scenarios was assessed by the authors in two stages . 
+First , for each scenario , the three authors individually and systematically examined each of the 100 proverbs in the database and decided whether it was relevant for the specific scenario . 
+Relevance criteria for proverbs were similar to the user guidelines mentioned earlier : ( a ) A proverb could be used for a project that would be prepared on a given scenario , and ( b ) the proverb reflects all aspects of the scenario . 
+After the individual relevance‐assessment stage , the authors discussed their choices on the set of relevant proverbs for each scenario and reached an agreement in cases of contradictory individual judgments . 
+Note that each of the authors is at least 40 years old ( substantially older than the participants of the experiment ) , has a wide writing experience in Hebrew , and possesses at least an M.A . 
+degree ( Two of the authors have an academic degree on Hebrew linguistics and/or literature . 
+) Relevance based on the judgment of the authors is called expert relevance and is denoted Rel_exp . 
+On average , 6.7 relevant proverbs were determined for each scenario . 
+The results also were assessed by pooling the proverbs retrieved by the users for each scenario . 
+Only proverbs retrieved by at least 10 users for the given scenario and search interface were considered . 
+As a result , two lists of proverbs relevant for at least 10 users were created for each of the interfaces and merged together . 
+This is an additional relevance golden standard , called user consensus relevance in the article , and is denoted Rel_user . 
+On average , 6.3 relevant proverbs were selected for each scenario by user consensus . 
+The number of relevant proverbs selected by experts was higher than the user‐consensus proverbs for 7 of 10 scenarios ( see Figure 5 ) . 
+As expected for free‐text search , the number of consensus proverbs selected by the users was lower than the number of proverbs selected by the experts , and they all were included in the experts ' list of relevant proverbs for 8 of 10 scenarios . 
+This is because the experts examined each proverb , and the users retrieved proverbs using a search interface . 
+This is in contrast to the findings of ( Bar‐Ilan et al. , 2010 ) for image retrieval where there were more user‐consensus images than experts ' relevant images . 
+The reason for this could be that proverbs are very hard to retrieve by standard search , as compared to regular text documents and even to tagged images . 
+Number of relevant proverbs for expert versus user consensus assessment . 
+[ Color figure can be viewed in the online issue , which is available at wileyonlinelibrary.com . 
+] For the ontology‐based search for 6 of 10 scenarios , all the consensus relevant proverbs were included in the list of experts ' relevant proverbs . 
+For this interface , for 4 of 10 scenarios , there were one to two more proverbs tagged as relevant by the user consensus not included in the experts ' relevant proverbs . 
+The reason for this disagreement was that users considered proverbs with a more general interpretation than defined in the scenarios as relevant ( e.g. , a term “ water ” occurs in the proverb , but not in the meaning of kindness ; instead of “ wisdom , ” the proverbs are about unwise or about good people ; instead of “ wealthy people , ” the proverb refers to money in general ) . 
+Some 96 % of the free‐text search consensus relevance proverbs were included in the ontology‐based consensus relevance proverb list , meaning that the interuser agreement for consensus proverbs is very high . 
+The recall and precision of user consensus versus experts are shown in Table 2 . 
+The relatively high scores for both recall and precision ( more than 80 % ) for the ontology‐based interface indicate that our scenarios were clearly defined . 
+Next , we compute precision and recall for all proverbs retrieved by the participants according to both kinds of relevance assessment : user consensus relevance and expert relevance . 
+The average number of proverbs retrieved by the participants for the free‐text search was 3.72 , whereas the average number of proverbs retrieved by the participants for the ontology‐based search was 5.11 . 
+( Recall that the average number of relevant proverbs according to the experts was 6.7 . 
+) Hence , the ontology helped retrieve more proverbs . 
+However , not all proverbs were relevant . 
+Thus , average precision values for the different scenarios and user groups are displayed in Table 3 Recall that Groups G1 and G4 used search box interfaces while Groups G2 and G3 worked with the ontology interface . 
+Precision per scenario and group was calculated using both golden standards . 
+As can be observed from Table 3 all average precision scores were quite close , but a bit higher ( up to 10 % ) for the ontology‐based search interface , and the standard deviations are quite low . 
+In 7of 10 scenarios , this interface yielded higher precision . 
+But for some scenarios such as “ failure and success , ” the free‐text search produced better precision , but much lower recall , ( see Table 3 ) . 
+The average precision using user‐consensus relevance is somewhat higher than that based on expert relevance assessments , but for half of the scenarios , the expert relevance evaluation produced higher precision . 
+Standard deviation values also are very high . 
+These findings indicate that there is no clearly “ best ” evaluation type and interface in terms of precision . 
+Free‐text G1/G3 Free‐text G1/G3 Average recall values per scenario and group based on expert and user relevance judgments are displayed in Table 4 In this case , as well , user consensus evaluation is a bit higher than the expert‐based one . 
+However , there is a clear , significant advantage ( of 70–80 % , on average ) of an ontology‐based interface over the free‐text search interface in terms of recall for all scenarios . 
+The highest recall for an ontology‐based search ( but not for a free‐text search ) was achieved for the cross‐dimensional “ human wisdom ” and “ water , ” which indicates the effectiveness of the ontology for such complicated cases . 
+Especially hard scenarios were “ failure and success , ” “ human trait , ” and “ quantitative advantage. ” The reasons for this could be a relatively high number of relevant proverbs and the less clear , more abstract meaning of the latter scenario . 
+Note that the user‐consensus ( “ wisdom of the crowds ” ) recall and precision evaluated by experts ' relevance ( see Tables 3 and 4 ) for both interfaces are much higher ( by 25–40 % ) than are the individual users ' recall and precision values ( displayed in Tables 3 and 4 ) . 
+Free‐text G1/G3 Free‐text G1/G3 We also investigated the influence of the order of exposure to the interfaces on the obtained results . 
+For Group G2 , the ontology was used first , and for Group G1 , the free‐text search was used first . 
+In both sessions , the first five scenarios from discussed earlier were searched . 
+The average precision of G2 was 0.62 , which was 14 % lower than the average precision of G1 ( 0.66 ) . 
+The average recall of G2 was 0.57 , which was 90 % higher than G1 's recall ( 0.30 ) . 
+On the other hand , for G4 , the ontology was used after the free‐text search session , and for G3 , the free‐text search was employed after the ontology‐based search session . 
+The average recall of G4 is 0.59 , which is 79 % higher than the average recall of G3 ( 0.33 ) ; the average precision of G4 is ( 0.75 ) , which is much higher ( 25 % ) than that of G3 ( 0.60 ) . 
+These figures reflect the possible influence of the order of exposure to the interfaces on the search precision : Once having some experience with the free‐text search , it is possible to achieve higher precision with the ontology‐based search . 
+The number of searches for every scenario and interface ( see Figure 6 ) shows that ontology also helped minimize the user effort and search efficiency , as Participants could locate the most relevant query terms more easily through the ontology and/or use the expanded search option instead of searching for many specific terms that they could come up with or by employing autocomplete . 
+The differences between scenarios are very pronounced , especially for the free‐text search ( SD = 5.13 ) . 
+This possibly could be explained by the relative difficulty of some scenarios over the others , such as “ deception , ” for which there were only a few relevant proverbs in the database . 

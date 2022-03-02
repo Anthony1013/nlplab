@@ -1,0 +1,98 @@
+T1	引文作者 679 688	Henneberg
+T2	引文作者 691 696	Swart
+T3	引文作者 699 704	Naudé
+T4	引文作者 707 712	Jiang
+T5	引文作者 717 723	Mouzas
+T6	引文时间 726 730	2009
+T7	引文作者 1727 1733	Behara
+T8	引文作者 1736 1741	Sunil
+T9	引文作者 1746 1751	Smart
+T10	引文时间 1754 1758	2014
+T11	引文作者 2728 2734	Sloane
+T12	引文作者 2737 2745	O'Reilly
+T13	引文时间 2748 2752	2013
+T14	引文作者 2883 2889	Carter
+T15	引文作者 2892 2898	Ellram
+T16	引文作者 2903 2907	Tate
+T17	引文时间 2910 2914	2007
+T18	引文作者 3113 3121	Borgatti
+T19	引文作者 3124 3131	Everett
+T20	引文作者 3136 3143	Freeman
+T21	引文时间 3146 3150	2014
+T22	时间 3614 3653	the second semester of 2016 ( 2016/02 )
+T23	时间 3931 3981	in three semesters 2014/02 , 2015/02 , and 2016/02
+T24	表 6801 6958	Table 4 presents the 15 participants who have had the highest centrality degrees in the 2016/02 network for the Accounting and Business Administration majors
+T25	时间 6521 6528	2016/02
+T26	表 8524 8752	By comparing data presented in Table 4 , it is possible to infer that more collaborations with others do not necessarily imply that a participant is more central in the network , for just a few participants appear in both tables
+T27	表 8309 8519	Table 5 displays the 15 most central participants , considering the betweenness centrality index , in the interaction networks of the second semester of 2016 of the Accounting and Business Administration majors
+T28	图 8757 8955	Figures S1 and S2 ( available in Supporting Information Appendix , online ) depict the ODF interaction network for the majors in Accounting and Business Administration in the second semester of 2016
+T29	引文作者 9628 9633	Faust
+T30	引文作者 9614 9623	Wasserman
+T31	引文时间 9636 9640	1994
+T32	引文作者 10298 10304	Newman
+T33	引文时间 10307 10311	2004
+T34	引文作者 10420 10430	De Stefano
+T35	引文时间 10440 10444	2011
+T36	引文作者 10649 10654	Kumar
+T37	引文作者 10657 10660	Jan
+T38	引文时间 10663 10667	2013
+T39	表 11672 11731	Table 7 shows the general characteristics of these networks
+T40	表 12682 12837	Table 8 displays information on the most popular discussions of the Accounting and Business Administration majors in 2016/02 , giving support to answer RQ4
+T41	引文作者 14108 14111	Hew
+T42	引文作者 14099 14103	Tang
+T43	引文时间 14114 14118	2017
+T44	引文时间 15919 15923	2017
+T45	引文作者 15904 15916	Balakrishnan
+T46	引文作者 15896 15899	Lay
+T47	研究结果 17669 17802	The results have also shown that the main incentive to participate in an ODF seems to exist when students are graded by the professor
+T48	软件工具 3213 3218	Gephi
+T49	研究方法 3665 3788	for each network , the most central participants are identified using SNA metrics such as centrality degree and betweenness
+T50	表 4445 4517	Table 3 shows the network measures calculated for each of these networks
+T51	研究结果 7566 7784	These results show that these students who are greatly connected to others can be used as stimulators for increasing students ’ engagement or conveying information and expected behavior of the coordination of the major
+T52	研究方法 7789 7890	Betweenness centrality is another SNA measure that represents the importance of a node in the network
+T54	引文的结果 14121 14302	argue that there is currently a growing obsession with smartphone applications , in particular instant messaging , which is probably the most popular , especially among young adults
+T56	研究结果 16759 17022	This study found that these interaction networks are sparse , with low density , which shows that only a few of all the possible connections among participants exist and students could be more engaged in participating , interacting , and collaborating with others
+T57	研究结果 17807 18061	Students also seem to feel less confident to engage themselves in the ODFs in the university environment and seem willing to create a second environment via WhatsApp groups , where they might feel more secure to give their opinions and express themselves
+T58	研究结果 18066 18185	In a DE environment , collaboration among students is a key factor for promoting and developing learning and engagement
+T59	研究结果 18190 18265	We believe that students participating in ODFs form a Community of Practice
+T60	研究结果 18748 19030	The results of this study show that , by using SNA , major coordinators and professors could identify and characterize interactions as well as develop new actions to keep students engaged by identifying courses in which students have not been participating in discussions adequately
+T61	研究结果 19035 19243	Also , SNA allowed the identification of those students who are greatly connected to others and can be used to stimulate student participation or convey information and expected behavior from the coordinators
+T62	研究展望 19248 19288	There are some limitations to this study
+T63	研究展望 19293 19524	First of all , this study assumes that the relationship among participants in an ODF is undirected , meaning that they have a mutual relationship ; one participant posts a message and the others read it and may reply to it or not .
+T64	研究展望 19527 19634	In this context , participants in an ODF interact with all the others by either posting or reading messages
+T65	研究展望 19639 19701	Thus , the relationships among participants are nondirectional
+T66	研究展望 19706 19815	Assembling networks with directed edges would be interesting if individuals ' prestige was to be investigated
+T67	研究展望 19820 19948	In this case , we would analyze the choices participants make on whom to reply to and who the participants with more replies are
+T68	研究展望 19953 20164	Because this study concerns participation patterns and the discussion thread is seen as a community in which all members who have posted at least one message interact , networks were formed with undirected links
+T69	研究展望 20169 20294	Consequently , no distinction as to whether a post was a response to a specific post or a reply to the entire thread was made
+T55	引文的结果 15926 16122	state that the shift from a traditional teacher‐centered to a student‐centered approach emphasizes the importance of fostering students ' engagement and interactions with their peers and lecturers
+T53	引文的结果 10318 10417	Studies have found large components of varying sizes , from 57 % to almost 90 % of the network size
+R1	results Arg1:T46 Arg2:T55	
+R2	coauthor Arg1:T46 Arg2:T45	
+R3	has_cited_time Arg1:T44 Arg2:T45	
+R4	results Arg1:T42 Arg2:T54	
+R5	coauthor Arg1:T42 Arg2:T41	
+R6	has_cited_time Arg1:T43 Arg2:T41	
+R7	coauthor Arg1:T36 Arg2:T37	
+R8	has_cited_time Arg1:T38 Arg2:T37	
+R9	results Arg1:T34 Arg2:T53	
+R10	has_cited_time Arg1:T35 Arg2:T34	
+R11	has_cited_time Arg1:T33 Arg2:T32	
+R12	coauthor Arg1:T30 Arg2:T29	
+R13	has_cited_time Arg1:T31 Arg2:T29	
+R14	coauthor Arg1:T18 Arg2:T19	
+R15	coauthor Arg1:T19 Arg2:T20	
+R16	has_cited_time Arg1:T21 Arg2:T20	
+R17	coauthor Arg1:T14 Arg2:T15	
+R18	coauthor Arg1:T15 Arg2:T16	
+R19	has_cited_time Arg1:T17 Arg2:T16	
+R20	coauthor Arg1:T11 Arg2:T12	
+R21	has_cited_time Arg1:T13 Arg2:T12	
+R22	coauthor Arg1:T7 Arg2:T8	
+R23	coauthor Arg1:T8 Arg2:T9	
+R24	has_cited_time Arg1:T10 Arg2:T9	
+R25	coauthor Arg1:T1 Arg2:T2	
+R26	coauthor Arg1:T2 Arg2:T3	
+R27	coauthor Arg1:T3 Arg2:T4	
+R28	coauthor Arg1:T4 Arg2:T5	
+R29	has_cited_time Arg1:T6 Arg2:T5	

@@ -1,0 +1,130 @@
+Over the past century , the most damaging U.S. counterintelligence failures were perpetrated by a trusted insider with ulterior motives . 
+In each case , the compromised individual exhibited the identifiable signs of a traitor—but the signs went unreported for years due to the unwillingness or inability of colleagues to accept the possibility of treason . 
+Office of the Director of National Intelligence ( ODNI ) , 201411 ODNI stands for the Office of the Director of National Intelligence , established in 2004 as part of the Intelligence Reform and Terrorism Prevention Act . 
+Over the past century , the most damaging U.S. counterintelligence failures were perpetrated by a trusted insider with ulterior motives . 
+In each case , the compromised individual exhibited the identifiable signs of a traitor—but the signs went unreported for years due to the unwillingness or inability of colleagues to accept the possibility of treason . 
+Office of the Director of National Intelligence ( ODNI ) , 201411 ODNI stands for the Office of the Director of National Intelligence , established in 2004 as part of the Intelligence Reform and Terrorism Prevention Act . 
+One of the greatest threats to organizational security is exposure of information ( e.g. , intellectual property ) through espionage . 
+Cyber espionage is on the rise ( Verizon , 2017 , p. 10 ) , and 90 % of cyber espionage breaches are designed to capture trade secrets and proprietary information ( Verizon , 2016 , p. 54 ) . 
+Insider threats unfortunately pose an increasingly significant problem for trusted interactions in both physical and virtual organizations . 
+An extreme example is the infamous case of Robert Hanssen , a U.S. counterintelligence agent , who ( ab ) used his privileges and position of trust to sell highly classified national security materials to the KGB/SVR in Soviet Union/Russia during a period of 15 years in exchange for personal financial gains . 
+This case of espionage by a trusted and authorized insider shows how insider malfeasance can adversely affect an organization ( FBI Press Release , 2001 ) , and illustrates the importance—as well as the challenges—of uncovering deceptive behavior within an organization . 
+One universal fact is that most organizations , whether public or private sector , must rely on their employees , that is , key “ insiders , ” to attain performance and productivity . 
+These key individuals have access to information that could result in reputational , financial , or productivity losses if misused . 
+Insider threat is a reference to situations in which a “ focal actor ” —someone with authorized access—inflicts damage to their own organization by behaving against the interests of the organization ( i.e. , betraying ) , generally in an illegal and unethical manner ( Ho & Benbasat , 2014 ) . 
+Ultimately , insider threat always involves some aspect of betrayal , which is an intentional act of trust violation against the interest of another party , such as to “ expose a secret ” without the consent , agreement or authorization . 
+Although there are many types of nonmalicious ( well‐intentioned or negligent ) insiders who might inadvertently betray the organization , there are also those who do so maliciously , with deliberate intent to harm the organization for some benefit . 
+The equally infamous case of Edward Snowden , a former National Security Agency ( NSA ) contractor , exemplifies well‐intentioned betrayal . 
+Regardless of whether Snowden 's motivation for leaking classified government information was to alert the public about the surveillance state of the government , or was based on his interest in freedom and privacy , the result significantly impacted U.S. intelligence operations and reputation ( Times , 2014 ) . 
+Likewise , Chelsea Elizabeth Manning ( formerly Bradley Edward Manning ) who posted U.S. Army 's classified documents to WikiLeaks , was convicted for violating the Espionage Act ( 18 U.S.C . 
+§ 792 et seq . 
+; Tate , 2013 ) . 
+Regardless of their underlying motivation , these clearly amount to acts of betrayal against an organization . 
+Insider threats are certainly not limited to governmental organizations . 
+As the trigger for insider threat attacks is typically financial , or for purposes of corporate espionage , the private sector also faces serious financial , data , and reputational loses . 
+The Verizon ( 2017 ) data breach investigation report ( DBIR ) indicated that 94 % of breaches had a financial or espionage motive ( pp . 
+3 & 5 ) , and breaches involving insiders had increased 12 % since last year ( 2016 ) . 
+Unprecedented information access , availability , and connectivity for key employees have made organizations increasingly susceptible to insider threats—especially from disgruntled or ex‐employees . 
+Bolstering security against the weakest link , the human factor , is thus critical in an organization 's information security defense ( Mitnick & Simon , 2002 ) . 
+This article provides inquiries into insider threat research , and moreover contributes to gaps in existing research by arguing for a new perspective of trustworthiness attribution to examine insider threat situations through collective group attribution that reflects the perceived trustworthiness of a focal actor in group communication . 
+Information , as an artifact of an organization 's asset and knowledge , is subject to the omnipresent threat of unauthorized duplication , modification , and disclosure by insiders . 
+We can lock down information like we protect gold in a vault , but once classified information is revealed , copied and disseminated , it is forever compromised and can never be made secret again . 
+Thus , a more sophisticated approach is required to prevent and to protect against information breaches from insiders . 
+Traditional approaches investigate on an already identified breach , or create policies that deter potential perpetrators . 
+Unfortunately , the current state‐of‐the‐art technology has limitations in its ability to infer complex patterns of human behavioral anomalies . 
+Expecting “ whistleblowing ” by colleagues to counter insider threat has also become increasingly unlikely . 
+Perpetrators ’ motives are impossible to identify with certainty before incidents happen . 
+The social norms in our democratic society encourage information access , discourage corporate monitoring , and value personal privacy , which has made surveillance awkward and frequently unethical . 
+Below we discuss inquiries from both technological and behavioral domains that will lead to a new proactive perspective on insider threat detection—whereby future system design can be informed by psychosocial‐behavioral theories . 
+From computational literature , we first identify that caused by the sophistication and increased use of information communication technology ( ICT ) , cloud environments have enabled a greater magnitude of damage , and made infrastructure even more vulnerable to insider threat activities ( Patel , Taghavi , Bakytiyari , & Junior , 2013 ) . 
+The case with Snowden illegally copying 1.7 million documents from the N.S.A . 
+'s internal SharePoint systems ( a private cloud ) without authorization is an illustration ( Toxen , 2014 ) . 
+Second , current computational approaches require large “ appropriate ” and “ complete ” data sets to train the system to analyze and compare patterns of behavior with predefined rules ( Debar , Dacier , & Wespi , 1999 ) . 
+However , it is unrealistic to assume a complete dataset on targeted human behaviors . 
+Inappropriate or incomplete datasets limit analysis , producing imprecise and noisy results . 
+Third , although an insider 's behavior may be camouflaged as part of normal work activities , unsophisticated technology of “ misuse detection ” that provides a weak indication of intent , still can not protect against insider threat activities . 
+Fourth , intrusion detection and prevention systems ( IDS/IPS ) are designed to analyze network‐based attacks . 
+As such , these systems tend to produce false alarms , irrelevant to infer human intent . 
+The ineffectiveness of current technological solutions points to an alternative way of adopting an interdisciplinary approach , that combines social and technological methods ( Willison & Warkentin , 2013 ) . 
+The human behavior literature on insider threat studies has primarily focused on retrospective description , or meta‐analysis of past crimes . 
+Moore , Cappelli , Caron , Shaw , and Trzeciak ( 2009 ) classified four types of insider threat situations : IT sabotage , theft or modification of information for financial gain ( fraud ) , theft of intellectual property ( IP ) for business advantage , and corporate or government espionage for other reasons , and argued that each requires different technical deterrents . 
+Although information policy can provide preventive measures , the impact of punishment as a deterrent to stop individuals from unauthorized attempts is limited . 
+Not all insider security breaches or information misuse can be considered malicious . 
+Some are “ well meaning ” or unintentional , such as the debatable cases of Snowden ( Times , 2014 ) or Manning ( Tate , 2013 ) . 
+However , they do not share a common profile or motivation ( Wall , 2012 ) . 
+Several studies concluded that future research on insider threats needs to include understanding about the thought processes of potential offenders ( Willison & Warkentin , 2013 ) . 
+Detecting cues to behavioral changes ( whatever the cause ) as early as possible becomes increasingly important . 
+However , most of these studies focus on individual perpetrators , with no attention to understanding group interactions surrounding actual or potential incidents . 
+Although extant research has not identified any effective , proactive approach to detecting insider threat while it is occurring , there are a few studies that provide valuable insights on the phenomenon . 
+First , although the intentions of the perpetrators ( i.e. , betrayers ) can not be predicted because they vary greatly , they tend to provide communication cues of their intent ( Ho , Hancock , & Booth , 2016 ) . 
+Second , insider betrayal tends to represent socio‐psychological behavioral problems that are fundamentally difficult to detect in advance ( Liang , Biros , & Luse , 2016 ) . 
+The ability to obtain measures of a person 's baseline behavior is important in efforts to predict future malfeasance ( Debar et al. , 1999 ) . 
+Third , understanding of insider activities can aid in earlier detection and possibly reduce future incidents of insider threat . 
+Fourth , understanding group interactions could help with early threat detection ( Ho et al. , 2017 ) . 
+That is , during group interaction , people are able to draw metacognitive inferences from each other 's memory performance ( Smith & Schwarz , 2016 ) . 
+In close proximity , collective group cognition could make it possible to sense and reflect suspicious practices when enabled by distributed metacognition and shared memory ( Schwarz , 2015 ) . 
+Last , collective interactions in communications could increase observational opportunities to identify potential anomalous behaviors . 
+Empirical research indicates that ethical dilemmas can be attributed collectively by group members during interactive online communication ( Ho et al. , 2017 ) . 
+Communication artifacts , such as blog posts , texts , and emails produced during group activities can be codified to assess shifts in the trustworthiness of a focal actor from the perspectives of a group 's collective assessment ( Ho & Warkentin , 2017 ) . 
+Insider betrayal poses significant threats to trusted interactions and collaboration within organizations . 
+The problem of insider betrayal becomes more complex when computer‐mediated technologies and the cloud infrastructure enable information access and facilitate information sharing and communication . 
+The ability to understand and detect how an individual 's communication patterns morph during deceptive activities—and how anomalous behavior is attributed over time by group members—is essential in safeguarding information assets and the “ digital well‐being ” of organizations . 
+A next‐generation framework for detecting insider betrayal should conceptualize the dynamic causal relationships aimed at behavioral changes during human interaction from the collective perspectives of group attribution . 
+This framework contributes an alternative theoretical lens to evaluate insiders ’ trustworthiness and detect behavioral changes before the occurrence of an anomaly that impacts the operations of an organization . 
+To summarize , new perspectives on trustworthiness attribution can : Provide early warning insights of insider anomalous activity from socio‐psychological perspectives ( e.g. , Wall , 2012 ) . 
+Utilize humans ’ distributed metacognitive abilities ( Schwarz , 2015 ; Smith & Schwarz , 2016 ) to correlate complex observations in order to sense and filter subtle cues of a focal actor 's trustworthiness in group communication ( e.g. , Ho & Benbasat , 2014 ) . 
+Incorporate collective group intelligence to process dynamic social interaction and communication rather than focusing on individual activities ( e.g. , Ho et al. , 2017 ) . 
+Correlate observations and data collected from social media and computer‐mediated communication environments ( e.g. , Ho , Hancock , Booth , & Liu , 2016 ) . 
+Accommodate a panoramic view of the dynamics of insider activities ( e.g. , Ho & Warkentin , 2017 ) . 
+The following section introduces our theoretical stance of trustworthiness attribution . 
+We first conceptualize the insider threat scenario , define the research constructs , and then postulate 15 propositions based on the merger of trustworthiness and attribution theories . 
+Prior research suggests that a perpetrators intent is usually embedded in either face‐to‐face relationships , or online communication ( Ho & Benbasat , 2014 ) . 
+From a theoretical perspective , the challenge of capturing a perpetrator 's intent and behavioral changes is to move beyond “ whistleblowing , ” to early detection based on empirical evidence . 
+Ho and Benbasat 's ( 2014 ) dyadic attribution model provides a theoretical foundation for analyzing the causal relationships underlying behavioral observations , as indicators of trustworthiness . 
+Specifically , the dyadic attribution model can be used to explain the influence of an actor 's information behavior ( e.g. , language‐action cues ) based on the observer 's perception of the actor 's trustworthiness ( or lack thereof ) . 
+Social actors ’ use of language in social interactions can reveal symbolic clues to behavioral trends , and serve as an observational mechanism to signal shifts in trustworthiness . 
+Based on this , we argue that one way to detect insider deceptive behavior is by assessing shifts in a group 's perception when reflecting a focal actor 's “ trustworthiness ” through the analysis of group communication ( Ho et al. , 2017 ) . 
+Unusual or unexpected changes ( anomalies ) in an individual 's perceived trustworthiness as observed by associated work groups may provide early clues to insider threat activity . 
+The following two considerations are required to conceptualize trustworthiness attribution : ( a ) capturing behavioral evidence in communication artifacts that can objectively signal a change ( i.e. , downward shift ) in a focal actor 's behavior , and ( b ) providing a framework that explains the causal relationships behind a group 's attributions of a focal actor 's trustworthiness . 
+Below , we first conceptualize on the trustworthiness of social actors . 
+Then we review attribution theory , discussing behavioral evidence as observed and attributed by others in close relationships , defining research constructs , and explaining a merger of these two theories to provide a detection framework for insider threat . 
+The trustworthiness of an insider through his/her communication ( i.e. , language‐action cues ) when attributed by close coworkers , as human “ sensors , ” can be evaluated in a basic human trust relationship . 
+Hosmer ( 1995 ) characterized trust as “ the expectation by one person , group or firm of ethically justifiable behavior—that is , morally correct decisions and actions based upon ethical principles of analysis ” ( p. 399 ) . 
+However , trust can be violated , and a trustee can renege on obligations . 
+When competence‐based trust is violated , a trustor may feel a breach of psychological contract against the collective goal ( Piccoli & Ives , 2003 ) . 
+When integrity‐based trust is violated , it may trigger a natural attribution process involving extensive cognitive and affective reactions among trustors toward the trustee ( Ho et al. , 2017 ) . 
+Tyler and Degoey ( 1996 ) proposed trustworthiness attributions of subordinates to their authority figures ( e.g. , supervisors and ad hoc team leaders ) . 
+They found that in “ instrumental models , ” subordinates ( i.e. , the trustors ) tend to attribute trustworthiness based on the supervisor 's competence ( p. 343 ) , whereas in “ relational models , ” subordinates tend to draw on the implied benevolence in the motives of authorities . 
+Tyler and Degoey ( 1996 ) specifically mentioned that “ trustworthiness attribution ” of authority is predominantly made on the basis of the relational aspects , suggesting that focal actors ( e.g. , the authority figures ) will be trusted simply because of their role , even with little prior knowledge of their competence . 
+Both the duration and hierarchy of relationships can influence feelings of trust toward an authority figure , and organizations generally rely on the implied trustworthiness of employees . 
+However , structure , duration , and hierarchy of relationships are not guarantees of trust . 
+Just the opposite , the impact of the insider threat risk increases with key employees who have authorized access to critical information , but their violation of trust may go undetected . 
+Several emerging studies ( Ho & Benbasat , 2014 ; Ho & Warkentin , 2017 ) provide evidence that groups unknowingly22 Unconsciously ; not making a conscious choice such as reporting an incident or filling out a survey . 
+trigger a peer attribution process toward the perceived trustworthiness of their team leader that can reflect evidence of intention to betray . 
+Insider threat comes in different forms , including unintentional mistakes , intentional errors , or patriotic motive , but always involve some aspect of betrayal . 
+When insiders are motivated to betray their organization , the underlying causes can involve both dispositional and situational factors . 
+Personal or dispositional ( internal ) factors that contribute to the motivation for committing sabotage , fraud or theft generally include malicious intent to enact revenge , motivation for power , or monetary gain . 
+Situational ( external ) factors include aspects of the surrounding environment , for example , one 's learned skills or actions being evaluated ( Lord & Smith , 1983 ) , and one 's social network or cultural influence from community or society . 
+Accordingly , we propose a contemporary perspective to evaluate trustworthiness by adapting the dyadic attribution mechanism ( Ho & Benbasat , 2014 ) in group communication ( Ho et al. , 2017 ) . 
+The dyadic attribution model posits that ( a ) individuals signal their communicative intent and information behavior in words and actions , ( b ) members of close groups make attributions associated with trustworthiness of focal actors based on communication cues embedded in group exchange , and ( c ) these observations can lead to correct attributions of downward shifts in perceived trustworthiness when focal actors initiate in actual “ betrayal activities ” ( Levine & McCornack , 1991 ) . 
+Trustworthiness refers to the reliability , assessed quality or characteristic of the trustee ( Meyerson , Weick , & Kramer , 2006 ) , and suggests that the output of that trustee is , and will remain , dependable , true , accurate , truthful , and uncompromised . 
+Perceived trustworthiness , on the other hand , refers to the perception of a trustee , defined as a generalized expectation concerning the degree of congruence between an actor 's communicated intentions and behavioral outcomes , which remain reliable , ethical and consistent , and any fluctuation between perceived intentions and actions does not exceed the observer 's expectations over time ( Ho & Benbasat , 2014 ; Hosmer , 1995 ) . 
+This definition highlights two important observational constructs of an attribution process : consistency ( of words with actions ) and distinctiveness ( of behavior ) when compared with baseline expectations . 
+Rather than examining and analyzing a perpetrator who has already violated trust , this perspective suggests taking a step back to examine an actor 's perceived trustworthiness as attributed within his/her group and reflected in the group interaction . 
+This theoretical stance focuses on identifying : ( a ) observed behavior of a focal actor ; ( b ) the cause of that behavior , as attributed by his/her close work group based on observed and exchanged communications ; and ( c ) any resulting shift in the perceived trustworthiness—up or down—attributed by the group to some cause . 
+The following propositions take the lens of multilevel variance considerations of both individual level ( a focal actor ) , and group level ( observers ) in organizational or social contexts ( Burton‐Jones & Gallivan , 2007 ) . 
+Social actors , as observers in close relationships , communicate and construct meaning within an organization ( Bigley & Pearce , 1998 ) . 
+Through communication , peers in group interactions will naturally evaluate the trustworthiness of the focal actor ( Hardin , 1996 ) . 
+The accuracy of the group 's judgment depends on the level of group sensitivity to behavioral shifts and changes ( Winship & Hardy , 1999 ) . 
+More precisely , perceptions of a focal actor 's behavior occur at the individual level , but the unit of analysis is group members ’ interaction over time . 
+The process of trustworthiness attribution by an observer group occurs in two stages : first , building a generalized expectation of observed behavior of a focal actor against which to gauge anomalies , and second , making attributions as to whether these anomalies impact perceived trustworthiness , specifically referring to the integrity of any focal actor . 
+Attribution theory argues that observers observe a focal actor 's behavior over time , making inferences about causes behind changes in behavior that signify something either consistent , different or abnormal ( Heider , 1944 ; Kelley , 1973 ) , and make attributions of the focal actor 's trustworthiness accordingly . 
+A perception of lowered ( or sustained ) trustworthiness is usually based on attributing anomalies to internal or external causes . 
+In group communication , when any actor engages in betrayal activities ( i.e. , observables of actual trustworthiness ) , this betrayal intent may be reflected and result in subtle changes of physical and informational communication behaviors ( Ho & Benbasat , 2014 ) . 
+Proposition 1 ( P1 ) : Insiders who engage in betrayal activities against their organization may unknowingly send signals in communication artifacts reflecting reduced trustworthiness . 
+Proposition 1 ( P1 ) : Insiders who engage in betrayal activities against their organization may unknowingly send signals in communication artifacts reflecting reduced trustworthiness . 
+When trust is violated , the trustee ( i.e. , the focal actor ) may no longer be perceived as trustworthy , and could have a sense of ethical dilemma because of betrayal or trust violation against the trustors ( i.e. , observers ; Ho et al. , 2017 ) . 
+Betrayal is an act of trust violation by the trustee who has knowingly departed from the norms—assumed to govern the relationship with the trustor—and , thus causing harm to the trustor ( Finkel , Rusbult , Kumashiro , & Hannon , 2002 ) . 
+Moreover , betrayal implies an act of deliberate disloyalty , which violates trust against the norms as perceived by the trustor in a close “ implicit or explicit ” relationship ( Finkel et al. , 2002 ) . 
+Our next set of the propositions establish that perceived trustworthiness can be attributed by the close work group of a focal actor , reflecting or indicating the status of actual trustworthiness or insider threat betrayal ( Ho et al. , 2017 ) . 
+Specifically , Mayer and Davis ( 1999 ) and Mayer , Davis , and Schoorman ( 1995 ) defined trustworthiness based on three specific factors : benevolence , integrity and competence ; however , generally competence is an external or situational factor , with integrity being an internal or dispositional factor . 

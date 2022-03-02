@@ -1,0 +1,98 @@
+Another implementation detail not previously specified is the extra numeric parameter win . 
+It defines the number of previous tokens from the current position in the input to use for the score computation . 
+This is , instead of computing score ( x t , x t − 1 , … , x 0 ) as shown in Equation 2 , we compute score ( x t , x t − 1 , … , x t − win ) . 
+As this scoring operation is costly for the neural language model , this parameter allows us to seek a compromise between execution time and accurate scoring . 
+It is worth noting that the value assigned to win does not have to be necessarily the same as the one used for ρ ( see Language model ) . 
+The data used for training the models , both for our system and WordSegment , was obtained from several sources . 
+For English , German , Turkish , and Finnish , we used the monolingual training data sets corresponding to the 2016 news from the WMT17 shared task , available at http : //www.statmt.org/wmt17/ . 
+The English corpus was also augmented with tweets from the training data set at http : //cs.stanford.edu/people/alecmgo/trainingandtestdata.zip . 
+For each one of our data sets , we shuffled the lines66 A line is defined as a sequence of characters delimited by newline characters . 
+and selected the first 10 million lines ( at most ) for training and the last 300 ( 600 in the case of English ) for validation . 
+We then removed special tokens such as microblog mentions , hashtags , and URLs , as they constitute counter‐examples of the tokens we want to obtain in our results . 
+For the Finnish and Turkish data sets , we also removed the SGML tags and some resulting blank lines . 
+In the case of Spanish , we used the same training corpus as in our previous work ( Doval et al. , 2016 ) , which is based on the Wikipedia dump from 2015/02/28 preprocessed using the wikiextractor77 https : //github.com/attardi/wikiextractor and with all the Wikipedia markup expressions removed . 
+From the result , we selected the first 4 million lines . 
+As test data , we used the monolingual testing data sets corresponding to the 2013 news from the WMT17 shared task for English and German , and the ones corresponding to 2016 for Turkish and Finnish , as there is no test data from 2013 available for these languages . 
+The preprocessing performed was the same as described above for the training corpus . 
+The difference here is that we kept the English tweets test corpus , obtained from the same source as the training corpus , separated from the news test corpus . 
+It is also important to note that , unfortunately , we did not have enough resources available at the time to normalize some aspects of the tweets used for testing . 
+These cause a correct segmentation to be labeled as incorrect , such as with the output “ no way ” for the reference “ noway. ” This has a greater impact on our approach and WordSegment than on the Word Breaker , as it considers a wider range of input characters , which may be incorrectly positioned in the reference . 
+As an example , the “ ‐ ” character may be particularly difficult to test properly as it tends to appear arbitrarily surrounded by whitespaces in informal contexts . 
+To alleviate this and provide a fair comparison , we add a particular test case for these systems where we only consider the correct positioning of word boundaries around alphanumeric tokens . 
+We also give the precision score for the corresponding strict test case where we consider the positioning of all word boundaries . 
+For Spanish we used two test data sets . 
+One of them is the same as in our previous work ( Doval et al. , 2016 ) , based on the same Wikipedia article dump used for training where we randomly select 1,000 short lines from the last 25 % of the lines in the corpus . 
+It is used here to facilitate the comparisons between our current approach and our previous one . 
+The second one is obtained in almost the same way as the former , but in this case the lines are kept noticeably longer , as the random selection considers lines regardless of their length . 
+Given the exact match scoring scheme that we will use , this should pose a greater challenge for all the systems in the benchmark . 
+All data set preprocessing scripts are available at http : //www.grupocole.org/software/VCS/segmnt/ . 
+In our tests , we focus on precision as the performance metric . 
+Precision is defined here as the number of correctly segmented input instances over the total number of inputs given to the system . 
+A correct segmentation means that every word boundary in the output is correctly placed , otherwise it is deemed incorrect ; that is , our precision metric is an exact match score over whole lines . 
+We began our experiments by training some neural models and checking their performance in the development set throughout this process . 
+We tried smaller networks first and progressively increased their parameter count until we reached bigger models with reasonable size and performance , both in precision and time metrics . 
+Due to the high costs of training neural networks , which usually took days to complete , we were far from exhaustive in our exploration of the hyperparameter space . 
+For this same reason , these initial experiments were only conducted with the English and Twitter corpora . 
+The best models for English and Twitter would then be used for the remaining languages . 
+In Figure 3 we show validation error curves for a few relevant models and in Table 2 the precision numbers obtained by those in the segmentation task . 
+The results obtained for the tweets strict case are around 20 points below those shown in the table ( see Corpora ) . 
+As we expected , lower validation error numbers can be obtained with bigger networks , which generally translates into higher precision figures . 
+For standard text , relatively good precision can be obtained even by the smallest network . 
+If we want to see the real benefits of more complex networks , we have to look at the precision numbers for a more difficult setup such as the tweets data set . 
+These networks , containing a higher number of parameters , are better suited for handling the greater sparseness in microtext data . 
+However , it seems that our networks can not grow indefinitely in width ( number of neurons per layer ) with respect to depth ( number of layers ) , as this may cause serious unstability issues during the training process ( see Figure 4 ) . 
+Consequently , in order to insert more neurons per layer , it would also be necessary to insert more layers into the network at some point . 
+Moreover , given the long training process required by these bigger models and the precision numbers obtained , which are shown below , we decided to stop at networks of three layers and 1,500 neurons per layer . 
+Next , we built our n‐gram models , a process that took minutes even for the largest of these models . 
+The only mandatory parameter we had to adjust here was the order of the model , n , for which we considered the values 4 , 6 , 8 , 10 , and 12 . 
+The precision numbers for each of these models on the development data sets can be seen in Table 3 . 
+In this case , the results obtained in the strict test are around 30 points below those shown in the table . 
+As with the number of parameters of neural models , our n‐gram models also benefit from higher values of n . 
+After the large performance gain when moving from order 4 to order 6 , the growth slows down until it stops or reverses for most languages when going from order 10 to order 12 . 
+On the other hand , these models are usually notably affected by the sparsity of the training data , and using higher n values yields exponentially larger models . 
+To avoid this , we can prune those n‐grams with frequency counts lower than a specified threshold value at the expense of possibly lowering the performance of the model . 
+In our tests , we used a pruning value of 5 for the 8‐ , 10‐ , and 12‐grams without any noticeable performance drop . 
+For the reasons explained above , we decided to stop constructing bigger models at n = 12 . 
+This is similar to the reasoning applied in the case of neural models , adding the relatively small performance gain when going from n = 10 to n = 12 . 
+In order to account for the difference in execution time for different languages , we show in Table 4 the average counts of words , characters , and bytes per line ( instance ) in the development data sets . 
+Before obtaining the precision figures presented , we also tuned the search algorithm parameters for each type of language model using the development data sets . 
+For the neural model , these were t = 8 , b = 10 , win = 64 , whereas the n‐gram model required t = 10 , b = 500 , win = ∞ to guarantee good performance across data sets . 
+These numbers imply that the neural model is able to make better decisions at each step of the segmentation algorithm and thus requires carrying fewer partial candidates in order to finally decide on a good one . 
+The opposite seems to be true for the n‐gram model , which needs a wide range of possibilities available at each step and thus a higher b value , in proportion with the length of the text input . 
+Then we compared our system , WordSegment , and the Microsoft Word Breaker ( as of April 2017 ) against each other using the test data sets . 
+In order to interact with the latter system , we used a slightly modified version of the demo code available at its website , transcribing or removing non‐ASCII characters and adapting the formatting of the output to make it compatible with the rest of our evaluation scripts . 
+The best precision numbers on the development data sets were obtained with n = 3 and the Bing body corpus . 
+It is worth noting that , as this system works only with alphanumeric characters , the test gold standard was filtered accordingly . 
+This implies that the failure surface for the Word Breaker is much smaller compared to that of our systems and WordSegment , as the former does not consider possibly troublesome characters such as “ ″ ” or “ ‐ ” . 
+The results are shown in Table 5 , where we can see that both the n‐gram and neural models were able to obtain higher precision numbers than both WordSegment and Word Breaker on the test data sets . 
+The sole exception is the tie between our 12‐gram model and WordSegment in the smaller Spanish data set , which is resolved in our favor in the longer Spanish data set . 
+For further detail , we have published more complete outputs at http : //www.grupocole.org/software/VCS/segmnt/ . 
+WordSegment suffers from data sparsity problems , as we can infer from the heavy performance drop in the Turkish , Finnish , and Twitter test corpora . 
+For Word Breaker , the performance gap was smaller in the case of standard English and Spanish . 
+We believe that this is due to the language model of Word Breaker having seen many more tokens from these languages than from German , Turkish , or Finnish , where it performed noticeably worse than its competitors . 
+More interestingly , we also come up well above in the English tweets data set , a particularly challenging domain . 
+This time , the reason might be the acute data sparsity present in this kind of texts , whose word vocabulary includes a wide range of texting‐induced variations of standard words , which are handled well by the character‐based approach . 
+Regarding the neural models , we can see that our currently biggest network does not perform much better than the second biggest across the test bench . 
+In some cases , such as with Turkish and , most notably , Spanish , it is actually worse . 
+We can also observe that the performance of the n‐gram models was close to the neural models , most notably for the Finnish language , and even surpassed them by a noticeable margin in the case of Spanish . 
+Given the great attention and good results obtained by neural models in the literature , we expected the opposite to be true . 
+To add more merit to the n‐gram models , we should also mention their ( quite ) faster operation , both in training and evaluation time , compared with the neural models . 
+The main reasons why we did not try bigger or more sophisticated neural models are the good results we already achieved and the long training processes and slow operation times we obtain with our current biggest models , even on such a powerful GPU as the Titan X ( 2015 ) . 
+We also observed that it may be possible to apply this approach in a cross‐lingual environment , even though our training and testing corpora are monolingual . 
+The short English phrase formed by common words “ You are not welcome ” in the Finnish test corpus is correctly segmented , as well as English named entities in the German and Turkish corpora such as “ The Particle Adventure ” or “ The Voice. ” It is then reasonable to assume that , given a suitable cross‐lingual training corpus , it should be possible to address a truly cross‐lingual scenario where sentences mix words from different languages . 
+Finally , our new approach clearly improves on the previous one proposed ( Doval et al. , 2016 ) , which obtained 0.82 in the shorter Spanish test data set , taking more than twice the time taken by our currently biggest neural model . 
+In this work we presented a new approach to tackle the word segmentation problem consisting of two components : A beam search algorithm , which generates and chooses over possible segmentation candidates incrementally while scanning the input one token at a time , and a language model working at the byte or character level , which enables the algorithm to rank those candidates . 
+We considered recurrent neural networks and n‐gram models to implement the language model . 
+This work is a continuation of Doval et al . 
+( 2016 ) . 
+Our aim was to build a word segmentation system that can be used in the context of microtexts , a domain where data sparsity can be a problem to traditional approaches based on word n‐grams , such as the popular Microsoft Word Breaker or the WordSegment Python module . 
+We solve this issue by using byte‐ and character‐level language models , and also by taking advantage of the ability of neural networks to transform their discrete sparse inputs into continuous representations that encode similarities between inputs . 
+In our experiments , we explored possible configurations for our systems by adjusting the search algorithm parameters and the language model hyperparameters . 
+The languages we considered for training and testing were English , German , Turkish , Finnish , Spanish , and also English tweets . 
+Then we compared the performance of the different configurations of our system , WordSegment , and the Microsoft Word Breaker . 
+The best neural models obtain the best precision figures overall on the test data sets . 
+Surprisingly , the performance of the simpler n‐gram models was close to their neural counterparts while being noticeably faster . 
+Compared to WordSegment and the Word Breaker , our approach obtained better results overall . 
+We expect that the advancements that are rapidly taking place in neural network frameworks and parallel architectures will allow us to further improve the execution time and performance of the neural models with little or no changes to their current core design . 
+Aside from this , as future lines of work we plan on integrating this system into a microtext normalization pipeline as a preprocessing step . 
+We may also see how this solution fares in the more studied context of Asian languages , mainly Chinese . 

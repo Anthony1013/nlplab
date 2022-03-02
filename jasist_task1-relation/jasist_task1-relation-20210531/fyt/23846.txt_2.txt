@@ -1,0 +1,32 @@
+Eq . 
+1 ) . 
+We can see that changes of citation angle β link not only annual citations c with time t themselves , but also their changes . 
+However , some limitations exist if the citation angle β is used as a coefficient . 
+As the angles are not mathematically sensitive , they may be an insensitive indicator . 
+The change of the numerical value of a trigonometric function is not uniform . 
+For tanβ , its numerical value changes slightly for small angles . 
+However , the numerical value of tanβ changes significantly and quickly for large angles approaching 90° . 
+Perhaps the citation angle β could be combined with the beauty coefficient B . 
+The combined measure may be used as a dynamic measure of annual citation curves . 
+Although the citation angle β measures dynamic angles of change , the beauty coefficient B provides absolute values of the change . 
+By using the citation angle β and the beauty coefficient B as unified measures , the citation phenomena SG and SB can be simply united and uniformly studied . 
+SG and SB are two typical citation impact phenomena , which provide ways to explore the citation patterns of single publications . 
+As SG and SB have typical meanings in various citation patterns ( Avramescu , 1979 ; Li & Ye , 2014 ) , they could act as starting points for the understanding of complex citation patterns . 
+A first attempt is the consideration of ASBs in this study . 
+Our results show that less than 5 % of the articles from 1980 are SGs or SBs . 
+Thus , more than 90 % of the articles are neither SGs nor SBs . 
+Further studies could try to identify additional typical citation patterns in the annual citation counts of articles . 
+Because bibliometrics is most frequently used in an evaluative context , the early citations of articles are normally the focus of interest . 
+In evaluative bibliometrics , it is conventional practice to measure the citation impact of publications over a 3‐ to 5‐year citation window . 
+However , in recent years the so called SBs have received considerable attention from bibliometricians and beyond . 
+People are fascinated by the few articles which receive only a few or no citations over a long period , before they start a late career . 
+Bibliometricians speculate in case studies , why single publications are without any interest to the community over a long period and generate a lot of citation impact a long time after publication . 
+For example , Marx ( 2014 ) analyzed the Shockley‐Queisser article as a notable example of an SB . 
+After the SG phenomenon was suggested in this article as a synonym of instant credit or “ flashes in the pan , ” SGs and SBs were empirically unified and studied . 
+Against the backdrop of other approaches for identifying SBs , we introduced the citation angle β for measuring different SG and SB phenomena ( typical and higher than typical cases ) . 
+We showed that the citation angle β provides a simple indicator to differentiate SGs and SBs in annual citation distributions . 
+Although an early citation angle > 60° with SCa > 20 and AC ≤ 10 in t2–t1 ≥ 10 characterizes typical SGs , a late citation angle > 5° with SCb > 20 and AC ≤ 2 in t2–t1 ≥ 10 identifies typical SBs . 
+Despite its inherent limitations ( see above ) , the citation angle β is a promising measure to analyze and describe the changes in annual citation curves . 
+The empirical analyses in this study demonstrate its practical usefulness . 
+Because more or less pronounced early peaks ( SGs ) and late peaks ( SBs ) are characteristics of nearly all annual citation distributions , the citation angle β could be used to explore various citation patterns . 
+The investigation of these patterns using the citation angle concept could be interesting topics for future studies . 

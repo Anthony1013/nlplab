@@ -1,0 +1,130 @@
+Authors want their books to be as widely known as possible . 
+Libcitations have been proposed as an indicator of their success in this regard , as one aspect of cultural impact ( White et al. , 2009 ) . 
+The present article illustrates this notion of impact in considerable detail . 
+We show how libcitation counts operationalize it in terms of intuitive notions of fame . 
+Our 170 examples comprise 50 books with the top counts in our sample and 120 books with high , middling , or low counts in the 10 main Dewey classes in two time periods . 
+We also use two independent validation measures . 
+Our counts come , first , from libraries of all types and , second , from the 123 members of the Association for Research Libraries ( ARL ) . 
+The latter are organizations in which evaluative bibliometrics may be of special interest . 
+Given a particular edition of a book ( aka title ) , libcitations are counts of the number of libraries that hold it . 
+Torres‐Salinas and Moed ( 2009 ) and Linmans ( 2010 ) call the same measure “ catalog inclusions. ” Plum Analytics ( 2017 ) calls it simply “ holdings. ” The counts are most readily obtained from the union catalogs of sizable cooperatives of libraries . 
+The largest cooperative of this kind is OCLC , whose union catalog WorldCat lists the holdings of more than 16,000 members ; public , academic , and research libraries are major types . 
+These libraries are mainly in North America , but they extend around the globe . 
+Books in English dominate their collections , but many also have sizable holdings in other languages . 
+WorldCat may thus reflect popularity on an international scale , with counts ranging from one , in the case of a uniquely held item , to several thousand , in the case of library best‐sellers . 
+Here we display WorldCat data for a sample of almost 58,000 titles drawn from a research database to be described . 
+Union catalogs are created by librarians for practical ends such as shared cataloging , cooperative collection development , interlibrary loans , and bibliographic information service . 
+Yet it is possible to view these instruments in an entirely different light—as giant repositories of intelligence about culture . 
+Books preserve accounts of artifacts , sociofacts , and mentifacts in innumerable varieties , and sometimes contribute to cultural change ( e.g. , Uncle Tom 's Cabin , The Jungle , The Other America ) . 
+Union catalogs uniquely concentrate information about large numbers of books . 
+Their subject indexing , for instance , can be analyzed for cultural content ( e.g. , Adler , 2009 ) . 
+Libcitations , by contrast , are a form of indexing that is content‐neutral . 
+Taking libraries as paradigmatic institutions of cultural memory , ranked libcitation counts show that library cooperatives “ remember ” books to very different extents . 
+Because libraries are both deep‐rooted and mappable , these recorded mentions operationalize long‐term cultural impact in geographic areas . 
+Variable cultural impact is thus akin to degrees of fame , which likewise can be measured by counting someone 's or something 's recorded mentions . 
+Canonical works in the literature , for example , achieve fame by being written and talked about in many contexts , and it would be shocking if a union catalog such as WorldCat did not reveal canonical works to be held by numerous libraries in multiple editions . 
+The thousand most widely‐held books in WorldCat ( OCLC , 2004 ) are all universal classics ( e.g. , Mother Goose ) or highly recognizable reference works . 
+But the fame of contemporary books varies greatly , depending on , for example , the language in which they are written , their intrinsic subject appeal , the cachet of their publishers ( Zuccala et al. , 2015 ) , the markets in which they compete , and the publicity and reviews they receive ( Kousha & Thelwall , 2015 ; Zhou et al. , 2016 ; Zuccala , Someren , & Bellen , 2014 ) . 
+Libcitation counts absorb qualitative variables like these by being sales figures . 
+The sales , moreover , are driven not simply by librarians . 
+They rest on chains of judgments by “ authors , agents , past editors who have built publishers ' reputations , present‐day editors of various kinds , referee‐readers , marketers , and wholesalers ” ( Zuccala & White , 2015 , p. 316 ) . 
+After publication , the chain continues through the contributions of reviewers , other authors ( including citers ) , teachers , media figures , prize‐givers , fans , and detractors . 
+Publication and fame thus intertwine . 
+Publishers bring out copies of books while it serves their interests . 
+This generates the reputations these titles achieve in the short run , and libraries are part of the process . 
+In the long run , libraries make copies of the same titles available after publishers no longer distribute them . 
+Many books are acquired even though there is no explicit demand for them ; they are seen as cultural manifestations that deserve at least a modicum of publicity in catalogs and collections . 
+Relatively few books are by household names , of course , but the remaining multitude are at least discoverable parts of the culture ; obscurity is not oblivion . 
+Libcitations are thus “ heightened ” mentions indicating long‐term availability to be read and discussed . 
+Numerous libcitations may not signal a book of high quality . 
+They frequently do , but they may also elevate books that fit various definitions of junk . 
+It is therefore worth noting that even pieces of junk reveal something of their cultural moment and should never be entirely purged . 
+Moreover , millions of WorldCat titles have intellectual value despite low to modest counts . 
+This is especially true of scholarly titles , which by their very nature appeal to limited readerships . 
+Even they may achieve distinction when ranked by their libcitation counts in an appropriate subject class—that is , when compared to other books in roughly the same subject specialty . 
+The decision to cite a book and the decision to acquire it leave parallel bibliographic records . 
+The coinage “ libcitation ” —first syllable as in lib rary—underscores the parallelism ( Linmans , 2010 , p. 339 ; Torres‐Salinas & Moed , 2009 , p. 11 ) . 
+Because holdings counts have multiple uses in managing and evaluating library collections ( Denton , 2012 ; White , 2008 ) , “ libcitation ” denotes them as an altmetric for authorial impact , paralleling the bibliometric use of citations . 
+The citation count and libcitation count of a book are alike in that both usually take considerable time to develop . 
+As a measure of a book 's reach or diffusion , counting the librarians who have collected it is analogous to counting the citers who have cited it ( Ajiferuke & Wolfram , 2010 ) . 
+However , the motives of citers and librarians are not identical ; citers are buttressing claims , whereas librarians are anticipating interests . 
+As a result , citations and libcitations are not necessarily correlated . 
+Zuccala and White ( 2015 ) and Kousha and Thelwall ( 2016 ) found correlations that were statistically significant but low . 
+It is true that some books are both heavily cited and widely held , but other widely‐held books have citation records that can only be called unimpressive . 
+They may have no citations , or the citations they do have may not appear in the standard indexes—facts not lost on book‐oriented humanists and social scientists , who tend to be less well served by standard bibliometric evaluations than journal‐oriented scientists ( Ochsner , Hug , & Gallerson , 2017 ) . 
+It was with book people in mind that libcitations were proposed as an alternative or complement to citation‐based indicators . 
+In recent years both the Web of Science and Scopus have expanded their coverage of citations to books , and Google Scholar has dramatically improved the situation through its automatic extraction of citation data for all kinds of publications from all corners of the web ( Gorraiz , Purnell , & Glänzel , 2013 ; Kousha , Thelwall , & Rezaie , 2011 ) . 
+Even so , libcitations may attest to authorial achievements in ways that citations and other altmetrics do not . 
+For instance , in Halevi , Nicholas , and Bar‐Ilan ( 2016 ) they were available for almost the entire sample of 70,000+ ebrary titles—far more than any of eight other measures . 
+The same is true of libcitations versus other measures in large samples of titles used by Kousha and Thelwall ( 2015 , 2016 ) ; Kousha , Thelwall , and Abdoli ( 2016 ) ; and Torres‐Salinas , Gumpenberger , and Gorraiz ( 2017 ) . 
+Libcitations are nevertheless sometimes dismissed because librarians buy books on automatic pilot ; that is , authors accrue libcitations passively , without any particular merit . 
+For instance , Hammarfelt ( 2016 , p. 122 ) writes : “ Libraries do not always make informed judgments when buying books ; they often buy bundles of books. ” But librarians do not acquire bundles of books indiscriminately . 
+Rather , knowing the book world , their budgets , and their actual and potential customers , they arrange to buy some bundles and not others ; important criteria include subject matter , language , genre , and publishers ' reputations . 
+Considering today 's vast output of publications , acquisition of bundles ( through , e.g. , approval plans or preassembled collections ) has long been the norm in large libraries and cooperative library systems . 
+Extensive title‐by‐title selection of books is not feasible ( although patron‐driven acquisition of individual e‐books is increasingly seen ) . 
+Although such buying may be thought to produce uniform collections , we will show that titles are powerfully differentiated in WorldCat by the number of libraries that libcite them . 
+Future studies may relate libcitation counts to types of library acquisitions in more detail . 
+Some of the framework of citation analysis can be taken over into libcitation analysis . 
+That includes the idea that sources can be ranked by the number of items they yield . 
+So , for example , if the books in a large WorldCat subject class are ranked by how many libraries each book “ yields ” —that is , by how many libraries have acquired and cataloged that title—the distribution of counts will exhibit the core‐and‐scatter structure typical of bibliometrics . 
+Given this structure , libcitation counts for individual scholars or academic departments can be field‐normalized or assigned to percentiles just as citations are ( Waltman , 2016 ) . 
+Using one variety of normalization , White et al . 
+( 2009 ) evaluated titles by members of the philosophy , history , and political science departments at two Australian universities , and uncovered differences between the matched faculties . 
+The union catalog supplying the libcitation counts was in that case Libraries Australia . 
+The present article uses a bit of percentile analysis illustratively . 
+White et al . 
+( 2009 , p. 1094 ) also raised the question whether libcitation counts for books are correlated with their circulation counts . 
+Unfortunately , circulation data for printed books are seldom readily obtainable , and , in any case , librarians buy books not in terms of predicted checkout rates but in terms of what their customers might reasonably expect them to possess ; the extent of their circulation is a separate issue . 
+Thus , it confuses matters if libcitation counts are interpreted simply as flawed proxies for circulation counts , as in Thelwall ( 2017 , p. 38 ) : The number of libraries holding a copy of a book seems to be a reasonable indicator of its likely readership ( Torres‐Salinas and Moed , 2009 ; White et al. , 2009 ) . 
+It is imperfect because a popular novel might be continually checked out , with a long waiting list , and a course book might be in a university short loan collection so that a different person can check it out every day but other books might never be opened . 
+Similarly , some books are marketed solely as reference works for libraries whereas others are primarily written for the general public . 
+The number of libraries holding a copy of a book seems to be a reasonable indicator of its likely readership ( Torres‐Salinas and Moed , 2009 ; White et al. , 2009 ) . 
+It is imperfect because a popular novel might be continually checked out , with a long waiting list , and a course book might be in a university short loan collection so that a different person can check it out every day but other books might never be opened . 
+Similarly , some books are marketed solely as reference works for libraries whereas others are primarily written for the general public . 
+This implies that libcitation counts can mislead because , in one time and place , ( i ) the circulation of a widely held novel may be artificially low ; ( ii ) the circulation of a course book not widely held may be artificially high ; and ( iii ) other books , whatever their libcitation counts , may go unused . 
+It further implies that ( iv ) reference works never circulate anywhere , and so can not be compared with ( v ) books for the general public that circulate everywhere . 
+With respect to ( i ) through ( iii ) , what happens in one library does not necessarily happen in another . 
+If there were a “ WorldCirc ” counterpart to WorldCat , it would aggregate circulation counts for books from multiple libraries , and these aggregated counts could tell stories quite different from Thelwall 's . 
+The popular novel , for instance , would benefit from the multilibrary counts , especially those from public libraries , which differ from academic libraries in their circulation policies . 
+With respect to ( iv ) and ( v ) , the circulation status of books has little to do with what libcitations actually show , which is the extent of acquisition across libraries . 
+What if the popular novel Thelwall mentions is made into a movie ? 
+Its high libcitation count would predict this nonscholarly event regardless of its circulation record . 
+Or suppose an author produces a reference work that is bought by a thousand libraries . 
+Would the fact that it never circulates diminish the author 's achievement ? 
+The point of these counter examples is not to decouple libcitation and circulation entirely . 
+It is to say that neither measure really conveys what goes on in readers ' heads or the uses to which they put what they read . 
+Both merely suggest degrees of impact that need further interpretive comment if they are to be properly judged . 
+A similar point about scholarly and scientific writings is made on the Altmetric ( 2017 ) website : “ To get at true evidence of impact , you need to dig deeper into the numbers and look at the qualitative data underneath : who 's saying what about research , where in the world research is being cited , reused , read , and so on. ” We briefly return to this matter in our conclusion . 
+A version of WorldCat is available free on the web , but for serious libcitation research , access to the FirstSearch version of WorldCat through an OCLC‐member library will be needed . 
+The present article says little about data‐gathering from FirstSearch , however , because the books studied here were not drawn from it . 
+They are a large subset of a sample drawn from Scopus in 2011 ( Zuccala & Guns , 2013 ) . 
+That sample consisted of any item cited at least once in journals in Scopus 's History or Literature & Literary Theory categories during the windows 1996–2000 or 2007–2011 . 
+From this collection of items , books and their citation counts were extracted . 
+Although these books were published over a great range of years , the two main groups appeared during 1990–1995 or 2001–2006 , the two 6‐year periods preceding the two citation windows . 
+One of the Zuccala–Guns questions was whether Scopus citations to books correlated with the same books ' libcitations . 
+In 2012 , an OCLC analyst matched the ISBNs of the Scopus books in WorldCat so as to add their libcitation counts as of late 2011 . 
+The analyst also added how many members of the Association for Research Libraries held each title . 
+Thus , all books in the Zuccala–Guns database are held by at least one ARL member and at least one nonmember . 
+( WorldCat FirstSearch displays only total libcitation counts for books , not ARL counts . 
+) In 2013 , an OCLC analyst further augmented the file with the books ' main Dewey classes , specific Dewey numbers , and other metadata . 
+Although main Dewey classes are too coarse to use in judging the libcitations of most individuals , teams , or organizations , they are good for conveying a variety of subject areas compactly . 
+For the sample here , the Zuccala–Guns database was first reduced to 70,620 unique titles by cutting duplicates . 
+Then another 12,725 titles were cut because they lacked a publication year ( 36.8 % ) or Dewey class ( 32.6 % ) , or were not published in our time periods ( 30.4 % ) , or were in vestigial classes such as children 's books ( 0.02 % ) . 
+Table 1 has the resulting counts , with a total N of 57,895 . 
+The two leftmost columns present the counts of books percentaged to their column totals in the two publication periods . 
+The Dewey‐class profiles that emerge are very similar and suggest humanities scholars ' emphases across subject areas . 
+The two rightmost columns present the raw counts percentaged to the row totals . 
+Overall , 30 % of the books in the sample were published during 1990–1995 , and 70 % during 2001–2006 . 
+The 30/70 split is roughly duplicated across all Dewey classes . 
+It occurs because Scopus covered many more History and Literature journals in 2007–2011 than in the earlier period , and so the sample from the 2007–2011 reflects more articles citing more books . 
+As a check on fame independent of libcitations , we used information from the early‐2017 Wikipedia . 
+( Searching the English‐language edition automatically searches the non‐English editions when appropriate . 
+) As a second check , we used whether the title has a movie or TV version in the early‐2017 Internet Movie Database . 
+The Wikipedia and IMDB data were then combined to give each title a score on an ordinal scale of fame for our tables . 
+If a title has its own article in Wikipedia , a separate Wikipedia article almost always exists for its author . 
+Books passing both these tests may also have a movie or TV version ; if so , their fame score is 4 . 
+Books with both title and author articles are scored 3 . 
+A 2 goes to books that lack articles of their own but whose authors have one . 
+( We usually trace only the first author in collaborations . 
+) Books scored 1 have neither author nor title articles , but are cited in Wikipedia at least once ( Kousha & Thelwall , 2017 ) . 
+For books scored 0 , no information was found . 

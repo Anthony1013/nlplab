@@ -1,0 +1,31 @@
+T1	引文作者 918 926	Peterson
+T2	引文时间 929 933	2010
+T3	引文作者 1183 1189	Furman
+T4	引文作者 1192 1198	Jensen
+T5	引文作者 1203 1209	Murray
+T6	引文时间 1212 1216	2012
+T7	时间 2702 2706	2001
+T8	时间 2710 2714	2010
+T9	引文作者 3789 3794	Field
+T10	引文时间 3797 3801	2013
+T11	图 3913 4225	( Figure 1 ) Post‐publication citation levels are known to be lower relative to their republished versions , and both the non‐parametric Kruskal‐Wallis test and bootstrapped t‐test comparison of lifetime citations to corrected and uncorrected literature confirmed that the difference extends to other comparators
+T12	图 4373 4536	( Figure 2 ) Comparison of corrected articles to controls showed that corrected articles are cited less than articles with the same impact factor , author or topic
+T13	表 4541 4814	Regression lines fitted to scatter plots also indicated that articles that have undergone post‐publication correction do not show the same slope as other articles both overall and when compared to articles paired by version , impact factor , author , or subject ( Table 1 )
+T14	引文作者 8676 8681	Davis
+T15	引文作者 8684 8691	Cochran
+T16	引文时间 8694 8698	2015
+T17	引文的研究问题 814 1218	Previous research has compared citation rates of the two article versions , pre and post‐correction , ( Peterson , 2010 ) but the strength of the corrective effect relative to the natural citation patterns of normal articles has not been measured ; at least one such study has also used robust methods to compare citation patterns of retracted literature to controls ( Furman , Jensen , & Murray , 2012 )
+T18	研究结果 5741 5904	Bootstrapped ANOVA indicated that corrected articles differed from literature in general and articles that were paired by characteristic by 2 years post correction
+T19	研究结果 6167 6352	This result suggested that reduced citation is not entirely attributable to the prominence of the journal , as impact factor did not seem to affect the duration of the corrective effect
+T20	研究结果 10975 11117	The results of this study indicate that over their lifetime , corrected articles are cited half as much as comparable non‐anomalous literature
+T21	研究结果 11122 11225	Robust regression indicates that correction is a significant and strong predictor of decreased citation
+T22	研究结果 11230 11419	The data indicate that the practice of correcting biomedical literature has a significant , fast‐acting , long‐term , negative effect on the number of citations invalidated articles receive
+T23	研究结果 11424 11573	Thus , correction is a significant and strong predictor of decreased citation and is a useful quality control mechanism for the biomedical literature
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	produces Arg1:T1 Arg2:T17	
+R3	has_cited_time Arg1:T10 Arg2:T9	
+R4	coauthor Arg1:T14 Arg2:T15	
+R5	has_cited_time Arg1:T16 Arg2:T15	
+R6	coauthor Arg1:T3 Arg2:T4	
+R7	coauthor Arg1:T4 Arg2:T5	
+R8	has_cited_time Arg1:T6 Arg2:T5	

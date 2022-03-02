@@ -1,0 +1,130 @@
+T1	引文作者 194 200	Wainer
+T2	引文时间 213 217	2011
+T3	引文作者 2326 2337	Brusilovsky
+T4	引文作者 2340 2342	Oh
+T5	引文作者 2345 2350	López
+T6	引文作者 2353 2358	Parra
+T7	引文作者 2363 2367	Jeng
+T8	引文时间 2370 2374	2017
+T9	时间 2386 2390	2008
+T10	时间 2394 2398	2017
+T11	表 2963 3107	We selected papers published at six conference series , where the CN3 system had been used as the conference support system ( refer to Table 1 )
+T12	时间 3173 3177	2013
+T13	时间 3196 3200	2013
+T14	引文作者 3315 3320	Lisée
+T15	引文时间 3333 3337	2008
+T16	时间 3676 3680	2013
+T17	时间 3718 3728	March 2016
+T18	表 3801 3889	The number of target papers for each of the six selected conferences is shown in Table 1
+T19	时间 4286 4295	2009–2013
+T20	引文作者 4498 4503	Aduku
+T21	引文时间 4513 4517	2017
+T22	引文作者 4520 4526	Zahedi
+T23	引文时间 4536 4540	2014
+T24	表 4636 4821	Table 2 illustrates the descriptive statistics ( i.e. , number of bookmarked papers and density of bookmarking ) for the two selected sources of early attention data : CN3 and Citeulike
+T25	引文作者 5101 5112	Franceschet
+T26	引文时间 5115 5119	2010
+T27	引文作者 5122 5126	Meho
+T28	引文作者 5129 5133	Yang
+T29	引文时间 5136 5140	2007
+T30	引文作者 5143 5149	Zahedi
+T31	引文时间 5159 5163	2014
+T32	引文作者 5482 5488	Zahedi
+T33	引文时间 5498 5502	2014
+T34	引文作者 5977 5981	Meho
+T35	引文作者 5984 5988	Yang
+T36	引文时间 5991 5995	2007
+T37	引文作者 5596 5600	Meho
+T38	引文作者 5605 5609	Yang
+T39	引文时间 5612 5616	2007
+T40	引文作者 6137 6144	Harzing
+T41	引文作者 6147 6156	Alakangas
+T42	引文时间 6159 6163	2016
+T43	引文作者 6531 6542	Franceschet
+T44	引文时间 6545 6549	2010
+T45	引文作者 6694 6701	Harzing
+T46	引文作者 6706 6715	Alakangas
+T47	引文时间 6718 6722	2016
+T48	时间 6903 6915	2008 to 2013
+T49	时间 7279 7283	2008
+T50	时间 7288 7292	2012
+T51	时间 7374 7378	2013
+T52	时间 7481 7494	March of 2016
+T53	时间 7608 7620	2009 to 2013
+T54	时间 7548 7552	2009
+T55	时间 7660 7664	2011
+T56	时间 7707 7711	2011
+T57	时间 7715 7719	2015
+T58	时间 7772 7776	2013
+T59	时间 7821 7825	2013
+T60	时间 7829 7839	March 2016
+T61	引文作者 9881 9886	Keith
+T62	引文时间 9889 9893	2014
+T63	引文作者 10125 10130	Keith
+T64	引文时间 10133 10137	2014
+T65	图 10550 10674	Each set was separated and entered into the multiple sequential regressions in the lifecycle order , as depicted in Figure 2
+T66	时间 12280 12290	March 2016
+T67	引文作者 13966 13971	Brody
+T68	引文时间 13984 13988	2006
+T69	引文作者 16370 16379	Templeton
+T70	引文作者 16384 16390	Burney
+T71	引文时间 16393 16397	2017
+T72	表 16547 16643	The results of the multiple sequential regressions for the Google citations are shown in Table 3
+T73	表 19548 19673	Table 4 displays the results of the multiple sequential regressions , based on the Scopus citations as the dependent variable
+T74	表 19678 19759	The structure of the table and the meaning of its columns are the same in Table 3
+T75	引文的结果 252 450	In their study , based on multiple‐year records of 29 computer science conferences , the authors demonstrated that the best article winners earned significantly more citations than nonawarded papers
+T76	研究问题 614 806	In our study , based on multiple‐year records of six conferences , we will re‐examine whether the records of the best article awards impact the future citations of the conference papers or not
+T77	引文的结果 3342 3412	the cited half‐life of computer science conference papers is 4.1 years
+T78	自建数据集 3746 3769	1,294 conference papers
+T79	研究结果 3581 3730	We concluded that we needed at least 3 years for our target papers to collect citations ( from 2013 until the time of data collection in March 2016 )
+T80	引文的结果 4949 5252	Despite the popularity of the WoS citation metrics as a standard of faculty promotion , tenure evaluation , and research evaluation , several studies ( Franceschet , 2010 ; Meho & Yang , 2007 ; Zahedi et al. , 2014 ) have demonstrated its biased citation coverage , making it inappropriate for our study
+T81	引文的结果 5509 5711	In their study , based on 25 library and information science faculty 's publications , Meho and Yang ( 2007 ) substantiated the importance of other citation metrics in the information science discipline
+T82	引文的结果 5716 5863	The study results revealed that Google Scholar and Scopus covered four times and two times more conference publications than the WoS , respectively
+T83	引文的结果 5868 5974	Moreover , Google Scholar and Scopus identified 50 % and 30 % more citations , respectively , than the WoS
+T84	引文的结果 6092 6347	According to the results of a recent study ( Harzing & Alakangas , 2016 ) , in the engineering and science field , with which the information science discipline is closely associated , the coverage of Google Scholar is distinctly wider than that of Scopus
+T85	图 12024 12136	Figure 3 shows the accumulation patterns of the bookmarks of the two social systems ( i.e. , CN3 and Citeulike )
+T86	图 12141 12292	It describes the increasing ratio of bookmarks , on a monthly basis , from the conference dates until the time of data collection ( i.e. , March 2016 )
+T87	图 12297 12366	The graph highlights the differences between these two social systems
+T88	研究结果 15270 15485	These results suggest that the readership data collected in a conference support system , such as CN3 , within just a few months after the target conferences , can serve as the earliest predictor of future citations
+T89	研究问题 15739 15884	The primary purpose of this investigation is to determine which factors have significant effects on the future citations of the conference papers
+T90	引文的方法 16248 16399	Therefore , we normalized the Google and Scopus citations using a two‐step rank‐based normalization technique proposed by Templeton and Burney ( 2017 )
+T91	研究方法 16404 16542	We conducted two separate multiple sequential regression analyses using the Google Scholar and Scopus citations as the dependent variables
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	results Arg1:T1 Arg2:T75	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	coauthor Arg1:T4 Arg2:T5	
+R5	coauthor Arg1:T5 Arg2:T6	
+R6	coauthor Arg1:T6 Arg2:T7	
+R7	has_cited_time Arg1:T8 Arg2:T7	
+R8	results Arg1:T14 Arg2:T77	
+R9	has_cited_time Arg1:T15 Arg2:T14	
+R10	has_cited_time Arg1:T21 Arg2:T20	
+R11	has_cited_time Arg1:T23 Arg2:T22	
+R12	field_similar_as Arg1:T22 Arg2:T20	
+R13	coauthor Arg1:T27 Arg2:T28	
+R14	has_cited_time Arg1:T26 Arg2:T25	
+R15	has_cited_time Arg1:T29 Arg2:T28	
+R16	has_cited_time Arg1:T31 Arg2:T30	
+R17	field_similar_as Arg1:T30 Arg2:T27	
+R18	field_similar_as Arg1:T27 Arg2:T25	
+R19	results Arg1:T25 Arg2:T80	
+R20	has_cited_time Arg1:T33 Arg2:T32	
+R21	coauthor Arg1:T37 Arg2:T38	
+R22	has_cited_time Arg1:T39 Arg2:T38	
+R23	results Arg1:T37 Arg2:T81	
+R24	coauthor Arg1:T34 Arg2:T35	
+R25	has_cited_time Arg1:T36 Arg2:T35	
+R26	results Arg1:T34 Arg2:T83	
+R27	results Arg1:T37 Arg2:T82	
+R28	coauthor Arg1:T40 Arg2:T41	
+R29	has_cited_time Arg1:T42 Arg2:T41	
+R30	results Arg1:T40 Arg2:T84	
+R31	has_cited_time Arg1:T44 Arg2:T43	
+R32	coauthor Arg1:T45 Arg2:T46	
+R33	has_cited_time Arg1:T47 Arg2:T46	
+R34	has_cited_time Arg1:T62 Arg2:T61	
+R35	has_cited_time Arg1:T64 Arg2:T63	
+R36	has_cited_time Arg1:T68 Arg2:T67	
+R37	coauthor Arg1:T69 Arg2:T70	
+R38	has_cited_time Arg1:T71 Arg2:T70	
+R39	uses Arg1:T69 Arg2:T90	

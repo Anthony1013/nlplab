@@ -1,0 +1,6 @@
+T1	表 3251 3400	Table 5 reports on the results of comparing pre‐ and postrole‐assignment‐events activity profiles for the contributors ( in terms of activity count )
+T2	引文作者 3979 3984	Arazy
+T3	引文时间 3997 4001	2016
+T4	研究结果 11258 11484	Our findings suggest that in over half of the role‐transition events , participants do not change their behavior patterns substantially ( i.e. , the changes are statistically insignificant , after applying the FDR correction )
+T5	研究结果 4156 4304	Corroborating our earlier findings , our results show that in 27 % of the cases role‐assignment events are associated with a change in emergent role
+R1	has_cited_time Arg1:T3 Arg2:T2	

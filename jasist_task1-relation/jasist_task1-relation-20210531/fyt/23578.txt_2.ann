@@ -1,0 +1,177 @@
+T1	时间 1104 1134	from January 2004 to July 2013
+T3	时间 1367 1393	1 Jan , 2004–31 Jan , 2004
+T5	图 2197 2288	All assessors used the same user interface to annotate these queries , as shown in Figure 8
+T6	引文作者 2474 2479	Viera
+T7	引文作者 2482 2489	Garrett
+T8	引文作者 2494 2500	Joanne
+T9	引文时间 2503 2507	2005
+T10	表 2849 2955	According to our manual annotations , the percentages of different pattern types are summarized in Table 3
+T11	引文作者 3269 3277	Shokouhi
+T12	引文时间 3280 3284	2011
+T13	引文作者 3383 3391	Shokouhi
+T14	引文时间 3394 3398	2011
+T15	引文作者 3591 3600	Cleveland
+T16	引文作者 3603 3612	Cleveland
+T17	引文作者 3615 3620	McRae
+T18	引文作者 3625 3635	Terpenning
+T19	引文时间 3638 3642	1990
+T20	表 8195 8232	The results are summarized in Table 6
+T21	图 8583 8731	We further analyze some typical features ' effects by plotting the distributions of the query instances in the feature space , as shown in Figure 10
+T22	引文时间 10365 10369	1982
+T23	引文作者 10354 10359	Lloyd
+T24	引文作者 10681 10686	Amigó
+T25	引文作者 10689 10696	Gonzalo
+T26	引文作者 10699 10706	Artiles
+T27	引文作者 10711 10718	Verdejo
+T28	引文时间 10721 10725	2009
+T29	表 10732 10764	The results are shown in Table 7
+T30	图 11418 11449	Figure 11 presents two examples
+T31	引文作者 12021 12029	Kulkarni
+T32	引文时间 12039 12043	2011
+T33	引文作者 12275 12279	Adar
+T34	引文时间 12289 12293	2009
+T35	引文作者 12296 12301	Elsas
+T36	引文作者 12304 12310	Dumais
+T37	引文时间 12313 12317	2010
+T38	引文作者 12608 12612	Joho
+T39	引文作者 12615 12621	Jatowt
+T40	引文作者 12626 12629	Roi
+T41	引文时间 12632 12636	2013
+T42	引文作者 12639 12648	McCreadie
+T43	引文作者 12651 12660	Macdonald
+T44	引文作者 12665 12670	Ounis
+T45	引文时间 12673 12677	2013
+T46	引文作者 12979 12983	Dong
+T47	引文时间 12993 12997	2010
+T48	引文作者 13000 13006	Olston
+T49	引文作者 13009 13015	Pandey
+T50	引文时间 13018 13022	2008
+T51	引文作者 13300 13308	Kulkarni
+T52	引文时间 13318 13322	2011
+T53	引文作者 13656 13665	Berberich
+T54	引文作者 13668 13676	Bedathur
+T55	引文时间 13679 13683	2013
+T56	引文作者 13888 13896	Shokouhi
+T57	引文时间 13899 13903	2011
+T58	引文作者 14140 14149	Berberich
+T59	引文作者 14152 14160	Bedathur
+T60	引文时间 14163 14167	2013
+T61	引文作者 14213 14217	Hall
+T62	引文作者 14185 14194	Alfonseca
+T63	引文作者 14197 14206	Ciaramita
+T64	引文时间 14220 14224	2009
+T65	引文时间 14483 14487	2002
+T66	引文作者 14490 14496	Broder
+T67	引文作者 14898 14905	Herrera
+T68	引文作者 14908 14916	de Moura
+T69	引文作者 14919 14925	Cristo
+T70	引文作者 14928 14933	Silva
+T71	引文作者 14938 14946	da Silva
+T72	引文时间 14949 14953	2010
+T73	引文作者 14956 14962	Jansen
+T74	引文作者 14965 14970	Booth
+T75	引文时间 14973 14977	2010
+T76	引文作者 14980 14986	Jansen
+T77	引文作者 14989 14994	Booth
+T78	引文作者 14999 15004	Spink
+T79	引文时间 15007 15011	2007
+T80	引文时间 15014 15018	2008
+T81	引文作者 15021 15027	U. Lee
+T82	引文作者 15030 15033	Liu
+T83	引文作者 15038 15041	Cho
+T84	引文时间 15044 15048	2005
+T85	引文作者 15051 15055	Rose
+T86	引文作者 15058 15066	Levinson
+T87	引文时间 15069 15073	2004
+T88	引文作者 15080 15091	Lewandowski
+T89	引文作者 15094 15103	Drechsler
+T90	引文作者 15110 15114	Mach
+T91	引文时间 15117 15121	2012
+T94	数据源 391 414	the Web Track of TREC33
+T96	数据源 710 716	Google
+T2	软件工具 1194 1207	Google Search
+T4	软件工具 1426 1445	Google Search Tools
+T97	图 1578 1771	The data set is available online.44 http : //ir.sdu.edu.cn/exp/dtp.htm We employed four assessors to manually annotate the patterns of these queries in terms of the taxonomy defined in Figure 2
+T98	引文的方法 3557 3588	Holt–Winters additive smoothing
+T99	软件工具 4146 4159	Google Trends
+T100	软件工具 4206 4219	Google Trends
+T101	术语 4404 4413	Precision
+T102	术语 4422 4428	Recall
+T103	数学公式 4848 4879	F 1 = 2 * ( P * R ) / ( P + R )
+T104	引文作者 4932 4935	C.C
+T105	引文作者 4940 4945	Chang
+T106	引文作者 4948 4951	Lin
+T107	引文时间 4954 4958	2011
+T108	引文的方法 4970 4994	Gaussian kernel function
+T109	表 5202 5258	Table 4 reports the parameter tuning results for SQ type
+T110	表 5852 5949	The evaluation results of our approaches and the baselines are summarized in Table 5 and Figure 9
+T111	图 5852 5953	The evaluation results of our approaches and the baselines are summarized in Table 5 and Figure 9 . 
+T112	图 5852 5949	The evaluation results of our approaches and the baselines are summarized in Table 5 and Figure 9
+T113	引文作者 15129 15135	Broder
+R1	coauthor Arg1:T62 Arg2:T63	
+R2	coauthor Arg1:T63 Arg2:T61	
+R3	has_cited_time Arg1:T64 Arg2:T61	
+R4	coauthor Arg1:T58 Arg2:T59	
+R5	has_cited_time Arg1:T60 Arg2:T59	
+R6	has_cited_time Arg1:T57 Arg2:T56	
+R7	coauthor Arg1:T53 Arg2:T54	
+R8	has_cited_time Arg1:T55 Arg2:T54	
+R9	has_cited_time Arg1:T52 Arg2:T51	
+R10	has_cited_time Arg1:T47 Arg2:T46	
+R11	coauthor Arg1:T48 Arg2:T49	
+R12	has_cited_time Arg1:T50 Arg2:T49	
+R13	has_cited_time Arg1:T65 Arg2:T66	
+R14	has_cited_time Arg1:T34 Arg2:T33	
+R15	coauthor Arg1:T35 Arg2:T36	
+R16	has_cited_time Arg1:T37 Arg2:T36	
+R17	field_similar_as Arg1:T33 Arg2:T35	
+R18	coauthor Arg1:T38 Arg2:T39	
+R19	coauthor Arg1:T39 Arg2:T40	
+R20	has_cited_time Arg1:T41 Arg2:T40	
+R21	coauthor Arg1:T42 Arg2:T43	
+R22	coauthor Arg1:T43 Arg2:T44	
+R23	has_cited_time Arg1:T45 Arg2:T44	
+R24	field_similar_as Arg1:T38 Arg2:T42	
+R25	field_similar_as Arg1:T46 Arg2:T48	
+R26	has_cited_time Arg1:T32 Arg2:T31	
+R27	coauthor Arg1:T67 Arg2:T68	
+R28	coauthor Arg1:T68 Arg2:T69	
+R29	coauthor Arg1:T69 Arg2:T70	
+R30	coauthor Arg1:T70 Arg2:T71	
+R31	has_cited_time Arg1:T72 Arg2:T71	
+R32	coauthor Arg1:T88 Arg2:T89	
+R33	coauthor Arg1:T89 Arg2:T90	
+R34	has_cited_time Arg1:T91 Arg2:T90	
+R35	coauthor Arg1:T73 Arg2:T74	
+R36	has_cited_time Arg1:T75 Arg2:T74	
+R37	coauthor Arg1:T76 Arg2:T77	
+R38	coauthor Arg1:T77 Arg2:T78	
+R39	has_cited_time Arg1:T87 Arg2:T86	
+R40	coauthor Arg1:T85 Arg2:T86	
+T92	数据源 487 502	Google Trends22
+R41	select_time Arg1:T96 Arg2:T1	
+R42	coauthor Arg1:T6 Arg2:T7	
+R43	coauthor Arg1:T7 Arg2:T8	
+R44	has_cited_time Arg1:T9 Arg2:T8	
+R45	has_cited_time Arg1:T12 Arg2:T11	
+R46	has_cited_time Arg1:T14 Arg2:T13	
+R47	coauthor Arg1:T15 Arg2:T16	
+R48	coauthor Arg1:T16 Arg2:T17	
+R49	coauthor Arg1:T17 Arg2:T18	
+R50	has_cited_time Arg1:T19 Arg2:T18	
+R51	coauthor Arg1:T105 Arg2:T106	
+R52	has_cited_time Arg1:T107 Arg2:T106	
+R53	uses Arg1:T105 Arg2:T108	
+R54	has_cited_time Arg1:T22 Arg2:T23	
+R55	coauthor Arg1:T24 Arg2:T25	
+R56	coauthor Arg1:T25 Arg2:T26	
+R57	coauthor Arg1:T26 Arg2:T27	
+R58	has_cited_time Arg1:T28 Arg2:T27	
+R59	field_similar_as Arg1:T67 Arg2:T73	
+R60	field_similar_as Arg1:T73 Arg2:T76	
+R61	field_similar_as Arg1:T76 Arg2:T81	
+R62	has_cited_time Arg1:T79 Arg2:T78	
+R63	has_cited_time Arg1:T80 Arg2:T78	
+R64	field_similar_as Arg1:T81 Arg2:T85	
+R65	coauthor Arg1:T81 Arg2:T82	
+R66	coauthor Arg1:T82 Arg2:T83	

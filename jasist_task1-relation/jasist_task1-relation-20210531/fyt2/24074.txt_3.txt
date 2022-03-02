@@ -1,0 +1,67 @@
+For the set of experiments using binary classification , NC and PC sentence/passage pairs were combined to make derived ( D ) class whereas IW pairs were used as nonderived ( ND ) class . 
+For both ( binary and ternary ) supervised classification tasks , the Random Forest classifier,1111 We also applied both Naïve Bayes ' and J48 , but results were comparatively low . 
+with 10‐fold cross‐validation , implemented in the WEKA1212 http : //www.cs.waikato.ac.nz/ml/weka ‐ Last visited : September 20 , 2017 machine learning platform is used . 
+To evaluate the performance , results are reported using weighted average precision ( p ) , recall ( r ) , and the harmonic mean of both that is the F1‐measure ( f 1 ) . 
+In this section , we discuss the results obtained as an outcome of the experiments performed on the whole corpus . 
+The aim is to distinguish between multiple levels of text reuse at sentence/passage level . 
+The evaluation results obtained using Exp1 , Exp2 , and Exp3 are shown in Tables 4 , 5 , and 6 , respectively . 
+Consistently and following expectations across all three experiments , the results are higher using binary classification settings . 
+This indicates that in text reuse detection experiments it is comparatively easier to differentiate between two classes than three ( see Figure 1 and Figure 2 ) . 
+Overall , Unigram and GST‐mml1 performed better than LCS for Exp2 and Exp3 , and Combined and Unigram performed better for Exp1 . 
+This is consistent with the METER study ( Clough , Gaizauskas , Piao , & Wilks , 2002 ) and our recent experiments on Urdu text reuse detection ( Sharjeel , Nawab , & Rayson , 2017 ) , which also highlights that Word n‐gram overlap and GST are the most appropriate methods for the problem of text reuse detection . 
+Furthermore , it can also be noticed that the results for higher values of n ( in Word n‐gram overlap ) and mml ( in GST ) are low . 
+This shows that when the text is heavily derived from the source , using smaller lengths of lexical units ( words ) are more effective in detection experiments . 
+Moreover , the effect of preprocessing ( stop words removal and stemming ) on text reuse detection is visible in Exp2 and Exp3 , where results are slightly better than Exp1 ( see Figure 1 and Figure 2 ) . 
+This supplements the previous studies on text normalization and its effects on text reuse and plagiarism detection experiments ( Ceska & Fox , 2009 ; Chong & Specia , 2011 ) . 
+Last , the high error rate in low quality MT for the Urdu‐English language pair has resulted in relatively lower precision results in all three experiments . 
+Weighted average f 1 results plots for binary classification Weighted average f 1 results plots for ternary classification For Exp1 ( see Table 4 ) , Word n‐gram overlap and the combination of Unigram , Bigram , and Trigram that is Combined performed better than the more complex LCS and GST methods . 
+For binary classification , the best results are obtained using Combined approach ( f 1 =0.711 ) , whereas for ternary classification it is by using Unigram ( f 1 =0.493 ) . 
+This highlights that n‐gram overlap with smaller values of n can capture the overlap of text between source and derived sentence/passage pairs much better . 
+Moreover , the classifier is better suited for the binary classification problem using a combination of features than one and has produced significantly better results . 
+For Exp2 ( see Table 5 ) , the GST method reported comparatively better results . 
+For both classifications , highest results are obtained using mml1 ( binary f 1 =0.735 , ternary f 1 =0.549 ) . 
+As the stop words are removed from the text , GST can find longer chunks in the paraphrased text which results in its high performance . 
+Word n‐gram overlap performed second best ( binary f 1 =0.715 , ternary f 1 =0.528 ) for smallest value of n , but its performance dropped with the increasing length of n . 
+This shows that even if stop words are removed , small values of n produce best results in text reuse detection experiments on our corpus . 
+On the other hand , LCS reported lower scores as it suffers from the block move problem ( Wise , 1993 ) . 
+Interestingly , for Exp3 ( see Table 6 ) , Word n‐gram overlap scored highest in binary classification ( f 1 =0.732 ) whereas GST is best in ternary classification ( f 1 =0.552 ) . 
+Again , the best results are with the smallest values of n ( in Word n‐gram overlap ) and mml1 ( in GST ) . 
+This further supports our statement that in the text reuse detection problem , even after applying preprocessing , selecting a smaller length of tokens is more effective . 
+However , preprocessing of text ( stop words removal and stemming ) has an impact on the detection of text reuse as can be seen the results in Table 6 which are significantly better then Table 4 . 
+This improvement is statistically significant as tested with Wilcoxon signed‐rank test ( p < .05 ; Wilcoxon , Katti , & Wilcox , 1973 ) . 
+Overall , the cross language text reuse detection results obtained on our corpus ( best f 1 =0.552 ) are comparatively lower than for the METER corpus ( best f 1 =0.664 ) , which is a gold standard mono‐lingual text reuse detection corpus ( Clough , Gaizauskas , Piao , & Wilks , 2002 ) . 
+Moreover , the results are also low when compared with CL ! 
+TR corpus ( best f 1 =0.600 ) , which contains cross language text reuse cases for the English‐Hindi language pair ( Barrón‐Cedeño , Rosso , Devi , Clough , & Stevenson , 2013 ) .1313 METER contains three and CL ! 
+TR contains four levels of rewrite . 
+The rationale being that our corpus contains real examples of paraphrased text whereas CL ! 
+TR is a simulated corpus , manually created by volunteers in a controlled environment , who were allowed to use online automatic tools to translate the text ( from English to Hindi language ) and then modify it . 
+On the other hand , METER is a mono‐lingual corpus ( both source and suspicious texts are in the English language ) but the problem becomes much harder when the source and derived texts do not share the same language ( Barrón‐Cedeño , Rosso , Agirre , & Labaka , 2010 ) . 
+Our study indicates that it is challenging to detect real cases of text reuse , especially , when they occur across languages . 
+Furthermore , it becomes much more challenging when the languages involved are non‐ideographic ( e.g. , English and Urdu ) , thus finding similarity between two sentences that have disparate structure is much harder . 
+Unlike English , the Urdu language has a very complicated morphological structure where a word could have up to sixty different forms ( Rizvi & Hussain , 2005 ) . 
+Therefore , when the text is reused across cross‐script languages , it becomes hard to detect even the exact copy pairs because of the unique characteristics , features , and structure of different languages . 
+Both the corpora discussed above are annotated at document level and T+MA suffers on short cases of reuse ( Barrón‐Cedeño , Gupta , & Rosso , 2013 ) , which has resulted in its low performance on our corpus . 
+One of the key phases in the T+MA method is the language normalisation step . 
+During this phase , it was observed that the available online MT systems are not of a good quality , moreover , very few of them support Urdu‐English machine translation . 
+We noticed that even the translation of verbatim or exact copy pairs were far from perfect . 
+This inherited flaw has also been the reason for low performance of T+MA method . 
+To further support this observation , we randomly selected a sample of 300 sentence/passage pairs ( 100 from each class ) and performed both machine and manual translations of the subset . 
+Table 7 shows the comparison of T+MA results for both machine and manual translated examples.1414 We only reported the best f 1 results on the subset . 
+The detailed results can be accessed at http : //ucrel.lancs.ac.uk/textreuse/cleu.php It can be noticed that results of the manually translated sentence/passage pairs are better than machine translated ones in both binary and ternary classification tasks and across all experiments performed . 
+This shows that T+MA method could perform comparatively better provided it incorporates a good MT system . 
+Table 8 shows the confusion matrix ( columns=predicted , rows=actual instances ) for the Exp3 ternary classification experiment using GST‐mml1 method that reported best result overall ( see Table 6 ) . 
+The confusion matrix shows the misclassification of 432 NC and 510 IW as PC . 
+This makes PC the most problematic class for the three‐class problem and indicates that it is difficult to discriminate between NC‐PC and PC‐IW pairs . 
+Therefore , for ternary classification , the overall results were low . 
+Cross‐language text reuse detection has recently gained a lot of interest because of the rapid increase in multi‐lingual content being readily available online . 
+However , for the development of state‐of‐the‐art cross‐language text reuse detection methods , a major bottleneck is the unavailability of standard evaluation resources containing real cases of text reuse , especially when one of the languages ( e.g. , Urdu ) is highly under‐resourced in general . 
+In this paper , we address this issue by contributing the first cross‐language text reuse corpus for the English‐Urdu language pair with real examples of reuse . 
+The corpus contains sentence/passages collected from the news domain and manually tagged into one of the three classes ( i.e. , NC , PC , and IW ) depending on the amount of adaptation . 
+The source text is from the news agency articles in English language whereas the derived text extracted from the newspapers is in the Urdu language . 
+We described the linguistic properties of such text reuse for the first time and compared related frequencies in a taxonomy of ten transformation types . 
+In addition , we applied three sets of experiments using the popular T+MA cross‐language text reuse detection method on the developed dataset . 
+Evaluation results indicated that lower values of n ( for Word n‐gram overlap , best f1=0.732 binary classification ) and mml1 ( for GST , best f1=0.552 ternary classification ) are the most fruitful in text reuse detection experiments on our corpus . 
+Our results ( best f1=0.552 ) also showed that the T+MA method applied cross‐lingually is less accurate than in the mono‐lingual case ( METER corpus best f 1 =0.664 ) and less accurate with real reuse compared to simulated reuse ( CL ! 
+TR corpus best f 1 =0.600 ) . 
+Furthermore , our experiments also revealed that text preprocessing operations that is , stop words removal and stemming have a positive effect on cross‐language text reuse detection . 
+In the future , we plan to apply other state‐of‐the‐art cross‐language text reuse detection methods which work on the semantics of the text rather than the surface level to better capture the details of real cases of cross‐language text reuse . 

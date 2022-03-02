@@ -1,0 +1,130 @@
+Transactive memory was measured using four Likert‐scaled items from Peltokorpi ( 2004 ) . 
+These items reflect relational social capital . 
+For example one of the items reads “ I know who is assigned to what task in my company. ” Knowing this information about a coworker implies some degree of prior relationship with the individual in question . 
+The degree to which an individual acts as a boundary spanner was measured using two Likert‐scaled items from Keller and Holland ( 1975 ) . 
+These items reflect structural social capital by capturing information about others seeking information from them , and their seeking information from others . 
+Transactive memory and boundary spanning are personal characteristics and are only measured once for each respondent . 
+Source use was measured using items created by Zimmer et al . 
+( 2008 ) and the scale was comprised of four items . 
+Finally , information type was measured using a three item semantic differential scale from Zimmer and Henry ( 2007 ) . 
+This represents the cognitive dimension of social capital because of the understanding between interacting partners that develops when sharing complex knowledge . 
+All items are shown in Appendix B . 
+Data were collected from MBA students at two large Southeastern universities in the United States . 
+Only respondents who were currently working in information intensive occupations were allowed to participate . 
+The use of part‐time evening students also provides a sample from an array of organizations that makes it reasonable to generalize the findings more broadly to a working professional . 
+All respondents were assured their responses would remain anonymous and they did not have to provide their names . 
+Of the approximately 500 students invited to participate , 204 met the employment criterion and chose to participate representing a response rate of 40.8 % . 
+In this section , we present general demographic information about the sample followed by the tests of our hypotheses . 
+Demographic information about the respondents is presented in Table 2 . 
+As can be seen , most respondents were in their 20s and befitting a sample predominantly in that age range , most were in the beginnings of their career having been with their particular organization for 5 years or less . 
+Additionally , most worked for a small‐ or medium‐sized organization , though a third of respondents worked for firms with over 1,000 individuals . 
+Finally almost half of the respondents identified themselves as managers whereas the rest reported that they were technically oriented ( e.g. , programmer , analyst , systems administrator ) . 
+Partial least squares path modeling ( PLS‐PM ) was used to test the research hypotheses . 
+PLS‐PM is a structural equation modeling technique that tests both the structural and measurement models simultaneously ( Bollen , 1989 ) . 
+PLS‐PM is appropriate and preferred over other SEM techniques ( e.g. , LISREL ) when the research focus is on theory building ( Chwelos , Benbasat , & Dexter , 2001 ) . 
+Additionally , PLS‐PM has less stringent sample size requirements than a technique such as LISREL , and does not assume multivariate normality ( Qureshi & Compeau , 2009 ) . 
+The following analyses were performed using SmartPLS ( version 2.0 ) ( Ringle , Wende , & Will , 2005 ) . 
+Before the hypotheses were formally tested , the reliability and validity of the model were assessed . 
+Reliability was evaluated via the average variance extracted ( AVE ) and the composite reliability ( CR ) . 
+The AVE measures item variance relative to measurement error , and should be in excess of 0.50 in order to justify using the construct ( Barclay , Thompson , & Higgins , 1995 ; Fornell & Larcker , 1981 ) . 
+The CR is interpreted much like Cronbach 's α and a value in excess of 0.70 is considered acceptable for research ( Fornell & Larcker , 1981 ) . 
+As can be seen in Table 3 , all study constructs display adequate CRs and AVEs . 
+Evaluating convergent and discriminant validity was performed in three ways . 
+First , the correlations among the constructs were compared to the square root of the AVE . 
+If the square root of the AVE is greater than the correlations , discriminant validity is demonstrated ( Chin , 1998 ) . 
+The square root of the AVE is shown on the diagonal in Table 3 , and these values exceed all the off diagonal values . 
+The second method to assess validity is to examine the pattern of factor loadings . 
+Each item should load more highly on its own factor than the other factors ( Chin , 1998 ) . 
+Based on an exploratory factor analysis ( EFA ) with a varimax rotation , all items load on their own constructs with no evidence of any cross loading ( Tabachnick & Fidell , 2001 ) . 
+The results of the EFA are shown in Table 4 of Appendix A . 
+The final way to assess validity is to look at the item loadings on their respective factors . 
+Each item should significantly load on its respective factor . 
+Every item for every construct save one loaded significantly on its factor . 
+The largest p value for the items that significantly loaded on their factor was 0.006 . 
+The item loads are shown in Table 5 of Appendix A . 
+One of the information type items did not significantly load on the information type factor and its p value was 0.15 . 
+All subsequent analyses were conducted twice . 
+Once with the nonsignificant information type item included and once with it dropped . 
+None of the statistical analyses were impacted by including or dropping the item . 
+Based on that , it was decided to leave the information type scale with three items instead of dropping it to two items . 
+All items included on the survey can be seen in Appendix B . 
+Satisfied as to the reliability and validity of the study constructs ; the next section provides the results of the hypothesis testing . 
+PLS‐PM estimates path coefficients and then a bootstrapping procedure is used to calculate the t‐statistics , standard errors , and p‐values for the hypothesis tests ( Chin , 1998 ) . 
+The path coefficients are interpreted as those from a multiple regression , and the R2 is much the same , an indication of the amount of explained variance in the dependent construct ( Barclay et al. , 1995 ) . 
+The path coefficients and significance tests are shown in Figure 2 . 
+Hypothesis 1a tests the relationship between boundary spanning and quality , specifically that boundary spanners are better able to assess the quality of the information that is being considered for use . 
+Hypothesis 1a was supported . 
+Boundary spanning displayed a positive relationship with quality , β = 0.24 , t = 3.16 , p = 0.0008 , meaning that boundary spanners assess the information quality of information sources to be higher . 
+Hypothesis 1b tests the relationship between boundary spanning and accessibility , specifically that boundary spanners will rate interpersonal information sources as more accessible . 
+Hypothesis 1b was supported . 
+Boundary spanning displayed a positive relationship with accessibility , β = 0.19 , t = 3.71 , p = 0.0001 , meaning that boundary spanners view human information sources are more accessible . 
+Hypothesis 2a tests the relationship between content type and quality , specifically that when content that is more closely associated with knowledge on the data→information→knowledge continuum is required , seekers will have a more difficult time assessing its quality . 
+Hypothesis 2a was supported . 
+Information type displayed a negative relationship with information quality , β = 0.14 , t = 1.78 , p = 0.0375 , meaning that individuals seeking more explicit content evaluated interpersonal sources to be of higher quality . 
+Hypothesis 2b tests the relationship between content type and accessibility , specifically that more explicit sources will be more accessible than tacit sources . 
+Hypothesis 2b was not supported , β = 0.05 , t = 0.79 , p = 0.2148 . 
+One possible explanation for this finding is that when considering an array of sources , the type of information does not enter into the decision calculus . 
+Rather than considering if an interpersonal information source can provide the information in question , all that the seeker considers is whether the source is available . 
+Future research into the decision calculus individuals use in choosing sources is required in order to better understand why this relationship was not supported . 
+Hypothesis 3a tests the relationship between transactive memory and quality . 
+Hypothesis 3a was supported . 
+Transactive memory displayed a positive relationship with quality , β = 0.36 , t = 4.42 , p < 0.0001 , meaning that individuals with well‐developed transactive memories evaluate the quality of an interpersonal information source to be higher . 
+Hypothesis 3b tests the relationship between transactive memory and accessibility , specifically that individuals with a well‐developed transactive memory will view interpersonal sources as more accessible . 
+Hypothesis 3b was supported . 
+Transactive memory displayed a positive relationship with accessibility , β = 0.20 , t = 4.96 , p < 0.0001 ; meaning that those with well‐developed transactive memories view interpersonal sources as more readily accessible . 
+Hypothesis 4 tests the relationship between quality and interpersonal source use . 
+Confirming previous research ( O'Reilly , 1982 , 1983 ; Zimmer et al. , 2008 ) , Hypothesis 4 was supported . 
+Quality was positively related to source use , β = 0.44 , t‐5.75 , p < 0.0001 , suggesting that individuals prefer to use higher quality interpersonal information sources . 
+Hypothesis 5 tests the relationship between accessibility and source selection . 
+Older research often found support for the relationship between accessibility and source use ( Gerstenberger & Allen , 1968 ; Hardy , 1982 ; O'Reilly , 1982 ) , however more recent research has seen this relationship go unsupported ( Xu , Tan , & Yang , 2006 ; Zimmer et al. , 2008 ) . 
+As with these more recent studies , this relationship was not supported , β = 0.03 , t = 0.36 , p = 0.36 . 
+A possible explanation that reconciles these findings lies in the definition of “ information sources. ” The older studies focused on nonhuman information sources such as books , magazines , and trade journals . 
+The more recent studies , including this one , focused on interpersonal information sources . 
+An avenue for future research could be to explicitly compare the differences in how information seekers ' search strategies change when consulting human sources versus consulting nonhuman sources . 
+Early research into this area demonstrates that there are some differences ( Zimmer et al. , 2008 ) , however more work still needs to be done . 
+Another possible explanation for these findings involves how information communication technologies ( ICTs ) have influenced how individuals find and exchange information . 
+Early studies found that individuals preferred human information sources ( Allen , 1984 ; Gerstenberger & Allen , 1968 ) . 
+At the time , interpersonal communication was largely limited to face‐to‐face contact or telephone contact . 
+Today ICTs have revolutionized how individuals can interact . 
+Future research should investigate how individuals leverage these technologies to acquire and share information . 
+This study explored the effects of social capital on the use of interpersonal sources . 
+Although quality and accessibility have long been theorized to impact source selection ( Culnan , 1985 ; O'Reilly , 1982 ) , the role of accessibility has demonstrated mixed results ( Allen , 1984 ; Gerstenberger & Allen , 1968 ; Woudstra et al. , 2012 ; Zimmer et al. , 2008 ) . 
+These results , focusing exclusively on interpersonal information sources , support recent findings in which the role of accessibility has been called into question ( Woudstra et al. , 2012 ; Zimmer et al. , 2008 ) . 
+Whether accessibility being a nonissue is the result of the increased availability of interpersonal sources because of the impact of communication technologies is an avenue future research should explore . 
+This is a critical distinction between having the ability to access another source versus choosing to access another source . 
+Several major process models of information search , all in some way or another , address this choice process in formulating which source to further investigate ( Bates , 1989 ; Ellis , 1989 ; Fidell & Soergel , 1983 ; Kuhlthau , 1991 ; Vakkari , 2001 ) . 
+Hence , if a source is not on that list , it has no chance of being selected for use . 
+Future research should further investigate the impact of accessibility and its impact on the decision calculus of selecting potential sources . 
+Unlike accessibility , quality did display a significant relationship with source selection . 
+These results suggest that for interpersonal sources use is primarily based on perceptions of quality . 
+This supports previous work in the information search domain ( O'Reilly , 1982 ; Vakkari , 1999 ; Woudstra et al. , 2012 ; Zimmer et al. , 2008 ) . 
+It should also come as a relief to source designers and organizational managers that individuals base their decision to use an interpersonal information source on quality instead of satisficing between quality and accessibility in their decision making . 
+These findings could suggest that individuals leverage their interpersonal network and then select individuals who they feel will provide the best quality information instead of trading that off against how easily they can get to another . 
+An important caveat of these findings is they apply only to interpersonal information sources . 
+Future research needs to extend these findings . 
+One of the premises of a computer as a social actor has been to make interacting with technology more like interacting with another individual ( Moon , 2000 ) . 
+Can impersonal information sources be designed in such a way that individuals perceive of them no differently than interpersonal sources ? 
+If that is indeed the case , then the next question is , do individuals source information from these “ hybrid ” sources like they do from purely interpersonal sources ? 
+These are two interesting avenues for future research . 
+This study investigated the three dimensions of social capital and their impact on perceptions of information quality and source accessibility . 
+As discussed , boundary spanning corresponds to the structural dimension of social capital , content type corresponds to the cognitive dimension , and transactive memory corresponds to the relational dimension . 
+This conceptualization differs from previously published work ( e.g. , Woudstra et al. , 2012 ) , by focusing on social capital as an antecedent of perceptions of quality and accessibility . 
+By developing a better understanding of how individuals determine the quality and accessibility of interpersonal information sources , organizations can better manage and utilize their human capital , and by extension help social capital better develop within the organization . 
+As expected , boundary spanning displayed a significant relationship with both quality and accessibility . 
+A boundary spanner is an individual who has developed significant ties with others , both within and between organizations . 
+These ties allow for the sharing of information across organizational boundaries . 
+The structural and cognitive aspects of boundary spanning—having the network ties and having developed a shared language with others—make interpersonal information sources more accessible . 
+By the same token , those network ties and shared experiences also make it easier for an information seeker to judge the quality of the information that is being shared . 
+Boundary spanners engage in several different roles , ambassadors and task coordinators in particular are roles that require ongoing relations with significant others to acquire information , resources , and support to address current requirements ( Ancona & Caldwell , 1992 ; Faraj & Yan , 2009 ) . 
+These relationships that boundary spanners have with other individuals fulfill the relational dimension of social capital . 
+Norms and obligations may also develop over time that help boundary spanners assess the quality of the information being provided . 
+Content type , which corresponds to the cognitive dimension of social capital , displayed mixed results . 
+With regards to quality , information type was negatively related to quality , meaning that perceived quality was lower for more tacit content . 
+Knowledge that can be easily codified and transferred should not only be more easily judged in terms of quality , but the process through which the knowledge was created more commonly understood . 
+These explicit narratives and experiences facilitate information transfer , whereas tacit knowledge remains more difficult to transfer . 
+Content type displayed no relationship with accessibility . 
+Nahapiet and Ghoshal ( 1998 ) argue that when individuals have a shared background it should make them more readily accessible to one another . 
+However we do not find the cognitive dimension 's impact on accessibility . 
+Organizational members typically have a shared history and narratives with one another . 
+It may be that those from outside this shared history are not viewed as “ inaccessible ” but rather as “ nonexistent. ” Whether or not this is included in the decision calculus to access a particular source should be investigated in future research . 
+Another explanation for this finding could be a lack of statistical power . 

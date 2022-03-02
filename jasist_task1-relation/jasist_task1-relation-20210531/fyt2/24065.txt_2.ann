@@ -1,0 +1,28 @@
+T1	表 0 100	Distribution of codes on element importance in the general public user group is presented in Table 5
+T2	表 1306 1544	Tables 6 and 7 present the code distributions in the two user groups regarding their opinions on the capacity of each metadata element in supporting the searching , browsing , and organizing of information of murals and stone cave temples
+T3	表 4931 5054	Other issues , presented in Table 3 , including interoperability and difficulty in cataloging , were each commented on once
+T4	引文作者 7242 7247	Abbas
+T5	引文时间 7257 7261	2016
+T7	引文作者 8033 8037	Amin
+T8	引文作者 8040 8046	Nispen
+T9	引文时间 8049 8053	2008
+T10	引文的结果 7928 8030	studies that found experts of cultural heritage preferred reputable online sources over search engines
+T11	引文作者 12242 12250	Waterton
+T12	引文作者 12253 12259	Watson
+T13	引文时间 12262 12266	2010
+T15	研究结果 15140 15300	Improvements in the metadata elements informed by users ’ information‐seeking practices would also enhance the overall quality of the metadata schema as a whole
+T16	研究结果 15399 15655	Based on the results , a clear definition of the proposed metadata elements and removal of redundant elements are suggested for minimizing confusion among users , especially when these elements cause confusion in both professional and general public groups
+T17	研究结果 15660 15763	Cataloging rules are necessary and integrated parts of metadata schemas , and need to be developed soon
+T18	研究结果 15768 15849	Controlled vocabularies are also necessary for ensuring consistency in cataloging
+T19	研究结果 15854 15942	The draft metadata schema refers to existing controlled vocabularies as much as possible
+T20	研究结果 15947 16162	However , for cultural heritages such as murals and stone cave temples , more controlled vocabularies need to be developed and/or refined to describe their unique construction techniques , materials , and structures
+T21	研究结果 16167 16378	Interoperability allows different information systems or platforms to exchange and integrate data so that information resources can be shared and enriched under limited financial , technical , or human resources
+T22	研究结果 16383 16538	A higher interoperability could enhance the experience of different types of users from the multidisciplinary environments of cultural heritage information
+T23	研究展望 18708 18849	As a qualitative study , this work was limited by the small sample of participants , and thus the results are not intended for generalization
+T24	研究展望 18854 18922	Future studies will continue evaluation of the draft metadata schema
+T25	研究展望 18927 19044	A larger‐scale study with quantitative data ( for example , surveys ) is needed to obtain more generalizable findings
+R1	coauthor Arg1:T11 Arg2:T12	
+R2	has_cited_time Arg1:T13 Arg2:T12	
+R3	coauthor Arg1:T7 Arg2:T8	
+R4	has_cited_time Arg1:T9 Arg2:T8	
+R5	has_cited_time Arg1:T5 Arg2:T4	

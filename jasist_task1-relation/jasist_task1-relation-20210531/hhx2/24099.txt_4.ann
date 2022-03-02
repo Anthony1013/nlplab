@@ -1,0 +1,151 @@
+T1	时间 322 331	July 2016
+T2	时间 780 784	2014
+T3	时间 805 809	2010
+T4	引文时间 1439 1443	2011
+T5	引文作者 1416 1419	Han
+T6	引文作者 1422 1425	Pei
+T7	引文作者 1430 1436	Kamber
+T8	时间 1986 1990	2007
+T9	时间 1993 1997	2008
+T10	时间 2004 2008	2009
+T11	时间 2128 2132	2016
+T12	时间 2288 2300	October 2017
+T13	时间 2715 2727	October 2017
+T14	时间 2809 2813	2015
+T15	时间 2837 2841	2012
+T16	时间 3189 3198	July 2016
+T17	引文作者 3634 3639	Hsieh
+T18	引文时间 3652 3656	2014
+T19	图 3937 4072	Figures 2 and 3 present the prediction of value change of a user in our data set by using both the ARIMA and LSTM models , respectively
+T20	具体模型 4036 4041	ARIMA
+T21	具体模型 4046 4050	LSTM
+T22	图 4077 4210	Figure 5 presents the prediction of value change using the proposed hybrid model by combining both the ARIMA model and the LSTM model
+T23	具体模型 4180 4185	ARIMA
+T24	具体模型 4200 4204	LSTM
+T25	表 4215 4358	Table 1 presents that our hybrid model can accurately capture the changes for self‐transcendence , openness‐to‐change , and conservation values
+T26	具体模型 4471 4474	HMM
+T27	具体模型 4528 4531	HMM
+T28	具体模型 4800 4805	ARIMA
+T29	具体模型 4966 4970	LSTM
+T30	表 5217 5314	Table 2 shows that our hybrid model performs better than other value change prediction techniques
+T31	引文作者 5692 5696	Chen
+T32	引文时间 5709 5713	2014
+T33	表 5718 5819	we find weak prediction potential ( according to Table 3 ) for the self‐enhancement value ( 10.23 % )
+T34	引文作者 6131 6137	Hughes
+T35	引文作者 6140 6144	Rowe
+T36	引文作者 6147 6152	Batey
+T37	引文作者 6157 6160	Lee
+T38	引文时间 6163 6167	2012
+T39	引文作者 6800 6807	Golbeck
+T40	引文时间 6820 6824	2011
+T41	引文时间 7139 7143	2009
+T42	引文时间 7161 7165	2013
+T43	引文时间 7179 7183	2003
+T44	引文作者 7124 7129	Bardi
+T45	引文作者 7146 7151	Myyry
+T46	引文作者 7168 7176	Schwartz
+T47	引文作者 7327 7335	Schwartz
+T48	引文时间 7338 7342	2005
+T49	引文作者 7363 7367	Boyd
+T50	引文时间 7380 7384	2015
+T51	引文作者 7607 7611	Chen
+T52	引文时间 7624 7628	2014
+T53	引文作者 7760 7764	Boyd
+T54	引文时间 7777 7781	2015
+T55	引文时间 7943 7947	2014
+T56	引文作者 7926 7930	Chen
+T57	引文作者 8223 8227	Boyd
+T58	引文时间 8240 8244	2015
+T59	引文作者 8612 8617	Bardi
+T60	引文作者 8634 8642	Blonigen
+T61	引文作者 8645 8652	Carlson
+T62	引文作者 8655 8660	Hicks
+T63	引文作者 8663 8670	Krueger
+T64	引文作者 8675 8681	Iacono
+T65	引文作者 8691 8700	Steinberg
+T66	引文作者 8703 8709	Morris
+T67	引文时间 8712 8716	2001
+T68	引文时间 8684 8688	2008
+T69	引文时间 8627 8631	2009
+T70	引文作者 8793 8798	Bardi
+T71	引文时间 8811 8815	2009
+T72	引文作者 9008 9017	Steinberg
+T73	引文作者 9022 9028	Morris
+T74	引文时间 9031 9035	2001
+T75	引文作者 9222 9230	Blonigen
+T76	引文时间 9243 9247	2008
+T77	引文作者 9439 9444	Tufft
+T78	引文时间 9447 9451	2015
+T79	表 9680 9792	We find limited prediction potential for the hedonism and self‐enhancement value dimensions according to Table 3
+T80	具体模型 10854 10857	HMM
+T81	具体模型 10861 10867	ARIMA‐
+T82	具体模型 10874 10878	LSTM
+T83	研究方法 43 137	We prepare a questionnaire to find out the movie preferences of these users through interviews
+T84	研究方法 1394 1469	We used the min‐max ( Han , Pei , & Kamber , 2011 ) normalization technique
+T85	引文的结果 5913 6128	People with a high score in the self‐enhancement value dimension have less propensity to share information in the social media frequently , as social media fosters procrastination and distracts from other activities
+T86	引文的研究问题 6829 6930	the authors successfully predicted personality from Facebook with a sample size of 279 Facebook users
+T87	引文的结果 7216 7324	Researchers show that PVQ has good internal reliabilities with the original Schwartz 's Value Survey ( SVS )
+T88	引文的结果 7387 7518	show that a value survey‐based approach has limitations ; for instance , people may not truly represent themselves in a self‐report
+T89	研究方法 7633 7745	we also infer values from the languages by using a trained model that is built based on the ground truth surveys
+T90	引文的方法 7784 7936	used an open vocabulary‐based approach using the self‐descriptive values , behavior , and SVS while inferring values from languages , whereas Chen et al
+T91	引文的方法 7950 8007	used a closed vocabulary‐based approach by using PVQ only
+T92	研究方法 8012 8166	We assume that both approaches are parallel in inferring value dimensions from languages and we chose the closed vocabulary‐based approach in this article
+T93	引文的结果 8582 8788	A few psychological studies ( Bardi et al. , 2009 ; Blonigen , Carlson , Hicks , Krueger , & Iacono , 2008 ; Steinberg & Morris , 2001 ) show that values and ethical behavior change between the age of 15–25
+T94	引文的结果 8818 9003	describe that an appropriate time to investigate the value change is adolescence , because we observe important changes such as biological , cognitive , and social in this stage of life
+T95	引文的结果 9038 9198	show that during adolescence , people adapt different psychological changes due to their relation with parents , puberty , self‐development , and peer relations
+T96	引文的结果 9252 9320	the authors show that personality might change from the age 17 to 24
+T97	引文的结果 9419 9504	In a recent study , Tufft ( 2015 ) also states that adulthood begins at the age of 25
+T98	研究问题 10264 10380	In this study we investigated whether the change of value priorities can be identified from social network word uses
+T99	研究方法 10385 10497	We proposed a weighted hybrid time‐series‐based machine‐learning model to capture the change of values of a user
+T100	研究方法 10502 10664	We built our value model with 388 Facebook users and validated the efficacy of the proposed technique through a questionnaire with 237 Facebook users in real life
+T101	研究结果 10669 10891	In our experiments , we found that our hybrid model accurately captures the value priority changes from the social network usage and achieved significantly higher accuracy than that of HMM‐ , ARIMA‐ , and LSTM‐based models
+T102	研究问题 10896 11007	We also presented an experiment on how the change of values relates to our decision‐making process in real life
+T103	研究展望 11144 11349	The outcome of this work can be applied to many practical applications , such as predicting transition of business strategies , change of colleges or degrees , detection of lifestyle changes , and so forth
+T104	研究展望 11354 11439	In the future , we plan to investigate the value changes among different demographics
+T105	研究展望 11444 11706	We would also like to identify the factors such as actors ( for instance , friends ) , social structure ( for instance , school and workplace ) , and important events ( for instance , demise of a family member ) that may influence a value change of an individual
+R1	coauthor Arg1:T5 Arg2:T6	
+R2	coauthor Arg1:T6 Arg2:T7	
+R3	has_cited_time Arg1:T4 Arg2:T7	
+R4	has_cited_time Arg1:T18 Arg2:T17	
+R5	has_cited_time Arg1:T32 Arg2:T31	
+R6	coauthor Arg1:T34 Arg2:T35	
+R7	coauthor Arg1:T35 Arg2:T36	
+R8	coauthor Arg1:T36 Arg2:T37	
+R9	has_cited_time Arg1:T38 Arg2:T37	
+R10	results Arg1:T34 Arg2:T85	
+R11	has_cited_time Arg1:T40 Arg2:T39	
+R12	produces Arg1:T39 Arg2:T86	
+R13	has_cited_time Arg1:T41 Arg2:T44	
+R14	has_cited_time Arg1:T42 Arg2:T45	
+R15	has_cited_time Arg1:T43 Arg2:T46	
+R16	field_similar_as Arg1:T46 Arg2:T45	
+R17	field_similar_as Arg1:T45 Arg2:T44	
+R18	has_cited_time Arg1:T48 Arg2:T47	
+R19	results Arg1:T47 Arg2:T87	
+R20	has_cited_time Arg1:T50 Arg2:T49	
+R21	results Arg1:T49 Arg2:T88	
+R22	has_cited_time Arg1:T52 Arg2:T51	
+R23	has_cited_time Arg1:T54 Arg2:T53	
+R24	uses Arg1:T53 Arg2:T90	
+R25	has_cited_time Arg1:T55 Arg2:T56	
+R26	uses Arg1:T56 Arg2:T91	
+R27	has_cited_time Arg1:T58 Arg2:T57	
+R28	has_cited_time Arg1:T69 Arg2:T59	
+R29	coauthor Arg1:T60 Arg2:T61	
+R30	coauthor Arg1:T61 Arg2:T62	
+R31	coauthor Arg1:T62 Arg2:T63	
+R32	coauthor Arg1:T63 Arg2:T64	
+R33	has_cited_time Arg1:T68 Arg2:T64	
+R34	coauthor Arg1:T65 Arg2:T66	
+R35	has_cited_time Arg1:T67 Arg2:T66	
+R36	field_similar_as Arg1:T65 Arg2:T60	
+R37	field_similar_as Arg1:T60 Arg2:T59	
+R38	has_cited_time Arg1:T71 Arg2:T70	
+R39	results Arg1:T70 Arg2:T94	
+R40	coauthor Arg1:T72 Arg2:T73	
+R41	has_cited_time Arg1:T74 Arg2:T73	
+R42	results Arg1:T72 Arg2:T95	
+R43	has_cited_time Arg1:T76 Arg2:T75	
+R44	results Arg1:T75 Arg2:T96	
+R45	has_cited_time Arg1:T78 Arg2:T77	
+R46	results Arg1:T77 Arg2:T97	

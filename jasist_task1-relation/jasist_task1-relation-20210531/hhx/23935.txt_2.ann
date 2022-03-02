@@ -1,0 +1,173 @@
+T1	表 410 546	Because the model is stochastic , we generate 20 networks with the same parameters , and compare their statistical indicators in Table 1
+T2	术语 584 590	robust
+T3	表 615 742	The indicator modularity in Table 1 shows that the same as the empirical networks , the modeled networks have clear communities
+T4	术语 1567 1611	bi‐level ( maybe multilevel ) hub structures
+T5	术语 2084 2106	bi‐level hub structure
+T6	术语 2271 2292	Coauthorship networks
+T7	术语 2314 2325	hypergraphs
+T8	术语 2349 2371	clustering coefficient
+T9	图 2795 2882	The distributions of component sizes are like those of the empirical data ( Figure 3a )
+T10	术语 2952 2970	power‐law function
+T11	表 2975 3160	The distributions of component sizes NC ( s ) and the average proportion of the largest cliques in s‐components ( components with size s ) LC ( s ) of the first four networks in Table 2
+T12	图 3436 3641	With the growth of research‐team‐sizes , some authors will stop writing , which causes the average proportion of the largest cliques in a component decreases with the growth of component size ( Figure 3b )
+T13	术语 3744 3764	degree distributions
+T14	术语 3768 3789	coauthorship networks
+T15	术语 3941 3960	generalized Poisson
+T16	术语 3965 3988	power‐law distributions
+T17	图 3869 4016	namely a hook head and a fat tail , which can be sufficiently fitted by generalized Poisson and power‐law distributions , respectively ( Figure 4 )
+T18	术语 4044 4063	generalized Poisson
+T19	术语 4073 4093	degree distributions
+T20	术语 4021 4134	The boundary points of generalized Poisson parts in degree distributions are detected by the algorithm in Table 2
+T21	术语 4188 4208	degree distributions
+T22	术语 4184 4248	The degree distributions of the first four networks in Table 2 .
+T23	术语 4255 4272	fitting functions
+T24	术语 4289 4308	generalized Poisson
+T25	术语 4313 4322	power‐law
+T26	术语 4281 4284	pdf
+T27	具体模型 4370 4374	RMSE
+T28	标准数据集 4487 4496	DBLP‐Math
+T29	标准数据集 4435 4439	PNAS
+T30	术语 4387 4406	generalized Poisson
+T31	术语 4419 4428	power‐law
+T32	术语 4452 4459	Poisson
+T33	术语 4471 4480	power‐law
+T34	术语 5375 5394	generalized Poisson
+T35	术语 5399 5408	power‐law
+T36	术语 6084 6105	binomial distribution
+T37	术语 6166 6186	Poisson distribution
+T38	术语 6199 6220	Poisson limit theorem
+T39	术语 6576 6608	generalized Poisson distribution
+T40	引文的结果 6611 6693	which allow the probability of an event 's occurrence to affect by previous events
+T41	引文作者 6696 6702	Consul
+T42	引文作者 6705 6709	Jain
+T43	引文时间 6712 6716	1973
+T44	术语 6946 6967	Poisson distributions
+T45	术语 7325 7339	power‐law tail
+T46	图 7411 7464	numerical evidences ( the blue diamonds in Figure 4 )
+T47	术语 7520 7550	empirical degree distributions
+T48	术语 7917 7947	empirical degree distributions
+T49	术语 8002 8009	Poisson
+T50	术语 8104 8124	Poisson distribution
+T51	术语 8215 8236	Poisson distributions
+T52	术语 8269 8287	power‐law function
+T53	术语 8328 8347	generalized Poisson
+T54	术语 8439 8448	hyperedge
+T55	术语 8545 8555	hyperedges
+T56	术语 8623 8632	hyperedge
+T57	术语 8671 8690	generalized Poisson
+T58	图 8560 8703	For the first case , the empirical data show that the heads of hyperedge size distributions are well fitted by generalized Poisson ( Figure 2 )
+T59	术语 8766 8775	hyperedge
+T60	术语 8805 8814	hyperedge
+T61	术语 8847 8879	generalized Poisson distribution
+T62	术语 8969 8978	hyperedge
+T63	术语 9184 9205	Poisson distributions
+T64	术语 9277 9297	mixture distribution
+T65	术语 9328 9360	generalized Poisson distribution
+T66	术语 9410 9419	power‐law
+T67	术语 9476 9486	hyperedges
+T68	术语 9622 9644	power‐law distribution
+T69	标准数据集 9693 9697	PNAS
+T70	术语 9719 9729	hyperedges
+T71	术语 9739 9761	power‐law distribution
+T72	图 9676 9790	For example , in PNAS , the sizes of large hyperedges follow a power‐law distribution with exponent ( Figure 2 ) .
+T73	术语 9844 9854	hyperedges
+T74	术语 9906 9928	power‐law distribution
+T75	图 9957 10011	the supposition is not fully established ( Figure 5b )
+T76	术语 10049 10059	lead nodes
+T77	术语 10268 10277	power‐law
+T78	术语 10315 10336	Poisson distributions
+T79	术语 10365 10383	power‐law function
+T80	术语 10413 10434	Poisson distributions
+T81	术语 10483 10501	power‐law function
+T82	术语 10595 10614	scale‐free property
+T83	图 10591 10740	the scale‐free property of the modeled networks is hidden in the diverse sizes , which is the reason for the remarkable data‐model fit ( Figure 4 ) .
+T84	术语 10852 10861	hyperedge
+T85	标准数据集 10953 10957	PNAS
+T86	时间 10958 10967	1999–2013
+T87	术语 11229 11249	generating power‐law
+T88	术语 11255 11262	Poisson
+T89	数学公式 11315 11329	Equation ( 6 )
+T90	引文的结果 11199 11417	The mathematical deduction of generating power‐law from Poisson is proposed in Appendix , where the calculations in Equation ( 6 ) are inspired by some of the same general ideas as explored in the cosmological networks
+T91	引文作者 11420 11428	Krioukov
+T92	引文时间 11438 11442	2012
+T93	术语 11510 11517	Poisson
+T94	术语 11522 11531	power‐law
+T95	术语 11552 11562	scale‐free
+T96	术语 11591 11606	power‐law tails
+T97	术语 11632 11639	Poisson
+T98	术语 11716 11737	coauthorship networks
+T99	术语 11833 11840	Poisson
+T100	术语 11844 11853	power‐law
+T101	标准数据集 11867 11876	DBLP‐Math
+T102	标准数据集 11890 11894	PNAS
+T103	图 11813 11907	The transition from Poisson to power‐law is smooth in DBLP‐Math , but not in PNAS ( Figure 4 )
+T104	标准数据集 12054 12058	PNAS
+T105	图 12024 12106	Authors with large degrees in PNAS partly come from large paper teams ( Figure 5 )
+T106	标准数据集 12113 12122	DBLP‐Math
+T107	数学公式 12393 12407	Equation [ 1 ]
+T108	术语 12606 12621	global features
+T109	术语 12628 12668	positive Pearson correlation coefficient
+T110	术语 12720 12740	degree assortativity
+T111	术语 12752 12781	global clustering coefficient
+T112	术语 12928 12948	degree assortativity
+T113	引文的结果 12899 13037	A general interpretation for degree assortativity of social networks is the homophily of nodes , namely similar people attract one another
+T114	引文作者 13040 13046	Newman
+T115	引文时间 13049 13053	2002
+T116	术语 13184 13213	global clustering coefficient
+T117	术语 13463 13499	average local clustering coefficient
+T118	术语 13504 13527	average neighbor degree
+T119	术语 13588 13606	Degree correlation
+T120	引文的结果 13588 13646	Degree correlation can be measured by the slope of N ( k )
+T121	术语 13549 13556	C ( k )
+T122	术语 13561 13568	N ( k )
+T123	术语 13639 13646	N ( k )
+T124	引文作者 13649 13664	Pastor‐Satorras
+T125	引文作者 13667 13674	Vázquez
+T126	引文作者 13679 13689	Vespignani
+T127	引文时间 13692 13696	2001
+T128	术语 13883 13890	C ( k )
+T129	术语 13895 13902	N ( k )
+T130	图 13852 13944	There exist transitions in the C ( k ) and N ( k ) of the empirical data ( Figures 6 and 7 )
+T131	表 13949 14029	The tipping points of those functions are detected by the algorithm in Table 3 .
+T132	术语 14047 14054	C ( k )
+T133	术语 14056 14063	N ( k )
+T134	术语 14126 14133	C ( k )
+T135	术语 14138 14145	N ( k )
+T136	标准数据集 14199 14203	PNAS
+T137	术语 14355 14362	C ( k )
+T138	标准数据集 14366 14375	DBLP‐Math
+T139	术语 14488 14516	local clustering coefficient
+T140	术语 14552 14588	average local clustering coefficient
+T141	表 14532 14635	The panels show the average local clustering coefficient of k‐degree nodes for four networks in Table 2
+T142	具体模型 14659 14663	RMSE
+T143	标准数据集 14710 14714	PNAS
+T144	标准数据集 14731 14740	DBLP‐Math
+T145	表 14866 14963	The panels show k‐degree nodes ' average degree of their neighbors for four networks in Table 2 ,
+T146	具体模型 14985 14989	RMSE
+T147	标准数据集 15037 15041	PNAS
+T148	标准数据集 15056 15065	DBLP‐Math
+T149	术语 15169 15176	C ( k )
+T150	术语 15311 15318	N ( k )
+T151	标准数据集 15405 15409	PNAS
+T152	标准数据集 15414 15423	DBLP‐Math
+T153	术语 15478 15485	C ( k )
+T154	术语 15490 15497	N ( k )
+T155	术语 15639 15672	low local clustering coefficients
+T156	术语 15797 15804	N ( k )
+T157	术语 16138 16167	local clustering coefficients
+T158	术语 16765 16794	local clustering coefficients
+T159	标准数据集 17215 17219	PNAS
+T160	标准数据集 17224 17232	Sub‐PNAS
+T161	图 17137 17261	the correlation coefficients in the large k‐regions are −0.025 and −0.045 for PNAS and Sub‐PNAS , respectively ( Figure 8a )
+T162	术语 17578 17606	local clustering coefficient
+R1	results Arg1:T41 Arg2:T40	
+R2	coauthor Arg1:T41 Arg2:T42	
+R3	has_cited_time Arg1:T43 Arg2:T42	
+R4	has_cited_time Arg1:T92 Arg2:T91	
+R5	results Arg1:T91 Arg2:T90	
+R6	has_cited_time Arg1:T115 Arg2:T114	
+R7	results Arg1:T114 Arg2:T113	
+R8	coauthor Arg1:T124 Arg2:T125	
+R9	coauthor Arg1:T125 Arg2:T126	
+R10	has_cited_time Arg1:T127 Arg2:T126	
+R11	results Arg1:T124 Arg2:T120	

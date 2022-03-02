@@ -1,0 +1,438 @@
+T1	术语 0 16	Digital metadata
+T2	术语 22 38	metadata records
+T3	术语 274 290	metadata records
+T4	术语 488 504	metadata records
+T5	引文的结果 509 627	Digital libraries are looking for new ways to expand their user groups and provide new services to broader communities
+T6	引文作者 630 637	Diekema
+T7	引文时间 640 644	2012
+T8	引文作者 647 653	Purday
+T9	引文时间 656 660	2012
+T10	术语 710 750	Multilingual Information Access ( MLIA )
+T11	引文的结果 667 854	One method of achieving this is to provide Multilingual Information Access ( MLIA ) , which enables users to search , browse , discover , and use information in their own native languages
+T12	引文作者 857 863	Peters
+T13	引文作者 866 875	Braschler
+T14	引文作者 880 886	Clough
+T15	引文时间 889 893	2012
+T16	引文作者 903 907	Chen
+T17	引文时间 910 914	2016
+T18	术语 929 933	MLIA
+T19	术语 1207 1211	MLIA
+T20	术语 1279 1295	metadata records
+T21	术语 1528 1532	MLIA
+T22	术语 1708 1712	MLIA
+T23	术语 1871 1875	MLIA
+T24	引文的结果 1886 1938	describing digital images using bilingual taxonomies
+T25	引文作者 1941 1947	Ménard
+T26	引文时间 1950 1954	2012
+T27	引文的结果 1959 2000	mapping vocabulary in different languages
+T28	引文作者 2003 2011	Matusiak
+T29	引文作者 2014 2018	Meng
+T30	引文作者 2021 2028	Barczyk
+T31	引文作者 2033 2037	Shih
+T32	引文时间 2040 2044	2015
+T33	引文的结果 2052 2111	combining machine translation with domain‐specific lexicons
+T34	引文作者 2114 2119	Jones
+T35	引文作者 2122 2129	Fantino
+T36	引文作者 2132 2138	Newman
+T37	引文作者 2143 2148	Zhang
+T38	引文时间 2151 2155	2008
+T39	术语 2226 2242	metadata records
+T40	引文的结果 2162 2361	Machine translation ( MT ) , which automatically translates the metadata records from one language to other languages , has also been used in Cross‐Language Information Retrieval ( CLIR ) experiments
+T41	术语 2304 2349	Cross‐Language Information Retrieval ( CLIR )
+T42	引文作者 2364 2369	Sakai
+T43	引文时间 2379 2383	2008
+T44	引文作者 2386 2390	Oard
+T45	引文作者 2393 2395	He
+T46	引文作者 2400 2404	Wang
+T47	引文时间 2407 2411	2008
+T48	术语 2558 2562	MLIA
+T49	引文作者 2590 2594	Chen
+T50	引文作者 2597 2601	Ding
+T51	引文作者 2604 2609	Jiang
+T52	引文作者 2616 2623	Knudson
+T53	引文时间 2626 2630	2012
+T54	引文的结果 2633 2778	experimented with three online MT systems that translated metadata records and found that MT performance of these records could stand improvement
+T55	术语 2691 2707	metadata records
+T65	研究问题 3027 3195	The purpose of this study was to explore methodologies for developing effective and efficient MT systems for translating English metadata records into other languages .
+T66	术语 3121 3123	MT
+T67	引文的结果 3243 3345	direct translation , rule‐based MT , and corpus‐based MT , each with relative strengths and weaknesses
+T68	引文作者 3348 3356	Tripathi
+T69	引文作者 3359 3366	Sarkhel
+T70	引文时间 3369 3373	2010
+T71	术语 3230 3232	MT
+T72	术语 3275 3277	MT
+T73	术语 3297 3299	MT
+T74	术语 3483 3499	parallel corpora
+T75	术语 3515 3517	MT
+T76	引文的结果 3547 3657	Corpus‐based MT can be further categorized into example‐based MT , statistical MT , and deep‐learning‐based MT
+T77	术语 3560 3562	MT
+T78	术语 3609 3611	MT
+T79	术语 3626 3628	MT
+T80	术语 3655 3657	MT
+T56	术语 2162 2188	Machine translation ( MT )
+T57	术语 2436 2438	MT
+T58	术语 2524 2526	MT
+T59	术语 2723 2725	MT
+T60	术语 2664 2666	MT
+T61	术语 2802 2804	MT
+T62	术语 2858 2860	MT
+T63	术语 2891 2893	MT
+T64	术语 2963 2965	MT
+T81	术语 3729 3731	MT
+T82	引文作者 3660 3665	Zhang
+T83	引文作者 3668 3673	Zhong
+T84	引文时间 3676 3680	2016
+T85	术语 3951 3953	MT
+T86	术语 3914 3916	MT
+T87	引文的结果 3967 4088	These services have helped web users to overcome language barriers , and to understand and use more information resources
+T88	引文作者 4091 4098	Gaspari
+T89	引文时间 4101 4105	2004
+T90	引文作者 4108 4112	Chen
+T91	引文作者 4115 4118	Bao
+T92	引文时间 4121 4125	2009
+T93	术语 4151 4153	MT
+T94	术语 4190 4192	MT
+T95	术语 4252 4254	MT
+T96	术语 4307 4309	MT
+T97	引文作者 4430 4435	Koehn
+T98	引文时间 4445 4449	2007
+T99	软件工具 4334 4339	Moses
+T100	术语 4425 4427	MT
+T101	术语 4482 4484	MT
+T102	术语 4495 4527	Multi‐Engine Machine Translation
+T103	术语 4533 4537	MEMT
+T104	引文的结果 4542 4733	This is the practice of utilizing more than one MT processor and combining the translation results into a single output or a ranked list of best candidate outputs , which has proven effective
+T105	术语 4590 4592	MT
+T106	引文作者 4736 4744	Heafield
+T107	引文作者 4747 4752	Lavie
+T108	引文时间 4755 4759	2010
+T109	引文作者 4762 4767	Roxas
+T110	引文时间 4777 4781	2008
+T111	引文作者 4784 4793	Nirenburg
+T112	引文作者 4796 4807	Frederlcing
+T113	引文时间 4810 4814	1994
+T114	术语 4821 4825	MEMT
+T115	术语 4882 4884	MT
+T116	引文作者 5088 5091	Ren
+T117	引文作者 5096 5099	Shi
+T118	引文时间 5102 5106	2002
+T119	引文的研究问题 5109 5203	used MEMT by combining four MT processors to improve the success rate and quality of dialog MT
+T120	术语 5247 5251	MEMT
+T121	术语 5294 5296	MT
+T122	研究方法 5208 5305	In this study , we applied the idea of MEMT by combining results from multiple online MT services
+T123	术语 5328 5330	MT
+T124	术语 5368 5372	MEMT
+T125	引文的结果 5441 5509	The topic of metadata evaluation has received considerable attention
+T126	引文作者 5512 5519	Hillman
+T127	引文时间 5522 5526	2008
+T128	引文作者 5529 5538	Robertson
+T129	引文时间 5541 5545	2005
+T130	术语 5618 5638	monolingual metadata
+T131	术语 5696 5698	MT
+T132	术语 5724 5732	metadata
+T133	术语 5751 5753	MT
+T134	引文的研究问题 5737 5858	Evaluation of MT has long been considered an important task , and has been addressed in numerous studies and publications
+T135	引文作者 5861 5865	Hovy
+T136	引文作者 5868 5872	King
+T137	引文作者 5877 5890	Popescu‐Belis
+T138	引文时间 5893 5897	2002
+T139	引文作者 5900 5906	Guzmán
+T140	引文作者 5909 5913	Joty
+T141	引文作者 5916 5923	Màrquez
+T142	引文作者 5928 5933	Nakov
+T143	引文时间 5936 5940	2015
+T144	术语 6124 6126	MT
+T145	术语 6291 6293	MT
+T146	术语 6356 6372	metadata records
+T147	引文作者 6433 6442	Chowdhury
+T148	引文作者 6445 6452	Landoni
+T149	引文作者 6459 6463	Gibb
+T150	引文时间 6466 6470	2006
+T151	引文的结果 6473 6554	found that language and cultural issues impact the usability of a digital library
+T152	术语 6559 6575	Metadata records
+T153	术语 6788 6804	metadata records
+T154	术语 6823 6856	structured or semistructured data
+T155	术语 6875 6891	metadata records
+T156	引文的结果 6861 6957	The nature of metadata records may make them difficult to translate , much like natural dialogue
+T157	引文作者 6960 6963	Ren
+T158	引文作者 6966 6969	Shi
+T159	引文时间 6972 6976	2002
+T160	术语 6983 6985	MT
+T161	引文的结果 7041 7143	Two measures called fluency and adequacy have been frequently used for various human evaluations of MT
+T162	引文时间 7175 7179	2005
+T163	引文作者 7182 7188	Lommel
+T164	引文时间 7198 7202	2014
+T165	引文的结果 7209 7317	They have been used in some MT evaluations such as OpenMT , TIDES , and some of the Statistical MT workshops
+T166	术语 7237 7239	MT
+T167	术语 7260 7266	OpenMT
+T168	术语 7269 7274	TIDES
+T169	术语 7305 7307	MT
+T170	引文作者 7320 7334	Callison‐Burch
+T171	引文作者 7337 7344	Fordyce
+T172	引文作者 7347 7352	Koehn
+T173	引文作者 7355 7359	Monz
+T174	引文作者 7364 7373	Schroeder
+T175	引文时间 7376 7380	2007
+T176	引文的结果 7412 7518	a multidimensional quality metric based on an operational definition of accuracy and fluency were proposed
+T177	引文作者 7521 7527	Lommel
+T178	引文时间 7537 7541	2014
+T179	引文的结果 7548 7629	Automatic measures such as BLEU and METEOR have been widely used in MT evaluation
+T180	术语 7575 7579	BLEU
+T181	术语 7584 7590	METEOR
+T182	术语 7616 7618	MT
+T183	引文作者 7632 7646	Callison‐Burch
+T184	引文时间 7656 7660	2007
+T185	术语 7692 7696	MEMT
+T186	术语 7832 7836	MEMT
+T187	术语 7888 7890	MT
+T188	研究问题 8063 8135	Which MEMT strategy can achieve better performance on metadata records ?
+T189	研究问题 8138 8210	Which MEMT strategy can achieve better performance on metadata records ?
+T190	术语 7977 7979	MT
+T191	术语 7983 7999	metadata records
+T192	术语 8006 8010	MEMT
+T193	自建数据集 8253 8341	we first extracted 2,010 English metadata records at random from two digital collections
+T194	术语 8443 8445	MT
+T195	术语 8526 8528	MT
+T196	软件工具 8652 8657	Moses
+T197	术语 8631 8633	MT
+T198	术语 8686 8690	MEMT
+T199	软件工具 8704 8709	Moses
+T200	时间 8763 8767	2016
+T201	引文时间 8908 8912	2005
+T202	引文的结果 8856 8876	adequacy and fluency
+T203	数据源 9145 9164	UNT Library Catalog
+T204	数据源 9222 9245	Portal to Texas History
+T205	时间 9286 9290	2016
+T206	数据源 9520 9539	UNT Library Catalog
+T207	术语 9553 9557	MARC
+T208	术语 9568 9579	Dublin Core
+T209	术语 9596 9611	metadata record
+T210	引文作者 9877 9881	Chen
+T211	引文时间 9884 9888	2016
+T212	术语 9968 9970	MT
+T213	引文的研究问题 9691 9874	we selected and kept only six elements , including title , creator , subject , description , publisher , and coverage , due to their relevance to users ' search and retrieval behavior
+T214	术语 10218 10232	named entities
+T215	术语 10309 10311	MT
+T216	术语 10346 10360	named entities
+T217	表 10473 10545	A sample metadata record that has been processed is presented in Table 1
+T218	时间 10646 10650	2016
+T219	时间 10695 10699	2016
+T220	术语 10607 10609	MT
+T221	引文的结果 10913 10963	they are the most spoken languages on the Internet
+T222	引文时间 10989 10993	2016
+T223	术语 11201 11215	named entities
+T224	术语 11335 11344	ideograph
+T225	术语 11432 11447	word boundaries
+T226	术语 11563 11565	MT
+T227	引文的方法 11765 11873	A database‐driven web application was constructed to facilitate the creation of these reference translations
+T228	引文作者 11876 11880	Chen
+T229	引文时间 11883 11887	2016
+T230	术语 11971 11975	MEMT
+T231	术语 12133 12137	MEMT
+T232	术语 12188 12190	MT
+T233	软件工具 12200 12205	Moses
+T234	软件工具 12346 12378	phrase‐based Beam Search decoder
+T235	术语 12406 12408	LM
+T236	术语 12422 12424	TM
+T237	引文的结果 12379 12542	which takes inputs from an LM module and a TM module in order to calculate the most probable target language translation for a source language input string or file
+T238	引文作者 12545 12550	Koehn
+T239	引文时间 12560 12564	2007
+T240	术语 12605 12609	MEMT
+T241	软件工具 12703 12708	Moses
+T242	术语 12712 12714	LM
+T243	术语 12719 12721	TM
+T244	软件工具 12811 12816	Moses
+T245	术语 12962 12964	MT
+T246	术语 12987 12989	MT
+T247	术语 13551 13555	MEMT
+T248	软件工具 13793 13798	Moses
+T249	术语 13925 13929	MEMT
+T250	术语 13961 13966	MEMT1
+T251	术语 13969 13974	MEMT2
+T252	术语 13981 13986	MEMT3
+T253	术语 14142 14144	TM
+T254	术语 14202 14204	MT
+T255	术语 14267 14269	TM
+T256	引文作者 14446 14450	Chen
+T257	引文时间 14460 14464	2012
+T258	引文的结果 14325 14417	Microsoft Bing slightly outperformed Google Translate and performed much better than Yahoo !
+T259	引文的结果 14420 14443	in adequacy and fluency
+T260	引文的结果 14480 14588	the fact that Microsoft Bing 's translations ranked highest of the three in terms of BLEU scores for Chinese
+T261	引文作者 14591 14599	Papineni
+T262	引文作者 14602 14608	Roukos
+T263	引文作者 14611 14615	Ward
+T264	引文作者 14620 14623	Zhu
+T265	引文时间 14626 14630	2002
+T266	引文作者 14633 14637	Chen
+T267	引文时间 14647 14651	2012
+T268	术语 14662 14664	LM
+T269	术语 14800 14802	LM
+T270	术语 14687 14689	MT
+T271	术语 14878 14883	MEMT1
+T272	术语 15090 15092	TM
+T273	术语 15101 15103	LM
+T274	术语 15178 15194	metadata records
+T275	术语 15277 15279	TM
+T276	软件工具 15290 15295	Moses
+T277	术语 15319 15332	phrase tables
+T278	术语 15337 15354	reordering tables
+T279	术语 15363 15365	LM
+T280	软件工具 15376 15381	Moses
+T281	术语 15465 15467	MT
+T282	软件工具 15629 15634	Moses
+T283	图 15752 15818	Figure 1 illustrates this approach within the structure of Moses .
+T284	软件工具 15811 15816	Moses
+T285	术语 15847 15852	MEMT2
+T286	术语 15857 15862	MEMT3
+T287	术语 15880 15885	MEMT2
+T288	术语 15931 15933	LM
+T289	术语 15950 15966	parallel corpora
+T290	术语 15986 15988	MT
+T291	引文的研究问题 16021 16059	the Holy Bible and the Europarl corpus
+T292	引文作者 16062 16067	Koehn
+T293	引文时间 16070 16074	2005
+T294	术语 16158 16174	metadata records
+T295	术语 16096 16098	LM
+T296	术语 16238 16240	LM
+T297	数据源 16281 16288	Redalyc
+T298	时间 16352 16356	2015
+T299	术语 16255 16271	metadata records
+T300	术语 16417 16433	metadata records
+T301	术语 16525 16541	string sequences
+T302	引文的结果 16665 16680	Europarl corpus
+T303	引文作者 16683 16688	Koehn
+T304	引文时间 16691 16695	2005
+T305	具体模型 16709 16740	character‐level bigram language
+T306	图 16973 17052	Figure 2 presents one of the Spanish records in its original Dublin Core format
+T307	术语 17167 17169	LM
+T308	术语 17187 17203	metadata records
+T309	时间 17369 17373	2012
+T310	术语 17416 17420	MARC
+T311	术语 17430 17434	MARC
+T312	术语 17584 17589	MEMT3
+T313	表 17594 17704	Table 2 presents one sample record in its original MARC format and the elements we extracted for use for MEMT3
+T314	术语 17645 17649	MARC
+T315	术语 17699 17704	MEMT3
+T316	软件工具 17838 17843	Moses
+T317	术语 17767 17783	metadata records
+T318	术语 18103 18108	MEMT3
+T319	术语 18137 18142	MEMT2
+T320	术语 18197 18199	LM
+T321	术语 18320 18322	MT
+T322	术语 18370 18374	MEMT
+T323	术语 18523 18525	MT
+T324	术语 18572 18576	BLEU
+T325	表 18611 18712	Table 3 summarizes the data that were fed into LM and TM for each MEMT approach and for each language
+T326	术语 18658 18660	LM
+T327	术语 18677 18681	MEMT
+T328	术语 18763 18767	MEMT
+T329	术语 7141 7143	MT
+T330	术语 18665 18667	TM
+R1	results Arg1:T6 Arg2:T5	
+R2	has_cited_time Arg1:T7 Arg2:T6	
+R3	has_cited_time Arg1:T9 Arg2:T8	
+R4	field_similar_as Arg1:T8 Arg2:T6	
+R5	results Arg1:T12 Arg2:T11	
+R6	coauthor Arg1:T12 Arg2:T13	
+R7	coauthor Arg1:T13 Arg2:T14	
+R8	has_cited_time Arg1:T17 Arg2:T16	
+R9	field_similar_as Arg1:T16 Arg2:T12	
+R10	has_cited_time Arg1:T26 Arg2:T25	
+R11	results Arg1:T25 Arg2:T24	
+R12	results Arg1:T28 Arg2:T27	
+R13	coauthor Arg1:T28 Arg2:T29	
+R14	coauthor Arg1:T29 Arg2:T30	
+R15	coauthor Arg1:T30 Arg2:T31	
+R16	has_cited_time Arg1:T32 Arg2:T31	
+R17	coauthor Arg1:T34 Arg2:T35	
+R18	coauthor Arg1:T35 Arg2:T36	
+R19	coauthor Arg1:T36 Arg2:T37	
+R20	has_cited_time Arg1:T38 Arg2:T37	
+R21	results Arg1:T34 Arg2:T33	
+R22	results Arg1:T42 Arg2:T40	
+R23	has_cited_time Arg1:T43 Arg2:T42	
+R24	coauthor Arg1:T44 Arg2:T45	
+R25	coauthor Arg1:T45 Arg2:T46	
+R26	has_cited_time Arg1:T47 Arg2:T46	
+R27	field_similar_as Arg1:T44 Arg2:T42	
+R28	coauthor Arg1:T49 Arg2:T50	
+R29	coauthor Arg1:T50 Arg2:T51	
+R30	coauthor Arg1:T51 Arg2:T52	
+R31	has_cited_time Arg1:T53 Arg2:T52	
+R32	results Arg1:T49 Arg2:T54	
+R33	results Arg1:T68 Arg2:T67	
+R34	coauthor Arg1:T68 Arg2:T69	
+R35	has_cited_time Arg1:T70 Arg2:T69	
+R36	results Arg1:T82 Arg2:T76	
+R37	coauthor Arg1:T82 Arg2:T83	
+R38	has_cited_time Arg1:T84 Arg2:T83	
+R39	results Arg1:T88 Arg2:T87	
+R40	has_cited_time Arg1:T89 Arg2:T88	
+R41	coauthor Arg1:T90 Arg2:T91	
+R42	has_cited_time Arg1:T92 Arg2:T91	
+R43	field_similar_as Arg1:T90 Arg2:T88	
+R44	has_cited_time Arg1:T98 Arg2:T97	
+R45	results Arg1:T106 Arg2:T104	
+R46	coauthor Arg1:T106 Arg2:T107	
+R47	has_cited_time Arg1:T108 Arg2:T107	
+R48	has_cited_time Arg1:T110 Arg2:T109	
+R49	coauthor Arg1:T111 Arg2:T112	
+R50	has_cited_time Arg1:T113 Arg2:T112	
+R51	field_similar_as Arg1:T111 Arg2:T109	
+R52	field_similar_as Arg1:T109 Arg2:T106	
+R53	coauthor Arg1:T116 Arg2:T117	
+R54	has_cited_time Arg1:T118 Arg2:T117	
+R55	produces Arg1:T116 Arg2:T119	
+R56	results Arg1:T126 Arg2:T125	
+R57	has_cited_time Arg1:T127 Arg2:T126	
+R58	has_cited_time Arg1:T129 Arg2:T128	
+R59	field_similar_as Arg1:T128 Arg2:T126	
+R60	produces Arg1:T135 Arg2:T134	
+R61	coauthor Arg1:T135 Arg2:T136	
+R62	coauthor Arg1:T136 Arg2:T137	
+R63	has_cited_time Arg1:T138 Arg2:T137	
+R64	coauthor Arg1:T139 Arg2:T140	
+R65	coauthor Arg1:T140 Arg2:T141	
+R66	coauthor Arg1:T141 Arg2:T142	
+R67	has_cited_time Arg1:T143 Arg2:T142	
+R68	field_similar_as Arg1:T139 Arg2:T135	
+R69	coauthor Arg1:T147 Arg2:T148	
+R70	coauthor Arg1:T148 Arg2:T149	
+R71	has_cited_time Arg1:T150 Arg2:T149	
+R72	results Arg1:T147 Arg2:T151	
+R73	results Arg1:T157 Arg2:T156	
+R74	coauthor Arg1:T157 Arg2:T158	
+R75	has_cited_time Arg1:T159 Arg2:T158	
+R76	has_cited_time Arg1:T164 Arg2:T163	
+R77	results Arg1:T163 Arg2:T161	
+R78	results Arg1:T170 Arg2:T165	
+R79	coauthor Arg1:T170 Arg2:T171	
+R80	coauthor Arg1:T171 Arg2:T172	
+R81	coauthor Arg1:T172 Arg2:T173	
+R82	coauthor Arg1:T173 Arg2:T174	
+R83	has_cited_time Arg1:T175 Arg2:T174	
+R84	results Arg1:T177 Arg2:T176	
+R85	has_cited_time Arg1:T178 Arg2:T177	
+R86	results Arg1:T183 Arg2:T179	
+R87	has_cited_time Arg1:T184 Arg2:T183	
+R88	has_cited_time Arg1:T211 Arg2:T210	
+R89	produces Arg1:T210 Arg2:T213	
+R90	has_cited_time Arg1:T229 Arg2:T228	
+R91	uses Arg1:T228 Arg2:T227	
+R92	has_cited_time Arg1:T239 Arg2:T238	
+R93	results Arg1:T238 Arg2:T237	
+R94	results Arg1:T256 Arg2:T259	
+R95	results Arg1:T256 Arg2:T258	
+R96	has_cited_time Arg1:T257 Arg2:T256	
+R97	results Arg1:T261 Arg2:T260	
+R98	coauthor Arg1:T261 Arg2:T262	
+R99	coauthor Arg1:T262 Arg2:T263	
+R100	coauthor Arg1:T263 Arg2:T264	
+R101	has_cited_time Arg1:T265 Arg2:T264	
+R102	has_cited_time Arg1:T267 Arg2:T266	
+R103	field_similar_as Arg1:T266 Arg2:T261	
+R104	produces Arg1:T292 Arg2:T291	
+R105	has_cited_time Arg1:T293 Arg2:T292	
+R106	select_time Arg1:T297 Arg2:T298	
+R107	results Arg1:T303 Arg2:T302	
+R108	has_cited_time Arg1:T304 Arg2:T303	

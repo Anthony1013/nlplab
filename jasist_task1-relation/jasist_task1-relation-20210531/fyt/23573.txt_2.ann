@@ -1,0 +1,41 @@
+T1	图 0 79	The main ontology‐based search interface of the system is displayed in Figure 2
+T2	术语 2073 2084	Boolean AND
+T3	引文作者 2089 2097	Bar‐Ilan
+T4	引文作者 2100 2118	Zhitomirsky‐Geffet
+T5	引文作者 2121 2127	Miller
+T6	引文作者 2132 2138	Shoham
+T7	引文时间 2141 2145	2010
+T8	软件工具 2264 2270	Google
+T9	术语 2613 2624	Boolean AND
+T10	图 2159 2421	As a baseline for comparative evaluation , an alternative interface was implemented , a free‐text search Google style ( see Figure 3 ) interface with autocompletion from terms of all the proverbs and also from proverbs ' semantic interpretations available online
+T11	引文作者 2726 2734	Bar‐Ilan
+T12	引文时间 2744 2748	2010
+T13	标准数据集 3443 3476	the Israeli Ministry of Education
+T14	标准数据集 3505 3515	Wiktionary
+T15	标准数据集 3553 3562	Wikiquote
+T16	引文作者 3737 3742	Kuusi
+T17	术语 4063 4071	disjoint
+T18	图 4016 4156	Concept sets of the two dimensions were mostly disjoint , having only 12 % ( 63 ) concepts in common ( e.g. , “ Human traits ” in Figure 4 )
+T19	术语 4961 4966	RDF/S
+T20	引文作者 6402 6410	Bar‐Ilan
+T21	引文时间 6423 6427	2012
+T22	术语 12439 12442	M.A
+T23	图 13275 13409	The number of relevant proverbs selected by experts was higher than the user‐consensus proverbs for 7 of 10 scenarios ( see Figure 5 )
+T24	引文作者 13819 13827	Bar‐Ilan
+T25	引文时间 13837 13841	2010
+T26	表 15201 15279	The recall and precision of user consensus versus experts are shown in Table 2
+T27	术语 15464 15473	precision
+T28	术语 15478 15484	recall
+T29	表 16034 16248	Thus , average precision values for the different scenarios and user groups are displayed in Table 3 Recall that Groups G1 and G4 used search box interfaces while Groups G2 and G3 worked with the ontology interface
+T30	表 16333 16528	As can be observed from Table 3 all average precision scores were quite close , but a bit higher ( up to 10 % ) for the ontology‐based search interface , and the standard deviations are quite low
+T31	表 16599 16744	But for some scenarios such as “ failure and success , ” the free‐text search produced better precision , but much lower recall , ( see Table 3 )
+T32	表 17128 17367	Free‐text G1/G3 Free‐text G1/G3 Average recall values per scenario and group based on expert and user relevance judgments are displayed in Table 4 In this case , as well , user consensus evaluation is a bit higher than the expert‐based one
+T33	表 18048 18325	Note that the user‐consensus ( “ wisdom of the crowds ” ) recall and precision evaluated by experts ' relevance ( see Tables 3 and 4 ) for both interfaces are much higher ( by 25–40 % ) than are the individual users ' recall and precision values ( displayed in Tables 3 and 4 )
+T34	图 19477 19865	The number of searches for every scenario and interface ( see Figure 6 ) shows that ontology also helped minimize the user effort and search efficiency , as Participants could locate the most relevant query terms more easily through the ontology and/or use the expanded search option instead of searching for many specific terms that they could come up with or by employing autocomplete .
+R1	coauthor Arg1:T3 Arg2:T4	
+R2	coauthor Arg1:T4 Arg2:T5	
+R3	coauthor Arg1:T5 Arg2:T6	
+R4	has_cited_time Arg1:T7 Arg2:T6	
+R5	has_cited_time Arg1:T12 Arg2:T11	
+R6	has_cited_time Arg1:T21 Arg2:T20	
+R7	has_cited_time Arg1:T25 Arg2:T24	

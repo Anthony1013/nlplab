@@ -1,0 +1,130 @@
+Immigrants face numerous challenges during settlement in a new country , which requires access to robust sources of information ( Caidi et al. , 2010 ) . 
+Without sufficient information , it is possible for immigrants to experience “ information poverty , ” which is a part of “ a dichotomy between those with easy access to an abundance of information and those who do not [ know ] how and where to find it and even , perhaps , do not understand the value of information and how it can help them in their day‐to‐day lives ” ( Goulding , 2001 ) . 
+A state of information poverty can result from factors such as a lack of access to information tools and services , a lack of the technological skills to retrieve information , and a lack of access to accurate guidance for retrieving information ( Sweetland , 1993 ) . 
+Prior research suggests that information poverty can be as problematic as economic poverty ( Hersberger , 20032003 ) . 
+The problem can be even more pronounced for immigrants who are less knowledgeable about their new environment and have greater information needs . 
+They may not have enough time to develop social networks to access necessary resources in the host country upon arrival ( Caidi et al. , 2010 ) . 
+Without adequate information access , immigrants can not make informed decisions that could potentially alleviate many stressful settlement issues . 
+Immigrants need various types of information to thrive . 
+Shoham and Strauss ( 2008 ) interviewed U.S. immigrants in Israel and separated their information needs into eight types : housing , work , school , transportation , banking , health , law , and language . 
+Baron , Neils , and Gomez ( 2014 ) found that language and transportation information was important for Hispanic immigrants in Seattle who needed to manage their daily lives and navigate the city . 
+Quirke ( 2015 ) noticed the significance of leisure activities for immigrants ' psychological health , and asserted the importance of leisure‐related information for newcomers . 
+Lloyd ( 2014 ) explored how refugees adapt to a new health environment and codevelop health literacy practices . 
+These types of information allow immigrants to meet their immediate needs ( for instance , food and sleep ) , and to become oriented within their host society by learning new social contexts . 
+Despite this growing area of research , there are still many unanswered questions about immigrants ' information needs , in particular regarding the settlement process in the host country . 
+For example , what types of information are harder or most important to obtain than others ? 
+What are the characteristics of immigrants ' information needs and seeking behaviors ? 
+Further , are there other types of information needed for settlement besides the eight aforementioned types ( Shoham & Strauss , 2008 ) ? 
+To improve our understanding of immigrants ' information needs in the settlement process , we first explore the research questions : RQ1 . 
+What kinds of information do Korean immigrants prioritize or struggle to seek when settling down in the U.S. ? 
+RQ2 . 
+What are the information needs of immigrants when settling in the host country ? 
+ICTs , such as mobile phones , computers , and the Internet , are some of the most important information sources for immigrants , largely because they ease transnational experiences ( Caidi et al. , 2010 ) . 
+ICTs enable immigrants to build their “ glocal ” network by expanding the “ local ” ( information behaviors that establish coping mechanisms in their host countries ) and “ global ” ( engagement in communication activities with their home countries ) dimensions in their everyday lives ( Mehra & Papajohn , 2007 ) . 
+ICTs provide easier access to ethnic media and local news sources that help immigrants keep track of news globally in their home countries and locally in their host countries ( Lin & Song , 2006 ) . 
+ICTs also facilitate rapid , long‐distance communication with family or friends who remain in their home countries ( Caidi et al. , 2010 ; Komito , 2011 ) , local people in their neighborhood ( Aizlewood & Doody , 2002 ) , and already‐established immigrants with prior migration experiences ( Caidi , Komlodi , Abrao , & Martin‐Hammond , 2014 ; Wong & Salaff , 1998 ) . 
+Accordingly , ICTs help immigrants understand and participate in their host country , empowering them to function effectively in a new society ( Andrade & Doolin , 2016 ) . 
+Despite these benefits of ICTs , immigrants are also known to face problems when using ICTs in a new country with regard to limited access to the Internet and/or digital literacy . 
+Haight , Quan‐Haase , and Corbett ( 2014 ) found that recent immigrants to Canada have significantly lower rates of Internet access despite their higher levels of online activity than Canadian‐born residents and earlier immigrants . 
+This problem could be more pronounced by some immigrant groups such as U.S. Hispanics , who have limited access to the Internet or ownership of a cell phone ( Livingston , 2011 ) , and African refugees in Australia who prefer print resources because they are unfamiliar with—or even distrust—information obtained on the Internet ( Borland & Mphande , 2009 ) . 
+Although prior work examined the ICT use of immigrants who have limited digital access or literacy , it remains underexplored how immigrants from a country with rich ICT environments use ICTs in their host country . 
+Thus , another goal of this work is to gain a deeper understanding of ICT use and the challenges ICT‐literate immigrants face . 
+We sought the answers of Korean immigrants who came from a country with the world 's leading ICT infrastructures . 
+We expected that they would articulate the problems of ICT usage from the perspective of “ technology savvy ” immigrants . 
+As a social practice , the way people seek resources online is influenced by the Internet connectedness patterns of their home societies ( Jung , Kim , Lin , & Cheong , 2005 ) . 
+We therefore believed that Korean immigrants might have fewer challenges when using ICTs in the U.S. , a society with different ICT connectedness patterns . 
+Hence , we investigated another research question : RQ3 . 
+How do Korean immigrants use ICTs while settling in the U.S. ? 
+We conducted semistructured interviews with 16 Korean immigrants to gain detailed insights into their information behaviors . 
+We recruited Korean immigrants who had moved to the Seattle area within the past 3 years11 A newcomer often refers to one who migrated to a new society within 5 years or less ( Caidi et al. , 2010 ) ; however , during pilot interviews , we learned that one is less likely to remember the details of the settlement process if s/he had moved to a new country more than about 3 years ago . 
+Thus , we recruited interviewees who had been in the U.S. for 3 years or less . 
+using flyers posted at a market , postings on Korean online communities ( Kseattle.com ; Seattlemissy.com ) , and through word of mouth . 
+The interviews were 60 minutes each on average and were conducted in Korean over the telephone or using NateOn , a web‐based chat service . 
+We first asked interviewees to recount the types of information they needed when they moved to the U.S . 
+When they could no longer recall any additional information needs , we prompted them with the eight different types of information needs as identified by Shoham and Strauss ( 2008 ) . 
+The questions include : What kinds of information did you need when you first moved to the U.S. ? 
+How did you get information about housing/work/schooling/transportation/banking/ health/law/language ? 
+How do you use your ICTs in the U.S. ? 
+Our approach was iterative and data analysis was continual throughout our data‐collection process . 
+The interviews were conducted in three phases , interjected by rounds of data analysis that allowed us to follow the directions that emerged from our data and to refine our interview protocol for subsequent interviews ( Charmaz , 2006 ) . 
+One of the authors , who is fluent in Korean and proficient in English , first transcribed the audio recordings and then translated the scripts into English . 
+Two authors independently read through the first six transcripts and created initial codes . 
+We discussed what to focus on for the subsequent interviews as a restarting point . 
+The focused codes included : the types of information that are most necessary , the types of information that are most difficult or easiest to seek , the types of information sources , and ICT usage practices . 
+After establishing the direction , seven more interviews were conducted , where we reexamined the codes that emerged from the prior interviews and created additional codes . 
+However , we found only a few additional codes ( for instance , differences between ICT usage in Korea and in the U.S ) . 
+After conducting and analyzing three more interviews , from which additional codes did not emerge , we discussed all codes until we reached full agreement and agreed that the point of data saturation had been reached . 
+One author reanalyzed all 16 transcripts , compared codes across the transcripts , and created categories . 
+The two authors then discussed the relationships of categories , related categories to subcategories , and specified the properties of a category to create themes . 
+The interviewees consisted of nine females and seven males whose ages ranged from their 20s to 50s . 
+Their current occupations included journalist , caregiver , and IT manager . 
+Their previous occupations in Korea included teachers , marketers , advertisers , students , and manager . 
+Most interviewees ( N = 13 ) plan to stay in the U.S. for at least the next 5 years , and intend to apply for permanent resident status , demonstrating that they do not consider themselves to be temporary residents ( Figure 1 ) . 
+All participants own and use personal computers and smartphones on a daily basis . 
+We used the web‐use skill index ( Hargittai & Hsieh , 2012 ) , a digital skill measurement often used in digital literacy studies , to test Korean immigrants ' ICT skills . 
+The index asks if one knows each of the following web‐related items : advanced search , tagging , PDF , spyware , wiki , JPG , weblog , cache , malware , and phishing . 
+The interviewees demonstrated relatively high ICT skills ( M = 3.56 ) , a higher score than college students at the University of Illinois‐Chicago ( M = 3.25 ) —as reported in a prior study ( Hargittai & Hsieh , 2012 ) . 
+We now discuss our findings on Korean immigrants ' information behavior when settling in the U.S. Their information needs and seeking behavior are detailed , followed by a discussion of their ICT usages and challenges when using ICTs in the U.S. Interviewees ' information needs fell under the eight types as found in prior work : housing , banking , transportation , school , health , law , work , and language ( Shoham & Strauss , 2008 ) . 
+However , we found that their information behavior is more complex and nuanced . 
+We detail the types of information that Korean immigrants prioritized and struggled to seek and discuss our findings on the immigrants ' information needs as a newcomer to the host country . 
+Information regarding education appeared as a high priority for Korean immigrants . 
+Many came to the U.S. specifically to pursue educational opportunities for both their children and themselves . 
+They actively searched for information about the quality of lectures , school rankings , curricula , or tuition fees . 
+They tended to make decisions with regard to education first , and then altered other decisions accordingly , which increased the salience of education information needs . 
+“ When I decided where to live , I looked for my kids ' school first . 
+I got some school information from my co‐workers , and I drove around town to see which schools had good environments . 
+We chose the nicest , safest , and cleanest school . 
+After deciding the school for my kids , we looked for the house nearby ( P2 ) . 
+” This emphasis on education is deeply rooted in the cultural value Koreans place on education . 
+Korea , noted for its “ education fever , ” outpaces the rest of the world with an 82 % high school graduation rate for adults , which exceeds the OECD average of 75 % ( OECD , 2013 ) . 
+Koreans are known to believe it is important to avoid bringing shame to the family through occupational or educational failures ( Kim , Yang , Atkinson , Wolfe , & Hong , 2001 ) . 
+These may explain why interviewees placed information about education at the higher level compared with other types of information . 
+Health and legal information were the most difficult types of information for Korean immigrants to search , access , and understand . 
+Interviewees found it challenging to know the appropriate keywords in English when searching for information related to health or laws . 
+On the surface , this could be attributed to their limited proficiency in English or a lack of knowledge of a specialized field ; however , we found that it is deeply rooted in their limited understanding of the social infrastructure—the medical and legal systems—in the host country . 
+“ In Korea , whenever I was sick , I could go [ to ] any private hospital near my home , but here , I could go to another clinic only after first seeing my primary care physician… . 
+I did n't understand the two‐step process ( P3 ) . 
+” P3 did not fully understand the medical systems in the U.S. , so she was not familiar with the term “ primary care. ” Instead , to get a basic check‐up , she kept searching for a doctor online using the keyword , “ hospital , ” when it was actually a primary care doctor that she was looking for . 
+Sometimes interviewees obtained health and legal information by hiring service providers ( for instance , a lawyer or doctor ) ; however , accompanied complex processes and ( perceived ) higher cost discouraged them from relying on these services . 
+P5 and P8 were less likely to go to doctors , for example , after learning the actual costs of the medical system in the U.S. : “ When I had a sore throat , I went to doctor , it was just [ a ] casual cold…the doctor did n't do anything special…but he charged me about 200 dollars . 
+I was really shocked…so I never go to doctor again . 
+I search [ for ] more information about whatever I can do home ( P5 ) . 
+” With or without their personal experiences , all interviewees strongly believed that the cost of medical services in the U.S. would be much higher compared with Korea , where a universal health care system is in place ( Wikipedia , 2017bb ) . 
+This stereotypical notion prevented some interviewees from gaining hands‐on experience of the health or legal systems in the U.S. P2 , P4 , and P11 relied on a variety of medicines they had brought from Korea when they emigrated . 
+P6 visited Korea to vaccinate her daughter because she was concerned about the price of vaccinations for infants in the U.S. , although she did not search for information beforehand . 
+Oftentimes , interviewees needed different types of information concurrently , which was not discussed in prior work ( Shoham & Strauss , 2008 ) . 
+For example , interviewees needed to know about the local schools or public transportation when seeking housing information , as this helped make decisions on where to live ( P2 , P6 ) ( Figure 2 ) . 
+It became clear that some information needs were intertwined with certain other information , making it necessary to seek another type of information ; consequently , interviewees searched for them contemporaneously . 
+P10 described his tough first week in the U.S. : “ To get one type of information , I needed to obtain other information first…for a driver 's license , I needed a document proving where I live . 
+I also needed another document from the Korean consulate showing that I have a driver 's license in Korea… . 
+So , I got a document from the landlord showing I live here , and then I was able to get a license.… I was able to do things one by one , like opening a bank account. ” As information seeking behavior is a response to information needs ( Njoku , 2004 ) , interviewees often recalled in what ways they actually “ sought for ” when answering the question about what they “ needed ” when settling in the U.S. Their simultaneous information‐seeking processes made their information needs more related to each other . 
+The types of information that were overlapped depended on context . 
+P14 and P15 were college students in the U.S. with F1 Student Visas . 
+They often searched information related to employment , visa law , and further educational opportunities ( for instance , graduate school ) simultaneously , as they were concerned about their future residence in the U.S. postgraduation . 
+On the other hand , interviewees with children ( P2 , P6 , and P13 ) needed the types of information to help them better raise their children . 
+P6 chose her current residence after considering the quality of the preschool for her daughter , its accessibility via public transportation , and public facilities ( for instance , playgrounds ) in the area . 
+When searching for a new city to move to , P13 first wanted to know about good preschools and reliable obstetricians in the city for his children . 
+Aside from the eight types of information ( Shoham & Strauss , 2008 ) , we found that interviewees needed information related to socializing . 
+Newcomers learned about how to behave in a way that is acceptable in the new community by developing relationships of varying degrees of intimacy with others ( Merton & Merton , 1968 ) . 
+As newcomers , interviewees wanted to socialize with people in the U.S. and to learn about different cultures endemic to the U.S . 
+Some interviewees wanted to know how to meet others who were similar to them , raising specific questions like : “ How can I find other moms with kids who are in the similar ages as my son ? 
+” ( P4 , P6 ) , and “ Where can I find people who have the similar hobby as me ? 
+” ( P1 , P16 ) ( Figure 2 ) . 
+In fact , P1 consulted Kseattle to find a hobby group to join that matches her interest , and found a motorcycle club , which she still enjoys participating in . 
+However , it was not always easy for interviewees to find others who share commonalities . 
+P16 used Kseattle to recruit other Koreans who were willing to practice acting and perform in plays as a hobby , but she could not find as many people as she wanted , and wondered how she could find like‐minded people nearby . 
+Furthermore , interviewees wanted to experience “ the locals , ” but often struggled to acquire information for socializing with “ out‐groups ” beyond their work , school , or church spheres ( P4 , P6 , and P16 ) . 
+P13 wanted to learn “ the American ways ” to celebrate his son 's first birthday following traditional American rituals ; however , he could not do so as he did not know where to look for information , or who to ask for help . 
+P6 sought local events on Independence Day , but she could not find anything happening around her city , even though she searched local television news . 
+Although some were able to find socializing information , it was often not presented in a way that fostered participation from immigrants . 
+P1 searched volunteering information to be more engaged with her local community , but she could not easily determine which volunteering tasks were feasible for her to undertake . 
+This was because the website she used to search for volunteering information did not provide sufficient details , such as desired language levels , required skills , or expected outcomes : “ I was not sure what I could do with my English skill… . 
+I wanted to search something simple and easy that immigrants could do…but there was n't anything for me…in fact it was hard to tell what tasks the volunteering job involves.… I just remember wondering , ‘ what does this job require ? 
+’ after reading a volunteering advertisement. ” If she were able to search for volunteering tasks that did not necessarily require a high level of English proficiency , she could have taken on volunteering work . 
+However , the lack of such information tailored to immigrants prevented the interviewees from interacting with others socially , which undermined their ability to create new social networks in the host country and their engagement with local communities . 
+We found that language information is fundamental for interviewees to acquire , interpret , or utilize other types of information , so that it tends to underlie the other types of information needs . 
+As P6 said , “ The hardest information for me is anything written in English. ” ; most interviewees faced a language barrier , and hence needed language information as a tool for accessing other types of information . 
+They often searched for the meaning of words using web‐translating sites or web/mobile dictionaries ( P1 , P4 , P5 , and P8 ) . 
+Sometimes , they needed information about hiring translators to acquire and/or interpret the other types of information : “ I strongly wanted my son to go to that elementary school , but had a small argument with the education officer . 
+The translator explained they were really strict about it [ the age‐limit for children attending the school ] …so it might be hard for my son to attend to the school then in her opinion. ” As English is a prerequisite for many other types of information in the U.S. , language information was a fundamental need for Korean immigrants ' information behavior . 
+In this section , we discuss Korean immigrants ' ICTs usage in their settlement process . 

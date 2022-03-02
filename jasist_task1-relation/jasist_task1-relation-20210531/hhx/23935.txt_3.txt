@@ -1,0 +1,43 @@
+The influence of large paper teams on local clustering coefficients and average degree of node neighbors . 
+The panels show the average local clustering coefficients and average degree of neighbors for nodes with degree k in SUB‐PNAS and PNAS , respectively . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The phenomenon of research‐team members leaving and that of members ' activity decreasing are modeled by shrinking the influential zones . 
+The model design leads that only those non‐lead nodes very close to lead nodes in space distances could receive new “ collaborators ” persistently . 
+The good model‐data fit confirms the reasonability of the model design . 
+The analysis in Appendix shows the tails of C ( k ) of modeled networks are proportional to , which are similar to those of the empirical networks ( Figure 6 ) . 
+This phenomenon is clear in DBLP‐Math , but not quite clear in PNAS . 
+The reason is that PNAS has few large paper teams , but the analysis in Appendix is based on the mean size of paper teams and ignores large paper teams ( which occur at low‐rates ) . 
+The explanation can be confirmed through the tail of C ( k ) of sub‐PNAS , which is clearly proportional to ( Figure 8b ) . 
+The model overcomes two fitting defects of our previous model ( Xie et al. , 2016 ) , namely the functions N ( k ) and C ( k ) of modeled networks are more similar to those of the empirical data . 
+For example , the increasing part of N ( k ) here is longer than that of our previous result with the same parameter μ ( see Figure 5 in Reference ( Xie et al. , 2016 ) , Figure 6 ) , a reason of which is described as follows . 
+Suppose node i has an influence zone covers node j . 
+The expected degrees of nodes i and j satisfy and , respectively . 
+Hence the expected degree of i 's neighbors is larger than that of our previous model . 
+This also makes the degree associativity of modeled networks do not require a large μ as the previous model does . 
+A small μ makes the P ( k ) ( with a small hook head ) and C ( k ) ( with a smooth transition ) of Modeled network 2 are all similar to those of DBLP‐Math ( Figures 4b and 6b ) , and better than those of our previous model ( see fig . 
+4 in Reference ( Xie et al. , 2016 ) , Figure 7 ) . 
+The major portion of our model aims at unveiling the transition phenomena emerging in statistical properties of coauthorship networks and the mechanisms by which they are generated . 
+It explains the emergence of transition through the different collaboration behaviors of leaders and the other team‐members of research teams . 
+The model applies a geometric way to understand specific aspects of collaboration behaviors and provides remarkable predictions of a range of topological and statistical features of the empirical data . 
+The model has the potential to illuminate specific views and implications in the broader study of scientific behaviors as follows . 
+Collaboration behaviors are essentially the self‐organization decisions made by authors . 
+In the model , those decisions made are based on the homophily ( in the sense of research interests , topics , etc . 
+) and academic impacts ( with Matthew effect ) of authors . 
+The model reveals how the decisions of heterogeneous individuals in a social network generate a range of complex properties , such as scale‐free and small‐world . 
+The model addresses a basic question in complexity : do there also exist inherent rules behind the social complexity ? 
+It provides an example of how pass through the divide between simplicity and complexity . 
+The general idea of the model can be extended to explore the evolution of other complex networks generated based on human decisions , for example , citation networks . 
+In fact , the distribution of citations received by articles or authors , and that of articles published by authors all emerge a generated Poisson head and a power‐law tail , which belong to the same distribution type of collaborators per author . 
+Further , the view of the model potentially bridges cooperative game theory and social affiliation networks . 
+Which helps the development of sciences , monopoly or diversity ? 
+A strong Matthew effect drives monopoly , which will suppress diversity , and consequently harms system flexibility . 
+Meanwhile , diversity is not to say that egalitarian resource distribution , which may be unsuitable to solve long and difficult tasks . 
+Keeping the balance of the academic environment has the potential to guide investment directions of funding agencies and policy makers . 
+Specific regulations can be simulated through the model to find out what will happen . 
+Is there any relation between the transition phenomena in citation networks ( Peterson , Pressé , & Dill , 2010 ) and those in coauthorship networks ? 
+Can we predict scientific success through collaboration behaviors ? 
+With citation information , the model can contribute to analyze the correlation and coevolution of citations and collaborations , and then can delve the extent to which authors ' activity in academic society influences their academic recognition . 
+The model shows the generating process of giant components in coauthorship networks and high clustering property . 
+Now the model is restricted to two dimensional spacetime . 
+Although it is most intuitive and easiest to program , natural variations of the model will perhaps make sense in high dimensional space , for example , subject specialty space . 
+Then the similarity of nodes in the sense of geometric distance could simulate subject specialty . 
+With this model , the invisible college ( a set of interacting researchers who share similar research interests , even though geographically affiliated to distant research institutes ( Zuccala , 2006 ) ) could be studied by focusing on the subject specialty and researcher behaviors . 

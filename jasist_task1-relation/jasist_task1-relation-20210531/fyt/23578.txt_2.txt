@@ -1,0 +1,130 @@
+The 11th feature , Period of Spikes ( PS ) , is computed as the SD of the sequence . 
+Otherwise , if there is no or one spike , we set PS with extreme values . 
+In this session , we carry out experiments to demonstrate the performance of our time series curve approximation approaches and temporal pattern detection approach . 
+We first randomly extract approximately 15,000 queries from the Web Track of TREC33 http : //trec.nist.gov/data/million.query.html and submit each query to Google Trends22 http : //www.google.com/trends/explore to download its search volume file . 
+The numbers in the file reflect the search volume for the particular query , relative to the total search volume conducted using Google over time . 
+We have to use this file as the corresponding query 's frequency data to demonstrate our temporal pattern detection algorithm because it is very difficult to obtain real , large‐scale , and long‐time query logs from commercial search engines . 
+Fortunately , these data are suitable for both our approaches and the baselines . 
+For each query , we also collect web pages from January 2004 to July 2013 . 
+Specifically , for each month , we issue each query to Google Search with the condition of a time range and collect the top‐100 results in the ranking list . 
+For example , “ Earthquake ” is submitted with the time condition “ 1 Jan , 2004–31 Jan , 2004 , ” which can be specified in “ Google Search Tools. ” We use the collected data set to estimate time series curves of these queries with the approaches DLA and WLA , respectively . 
+The data set is available online.44 http : //ir.sdu.edu.cn/exp/dtp.htm We employed four assessors to manually annotate the patterns of these queries in terms of the taxonomy defined in Figure 2 . 
+Three assessors were undergraduate students , and the fourth was a graduate student . 
+All assessors were trained before they began to label . 
+For each query and its corresponding time series curve , three assessors first annotated its pattern type . 
+If two or three of their annotations were consistent , we annotated the query with the majority type . 
+Otherwise , the fourth assessor made the final decision . 
+All assessors used the same user interface to annotate these queries , as shown in Figure 8 . 
+For each query , the assessors either annotated it as one pattern type or annotated it as “ hard to identify ” if they could not make the decision . 
+The average kappa statistic ( Viera , Garrett , & Joanne , 2005 ) value is 0.81 , κ ( User1 , User2 ) = 0.84 , κ ( User1 , User3 ) = 0.76 , κ ( User2 , User3 ) = 0.84 . 
+On one hand , the κ value is larger than 0.8 , which means that the annotations of the three assessors have good consistency . 
+On the other hand , it is only slightly larger than 0.8 , which indicates that the task is difficult . 
+According to our manual annotations , the percentages of different pattern types are summarized in Table 3 . 
+AMBQ queries account for the largest percentage , and PMBQ queries account for a small percentage of all queries . 
+User interface for assessors . 
+No existing studies have proposed approaches to comprehensively detect temporal patterns . 
+The only known work closely related to our study was conducted by Shokouhi ( 2011 ) . 
+He used time‐series decomposition techniques to identify seasonal queries ( i.e. , PMBQ ) ( Shokouhi , 2011 ) . 
+For a given query , he first converted its historical frequency into time series with monthly splits . 
+He then decomposed the time series by applying Holt–Winters additive smoothing ( Cleveland , Cleveland , McRae , & Terpenning , 1990 ) . 
+If the decomposed seasonal component and the raw data have similar distributions , the query is classified as seasonal . 
+We refer to this baseline as detecting seasonal queries with time series‐analysis ( DSQTSA ) . 
+The other two baselines use 1‐Nearest Neighbor classification with the curve distance ( i.e. , Function 10 ) and Euclidean distance as distance metrics , which are denoted as 1NNCD and 1NNED , respectively . 
+All queries used in our experiments have time series obtained from Google Trends . 
+OurApproachREAL used the time series from Google Trends . 
+For OurApproachDLA and OurApproachWLA , we assume that the corresponding time series data sets are not available . 
+We used DLA and WLA as the approximation approaches . 
+We use Precision ( P ) , Recall ( R ) , and F 1 to evaluate the temporal pattern detection results . 
+If the query category classified by the algorithm agrees with the manually annotated category , then it is a correct classification . 
+Precision is the fraction of classified query categories that are correct . 
+Recall is the fraction of correct query categories that are classified . 
+The F 1 score is calculated using the following function : F 1 = 2 * ( P * R ) / ( P + R ) . 
+The C‐Support Vector Classification in LIBSVM ( C.C . 
+Chang & Lin , 2011 ) with the Gaussian kernel function is used in this article . 
+There are two hyperparameters γ and C . 
+We utilized the standard grid search approach to find the best parameter values . 
+The tested values of C and γ vary from 2−6 to 26 . 
+Table 4 reports the parameter tuning results for SQ type . 
+Similar results are achieved for the other three types . 
+Each value in the tables is an average over fivefold cross‐validation . 
+The worst results and the best results are marked with wavy underlines and straight underlines , respectively . 
+The F 1 ranges are 0.877 to 0.906 for SQ , 0.862 to 0.910 for OBQ , 0.917 to 0.918 for AMBQ , and 0.812 to 0.905 for PMBQ . 
+Because the parameter settings of the best results for four pattern types are different , we report experimental results with default parameter settings ( i.e. , , C = 1 ) to compare with the baseline approaches . 
+The evaluation results of our approaches and the baselines are summarized in Table 5 and Figure 9 . 
+Obviously , OurApproachREAL achieves the highest performance and significantly outperforms the baselines for all four classes . 
+We observe that the Precision of SQ is the worst compared with that of the other three patterns . 
+The possible reason is that some NSQ curves usually have small spikes . 
+As a result , these queries might be mistakenly classified as SQ . 
+In addition , the Recall of PMBQ is the worst compared with the other three patterns because if the spike fluctuation of PMBQ is not large enough , it is difficult to detect . 
+As a result , the query might be mistakenly classified as SQ , AMBQ , or OBQ . 
+On the contrary , the Precision of OBQ is the best among these four classes because OBQ queries usually have larger SD s , MS s , and smaller M s. This characteristic is captured by our approach to effectively identify OBQ . 
+Compared with the baselines , especially DSQTSA , our approach achieves higher performance for PMBQ because both 1NN and DSQTSA use a simple , single approach to compute the differences between curves . 
+In contrast , our approach integrates multiple features by deep analysis into the characteristics of different time series curves . 
+In summary , the results indicate that our approach can help to effectively identify temporal patterns of queries . 
+Overall model performance comparison . 
+For the approximation of the time series curves , both DLA and WLA are helpful to some extent . 
+This result is reasonable because the dynamic behaviors of web information and user queries are consistent over time . 
+That is , the changing of documents can reflect the popularity of the corresponding queries , and vice versa . 
+We can see that OurApproachWLA is slightly better than OurApproachDLA . 
+The possible reason for this behavior is that DLA may introduce more noise because it considers whole documents instead of specific query terms to generate the curves . 
+However , the temporal pattern detection approach with estimated curves is still not effective enough . 
+Further work is still necessary to design more effective approaches to approximate time series curves . 
+We analyze the effectiveness of each feature on the overall performance of OurApproachREAL . 
+The results are summarized in Table 6 . 
+Generally , discarding any feature leads to a decrease in performance . 
+Moreover , some features lead to a larger decline than do the others , such as , DOBQ , DAMBQ . 
+The results only reflect the effects of different features to some extent because the effects of a single feature might overlap with the combination of multiple features . 
+We further analyze some typical features ' effects by plotting the distributions of the query instances in the feature space , as shown in Figure 10 . 
+It is obvious that the features Mean and Standard Deviation can effectively distinguish SQ from NSQ , as illustrated in Figure 10a . 
+SQ s and especially SD s are generally small . 
+This behavior is reasonable because the curves of SQ queries are more flat , which means small SD s. Moreover , after preprocessing ( removing trend components ) , the M s also are generally small . 
+From Figure 10b–g , we observe that combinations of the features MS , GFSMS , Standard Deviation , DOBQ , DAMBQ , D PMBQ , and DSQ can classify OBQ and MBQ well . 
+As described in the figures , the MS s and GFSMS s of OBQ tend to be larger than the other classes . 
+The explanation is that the only spike in the OBQ curves accounts for a large proportion of the search volumes , which leads to large MS and GFSMS values . 
+Moreover , the Curve Distance between OBQ queries is smaller because OBQ curves are easier to match with each other than with the multiple spikes of MBQ queries . 
+As for AMBQ and PMBQ queries , DOBQ , DAMBQ , and DPMBQ already can effectively classify them , as illustrated in Figure 10f and 10h . 
+Some other features , such as c utoff and PS , also help enhance the performance . 
+In summary , all features are useful and effective to distinguish the queries from different dimensions . 
+Feature effectiveness analysis . 
+Note that a single scatter plot can not reflect the real situation in high dimensional feature space . 
+As for our query classification scheme , we further used an unsupervised method ( i.e. , clustering ) to verify its correctness and discreteness . 
+Specifically , we used Lloyd 's ( 1982 ) k‐means method to cluster these queries , with the number of clusters ranging from 1 to 6 . 
+We used two families of metrics , pair counting measures and set‐matching based measures , to evaluate the clustering results . 
+These metrics are widely used to evaluate the performance of clustering algorithms ( Amigó , Gonzalo , Artiles , & Verdejo , 2009 ) . 
+The results are shown in Table 7 . 
+From the results , we can see that the best number of clusters is four . 
+Moreover , high performance is achieved , F 1a = 0.886 and F 1b = 0.871 , which indicates that the clustering results are highly consistent with manual annotations . 
+This result is strong evidence for the correctness and discreteness of our classification scheme . 
+In this section , we discuss the potential applications of our study . 
+Note that for OBQ‐type queries , our method can not detect them until the search volumes increase . 
+However , our method can still help improve the search results during the middle and later stages of the corresponding events . 
+Figure 11 presents two examples . 
+The two queries correspond to two events , which were just happening . 
+Our approach can accurately identify their pattern types as OBQ . 
+Then , the search results can be improved for the subsequent searches . 
+Query temporal pattern examples from Google Trends for two ad hoc queries . 
+We suggest that the queries of different temporal pattern types should be addressed by a search engine in different ways : For SQ‐type queries , they denote users ' common , frequent , information needs . 
+That is , users ' search intents usually do not change over time ( Kulkarni et al. , 2011 ) . 
+Therefore , relevance is the most significant measure for the results ranking . 
+The most relevant pages , regardless of whether they were published previously or recently , should be ranked at the top of the results list ( Adar et al. , 2009 ; Elsas & Dumais , 2010 ) . 
+Moreover , web pages from authoritative sites such as Wikipedia are more valuable and should especially be considered . 
+For OBQ‐type queries , regardless of whether corresponding events are happening or have happened , users ' intents mostly focus on documents about these events ( Joho , Jatowt , & Roi , 2013 ; McCreadie , Macdonald , & Ounis , 2013 ) . 
+In this case , search engines should rank the relevant documents that were published during the period of the events at the top of the results list . 
+Moreover , freshness is very important , so search engines should more actively crawl new web pages and update the contents on old web pages ( Dong et al. , 2010 ; Olston & Pandey , 2008 ) . 
+For AMBQ‐type queries , they have multiple spikes at different time points that may correspond to different events . 
+Therefore , search engines should pay attention to the changes in the query intents by analyzing changes in the search results and user‐behavior data ( Kulkarni et al. , 2011 ) . 
+Moreover , user search intents behind AMBQ queries may be ambiguous . 
+That is , different users may issue the same query to find information corresponding to different events . 
+Search engines should diversify their search results to make sure that no matter what the intent is , there is at least one satisfactory result ( Berberich & Bedathur , 2013 ) . 
+For PMBQ‐type queries , they represent events that follow identical cycles . 
+Therefore , search engines can predict future events to respond to the users with temporally relevant search results ( Shokouhi , 2011 ) . 
+Although the spikes are usually associated with regularly occurring events , the user search intents behind PMBQ queries also may be temporally ambiguous . 
+In this case , search engines can temporally diversify search results ( Berberich & Bedathur , 2013 ) . 
+Moreover , Alfonseca , Ciaramita , and Hall ( 2009 ) showed that the query periodicities also could be used to improve the performance of query suggestions . 
+There is a large amount of previous work exploring the characteristics of web queries , among which query classification is an important part . 
+In 2002 , Broder presented a trichotomy of web queries : navigational queries , informational queries and transactional queries . 
+Navigational queries are intended to find a specific website that the user has in mind . 
+Informational queries are intended to find information about a topic . 
+Transactional queries are intended to perform web‐mediated activities . 
+The taxonomy has been adopted by many studies ( Herrera , de Moura , Cristo , Silva , & da Silva , 2010 ; Jansen & Booth , 2010 ; Jansen , Booth , & Spink , 2007 , 2008 ; U. Lee , Liu , & Cho , 2005 ; Rose & Levinson , 2004 ) . 
+Lewandowski , Drechsler , and Mach ( 2012 ) used Broder 's classification scheme to measure the reliability of query intent assessments to find out whether manual intent annotations were sufficiently reliable to be used as test data for automatic approaches . 

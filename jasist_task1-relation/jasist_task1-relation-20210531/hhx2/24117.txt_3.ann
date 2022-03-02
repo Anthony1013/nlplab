@@ -1,0 +1,16 @@
+T1	表 233 366	This is also reflected in the Mean Rank , shown in Table 7 , confirming that 10SENT is the overall winner across all tested data sets
+T2	表 2764 2906	Table 8 shows the average weights and corresponding standard deviation for each method in some data sets , but for all the results are similar
+T3	表 3716 3769	The results of those upperbounds are shown in Table 9
+T4	表 6224 6404	For a deeper understanding of the results , Table 10 shows the set size of 10SENT used to train the classifier before and after the bootstrapping step ( lines 9‐11 of Algorithm 1 )
+T5	引文作者 9389 9395	Araújo
+T6	引文时间 9405 9409	2016
+T7	标准数据集 5296 5316	sentistrenth_youtube
+T8	标准数据集 5319 5340	sentistrength_twitter
+T9	标准数据集 5343 5360	tweet_semevaltest
+T10	标准数据集 5363 5379	english_dailabor
+T11	研究结果 8339 8513	Our experimental results show that our self‐learning approach has the lowest prediction performance variability because of its ability to slightly adapt to different contexts
+T12	研究结果 8751 8851	Our experimental results also show that 10SENT achieves good effectiveness compared to our baselines
+T13	研究展望 9416 9535	As future work , we intend to better explore weighting strategies as well choosing other setups for different scenarios
+T14	研究展望 9540 9752	Particularly , we plan to investigate whether machine learning models trained with specific data sets can be used as input for the ensemble step as well as which trained data sets are better suited for our method
+T15	研究展望 9757 9871	Additionally , we will explore other syntactic and semantic aspects of the text of the messages to improve results
+R1	has_cited_time Arg1:T6 Arg2:T5	

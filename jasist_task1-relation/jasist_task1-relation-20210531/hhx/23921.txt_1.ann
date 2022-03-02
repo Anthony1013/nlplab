@@ -1,0 +1,358 @@
+T1	数据源 284 312	Book Citation Index ( BKCI )
+T2	引文作者 315 320	Adams
+T3	引文作者 323 328	Testa
+T4	引文时间 331 335	2011
+T6	引文的研究问题 678 737	assessments of the BKCI point to numerous indexing problems
+T7	引文作者 779 786	Gorraiz
+T8	引文作者 789 796	Purnell
+T9	引文作者 801 808	Glänzel
+T10	引文时间 811 815	2013
+T11	引文作者 818 829	Leydesdorff
+T12	引文作者 832 836	Felt
+T13	引文时间 839 843	2012
+T14	引文作者 846 860	Torres‐Salinas
+T15	引文作者 863 878	Robinson‐Garcia
+T16	引文作者 881 896	Cabezas‐Clavijo
+T17	引文作者 901 918	Jimenez‐Contreras
+T18	引文时间 921 925	2014
+T19	数据源 972 976	BKCI
+T20	数据源 984 990	Scopus
+T21	引文的研究问题 1010 1054	extract book citations from journal articles
+T22	引文作者 1057 1067	Hammarfelt
+T23	引文时间 1070 1074	2011
+T24	引文作者 1077 1084	Zuccala
+T25	引文作者 1087 1091	Guns
+T26	引文作者 1094 1104	Cornacchia
+T27	引文作者 1109 1112	Bod
+T28	引文时间 1115 1119	2014
+T29	引文的结果 1193 1205	Google Books
+T30	引文作者 1208 1214	Kousha
+T31	引文作者 1217 1225	Thelwall
+T32	引文时间 1228 1232	2009
+T33	引文的结果 1237 1251	Google Scholar
+T34	引文作者 1254 1260	Kousha
+T35	引文作者 1263 1271	Thelwall
+T36	引文时间 1274 1278	2011
+T37	引文的结果 1287 1300	OCLC‐WorldCat
+T38	引文作者 1303 1317	Torres‐Salinas
+T39	引文作者 1320 1324	Moed
+T40	引文时间 1327 1331	2009
+T41	引文作者 1334 1339	White
+T42	引文时间 1349 1353	2009
+T43	引文的研究问题 1360 1462	Concerted efforts are even being made to compare data that have been retrieved from multiple databases
+T44	引文作者 1465 1471	Kousha
+T45	引文作者 1474 1482	Thelwall
+T46	引文作者 1487 1493	Abdoli
+T47	引文时间 1496 1500	2016
+T48	引文作者 1503 1510	Zuccala
+T49	引文作者 1513 1523	Cornacchia
+T50	引文时间 1526 1530	2016
+T51	引文作者 1533 1540	Zuccala
+T52	引文作者 1543 1552	Verleysen
+T53	引文作者 1555 1565	Cornacchia
+T54	引文作者 1570 1576	Engels
+T55	引文时间 1579 1583	2015
+T56	引文作者 1587 1594	Zuccala
+T57	引文作者 1597 1602	White
+T58	引文时间 1605 1609	2015
+T59	数据源 1742 1746	BKCI
+T60	引文的结果 1787 1883	One solution is to avoid studies based on citations and work with library holding counts instead
+T61	引文作者 1886 1900	Torres‐Salinas
+T62	引文作者 1903 1907	Moed
+T63	引文时间 1910 1914	2009
+T64	引文的研究问题 2064 2123	their perceived impacts on culture and the life of the mind
+T65	引文作者 2128 2133	White
+T66	引文时间 2143 2147	2009
+T67	术语 2179 2190	libcitation
+T68	术语 2268 2280	libcitations
+T69	术语 2286 2301	citation counts
+T71	引文作者 2378 2385	Linmans
+T72	引文时间 2388 2392	2010
+T70	引文的结果 2164 2375	Thus far , the libcitation has generally been accepted , although researchers are reluctant to separate libcitations from citation counts , suggesting that both indicators might be used in a complementary manner
+T73	引文作者 2395 2402	Zuccala
+T74	引文作者 2405 2410	White
+T75	引文时间 2413 2417	2015
+T76	数据源 2519 2523	BKCI
+T77	研究问题 3122 3239	Since bibliographic families may be examined both theoretically and empirically , the aim of this study is to do both
+T78	研究问题 3244 3365	First , we will examine and explain several interrelated concepts linked to a family‐oriented entity‐relationship model ,
+T79	术语 3379 3437	Functional Requirements for Bibliographic Records ( FRBR )
+T80	数据源 3740 3744	BKCI
+T81	数据源 3747 3760	OCLC‐WorldCat
+T82	数据源 3767 3776	Goodreads
+T83	术语 3914 3931	citation counting
+T84	研究问题 3938 4151	The empirical aspect of our research is based on the following question : Do books currently indexed in the BKCI have adequate metadata and data designed to reflect inherent familial components and relationships ?
+T5	数据源 392 411	Book Citation Index
+T85	引文作者 4345 4353	Lubetzky
+T86	引文时间 4356 4360	1953
+T87	引文的结果 4365 4533	all bibliographic entities possess at least two : an intellectual property , which we refer to as the work and a physical property , which is the container for the work
+T88	引文作者 4567 4575	Lubetzky
+T89	引文时间 4578 4582	1953
+T90	引文的结果 4787 4870	what we observe from a work is the synthesis of its ideational and semantic content
+T91	引文作者 4873 4882	Smiraglia
+T92	引文时间 4885 4889	2001
+T93	术语 5047 5068	intellectual property
+T94	术语 5203 5236	digital object identifier ( DOI )
+T95	术语 5260 5263	DOI
+T96	时间 5368 5373	1950s
+T97	引文的结果 5517 5721	Today , with print and digital publishing , it can be interesting to examine when an article is officially published—that is , if it is available online with a DOI , or printed and indexed at a later date
+T98	术语 5677 5680	DOI
+T99	引文作者 5724 5732	Haustein
+T100	引文作者 5735 5741	Bowman
+T101	引文作者 5746 5752	Costas
+T102	引文时间 5755 5759	2015
+T103	引文作者 6048 6051	Chi
+T104	引文作者 6054 6059	Thijs
+T105	引文作者 6066 6073	Glänzel
+T106	引文时间 6076 6080	2015
+T107	引文的结果 6137 6328	the BKCI sometimes includes different editions of the same work : The BKCI distinguishes different editions of a book for some of its source items and indexes one or more editions of a work .
+T108	数据源 6595 6599	BKCI
+T109	数据源 6757 6761	BKCI
+T111	引文作者 7381 7384	Chi
+T110	引文时间 7400 7404	2015
+T112	引文的研究问题 7407 7451	use of the term work needs further attention
+T113	术语 7765 7800	International Standard Book Numbers
+T114	引文作者 8097 8100	Chi
+T115	引文时间 8113 8117	2015
+T116	引文的结果 8120 8204	have the impression that both editions of “ CRIME SCENE TO COURT ” are the same work
+T117	术语 8260 8318	Functional Requirements for Bibliographic Records ( FRBR )
+T118	引文的结果 8253 8446	In the Functional Requirements for Bibliographic Records ( FRBR ) the term work is an abstract entity , which serves as the focal point for a full conceptual model of the bibliographic universe
+T119	引文作者 8449 8455	Tillet
+T120	引文时间 8458 8462	2005
+T121	时间 8681 8685	1998
+T122	引文时间 8703 8707	2005
+T123	引文作者 8694 8700	Tillet
+T124	引文的结果 8799 8872	a generalized view… independent of any cataloguing code or implementation
+T126	引文作者 9448 9454	Tillet
+T127	引文时间 9457 9461	2005
+T128	引文的研究问题 9923 9964	a link to relate to the larger “ whole. ”
+T129	引文作者 9967 9973	Tillet
+T130	引文时间 9976 9980	2005
+T125	引文的研究问题 9404 9445	a link to relate to the larger “ whole. ”
+T131	引文作者 10029 10036	O'Neill
+T132	引文作者 10041 10053	Vizine‐Goetz
+T133	引文时间 10056 10060	1989
+T134	引文的研究问题 10068 10172	the first to examine the term work as part of an entity‐relationship model of the bibliographic family .
+T135	引文作者 10568 10575	O'Neill
+T136	引文作者 10580 10592	Vizine‐Goetz
+T137	引文时间 10595 10599	1989
+T138	引文的结果 10602 10812	explain also how a work and its physical object are linked on the basis of a one‐to‐many relationship : each book is affiliated with one work , but one work can have multiple books with which it is affiliated .
+T139	引文作者 10815 10821	Tillet
+T140	引文时间 10824 10828	2005
+T141	引文的结果 10831 10964	agrees with an abstract notion of work , but refers to a text and its specific arrangement of sentences , paragraphs chapters , etc .
+T142	引文的结果 10967 10985	as an expression .
+T143	引文的结果 10988 11094	The expression is then manifested by a specific version , leading to one example , which she calls an item
+T144	引文的结果 11280 11336	all texts of a work are derived from a single progenitor
+T145	引文作者 11341 11350	Smiraglia
+T146	引文时间 11353 11357	2001
+T147	引文的结果 11629 11781	At the descriptive level , the family tree could also include reviews , commentaries , annotated editions , or critical evaluations of the original work
+T148	引文作者 11784 11790	Tillet
+T149	引文时间 11793 11797	2001
+T150	图 11804 11939	Figure 1 illustrates what the FRBR entity‐relationship model might look like as a guide to evaluating the current structure of the BKCI
+T151	引文作者 11974 11980	Tillet
+T152	引文时间 11986 11990	2001
+T153	引文的结果 12116 12165	A conceptual model for the bibliographic universe
+T154	引文作者 12168 12174	Tillet
+T155	引文时间 12177 12181	2005
+T156	图 12341 12446	Below Figure 1 , we present a list of concepts , which have also been adapted from Tillet ( 2001 , 2005 )
+T157	引文作者 12424 12430	Tillet
+T158	引文时间 12433 12437	2001
+T159	引文时间 12440 12444	2005
+T160	具体模型 12609 12670	Modified model of bibliographic families for a scholarly work
+T161	引文作者 12673 12679	Tillet
+T162	引文时间 12682 12686	2001
+T163	引文时间 12689 12693	2005
+T164	引文的结果 12967 13208	A direct translation of the original language text into another specified target language text ( e.g. , Danish to English ) whereby the intellectual domain and the historical‐temporal context of the original work is recognized and maintained
+T165	引文作者 13211 13219	Pellizzi
+T166	引文时间 13222 13226	2015
+T167	引文的结果 13357 13535	Free Translation : An approach to translating a text , which intentionally recognizes the cultural gap between the “ intellectual world of the author and that of the translator ”
+T168	引文作者 13538 13546	Pellizzi
+T169	引文时间 13549 13553	2015
+T170	数据源 14526 14530	BKCI
+T171	引文的研究问题 14612 14701	there is currently a book‐by‐book editorial selection process in place at Thomson Reuters
+T172	引文作者 14704 14709	Testa
+T173	引文时间 14712 14716	2012
+T174	引文的结果 15372 15466	thus far , it has had some impact already on other bibliographic structures like OCLC‐WorldCat
+T175	引文作者 15473 15480	Bennett
+T176	引文作者 15483 15489	Lavoie
+T177	引文作者 15494 15501	O'Neill
+T178	引文时间 15504 15508	2003
+T179	引文作者 15528 15535	Bennett
+T180	引文时间 15548 15552	2003
+T181	引文的结果 15557 15702	“ the majority of benefits associated with applying the FRBR ” may be “ obtained by concentrating on a relatively small number of complex works ”
+T182	图 15717 15781	Figure 2 illustrates what is meant by the term “ complex work. ”
+T183	引文作者 15940 15943	Bod
+T184	引文时间 15946 15950	2010
+T185	时间 16164 16168	2013
+T186	时间 16184 16188	2016
+T187	数据源 16318 16331	OCLC‐WorldCat
+T188	数据源 16365 16378	OCLC‐WorldCat
+T189	图 16379 16525	they have been recorded as direct or “ literal translations ” of the Dutch progenitor , but the latest English expression has not ( see Figure 2 )
+T190	引文的结果 16665 16838	The term “ literal translation ” generally means that a source language text is rendered to a target language text , while retaining similar meaning and structure of content
+T191	引文作者 16841 16849	Bassnett
+T192	引文时间 16852 16856	2002
+T193	图 17841 17956	Note from Figure 2 that Rens Bod has translated and published an English derivative of De Vergeten Wetenshchappen ,
+T194	引文作者 18069 18072	Bod
+T195	引文时间 18075 18079	2013
+T196	数据源 18219 18227	WorldCat
+T197	引文时间 18856 18860	2013
+T198	术语 18889 18899	dipomatica
+T200	引文作者 19072 19078	R. Bod
+T201	引文时间 19116 19120	2016
+T199	引文的结果 19123 19216	I would consider the English [ expression ] as a kind of improved edition of the Dutch book .
+T202	引文时间 19651 19655	2013
+T203	术语 19684 19694	dipomatica
+T204	引文时间 19911 19915	2016
+T205	引文作者 20117 20123	R. Bod
+T206	引文作者 19867 19873	R. Bod
+T207	引文时间 20161 20165	2016
+T208	引文的结果 19954 20114	there will be new expressions of his work in “ Chinese ( just finished ) , Italian , Armenian and Korean versions…translated directly from the English version ”
+T209	引文作者 20616 20627	Leydesdorff
+T210	引文作者 20632 20636	Felt
+T211	引文时间 20639 20643	2012
+T212	引文的结果 20648 20768	monographs may be underrated in terms of citation impact or overrated because individual chapters are counted separately
+T213	数据源 20455 20459	BKCI
+T214	数据源 20588 20592	BKCI
+T215	数据源 20898 20902	BKCI
+T216	数据源 20987 20991	BKCI
+T217	数据源 21137 21201	the Danish PURE repository system for scholarly research outputs
+T218	数据源 21213 21226	OCLC‐WorldCat
+T219	数据源 21239 21248	Goodreads
+T220	时间 21707 21711	2009
+T221	引文的结果 22148 22294	each registration earns a department or research center 5.00 points ( level 1 authority publisher ) or 8.00 points ( level 2 authority publisher )
+T222	引文作者 22297 22311	Giménez‐Toledo
+T223	引文时间 22321 22325	2016
+T224	时间 22471 22480	2005–2015
+T225	引文作者 18850 18853	Bod
+T226	引文作者 19645 19648	Bod
+T227	术语 9674 9678	FRBR
+R1	coauthor Arg1:T3 Arg2:T2	
+R2	has_cited_time Arg1:T4 Arg2:T2	
+R3	produces Arg1:T7 Arg2:T6	
+R4	coauthor Arg1:T8 Arg2:T7	
+R5	coauthor Arg1:T9 Arg2:T8	
+R6	has_cited_time Arg1:T10 Arg2:T7	
+R7	field_similar_as Arg1:T11 Arg2:T7	
+R8	coauthor Arg1:T12 Arg2:T11	
+R9	has_cited_time Arg1:T13 Arg2:T11	
+R10	coauthor Arg1:T14 Arg2:T11	
+R11	coauthor Arg1:T15 Arg2:T14	
+R12	coauthor Arg1:T16 Arg2:T15	
+R13	coauthor Arg1:T17 Arg2:T16	
+R14	has_cited_time Arg1:T18 Arg2:T14	
+R15	produces Arg1:T22 Arg2:T21	
+R16	has_cited_time Arg1:T23 Arg2:T22	
+R17	coauthor Arg1:T25 Arg2:T24	
+R18	coauthor Arg1:T26 Arg2:T25	
+R19	coauthor Arg1:T27 Arg2:T26	
+R20	has_cited_time Arg1:T28 Arg2:T24	
+R21	coauthor Arg1:T24 Arg2:T22	
+R22	results Arg1:T30 Arg2:T29	
+R23	coauthor Arg1:T31 Arg2:T30	
+R24	has_cited_time Arg1:T32 Arg2:T30	
+R25	results Arg1:T34 Arg2:T33	
+R26	coauthor Arg1:T35 Arg2:T34	
+R27	has_cited_time Arg1:T36 Arg2:T34	
+R28	results Arg1:T38 Arg2:T37	
+R29	coauthor Arg1:T39 Arg2:T38	
+R30	has_cited_time Arg1:T40 Arg2:T38	
+R31	field_similar_as Arg1:T41 Arg2:T38	
+R32	has_cited_time Arg1:T42 Arg2:T41	
+R33	produces Arg1:T44 Arg2:T43	
+R34	coauthor Arg1:T45 Arg2:T44	
+R35	coauthor Arg1:T46 Arg2:T45	
+R36	field_similar_as Arg1:T48 Arg2:T44	
+R37	has_cited_time Arg1:T47 Arg2:T44	
+R38	coauthor Arg1:T49 Arg2:T48	
+R39	has_cited_time Arg1:T50 Arg2:T48	
+R40	coauthor Arg1:T52 Arg2:T51	
+R41	coauthor Arg1:T53 Arg2:T52	
+R42	coauthor Arg1:T54 Arg2:T53	
+R43	has_cited_time Arg1:T55 Arg2:T51	
+R44	field_similar_as Arg1:T56 Arg2:T51	
+R45	field_similar_as Arg1:T48 Arg2:T51	
+R46	coauthor Arg1:T57 Arg2:T56	
+R47	has_cited_time Arg1:T58 Arg2:T56	
+R48	results Arg1:T61 Arg2:T60	
+R49	coauthor Arg1:T62 Arg2:T61	
+R50	has_cited_time Arg1:T63 Arg2:T61	
+R51	produces Arg1:T65 Arg2:T64	
+R52	has_cited_time Arg1:T66 Arg2:T65	
+R53	results Arg1:T71 Arg2:T70	
+R54	has_cited_time Arg1:T72 Arg2:T71	
+R55	coauthor Arg1:T74 Arg2:T73	
+R56	has_cited_time Arg1:T75 Arg2:T73	
+R57	field_similar_as Arg1:T73 Arg2:T71	
+R58	has_cited_time Arg1:T86 Arg2:T85	
+R59	results Arg1:T85 Arg2:T87	
+R60	results Arg1:T91 Arg2:T90	
+R61	has_cited_time Arg1:T92 Arg2:T91	
+R62	results Arg1:T99 Arg2:T97	
+R63	coauthor Arg1:T100 Arg2:T99	
+R64	coauthor Arg1:T101 Arg2:T100	
+R65	has_cited_time Arg1:T102 Arg2:T99	
+R66	coauthor Arg1:T104 Arg2:T103	
+R67	coauthor Arg1:T105 Arg2:T104	
+R68	has_cited_time Arg1:T106 Arg2:T103	
+R69	results Arg1:T103 Arg2:T107	
+R70	produces Arg1:T111 Arg2:T112	
+R71	has_cited_time Arg1:T110 Arg2:T111	
+R72	results Arg1:T114 Arg2:T116	
+R73	has_cited_time Arg1:T115 Arg2:T114	
+R74	results Arg1:T119 Arg2:T118	
+R75	has_cited_time Arg1:T120 Arg2:T119	
+R76	has_cited_time Arg1:T122 Arg2:T123	
+R77	results Arg1:T123 Arg2:T124	
+R78	produces Arg1:T126 Arg2:T125	
+R79	has_cited_time Arg1:T127 Arg2:T126	
+R80	has_cited_time Arg1:T130 Arg2:T129	
+R81	produces Arg1:T129 Arg2:T128	
+R82	coauthor Arg1:T132 Arg2:T131	
+R83	has_cited_time Arg1:T133 Arg2:T131	
+R84	produces Arg1:T131 Arg2:T134	
+R85	coauthor Arg1:T136 Arg2:T135	
+R86	has_cited_time Arg1:T137 Arg2:T135	
+R87	results Arg1:T135 Arg2:T138	
+R88	results Arg1:T139 Arg2:T141	
+R89	has_cited_time Arg1:T140 Arg2:T139	
+R90	results Arg1:T139 Arg2:T142	
+R91	results Arg1:T139 Arg2:T143	
+R92	results Arg1:T145 Arg2:T144	
+R93	has_cited_time Arg1:T146 Arg2:T145	
+R94	has_cited_time Arg1:T149 Arg2:T148	
+R95	results Arg1:T148 Arg2:T147	
+R96	has_cited_time Arg1:T152 Arg2:T151	
+R97	results Arg1:T154 Arg2:T153	
+R98	has_cited_time Arg1:T155 Arg2:T154	
+R99	results Arg1:T151 Arg2:T153	
+R100	has_cited_time Arg1:T159 Arg2:T157	
+R101	has_cited_time Arg1:T158 Arg2:T157	
+R102	has_cited_time Arg1:T162 Arg2:T161	
+R103	has_cited_time Arg1:T163 Arg2:T161	
+R104	results Arg1:T165 Arg2:T164	
+R105	has_cited_time Arg1:T166 Arg2:T165	
+R106	has_cited_time Arg1:T169 Arg2:T168	
+R107	results Arg1:T168 Arg2:T167	
+R108	has_cited_time Arg1:T173 Arg2:T172	
+R109	produces Arg1:T172 Arg2:T171	
+R110	results Arg1:T175 Arg2:T174	
+R111	coauthor Arg1:T177 Arg2:T176	
+R112	coauthor Arg1:T176 Arg2:T175	
+R113	has_cited_time Arg1:T178 Arg2:T175	
+R114	has_cited_time Arg1:T180 Arg2:T179	
+R115	results Arg1:T179 Arg2:T181	
+R116	has_cited_time Arg1:T184 Arg2:T183	
+R117	has_cited_time Arg1:T192 Arg2:T191	
+R118	results Arg1:T191 Arg2:T190	
+R119	has_cited_time Arg1:T195 Arg2:T194	
+R120	has_cited_time Arg1:T197 Arg2:T225	
+R121	has_cited_time Arg1:T201 Arg2:T200	
+R122	results Arg1:T200 Arg2:T199	
+R123	has_cited_time Arg1:T202 Arg2:T226	
+R124	has_cited_time Arg1:T204 Arg2:T206	
+R125	results Arg1:T205 Arg2:T208	
+R126	has_cited_time Arg1:T207 Arg2:T205	
+R127	has_cited_time Arg1:T211 Arg2:T210	
+R128	coauthor Arg1:T210 Arg2:T209	
+R129	results Arg1:T209 Arg2:T212	
+R130	has_cited_time Arg1:T223 Arg2:T222	
+R131	results Arg1:T222 Arg2:T221	

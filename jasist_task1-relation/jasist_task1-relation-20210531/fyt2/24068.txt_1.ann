@@ -1,0 +1,621 @@
+T1	引文作者 317 320	Cui
+T2	引文作者 323 325	Ma
+T3	引文作者 328 332	Lian
+T4	引文作者 335 339	Chen
+T5	引文作者 344 348	Wang
+T6	引文时间 351 355	2015
+T7	引文作者 358 362	Deng
+T8	引文作者 365 367	Ji
+T9	引文作者 370 373	Tao
+T10	引文作者 376 379	Gao
+T11	引文作者 384 386	Li
+T12	引文时间 389 393	2014
+T13	引文作者 396 403	Morioka
+T14	引文作者 406 410	Wang
+T15	引文时间 413 417	2011
+T16	引文作者 420 424	Yang
+T17	引文作者 427 435	Hanjalic
+T18	引文时间 438 442	2010
+T19	引文作者 674 680	Bengio
+T20	引文时间 683 687	2008
+T21	引文作者 690 697	Chechik
+T22	引文作者 700 706	Sharma
+T23	引文作者 709 715	Shalit
+T24	引文作者 720 726	Bengio
+T25	引文时间 729 733	2010
+T26	引文作者 736 741	Huang
+T27	引文作者 744 749	Feris
+T28	引文作者 752 756	Chen
+T29	引文作者 761 764	Yan
+T30	引文时间 767 771	2015
+T31	引文作者 785 792	Niebles
+T32	引文作者 774 782	Escorcia
+T33	引文作者 797 803	Ghanem
+T34	引文时间 806 810	2015
+T35	引文作者 663 671	Grangier
+T38	引文作者 1966 1971	Dalal
+T39	引文作者 1974 1980	Triggs
+T40	引文时间 1983 1987	2005
+T41	引文作者 2622 2627	Zhang
+T42	引文时间 2637 2641	2013
+T43	引文时间 2615 2619	2012
+T44	引文作者 2644 2649	Z. Su
+T45	引文作者 2652 2654	Li
+T46	引文作者 2657 2659	Li
+T47	引文作者 2664 2667	Luo
+T48	引文时间 2670 2674	2017
+T49	引文作者 2495 2502	Lampert
+T50	引文作者 2505 2513	Nickisch
+T51	引文作者 2518 2527	Harmeling
+T52	引文时间 2530 2534	2009
+T53	引文作者 2537 2544	Farhadi
+T54	引文作者 2547 2553	Endres
+T55	引文作者 2556 2561	Hoiem
+T56	引文作者 2566 2573	Forsyth
+T57	引文时间 2576 2580	2009
+T58	引文作者 2583 2591	Kovashka
+T59	引文作者 2594 2600	Parikh
+T60	引文作者 2605 2612	Grauman
+T61	引文作者 3218 3223	A. Yu
+T62	引文作者 3226 3233	Grauman
+T63	引文时间 3236 3240	2014
+T65	图 2906 2971	the high heels in Figure 1 are “ pink ” and in “ open toe ” style
+T71	研究方法 3872 3975	we propose a Probabilistic Semantic Interpretable framework for fine‐grained image ranking , called PSI
+T72	具体模型 3984 3987	PSI
+T73	引文时间 4679 4683	2017
+T74	引文作者 4550 4556	Parikh
+T75	引文作者 4559 4566	Grauman
+T76	引文时间 4569 4574	2011a
+T77	引文作者 4577 4582	A. Yu
+T78	引文作者 4585 4592	Grauman
+T79	引文时间 4595 4599	2014
+T80	引文作者 4602 4608	Sharaf
+T81	引文作者 4611 4618	Hussein
+T82	引文作者 4623 4629	Ismail
+T83	引文时间 4632 4636	2015
+T84	引文作者 4639 4644	Verma
+T85	引文作者 4647 4654	Jawahar
+T86	引文时间 4657 4661	2015
+T87	引文作者 4664 4669	Z. Su
+T88	引文的方法 4511 4547	using attributes as ranking criteria
+T89	研究方法 5092 5172	the attribute based representation and supervised constrained clustering methods
+T90	研究结果 4954 5600	( a ) A novel semantic interpretable framework is proposed , which can reveal the key factors in certain image ranking tasks ; ( b ) with the attribute based representation and supervised constrained clustering methods , we can reduce the dimensions of both the feature space and searching space significantly , and hence obtain a fast solution to the fine‐grained image ranking problem ; ( c ) combining multiple local rankers via the proposed probabilistic framework helps our solution overcome the disadvantages of global and local models , and achieve the state‐of‐the‐art performance on the benchmark for fine‐grained image ranking problem .
+T91	具体模型 5680 5683	PSI
+T92	具体模型 5718 5727	LocalPair
+T93	图 5781 5870	Representative qualitative ranking results of the proposed framework is shown in Figure 6
+T94	具体模型 5956 5959	PSI
+T95	具体模型 5980 5988	KNN‐ITML
+T96	具体模型 6122 6125	PSI
+T97	具体模型 6059 6062	PSI
+T98	具体模型 6348 6351	PSI
+T99	具体模型 6375 6387	FG‐LocalPair
+T100	具体模型 6539 6542	PSI
+T103	具体模型 7032 7070	ensemble multiple local ranking models
+T104	具体模型 7075 7093	the Bayesian model
+T105	具体模型 7188 7250	posterior term and combine the outputs of local ranking models
+T108	引文作者 8882 8889	Lampert
+T109	引文时间 8901 8905	2009
+T110	引文作者 8912 8919	Farhadi
+T111	引文时间 8931 8935	2009
+T112	引文时间 9405 9410	2011a
+T113	引文作者 9395 9402	Grauman
+T114	引文作者 9384 9390	Parikh
+T115	引文作者 9229 9233	Berg
+T116	引文作者 9240 9244	Shih
+T117	引文作者 9222 9226	Berg
+T118	引文时间 9247 9251	2010
+T119	引文的研究问题 9254 9372	explored the mutual information to interactively learn visual attributes from unlabeled image and text data on the web
+T121	引文时间 9569 9573	2012
+T122	引文作者 9559 9566	Lampert
+T123	引文的方法 9413 9526	a nameability model was used to interactively select a nameable and discriminative attribute to achieve this goal
+T124	引文作者 9529 9539	Sharmanska
+T125	引文作者 9542 9552	Quadrianto
+T126	引文的结果 9576 9688	augmented an attribute space with non‐semantic features learned by an auto‐encoder with a large‐margin principle
+T127	引文的方法 9643 9688	an auto‐encoder with a large‐margin principle
+T129	引文作者 9691 9693	Fu
+T130	引文作者 9696 9706	Hospedales
+T131	引文作者 9709 9714	Xiang
+T133	引文时间 9728 9732	2014
+T132	引文作者 9721 9725	Gong
+T134	引文的方法 9735 9871	introduced the concept of semi‐latent attribute space , which expands the original user‐specified attribute space with latent attributes
+T136	引文作者 9874 9879	Zhang
+T137	引文时间 9892 9896	2013
+T138	引文的方法 9899 10008	proposed a semantic hierarchy structure to organize concepts and couple each concept with a set of attributes
+T140	引文作者 10011 10020	Abdulnabi
+T141	引文作者 10023 10027	Wang
+T142	引文作者 10030 10032	Lu
+T143	引文作者 10039 10042	Jia
+T144	引文时间 10045 10049	2015
+T145	引文的方法 10052 10179	proposed to predict binary attributes via deep convolutional neural networks jointly trained in a multi‐task learning framework
+T146	引文作者 10816 10824	Kovashka
+T147	引文时间 10834 10838	2012
+T148	引文作者 10841 10846	Zhang
+T149	引文作者 10849 10852	Zha
+T150	引文作者 10855 10858	Yan
+T151	引文作者 10861 10865	Bian
+T152	引文作者 10870 10874	Chua
+T153	引文时间 10877 10881	2012
+T154	引文作者 10884 10888	Wang
+T155	引文作者 10891 10896	Zhang
+T156	引文作者 10899 10906	Tretter
+T157	引文作者 10911 10914	Lin
+T158	引文时间 10917 10921	2013
+T159	引文作者 10924 10928	Choi
+T160	引文时间 10931 10935	2013
+T161	引文作者 10938 10942	Chen
+T162	引文作者 10945 10949	Chen
+T163	引文作者 10952 10955	Kuo
+T164	引文作者 10960 10963	Hsu
+T165	引文时间 10966 10970	2013
+T166	引文作者 10973 10982	Siddiquie
+T167	引文作者 10985 10990	Feris
+T168	引文作者 10995 11000	Davis
+T169	引文时间 11003 11007	2011
+T170	引文作者 11010 11018	F. X. Yu
+T171	引文作者 11021 11023	Ji
+T172	引文作者 11026 11030	Tsai
+T173	引文作者 11033 11035	Ye
+T174	引文作者 11040 11045	Chang
+T175	引文时间 11048 11052	2012
+T176	引文作者 11055 11060	Douze
+T177	引文作者 11063 11069	Ramisa
+T178	引文作者 11074 11080	Schmid
+T179	引文时间 11083 11087	2011
+T180	引文作者 11129 11131	Lu
+T181	引文作者 11134 11138	Yang
+T182	引文作者 11141 11145	Yang
+T183	引文作者 11150 11153	Rui
+T184	引文时间 11156 11160	2015
+T185	引文作者 11163 11166	Shi
+T186	引文作者 11169 11173	Yang
+T187	引文作者 11176 11186	Hospedales
+T188	引文作者 11191 11196	Xiang
+T189	引文作者 11199 11203	2016
+T190	引文作者 11206 11209	Cho
+T191	引文作者 11212 11216	Kang
+T192	引文作者 11221 11224	Kim
+T193	引文时间 11227 11231	2016
+T194	引文作者 11262 11265	Liu
+T195	引文时间 11275 11279	2012
+T196	引文作者 11309 11318	Danelljan
+T197	引文作者 11321 11325	Khan
+T198	引文作者 11328 11336	Felsberg
+T199	引文作者 11341 11354	van de Weijer
+T200	引文时间 11357 11361	2014
+T201	引文作者 11397 11402	C. Su
+T202	引文时间 11412 11416	2015
+T203	引文作者 11487 11491	Chen
+T204	引文时间 11504 11508	2013
+T205	引文作者 11635 11639	Wang
+T206	引文时间 11652 11656	2013
+T207	引文时间 11784 11788	2011
+T208	引文作者 11766 11771	Douze
+T209	引文作者 11883 11888	Zhang
+T215	引文的方法 11511 11627	added attributes in the constraints of learning the codebook of a sparse‐coding based model for face image retrieval
+T216	引文的方法 11661 11763	attributes are used for computing image similarity with Jeffrey Divergence to re‐rank retrieved images
+T218	引文的方法 11791 11880	simply combined attribute‐based representation and fisher descriptors for image retrieval
+T219	引文时间 11901 11905	2012
+T220	引文的方法 11908 12025	employed a Bayesian system to automatically select the prominent attributes to obtain user feedback and search images
+T222	引文作者 12428 12436	Grangier
+T223	引文作者 12439 12445	Bengio
+T224	引文作者 12455 12462	Morioka
+T225	引文作者 12465 12469	Wang
+T226	引文时间 12448 12452	2008
+T227	引文时间 12472 12476	2011
+T228	引文作者 12486 12494	Hanjalic
+T229	引文作者 12479 12483	Yang
+T230	引文时间 12497 12501	2010
+T231	引文作者 12504 12506	Wu
+T232	引文作者 12523 12527	Yang
+T233	引文作者 12530 12538	Hanjalic
+T234	引文时间 12541 12545	2010
+T235	具体模型 12714 12744	support vector machine ( SVM )
+T236	引文作者 12747 12754	Morioka
+T237	引文时间 12516 12520	2013
+T238	引文作者 12759 12763	Wang
+T239	引文时间 12766 12770	2011
+T240	引文作者 12566 12570	Yang
+T241	引文作者 12575 12583	Hanjalic
+T242	引文时间 12586 12590	2010
+T243	引文作者 12882 12890	Grangier
+T244	引文作者 12895 12901	Bengio
+T245	引文时间 12904 12908	2008
+T246	引文作者 13082 13088	Bengio
+T247	引文作者 13069 13077	Grangier
+T248	引文时间 13091 13095	2008
+T249	引文作者 13321 13326	A. Yu
+T250	引文作者 13329 13336	Grauman
+T251	引文时间 13339 13343	2014
+T252	引文作者 13346 13352	Parikh
+T253	引文作者 13355 13362	Grauman
+T254	引文时间 13365 13370	2011b
+T255	引文作者 13373 13381	Kovashka
+T256	引文时间 13391 13395	2012
+T257	引文作者 13398 13406	Kovashka
+T258	引文作者 13409 13416	Grauman
+T259	引文时间 13419 13423	2013
+T260	引文作者 13426 13430	Deng
+T261	引文时间 13440 13444	2014
+T262	引文作者 13447 13452	Verma
+T263	引文作者 13455 13462	Jawahar
+T264	引文时间 13465 13469	2015
+T265	引文作者 13472 13478	Sharaf
+T266	引文时间 13488 13492	2015
+T267	引文作者 13495 13499	Xiao
+T268	引文作者 13502 13505	Lee
+T269	引文时间 13508 13512	2015
+T270	引文时间 13590 13595	2011b
+T271	引文作者 13580 13587	Grauman
+T272	引文作者 13569 13575	Parikh
+T273	引文时间 13743 13747	2012
+T274	引文的方法 12367 12425	ranking models are learned to refine the retrieval results
+T275	引文的方法 12593 12744	proposed to rank images based on both text information and visual similarity , weighed by coefficients learned by a rank support vector machine ( SVM )
+T277	引文的方法 12773 12877	proposed to retrieve and rank candidate images via a model trained with sparsity and ranking constraints
+T278	引文的方法 12911 13039	proposed a discriminative kernel‐based model based on the Passive‐Aggressive algorithm , which is also employed in our framework
+T279	具体模型 12937 12955	kernel‐based model
+T280	具体模型 12969 12997	Passive‐Aggressive algorithm
+T282	引文作者 13704 13712	Kovashka
+T283	引文作者 13725 13733	Kovashka
+T284	引文作者 13750 13758	Kovashka
+T285	引文作者 13761 13768	Grauman
+T286	引文时间 13771 13775	2013
+T287	引文的方法 13778 13838	then employed relative attributes to represent user feedback
+T288	引文的结果 13606 13648	proposed the concept of relative attribute
+T291	引文作者 13843 13847	Deng
+T292	引文时间 13860 13864	2014
+T293	引文的方法 13867 13999	proposed to rank images via the fusion of aligned multiple graphs , where the alignment is achieved by mining co‐occurred attributes
+T295	具体模型 14050 14068	FG‐LocalPair model
+T296	引文作者 14081 14086	A. Yu
+T297	引文作者 14091 14098	Grauman
+T298	引文时间 14101 14105	2014
+T299	引文时间 14448 14452	2015
+T300	引文作者 14438 14445	Jawahar
+T301	引文作者 14428 14433	Verma
+T302	引文作者 14459 14465	Sharaf
+T303	引文作者 14294 14299	Davis
+T304	引文作者 14302 14307	Kulis
+T305	引文作者 14310 14314	Jain
+T306	引文作者 14317 14320	Sra
+T307	引文作者 14325 14332	Dhillon
+T308	引文时间 14335 14339	2007
+T310	引文的方法 14221 14291	employing the information‐theoretic metric learning ( ITML ) technique
+T312	引文时间 14478 14482	2015
+T313	引文时间 14994 14998	2015
+T314	引文时间 15121 15125	2016
+T315	引文时间 14801 14805	2015
+T316	引文时间 15479 15483	2017
+T317	引文时间 15771 15775	2017
+T318	引文时间 14834 14838	2016
+T319	引文时间 14855 14859	2016
+T320	引文时间 14900 14904	2017
+T321	引文时间 15251 15255	2016
+T322	具体模型 14734 14771	Convolutional Neural Networks ( CNN )
+T324	引文的方法 14485 14559	proposed to enhance the FG‐LocalPair method by modifying its ranking model
+T325	具体模型 14509 14528	FG‐LocalPair method
+T326	引文作者 14788 14792	Xiao
+T327	引文作者 14795 14798	Lee
+T328	引文作者 14808 14813	Souri
+T329	引文作者 14816 14821	Noury
+T330	引文作者 14826 14831	Adeli
+T331	引文作者 14841 14846	Singh
+T332	引文作者 14849 14852	Lee
+T333	引文作者 14862 14866	Cruz
+T334	引文作者 14869 14877	Fernando
+T335	引文作者 14880 14887	Cherian
+T336	引文作者 14892 14897	Gould
+T337	引文作者 14979 14983	Xiao
+T338	引文作者 14988 14991	Lee
+T339	引文的方法 15001 15098	proposed to localize the reasoning of ranking via adopting self‐paced learned attribute detectors
+T340	引文作者 15103 15108	Souri
+T341	引文的方法 15128 15232	proposed to learn the ranking function via training the VGG‐16 model with the logistic regression method
+T342	具体模型 15184 15196	VGG‐16 model
+T343	具体模型 15206 15232	logistic regression method
+T344	引文作者 15235 15240	Singh
+T345	引文作者 15245 15248	Lee
+T346	引文的方法 15258 15356	considered the Siamese architecture , and adopted the cross‐entropy loss as the objective function
+T348	引文作者 15462 15466	Cruz
+T350	具体模型 15620 15624	CNNs
+T351	引文作者 15751 15756	A. Yu
+T352	引文作者 15761 15768	Grauman
+T353	引文的方法 15778 15985	did not benefit from CNNs directly , they proposed to use Generative Adversarial Networks to generate synthetic images , which augmented the training examples and successfully bootstrapped the ranking models
+T354	具体模型 15799 15803	CNNs
+T356	引文作者 16423 16429	Parikh
+T357	引文作者 16432 16439	Grauman
+T358	引文时间 16442 16447	2011b
+T359	引文作者 16927 16932	A. Yu
+T360	引文作者 16935 16942	Grauman
+T361	引文时间 16945 16949	2014
+T362	图 16851 17011	To understand this , we visualize the test image pairs on the UT‐Zap50K‐2 ( A. Yu & Grauman , 2014 ) fine‐grained image ranking benchmark , as shown in Figure 2
+T365	自建数据集 16913 16924	UT‐Zap50K‐2
+T367	引文作者 17051 17065	van der Maaten
+T368	引文作者 17068 17074	Hinton
+T369	引文时间 17077 17081	2012
+T371	引文作者 17901 17906	A. Yu
+T372	引文作者 17909 17916	Grauman
+T373	引文时间 17919 17923	2014
+T374	具体模型 18386 18389	PSI
+T375	具体模型 18488 18491	PSI
+T376	图 19276 19322	The diagram of PSI is demonstrated in Figure 3
+T378	具体模型 19479 19520	supervised constrained clustering ( SCC )
+T379	具体模型 21251 21292	Supervised Constrained Clustering ( SCC )
+T381	引文作者 21554 21556	Ge
+T382	引文作者 21559 21564	Ester
+T383	引文作者 21567 21570	Jin
+T384	引文作者 21575 21583	Davidson
+T385	引文时间 21586 21590	2007
+T386	引文作者 21800 21809	Ganganwar
+T387	引文时间 21812 21816	2012
+T388	引文作者 22078 22080	Ge
+T389	引文时间 22090 22094	2007
+T390	具体模型 21850 21863	SCC algorithm
+T391	具体模型 21962 21965	SCC
+T36	图 1161 1590	This phenomenon can be considered as a specific type of the well‐known semantic gap problem , and Figure 1 shows an example of it : when given an image of high heels and an image of running shoes , we human viewers will perceive that the latter is sportier , because the flat heel and close‐toe design make it more suitable for sports , while traditional methods may make the judgment only based on some low‐level visual patterns
+T37	引文的研究问题 3172 3215	pairwise fine‐grained image ranking problem
+T66	研究方法 3980 4318	Our PSI consists of three parts : ( a ) a supervised constrained clustering algorithm which divides training instances into fine‐grained groups , ( b ) an online passive‐aggressive algorithm which performs image ranking with local learning , and ( c ) a probabilistic ensemble method to obtain optimal result from the local ranking models
+T68	研究问题 6589 6776	In this article , a novel probabilistic semantic interpretable framework is proposed to tackle the semantic gap and the localization problem of fine‐grained image ranking at the same time
+T69	研究方法 6781 6968	We demonstrate why a ranking model with the attribute‐based representation is semantic interpretable and employ the online passive‐aggressive algorithm to learn our local ranking models .
+T395	研究方法 6971 7259	We also show that the localization problem can be handle via ensemble multiple local ranking models via the Bayesian model averaging framework , which can introduce the spatial relationship in the feature space via a posterior term and combine the outputs of local ranking models properly
+T396	研究方法 7264 7408	Besides , a supervised constrained clustering method is proposed to group training instances with significance constraint and balance constraint
+T397	研究方法 7413 7549	We combine the previous methods into a unified probabilistic framework and have validated its effectiveness with a series of experiments
+T398	研究展望 7554 7709	In the future , we will focus on boosting the accuracy of attribute classifiers because they are the foundation of building a semantic interpretable system
+T399	研究方法 7902 8117	Besides , we also tend to design an end‐to‐end framework which combines attribute learning and image ranking together , so that it may help to better exploit the inner‐connection between attributes and image ranking
+T401	研究方法 10476 10599	in this work , we omit the relationships between attributes and adopt a simple probabilistic attribute‐based representation
+T210	研究方法 13100 13234	we directly give the closed‐form solution to learning procedure of parameters , instead of introducing a compatibility function ad hoc
+T211	引文的方法 13652 13699	rank images based on the strength of attributes
+T212	引文的方法 15586 15737	To do this , they proposed to use CNNs to predict the double stochastic matrix as the permutation matrix , and used it to recover the original sequence
+T213	研究方法 16629 16704	We follow this way and provide our online solution in the Framework section
+T214	自建数据集 17887 17898	UT‐Zap50K‐2
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	coauthor Arg1:T4 Arg2:T5	
+R5	has_cited_time Arg1:T6 Arg2:T5	
+R6	field_similar_as Arg1:T7 Arg2:T8	
+R7	coauthor Arg1:T8 Arg2:T9	
+R8	coauthor Arg1:T9 Arg2:T10	
+R9	coauthor Arg1:T10 Arg2:T11	
+R10	has_cited_time Arg1:T12 Arg2:T11	
+R11	coauthor Arg1:T13 Arg2:T14	
+R12	has_cited_time Arg1:T15 Arg2:T14	
+R13	coauthor Arg1:T16 Arg2:T17	
+R14	has_cited_time Arg1:T18 Arg2:T17	
+R15	field_similar_as Arg1:T1 Arg2:T7	
+R16	field_similar_as Arg1:T7 Arg2:T13	
+R17	field_similar_as Arg1:T13 Arg2:T16	
+R18	coauthor Arg1:T35 Arg2:T19	
+R19	has_cited_time Arg1:T20 Arg2:T19	
+R20	coauthor Arg1:T21 Arg2:T22	
+R21	coauthor Arg1:T22 Arg2:T23	
+R22	coauthor Arg1:T23 Arg2:T24	
+R23	has_cited_time Arg1:T25 Arg2:T24	
+R24	coauthor Arg1:T26 Arg2:T27	
+R25	coauthor Arg1:T27 Arg2:T28	
+R26	coauthor Arg1:T28 Arg2:T29	
+R27	has_cited_time Arg1:T30 Arg2:T29	
+R28	coauthor Arg1:T32 Arg2:T31	
+R29	coauthor Arg1:T31 Arg2:T33	
+R30	has_cited_time Arg1:T34 Arg2:T33	
+R31	field_similar_as Arg1:T35 Arg2:T21	
+R32	field_similar_as Arg1:T21 Arg2:T26	
+R33	field_similar_as Arg1:T26 Arg2:T32	
+R34	coauthor Arg1:T38 Arg2:T39	
+R35	has_cited_time Arg1:T40 Arg2:T39	
+R36	coauthor Arg1:T49 Arg2:T50	
+R37	coauthor Arg1:T50 Arg2:T51	
+R38	has_cited_time Arg1:T52 Arg2:T51	
+R39	coauthor Arg1:T53 Arg2:T54	
+R40	coauthor Arg1:T54 Arg2:T55	
+R41	coauthor Arg1:T55 Arg2:T56	
+R42	has_cited_time Arg1:T57 Arg2:T56	
+R43	coauthor Arg1:T58 Arg2:T59	
+R44	coauthor Arg1:T59 Arg2:T60	
+R45	has_cited_time Arg1:T43 Arg2:T60	
+R46	has_cited_time Arg1:T42 Arg2:T41	
+R47	coauthor Arg1:T44 Arg2:T45	
+R48	coauthor Arg1:T45 Arg2:T46	
+R49	coauthor Arg1:T46 Arg2:T47	
+R50	has_cited_time Arg1:T48 Arg2:T47	
+R51	produces Arg1:T61 Arg2:T37	
+R52	coauthor Arg1:T61 Arg2:T62	
+R53	has_cited_time Arg1:T63 Arg2:T62	
+R54	field_similar_as Arg1:T49 Arg2:T53	
+R55	field_similar_as Arg1:T53 Arg2:T58	
+R56	field_similar_as Arg1:T58 Arg2:T41	
+R57	coauthor Arg1:T74 Arg2:T75	
+R58	uses Arg1:T74 Arg2:T88	
+R59	coauthor Arg1:T77 Arg2:T78	
+R60	has_cited_time Arg1:T76 Arg2:T75	
+R61	has_cited_time Arg1:T79 Arg2:T78	
+R62	coauthor Arg1:T80 Arg2:T81	
+R63	coauthor Arg1:T81 Arg2:T82	
+R64	has_cited_time Arg1:T83 Arg2:T82	
+R65	coauthor Arg1:T84 Arg2:T85	
+R66	has_cited_time Arg1:T86 Arg2:T85	
+R67	has_cited_time Arg1:T73 Arg2:T87	
+R68	field_similar_as Arg1:T74 Arg2:T77	
+R69	field_similar_as Arg1:T77 Arg2:T80	
+R70	field_similar_as Arg1:T80 Arg2:T84	
+R71	field_similar_as Arg1:T84 Arg2:T87	
+R72	has_cited_time Arg1:T109 Arg2:T108	
+R73	has_cited_time Arg1:T111 Arg2:T110	
+R74	coauthor Arg1:T108 Arg2:T110	
+R75	coauthor Arg1:T117 Arg2:T115	
+R76	coauthor Arg1:T115 Arg2:T116	
+R77	has_cited_time Arg1:T118 Arg2:T116	
+R84	uses Arg1:T140 Arg2:T145	
+R85	coauthor Arg1:T124 Arg2:T125	
+R86	coauthor Arg1:T114 Arg2:T113	
+R83	uses Arg1:T136 Arg2:T138	
+R78	produces Arg1:T117 Arg2:T119	
+R79	uses Arg1:T114 Arg2:T123	
+R80	results Arg1:T124 Arg2:T126	
+R81	uses Arg1:T129 Arg2:T134	
+R82	coauthor Arg1:T125 Arg2:T122	
+R87	has_cited_time Arg1:T112 Arg2:T113	
+R88	coauthor Arg1:T129 Arg2:T130	
+R89	uses Arg1:T124 Arg2:T127	
+R90	coauthor Arg1:T130 Arg2:T131	
+R91	has_cited_time Arg1:T121 Arg2:T122	
+R92	coauthor Arg1:T131 Arg2:T132	
+R93	has_cited_time Arg1:T133 Arg2:T132	
+R94	coauthor Arg1:T140 Arg2:T141	
+R95	coauthor Arg1:T141 Arg2:T142	
+R96	coauthor Arg1:T142 Arg2:T143	
+R97	has_cited_time Arg1:T144 Arg2:T143	
+R98	has_cited_time Arg1:T147 Arg2:T146	
+R99	coauthor Arg1:T148 Arg2:T149	
+R100	coauthor Arg1:T149 Arg2:T150	
+R101	coauthor Arg1:T150 Arg2:T151	
+R102	coauthor Arg1:T151 Arg2:T152	
+R103	has_cited_time Arg1:T153 Arg2:T152	
+R104	coauthor Arg1:T154 Arg2:T155	
+R105	coauthor Arg1:T155 Arg2:T156	
+R106	coauthor Arg1:T156 Arg2:T157	
+R107	has_cited_time Arg1:T158 Arg2:T157	
+R108	has_cited_time Arg1:T160 Arg2:T159	
+R109	coauthor Arg1:T161 Arg2:T162	
+R110	coauthor Arg1:T162 Arg2:T163	
+R111	coauthor Arg1:T163 Arg2:T164	
+R112	has_cited_time Arg1:T165 Arg2:T164	
+R113	coauthor Arg1:T166 Arg2:T167	
+R114	coauthor Arg1:T167 Arg2:T168	
+R115	has_cited_time Arg1:T169 Arg2:T168	
+R116	coauthor Arg1:T170 Arg2:T171	
+R117	coauthor Arg1:T171 Arg2:T172	
+R118	coauthor Arg1:T172 Arg2:T173	
+R119	coauthor Arg1:T173 Arg2:T174	
+R120	has_cited_time Arg1:T175 Arg2:T174	
+R121	coauthor Arg1:T176 Arg2:T177	
+R122	coauthor Arg1:T177 Arg2:T178	
+R123	has_cited_time Arg1:T179 Arg2:T178	
+R124	field_similar_as Arg1:T146 Arg2:T148	
+R125	field_similar_as Arg1:T148 Arg2:T154	
+R126	field_similar_as Arg1:T154 Arg2:T159	
+R127	field_similar_as Arg1:T159 Arg2:T161	
+R128	field_similar_as Arg1:T161 Arg2:T166	
+R129	field_similar_as Arg1:T166 Arg2:T170	
+R130	coauthor Arg1:T180 Arg2:T181	
+R131	coauthor Arg1:T181 Arg2:T182	
+R132	coauthor Arg1:T182 Arg2:T183	
+R133	has_cited_time Arg1:T184 Arg2:T183	
+R134	coauthor Arg1:T185 Arg2:T186	
+R135	coauthor Arg1:T186 Arg2:T187	
+R136	coauthor Arg1:T187 Arg2:T188	
+R137	coauthor Arg1:T188 Arg2:T189	
+R138	coauthor Arg1:T189 Arg2:T190	
+R139	coauthor Arg1:T190 Arg2:T191	
+R140	coauthor Arg1:T191 Arg2:T192	
+R141	has_cited_time Arg1:T193 Arg2:T192	
+R142	coauthor Arg1:T180 Arg2:T185	
+R143	has_cited_time Arg1:T195 Arg2:T194	
+R144	coauthor Arg1:T196 Arg2:T197	
+R145	coauthor Arg1:T197 Arg2:T198	
+R146	coauthor Arg1:T198 Arg2:T199	
+R147	has_cited_time Arg1:T200 Arg2:T199	
+R148	has_cited_time Arg1:T202 Arg2:T201	
+R149	has_cited_time Arg1:T204 Arg2:T203	
+R150	uses Arg1:T203 Arg2:T215	
+R151	has_cited_time Arg1:T206 Arg2:T205	
+R152	uses Arg1:T205 Arg2:T216	
+R153	has_cited_time Arg1:T207 Arg2:T208	
+R154	uses Arg1:T208 Arg2:T218	
+R155	has_cited_time Arg1:T219 Arg2:T209	
+R156	uses Arg1:T209 Arg2:T220	
+R157	coauthor Arg1:T222 Arg2:T223	
+R158	has_cited_time Arg1:T226 Arg2:T223	
+R159	uses Arg1:T222 Arg2:T274	
+R160	coauthor Arg1:T224 Arg2:T225	
+R161	has_cited_time Arg1:T227 Arg2:T225	
+R162	coauthor Arg1:T229 Arg2:T228	
+R163	has_cited_time Arg1:T230 Arg2:T228	
+R164	has_cited_time Arg1:T237 Arg2:T231	
+R165	coauthor Arg1:T232 Arg2:T233	
+R166	has_cited_time Arg1:T234 Arg2:T233	
+R167	has_cited_time Arg1:T242 Arg2:T241	
+R168	coauthor Arg1:T240 Arg2:T241	
+R169	uses Arg1:T240 Arg2:T275	
+R170	coauthor Arg1:T236 Arg2:T238	
+R171	has_cited_time Arg1:T239 Arg2:T238	
+R172	uses Arg1:T236 Arg2:T277	
+R173	coauthor Arg1:T243 Arg2:T244	
+R174	has_cited_time Arg1:T245 Arg2:T244	
+R175	uses Arg1:T243 Arg2:T278	
+R176	coauthor Arg1:T247 Arg2:T246	
+R177	has_cited_time Arg1:T248 Arg2:T246	
+R178	coauthor Arg1:T249 Arg2:T250	
+R179	has_cited_time Arg1:T251 Arg2:T250	
+R180	coauthor Arg1:T252 Arg2:T253	
+R181	has_cited_time Arg1:T254 Arg2:T253	
+R182	has_cited_time Arg1:T256 Arg2:T255	
+R183	coauthor Arg1:T257 Arg2:T258	
+R184	has_cited_time Arg1:T259 Arg2:T258	
+R185	has_cited_time Arg1:T261 Arg2:T260	
+R186	coauthor Arg1:T262 Arg2:T263	
+R187	has_cited_time Arg1:T264 Arg2:T263	
+R188	has_cited_time Arg1:T266 Arg2:T265	
+R189	coauthor Arg1:T267 Arg2:T268	
+R190	has_cited_time Arg1:T269 Arg2:T268	
+R191	coauthor Arg1:T272 Arg2:T271	
+R192	has_cited_time Arg1:T270 Arg2:T271	
+R193	results Arg1:T272 Arg2:T288	
+R194	uses Arg1:T272 Arg2:T211	
+R195	field_similar_as Arg1:T249 Arg2:T252	
+R196	field_similar_as Arg1:T252 Arg2:T255	
+R197	field_similar_as Arg1:T255 Arg2:T257	
+R198	coauthor Arg1:T257 Arg2:T260	
+R199	coauthor Arg1:T260 Arg2:T262	
+R200	coauthor Arg1:T262 Arg2:T265	
+R201	coauthor Arg1:T265 Arg2:T267	
+R202	has_cited_time Arg1:T273 Arg2:T283	
+R203	coauthor Arg1:T284 Arg2:T285	
+R204	has_cited_time Arg1:T286 Arg2:T285	
+R205	uses Arg1:T284 Arg2:T287	
+R206	has_cited_time Arg1:T292 Arg2:T291	
+R207	uses Arg1:T291 Arg2:T293	
+R208	coauthor Arg1:T326 Arg2:T327	
+R209	has_cited_time Arg1:T315 Arg2:T327	
+R210	coauthor Arg1:T328 Arg2:T329	
+R211	coauthor Arg1:T329 Arg2:T330	
+R212	has_cited_time Arg1:T318 Arg2:T330	
+R213	coauthor Arg1:T331 Arg2:T332	
+R214	coauthor Arg1:T296 Arg2:T297	
+R215	has_cited_time Arg1:T298 Arg2:T297	
+R216	uses Arg1:T303 Arg2:T310	
+R217	coauthor Arg1:T303 Arg2:T304	
+R218	coauthor Arg1:T304 Arg2:T305	
+R219	coauthor Arg1:T305 Arg2:T306	
+R220	coauthor Arg1:T306 Arg2:T307	
+R221	has_cited_time Arg1:T308 Arg2:T307	
+R222	coauthor Arg1:T301 Arg2:T300	
+R223	has_cited_time Arg1:T299 Arg2:T300	
+R224	has_cited_time Arg1:T312 Arg2:T302	
+R225	uses Arg1:T302 Arg2:T324	
+R226	coauthor Arg1:T335 Arg2:T336	
+R227	has_cited_time Arg1:T320 Arg2:T336	
+R228	coauthor Arg1:T337 Arg2:T338	
+R229	has_cited_time Arg1:T313 Arg2:T338	
+R230	uses Arg1:T337 Arg2:T339	
+R231	has_cited_time Arg1:T314 Arg2:T340	
+R232	uses Arg1:T340 Arg2:T341	
+R233	coauthor Arg1:T344 Arg2:T345	
+R234	has_cited_time Arg1:T321 Arg2:T345	
+R235	uses Arg1:T344 Arg2:T346	
+R236	has_cited_time Arg1:T316 Arg2:T348	
+R237	uses Arg1:T348 Arg2:T212	
+R238	coauthor Arg1:T351 Arg2:T352	
+R239	has_cited_time Arg1:T317 Arg2:T352	
+R240	uses Arg1:T351 Arg2:T353	
+R241	coauthor Arg1:T356 Arg2:T357	
+R242	has_cited_time Arg1:T358 Arg2:T357	
+R243	coauthor Arg1:T359 Arg2:T360	
+R244	has_cited_time Arg1:T361 Arg2:T360	
+R245	coauthor Arg1:T367 Arg2:T368	
+R246	has_cited_time Arg1:T369 Arg2:T368	
+R247	coauthor Arg1:T371 Arg2:T372	
+R248	has_cited_time Arg1:T373 Arg2:T372	
+R249	coauthor Arg1:T381 Arg2:T382	
+R250	coauthor Arg1:T382 Arg2:T383	
+R251	coauthor Arg1:T383 Arg2:T384	
+R252	has_cited_time Arg1:T385 Arg2:T384	
+R253	has_cited_time Arg1:T387 Arg2:T386	
+R254	has_cited_time Arg1:T389 Arg2:T388	

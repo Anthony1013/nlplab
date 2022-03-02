@@ -1,0 +1,190 @@
+T1	引文时间 226 230	2014
+T2	引文时间 260 264	1997
+T3	引文时间 279 283	2003
+T4	引文时间 882 886	2003
+T5	时间 2023 2038	March 20 , 2016
+T6	引文时间 2303 2307	2003
+T7	引文时间 2588 2592	2003
+T8	引文时间 5282 5286	2014
+T9	引文时间 5310 5314	2016
+T10	引文时间 5524 5528	2007
+T11	引文时间 5678 5682	2007
+T12	引文时间 6494 6498	1992
+T13	引文时间 7428 7432	2016
+T14	引文时间 7456 7460	2014
+T15	引文时间 7588 7592	2009
+T16	引文时间 8097 8101	2014
+T17	引文时间 8513 8517	2014
+T18	引文时间 8551 8555	2015
+T19	引文时间 8696 8700	2014
+T20	引文时间 8804 8808	2015
+T21	引文时间 9003 9007	2005
+T22	引文时间 9114 9118	2015
+T23	引文时间 9142 9146	2014
+T24	引文时间 9233 9237	2014
+T25	引文时间 9620 9624	2009
+T26	时间 9978 10004	January 2007 to March 2016
+T27	引文时间 11075 11079	2015
+T28	引文时间 11440 11444	2003
+T29	引文时间 11565 11569	1997
+T30	引文时间 11646 11650	1997
+T31	引文时间 12125 12129	2003
+T32	引文时间 12846 12850	2015
+T33	引文时间 12980 12984	2007
+T34	引文时间 13412 13416	2010
+T35	时间 14201 14205	2007
+T36	时间 14209 14213	2016
+T37	时间 14468 14477	2007–2016
+T38	引文时间 14938 14942	2015
+T39	引文时间 15618 15622	2015
+T40	时间 15944 15953	June 2013
+T41	时间 15958 15967	June 2014
+T42	引文作者 190 195	Chung
+T43	引文作者 198 206	Gulcehre
+T44	引文作者 209 212	Cho
+T45	引文作者 217 223	Bengio
+T46	引文作者 233 243	Hochreiter
+T47	引文作者 246 257	Schmidhuber
+T48	引文作者 271 276	Zhang
+T49	引文作者 874 879	Zhang
+T50	引文作者 2292 2300	Schwartz
+T51	引文作者 2577 2585	Schwartz
+T52	引文作者 5268 5272	Chen
+T53	引文作者 5289 5296	Yarkoni
+T54	引文作者 5299 5307	Westfall
+T55	引文作者 5658 5668	Pennebaker
+T56	引文作者 6473 6480	Derksen
+T57	引文作者 6483 6491	Keselman
+T58	引文作者 7405 7412	Yarkoni
+T59	引文作者 7417 7425	Westfall
+T60	引文作者 7439 7443	Chen
+T61	引文作者 7553 7561	Friedman
+T62	引文作者 7564 7570	Hastie
+T63	引文作者 7575 7585	Tibshirani
+T64	引文作者 8080 8084	Chen
+T65	引文作者 8499 8503	Chen
+T66	引文作者 8534 8538	Boyd
+T67	引文作者 8679 8683	Chen
+T68	引文作者 8787 8791	Boyd
+T69	引文作者 8980 8988	Lindeman
+T70	引文作者 8991 9000	Verkasalo
+T71	引文作者 9097 9101	Boyd
+T72	引文作者 9125 9129	Chen
+T73	引文作者 9216 9220	Chen
+T74	引文作者 9602 9607	Bardi
+T75	引文作者 11062 11065	Box
+T76	引文作者 11432 11437	Zhang
+T77	引文作者 11538 11548	Hochreiter
+T78	引文作者 11551 11562	Schmidhuber
+T79	引文作者 11619 11629	Hochreiter
+T80	引文作者 11632 11643	Schmidhuber
+T81	引文作者 12117 12122	Zhang
+T82	引文作者 12833 12836	Box
+T83	引文作者 12963 12970	Hyndman
+T84	引文作者 13391 13398	Seabold
+T85	引文作者 13401 13409	Perktold
+T86	引文作者 14925 14928	Box
+T87	引文作者 15605 15608	Box
+T88	具体模型 4 8	LSTM
+T89	具体模型 352 357	ARIMA
+T90	引文的结果 271 390	Zhang ( 2003 ) developed a hybrid time‐series prediction model by using both the ARIMA and simple neural network models
+T91	研究方法 646 811	In this article , we use a weighted hybrid time‐series model by using both the ARIMA model and the LSTM model to capture the linear and nonlinear patterns accurately
+T92	具体模型 725 730	ARIMA
+T93	具体模型 745 749	LSTM
+T94	具体模型 987 991	LSTM
+T95	数据源 1012 1280	We collected the Facebook status of a total of 726 users for our experiments , where the statuses of 388 Facebook users are used for building value models , and then statuses of 338 Facebook users for over 6 years are used for building the temporal value change models
+T96	研究方法 3782 3874	We conducted the PVQ test to validate the predicted value scores of these users in real life
+T97	具体模型 4623 4628	ARIMA
+T98	具体模型 4517 4522	ARIMA
+T99	具体模型 4531 4535	LSTM
+T100	具体模型 4643 4647	LSTM
+T101	研究方法 4947 5062	In this section we build a linear regression model to predict users ' value dimensions from their Facebook statuses
+T102	研究方法 5067 5156	We build our regression model by using the cross‐validation and regularization techniques
+T103	具体模型 4844 4849	ARIMA
+T104	具体模型 4850 4854	LSTM
+T105	具体模型 4877 4882	ARIMA
+T106	具体模型 4893 4897	LSTM
+T107	具体模型 4923 4926	HMM
+T108	引文的研究问题 5519 5655	LIWC 2007 identifies 74 different features from text statuses into different categories , where each category contains hundreds of words
+T109	研究方法 6371 6620	We select the best subset of LIWC categories ( predictors ) by using the forward selection approach ( Derksen & Keselman , 1992 ) for each of the value dimension using leaps 11 https : //cran.r-project.org/web/packages/leaps R package implementation
+T110	研究方法 7465 7550	we use Lasso penalized linear regression by using the R glmnet implementation package
+T111	引文的方法 8563 8630	propose another value computation technique from social media usage
+T112	研究问题 9302 9423	In this section we build a model for predicting the transition of value priorities over a continuous time‐series data set
+T113	引文的研究问题 9629 9723	the authors investigate the change of values among the students within a time span of 9 months
+T114	自建数据集 9916 10006	Our data set has a total of Facebook statuses of 111 months ( January 2007 to March 2016 )
+T115	研究方法 10346 10443	Later , we compute the linguistic features from each user 's time interval statuses by using LIWC
+T116	研究方法 10448 10582	We predict the value score from the statuses of each time interval by using the regression model that we built in the previous section
+T117	研究方法 10587 10742	After that , we apply different competitive time‐series techniques to predict the value transition based on the past observations of time interval statuses
+T118	研究方法 12136 12234	In this subsection , we apply the ARIMA in our openness‐to‐change value change prediction data set
+T119	具体模型 12170 12175	ARIMA
+T120	具体模型 12045 12050	ARIMA
+T121	具体模型 11612 11616	LSTM
+T122	具体模型 11705 11709	LSTM
+T123	具体模型 11054 11059	ARIMA
+T124	具体模型 11194 11199	ARIMA
+T125	具体模型 11489 11492	RNN
+T126	研究方法 12732 12830	We first convert the nonstationary parts into stationary by using the log transformation technique
+T127	研究方法 12857 12960	Then we extract different components such as seasonal , trend , and residuals from our time‐series data
+T128	研究方法 13336 13477	We use the Python statsmodels package implementation ( Seabold & Perktold , 2010 ) of ARIMA to find out the linear patterns from our data set
+T129	具体模型 13422 13427	ARIMA
+T130	具体模型 13501 13506	ARIMA
+T131	图 14096 14245	Figure 1 presents the openness‐to‐change value score distribution of a user by the 6‐month interval from 2007 to 2016 ( that is , 19 time intervals )
+T132	图 14250 14336	The figure shows the openness‐to‐change value scores of two different halves in a year
+T133	研究方法 14755 14922	We check the stationarity property of the user time‐series data of the openness‐to‐change value transition by using the well‐known augmented Dickey‐Fuller ( ADF ) test
+T134	具体模型 15428 15433	ARIMA
+T135	图 15629 15836	Figure 2 presents the actual value scores ( green line ) of the next 3 years ( next six intervals ) , and the predicted openness‐to‐change value score ( the blue line ) for the next 3 years ( six intervals )
+T136	具体模型 15861 15866	ARIMA
+T137	具体模型 16063 16068	ARIMA
+R1	coauthor Arg1:T42 Arg2:T43	
+R2	coauthor Arg1:T43 Arg2:T44	
+R3	coauthor Arg1:T44 Arg2:T45	
+R4	has_cited_time Arg1:T1 Arg2:T45	
+R5	coauthor Arg1:T46 Arg2:T47	
+R6	has_cited_time Arg1:T2 Arg2:T47	
+R7	field_similar_as Arg1:T46 Arg2:T42	
+R8	has_cited_time Arg1:T3 Arg2:T48	
+R9	results Arg1:T48 Arg2:T90	
+R10	has_cited_time Arg1:T4 Arg2:T49	
+R11	has_cited_time Arg1:T6 Arg2:T50	
+R12	has_cited_time Arg1:T7 Arg2:T51	
+R13	has_cited_time Arg1:T8 Arg2:T52	
+R14	has_cited_time Arg1:T9 Arg2:T54	
+R15	coauthor Arg1:T53 Arg2:T54	
+R16	field_similar_as Arg1:T53 Arg2:T52	
+R17	has_cited_time Arg1:T11 Arg2:T55	
+R18	produces Arg1:T55 Arg2:T108	
+R19	coauthor Arg1:T56 Arg2:T57	
+R20	has_cited_time Arg1:T12 Arg2:T57	
+R21	coauthor Arg1:T58 Arg2:T59	
+R22	has_cited_time Arg1:T13 Arg2:T59	
+R23	has_cited_time Arg1:T14 Arg2:T60	
+R24	coauthor Arg1:T61 Arg2:T62	
+R25	coauthor Arg1:T62 Arg2:T63	
+R26	has_cited_time Arg1:T15 Arg2:T63	
+R27	has_cited_time Arg1:T16 Arg2:T64	
+R28	has_cited_time Arg1:T17 Arg2:T65	
+R29	has_cited_time Arg1:T18 Arg2:T66	
+R30	uses Arg1:T66 Arg2:T111	
+R31	has_cited_time Arg1:T19 Arg2:T67	
+R32	has_cited_time Arg1:T20 Arg2:T68	
+R33	coauthor Arg1:T69 Arg2:T70	
+R34	has_cited_time Arg1:T21 Arg2:T70	
+R35	has_cited_time Arg1:T22 Arg2:T71	
+R36	has_cited_time Arg1:T23 Arg2:T72	
+R37	has_cited_time Arg1:T24 Arg2:T73	
+R38	has_cited_time Arg1:T25 Arg2:T74	
+R39	produces Arg1:T74 Arg2:T113	
+R40	has_cited_time Arg1:T27 Arg2:T75	
+R41	has_cited_time Arg1:T28 Arg2:T76	
+R42	has_cited_time Arg1:T29 Arg2:T78	
+R43	coauthor Arg1:T77 Arg2:T78	
+R44	coauthor Arg1:T79 Arg2:T80	
+R45	has_cited_time Arg1:T30 Arg2:T80	
+R46	has_cited_time Arg1:T31 Arg2:T81	
+R47	has_cited_time Arg1:T32 Arg2:T82	
+R48	has_cited_time Arg1:T33 Arg2:T83	
+R49	coauthor Arg1:T84 Arg2:T85	
+R50	has_cited_time Arg1:T34 Arg2:T85	
+R51	has_cited_time Arg1:T34 Arg2:T85	
+R52	has_cited_time Arg1:T38 Arg2:T86	
+R53	has_cited_time Arg1:T39 Arg2:T87	

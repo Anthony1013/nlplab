@@ -1,0 +1,130 @@
+Disasters , especially natural disasters , often cause great damage to properties and loss of lives . 
+Decision makers and the public are concerned about such events , and they want to learn the latest developments . 
+Traditional media may not be able to report the most up‐to‐date information . 
+In this sense , social media becomes an alternative channel for users to report and search for the most relevant information in nearly real ‐time ( Li , Lei , Khadiwala , & Chang , 2012 ; Sakaki , Okazaki , & Matsuo , 2013 ) . 
+However , information on social media like Twitter is of great volume and is noisy . 
+It is challenging to collect a clean and complete set of event‐related tweets , which is essential for decision makers and downstream applications . 
+To collect event‐related tweets , keywords need to be carefully selected and updated along the development of the event . 
+Further , it is common that many irrelevant tweets are returned for an event‐related keyword query . 
+This calls for research on methods for collecting event‐related data from Twitter Stream with high precision and high recall . 
+Existing methods for tracking event‐related data from Twitter Stream are mostly location‐based ( Cameron , Power , Robinson , & Yin , 2012 ; Zhou & Chen , 2014 ) , and keyword‐based ( Chen , Amiri , Li , & Chua , 2013 ; Wang , Chen , Liu , & Emery , 2016 ) . 
+Location‐based methods define a geographical boundary and collect tweets based on geo‐tags or location information in user profiles . 
+The methods would miss tweets without geo‐tags , or messages posted by users from other places and users with incomplete user profiles . 
+Keyword‐based methods , on the other hand , heavily depend on the comprehensiveness of query keywords . 
+Manually generating high‐quality keywords is time‐consuming and requires domain knowledge . 
+Given a few seed keywords , our proposed method generates high‐quality keywords along event development from relevant tweets . 
+There are two challenges in our problem . 
+One is to generate keywords that are adaptive to event evolvement . 
+Because tweets are noisy and short , it is hard to extract representative keywords within the limited 140 characters . 
+The other is to identify event‐related tweets with as little human input as possible . 
+We argue that it is impractical to classify tweets with a pretrained classifier for two reasons . 
+First , a huge amount of annotation effort is needed for training classifier on different events . 
+Second , as events evolve , historical labeled data becomes less relevant to the current development of an event . 
+Starting with a small set of seed keywords , our method collects tweets from Twitter Stream continuously . 
+The seed keywords are derived from Wikipedia entries that are related to the event of interest . 
+With a predefined time window ( e.g. , a day , an hour ) , we identify the event‐related tweets collected within the last time window , and from which we extract representative keywords . 
+The updated keywords are used to fetch tweets in the next time window . 
+Each keyword is evaluated from three perspectives : relevance , coverage , and evolvement , for its being a qualified keyword . 
+To identify event‐related tweets within each time window , an active learning method based on multiple‐instance learning is used to reduce human annotation effort . 
+To summarize , the main contributions of this article are as follows : We propose an active learning method based on a multiple‐instance learning technique to achieve high precision with little human annotation effort in classifying event‐related tweets . 
+The tweets are preclustered such that near‐duplicate messages are grouped together and assigned the same label with one human annotation . 
+We propose a ranking function , which depicts not only relevance but also coverage of event representative keywords . 
+When selected keywords could retrieve more event‐related tweets , we are able to achieve high recall by using a small set of keywords . 
+We further apply a time series model , namely , Autoregressive Model ( AR ) , to model the trend of a keyword based on its frequencies in different time windows . 
+A word with uptrend possibly indicates a new aspect of the event . 
+On the contrary , a word with downtrend is likely to be outdated . 
+The keyword evolvement property reflects the event development . 
+We evaluate our method and its variants on a simulated Twitter Stream of real‐world events . 
+Our experimental results show that our method outperforms strong baselines . 
+To obtain ground truth data for evaluation , significant effort has been made to annotate the event‐related tweets . 
+The data set from this study would benefit other studies in this area . 
+A straightforward approach to collect desired data is keyword search ( Chen , Amiri et al. , 2013 ; Sakaki , Okazaki , & Matsuo , 2010 ) . 
+Sakaki et al . 
+( 2010 ) collected earthquake‐related tweets using a predefined set of keywords . 
+Similarly , Magdy and Elsayed ( 2014 ) prepared a static set of well‐defined queries about the topic of interest . 
+They considered tweets containing words in the set of queries as topic‐related . 
+Constructing event‐related keywords requires good domain knowledge . 
+Thus , an automatic way of generating event‐related keywords is preferred . 
+The following studies adopted different approaches to generate dynamic queries along event development . 
+Chen et al . 
+( 2013 ) filtered organization‐related tweets by both predefined keywords and dynamically generated ones . 
+The predefined keywords are constructed based on domain knowledge . 
+The dynamic keywords are identified by the chi‐square test ( Lancaster & Seneta , 2005 ) on word frequencies within the predefined foreground and background tweets . 
+Besides the predefined set of keywords , Becker , Iter , Naaman , and Gravano ( 2012 ) leveraged term frequency analysis and event‐related concept extraction from external sources to generate dynamic queries for event‐related tweets collection . 
+However , only the top K most relevant tweets were returned . 
+Sadri , Mehrotra , and Yu ( 2016 ) maximized query coverage by fitting it to a Multi‐armed Bandit problem ( Yue & Joachims , 2009 ) . 
+They measured the statistics of phrase‐based relevance , textual relevance , and user historical tweet relevance to identify event‐related tweets . 
+However , user historical data is not always available . 
+Our proposed method does not need such contextual knowledge . 
+Li , Wang , Resnick , and Mei ( 2014 ) leveraged Rocchio algorithm and interactive classification to query data with high precision and high recall from search engines . 
+However , their proposed framework relies on the ranked documents returned by search services , which does not fit for Twitter API service . 
+Collecting event‐related data could also leverage topic models . 
+Yang , Kiang , and Shang ( 2015 ) collected messages from social media related to adverse drug reaction through Latent Dirichlet allocation ( LDA ) and a partially supervised classification approach . 
+Wang , Chen , Fei , Liu , and Emery ( 2016 ) proposed a targeted topic model that leverages a latent variable to identify documents belonging to some specific aspects . 
+Although Kasiviswanathan , Melville , Banerjee , and Sindhwani ( 2011 ) detected novel topics , the authors claim their dictionary learning‐based method could collect topic‐related data with good precision and recall on test data . 
+There are methods for collecting data using location‐based constraints ( Cameron et al. , 2012 ; Zhou & Chen , 2014 ) for the purposes of detecting emerging local events or local recommendations . 
+A location‐based method defines the boundary of a geographical region . 
+Tweets that are posted within the region or posted by the users with location profile at that region are collected . 
+There are many ways to extract representative keywords . 
+Two main approaches are ( a ) ranking keywords through a graph‐based algorithm and ( b ) ranking words through topic models . 
+Mihalcea and Tarau ( 2004 ) applied PageRank ( Page , Brin , Motwani , & Winograd , 1999 ) to word graph constructed from documents . 
+Top‐ranked words calculated by their own defined function are representative keywords . 
+Liu , Huang , Zheng , and Sun ( 2010 ) also build a variation of the PageRank algorithm . 
+Each document is assigned to different topics by LDA . 
+Then they build a Topical PageRank to decompose traditional random walks specific to various topics . 
+As a result , the words are measured by their importance to each topic . 
+Wang , Chen , Liu , and Emery ( 2016 ) proposed a double‐ranking approach to select a set of keywords that could be used to collect tweets satisfying a given topic or a research problem . 
+Topic models could generate keywords automatically . 
+Chen et al . 
+( 2013 ) proposed a topic model that leverages general knowledge , that is , lexical semantic relations of words such as synonyms , antonyms , and adjective attributes , to help produce more coherent topics and representative keywords . 
+Cheng , Guo , Liu , Wang , and Yan ( 2013 ) built a topic model by combining a term correlation matrix with non‐negative matrix factorization . 
+The term correlation matrix could further be decomposed to term‐topic matrix , and topic representative keywords could be obtained . 
+Except for extracting keywords for all the topics , Wang et al . 
+( 2016 ) proposed a targeted topic model that could identify keywords of specific aspects . 
+Given a few words that define the aspect , their model , which is a variation of LDA , could return keywords related to the specified aspect . 
+In this study , we do not consider keyphrase extraction and we refer readers to a recent survey on keyphrase extraction methods ( Hasan & Ng , 2014 ) . 
+Our proposed solution , termed ALMIK ( for Active Learning based on Multiple‐Instance learning with Keyword extraction ) , is illustrated in Figure 1 . 
+The method works in a batch mode with a predefined time‐window size . 
+A time window can be a day or several hours depending on the number of tweets collected . 
+The batch mode processing enables us to derive keywords from tweets collected in the past time window , and to expand keywords for tweet collection in subsequent time windows . 
+The process starts with an initial set of keywords . 
+The seed keywords could be generated from event‐related documents or provided by users . 
+In our implementation , we derive event‐related words from relevant Wikipedia entries ( detailed in the Experiment Section ) . 
+With seed keywords supplied to a Twitter API,11 Either Streaming API https : //dev.twitter.com/streaming/overview or Rest API https : //dev.twitter.com/rest/public can be used . 
+In our experiments , we used a simulated Twitter Stream . 
+we start to receive the first batch of tweets . 
+With the first batch of tweets , we now need to address two problems . 
+The first is to identify event‐related tweets from the collection because not all tweets containing keywords are event‐related . 
+The second is to update keywords , making them adaptive to event evolvement , because initial keywords extracted from Wikipedia are relatively general and can not describe specific characteristics of the event of interest . 
+To tackle the first problem , we apply active learning based on multiple‐instance learning that could maintain high precision with less human input . 
+For the second problem , we rank keywords by investigating three properties of candidate words and select the most representative ones to expand the keyword set . 
+This two‐stage process repeats in the subsequent time windows , and stops when only a few relevant tweets can be collected in a time window , or the collected tweets satisfy a user 's need . 
+It is natural that the number of tweets on a specific topic reduces significantly after a short time period . 
+Because of reporting on the same event and “ retweet ” action , many event‐related tweets are similar to each other or near‐duplicate . 
+This phenomenon can help reduce manual effort in identifying event‐related tweets by grouping similar tweets into clusters and applying multiple‐instance learning to label these clusters . 
+We combine MinHash clustering and incremental clustering to group tweets collected by keywords TC within a time window into clusters . 
+It has been reported that the MinHash algorithm is effective in grouping near‐duplicate tweets ( Sedhai & Sun , 2015 ) . 
+However , tweets with a different minimum hash value could also be similar . 
+To avoid similar tweets being clustered into different groups , we combine MinHash clustering and incremental clustering to get reasonable tweet clusters . 
+Incremental clustering is chosen here because it is efficient and suitable for unknown data distribution . 
+Given a coming tweet t , we first calculate the minimum hash values for its uni‐gram , bi‐gram , and tri‐gram representations . 
+The hash value for tweet t is the concatenation of the three minimum hash values . 
+If there exists a tweet that has the same hash value , then t is assigned to the same cluster as the existing tweet ( i.e. , MinHash clustering ) . 
+Otherwise , t is clustered based on its cosine similarity with existing clusters , as in typical incremental clustering . 
+The similarity is computed by the bag‐of‐words features with TFIDF weighting . 
+If the similarity between t and any of the clusters is smaller than a threshold,22 We empirically set the threshold as 0.3 , which gives relative good results after several tries . 
+t is assigned to a new cluster ; otherwise , t is assigned to the most similar cluster . 
+Now we identify event‐related tweets through active learning . 
+Our situation fits pool‐based active learning , where a pool of unlabeled data U is available . 
+An active learner ℒ consists of three components ( f , q , X ) , where f is a decision function to label instances ( that is , tweets in our setting ) , q is a query strategy for selecting instances ( i.e. , tweet clusters in our setting ) for human annotations , and X denotes the annotated instances . 
+The multiple‐instance learning labeling strategy is as follows . 
+When there is at least one positive instance in the cluster , it is labeled positive . 
+A negative label is assigned when all instances in a cluster are negative . 
+Therefore , a positive cluster may contain negative instances . 
+Instances in a positive cluster would be reclassified by SVM after the model is trained in each iteration , similar to Andrews , Tsochantaridis , and Hofmann ( 2002 ) . 
+If all instances in a positive cluster labeled by a human annotator are predicted as negative by SVM , then the instance that has the smallest d will be relabeled as positive , because there should be at least one positive instance in an annotated positive cluster . 
+To start the process , we manually label at least two clusters ( one positive cluster and one negative cluster ) and use them as initial training examples . 
+The two initial clusters can be selected in many ways . 
+Here we select the tweet clusters that contain the most , and the least , relevant keywords.44 The most and the least relevant keywords could be chosen from the initial and the following keywords ranking list . 
+There is a great probability that the two selected clusters will be labeled as positive and negative . 
+After the classifier is trained , it would reclassify the labeled training data because of the labeling strategy described above . 

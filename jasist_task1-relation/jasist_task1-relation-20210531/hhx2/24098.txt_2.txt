@@ -1,0 +1,94 @@
+Each participant was presented with the same conditions , in the same order and temporal spacing . 
+A fixed sequence design was used because the primary goal was to compare patterns of brain activity between participants . 
+To promote careful attention , participants were instructed that they would be quizzed about the videos after the fMRI scan . 
+No responses were required during the scan . 
+Health information behavior was measured using the Modes of Health Information Acquisition , Sharing , and Use Scale ( Meadowbrooke et al. , 2014 ; Veinot et al. , 2013 ) . 
+This 21‐item self‐report survey has three subscales ( see Appendix ) . 
+The scales measure how often the participant seeks ( eight items , Cronbach 's α = .7 ) , shares ( five items , Cronbach 's α = .7 ) , and uses ( eight items , Cronbach 's α = ‐.9 ) information about blood pressure to make self‐management decisions . 
+On a Likert‐type scale , items range from 1 ( never ) to 5 ( very often ) . 
+Scores are calculated by summing the items , with higher scores indicating greater frequency of engaging in a particular information behavior . 
+Before the statistical analyses were conducted , all imaging data were preprocessed , using the Washingtion University in St. Louis program , fidl . 
+First‐level analyses were also carried out using fidl . 
+A General Linear Model ( GLM ) with assumed Hemodynamic Response Functions ( HRF ) was used to estimate the average magnitude of each participant 's response to both video conditions . 
+GLM encompasses the family of linear statistical analyses that are the workhouse of fMRI ( Friston et al. , 1994 ; Whelan et al. , 2017 ) . 
+Baseline and linear trends were estimated alongside the assumed HRF associated with the video conditions . 
+The rest condition was not explicitly modeled , and so was implicitly captured by the baseline estimate . 
+The HRF we used for modeling the video conditions is similar to that used by a variety of common neuroimaging analysis programs and is based on careful work modeling the HRF to visual stimuli in V1 ( Boynton , Engel , Glover , & Heeger , 1996 ) . 
+Voxel‐based first‐level estimates of response magnitude were then entered into a second‐level analysis to allow random effects analysis of effects attributable to the population . 
+We averaged values over voxels in the prespecified regions for the FF and CS conditions . 
+These were extracted from the GLM as average estimates and were then entered in a separate analysis program with the behavioral measures . 
+We summarized all study variables using descriptive statistics : range , frequencies , and percentages . 
+Statistical analyses were conducted with Stata version 14 ( StataCorp , 2015 ) . 
+Because the distributions of the Analytic and Empathy Network variables were skewed , Spearman rho correlations were used to examine the relationships among the variables . 
+All tests were two‐sided . 
+Because this study was an exploratory and hypothesis‐generating ( similar to a phase II trial ) , a significance level of .10 was used for all hypothesis tests ( Rubinstein et al. , 2005 ) . 
+Consistent with the American Statistical Association statement on p‐value , we emphasized the magnitude of the effect sizes , nonzero correlation coefficient , and its clinical relevance ( Wasserstein & Lazar , 2016 ) . 
+Thus , all reported findings were interpreted using traditional effect size conventions ( d : small = .20 , medium = .50 , large = .80 ; ρ : small = .10 , medium = .30 , large = .50 ) to characterize findings ( Cohen , 1992 ; Ferguson , 2009 ) . 
+The mean score ( Table 1 ) reflects that participants were moderately engaged in seeking information about self‐management of blood pressure , with 52.6 % of participants reporting that they sometimes or often looked for information about blood pressure self‐management . 
+With regard to nonpurposeful information seeking , participants reported that sometimes , often , very often they learned unexpected things about high blood pressure from a media source ( 63.2 % ) or when they talked with others ( 73.8 % ) . 
+Participants were less likely to seek information with others ( 36.8 % stated that they never did ) or go places they would learn things about blood pressure self‐management ( 47.4 % stated they never did ) . 
+The mean score ( Table 1 ) reflects that participants were moderately engaged in sharing information with others on how to lower their blood pressure levels . 
+More than half of the participants sometimes , often , or very often ( 52.6 % ) told others information they knew about high blood pressure and gave advice or encouraged others about blood pressure management or prevention ( 57.9 % ) . 
+The majority reported that they never emailed others blood pressure information ( 63.2 % ) , nor did they organize events to discuss high blood pressure ( 78.9 % ) . 
+The mean scores on this measure ( Table 1 ) showed that participants were highly engaged in using information to make decisions about how to self‐manage their blood pressure . 
+About half of the participants reported that they sometimes or often used information to evaluate their risk of hypertension ( 63.2 % ) . 
+In addition , participants sometimes , often , or very often used information to better understand their condition ( 73.7 % ) , make decisions about how to treat their elevated blood pressure ( 57.9 % ) , or to decide when to see a healthcare professional ( 47.4 % ) . 
+Most ( 63.2 % ) reported that they never used information to track or monitor their blood pressure at home . 
+As expected , there were large , positive correlations among the information behaviors : seeking and sharing ( ρ = .62 , p < .01 ) , seeking and use ( ρ = .77 , p < .01 ) , and sharing and use ( ρ = .78 , p < .01 ) . 
+As expected , differentiation in the Empathy Network ( CS minus FF ) and vmPFC ( CS minus FF ) demonstrated a large positive correlation ( ρ = .88 , p < .01 ) . 
+Both of these results reflected the contrast of the FF condition minus the CS condition ( positive when averaged across all participants ) . 
+There was no correlation between differentiation in the Analytic Network ( FF minus CS ) and differentiation in the vmPFC ( ρ = −.15 , p = .54 ) , nor was there an association between differentiation in the Analytic and Empathy Networks ( ρ = −.18 , p = .47 ) . 
+Our goal was to examine relationships between measures of health information behavior and neural measures of health information processing . 
+As shown in Table 2 , there was a large , positive correlation between information sharing and both vmPFC differentiation and Empathy Network differentiation . 
+In contrast , Analytic Network differentiation was unrelated to information sharing . 
+Information seeking and information use were not associated with any of the neural measures ( Table 2 ) .55 As a secondary analysis , we examined relationships among gender , health information behavior , and neural measures ; we did not identify significant difference by gender . 
+Two indices of neural activation in relation to information sharing ( vmPFC & Empathy Network ) were significantly different from zero ( p < .10 ) and approached conventions for large effect sizes . 
+Correlations between information use and neural indices were not statistically significant , but the magnitude of the correlations with vmPFC and Empathy Network approached conventions for medium effect sizes . 
+Finally , no statistically significant relationships with the Analytic Network were found , but the strength of the association with information sharing was negative and approached conventions for a medium effect size . 
+Given the pattern of our findings , we elected to conduct an exploratory post‐hoc test of dependent correlations ( Steiger , 1980 ) to examine whether the magnitude of the correlations between neural indices was stronger in relation to information sharing as compared with information seeking and information use . 
+Accordingly , vmPFC was more strongly associated with information sharing as compared with information seeking ( z = 3.03 , p < .001 , Cohen 's d = 1.39 ) and information use ( z = 2.25 , p < .03 , Cohen 's d = 1.03 ) . 
+Similarly , the Empathy Network was more strongly associated with information sharing as compared with information seeking ( z = 2.48 , p < .01 , Cohen 's d = 1.13 ) and information use ( z = 1.99 , p < .03 , Cohen 's d = 0.91 ) . 
+Finally , the Analytic Network was more strongly associated in a negative direction with information sharing as compared with information seeking ( z = 1.58 , p < .06 , Cohen 's d = 0.72 ) and information use ( z = 1.45 , p < .08 , Cohen 's d = 0.66 ) . 
+This study was the first to examine the relationships among self‐reported information behavior and neural measures of health information processing in a sample of African Americans with prehypertension . 
+Specifically , we investigated how differentiation in two antagonistic neural networks ( Analytic and Empathy Networks ) were related to self‐reported use , seeking , and sharing of information related to blood pressure . 
+We found that information sharing was positively associated with differentiation in a priori identified regions , corresponding to the Empathy Network and vmPFC . 
+Increased activation during the reception of health information that focuses on a social and emotional narrative , and greater deactivation of the Analytic Network during the reception of factual health information , was related to increased information sharing . 
+That differentiation of these regions was related to greater self‐reported information sharing is consistent with prior work on information sharing and behavior change ( Tompson et al. , 2015 ) . 
+This was the first study to show that differentiation between regions of the Analytic and Empathy Networks was related to information sharing . 
+Previous research has shown that the vmPFC is associated with valuation and sharing of information , emotional and parasympathetic regulation , and self‐affirmation ( Bartra et al. , 2013 ; Eisenberger & Cole , 2012 ; Roy et al. , 2012 ) . 
+The Empathy Network is associated with representing one 's own and other 's thoughts and feelings ( Denny et al. , 2012 ) , expressing concern for others , prosocial support , and empathizing with others ( Jack , Dawson , Begany , et al. , 2013 ; Jack , Dawson , & Norr , 2013 ; Rameson et al. , 2012 ) . 
+It is notable that the regions that best predict information sharing are actually suppressed when individuals are engaged in the analytic processing necessary to grasp relevant content . 
+Of course , analytic comprehension is necessary for understanding information , but the current results show a more important role for social and emotional processing associated with the Empathy Network in the sharing of health information . 
+These findings are consistent with prior neuroimaging work demonstrating that these social and emotion processing regions ( for instance , Empathy Network and vmPFC ) are associated with persuasion and motivation to share information ( Falk & Bassett , 2017 ; Tompson et al. , 2015 ; Whelan et al. , 2017 ) . 
+The current study adds to the growing body of work highlighting the importance of engaging these psychological processes when developing healthcare information . 
+Engagement and disengagement of the vmPFC is inferred from stronger differentiation , which was defined by increased activation in response to the CS videos and decreased activation in response to the FF videos . 
+Our finding that information sharing was associated with social and emotion processing may also explain previous findings that participants who shared information , in an attempt to help others , were more likely to use information to make self‐management decisions ( Jones , Veinot , & Pressler , 2017 ) . 
+This is the first study to demonstrate that this neural signature ( i.e. , increased differentiation in the vmPFC and Empathy Network ) is associated with self‐reported information sharing behaviors in any group ; in this case , African Americans with elevated blood pressures . 
+Given that health information is commonly conveyed as detached and analytic in nature , our findings highlight the importance that processing of socially and emotionally salient health information is more closely associated with health information sharing . 
+One implication of our findings is that interventions that reliably disseminate health information may be more efficacious when information is conveyed by analytic and socio‐emotional means , so that neural regions associated with goal‐setting and evaluating social and personal relevance are engaged . 
+Information seeking and information use were not related to the measures of neural processing . 
+This stands in contrast to prior information science research suggesting activation of different parts of the brain during specific tasks associated with information searching , including using search engines , reviewing search results , and selecting them for relevance ( Mostafa et al. , 2015 ; Mostafa & Gwizdka , 2016 ; Small , Moody , Siddarth , & Bookheimer , 2009 ) . 
+The absence of any significant or trending correlations may be due to the measures used and the small sample size in this study , or the fact that we did not directly observe information seeking , sharing , and use during the fMRI . 
+Before saying that these variables are not correlated , studies should be conducted with larger samples , while directly observing these behaviors . 
+Nevertheless , this work demonstrates the feasibility of conducting information science research using neuroprocessing methods , while extending such research beyond its current focus on information search to include the related field of information behavior ( O'Brien , Dickinson , & Askin , 2017 ) . 
+Although the participants were not diagnosed with hypertension , survey results indicated that they were still seeking and sharing blood pressure information , and using it to make blood pressure self‐management decisions . 
+This finding is similar to other studies reporting participants who were not clinically diagnosed with hypertension were still actively engaging in related health information behavior ( Jones , Wright , et al. , 2017 ) . 
+This suggests that interventions focused on participation in health information and self‐management behaviors may appeal to individuals with prehypertension , since they already engage in these behaviors without prior encouragement . 
+Our findings point to the importance of developing interventions that include a social narrative , in addition to analytic information . 
+This extends prior work implicating the role of the Empathy Network in information and self‐management behaviors ( Falk & Bassett , 2017 ; Tompson et al. , 2015 ) . 
+As with all studies , the findings we reported must be interpreted within the context of the study . 
+One limitation was the small sample size of 19 participants . 
+Despite this small sample , we were able to identify statistically significant findings that correspond well to prior literature . 
+Now that we have successfully established feasibility , we can replicate this study in larger samples and continue to examine these relationships . 
+Another limitation is that our fMRI protocol was newly developed and this was the first time that it was tested . 
+However , the development was guided by prior theory and previous neuroimaging studies ( Jack , Dawson , Begany , et al. , 2013 ; Jack , Dawson , & Norr , 2013 ) that have achieved patterns of neural activity very similar to those produced here . 
+Given these possible limitations , this novel study was an opportunity to explore information behaviors and neuroprocessing in an at‐risk African American sample . 
+Our findings further contribute to our understanding of the neurological mechanisms underlying information behavior and self‐management in general , and in a vulnerable population that has an increased risk for negative cardiovascular outcomes . 
+Although health information behavior is closely related to participation in self‐management behavior , to our knowledge this is one of the first studies to investigate health information indices in relation to theoretically motivated patterns of neural activity . 
+In particular , we examined the degree to which individuals were able to differentially activate the Empathy Network , vmPFC , or Analytic Network as a function of information that was selected to be factual vs. social and emotional in content . 
+We then examined these patterns in relation to behavioral measures of health information sharing . 
+Our findings show that stronger differentiation in the Empathy Network and vmPFC was associated with greater self‐reported information sharing—a practice elsewhere shown to be associated with blood pressure self‐management . 
+Our findings have the potential to inform theory and assist scientists and clinicians to develop interventions that are specific and effective . 
+In particular , our findings indicate how important it is to construct health messages that are socially and emotionally engaging . 
+These results are applicable to African Americans with prehypertension , an important population to target because of the high prevalence of hypertension . 
+Thus , our findings have the potential to improve understanding of health information behavior and how it relates to behavior changes . 

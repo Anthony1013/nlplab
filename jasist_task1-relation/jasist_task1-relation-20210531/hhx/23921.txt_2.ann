@@ -1,0 +1,176 @@
+T1	数据源 211 215	BKCI
+T2	数据源 224 237	OCLC‐WorldCat
+T3	数据源 242 251	Goodreads
+T4	术语 395 400	ISBNs
+T5	数据源 359 363	BKCI
+T6	数据源 515 519	BKCI
+T7	时间 691 700	2015–2016
+T8	术语 779 784	ISBNs
+T9	数据源 794 798	BKCI
+T10	时间 801 810	2005–2015
+T11	术语 847 850	SQL
+T12	术语 1069 1074	ISBNs
+T13	术语 1315 1320	ISBNs
+T14	数据源 1335 1339	BKCI
+T15	数据源 1344 1348	PURE
+T16	术语 1429 1434	ISBNs
+T17	数据源 1518 1531	OCLC‐WorldCat
+T18	数据源 1536 1545	Goodreads
+T19	术语 1559 1600	application programming interface ( API )
+T20	术语 1782 1787	ISBNs
+T21	术语 1731 1736	ISBNs
+T22	术语 1881 1884	SQL
+T23	术语 1932 1937	ISBNs
+T24	术语 1946 1953	ISBN‐13
+T25	术语 2001 2005	ISBN
+T26	术语 2105 2108	SQL
+T27	术语 2212 2217	ISBNs
+T28	数据源 2226 2239	OCLC‐WorldCat
+T29	术语 2319 2324	ISBNs
+T30	术语 2585 2589	ISBN
+T31	数据源 2619 2628	Goodreads
+T32	数据源 2632 2645	OCLC‐WorldCat
+T33	表 3209 3282	Table 1 presents a sample list of related ISBNs from our final data set .
+T34	术语 3251 3256	ISBNs
+T35	术语 3444 3449	ISBNs
+T36	术语 3318 3323	ISBNs
+T37	数据源 3424 3428	BKCI
+T38	术语 3639 3643	ISBN
+T39	数据源 3702 3706	BKCI
+T40	数据源 3803 3816	OCLC‐WorldCat
+T41	术语 3841 3846	ISBNs
+T42	术语 3919 3924	ISBNs
+T43	数据源 3880 3889	Goodreads
+T44	术语 3965 3970	ISBNs
+T45	研究结果 4091 4207	based on the rules that we developed for identifying expressions and the metadata available to confirm these rules .
+T46	研究结果 4514 4670	While OCLC‐WorldCat tends to be a more reliable database for retrieving complete metadata , Goodreads tended to support the retrieval of more unique ISBNs .
+T47	研究结果 4432 4511	This means that some of the publication years may have been recorded in error .
+T48	表 5032 5231	Table 2 indicates the results of our data crawling and matching procedure beginning with two original data sets—1 ) an ISBN list from the BKCI , and 2 ) an ISBN list from the Danish PURE repository .
+T49	术语 4931 4936	ISBNs
+T50	数据源 4673 4686	OCLC‐WorldCat
+T51	数据源 4954 4967	OCLC‐WorldCat
+T52	术语 4974 4979	ISBNs
+T53	数据源 4829 4838	Goodreads
+T54	研究结果 4829 4936	Goodreads , on the other hand , supported a much better understanding of the relationship between the ISBNs
+T55	术语 5260 5265	ISBNs
+T56	术语 5498 5502	APIs
+T57	图 5507 5724	Figure 3 indicates the number of works from the full data set with one or more ISBNs ( i.e. , physical manifestations ) , including those that had been published as one or more editions ( i.e. , distinct expressions )
+T58	术语 5462 5467	ISBNS
+T59	数据源 5285 5289	BKCI
+T60	术语 5308 5313	ISBNs
+T61	术语 5353 5356	API
+T62	数据源 5373 5386	OCLC‐WorldCat
+T63	数据源 5391 5400	Goodreads
+T64	术语 5813 5817	ISBN
+T65	术语 5904 5909	ISBNs
+T66	图 6225 6370	Figure 4 presents the indexing quality of the BKCI pertaining to editions or expressions of a work published in 1995 , up to and including 2015 .
+T67	数据源 6271 6275	BKCI
+T68	时间 6337 6341	1995
+T69	时间 6364 6368	2015
+T70	数据源 6457 6461	BKCI
+T71	术语 6421 6426	ISBNs
+T72	数据源 6668 6672	BKCI
+T73	术语 6611 6616	ISBNs
+T74	术语 6686 6690	ISBN
+T75	术语 6864 6868	ISBN
+T76	术语 6923 6928	ISBNs
+T77	数据源 7133 7142	Goodreads
+T78	数据源 7147 7160	OCLC‐WorldCat
+T79	数据源 7192 7196	BKCI
+T80	数据源 7225 7229	BKCI
+T81	术语 7239 7244	ISBNs
+T82	时间 7279 7288	1995–2015
+T83	时间 7331 7335	2005
+T84	数据源 7405 7409	BKCI
+T85	时间 7495 7499	2009
+T86	数据源 7545 7549	BKCI
+T87	术语 7622 7626	ISBN
+T88	数据源 7798 7802	BKCI
+T89	时间 7835 7839	2010
+T90	表 8064 8102	the sample title list shown in Table 1
+T91	数据源 8258 8262	BKCI
+T92	时间 8328 8332	1978
+T93	时间 8335 8339	1989
+T94	时间 8342 8346	1996
+T95	时间 8353 8357	2000
+T96	术语 8388 8393	ISBNs
+T97	术语 8500 8505	ISBNs
+T98	数据源 8513 8517	BKCI
+T99	表 8595 8704	Figure 5 shows the same information shown in Figure 4 , but this time for the Danish PURE repository system .
+T100	术语 8886 8890	ISBN
+T102	术语 9084 9089	ISBNs
+T103	术语 9171 9175	ISBN
+T101	时间 9796 9805	1995–2014
+T104	图 9810 9959	Figure 6 illustrates the extent to which emblematic expressions were indexed in the BKCI for the publication years of 1990 up to and including 2014 .
+T105	数据源 9894 9898	BKCI
+T106	时间 9928 9932	1990
+T107	时间 9953 9957	2014
+T108	数据源 10392 10396	BKCI
+T109	时间 10537 10546	1995–2014
+T110	数据源 10483 10487	BKCI
+T111	数据源 9724 9728	PURE
+T112	数据源 9684 9688	PURE
+T113	术语 10497 10501	ISBN
+T114	数据源 10560 10579	Book Citation Index
+T115	数据源 10882 10886	BKCI
+T116	数据源 10961 10965	BKCI
+T117	引文的结果 10994 11114	monographs may be underrated in terms of citation impact or overrated because individual chapters are counted separately
+T118	引文作者 11119 11130	Leydesdorff
+T119	引文作者 11133 11137	Felt
+T120	引文时间 11140 11144	2012
+T121	引文时间 11609 11613	2001
+T122	引文的结果 11618 11729	referencing a chapter from a monograph is in fact not recommended ( note : only a chapter from an edited book )
+T125	时间 11833 11837	2005
+T131	时间 11954 11958	2005
+T123	数据源 12144 12148	BKCI
+T124	引文时间 12326 12330	2005
+T126	数据源 12540 12544	BKCI
+T127	研究结果 12506 12656	Applying the FRBR standard to the BKCI would , in general , ensure that all expressions of a work are indexed distinctly with an identification code .
+T128	表 12750 12875	For instance , currently there are two separate indexed editions of Manias , Panics , and Crashes in the BKCI ( see Table 1 )
+T129	图 12878 12955	but not all editions have been indexed ( as the data illustrate in Figure 4 )
+T130	数据源 12855 12859	BKCI
+T132	数据源 13224 13228	BKCI
+T133	数据源 13579 13583	BKCI
+T134	数据源 13464 13468	BKCI
+T135	图 13425 13535	A suggested indexing structure for the BKCI , including levels for citation counting , is outlined in Figure 7
+T136	图 13645 13831	Note from Figure 7 , that a work is the highest proposed target entity for a citation count ; while all individual expressions ( editions ) constitute the lowest proposed target entity .
+T137	表 13834 13938	Each expression of Manias , Panics , and Crashes has been labeled from # 1 to # 7 ( note : see Table 1 )
+T138	时间 14185 14189	2013
+T139	图 14375 14510	With Figure 7 , we also show that when the fifth , sixth , and seventh editions of Manias , Panics , and Crashes were published , C.P .
+T140	引文时间 14894 14898	2016
+T141	引文的结果 14735 14876	This highly anticipated sixth edition has been revised to include an in‐depth analysis of the first global crisis of the twenty‐first century
+T142	图 15249 15355	At Figure 7 , the arrows leading to the box labeled “ citations/libcitations ” illustrate how our proposed
+T143	图 16143 16319	Figure 7 also illustrates that the two different counting options may be applied to libcitations or library holdings for each cataloged edition ( e.g. , using OCLC‐WorldCat ) .
+T144	数据源 16302 16315	OCLC‐WorldCat
+T145	图 16959 17129	At Figure 2 , we see how distinct metrics could be calculated for De Vergeten Wetenschappen ( Bod , 2010 ) as well as for A New History of the Humanities ( Bod , 2013 ) .
+T146	引文作者 17053 17056	Bod
+T147	引文时间 17059 17063	2010
+T148	引文作者 17115 17118	Bod
+T149	引文时间 17121 17125	2013
+T150	引文的研究问题 17025 17050	De Vergeten Wetenschappen
+T151	引文的研究问题 17081 17112	A New History of the Humanities
+T152	研究问题 17455 17680	The purpose of this study was to investigate the extent to which books currently indexed in the Book Citation Index ( BKCI ) have adequate metadata and data designed to reflect inherent familial components and relationships .
+T153	数据源 17547 17579	the Book Citation Index ( BKCI )
+T154	研究结果 17683 17823	Our research focuses primarily on monographs , and the results confirm that some familial components are present in the BKCI , but not all .
+T155	数据源 17803 17807	BKCI
+T156	术语 17838 17843	ISBNs
+T157	术语 18035 18039	ISBN
+T158	数据源 18467 18471	BKCI
+T159	研究问题 18541 18671	Part of this research was also designed to compare the indexing of monographs in the BKCI with the Danish PURE repository system .
+T160	数据源 18626 18630	BKCI
+T162	数据源 18807 18811	BKCI
+T161	数据源 18820 18824	BKCI
+T163	数据源 19461 19465	PURE
+T164	术语 19498 19501	BFI
+T165	时间 20029 20044	26 January 2017
+T166	术语 12519 12523	FRBR
+R1	select_time Arg1:T9 Arg2:T10	
+R2	select_time Arg1:T67 Arg2:T68	
+R3	results Arg1:T118 Arg2:T117	
+R4	coauthor Arg1:T119 Arg2:T118	
+R5	has_cited_time Arg1:T120 Arg2:T118	
+R6	has_cited_time Arg1:T140 Arg2:T141	
+R7	produces Arg1:T146 Arg2:T150	
+R8	has_cited_time Arg1:T147 Arg2:T146	
+R9	produces Arg1:T148 Arg2:T151	
+R10	has_cited_time Arg1:T149 Arg2:T148	

@@ -1,0 +1,59 @@
+T1	引文作者 14 18	Otto
+T2	引文时间 21 25	2011
+T3	引文作者 332 337	Weber
+T4	引文时间 351 355	2009
+T5	引文作者 2223 2229	Tallon
+T6	引文时间 2239 2243	2013
+T7	引文作者 2246 2252	Kooper
+T8	引文时间 2262 2266	2011
+T9	引文作者 2688 2699	e‐Skills UK
+T10	引文时间 2702 2706	2013
+T11	引文作者 2709 2716	Misnevs
+T12	引文作者 2719 2726	Yatskiv
+T13	引文时间 2729 2733	2016
+T14	引文作者 3113 3122	Granville
+T15	引文时间 3125 3129	2014
+T16	引文作者 3132 3136	Song
+T17	引文作者 3139 3142	Zhu
+T18	引文时间 3145 3149	2015
+T19	引文作者 3152 3158	Waller
+T20	引文作者 3161 3168	Fawcett
+T21	引文时间 3171 3175	2013
+T22	引文作者 3343 3349	EDISON
+T23	引文时间 3352 3356	2017
+T24	引文作者 3946 3957	Fleischmann
+T25	引文作者 3960 3963	Hui
+T26	引文作者 3968 3975	Wallace
+T27	引文时间 3978 3982	2017
+T28	引文作者 5172 5178	Corbin
+T29	引文作者 5181 5188	Strauss
+T30	引文时间 5191 5195	2015
+T31	引文作者 5198 5204	Foster
+T32	引文时间 5207 5211	2016
+T33	时间 6458 6462	2002
+T34	引文时间 6479 6483	2002
+T35	图 5138 5247	Figure 1 : Data Work in Context ( Corbin & Strauss , 2015 ; Foster , 2016 ) illustrates the relevant contexts
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	has_cited_time Arg1:T8 Arg2:T7	
+R5	field_similar_as Arg1:T7 Arg2:T5	
+R6	has_cited_time Arg1:T10 Arg2:T9	
+R7	coauthor Arg1:T11 Arg2:T12	
+R8	has_cited_time Arg1:T13 Arg2:T12	
+R9	field_similar_as Arg1:T11 Arg2:T9	
+R10	has_cited_time Arg1:T15 Arg2:T14	
+R11	coauthor Arg1:T16 Arg2:T17	
+R12	has_cited_time Arg1:T18 Arg2:T17	
+R13	coauthor Arg1:T19 Arg2:T20	
+R14	has_cited_time Arg1:T21 Arg2:T20	
+R15	field_similar_as Arg1:T19 Arg2:T16	
+R16	field_similar_as Arg1:T16 Arg2:T14	
+R17	has_cited_time Arg1:T23 Arg2:T22	
+R18	coauthor Arg1:T24 Arg2:T25	
+R19	coauthor Arg1:T25 Arg2:T26	
+R20	has_cited_time Arg1:T27 Arg2:T26	
+R21	coauthor Arg1:T28 Arg2:T29	
+R22	has_cited_time Arg1:T30 Arg2:T29	
+R23	has_cited_time Arg1:T32 Arg2:T31	
+R24	field_similar_as Arg1:T31 Arg2:T28	

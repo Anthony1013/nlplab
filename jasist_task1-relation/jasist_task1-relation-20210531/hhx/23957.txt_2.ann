@@ -1,0 +1,11 @@
+T1	引文的结果 67 202	The chapter provides in‐depth information for data collection , including details of the API , Foursquare data , and collection methods
+T2	引文的研究问题 207 515	The chapter discusses how research on Foursquare has advanced algorithm development pertaining to predication , marketing and anonymization , and social science research on urban gentrification and social segregation , and notes some issues pertaining to the validity of such data and bias of the user base .
+T3	引文作者 601 614	Jessica Vitak
+T4	引文的结果 518 670	“ Facebook as a research tool in the social and computer sciences ” ( Chapter 37 , Jessica Vitak ) describes the now archetypal social networking site .
+T5	时间 1679 1683	2014
+T6	引文作者 1734 1748	Anatoliy Gruzd
+T7	引文作者 1753 1765	Ben O'Bright
+T8	引文的研究问题 1614 1953	“ Big data and political science : The case of VKontakte and the 2014 Euromaidan revolution in Ukraine ” ( Chapter 38 , Anatoliy Gruzd and Ben O'Bright ) is an in‐depth look at how social media data support researching “ real world ” issues—social , economic , political ; and how and whether social media data reflect real world effects .
+R1	results Arg1:T3 Arg2:T4	
+R2	coauthor Arg1:T6 Arg2:T7	
+R3	produces Arg1:T6 Arg2:T8	

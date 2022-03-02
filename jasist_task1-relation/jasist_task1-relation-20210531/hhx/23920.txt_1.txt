@@ -1,0 +1,130 @@
+The Internet has become a major information source for patients . 
+The most prevalent use of the Internet is to seek information about a disease . 
+According to Xiao , Sharman , Rao , and Upadhyaya ( 2014 ) , the Internet is both the first and the most common source for such information . 
+The Pew Research Center reported that 72 % of US Internet users search online for health information and the most common topics include information of specific diseases or conditions , treatments or procedures , and doctors ( Pew , 2012 ) . 
+The iiMediaResearch ( 2016 ) reported that 28.9 % Chinese mobile Internet users have adopted mobile healthcare apps , with 60.3 % of them using apps for information search . 
+The China Internet Network Information Center reported that among 15.2 million China Internet users seeking healthcare information online in 2015 , disease information search ranked first among all healthcare uses ( CNNIC37 , 2016 ) . 
+The impact of the Internet on patient 's welfare is controversial ( Wehbe , Curcio , Gajjar , & Yadlapati , 2015 ) . 
+The access to a massive volume of online information makes patients better informed and could lead to better physician‐patient relationships and better health outcomes . 
+Ybarra and Suman ( 2006 ) reported that almost half of health information seekers indicated that their Internet use helped them take better care of themselves . 
+Notwithstanding these benefits , it is difficult to assess the validity of healthcare information online ( Donnelly , Shaw , & van den Akker , 2008 ) , and information quality varies across medical domains and across websites ( Zhang , Sun , & Xie , 2015 ) . 
+Much of the information is misleading and even accurate information can be misinterpreted . 
+Relying on faulty information or a flawed interpretation can compromise patients ’ health or result in inappropriate requests for clinical interventions ( Eysenbach & Köhler , 2002b ) . 
+How would a patient 's online healthcare information search affect the offline physician‐patient trusting relationship in a diagnosis process , especially when there is an inconsistency between findings of the patient 's research and physician 's diagnosis ? 
+This study seeks to address this research question . 
+Trust is the belief that the other party is competent , open , concerned and reliable ( Mishra & Spreitzer , 1998 ) . 
+Trust is “ a psychological state comprising the intention to accept vulnerability based upon positive expectations of the intentions or behavior of another ” ( Akter , D'ambra , & Ray , 2011 ; Rousseau , Sitkin , Burt , & Camerer , 1998 , p. 395 ) . 
+Because medical activities are inherently risky and full of uncertainties ( Hou & Xiao , 2012 ) , and because physicians and patients may have different goals and interests , trust emerges as an important issue between physicians and patients . 
+For instance , physicians need to follow mandatory treatment guidelines and regulations , whereas patients are concerned with treatment effect and cost . 
+A trusting relationship is associated with patient satisfaction , their adherence to treatment , and the continuity of care ( McKinstry , Ashcroft , Car , Freeman , & Sheikh , 2006 ) . 
+In contrast , a low level of trust increases transaction costs such as monitoring and verification ( Thom , Kravitz , Bell , Krupat , & Azari , 2002 ) . 
+Although many second opinions are justified and encouraged , a lack of trust in a physician could also lead to patients unnecessarily seeking second‐opinions and thereby wasting healthcare resources . 
+This study uses a knowledge power perspective to analyze the impact of Internet healthcare information seeking on patients ’ trust in their physician . 
+The Internet empowers patients by reducing the healthcare knowledge disparity . 
+Meanwhile , physicians ’ authority can be duly or unduly challenged , leading to tension in the relationship . 
+With the knowledge power perspective , we seek to analyze how the knowledge power of both parties in the diagnosis process shapes their relationship in the Internet age . 
+An empirical study was conducted in China . 
+Although the Chinese‐government‐sponsored or subsidized medical insurance schemes cover 95 % of the population ( Eggleston , 2012 ) , the insurance coverage is considered “ wide but shallow ” : the coverage of disease types is comprehensive yet the reimbursement of treatment expense is less generous . 
+The out‐of‐pocket spending can amount to 60 % of the total health spending in China ( Eggleston , 2012 ) . 
+China does not have a developed general practice or family doctor system . 
+Most patients go directly to a specialized department of a hospital , leading to great tension between the demand and supply of specialists and deteriorated service quality . 
+A few instances of a patient attacking a physician in China have shocked the world ( The Lancet , 2014 ) . 
+The causes are attributed to poor service , suspiciously expensive investigations or medications , and physicians ’ lack of communication ( The Lancet , 2014 ) . 
+Although trust is a concern in many countries , it is particularly so in China ( Reynolds & McKee , 2011 ) . 
+This article is organized as follows : The next section presents a conceptual framework of the physician‐patient relationship and the effect of the Internet on the relationship based on the power perspective . 
+Next , we present a theoretical research model and hypotheses , the research methodology , and the empirical results . 
+Finally , we conclude the paper with implications of our findings and directions for future research . 
+Knowledge emerges as a dominant factor in shaping the physician‐patient relationship ( Ridd , Shaw , Lewis , & Salisbury , 2009 ) . 
+In the past , patients generally did not challenge a physician 's advice or question the prescribed treatments . 
+Dickerson and Brennan ( 2002 ) characterized the physician‐patient relationship with a gatekeeper model , in which the main provider is a physician . 
+Physicians are keepers of medical knowledge and major decision‐makers , with patients assuming a dependent role . 
+The gatekeeper model relies on the fundamental and sustaining knowledge inequality between physicians and patients ( Lenert , 2009 ) . 
+Medical information from the Internet empowers patients by increasing their sense of control over their health ( Barnoy , Volfin‐Pruss , Ehrenfeld , & Kushnir , 2011 ) . 
+The Internet empowers patients to conduct their own health checks , self‐diagnoses and treatment ( Donnelly et al. , 2008 ) . 
+Patients searching online might have some understanding of their situation before seeing a doctor ( Agius & Stangeland , 2016 ) . 
+They can use that information to propose diagnoses or treatment plans to physicians ( Cline et al. , 2003 ) . 
+Prior study ( Fleisher , Bass , Ruzek , & McKeown‐Conn , 2002 ) found that health information from the Internet makes patients feel more confident in asking questions , and helps them feel empowered to make decisions . 
+But the Internet can also misinform patients because of low health literacy or unreliable information . 
+Low health literacy can make it difficult for patients to understand and interpret healthcare knowledge ( Agius & Stangeland , 2016 ) . 
+Many websites assume a high level of medical knowledge . 
+Patients can also be exposed to unreliable information ( Jacobson , 2007 ) . 
+Many websites lack clear markers of authorship or credibility ( Eysenbach & Jadad , 2001 ) . 
+The information asymmetry between physicians and patients is affected by online medical information ( Jacobson , 2007 ) . 
+In the past , patient 's disease knowledge is based on limited health education and their past experience . 
+With the availability of information online , patients are likely to be more confident in their own judgment of their health condition regardless of whether they are informed or even misinformed . 
+Bringing information from online searches to the clinical encounter and questioning healthcare providers have been perceived by both patients and healthcare providers as challenging the boundaries of medical expertise ( Wehbe et al. , 2015 ) . 
+It challenges the monopoly of medical knowledge by professionals . 
+If different opinions arise in diagnosis without appropriate explanation , their relationship degenerates ( Bowes , Stevenson , Ahluwalia , & Murray , 2012 ) . 
+However , there is a lack of systematic investigation of how the patient empowerment through the Internet changes the knowledge power disparity between physicians and patients , and hence affects their trusting relationship in the diagnosis process . 
+The effect of the Internet on physician‐patient relationship is less well understood ( Wald , Dube , & Anthony , 2007 ) , especially when there is an inconsistency between a physician 's diagnosis and a patient 's expectation . 
+How would the Internet search and other sources of disease knowledge collectively affect a patient 's trust in a physician through their interaction in diagnosis ? 
+This study proposes a research model from a knowledge power perspective . 
+Power is defined as the control of or capability to influence others ( Grimes , 1978 ) . 
+Knowledge power is a typical type of power relevant to this study . 
+Knowledge power is based on having superior skills or knowledge , and the ability to convince another with a clear logic , argument , or information ( Raven , 1993 ) . 
+Besides knowledge power , one may obtain power through the interpersonal interaction process . 
+Interactive power is defined as one 's ability to express concerns , to communicate well , to show care and respect . 
+These abilities are regarded as power skills ( Hawks , 1991 ) . 
+Interactive power can be manifested in a diagnosis process . 
+The literature on knowledge power offers a few fundamental tenets for this investigation . 
+First , the use of noncoercive powers , such as knowledge power and interactive power enhances trust ( Jain , Khalil , Johnston , & Cheng , 2014 ) . 
+With noncoercive power , the party with higher power does not control or influence the behavior of the other through punishment or reward , but rather their helpfulness . 
+In contrast , reliance on coercive power such as authority and might has a negative effect on trust ( Cook , Hardin , & Levi , 2005 ) . 
+The physician‐patient interaction is a typical context where noncoercive power shapes the relationship . 
+Second , the two types of noncoercive power , knowledge power and interactive power ( Hawks , 1991 ; Raven , 1993 ) , represent the possession and the execution of power , hence provide a comprehensive framework to analyze the impact of power in relationship building . 
+Third , because knowledge power disparity is identified as a key antecedent to trust ( Jain et al. , 2014 ) , it is necessary to evaluate the possession of knowledge power from both parties , not just one . 
+In the light of these tenets , the effect of patient 's Internet search on physician‐patient trust shall be investigated on top of their existing knowledge power as indicated by patient 's chronic condition , physician 's profession status , and their interaction quality . 
+Our research model ( Figure 1 ) covers a patient 's knowledge power as indicated by the possession of knowledge ( i.e. , their Internet search , their chronic condition ) , a physician 's knowledge power ( i.e. , their professional status ) , and the interactive power ( i.e. , interaction quality in diagnosis ) . 
+A patient 's online search is considered as a new source of knowledge to change the power disparity . 
+This model also includes patient 's seeking for second‐opinion , adherence to treatment advice , and subsequent Internet search as the consequences of trust . 
+Research model . 
+Patients view trust formation as an iterative process , and commonly test what they hear from their physicians against their own information and expectations ( Mechanic & Meyer , 2000 ) . 
+In this study , diagnosis inconsistency refers to how much the disease type , disease severity and diagnosis process suggested by a physician are different from a patient 's expectation based on the patient 's collected information . 
+Unmet expectations negatively affect patients ’ trust ( Wu et al. , 2015 ) . 
+Particularly , diagnosis inconsistency is suggested to decrease trust ( Simons , 2002 ) . 
+Conversely , a physician 's diagnosis that is consistent with their expectation is likely to enhance trust . 
+Therefore , we hypothesize : H1 : Diagnosis inconsistency is negatively related to a patient 's trust in a physician . 
+H1 : Diagnosis inconsistency is negatively related to a patient 's trust in a physician . 
+The amount of time a patient spends online searching for disease information is an indicator of the amount of knowledge a patient gains , including the possible diseases to expect , the severity of disease , and the possible treatments ( Eysenbach & Köhler , 2002a ) . 
+The more information a patient obtains from the Internet , the more the physician‐patient information asymmetry is expected to be reduced . 
+Although patients may not be fully confident of their self‐diagnosis ( Nettleton , Burrows , & O'Malley , 2005 ) , searching for more information raises patients ’ confidence in self‐diagnosis ( Ahmad , Hudak , Bercovitz , Hollenberg , & Levinson , 2006 ) . 
+Therefore , patients would believe that the power imbalances between physicians and patients are reduced ( Harrison , Waite , & Hunter , 2006 ) . 
+The change in power disparity makes patients more sensitive to diagnosis inconsistency . 
+For a patient who searches more , diagnosis inconsistency is likely to have a stronger effect in reducing the patient 's trust in physicians . 
+Examples of diagnosis inconsistency include a physician 's diagnosis that is not one of the expected types of disease uncovered in the patient 's search , or a suggested treatment that is different from what the patient expected . 
+The result is the opposite for a patient who searches less . 
+Because she has a low level of confidence in her self‐diagnosis , even a physician 's diagnosis that is different from her expectations is less likely to cause her to challenge the physician . 
+She may dismiss the inconsistency as her own lack of expertise . 
+In short , search time enhances the patient 's sensitivity to inconsistency and likelihood to insist on her own judgement , therefore we hypothesize : H2 : Search time has a negative moderating effect on the effect of diagnosis inconsistency on trust . 
+H2 : Search time has a negative moderating effect on the effect of diagnosis inconsistency on trust . 
+The chronic condition of a patient is another source of knowledge . 
+A patient with a chronic condition is one who suffers a long‐term or even life‐long disease or medical condition . 
+Because of the persistent nature of chronic conditions , patients with them become more knowledgeable about their own health condition and the appropriate disease control than patients with a single‐incidence acute condition ( Lee et al. , 2013 ) . 
+With the increase in disease experience and resources invested in the disease , a patient with a chronic condition has made more decisions to understand health ( Kazmer et al. , 2014 ) . 
+This process gives the patient more opportunities to learn , hence the patient gains knowledge , skills , and a heightened self‐awareness regarding her needs and values . 
+This is also a knowledge empowerment process ( Feste & Anderson , 1995 ) . 
+With a long struggle with their chronic conditions , such patients value novel information from physicians in diagnosis . 
+For these patients , a confirmation of disease type , severity , and necessary tests may not increase their trust in a physician . 
+In contrast , a different view of how to best manage or treat the condition could spark new hopes and enhance their trust in the physician 's knowledge and skills . 
+A physician 's new perspective and advice also suggest that physician 's knowledge is beyond that of the patient , or the previous physicians the patient has encountered . 
+Therefore , given the inconsistency , patients with chronic condition will perceive the physician as of higher knowledge power and trust more in the physician than do patients without chronic conditions . 
+We hypothesize : H3 : The status of being a patient with a chronic condition has a positive moderating effect on the effect of diagnosis inconsistency on trust . 
+H3 : The status of being a patient with a chronic condition has a positive moderating effect on the effect of diagnosis inconsistency on trust . 
+The professional status of a physician is an indicator of her knowledge power ( Kuokkanen & Leino‐Kilpi , 2000 ) . 
+The professional status can be indicated by the rank or title a physician holds . 
+For instance , a resident doctor is usually in her early years of practice whereas a director or department chair has a richer experience . 
+In some countries , like China , there is a standardized physician ranking system and the rank of a physician is assessed by an official organization with a set of criteria . 
+These criteria include the degree of professional education , years of practice , research publications and awards , and standardized examinations . 
+Therefore , the professional status of a physician signals the knowledge power and privilege attached to the status . 
+In the event of diagnosis inconsistency , the professional status of a physician can serve as another source of power to dissipate a patient 's suspicion . 
+Most patients can not judge the technical competence of a physician , but assume that a professional certification process ensures this . 
+A physician 's professional status is such a cue to expert power . 
+Earlier study found that patients are more likely to trust doctors with a higher rank ( Hou & Xiao , 2012 ) . 
+Therefore , patients are more likely to suppress their suspicion , regard their prior expectation as wrong , and subject to the decision of an expert . 
+Therefore , we hypothesize : H4 : The professional status of a physician has a positive moderating effect on the effect of diagnosis inconsistency on trust . 
+H4 : The professional status of a physician has a positive moderating effect on the effect of diagnosis inconsistency on trust . 
+The knowledge power of physicians can also be enhanced in their interaction with patients . 
+Healthcare is overall a “ high‐touch ” profession ( Smits , Bowden , & Wells , 2016 ) . 
+The interaction process influences the formation of physician‐patient trust . 
+Interaction quality refers to the patient 's perception of how well the physician explains , listens , and communicates with the patient . 
+Patients use interpersonal cues to judge a physician 's competence , such as how the physician asks and answers questions , and communicates about the patient 's disease ( Agius & Stangeland , 2016 ) . 

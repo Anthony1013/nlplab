@@ -1,0 +1,130 @@
+In today 's highly competitive search market , users who are frustrated with not finding the information they seek may abandon their search sessions and switch to another search engine , resulting in losses in the revenue and brand loyalty of a search engine . 
+Indeed , some studies report that almost half of the users switch between search engines at least once per month ( White , Richardson , Bilenko , & Heath , 2008 ; White & Dumais , 2009 ) . 
+According to these studies , more than half of the users state dissatisfaction with search results as the main reason for switching to another search engine . 
+Dissatisfaction with search results is primarily a consequence of the search engine 's inability to surface relevant or useful information . 
+Despite the advances in effectiveness of web search engines , a tangible portion of web queries remain unsolved even by the major web search engines ( Zaragoza , Cambazoglu , & Baeza‐Yates , 2010 ) . 
+What makes a search query difficult for a search engine is still open to debate . 
+However , in general , it is agreed that non‐navigational , infrequent , or long queries tend to be relatively more difficult ( Balasubramanian , Kumaran , & Carvalho , 2010 ; Downey , Dumais , & Horvitz , 2007 ; Zaragoza et al. , 2010 ) . 
+In this paper , we focus on a specific subset of difficult queries : those that match very few or no answers when they are issued to a web search engine . 
+Handling this particular subset of queries is important for web search engines because , in general , small answer sets are likely to fail to satisfy users ’ information needs entirely . 
+In practice , there are many reasons that may lead to a few‐ or no‐answer query ( FNAQ ) . 
+These include the presence of typos that make the interpretation of the query difficult , the inability to match the terms in the query with the text content ( e.g. , due to a very uncommon query term ) , or simply the lack of useful content in the search index ( e.g. , when the query seeks an unpopular webpage that is not yet crawled and indexed by the search engine ) . 
+We believe that having a thorough investigation of FNAQs is important , as this may fuel the research on solving such queries , eventually leading to improvements in search result quality as well as user satisfaction and providing significant benefits to commercial web search engines . 
+To the best of our knowledge , so far no previous work in the literature investigated FNAQs in a real web search setting . 
+To fill this gap , our work makes the following three contributions . 
+First , we investigate the result retrieval and query suggestion mechanisms employed by the current web search engines to solve FNAQs . 
+We show that , although these mechanisms improve the result quality of FNAQs , the problem is far from being completely solved . 
+Second , we investigate an extreme case of FNAQs : queries for which no result can be retrieved by the search engine . 
+We refer to such queries as no‐answer queries ( NAQs ) and make the first attempt to characterize such queries through a user study and a quantitative analysis . 
+Our analysis reveals that around 0.1 % of the unique queries ( from a large query log excerpt ) are NAQs , which would constitute a small yet probably non‐negligible number of queries for a commercial search engine that may be receiving billions of unique queries per day . 
+Third , we build a machine‐learning model to predict the NAQs observed in a real‐life query log obtained from Yahoo ! 
+Web Search . 
+To motivate our model , we present several use case scenarios where early prediction of NAQs may be useful , such as mobile web search and meta‐/federated search . 
+We evaluate our prediction model under different assumptions and demonstrate the feasibility of predicting NAQs . 
+The rest of the paper is organized as follows . 
+We begin with a literature review in the Related Work section , and then provide an overview of our research in the Research Objectives and Findings section . 
+In the Sampling FNAQs section , we describe our query set used throughout this work and in Handling FNAQs section , we analyze the mechanisms employed by search engines to handle FNAQs . 
+The following two sections , Characterizing NAQs and Predicting NAQs , are devoted to the characterization and prediction of NAQs . 
+Finally , we discuss a number of techniques that may be potentially useful in solving NAQs in the Discussion on Solving NAQs section , and then summarize our findings and point out some future work in the Conclusion section . 
+I. S. Altingovde is partially funded by Turkish Academy of Sciences ( TUBA ) Distinguished Young Scientist Award ( GEBIP 2016 ) . 
+To the best of our knowledge , no prior work in the literature has focused on characterizing FNAQs or the mechanisms employed by general‐purpose web search engines to handle them ( while search failures have recently been a topic of interest for more restricted scenarios , such as academic search [ Li , Schijvenaars , & de Rijke , 2017 ] ) . 
+However , there are earlier studies in closely related topics , such as query classification , query reformulation , and difficult query analysis . 
+Herein , we provide a brief survey of these studies . 
+In earlier studies , web search queries were categorized and/or classified based on a list of topics , users ’ search goals , or user interaction . 
+For instance , Beitzel , Jensen , Chowdhury , Grossman , and Frieder , ( 2004 ) analyzed the temporal trends for queries that are topically categorized by human editors . 
+Two particular studies attempted to classify long and rare web queries : Broder et al . 
+( 2007 ) exploited retrieved query results for classification and aimed to improve the selection of advertisements for rare queries , while Bailey , White , Liu , and Kumaran , ( 2010 ) classified rare queries by matching them against previously seen classified queries . 
+Users are known to refine or reformulate their queries when they are not satisfied with the query results . 
+In Jansen , Spink , and Koshman ( 2007 ) , analysis of a large query log revealed that almost half of the users ( 46 % ) reformulate their queries . 
+Query reformulation can be performed in different ways : the user might replace one or more terms in the query with others , generalize the query by removing a term , or specialize by adding more terms . 
+Spelling correction may be considered as a form of query reformulation . 
+It was shown that around 10–15 % of search queries contain spelling errors ( Cucerzan & Brill , 2004 ) . 
+Spelling correction was found to be more difficult in the web environment due to the diversity of terms that require special solutions ( Cucerzan & Brill , 2004 ) . 
+Carmel , Yom‐Tov , Darlow , and Pelleg ( 2006 ) analyzed the reasons that make a query difficult . 
+They found that , when the distance of queries and relevant documents from the entire collection is not sufficiently large , the queries are more difficult to answer . 
+Bendersky and Croft ( 2009 ) showed that , in the case of longer queries , the users tend to click on lower‐ranked results more often , implying that longer queries are relatively more difficult to answer than shorter queries . 
+Kumaran and Carvalho ( 2009 ) proposed solving long queries by substituting them with shorter subqueries that will potentially lead to better result quality . 
+In Balasubramanian et al . 
+( 2010 ) , the long query reduction problem is addressed in the context of web search . 
+Huston and Croft ( 2010 ) also focused on long queries and reported that simply reducing the length of a query by learning and removing stop structures can improve the retrieval performance . 
+In Downey et al . 
+( 2007 ) , characteristics of rare and popular queries were investigated . 
+It was shown that , in the case of rare queries , the users click on fewer search results and perform a larger number of query reformulations , indicating that rare queries are more difficult to answer compared to popular queries . 
+None of these works considered the number of retrieved results as a sign of query difficulty . 
+We note that this work is an extension of our previously published short paper ( Altingovde et al. , 2012 ) , which included a subset of the contributions in the current paper . 
+In this extended version , we provide a more detailed analysis of FNAQs and explore the impact of time on solving such queries . 
+We also present a characterization of NAQs in terms of some quantitative features . 
+Finally , the study on the feasibility of predicting NAQs is an entirely new contribution . 
+The paper tries to answer the following research questions ( RQs ) : Handling FNAQs RQ1 . 
+What presentation mechanisms do commercial web search engines employ to provide the search results in the case of FNAQs ? 
+RQ2 . 
+Does special handling of FNAQs help to increase the number of matching results ? 
+RQ3 . 
+What modifications are observed in the queries suggested as an alternative to FNAQs ? 
+RQ4 . 
+Are the queries suggested as an alternative to FNAQs relevant ? 
+RQ5 . 
+Are more FNAQs solved by search engines over the course of time ? 
+Characterizing NAQs RQ6 . 
+What are the root causes of NAQs ? 
+RQ7 . 
+How do NAQs affect the user satisfaction with search results ? 
+RQ8 . 
+What are the common features of NAQs ? 
+Predicting NAQs RQ9 . 
+Can we predict , using machine‐learning techniques , that a query is an NAQ before submitting the query to a search engine ? 
+Handling FNAQs RQ1 . 
+What presentation mechanisms do commercial web search engines employ to provide the search results in the case of FNAQs ? 
+Characterizing NAQs RQ6 . 
+What are the root causes of NAQs ? 
+Predicting NAQs RQ9 . 
+Can we predict , using machine‐learning techniques , that a query is an NAQ before submitting the query to a search engine ? 
+The main findings of our work can be summarized as follows : Handling FNAQs : Search engines present their results in four different ways ( original query results , original query results + a suggested query , suggested query 's results , no results ) . 
+In all three search engines we examined , about one fourth of the FNAQs are answered by returning the results of a suggested query instead of the original user query . 
+That is , the search engines have made an attempt to correct the original user query . 
+According to our analyses , suggested queries tend to match more answers than the FNAQs . 
+We also found that the presence of URIs in queries can make a big difference in the way suggested queries are generated for FNAQs . 
+Through a user study , we showed that the query suggestions are perceived as useful by the endusers . 
+Finally , we observed that the time has little impact on solving FNAQs . 
+Characterizing NAQs : About one fifth of the NAQs do not contain any meaningful intent . 
+Therefore , it may not be possible to solve them . 
+Similarly , about one fourth of the NAQs include at least one nonexistent URI . 
+Through a query log annotation study ( i.e. , by annotating the subsequent actions of every user who submitted an NAQ ) , we showed that , in the great majority of the cases , the users are dissatisfied by the NAQs . 
+Finally , we found that NAQs usually contain spelling errors , are longer than common queries , and are more likely to contain terms that are not in the vocabulary of search engines . 
+Predicting NAQs : We observed that frequency‐ and length‐based features are the most useful features for predicting NAQs . 
+Despite the heavy skew in class sizes , we could build a prediction model that can achieve good prediction quality : the area under the curve ( AUC ) is around 0.95 when all features are used in the model , and around 0.9 even when term frequency features are not available ; which is more likely for the mobile‐ and meta‐search scenarios targeted in this paper . 
+Our work requires using a sample set of real‐life search queries for which a web search engine is likely to return very few or no answers . 
+It is highly unlikely that any search engine company would make such a query sample public , as this would possibly expose confidential information about the techniques used ( or not used ) by the web search engine and even show its weaknesses . 
+Therefore , in our work we rely on queries obtained from the AOL query log ( Pass , Chowdhury , & Torgeson , 2006 ) , which is the largest publicly available query log at the moment . 
+An exhaustive approach to sample a representative set of FNAQs from the AOL query log is to submit all unique queries in the log to different search engines and select queries that match few results . 
+Unfortunately , this approach is not scalable due to the query limits imposed by search engines . 
+Moreover , such an exhaustive sampling may be unnecessary , as most submitted queries would match a large number of results and not be interesting to our work . 
+Therefore , we decided to make use of a query‐result set which was previously obtained by issuing 660K unique AOL queries to the Yahoo ! 
+Web Search API in December 2010 ( Altingovde , Ozcan , & Ulusoy , 2011 ) . 
+From this set , we selected queries with no matching results ( around 16K queries ) and resubmitted them to the same search API in July 2011 . 
+We observed that the number of queries without any matching results dropped to 11K queries ( possibly due to updates in the API index , as discussed below ) . 
+In the following two sections , we used these 11K queries as a representative set of queries that are likely to be FNAQs in practice . 
+In an earlier study , McCown and Nelson ( 2007 ) claimed that query results obtained from the API of a search engine may differ from those obtained from its web interface , as the index employed by the API is likely to be smaller than the full web index . 
+Therefore , to verify that our final query sample is indeed made up of mostly FNAQs , we issued the 11K queries in our sample to three major search engines ( Bing , Google , and Yahoo ! 
+) and obtained the first result pages ( again , in July 2011 ) . 
+We note that , for all three search engines , we submitted the queries to the U.S. frontends,11 We ensured this by issuing the queries to the main search frontends ( i.e. , those without any region extension ) for Google and Yahoo ! 
+, and by selecting the U.S. region ( English ) for Bing ( as it yields fewer NAQs than the international option ) . 
+which are supposed to have the largest index . 
+We made sure to the greatest extent possible that all nondefault search preferences are disabled . 
+We note that , while we conducted our experiments , Bing was providing the search results of Yahoo ! 
+. 
+Nevertheless , we preferred to include both search engines in our experiments as i ) even though the overlap observed between the results of the two search engines was not very low , the results were observed to be not identical , and ii ) the two search engines seemed to employ different query correction mechanisms , leading to differences in results of certain queries . 
+In Table 1 , for the three search engines , we report the number of queries that match k or fewer results . 
+As we will discuss below , for some queries , search engines suggest another query and directly displays the results for this suggestion ( while providing the option of seeing the results for the original query ) . 
+In Table 1 , we present only the number of results retrieved for the original query , but not for such a possible suggestion . 
+According to the table , a large fraction of the 11K queries submitted to the three search engines return very few or no answers . 
+For instance , search engines A , B , and C return fewer than 10 results for 33 % , 66 % , and 63 % of queries , respectively . 
+Moreover , 2 % to 17 % of these queries turn out to be actual NAQs . 
+In the light of these numbers , we believe that we can safely refer to the queries in our sample as FNAQs . 
+This means that FNAQs constitute around 1.6 % ( i.e. , 11K/660K ) of our log excerpt . 
+We note that , since the initial sampling of queries was performed using the Yahoo ! 
+Web Search API , we might have a slight bias towards those queries that could not be solved by Yahoo ! 
+. 
+To investigate if such a bias exists , from the AOL query log we randomly sampled 6K singleton queries that were not in our initial 16K queries ( nonsingleton queries are likely to be solved by all three search engines ) . 
+We issued these queries to the three search engines and observed the matching result counts . 
+This experiment showed that the ranking of search engines with respect to the percentage of NAQs is the same as in Table 1 . 

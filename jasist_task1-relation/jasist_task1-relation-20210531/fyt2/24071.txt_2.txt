@@ -1,0 +1,130 @@
+The scores of the revised NN test directly reflect the extent to which the cocluster hypothesis holds in web search . 
+The larger the score is , the better the cocluster hypothesis holds . 
+A larger score also implies that the ranking consistency could lead to a better ranking in terms of relevance . 
+Consequently , the cocluster hypothesis could serve as the theoretical foundation for our unsupervised approach and explain why ranking consistency is helpful in relevance ranking . 
+The proposed cocluster hypothesis is verified according to this test with a real search engine log in the experiments in Experimental Results . 
+In this section , we demonstrate the idea of the cocluster hypothesis by defining similar search intents and topical clusters in web search . 
+In this work , search intents of queries are represented as entities and their query intent templates . 
+Query intent templates are general terms which users commonly use together with entities in queries such as “ Kobe Bryant family , ” where “ Kobe Bryant ” is an entity and “ family ” is a template . 
+Then search intents can be modeled as pairs of entities and templates such as ( “ Kobe_Bryant ” , “ family ” ) . 
+In our experimental data sets , there are more than 46 % of queries that satisfy template formats . 
+For entities in knowledge bases , we apply the entity extraction method developed in ( J.‐Y . 
+Jiang et al. , 2015 ) . 
+If an entity page in Wikipedia has been clicked many times when users have submitted a query , the query would likely link to the entity . 
+The Wikipedia pages of entities can be found in most of knowledge bases like Freebase ( Bollacker , Evans , Paritosh , Sturge , & Taylor , 2008 ) . 
+For query intent templates , we propose an intuitive method to extract the templates from a query log . 
+Figure 3 gives a clear example , in which we simply extract two templates from five queries . 
+For each query , we remove stop words and the name of corresponding entity from the query . 
+Rest of the words are sorted and counted for different entity types . 
+Low‐frequency words are finally removed by setting a threshold . 
+Examples of the process of template extraction . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] For each search intent , the corresponding intent cluster can be also sought based on the knowledge base . 
+Assume that a cluster of search intents contains identical templates . 
+We represent each entity e as a vector , where an entity type represents a dimension and n is the total number of entity types in a knowledge base , e.g. , types of “ people/person ” and “ location/location ” in Freebase . 
+If an entity contains the i‐th type , the value of the i‐th dimension sets to 1 ; otherwise , it sets to 0 . 
+We then apply overlapping K‐nearest neighbors clustering to group search intents by the entity types . 
+Following the previous work ( J.‐Y . 
+Jiang et al. , 2015 ) , we adopt URL patterns as topical clusters in web pages and apply the method presented in ( Koppula et al. , 2010 ) for discovering URL patterns . 
+It assumes that if there is a cluster of queries about a specific intent , there might be a cluster of web pages organized in a hierarchical website about the intent . 
+Take ESPN as an example . 
+Most of the time web pages with the pattern of “ www.espn.com/nba ” talk about NBA while those with “ www.espn.com/mlb ” are about MLB . 
+As a result , it is possible for us to find no such websites for some search intents . 
+However , if there exist such URL patterns for certain search intent clusters , we can boost the relevance ranking by leveraging coclustering . 
+In our experiments , we will demonstrate its effectiveness in people , location , and organization domains . 
+Here URLs are collected from search engine logs and transformed to URL patterns . 
+We first split a URL into tokens . 
+For example , “ en.wikipedia.org/wiki/Kobe_Bryant ” can be divided into tokens including “ en.wikipedia.org , ” “ wiki , ” and “ Kobe_Bryant. ” Next , we start from a regular expression “ * ” and recursively seek for more specific regular expressions as patterns until longer URL patterns with sufficient counts in the logs are found such as “ en.wikipedia/wiki/*. ” However , there might be several URLs having identical URL pattern in the search results for a query . 
+Figure 4 shows three search‐result pages with the same pattern “ en.wikipedia.org/wiki/* ” for query “ Kobe Bryant. ” It is obvious that they express different topics over the query . 
+For example , the first URL shows the general information of Kobe Bryant when the second URL introduces a specific event about him . 
+We further separate URL patterns into sub‐patterns by the order of URLs in search results . 
+Figure 4 illustrates how we generate URL sub‐patterns . 
+When a pattern p occurs first in a search result , its sub‐pattern will be ( p , 1 ) . 
+And the next URL with same pattern p belongs to ( p , 2 ) . 
+Examples of extracted URL subpatterns . 
+In this article , we propose a two‐stage unsupervised approach to simultaneously improve ranking consistency and relevance ranking . 
+In the first stage , we determine the cocluster rank between each of coclustered search intent and topical cluster . 
+Given a query q ( with search intent cluster i ) and search‐result u ( with sub‐pattern p ) , we calculate the rank derived from the coclustering hypothesis as the cocluster rank for each pair of i and p . 
+In the second stage , we transform the cocluster rank and the original rank into two relevance scores , and combine them as a final determinant according to two heuristics . 
+For cocluster relevance scores , we transform cocluster ranks to relevance scores through a score function since ranks from ranked lists are positively related to relevance . 
+The score function will be discussed later . 
+To fit the characteristics of ranking metrics such as Normalized Discounted Cumulative Gain ( NDCG ) ( Järvelin & Kekäläinen , 2002 ) , a compelling score function is needed . 
+To design the score function , we first give two commonly observed properties as follows : Property 1 Higher ranks are more important than lower ranks . 
+The higher rank is more trustworthy than the lower one when two ranks are combined . 
+Property 2 The difference of scores between two ranks should be more significant in higher ranks than in lower ranks . 
+IDCG is the DCG value of ideal ranking order and would be a constant over all rank lists . 
+rel i is a boolean to denote relevance or irrelevance for rank i . 
+The contribution of each rank to DCG is . 
+Thus the importance of rank declines for lower ranks ( Property 1 ) . 
+The difference of contributions between two proximate ranks also decreases for larger j ( Property 2 ) . 
+A better score function should capture both properties . 
+Here we apply the reciprocal rank function proposed in ( Cormack , Clarke , & Buettcher , 2009 ) as our score function . 
+The reciprocal rank function is defined as , where c is a constant . 
+We introduce two lemmas to explain why the reciprocal rank function satisfies these properties . 
+Lemma 1.When two reciprocal ranks are combined linearly , the result is greater than the reciprocal rank of linear combination of original ranks . 
+Proof 1 . 
+( 1 ) ( 2 ) After Eq . 
+( 1 ) ‐ Eq . 
+( 2 ) , we reduce it to a common denominator : ( 3 ) Consider the numerator in Eq. ( 3 ) . 
+We reduce Eq . 
+( 3 ) to Arithmetic‐geometric mean inequality : Lemma 2.The difference of reciprocal rank scores between two higher ranks is larger than those between two lower ranks . 
+Proof 2.Given four ranks i , j , k , and l , where , i < k , and j < l and Lemma 1.When two reciprocal ranks are combined linearly , the result is greater than the reciprocal rank of linear combination of original ranks . 
+Proof 1 . 
+( 1 ) ( 2 ) After Eq . 
+( 1 ) ‐ Eq . 
+( 2 ) , we reduce it to a common denominator : ( 3 ) Consider the numerator in Eq. ( 3 ) . 
+We reduce Eq . 
+( 3 ) to Arithmetic‐geometric mean inequality : Lemma 2.The difference of reciprocal rank scores between two higher ranks is larger than those between two lower ranks . 
+Proof 2.Given four ranks i , j , k , and l , where , i < k , and j < l and Based on Lemmas 1 and 2 , our reciprocal rank function satisfies both Properties 1 and 2 . 
+Using a single , fixed parameter λ is not always reasonable in our model . 
+For example , when some queries have unique URLs without any matched sub‐patterns , using this relevance score might promote other URLs with sub‐patterns and decrease unique URLs . 
+Queries have various unique URLs individually , so the parameter λ should be different for distinct queries . 
+In this paper , the parameter λ is bounded between 0 and 1 , and learned from several features that describe contextual information for a query . 
+We , therefore , replace λ by a logistic function , which applies some features as input and the output varies from 0 to 1 . 
+The features X are divided into consistency and uniqueness features . 
+Consistency Features . 
+There are two kinds of consistency features . 
+( 1 ) Statistic representation : we utilize three representations to estimate consistency as features , including mean , median and mean of confidence intervals . 
+( 2 ) Standard deviation : standard deviation is used to quantify the amount of variation or dispersion of a set of data values . 
+If the variation is higher , the data are less consistent and vice versa . 
+Uniqueness Features . 
+There are three kinds of uniqueness features . 
+( 1 ) Query length : longer queries often convey more information . 
+( 2 ) Type entropy : we consider the specificity of an entity as entity type entropy . 
+Some types such as “ people/person , ” “ organization/organization ” and “ location/location ” are too general to show the uniqueness of entities . 
+If most of an entity 's types are general , the impact of cocluster relevance score should be lower . 
+( 3 ) N‐gram similarity : If a URL string contains a query , its relevance might be higher than others . 
+We calculate character‐wise N‐gram similarity between URL strings and queries . 
+Although J.‐Y . 
+Jiang , Liu , Lin , and Cheng ( 2015 ) optimized parameters by click‐through data effectively , we have to find other direction to optimize these parameters in an unsupervised manner . 
+To figure out a solution , we do an evaluation with various λ 's from 0 to 1 by NDCG . 
+Figure 5 shows the change of performance . 
+Performance over different parameters ( a ) Sub‐patterns ( b ) Query intent templates . 
+In this paper , we conduct extensive experiments on real‐world data sets to measure the extent to which the cocluster hypothesis holds and to evaluate the performance of our unsupervised ranking consistency approach . 
+An in‐depth discussion about the impact of search intents and topical clusters is also given . 
+We utilize Freebase ( Bollacker , Evans , Paritosh , Sturge , & Taylor , 2008 ) downloaded in January 2015 as our knowledge base . 
+Freebase classifies entities into types such as “ film/actor ” and “ location/citytown ” . 
+An entity could contain multiple types . 
+To remove sparse types which may be noises , types with less than five entities are removed from our experiments . 
+Finally , there are 249,171 entities and 442 entity types . 
+We adopt the query log of a commercial search engine from March 1 , 2016 to March 16 , 2016 as our data sets . 
+After extracting entity queries , there are 142,477 unique queries and 63,228 distinct entities in total . 
+For the ground‐truth , we apply click‐through data and regard clicked URLs as relevance . 
+Note that the clicked information is only used for testing and not for training . 
+To evaluate performance in different domains , we also divide data into three major types , “ people/person ” ( Peo . 
+) , “ location/location ” ( Loc . 
+) and “ organization/organization ” ( Org . 
+) as shown as Table 1 . 
+The types are chosen because of their high coverage over Freebase . 
+Our approach requires several parameters to be set , including parameter k for k‐nearest‐neighbors , weight C in the cost function , training epoch and learning rate of the re‐rank model . 
+For parameter tuning , we conduct a grid search based on 10 % of data from the original data set . 
+The well‐tuned parameters are shown in Table 2 . 
+Note that the results of parameter tuning are consistent with the analysis as shown in Table 7 and Figure 7 . 
+For the NN test , we set k to 5 , which is the same as previous work ( Voorhees , 1985 ) . 
+Table 3 shows the results of cocluster NN test of four data sets ; n is the number of URLs retrieved from the search engine . 
+When n increases , the scores in the data sets decrease and the trend is similar to that for original cluster hypothesis test ( Tombros , Villa , & Van Rijsbergen , 2002 ) . 
+Note that no relevance URLs occur after n = 35 . 
+The trend shows that when the number of URLs retrieved from the search engine is smaller , the extent to which the cocluster hypothesis holds is higher . 
+Among three major types the cocluster hypothesis holds the best for the Org . 
+domain and worse for the Peo . 
+domain . 
+Table 4 shows the performance of ranking consistency of our approach and the default ranking , that is , original search engine , for overall types and three major types in Freebase . 

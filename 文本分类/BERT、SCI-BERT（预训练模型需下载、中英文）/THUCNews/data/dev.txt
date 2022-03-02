@@ -1,0 +1,4874 @@
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Data	1
+Data	1
+Data	1
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Operationalization and construction of the variables	1
+Operationalization and construction of the variables	1
+Operationalization and construction of the variables	1
+The synchronic model	2
+The synchronic model	2
+The synchronic model	2
+The synchronic model	2
+The synchronic model	2
+The synchronic model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+The predictive model	2
+Introduction	0
+Introduction	0
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Description of the Chinese publishing system	3
+Description of the Chinese publishing system	3
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+ICT analysis	4
+ICT analysis	4
+ICT analysis	4
+ICT analysis	4
+ICT analysis	4
+ICT analysis	4
+Microbiology & genetics analysis	4
+Microbiology & genetics analysis	4
+Microbiology & genetics analysis	4
+Microbiology & genetics analysis	4
+Microbiology & genetics analysis	4
+Microbiology & genetics analysis	4
+Microbiology & genetics analysis	4
+Microbiology & genetics analysis	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Theoretical basis and dataset	1
+Theoretical basis and dataset	1
+Theoretical basis and dataset	1
+Theoretical basis and dataset	1
+Theoretical basis and dataset	1
+Theoretical basis and dataset	1
+Theoretical basis and dataset	1
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Future work and threats to validity	1
+Future work and threats to validity	1
+Future work and threats to validity	1
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Method	2
+Method	2
+Method	2
+Method	2
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Limitations	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Descriptive statistics	2
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Article level regression analysis	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Analysis at the level of the individual researcher	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Research on Twitter – a short overview	1
+Research on Twitter – a short overview	1
+Research on Twitter – a short overview	1
+Research on Twitter – a short overview	1
+Research on Twitter – a short overview	1
+Research on Twitter – a short overview	1
+Research on Twitter – a short overview	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Results and discussions	3
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Measuring creativity based on novelty (scores)	1
+Measuring creativity based on novelty (scores)	1
+Measuring creativity based on novelty (scores)	1
+Measuring creativity based on novelty (scores)	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Introduction	0
+Introduction	0
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Definitions	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Requirements for informetric indicators	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Arrays related to h-type indices	1
+Discussion	4
+Discussion	4
+Discussion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Background information	1
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Threats to validity and future work	1
+Threats to validity and future work	1
+Threats to validity and future work	1
+Threats to validity and future work	1
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Rank and size distributions	2
+Rank and size distributions	2
+Rank and size distributions	2
+Rank and size distributions	2
+Rank and size distributions	2
+Rank and size distributions	2
+Rank and size distributions	2
+Rank and size distributions	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Conversion formula between the RS and SF domains	2
+Modelling the GL curve	2
+Modelling the GL curve	2
+Modelling the GL curve	2
+Modelling the GL curve	2
+Application to citation data	3
+Application to citation data	3
+Application to citation data	3
+Application to citation data	3
+Application to citation data	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Funding	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Method and materials	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Model	2
+Model	2
+Model	2
+Model	2
+Analysis	3
+Analysis	3
+Analysis	3
+Analysis	3
+Analysis	3
+Analysis	3
+Extensions and limitations	3
+Extensions and limitations	3
+Extensions and limitations	3
+Extensions and limitations	3
+Extensions and limitations	3
+Extensions and limitations	3
+Extensions and limitations	3
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Data trends and observations	1
+Data trends and observations	1
+Data trends and observations	1
+Data trends and observations	1
+Data trends and observations	1
+Data trends and observations	1
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Measurement: two types of citation inflation	2
+Indicators: replacing traditional indicators with relative indicators	2
+Indicators: replacing traditional indicators with relative indicators	2
+Indicators: replacing traditional indicators with relative indicators	2
+Indicators: replacing traditional indicators with relative indicators	2
+Indicators: replacing traditional indicators with relative indicators	2
+Indicators: replacing traditional indicators with relative indicators	2
+Indicators: replacing traditional indicators with relative indicators	2
+Indicators: replacing traditional indicators with relative indicators	2
+Case study: Patent evaluations for eight US universities	3
+Case study: Patent evaluations for eight US universities	3
+Case study: Patent evaluations for eight US universities	3
+Conclusions and discussions	4
+Conclusions and discussions	4
+Conclusions and discussions	4
+Conclusions and discussions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Research questions	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Objectives	1
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Material and method	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Limitations and future research	4
+Limitations and future research	4
+Limitations and future research	4
+Funding	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Research objectives	1
+Research objectives	1
+Research objectives	1
+Research objectives	1
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Background	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+Search path counting	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+The FSPC framework	2
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Experiments	3
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Discussions and future directions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Model	2
+Model	2
+Model	2
+Model	2
+Model	2
+Model	2
+Model	2
+Model	2
+Model	2
+Model	2
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Data and Statistical Analysis	1
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Computational Results	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Research framework and methodology	2
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Experimental results & discussions	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+The 2004–2010 VQR Italian research assessment exercise	3
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Background study	1
+Background study	1
+Background study	1
+Background study	1
+Background study	1
+Background study	1
+Background study	1
+Class imbalance	2
+Class imbalance	2
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Experimental analysis	3
+Effect of class imbalance on centrality estimation	3
+Effect of class imbalance on centrality estimation	3
+Effect of class imbalance on centrality estimation	3
+Effect of class imbalance on centrality estimation	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+Generalized h- and g-indices	1
+The main result	3
+The main result	3
+The main result	3
+The main result	3
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Properties of the generalized h- and g-indices	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Lotkaian theory	1
+Some remarks	4
+Some remarks	4
+Some remarks	4
+Some remarks	4
+Some remarks	4
+Some remarks	4
+Some remarks	4
+Some remarks	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature overview	1
+Literature overview	1
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Data and Research Methods	2
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Literature review and hypothesis	1
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Literature survey	1
+Methodological overview	2
+Methodological overview	2
+Methodological overview	2
+Methodological overview	2
+Methodological overview	2
+Methodological overview	2
+Methodological overview	2
+Methodological overview	2
+Methodological overview	2
+Problem formulation	1
+Problem formulation	1
+Problem formulation	1
+Problem formulation	1
+Problem formulation	1
+Problem formulation	1
+Solution approach	2
+Solution approach	2
+Solution approach	2
+Solution approach	2
+Solution approach	2
+Solution approach	2
+Solution approach	2
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Result and discussion	3
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+The journal ranking problem	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+Axioms of journal ranking	1
+The incompatibility of the two axioms	1
+The incompatibility of the two axioms	1
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Temporal networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Network multiplication and derived networks	1
+Conclusions	4
+Conclusions	4
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Introduction and motivation	0
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Axiomatic background and definitions	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Joint axioms and the laudability function	1
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Demonstrations	2
+Discussion and extensions	4
+Discussion and extensions	4
+Discussion and extensions	4
+Discussion and extensions	4
+Discussion and extensions	4
+Summary and conclusions	4
+Summary and conclusions	4
+Summary and conclusions	4
+Summary and conclusions	4
+Summary and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+Results from a comparative study between delayed and instant recognized papers	3
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+A case study on John Maynard Smith’s paper about the concept of protein space	1
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Limitations	4
+Limitations	4
+Limitations	4
+Future research	4
+Future research	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Node ranking metrics	2
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes (Task 1)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Metric performance in ranking the seminal nodes whilst penalizing biased metrics (Task 2)	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+The WMR-Rank framework	1
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Experiment	3
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Why measure dataset impact?	1
+Why measure dataset impact?	1
+Why measure dataset impact?	1
+Why measure dataset impact?	1
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Brief literature review	1
+Brief literature review	1
+Brief literature review	1
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Empirical studies	3
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Discussion and extension	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Declaration of Competing Interest	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+The higher education systems in Italy and Norway	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Theoretical and analytical framework	1
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Literature review and hypotheses	1
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Empirical setting, data and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Discussion and conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Related works	1
+Related works	1
+Related works	1
+Related works	1
+Related works	1
+Related works	1
+Research questions	1
+Data collection	1
+Data collection	1
+Data collection	1
+Data collection	1
+Method	2
+Method	2
+Method	2
+Method	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+The Finnish PRFS	1
+The Finnish PRFS	1
+The Finnish PRFS	1
+The Finnish PRFS	1
+The Finnish PRFS	1
+The Finnish PRFS	1
+Data retrieval and preprocessing	1
+Data retrieval and preprocessing	1
+Data retrieval and preprocessing	1
+Data retrieval and preprocessing	1
+Data retrieval and preprocessing	1
+Data retrieval and preprocessing	1
+Data retrieval and preprocessing	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Temporal pattern and its cause	1
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Adjustment for temporal pattern	2
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Comparison using main path analysis	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Methodological approach: scientific leadership, scientific influence, and scientific performance	2
+Data and preliminary evidence	1
+Data and preliminary evidence	1
+Data and preliminary evidence	1
+Data and preliminary evidence	1
+Data and preliminary evidence	1
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Leadership, influence, and performance: the case of economists in world top universities	3
+Final remarks	4
+Final remarks	4
+Final remarks	4
+Final remarks	4
+Final remarks	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related research	1
+Related research	1
+Related research	1
+Related research	1
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Results and analysis	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+The data	1
+The data	1
+The data	1
+Motivation	1
+Motivation	1
+Motivation	1
+Motivation	1
+Motivation	1
+Motivation	1
+The piecewise Poisson model	2
+The piecewise Poisson model	2
+The piecewise Poisson model	2
+The piecewise Poisson model	2
+The piecewise Poisson model	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Comparisons with previous results	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Proposed method	2
+Quantifying contribution amounts of PA and transitivity	4
+Quantifying contribution amounts of PA and transitivity	4
+Quantifying contribution amounts of PA and transitivity	4
+Quantifying contribution amounts of PA and transitivity	4
+Quantifying contribution amounts of PA and transitivity	4
+Quantifying contribution amounts of PA and transitivity	4
+Quantifying contribution amounts of PA and transitivity	4
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+A review of the literature on measuring the scientific standing of nations	1
+A review of the literature on measuring the scientific standing of nations	1
+A review of the literature on measuring the scientific standing of nations	1
+A review of the literature on measuring the scientific standing of nations	1
+A review of the literature on measuring the scientific standing of nations	1
+A review of the literature on measuring the scientific standing of nations	1
+A review of the literature on measuring the scientific standing of nations	1
+A review of the literature on measuring the scientific standing of nations	1
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+A new methodology	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussions	4
+Discussions	4
+Discussions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+Methodology: A heterogeneous parallel system	2
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+An application to regional innovation systems in China	3
+Conclusions and discussions	4
+Conclusions and discussions	4
+Conclusions and discussions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Method	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Limitations	4
+Limitations	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+The recursive eigenvalue and eigenvector computation for Price’s (1981b) matrix of aggregated citations among eight biochemistry journals	1
+The recursive eigenvalue and eigenvector computation for Price’s (1981b) matrix of aggregated citations among eight biochemistry journals	1
+The recursive eigenvalue and eigenvector computation for Price’s (1981b) matrix of aggregated citations among eight biochemistry journals	1
+The recursive eigenvalue and eigenvector computation for Price’s (1981b) matrix of aggregated citations among eight biochemistry journals	1
+The recursive eigenvalue and eigenvector computation for Price’s (1981b) matrix of aggregated citations among eight biochemistry journals	1
+The recursive eigenvalue and eigenvector computation for Price’s (1981b) matrix of aggregated citations among eight biochemistry journals	1
+Proof of the independence of IWs from diagonal values	3
+Proof of the independence of IWs from diagonal values	3
+Proof of the independence of IWs from diagonal values	3
+Proof of the independence of IWs from diagonal values	3
+Proof of the independence of IWs from diagonal values	3
+Proof of the independence of IWs from diagonal values	3
+Discussions and implications	3
+Discussions and implications	3
+Discussions and implications	3
+Discussions and implications	3
+Discussions and implications	3
+Concluding remarks	4
+Concluding remarks	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Level score: an indicator for biomedical research level	1
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Concluding discussion	4
+Concluding discussion	4
+Concluding discussion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Conclusive remarks	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusions	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Citing patent or published application	1
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Empirical analysis	4
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Case study using main path analysis	3
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Summary and discussion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Method and data	2
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+The proposed growth model	2
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Experimental evaluation	3
+Conclusion and future work	4
+Conclusion and future work	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Evaluations	3
+Conclusion	4
+Conclusion	4
+Declaration of interest	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Theoretical framework	1
+Theoretical framework	1
+Theoretical framework	1
+Theoretical framework	1
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Data & methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions and outlook	4
+Conclusions and outlook	4
+Conclusions and outlook	4
+Conclusions and outlook	4
+Conclusions and outlook	4
+Conclusions and outlook	4
+Introduction	0
+Research background	1
+Research background	1
+Research background	1
+Dataset and sources	1
+Dataset and sources	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Kolmogorov–Smirnov statistic as an operationalization of distinction between journals	1
+The Wakeby modeling of distinction distribution	2
+The Wakeby modeling of distinction distribution	2
+The Wakeby modeling of distinction distribution	2
+The Wakeby modeling of distinction distribution	2
+The Wakeby modeling of distinction distribution	2
+Sample of physics journals as a Markov chain	4
+Sample of physics journals as a Markov chain	4
+Sample of physics journals as a Markov chain	4
+Sample of physics journals as a Markov chain	4
+Sample of physics journals as a Markov chain	4
+Sample of physics journals as a Markov chain	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Journals’ similarity networks	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Methodology	2
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Results and discussion	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Competing interests	4
+Introduction	0
+Introduction	0
+Introduction	0
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Literature review	1
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Motivation	1
+Motivation	1
+Motivation	1
+Motivation	1
+Motivation	1
+Motivation	1
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+The model	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+A new existence result for hθ 	3
+Generalized h-indices lead to a description of the Cartesian equation in polar coordinates	1
+Generalized h-indices lead to a description of the Cartesian equation in polar coordinates	1
+Generalized h-indices lead to a description of the Cartesian equation in polar coordinates	1
+Generalized h-indices lead to a description of the Cartesian equation in polar coordinates	1
+Generalized h-indices lead to a description of the Cartesian equation in polar coordinates	1
+Generalized h-indices lead to a description of the Cartesian equation in polar coordinates	1
+Generalized h-indices lead to a description of the Cartesian equation in polar coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Cartesian polar coordinates in the first quadrant: another set of coordinates	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+Examples	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+The generalized g-index	1
+Discussion	4
+Discussion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Data and methodology	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Theory and hypotheses	1
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Data and method	2
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Empirical results	3
+Discussions	4
+Discussions	4
+Discussions	4
+Discussions	4
+Discussions	4
+Discussions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Background and notation	1
+Background and notation	1
+Background and notation	1
+Background and notation	1
+Background and notation	1
+Background and notation	1
+Background and notation	1
+Background and notation	1
+Arbitrage opportunities	4
+Arbitrage opportunities	4
+Arbitrage opportunities	4
+Arbitrage opportunities	4
+Arbitrage opportunities	4
+Arbitrage opportunities	4
+Arbitrage opportunities	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Global mobility of scientists	1
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Materials and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+Indicators of a journal’s national geographical orientation	1
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+The statistical effect of indexing nationally oriented journals in Scopus upon their international orientation	3
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Discussion and conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Data, symbols and metrics	1
+Data, symbols and metrics	1
+Data, symbols and metrics	1
+Data, symbols and metrics	1
+Model	2
+Model	2
+Model	2
+Model	2
+Model	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Research questions	1
+Research questions	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Data	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Additional descriptive-comparative analysis	4
+Additional descriptive-comparative analysis	4
+Additional descriptive-comparative analysis	4
+Additional descriptive-comparative analysis	4
+Additional descriptive-comparative analysis	4
+Additional descriptive-comparative analysis	4
+Conclusions and discussion	4
+Conclusions and discussion	4
+Conclusions and discussion	4
+Conclusions and discussion	4
+Conclusions and discussion	4
+Conclusions and discussion	4
+Conclusions and discussion	4
+Introduction	0
+Materials and methods	2
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Theory	1
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Methods	2
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Analysis	4
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+“Double gamma” distribution of ages of references	3
+“Double gamma” distribution of ages of references	3
+“Double gamma” distribution of ages of references	3
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Conclusions	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Related work	1
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Data and methods	2
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Results	3
+Discussion	4
+Discussion	4
+Discussion	4
+Conclusion	4
+Conclusion	4
+Conclusion	4
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Introduction	0
+Theorems	1
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3
+Proofs and examples	3

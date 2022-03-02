@@ -1,0 +1,122 @@
+If its state is not exact , we compute its exact influence ( i.e. , ) , update its state to exact , and reinsert it into ; if its state is exact ( denoted by flag = 2 ) , u is the first seed and we remove it from the priority queue . 
+For each top user u in , if , u has no co‐influence with S . 
+In this case , we compute , update its state to exact , and reinsert it into . 
+Otherwise , u and S have co‐influence , 1 ) if its state is invalid ( denoted by flag = 0 ) , we estimate its marginal influence by Equation ( 6 ) , update its state to estimated and then reinsert it into ; 2 ) If its state is estimated ( denoted by flag = 1 ) , we compute its exact marginal influence by Equation ( 4 ) , update its state to exact and then reinsert it into ; 3 ) If its state is exact , u is the seed and we remove it from the priority queue . 
+We find the subsequent seeds iteratively . 
+To further improve the efficiency for seeds selection , we devise a fast estimation method to compute the upper bound of users ' marginal influences ( i.e. , estimated marginal influence ) as follows . 
+Theorem 2.For user u in the priority queue and a query Q , the upper bound of its marginal influence under the current seeds S , denoted as , can be computed by : ( 6 ) where P ( u , v ) is the influence of user u to user v , PQ is the set of targeted users of query Q , is a set of targeted users who are influenced by u , is the influence of the current seed set S to user v , and is the initial estimated influence of user u on query Q which can be computed by Equation ( 5 ) . 
+In this equation , since P ( u , v ) is stored offline , can be computed and stored in the last iteration , and can be computed online quickly , we could compute the estimated marginal influence of each user efficiently . 
+Proof.When S and u have independent influences to user v , ; Otherwise , . 
+Note that the main differences between our TOA and the priority‐based framework ( Wang et al. , 2016 ) are shown as follows . 
+First , we propose indexes to store users ' social influences on each topic offline . 
+In this way , by using our devised strategies , we could efficiently obtain the candidate seeds for online queries . 
+Second , to further improve the efficiency , we devise a fast method to compute the estimated marginal influences of users by using Theorem 2.The pseudo‐code of TOA is shown in Algorithm 1 . 
+Theorem 2.For user u in the priority queue and a query Q , the upper bound of its marginal influence under the current seeds S , denoted as , can be computed by : ( 6 ) where P ( u , v ) is the influence of user u to user v , PQ is the set of targeted users of query Q , is a set of targeted users who are influenced by u , is the influence of the current seed set S to user v , and is the initial estimated influence of user u on query Q which can be computed by Equation ( 5 ) . 
+In this equation , since P ( u , v ) is stored offline , can be computed and stored in the last iteration , and can be computed online quickly , we could compute the estimated marginal influence of each user efficiently . 
+Proof.When S and u have independent influences to user v , ; Otherwise , . 
+Note that the main differences between our TOA and the priority‐based framework ( Wang et al. , 2016 ) are shown as follows . 
+First , we propose indexes to store users ' social influences on each topic offline . 
+In this way , by using our devised strategies , we could efficiently obtain the candidate seeds for online queries . 
+Second , to further improve the efficiency , we devise a fast method to compute the estimated marginal influences of users by using Theorem 2 . 
+The pseudo‐code of TOA is shown in Algorithm 1 . 
+TOA has the following two shortcomings . 
+First , the estimated initial influences might not be accurate , as it utilizes users ' maximal geographical preferences ( i.e. , 1 ) . 
+Second , TOA inserts all the candidate seeds into the priority queue at once , resulting in a huge queue . 
+Thus , we propose to construct indexes based on the TR‐tree , and devise a TR‐tree oriented algorithm ( TROA ) , which preferentially inserts candidate seeds with larger influences into the priority queue one by one . 
+For a tree node Ri , each topic is associated with a decreasing list of 2‐tuples , where is the set of users who have influence to the set of users who have preferences on both and topic t , and is the influence of u to users in ( i.e. , ) . 
+Each user u is associated with a list of triples , where each triple denotes the influence of u on topic t to users in Ri . 
+Given a query Q , we devise a TROA for seeds finding . 
+TROA first traverses the TR‐tree from root and identifies the TR‐tree nodes that are fully covered by Q , denoted by : , where and . 
+Next , for query region R 0 , which does not fully cover tree nodes , that is , , we generate a sorted list with 2‐tuples ( i.e. , ) for each user u on the demand ( i.e. , ) . 
+Obviously , is the maximum influence value among users in these lists , that is , . 
+If , umax is the first seed . 
+Otherwise , we insert another user with the largest influence from the first users in these current lists into and update the upper bound . 
+We repeat this process until we find the first seed . 
+We compare the influences of the first users in lists , … , , ( i.e. , ) . 
+Then we pop the largest one ( i.e. , u ) , insert it into with , and update the upper bound of . 
+For the first user u in , if its state is invalid and , we estimate its marginal influence by using Equation ( 10 ) ; If its state is estimated and , we compute its exact marginal influence by Equation ( 4 ) ; If its state is exact and , u is the next seed . 
+Otherwise , we access the first users of these current lists , pop the one user who has the largest initial influence , insert this user into , and update the upper bound . 
+We repeat this process iteratively until we find all seeds . 
+The pseudo‐code of TROA is shown in Algorithm 3 . 
+TOA and TROA still take some time to compute the exact marginal influences of some candidate seeds . 
+To further improve the efficiency , a straightforward method is to utilize users ' local influences ( i.e. , the influences to their out‐neighbors ) to approximate their influence spread and select top k users who have the largest local influences as seeds ( denoted LIA ) . 
+However , since LIA does not consider the co‐influences between users , it has poor effectiveness . 
+Thus , we devise a Discount Local Influence based Heuristic Algorithm ( denoted DLIA ) for seeds selection by using users ' discount local influences . 
+A social network . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The pseudo‐code of DLIA is shown in Algorithm 5 . 
+We first use the real‐world data set DoubanEvent for performance evaluation , which is crawled from Douban.33 www.douban.com In this data set , users ' topic preferences and geographical preferences are obtained from the contents and physical locations of users ' attending events . 
+To test the scalability with an increasing number of users , we randomly sample 10K users , 50K users , 100K users , and 400K users for the data set . 
+In addition , we also utilize the YELP data set for the evaluation , which is downloaded from YELP Challenge.44 www.yelp.com/dataset_challenge YELP is a popular business review site ( Hu et al. , 2014 ) . 
+We utilize the categories and physical locations of businesses reviewed by users to obtain their topic preferences and geographical preferences . 
+After preprocessing , we obtain 7K users for our evaluation . 
+The statistics of the data sets are shown in Figure 5 . 
+Notice that , RegSiz denotes the region size , and the default values are highlighted . 
+All parameter settings used in experiments . 
+For the DoubanEvent data set and the YELP data set , we utilize two widely used models to generate the propagation probabilities : the weighted cascade model and trivalency model ( Chen et al. , 2010 ) . 
+In addition , in order to simulate the real‐world scenario , in DoubanEvent we generate the propagation probability P ( u , v ) between user u and v by the ratio of the number of attending events of v influenced by user u ( called common events model ) ( Li , Cheng , Su , Li , & Yang , 2016b , 2017 ) . 
+In particular , , where is the number of attending events of v influenced by u , and A ( v ) is the total number of attending events of v . 
+We compare our proposed methods with the extended versions of Greedy Algorithm , CELF ( Leskovec et al. , 2007 ) , PMIA ( Chen et al. , 2010 ) , and WRIS ( Li et al. , 2015b ) , which can be used to solve our problem and are denoted by Greedy‐E , CELF‐E , PMIA‐E , and WRIS‐E , respectively . 
+In particular , in WRIS‐E we compute the sampling probability for user v by . 
+To evaluate the performance of DLIA , we choose Degree Discount ( DD ) ( Chen et al. , 2009 ) and LIA as comparisons . 
+Due to space constraint , we only report the index sizes and time on the YELP data set . 
+To improve efficiency , all of our proposed algorithms and baseline algorithms ( except DD ) utilize the TR‐tree index . 
+All the approximation algorithms ( except WRIS‐E ) utilize the computed social influences , where P ( u , v ) denotes the social influence between user u and v . 
+TOA also utilizes the topic index and user index , and TROA utilizes the node‐topic index and user index . 
+The details of the index sizes and the construction time are shown in Table 2 . 
+To evaluate the effectiveness , we compare the influence spread with varying seeds on different data sets . 
+Figures 6 , 7 , 6 , 7 , and 8 show the results on the DoubanEvent data sets with weighted cascade model , trivalency model , and common events model , respectively . 
+Figure 9 shows the results on the YELP data set with weighted cascade model and trivalency model . 
+For all the algorithms , we set the query region size medium region . 
+We set the number of query topics and for the DoubanEvent data set and YELP data set , respectively . 
+As Greedy‐E takes a very long time on large data sets , we only report its influence spread on the 10K users DoubanEvent data set . 
+From the figures , we can see that , although the MIA information diffusion model assumes user u influences user v only through the maximum propagation probability path , all the approximation algorithms ( i.e. , Greedy‐E , WRIS‐E , CELF‐E , PMIA‐E , TOA , and TROA ) have similar influence spread in all the cases . 
+Influence spread on DoubanEvent data set with weighted cascade model . 
+( a ) 10K users , ( b ) 50K users , ( c ) 100K users , ( d ) 400K users . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Influence spread on DoubanEvent data set with trivalency model . 
+( a ) 10K users , ( b ) 50K users , ( c ) 100K users , ( d ) 400K users . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Influence spread on DoubanEvent data set with common events model . 
+( a ) 10K users , ( b ) 50K users , ( c ) 100K users , ( d ) 400K users . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Influence spread on YELP data set . 
+( a ) Weighted Cascade Model . 
+( b ) Trivalency Model . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] In contrast , DD has the worst influence spread on all data sets . 
+DLIA has better performance than LIA and DD in effectiveness , as it computes the discount local influence of each user in each iteration . 
+We evaluated the efficiency of all algorithms on the DoubanEvent and YELP data sets . 
+Figures 10 , 11 , 10 , 11 , and 12 show the running time of all algorithms on the DoubanEvent dataset with the weighted cascade model , trivalency model , and common events model , respectively . 
+Figure 13 shows the running time of all algorithms on the YELP data set with the weighted cascade model and trivalency model . 
+It is obvious that Greedy‐E takes a long time for seeds selection . 
+Thus , we do not report its results . 
+WRIS‐E runs faster than Greedy‐E , as it avoids estimating the expected spreads of a large number of node sets . 
+As we all know , WRIS‐E has the near‐linear time complexity . 
+However , since the term and the large hidden constant factor in its performance bound , WRIS‐E runs slower than CELF‐E and other approximation algorithms in all the cases . 
+Note that CELF‐E reduces the computation of the marginal influences of some users by utilizing the submodular property . 
+PMIA‐E runs faster than CELF‐E , as in each iteration PMIA‐E only updates users that are affected by the current seeds . 
+TROA and TOA are better than PMIA‐E in terms of efficiency , because they prune some candidate seeds and only compute the marginal influences for a small portion of candidate seeds . 
+TROA outperforms TOA because TROA has a small amount of candidate seeds and utilizes a dynamic priority queue for seeds selection . 
+Moreover , all heuristic algorithms ( i.e. , DLIA , LIA , and DD ) run faster than the approximate algorithms . 
+Efficiency on DoubanEvent data set with weighted cascade model . 
+( a ) 10K users , ( b ) 50K users , ( c ) 100K users , ( d ) 400K users . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Efficiency on DoubanEvent data set with trivalency model . 
+( a ) 10K users , ( b ) 50K users , ( c ) 100K users , ( d ) 400K users . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Efficiency on DoubanEvent data set with common events model . 
+( a ) 10K users , ( b ) 50K users , ( c ) 100K users , ( d ) 400K users . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Efficiency on YELP data set . 
+( a ) Weighted Cascade Model . 
+( b ) Trivalency Model . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We vary the number of query topics from 1 to 6 in the 100K users DoubanEvent data set with the weighted cascade model . 
+The evaluation results are shown in Figure 14 . 
+The results demonstrate that , with the increase of , the influence spread of all algorithms increases . 
+This is because with the increase of there are more targeted users and these users ' topic preference values become larger . 
+With the increase of , the efficiency of all algorithms ( except DD ) decreases . 
+Varying the number of query topics : . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We evaluated the results by varying the query region size in the 100K users DoubanEvent data set . 
+Figure 15 shows the results for effectiveness and efficiency . 
+We can see that , with the increase of , the influence spread of all algorithms increases . 
+With the increase of , the running time of WRIS‐E , CELF‐E , and PMIA‐E increases sharply . 
+Since TOA and TROA avoid computing the exact marginal influences of some candidate seeds by utilizing the offline indexes , their efficiency is little changed when increases . 
+Varying the query region size : . 
+In this paper we studied the location‐aware targeted influence maximization problem in social networks . 
+Under the MIA model , we show that this problem is NP‐hard , and the influence spread is submodular and monotone . 
+To find the targeted users and derive their preferences efficiently for given queries , we devised a TR‐tree index structure . 
+To improve the efficiency for seeds selection , we proposed two approximation algorithms with approximation ratio and a fast heuristic algorithm . 
+Finally , the experimental results in real‐world data sets demonstrate the effectiveness and efficiency of our proposed algorithms . 

@@ -1,0 +1,96 @@
+The users were between 20 and 28 years . 
+We prepare a questionnaire to find out the movie preferences of these users through interviews . 
+All the recruited participants must have watched some selected movies to participate in the interview . 
+Among the 123 Facebook users , we conducted a semistructured interview in July 2016 . 
+We conducted the interview in different locations ( for instance , restaurants , university library , and so forth ) . 
+The majority of the interviews were taken in face‐to‐face settings . 
+At the end of the interview , the users were compensated with a small gift . 
+We also took a few interviews through Skype for users at distant locations . 
+To prove the hypothesis ( H1 ) in real life , we select two different movies : Interstellar ( 2014 ) , and Inception ( 2010 ) from the sci‐fi/adventurous genre movies . 
+Interstellar and Inception have an 8.6 , and 8.8 rating according to IMDB ( Internet movie database ) .22 http : //www.imdb.com/ We confirmed that users have watched these two movies . 
+They are asked to rate these two movies in a Likert scale of 1–5 . 
+In the Likert scale , 1 is strongly disinterested , 2 is disinterested , 3 is neither disinterested nor interested , 4 is interested , and 5 is strongly interested to watch a particular movie . 
+Based on the answer of the Likert scale , we normalize the score between 0 and 1 . 
+We used the min‐max ( Han , Pei , & Kamber , 2011 ) normalization technique . 
+We find that the lowest , average , and the highest rates were 0.59 , 0.73 , and 0.92 , respectively . 
+Although we asked these users to rate on a scale of 1–5 , some of them rated in a floating point score such as 2.9 , 4.6 , and so forth , Thus , we find a few unusual values ( for instance , 0.59 ) in the normalized score of 0–1 . 
+Then we segment users ' Facebook statuses based on the 6‐month time interval . 
+In our data set , we find 65 , 38 , and 20 users created their Facebook account in the years 2007 , 2008 , and 2009 , respectively . 
+Then we predict the users ' openness‐to‐change value score for each 6‐month interval up to the year 2016 . 
+From the predicted value scores of the past several years , that is , 8–10 years , we predict the openness‐to‐change value score for the future date ( October 2017 , after more than two time intervals ) by using our hybrid model . 
+Then we identify users whose openness‐to‐change value dimension change significantly , that is , from high to low , or from low to high . 
+We find that value dimensions of 33 users change drastically within 1 year . 
+Later , we conducted another semistructured interview among these 33 users about their movie preferences on the future date ( October 2017 ) . 
+We also select two other sci‐fi/adventurous movies : Mad Max : Fury Road ( 2015 ) , and The Avengers ( 2012 ) . 
+Both of these movies have an IMDB rating 8.1 . 
+We also confirmed that these selected 33 users watched these two movies . 
+Then we again ask them to rate these two movies in a Likert scale of 1–5 . 
+We observe that the majority of these users rate these two movies differently than they rated sci‐fi/adventurous movies on the past date ( July 2016 ) . 
+We compute the Pearson 's correlation test between the predicted value change and the average rate of these two movies among these 33 users . 
+We find a moderate correlation ( r = 0.364* , p < .0373 , where N = 33 ) between these two variables , which is significant . 
+Thus , by using our hybrid model we can identify the change of our real‐life preferences that are related to the change of values . 
+Following the study of Hsieh et al . 
+( 2014 ) , we can also hypothesize between other value dimensions and genre of movie preferences . 
+For simplicity , we only present a single hypothesis ( H1 ) in this experiment . 
+Our work is the first study to identify the change of values from the word usage of Facebook users . 
+Figures 2 and 3 present the prediction of value change of a user in our data set by using both the ARIMA and LSTM models , respectively . 
+Figure 5 presents the prediction of value change using the proposed hybrid model by combining both the ARIMA model and the LSTM model . 
+Table 1 presents that our hybrid model can accurately capture the changes for self‐transcendence , openness‐to‐change , and conservation values . 
+We observe that the openness‐to‐change value score ( 7.85 ) is nearly close to significant ( 9.88 ) for the HMM‐based technique . 
+For other value dimensions , the HMM does not give any significant scores while computing the change of value score . 
+On the other hand , we find that self‐enhancement ( 8.01 ) and openness‐to‐change ( 8.47 ) values are also close to significant when we evaluate the change of value scores by using the ARIMA model . 
+Again , we observe that openness‐to‐change ( 9.15 ) , and conservation ( 8.75 ) values are also close to a significant ( 9.88 ) score when we use the LSTM‐based technique . 
+Finally , we see that self‐transcendence ( 12.11 ) , openness‐to‐change ( 15.21 ) , and conservation ( 14.31 ) values are statistically significant during evaluation of the change of value scores by using our hybrid model . 
+Table 2 shows that our hybrid model performs better than other value change prediction techniques . 
+We find that the hybrid model achieves less average RMSE for all the value dimensions than that of other value change prediction models . 
+For example , we observe that our hybrid model reduces the average RMSE for the openness‐to‐change value dimension by 58.35 % , 41 % , and 32.32 % than that of HMM , ARIMA , and LSTM models , respectively . 
+Similar to the study of Chen et al . 
+( 2014 ) , we find weak prediction potential ( according to Table 3 ) for the self‐enhancement value ( 10.23 % ) . 
+Thus , our hybrid model can not capture the self‐enhancement value change accurately . 
+People with a high score in the self‐enhancement value dimension have less propensity to share information in the social media frequently , as social media fosters procrastination and distracts from other activities ( Hughes , Rowe , Batey , & Lee , 2012 ) . 
+Although these three baselines show better value change for few values , none of these techniques obtain a significant score . 
+Thus , these baselines can not capture value changes accurately in the real world . 
+We observe an interesting insight from our experiment , that is , when the priority of a certain value goes high , the other value may go down . 
+For example , an individual with a high openness‐to‐change score is likely to possess a low conservation score . 
+Similarly , a person with a high self‐transcendence score is likely to possess low hedonism and self‐enhancement scores . 
+In a well‐cited study of Golbeck et al . 
+( 2011 ) , the authors successfully predicted personality from Facebook with a sample size of 279 Facebook users . 
+Therefore , the size ( N = 388 ) of our data set is sufficient to predict the value dimensions from social media usage . 
+We observe that several value‐based socio‐psychological studies ( Bardi et al. , 2009 ; Myyry et al. , 2013 ; Schwartz , 2003 ) use PVQ to compute values . 
+Researchers show that PVQ has good internal reliabilities with the original Schwartz 's Value Survey ( SVS ) ( Schwartz , 2005 ) . 
+In contrast , Boyd et al . 
+( 2015 ) show that a value survey‐based approach has limitations ; for instance , people may not truly represent themselves in a self‐report . 
+Therefore , the authors used language‐based inference . 
+Following the approach of Chen et al . 
+( 2014 ) , we also infer values from the languages by using a trained model that is built based on the ground truth surveys . 
+However , Boyd et al . 
+( 2015 ) used an open vocabulary‐based approach using the self‐descriptive values , behavior , and SVS while inferring values from languages , whereas Chen et al . 
+( 2014 ) used a closed vocabulary‐based approach by using PVQ only . 
+We assume that both approaches are parallel in inferring value dimensions from languages and we chose the closed vocabulary‐based approach in this article . 
+However , computing values by using the approach of Boyd et al . 
+( 2015 ) is an interesting future direction to investigate the change of values over time . 
+We built both of our value building and value transition models by using the data set of Facebook . 
+However , it would also be interesting to investigate how our approach performs with the data sets of other networks such as Twitter and Reddit . 
+A few psychological studies ( Bardi et al. , 2009 ; Blonigen , Carlson , Hicks , Krueger , & Iacono , 2008 ; Steinberg & Morris , 2001 ) show that values and ethical behavior change between the age of 15–25 . 
+Bardi et al . 
+( 2009 ) describe that an appropriate time to investigate the value change is adolescence , because we observe important changes such as biological , cognitive , and social in this stage of life . 
+Steinberg and Morris ( 2001 ) show that during adolescence , people adapt different psychological changes due to their relation with parents , puberty , self‐development , and peer relations . 
+In another study , Blonigen et al . 
+( 2008 ) , the authors show that personality might change from the age 17 to 24 . 
+This age span represents a turbulent period of adjustment due to significant life changes . 
+In a recent study , Tufft ( 2015 ) also states that adulthood begins at the age of 25 . 
+Therefore , we also collected the data set of Facebook users between the ages of 15 to 25 to investigate the change of values . 
+Our approach has several limitations . 
+We find limited prediction potential for the hedonism and self‐enhancement value dimensions according to Table 3 . 
+To predict users ' value priority transition , users should be regular in Facebook , so that their continuous time‐series data are available for capturing the value priority change . 
+During building the value prediction model from LIWC categories , we ignored a few important words , such as selfie , inbox , grrr , bullshit , and so forth , since LIWC can not capture these words . 
+These words might contribute in predicting values accurately from languages . 
+In this study we investigated whether the change of value priorities can be identified from social network word uses . 
+We proposed a weighted hybrid time‐series‐based machine‐learning model to capture the change of values of a user . 
+We built our value model with 388 Facebook users and validated the efficacy of the proposed technique through a questionnaire with 237 Facebook users in real life . 
+In our experiments , we found that our hybrid model accurately captures the value priority changes from the social network usage and achieved significantly higher accuracy than that of HMM‐ , ARIMA‐ , and LSTM‐based models . 
+We also presented an experiment on how the change of values relates to our decision‐making process in real life . 
+To the best of our knowledge , this is the first work that identifies users ' value change from their social media interactions . 
+The outcome of this work can be applied to many practical applications , such as predicting transition of business strategies , change of colleges or degrees , detection of lifestyle changes , and so forth . 
+In the future , we plan to investigate the value changes among different demographics . 
+We would also like to identify the factors such as actors ( for instance , friends ) , social structure ( for instance , school and workplace ) , and important events ( for instance , demise of a family member ) that may influence a value change of an individual . 

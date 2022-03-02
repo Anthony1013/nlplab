@@ -1,0 +1,8 @@
+However , conferences have a fixed timetable for publication ( for instance , submission deadline and date of acceptance notification ) and a lower time‐to‐market than journals ( for instance , a few months from submission to acceptance or publication ) . 
+In addition , legitimization of conference articles for a formal evaluation ( Vardi , 2009 ) and quantitative evaluation might motivate CS scholars to submit more articles to conferences . 
+For example , proceedings have been indexed in Scopus and Web of Science from 2004 and 2008 , respectively ( De Sutter & Van Den Oord , 2012 ) and surrogates to the Journal Impact Factor 88 https : //clarivate.com/essays/impact-factor/ have been used to rank conferences ( for instance , the Australian CORE Ranking of Conferences ) . 
+Furthermore , the opportunity to socialize with scholars and expose oneself to new research ideas and culture ( esp . 
+at international conferences in foreign countries ) may incentivize CS scholars to prefer conferences to journals . 
+A historical investigation into motivations of CS conference organizers in early days may reveal the origin and drive of the burgeoning preference toward conferences . 
+As such , the topic of CS authorship in conferences and journals requires in‐depth studies such as interviews to explore these factors besides data‐driven analyses of publication patterns ( Eckmann et al. , 2012 ) . 
+Eventually , studying the conference versus journal differences in CS through various methodologies such as the author‐level analysis of this study will help people outside CS better understand the unique publishing culture of CS and fairly evaluate conference and journal publication of CS scholars . 

@@ -1,0 +1,130 @@
+Organizations are social communities that facilitate the creation and transfer of knowledge ( Kogut & Zander , 1996 ) . 
+To a large extent the field of knowledge management has arisen based on the premise that organizations should manage their information and knowledge resources in order for them to be effective ( King , 2009 ) . 
+As important as formal knowledge management systems are for the effectiveness of retaining organizational learning , it is just as important to understand how individuals source information or knowledge from each other in the workplace ( Gray & Meister , 2004 ) . 
+This research builds on a growing body of work looking at how individuals choose the interpersonal sources they use ( Woudstra & Van den Hooff , 2008 ; Xu , Kim , & Kankanhalli , 2011 ; Yuan , Monge , & Fulk , 2005 ) . 
+At its most basic level , searching for information is a response to a need ( Case , 2012 ) . 
+An individual chooses to go to an external source when they perceive that they lack necessary information or experience ( Levitt & March , 1988 ) . 
+Within organizational settings , information or knowledge can reside in any number of different sources , including a variety of documents , systems , or people . 
+Some organizational knowledge is even embedded within organizational policies or culture ( Alavi & Leidner , 2001 ; Grant , 1991 ; Nonaka & Takeuchi , 1995 ) . 
+With these resources being so widely distributed throughout the organization , a major challenge for information and knowledge management is getting the necessary resources to individuals when they are needed ( Huber , 1991 ) . 
+This makes it important to understand the factors that influence how individuals make decisions in choosing the sources use . 
+Knowledge and information are often conceptualized as related but distinct concepts . 
+Information is typically defined as contextualized data whereas knowledge is seen as more personal and the result of interpretation and experience ( Nonaka & Takeuchi , 1995 ) . 
+From an organizational perspective the management of both information and knowledge is often subsumed under knowledge management . 
+As noted by Grover and Davenport ( 2001 ) , “ what companies actually manage under the banner of KM is a mix of knowledge , information , and unrefined data ” ( p. 7 ) . 
+Although the differences between information and knowledge are often debated , in this research we do not explicitly differentiate between information seeking and knowledge sourcing . 
+This study focuses on the factors that influence the use of interpersonal sources , so it deals with the sourcing of both information and knowledge . 
+At different times an individual going to an interpersonal source might be seeking information or knowledge depending on the situation . 
+What they receive as the result of the interaction could likewise be either information or knowledge . 
+This research sees information and knowledge seeking both as part of a broader process in which seekers select the sources they will use ( Gray & Durcikova , 2006 ) . 
+Prior source selection work has viewed selecting a source as the end result of two different processes . 
+The first view argues that source selection is the end result of cost–benefit analysis . 
+According to this view , the accessibility ( or cost ) of a source is compared to the quality ( or benefit ) of the source , and a source will be selected if the benefits outweigh the costs ( Allen , 1984 ; O'Reilly , 1982 ; Zimmer , Henry , & Butler , 2008 ) . 
+The second view , rooted in media richness theory and social presence theory , purports that selection stems from a drive to reduce uncertainty ( Daft , Lengel , & Trevino , 1987 ; Short , Williams , & Christie , 1976 ) . 
+When compared , the cost–benefit view has been the more prevalent source selection paradigm followed by information seekers ( Carlson & Davis , 1998 ) . 
+Although prior work has established the efficacy of the cost–benefit view , there is less understanding of what factors influence the cost–benefit calculus in source use ( Agarwal , Xu , & Poo , 2011 ) . 
+In conceptualizing sources as either relational or nonrelational ( human or nonhuman ) , research has found that individuals applied the cost–benefit calculus differently depending on the type of source ( Zimmer et al. , 2008 ) . 
+In particular accessibility was not a factor in the selection of human sources even though it was for nonhuman sources . 
+Other studies have found that the factors that increase the use of sourcing from colleagues are different from those of documents and electronic repositories ( Gray & Durcikova , 2006 ) . 
+Although there is a variety of sources available to individuals , prior research has shown that individuals often have a preference for interpersonal information sources ( Allen , 1984 ; Fidell & Green , 2004 ; Hertzum , 2002 ) . 
+Woudstra , van den Hooff , and Schouten ( 2012 ) have argued that aspects of social capital form the underlying dimensions of perceptions of accessibility for interpersonal sources . 
+Rather than conceptualizing social capital as the dimensions of accessibility , this research looks at the impact of the dimensions of social capital on perceptions of accessibility and quality for interpersonal sources . 
+The results of this analysis provide insights into how individuals evaluate interpersonal information sources , particularly in the organizational settings where social capital is formed . 
+This research seeks to deepen our understanding of the factors that encourage the use interpersonal sources . 
+This study investigates the role of social capital in the sourcing of information or knowledge from interpersonal information sources . 
+The following section develops the research model and formally presents the study hypotheses . 
+Following the presentation of the research model the methodology is described and the results are presented . 
+The article concludes with a discussion of the implications of the findings and directions for future research . 
+This research looks at the evaluation and use of interpersonal information sources to accomplish work‐related tasks . 
+Interpersonal information sources have also been referred to as relational sources ( Zimmer et al. , 2008 ) and human sources ( Woudstra & Van den Hooff , 2008 ) . 
+Because prior literature has reliably demonstrated that the choice to use a particular source is predominantly determined via cost–benefit analysis ( Carlson & Davis , 1998 ) , the constructs quality and accessibility are used to operationalize perceptions of costs and benefits of these sources . 
+According to social capital theory , the relationships an individual has within his social network facilitates the conditions necessary for information exchange to occur ( Nahapiet & Ghoshal , 1998 ) . 
+As a result the lens of social capital has increasingly been used to explore the use of interpersonal information sources ( Woudstra & Van den Hooff , 2008 ; Woudstra et al. , 2012 ; Xu et al. , 2011 ) . 
+This article argues that the network of relationships an individual has with others should influence his perceptions concerning the relative costs and benefits associated with going to others as a source of information . 
+The constructs of boundary spanning , content type , and transactive memory are used to operationalize the structural , cognitive , and relational dimensions of social capital . 
+The proposed research model is shown in Figure 1 and its related hypotheses developed in the following sections . 
+Proposed research model . 
+An organization can be viewed as a community that creates and transfers knowledge ( Kogut & Zander , 1996 ) ; the knowledge created and held is unique to the individual , and not the organization ( Grant , 1996 ) . 
+All the members of a network do not have equal access to the same resources , including knowledge . 
+Because of the underlying assumption that knowledge is unique to the individual , a social capital perspective , where individuals differ with respect to their level of social capital , is an ideal lens for investigating how individuals use interpersonal sources . 
+According to Nahapiet and Ghoshal ( 1998 ) , social capital is “ the sum of the actual and potential resources embedded within , available through , and derived from the network of relationships possessed by an individual or social unit ” ( p. 243 ) . 
+These authors define the three interrelated dimensions of social capital : structural , relational , and cognitive . 
+The structural dimension concerns the linkages between individuals . 
+It comprises the overall connections between network actors , including both who is contacted and how they are contacted ( Burt , 1992 ) . 
+The relational dimension represents the relationships individuals form with one another via repeated interactions ( Granovetter , 1992 ) . 
+This includes the knowledge assets created via interpersonal interaction . 
+The cognitive dimension refers to the creation of shared meaning that develops as individuals interact with one another . 
+Information and knowledge seeking can be seen an inherently social process , particularly when investigating interpersonal search patterns ( Xu , Kim , & Kankanhalli , 2010 ) . 
+Nahapiet and Ghoshal ( 1998 ) develop their theory of social capital arguing that the three dimensions of social capital facilitate the development of knowledge by enabling information exchange and combination to occur . 
+Information exchange and combination consist of access to the other party , anticipation of the value of the exchange , motivation to exchange , and compatibility in the content of the exchange . 
+In an organizational environment , it can be assumed that by attempting to consult an interpersonal information source there is sufficient motivation . 
+When attempting to consult interpersonal sources , seekers make themselves vulnerable by displaying gaps in their own knowledge ( Morrison , 1993 ) , hence by crossing the cognitive threshold of going to search , motivation can be assumed . 
+This leaves accessing the other party ( cost ) and the anticipation of a valuable exchange ( benefit ) as the two major drivers through which social capital impacts source selection . 
+We argue that social capital will encourage the use of interpersonal sources by increasing the perceived accessibility and quality of these sources . 
+Individuals who demonstrate high levels of communication across organizational boundaries impact how information or knowledge is shared and combined ( Ancona & Caldwell , 1992 ) . 
+These “ boundary spanners ” are individuals who create connections and they serve an important role as information processors ( Aldrich & Herker , 1977 ) . 
+Most commonly boundary spanners are thought of as operating where the organization meets its external environment , but as organizations have grown more complex , boundary spanners also bridge boundaries within an organization ( Pawlowski & Robey , 2004 ) . 
+They are responsible for developing contacts with sources across boundaries and relaying what they learn so that others can better cope with the external environment . 
+By virtue of boundary spanners , a network of individuals is tied together by information relatedness . 
+In other words , structural embeddedness is a necessary condition for boundary spanners to exist . 
+Individuals seek out others and are sought out by others as sources of job related information and knowledge creating bridges that link individuals within the organization . 
+These activities create the connections at the heart of organizational interaction . 
+They have advantages over others that do not have these connections because they fill “ structural holes ” ( Burt , 1992 ) . 
+As a result , boundary spanning represents the ties that define the structural dimension of social capital . 
+Information and knowledge are often seen as separate , but they can also be seen as points on a continuum capturing differences in experience and interpretation . 
+The content that individuals seek in organizational settings ranges along this continuum from that which is easily transferred ( explicit ) to that which is only transferred with great difficulty ( tacit ) ( Polanyi , 1966 ) . 
+Although many categorizations exist , most of them incorporate ease ( or lack thereof ) of transfer into their conceptualization . 
+For example , Byström and Järvelin ( 1995 ) define domain information , which consists of theories , laws and other easily codified information , and problem solving information which is defined as expertise in treating a given problem . 
+This distinction reflects the difference between tacit and explicit content . 
+Our conceptualization of content type represents this continuum and corresponds to the cognitive dimension of social capital . 
+Shared experiences , narratives , and meaning provide the contextualization that is used to create new knowledge knowledge ( Nahapiet & Ghoshal , 1998 ) . 
+As the content that individuals seek moves from more explicit to more tacit it requires more interpretation to be understood . 
+Because individuals seek information in response to an assessment that their current understanding is insufficient for the task at hand , it is useful to consider the extent to which a source can convey more tacit content in evaluating the impact of social capital . 
+What makes tacit content difficult to transfer also makes it hard to gauge its quality . 
+Explicit knowledge , which is easily transferred , should be much more readily evaluated with respect to its quality . 
+This is because explicit knowledge is easily codified and transferred , which allows the searcher to more readily evaluate it objectively . 
+Transactive memory is a mechanism through which groups collectively encode , store , and retrieve knowledge ( Wegner , Erber , & Raymond , 1991 ) . 
+It represents an understanding of “ who knows what ” that develops over time in close relationships . 
+The concept was originally developed to explain the behavior of couples , but the concept has since been applied to understanding interactions in groups and organizations ( Moreland & Myaskovsky , 2001 ) . 
+Individuals in continuing relationships come to rely on others to supplement their own limited cognitive resources ( Mohammad & Dumville , 2001 ) . 
+Borgatti and Cross ( 2003 ) refer to knowing what another person knows as an “ enduring relational characteristic ” that facilitates knowledge and information sharing . 
+As noted by Lewis ( 2003 ) “ whereas transactive memory exists in the mind of an individual , a transactive memory system exists between individuals as a function of their transactive memories ” ( p. 588 ) . 
+Transactive memory systems allow individuals to become more specialized or differentiated within the groups in which they exist ( Lewis , 2003 ; Wegner et al. , 1991 ) . 
+Members of the group develop “ implicit structures for assigning responsibility for information based on their shared conception of one another 's expertise ” ( Brandon & Hollingshead , 2004 , p. 633 ) . 
+Individuals become reliant on one another to be responsible for certain expertise . 
+This mutual reliance establishes the norms , obligations , and expectations that reflect the relational dimension of social capital . 
+Information quality has been the focus of many research efforts ( Arazy , Nov , Patterson , & Yeo , 2011 ; DeLone & McLean , 1992 ; Nelson , Todd , & Wixom , 2005 ) . 
+Despite this , no consistent definition of information quality exists . 
+Quality can refer to the information retrieved from a system , or it can refer to the system itself ( DeLone & McLean , 1992 ) . 
+Additionally , quality can be viewed as subjective ( i.e. , the information meets expectation [ Hilligoss & Rieh , 2008 ] ) , or quality can be viewed objectively ( i.e. , the information meets the requirements of a particular task [ Taylor , 1986 ] ) . 
+For this work , a general definition of “ fitness for use ” is adopted ( Ge & Helfert , 2007 ) , which incorporates both the objective and subjective view of information quality ( Wang & Strong , 1996 ) . 
+Information quality is typically viewed as a benefit in source selection research . 
+Prior work involving information quality argues that it is a multidimensional construct ( McKinney , Yoon , & Zahedi , 2002 ; Woudstra et al. , 2012 ; Zmud , 1978 ) . 
+For the purposes of this research , the focus is solely upon information quality and not information system quality ( DeLone & McLean , 1992 ) . 
+Remembering that individuals search for information to address shortcomings in their own personal knowledge base , focusing on “ fitness for use ” as a definition of quality is appropriate . 
+In this context high quality information refers to its usefulness for the task at hand without the need for additional clarification or refinement . 
+Accessibility has been argued to be the most influential factor in source selection , with individuals forgoing higher quality sources for more easily accessible lower quality ones ( Culnan , 1983 , 1985 ; Gerstenberger & Allen , 1968 ; O'Reilly , 1982 ) . 
+Accessibility has been treated as a multidimensional construct ( Culnan , 1983 , 1984 , 1985 ; Woudstra et al. , 2012 ; Zmud , Lind , & Young , 1990 ) . 
+Culnan ( 1983 , 1985 ) argued that accessibility can be viewed as either terminal or informational . 
+Terminal accessibility focuses on physical access to a source . 
+In modern organizations , physical access is no longer the issue it once was . 
+The advent of new information communication technologies ( IM , e‐mail , text , voice mail , etc . 
+) makes accessing another individual much easier . 
+Informational accessibility refers to accessing the information once an individual has accessed the source . 
+In an interpersonal setting this means how effectively the source can transfer information to the seeker . 
+A survey was used to collect the data to test the research model . 
+The data were collected from part time MBA students , all employed by various organizations . 
+Because the focus in on information seeking in response to work‐related tasks , respondents were instructed to think of their information‐seeking behaviors for typical work tasks . 
+Whenever possible , items used to operationalize constructs were taken from the existing scales . 
+In some cases slight changes were made to fit the context , although these changes were minimal . 
+The first concern is to measure use , accessibility , and quality for information sources . 
+Four interpersonal sources individuals routinely use to accomplish work tasks were identified . 
+These sources are listed and defined in Table 1 , and cover the most commonly used types of interpersonal sources an individual might consult while in the workplace . 
+In subsequent analyses information quality and source accessibility are treated as second‐order factors . 
+Use , however is treated as a first‐order formative factor . 
+Accessibility for each source was measured using four semantic differential items from Zmud et al . 
+( 1990 ) . 
+Quality has been conceptualized at both the system and informational level . 
+Only items designed to measure information quality were used . 
+Six Likert‐scaled items to measure informational quality across three dimensions ( understandability , reliability , and usefulness ) were used ( McKinney et al. , 2002 ) . 
+Like accessibility , quality was measured for each source type . 

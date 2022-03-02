@@ -1,0 +1,87 @@
+T1	引文时间 2 6	2014
+T2	引文的结果 9 97	has proposed an approach that combines direct citation and cocitation clustering methods
+T3	引文作者 177 182	Small
+T4	引文时间 195 199	2014
+T5	引文作者 322 329	Waltman
+T6	引文作者 334 341	Van Eck
+T7	引文时间 344 348	2012
+T8	引文的结果 351 676	elaborate the advantages of using direct citation relations in the measurement of the relatedness of publication : “ cocitations and bibliographic coupling are more indirect mechanisms than direct citations , and direct citations may therefore be expected to provide a stronger indication of the relatedness of publications ”
+T9	引文作者 751 758	Klavans
+T10	引文作者 763 769	Boyack
+T11	引文时间 772 776	2015
+T12	引文的结果 781 916	who conclude that the use of direct citation relations yields more accurate results than bibliographic coupling or cocitation relations
+T13	引文时间 1079 1083	2003
+T14	引文时间 1087 1091	2012
+T15	图 1212 1301	Figure 1 shows the distribution of the number of publications during the 10 years covered
+T16	时间 1334 1338	2003
+T17	时间 1342 1346	2012
+T18	术语 1902 1924	Criterion II – novelty
+T19	术语 2245 2271	Criterion III – scientific
+T20	术语 2733 2757	Criterion IV – coherence
+T21	表 4576 4653	Its annual number and smoothed number of publications are provided in Table 1
+T22	表 4750 4913	if emergence is expected in a relative short term , the parameter value can be set as , which yields the growth rate at a two‐year interval , also shown in Table 1
+T23	时间 5174 5178	2007
+T24	时间 5269 5273	2005
+T25	时间 5278 5282	2007
+T26	图 6270 6331	Figure 2 shows the distribution of publications over clusters
+T27	引文作者 6591 6598	Waltman
+T28	引文作者 6603 6610	Van Eck
+T29	引文时间 6613 6617	2012
+T30	引文的结果 6520 6590	A method for merging smaller clusters with larger ones is described by
+T31	表 7759 7816	The statistics on these attributes are shown in Table 2 .
+T32	表 7819 7948	Balancing the statistics of the attributes of emergence , the two sets of parameter values are used , as is summarized in Table 3
+T33	引文作者 9012 9017	Small
+T34	引文时间 9030 9034	2014
+T35	引文的结果 9037 9163	indicate , it is impossible to estimate the magnitude of the trade‐off because a definitive list of emerging topics is lacking
+T36	表 9652 9790	More sufficient description can be found in Table A1 , where the 10 most frequent terms and the two most cited publications are provided .
+T37	表 9793 9907	The first column of Table A1 shows the set of parameter values according to which research topics are identified .
+T38	引文作者 10014 10021	Klavans
+T39	引文作者 10026 10032	Boyack
+T40	引文时间 10035 10039	2015
+T41	引文的结果 10064 10126	In most fields of science , accuracy is of paramount concern .
+T42	术语 11079 11092	gold standard
+T43	引文作者 11138 11143	Small
+T44	引文时间 11156 11160	2014
+T45	引文的结果 11163 11350	similarly note the absence of a definitive list of emerging topics , which implies that no widely recognized criteria are available to validate the methods for detecting emerging topics .
+T46	术语 13902 13933	library and information science
+T47	术语 13936 13939	LIS
+T48	表 14214 14303	Table 4 presents the attributes of emergence for each of the research topics identified .
+T49	图 14445 14526	Figure 3 illustrates the curve of annual publications for these identified topics
+T50	引文作者 14810 14814	Geim
+T51	引文作者 14819 14828	Novoselov
+T52	引文时间 14831 14835	2007
+T53	引文的结果 14842 14945	[ g ] raphene is a rapidly rising star on the horizon of materials science and condensed‐matter physics
+T54	术语 14964 14988	two‐dimensional material
+T55	术语 15017 15024	crystal
+T56	术语 15029 15047	electronic quality
+T57	时间 15326 15330	2005
+T58	时间 15334 15338	2007
+T59	时间 15444 15448	2005
+T60	时间 15618 15622	2005
+T61	时间 15627 15631	2007
+T62	图 15847 15946	Cluster 1 displays a steep increase in annual publications from 2003 to 2012 , as shown in Figure 3
+T63	术语 16456 16464	EML4‐ALK
+T64	时间 16636 16640	2010
+T65	时间 16644 16648	2012
+T66	图 16579 16671	It displays a sharp increase in yearly publications from 2010 to 2012 , as shown in Figure 3
+T67	表 16690 16788	Topic 13 also fits the criteria of novelty , scientific impact and coherence , as shown in Table 4
+R1	has_cited_time Arg1:T4 Arg2:T3	
+R2	coauthor Arg1:T5 Arg2:T6	
+R3	has_cited_time Arg1:T7 Arg2:T6	
+R4	coauthor Arg1:T9 Arg2:T10	
+R5	results Arg1:T5 Arg2:T8	
+R6	has_cited_time Arg1:T11 Arg2:T10	
+R7	results Arg1:T9 Arg2:T12	
+R8	results Arg1:T27 Arg2:T30	
+R9	coauthor Arg1:T27 Arg2:T28	
+R10	has_cited_time Arg1:T29 Arg2:T28	
+R11	has_cited_time Arg1:T34 Arg2:T33	
+R12	results Arg1:T33 Arg2:T35	
+R13	coauthor Arg1:T38 Arg2:T39	
+R14	has_cited_time Arg1:T40 Arg2:T39	
+R15	results Arg1:T38 Arg2:T41	
+R16	has_cited_time Arg1:T44 Arg2:T43	
+R17	results Arg1:T43 Arg2:T45	
+R18	coauthor Arg1:T50 Arg2:T51	
+R19	has_cited_time Arg1:T52 Arg2:T51	
+R20	results Arg1:T50 Arg2:T53	

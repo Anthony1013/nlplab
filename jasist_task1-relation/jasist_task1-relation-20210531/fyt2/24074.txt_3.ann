@@ -1,0 +1,104 @@
+T1	表 930 1039	The evaluation results obtained using Exp1 , Exp2 , and Exp3 are shown in Tables 4 , 5 , and 6 , respectively
+T2	图 1179 1339	This indicates that in text reuse detection experiments it is comparatively easier to differentiate between two classes than three ( see Figure 1 and Figure 2 )
+T3	引文作者 1622 1630	Sharjeel
+T4	引文作者 1518 1524	Clough
+T5	引文作者 1527 1537	Gaizauskas
+T6	引文作者 1540 1544	Piao
+T7	引文作者 1549 1554	Wilks
+T8	引文时间 1557 1561	2002
+T9	引文作者 1633 1638	Nawab
+T10	引文作者 1643 1649	Rayson
+T11	引文时间 1652 1656	2017
+T12	引文作者 2428 2433	Ceska
+T13	引文作者 2436 2439	Fox
+T14	引文时间 2442 2446	2009
+T15	引文作者 2449 2454	Chong
+T16	引文作者 2457 2463	Specia
+T17	引文时间 2466 2470	2011
+T18	图 2092 2294	Moreover , the effect of preprocessing ( stop words removal and stemming ) on text reuse detection is visible in Exp2 and Exp3 , where results are slightly better than Exp1 ( see Figure 1 and Figure 2 )
+T19	表 2637 2936	Weighted average f 1 results plots for binary classification Weighted average f 1 results plots for ternary classification For Exp1 ( see Table 4 ) , Word n‐gram overlap and the combination of Unigram , Bigram , and Trigram that is Combined performed better than the more complex LCS and GST methods
+T20	表 3448 3527	For Exp2 ( see Table 5 ) , the GST method reported comparatively better results
+T21	引文作者 4192 4196	Wise
+T22	引文时间 4199 4203	1993
+T23	表 4210 4388	Interestingly , for Exp3 ( see Table 6 ) , Word n‐gram overlap scored highest in binary classification ( f 1 =0.732 ) whereas GST is best in ternary classification ( f 1 =0.552 )
+T24	引文作者 4975 4983	Wilcoxon
+T25	引文作者 4986 4991	Katti
+T26	引文作者 4996 5002	Wilcox
+T27	引文时间 5005 5009	1973
+T28	表 4677 4871	However , preprocessing of text ( stop words removal and stemming ) has an impact on the detection of text reuse as can be seen the results in Table 6 which are significantly better then Table 4
+T29	引文作者 5486 5499	Barrón‐Cedeño
+T30	引文作者 5502 5507	Rosso
+T31	引文作者 5510 5514	Devi
+T32	引文作者 5517 5523	Clough
+T33	引文作者 5528 5537	Stevenson
+T34	引文时间 5540 5544	2013
+T35	引文作者 6152 6165	Barrón‐Cedeño
+T36	引文作者 6168 6173	Rosso
+T37	引文作者 6176 6182	Agirre
+T38	引文作者 6187 6193	Labaka
+T39	引文时间 6196 6200	2010
+T40	引文作者 6693 6698	Rizvi
+T41	引文作者 6701 6708	Hussain
+T42	引文时间 6711 6715	2005
+T43	引文作者 7042 7055	Barrón‐Cedeño
+T44	引文作者 7058 7063	Gupta
+T45	引文作者 7068 7073	Rosso
+T46	引文时间 7076 7080	2013
+T47	表 7769 7918	Table 7 shows the comparison of T+MA results for both machine and manual translated examples.1414 We only reported the best f 1 results on the subset
+T48	表 8328 8527	Table 8 shows the confusion matrix ( columns=predicted , rows=actual instances ) for the Exp3 ternary classification experiment using GST‐mml1 method that reported best result overall ( see Table 6 )
+T49	研究结果 1179 1309	This indicates that in text reuse detection experiments it is comparatively easier to differentiate between two classes than three
+T50	研究结果 1344 1471	Overall , Unigram and GST‐mml1 performed better than LCS for Exp2 and Exp3 , and Combined and Unigram performed better for Exp1
+T51	研究结果 1928 2089	This shows that when the text is heavily derived from the source , using smaller lengths of lexical units ( words ) are more effective in detection experiments .
+T52	研究结果 1793 1923	Furthermore , it can also be noticed that the results for higher values of n ( in Word n‐gram overlap ) and mml ( in GST ) are low
+T53	引文的研究问题 2329 2425	studies on text normalization and its effects on text reuse and plagiarism detection experiments
+T54	研究结果 2477 2632	Last , the high error rate in low quality MT for the Urdu‐English language pair has resulted in relatively lower precision results in all three experiments
+T55	研究结果 3117 3271	This highlights that n‐gram overlap with smaller values of n can capture the overlap of text between source and derived sentence/passage pairs much better
+T56	研究结果 3960 4097	This shows that even if stop words are removed , small values of n produce best results in text reuse detection experiments on our corpus
+T57	研究结果 4503 4672	This further supports our statement that in the text reuse detection problem , even after applying preprocessing , selecting a smaller length of tokens is more effective
+T58	引文作者 5257 5263	Clough
+T59	引文作者 5266 5276	Gaizauskas
+T60	引文作者 5279 5283	Piao
+T61	引文作者 5288 5293	Wilks
+T62	引文时间 5296 5300	2002
+T63	自建数据集 5154 5166	METER corpus
+T64	自建数据集 5369 5378	TR corpus
+T66	研究结果 6207 6332	Our study indicates that it is challenging to detect real cases of text reuse , especially , when they occur across languages
+T67	研究结果 8219 8323	This shows that T+MA method could perform comparatively better provided it incorporates a good MT system
+T68	研究结果 10113 10364	Evaluation results indicated that lower values of n ( for Word n‐gram overlap , best f1=0.732 binary classification ) and mml1 ( for GST , best f1=0.552 ternary classification ) are the most fruitful in text reuse detection experiments on our corpus .
+T69	研究结果 10367 10595	Our results ( best f1=0.552 ) also showed that the T+MA method applied cross‐lingually is less accurate than in the mono‐lingual case ( METER corpus best f 1 =0.664 ) and less accurate with real reuse compared to simulated reuse
+T70	研究结果 10637 10819	Furthermore , our experiments also revealed that text preprocessing operations that is , stop words removal and stemming have a positive effect on cross‐language text reuse detection
+T71	研究展望 10824 11066	In the future , we plan to apply other state‐of‐the‐art cross‐language text reuse detection methods which work on the semantics of the text rather than the surface level to better capture the details of real cases of cross‐language text reuse
+T72	具体模型 4122 4125	LCS
+R1	coauthor Arg1:T4 Arg2:T5	
+R2	coauthor Arg1:T5 Arg2:T6	
+R3	coauthor Arg1:T6 Arg2:T7	
+R4	has_cited_time Arg1:T8 Arg2:T7	
+R5	coauthor Arg1:T3 Arg2:T9	
+R6	coauthor Arg1:T9 Arg2:T10	
+R7	has_cited_time Arg1:T11 Arg2:T10	
+R8	coauthor Arg1:T12 Arg2:T13	
+R9	produces Arg1:T12 Arg2:T53	
+R10	has_cited_time Arg1:T14 Arg2:T13	
+R11	coauthor Arg1:T15 Arg2:T16	
+R12	has_cited_time Arg1:T17 Arg2:T16	
+R13	field_similar_as Arg1:T12 Arg2:T15	
+R14	has_cited_time Arg1:T22 Arg2:T21	
+R15	coauthor Arg1:T24 Arg2:T25	
+R16	coauthor Arg1:T25 Arg2:T26	
+R17	has_cited_time Arg1:T27 Arg2:T26	
+R18	coauthor Arg1:T59 Arg2:T60	
+R19	coauthor Arg1:T60 Arg2:T61	
+R20	has_cited_time Arg1:T62 Arg2:T61	
+R21	coauthor Arg1:T29 Arg2:T30	
+R22	coauthor Arg1:T30 Arg2:T31	
+R23	coauthor Arg1:T31 Arg2:T32	
+R24	coauthor Arg1:T32 Arg2:T33	
+R25	has_cited_time Arg1:T34 Arg2:T33	
+R26	coauthor Arg1:T58 Arg2:T59	
+R27	coauthor Arg1:T37 Arg2:T38	
+R28	has_cited_time Arg1:T39 Arg2:T38	
+R29	coauthor Arg1:T40 Arg2:T41	
+R30	has_cited_time Arg1:T42 Arg2:T41	
+R31	coauthor Arg1:T43 Arg2:T44	
+R32	coauthor Arg1:T44 Arg2:T45	
+R33	has_cited_time Arg1:T46 Arg2:T45	

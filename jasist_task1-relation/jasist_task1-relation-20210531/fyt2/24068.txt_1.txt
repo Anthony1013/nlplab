@@ -1,0 +1,130 @@
+Image ranking is getting more and more important and sometimes indispensable in current information applications . 
+For instance , a web search engine can apply ranking techniques to optimize the order of retrieved images candidates based on certain user‐specified criteria , thereby improving the user experience ( Cui , Ma , Lian , Chen , & Wang , 2015 ; Deng , Ji , Tao , Gao , & Li , 2014 ; Morioka & Wang , 2011 ; Yang & Hanjalic , 2010 ) . 
+Besides , image ranking also has attracted the attention of various research communities , such as computer vision , pattern recognition and machine learning , extensive research has been conducted on this topic ( Grangier & Bengio , 2008 ; Chechik , Sharma , Shalit , & Bengio , 2010 ; Huang , Feris , Chen , & Yan , 2015 ; Escorcia , Niebles , & Ghanem , 2015 ) in the past decades . 
+However , although most of previous works have sought their own solutions to the image ranking problem , the essence of image ranking is still concealed . 
+In other words , previous methods just solved the problem of how to rank images , while the problem that why images are ranked in a certain order remains unsolved . 
+This phenomenon can be considered as a specific type of the well‐known semantic gap problem , and Figure 1 shows an example of it : when given an image of high heels and an image of running shoes , we human viewers will perceive that the latter is sportier , because the flat heel and close‐toe design make it more suitable for sports , while traditional methods may make the judgment only based on some low‐level visual patterns . 
+Thus , traditional image ranking methods can not reflect our mind . 
+Demonstration of the semantic gap existing in image ranking . 
+In this example , two images of shoes are given , and our task is to decide which pair of shoes is sportier . 
+Conventional methods tackle this problem via learning ranking models with low‐level visual features , such as HOG features ( Dalal & Triggs , 2005 ) , thus their ranking models can not be understood by human . 
+On the contrary , our method aims at learning a semantic interpretable ranking model which can reveal the determining factors in such ranking . 
+Therefore , in this article , we attempt to explore a ranking model which can be explained in a semantic way , so that the above “ how ” and “ why ” problem can be solved at the same time . 
+Inspired by the recent success of attribute‐based methods in image classification and image retrieval ( Lampert , Nickisch , & Harmeling , 2009 ; Farhadi , Endres , Hoiem , & Forsyth , 2009 ; Kovashka , Parikh , & Grauman , 2012 ; Zhang et al. , 2013 ; Z. Su , Li , Li , & Luo , 2017 ) , here we propose an attribute‐based solution to the image ranking problem . 
+Attributes are mid‐level semantic concepts that can be used to describe images , such as colors , shapes , textures , and materials . 
+For example , the high heels in Figure 1 are “ pink ” and in “ open toe ” style . 
+As we will demonstrate in the following sections , exploiting the attribute‐based representation can let our ranking model become interpretable . 
+Furthermore , we concentrate on the newly posed pairwise fine‐grained image ranking problem ( A. Yu & Grauman , 2014 ) for its novelty and practicality in real‐life applications . 
+For example , imagine we are using a context‐based image retrieval ( CBIR ) system to search and buy a pair of running shoes online . 
+The CBIR system can apply an image ranking model to re‐rank its retrieval results based on our preferences ( like looking for the most comfortable one ) . 
+In this case , the retrieval results belong to the same category ( running shoes ) , and thus previous ranking methods working at a coarse level ( predicting high heels are less comfortable than running shoes ) will be less useful . 
+To achieve the aforementioned goals , we propose a Probabilistic Semantic Interpretable framework for fine‐grained image ranking , called PSI . 
+Our PSI consists of three parts : ( a ) a supervised constrained clustering algorithm which divides training instances into fine‐grained groups , ( b ) an online passive‐aggressive algorithm which performs image ranking with local learning , and ( c ) a probabilistic ensemble method to obtain optimal result from the local ranking models . 
+In this way , our unified framework can provide a semantic and practical solution to the fine‐grained image ranking problem . 
+To the best of our acknowledge , most of previous works are using attributes as ranking criteria ( Parikh & Grauman , 2011a ; A. Yu & Grauman , 2014 ; Sharaf , Hussein , & Ismail , 2015 ; Verma & Jawahar , 2015 ; Z. Su et al. , 2017 ) , instead of considering them as image descriptors . 
+On the contrary , this work can be considered as “ ranking attributes based on attributes ” and hence it increases the novelty of our method . 
+In summary , the main contributions of this article are threefold : ( a ) A novel semantic interpretable framework is proposed , which can reveal the key factors in certain image ranking tasks ; ( b ) with the attribute based representation and supervised constrained clustering methods , we can reduce the dimensions of both the feature space and searching space significantly , and hence obtain a fast solution to the fine‐grained image ranking problem ; ( c ) combining multiple local rankers via the proposed probabilistic framework helps our solution overcome the disadvantages of global and local models , and achieve the state‐of‐the‐art performance on the benchmark for fine‐grained image ranking problem . 
+At the end of this section , we perform qualitative analysis of the proposed PSI framework by comparing it with FG‐LocalPair because both methods employ local ranking models . 
+Representative qualitative ranking results of the proposed framework is shown in Figure 6 . 
+For each task , we demonstrate 10 test image pairs successfully predicted by the PSI framework while the KNN‐ITML fails to do so . 
+Although lots of images are similar , the proposed PSI framework still handles them well . 
+In all , we consider PSI as a practical solution for the fine‐grained image ranking problem . 
+Qualitative ranking results of the proposed framework . 
+For each task , we demonstrate 10 test pairs that can be correctly predicted by the proposed PSI but are failed via the FG‐LocalPair method . 
+In each pair , image on the left side has higher ranking order . 
+Although the ranking orders depend on the nuance in images , the propose PSI can generate high‐quality ranking results . 
+In this article , a novel probabilistic semantic interpretable framework is proposed to tackle the semantic gap and the localization problem of fine‐grained image ranking at the same time . 
+We demonstrate why a ranking model with the attribute‐based representation is semantic interpretable and employ the online passive‐aggressive algorithm to learn our local ranking models . 
+We also show that the localization problem can be handle via ensemble multiple local ranking models via the Bayesian model averaging framework , which can introduce the spatial relationship in the feature space via a posterior term and combine the outputs of local ranking models properly . 
+Besides , a supervised constrained clustering method is proposed to group training instances with significance constraint and balance constraint . 
+We combine the previous methods into a unified probabilistic framework and have validated its effectiveness with a series of experiments . 
+In the future , we will focus on boosting the accuracy of attribute classifiers because they are the foundation of building a semantic interpretable system . 
+Recent success of deep neural network in many fields suggests that it can provide us with more robust image features , and thus training an accurate attribute classifier may be easier . 
+Besides , we also tend to design an end‐to‐end framework which combines attribute learning and image ranking together , so that it may help to better exploit the inner‐connection between attributes and image ranking . 
+This work is supported by the National Natural Science Foundation of China ( 61320106008 , 61572531 , 61402120 ) , and the Science and Technology Planning Project of Guangdong Province ( 2015B010129008 ) . 
+Xiaonan Luo is the corresponding author of this paper . 
+In this section , we will briefly summarize the related research . 
+We begin with research on attribute‐based representation , then review recent progress in attribute‐based applications , and end this section with research on image ranking models . 
+The core idea of attribute‐based representations is utilizing attributes as an intermediate feature layer between low‐level image features and high‐level object categories . 
+The idea of attribute‐based representations is first proposed in Lampert et al. , ( 2009 ) and Farhadi et al. , ( 2009 ) , respectively . 
+However , the effects of attribute‐based representations strongly depend on the accuracy of attribute predictions and the completeness of definitions of attribute sets . 
+Therefore , a lot of methods have been proposed to augment attribute‐based representations : Berg , Berg , and Shih ( 2010 ) explored the mutual information to interactively learn visual attributes from unlabeled image and text data on the web ; while in Parikh and Grauman ( 2011a ) a nameability model was used to interactively select a nameable and discriminative attribute to achieve this goal ; Sharmanska , Quadrianto , and Lampert ( 2012 ) augmented an attribute space with non‐semantic features learned by an auto‐encoder with a large‐margin principle ; Fu , Hospedales , Xiang , and Gong ( 2014 ) introduced the concept of semi‐latent attribute space , which expands the original user‐specified attribute space with latent attributes ; Zhang et al . 
+( 2013 ) proposed a semantic hierarchy structure to organize concepts and couple each concept with a set of attributes ; Abdulnabi , Wang , Lu , and Jia ( 2015 ) proposed to predict binary attributes via deep convolutional neural networks jointly trained in a multi‐task learning framework . 
+Although the above methods do help to enhance attribute‐based representations , we note that all these methods have exploited relationships between attributes in some ways , and thus a simple modification of the attribute sets is almost the same as retraining the whole model . 
+Therefore , in this work , we omit the relationships between attributes and adopt a simple probabilistic attribute‐based representation . 
+Because of the semantic nature of attribute‐based representations , in the recent years , they have attracted considerable attention and have been applied to multifarious applications , such as image retrieval ( Kovashka et al. , 2012 ; Zhang , Zha , Yan , Bian , & Chua , 2012 ; Wang , Zhang , Tretter , & Lin , 2013 ; Choi , 2013 ; Chen , Chen , Kuo , & Hsu , 2013 ; Siddiquie , Feris , & Davis , 2011 ; F. X. Yu , Ji , Tsai , Ye , & Chang , 2012 ; Douze , Ramisa , & Schmid , 2011 ) , image recognition and segmentation ( Lu , Yang , Yang , & Rui , 2015 ; Shi , Yang , Hospedales , & Xiang , 2016 ; Cho , Kang , & Kim , 2016 ) , clothing recommendation ( Liu et al. , 2012 ) , visual object tracking ( Danelljan , Khan , Felsberg , & van de Weijer , 2014 ) , and person re‐identification ( C. Su et al. , 2015 ) . 
+As to attribute‐based applications related to image retrieval : Chen et al . 
+( 2013 ) added attributes in the constraints of learning the codebook of a sparse‐coding based model for face image retrieval . 
+In Wang et al . 
+( 2013 ) , attributes are used for computing image similarity with Jeffrey Divergence to re‐rank retrieved images ; Douze et al . 
+( 2011 ) simply combined attribute‐based representation and fisher descriptors for image retrieval ; Zhang et al . 
+( 2012 ) employed a Bayesian system to automatically select the prominent attributes to obtain user feedback and search images . 
+With these successful applications , it is motivating and reasonable for us to investigate a semantic interpretable model for fine‐grained image ranking by considering attributes as an effective and practical image descriptor . 
+Conventional image ranking models are closely related to image retrieval problem . 
+In such a situation , ranking models are learned to refine the retrieval results ( Grangier & Bengio , 2008 ; Morioka & Wang , 2011 ; Yang & Hanjalic , 2010 ; Wu et al. , 2013 ; Yang & Hanjalic , 2010 ) . 
+For example , Yang and Hanjalic ( 2010 ) proposed to rank images based on both text information and visual similarity , weighed by coefficients learned by a rank support vector machine ( SVM ) ; Morioka and Wang ( 2011 ) proposed to retrieve and rank candidate images via a model trained with sparsity and ranking constraints . 
+Grangier and Bengio ( 2008 ) proposed a discriminative kernel‐based model based on the Passive‐Aggressive algorithm , which is also employed in our framework . 
+However , different from Grangier and Bengio ( 2008 ) , we directly give the closed‐form solution to learning procedure of parameters , instead of introducing a compatibility function ad hoc . 
+With the rise of attribute‐based methods , another type of image ranking models ( A. Yu & Grauman , 2014 ; Parikh & Grauman , 2011b ; Kovashka et al. , 2012 ; Kovashka & Grauman , 2013 ; Deng et al. , 2014 ; Verma & Jawahar , 2015 ; Sharaf et al. , 2015 ; Xiao & Lee , 2015 ) has become popular . 
+This type of models stems from Parikh and Grauman ( 2011b ) , which proposed the concept of relative attribute to rank images based on the strength of attributes . 
+Kovashka et al . 
+( Kovashka et al. , 2012 ; Kovashka & Grauman , 2013 ) then employed relative attributes to represent user feedback . 
+Deng et al . 
+( 2014 ) proposed to rank images via the fusion of aligned multiple graphs , where the alignment is achieved by mining co‐occurred attributes . 
+The most related research to our work was the FG‐LocalPair model proposed by A. Yu and Grauman ( 2014 ) , which is the first to pose the problem of image ranking at a fine‐grained level . 
+They achieved this task by employing the information‐theoretic metric learning ( ITML ) technique ( Davis , Kulis , Jain , Sra , & Dhillon , 2007 ) to find similar training examples and train a local ranking model on the fly . 
+Both Verma and Jawahar ( 2015 ) and Sharaf et al . 
+( 2015 ) proposed to enhance the FG‐LocalPair method by modifying its ranking model , and the difference between them is that the former focus on the effect of local patches , while the latter emphasizes the fusion of multiple kernels . 
+Recently , several Convolutional Neural Networks ( CNN ) based methods ( Xiao & Lee , 2015 ; Souri , Noury , & Adeli , 2016 ; Singh & Lee , 2016 ; Cruz , Fernando , Cherian , & Gould , 2017 ) for image ranking are proposed and obtain considerable breakthrough . 
+Xiao and Lee ( 2015 ) proposed to localize the reasoning of ranking via adopting self‐paced learned attribute detectors . 
+Souri et al . 
+( 2016 ) proposed to learn the ranking function via training the VGG‐16 model with the logistic regression method ; Singh and Lee ( 2016 ) considered the Siamese architecture , and adopted the cross‐entropy loss as the objective function . 
+Besides , the Spatial Transformation Network was used to refine the context for feature extraction ; Cruz et al . 
+( 2017 ) proposed an interesting idea , which considered ranking as “ un‐permuting ” a shuffled sequence . 
+To do this , they proposed to use CNNs to predict the double stochastic matrix as the permutation matrix , and used it to recover the original sequence . 
+Although A. Yu and Grauman ( 2017 ) did not benefit from CNNs directly , they proposed to use Generative Adversarial Networks to generate synthetic images , which augmented the training examples and successfully bootstrapped the ranking models . 
+Nevertheless , all the aforementioned methods leave the same problem behind : models they learned is hard to be understood by human , which means that it will be hard for us to get any information from a learned model except its accuracy . 
+Therefore , in this article , we try to find a way to “ communicate ” with a ranking model by solving the interpretation problem . 
+However , it is known that the above problem is NP‐hard ( Parikh & Grauman , 2011b ) . 
+A conventional way to approximate the solution is to introduce some non‐negative slack variables and transform the original problem into a convex problem with soft margin . 
+We follow this way and provide our online solution in the Framework section . 
+What makes the fine‐grained image ranking problem differ from those on coarse levels is that instances in the former are highly localized . 
+To understand this , we visualize the test image pairs on the UT‐Zap50K‐2 ( A. Yu & Grauman , 2014 ) fine‐grained image ranking benchmark , as shown in Figure 2 . 
+We first utilize t‐SNE technique ( van der Maaten & Hinton , 2012 ) to project the test image pairs into a 2‐D plane . 
+Then for each image pair , we draw an arrow starting at the coordinates of the image with lower ranking order and pointing to the image with higher order , and normalize the length of arrow to 1 . 
+From the visualization result , one can easily see that , if we randomly select two clusters of the image pairs , the different between the major directions of arrows belonging to the two clusters is significant . 
+Therefore , a local model is more suitable for this situation than the global model . 
+However , because of the sparsity of training examples , directly relying on a single local model is inappropriate . 
+In other words , we also need to find a reasonable combination of local models . 
+Visualization of the test image pairs on the UT‐Zap50K‐2 ( A. Yu & Grauman , 2014 ) dataset . 
+Image pairs in the “ Open ” and “ Pointy ” tasks are visualized on the left and right , respectively . 
+Each arrow represents an image pair and it points to the direction of increasing strength of a certain property , for example , “ Open. ” This figure demonstrates the highly localized property of fine‐grained image ranking . 
+Best viewed on a high‐resolution screen . 
+In this section we introduce the Probabilistic Semantic Interpretable ( PSI ) framework for fine‐grained image ranking in detail . 
+To begin with , we overview the proposed PSI framework and demonstrate how we tackle the fine‐grained image ranking problem with the ensemble of multiple local ranking models in the probabilistic way . 
+Then we present the supervised constrained clustering method to generate multiple equal‐sized and class‐balanced clusters and train our local ranking model on each cluster via the online passive‐aggressive algorithm . 
+At last , the learning method for the ensemble of local ranking models is given . 
+Note that the goal of this article is to learn a semantic interpretable ranking model and ensure the ranking model can be localized to adapt to fine‐grained applications . 
+To this end , we propose to combine attribute‐based representation and ensemble of local ranking models into a unified probabilistic framework . 
+The diagram of PSI is demonstrated in Figure 3 . 
+The proposed framework first represents images by projecting them into the attribute space , and then groups training image pairs into clusters via the supervised constrained clustering ( SCC ) technique and trains a local ranking model via the passive‐aggressive ( PA ) algorithm for each cluster . 
+Besides , the optimal way of combining local ranking models will be learned . 
+In the test phase , the ranking order of each test image pair is generated based on the combination of the outputs from its multiple nearest local ranking models . 
+Flowchart of the proposed framework . 
+We first represent images by projecting them into the attribute space . 
+Then in the training phase , we utilize the supervised constrained clustering algorithm to generate clusters and train a local ranking model for each cluster via the passive‐aggressive algorithm . 
+In the test phase , we rank the given test image pair by first finding its nearest clusters , and then combining the outputs of corresponding local ranking models via the Bayesian averaging method . 
+As we have emphasized in previous sections , exploiting the clusters of instances is vital in tackling the localization problem of fine‐grained image ranking . 
+This can be achieved directly in our framework by adjusting the value of , for example , by introducing spatial constraint in the feature space , or limiting the effects of unrelated ranking models . 
+Therefore , Eq . 
+3 provides us with an intuitive solution to the fine‐grained image ranking problem . 
+Besides , to further enhance the localization ability of our framework , we adopt the conventional local embedding strategy that only consider the Kn nearest neighboring clusters of each test image pair , instead the whole K clusters . 
+Our detailed definition of and will be presented in the following sections . 
+To divide image pairs into clusters for subsequent training , we propose a Supervised Constrained Clustering ( SCC ) algorithm in this section . 
+Reasons that we can not employ off‐the‐shelf clustering methods are dual : ( a ) we need to ensure that every cluster contains adequate training examples , which leads to the so‐called significance‐constrained clustering problem ( Ge , Ester , Jin , & Davidson , 2007 ) ; ( b ) the ratio of the positive examples to negative examples in the same cluster should be moderate so that the trained models would not be biased , which also refers to the balance‐constrained problem ( Ganganwar , 2012 ) . 
+Therefore , we propose the SCC algorithm which can satisfy the significance constraint and the balance constraint at the same time . 
+Our SCC method stems from a special data structure designed for the significance‐constrained problem , called CD‐Tree ( Ge et al. , 2007 ) . 
+The CD‐Tree algorithm proceeds in a greedy fashion . 
+In brief , assume we need to guarantee that the cardinality of each generated cluster is greater than or equal to a positive integer kc . 
+The CD‐Tree algorithm will insert each training instance into the leaf node closest to it , and split a leaf node when its capacity is large than or equal to . 
+The final clustering result will be generated by merging all the leaves . 

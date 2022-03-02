@@ -1,0 +1,91 @@
+T1	图 746 854	These specifications relate , respectively , to the components : query and representation ( see Figure 4 ) .
+T2	时间 613 617	2014
+T3	图 1142 1361	A similar perspective can be found in the isometric projection of the “ Semantic Web technology stack , ” where only a small fraction of the technologies is considered to belong to the Linked Data stack ( see Figure 5 )
+T4	引文作者 1411 1421	Parapontis
+T5	引文时间 1424 1428	2012
+T6	图 1712 1845	The inclusion of this layer and the indirect linking to the formats and models layers happened in 2012 , as can be seen in Figure 5 .
+T7	时间 1810 1814	2012
+T8	引文时间 2080 2084	2014
+T9	引文作者 2064 2077	James Hendler
+T10	引文作者 2300 2307	Hendler
+T11	引文时间 2310 2314	2014
+T12	引文作者 2504 2523	Cambridge Semantics
+T13	引文时间 2526 2530	2016
+T14	引文作者 2533 2540	Hendler
+T15	图 2862 3034	This subset has been growing , as can be seen in the evolution of the diagram known as the “ Linked Open Data Cloud ” shown in the Figure 6 ( 2007 ) and Figure 7 ( 2017 ) .
+T16	时间 3004 3008	2007
+T17	时间 3026 3030	2017
+T18	引文作者 3345 3352	Hendler
+T19	引文作者 3473 3480	Hendler
+T20	引文时间 3483 3487	2014
+T21	引文作者 3723 3730	Hendler
+T22	引文时间 3733 3737	2014
+T23	引文作者 3747 3754	Sletten
+T24	引文时间 3757 3761	2014
+T25	时间 3771 3775	2011
+T26	引文作者 3912 3919	Hendler
+T27	引文时间 3929 3933	2011
+T28	引文作者 4057 4066	Marchiori
+T29	引文时间 4069 4073	2003
+T30	引文作者 4203 4222	Cambridge Semantics
+T31	引文时间 4225 4229	2016
+T32	引文作者 4295 4306	Berners‐Lee
+T33	引文时间 4309 4313	2009
+T34	引文作者 4538 4545	Hendler
+T35	引文作者 4645 4652	Hendler
+T36	引文时间 4655 4659	2014
+T37	引文作者 5034 5043	Marcondes
+T38	引文时间 5046 5050	2012
+T39	引文作者 5249 5259	Wassermann
+T40	引文时间 5262 5266	2014
+T41	引文作者 5339 5346	Almeida
+T42	引文时间 5356 5360	2011
+T43	引文作者 5389 5395	Setzer
+T44	引文时间 5398 5402	2015
+T45	引文作者 5863 5870	Hendler
+T46	引文作者 5889 5896	Hendler
+T47	引文时间 5899 5903	2014
+T48	引文作者 6135 6142	Hendler
+T49	引文作者 6163 6170	Hendler
+T50	引文时间 6173 6177	2014
+T51	图 6851 6934	An illustration of the description made here can be seen in the diagram of Figure 8
+T52	时间 7997 8001	1999
+T53	时间 8006 8010	2001
+T54	图 11653 11894	We understand that the present study allows us to have a holistic and systematic view of the whole conceptual landscape involved ( summarized in Figure 8 ) , which is , otherwise , found in different statements dispersed in several documents
+T55	引文时间 12609 12613	2017
+T56	引文作者 12592 12599	Lehmann
+T57	研究结果 9872 10250	We also concluded that the so‐called Web of Linked Data is the combination of these procedures applied in a web environment , using open data standards and following the SW specifications associated with the stack layers : a ) representation ; b ) query ; and c ) a subset of the reasoning layer , specifically , the light knowledge organization systems ( “ light ontologies ” )
+T58	研究展望 11899 12054	We hope , in this way , to contribute to the interdisciplinary understanding of the subject , to foster its discussion , interpretation , and appropriation
+T59	研究展望 12059 12364	As future work , and shed by the theoretical light of these findings , we can envision the analysis of the W3C SW technology evolution , from XML to contemporary proposals like the Efficient Extensible Interchange ( EXI ) , as a mean to fulfill the original views and the manifold paths it took since then
+R1	has_cited_time Arg1:T5 Arg2:T4	
+R2	has_cited_time Arg1:T8 Arg2:T9	
+R3	has_cited_time Arg1:T11 Arg2:T10	
+R4	has_cited_time Arg1:T13 Arg2:T12	
+T60	引文时间 2543 2547	2011
+R5	field_similar_as Arg1:T14 Arg2:T12	
+R6	has_cited_time Arg1:T60 Arg2:T14	
+R7	has_cited_time Arg1:T20 Arg2:T19	
+T61	引文时间 3355 3359	2011
+R8	has_cited_time Arg1:T61 Arg2:T18	
+R9	has_cited_time Arg1:T22 Arg2:T21	
+R10	has_cited_time Arg1:T24 Arg2:T23	
+R11	has_cited_time Arg1:T27 Arg2:T26	
+R12	has_cited_time Arg1:T29 Arg2:T28	
+R13	has_cited_time Arg1:T31 Arg2:T30	
+R14	has_cited_time Arg1:T33 Arg2:T32	
+R15	has_cited_time Arg1:T36 Arg2:T35	
+T62	引文时间 4548 4552	2011
+R16	has_cited_time Arg1:T62 Arg2:T34	
+R17	has_cited_time Arg1:T38 Arg2:T37	
+R18	has_cited_time Arg1:T40 Arg2:T39	
+R19	has_cited_time Arg1:T42 Arg2:T41	
+R20	has_cited_time Arg1:T44 Arg2:T43	
+T63	引文时间 5873 5877	2011
+R21	has_cited_time Arg1:T47 Arg2:T46	
+R22	field_similar_as Arg1:T46 Arg2:T45	
+R23	has_cited_time Arg1:T63 Arg2:T45	
+T64	引文时间 6145 6149	2011
+R24	has_cited_time Arg1:T64 Arg2:T48	
+R25	has_cited_time Arg1:T50 Arg2:T49	
+R26	field_similar_as Arg1:T49 Arg2:T48	
+R27	has_cited_time Arg1:T55 Arg2:T56	

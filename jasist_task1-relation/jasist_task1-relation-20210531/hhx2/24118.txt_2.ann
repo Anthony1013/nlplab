@@ -1,0 +1,73 @@
+T1	图 295 469	Therefore , the valence incongruity induced by the meaning of word and the emotion caused by color did n't generate any interference in color identification task ( Figure 4 )
+T2	引文作者 593 599	Rayner
+T3	引文时间 602 606	1998
+T4	引文作者 806 810	Chae
+T5	引文作者 813 816	Lee
+T6	引文时间 819 823	2013
+T7	引文作者 826 830	Luan
+T8	引文作者 833 836	Yao
+T9	引文作者 839 843	Zhao
+T10	引文作者 848 851	Liu
+T11	引文时间 854 858	2016
+T12	引文作者 1022 1027	Jacob
+T13	引文作者 1030 1034	Karn
+T14	引文时间 1037 1041	2003
+T15	引文作者 1322 1332	Mehmedović
+T16	引文作者 1335 1343	Omeragić
+T17	引文作者 1346 1354	Batagelj
+T18	引文作者 1359 1364	Kolar
+T19	引文时间 1367 1371	2017
+T20	图 3840 3963	Formation of product presentation ( Figure 5 ) was designed referring to the way that products were shown on Taobao website
+T21	图 4849 4969	All information on the two pages was equal but two different colors of tags were represented in the two AOI ( Figure 5 )
+T22	图 6949 7135	A heat map analysis was done to help us to qualitatively observe consumers ' eye movements to different colored tags under different conditions of cognitive load , as shown in Figure 6 .
+T23	引文作者 7269 7273	Wang
+T24	引文作者 7276 7280	Yang
+T25	引文作者 7283 7286	Liu
+T26	引文作者 7289 7292	Cao
+T27	引文作者 7297 7299	Ma
+T28	引文时间 7302 7306	2014
+T29	图 7652 7918	Comparing Figure 6a , b with Figure 6c , d , white area ( areas besides two AOI ) are yellower than AOIs , indicating that participants focus more on other product information , such as parameter attributes , in the low cognitive load than in the high cognitive load
+T30	引文作者 8922 8928	Bagchi
+T31	引文作者 8931 8937	Cheema
+T32	引文时间 8940 8944	2013
+T33	图 9076 9320	If the effect was due to this potential alternative process , then the positive red tags in Figure 6a and the negative red tags in Figure 6b should receive more attention and weight in judgment , compared to the positive green tags in Figure 6b
+T34	图 9601 9763	Result of T test showed that difference between fixation on red tags in Figure 6a and green tags in Figure 6b was also not significant , t ( 46 ) = 0.294 , p > .5
+T35	引文作者 10149 10156	Kitchen
+T36	引文作者 10159 10163	Kerr
+T37	引文作者 10166 10173	Schultz
+T38	引文作者 10176 10182	McColl
+T39	引文作者 10187 10191	Pals
+T40	引文时间 10194 10198	2014
+T41	引文的结果 1170 1373	Numerous studies found that consumers ' attention mediated the relationship between the information characteristics and attitude or purchase outcomes ( Mehmedović , Omeragić , Batagelj , & Kolar , 2017 )
+T42	研究结果 11535 11747	The eye‐tracking experiment showed that emotion induced by colors was more influential in high cognitive load condition , whereas the emotion induced in text was more influential in low cognitive load condition .
+T43	研究结果 13758 14048	The eye‐tracking experiment shows that emotion induced by the color of the tags ( red or green ) is more predominant in high cognitive load condition , whereas the emotion evoked by the text of colored tags ( positive tags or negative tags ) is more dominant in low cognitive load condition
+T44	研究结果 14053 14301	Therefore , participants who read the webpage with positive tags inked in red and negative tags inked in green gave better evaluations to the product than those reading positive tags inked in green and negative tags inked red in high load condition
+T45	研究结果 14306 14505	Our work finds the principle of colored tags for users ' decision behavior and those findings can help design colored tags for recommendation systems on e‐commerce websites and other online platforms
+T46	研究展望 14887 15006	Further research must include cultural effect for the color and more foreign students must be hired to test our results
+R1	has_cited_time Arg1:T3 Arg2:T2	
+R2	coauthor Arg1:T4 Arg2:T5	
+R3	has_cited_time Arg1:T6 Arg2:T5	
+R4	coauthor Arg1:T7 Arg2:T8	
+R5	coauthor Arg1:T8 Arg2:T9	
+R6	coauthor Arg1:T9 Arg2:T10	
+R7	has_cited_time Arg1:T11 Arg2:T10	
+R8	field_similar_as Arg1:T7 Arg2:T4	
+R9	coauthor Arg1:T12 Arg2:T13	
+R10	has_cited_time Arg1:T14 Arg2:T13	
+R11	coauthor Arg1:T15 Arg2:T16	
+R12	coauthor Arg1:T16 Arg2:T17	
+R13	coauthor Arg1:T17 Arg2:T18	
+R14	has_cited_time Arg1:T19 Arg2:T18	
+R15	results Arg1:T15 Arg2:T41	
+R16	coauthor Arg1:T23 Arg2:T24	
+R17	coauthor Arg1:T24 Arg2:T25	
+R18	coauthor Arg1:T25 Arg2:T26	
+R19	coauthor Arg1:T26 Arg2:T27	
+R20	has_cited_time Arg1:T28 Arg2:T27	
+R21	coauthor Arg1:T30 Arg2:T31	
+R22	has_cited_time Arg1:T32 Arg2:T31	
+R23	coauthor Arg1:T35 Arg2:T36	
+R24	coauthor Arg1:T36 Arg2:T37	
+R25	coauthor Arg1:T37 Arg2:T38	
+R26	coauthor Arg1:T38 Arg2:T39	
+R27	has_cited_time Arg1:T40 Arg2:T39	

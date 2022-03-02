@@ -1,0 +1,130 @@
+There are temporal aspects to web search queries that search engines need to account for to understand the changes in user intent and respond to users with temporally relevant results ( Kulkarni , Teevan , Svore , & Dumais , 2011 ; Shokouhi , 2011 ) . 
+For example , for the query “ Earthquake , ” users usually search for basic knowledge about earthquakes when no earthquake events are occurring or have just occurred . 
+Search engines should rank relevant pages from sites such as Wikipedia at the top of the result list . 
+However , in the middle of March 2011 , the query “ Earthquake ” suddenly became one of the most popular searches.11 http : //www.google.cn/trends/explore # q=earthquake The increase in search volume was caused by the 9.0 magnitude earthquake in Japan . 
+During this period , most users issuing this query focused on the event instead of the basic knowledge about earthquakes . 
+Search engines should accordingly rank the relevant news articles about the event at the top of the result list . 
+Other examples are queries such as “ World Cup ” or “ Presidents Cup in Golf , ” where the search volumes of these queries increase and decrease with a fixed cycle . 
+Correspondingly , the temporal intents of users change periodically . 
+Therefore , it is important for search engines to correctly identify those queries and ensure that their results are temporally relevant ( Shokouhi , 2011 ) or diversified ( Berberich & Bedathur , 2013 ) . 
+By analyzing user queries in depth , we found that the search volume time series of user queries have certain patterns , which we refer to as queries ' temporal patterns in this study . 
+Queries ' temporal patterns are the inherent time series patterns of the volume of queries , which reflect a query 's popularity over time . 
+Figure 1 presents some classic temporal pattern instances . 
+Different patterns can reflect different search intents . 
+For example , queries with flat curve patterns usually have fixed intents ; for example , “ Java JDK ” in Figure 1a ( Kulkarni et al. , 2011 ) . 
+In contrast , queries with multiple spikes in their curve patterns , such as in Figure 1c and 1d , may be temporally ambiguous ( Shokouhi , 2011 ) . 
+That is , when users retrieve them , search engines do not understand which time intervals ( generally corresponding to the spikes on the curves ) the users are targeting . 
+For example , for the query “ the Olympics ” ( Figure 1d ) , there are five spikes corresponding to the Olympic Games ( including the Summer and Winter Games ) that were held in 2004 , 2006 , 2008 , 2010 , and 2012 . 
+However , search engines do not understand the periods that users are targeting . 
+In summary , by analyzing the temporal patterns of user queries , we can better understand user intents , which can be used to improve the performance of search engines ( Jones & Diaz , 2007 ; Kulkarni et al. , 2011 ; Metzler , Jones , Peng , & Zhang , 2009 ; Shokouhi , 2011 ) . 
+Query temporal pattern examples from G oogle T rends . 
+The horizontal and vertical axes represent the time and query search volume , respectively . 
+In this article , we first introduce a new query‐classification scheme that groups queries into four categories—stable queries , one‐time burst queries , periodic multitime burst queries , and aperiodic multitime burst queries—according to their temporal patterns . 
+Then , we propose an approach to identify a query 's pattern class in terms of its time series curve . 
+In particular , we first extract a collection of features by exploring the shapes , trends , periods , and bursts in the time series curves . 
+Then , we utilize a support vector machine ( SVM ) to detect user queries ' temporal patterns . 
+Because there are some queries whose records in query logs are too sparse to generate valid time series curves , we present two methods to approximately construct their time series curves from the document data sets . 
+We collected a large number of queries from the Text REtrieval Conference ( TREC ) and manually annotated their temporal pattern categories . 
+Extensive experiments indicate that our approach can significantly outperform the baselines . 
+The remainder of this article is organized as follows . 
+First , we present our new query‐classification scheme . 
+Second , we describe our automatic query pattern detection approach and present the corresponding experiments . 
+Then , we discuss the potential applications of our study . 
+Next , we present related work . 
+Finally , we draw some conclusions and discuss our future work . 
+A query 's temporal pattern can be reflected by the changes in its search volume over time , which is represented as a time series . 
+Therefore , we group queries into corresponding temporal pattern classes according to the temporal characteristics of their time series , as shown in Figure 2 . 
+Each leaf node in Figure 2 represents a specific temporal pattern type . 
+Next , we describe the definitions of these query classes and typical time series curves , as illustrated in Figure 1 . 
+Temporal pattern‐based classification scheme . 
+A QwT represents the queries that contain at least one explicit time expression or time interval , such as “ Earthquake 2008 … 2010 ” ( Earthquakes from 2008–2010 ) . 
+These queries are easy to detect by identifying the explicit time expressions . 
+When a user submits a QwT query , he or she usually has a specific time constraint in mind . 
+A QoT denotes the queries that do not contain any explicit time expression , such as “ Web page rank. ” For QoT , we need to detect their temporal patterns to help us analyze user intents . 
+A SQ denotes the queries in which the user 's intent does not focus on any specific time interval . 
+That is , there are no temporal constraints for their results . 
+SQ denotes users ' common , frequent , and constant search intents . 
+Consequently , their time series curves share a stable trend ( e.g. , “ Java JDK ” as shown in Figure 1a ) . 
+An NSQ describes the queries that represent users ' uncommon , occasional search intents . 
+An OBQ is a type of NSQ . 
+OBQs are often triggered by one‐time , unexpected events . 
+As a result , their curves all contain a single spike that occurs when there is a sudden increase followed by a corresponding decrease in search volume ( e.g. , “ Japan Earthquake ” is an OBQ , as depicted in Figure 1b ) . 
+An MBQ is another type of NSQ . 
+MBQs are often triggered by events that repeat multiple times . 
+An AMBQ represents MBQs triggered by unexpected events or user requests that are issued aperiodically . 
+Time series curves of AMBQs share a common shape with multiple aperiodic spikes ( e.g. , “ Earthquake ” is an AMBQ , as shown in Figure 1c ) . 
+A PMBQ denotes MBQs that are issued periodically . 
+These queries are usually triggered by expected events that follow identical or almost identical cycles during corresponding months of successive years . 
+Time series curves of PMBQs share a common shape with multiple periodic spikes . 
+For example , “ the Olympics ” becomes popular in a 2‐year cycle because the Olympic Games are held every 2 years ( including the Summer and Winter Games ) , as shown in Figure 1d . 
+We analyzed in depth the contents of query instances for different temporal pattern types . 
+Some examples are summarized in Table 1 . 
+We found that the queries of different temporal pattern types indeed have different characteristics . 
+The majority of SQs could be characterized as broad , general queries such as academic or daily stuff‐related queries ( e.g. , “ artificial intelligence ” and “ pet therapy ” ) . 
+For these queries , in the absence of an emergent focused intent ( e.g. , an unexpected event ) , their curves remain relatively flat . 
+In comparison , NSQs are more focused . 
+Many of these queries refer to events . 
+AMBQs in particular are usually related to celebrities ( e.g. , Tom Hanks ) , disasters ( e.g. , blizzard warning ) , and so on . 
+Given a new query , we use a machine‐learning approach to detect its temporal pattern ( i.e. , SQ , OBQ , PMBQ , or AMBQ , as shown in Figure 2 ) . 
+The framework is shown in Figure 3 . 
+To achieve this goal , the primary task is to define effective features that can capture the characteristics of different temporal pattern types . 
+Query temporal pattern detection framework . 
+When a user submits a query , we first build its time series curve by mining query logs . 
+If we can not build a valid curve due to sparse or missing data , we approximate the curve from document data sets . 
+Then , we preprocess the curve and extract the features . 
+Finally , a classifier is used to detect the query 's temporal pattern ( SVM is used in this article . 
+) We will discuss the main aspects of the framework marked in bold in Figure 3 . 
+For most queries , we can determine F ( q ) by mining the query logs . 
+However , there are some queries , especially long queries , for which we can not determine F ( q ) due to the insufficient search volume of the query logs . 
+For example , if we submit “ a Canadian publishing house book ” to Google Trends,22 http : //www.google.com/trends/explore it returns “ Not enough search volume to show graphs. ” Thus , for these queries , we investigate how to estimate F ( q ) without the use of query logs . 
+We present two estimation approaches based on the following phenomenon . 
+There are basically two roles on the Internet : information publishers and information hunters . 
+Intuitively , they act consistently over time . 
+In other words , when an event occurs , information publishers publish the related news articles , and information hunters simultaneously submit queries to search them . 
+The number of relevant articles reflects the popularity of corresponding queries , and vice versa ( Adar , Teevan , Dumais , & Elsas , 2009 ; Dakka , Gravano , & Ipeirotis , 2012 ) . 
+We expect to construct the time series F ( q ) from the documents corpus when their search records in query logs are not sufficient to build the curves . 
+Two approaches , document‐level approximation ( DLA ) and word‐level approximation ( WLA ) , are proposed to solve this problem from different levels . 
+P ( w |t ) is the probability of generating the query word w within the time interval t and is estimated as the term frequency ( TF ) of w within t divided by the TF of all words within t in the document 's corpus with Laplace smoothing . 
+DF ( w ) is the document frequency ( DF ) of word w . 
+From the perspective of language models for information retrieval , P ( w |q ) is the query language model . 
+However , most user queries are short , so P ( w |q ) is usually estimated with some interpolation approaches ( Manning , Raghavan , & Schütze , 2008 ) . 
+In the article , we use the TF of word w divided by the TF of all words of query q in the top k Google search results to estimate P ( w |q ) . 
+k is still set to 100 . 
+Two instances , “ Earthquake ” and “ Boston Marathon , ” are shown in Figure 4 , in which the dash‐dot line is the real time series curve built from query logs . 
+We can see that the three curves fluctuate almost consistently over time . 
+Time series curve approximation instances . 
+The query popularity can exhibit an overall increasing or decreasing trend over time . 
+The trend component mt encodes this property . 
+However , mt has nothing to do with temporal pattern types . 
+st and Yt are what we care about here . 
+Therefore , we should first remove mt from F ( q ) . 
+Here , we use polynomial fitting to model mt . 
+After we determine W , mt is computed as mt = WTXt . 
+Then , for each point of a given curve , we remove mt from ft ( q ) and finally obtain a processed version of the original curve . 
+Some instances are shown in Figure 5 . 
+The solid line denotes the original curve F ( q ) . 
+The dotted line denotes the trend component mt . 
+The dashed line denotes the remaining two components st + Yt . 
+Removing the trend component . 
+Three groups of features are proposed for the machine‐learning model in this article : basic features , curve distance features , and regression features . 
+Features 1 to 4 are basic features , Features 5 to 8 are curve distance features , and Features 9 to 11 are regression features , as shown in Table 2 . 
+We describe them in detail next . 
+Features 1–2 . 
+SQ is stable while NSQ is burst ; therefore , to distinguish them , the mean and standard deviation ( SD ) of Fq are two obvious features . 
+MS represents the proportion of the maximum search volume . 
+If the inequality is satisfied , we increase the count of satisfied queries for the corresponding m value . 
+m values are tested from 1 month to 6 months . 
+The final result is shown in Figure 6 . 
+The x‐axis represents different values of 2m . 
+The y‐axis represents the proportion of queries satisfying Inequality 11 . 
+We can see that if 2m = 4 , it can cover at least 74.6 % of queries regardless of the different values of r . 
+Thus , without a loss of generality , we set m = 2 months in this article . 
+Analysis of average spike duration . 
+Approximate cutoff of training data . 
+We use the former eight features ( Features 1–8 ) as the features of support vector regression ( SVR ) ( C.C . 
+Chang & Lin , 2011 ) to learn a nonlinear model as the cutoff function . 
+For SVR , we use Gaussian kernel function with the default parameter settings in LIBSVM ( C.C . 
+Chang & Lin , 2011 ) . 
+As stated earlier , the cutoff can be used to detect spikes of Fq roughly , and we define the number of these detected spikes as the 10th feature , Number of Spikes . 
+If multiple spikes exist , we use yi to represent the time interval between the middle points of two neighboring spikes . 
+Then , we obtain a sequence y 1 , y 2 , … , yw . 

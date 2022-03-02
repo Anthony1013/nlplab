@@ -1,0 +1,130 @@
+Red represents a significant decrease ; green a significant increase . 
+.371**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.054****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−2.66****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.450**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.297**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.417****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.008****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.006****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.040****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.004**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.001**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.039****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.038****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.075**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−6.94**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.080**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.036***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.178***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.005****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.011***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.023***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+A complementing view of contributors ' activity pertains to the nature of edits performed in the coproduction of the encyclopedic entries . 
+Table 5 reports on the results of comparing pre‐ and postrole‐assignment‐events activity profiles for the contributors ( in terms of activity count ) . 
+When turning our attention to the nature of activities within the “ Main ” namespace , we note differences in pre‐ and postevent activities for 8 of the 12 access privileges in this analysis ( 37 of 132 = 28 % of access‐privileges/edit‐types combinations tested with a significant difference when using the edit count metric , and 71 % when using edit size ) . 
+In an attempt to analyze the linkage between “ production ” activity profiles and functional roles through a different lens , we associated each activity profile with one of the “ emergent roles ” identified in Arazy et al . 
+( 2016 ; based on the minimal distance between activity profile and the vector representing each emergent role ) and studied changes in these emergent roles . 
+Corroborating our earlier findings , our results show that in 27 % of the cases role‐assignment events are associated with a change in emergent role ( i.e. , in the remaining cases , 73 % , contributors stick to their emergent role in spite of being assigned a new functional role ) . 
+−.301****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−2.23****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−4.94****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.452****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.40****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.696****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.441****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+11.39****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.479****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.400****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.414****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.11****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.96****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.154****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.073****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.286****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.118**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.549****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+.071***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.248***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.19****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.441****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.155****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.158****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.525****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−4.36****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−7.08***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−2.15**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.90***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−.458***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.53**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+1.14****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+3.25***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−1.04***p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+1.25****p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−2.42**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+−3.97**p < .05 ; **p < .01 ; and ***p < .001 ( adjusted with FDR ) . 
+Red represents a significant decrease ; green a significant increase . 
+As observed in the namespace analysis , although some roles assignment events are associated with a significant change in activity patterns , other role transitions do not entail such activity changes . 
+The analysis of edit count showed that activity patterns are most likely to change with the assignment of the rollbacker , reviewer , and autoreviewer access privileges ( other access privileges show very little differences in pre/postrole‐assignment activity ) . 
+Also , the vast majority of access privileges recorded a significant change the size of their edits as a result of role‐assignment events . 
+Turning our attention to the particular types of production edits , we see that the production edits of “ Add Content ” and “ Miscellaneous ” showed the most differences , whereas the edits of “ Add Vandalism , ” “ Rephrase Text , ” and “ Add Citations ” showed the least differences . 
+A synthesis of the results presented in Tables 4 and 5 highlights key patterns in the interplay between participants ' structural roles and the changes in their activity patterns pre/postrole‐assignment events . 
+Namely , we found that ( a ) participants often stay close to the “ production ground floor ” and persist in ( some of ) their editing patterns even when assigned a functional role ; and ( b ) when changing their activity pattern as a result of role‐assignment , these behavioral changes follow a few common patterns . 
+Our findings suggest that in over half of the role‐transition events , participants do not change their behavior patterns substantially ( i.e. , the changes are statistically insignificant , after applying the FDR correction ) . 

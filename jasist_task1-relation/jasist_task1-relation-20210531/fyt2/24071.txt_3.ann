@@ -1,0 +1,49 @@
+T2	引文作者 1609 1614	Jiang
+T3	引文作者 1617 1620	Liu
+T4	引文作者 1623 1626	Lin
+T5	引文作者 1631 1636	Cheng
+T6	引文时间 1639 1643	2015
+T7	引文作者 1600 1604	J.‐Y
+T8	表 1656 1856	Table 5 shows the ranking performance of our method with single parameter ( SP ) , that is , fixed λ , and multiple parameters ( MP ) , that is , learned , and original ranker over different data sets
+T11	引文作者 2777 2782	Cheng
+T12	引文时间 2785 2789	2015
+T13	引文作者 2767 2770	Lin
+T14	引文作者 2761 2764	Liu
+T15	引文作者 2753 2758	Jiang
+T16	引文作者 2744 2748	J.‐Y
+T17	表 3249 3342	Table 7 shows that the performance of our unsupervised approach with different weights C 's .
+T18	表 3686 3794	For the adjustment of parameters , two queries with three different URLs are provided as examples in Table 8
+T19	表 2877 3060	Table 6 shows that the performances of our approach is comparable to that of supervised approach in all data sets even under the condition of no click‐through data as the ground‐truth
+T20	图 4572 4710	For topical clusters , Figure 6a shows the difference of using URL‐patterns ( green dotted line ) and URL sub‐patterns ( blue solid line )
+T21	图 5531 5620	For the choice of K in K‐Nearest‐Neighbors , Figure 7 shows performance over various K 's
+T22	图 6063 6271	[ Color figure can be viewed at wileyonlinelibrary.com ] Besides , we are concerned about the influence of different features on parameter λ and compute absolute values of feature weights as shown in Figure 8
+T23	图 5237 5364	Figure 6b shows the performance of using query intent templates ( blue solid line ) and using entities only ( red dotted line )
+T25	研究方法 4231 4481	To further discuss the impact of quality of search intent and topcial clusters , we use URL sub‐patterns to show the impact of topcial clusters and utilize query intent templates and parameter K to demonstrate the importance of search intent clusters
+T26	研究结果 5906 6006	Overall , the quality of coclustering does significantly affect the improvement of relevance ranking
+T27	研究问题 5150 5232	we analyze the influence of quality of search intent clusters to relevance ranking
+T28	研究问题 4242 4309	discuss the impact of quality of search intent and topcial clusters
+T29	研究结果 6833 7093	According to the experimental results , we can summarize four evidences to verify the applicability of the cocluster hypothesis as follows : Our unsupervised ranking consistency approach significantly improves relevance ranking by improving ranking consistency
+T30	研究结果 7098 7189	Ranking consistency could be treated as one of the applications of the cocluster hypothesis
+T31	研究结果 7194 7280	The impact of cocluster relevance scores is greater than the impact of original scores
+T32	研究结果 7285 7409	It 's possible to leverage the relationship between search intent clusters and topical clusters to improve relevance ranking
+T33	研究结果 7414 7516	The quality of search intent clusters and topical clusters significantly affects the relevance ranking
+T34	研究结果 7521 7622	Our proposed approach is general to simultaneously rank queries of entities that have different types
+T35	研究展望 9133 9297	Future work will consider applying the cocluster hypothesis to other applications and developing content‐based methods for discovering topical clusters of web pages
+T24	研究结果 8884 8988	The results demonstrate the applicability of the cocluster hypothesis in relevance ranking of web search
+T36	研究结果 8993 9128	Furthermore , the proposed unsupervised approach has been also shown its comparability with a supervised approach in search performance
+T37	研究方法 7729 7801	In this work , we propose a so‐called cocluster hypothesis in web search
+T38	研究方法 7806 7943	The cocluster hypothesis intuitively connects requests with closely associated search intents to web pages with closely associated topics
+T39	研究方法 8211 8320	We propose a two‐stage unsupervised approach to improve ranking consistency based on the cocluster hypothesis
+T40	研究方法 8325 8466	In this approach , entities and query intent templates are defined as search intents while URL sub‐patterns are extracted as topical clusters
+T41	研究方法 8471 8622	To take the advantages of cocluster ranks and original ranks , we re‐rank search results by ensemble of two relevance scores with a novel cost function
+T42	研究方法 8627 8712	The parameter for combining two scores is featurized and learned for distinct queries
+R1	coauthor Arg1:T15 Arg2:T14	
+R2	coauthor Arg1:T14 Arg2:T13	
+R3	coauthor Arg1:T13 Arg2:T11	
+R4	has_cited_time Arg1:T12 Arg2:T11	
+R5	coauthor Arg1:T16 Arg2:T15	
+R6	coauthor Arg1:T7 Arg2:T2	
+R7	coauthor Arg1:T2 Arg2:T3	
+R8	coauthor Arg1:T3 Arg2:T4	
+R9	coauthor Arg1:T4 Arg2:T5	
+R10	has_cited_time Arg1:T6 Arg2:T5	

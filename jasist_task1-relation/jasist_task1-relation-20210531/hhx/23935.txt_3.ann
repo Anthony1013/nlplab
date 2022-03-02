@@ -1,0 +1,64 @@
+T1	术语 38 67	local clustering coefficients
+T2	术语 72 104	average degree of node neighbors
+T3	术语 129 166	average local clustering coefficients
+T4	术语 171 198	average degree of neighbors
+T5	标准数据集 226 234	SUB‐PNAS
+T6	标准数据集 239 243	PNAS
+T7	研究结果 461 607	The model design leads that only those non‐lead nodes very close to lead nodes in space distances could receive new “ collaborators ” persistently
+T8	术语 731 738	C ( k )
+T9	图 687 846	The analysis in Appendix shows the tails of C ( k ) of modeled networks are proportional to , which are similar to those of the empirical networks ( Figure 6 )
+T10	标准数据集 879 888	DBLP‐Math
+T11	标准数据集 914 918	PNAS
+T12	标准数据集 942 946	PNAS
+T13	术语 1161 1168	C ( k )
+T14	标准数据集 1172 1180	sub‐PNAS
+T15	图 1108 1229	The explanation can be confirmed through the tail of C ( k ) of sub‐PNAS , which is clearly proportional to ( Figure 8b )
+T16	引文作者 1298 1301	Xie
+T17	引文时间 1311 1315	2016
+T18	术语 1341 1348	N ( k )
+T19	术语 1353 1360	C ( k )
+T20	研究结果 1234 1428	The model overcomes two fitting defects of our previous model ( Xie et al. , 2016 ) , namely the functions N ( k ) and C ( k ) of modeled networks are more similar to those of the empirical data
+T21	术语 1470 1477	N ( k )
+T22	引文作者 1582 1585	Xie
+T23	引文时间 1595 1599	2016
+T24	图 1447 1614	the increasing part of N ( k ) here is longer than that of our previous result with the same parameter μ ( see Figure 5 in Reference ( Xie et al. , 2016 ) , Figure 6 )
+T25	术语 1897 1917	degree associativity
+T26	术语 2014 2021	P ( k )
+T27	术语 2053 2060	C ( k )
+T28	标准数据集 2139 2148	DBLP‐Math
+T29	图 1994 2170	A small μ makes the P ( k ) ( with a small hook head ) and C ( k ) ( with a smooth transition ) of Modeled network 2 are all similar to those of DBLP‐Math ( Figures 4b and 6b )
+T30	图 2231 2280	4 in Reference ( Xie et al. , 2016 ) , Figure 7 )
+T31	引文作者 2248 2251	Xie
+T32	引文时间 2261 2265	2016
+T33	术语 2397 2418	coauthorship networks
+T34	研究结果 2616 2816	The model applies a geometric way to understand specific aspects of collaboration behaviors and provides remarkable predictions of a range of topological and statistical features of the empirical data
+T35	术语 3100 3109	homophily
+T36	术语 3196 3210	Matthew effect
+T37	研究结果 3228 3388	The model reveals how the decisions of heterogeneous individuals in a social network generate a range of complex properties , such as scale‐free and small‐world
+T38	研究结果 3393 3511	The model addresses a basic question in complexity : do there also exist inherent rules behind the social complexity ?
+T39	术语 3915 3927	Poisson head
+T40	术语 3934 3948	power‐law tail
+T41	术语 4078 4101	cooperative game theory
+T42	术语 4106 4133	social affiliation networks
+T43	术语 4215 4229	Matthew effect
+T44	引文作者 4771 4779	Peterson
+T45	引文作者 4782 4788	Pressé
+T46	引文作者 4793 4797	Dill
+T47	引文时间 4800 4804	2010
+T48	引文的研究问题 4723 4768	the transition phenomena in citation networks
+T49	术语 5228 5249	coauthorship networks
+T50	术语 5259 5278	clustering property
+T51	研究结果 5166 5278	The model shows the generating process of giant components in coauthorship networks and high clustering property
+T52	研究展望 5283 5341	Now the model is restricted to two dimensional spacetime .
+T53	引文作者 5811 5818	Zuccala
+T54	引文时间 5821 5825	2006
+T55	引文的结果 5668 5808	a set of interacting researchers who share similar research interests , even though geographically affiliated to distant research institutes
+R1	has_cited_time Arg1:T17 Arg2:T16	
+R2	has_cited_time Arg1:T23 Arg2:T22	
+R3	has_cited_time Arg1:T32 Arg2:T31	
+R4	coauthor Arg1:T44 Arg2:T45	
+R5	coauthor Arg1:T45 Arg2:T46	
+R6	has_cited_time Arg1:T47 Arg2:T46	
+R7	produces Arg1:T44 Arg2:T48	
+R8	results Arg1:T53 Arg2:T55	
+R9	has_cited_time Arg1:T54 Arg2:T53	

@@ -1,0 +1,130 @@
+Reused Reused‐translation The chief minister said , “ [ I ] will personally monitor the program of the construction and repair of roads in rural areas and will review the progress after every fifteen days. ” NC passage pair example Source The Chief Minister directed that the program of Google mapping of the land be extended to the whole province and an effective awareness campaign be initiated regarding the importance of the project . 
+He appreciated concerned institutions and authorities over speedy progress on the project and said that it was a public‐welfare project and would directly benefit the masses . 
+Reused Reused‐translation The Chief Minister directed that the scope of Google mapping program of the land be extended to the entire Punjab and effective awareness campaign be launched to highlight the importance of the project . 
+The Chief Minister also praised the relevant institutions and authorities on the rapid progress of the project and said that it is an extremely important project of public interest , which would directly benefit the masses . 
+NC sentence pair example Source The chief minister said he would personally monitor the programme of repair and construction of roads in rural areas and review the pace of progress on fortnightly basis . 
+Reused Reused‐translation The chief minister said , “ [ I ] will personally monitor the program of the construction and repair of roads in rural areas and will review the progress after every fifteen days. ” NC passage pair example Source The Chief Minister directed that the program of Google mapping of the land be extended to the whole province and an effective awareness campaign be initiated regarding the importance of the project . 
+He appreciated concerned institutions and authorities over speedy progress on the project and said that it was a public‐welfare project and would directly benefit the masses . 
+Reused Reused‐translation The Chief Minister directed that the scope of Google mapping program of the land be extended to the entire Punjab and effective awareness campaign be launched to highlight the importance of the project . 
+The Chief Minister also praised the relevant institutions and authorities on the rapid progress of the project and said that it is an extremely important project of public interest , which would directly benefit the masses . 
+The next two examples show cross‐language Paraphrased Copy sentence and passage pairs from the corpus . 
+In both examples , the reused text is either compressed or expanded version of the source text . 
+Although the content is similar , both texts convey the same information . 
+It can also be noted that words ( or phrases ) have been reordered to generate the reused text . 
+In the first example , the source text has only one sentence whereas the derived text has been split into two sentences , whereas in the second example , the source passage is comprised of two sentences whereas the reused text has been reduced to only one sentence . 
+Furthermore , some words have been replaced with appropriate synonyms . 
+For instance , “ king ” is replaced with “ Shah Abdullah , ” “ Medical City ” with “ Medical Center ” in the reused text . 
+The second example also exhibits a temporal change , as in the source text the age of the person mentioned “ around 90 ” is replaced with “ 91 ” in the derived text . 
+These transformations highlight the fact that complex rewriting operations have been used by the journalists . 
+However , while creating the derived text from the source text , meanings of the source text have been preserved . 
+PC sentence pair example Source Prime Minister Nawaz Sharif recalled that in start of December he had announced reduction of 2.32 rupees per unit in prices of electricity , but the announcement was deferred because of Peshawar school tragedy . 
+Reused Reused‐translation Prime Minister said that the price of electricity has been decreased by 2 rupees 32 paisas per unit . 
+In the coming days [ we ] are trying to make electricity more affordable . 
+PC passage pair example Source The king , whose age and frequent hospitalization have raised concerns about the future leadership of the key oil producer , was admitted to the King Abdulaziz Medical City in Riyadh , a court statement carried by the official SPA news agency said . 
+The king is believed to be around 90 although his exact age is unknown . 
+Reused Reused‐translation According to Saudi media reports , 91‐year‐old Shah Abdullah is unwell and has been moved to King Abdulaziz Medical Centre in Riyadh for medical check‐up where some important tests will be performed on him . 
+PC sentence pair example Source Prime Minister Nawaz Sharif recalled that in start of December he had announced reduction of 2.32 rupees per unit in prices of electricity , but the announcement was deferred because of Peshawar school tragedy . 
+Reused Reused‐translation Prime Minister said that the price of electricity has been decreased by 2 rupees 32 paisas per unit . 
+In the coming days [ we ] are trying to make electricity more affordable . 
+PC passage pair example Source The king , whose age and frequent hospitalization have raised concerns about the future leadership of the key oil producer , was admitted to the King Abdulaziz Medical City in Riyadh , a court statement carried by the official SPA news agency said . 
+The king is believed to be around 90 although his exact age is unknown . 
+Reused Reused‐translation According to Saudi media reports , 91‐year‐old Shah Abdullah is unwell and has been moved to King Abdulaziz Medical Centre in Riyadh for medical check‐up where some important tests will be performed on him . 
+The final two examples are the cross‐language Independently Written sentence and passage pairs . 
+It can be noted that both source and derived texts are describing the same news . 
+However , the facts , figures , or contents are altered , and the way of expression is entirely different . 
+In addition , some new ( but related ) information is also added in the reused text which is not present in the source text . 
+This shows that reused text is generated independently of the source text and any overlap of words is very low between the text pair . 
+IW sentence pair example Source Prime Minister Muhammad Nawaz Sharif Wednesday announced further reduction in the prices of petroleum products , which will be effective from January 1 , 2015 . 
+Reused Reused‐translation Prime Minister Nawaz Sharif has announced reduction in prices of petroleum products up to Rs . 
+14 per liter . 
+Petrol 6.25 , diesel 7.86 , kerosene oil 11.26 rupees per liter cheaper [ than before ] . 
+IW passage pair example Source The sources said that two inmates of a house in the precincts of PS Brewery died because of suffocation caused by the gas leakage . 
+The victims were shifted to Bolan Medical College Hospital and later their bodies were handed over to the heirs . 
+Further probe was in progress . 
+Reused Reused‐translation According to rescue sources , the incident took place in Hazara Town and those in one room of the house left the gas heater on and slept . 
+Because of the gas filling in the room two real brothers died of suffocation while sleeping . 
+IW sentence pair example Source Prime Minister Muhammad Nawaz Sharif Wednesday announced further reduction in the prices of petroleum products , which will be effective from January 1 , 2015 . 
+Reused Reused‐translation Prime Minister Nawaz Sharif has announced reduction in prices of petroleum products up to Rs . 
+14 per liter . 
+Petrol 6.25 , diesel 7.86 , kerosene oil 11.26 rupees per liter cheaper [ than before ] . 
+IW passage pair example Source The sources said that two inmates of a house in the precincts of PS Brewery died because of suffocation caused by the gas leakage . 
+The victims were shifted to Bolan Medical College Hospital and later their bodies were handed over to the heirs . 
+Further probe was in progress . 
+Reused Reused‐translation According to rescue sources , the incident took place in Hazara Town and those in one room of the house left the gas heater on and slept . 
+Because of the gas filling in the room two real brothers died of suffocation while sleeping . 
+Further to highlight the breadth of reuse in our corpus , we carried out a linguistic analysis by investigating the most common edit operations ( or transformations ) that have been used to generate the reused text ( in Urdu ) from the source text ( in English ) . 
+For our study , we have explored ten different types of transformations ( following the taxonomy used by Clough , [ 2012 ] , which are described , with examples , as follows . 
+Temporal change ( time/date change ) : This involves changing time or date from the source text to create the new text ( e.g. , today — yesterday , 1998 — last year , earlier in this year — March etc. ) . 
+Below is an example from the corpus that shows the use of word “ ” ( today ) to replace the day/date “ Tuesday , 30 Dec . 
+” 77 In all the examples , words are underlined to highlight them . 
+Trade bodies announced to close the city markets to mourn the sad incident on Tuesday , Dec 30 . 
+Change of tense : This involves creating the new text by making a shift in the tense . 
+For instance , present tense can be changed to past tense ( e.g. , he is going — he went ) . 
+The example that follows shows a source sentence with past tense has been rewritten with present tense . 
+They were awarded death sentence over insufficient proof . 
+Use of pronoun for proper noun : While reusing text , proper noun can be changed to pronoun and vice versa ( e.g. , John Walker — he ) . 
+The following example from our corpus exhibits the use of a proper noun “ ” ( Nawaz Sharif ) in derived text . 
+This is part of my vision of a developed KPK and a real Naya Pakistan , he said . 
+Change in phrase order : In this type of transformation , the order of words or phrases in a text are changed when reusing it . 
+The corpus has plenty of such examples and one of them is shown below ( because Urdu is written RTL , the underlined phrase in the Urdu text is actually the last phrase in the sentence ) . 
+No further information was immediately available , and the cause of the incident was being investigated . 
+Addition/deletion of text : This involves adding new information or deleting text in the source fragment to create the derived one . 
+The following example shows addition of new information “ ” ( held from Pakistan ) at the end of derived text . 
+US transfers five Guantanamo detainees to Kazakhstan . 
+Change of voice : Sometimes the source text is converted from active to passive voice ( or vice versa ) to create the new text . 
+We show here one such example from our corpus . 
+Director General Inter‐Services Intelligence ( ISI ) Lt. General Rizwan Akhtar on Saturday called on Prime Minister Muhammad Nawaz Sharif at the Prime Minister 's House . 
+Change in name/title reference : This type of change occurs when a title/designation is replaced with the actual name or vice versa ( e.g. , John Smith — director ) . 
+Below is an example in which “ PM ” ( Prime Minister ) is replaced by “ ” ( Nawaz Sharif ) in the derived text . 
+PM orders to cut power tariff by Rs 2.32 . 
+Direct to indirect : This type of transformation occurs when a text is converted from direct to indirect speech or vice versa ( e.g. , Ali said , “ I am writing a letter now ” . 
+— Ali said that he was writing a letter then. ) . 
+Below is the example from our corpus which shows a sentence changed from direct to indirect speech . 
+“ They must tell the players their requirement from the players , ” he said . 
+Change in expression : This type involves the change of exact figures with estimations or rewordings ( e.g. , 20 % — one in five ) . 
+The example that follows shows the injured persons figure of “ 40 ” replaced with “ ” ( several injured ) in the derived text . 
+Yemen suicide bomber kills 33 at Shiite celebration , over 40 injured . 
+Synonym substitution : This type exhibits the replacement of a word or phrase with an appropriate synonym . 
+The following example shows a word “ embarrassment ” and a phrase “ wrong facts and figures ” in the source text substituted with “ ” ( humiliation ) and “ ” ( erratic ) , in the derived text , respectively . 
+Imran Khan presented wrong facts and figures in his recent news conference addressed at Banigala to avoid embarrassment . 
+To investigate the usage of the above transformations in our CLEU corpus , we took a random subset of 189 pairs ( 63 NC , 63 PC , and 63 IW ) from the corpus.88 To start , we randomly selected 75 examples per class , but to have the same number of sentences ( 40 ) and passages ( 23 ) across all three classes , some of the example pairs were removed . 
+We manually computed the frequencies of the 10 transformations in the subset of 189 pairs . 
+Note that because of large size of the corpus , it was very difficult and time consuming to compute these frequencies for the entire corpus , therefore , a reasonable subset is used.99 As the subset of pairs were randomly selected , we believe that the edit operations appearing in the subset will exhibit the same proportions throughout the corpus . 
+Table 3 shows the absolute ( fr abc ) and relative ( fr rel ) frequencies of transformations in the set of 63 each Near Copy , Paraphrased Copy , and Independently Written pairs . 
+For Near Copy pairs , the most common edit operation is “ Synonym substitution ” ( 0.263 ) followed by “ Temporal change ” ( 0.210 ) and “ direct to indirect ” ( 0.210 ) . 
+As expected , four of the transformations have ( 0 ) frequency . 
+This demonstrates the fact that when sentence/passage pairs have Near Copy relations , they are almost exact copy of each other and very few edit operations are involved . 
+For Paraphrased Copy pairs , “ Addition/deletion of text ” is the most common edit operation ( 0.268 ) , followed by “ Synonym substitution ” ( 0.194 ) , and “ Change in phrase order ” 0.127 . 
+This demonstrate that these three are the favorite text altering operations used by the journalists in rewriting a newspaper story using the news agency 's text . 
+Although other transformations have relatively low frequencies , but almost all the edit operations are being used in creating derived text ( total = 149 ) . 
+This means that complex rewriting has been used to create the Paraphrased Copy text . 
+Finally , the absolute and relative frequencies of edit operations for the Independently Written pairs shows “ Addition/deletion of text ” transformation has the highest frequency ( 0.385 ) which is like Paraphrased Copy pairs . 
+However , this relative frequency is much higher than the second best “ Change of tense ” ( 0.117 ) . 
+This shows that in Independently Written pairs information is frequently added or deleted . 
+Moreover , it further highlights the fact that reused text is independently written without borrowing text from the news agency 's copy . 
+In this section , we describe the cross‐language text reuse detection experiments that we performed on our corpus . 
+A recent study ( Barrón‐Cedeño , Gupta , & Rosso , 2013 ) compared different text similarity estimation methods and showed that Translation + Monolingual Analysis ( T+MA ) outperformed others . 
+Therefore , we also applied the same approach to our corpus . 
+In T+MA , the overall approach is to translate the derived text to the language of the source text and then apply state‐of‐the‐art mono‐lingual analysis methods . 
+Therefore , to start with , we translated all the derived text sentence/passage pairs from Urdu to English language using an MT system , that is Google Translate . 
+In the second phase , we applied several mono‐lingual text similarity estimation methods such as , Word n‐gram overlap , Longest Common Subsequence , and Greedy String Tiling , on our corpus . 
+The Word n‐gram overlap method tries to estimate the amount of common n‐grams between source and derived texts . 
+It has been observed that overlapping of longer chunks of n‐grams indicates a potential text reuse ( Adeel Nawab , Stevenson , & Clough , 2012 ; Clough & Stevenson , 2011 ) . 
+It is one of the simplest method used in text reuse detection that could easily be applied on a large collection of texts because of its low complexity . 
+As our corpus contains sentence/passage level data ( smaller units than a document ) , we computed the scores for lengths of n from [ 1–3 ] ( i.e. , Unigram , Bigram , and Trigram , see the Results and Discussion section ) using overlap similarity measure ( Manning & Schütze , 1999 ) . 
+Moreover , we merged the set of all three features ( i.e. , Unigram , Bigram , and Trigram ) as combined ( Combined , see the Results and Discussion section ) input to the classification task . 
+Some of the other text reuse detection methods based on string matching algorithms are the Longest Common Subsequence ( LCS ) and Greedy String Tiling ( GST ) . 
+LCS is typically used for comparing files whereas GST is specifically proposed for plagiarism detection in texts ( Wise , 1993 ) . 
+The Longest Common Subsequence of two texts , X and Y , is the longest group of elements that are common between the two and in the same order in each text . 
+For example , the sequences “ ABCDGH ” and “ AEDFHR ” have an LCS of “ ADH. ” For each source and derived sentence/passage pair , we computed the normalized Longest Common Subsequence score ( LCSnorm , see the Results and Discussion section ) by dividing the length of LCS on the length of the shorter text . 
+Greedy String Tiling identifies the longest rewritten sequence of substrings from the source text and returns the sequence as tiles ( for which a minimum match length [ mml ] value is provided ) paired with the derived text . 
+It is a powerful algorithm as it can detect matches even if some of the text is deleted or if additional text has been inserted . 
+We used the well‐known Running Karp‐Rabin Matching and Greedy String Tiling ( RKR‐GST ; Wise , 1993 ) implementation and experimented with mml lengths of [ 1‐3 ] ( i.e. , GST‐mml1 , GST‐mml2 , and GST‐mml3 , see the Results and Discussion section ) . 
+In this section , we describe the set of experiments performed on our corpus . 
+To estimate the similarity between source and derived text pairs , we designed three sets of experiments ( i.e. , Exp1 , Exp2 , and Exp3 ) . 
+For Exp1 , we used the source and derived texts without any preprocessing settings . 
+For Exp2 , we excluded all the stop words1010 We used the English stop words list from NLTK http : //www.nltk.org from both source and derived texts , then ran the experiment . 
+For Exp3 , after removing stop words , we further stem the source and derived texts using the Snowball stemmer ( Porter , 2001 ) . 
+The reason for including Exp2 and Exp3 was to analyze the effect of preprocessing on text reuse detection experiments . 
+For all three experiments , the whole corpus ( i.e. , 751 NC , 1,751 PC , and 733 IW pairs ) was used . 
+Moreover , we investigated both binary and ternary classifications settings for each experiment . 

@@ -1,0 +1,5 @@
+We clearly observed N300 responses . 
+Further , we determined that the fronto‐central N400 effect showed a more negative ERP response to topic‐irrelevant shots than to topic‐relevant shots . 
+In contrast , the fronto‐central P600 effect elicited a more positive ERP signal to topic‐relevant shots than to topic‐irrelevant shots . 
+We conducted linear discriminant and ANN analyses to decode video‐shot relevance . 
+We observed that both methods produced high classification success rates ( ANN : 91.3 % , 100 % ; discriminant analysis : 76 % , 74 % ) . 

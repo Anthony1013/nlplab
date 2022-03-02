@@ -1,0 +1,130 @@
+Text reuse , the process of creating new texts using existing ones , has become very common because of free , readily available , and large digital repositories . 
+In addition , state‐of‐the‐art text processing applications have made it very simple to copy‐paste text and give it a new identity . 
+Text borrowed from such sources can be reused verbatim ( copy‐paste ) or rewritten ( paraphrased ) . 
+If the rewriting process involves complex editing operations ( e.g. , lexical substitution , changes in syntax , summarization , synonym replacement , altering word order , or verb or noun nominalization ) then the borrowed text transforms into an independently written piece ( Clough , Gaizauskas , Piao , & Wilks , 2002 ; Maurer , Kappe , & Zaka , 2006 ) . 
+Moreover , new text can be created using text from one or more sources and the amount of reused text varies from local text reuse ( such as , a single word , small chunks , or sentences ) to global text reuse ( i.e. , an entire document ; Mittelbach , Lehmann , Rensing , & Steinmetz , 2010 ; Seo & Croft , 2008 ) . 
+Unlike academic plagiarism ( the unacknowledged reuse of text ) , text reuse is a common practice in journalism . 
+Newspapers pay news agencies for their text ( s ) ( here termed source text ) to generate news stories ( termed derived text ) . 
+The text purchased from a news agency can be reused “ verbatim ” or “ paraphrased ” to create the newspaper story . 
+However , at times the newspaper story might also be independently written without using any news agency text ( Clough , 2010 ) . 
+Text reuse can either be mono‐lingual ( when the source and derived text share the same language ) or cross‐lingual ( when the source text is in one language and the derived text is in another ) . 
+Mono‐lingual text reuse detection has been a subject undergoing intense study for the research community for some time , but recently the focus has shifted towards detecting text reuse across languages ( Ceska , Toman , & Jezek , 2008 ; Franco‐Salvador , Gupta , Rosso , & Banchs , 2016 ; Gupta , Barrón‐Cedeño , & Rosso , 2012 ; Potthast , Barrón‐Cedeño , Stein , & Rosso , 2011 ) . 
+A recent study suggested that the scale of cross‐language text reuse and plagiarism is increasing ( Barrón‐Cedeño , Gupta , & Rosso , 2013 ) . 
+This is because of the following reasons : ( a ) users of under‐resourced languages , which are very large in number , commonly use text ( s ) from resource‐rich languages , ( b ) speakers of one language staying in a country other than their own can consult the text ( s ) in their native language , and ( c ) often speakers of one language are keen to write in a foreign language . 
+Likewise , the recent rise in multi‐linguality , freely available machine translation systems , and intelligent word processors are contributing to an environment where it is easy to reuse text across languages , but with a perception of being harder to detect such reuse ( Somers , Gaspari , & Niño , 2006 ) . 
+Therefore , there is an ever‐increasing necessity to develop standard evaluation resources and methods to detect cross‐language text reuse for the various language pairs . 
+To develop , evaluate , and analyse methods for cross‐language text reuse ( either local or global ) , gold standard benchmark corpora are needed . 
+These corpora can be generated in three ways : ( a ) artificial ‐ using an automatic text altering tool , ( b ) simulated ‐ humans are asked to rewrite source text to create new text , and ( c ) real ‐ new agency 's text is reused by journalists to create the newspaper story . 
+It seems likely that cross‐language text reuse detection methods which are trained on real examples are more likely to give realistic performance that we investigate further in our paper . 
+This study aims to develop a publicly available large‐scale benchmark corpus that contains real examples of cross‐language text reuse at sentence/passage level11 The corpus contains both sentences as well as small paragraphs or passages ( up to 5 sentences ) hence why the term sentence/passage is used when referring to the level of reuse . 
+for the English‐Urdu language pair . 
+Urdu belongs to the Indo‐Aryan family , widely spoken in Pakistan and the northern parts of India ( Alam , Mehmood , & Nelson , 2015 ) . 
+Moreover , it has a strong Perso‐Arabic influence in its vocabulary and is written in a Perso‐Arabic script from right to left . 
+It is also spoken world‐wide because of the South Asian Diaspora ( with large populations in the Middle East , United States , UK , Norway , and Canada etc . 
+; Daud , Khan , & Che , 2016 ) . 
+Despite that , for the English‐Urdu language pair , there are no publicly available cross‐language text reuse detection datasets known to us . 
+Moreover , previous research has tended to focus more on European languages . 
+The corpus developed as an outcome of this study contains 3,235 pairs of real examples of cross‐language text reuse at sentence/passage level ( the source text is in English whereas derived text is in Urdu ) . 
+Each sentence/passage pair is categorised as i ) Near Copy ( NC ; 751 pairs ) , ii ) Paraphrased Copy ( PC ; 1751 pairs ) , or iii ) Independently Written ( IW ; 733 pairs ) . 
+The corpus is representative enough to serve as a benchmark dataset for : ( a ) developing and evaluating techniques for cross‐language text reuse detection for the English‐Urdu language pair , ( b ) obtaining an insight into what edit operations are likely used by journalists in reusing text , and ( c ) to foster text reuse detection research in the English‐Urdu language pair . 
+The remainder of this article is organized as follows . 
+We first review previously developed cross‐lingual text reuse or plagiarism detection corpora . 
+Then we present a detailed discussion on the CLEU corpus construction , its statistics , characteristics , linguistic analysis , and example cases . 
+This is followed by the explanation of cross‐language text reuse detection experiments that we performed on our corpus to highlight its strengths and its utility for evaluation purposes . 
+Finally , we present the results and their analysis and then conclude the article . 
+In the previous literature , efforts have been made to develop standard evaluation resources for measuring cross‐language text reuse ( and plagiarism ) for different the language pairs . 
+For example , PAN22 http : //pan.webis.de ‐ last visited September 20 , 2017 authors have developed a series of corpora with artificial and simulated examples of plagiarism at document level ( Potthast , Barrón‐Cedeño , Eiselt , Stein , & Rosso , 2010 ; Potthast , Eiselt , Barrón‐Cedeño , Stein , & Rosso , 2011 ; Potthast et al. , 2012 , 2014 , 2013 ; Stein , Rosso , Stamatatos , Koppel , & Agirre , 2009 ) . 
+The majority ( 90 % ) of the text plagiarism cases in these corpora are mono‐lingual , however , there exists a small portion ( 10 % ) of cross‐lingual plagiarism cases too . 
+These cross‐language plagiarism cases are for the English‐German and English‐Spanish language pairs . 
+Most of these cases are artificial ( created using automatic MT [ Machine Translation ] system that is , Google Translate33 http : //translate.google.com/‐ last visited September 20 , 2017 ) but a small number of them are created manually ( i.e. , translated by humans ) . 
+These corpora have been used to evaluate text plagiarism detection methods in the competitions held annually . 
+The CL ! 
+TR44 http : //www.uni-weimar.de/medien/webis/events/panfire-11/panfire11-web/ ‐ last visited September 20 , 2017 ( Cross‐Language Indian Text Reuse ) corpus is the first of its kind developed specifically for the analysis of cross‐language text reuse detection in the Hindi‐English language pair at document level ( Barrón‐Cedeño , Rosso , Devi , Clough , & Stevenson , 2013 ) . 
+The suspicious documents it contains are in Hindi and the source documents in English language . 
+The training set includes 198 suspicious ( Hindi ) and 5,032 source ( English ) documents , whereas the test set has 190 suspicious ( Hindi ) and 5,032 source ( English ) documents . 
+The CL ! 
+TR corpus contains simulated cases of text reuse . 
+The volunteers involved in the study were asked to answer a set of 10 questions , related to the tourism and computer science domains , to create suspicious documents . 
+It contains three types of revisions , categorized by the amount of obfuscation used , namely “ Exact ” ( without any modifications , translation only ) , “ Light ” ( very few modifications , translation , and manual correction ) , and “ Heavy ” ( detailed modifications , translation , and manual correction ) . 
+The corpus also contains “ Original ” ( independently written ) documents which were generated without referring to the source documents but using the learning material provided . 
+Another cross‐language corpus of 110 documents ( 55 source in English and 55 plagiarised in Bangla ) that contains simulated plagiarism cases and was built using student 's reports from a university ( Arefin , Morimoto , & Sharif , 2013 ) . 
+Two groups of 55 students each , were asked to write a report on a given topic . 
+50 reports are used as training set whereas the remaining 10 as test set . 
+Plagiarism cases were obfuscated by replacing contents with several plagiarized fragments of different lengths . 
+However , the corpus is not available to download . 
+Recently , a cross‐language ( Urdu‐English language pair ) document level plagiarism detection corpus was submitted for the PAN 2016 shared task ( Hanif et al. , 2015 ) . 
+The corpus is divided in two sets , 500 source ( Urdu ) and 500 suspicious ( English ) documents , and contains only simulated examples of plagiarism . 
+The source documents are Wikipedia excerpts whereas the plagiarized documents were manually created by university students . 
+The students were asked to plagiarize 270 documents on three levels of obfuscation ( “ Near Copy , ” “ Light Revision , ” and “ Heavy Revision ” ) , whereas 230 documents in the corpus are “ Nonlabialized. ” Moreover , the plagiarism cases inserted in the suspicious documents are of various length that is small ( < 50 tokens ) , medium ( 50–100 tokens ) , and large ( 100–200 tokens ) . 
+The corpus is the first cross‐language ( Urdu‐English pair ) dataset created for plagiarism detection research at the document level . 
+CLiPA ( Cross‐Language Plagiarism Analysis ) is a publicly available fragment or sentence level corpus containing five source sentences ( in English ) which were used to generate plagiarized cases ( in Spanish and Italian ) using both machine translation ( artificial ) and manual translation ( simulated ; Barrón‐Cedeño , Rosso , Pinto , & Juan , 2008 ) . 
+The machine translation cases were generated using five different services to have variations whereas for manually ( human ) simulated plagiarism cases , nine volunteers were asked to plagiarize each of the five source fragments . 
+They were further requested to generate the same number of nonplagiarized cases as well . 
+The corpus was used in experiments on text plagiarism detection research in the English‐Spanish and English‐Italian language pairs . 
+In summary , the corpora discussed above either contain artificial or simulated examples of cross‐language text reuse ( or plagiarism ) . 
+Cross‐language text reuse detection methods developed using these non‐real types of text reuse are unlikely to perform well on real cases of text reuse that occur in real world scenarios ( e.g. , academia , journalism ; Weber‐Wulff , 2010 ) . 
+Moreover , the simulated cases created in a controlled environment using crowd‐sourcing do not represent the strategies used by humans when rewriting text in real life . 
+Because cross‐language text reuse is increasing day‐by‐day , first , there is an urgent need to develop text reuse detection corpora with real examples of text reuse . 
+Second , the available corpora for research are created at document level and there are no corpora available at sentence/passage level for the English‐Urdu language pair . 
+Last , the corpora listed above are not large enough to generate robust results . 
+This is not surprising because it takes a lot of manual effort to create corpora with simulated examples of text reuse or plagiarism . 
+To develop and evaluate cross‐language text reuse detection methods for the real‐world scenario , we need to create corpora with real examples of text reuse . 
+To fill this gap , our research work proposes a large‐scale gold standard benchmark corpus containing real examples to measure cross‐language text reuse at sentence/passage level for the English‐Urdu language pair . 
+The next section describes the corpus generation process in detail . 
+To construct our corpus , we first collected a dump of 1,800 “ related ” news archives on a wide range of topics from the domain of journalism . 
+Half of them ( 900 ) were news agency articles written in English , whereas the remaining half ( 900 ) were Urdu news stories published in the popular Urdu newspapers of Pakistan . 
+It is a common practice in the newspaper industry that the news text released by news agencies is directly used by the newspapers verbatim or adapted by rephrasing it ( Clough , 2012 ) . 
+Each of the collected news agency articles ( English text ) had a one‐to‐one mapping with the newspaper story ( Urdu text ) , but as practiced in journalism , the newspaper story may or may not contain text from the news agency article . 
+We targeted two well‐known English news agencies namely , Associated Press of Pakistan ( APP ) and Independent News Agency ( INP ) and collected English news articles released by these agencies on a range of topics including sports , politics , business , showbiz , technology , local , and foreign news . 
+The Urdu newspaper stories were extracted from the top five large circulation national dailies that is Daily Jang , Daily Dunya , Express , Daily Aaj , and Nawa‐e‐Waqt for 6 months from September 2015 to February 2016 . 
+The news text collection was carried out throughout each month excluding the public holidays on which either the newspaper was not published , or the news agency did not provide the service . 
+In the next step , from the set of 1,800 related English‐Urdu news articles , a total of 3,235 sentence/passage pairs were manually extracted by one of the authors ( who is a native speaker of Urdu , with high proficiency in English , and has expertise in the field of text reuse and plagiarism detection ) . 
+The sentence/passage pairs extracted from the news agency articles ( in English ) were considered as “ source ” text whereas the newspaper stories ( in Urdu ) were “ derived ” text . 
+After extracting the related sentence/passage pairs , the next step was to manually classify each pair into one of the three categories that is , ( a ) Near Copy ( NC ) , ( b ) Paraphrased Copy ( PC ) , or ( c ) Independently Written ( IW ) , depending upon the relationship between them . 
+To classify a pair into one of the three categories , the following guidelines were prepared : Near Copy : A sentence/passage pair will be tagged as “ NC ” if the reused text is almost an exact translation of the source text . 
+However , because of the cross‐language setting , small alterations in the reused text will be ignored . 
+Additionally , a small amount of new text may also appear in the reused text because of the structural difference in both languages ( see section Examples from the Corpus for NC example ) . 
+Paraphrased Copy : For a pair to be tagged as “ PCO , ” its contents must be semantically the same , describing the same information . 
+However , the reused text must not be mere translations of the source text . 
+Rather , the source text should be paraphrased using different text editing operations including word/sentence re‐ordering , merging/splitting of sentences , insertions/deletions of new text , replacing words/phrases with appropriate synonyms , expansion/compression of text etc . 
+( see section Examples from the corpus for PC example ) . 
+Independently Written : To tag a sentence/passage pair as “ IW , ” the context of the news should be the same or both texts must be describing the same event . 
+However , the reused text must not be borrowed from the news agency text ( although there may be individual words that co‐occur ) . 
+Moreover , a lot more new information could be present in the reused text with completely different facts and figures ( see section Examples from the Corpus for IW example ) . 
+Near Copy : A sentence/passage pair will be tagged as “ NC ” if the reused text is almost an exact translation of the source text . 
+However , because of the cross‐language setting , small alterations in the reused text will be ignored . 
+Additionally , a small amount of new text may also appear in the reused text because of the structural difference in both languages ( see section Examples from the Corpus for NC example ) . 
+Paraphrased Copy : For a pair to be tagged as “ PCO , ” its contents must be semantically the same , describing the same information . 
+However , the reused text must not be mere translations of the source text . 
+Rather , the source text should be paraphrased using different text editing operations including word/sentence re‐ordering , merging/splitting of sentences , insertions/deletions of new text , replacing words/phrases with appropriate synonyms , expansion/compression of text etc . 
+( see section Examples from the corpus for PC example ) . 
+Independently Written : To tag a sentence/passage pair as “ IW , ” the context of the news should be the same or both texts must be describing the same event . 
+However , the reused text must not be borrowed from the news agency text ( although there may be individual words that co‐occur ) . 
+Moreover , a lot more new information could be present in the reused text with completely different facts and figures ( see section Examples from the Corpus for IW example ) . 
+With these guidelines in mind , each sentence/passage pair was then manually tagged into one of the three classes ( i.e. , NC , PC , or IW ) by three annotators ( X , Y , and Z ) . 
+The annotators were post‐graduate NLP ( Natural Language Processing ) students , native Urdu speakers with a high level of proficiency in English language . 
+Furthermore , they were provided with training about the journalistic text reuse phenomena and with tutorials on different text rewriting operations by a linguist . 
+The purpose of training was to comprehend the concepts , particularly , related to different levels of text reuse . 
+The annotations began with two annotators , annotator X and annotator Y . 
+Both were given a task to annotate a small subset of 100 sentence/passage pairs . 
+The resulting annotations of this subset were discussed to further refine the annotation guidelines and the results were saved . 
+Next , the remaining 3,135 sentence/passage pairs in the corpus were annotated using the final guidelines presented above and inter‐annotator agreement was computed on the entire corpus . 
+The conflicting pairs were annotated by annotator Z . 
+Of the total 3,235 sentence/passage pairs , agreement was reached on 2,925 pairs with unresolved conflicts on 310 pairs . 
+The final inter‐annotator agreement ( IAA ) on the entire corpus is 90.42 % and the Kappa Coefficient ( Cohen , 1960 ) is 73.50 % ( Weighted Kappa 77.40 % ; Cohen , 1968 ) , which are of “ Substantial ” level ( Landis & Koch , 1977 ) . 
+As shown in Table 1 , most conflicts arose in discriminating between PC and IW sentence/passage pairs ( 199 ) because it is hard to distinguish substantially paraphrased text from independently written one . 
+The number of conflicts between NC and PC classes is also a reasonable number ( 109 ) . 
+Potentially , this is because of the small text fragments and cross‐language settings , meaning that it might have become difficult for annotators to distinguish between NC and PC classes . 
+However , there are only two conflicts between NC and IW classes . 
+This means that it was relatively easy for annotators to distinguish between these two classes . 
+The 310 conflicts were resolved by annotator Z , favoring 143 ( 46 % ) times annotator A and 165 ( 53 % ) times annotator B . 
+Moreover , the two conflicts between NC and IW were resolved as PC . 
+Our benchmark cross‐language text reuse detection corpus contains 3,235 source‐derived sentence/passage pairs . 
+More than half of the pairs in the corpus belong to the PC category ( 54.12 % ) . 
+The number of NC ( 23.21 % ) and IW ( 22.65 % ) pairs are of almost equal proportions . 
+Detailed statistics can be found in the Table 2 . 
+The corpus is freely available to download for research purposes under a Creative Commons CC‐BY‐NC‐SA licence.55 http : //ucrel.lancs.ac.uk/textreuse/cleu.php and http : //dx.doi.org/10.17635/lancaster/researchdata/176 In this section , we present representative NC , PC , and IW sentence/passage pairs examples from our corpus.66 English translations of the Urdu text are also provided for non‐Urdu speakers . 
+The first two examples show a Near Copy sentence and a passage pair from the proposed corpus . 
+As can be noted , the reused text is almost exact translation of the source text . 
+Moreover , in both cases the order of information is also preserved . 
+NC sentence pair example Source The chief minister said he would personally monitor the programme of repair and construction of roads in rural areas and review the pace of progress on fortnightly basis . 

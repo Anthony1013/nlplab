@@ -1,0 +1,130 @@
+The assumption of TF is that if a term is repeatedly mentioned in a document , the term should be important to the document . 
+For IDF , the assumption is that if a term appears frequently in a corpus , the term is likely to be a general term with low discriminative capacity . 
+In the context of weighting subject descriptors in documents , one straightforward way is to apply TF‐IDF analogously . 
+The IDF of a subject descriptor is relatively easy to calculate by counting the number of documents the descriptor has been assigned to . 
+However , an immediate difficulty is that each subject descriptor only occurs once in a document because the subject descriptor is assigned by professional indexers after the document is created . 
+This is different from the original assumption of TF that authors tend to use important terms repeatedly in their works . 
+There is no direct way of measuring the frequency of a concept in a document . 
+An approximate measure , namely , the Concept Frequency , is introduced below to measure the frequency of a concept in a document . 
+To measure the Concept Frequency ( CF ) of MeSH terms , MetaMap ( Aronson , 2001 ) was used . 
+MetaMap was developed by NLM to map biomedical text to concepts in UMLS ( Unified Medical Language System ) Metathesaurus . 
+The Metathesaurus consists of multiple thesauri in the biomedical domain , including MeSH . 
+Natural language processing , including tokenization , part‐of‐speech tagging , shallow parse , and phrase expression generation is used to match natural text with UMLS Metathesaurus concept strings for concept mapping ( Aronson & Lang , 2010 ) . 
+In this study , MetaMap is used as a tool to identify the number of mentions of a concept in a document ( i.e. , Concept Frequency ) . 
+The target thesaurus was configured as the 2014 year version of MeSH thesaurus so that only MeSH concepts will be mapped . 
+Natural texts from titles , abstracts , and full text ( for Genomics 2006 ) are sent to MetaMap to map MeSH concepts . 
+Then we use the number of times a MeSH concept is identified in the text to approximate Concept Frequency . 
+It should be noted that MetaMap maps only main headings from natural texts without recognizing different qualifiers . 
+Therefore , when a main heading is mapped from text , we consider all MeSH concepts sharing this main heading occurring in the text regardless of their qualifiers . 
+This ignores the different aspects of the concept and is due to the limitation of the MetaMap tool . 
+The semantic association approach measures the semantic association between a subject descriptor and the assigned document . 
+One prerequisite is to represent the subject descriptor and the document in some tangible objects . 
+A subject descriptor can be considered as a concept whose meaning is embodied in the documents to which the subject descriptor is assigned . 
+In this sense , we represent a subject descriptor as a collection of documents to which it is assigned . 
+Then the subject descriptor representation problem is transformed into a document representation problem . 
+Two ways are explored to represent documents : bag‐of‐words representation and concept‐based representation . 
+Bag‐of‐words is the most common representation for documents . 
+In this study , we pool the collection of documents to which a subject descriptor is assigned together . 
+For example , the documents ( id : 87070014 and id : 88000010 ) are two of the pooled documents for “ Alcoholism/PX ” ( Figure 1 ) . 
+The terms in the pooled text , including title , MeSH descriptors , abstract , and full text ( if available ) are used to represent subject descriptors . 
+As shown in Figure 1 , the terms in the bag‐of‐words representation of “ Alcoholism/PX ” are originated from all the documents that were assigned this MeSH descriptor . 
+The terms are normalized to lowercase and stemmed with stop‐words removed . 
+The process of obtaining the bag‐of‐words representation and the concept‐based representation for “ Alcoholism/PX. ” TF‐IDF weighting ( Eq . 
+5 ) was applied to obtain the weights . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] An alternative way to represent texts is concept‐based representation . 
+Bag‐of‐words represents texts according to terms in texts without considering semantics . 
+Concept‐based representation concerns what texts are about . 
+Because each document is assigned a number of subject descriptors , the descriptors assigned to a document represent its meaning . 
+To represent a subject descriptor , we can find all the documents to which the subject descriptor is assigned , and then pool all the subject descriptors from this collection of documents to represent the subject descriptor . 
+The subject descriptors in the concept‐based representation of “ Alcoholism/PX ” are from the field of MeSH descriptors in the pooled documents ( Figure 1 ) . 
+Document representation is relatively straightforward . 
+When using bag‐of‐words representation , a document is represented as bag‐of‐words . 
+When using concept‐based representation , a document is represented as the concepts assigned to the document . 
+Four relatedness measures are used to quantify the semantic relatedness between subject descriptors and the documents they occur in , including Jaccard coefficient , Cosine similarity , Mutual Information , and Jensen–Shannon divergence . 
+The semantic relatedness measures are applicable to both bag‐of‐words representation and concept‐based representation . 
+The only difference is the items : in the bag‐of‐words representation , the items are terms , whereas in the concept‐based representation , the items are concepts ( i.e. , MeSH terms ) . 
+In the following paragraphs , we use the generic term “ item , ” which refers to “ term ” in bag‐of‐words representation and “ concept ” in concept‐based representation . 
+With different ways of weighting subject descriptors , one may wonder if we can combine them in an integrated framework to provide better performance . 
+In fact , weighted subject indexing can be considered as a ranking problem that differentiates the importance of subject descriptors assigned to a document . 
+The task of combining different weighting measures of subject descriptors for optimal ranking results accords with the purpose of the learning‐to‐rank framework ( Liu , 2009 ) . 
+Learning‐to‐rank is an effort originated in information retrieval ( IR ) to leverage machine‐learning technologies for effective ranking models . 
+In general , learning‐to‐rank aims at placing relevant items on top by combining multiple ranking features . 
+In the context of this study , the different weighting measures represent different ranking features . 
+Learning‐to‐rank methods can combine these measures to collectively rank the subject descriptors assigned to a document . 
+The way that these measures are combined will be determined by the specific learning‐to‐rank method using training data . 
+Learning‐to‐rank methods have shown advantages in IR performance , as well as in automatically tuning parameters , combining multiple evidences , and avoiding overfitting ( Liu , 2009 ) . 
+Formally , a document d has a list of assigned subject descriptors , where n is the number of subject descriptors assigned to the document . 
+Each assigned subject descriptor is represented as a feature vector , where the different ways of weighting can be considered as the features . 
+The ranking features in this study include the four semantic relatedness measures under the two representations and the CF‐IDF value . 
+This results in a total of nine features for each assigned MeSH in a document . 
+Figure 2 shows an example of a feature vector . 
+An example of the feature vector for mesh descriptor “ Alcoholism/PX ” in Document # 90258471 . 
+In terms of the ranking results , we treat major MeSH descriptors as relevant results in the generated rank lists , and nonmajor ones as irrelevant results . 
+During the training process , a ranking model will be trained from training documents by maximizing the probability of ranking major descriptors at top positions of the rank lists . 
+To train the learning‐to‐rank model , a training set of 3,000 documents from the test sample set were randomly selected from each of the three collections respectively . 
+The RandomForest algorithm ( Breiman , 2001 ) was used in our study for training the model . 
+After the model is trained , for each test document , the trained model generates scores for MeSH descriptors based on the learned parameters . 
+In this study , we treat the scores as the weights of MeSH descriptors . 
+Then the MeSH descriptors of a document are ranked according to their scores . 
+The following two ways of evaluation are carried out to assess the different weighting methods : ( a ) The methods are assessed according to their ability to rank major MeSH descriptors on the top ; ( b ) on a small sample of documents , the methods are evaluated based on the ranking generated by a domain expert . 
+A summary of the methods is provided in Figure 3 . 
+An overview of the methods . 
+The following sections present the results of the study . 
+Figure 4 plots the evaluation results based on the ranking of major MeSH terms by the different weighting methods . 
+Evaluation based on the ranking of major mesh terms for the three test datasets . 
+Values marked with circles indicate the best performance in the test samples . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As Figure 4 shows , the four evaluation measures have generally consistent results . 
+The bag‐of‐words representation with cosine measure outperforms the other methods in Ohsumed and Genomics04 . 
+In Genomics06 , the bag‐of‐words representation with mutual information measure has the best average performance , as the MAP and AR results show , while the bag‐of‐words representation with cosine measure is the best on the top 5 and top 10 rank results according to NDCG @ 5 and NDCG @ 10 . 
+In terms of direct weighting and semantic association approaches , the best performance is generally found in semantic association approaches . 
+Although the differences between direct weighting approach and semantic association approaches are not very large , in most cases the differences are statistically significant at the 0.05 level , as shown by two‐tailed Wilcoxon rank tests , except for CF‐IDF and concept‐based Jac in Ohsumed for NDCG @ 10 measure , CF‐IDF and concept‐based Jac in Genomics04 for AR , MAP and NDCG @ 5 , and CF‐IDF and bag‐of‐words Jac in Genomics04 for NDCG @ 5 and @ 10 . 
+There are also variations among different measures and representation methods in the semantic association approaches . 
+In some cases , direct weighting outperforms the semantic association approach , such as CF‐IDF outperforms Jac and JSD for both bag‐of‐words and concept‐based representations in Ohsumed . 
+Using the concept‐based representation does not gain any advantage over the bag‐of‐words representation . 
+The performance from bag‐of‐words representation is generally better than or similar to that from the concept‐based representation . 
+The effectiveness of the semantic relatedness measures depends on the representation methods and datasets . 
+When the bag‐of‐words representation is applied , cosine performs the best , followed by MI , Jac , and JSD in Ohsumed and Genomics04 , where full text is not available . 
+In Genomics06 where full text is available , MI leads for the bag‐of‐words representation , followed by cosine , Jac , and JSD . 
+However , for the concept‐based representation , Jac and cosine have similar performance , followed by MI and JSD in all three datasets . 
+In particular , JSD has a much lower performance when the concept‐based representation is used . 
+The results based on the domain expert 's ranking are presented in Figure 5 . 
+Evaluation for 30 selected documents from Genomics06 based on domain expert 's ranking ( a smaller MAE indicates a better performance ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] As Figure 5 shows , the ranks generated by MI using the bag‐of‐words representation are closest to the ranks from the expert . 
+MI using the bag‐of‐words representation shows significantly better performance than most of the other measures according to two‐tailed Wilcoxon rank tests at the 0.05 level . 
+This is consistent with Figure 4 , where MI with the bag‐of‐words representation has the best average performance in Genomics06 . 
+Other weighting methods have larger MAE values ( i.e. , lower performance ) , although the differences are not large except for the JSD measure using the concept‐based representation . 
+This is also consistent with the results in Figure 4 . 
+The direct weighting approach ( i.e. , CF‐IDF ) has generally lower performance than the semantic association approaches . 
+The concept‐based representation has similar performance with the bag‐of‐words representation and most differences are not statistically significant . 
+The JSD measure with the concept‐based representation shows significantly lower performance than all the other measures . 
+Table 2 presents the results from the learning‐to‐rank method . 
+Different combinations were tested . 
+Best results from Figure 4 are also included in Table 2 for comparisons . 
+According to Table 2 , a proper integration of features can improve the performance , although the integrated method does not always outperform the best performance in single methods . 
+The best integrated results are observed in the combination of CF‐IDF and the bag‐of‐words representation for Ohsumed and Genomics04 . 
+For Genomics06 , the best combination is CF‐IDF and the concept‐based representation methods . 
+It is also observed that the improvement from the integrated method is larger in Genomics06 than in Ohsumed and Genomics04 . 
+Interestingly , when all the methods are combined , the performance is lower than the best performance . 
+This study thoroughly compared different methods for automatically weighting assigned subject descriptors . 
+The following sections summarize our findings . 
+Direct weighting and semantic association approaches represent different perspectives on weighting subject descriptors . 
+The former assigns weights to descriptors directly according to some weighting statistics , while the latter first represents subject descriptors and documents in some tangible objects ( bag‐of‐words or concept‐based ) , and then measures their semantic relatedness ( Cos , Jac , JSD , and MI ) . 
+Our results show that , although the best performance is always achieved by the semantic association approach , the difference between direct weighting and semantic association is not large ( although significant in most cases ) . 
+The direct weighting approach outperforms some lower‐performing semantic association methods . 
+One may think the computational cost of direct weighting should be lower than that of the semantic association approach . 
+However , due to the high cost in obtaining CF ( concept frequency ) , direct weighting is not necessarily faster . 
+This motivates us to compare the performance of CF‐IDF and IDF ( Table 3 ) . 
+Surprisingly , dropping the CF does not worsen the performance much . 
+In Genomics06 , the measures show better performance for IDF than CF‐IDF . 
+This is different from term weighting for free‐text , where TF is found to be essential . 
+Although the performance of IDF is still inferior to the best performance in the semantic association approach , considering its low cost , IDF can be a reasonable estimate of the weights when computational cost is a concern . 
+If performance is the top priority , semantic association approach should be used . 
+Although bag‐of‐words representation has an obvious drawback in ignoring semantics , the method has shown very strong performance in various applications . 
+This seems to be the case in our study . 
+The performance of the bag‐of‐word representation is generally superior or similar to that of the concept‐based representation in weighting subject descriptors . 
+In theory , concept‐based representation better accounts for synonyms and polysemies , and should be more advantageous over the bag‐of‐words representation . 
+However , in practice , due to the high cost and complexity of subject indexing and thesaurus construction , the specificity of assigned concepts are generally lower than , or at best equal to , that of the free‐text . 
+This is also true for indexing exhaustivity . 
+Therefore , when using bag‐of‐word representation with some weighting to control the noise in free‐text , the performance is generally very strong . 
+However , this is not to conclude that concept‐based methods are not useful . 
+In the case where the quality of indexing outweighs the cost , one can design very specific concepts and index the information resource exhaustively . 

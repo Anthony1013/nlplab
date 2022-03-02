@@ -1,0 +1,130 @@
+Compared with the academic culture of other disciplines , which highly regard journal articles and disregard conference papers , scholars in the computer science field value both conference papers and journal articles . 
+A series of studies about the computer science discipline ( Eckmann , Rocha , & Wainer , 2012 ; Franceschet , 2010 ; Freyne , Coyle , Smyth , & Cunningham , 2010 ; Vrettas & Sanderson , 2015 ) has quantified the significant value of conference publications . 
+These studies have collectively suggested that the citation rates of papers from leading conferences approximate the citation rates of journal articles with a moderate level ( Eckmann et al. , 2012 ; Franceschet , 2010 ; Freyne et al. , 2010 ; Vrettas & Sanderson , 2015 ) . 
+The significance of conference papers stems from the fact that , in fast‐moving research areas , the time required to publish papers at conferences is less than that of publishing in journals ( Eckmann et al. , 2012 ; Freyne et al. , 2010 ) . 
+The academic culture for publishing papers at conferences prior to the extended versions of the same conference papers in journals also prevails in the computer scientists ’ community ( Zhang & Jia , 2013 ) . 
+One study illustrated that interactions among attending scientists and the instant feedback received about their work from colleagues at conference venues allows computer scientists to reap the benefits of their conference publications ( Freyne et al. , 2010 ) . 
+The importance of conference papers is also gradually increasing in the information science field . 
+Evidence from a chronicle study of bibliometrics in information science ( Larivière , Sugimoto , & Cronin , 2012 ) illustrated that the portion of conference papers cited by library and information science articles has grown to 5 % to 6 % during the 21st century . 
+The citation growth of conference papers in library and information science is twice as large as that of the social sciences and humanities articles . 
+Despite the increasing impact and value of conferences , bibliographic studies focusing on conferences are relatively rare . 
+A large body of the bibliometric literature has recently explored a variety of factors that could be used to predict the citation rates of journal articles ( Tahamtan , Safipour Afshar , & Ahamdzadeh , 2016 ) . 
+However , little is known about the predicting factors for conference paper citations ( refer to “ Literature Review ” ) . 
+In addition to the properties of conference papers ( for instance , authors , references , and paper metadata ) , some factors are related to the conferences themselves . 
+These factors include names , sizes ( in terms of the number of presented papers and the number of attendees ) , locations , and best article awards . 
+How do the various conference‐related factors influence the future citations of the presented papers ? 
+Do papers presented at larger conferences have a higher chance of garnering more citations ? 
+Moreover , modern social media systems ( for instance , social bookmarking systems , conference support systems ) offer a unique chance to trace the signs of early attention to conference papers from conference attendees , as well as the broader research community in the disciplines related to the conference . 
+Can the signs of early attention for conference papers predict the papers ’ future citation rates ? 
+In particular , although the early attention records of social media could be considered the vox populi of general readers , there is a voice of experts expressed in the best article awards presented during the conferences ( which are the result of the rigorous evaluations by the experts selected by the program chairs ) . 
+In this context , an interesting question to answer is whether the wisdom of experts or the wisdom of crowds could better explain the future citations of the conference papers . 
+This article aims to examine these questions . 
+A general consensus exists among scientists that the citations of articles are not fully explained by the quality of the articles ( Onodera & Yoshikane , 2015 ) . 
+Hence , we are interested in examining the extent to which various factors related to conferences , conference papers , and the early signs of the conference papers ’ recognition contribute to the increase in the number of citations . 
+In other words , this study aims to determine the significant factors influencing conference paper citations among various conference‐related factors . 
+A focus will be placed on the underexplored records of earlier online readership . 
+Specifically , we undertook this investigation to explore the following research questions : Does the early attention focusing on conference papers have any significant impact on future citations ? 
+Among the various factors related to conferences , including the early attention for papers , what are the largest influential factors for the future citation rates of the conference papers ? 
+Which is a better predictor of the future citations of conference papers : general readers ’ evaluations ( in the format of early attention ) or a few experts ’ evaluations ( in the format of the best paper awards ) ? 
+Six conferences on interdisciplinary topics in computer science and information science served as the context of this investigation . 
+For the first question , social media data were notably considered to quantify the readers ’ attention on conference papers . 
+The social media sites considered here are Conference Navigators3 ( CN3 , hereafter ) and Citeulike . 
+The CN3 system is an information navigation system for conferences and , most important , has been used as an official conference system for all of our target conferences . 
+To explore conference programs online and determine their conference schedule , conference attendees had to use the CN3 system . 
+Citeulike is a typical social bookmarking system for bibliographic references . 
+The social media data were investigated in various ways for the first question . 
+For the second question , we classified the factors related to conference publications into the following four groups : ( a ) authorship , ( b ) papers , ( c ) conferences , and ( d ) online readership . 
+Consequently , we examined the influences on the publications ’ citation rates . 
+Finally , for the third question , we included the records of the best article awardees as one of the factors related to conferences and compared the magnitude of the effects on citations to readers ’ early attention . 
+Borgman and Furner ( 2002 ) classified existing bibliometric studies according to the types of factors about publication venues ( mostly journals ) , articles , people , and more ( Borgman & Furner , 2002 ) . 
+We explored the existing studies according to the Borgman and Furner 's classification . 
+First , in their study substantiated in the Internet studies discipline , Peng and Zhu ( 2012 ) assessed how publication venues ( journals ) ‐related factors and article‐related factors correlate with citations . 
+They demonstrated that the citations are correlated with the degree of prestige of the published journals , which is measured as impact factors . 
+This study also showed that the citations of Internet studies are positively affected by the topical popularity , the length of the article , the collaborative nature , and the affiliated countries of the first authors . 
+The authors concluded that where articles were published mattered most , proving the halo effect of the published journals ( Peng & Zhu , 2012 ) . 
+The importance of published journals ’ impact factors has been substantiated in a variety of disciplines , like environmental science ( Vanclay , 2013 ) . 
+In their study targeting nano‐science and nano‐technology , Didegah and Thelwall found that both the impact factors of journals and the citations of the references were important determinants of the citation impact ( Didegah & Thelwall , 2013 ) . 
+Some studies ( Fanelli , 2013 ; Onodera & Yoshikane , 2015 ; Rigby , 2013 ) examined how the content of articles affects future citations . 
+A study conducted by Fanelli ( 2013 ) tested the existence of the “ positive outcome bias , ” which suggested that studies reporting positive and statistically significant outcomes tended to have more citations in the future . 
+Fanelli reviewed 2,500 articles in 20 fields that focused on testing hypotheses . 
+The articles were classified into two groups : those reporting positive outcomes and those reporting negative outcomes . 
+In general , the articles showing positive outcomes were cited 32 % more than those with negative outcomes . 
+However , the results were not consistent across the selected fields . 
+The meaningful difference between the articles with positive outcomes and the articles with negative outcomes was highly limited to a few disciplines ( Fanelli , 2013 ) . 
+People‐dependent factors include author‐related factors and reader‐related factors . 
+There is a large body of research that conducted work on how author‐related factors influence future article citations . 
+These factors include the number of authors ( Didegah & Thelwall , 2013 ; Li , Liao , & Yen , 2013 ; Peng & Zhu , 2012 ) , the first authors ’ affiliated organizations ( Walters , 2006 ) , the productivity of the first or all of the authors ( Haslam et al. , 2008 ) , the publishing tenure of the first author ( Li et al. , 2013 ; Peng & Zhu , 2012 ) , and the collaborative nature of the authors ( Li et al. , 2013 ) . 
+Unfortunately , however , there is no well‐grounded factor that is unanimously significant across all academic fields . 
+Another type of factor relevant to people is readership . 
+This refers to how the availability of open‐access articles ( McCabe & Snyder , 2014 ) and the downloaded records of articles ( Brody , Harnad , & Carr , 2006 ; Priem & Hemminger , 2010 ) affect the future citations . 
+As one of the studies about reader‐related factors , the work of Brody et al . 
+( 2006 ) was found to be the closest investigation to our current study , as it focuses on reader‐related factors . 
+The target discipline in the Brody et al . 
+( 2006 ) was physics , and the target publication type was journal articles , not conference papers . 
+However , the authors concluded that the number of downloads of an article indicates its usage impact and can be measured much earlier in the reading‐citing cycle ( Brody et al. , 2006 ) . 
+However , in our current study , because we were unable to track down the number of downloads by time , we instead used the records of CN3 and Citeulike . 
+The review of previous studies has revealed that a large body of the bibliometric literature targeting journal articles has explored a variety of factors that could affect the citation rates of journal articles . 
+Despite this , few studies exist on the similar types of bibliometric studies targeting conference papers . 
+Specifically , when compared with the journal articles ’ supremacy in the bibliometric research , few studies have been conducted regarding the influences of various factors on conference paper citations . 
+The current study will fill this gap in the literature . 
+Moreover , as a way to consider online readership patterns at a more detailed level and on account of the necessity for a multi‐metric approach to conduct an impact analysis of articles , Altmetrics has been proposed . 
+Altmetrics is an instrument used to informally measure the peer assessments of the academic literature via online social media ( Zahedi , Costas , & Wouters , 2014 ) . 
+It counts the frequencies of an article that appeared on various social media applications and uses the values as complementary metrics of citations to measure the scientific impact ( Priem , Piwowar , & Hemminger , 2012 ) . 
+The attempts to measure the timely impact of scientific articles using the data of online and Web 2.0 applications are not unfamiliar . 
+All the relevant terms such as “ soft peer review ” ( Taraborelli , 2008 ) , “ Webometrics ” ( Thelwall , Vaughan , & Björneborn , 2005 ) , “ scientometric 2.0 ” ( Priem et al. , 2012 ) , and “ Altmetrics ” pertain to the attempts . 
+With the plethora of social media applications ( for instance , Mendeley 's bookmarks , CiteULike 's bookmarks , Twitter 's tweets , scientific blog posts , Wikipedia mentions ) , Altmetrics has appeared in several scientometric articles ( Maflahi & Thelwall , 2016 ; Priem et al. , 2012 ; Thelwall , Haustein , Larivière , & Sugimoto , 2013 ) . 
+Zahedi et al . 
+( 2014 ) collected a variety of usage records from several social media and online libraries . 
+The results showed that , although the other types of records were marginal , the Mendeley bookmarks covered 63 % of the sampled articles . 
+In addition , the bookmark frequency was correlated with the WoS ( Web of Science ) citations , at a moderate level . 
+Aduku , Thelwall , and Kousha ( 2017 ) also demonstrated the significance of Mendeley bookmarks through the results of their analysis revealing that Mendeley bookmark counts and citation counts are highly correlated . 
+This study expands the current state of research on factors that could influence the citations of conference papers . 
+We offer a comparative analysis of a large number of factors ranging from traditional article‐related factors to early attention factors collected from social media sources . 
+Because the Mendeley system does not open their data to the general public , this study used the Citeulike system , one of the oldest bookmarking systems , for the bibliographic data . 
+It also used data from a conference support system , CN3 , as a social factor about online readership that has not been explored in the earlier work . 
+The computer science and closely related information science disciplines have a unique culture that highly regards conference publications . 
+According to Wainer , Przibisczki de Oliveira , and Anido ( 2011 ) , among all articles published by the ACM in 2006 , 39 % of the references were conference papers and 41 % of the references cited more than 10 times were conference papers . 
+Several studies examined differences between conference papers and journal articles : the differences in citations ( Freyne et al. , 2010 ; Vrettas & Sanderson , 2015 ) , the patterns of reproducing conference papers for journal publications ( Wainer & Valle , 2013 ) , and the patterns of citing references ( Wainer et al. , 2011 ) . 
+Most studies confirmed the value of conference papers in comparison with journal articles . 
+For example , Freyne et al . 
+( 2010 ) empirically verified the relative importance of papers presented at leading conferences in comparison with journal articles . 
+The results revealed that leading‐conference papers earned as many citations as mid‐level journals and more citations than lower‐level journals . 
+Lisée , Larivière , and Archambault ( 2008 ) performed a bibliometric analysis of conference papers across several disciplines : from natural sciences to social sciences and humanities to engineering . 
+They found that in the engineering field , the proportion of conference papers cited as references was prominently larger than in other fields . 
+Conference papers in other fields accounted for less than 5 % . 
+However , 10 % of all references in engineering were conference papers and the portion of conference papers in computer science was 19.6 % ( Lisée et al. , 2008 ) . 
+However , in contrast to extensive research on the comparative value of conference papers , studies focusing on how various factors influence the future citations of conference papers are rare . 
+Consequently , this study aims to bridge the literature gap . 
+This article aims to determine the most influential factors for future citations of conference papers . 
+In our study , as Figure 1 illustrates , we considered 13 factors available at the time of the conference or shortly after it . 
+We split the 13 factors into four categories : authorship , paper , conference , and early readership . 
+In Figure 1 , the text in parentheses at the end of each factor indicates the abbreviated code of the corresponding factor . 
+We use these codes throughout this article for brevity . 
+Among the authorship‐related factors , we considered three factors reflecting the academic performance of all authors at the time of the conference : publishing tenure , number of publications , and citation number of their publications . 
+To calculate the publishing tenure at the time of publication , for each sample paper we calculated the number of years between the first publication of each author and the sample conference paper . 
+We then averaged the numbers among all authors of the corresponding sample paper . 
+Similarly , we calculated the average number of publications and citations for the team of authors at the time of publishing the sample paper . 
+These factors are important , as they reflect the seniority of the authors ’ research activities and their reputations . 
+When an author 's seniority is high ( i.e. , the author has already published many papers for a long period of time and has earned many citations ) , it is likely that he/she is recognized as an authority in the corresponding topic . 
+In line with the works of Onodera and Yoshikane ( 2015 ) , as well as Hjørland ( 2013 ) , we investigated the influence of authors ’ reputations on citations through these factors . 
+To fairly represent the authorship‐related factors , we focused on all authors . 
+A series of works have debated the comparative significance between the first/corresponding author 's factors and all authors ’ factors ( Haslam et al. , 2008 ; Peng & Zhu , 2012 ; Walters , 2006 ) . 
+No conclusive results have yet been obtained . 
+In conjunction with the work of Onodera and Yoshikane ( 2015 ) and Li et al . 
+( 2013 ) , our preliminary analysis indicates that the number of citations correlated with the factors indicate the academic performance of all authors at much higher levels and more significantly than those of the first author . 
+Hence , in this article we concluded that the academic performance of all authors is a more important factor for explaining the citations of their papers than the academic performance of the first/corresponding authors . 
+Among the paper related factors that could affect the citation rates , we selected the number of pages ( Tahamtan et al. , 2016 , p. 1203 ) . 
+The length of papers has been proven to be a good predictor of future citations . 
+Long papers tend to earn significantly more citations than short papers ( Vrettas & Sanderson , 2015 ) . 
+Along with the raw number of pages ( Vrettas & Sanderson , 2015 ) , as another perspective related to the paper length , we also used the classifications of the paper types made by the conference organizers that distinguished : ( a ) long papers and ( b ) short papers . 
+The long paper category singled out original research papers , whereas the short papers integrated all kinds of smaller‐scale contributions : industrial reports , posters , demos , and short papers . 
+It is a general perception that long papers tend to deliver more substantial content than short papers , whereas short papers are frequently used to propose new , but less mature , approaches or systems , mainly for on‐site discussions at conferences ( Bornmann & Daniel , 2007 ) . 
+In addition to the simple number of pages , we included the paper types as an alternative way to represent paper length . 
+We hypothesized that this measure could be more reliable , because conference organizers and expert reviewers assessed whether each paper carries the appropriate depth expected from an paper of each predetermined type . 
+Among the conference‐related factors , we considered the conference names that represent a specific conference series . 
+We selected six conference series where the CN3 system had been used as a main conference support system ( refer to the next section for more detailed information ) . 
+The CN3 system has been used at some of the target conferences for multiple years . 
+Therefore , via the records of multiple years , we evaluated the cumulative halo effect of the conference names on future citations . 
+We also included the records of the best article awards to reflect the experts ’ assessment of the conference papers . 
+There is still an ongoing debate about whether the best article winners are destined to earn significantly more citations than nonawarded papers . 
+For the CHI ( the SIGCHI conference on human factors in computing systems ) conference series , Bartneck and Hu ( 2009 ) compared the number of citations that the best article winners and nominees had earned against the citations earned by not awarded or not nominated random samples . 

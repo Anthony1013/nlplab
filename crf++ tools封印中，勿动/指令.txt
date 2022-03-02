@@ -1,0 +1,3 @@
+crf_learn template train.txt model   训练数据
+crf_test -m model test.txt >output.txt   测试数据
+peal conlleval.pl < output.txt   评估效果

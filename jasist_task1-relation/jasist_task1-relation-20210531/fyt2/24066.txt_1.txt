@@ -1,0 +1,130 @@
+This article discusses received citations from the perspective of papers ’ contributions to their citing papers . 
+Not all of the work involved in a paper is performed by its authors . 
+Authors might use other researchers ’ theories and/or concepts as study foundations , employ methods developed by others , or use others ’ data to support their results . 
+Because some studies repeat previous efforts , it may appear unnecessary to cite others ’ work . 
+However , this approach is not realistic because not citing previous work conflicts with the scientific tradition of acknowledging previous authors ’ efforts ( Gilbert , 1977 ; Small , 2010 ) . 
+Thus , the authors of a paper are expected to incorporate ( through citation ) the achievements of others that have facilitated the work in their paper . 
+Hence , both authors and references contribute to a paper . 
+This concept is similar to the idea that a product from one manufacturer contains material or components purchased from other manufacturers . 
+The authors of a paper award a citation to the authors of each reference ( Franck , 1999 ) , which is similar to manufacturers ' payment to other manufacturers for materials or components ( used in their products ) . 
+Therefore , the citation is the coin of the realm in academia and is regarded as credit for authors ( e.g. , Huang , Lin , & Chen , 2011 ; Zou & Peterson , 2016 ) . 
+Authorship is also a coin in the academic domain ( Cronin , 2001 ) . 
+Researchers obtain credit from a paper via authorship and citations , which bring recognition ( Cronin , 2001 ; Hartley , 2017 ) and opportunities for funding support , research positions and promotion ( Kosten , 2016 ) . 
+In this article , we first analyze the composition and type of contributions from the authors of a paper and the paper 's references . 
+Based on the proportions of contributions , we allocate the credit a paper carries to its authors and references . 
+In the credit allocation framework presented here , the total credit allocated to authors of a paper is also the credit assigned to the paper ( in the main text , it is defined as deserved credit of a paper ) . 
+The summation of the credit assigned to a paper and its references is equal to the credit the paper carries . 
+In addition , we show that part of a paper 's credit comes from the papers citing it through credit allocation , and the citing papers ’ credit partly comes from those citing them . 
+Thus , credit transfer moves in a direction opposite that of knowledge diffusion . 
+The proposed contribution‐based credit allocation framework incorporates newly developed citation content analysis to ameliorate research evaluation . 
+Before concluding , we analyze the implications of contribution‐based credit allocation . 
+One concern about contribution‐based credit allocation is that some authors may reduce the number of references to increase their estimated proportion of contribution to the paper and thereby increase the credit they obtain from the paper . 
+Nevertheless , authors must cite the appropriate references . 
+Otherwise , they conflict with the scientific community 's tradition of acknowledging the property rights and priority claims of previous authors ( Gilbert , 1977 ; Small , 2010 ) . 
+It is an issue of research ethics . 
+Moreover , citing a substantial number of references can improve the persuasiveness of a paper . 
+In addition , the omission of some necessary references can be detected by reviewers , especially in the more obvious cases . 
+Therefore , peer review can address this problem to some extent . 
+Although no counter‐measure is completely waterproof , for the general case , references that might have been cited but are not after adopting contribution‐based credit allocation can be considered unnecessary or perfunctory citations ( Bornmann & Daniel 2008 ) . 
+The removal of such citations would be a positive consequence . 
+The incorporation of indirect citations can measure the degree of prestige of a paper ( Ding & Cronin , 2011 ) , whereas direct citations reflect only a paper 's popularity . 
+From the perspective of the contribution , the importance of a paper is reflected through its contributions to important papers . 
+If a paper is cited by many papers that carry high credit as defined in Equation 2 and if the paper plays an important role in these citing papers , then the paper will carry high credit and can be considered an important paper . 
+If an author has played an important role in many important papers , then he will be considered an important researcher . 
+Garfield ( 1979 ) questioned the rationality of assessing the quality of publications according to only the number of citations . 
+A research evaluation based only on citations is not objective and can lead to the decline of the scientific community ( Fiala , Mareš , & Šesták , 2017 ) . 
+Incorporating a contribution analysis based on a citation content analysis ( Ding et al. , 2014 ) into research evaluations provides useful additional information . 
+If a paper has no citations , then there is no evidence of its contribution to other researchers ’ work . 
+If a paper has not been widely cited or has not been cited by highly cited papers , then it has contributed weakly to the scientific community and has few sources of external credit . 
+If a paper has been highly cited or has been cited by highly cited papers but all of these citations are perfunctory , then the paper obtains low external credit because it contributes little to the citing papers . 
+This phenomenon may be caused by authors copying references from the reference list of previous papers and may lead to randomness in a citation analysis in which only the number of citations is considered ( Waltman , van Eck , & Wouters , 2013 ) . 
+Regardless of whether a paper has obtained high external credit , if its authors performed research with little innovation , such as applying a mature method to a case like others investigated using the same method , then the deserved credit of the paper should be low because the paper provides little new knowledge . 
+In summary , the deserved credit of a paper reflects the merit of the contribution of the new knowledge presented in the paper , which is provided by the authors on the basis of the previous knowledge in the references used by the paper . 
+For example , this paper presents a framework to allocate the credit of a paper to its authors and its references based on their contribution to the paper . 
+The framework includes the method of allocating paper credit to authors , the method of transferring paper credit to references , the method considering indirect citations , and citation content analysis . 
+These methods constitute the foundation of this paper , and thus part of the credit that this paper will carry should be assigned to the references regarding these methods . 
+The references provide background and an analytical basis for this paper and also contribute to this paper . 
+Thus , they should also obtain credit from this paper stemming from their citation herein . 
+The contribution of the author is to incorporate these methods in a reasonable way aiming to more accurately represent the contribution of the authors of a paper to the scientific community . 
+The paper should obtain the deserved credit corresponding to its specific contribution from the total credit it will carry . 
+The deserved credit of this paper is also the credit allocated to the author because it has a single author . 
+If a paper has more than one author , its deserved credit should be allocated to each author . 
+Both authors and references contribute to a given paper . 
+Different authors contribute differently , as do different references . 
+The present paper quantitatively described the proportions of contributions of each author and reference to a paper . 
+By employing this method , the credit a paper carries can be allocated to its authors and references in proportion to their contribution . 
+The credit a paper carries comprises innate credit and external credit . 
+The former is because of the publication of the paper and can be set as a unit credit of 1 . 
+The latter comes from subsequent works that cite the paper ; that is , a paper obtains external credit when it serves as a reference for other papers . 
+Part of the credit that a paper carries is assigned to its references , and only the credit assigned to its authors remains as the paper 's deserved credit . 
+The credit of papers can be transferred in a direction opposite that of knowledge diffusion , and an iterative method to determine paper credit considering indirect citations is presented . 
+The proposed model assigns a paper 's credit to its authors and references according to the contribution distribution of every paper . 
+This method incorporates citation content analysis to ameliorate research evaluation and avoids preset parameters that can not be adjusted for different papers , as seen in the similar models in the section “ Related Work. ” A paper 's deserved credit reflects the contribution of the new knowledge provided by the paper 's authors to the research community on the basis of the prior knowledge provided by the referenced works . 
+In addition , it is rational to evaluate papers based on their deserved credit , not the credit they carry . 
+The ways in which a paper 's authors and reference contribute to a paper may differ . 
+Several journals have defined qualifications for authorship ( Washburn , 2008 ) , and some journals require authors to clarify the contributions made by each author . 
+The criteria for authorship typically state that the author 's contribution must be creative and intellectual , be necessary for the project to be completed , and require a comprehensive understanding of the overall project , including conception and design , data acquisition , analysis , and writing . 
+Patterns of contributions among authors have been investigated according to the authors ’ claimed contributions ( Correa , Silva , Costa , & Amancio , 2017 ) . 
+Citation content analysis has classified citations from several perspectives ( Ding et al. , 2014 ) , such as the motivation for the citation ( Garfield , 1965 ) , the relationship between the citing paper and its references ( Lipetz , 1965 ) , and the sentiment of the citation ( Chubin , & Moitra , 1975 ) . 
+Spiegel‐Rösing ( 1977 ) listed 13 citation content categories that can be approximately regarded as categories for a reference 's contribution to the citing paper . 
+Research papers report their authors ’ research results . 
+One function of papers is to persuade readers to accept the conclusions that they present ( Gilbert , 1977 ) . 
+Therefore , we classify references ’ contributions to the citing paper into three categories : serving as motivation to conduct the research work in the citing paper , such as by being part of the history and state of the art for the research question under investigation and by inspiring authors to perform the research work ; supplying the basis for the research , such as the derivation of a fundamental equation , the introduction of a method used in the research , providing the theory , concepts , definitions and interpretations used in the paper , or providing the parameters of a theory or method used in the paper ; and providing evidence to persuade readers , such as containing evidence consistent with the results of the paper and results that are inferior to the results of the method proposed in the citing paper . 
+Papers may persuade readers indirectly . 
+For example , some papers list many references in the background section that successfully used the method applied by the paper to show that the method can provide reliable results . 
+The references of the first type listed above also contribute to the citing paper because they inspire the idea behind the work . 
+Suppose a paper has M authors and cites N references . 
+The proportion of the contribution of the i‐th author to the paper is αi . 
+The proportion of the contribution of the j‐th reference to the paper is βj . 
+The total proportion of the contributions from the M authors to the paper is . 
+The total proportion of the contributions of the N references to the paper is . 
+Finally , . 
+Figure 1 shows the composition of contributions to a given paper by its authors and references . 
+The lower part of Figure 1 represents the references ' contributions to the paper . 
+The contribution of the paper to the scientific community is represented by the upper part of the figure ; this is the contribution made by the paper 's authors . 
+One special case is a review . 
+On the surface , the content of a review is from its references . 
+The authors ' contribution is the organized integration of this content to help readers realize the mechanism behind the material . 
+This type of contribution can be very important . 
+The method for partitioning the proportion of the contribution among authors and references is discussed in the section “ Determining the Proportions of Authors ’ and References ’ Contributions to a Given Paper. ” Composition of the contributions to a given paper . 
+Profits can be distributed depending only on the partners ’ estimates of the relative contributions of other partners ( Tideman & Plassmann , 2008 ) . 
+Similarly , a paper 's credit can be allocated to its authors and references according to their relative contributions to the paper . 
+Suppose a paper P carries credit c ( P ) , which stems from its publication and citations it received ( details are given in the next section ) . 
+Then , its i‐th author is assigned credit αic ( P ) , and its j‐th reference is assigned credit βjc ( P ) . 
+We can adopt one of the existing methods that allocate paper credit to authors to determine with little modification . 
+This is discussed in the section Determining the proportions of authors ’ and references ’ contributions to a given paper , where the determination of is also discussed , which is a more complex problem . 
+The credit a given paper P carries , c ( P ) , can be divided into two parts : innate credit and externally received credit ( external credit ) . 
+The innate credit c I ( P ) is because of the paper 's publication because the paper underwent peer review to ensure its quality and because it generated new knowledge or presented a new solution for an academic or practical problem ( Diez , 2007 ) . 
+The external credit c E ( P ) is because of the paper 's contributions to other papers when they cite it . 
+The external credit can be obtained through additional channels , such as the paper 's altmetric index or citations by patents . 
+For simplicity , we consider only the paper 's contributions to other research papers . 
+In this situation , the paper carries credit . 
+A reviewer of this paper suggested that innate credit can be set depending on the “ quality ” of the journal publishing the paper and its review system . 
+Then , a journal indicator , such as the journal impact factor or its eigenvector value , can be taken into consideration to set the innate credit value . 
+The parameters in Equation 3 have been defined above . 
+In existing research evaluation systems , the credit a paper carries is assigned entirely to its authors . 
+Then , the carried credit of a paper equals its deserved credit , or the credit assigned to a paper . 
+The contribution analysis above shows that both authors ’ efforts and references ’ achievements result in the completion of a paper . 
+Obviously , in the contribution‐based assignment of paper credit , the deserved credit is the credit the paper obtained from the credit it carries and is a part of and less than the credit a paper carries if the paper contains references . 
+Figure 2 shows examples of different types of credit distributions to a paper 's authors and references . 
+If a paper has no citations , then the credit assigned to its authors and references comes only from its innate credit , as illustrated in Figure 2 ( b ) . 
+If the contribution of the paper 's authors is small , such as when applying a well‐established method to a case that is very similar to others investigated using the same method , the credit allocated to its authors is small , as illustrated in Figure 2 ( c ) . 
+If a paper accrues substantial external credit , then its authors and references each obtain large amounts of credit , as illustrated in Figure 2 ( d ) . 
+Example distributions of credit carried by a paper ( innate credit plus external credit ) assigned to its authors and references according to their contribution : ( a ) a typical distribution ; ( b ) a distribution for an un‐cited paper ; ( c ) a distribution in which the authors ' contribution is low ; ( d ) a distribution for a heavily cited paper . 
+The deserved credit of a paper , which is the credit assigned to its authors , may be higher or lower than the innate ( or unit ) credit . 
+Its value depends not only on the external credit but also on the authors ’ work . 
+Although the external credit of the paper shown in Figure 2 ( c ) is higher than that of the paper shown in Figure 2 ( b ) , the deserved credit of the latter is higher than that of the former . 
+Figure 3 shows the credit flow of a given paper . 
+If cited , the paper has external credit as input . 
+The external credit and innate credit are allocated to its authors and references . 
+The credit allocated to the references is the output of the paper 's credit to its references . 
+The remaining authors ’ credit is the paper 's deserved credit , which is further allocated to each author of the paper . 
+Diagram of the credit flow of a paper . 
+Thus , the credit of papers citing is partly transferred to paper P . 
+The credit that paper P carries partly comes from the papers that indirectly cite it . 
+As defined in Rousseau ( 1987 ) , Hu , Rousseau and Chen ( 2011 ) , and Fragkiadaki and Evangelidis ( 2014 ) , papers that directly cite a given work are the paper 's first‐generation citations . 
+Papers with first‐generation citations are directly cited by second‐generation citation papers . 
+In general , papers with k +1‐th generation citations directly cite papers with k‐th generation citations . 
+In the hypothetical citation relationship shown in Figure 4 , paper P 1 is directly and indirectly cited by . 
+and P 6 are P 1 's first‐generation citation papers . 
+P 6 is also a second‐generation citation paper because it cites P 2 . 

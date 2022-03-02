@@ -1,0 +1,45 @@
+T1	数据源 183 192	Wikipedia
+T2	数据源 248 257	Wikipedia
+T3	数据源 403 412	Wikipedia
+T4	术语 551 554	AUC
+T5	术语 646 652	recall
+T6	术语 671 680	precision
+T7	术语 754 761	anchors
+T8	术语 900 906	anchor
+T9	引文作者 1769 1778	Paranjape
+T10	研究结果 1086 1694	Finally , the similar results obtained with high quality training ( FA , AC or GA ) and medium quality training ( BC or CC ) suggests that either ( a ) the casual editor and the expert reviewer have a similar understanding about what should be a proper link , or ( b ) a proper linking style is not determinant on the distinction of medium and high quality classes , or ( c ) linking is so subjective that it is hard to assess its quality once some basic criteria are met ( for instance , no excessive redundancy , exclusion of common elements such everyday words , dates , major geographic features , etc. )
+T11	引文时间 1791 1795	2016
+T12	数据源 1745 1754	Wikipedia
+T13	术语 2092 2095	F 1
+T14	术语 2107 2110	AUC
+T15	术语 2119 2135	latent component
+T16	术语 2286 2300	standard error
+T17	术语 2352 2373	prediction components
+T18	术语 2380 2396	dyadic component
+T19	术语 2434 2450	latent component
+T20	术语 2459 2476	monadic component
+T21	术语 2738 2755	dyadic attributes
+T22	术语 2777 2788	Relatedness
+T23	术语 2793 2809	Link probability
+T24	术语 2814 2839	Disambiguation confidence
+T25	术语 2952 2963	Relatedness
+T26	研究结果 3199 3302	we can conclude that our model is able to steadily distinguish anchors independently of their ambiguity
+T27	术语 3262 3269	anchors
+T28	术语 3351 3367	latent component
+T29	研究结果 3767 3867	the training with high quality samples led to more precise anchor suggestions and less overlinking .
+T30	数据源 4046 4055	Wikipedia
+T31	引文作者 4058 4067	Paranjape
+T32	引文时间 4077 4081	2016
+T33	引文的结果 4010 4055	the apparent little use of links in Wikipedia
+T34	数据源 4145 4154	Wikipedia
+T35	研究结果 4086 4213	these results suggest that the linking guidelines ( or the Wikipedia reviewing process ) are not as effective as they should be
+T36	研究展望 4218 4489	In future work , we plan to evaluate the model on different domains and datasets such as those in Wikia service,1010 http : //www.wikia.com/fandom investigate new features and study the impact of selecting samples for training using automatic quality assessment methods .
+T37	研究展望 4492 4687	We also plan to better understand which should be considered appropriate linking using statistical information , and use of articles in other languages to complement the identification of anchors
+T38	术语 1159 1161	AC
+T39	术语 1154 1156	FA
+T40	术语 1165 1167	GA
+T41	术语 1200 1202	BC
+T42	术语 1206 1208	CC
+R1	has_cited_time Arg1:T11 Arg2:T9	
+R2	results Arg1:T31 Arg2:T33	
+R3	has_cited_time Arg1:T32 Arg2:T31	

@@ -1,0 +1,130 @@
+Based on the Gaussian component that a vector xi is assigned to during the above clustering process , each vector xi is given a label . 
+Apparently , the label of vector xi , denoted by , takes one label from a set of N elements , that is , , where . 
+Note . 
+The approaches of Akiva and Koppel ( 2012 , 2013 ) and Aldebei et al . 
+( 2015 ) also start from segmenting the original document into segments and then represent them as feature vectors to cluster them . 
+However , the purpose of these steps in their approaches is different from the purpose in the proposed approach . 
+Then , with the labels of all the segments , the transition probability of moving from state n 1 to state n 2 , denoted by , can be computed using Eq . 
+2 as : ( 2 ) where n 1 , n 2 . 
+Based on the Gaussian component that a vector xi is assigned to during the above clustering process , each vector xi is given a label . 
+Apparently , the label of vector xi , denoted by , takes one label from a set of N elements , that is , , where . 
+Note . 
+The approaches of Akiva and Koppel ( 2012 , 2013 ) and Aldebei et al . 
+( 2015 ) also start from segmenting the original document into segments and then represent them as feature vectors to cluster them . 
+However , the purpose of these steps in their approaches is different from the purpose in the proposed approach . 
+Finding the transition probabilities of all possible state values ( i.e. , ) will produce the N × N transition matrix A . 
+Here we employ the “ add‐1 ” smoothing technique ( Manning & Schütze , 1999 ) in order to prevent zero values of transition probabilities . 
+We then move on to estimate the initial probability , i.e. , the prior probability of each author . 
+With each segment ( , where e is the number of feature vectors ) being labeled as , the initial probability of each state , denoted by , can be simply measured as a fraction of the occurrences of each state h ( x ) as : , where . 
+Finding the initial probabilities of all possible state values ( i.e. , ) will produce a vector , which is denoted by . 
+The emission probabilities B address the relation between observations and states , that is , given the authorship ( “ state ” ) , the probability of observing each sentence ( “ observation ” ) . 
+The sequence of segments SEG , each consisting of v successive sentences is employed to find the initial value of B . 
+To do that , a new feature list , denoted as , where D 2 is the length of the list , is created . 
+The words that have occurred at least two times in the document are considered for this feature . 
+The list of words are used for representing the sequence of segments ( SEG ) as a sequence of binary feature vectors , . 
+Each vector has D 2 elements . 
+Note that each feature in the vector represents one word of the BagOfWords 2 list . 
+The process of creating the sequence is similar to the process of creating the sequence X . 
+The key difference is that we use the BagOfWords 2 list of D 2 features instead of the BagOfWords 1 of D 1 features . 
+Note that , including words that have occurred for at least two times instead of three times in the word list , allows a better chance to have more listed words appear in a sentence , which contains much fewer words than a segment does . 
+Each vector takes the same label of vector xi , i.e. , , where and . 
+Given the sequence of feature vectors , , and the set of all possible values of labels , the probability of each feature in given a label n ( ) is computed using the conditional probability shown in Eq . 
+3 : ( 3 ) where j represents a feature , represents the count of observed feature j in the vectors that have a label n , Countn represents the count of all observed features in the vectors that have a label n , and D 2 is the number of features . 
+Note that we again employ the “ add‐1 ” smoothing technique in Eq . 
+3 to prevent a zero probability . 
+The sequence of segments SEG , each consisting of v successive sentences is employed to find the initial value of B . 
+To do that , a new feature list , denoted as , where D 2 is the length of the list , is created . 
+The words that have occurred at least two times in the document are considered for this feature . 
+The list of words are used for representing the sequence of segments ( SEG ) as a sequence of binary feature vectors , . 
+Each vector has D 2 elements . 
+Note that each feature in the vector represents one word of the BagOfWords 2 list . 
+The process of creating the sequence is similar to the process of creating the sequence X . 
+The key difference is that we use the BagOfWords 2 list of D 2 features instead of the BagOfWords 1 of D 1 features . 
+Note that , including words that have occurred for at least two times instead of three times in the word list , allows a better chance to have more listed words appear in a sentence , which contains much fewer words than a segment does . 
+Each vector takes the same label of vector xi , i.e. , , where and . 
+Given the sequence of feature vectors , , and the set of all possible values of labels , the probability of each feature in given a label n ( ) is computed using the conditional probability shown in Eq . 
+3 : ( 3 ) where j represents a feature , represents the count of observed feature j in the vectors that have a label n , Countn represents the count of all observed features in the vectors that have a label n , and D 2 is the number of features . 
+Note that we again employ the “ add‐1 ” smoothing technique in Eq . 
+3 to prevent a zero probability . 
+3 . 
+Each sentence of document C is represented as a D2‐dimension binary feature vector using the word list BagOfWords 2 , where each dimension takes a value of 1 or 0 , indicating the presence of the corresponding word in the sentence . 
+Thus , the sentences can be represented as a sequence of T D2‐dimension binary feature vectors , denoted by . 
+Using Eq . 
+3 , the computation of the conditional probability of each feature given each possible value of labels ( i.e. , ) will lead us to compute the initial value of the emission probability of an observation given each state of the HMM , as shown in Eq . 
+4 . 
+( 4 ) 3 . 
+Each sentence of document C is represented as a D2‐dimension binary feature vector using the word list BagOfWords 2 , where each dimension takes a value of 1 or 0 , indicating the presence of the corresponding word in the sentence . 
+Thus , the sentences can be represented as a sequence of T D2‐dimension binary feature vectors , denoted by . 
+Using Eq . 
+3 , the computation of the conditional probability of each feature given each possible value of labels ( i.e. , ) will lead us to compute the initial value of the emission probability of an observation given each state of the HMM , as shown in Eq . 
+4 . 
+( 4 ) where o represents an observation , j represents a feature , oj represents the value of feature j in observation o , and D 2 is the number of features . 
+where o represents an observation , j represents a feature , oj represents the value of feature j in observation o , and D 2 is the number of features . 
+The initial estimated probabilities of will be used in the next subsection for learning the HMM to find a best estimation of . 
+In this subsection , we work on the HMM to learn ( i.e. , A , B , and ) based on Eq . 
+1 . 
+Formally , the HMM , which consists of a sequence of hidden states and independent observations , as seen in Figure 2 , is formed as follows : Assume that there are T sentences in document C ( remember ) , denoted by , where i represents the position of a sentence in the document ( e.g. , Sen 1 and SenT denote the first sentence and last sentence of document C , respectively ) . 
+Each hidden state represents the most likely author of the corresponding sentences . 
+Therefore , there are T hidden states , denoted by . 
+Each state takes only one possible value from a set denoted by . 
+For generality , we substitute the set by a set . 
+The estimation of , which can explain the observations more effectively , is performed by using the Baum–Welch algorithm ( Dempster , Laird , & Rubin , 1977 ) , which is considered a special case of the Expectation Maximization ( EM ) algorithm . 
+The process starts with using the initial values of , which were estimated in the previous subsection , and computes the probabilities of being in each state at each time . 
+This is done by using the forward‐backward algorithm ( Bishop , 2006 ; Rabiner & Juang , 1986 ) . 
+After that , the estimated probabilities are used to obtain a better estimate of . 
+Using the improved ( hopefully ) , the forward‐backward algorithm is applied again , and the cycle repeats until the convergence of either the or the estimated probabilities occurs . 
+The learned will be used in the next subsection in order to find the best sequence of authors that represents the sequence of sentences of document C . 
+The Viterbi algorithm ( Viterbi , 1967 ; Forney , 1973 ) , also known as the max‐sum algorithm , is used to efficiently find the most likely sequence of states for the given observations . 
+After all , by using the Viterbi algorithm , the best sequence of authors , , that represents the corresponding sentences in document C is determined . 
+As mentioned earlier , the initial values of have a significant impact on the learning process of HMM so that it affects the performance of the decoding process . 
+For unlabeled data , we have proposed a statistical approach to better estimate the initial values of by using segments and learned a preliminary HMM . 
+The HMM has been used to classify each sentence . 
+In this section , the resulted , labeled sentences obtained in the previous section can be used to recalculate the initial values of , which can then be used to learn a more accurate , boosted HMM , to further improve the performance of the decoding . 
+A procedure called “ Consecutive‐Sentence Dataset ” is proposed to create a new labeled dataset that can be employed to re‐estimate the initial values of and reconstruct the HMM . 
+The procedure aims to provide a dataset with a high rate of correctly labeled data . 
+It strives to provide a dataset with more labeled data for calculating , by using sentences rather than segments . 
+This procedure works as follows . 
+Given the labels of all of the sentences of document C , sequences of a minimum five consecutive sentences having the same label are inserted into the new dataset for that label . 
+Our experiments have shown that the purity results are not sensitive to the setting of the minimum number of consecutive sentences as long as it does not exceed the mean author run length ( i.e. , meanARL ) in the document . 
+Eventually , the new dataset , denoted by , is created , where with , and represents the number of sentences in CSD . 
+We use the new dataset CSD to re‐estimate the new initial values of . 
+The computations of the initial values of A and are similar to the computations that have been applied in the previous section , and we replace the set of all labels with the set of all states . 
+The initial values in B are also recalculated using the new dataset . 
+However , due to the fact that the new dataset is a sequence of sentences , rather than segments , it is desirable to increase the number of features used in representing the sentences to capture the relation between the observations ( i.e. , sentences ) and the states ( i.e. , authors ) . 
+Therefore , a new feature list , denoted by , where D 3 is the length of the list , which contains all distinct words that occur at least one time in the document C , is created . 
+By using this list , all sentences in CSD are represented as binary feature vectors , denoted by . 
+The probability computation of each feature in given a label n ( ) is similar to the computation that has been applied in the previous section . 
+The only difference is that we replace the sequence of vectors , , of D 2 features by the sequence of vectors , , of D 3 features . 
+Then the new initial values in ( i.e. , A , , and B ) are utilized for learning the HMM again . 
+The process of learning the HMM is the same as the process discussed in the previous section . 
+The only difference is that we replace the BagOfWords 2 list of D 2 features by the BagOfWords 3 list of D 3 features for representing the observation sequence , O . 
+Lastly , the final‐stage sentence decoding process is applied to find the most likely sequence of authors corresponding to all sentences in document C . 
+Here the same algorithm illustrated in the previous section is used to perform the decoding process of this step . 
+Thus far , the SequentialUD approach , which consists of seven steps shown in Figure 1 , is done . 
+The work in Aldebei et al . 
+( 2015 ) proposed a probability indication procedure ( PIP ) to enhance the purity of the sentence classification process . 
+The procedure consists of five criteria . 
+It proceeds by selecting trusted sentences from a document and using them to reclassify each sentence of the document into the author 's class . 
+The procedure was implemented using the Naive‐Bayesian model . 
+Following this idea , in this work a modified version of PIP , termed ModPIP , is proposed to refine the classification results and further improve the sentence classification purity results . 
+Because we treat the sentences of a document as sequential data , the ModPIP was developed based on a sequential model . 
+This is detailed below . 
+A sentence in document C , which has been assigned a specific state value , is recorded as a trusted sentence if and only if the posterior probability of its state value given the observed sequence of all sentences is greater than the posterior probabilities of all other state values given the observed sequence of all sentences , by more than a threshold R . 
+The state values of the trusted sentences will be fixed . 
+If the first trusted sentence in document C is not the first sentence in the document , then all sentences starting from the first sentence in the document till the sentence located before the trusted sentence are given the same state value of the trusted sentence . 
+If the last trusted sentence in document C is not the last sentence in the document , then all sentences starting from the sentence located after the trusted sentence till the last sentence in the document are given the same state value of the trusted sentence . 
+If a group of nontrusted consecutive sentences is surrounded between two trusted sentences that have the same state value , then all the sentences in the group are given the state value of the two trusted sentences . 
+If a group of nontrusted consecutive sentences is surrounded between two trusted sentences that have different state values , then the best split point in the group is picked to divide the group into two subgroups . 
+All the sentences in the first subgroup , which comes before the split point , are given the same state value of the trusted sentence which comes before them . 
+All the sentences in the second subgroup , which comes after the split point , are given the same state value of the trusted sentence that comes after them . 
+The best separation point is the one that gives the maximum summation value of all posterior probabilities of the assigned state values of the sentences in the group given all observed sentences in the document . 
+The posterior probability of a single state given the observed sequence of all sentences , , which is used in the first and fifth criteria , is computed using the forward‐backward algorithm . 
+In this section , the performance of the proposed approach ( i.e. , SequentialUD and its refined version ) is evaluated and compared with the state‐of‐the‐art on three benchmark datasets used as benchmarks in Koppel et al . 
+( 2011 ) , Akiva and Koppel ( 2012 , 2013 ) , Aldebei et al . 
+( 2015 ) , and Giannella ( 2015 ) . 
+Furthermore , to test its performance on more realistic cases , scientific articles are also utilized . 
+In this article , the state‐of‐the‐art results used for comparisons are directly taken from their articles . 
+The first corpus tested is a group of five biblical books written by five authors ( see Table 1 ) . 
+These books are related to two genres of literature , wisdom and prophetic . 
+Note that we adopted biblical books for three reasons . 
+First , this corpus is highly motivated because various researchers have been working on authorship analysis of biblical literature for centuries . 

@@ -1,0 +1,61 @@
+T1	表 3554 3674	An analysis of all 309 categories revealed 99 unique categories , 20 of which appear on five or more portals ( Table 4 )
+T2	引文作者 5874 5882	Lourenço
+T3	引文时间 5888 5892	2015
+T4	引文作者 13108 13113	Nahon
+T5	引文时间 13126 13130	2015
+T6	引文作者 13783 13791	Lourenço
+T7	引文时间 13797 13801	2015
+T8	引文作者 14295 14299	Kwak
+T9	引文作者 14287 14290	Lee
+T10	引文时间 14305 14309	2012
+T11	引文作者 14084 14092	Gurstein
+T12	引文时间 14095 14099	2011
+T13	引文作者 14866 14872	Davies
+T14	引文作者 14877 14884	Edwards
+T15	引文时间 14887 14891	2012
+T16	引文作者 15125 15133	O'Connor
+T17	引文时间 15136 15140	2015
+T18	引文作者 15459 15467	Gurstein
+T19	引文时间 15470 15474	2011
+T20	引文作者 16686 16690	Kwak
+T21	引文作者 16678 16681	Lee
+T22	引文时间 16693 16697	2012
+T23	引文作者 17030 17036	Davies
+T24	引文时间 17039 17043	2014
+T25	引文作者 18118 18123	Nahon
+T26	引文时间 18133 18137	2015
+T27	引文作者 18140 18147	Thorsby
+T28	引文时间 18157 18161	2016
+T29	研究结果 1121 1425	The results show that 25 out of 34 portals provided Creative Commons licenses , the ODC Public Domain Dedication and License ( PDDL ) , or similar licenses that grant rights of reuse , either through one umbrella license for all datasets , or by providing individual license ( s ) on each dataset 's page
+T30	研究结果 1430 1585	We found only four portals that provided language option ( s ) other than English , making this the lowest‐performing criterion within the Access dimension
+T31	研究方法 6399 6415	correlation test
+T32	研究结果 9677 9781	The results showed that only 12 portals had dedicated communication channels to engage their communities
+T33	引文的结果 13133 13243	also found that the “ paths to high OGD Heartbeat values ” are significantly different among cities ( p. 128 )
+T34	引文的结果 13804 13874	observation that many data portals are “ simple repositories of data ”
+T35	具体模型 14312 14342	Open Government Maturity Model
+T38	研究结果 18558 18730	Our analysis showed a surprisingly high degree of variation in data categories across cities , even considering the diversity of city life and variety of municipal services
+T39	研究展望 18934 19031	The metrics used in the study measure the features of the OGD portals , but they have limitations
+T40	研究展望 19036 19237	The quantitative data can only indicate the features and overall performance of the OGD portals in terms of user access and engagement ; we can not discern the design intention of the portal developers
+T41	研究展望 19540 19615	To improve this evaluation framework , a grounded user study may be helpful
+T42	研究展望 19397 19535	The quantitative evaluation can not substitute for the richness of users ’ direct reports of their actual experience with the data portals
+T36	引文的结果 15151 15324	found that frequent users of city OGD portals tended to be “ highly educated , highly civically motivated ” people with “ substantial data analytics or programming skills. ”
+T37	引文的结果 16700 16886	point out that government agencies should align OGD goals with their “ broader goals and priorities , ” rather than creating OGD portals “ for the sake of implementing new technologies ”
+R1	has_cited_time Arg1:T26 Arg2:T25	
+R2	has_cited_time Arg1:T28 Arg2:T27	
+R3	has_cited_time Arg1:T24 Arg2:T23	
+R4	results Arg1:T21 Arg2:T37	
+R5	coauthor Arg1:T21 Arg2:T20	
+R6	has_cited_time Arg1:T22 Arg2:T20	
+R7	has_cited_time Arg1:T19 Arg2:T18	
+R8	results Arg1:T16 Arg2:T36	
+R9	has_cited_time Arg1:T17 Arg2:T16	
+R10	coauthor Arg1:T13 Arg2:T14	
+R11	has_cited_time Arg1:T15 Arg2:T14	
+R12	coauthor Arg1:T9 Arg2:T8	
+R13	has_cited_time Arg1:T10 Arg2:T8	
+R14	has_cited_time Arg1:T7 Arg2:T6	
+R15	results Arg1:T6 Arg2:T34	
+R16	has_cited_time Arg1:T12 Arg2:T11	
+R17	has_cited_time Arg1:T5 Arg2:T4	
+R18	results Arg1:T4 Arg2:T33	
+R19	has_cited_time Arg1:T3 Arg2:T2	

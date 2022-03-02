@@ -1,0 +1,130 @@
+This is the case of the author cited in references 32 and 33 in Figure 2 , who the interviewee knows well , although they have never published a paper together . 
+The fourth category concerns cases where the interviewee has only met the author briefly , or where they have both attended a conference or meeting ( 4_AlreadyMet ) . 
+This is the case for references 4 and 5 in Figure 2 . 
+Category five concerns authors who are known only by name ( 5_KnownByName ) . 
+These authors are often famous or frequently referenced in the literature . 
+This applies when the interviewee can give at least some information about the author ( position , notable achievements , etc. ) . 
+Finally , there are a number of authors who are unknown to the interviewee , that is , they can provide no information at all ( 6_Unknown ) . 
+They may be unknown because of their professional status ( doctoral student , technician , etc . 
+) , because they are spatially distant from the citing author ( for example Chinese colleagues ) , because they are from another time period ( for example an author from the 1930s ) , or from another discipline ( for example a chemist citing a physicist ) . 
+For more details on the types of relationship , see Milard ( 2014 ) . 
+In this section we present the corpus of articles , and describe how it was processed . 
+Our corpus consisted of 123 articles whose origin is described in Interviews to Capture Social Relations Between Authors . 
+The full text of each article was extracted from files in PDF format ( based on the published versions provided by the interviewed authors ) and cleaned up . 
+The corpus contained an overall total of 1.1 million tokens . 
+The breakdown , per discipline , is indicated in Table 1 . 
+Nb . 
+of words ( per article ) Nb . 
+of citations ( per article ) Although there are large differences in terms of article length between the five disciplines ( with mathematics and social sciences articles being much longer than biology and chemistry ) , the average number of citations per paper shows a notable homogeneity . 
+In‐text citations were explicitly marked up ( using an ad‐hoc XML schema ) , and allocated a number that was cross‐referenced to the information obtained from the interviews with authors , and details of the reference . 
+We were therefore able to standardize the different citation styles used in different disciplines and/or journals . 
+The same tag was used to replace full‐name , Harvard‐style citations ( e.g. , “ ( Smith 2009 ) ” ) , abridged names ( e.g. , “ [ SMI09 ] ” ) , Vancouver‐style numbers ( e.g. , “ [ 1 ] ” , “ ( 1 ) ” or footnote/endnotes . 
+In total , 6,956 citations of 4,401 references were identified . 
+This preparation was necessary for the subsequent automatic processing step , which is presented in the next section . 
+In this section , we present the main results of our study . 
+We analyse the citation characteristics of our corpus , and compare them to the social relations between the citing and cited authors . 
+In cases where there are multiple authors , there may be several types of relationship within the same reference . 
+In such cases , we chose to retain the closest relationship , as it tends to prevail over the others . 
+The aim was to identify any correlations , and the underlying question could be rephrased as “ does the level of social relation influence the action of citation ? 
+” A further consideration is inter‐discipline variation . 
+As a preliminary result , Figure 3 presents the relations between citing and cited authors , for all references , according to the disciplines . 
+References as a function of social relation and discipline ( closest relation ) . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] To the best of our knowledge , there are no similar , empirical studies of these sorts of relations . 
+The only comparable results appear to concern self‐citations . 
+These studies are popular , as self‐citations can easily be identified in a reference list without having to interview the authors . 
+The most complete study on the subject ( Glänzel & Thijs , 2004 ) presents similar results in terms of distribution : self‐citation is more prevalent in biology , chemistry and mathematics ( around 13 % ) than in sociology and economics ( around 7 % ) . 
+Overall , the profile for biology resembles that of chemistry . 
+Likewise , economics and sociology are somewhat similar , although the percentage of known authors is higher in economics . 
+Mathematicians have the distinction of citing the fewest unknown authors in their bibliography . 
+However , these initial results do not take into account the details concerning the insertion of a reference in a text ( i.e. , the citation ) . 
+To understand the links between social relations and the content of the text , it is essential to look at the different ways citations are used . 
+We studied a number of characteristics that are known to vary across citations , and can be seen as an indication of the attitude of the citing author to the cited author . 
+We present these features in order of increasing abstraction and subjectivity and , incidentally , processing complexity . 
+As we will see , most features can be related to a ( as yet imprecise ) notion of “ centrality ” or “ importance ” of a citation . 
+Our hypotheses are : that it is not neutral for an author to cite the same reference several times ( Citation Distribution and Frequency ) ; that a citation in the introduction is different to a citation in the methodology ( Position of Citations ) ; and that an isolated citation is different to a citation in a cluster of several other references ( Citation Clusters ) ; this choice is based on the work of , for example , Tanguy et al. , ( 2009 ) . 
+The text that surrounds a citation is also an indicator of the author 's attitude towards it although , it is , of course , the most complicated information to use ( Textual Content of the Citation Context ) . 
+The first set of characteristics we consider is simply the distribution of social relations across all the citations in our corpus , which naturally leads to a cross‐discipline comparison and an analysis of the number of citations for a given reference . 
+The first point to note is that this analysis focuses on in‐text citations , and not the list of references . 
+Therefore , the distribution is slightly different to that observed in Mixed Methods : Interviews , Coding and Corpus Building ( Figure 3 ) . 
+The number of citations for each discipline and each type of social relation is indicated in Figure 4. in‐text citations as a function of discipline and social relation . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The overall trends are similar to those observed for the list of references . 
+The only notable differences concern an increased ratio of self‐citations ( 16 % compared to 11 % ) and a lower ratio of unknown authors ( 21 % compared to 26 % ) , which indicates that the number of citations per reference varies , as we will see in the next section . 
+When we compare disciplines , we see that the overall level of relationship with cited authors is higher for mathematics , with a higher proportion of 1_Self and 3_Collab/Friend , and very few citations of unknown authors . 
+This trend is inverted for the social sciences , with sociology at the other end of the spectrum . 
+Experimental sciences are similar to mathematics , but with a much higher rate of unknown authors , and even higher rates of self‐citation . 
+This confirms the observations of Snyder and Bonzi ( 1998 ) on self‐citations , which were found to be significantly more frequent in experimental sciences . 
+As noted , the difference in the distribution of references compared to citations indicates that there are differences in the number of times a given reference is cited . 
+This simple to measure feature has been frequently studied in citation analysis . 
+( Zhu et al. , 2015 ) have measured that the number of times a reference , is cited in an article is correlated to the citing author 's estimation of the reference 's influence on their work , whereas ( Boyack et al. , 2018 ) found that references cited only once in an article are generally highly cited according to bibliometric databases . 
+The average number of citations for a given reference in our corpus is 1.58 ( ±0.04 , 95 % CI ) . 
+Table 2 shows the detailed results as a function of discipline and social relation . 
+2_Same Lab 3_Collab/ Friend 4_Already Met 5_Known ByName The colors of the cells in Table 2 show , for each discipline , the higher ( in green ) and lower ( in red ) values , that is , the relative variation in the numbers of citations per social relation for each discipline , and for all articles . 
+The overall picture thus seems to indicate that , with a few exceptions , references that correspond to stronger social relations are cited more frequently . 
+However , over all five disciplines , there are in fact significant33 ANOVA and post‐hoc Tukey HSD tests were used , with a significance threshold of 0.05. differences across social relation types ( F = 33.2 , df = 5,4395 , p < 0.001 ) . 
+A closer look indicates that 1_Self citations are cited most frequently : more than two citations per reference . 
+This is significantly ( p < 0.05 for all categories ) higher than all other types . 
+Although no differences are found for 2_SameLab and 3_Friend/Colleague , the citation rate is significantly higher than for the other three categories ( p < 0.05 ) . 
+And , finally , 6_Unknown citations are significantly lower than all others ( p < 0.05 ) . 
+No significant differences are found for Levels 4 ( AlreadyMet ) and 5 ( KnownByName ) . 
+Several hypotheses can be formulated to explain the behavior observed for self‐citations , such as the fact that they are frequently used to indicate the follow‐up of earlier work by the authors . 
+The low repetition rate of 6_Unknown authors could indicate that the function of these references in an article is less central , and that they serve to give background or methodological information . 
+The results highlight differences between disciplines , notably mathematics and biology have a higher overall repetition rate than the other three disciplines . 
+It is interesting to note that this finding is independent of the article 's length , or even the total number of citations per article which show significant differences between these disciplines ( see Table 1 ) . 
+The analysis of citation frequency against relations for each individual discipline found significant differences in all cases , except for sociology ( biology : F = 18.3 , df = 5,975 , p  0.05 ) . 
+However , only the higher frequency of self‐citations and lower frequency of unknown citations can be confirmed for each of the five subsets ( p < 0.05 for all comparisons ) . 
+Another important characteristic of a citation that can be easily measured is the position in which it appears in the text . 
+Several large‐scale analyses have studied the distribution of citations in an article , based on their relative position . 
+( Hu et al. , 2013 ) found that references cited in the first parts of an article have globally higher citation rates . 
+( Bertin et al. , 2016 ) found invariant schemes of distribution of citation in the position of citations , but ( Boyack et al. , 2018 ) found important differences across disciplines . 
+The underlying hypothesis in this study and in the current paper is that the position of a given citation is influenced by its relative importance or function . 
+For each citation , we measured its absolute position in the text , measured as the character offset of the corresponding XML tag . 
+These values were normalized in such a way that absolute position values ranged from 0 ( the citation appears at the very beginning of the body of the text ) to 100 ( it appears at the very end ) . 
+Figure 5 shows the relative position of citations as a function of discipline and social relation . 
+offset of in‐text citations as a function of discipline and social relation . 
+Figure 5 shows that most citations occur in the first parts of an article , but rarely at the very beginning . 
+The median position of a citation in the overall corpus is 29 % , which corresponds exactly with the findings of Zhu et al. , ( 2013 ) , who analysed a homogenous corpus of articles from the Journal of Informetrics . 
+There are significant variations in global positions across disciplines ( F=23.7 , df=4,6951 , p < 0.001 ) . 
+More precisely , in chemistry and economics citations appear significantly earlier in the text than for the other three disciplines ( p < 0.05 ) . 
+This is somewhat surprising as the articles from these two disciplines have different lengths and structures . 
+Variation in position as a function of social relation is also significant ( F=7.6 , df=5,6950 , p < 0.001 ) but more elusive . 
+The only significant difference , found using Tukey 's HSD test , concerns citations in the 4_AlreadyMet and 5_KnownByName categories , which both appear earlier than 6_Unknown citations ( p < 0.05 ) . 
+However , the lower set of boxplots shown in Figure 5 indicate that , with the exception of the 6_Unknown category , the better‐known the author , the later the citation appears in the text . 
+When analyzing each discipline individually , we found that although significant differences could be identified , it was difficult to define a common trend that was stable across disciplines . 
+This difficulty is partly caused by wide variation in article structure , which is not satisfactorily represented by the simple relative position . 
+Therefore , in the next section we propose an alternative approach . 
+The IMRaD ( Introduction , Methods , Results and Discussion ) prototypical structure has been thoroughly described in the literature , as it is prescribed ( and followed ) for most science articles ( Swales , 1990 ) . 
+Several recent studies of citation behaviour have focused on the section in which a citation appears , whether to study linguistic variations in the context ( Bertin & Atanassova , 2014 ) , the age of a citation ( Bertin et al. , 2016 ) , or its function ( Teufel , 2010 ) . 
+In order to explore this aspect , we manually tagged each section heading in our corpus according to the IMRaD categories . 
+The overall results are presented in Table 3 . 
+The IMRaD column indicates the number of articles that follow the IMRaD structure ( not necessarily in this order , as the method/experimental sections appear at the very end in about 50 % of biology and chemistry articles ) . 
+Articles that do not follow this structure either have no section headings whatsoever or use thematic names ( e.g. , “ Geometric Currents , ” “ The Abstract Existence Result , ” “ Projective Masses ” ) . 
+The last two columns indicate the number of articles that have an explicit Introduction and/or Conclusion . 
+The results presented in Table 3 show that the IMRaD structure does not apply in mathematics or social sciences , and is limited to experimental sciences ( as expected ) . 
+A more surprising finding is the lack of a conclusion , including in the absence of the IMRaD structure . 
+The exception is social sciences articles , which systematically include it . 
+This information provides the input for an analysis of the distribution of the social relationship as a function of the section in which the citation appears . 
+We first focused on the two disciplines for which the IMRaD structure is relevant ( biology and chemistry ) , and test whether there are significant differences in the way citations are distributed across sections as a function of the relation with the cited author . 
+We considered only the 47 ( 25 biology and 22 chemistry ) articles with a full IMRaD structure . 
+We merged the “ Results ” and “ Discussion ” sections , as most authors group them into a “ Results and Discussion ” section . 
+Table 4 shows adjusted Pearson residuals for the Introduction ( I ) , Methods ( M ) , Results and Discussion ( RD ) and Conclusion ( C ) sections . 
+Values are highlighted according to their sign ( green for positive , red for negative ) and absolute value . 
+Brighter colours are used for residuals with an absolute value greater than two , as it is commonly considered as a threshold for significance ( Agresti , 2013 ) . 
+The most salient results concern the citations in the 6_Unknown category , which appear most often in the Method section and , to a lesser extent , in the Conclusion , but are rarely found in the Introduction . 
+This is understandable , as many citations used in these sections refer to standard methods , for which knowledge of the authors , or a close relationship with them , is mostly incidental . 
+Significant differences are also found in the distribution of 1_Self citations , being rare in the Introduction , but more frequent in the Method section . 
+As for the other categories , we can see that most of the other categories follow the same distribution : 3_Collab/Friend , 4_AlreadyMet and 5_KnownByName citations are more frequent in the Introduction and rare in the Method . 
+No significant variation is found for the 2_SameLab category . 
+Examining variation across all five disciplines requires us to abandon the IMRaD structure , and to target the lowest common denominator regarding the sections found in articles . 
+We thus measured the association between a citation 's presence in the Introduction and its category . 
+More precisely , we compared the distribution ( across categories ) of all citations in the Introductions we found to the global distribution of categories . 
+We did this for both the whole corpus , and separately for each discipline . 
+Adjusted Pearson residuals are shown in Table 5 here again , absolute values above two have been highlighted . 
+For biology and chemistry , the effects noted in the previous table appear once again . 
+For the other disciplines , however , the results differ . 
+No significant variation can be observed for mathematics ; in economics , the Introduction features citations of less‐well‐known authors ; sociology articles contain more self‐citations , and more citations of the work of collaborators and friends . 
+We then applied the same procedure to the Conclusions : the results are presented in Table 6 . 
+This detailed measure shows that there are differences between biology and chemistry , which could not be seen in the first study ( Table 6 ) . 
+Specifically , the conclusions of chemistry articles favour self‐citations , although this is the only discipline for which such behavior is observable . 
+Biology has a high frequency of unknown citations in the Conclusion , unlike all of the other disciplines . 
+These differences are less significant than for introductions . 
+This is mostly because of the lower frequency of articles with a conclusion , notably in mathematics where only 8 % of articles have an explicit Conclusion . 

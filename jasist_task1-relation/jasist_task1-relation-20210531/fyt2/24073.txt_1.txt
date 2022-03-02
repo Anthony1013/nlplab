@@ -1,0 +1,130 @@
+Stylometry is the science of ( the measurement of ) “ writing style. ” One major application of this science is authorship attribution , the determination of the author of an unknown or disputed document . 
+Since the analysis of The Federalist Papers ( Mosteller & Wallace , 1964 ) , authorship attribution has been used to address historical authorship questions ( Collins , 2013 ) , resolve journalistic disputes ( Brooks & Flyn , 2013 ; Juola , 2013a ; Herper , 2014 ) , provide evidence for immigration hearings ( Juola , 2013b ) , and even help solve murder cases ( Chaski , 2005 ; Grant , 2013 ) . 
+This technology has been shown to work in a wide variety of languages , including English , French , Chinese , Polish , and German . 
+Using a newly available corpus of Greek and of English developed by George Mikros ( Juola & Mikros , 2017 ) , we are able to test to determine whether or not the same methods that work in English also work in Greek . 
+Furthermore , because of the way this corpus was created , we are able , for the first time , to directly compare the accuracy of authorship attribution in Greek and in English . 
+The basic theory of traditional style‐based authorship attribution is fairly straightforward . 
+The problem itself can be stated very simply : Given a document , who wrote it ? 
+In theory , every author is capable of making almost an infinite number of choices from the available set of constructions , but many of these choices are habituated and form part of an individual style , or what van Halteren , Baayen , Tweedie , Haverkort , and Neijt ( 2005 ) calls the “ stylome. ” Other researchers have preferred the metaphor of an “ authorial fingerprint. ” As McMenamin describes it , At any given moment , a writer picks and chooses just those elements of language that will best communicate what he/she wants to say . 
+The writer 's “ choice ” of available alternate forms is often determined by external conditions and then becomes the unconscious result of habitually using one form instead of another . 
+Individuality in writing style results from a given writer 's own unique set of habitual linguistic choices ( McMenamin , 2011 ) . 
+Coulthard 's description is similar : The underlying linguistic theory is that all speaker/writers of a given language have their own personal form of that language , technically labeled an idiolect . 
+A speaker/writer 's idiolect will manifest itself in distinctive and cumulatively unique rule‐governed choices for encoding meaning linguistically in the written and spoken communications they produce . 
+For example , in the case of vocabulary , every speaker/writer has a very large learned and stored set of words built up over many years . 
+Such sets may differ slightly or considerably from the word sets that all other speaker/writers have similarly built up , in terms both of stored individual items in their passive vocabulary and , more importantly , in terms of their preferences for selecting and then combining these individual items in the production of texts ( Coulthard , 2013 ) . 
+The underlying linguistic theory is that all speaker/writers of a given language have their own personal form of that language , technically labeled an idiolect . 
+A speaker/writer 's idiolect will manifest itself in distinctive and cumulatively unique rule‐governed choices for encoding meaning linguistically in the written and spoken communications they produce . 
+For example , in the case of vocabulary , every speaker/writer has a very large learned and stored set of words built up over many years . 
+Such sets may differ slightly or considerably from the word sets that all other speaker/writers have similarly built up , in terms both of stored individual items in their passive vocabulary and , more importantly , in terms of their preferences for selecting and then combining these individual items in the production of texts ( Coulthard , 2013 ) . 
+Some accessible examples of this kind of habitual language choice are the use of lexical , grammatical , or even spelling features associated with specific regional dialects . 
+For example , the US word “ honor ” is spelled “ honour ” in the Commonwealth . 
+What an American calls ” chips ” would be “ crisps ” to a Brit , and the British use “ do ” in a number of contexts where Americans do not ( for instance , Klemola , 1994 ) . 
+Less obvious are the use of individual variations that do not appear to tie to any specific sociolinguistic features . 
+For example , McMenamin 's report ( 2011 ) analyzed 11 different and distinct “ features ” of the writing in both the known ( undisputed ) email and the disputed email . 
+One feature , for example , hinged on the spelling of the word can not , and in particular whether it was written as one word ( can not ) or as two ( can not ) . 
+Another feature was the use of the single word “ sorry ” as a sentence opener ( as opposed , for example , to “ I 'm sorry ” ) . 
+We are unaware of any research suggesting a demographic cause for this variation . 
+By using quantitative linguistics , possibly in conjunction with computers , researchers are able to apply statistical methods and achieve greater accuracy and power in discernment . 
+A particularly good example is Binongo 's study of the Oz books ( 2003 ) . 
+The backstory is fairly simple : the series was started with L. Frank Baum 's publication of The Wonderful Wizard of Oz and continued until his death in 1919 . 
+After his death , the publishers asked Ruth Plumly Thompson to finish “ notes and a fragmentary draft ” of what would become The Royal Book of Oz , the 15th in the series , and then Thompson herself continued the series until 1939 , writing nearly 20 more books . 
+The underlying question is the degree to which this “ fragmentary draft ” influenced Thompson 's writing ; indeed , scholars have no evidence that the draft ever existed . 
+Binongo collected frequency statistics on the 50 most frequent function words across the undisputed samples and analyzed them using principal component analysis ( PCA ) . 
+Note that , unlike “ honor/honour , ” both candidate authors used all 50 of these words at relatively high frequencies , but at individually different high frequencies . 
+Reducing these 50 variables down to their first two principal components produced an easily graphable distribution that showed clear visual separation between the two authors . 
+When the Royal Book was plotted on the same scale , it was shown clearly to lie on Thompson 's side of the graph , confirming that “ from a statistical standpoint , ( the Royal Book ) is more likely to have been written in Thompson 's hand. ” Stylometry thus applies the same general theory , but with a few major differences . 
+The basic assumption that people make individual choices about language still holds , but instead of ad hoc features selected by examination of the specific documents , the analysts use more general feature sets that apply across the spectrum of problems . 
+What is significant , then , is not the presence or absence of a feature , but the ( quantitative ) frequency . 
+For example , one common feature set is the frequency of common words such as articles and prepositions ( Burrows , 1989 ; Binongo , 2003 ; Hoover , 2004a ) . 
+Because these words tend to be both common and also not to carry strong semantic associations , their frequencies tend to be stable across documents and genres , but these frequencies can also be shown to vary strongly across individuals . 
+Another commonly used feature set is the frequency of common groups of consecutive words ( word n‐grams ) or consecutive characters ( character n‐grams ) ( Stamatatos , 2013 ; Mikros & Perifanos , 2013 ; Juola et al. , 2013 ) . 
+Using these feature sets or others ( Rudman , 2003 ) , the features present in a document are automatically identified , gathered into collections of feature representations ( such as vector spaces ) , and then classified using ordinary machine learning algorithms ( Joachims , 2002 ; Quinlan , 1993 ; Jockers & Witten , 2010 ) to establish the most likely author . 
+Other analyses ( Eder , 2015 ; Dabagh , 2007 ; Holmes , 1992 ; Hoover , 2004a ) use clustering algorithms to group similar documents together , which can then be analyzed to see whether or not they correspond to authorial groupings . 
+Still other analyses ( Argamon , Koppel , Pennebaker , & Schler , 2009 ; Schwartz et al. , 2013 ) classify or cluster documents , not by specific author , but by group identity ( for example , by gender or personality category ) . 
+Given the framework developed in the previous section , it is relatively straightforward to compare performance of different analytic methods simply by reanalyzing a single document collection in different ways . 
+There have been numerous TREC‐style comparative analyses ( Juola , 2004 , 2012b ; Juola & Stamatatos , 2013 ; Stamatatos et al. , 2014 , 2015 ) as well as large‐scale single‐project investigations ( Juola , 2009a , 2012a ; Vescovi , 2011 ) that can address questions like “ what is an appropriate cutoff for ‘ common ’ words ? 
+” ( Eder , 2013 ; Hoover , 2004b ) . 
+However , it is much harder to compare performance across different corpus conditions , such as different genres or even languages . 
+The 2015 PAN/CLEF authorship verification competitive evaluation ( Stamatatos et al. , 2015 ) illustrates this problem . 
+This conference focused on “ authorship verification , ” a related problem to authorship attribution where the task ( Koppel , Schler , Argamon , & Winter , 2012 ) is simply to determine whether a given ( unknown , test , questioned ) document is by the same single author as a set of ( known , training ) documents . 
+PAN‐2015 ( Stamatatos et al. , 2015 ) used a rather complex method of calculating performance to allow the maximum flexibility to answer or not to the participants . 
+They used the AUC ( area under the curve ) score to allow participants to provide continuous‐valued confidence measures ( for example , a team that gave an answer with confidence 0.6 would gain fewer points if that answer were correct , but also lose fewer points if it were wrong ) . 
+Similarly , the PAN team used the “ c @ 1 ” measure to allow participants to leave questions unanswered without penalty ; the mathematical explanation of this measure is rather complex and is omitted here for brevity . 
+The overall score was calculated as AUC times c @ 1 . 
+This conference covered four languages ( Dutch , English , Greek , and Spanish ) . 
+However , the subcorpora themselves are strongly different . 
+According to Stamatatos et al . 
+( 2015 ) , there were notable differences between the subcorpora used , for instance , a different number of known authorship documents per language subcorpus , different size of documents , different genres employed , mismatching between topic and genre of known and unknown authorship documents , and so on . 
+In light of these differences , it is difficult to make inferences about comparative difficulty between languages . 
+The overall performance ( AUC times c @ 1 ) among all participants on Greek was 0.537 , between Spanish ( 0.715 ) and English ( 0.468 ) . 
+Is this because authorship attribution is an easier task in Spanish ? 
+More likely , it is because there were more words ( on average ) available for the Spanish task ( 946 ) than for Greek ( 756 ) or English ( 536 ) , and more data allows more accurate modeling . 
+It is also possible that the English subgenre ( Cthulhu mythos text ) was simply more uniform and therefore more difficult as a genre than were the opinion articles used as the Greek and Spanish texts . 
+It is therefore not possible to directly compare the numbers 0.537 and 0.468 and draw a meaningful conclusion . 
+What is needed , then , is a multilingual corpus that enables this type of direct comparison . 
+The Mikros corpus described here is an example . 
+Because this experiment focuses on the potential for different performance in Modern Greek and in English , a review of the linguistic properties of both languages may be in order . 
+English is an Indo‐European language , and specifically a Germanic language , with a rich history of borrowing that may give it a larger vocabulary than most other languages . 
+( For example , English has three words of relatively independent derivation , all meaning “ pertaining to a king ” : royal [ French ] , regal [ Latin ] , and kingly [ Germanic ] . 
+) Unlike many other Indo‐European languages , English has almost no inflectional morphology : nouns are generally not inflected for case , although pronouns sometimes are ; there is no grammatical gender , and verb inflection is very sparse ( for example , the first , second , and third person plural forms of verbs are typically identical ) . 
+Perhaps because of this , English word order is extremely complex and rigid . 
+( English also has a very rich sound inventory and a highly irregular phoneme‐grapheme mapping , but these are not relevant for the current work . 
+) By contrast , Modern Greek is comparatively rich in both inflectional and derivational morphology . 
+For example , Modern Greek has four noun cases ( down one from ancient Greek ) and , unusually , marks the passive voice with inflectional morphology rather than with auxiliary words , as in English . 
+Greek also permits much freer word order . 
+For example , there are two ways to express the concept “ George kissed Mary ” in English : subject‐verb‐object ( as above ) using active voice , and object‐verb‐subject using passive voice . 
+By contrast , any of the six possible orderings ( SVO , SOV , VSO , VOS , OVS , OSV ) are grammatical in Greek using the active voice , and any of the six possible orderings are also grammatical using the passive voice . 
+Until recently , use of loanwords was officially discouraged , artificially reducing the vocabulary available . 
+These differences , which are more pronounced than in other cross‐linguistic work ( Hasanaj , Purnell , & Juola , 2014 ) , may suggest that certain types of individual differences are more likely to occur in English than in Greek , and vice versa . 
+For example , the relatively rigid syntax of English suggests that variation in word order is less likely to occur , and therefore there may be common word pairs available in Greek and they may be more informative than in English . 
+( For example , the word pair “ him kissed ” would be ungrammatical in English , but its Greek equivalent would simply be an object‐verb construction . 
+) Similarly , the high degree of inflectional morphology would mean that there are many different forms of the same root ( in Greek ) and a relative lack of function words might reduce the effectiveness of word ( token ) distributions as an authorship feature set . 
+The research described here thus focuses ( as described in a later section ) on the differences between the effectiveness of various authorship attribution methods as applied to tightly controlled corpus of both Greek and English . 
+We report in this article on an experiment performed on a corpus compiled by different language pairs . 
+More specifically , this corpus consists of a collection of essays written by students at the National and Kapodistrian University of Athens . 
+Details are in the following subsection . 
+To address issues of between‐corpus variation , we were able to use students at the University of Athens to collect a reasonably large and tightly topic‐controlled corpus . 
+In all , 100 students were asked to write two essays , one on a personal topic ( the happiest and most unpleasant moments of their life ) and another on an academic topic ( problems in the world today ) , in both Greek and English ( thus producing four essays per person ) . 
+The students wrote first the essays in Greek ( their mother‐tongue ) and then provided a free translation of their writings to the English language . 
+All students were native Greek speakers but highly proficient in English . 
+More specifically , 90 % of the subjects were proficient at the “ C2 ” level ( “ mastery , ” the highest level ) of the CEFR ( Council of Europe , 2011 ) scale ; the remaining 10 % were proficient at the B2 ( “ vantage ” ) level , which still permits them to understand the main ideas of complex text on both concrete and abstract topics , including technical discussions in their field of specialization and produce clear , detailed text on a wide range of subjects and explain a viewpoint on a topical issue giving the advantages and disadvantages of various options . 
+Eighty‐seven students were female . 
+Most were 18 or 19 years old , but some individuals were up to 40 years old . 
+Individual essays ranged in length between 962 and 3,196 tokens ( median 1,937 tokens ) . 
+The above‐mentioned corpus is a unique linguistic resource for investigating cross‐linguistic and cross‐topic authorship attribution problems at the same time . 
+Currently , it has not been publicly released since we are still using it to advance our cross‐linguistic methodological tools . 
+We plan to release it over the next months in the research community , possibly organizing a shared‐task under the framework of the PAN/CLEF authorship attribution competition . 
+For analysis , we used the Java Graphical Authorship Attribution Program ( JGAAP ) ( Juola , Sofko , & Brennan , 2006 ; Juola , 2006 ; Juola , Noecker , Ryan , & Speer , 2009 ) . 
+This open‐source program ( available from jgaap.com ) provides a large number ( Juola , 2009a ) of interchangeable analysis modules to handle different aspects of the analysis process , allowing for large‐scale comparative analyses as part of a search for best practices . 
+( Juola , 2012a ; Vescovi , 2011 ) . 
+JGAAP approaches the problem via a modular pipelined architecture . 
+The pipeline stages include : Document selection—JGAAP supports a wide variety of formats but ultimately converts them to raw UTF text for analysis . 
+Canonicization—Documents are converted to a “ canonical ” form , and uninformative variations can be eliminated at the option of the analyst . 
+For example , document headlines and page numbers , which are often the product of the editor and not the author , can in theory be removed . 
+This also supports a certain amount of normalization—for example , punctuation ( often also a product of an editor ) may be stripped out or case variation neutralized to make sure that “ The ” and “ the ” are treated as the same word . 
+Determination of the event or feature set—The input stream is partitioned into individual nonoverlapping “ events. ” ( This term is used instead of “ feature ” to emphasize that , in text documents , there is an implicit ordering to the features that may or may not be of interest . 
+) At the same time , uninformative events can be eliminated from the event stream . 
+“ The fifty most common words ” ( Binongo , 2003 ) would be an example of such “ events ” ( in this case , the events are “ words ” [ whitespace separated ] , all words outside of the top 50 are eliminated in the next phase as uninformative , and ordering information is discarded , reducing the event stream to a bag‐of‐features ) as would “ all part‐of‐speech 3‐grams ” ( assuming the existence of a suitable POS tagger for the documents in question ; POS taggers for Greek exist , but JGAAP does not currently incorporate one ) , and so forth . 
+Event culling—the overall set of events can be culled , for example , to make sure that only frequent , only infrequent , only widely distributed , or only events with high information gain are included . 
+Statistical inference—The remaining events can be subjected to a variety of inferential statistics , ranging from simple analysis of event distributions through complex pattern‐based analysis . 
+JGAAP supports several different distance‐based nearest‐neighbor analyses ( with more than 20 separate distances ) as well as other classifiers such as LDA , SVM , and the WEKA suite of classifiers . 
+The results of this inference determine the results ( and confidence ) in the final report . 
+As detailed below , we have focused on several specific methods that have been shown to perform well in other contexts such as Hasanaj et al . 
+( 2014 ) . 
+Each of these phases is implemented as a generic Java class which can be instantiated by any of several different classes . 
+For example , the event set ( EventSet ) factory class is defined as EventDriver , which takes in a document and returns the set of events from that document . 
+Specific EventDrivers include words , word n‐grams , word lengths , parts of speech , characters , character n‐grams , part of speech tags , word stems , and so forth . 
+Specific AnalysisDrivers include SVMs , LDA , and so forth . 
+It is not difficult to add a new module , and module selection is performed at run‐time through an automatic GUI that searches the codebase for appropriate class files and adds them as options to the various menus . 
+One benefit of the Java focus of JGAAP is that , by using UNICODE throughout , languages using non‐Latin letters [ such as Greek , as in the current experiment , but also Chinese ( Zhao & Juola , 2008 ; Zhao , 2008 ) and Arabic ( Juola , Milička , & Zemánek , 2017 ) ] can be handled without difficulty . 
+With combinatorics , JGAAP supports more than one million different analyses and can thus be used for large‐scale experiments in search of best practices ( Juola & Vescovi , 2010 , 2011 ; Vescovi , 2011 ) or to create individual elements for ensemble classification such as mixture‐of‐experts ( Juola , 2008 , 2011 ) . 
+We use it here as a testbed to compare different approaches to authorship attribution and to calculate comparative performance levels for each approach . 
+We divided the 100 subjects into pairs ( S1–S2 , S3–S4 , and so on ) and performed cross‐genre attribution on all four essays written by each pair . 
+For example , we used the personal essays by S1 and S2 as training data to attribute ( independently ) the two academic essays in the same language , and similarly used the academic essays as training data to attribute the personal essays . 
+This resulted in four trial attributions per pair : training set { S1‐personal , S2‐personal } ; test set S1‐academic ; correct answer S1 training set { S1‐personal , S2‐personal } ; test set S2‐academic ; correct answer S2 training set { S1‐academic , S2‐academic } ; test set S1‐personal ; correct answer S1 training set { S1‐academic , S2‐academic } ; test set S2‐personal ; correct answer S2 Similarly , the S3–S4 pair generated four trial attributions , as did the S5–S6 , and so forth . 
+Each attribution task was treated as a closed‐class problem , so the chance of success via random guessing was exactly 50 % , with four tasks available per author pair . 
+With 50 author pairs , there were therefore 200 attributions performed in each experimental condition . 
+For analytic purposes , we treated the experiments with personal essays as training and academic essays as testing as “ direction 1 ” ; conversely , experiments with academic essays as training and personal as testing were “ direction 2. ” There were , of course , 100 attributions in each direction for every experimental condition . 
+“ Bidirectional ” results are produce by summing both directions 1 and 2 . 
+The experimental conditions we used were taken largely from feature sets and analysis methods that have proven to be useful and relatively high‐performing in other experiments , including experiments on English documents ( Juola , 2009a , 2012a ; Vescovi , 2011 ) , as well as on other languages , such as Albanian ( Hasanaj et al. , 2014 ) . 
+All experiments were run using the canonicizers “ Normalize Whitespace ” ( which converted all consecutive whitespace , including spaces , tabs , and carriage returns , to a single space character [ “ ” ] ) , “ Unify Case ” ( which converts all lower‐case letters to their upper‐case equivalents ) , and “ Punctuation Separator ” ( which inserts a space before and after each punctuation mark ) . 

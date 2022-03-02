@@ -1,0 +1,588 @@
+T1	术语 0 43	Application programming interfaces ( APIs )
+T2	术语 107 110	API
+T3	术语 163 166	API
+T4	术语 201 204	API
+T5	表 208 298	Table 1 lists seven examples of “ how not to use an API ” extracted from Stack Overflow,11
+T6	术语 260 263	API
+T7	数据源 281 327	Stack Overflow,11 https : //stackoverflow.com/
+T8	术语 411 414	API
+T9	术语 431 451	API negative caveats
+T10	引文作者 541 547	Kramer
+T11	引文时间 550 554	1999
+T12	引文作者 557 566	Robillard
+T13	引文作者 569 575	Deline
+T14	引文时间 578 582	2011
+T15	引文作者 585 593	Dagenais
+T16	引文作者 596 605	Robillard
+T17	引文时间 608 612	2012
+T18	引文作者 615 621	Stylos
+T19	引文作者 624 632	Faulring
+T20	引文作者 635 639	Yang
+T21	引文作者 644 649	Myers
+T22	引文时间 652 656	2009
+T23	术语 456 473	API documentation
+T25	引文作者 899 905	Holmes
+T26	引文作者 841 850	Robillard
+T27	引文作者 853 859	Deline
+T28	引文时间 862 866	2011
+T29	引文作者 869 880	Subramanian
+T30	引文作者 883 894	Inozemtseva
+T31	引文时间 908 912	2014
+T33	术语 941 958	API documentation
+T34	术语 534 538	APIs
+T35	术语 757 760	API
+T36	术语 763 780	API documentation
+T37	术语 833 836	API
+T38	术语 980 1000	API negative caveats
+T39	术语 1105 1108	API
+T40	术语 1168 1188	API negative caveats
+T41	术语 1211 1214	API
+T42	表 1272 1340	We will use the examples in Table 1 to further illustrate this point
+T43	术语 1356 1375	API negative caveat
+T44	术语 1430 1433	API
+T45	术语 1546 1573	Java language specification
+T46	术语 1579 1590	inner class
+T47	术语 1606 1624	nonfinal variables
+T48	术语 1686 1705	API negative caveat
+T49	术语 1727 1730	API
+T50	术语 1759 1780	javax.swing.JTextArea
+T51	术语 1876 1896	API negative caveats
+T52	术语 1950 1953	API
+T53	术语 2030 2060	javax.swing.text.html.ListView
+T54	术语 2081 2091	ScrollView
+T55	术语 2119 2138	API negative caveat
+T56	术语 2308 2322	Stack Overflow
+T57	表 2376 2512	Often , the answers explicitly point out the overlooked API negative caveats and suggest ways to avoid such errors , as shown in Table 1
+T58	术语 2432 2452	API negative caveats
+T59	术语 2608 2628	API negative caveats
+T60	引文作者 2696 2702	Parnin
+T61	引文作者 2705 2711	Treude
+T62	引文作者 2714 2721	Grammel
+T63	引文作者 2726 2732	Storey
+T64	引文时间 2735 2739	2012
+T65	术语 2815 2832	API documentation
+T67	术语 2875 2895	API negative caveats
+T68	表 2837 3060	If we could extract such crowdsourced API negative caveats like those in Table 1 , we may highlight the hard‐to‐notice negative caveats in API documentation or augment the API documentation with the missing negative caveats
+T69	术语 2976 2993	API documentation
+T70	术语 3009 3026	API documentation
+T71	术语 3135 3139	APIs
+T72	术语 3191 3211	API negative caveats
+T73	术语 3232 3252	API negative caveats
+T74	术语 3372 3375	API
+T75	术语 3411 3414	API
+T76	研究方法 3519 3647	we present Disca , an approach for automatically distilling API negative caveats from large‐scale unstructured Q & A discussions
+T77	术语 3579 3599	API negative caveats
+T78	术语 3755 3759	APIs
+T79	术语 3875 3895	API negative caveats
+T80	术语 3898 3918	context‐independence
+T81	术语 3921 3931	prominence
+T82	术语 3934 3952	semantic diversity
+T83	术语 3959 3981	semantic nonredundancy
+T84	软件工具 4075 4080	Disca
+T85	数据源 4046 4060	Stack Overflow
+T86	术语 4104 4123	candidate sentences
+T87	术语 4168 4171	API
+T88	软件工具 4209 4214	Disca
+T89	软件工具 4347 4352	Disca
+T90	术语 4283 4286	API
+T91	术语 4361 4408	semantically diverse and nonredundant sentences
+T92	术语 4498 4514	relative entropy
+T93	术语 4517 4544	term co‐occurrence analysis
+T94	术语 4551 4560	set cover
+T95	软件工具 4658 4663	Disca
+T96	术语 4672 4695	quantitative evaluation
+T97	术语 4598 4621	qualitative evaluations
+T98	研究问题 3384 3467	How to effectively distill API negative caveats from unstructured Q & A discussions
+T99	研究问题 3723 3759	the problem of negative uses of APIs
+T100	研究问题 4756 4829	How much improvement can the Disca approach achieve over baseline methods
+T101	研究问题 4844 4936	How effective is the proposed Disca approach in guaranteeing diversity over baseline methods
+T102	引文作者 5187 5198	KM MacQueen
+T103	引文时间 5208 5212	1967
+T104	引文作者 5248 5251	MMR
+T105	引文作者 5254 5263	Goldstein
+T106	引文作者 5266 5276	Kantrowitz
+T107	引文作者 5279 5285	Mittal
+T108	引文作者 5290 5299	Carbonell
+T109	引文时间 5302 5306	1999
+T110	引文作者 5075 5082	LexRank
+T111	引文作者 5085 5090	Erkan
+T112	引文作者 5093 5098	Radev
+T113	引文时间 5101 5105	2004
+T114	引文作者 5127 5130	LDA
+T115	引文作者 5133 5137	Blei
+T116	引文作者 5140 5142	Ng
+T117	引文作者 5147 5153	Jordan
+T118	引文时间 5156 5160	2003
+T119	软件工具 4981 4986	Disca
+T120	术语 5000 5029	text‐summarization techniques
+T121	术语 5032 5072	eigenvector centrality of sentence graph
+T123	术语 5110 5124	topic modeling
+T126	术语 5165 5184	sentence clustering
+T127	术语 5221 5245	sentence diversification
+T129	软件工具 5344 5349	Disca
+T130	术语 5408 5467	Recall‐Oriented Understudy for Gisting Evaluation ( ROUGE )
+T131	术语 5472 5518	Normalized Discounted Cumulative Gain ( nDCG )
+T133	术语 5608 5613	ROUGE
+T134	术语 5641 5645	nDCG
+T135	软件工具 5545 5550	Disca
+T136	引文作者 5834 5837	Lin
+T137	引文时间 5840 5844	2004
+T138	术语 5810 5830	Jackknifing procedur
+T139	引文的方法 5806 5831	the Jackknifing procedure
+T140	研究结果 5851 5964	The results of intermethod comparison show that the summaries of Disca are more diverse than the baseline methods
+T141	术语 5973 5995	qualitative evaluation
+T142	研究问题 6056 6161	To what extent does the Disca approach miss the API negative caveats stated in official API documentation
+T143	术语 6144 6161	API documentation
+T144	术语 6104 6124	API negative caveats
+T145	术语 6232 6249	API documentation
+T146	研究问题 6172 6251	To what extent does the Disca approach augment the official API documentation ?
+T147	研究问题 6264 6340	How important are the distilled API negative caveats by the Disca approach ?
+T148	术语 6296 6316	API negative caveats
+T149	软件工具 6324 6329	Disca
+T150	术语 6420 6437	API documentation
+T151	术语 6444 6458	Java API types
+T152	软件工具 6481 6486	Disca
+T153	研究结果 6491 6616	The results show that official API documents mention only six negative caveats , while Disca distills 164 from Stack Overflow
+T154	术语 6522 6535	API documents
+T155	软件工具 6578 6583	Disca
+T156	数据源 6602 6616	Stack Overflow
+T157	术语 6704 6721	API documentation
+T158	术语 6821 6834	API documents
+T159	软件工具 6785 6790	Disca
+T160	术语 6845 6854	Java APIs
+T161	术语 7020 7034	Java API types
+T162	术语 6991 7011	API negative caveats
+T163	术语 7098 7118	API negative caveats
+T164	术语 7398 7411	Java JDK APIs
+T165	数据源 7443 7457	Stack Overflow
+T166	术语 7533 7537	APIs
+T167	软件工具 7491 7496	Disca
+T168	软件工具 7979 7984	Disca
+T169	术语 8066 8091	Entity linking approaches
+T170	术语 8213 8229	machine learning
+T171	软件工具 8263 8268	Disca
+T172	引文作者 8094 8096	Ji
+T173	引文作者 8099 8102	Sun
+T174	引文作者 8105 8109	Cong
+T175	引文作者 8114 8117	Han
+T176	引文时间 8120 8124	2016
+T177	引文作者 8127 8129	Ye
+T178	引文作者 8132 8136	Xing
+T179	引文作者 8139 8142	Foo
+T180	引文作者 8145 8147	Li
+T181	引文作者 8152 8157	Kapre
+T182	引文时间 8160 8164	2016
+T183	引文作者 8167 8171	Moro
+T184	引文作者 8174 8182	Raganato
+T185	引文作者 8187 8194	Navigli
+T186	引文时间 8197 8201	2014
+T188	数据源 8509 8523	Stack Overflow
+T189	软件工具 8528 8533	Disca
+T190	软件工具 8583 8588	Disca
+T191	术语 8800 8807	HashMap
+T192	术语 8828 8839	Enumeration
+T193	术语 8856 8865	HashTable
+T194	术语 9271 9278	HashMap
+T195	软件工具 9427 9432	Disca
+T196	术语 10176 10196	API negative caveats
+T197	术语 10396 10416	API negative caveats
+T198	研究方法 10256 10416	We present an effective text‐summarization approach to distilling context‐independent , prominent , semantically diverse , and nonredundant API negative caveats
+T199	术语 10466 10492	text‐summarization methods
+T200	术语 10561 10575	sentence graph
+T201	术语 10578 10592	topic modeling
+T202	术语 10595 10614	sentence clustering
+T203	术语 10621 10645	sentence diversification
+T204	术语 10703 10720	API documentation
+T205	术语 10739 10759	API negative caveats
+T207	术语 10849 10856	API use
+T206	数据源 14524 14538	Stack Overflow
+T208	术语 10927 10947	API negative caveats
+T209	术语 10969 10982	API documents
+T210	术语 11444 11464	API negative caveats
+T211	术语 11569 11589	API negative caveats
+T212	引文作者 12108 12121	Sahavechaphan
+T213	引文作者 12124 12132	Claypool
+T214	引文时间 12135 12139	2006
+T215	引文作者 12142 12155	Thummalapenta
+T216	引文作者 12158 12161	Xie
+T217	引文时间 12164 12168	2007
+T218	引文的研究问题 12171 12256	investigating the problem of how to integrate code snippets in Integrated Development
+T219	术语 12234 12256	Integrated Development
+T220	软件工具 12350 12358	XSnippet
+T221	引文作者 12361 12374	Sahavechaphan
+T222	引文作者 12377 12385	Claypool
+T223	引文时间 12388 12392	2006
+T224	引文作者 12579 12585	Brandt
+T225	引文作者 12588 12597	Dontcheva
+T226	引文作者 12600 12607	Weskamp
+T227	引文作者 12612 12619	Klemmer
+T228	引文时间 12622 12626	2010
+T229	引文作者 12629 12632	Kim
+T230	引文作者 12635 12638	Lee
+T231	引文作者 12641 12646	Hwang
+T232	引文作者 12651 12654	Kim
+T233	引文时间 12657 12661	2009
+T234	引文作者 12664 12672	Zagalsky
+T235	引文作者 12675 12683	Barzilay
+T236	引文作者 12688 12695	Yehudai
+T237	引文时间 12698 12702	2012
+T238	引文的研究问题 12705 12803	investigated the problem of how to build a new code search by utilizing source snippets on the web
+T239	引文作者 12986 12989	Kim
+T240	引文时间 12999 13003	2009
+T241	引文作者 13006 13017	Subramanian
+T242	引文时间 13027 13031	2014
+T243	引文的研究问题 12915 12983	the link between source code snippets and official API documentation
+T244	术语 12966 12983	API documentation
+T245	引文的研究问题 13038 13104	the link between source code snippets and their learning resources
+T246	引文作者 13107 13115	Dagenais
+T247	引文作者 13118 13127	Robillard
+T248	引文时间 13130 13134	2012
+T249	软件工具 13268 13273	Disca
+T250	软件工具 13500 13507	Seahawk
+T251	引文作者 13510 13519	Bacchelli
+T252	引文作者 13522 13532	Ponzanelli
+T253	引文作者 13537 13542	Lanza
+T254	引文时间 13545 13549	2012
+T255	软件工具 13558 13566	Prompter
+T256	引文作者 13569 13579	Ponzanelli
+T257	引文作者 13582 13591	Bacchelli
+T258	引文作者 13596 13601	Lanza
+T259	引文时间 13604 13608	2013
+T260	引文作者 13611 13621	Ponzanelli
+T261	引文作者 13624 13630	Bavota
+T262	引文作者 13633 13641	Di Penta
+T263	引文作者 13644 13651	Oliveto
+T264	引文作者 13656 13661	Lanza
+T265	引文时间 13664 13668	2014
+T266	引文作者 13835 13837	Li
+T267	引文作者 13840 13844	Xing
+T268	引文作者 13847 13849	Ye
+T269	引文作者 13854 13858	Zhao
+T270	引文时间 13861 13865	2016
+T271	引文作者 13868 13870	Li
+T272	引文作者 13873 13876	Sun
+T273	引文作者 13881 13885	Xing
+T274	引文时间 13888 13892	2018
+T275	引文作者 13895 13897	Li
+T276	引文作者 13900 13904	Xing
+T277	引文作者 13909 13914	Kabir
+T278	引文时间 13917 13921	2018
+T279	术语 13486 13489	IDE
+T280	术语 12271 12274	IDE
+T281	引文作者 14047 14057	Ponzanelli
+T282	引文时间 14067 14071	2013
+T283	引文作者 14074 14080	Treude
+T284	引文作者 14083 14091	Barzilay
+T285	引文作者 14096 14102	Storey
+T286	引文时间 14105 14109	2011
+T287	引文的方法 13675 13832	Studies also developed question answering systems to answer programming questions by leveraging official content and social context of software documentation
+T288	引文的方法 13942 14044	researchers have contributed their efforts for program comprehension by using software textual content
+T289	术语 14219 14222	API
+T290	术语 14384 14387	API
+T291	引文作者 14402 14408	Treude
+T292	引文作者 14413 14422	Robillard
+T293	引文时间 14425 14429	2016
+T294	软件工具 14442 14446	SISE
+T295	术语 14478 14495	API documentation
+T296	引文作者 14597 14603	Treude
+T297	引文作者 14608 14617	Robillard
+T298	引文时间 14620 14624	2016
+T299	引文的方法 14629 14846	the authors trained a binary classifier with hand‐coded features in a supervised manner and the solution does not consider the factors of redundancy , diversity , and negative expression in the summarization algorithm
+T300	术语 15005 15013	API uses
+T301	术语 15097 15101	APIs
+T302	术语 15172 15176	APIs
+T303	引文作者 15235 15239	Miao
+T304	引文作者 15242 15244	Li
+T305	引文作者 15251 15255	Zeng
+T306	引文时间 15258 15262	2010
+T307	引文的研究问题 15265 15399	exploited the domain knowledge to assist product feature extraction and sentiment orientation identification from unstructured reviews
+T308	术语 15279 15295	domain knowledge
+T309	术语 15306 15332	product feature extraction
+T310	术语 15337 15373	sentiment orientation identification
+T311	引文作者 15404 15414	Wisniewski
+T312	引文作者 15417 15419	Xu
+T313	引文作者 15422 15429	Lipford
+T314	引文作者 15436 15447	Bello‐Ogunu
+T315	引文时间 15450 15454	2015
+T316	引文的研究问题 15457 15571	examined two prominent Facebook features that promote confidant disclosures : tagging and third‐party applications
+T317	引文作者 15728 15730	Gu
+T318	引文作者 15735 15738	Kim
+T319	引文时间 15741 15745	2015
+T320	软件工具 15758 15766	SURMiner
+T321	引文的方法 15748 15962	presented SURMiner , which classifies reviews into five categories ( that is , aspect evaluation , bug reports , feature requests , praise , and others ) and extract aspects in sentences using a pattern‐based parse
+T322	引文作者 15968 15972	Chen
+T323	引文作者 15975 15978	Lin
+T324	引文作者 15981 15984	Hoi
+T325	引文作者 15987 15991	Xiao
+T326	引文作者 15998 16003	Zhang
+T327	引文时间 16006 16010	2014
+T328	软件工具 16023 16031	AR‐Miner
+T329	引文的结果 16013 16124	developed AR‐Miner , which helps App developers extract the most valuable information from raw user review data
+T330	引文作者 16129 16131	Vu
+T331	引文作者 16134 16140	Nguyen
+T332	引文作者 16143 16147	Pham
+T333	引文作者 16154 16160	Nguyen
+T334	引文时间 16163 16167	2015
+T335	软件工具 16179 16183	MARK
+T336	引文的方法 16170 16270	proposed MARK , a keyword‐based framework for semiautomated review summarization and visualization .
+T337	引文作者 16340 16342	Vu
+T338	引文时间 16352 16356	2016
+T339	引文的研究问题 16294 16337	focused on opinion‐aspect phrase extraction
+T340	引文的研究问题 16363 16408	conducted sentiment analysis of opinion words
+T341	引文作者 16411 16413	Gu
+T342	引文作者 16416 16419	Kim
+T343	引文时间 16422 16426	2015
+T344	引文作者 16429 16434	Serva
+T345	引文作者 16437 16443	Senzer
+T346	引文作者 16446 16453	Pollock
+T347	引文作者 16458 16471	Vijay‐Shanker
+T348	引文时间 16474 16478	2015
+T349	术语 16494 16514	API negative caveats
+T350	术语 16585 16592	API use
+T351	术语 16745 16765	API negative caveats
+T352	具体模型 17368 17382	lexical chains
+T353	引文作者 17385 17393	Barzilay
+T354	引文作者 17396 17403	Elhadad
+T355	引文时间 17406 17410	1999
+T356	具体模型 17415 17433	word co‐occurrence
+T357	引文作者 17436 17442	Matsuo
+T358	引文作者 17445 17453	Ishizuka
+T359	引文时间 17456 17460	2004
+T360	具体模型 17469 17479	centrality
+T361	引文作者 17482 17487	Erkan
+T362	引文作者 17490 17495	Radev
+T363	引文时间 17498 17502	2004
+T364	引文作者 17606 17609	Cao
+T365	引文时间 17622 17626	2015
+T366	具体模型 17639 17647	PriorSum
+T367	引文的方法 17629 17777	developed PriorSum , which applies enhanced convolutional neural networks to capture the summary prior features derived from length‐variable phrases
+T368	引文作者 17884 17887	Ren
+T369	引文时间 17900 17904	2017
+T370	具体模型 17950 17989	contextual relation‐based summarization
+T371	引文的结果 17907 18105	proposed a neural extractive model , named contextual relation‐based summarization , to take advantage of contextual relations among sentences so as to improve the performance of sentence regression
+T372	术语 18110 18143	Abstractive summarization methods
+T373	引文作者 18334 18340	Genest
+T374	引文作者 18343 18350	Lapalme
+T375	引文时间 18353 18357	2012
+T376	引文的方法 18321 18331	rule‐based
+T377	引文的方法 18362 18376	ontology‐based
+T378	引文作者 18379 18382	Lee
+T379	引文作者 18385 18389	Jian
+T380	引文作者 18394 18399	Huang
+T381	引文时间 18402 18406	2005
+T382	引文的方法 18415 18429	template‐based
+T383	引文作者 18432 18441	Harabagiu
+T384	引文作者 18444 18452	Lacatusu
+T385	引文时间 18455 18459	2002
+T386	引文的方法 18488 18513	semantic‐based approaches
+T387	引文作者 18543 18547	Bing
+T388	引文时间 18560 18564	2015
+T389	引文的结果 18567 18723	proposed an abstractive multidocument summarization framework that can construct new sentences by exploring more fine‐grained syntactic units than sentences
+T390	引文作者 18728 18737	Nallapati
+T391	引文作者 18740 18744	Zhou
+T392	引文作者 18747 18753	Santos
+T393	引文作者 18756 18764	Gülçehre
+T394	引文作者 18771 18776	Xiang
+T395	引文时间 18779 18783	2016
+T396	引文的方法 18786 18894	proposed an abstractive text summarization model using attentional encoder‐decoder recurrent neural networks
+T397	引文作者 18899 18905	Paulus
+T398	引文作者 18908 18913	Xiong
+T399	引文作者 18920 18926	Socher
+T400	引文时间 18929 18933	2017
+T401	引文的结果 18936 19069	proposed a neural network model with a novel intra‐attention that attends over the input and continuously generated output separately
+T402	引文作者 19191 19194	Tan
+T403	引文作者 19197 19200	Wan
+T404	引文作者 19207 19211	Xiao
+T405	引文时间 19214 19218	2017
+T406	引文的结果 19221 19301	proposed a graph‐based attention mechanism in the sequence‐to‐sequence framework
+T407	术语 19489 19525	neuro‐linguistic programming ( NLP )
+T24	研究结果 5523 5660	Our results show that Disca outperforms the four baselines by 10.60 % to 22.47 % for ROUGE and 17.63 % to 42.87 % for nDCG , respectively
+T32	引文的方法 18662 18725	by exploring more fine‐grained syntactic units than sentences .
+R1	has_cited_time Arg1:T11 Arg2:T10	
+R2	coauthor Arg1:T12 Arg2:T13	
+R3	has_cited_time Arg1:T14 Arg2:T13	
+R4	coauthor Arg1:T15 Arg2:T16	
+R5	has_cited_time Arg1:T17 Arg2:T16	
+R6	coauthor Arg1:T18 Arg2:T19	
+R7	coauthor Arg1:T19 Arg2:T20	
+R8	coauthor Arg1:T26 Arg2:T27	
+R9	has_cited_time Arg1:T28 Arg2:T27	
+R10	coauthor Arg1:T29 Arg2:T30	
+R11	coauthor Arg1:T30 Arg2:T25	
+R12	has_cited_time Arg1:T31 Arg2:T25	
+R13	field_similar_as Arg1:T26 Arg2:T29	
+R14	coauthor Arg1:T20 Arg2:T21	
+R15	has_cited_time Arg1:T22 Arg2:T21	
+R16	field_similar_as Arg1:T10 Arg2:T12	
+R17	field_similar_as Arg1:T12 Arg2:T15	
+R18	field_similar_as Arg1:T15 Arg2:T18	
+R19	coauthor Arg1:T60 Arg2:T61	
+R20	coauthor Arg1:T61 Arg2:T62	
+R21	coauthor Arg1:T62 Arg2:T63	
+R22	has_cited_time Arg1:T64 Arg2:T63	
+R23	has_cited_time Arg1:T103 Arg2:T102	
+R24	coauthor Arg1:T104 Arg2:T105	
+R25	coauthor Arg1:T105 Arg2:T106	
+R26	coauthor Arg1:T106 Arg2:T107	
+R27	coauthor Arg1:T107 Arg2:T108	
+R28	has_cited_time Arg1:T109 Arg2:T108	
+R29	coauthor Arg1:T110 Arg2:T111	
+R30	coauthor Arg1:T111 Arg2:T112	
+R31	has_cited_time Arg1:T113 Arg2:T112	
+R32	coauthor Arg1:T114 Arg2:T115	
+R33	coauthor Arg1:T115 Arg2:T116	
+R34	coauthor Arg1:T116 Arg2:T117	
+R35	has_cited_time Arg1:T118 Arg2:T117	
+R36	has_cited_time Arg1:T137 Arg2:T136	
+R37	uses Arg1:T136 Arg2:T139	
+R38	coauthor Arg1:T172 Arg2:T173	
+R39	coauthor Arg1:T173 Arg2:T174	
+R40	coauthor Arg1:T174 Arg2:T175	
+R41	has_cited_time Arg1:T176 Arg2:T175	
+R42	coauthor Arg1:T177 Arg2:T178	
+R43	coauthor Arg1:T178 Arg2:T179	
+R44	coauthor Arg1:T179 Arg2:T180	
+R45	coauthor Arg1:T180 Arg2:T181	
+R46	has_cited_time Arg1:T182 Arg2:T181	
+R47	coauthor Arg1:T183 Arg2:T184	
+R48	coauthor Arg1:T184 Arg2:T185	
+R49	has_cited_time Arg1:T186 Arg2:T185	
+R50	field_similar_as Arg1:T172 Arg2:T177	
+R51	field_similar_as Arg1:T177 Arg2:T183	
+R52	coauthor Arg1:T212 Arg2:T213	
+R53	has_cited_time Arg1:T214 Arg2:T213	
+R54	coauthor Arg1:T215 Arg2:T216	
+R55	has_cited_time Arg1:T217 Arg2:T216	
+R56	field_similar_as Arg1:T212 Arg2:T215	
+R57	produces Arg1:T215 Arg2:T218	
+R58	coauthor Arg1:T221 Arg2:T222	
+R59	has_cited_time Arg1:T223 Arg2:T222	
+R60	produces Arg1:T212 Arg2:T218	
+R61	coauthor Arg1:T224 Arg2:T225	
+R62	coauthor Arg1:T225 Arg2:T226	
+R63	coauthor Arg1:T226 Arg2:T227	
+R64	has_cited_time Arg1:T228 Arg2:T227	
+R65	coauthor Arg1:T229 Arg2:T230	
+R66	coauthor Arg1:T230 Arg2:T231	
+R67	coauthor Arg1:T231 Arg2:T232	
+R68	has_cited_time Arg1:T233 Arg2:T232	
+R69	coauthor Arg1:T234 Arg2:T235	
+R70	coauthor Arg1:T235 Arg2:T236	
+R71	has_cited_time Arg1:T237 Arg2:T236	
+R72	field_similar_as Arg1:T224 Arg2:T229	
+R73	field_similar_as Arg1:T229 Arg2:T234	
+R74	produces Arg1:T224 Arg2:T238	
+R75	produces Arg1:T229 Arg2:T238	
+R76	produces Arg1:T234 Arg2:T238	
+R77	has_cited_time Arg1:T240 Arg2:T239	
+R78	has_cited_time Arg1:T242 Arg2:T241	
+R79	produces Arg1:T239 Arg2:T243	
+R80	produces Arg1:T246 Arg2:T245	
+R81	coauthor Arg1:T247 Arg2:T246	
+R82	has_cited_time Arg1:T248 Arg2:T247	
+R83	coauthor Arg1:T251 Arg2:T252	
+R84	coauthor Arg1:T252 Arg2:T253	
+R85	has_cited_time Arg1:T254 Arg2:T253	
+R86	coauthor Arg1:T256 Arg2:T257	
+R87	coauthor Arg1:T257 Arg2:T258	
+R88	has_cited_time Arg1:T259 Arg2:T258	
+R89	coauthor Arg1:T260 Arg2:T261	
+R90	coauthor Arg1:T261 Arg2:T262	
+R91	coauthor Arg1:T262 Arg2:T263	
+R92	coauthor Arg1:T263 Arg2:T264	
+R93	has_cited_time Arg1:T265 Arg2:T264	
+R94	coauthor Arg1:T275 Arg2:T276	
+R95	coauthor Arg1:T276 Arg2:T277	
+R96	has_cited_time Arg1:T278 Arg2:T277	
+R97	has_cited_time Arg1:T274 Arg2:T273	
+R98	coauthor Arg1:T272 Arg2:T273	
+R99	coauthor Arg1:T271 Arg2:T272	
+R100	coauthor Arg1:T266 Arg2:T267	
+R101	coauthor Arg1:T267 Arg2:T268	
+R102	coauthor Arg1:T268 Arg2:T269	
+R103	has_cited_time Arg1:T270 Arg2:T269	
+R104	has_cited_time Arg1:T282 Arg2:T281	
+R105	uses Arg1:T266 Arg2:T287	
+R106	uses Arg1:T281 Arg2:T288	
+R107	coauthor Arg1:T283 Arg2:T284	
+R108	uses Arg1:T271 Arg2:T287	
+R109	uses Arg1:T275 Arg2:T287	
+R110	uses Arg1:T283 Arg2:T288	
+R111	coauthor Arg1:T284 Arg2:T285	
+R112	has_cited_time Arg1:T286 Arg2:T285	
+R113	coauthor Arg1:T291 Arg2:T292	
+R114	has_cited_time Arg1:T293 Arg2:T292	
+R115	coauthor Arg1:T296 Arg2:T297	
+R116	has_cited_time Arg1:T298 Arg2:T297	
+R117	uses Arg1:T296 Arg2:T299	
+R118	produces Arg1:T303 Arg2:T307	
+R119	produces Arg1:T311 Arg2:T316	
+R120	uses Arg1:T317 Arg2:T321	
+R121	results Arg1:T322 Arg2:T329	
+R122	uses Arg1:T330 Arg2:T336	
+R123	produces Arg1:T337 Arg2:T339	
+R124	has_cited_time Arg1:T338 Arg2:T337	
+R125	produces Arg1:T341 Arg2:T340	
+R126	produces Arg1:T344 Arg2:T340	
+R127	coauthor Arg1:T303 Arg2:T304	
+R128	coauthor Arg1:T304 Arg2:T305	
+R129	has_cited_time Arg1:T306 Arg2:T305	
+R130	coauthor Arg1:T311 Arg2:T312	
+R131	coauthor Arg1:T312 Arg2:T313	
+R132	coauthor Arg1:T313 Arg2:T314	
+R133	has_cited_time Arg1:T315 Arg2:T314	
+R134	coauthor Arg1:T317 Arg2:T318	
+R135	has_cited_time Arg1:T319 Arg2:T318	
+R136	coauthor Arg1:T322 Arg2:T323	
+R137	coauthor Arg1:T323 Arg2:T324	
+R138	coauthor Arg1:T324 Arg2:T325	
+R139	coauthor Arg1:T325 Arg2:T326	
+R140	has_cited_time Arg1:T327 Arg2:T326	
+R141	coauthor Arg1:T330 Arg2:T331	
+R142	coauthor Arg1:T331 Arg2:T332	
+R143	coauthor Arg1:T332 Arg2:T333	
+R144	has_cited_time Arg1:T334 Arg2:T333	
+R145	coauthor Arg1:T341 Arg2:T342	
+R146	has_cited_time Arg1:T343 Arg2:T342	
+R147	coauthor Arg1:T344 Arg2:T345	
+R148	coauthor Arg1:T345 Arg2:T346	
+R149	coauthor Arg1:T346 Arg2:T347	
+R150	has_cited_time Arg1:T348 Arg2:T347	
+R151	coauthor Arg1:T353 Arg2:T354	
+R152	has_cited_time Arg1:T355 Arg2:T354	
+R153	coauthor Arg1:T357 Arg2:T358	
+R154	has_cited_time Arg1:T359 Arg2:T358	
+R155	coauthor Arg1:T361 Arg2:T362	
+R156	has_cited_time Arg1:T363 Arg2:T362	
+R157	has_cited_time Arg1:T365 Arg2:T364	
+R158	uses Arg1:T364 Arg2:T367	
+R159	has_cited_time Arg1:T369 Arg2:T368	
+R160	results Arg1:T368 Arg2:T371	
+R161	coauthor Arg1:T373 Arg2:T374	
+R162	uses Arg1:T373 Arg2:T376	
+R163	has_cited_time Arg1:T375 Arg2:T374	
+R164	uses Arg1:T378 Arg2:T377	
+R165	coauthor Arg1:T378 Arg2:T379	
+R166	coauthor Arg1:T379 Arg2:T380	
+R167	has_cited_time Arg1:T381 Arg2:T380	
+R168	uses Arg1:T383 Arg2:T382	
+R169	coauthor Arg1:T383 Arg2:T384	
+R170	has_cited_time Arg1:T385 Arg2:T384	
+R171	uses Arg1:T387 Arg2:T386	
+R172	has_cited_time Arg1:T388 Arg2:T387	
+R173	results Arg1:T387 Arg2:T389	
+R174	uses Arg1:T387 Arg2:T32	
+R175	coauthor Arg1:T390 Arg2:T391	
+R176	coauthor Arg1:T391 Arg2:T392	
+R177	coauthor Arg1:T392 Arg2:T393	
+R178	coauthor Arg1:T393 Arg2:T394	
+R179	has_cited_time Arg1:T395 Arg2:T394	
+R180	uses Arg1:T390 Arg2:T396	
+R181	coauthor Arg1:T397 Arg2:T398	
+R182	coauthor Arg1:T398 Arg2:T399	
+R183	has_cited_time Arg1:T400 Arg2:T399	
+R184	results Arg1:T397 Arg2:T401	
+R185	coauthor Arg1:T402 Arg2:T403	
+R186	coauthor Arg1:T403 Arg2:T404	
+R187	has_cited_time Arg1:T405 Arg2:T404	
+R188	results Arg1:T402 Arg2:T406	

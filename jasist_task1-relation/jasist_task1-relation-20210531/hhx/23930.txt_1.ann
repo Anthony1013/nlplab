@@ -1,0 +1,481 @@
+T1	术语 311 336	European Research Council
+T2	术语 339 342	ERC
+T3	术语 426 432	ERACEP
+T4	时间 565 569	2009
+T5	引文作者 572 577	Reiss
+T6	引文作者 580 593	Vignola‐Gagne
+T7	引文作者 596 600	Kukk
+T8	引文作者 603 610	Glänzel
+T9	引文作者 615 620	Thijs
+T10	引文时间 623 627	2013
+T11	术语 506 509	ERC
+T12	引文的结果 307 569	the European Research Council ( ERC ) supported Emerging Research Areas and their Coverage by ERC‐Supported Projects ( ERACEP ) to identify emerging areas by topic and to analyze the extent to which ERC‐funded projects contributed to these emerging areas in 2009
+T13	引文作者 664 669	Small
+T14	引文作者 672 678	Boyack
+T15	引文作者 685 692	Klavans
+T16	引文时间 695 699	2014
+T17	术语 708 756	Intelligence Advanced Research Projects Activity
+T18	术语 759 764	IARPA
+T19	时间 841 845	2011
+T20	术语 774 828	Foresight and Understanding from Scientific Exposition
+T21	术语 831 835	FUSE
+T22	引文的结果 704 920	the Intelligence Advanced Research Projects Activity ( IARPA ) funded Foresight and Understanding from Scientific Exposition ( FUSE ) in 2011 , one of the main purposes of which is to nominate emerging technologies .
+T23	引文作者 1100 1107	Glänzel
+T24	引文作者 1110 1115	Thijs
+T25	引文时间 1118 1122	2012
+T26	引文作者 1125 1130	Small
+T27	引文时间 1133 1137	2006
+T28	引文作者 1140 1145	Small
+T29	引文时间 1155 1159	2014
+T30	引文的结果 923 1090	In the light of current policy orientations , numerous studies have proposed definitions and methodologies designed to comprehend , define , and detect emerging topics
+T31	引文作者 1176 1183	Cozzens
+T32	引文时间 1196 1200	2010
+T33	引文的结果 1203 1341	point out that most studies actually focus on the measurement of emerging research topics rather than the identification of these topics .
+T34	引文的结果 1370 1573	they observe that “ most of the quantitative studies of emerging technologies have taken the results of qualitative processes as a starting point , and characterized pre‐identified areas quantitatively ”
+T35	引文作者 1947 1952	Reiss
+T36	引文时间 1962 1966	2013
+T37	引文作者 1969 1974	Small
+T38	引文时间 1984 1988	2014
+T39	引文的结果 1858 1937	only a few studies have proposed methodologies that aim to fulfill this purpose
+T40	引文作者 2053 2059	Rotolo
+T41	引文作者 2062 2067	Hicks
+T42	引文作者 2074 2080	Martin
+T43	引文时间 2083 2087	2015
+T44	引文的结果 2090 2236	systematically reviews various relevant definitions and major empirical approaches for the measurement and identification of emerging technologies
+T45	术语 2531 2554	bibliometric indicators
+T46	引文作者 2804 2811	Cozzens
+T47	引文时间 2824 2828	2010
+T48	引文作者 2835 2840	Small
+T49	引文时间 2853 2857	2014
+T50	引文的结果 2862 2963	who also indicate that the concept of emergence is seldom defined even though the term is widely used
+T51	引文作者 3415 3421	Rotolo
+T52	引文时间 3434 3438	2015
+T53	引文的结果 3441 3535	have proposed and develops a nuanced conception of what constitutes an emerging research topic
+T54	研究结果 3540 3706	Next , in accordance with this definition and carefully delineated attributes of emergence , a set of criteria for the identification of emerging topics is proposed .
+T55	引文的研究问题 4270 4409	Previous studies have proposed many methods for identifying emerging research topics , including both qualitative and quantitative measures
+T56	引文的结果 4414 4478	Some have focused on the identification of emerging technologies
+T57	引文作者 4488 4495	Cozzens
+T58	引文时间 4505 4509	2010
+T59	引文作者 4512 4518	Rotolo
+T60	引文时间 4528 4532	2015
+T61	引文作者 4738 4744	Rotolo
+T62	引文时间 4757 4761	2015
+T63	引文的结果 4764 4959	point out that although the importance of science for the development of technologies is widely acknowledged , “ not all technological revolutions may depend on breakthrough advances in science ”
+T64	研究方法 5156 5300	our focus is on the studies that have used quantitative approaches for the detection of emergence , especially those that are bibliometric‐based
+T65	术语 5659 5673	coarse‐grained
+T66	术语 5836 5848	fine‐grained
+T67	引文作者 6165 6173	Furukawa
+T68	引文作者 6176 6180	Mori
+T69	引文作者 6183 6188	Arino
+T70	引文作者 6191 6198	Hayashi
+T71	引文作者 6203 6212	Shirakawa
+T72	引文的结果 6042 6155	In the case of text‐based approaches , some studies have established clusters based on the co‐occurrence of terms
+T73	引文时间 6215 6219	2015
+T74	引文作者 6222 6225	Lee
+T75	引文时间 6228 6232	2008
+T76	引文作者 6244 6250	Rotolo
+T77	引文时间 6260 6264	2015
+T78	引文的结果 6281 6393	In the case of citation‐based approaches , different citation relations , for instance direct citation relations
+T79	引文作者 6403 6411	Kajikawa
+T80	引文作者 6414 6420	Takeda
+T81	引文时间 6423 6427	2008
+T82	引文作者 6430 6438	Kajikawa
+T83	引文作者 6441 6450	Yoshikawa
+T84	引文作者 6453 6459	Takeda
+T85	引文作者 6464 6474	Matsushima
+T86	引文时间 6477 6481	2008
+T87	引文作者 6484 6491	Shibata
+T88	引文作者 6494 6502	Kajikawa
+T89	引文作者 6505 6511	Takeda
+T90	引文作者 6516 6526	Matsushima
+T91	引文时间 6529 6533	2008
+T92	引文作者 6536 6543	Shibata
+T93	引文作者 6546 6554	Kajikawa
+T94	引文作者 6557 6563	Takeda
+T95	引文作者 6566 6572	Sakata
+T96	引文作者 6577 6587	Matsushima
+T97	引文时间 6590 6594	2011
+T98	引文的结果 6599 6631	bibliographic coupling relations
+T99	引文作者 6642 6648	Morris
+T100	引文作者 6651 6654	Yen
+T101	引文作者 6657 6659	Wu
+T102	引文作者 6664 6670	Asnake
+T103	引文时间 6673 6677	2003
+T104	引文的结果 6686 6706	cocitation relations
+T105	引文作者 6717 6722	Small
+T106	引文时间 6725 6729	2006
+T107	引文作者 6732 6737	Upham
+T108	引文作者 6740 6745	Small
+T109	引文时间 6748 6752	2010
+T110	引文作者 6817 6822	Small
+T111	引文时间 6835 6839	2014
+T112	引文的结果 6842 6965	have combined cocitation and direct citation clustering methods into a large‐scale data set for detecting emerging topics .
+T113	引文作者 7003 7007	Chen
+T114	引文时间 7010 7014	2006
+T115	引文的结果 7017 7222	has established research topics using a combination of cocited relations and term‐based techniques to analyze emerging trends in the topics of mass extinction and terrorism as well as regenerative medicine
+T116	引文作者 7225 7229	Chen
+T117	引文作者 7232 7234	Hu
+T118	引文作者 7237 7240	Liu
+T119	引文作者 7245 7250	Tseng
+T120	引文时间 7253 7257	2012
+T121	引文作者 7276 7283	Glänzel
+T122	引文作者 7288 7293	Thijs
+T123	引文时间 7296 7300	2012
+T124	引文作者 7307 7312	Reiss
+T125	引文时间 7325 7329	2013
+T126	术语 7368 7405	combination of bibliographic coupling
+T127	引文作者 7546 7549	Yan
+T128	引文时间 7552 7556	2014
+T129	引文的结果 7559 7771	has created research topics using a topic modeling technique in which topics are not created by the aggregation of publications ; rather , each publication has a probability distribution over the generated topics
+T130	引文作者 8134 8141	Bengisu
+T131	引文时间 8144 8148	2003
+T132	引文作者 8155 8160	Small
+T133	引文时间 8173 8177	2014
+T134	引文的结果 8180 8456	use growth in the number of publications as an indicator of fast growth ; the former further controls for stability after a rapid increase , and the latter also uses the number of publications in the previous time period of an emergent trend as an indicator of radical novelty
+T135	引文作者 8596 8603	Glänzel
+T136	引文作者 8606 8611	Thijs
+T137	引文时间 8614 8618	2012
+T138	引文作者 8621 8626	Reiss
+T139	引文时间 8636 8640	2013
+T140	引文作者 8643 8648	Small
+T141	引文时间 8651 8655	2006
+T142	引文的方法 8477 8586	analyzes the “ core document ” in each cluster and tracks it to monitor the identification of emerging topics
+T143	引文的方法 8677 8836	explores citation relations within and outside of clusters , analyzes and tracks the position of “ leading papers ” within clusters to identify emerging topics
+T144	引文作者 8846 8854	Kajikawa
+T145	引文时间 8864 8868	2008
+T146	引文作者 8871 8879	Kajikawa
+T147	引文作者 8882 8888	Takeda
+T148	引文时间 8891 8895	2008
+T149	引文作者 8898 8901	Lee
+T150	引文时间 8904 8908	2008
+T151	引文的研究问题 8915 9012	Other studies have measured the frequency of new terms or keywords as a signal of emerging topics
+T152	引文作者 9022 9025	Guo
+T153	引文作者 9028 9036	Weingart
+T154	引文作者 9041 9047	Börner
+T155	引文时间 9050 9054	2011
+T156	引文作者 9057 9063	Ohniwa
+T157	引文作者 9066 9072	Hibino
+T158	引文作者 9077 9085	Takeyasu
+T159	引文时间 9088 9092	2010
+T160	引文作者 9095 9103	Schiebel
+T161	引文作者 9106 9118	Hörlesberger
+T162	引文作者 9121 9126	Roche
+T163	引文作者 9129 9137	François
+T164	引文作者 9142 9149	Besagni
+T165	引文时间 9152 9156	2010
+T166	引文的方法 9177 9298	uses the transition in the number of authors within a research field as an indicator for the detection of emerging topics
+T167	引文作者 9308 9319	Bettencourt
+T168	引文作者 9322 9328	Kaiser
+T169	引文作者 9331 9335	Kaur
+T170	引文作者 9338 9353	Castillo‐Chavez
+T171	引文作者 9358 9364	Wojick
+T172	引文时间 9367 9371	2008
+T173	引文作者 9374 9377	Guo
+T174	引文时间 9387 9391	2011
+T175	引文作者 9536 9539	Guo
+T176	引文时间 9552 9556	2011
+T177	引文的结果 9559 9705	propose using the frequency of keywords , the number of authors , and the interdisciplinarity of references as a whole to identify emerging topics
+T178	引文作者 10034 10041	Cozzens
+T179	引文时间 10054 10058	2010
+T180	术语 10208 10226	science‐based‐ness
+T181	引文的结果 10061 10230	summarize four major characteristics of emergence : fast recent growth , change to something new , market or economic potential , and increasing “ science‐based‐ness , ”
+T182	引文作者 10239 10244	Small
+T183	引文时间 10257 10261	2014
+T184	引文的结果 10277 10392	there is nearly universal agreement on two properties associated with emergence , novelty ( or newness ) and growth
+T185	引文作者 10446 10452	Rotolo
+T186	引文时间 10465 10469	2015
+T187	引文的结果 10472 10741	criticize the bibliometric studies on the identification of emergence on the grounds that such approaches tend to focus on measuring the attributes of novelty and fast growth , and to ignore the consideration of other potentially important attributes , such as impact .
+T188	引文作者 10952 10956	Chen
+T189	引文时间 10959 10963	2006
+T190	引文作者 10966 10974	Kajikawa
+T191	引文作者 10977 10983	Takeda
+T192	引文时间 10986 10990	2008
+T193	引文作者 10993 10996	Yan
+T194	引文时间 10999 11003	2014
+T195	引文作者 11117 11120	Liu
+T196	引文作者 11123 11128	Jiang
+T197	引文作者 11133 11135	Ma
+T198	引文时间 11138 11142	2013
+T199	引文作者 11166 11174	Kajikawa
+T200	引文作者 11177 11183	Takeda
+T201	引文时间 11186 11190	2008
+T202	引文的方法 11088 11107	predefined journals
+T203	引文的方法 11148 11156	keywords
+T204	引文作者 11300 11305	Small
+T205	引文时间 11318 11322	2014
+T206	引文的结果 11335 11466	these studies “ can not identify the currently emerging topics that are of interest to funding bodies and practitioners worldwide ”
+T207	引文作者 11603 11608	Small
+T208	引文作者 11626 11631	Small
+T209	引文时间 11634 11638	2006
+T210	引文作者 11641 11646	Small
+T211	引文时间 11656 11660	2014
+T212	引文作者 11663 11668	Upham
+T213	引文作者 11671 11676	Small
+T214	引文时间 11679 11683	2006
+T215	引文作者 11690 11697	Glänzel
+T216	引文作者 11715 11722	Glänzel
+T217	引文作者 11725 11730	Thijs
+T218	引文时间 11733 11737	2012
+T219	引文作者 11740 11745	Reiss
+T220	引文时间 11755 11759	2013
+T221	术语 11879 11885	ERACEP
+T222	引文作者 11895 11900	Reiss
+T223	引文时间 11910 11914	2013
+T224	引文作者 11967 11974	Glänzel
+T225	引文作者 11979 11984	Thijs
+T226	引文时间 11987 11991	2012
+T227	引文作者 12034 12039	Small
+T228	引文时间 12052 12056	2014
+T229	术语 12067 12073	ERACEP
+T230	时间 12112 12116	1998
+T231	时间 12120 12124	2008
+T232	引文作者 12622 12629	Glänzel
+T233	引文作者 12632 12637	Thijs
+T234	引文时间 12640 12644	2012
+T235	引文的结果 12477 12617	existing cluster with an exceptional growth , completely new cluster with its root in other clusters and existing cluster with a topic shift
+T236	引文作者 12684 12689	Small
+T237	引文时间 12702 12706	2014
+T238	引文的方法 12709 12876	proposes an approach that combines a direct citation clustering with a co‐citation clustering method in a Scopus data set covering publications over a 15‐year period .
+T239	术语 13231 13248	matching clusters
+T240	引文作者 13295 13302	Glänzel
+T241	引文作者 13307 13312	Thijs
+T242	引文时间 13315 13319	2012
+T243	引文的方法 13331 13473	match the research topics obtained from different time slices by using the core dements in one period and all publications in the other period
+T244	引文作者 13500 13505	Small
+T245	引文的方法 13516 13622	requires a match of clusters from a direct citation clustering method and a cocitation clustering method .
+T246	引文作者 13776 13781	Small
+T247	引文时间 13794 13798	2014
+T248	引文的结果 13811 13916	the combination of direct citation and co‐citation methods used [ here ] has contributed to this accuracy
+T249	引文作者 14669 14675	Rotolo
+T250	引文时间 14688 14692	2015
+T251	研究结果 14560 14685;14686 14837	this study , in an attempt to transcend the limitations mentioned previously , adapts the concept defined by Rotolo et al . 
+ ( 2015 ) , develops a more precise definition of an emerging research topic , and puts forward a series of indicators for identifying emerging topics .
+T252	引文的结果 14697 14835	develops a more precise definition of an emerging research topic , and puts forward a series of indicators for identifying emerging topics
+T253	引文作者 15008 15014	Rotolo
+T254	引文时间 15027 15031	2015
+T255	引文的结果 15034 15591	indicate that the definition and fundamental attributes of an emerging technology are still ambiguous and therefore offer a new definition of an emerging technology : [ A ] radically novel and relatively fast growing technology characterized by a certain degree of coherence persisting over time and with the potential to exert a considerable impact on the socio‐economic domain ( s ) which is observed in terms of the composition of actors , institutions and patterns of interactions among those , along with the associated knowledge production processes .
+T256	引文作者 15729 15735	Rotolo
+T257	引文时间 15745 15749	2015
+T258	引文的结果 15762 16150	[ A ] radically novel and relatively fast growing technology characterized by a certain degree of coherence persisting over time and with the potential to exert a considerable impact on the socio‐economic domain ( s ) which is observed in terms of the composition of actors , institutions and patterns of interactions among those , along with the associated knowledge production processes
+T259	引文作者 16290 16296	Rotolo
+T260	引文时间 16306 16310	2015
+T261	引文的结果 16323 16495	They further summarize five attributes of an emerging technology : radical novelty , relatively fast growth , coherence , prominent impact , and uncertainty and ambiguity .
+T262	研究问题 16512 16571	the present study aims to detect emerging research topics .
+T264	引文作者 16793 16799	Rotolo
+T265	引文时间 16809 16813	2015
+T266	引文的结果 16818 16879	whose definition is therefore not entirely appropriate here .
+T263	引文作者 16956 16962	Rotolo
+T267	引文时间 16975 16979	2015
+T268	研究结果 16900 16972;16973 17025	we adjust the definition of an emerging technology that Rotolo et al . 
+ ( 2015 ) have proposed to accommodate the analysis .
+T269	引文的结果 16982 17023	have proposed to accommodate the analysis
+T270	引文作者 17156 17162	Rotolo
+T271	引文时间 17175 17179	2015
+T272	引文的方法 17182 17277	use this attribute specifically to refer to the societal and economic impacts of technologies .
+T273	引文作者 17601 17607	Rotolo
+T274	引文的结果 17628 17781	the societal and economic impact of an emerging technology “ lies in the future and so in the emergence phase is still somewhat uncertain and ambiguous ”
+T275	研究结果 19242 19464	the following definition of an emerging research topic is proposed here : A radically novel and relatively fast growing research topic characterized by a certain degree of coherence , and a considerable scientific impact .
+T276	引文作者 20043 20050	Waltman
+T277	引文作者 20055 20062	Van Eck
+T278	引文时间 20065 20069	2012
+T279	引文时间 20072 20076	2013
+T280	引文作者 20205 20210	Small
+T281	引文的结果 20022 20039	clustering method
+R1	coauthor Arg1:T5 Arg2:T6	
+R2	coauthor Arg1:T6 Arg2:T7	
+R3	coauthor Arg1:T7 Arg2:T8	
+R4	coauthor Arg1:T8 Arg2:T9	
+R5	has_cited_time Arg1:T10 Arg2:T9	
+R6	results Arg1:T5 Arg2:T12	
+R7	has_cited_time Arg1:T16 Arg2:T15	
+R8	coauthor Arg1:T13 Arg2:T14	
+R9	coauthor Arg1:T14 Arg2:T15	
+R10	results Arg1:T23 Arg2:T30	
+R11	coauthor Arg1:T23 Arg2:T24	
+R12	results Arg1:T13 Arg2:T22	
+R13	has_cited_time Arg1:T25 Arg2:T24	
+R14	has_cited_time Arg1:T27 Arg2:T26	
+R15	has_cited_time Arg1:T29 Arg2:T28	
+R16	field_similar_as Arg1:T28 Arg2:T26	
+R17	field_similar_as Arg1:T26 Arg2:T23	
+R18	has_cited_time Arg1:T32 Arg2:T31	
+R19	results Arg1:T31 Arg2:T33	
+R20	results Arg1:T31 Arg2:T34	
+R21	results Arg1:T35 Arg2:T39	
+R22	has_cited_time Arg1:T36 Arg2:T35	
+R23	has_cited_time Arg1:T38 Arg2:T37	
+R24	field_similar_as Arg1:T37 Arg2:T35	
+R25	coauthor Arg1:T40 Arg2:T41	
+R26	coauthor Arg1:T41 Arg2:T42	
+R27	has_cited_time Arg1:T43 Arg2:T42	
+R28	results Arg1:T40 Arg2:T44	
+R29	has_cited_time Arg1:T47 Arg2:T46	
+R31	has_cited_time Arg1:T49 Arg2:T48	
+R30	results Arg1:T48 Arg2:T50	
+R32	has_cited_time Arg1:T52 Arg2:T51	
+R33	results Arg1:T51 Arg2:T53	
+R34	results Arg1:T57 Arg2:T56	
+R35	has_cited_time Arg1:T58 Arg2:T57	
+R36	has_cited_time Arg1:T60 Arg2:T59	
+R37	field_similar_as Arg1:T59 Arg2:T57	
+R38	has_cited_time Arg1:T62 Arg2:T61	
+R39	results Arg1:T61 Arg2:T63	
+R40	results Arg1:T67 Arg2:T72	
+R41	coauthor Arg1:T67 Arg2:T68	
+R42	coauthor Arg1:T68 Arg2:T69	
+R43	coauthor Arg1:T69 Arg2:T70	
+R44	coauthor Arg1:T70 Arg2:T71	
+R45	has_cited_time Arg1:T73 Arg2:T71	
+R46	has_cited_time Arg1:T75 Arg2:T74	
+R47	has_cited_time Arg1:T77 Arg2:T76	
+R48	field_similar_as Arg1:T76 Arg2:T74	
+R49	field_similar_as Arg1:T74 Arg2:T67	
+R50	results Arg1:T79 Arg2:T78	
+R51	coauthor Arg1:T79 Arg2:T80	
+R52	has_cited_time Arg1:T81 Arg2:T80	
+R53	coauthor Arg1:T82 Arg2:T83	
+R54	coauthor Arg1:T83 Arg2:T84	
+R55	coauthor Arg1:T84 Arg2:T85	
+R56	has_cited_time Arg1:T86 Arg2:T85	
+R57	coauthor Arg1:T87 Arg2:T88	
+R58	coauthor Arg1:T88 Arg2:T89	
+R59	coauthor Arg1:T89 Arg2:T90	
+R60	has_cited_time Arg1:T91 Arg2:T90	
+R61	coauthor Arg1:T92 Arg2:T93	
+R62	coauthor Arg1:T93 Arg2:T94	
+R63	coauthor Arg1:T94 Arg2:T95	
+R64	coauthor Arg1:T95 Arg2:T96	
+R65	has_cited_time Arg1:T97 Arg2:T96	
+R66	field_similar_as Arg1:T92 Arg2:T87	
+R67	field_similar_as Arg1:T87 Arg2:T82	
+R68	field_similar_as Arg1:T82 Arg2:T79	
+R69	results Arg1:T99 Arg2:T98	
+R70	coauthor Arg1:T99 Arg2:T100	
+R71	coauthor Arg1:T100 Arg2:T101	
+R72	coauthor Arg1:T101 Arg2:T102	
+R73	has_cited_time Arg1:T103 Arg2:T102	
+R74	results Arg1:T105 Arg2:T104	
+R75	has_cited_time Arg1:T106 Arg2:T105	
+R76	coauthor Arg1:T107 Arg2:T108	
+R77	has_cited_time Arg1:T109 Arg2:T108	
+R78	field_similar_as Arg1:T107 Arg2:T105	
+R79	has_cited_time Arg1:T111 Arg2:T110	
+R80	results Arg1:T110 Arg2:T112	
+R81	has_cited_time Arg1:T114 Arg2:T113	
+R82	coauthor Arg1:T116 Arg2:T117	
+R83	coauthor Arg1:T117 Arg2:T118	
+R84	coauthor Arg1:T118 Arg2:T119	
+R85	has_cited_time Arg1:T120 Arg2:T119	
+R86	results Arg1:T116 Arg2:T115	
+R87	coauthor Arg1:T121 Arg2:T122	
+R88	has_cited_time Arg1:T123 Arg2:T122	
+R89	has_cited_time Arg1:T125 Arg2:T124	
+R90	has_cited_time Arg1:T128 Arg2:T127	
+R91	results Arg1:T127 Arg2:T129	
+R92	has_cited_time Arg1:T131 Arg2:T130	
+R93	has_cited_time Arg1:T133 Arg2:T132	
+R94	results Arg1:T132 Arg2:T134	
+R95	field_similar_as Arg1:T130 Arg2:T132	
+R96	uses Arg1:T135 Arg2:T142	
+R97	coauthor Arg1:T135 Arg2:T136	
+R98	has_cited_time Arg1:T137 Arg2:T136	
+R99	has_cited_time Arg1:T139 Arg2:T138	
+R100	field_similar_as Arg1:T138 Arg2:T135	
+R101	field_similar_as Arg1:T140 Arg2:T138	
+R102	has_cited_time Arg1:T141 Arg2:T140	
+R103	uses Arg1:T144 Arg2:T143	
+R104	has_cited_time Arg1:T145 Arg2:T144	
+R105	field_similar_as Arg1:T146 Arg2:T144	
+R106	field_similar_as Arg1:T149 Arg2:T146	
+R107	coauthor Arg1:T146 Arg2:T147	
+R108	has_cited_time Arg1:T148 Arg2:T147	
+R109	has_cited_time Arg1:T150 Arg2:T149	
+R110	produces Arg1:T152 Arg2:T151	
+R111	coauthor Arg1:T152 Arg2:T153	
+R112	coauthor Arg1:T153 Arg2:T154	
+R113	has_cited_time Arg1:T155 Arg2:T154	
+R114	coauthor Arg1:T156 Arg2:T157	
+R115	coauthor Arg1:T157 Arg2:T158	
+R116	field_similar_as Arg1:T156 Arg2:T152	
+R117	has_cited_time Arg1:T159 Arg2:T158	
+R118	coauthor Arg1:T160 Arg2:T161	
+R119	coauthor Arg1:T161 Arg2:T162	
+R120	coauthor Arg1:T162 Arg2:T163	
+R121	coauthor Arg1:T163 Arg2:T164	
+R122	has_cited_time Arg1:T165 Arg2:T164	
+R123	field_similar_as Arg1:T160 Arg2:T156	
+R124	uses Arg1:T167 Arg2:T166	
+R125	coauthor Arg1:T167 Arg2:T168	
+R126	coauthor Arg1:T168 Arg2:T169	
+R127	coauthor Arg1:T169 Arg2:T170	
+R128	coauthor Arg1:T170 Arg2:T171	
+R129	has_cited_time Arg1:T172 Arg2:T171	
+R130	has_cited_time Arg1:T174 Arg2:T173	
+R131	field_similar_as Arg1:T173 Arg2:T167	
+R132	has_cited_time Arg1:T176 Arg2:T175	
+R133	results Arg1:T175 Arg2:T177	
+R134	has_cited_time Arg1:T179 Arg2:T178	
+R135	results Arg1:T178 Arg2:T181	
+R136	has_cited_time Arg1:T183 Arg2:T182	
+R137	results Arg1:T182 Arg2:T184	
+R138	has_cited_time Arg1:T186 Arg2:T185	
+R139	results Arg1:T185 Arg2:T187	
+R140	has_cited_time Arg1:T189 Arg2:T188	
+R141	coauthor Arg1:T190 Arg2:T191	
+R142	has_cited_time Arg1:T192 Arg2:T191	
+R143	has_cited_time Arg1:T194 Arg2:T193	
+R144	field_similar_as Arg1:T193 Arg2:T190	
+R145	field_similar_as Arg1:T190 Arg2:T188	
+R146	uses Arg1:T195 Arg2:T202	
+R147	coauthor Arg1:T195 Arg2:T196	
+R148	coauthor Arg1:T196 Arg2:T197	
+R149	has_cited_time Arg1:T198 Arg2:T197	
+R150	uses Arg1:T199 Arg2:T203	
+R151	coauthor Arg1:T199 Arg2:T200	
+R152	has_cited_time Arg1:T201 Arg2:T200	
+R153	has_cited_time Arg1:T205 Arg2:T204	
+R154	results Arg1:T204 Arg2:T206	
+R155	has_cited_time Arg1:T209 Arg2:T208	
+R156	has_cited_time Arg1:T211 Arg2:T210	
+R157	coauthor Arg1:T212 Arg2:T213	
+R158	has_cited_time Arg1:T214 Arg2:T213	
+R159	coauthor Arg1:T216 Arg2:T217	
+R160	has_cited_time Arg1:T218 Arg2:T217	
+R161	has_cited_time Arg1:T220 Arg2:T219	
+R162	field_similar_as Arg1:T219 Arg2:T216	
+R163	field_similar_as Arg1:T212 Arg2:T210	
+R164	field_similar_as Arg1:T210 Arg2:T208	
+R165	has_cited_time Arg1:T223 Arg2:T222	
+R166	coauthor Arg1:T224 Arg2:T225	
+R167	has_cited_time Arg1:T226 Arg2:T225	
+R168	has_cited_time Arg1:T228 Arg2:T227	
+R169	results Arg1:T232 Arg2:T235	
+R170	coauthor Arg1:T232 Arg2:T233	
+R171	has_cited_time Arg1:T234 Arg2:T233	
+R172	has_cited_time Arg1:T237 Arg2:T236	
+R173	uses Arg1:T236 Arg2:T238	
+R174	coauthor Arg1:T240 Arg2:T241	
+R175	has_cited_time Arg1:T242 Arg2:T241	
+R176	has_cited_time Arg1:T247 Arg2:T246	
+R177	results Arg1:T246 Arg2:T248	
+R178	has_cited_time Arg1:T250 Arg2:T249	
+R179	results Arg1:T249 Arg2:T252	
+R180	has_cited_time Arg1:T254 Arg2:T253	
+R181	results Arg1:T253 Arg2:T255	
+R182	has_cited_time Arg1:T257 Arg2:T256	
+R183	results Arg1:T256 Arg2:T258	
+R184	has_cited_time Arg1:T260 Arg2:T259	
+R185	results Arg1:T259 Arg2:T261	
+R186	has_cited_time Arg1:T265 Arg2:T264	
+R187	results Arg1:T264 Arg2:T266	
+R188	has_cited_time Arg1:T267 Arg2:T263	
+R189	results Arg1:T263 Arg2:T269	
+R190	has_cited_time Arg1:T271 Arg2:T270	
+R191	uses Arg1:T270 Arg2:T272	
+R192	results Arg1:T273 Arg2:T274	
+R193	results Arg1:T276 Arg2:T281	
+R194	field_similar_as Arg1:T276 Arg2:T277	
+R195	has_cited_time Arg1:T278 Arg2:T276	
+R196	has_cited_time Arg1:T279 Arg2:T277	
+R197	uses Arg1:T240 Arg2:T243	
+R198	uses Arg1:T244 Arg2:T245	

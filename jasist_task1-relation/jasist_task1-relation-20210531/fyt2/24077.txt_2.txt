@@ -1,0 +1,130 @@
+The lines show several crossovers . 
+In early September , we had a bearish crossover because the stock price broke below the MA . 
+In early November , we had a bullish crossover because the stock price broke above the MA . 
+We are interested in tracking the estimated F and keep assessing documents as long as the curve of estimated F is moving up . 
+We iteratively construct a curve of estimated F , compute its MA , and stop the assessment process when we detect the beginning of a downtrend ( F crosses below its MA ) . 
+This stopping method has one parameter : the size of the window used to compute the MA ( w ) . 
+The pseudocode of the three algorithms presented in this subsection is available at our institutional website.33 http : //tec.citius.usc.es/ir/code/jasist_submission2017_stopping_algs.pdf stop_if_no_better_expectations . 
+The previous method estimates F with perfect knowledge on precision . 
+For example , after five judgments , we know the precision achieved so far , and we just need an estimate of the total number of relevant documents in order to get an estimate of F @ 5 . 
+However , at any given position n , we can estimate not only F @ n , but also F @ p ( ∀p > n ) . 
+The estimation of F @ p ( ∀p > n ) needs to estimate both P @ p and R @ p . 
+We can predict the number of relevant documents in any range of positions and , therefore , it is straightforward to use our predictions to estimate not only recall but also precision . 
+A natural stopping strategy is to terminate the assessment process at a point n whose estimated F @ n is greater than the estimated F @ p , ∀ p > n ( if we do not expect to improve F then why should we keep assessing documents ? 
+) . 
+A nice feature of this method is that it only requires the training queries ( it has no additional parameters ) . 
+stop_if_fall_below_max . 
+This method stores the maximum estimated F achieved so far , and stops when the current estimation of F is below a given proportion of the maximum . 
+The intuition is that if we improve over the maximum then we should keep doing judgments ; but if the current estimated F substantially falls below the maximum then we should stop . 
+This method has a parameter , prop , which sets the proportion . 
+For example , if the maximum estimated F is 0.6 and the proportion is 0.9 then we would stop with an estimated F below 0.54. stop_if_bearish_crossover . 
+After n judgments , we have a series of n values of estimated F ( estimated F after the first judgment , estimated F after the second judgment , and so on ) . 
+We might want to keep assessing documents as long as the overall direction of the series of estimated F is upward . 
+In Time Series analysis , the moving average ( MA ) model is a well‐known method for modeling univariate time series ( Cootner , 1962 ) . 
+An MA analyzes data points by computing a series of averages of different subsets of the full set of points . 
+Imagine a series of data points ( for instance , temperature of a patient , collected at 1‐hour intervals ) , and a fixed window size ( for instance , 5 hours ) . 
+The first element of the MA is the average of the initial five temperatures available . 
+Then the window is shifted forward : the first temperature is excluded and the sixth temperature is included . 
+The second element of the MA is the average of this new window of five values . 
+This shifting is repeated over the entire series of values . 
+The MA plot connects all these numbers , and it is effective at smoothing out short‐term fluctuations of the original data and highlighting long‐term trends . 
+In economics , MA models are regularly employed to track financial data ( for example , stock prices ) . 
+We propose a stopping method based on MA and inspired by Financial Trading . 
+As stock prices are moving up , the MA will be below the price , and when stock prices are moving down the MA will be above the current price . 
+A crossover is a signal used by many traders to identify shifts in momentum . 
+A basic type of crossover happens when the price of a stock moves from one side of the MA and closes on the other . 
+Traders track these movements to make decisions on entry/exit strategies . 
+A cross below MA —or bearish crossover—occurs when the stock price breaks below the MA and is often interpreted as a sell signal ( beginning of a downtrend , the stock should be sold ) . 
+Conversely , a buy signal , suggesting the beginning of an uptrend , is associated with a close above the MA from below ( the stock price breaks above the MA , bullish crossover ) . 
+Figure 4 plots an example of a stock price and its MA ( smooth dashed line ) . 
+The lines show several crossovers . 
+In early September , we had a bearish crossover because the stock price broke below the MA . 
+In early November , we had a bullish crossover because the stock price broke above the MA . 
+We are interested in tracking the estimated F and keep assessing documents as long as the curve of estimated F is moving up . 
+We iteratively construct a curve of estimated F , compute its MA , and stop the assessment process when we detect the beginning of a downtrend ( F crosses below its MA ) . 
+This stopping method has one parameter : the size of the window used to compute the MA ( w ) . 
+The experiments described here are fully reproducible . 
+The reader can download our code and instructions from our institutional website.44 http : //tec.citius.usc.es/ir/code/pooling_stopping.html This includes an implementation in R of all the stopping methods and the adjudication strategy ( Hedge ) . 
+Table 1 presents the statistics of the collections used for experimentation . 
+TRECs 5–8 are classical ad hoc collections , while CTs 14–16 are newer collections developed under the TREC Clinical decision support Track ( search task in the medical domain ) . 
+We obtained from TREC all the runs ( ranked lists of documents for each topic ) that contributed to the pool . 
+For each topic , we ordered the pooled documents following the Hedge algorithm , and simulated the assessment process on a sequential basis.55 In TRECs 5–8 the pool was the union of the top 100 documents retrieved by any run . 
+In the CTs , the pool was formed from all documents retrieved in ranks 1–20 by any run in union with a 20 % sample of documents not retrieved in the first set that were retrieved in ranks 21–100 by some run . 
+First , the top‐ranked document ( as selected by Hedge ) is assessed for relevance.66 Every time a relevance judgment is required we obtain it from the official TREC judgments . 
+Next , Hedge reranks the remaining pooled documents and the process continues until the stopping method resolves to stop . 
+A number of studies have proposed different prioritization methods to adjudicate pooled documents for judgment ( Aslam , Pavlu , & Yilmaz , 2006 ; Carterette , 2007 ; Cormack , Palmer , & Clarke , 1998 ; Losada et al. , 2016 ; Moffat et al. , 2007 ) . 
+A recent comparison of subset pooling methods can be found in Losada , Parapar , and Barreiro ( 2017 ) . 
+This comparative study concludes that the Hedge algorithm performs the best in building shallow judgment sets . 
+We therefore adopted Hedge as our reference method to adjudicate documents for judgment and focused on evaluating the stopping methods discussed above . 
+Hedge is an online learning method that maintains a set of weights for the participating systems , ranks the pooled documents based on the system weights and document positions , and reacts to the assessments by updating the system weights and reranking the remaining unjudged documents . 
+The update is governed by a learning rate parameter that determines how quickly the algorithm reacts to new judgments.77 Following standard practice , this parameter was fixed to 0.1 in all our experiments . 
+A full description of the Hedge algorithm can be found in Aslam et al . 
+( 2003 ) ( see also Losada et al. , 2017 , algorithm 4 ) . 
+For each query , every stopping method determines a point where to stop doing relevance judgments . 
+After applying the stopping method on all queries , we obtain a set of relevance judgments that can be used for quality assessment . 
+Two main dimensions will be used for evaluation : Rank correlation measures . 
+A standard way to measure the quality of subset pooling methods consists of employing the official ranking of systems as the basis for comparison . 
+More specifically , the method ranks the runs submitted to TREC using the official judgments ( full pool ) , and ranks the same runs using a different set of judgments . 
+An effectiveness metric is needed for producing the rankings of the runs . 
+The effectiveness metric plays here a key role . 
+Evaluating stopping methods based on a single measure , such as Average Precision , would give few clues as to what extent the subqrels are reusable to compare systems using other effectiveness measures . 
+There is a complex interplay between effectiveness metrics and judgment pools . 
+We therefore considered several effectiveness metrics and studied the implications of the stopping methods for all of them . 
+Following Lu , Moffat , and Culpepper ( 2016 ) , our study included two main families of evaluation metrics : recall‐based metrics , Average Precision ( AP ) and Normalized Discounted Cumulative Gain ( NDCG ) , and utility‐based metrics , Precision at 100 and Rank Biased Precision ( RBP ) .88 NDCG was computed following the traditional setting incorporated in trec _eval ( log 2 discounting factor and gain levels set to the relevance levels available in the test collections ) . 
+The RBP parameter was set to 0.8 . 
+High correlation means that the judgment sets ranked the runs similarly . 
+Low correlation , instead , means that each judgment set has ranked the runs differently and , thus , we can not trust the subset pooling method . 
+Kendall 's τ has been commonly applied to compare these two rankings . 
+Another rank correlation measure that has been used in comparing rankings in IR is AP correlation ( Yilmaz , Aslam , & Robertson , 2008 ) . 
+Unlike Kendall 's τ , AP correlation ( τ AP ) considers that discrepancies among those systems at high positions in the rankings are more important than those among systems at low positions in the rankings . 
+AP correlation fits well with IR evaluation , where we are often concerned about identifying the best‐performing systems . 
+In our experimental report , we provide results for both correlation measures . 
+A number of researchers have considered that levels of correlation above 0.85 indicate that the rankings of runs , although not identical , are highly similar ( Voorhees , 2000 , 2001 ) . 
+Such high correlation would permit concluding that variations in relevance judgments did not impact noticeably the reliability of the test collection . 
+Number of judgments required . 
+We pursue stopping methods that are reliable and low cost ( the fewer judgments , the better ) . 
+We therefore report the minimum , maximum , and average number of judgments done ( over all queries ) . 
+Rank correlation measures . 
+A standard way to measure the quality of subset pooling methods consists of employing the official ranking of systems as the basis for comparison . 
+More specifically , the method ranks the runs submitted to TREC using the official judgments ( full pool ) , and ranks the same runs using a different set of judgments . 
+An effectiveness metric is needed for producing the rankings of the runs . 
+The effectiveness metric plays here a key role . 
+Evaluating stopping methods based on a single measure , such as Average Precision , would give few clues as to what extent the subqrels are reusable to compare systems using other effectiveness measures . 
+There is a complex interplay between effectiveness metrics and judgment pools . 
+We therefore considered several effectiveness metrics and studied the implications of the stopping methods for all of them . 
+Following Lu , Moffat , and Culpepper ( 2016 ) , our study included two main families of evaluation metrics : recall‐based metrics , Average Precision ( AP ) and Normalized Discounted Cumulative Gain ( NDCG ) , and utility‐based metrics , Precision at 100 and Rank Biased Precision ( RBP ) .88 NDCG was computed following the traditional setting incorporated in trec _eval ( log 2 discounting factor and gain levels set to the relevance levels available in the test collections ) . 
+The RBP parameter was set to 0.8 . 
+High correlation means that the judgment sets ranked the runs similarly . 
+Low correlation , instead , means that each judgment set has ranked the runs differently and , thus , we can not trust the subset pooling method . 
+Kendall 's τ has been commonly applied to compare these two rankings . 
+Another rank correlation measure that has been used in comparing rankings in IR is AP correlation ( Yilmaz , Aslam , & Robertson , 2008 ) . 
+Unlike Kendall 's τ , AP correlation ( τ AP ) considers that discrepancies among those systems at high positions in the rankings are more important than those among systems at low positions in the rankings . 
+AP correlation fits well with IR evaluation , where we are often concerned about identifying the best‐performing systems . 
+In our experimental report , we provide results for both correlation measures . 
+A number of researchers have considered that levels of correlation above 0.85 indicate that the rankings of runs , although not identical , are highly similar ( Voorhees , 2000 , 2001 ) . 
+Such high correlation would permit concluding that variations in relevance judgments did not impact noticeably the reliability of the test collection . 
+For descriptive reasons , we will also report the F‐score associated with the resulting qrels ( averaged over all queries ) . 
+The most advantageous use of assessors ' time occurs when the assessors focus on relevant documents , and the aim of the evaluation task is to identify as many relevant documents as possible . 
+A natural way to evaluate these two aspects of the assessment process consists of extracting the set of judgments done for each query and compute a classic set‐based measure of effectiveness , such as F1 . 
+Under this setting , precision is the fraction of assessed documents that are relevant and , thus , it is a good estimator of how well we have used the assessors ' time . 
+Recall is the fraction of ( pooled ) relevant documents that have been assessed and , thus , it gives us an indication on how well we have identified the existing relevant documents . 
+The values of the parameters of the stopping methods were learned by optimizing F over the training collections ( TREC5 and CT14 , respectively ) . 
+These two collections were also used for learning the fits of the training queries ( see Figure 1 ) . 
+These fits together with the performances of the training queries ( Perf @ n ∀n ) were stored and used for supporting recall predictions of test queries . 
+Although this training stage requires a collection with full‐pool judgments , a single training collection can be employed for supporting early stopping in many other similar evaluation exercises . 
+The parameters learned with the training collection ( and tuning grids ) are reported in Table 2 , and the test results are shown in Tables 3 and 4 . 
+The fixed‐length strategy ( stop_after_n_judgments ) requires more judgments than other competing methods and , furthermore , it leads to correlations below .85 in some collections and metrics ( CT16‐RBP ) . 
+Judging a given percentage of the pool is a low‐cost strategy ( low average stopping points ) but it has many correlations below .85 ( TREC6‐AP , CT15‐RBP , CT16‐AP/RBP ) . 
+Stop_after_n_rels and stop_if_no_better_expectations are costly strategies and they have some correlations below .85 ( CT15‐RBP , CT16‐AP/RBP ) . 
+Stopping after finding n nonrelevant documents , stop_after_n_consecutive_non_rels , and stop_if_fall_below_max have a moderate cost but they show correlations below .85 in CT15 and/or CT16 . 
+The most consistent strategy is stop_if_bearish_crossover ( avgP ) . 
+It is low‐cost and exhibits a solid behavior over all collections . 
+For all the metrics tested ( AP , NDCG , P @ 100 , and RBP ) , stop_if_bearish_crossover ( avgP ) led to a subset of judgments that ranked retrieval systems similarly to a full‐pool approach . 
+Both τ and τ AP show very high correlations for the two classes of effectiveness metrics . 
+Although this method appears to be the most preferable choice , an important outcome of these experiments is that there are a number of reasonable stopping methods whose resulting set of judgments can be reliably used to compare search systems under different performance measures . 
+Depending on the available budget and other constraints , an experimenter can use our comparison to select his/her method of choice . 
+Our evaluation provides a thorough understanding of when to stop doing relevance judgments . 
+The results clearly demonstrate that some stopping methods can substantially reduce the assessment effort , and the suitability of the resulting relevance assessments as a tool for evaluating retrieval performance was not compromised . 
+With stop_if_bearish_crossover ( avgP ) , the average required effort is about 100 or 185 judgments per query ( in TREC and CT collections , respectively ) . 
+This is a substantial reduction over a full‐pool approach . 
+In TREC6 , the average pool size is 1445.1 documents , and stop_if_bearish_crossover ( avgP ) stops on average after 92.88 judgments . 

@@ -1,0 +1,130 @@
+Ranking of search results in terms of relevance of documents has been the most critical problem in information retrieval ( IR ) . 
+Conventional approaches to relevance ranking typically optimize ranking models by each query separately such as learning to rank ( Burges et al. , 2005 ) and personalization ( Wang et al. , 2013 ) , where the ranking for one query is independent from the rankings for the others . 
+In the pilot study , J.‐Y . 
+Jiang , Liu , Lin , and Cheng ( 2015 ) observed that for most of the queries related to a certain topic , web pages of some websites would be generally ranked higher than web pages of other websites . 
+For example , the ESPN website would be generally ranked higher than the IMDb website for queries about NBA ( basketball ) players . 
+They , therefore , assumed that if some queries have similar search intents ( e.g. , NBA players ) , the rankings of their partial search results might be consistent ( e.g. , ESPN > IMDb ) . 
+Suppose web pages about a certain topic on a website could be summarized as a topical cluster . 
+The key of ranking consistency is that the rankings of web pages in the same clusters would be potentially consistent for similar search intents . 
+In the previous example , ESPN groups players into different sport‐related clusters ( e.g. , basketball and tennis ) while IMDb groups films into movie‐related clusters ( e.g. , cast and production crew ) . 
+As such website is specialized in some domains , the quality of its web pages about the same topic is more likely to be close to each other . 
+The rankings of these websites with respect to related queries are then probably consistent . 
+Despite the interesting finding of ranking consistency , that is , the dependency between rankings for different queries , how to leverage ranking consistency to determine relevance ranking is still a problem . 
+This is because high‐rank documents are not necessarily more relevant than low‐rank ones . 
+To eliminate this uncertainty , J.‐Y . 
+Jiang et al . 
+( 2015 ) exploited click‐through data as ground‐truth to learn the relevance ranking of consistent and inconsistent search results . 
+However , click‐through data might not always be available or sufficient for new or low‐frequency queries . 
+In some special cases , for example , when taking the advantage of consistent rankings from other IR systems , it is impossible for us to obtain their click‐through logs . 
+Figure 1 shows some ordered search results for three queries about MLB ( baseball ) players with word “ family ” as context from a commercial search engine . 
+In general , the rankings of the first two queries are quite consistent , where person‐related websites ( e.g. , Wikipedia and JockBio ) are expected to be ranked higher since we are more interested in their family . 
+This example explains that the search intent behind an entity query11 Entity queries are the queries containing entities . 
+would change when different context word is considered . 
+Unfortunately , previous work ( J.‐Y . 
+Jiang et al. , 2015 ) simply identifies the entity in a query and regards its corresponding entity type in a knowledge base as its search intent . 
+In this case , queries “ Ichiro Suzuki ” and “ Ichiro Suzuki family ” will be mapped to the same search intent , that is , /baseball/baseball_player in Freebase . 
+If the click‐through rates of baseball‐related websites ( e.g. , ESPN and Baseball‐reference ) dominate the whole set , they will get more chances to be promoted for query “ Ichiro Suzuki family , ” as the inconsistent ranking shown for the third query in Figure 1 . 
+Some ordered results of three queries about MLB baseball players with context word “ family ” from a commercial search engine captured in July 2016 . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The purpose of this paper is to develop an unsupervised solution to boost the search performance in web . 
+We want to improve ranking consistency between related queries by re‐ranking their search results . 
+Unlike the supervised solution presented in ( J.‐Y . 
+Jiang et al. , 2015 ) , we have no click‐through logs available for providing ground‐truth . 
+It is , therefore , unclear that if search results appear consistently in different rankings of similar search intents , they are more likely to be relevant in web IR . 
+We first propose a novel cocluster hypothesis by extending traditional cluster hypothesis . 
+It hypothesizes that web queries with closely associated search intents tend to be relevant to web pages with closely associated topics . 
+In previous examples , it says that the web pages on ESPN tend to relevant to the queries about NBA or MLB players . 
+If ESPN is generally ranked higher than IMDb for different players , ESPN might be more relevant than IMDb . 
+In some sense , the cocluster hypothesis bridges the gap between ranking consistency and relevance ranking and provides a fundamental heuristic for unsupervised learning . 
+We further propose a two‐stage unsupervised approach to improve ranking consistency in web search . 
+Unlike exploiting click‐through data in ( J.‐Y . 
+Jiang et al. , 2015 ) , we optimize ranking consistency based on the cocluster hypothesis . 
+Before performing unsupervised learning , we first define URL patterns as topical clusters and treat entities and query intent templates as search intents . 
+Here query intent templates are a common form used in query representation such as [ People ] age . 
+In the first stage , our goal is to determine the consistent ranking between each of coclustered search intent and topical cluster . 
+In the second stage , we transform consistent ranks and original ranks into two relevance scores , and try to combine them as a final determinant according to two ranking heuristics , including “ higher ranks are more important than lower ranks ” and “ the difference of scores between two ranks should be more significant in higher ranks than in lower ranks. ” There are two major challenges needed to conquer . 
+The first one is how to measure the extent to which the cocluster hypothesis holds in web search . 
+To deal with it , we design a novel nearest‐neighbors test , revised by a well‐known traditional nearest‐neighbors test adopted in cluster hypothesis . 
+The second one is how to merge the two scores automatically without click‐through data . 
+A novel cost function is designed to optimize the combination of uniqueness ( or inconsistency ) in an unsupervised manner . 
+Extensive experiments have been conducted on large‐scale logs from a real‐world commercial search engine . 
+The experimental results demonstrate that our approach not only significantly improves the performance of the original ranker , that is , commercial search engine , by enhancing 36 % consistency of the search results but also reaches a comparable performance to the supervised approach . 
+We also perform our cocluster hypothesis test to verify the cocluster hypothesis is held in web search . 
+An in‐depth discussion about the impact of two clusters in our hypothesis is also given to show how relevance ranking can be improved . 
+The rest of this paper is organized as follows . 
+After covering related work in Related Work , we describe the cocluster hypothesis and corresponding nearest‐neighbors test in The Cocluster Hypothesis . 
+The construction of search intent and topical clusters and the details of the unsupervised model are presented in Search Intent and Topical Clusters and Unsupervised Approach , respectively . 
+Experiments reports the experimental results and discussion about the hypothesis . 
+Finally , Conclusions gives our conclusions . 
+Methods that intend to perform ranking consistency or discuss cluster hypothesis are regarded as our related work . 
+In this section , they are categorized into five aspects , including : ( a ) ranking consistency , ( b ) cluster hypothesis , ( c ) coclustering , ( d ) search intents behind entity queries and ( e ) topical cluster of web pages . 
+Ranking consistency is one of the applications based on the cocluster hypothesis . 
+J.‐Y . 
+Jiang et al . 
+( 2015 ) first discussed ranking consistency in web search and proposed a two‐stage approach to simultaneously optimize relevance ranking and ranking consistency . 
+In the first stage , they utilized entity types as query types and extracted URL patterns as topical clusters . 
+Pairwise learning‐to‐rank ( Burges et al. , 2005 ) was then applied to optimize the estimation of pattern‐type relevance by click‐through data . 
+In the second stage , they proposed a re‐ranking model to perform an ensemble of original rank and pattern‐type relevance . 
+Although a better performance achieved by their solution , supervised learning needs sufficient training data , which are not always available for various applications . 
+The cluster hypothesis assumes that closely associated documents tend to be relevant to the same search requests ( Rijsbergen , 1979 ) . 
+Various tests have been devised for estimating the extent to which the hypothesis holds ( Jardine & Rijsbergen , 1971 ; Voorhees , 1985 ; Smucker & Allan , 2009 ) . 
+Under this hypothesis , there are many clustering‐based technologies successfully developed such as search‐result clustering ( Zeng , He , Chen , Ma , & Ma , 2004 ) . 
+The cluster hypothesis also benefits the improvement of relevance ranking . 
+Kurland and Zhai ( 2009 ) stated that clustering could be treated as the process of document selection . 
+The task of document ranking can be , therefore , transformed to the task of cluster ranking . 
+For example , Raiber and Kurland ( 2013 ) applied Markov random fields to rank clusters of documents . 
+However , the cluster hypothesis only considers the relevance of the document cluster to a single search request . 
+Its applications generally attempt to cluster documents for each query and ignore the potential relationships among queries . 
+Coclustering provides another way to deal with the conceptual matching problem in search . 
+Related techniques usually use a term‐document matrix , which describes the occurrences of terms in documents , and simultaneously perform clustering on rows and columns such as latent semantic indexing . 
+Dhillon , Mallela and Modha ( 2003 ) proposed information‐theoretic coclustering , which maximizes mutual information between clustered random variables . 
+Long , Wu , Zhang and Yu ( 2006 ) applied information‐theoretic coclustering to optimize the dependency between node types on a K‐partite graph problem . 
+Although the concept of coclustering has proven to be a useful solution to the term mismatching problem , its application to ranking consistency in web search is still not well investigated . 
+Much work has paid attention to the discovery of search intents for entity queries . 
+Some ( Guo , Xu , Cheng , & Li , 2009 ; Hu , Wang , Lochovsky , Sun , & Chen , 2009 ) directly made use of entities to represent query intents . 
+Hu et al . 
+( 2009 ) discovered large quantities of intent concepts by leveraging Wikipedia , and classified query intents by these concepts . 
+Guo et al . 
+( 2009 ) conducted the task of named entity recognition in query ( NERQ ) . 
+They applied a probabilistic approach , modified by latent Dirichlet allocation , to classify queries as named entities . 
+According to their analysis , about 71 % of search queries contain named entities , demonstrating the importance of NERQ in relevance ranking . 
+In the work of ranking consistency ( J.‐Y . 
+Jiang et al. , 2015 ) , entity types in knowledge bases were utilized as query intents to improve relevance ranking efficiently . 
+However , ( Cheung & Li , 2012 ; Li , Hsu , & Zhai , 2013 ) indicated that entities might not reveal search intents completely , and investigated the idea of query intent templates . 
+A query intent template is a general form of representation for queries such as [ People ] age or [ People ] family . 
+Cheung and Li ( 2012 ) extracted query intent templates from a query log in an unsupervised way . 
+Li et al . 
+( 2013 ) disambiguated synonymous query intent templates and found the best representation in these synonymous templates with a modified K‐medoids model . 
+Grouping web pages according to different topics is helpful in web search . 
+Scaiella ( Ferragina ) extracted topics from snippets as a summarization . 
+Zeng et al . 
+( 2004 ) utilized titles and snippets to extract readable topic names for search‐result clustering . 
+Some work ( Koppula et al. , 2010 ; J. Jiang , Song , Yu , & Lin , 2013 ; J.‐Y . 
+Jiang et al. , 2015 ) utilized regular expression to represent URL patterns so that URLs can be matched conveniently . 
+Similar URL patterns can be regarded as relevant topical clusters . 
+Differentiating previous approaches from ours , in this work , we present a coclustering hypothesis as a fundamental heuristic for unsupervised learning , we discover query intent templates by leveraging type information in knowledge bases , and we propose an unsupervised approach to improve search performance by considering the search results of multiple queries simultaneously . 
+The conventional cluster hypothesis ( Rijsbergen , 1979 ) states that closely associated documents tend to be relevant to the same search requests . 
+As illustrated on the left‐hand side of Figure 2 , for web search , it implies that web pages in the same cluster tend to be relevant to the same web query . 
+Despite the cluster hypothesis has demonstrated its great benefit for myriad cluster‐based IR tasks such as smoothing language models ( Liu & Croft , 2004 ) , search results re‐ranking ( Kurland , 2009 ) and diversification ( Raiber & Kurland , 2013 ) , it generally assumes queries are independent and totally ignores their relation . 
+The concept of the cocluster hypothesis is extended basically from the cluster one . 
+We assume each query is associated with a search intent while each web page is associated with a topic . 
+Hence , the cocluster hypothesis for web search can be briefly defined as follows : Illustration of cluster and cocluster hypotheses . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The cocluster hypothesis states that two web queries with similar search intents might have relevant web pages of similar nature . 
+Figure 2 illustrates the difference between two hypotheses . 
+The cluster hypothesis only assumes the relevance between web pages and a single query . 
+In contrast , the cocluster hypothesis assumes the relevance between groups of queries and groups of web pages . 
+The two hypotheses differ mainly on the query side . 
+Different from assigning web pages to clusters for each query independently in the cluster hypothesis , the cocluster hypothesis assigns web pages to clusters for queries with similar search intents . 
+The cocluster hypothesis connects the concept of a search intent to a topic cluster . 
+If a connection could be found , it can be exploited to improve relevance in web search . 
+If the cocluster hypothesis is held , given a set of related queries and their search results , it is possible for us to re‐rank each search result according to the potential consistency among the queries . 
+Different from ( J.‐Y . 
+Jiang et al. , 2015 ) , where the connections are fully learned from click‐through data , in this work , we propose the cocluster hypothesis to discover the connections in an unsupervised way . 
+Hypothesis test is used to measure the extent to which hypothesis holds . 
+In other words , if a value of hypothesis test is larger , the impact of the hypothesis is more significant . 
+Similar to various tests on the cluster hypothesis , we also need a hypothesis test to verify our cocluster hypothesis . 
+Suppose a web page is represented as a URL . 
+We first correspond “ query‐URL relevance ” to “ search intent‐topic relevance. ” If query q is relevant to URL u , the search intent of q is relevant to the topic of u . 
+Secondly , we revise the nearest‐neighbors ( NN ) test ( Voorhees , 1985 ) , which is one of the best‐known cluster hypothesis tests , as a cocluster NN test as follows : Cocluster NN test : For each topical cluster t , if a search intent i is relevant to t , we count the number of search intents which are relevant to t among the k nearest neighbors of i in search results , where k is a free parameter . 
+We then average these counts as the score of the cocluster NN test . 
+Cocluster NN test : For each topical cluster t , if a search intent i is relevant to t , we count the number of search intents which are relevant to t among the k nearest neighbors of i in search results , where k is a free parameter . 
+We then average these counts as the score of the cocluster NN test . 

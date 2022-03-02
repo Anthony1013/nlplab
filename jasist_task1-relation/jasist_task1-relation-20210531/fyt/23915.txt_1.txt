@@ -1,0 +1,130 @@
+Big data has recently emerged as an important issue . 
+Both the private and the public sector have shown great interest in big data for deriving new value from it . 
+Regarding the utilization of big data , however , there is growing apprehension that a person 's right to informational self‐determination may be violated more frequently than before . 
+As firms become aware of big data as an important asset , the collection of consumers ' personal information has increased . 
+Technological advancement makes it much easier to collect , store , and distribute information , which leads to a greater possibility that consumers ' personal information can be collected and utilized without their awareness . 
+Since such information leakage could lead to serious problems such as privacy invasion , public interest in the preparation of relevant countermeasures has been on the rise . 
+For example , the European Union announced the reform of the existing framework , the Directive 95/46/EC , regarding the protection of individuals with regard to the processing of personal data by introducing the proposal for the General Data Protection Regulation ( GDPR ) in 2012 . 
+The GDPR obtained approval in 2016 and will be enforced from 2018 . 
+This new regulation clearly stated a person 's right to refuse to offer his/her personal data that can be automatically collected and processed ( European Union , 2016 ) . 
+In Korea , public opinion on collecting and processing personal information was divided ( Choi , 2016 ; Kang , 2014 ) . 
+Although the Korean government has been aware of the importance of the big data industry , only 4.3 % of the Korean companies have adopted technologies for processing big data ( Ministry of Science , ICT & Future Planning , 2016 ) . 
+The existing law obliges companies that deal with consumers ' personal information to offer consumers the option to opt in of the collection and utilization of their data so that mixing or linking data from different sources could be prohibited by legal constraints ( Personal Information Protection Commission , 2012 ) . 
+Although current guidelines state that the deidentified personal data can be transferred and utilized by a third party without the agreement of data subjects , companies still confront the risk of being punished for breaking the law , so they might hesitate to utilize the data ( Choi , 2016 ) . 
+On the other hand , Korean consumers have been extremely passive about providing personal information because most of them experienced multiple personal information leaks since 2008 ( Korea Consumer Agency , 2014 ) . 
+If the utilization of personal information is restricted without proper criteria , the business opportunities of firms would be hindered . 
+From the consumers ' perspective , improved customer satisfaction derived from the use of personalized services could be hindered . 
+Since consumers often regard their information privacy as a commodity or cost that can be sacrificed to obtain economic gains ( Bennett , 1995 ; Ackerman , 2004 ; White , 2004 ) , they sometimes voluntarily disclose their personal information in order to obtain tangible or intangible benefits ( Beldad , de Jong & Steehouder , 2011 ; Smith , Dinev , & Xu , 2011 ) . 
+Moreover , the consumers ' concerns about the invasion of privacy and their willingness to provide personal information vary considerably according to the type of information involved ( Phelps , Nowak , & Ferrell , 2000 ) . 
+Therefore , it will be difficult to establish proper countermeasures for the protection of personal information if the various types of personal information are not subdivided and are treated as a whole . 
+In order to help decision making by related stakeholders , it is necessary to estimate the individual values of different types of personal information from the consumers ' perspective . 
+In reality , the cases of personal information leakage as well as those of compensation payment are not sufficient for a statistically significant analysis ; moreover , the data related to the types of leaked information are limited . 
+Therefore , based on a discrete choice model ( DCM ) and stated preference data , this research quantitatively analyzes the value of each type of information from the consumers ' perspective . 
+This analysis will contribute to a better understanding of a quantitative approach , which is urgently needed in this topic ( Gómez‐Barroso & Feijóo‐Gonzalez , 2013 ) . 
+Especially , this study was tested empirically with data from Korean consumers . 
+Because Korean consumers are used to services that require the collection and utilization of personal information,11 South Korea has a home Internet access rate ( % of household ) of 99.2 % , a smart phone penetration rate ( % of population over 6 years old ) of 85.0 % as of 2016 ( Korea Internet & Security Agency , 2017 ) , and the highest ICT Development Index among 175 countries for 2015 and 2016 ( ITU , 2016 ) . 
+they have a clear perception of both the risks and the benefits associated with the use of personal information . 
+Therefore , a survey of Korean consumers would ensure reliable results . 
+Additionally , the empirical study conducted in the context of South Korea could provide practical implications for the government because there have been debates about the pros and cons of using personal information . 
+A summary of the prior literature on the valuation of personal information is provided in the second section . 
+The first part of the third section explains the design of the discrete choice experiment ( DCE ) , while the second part describes the DCM . 
+The following section presents the results of the analysis that included several scenarios of hypothetical information leakage . 
+Also , we provide important policy implications for South Korea based on the simulation results . 
+Finally , we summarizes our findings and discusses points that need to be investigated further . 
+As technological developments have increased concerns of information privacy among consumers , related studies have been published . 
+For example , Hann , Hui , Lee , and Png ( 2007 ) quantified the value of website privacy protection and found monetary reward and future convenience are critical for individuals ' preferences for privacy policies . 
+Jaisingh , Barron , Mehta , and Chaturvedi ( 2008 ) addressed the issue of pricing personal information based on a two‐period model and found collection of information is not always optimal from the perspective of the firm collecting information . 
+Feijóo , Gómez‐Barroso , and Voigt ( 2014 ) estimated the net present value of personal information based on companies ' financial reports . 
+They found that there are considerable regional differences in net present value of personal profiles . 
+Steinfeld ( 2015 ) examined the monetary value of social network profile by eliciting people 's willingness to sell access to their entire profile . 
+It was found that money plays a role in users ' decisions to disclose their identity . 
+Some previous research analyzed people 's behavior and awareness regarding personal information using a survey method ( Chen & Rea , 2004 ; Min & Kim , 2015 ; Min , 2016 ; Ögütçü , Testik , & Chouseinoglou , 2016 ) . 
+All of these survey results indicated that users are concerned about the collection and misuse of their personal information . 
+However , this privacy concern can be offset by some kinds of benefit ( Hann et al. , 2007 ; Steinfeld , 2015 ; Min & Kim , 2015 ) . 
+Moreover , studies have shown that users have heterogeneous attitudes toward privacy and thus can be categorized into different segments according to their attitudes toward privacy ( Hann et al. , 2007 ; Feijóo et al. , 2014 ; Steinfeld , 2015 ; Ögütçü et al. , 2016 ) . 
+Previous research measuring willingness to pay ( WTP ) generally investigated the willingness of a person to pay for preventing the violation of privacy . 
+Bauer , Korunovska , and Spiekermann ( 2012 ) estimated the willingness of Facebook users to pay for the protection of personal information ; they found that nearly half of the users were not willing to pay for information protection . 
+Personal Information Protection Commission ( 2013 ) assumed a hypothetical situation in which consumers had to pay a fixed monthly fee for preventing the violation of privacy . 
+They classified personal information into seven types : basic , identification , healthcare , economic , social relation , communication/location , and legal information . 
+The WTP for protecting identification information was found to be the highest among all . 
+Prior research on eliciting willingness to accept ( WTA ) generally dealt with the amount of compensation for the leakage of personal information that was offered to a respondent . 
+Kim and Yeo ( 2010 ) estimated a consumer 's monetary value by assuming a situation involving the leakage of personal information ; however , the estimated value might not be very realistic , as the study assumed a comprehensive leakage situation without the subdivision of personal information into distinct types . 
+Kwon , Lee , Kim , and Jun ( 2012 ) analyzed the WTA for three personal information leakage scenarios that included different types of personal information . 
+However , they did not include information types that could be collected in a big data environment , such as location information and Internet search history . 
+Thus , the findings of their study can not be applied to the big data environment , as the estimated value of a nonmarket good is greatly affected by the hypothetical scenario . 
+In most of the previous studies , the situations in which personal information was leaked were limited to e‐commerce and a social networking service ( SNS ) . 
+Moreover , these studies presented a general situation involving information leakage to the respondents without subdividing the various types of information . 
+Therefore , the current research includes new types of personal information that emerge in the age of big data , in order to estimate the value of personal information more accurately . 
+Specifically , prior studies focusing on privacy related to personal SNS posts limited their subjects to consumers using specific SNS and analyzed their attitude toward SNS utility only ( Otsuki & Sonehara , 2013 ; Yen , 2013 ) . 
+In contrast , this study estimates the consumers ' valuation ( in monetary terms ) of personal SNS posts and compares it with those of other types of personal information . 
+Further , we clearly remind the respondents of the economic and social value of the utilization of personal information and the possibility of the violation of their privacy . 
+This would help the respondents to fully understand the trade‐off between the utilization and the violation of their personal information . 
+As the contingent valuation method used in previous research has limitations in eliciting the individual values of different types of information , this research uses a DCE to analyze the consumers ' preference for each type of personal information . 
+We use equity theory ( Adams 1963 , 1965 ) to analyze the relationship between different types of personal information leakage and the consumers ' WTA for each of them . 
+According to equity theory , people compare the outcome they receive from an exchange to the input that they provide for it . 
+From an economic perspective , a consumer provides a certain input ( such as her/his money or time ) to receive a certain outcome , which is generally the benefit of the product or service ( Oliver & Swan , 1989 ) . 
+A consumer involved in an exchange relationship decides whether or not his/her exchange relationship is fair after comparing the ratio of her/his outcome to input to the ratio of the referent other ( Homans , 1958 , 1961 ) . 
+In our DCE , the respondents are in an exchange situation , as they should offer a certain input ( or sacrifice ) , namely , personal information , in order to receive a certain outcome , the compensation . 
+Therefore , in this research the output to input ratio refers to the comparison between the expected compensation amount and the specific type of personal information that is leaked . 
+Since consumers have different perceptions regarding different types of personal information , their evaluations of each type of personal information would differ . 
+Thus , the analysis of the consumer valuation of different types of personal information would be of great significance . 
+DCE is an appropriate method for collecting the consumers ' stated preferences in personal information leakage situations . 
+In the DCE , a specific leakage situation was assumed , which was fully explained to all the respondents . 
+First , it was assumed that respondent 's name , which can be used as an identifier of personal information , is also leaked with other personal information . 
+It was also assumed that the personal information leakage happened only once , and that there was no secondary damage as a result of using the leaked information . 
+Moreover , if the respondent agreed to receive the compensation amount offered by the institution that was responsible for the accident , he/she would be paid a lump sum . 
+If the respondent did not accept the compensation and wanted additional compensation , she/he would have to file a lawsuit against the institution . 
+Although there are various types of compensation , we considered only lump‐sum payment in our questionnaire for the following reasons . 
+First , the compensation was paid as a lump sum in most prior cases of information leakage in Korea . 
+Second , lump‐sum payment is a general form of compensation that could be converted from and include other forms of compensation . 
+Additionally , it is a suitable way of estimating the monetary WTA of consumers . 
+We identified the type of personal information that is at risk of leakage in a big data environment . 
+The attributes and levels of DCE are shown in Table 1 . 
+① no leakage ② leakage ① no leakage ② leakage ① no leakage ② leakage ① no leakage ② leakage ① no leakage ② leakage ① no leakage ② leakage ① 100 thousand KRWa Note . 
+aThe acronym “ KRW ” refers to “ South Korean Won. ” According to the Bank of Korea ( www.bok.or.kr ) , USD 1 = KRW 1,071.3 in February 2014 . 
+② 500 thousand KRW ③ 1 million KRW Average monthly income ( KRW 10 thousand ) As shown in Table 1 , we reclassified the types of personal information instead of simply adopting the seven types of personal information proposed by the Personal Information Protection Commission ( 2013 ) . 
+First , some types of personal information were integrated and reclassified in order to fit the online and big data environment in Korea . 
+For example , basic information and identification information ( as per the Personal Information Protection Commission 's classification ) are generally required simultaneously by most Korean websites when signing up for a membership . 
+Thus , they are likely to be leaked together in the event of a leakage . 
+The same holds true for the phone number and e‐mail address in the communication/location information category . 
+Therefore , all these types of information were included in the basic personal information attribute . 
+This research focuses on recent issues such as the invasion of privacy via SNS usage . 
+It is also assumed that there is a low possibility of the leakage of legal information , as these data are generally managed by the government and public institutions . 
+Second , if there are too many attributes , the respondents may find it difficult to clarify their preferences . 
+Hence , it is necessary to reduce at least one of the seven types of personal information proposed by the Personal Information Protection Commission . 
+In general , the use of a choice experiment is recommended when the number of product or service attributes is less than seven ( Hair , Black , Babin , & Anderson , 2009 ) . 
+Further , unless very large sample sizes are expected , it would be better to restrict the number of attributes chosen for the design to a relatively small number ( Bateman et al. , 2004 ) . 
+The combination of the attributes and levels presented in Table 1 gives rise to 192 possible situations . 
+However , it would be difficult for respondents to complete a survey for all the 192 alternatives because of the time limit and reliability problem . 
+Therefore , we employed a fractional factorial design to ensure the orthogonality of each attribute . 
+Finally , we proposed the 16 leakage situations to each respondent and asked whether they would accept a certain amount of compensation for each situation . 
+An example of the DCEs is presented in Figure 1 . 
+Sample choice experiments ( translated from Korean ) . 
+In Eq . 
+( 1 ) , Vij is the deterministic part defined as a linear function of K independent variables ( Xjk where k = 1 , … , K ) and their coefficients ( βjk ) . 
+The stochastic term ɛij follows a type I extreme value distribution . 
+Although the binary choice model gives intuitive descriptions of the consumers ' choice behavior , it can not present consumer heterogeneity ( Train , 2009 ) . 
+The latent class model ( LCM ) can accommodate consumer heterogeneity by assuming that the population consists of Q distinct classes that are not observable by the researchers and that all the consumers within a class have the same structure of preference , i.e. , the same coefficients of the utility function ( Greene & Hensher , 2003 ; Train , 2009 ) . 
+LCM allows researchers to segment the consumers based on the model for the probability of class membership , which is an advantage over traditional methods of market segmentation ( Magidson & Vermunt , 2002 ) . 
+LCM has been widely used in the field of psychology and marketing for identifying high potential products or services according to segment ( Train , 2009 ; Zhu & Zhang , 2009 ) . 
+The survey was conducted by face‐to‐face interviews over 3 weeks starting from 30 May 2014 in seven metropolitan cities in South Korea by a professional polling firm . 
+The purposive quota sampling was used to obtain a representative sample of the entire population regarding gender , age , income , and geographic region ( see Table 2 ) . 
+The survey explored the respondent 's attitudes toward and experience with personal information leakage . 
+Among total respondents , 97.2 % answered that protecting personal information is important and 65.8 % had experienced personal information leakage before . 
+The model 1 assumed consumers ' homogeneous preference structure for personal information leakage situations using the binary logit model . 
+The consumers showed greater negative preference and greater positive preferences when more personal information is leaked and more compensation is offered , respectively ( see Table 3 ) . 
+The relative importance ( RI ) calculated from the estimates shows that the amount of compensation is the most important for consumers to decide whether or not to accept compensation . 
+Also , consumers have the highest WTA for the leakage of basic personal information and purchase list and payment information . 
+This is because consumers believe they could be harmed more from the leaks and abuse of those types of information than other types . 
+Moreover , the WTA results are in accordance with the finding of prior research that consumers tend to place lower value on personal medical information than purchase list and payment information and location information ( Personal Information Protection Commission , 2013 ) . 
+However , the result of the lowest value to personal SNS posts does not correspond to the finding of Boston Consulting Group , Inc. ( 2012 ) , which concluded that European consumers tend to place more importance on the privacy of their SNS posts than on purchase list and payment information and location information . 
+Therefore , we can conclude that the consumer valuation of each type of personal information would vary across countries . 
+In Model 2 , we estimated consumers ' preference structure that consists of two classes using the LCM.22 Regarding latent class models , the numerical maximization method can be difficult because the inverted Hessian or approximate Hessian is hard to calculate with a large number of parameters ( Train , 2009 ) . 
+We estimate the parameters with the expectation‐maximization ( EM ) algorithm using the Stata command lclogit ( Pacifico & Yoo , 2013 ) . 
+Since demographics have insignificant effects , we specified the class probabilities as the functions of the importance of personal information ( 5‐point Likert scales ) and the consumers ' experience with personal information leaks ( dichotomous variable indicating “ Yes ” or “ No ” ) . 
+Table 4 shows the estimates for the probabilities of class membership , with Class 2 as the base . 
+Consumers in Class 1 place higher importance on personal information than consumers in Class 2 do on average . 
+Also , consumers who have experienced leakage of personal information are more likely to belong to Class 1 than to Class 2 . 
+However , consumers in Class 1 and Class 2 are not statistically different in basic sociodemographic variables such as gender , age , education , and income . 
+The heterogeneity of consumers ' preference for personal information leakage is related to their perception of personal information importance and experience of personal information leakage , not basic sociodemographic variables . 
+The average class probability of Class 1 and Class 2 was calculated to be 47.39 % and 52.61 % , respectively . 

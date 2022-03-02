@@ -1,0 +1,249 @@
+T1	引文作者 512 518	Bollen
+T2	引文作者 521 524	Mao
+T3	引文作者 529 533	Zeng
+T4	引文时间 536 540	2011
+T5	引文作者 543 545	Hu
+T6	引文作者 548 551	Liu
+T7	引文时间 554 558	2004
+T8	引文作者 561 569	Oliveira
+T9	引文作者 572 578	Cortez
+T10	引文作者 583 588	Areal
+T11	引文时间 591 595	2013
+T12	引文作者 734 741	Thelwal
+T13	引文时间 745 749	2013
+T14	引文作者 762 767	Hutto
+T15	引文作者 770 777	Gilbert
+T16	引文时间 780 784	2014
+T17	引文作者 798 807	Levallois
+T18	引文时间 810 814	2013
+T19	引文作者 828 835	Taboada
+T20	引文作者 838 844	Brooke
+T21	引文作者 847 856	Tofiloski
+T22	引文作者 859 863	Voll
+T23	引文作者 868 873	Stede
+T24	引文时间 876 880	2011
+T25	引文作者 893 897	Wang
+T26	引文作者 902 905	Xia
+T27	引文时间 909 913	2017
+T28	引文作者 1576 1583	Ribeiro
+T29	引文作者 1586 1592	Araújo
+T30	引文作者 1595 1604	Gonçalves
+T31	引文作者 1607 1616	Gonçalves
+T32	引文作者 1621 1631	Benevenuto
+T33	引文时间 1634 1638	2016
+T34	引文作者 3507 3514	Ribeiro
+T35	引文时间 3524 3528	2016
+T36	引文作者 7080 7084	Pang
+T37	引文作者 7087 7090	Lee
+T38	引文作者 7095 7108	Vaithyanathan
+T39	引文时间 7111 7115	2002
+T40	引文作者 8085 8092	Prabowo
+T41	引文作者 8095 8103	Thelwall
+T42	引文时间 8106 8110	2009
+T43	引文作者 8343 8347	Dang
+T44	引文作者 8350 8355	Zhang
+T45	引文作者 8360 8364	Chen
+T46	引文时间 8367 8371	2010
+T47	引文作者 8494 8499	Zhang
+T48	引文作者 8502 8507	Ghosh
+T49	引文作者 8510 8516	Dekhil
+T50	引文作者 8519 8522	Hsu
+T51	引文作者 8527 8530	Liu
+T52	引文时间 8533 8537	2011
+T53	引文作者 8889 8896	Mudinas
+T54	引文作者 8909 8916	Mudinas
+T55	引文作者 8919 8924	Zhang
+T56	引文作者 8929 8935	Levene
+T57	引文时间 8938 8942	2012
+T58	引文作者 9194 9200	Moraes
+T59	引文作者 9213 9219	Moraes
+T60	引文时间 9229 9233	2013
+T61	具体模型 9321 9324	SVM
+T62	具体模型 9327 9342	Maximum Entropy
+T63	具体模型 9347 9358	Naïve Bayes
+T64	引文作者 9905 9918	Bravo‐Marquez
+T65	引文作者 9921 9926	Frank
+T66	引文作者 9931 9941	Pfahringer
+T67	引文时间 9944 9948	2015
+T68	具体模型 10053 10056	SVM
+T69	引文作者 10258 10262	Wang
+T70	引文作者 10267 10270	Xia
+T71	引文时间 10274 10278	2017
+T72	引文作者 11133 11138	Zhang
+T73	引文作者 11141 11145	Wang
+T74	引文作者 11150 11153	Liu
+T75	引文时间 11156 11160	2018
+T76	引文作者 11184 11190	Glorot
+T77	引文作者 11193 11199	Bordes
+T78	引文作者 11204 11210	Bengio
+T79	引文时间 11213 11217	2011
+T80	引文作者 11579 11589	dos Santos
+T81	引文作者 11592 11597	Gatti
+T82	引文时间 11600 11604	2014
+T83	引文作者 11908 11913	Felbo
+T84	引文作者 11926 11931	Felbo
+T85	引文作者 11934 11941	Mislove
+T86	引文作者 11944 11951	Søgaard
+T87	引文作者 11954 11960	Rahwan
+T88	引文作者 11965 11972	Lehmann
+T89	引文时间 11975 11979	2017
+T90	引文作者 12826 12835	Gonçalves
+T91	引文作者 12838 12843	Dalip
+T92	引文作者 12846 12851	Costa
+T93	引文作者 12854 12863	Gonçalves
+T94	引文作者 12868 12878	Benevenuto
+T95	引文时间 12881 12885	2016
+T96	引文作者 13456 13465	Gonçalves
+T97	引文作者 13468 13474	Araújo
+T98	引文作者 13477 13487	Benevenuto
+T99	引文作者 13492 13495	Cha
+T100	引文时间 13498 13502	2013
+T101	引文作者 13434 13443	Gonçalves
+T102	引文作者 13959 13967	Siddiqua
+T103	引文作者 13970 13975	Ahsan
+T104	引文作者 13980 13983	Chy
+T105	引文时间 13986 13990	2016
+T106	引文作者 14372 14377	Deriu
+T107	引文作者 14390 14395	Deriu
+T108	引文时间 14405 14409	2017
+T109	引文作者 14736 14745	Mukherjee
+T110	引文作者 14748 14761	Bhattacharyya
+T111	引文时间 14764 14768	2012
+T112	引文作者 19957 19964	Ribeiro
+T113	引文时间 19974 19978	2016
+T115	引文的结果 1753 1914	For instance , in that study , Umigon was ranked in the first position in five data sets containing tweets and was among the worst in a data set of news comments
+T116	研究方法 2455 2620	Accordingly , in this article , we propose 10SENT , an unsupervised learning approach for sentence‐level sentiment classification that tells if a given piece of text
+T117	研究结果 4089 4315	Thus , our experimental results demonstrate that our combined method not only improves significantly the overall effectiveness in many data sets , but its cross‐data set performance variability is minimal ( maximum stability )
+T118	研究结果 4631 4798	We also show that 10SENT is superior to strong baseline combinations , such as a majority voting and combined lexical , with gains of up to 17 % against such baselines
+T119	研究问题 5230 5585	To summarize , the main contribution of our work is an easily deployable and stable method that can produce results as good as or better than the best single method for most data sets in a completely unsupervised manner , being much superior than other unsupervised solutions such as majority voting and , in some cases , close to the best supervised ones
+T120	研究结果 5884 6016	The experimental results demonstrate that our combined method ( aka , 10SENT ) improves the effectiveness of the classification task
+T121	研究结果 6021 6261	But more importantly , it tackles an important problem in the field—cross‐domain low stability—10SENT produces the best ( or close to best ) results in almost all considered contexts , without any additional costs ( e.g. , manual labeling )
+T122	研究方法 7317 7418	Accordingly , in here , we propose an unsupervised solution to deal with this sentiment analysis task
+T123	引文的方法 8068 8205	For instance , ( Prabowo & Thelwall , 2009 ) proposes a new hybrid classification method based on the combination of different strategies
+T124	引文的方法 8341 8487	( Dang , Zhang , & Chen , 2010 ) combined machine learning and semantic‐orientation that consider words expressing positive or negative sentiments
+T125	引文的方法 8492 8618	( Zhang , Ghosh , Dekhil , Hsu , & Liu , 2011 ) explore an entity‐level sentiment analysis method specific to the Twitter data
+T126	引文的方法 8623 8743	In that work , the authors combined lexicon and learning‐based methods to increase the recall rate of individual methods
+T127	引文的方法 8907 9191	( Mudinas , Zhang , & Levene , 2012 ) proposed pSenti , a method for sentiment analysis developed as a combination of lexicon and learning approaches for a different granularity level , the concept‐level ( semantic analysis of texts by means of web ontologies or semantic networks ) .
+T128	引文的方法 9211 9403	( Moraes et al. , 2013 ) investigated approaches to detect the polarity of FourSquare tips using supervised ( SVM , Maximum Entropy and Naïve Bayes ) and unsupervised ( SentiWordNet ) learning
+T129	引文的方法 10031 10235	The authors trained a SVM classifier with a corpus of tweets labeled with semantic orientation using attributes based on part‐of‐speech tags and information computed from data streams containing emoticons
+T130	引文的方法 10240 10371	More recently , ( Wang and Xia. , 2017 ) proposed HSSWE , a method based on a sentiment‐aware word representation learning approach
+T131	引文的方法 11167 11387	Particularly , ( Glorot , Bordes , & Bengio , 2011 ) uses a corpus from assorted domains to develop a deep learning approach that extracts meaningful representations of reviews to address the problem of domain adaptation
+T132	引文的方法 12167 12256	They used pre‐trained classifiers to predict which emoji were originally part of the text
+T133	引文的方法 11924 12162	( Felbo , Mislove , Søgaard , Rahwan , & Lehmann , 2017 ) proposed a method namely DeepMoji that uses millions of texts on Twitter containing emojis for training a deep learning model to learn representations of emotional content in texts
+T134	引文的方法 11743 11884	They extract features from the character‐level up to the sentence‐level using word embedding to compute an opinion score for a given sentence
+T135	引文的方法 11553 11738	Differently , reference ( dos Santos & Gatti , 2014 ) uses a deep learning method to predict sentiment polarity on Twitter based on a convolutional neural network for sentiment analysis
+T136	引文的方法 11392 11548	They explore transfer learning for reviews for aspect‐level sentiment analysis by discovering relevant abstractions that are shared across different domains
+T137	研究方法 12443 12631	In our work , we focus on complimentary framework to combine methods based on a self‐learning ensemble step , aiming to provide performance stability across different data sets and domains
+T138	引文的方法 13943 14063	For example , ( Siddiqua , Ahsan , & Chy , 2016 ) proposed a weakly supervised classifier for Twitter sentiment analysis
+T139	引文的方法 14388 14500	( Deriu et al. , 2017 ) also uses a weakly supervised approach to multi‐language sentiment classification task .
+T140	引文的方法 14503 14706	The developed method evaluates large amounts of weakly supervised data in various languages to train a multi‐layer convolutional neural network , but its focus is on multilingual sentiment classification
+T141	引文的研究问题 14711 14850	Wikisent , proposed by ( Mukherjee & Bhattacharyya , 2012 ) also describes a weakly supervised system for sentiment analysis classification
+T142	研究方法 15089 15409	To summarize , many efforts proposed supervised ensemble classifiers , but differently from those , we propose a novel approach by combining a series of “ state‐of‐the‐practice ” existing methods in a totally unsupervised and in much more elaborated manner exploiting bootstrapping and ( unsupervised ) transfer learning
+T143	研究方法 16509 16736	Our bootstrapping technique is an unsupervised machine learning algorithm that uses the sentiment scores produced by each individual sentiment analysis method to create a training set for a supervised machine learning algorithm
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	has_cited_time Arg1:T4 Arg2:T3	
+R4	coauthor Arg1:T5 Arg2:T6	
+R5	has_cited_time Arg1:T7 Arg2:T6	
+R6	coauthor Arg1:T8 Arg2:T9	
+R7	coauthor Arg1:T9 Arg2:T10	
+R8	has_cited_time Arg1:T11 Arg2:T10	
+R9	field_similar_as Arg1:T8 Arg2:T5	
+R10	field_similar_as Arg1:T5 Arg2:T1	
+R11	has_cited_time Arg1:T13 Arg2:T12	
+R12	coauthor Arg1:T14 Arg2:T15	
+R13	has_cited_time Arg1:T16 Arg2:T15	
+R14	has_cited_time Arg1:T18 Arg2:T17	
+R16	coauthor Arg1:T19 Arg2:T20	
+R17	coauthor Arg1:T20 Arg2:T21	
+R18	coauthor Arg1:T21 Arg2:T22	
+R19	coauthor Arg1:T22 Arg2:T23	
+R20	has_cited_time Arg1:T24 Arg2:T23	
+R21	coauthor Arg1:T28 Arg2:T29	
+R22	coauthor Arg1:T29 Arg2:T30	
+R23	coauthor Arg1:T30 Arg2:T31	
+R24	coauthor Arg1:T31 Arg2:T32	
+R25	has_cited_time Arg1:T33 Arg2:T32	
+R26	results Arg1:T28 Arg2:T115	
+R27	has_cited_time Arg1:T35 Arg2:T34	
+R28	coauthor Arg1:T36 Arg2:T37	
+R29	coauthor Arg1:T37 Arg2:T38	
+R30	has_cited_time Arg1:T39 Arg2:T38	
+R31	coauthor Arg1:T40 Arg2:T41	
+R32	has_cited_time Arg1:T42 Arg2:T41	
+R33	uses Arg1:T40 Arg2:T123	
+R34	coauthor Arg1:T43 Arg2:T44	
+R35	coauthor Arg1:T44 Arg2:T45	
+R36	has_cited_time Arg1:T46 Arg2:T45	
+R37	uses Arg1:T43 Arg2:T124	
+R38	coauthor Arg1:T47 Arg2:T48	
+R39	coauthor Arg1:T48 Arg2:T49	
+R40	coauthor Arg1:T49 Arg2:T50	
+R41	coauthor Arg1:T50 Arg2:T51	
+R42	has_cited_time Arg1:T52 Arg2:T51	
+R43	uses Arg1:T47 Arg2:T125	
+R44	uses Arg1:T47 Arg2:T126	
+R45	coauthor Arg1:T54 Arg2:T55	
+R46	coauthor Arg1:T55 Arg2:T56	
+R47	has_cited_time Arg1:T57 Arg2:T56	
+R48	uses Arg1:T54 Arg2:T127	
+R49	has_cited_time Arg1:T60 Arg2:T59	
+R50	uses Arg1:T59 Arg2:T128	
+R51	coauthor Arg1:T64 Arg2:T65	
+R52	coauthor Arg1:T65 Arg2:T66	
+R53	has_cited_time Arg1:T67 Arg2:T66	
+R54	uses Arg1:T64 Arg2:T129	
+R55	coauthor Arg1:T69 Arg2:T70	
+R56	has_cited_time Arg1:T71 Arg2:T70	
+R57	uses Arg1:T69 Arg2:T130	
+R58	coauthor Arg1:T72 Arg2:T73	
+R59	coauthor Arg1:T73 Arg2:T74	
+R60	has_cited_time Arg1:T75 Arg2:T74	
+R61	coauthor Arg1:T76 Arg2:T77	
+R62	coauthor Arg1:T77 Arg2:T78	
+R63	has_cited_time Arg1:T79 Arg2:T78	
+R64	uses Arg1:T76 Arg2:T131	
+R65	uses Arg1:T76 Arg2:T136	
+R66	coauthor Arg1:T80 Arg2:T81	
+R67	has_cited_time Arg1:T82 Arg2:T81	
+R68	uses Arg1:T80 Arg2:T135	
+R69	uses Arg1:T80 Arg2:T134	
+R70	coauthor Arg1:T84 Arg2:T85	
+R71	coauthor Arg1:T85 Arg2:T86	
+R72	coauthor Arg1:T86 Arg2:T87	
+R73	coauthor Arg1:T87 Arg2:T88	
+R74	has_cited_time Arg1:T89 Arg2:T88	
+R75	uses Arg1:T84 Arg2:T133	
+R76	uses Arg1:T84 Arg2:T132	
+R77	coauthor Arg1:T90 Arg2:T91	
+R78	coauthor Arg1:T91 Arg2:T92	
+R79	coauthor Arg1:T92 Arg2:T93	
+R80	coauthor Arg1:T93 Arg2:T94	
+R81	has_cited_time Arg1:T95 Arg2:T94	
+R82	coauthor Arg1:T96 Arg2:T97	
+R83	coauthor Arg1:T97 Arg2:T98	
+R84	coauthor Arg1:T98 Arg2:T99	
+R85	has_cited_time Arg1:T100 Arg2:T99	
+R86	coauthor Arg1:T102 Arg2:T103	
+R87	coauthor Arg1:T103 Arg2:T104	
+R88	has_cited_time Arg1:T105 Arg2:T104	
+R89	uses Arg1:T102 Arg2:T138	
+R90	has_cited_time Arg1:T108 Arg2:T107	
+R91	uses Arg1:T107 Arg2:T139	
+R92	uses Arg1:T107 Arg2:T140	
+R93	coauthor Arg1:T109 Arg2:T110	
+R94	has_cited_time Arg1:T111 Arg2:T110	
+R95	produces Arg1:T109 Arg2:T141	
+R96	has_cited_time Arg1:T113 Arg2:T112	
+R97	coauthor Arg1:T25 Arg2:T26	
+R98	has_cited_time Arg1:T27 Arg2:T26	
+T114	引文的方法 718 731	SentiStrength
+R15	uses Arg1:T12 Arg2:T114	
+T144	引文的方法 754 759	VADER
+R99	uses Arg1:T14 Arg2:T144	
+T145	引文的方法 789 795	Umigon
+R100	uses Arg1:T17 Arg2:T145	
+T146	引文的方法 819 825	SO‐CAL
+R101	uses Arg1:T19 Arg2:T146	
+T147	引文的方法 885 890	HSSWE
+R102	uses Arg1:T25 Arg2:T147	

@@ -1,0 +1,130 @@
+SVM would also classify all unlabeled instances . 
+The most uncertain cluster , that is , the cluster that is closest to the hyperplane , will be selected for human annotation , and be added in the training examples . 
+The process repeats for a few rounds and event‐related tweets are those predicted as positive by the last round of classifier . 
+We use P and N to denote an event‐related tweet set and an irrelevant tweet set predicted by SVM in a time window . 
+With P and N , we could generate event representative keywords , which should have the following properties : Relevance : The word should be relevant to the event of interest ; Coverage : The word should have high coverage that leads to more event‐related tweets to be collected ; Evolvement : The word frequency should increase along the event development . 
+A word w with high relative entropy means the word has larger probability in P and smaller probability in N . 
+Such words should be more related to the target event and could be potential representative keywords . 
+Hence , we prefer words with high RelEnt ( w ) values . 
+In our experiments , we simulate Twitter Stream by using a large static data set collected by Internet Archive.55 https : //archive.org/details/twitterstream The tweets are collected by Spritzer,66 https : //dev.twitter.com/streaming/overview which is a sampled Twitter Streaming API and returns around 1 % of the full Twitter Stream . 
+Because the labeling effort is of great amount , we conduct experiments on two real‐world events . 
+ChileEarthquake : A magnitude 8.2 earthquake struck offshore of Iquique , Chile on 1 April 2014 ; IndianFlood : The 2015 South Indian floods caused by heavy rainfall from November to December . 
+We use EQ and Flood to denote the two events . 
+Tweets are collected from the first day of EQ . 
+For Flood , we take the data of the most severe 3 days because the rainfall takes some time to become a flood . 
+We collect tweets in Twitter Stream within time windows as in Table 1 . 
+Specifically , we set 8‐h as the time window size for EQ and collect data in the first 2 days . 
+We take 1 day as the time window size for Flood due to relatively small number of tweets for this event . 
+During each time window , we collect tweets with keyword set K . 
+As long as a tweet contains one of the keywords in K , either as a word or as a substring , it would be collected . 
+For example , with a keyword “ Chile , ” tweets containing the hashtag # chileearthquake will be collected as well . 
+For evaluation purposes , we construct ground truth data . 
+We define event‐related tweets according to Olteanu , Vieweg , and Castillo ( 2015 ) , which provides the several most popular aspects of a disaster queried by users . 
+Because the whole data set is too big for manual annotation , we choose to label two subsets of tweets within each time window for evaluation77 The data were annotated by the authors and two volunteers . 
+as follows : Tweets in TC selected by the proposed method and baseline methods ; Randomly collected 1,000 tweets without matching any keywords in K from Twitter Stream , which are a sample set of stream data that can be accessed at that time . 
+The remaining tweets are considered irrelevant . 
+In this sense , the recall value reported in our experiments is an estimation . 
+Nevertheless , it is infeasible to obtain the true recall value due to the large number of tweets . 
+The tweets TC collected through keyword search in each time window are cleaned as follows . 
+We remove non‐English tweets by using a language detection tool.88 https : //github.com/optimaize/language-detector Besides , urls , punctuations ( except ‘ @ ’ and ‘ # ’ which denote account and hashtag ) , special symbols , and stop words are also removed . 
+We compare the proposed method ALMIK with state‐of‐the‐art methods : ADP ( Magdy & Elsayed , 2014 ) , LDA ( Blei , Ng , & Jordan , 2003 ) , Dictionary Learning ( DL ; Kasiviswanathan et al. , 2011 ) , and Targeted Topic Modeling ( TTM ; Wang , Chen , Fei et al. , 2016 ) . 
+All of these methods could generate both event‐related keywords and identify event‐related tweets . 
+We make all methods iterate over the time windows similar as ours . 
+In other words , the two components ( “ Event‐related Tweets Identification ” and “ Event‐related Keywords Extraction ” ) shown in Figure 1 are replaced by the baseline methods . 
+The methods LDA , DL , and TTM need a predefined number of topics as input , and return clusters of tweets belonging to different topics and their corresponding keywords . 
+We take the top‐ranked keywords of the most relevant topic ( s ) from LDA and DL , and top‐ranked keywords from every cluster of TTM as event‐related keywords and add them into keyword set K to collect tweets in the next time window . 
+If more than one cluster is selected as event‐related in these baseline methods , then the same number ( i.e. , required keyword number over selected cluster number ) of keywords are selected from each event‐related cluster . 
+The total number of selected keywords is the same for all the methods in each time window . 
+LDA : Each tweet in TC is an input document for LDA , and the same for DL and TTM . 
+We empirically try various topic numbers and select the one with the best performance on F 1 . 
+For topic cluster , we manually check the returned keywords and tweets . 
+If there is at least one keyword related to the target event , we would check all the tweets in the cluster , then we select the cluster ( s ) combination with highest F 1 . 
+The manually checking process is the same for DL . 
+TTM : The method requires input documents from one domain but of different aspects ( Wang , Chen , Fei et al. , 2016 ) . 
+Because we can not assign all the tweets into a specific domain , we consider all tweets in TC from one domain . 
+The method also needs some predefined aspect‐specific keywords . 
+Their model does not require the complete set of keywords to describe the target aspect , so we select the most representative keywords.1010 We set “ earthquake , ” “ quake , ” “ tsunami , ” “ magnitude ” and “ Chile ” for EQ , and “ flood , ” “ flooding , ” “ floods ” and “ Indian ” for Flood . 
+Note that , experiments in the original article only show the quality of keywords but not the results of the aspect‐related documents . 
+In their model , a status variable r ∈ { 0 , 1 } indicates a document 's relevance to the targeted aspect , where r = 1 means the document is relevant to the aspect and r = 0 otherwise . 
+Thus , we identify event‐related tweets by variable r . 
+ADP : This method requires a static well‐defined set of queries Q on given topic ( Magdy & Elsayed , 2014 ) . 
+Tweets containing words from a query set are considered positive training data P . 
+Negative training tweets N are randomly selected from the rest of tweets . 
+To avoid potential positive tweets mixed within N , a TFIDF score is adopted to rank words in P and top k are selected as event representative keywords E . 
+Tweets in N containing E are removed . 
+A classifier trained by P and N is used to classify tweets in the next time window , and the classifier is periodically retrained by new tweets.1111 We set the same queries as in TTM . 
+We consider tweets in the first 6 hours of each time window for EQ as training data candidates , and tweets in the rest 2 hours for test . 
+Because event‐related tweets for Flood are extremely unevenly distributed over time , we extract training data from time period covering the first 80 % positive tweets in each time window , and the rest as testing data . 
+We do not use the seed keywords derived from Wikipedia as a query set for TTM and ADP , because of the poor experimental results caused by the general words like “ people ” and “ area. ” The presented query set for the two baselines are those achieving relatively good performance after many tries . 
+Besides the above baselines , we also compare with two active learning methods , namely , AL _s and AL _p , to measure the human labeling effort . 
+For fair comparison , AL _s and AL _p also adopt SVM and uncertainty sampling , but the labeling strategy is different . 
+The keyword extraction component in AL _s and AL _p are the same as ALMIK . 
+Thus , AL _s and AL _p could be considered as variants of our proposed method . 
+AL_s : Active learning is applied to single tweet and the most uncertain tweet is selected to the query label . 
+By comparing with AL _s , we would evaluate the effectiveness of clustering similar tweets and the multiple‐instance learning labeling strategy . 
+AL_p : Active learning is applied to tweet clusters but each cluster is represented by a pseudo‐document that is the concatenation of all tweets in this cluster . 
+The pseudo‐document could help relieve the data representation sparsity issue . 
+The labels for tweets in the most uncertain cluster are the same and will not be changed . 
+When half of the tweets in a cluster are positive , then the cluster is labeled positive . 
+Otherwise , the cluster is negative . 
+Here the effectiveness of multiple‐instance learning labeling strategy would be evaluated . 
+First , we evaluate event‐related tweets identification . 
+Here , we call our model ALMI , without keyword extraction . 
+We compare the proposed method and baselines with Precision , Recall , and F 1 on both data sets . 
+Note that the metrics values for ALMI , AL _s , AL _p , and ADP are calculated on test data . 
+Figure 2 reports the results of our method and baseline methods . 
+We made the following observations . 
+First , the proposed ALMI outperforms all the baselines on both data sets , throughout all time windows , based on F1 . 
+Specifically , we could outperform the best F1 results of DL , LDA , TTM , and ADP by up to 13 % on EQ and 16 % on Flood , and those of AL _p and AL _s by up to 10 % on EQ and 6 % on Flood . 
+A clearer comparison shows that the proposed ALMI outperforms all baselines on both precision and recall most of the time . 
+The high values on three measures suggest that the proposed method could collect tweets with high precision and high recall . 
+Second , DL outperforms TTM and LDA on both EQ and Flood based on F 1 . 
+Third , the ADP performs rather unstably on both data . 
+The reason is that not all the tweets containing query keywords are event‐related . 
+Training a classifier with such tweets could certainly introduce bias by not including other event‐related tweets or containing too many irrelevant tweets . 
+Fourth , AL _p and AL _s perform similarly . 
+The reason is that the tweet cluster is to group the same or near‐duplicate tweets together . 
+As a result , the representation of pseudo‐document and single tweet could also be similar . 
+According to the experimental results in Figure 2 , we observe that the average performance on EQ is better than Flood . 
+In fact , the Flood data set is much noisier than the EQ data set . 
+A detailed look at the tweets in Flood and EQ reveals that the tweets relevant to flood are not very correlated with each other . 
+Most of them state different aspects of the flood event and can hardly link them together . 
+Another reason is that the Indian flood may not have been as influential as the Chile earthquake , and people who are talking about the flood event are mostly local citizens . 
+The tweet content revealing local information is different from one region to another . 
+Thus , tweets from different affected areas are hardly to be linked and identified . 
+Therefore , adding location and semantic information might help in identifying event‐related tweets . 
+However , the proposed ALMI can still outperform baselines on Flood data set . 
+Recall that we group near‐duplicate or similar tweets in clusters to reduce manual annotations . 
+As shown in Table 4 , the number of clusters are far fewer than the number of tweets . 
+Because tweets in one cluster are almost the same , the annotation effort for one cluster is similar to that of one tweet . 
+Thus , by clustering we reduce a significant amount of unnecessary human annotations . 
+By adopting multiple‐instance learning‐based active learning , we further reduce human annotation and retain relatively good results . 
+Figures 3 and 4 report the changes of F 1 with a different number of manually labeled clusters in each time window on both data sets . 
+All three methods could achieve fairly high and stable F 1 with about 30 labeled clusters . 
+Our proposed ALMI could get higher F 1 than AL s and AL p with the same number of human labels most of time . 
+In other words , ALMI requires less human labeling effort to achieve a similar F 1 score as AL s and AL p most of the time . 
+Thus , grouping similar tweets together and adopting a multiple‐instance learning‐based active learning do help improve performance even with less human effort than normal active learning . 
+Usually , for topic model‐based methods , the top k keywords are checked to determine event‐related clusters . 
+However , we find the results by doing so is poor , regardless of the number of clusters we tried . 
+Sometimes event representative keywords are mixed together with irrelevant words . 
+We can not simply decide the cluster to be event‐related or not . 
+Under this condition , human annotations for tweets in clusters is needed . 
+The number of tweets in candidate clusters are more than those required annotations by ALMI . 
+In this sense , the proposed method requires much less human effort compared with baseline methods LDA and DL . 
+The second stage of our proposed method is to extract event‐related keywords . 
+The quality of keywords determines the recall of event‐related tweets . 
+We show keyword examples generated by different methods in Tables 2 and 3 . 
+For EQ , we extract 20 keywords in each time window . 
+The first 15 keywords selected by AL p , AL s , and ALMI come from the ranking method defined by Equation 4 and the last five keywords come from the AR ( 1 ) model . 
+For the other three baseline models , all 20 keywords come from topics related to the event with equal chance . 
+Similar for Flood , we extract 10 keywords in total due to the small number of relevant tweets . 
+The first five keywords come from ranking and the rest from AR ( 1 ) . 
+Note that the number of keywords in some baseline methods listed in the tables are fewer than the predefined number . 
+That is because the same keyword appears in different clusters and we avoid duplicates . 
+The keywords are ordered based on their ranking scores . 
+The number following each keyword is the word frequency in event‐related tweets identified by corresponding methods in the current time window . 
+For ADP , the word frequency is that in the training data from where the list of words is generated . 
+Note that , except ADP and TTM , all other methods are provided with the same set of seed keywords . 
+Tables 2 and 3 show that all the methods could produce general descriptive words , such as earthquake , Chile , magnitude , and flooding . 
+The time series method AR ( 1 ) could generate more specific information , such as president , declares for comforting the victims and Tamil , which indicates the flood‐affected location . 
+Word frequency for some keywords generated by AR ( 1 ) is not very high . 

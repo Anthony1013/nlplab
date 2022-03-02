@@ -1,0 +1,174 @@
+T1	术语 29 31	PI
+T2	术语 34 37	PIE
+T3	术语 44 47	PAE
+T5	术语 99 101	PI
+T6	术语 115 124	precision
+T7	术语 160 166	recall
+T8	术语 196 199	F 1
+T4	术语 83 86	F 1
+T9	研究结果 99 221	PI improves the precision over Thread with a relatively high recall , and thus achieves the best F 1 performance , 0.612 .
+T10	术语 242 245	PIE
+T11	术语 271 274	F 1
+T12	术语 291 293	PA
+T13	研究结果 224 286	It is followed by PIE , which has a very close F 1 performance
+T14	术语 315 321	recall
+T15	研究结果 291 390	PA achieves the highest recall , and it can also successfully retrieve all 28 across‐thread pairs .
+T16	术语 403 405	PA
+T17	研究结果 393 430	However , PA has the lowest precision
+T18	术语 621 628	drug‐AE
+T19	术语 718 720	PA
+T20	术语 705 714	precision
+T21	术语 764 767	PAE
+T22	术语 818 821	F 1
+T23	软件工具 938 974	Stanford coreference resolution tool
+T24	术语 1017 1020	F 1
+T25	术语 1450 1456	recall
+T26	术语 1526 1529	PAE
+T27	术语 1612 1629	experience mining
+T28	术语 1674 1677	ADR
+T29	术语 1698 1701	PAE
+T30	表 1706 1783	We investigate the reasons and present two false negative examples in Table 5
+T31	术语 2173 2176	ADR
+T32	术语 2118 2125	Aspirin
+T33	术语 2142 2154	palpitations
+T34	术语 2255 2267	palpitations
+T35	术语 2402 2419	experience mining
+T36	术语 2444 2447	PAE
+T37	数据源 2526 2531	SIDER
+T38	研究结果 2434 2552	Overall , PAE achieves a good balance between precision and recall for both evaluation with SIDER and human annotation
+T39	术语 2596 2599	PAE
+T40	术语 2646 2649	F 1
+T41	引文作者 2703 2709	Golder
+T42	引文作者 2712 2718	Norman
+T43	引文作者 2723 2727	Loke
+T44	引文时间 2730 2734	2015
+T45	引文作者 2737 2743	Lardon
+T46	引文时间 2753 2757	2015
+T47	引文作者 2760 2766	Karimi
+T48	引文作者 2769 2773	Wang
+T49	引文作者 2776 2789	Metke‐Jimenez
+T50	引文作者 2792 2797	Gaire
+T51	引文作者 2802 2807	Paris
+T52	引文时间 2810 2814	2015
+T53	引文的结果 2819 2950	recently adverse drug reaction discovery in online health forums has received growing attention from different research communities
+T54	引文作者 2985 2988	Liu
+T55	引文作者 2993 2997	Chen
+T56	引文时间 3000 3004	2015
+T57	引文的方法 3011 3151	Their methods focus on sentence‐level analysis in which the mention of a drug and its potential adverse event cooccur in the same sentence .
+T58	引文的结果 3154 3309	They also show that manually distinguishing personal experience from hearsay can significantly improve the performance of identifying adverse drug events .
+T59	术语 3479 3482	ADR
+T60	研究结果 3340 3494	we develop automated patient experience mining , and further propose techniques that consider patient as the semantic information unit for ADR discovery .
+T61	引文作者 3497 3501	Yang
+T62	引文作者 3506 3510	Yang
+T63	引文时间 3513 3517	2015
+T64	术语 3526 3529	ADR
+T65	引文的研究问题 3520 3587	study ADR discovery in health forums based on thread‐level analysis
+T66	术语 3631 3634	ADR
+T67	引文的方法 3592 3665	They use temporal analysis to identify ADR signals in their early stage .
+T68	具体模型 3729 3741	topic models
+T69	引文作者 3744 3748	Wang
+T70	引文时间 3758 3762	2014
+T71	具体模型 3767 3787	hidden Markov models
+T72	引文作者 3790 3802	Sampathkumar
+T73	引文时间 3812 3816	2014
+T74	具体模型 3825 3850	conditional random fields
+T75	引文作者 3853 3858	Yates
+T76	引文时间 3868 3872	2015
+T77	引文作者 3875 3884	Nikfarjam
+T78	引文时间 3894 3898	2015
+T79	术语 3914 3917	ADR
+T80	术语 4129 4150	cooccurrence analysis
+T81	引文作者 4169 4173	Yang
+T82	引文作者 4178 4182	Yang
+T83	引文时间 4185 4189	2014
+T84	引文的研究问题 4192 4244	use health forum data to mine drug‐drug interactions
+T85	引文作者 4428 4431	Liu
+T86	引文作者 4434 4438	Chen
+T87	引文时间 4441 4445	2013
+T88	引文作者 4490 4493	Liu
+T89	引文作者 4496 4500	Chen
+T90	引文作者 4503 4507	Tang
+T91	引文作者 4512 4515	Liu
+T92	引文时间 4516 4520	2015
+T93	引文的结果 4318 4408	We have presented some initial findings about patient‐centered mining for effective search
+T94	术语 4737 4740	ADR
+T95	术语 4589 4614	across‐thread association
+T96	研究结果 4542 4750	In this work , we extend the framework to make across‐thread association , integrate multiple modules in a holistic prototype system , apply and evaluate the system in real‐life applications for ADR discovery
+T97	引文作者 4847 4853	Sondhi
+T98	引文作者 4856 4861	Gupta
+T99	引文作者 4864 4868	Zhai
+T100	引文作者 4875 4886	Hockenmaier
+T101	引文时间 4889 4893	2010
+T102	具体模型 4900 4923	support vector machines
+T103	具体模型 4928 4953	conditional random fields
+T104	引文的结果 4896 5087	use support vector machines and conditional random fields to classify the content of each sentence in a forum post into three types : symptom description , treatment description , or others .
+T105	术语 5135 5142	MetaMap
+T106	引文作者 5228 5248	Subhabrata Mukherjee
+T107	引文作者 5253 5276	Danescu‐Niculescu‐Mizil
+T108	引文时间 5279 5283	2014
+T109	具体模型 5296 5323	probabilistic graphic model
+T110	引文的结果 5286 5400	propose a probabilistic graphic model to establish the credibility of user statements in online health communities
+T111	引文作者 5405 5417	Sampathkumar
+T112	引文作者 5420 5424	Chen
+T113	引文作者 5431 5434	Luo
+T114	引文时间 5437 5441	2015
+T115	引文的结果 5444 5596	present an ontology‐based visualization technique , which can be used to analyze patient 's profile and the health data in the ontology knowledge base .
+T116	术语 5661 5681	semantic information
+T117	术语 5763 5786	patient‐centered mining
+T118	术语 5791 5822	context‐aware experience mining
+T119	研究结果 5731 5875	we present novel techniques for patient‐centered mining and context‐aware experience mining , and a prototype system for effective ADR discovery
+T120	术语 5926 5929	ADR
+T121	术语 6001 6004	ADR
+T122	研究展望 6019 6108	In future , we plan to explore the following two directions to further improve our system
+T123	术语 6157 6160	ADR
+T124	术语 6213 6220	drug‐AE
+T125	术语 6346 6349	ADR
+T126	术语 6414 6430	ranking function
+T127	术语 6517 6533	ranking function
+T128	术语 6616 6632	machine‐learning
+T129	具体模型 6658 6686	probabilistic graphic models
+T130	术语 6747 6749	AE
+T131	术语 6887 6907	semantic information
+R1	coauthor Arg1:T41 Arg2:T42	
+R2	coauthor Arg1:T42 Arg2:T43	
+R3	has_cited_time Arg1:T44 Arg2:T43	
+R4	has_cited_time Arg1:T46 Arg2:T45	
+R5	coauthor Arg1:T47 Arg2:T48	
+R6	coauthor Arg1:T48 Arg2:T49	
+R7	coauthor Arg1:T49 Arg2:T50	
+R8	coauthor Arg1:T50 Arg2:T51	
+R9	has_cited_time Arg1:T52 Arg2:T51	
+R10	results Arg1:T41 Arg2:T53	
+R11	coauthor Arg1:T54 Arg2:T55	
+R12	has_cited_time Arg1:T56 Arg2:T55	
+R13	uses Arg1:T54 Arg2:T57	
+R14	results Arg1:T54 Arg2:T58	
+R15	coauthor Arg1:T61 Arg2:T62	
+R16	has_cited_time Arg1:T63 Arg2:T62	
+R17	produces Arg1:T61 Arg2:T65	
+R18	has_cited_time Arg1:T70 Arg2:T69	
+R19	has_cited_time Arg1:T73 Arg2:T72	
+R20	has_cited_time Arg1:T78 Arg2:T77	
+R21	has_cited_time Arg1:T76 Arg2:T75	
+R22	coauthor Arg1:T81 Arg2:T82	
+R23	has_cited_time Arg1:T83 Arg2:T82	
+R24	produces Arg1:T81 Arg2:T84	
+R25	results Arg1:T85 Arg2:T93	
+R26	coauthor Arg1:T85 Arg2:T86	
+R27	has_cited_time Arg1:T87 Arg2:T86	
+R28	coauthor Arg1:T88 Arg2:T89	
+R29	coauthor Arg1:T89 Arg2:T90	
+R30	coauthor Arg1:T90 Arg2:T91	
+R31	has_cited_time Arg1:T92 Arg2:T91	
+R32	coauthor Arg1:T97 Arg2:T98	
+R33	coauthor Arg1:T98 Arg2:T99	
+R34	coauthor Arg1:T99 Arg2:T100	
+R35	has_cited_time Arg1:T101 Arg2:T100	
+R36	results Arg1:T97 Arg2:T104	
+R37	coauthor Arg1:T106 Arg2:T107	
+R38	has_cited_time Arg1:T108 Arg2:T107	
+R39	results Arg1:T106 Arg2:T110	
+R40	coauthor Arg1:T111 Arg2:T112	
+R41	coauthor Arg1:T112 Arg2:T113	
+R42	has_cited_time Arg1:T114 Arg2:T113	
+R43	results Arg1:T111 Arg2:T115	

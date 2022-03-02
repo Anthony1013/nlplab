@@ -1,0 +1,86 @@
+T1	引文时间 2 6	2014
+T2	引文作者 110 113	Kim
+T3	引文时间 126 130	2013
+T4	引文作者 408 411	Zhu
+T5	引文时间 424 428	2012
+T6	引文作者 1575 1579	Ford
+T7	引文时间 1589 1593	2016
+T8	图 1738 1800	This technique is illustrated in Figure 3 and elaborated below
+T9	图 2432 2591	As shown in Figure 4 , we divided the extracted chunks into three segments ( L , M , and R ) and different features were extracted separately from each segment
+T10	表 2761 2812	Table 3 presents a sample of the extracted features
+T11	引文作者 3508 3512	Hall
+T12	引文时间 3522 3526	2009
+T13	引文作者 6002 6007	Cheng
+T14	引文时间 6020 6024	2011
+T15	引文作者 6464 6475	Herdağdelen
+T16	引文作者 6478 6484	Baroni
+T17	引文时间 6487 6491	2011
+T18	引文作者 6742 6745	Zhu
+T19	引文时间 6758 6762	2012
+T20	表 9748 9811	Table 4 shows three examples for this gender resolution process
+T21	引文作者 11910 11921	Bodenreider
+T22	引文时间 11924 11928	2004
+T23	引文作者 12038 12046	Friedman
+T24	引文时间 12056 12060	1994
+T25	引文作者 12074 12080	Savova
+T26	引文时间 12090 12094	2010
+T27	引文作者 12113 12120	Aronson
+T28	引文时间 12130 12134	2010
+T29	引文作者 12141 12146	Gupta
+T30	引文时间 12159 12163	2014
+T31	引文作者 12380 12390	Vydiswaran
+T32	引文时间 12400 12404	2014
+T33	引文作者 12798 12804	Savova
+T34	引文时间 12814 12818	2010
+T35	引文作者 13014 13020	Nelson
+T36	引文时间 13030 13034	2011
+T37	引文作者 13354 13359	Gupta
+T38	引文时间 13372 13376	2014
+T39	引文的研究问题 9 105	focused on standard age mentions such as “ I am 35 years old ” and identify them as age mentions
+T40	引文的方法 133 200	employed regular expressions such as “ age ” +number to extract age
+T41	表 253 403	as shown in Table 2 , age mentions are diverse , thus these approaches would overlook a significant amount of age mentions , resulting in a low recall
+T42	引文的方法 431 625	look for clue words such as “ years , ” “ old , ” “ aged , ” and so on appear within two‐word distance of each two‐digit number mentions and such mentions are extracted as the age of the patient
+T44	软件工具 3497 3548	the WEKA ( Hall et al. , 2009 ) data‐mining toolkit
+T45	具体模型 3574 3585	Naïve Bayes
+T46	具体模型 3590 3603	Random Forest
+T47	引文的研究问题 6027 6104	focused on the language style of the text to predict the gender of the author
+T48	引文的方法 6400 6461	predict the gender by looking at the first name of the author
+T49	引文的方法 6765 6950	looked for gender clues : ( i ) gender‐specifying words such as “ men , ” “ woman , ” and so on , and ( ii ) gender‐specific medical terms such as “ hot flashes , ” “ prostate cancer. ”
+T50	软件工具 11727 11768	Natural language processing ( NLP ) tools
+T51	软件工具 12029 12035	MedLEE
+T52	软件工具 12065 12071	cTAKES
+T53	软件工具 12103 12110	MetaMap
+T54	引文的结果 12166 12301	show that better precision and recall can be achieved by developing a tool to cater to special characteristics of patient‐authored text
+T56	软件工具 12789 12795	cTAKES
+T57	数据源 12955 13000	SNOMED CT11 http : //www.ihtsdo.org/snomed-ct
+T58	标准数据集 13005 13011	RxNORM
+T59	引文的结果 13381 13430	some ambiguities exist in the identified concepts
+T60	研究方法 13686 13807	we constructed a list of terms that often mapped incorrectly and filtered out the identified concepts based on such terms
+T61	数据源 14873 14922	OSG patients.info.22 http : //patient.info/forums
+T43	研究方法 7165 7245	We extended the above approach to resolve gender more accurately for each author
+T62	研究方法 7250 7353	First , we filtered out the posts that are marked as advice by our narrative type identification module
+T63	研究方法 8044 8141	For this task we employed the pronoun resolved sentences generated to identify the narrative type
+T64	研究方法 8146 8219	We look for different gender‐specifying terms based on the narrative type
+R1	has_cited_time Arg1:T38 Arg2:T37	
+R2	has_cited_time Arg1:T36 Arg2:T35	
+R3	has_cited_time Arg1:T34 Arg2:T33	
+R4	has_cited_time Arg1:T32 Arg2:T31	
+R5	has_cited_time Arg1:T24 Arg2:T23	
+R6	has_cited_time Arg1:T26 Arg2:T25	
+R7	has_cited_time Arg1:T28 Arg2:T27	
+R8	has_cited_time Arg1:T22 Arg2:T21	
+R9	has_cited_time Arg1:T19 Arg2:T18	
+R10	coauthor Arg1:T15 Arg2:T16	
+R11	has_cited_time Arg1:T17 Arg2:T16	
+R12	has_cited_time Arg1:T14 Arg2:T13	
+R13	has_cited_time Arg1:T12 Arg2:T11	
+R14	has_cited_time Arg1:T7 Arg2:T6	
+R15	has_cited_time Arg1:T5 Arg2:T4	
+R16	uses Arg1:T4 Arg2:T42	
+R17	uses Arg1:T2 Arg2:T40	
+R18	has_cited_time Arg1:T3 Arg2:T2	
+R19	produces Arg1:T13 Arg2:T47	
+R20	uses Arg1:T15 Arg2:T48	
+R21	has_cited_time Arg1:T30 Arg2:T29	
+R22	results Arg1:T29 Arg2:T54	
+R23	results Arg1:T37 Arg2:T59	

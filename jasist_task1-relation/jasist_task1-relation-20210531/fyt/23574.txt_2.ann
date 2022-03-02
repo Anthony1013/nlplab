@@ -1,0 +1,69 @@
+T1	术语 461 494	scale‐invariant feature transform
+T2	术语 497 501	SIFT
+T3	引文作者 515 519	Lowe
+T4	引文时间 522 526	1999
+T5	引文时间 529 533	2004
+T6	引文的方法 461 494	scale‐invariant feature transform
+T7	引文的方法 497 501	SIFT
+T8	术语 656 660	SIFT
+T9	引文的方法 656 660	SIFT
+T10	软件工具 689 712	colordescriptor package
+T11	术语 763 767	SIFT
+T12	引文的方法 763 767	SIFT
+T13	具体模型 845 863	k‐means clustering
+T14	术语 951 970	bag‐of‐visual words
+T15	术语 973 977	BOVW
+T16	术语 1132 1137	BOVWs
+T17	具体模型 1149 1170	Personalised PageRank
+T18	具体模型 1173 1176	PPR
+T19	引文作者 1179 1189	Haveliwala
+T20	引文作者 1192 1198	Kamvar
+T21	引文作者 1203 1206	Jeh
+T22	引文时间 1209 1213	2003
+T23	具体模型 1287 1290	PPR
+T24	术语 1392 1395	PMI
+T25	引文作者 1404 1411	Aletras
+T26	引文作者 1416 1425	Stevenson
+T27	引文时间 1428 1433	2013b
+T28	表 1625 1740	Each participant had to retrieve documents for 20 queries ( see Table 1 ) , with 3 minutes allocated for each query
+T29	具体模型 2204 2207	LDA
+T30	图 2399 2476	Figure 1 shows the topic browser interface for the three different modalities
+T31	图 2748 2851	Figure 2 shows a subset of the documents that are associated with the topics selected in the first step
+T32	表 6556 6631	Table 3 shows the number of documents retrieved for each query and modality
+T33	表 9720 9752	The results are shown in Table 4
+T34	表 9493 9715	We also tested the performance of the different topic representations in terms of the proportion of retrieved documents that are relevant to the query , by computing the average precision for each query across all 15 users
+T35	表 9757 9872	Term lists achieve a higher precision ( 0.59 ) than did either the textual phrase ( 0.53 ) or image ( 0.56 ) labels
+T36	表 11281 11434	Table 5 shows the results of the average probability sum for relevant and irrelevant documents retrieved by users for each query and topic representation
+T37	表 11439 11565	The results show that both labeling methods perform better than the term list representation for retrieving relevant documents
+T38	表 12686 12799	This is supported by the rankings of the different approaches in terms of their overall precision ( see Table 4 )
+T39	表 12804 12951	The main finding of the posttask questionnaire is that all of the modalities achieve similar scores in terms of usefulness , as detailed in Table 6
+T40	引文作者 14096 14101	Chang
+T41	引文时间 14111 14115	2009
+T42	软件工具 14231 14269	the Crowdflower crowdsourcing platform
+T43	图 15210 15270	Figure 3 shows the interface of the crowdsourcing experiment
+T44	引文作者 15665 15670	Kazai
+T45	引文时间 15673 15677	2011
+T46	术语 16384 16387	IAA
+T47	术语 16356 16381	inter‐annotator agreement
+T48	术语 16412 16425	Spearman 's ρ
+T49	表 16628 16667	Average IAA scores are shown in Table 7
+T50	表 17256 17284	Results are shown in Table 8
+T51	引文作者 17761 17768	Aletras
+T52	引文作者 17771 17780	Stevenson
+T53	引文时间 17783 17788	2013b
+T54	引文作者 17791 17794	Lau
+T55	引文时间 17804 17808	2011
+R1	coauthor Arg1:T51 Arg2:T52	
+R2	has_cited_time Arg1:T53 Arg2:T52	
+R3	has_cited_time Arg1:T55 Arg2:T54	
+R4	coauthor Arg1:T51 Arg2:T54	
+R5	has_cited_time Arg1:T45 Arg2:T44	
+R6	has_cited_time Arg1:T41 Arg2:T40	
+R7	coauthor Arg1:T25 Arg2:T26	
+R8	has_cited_time Arg1:T27 Arg2:T26	
+R9	coauthor Arg1:T19 Arg2:T20	
+R10	coauthor Arg1:T20 Arg2:T21	
+R11	has_cited_time Arg1:T22 Arg2:T21	
+R12	has_cited_time Arg1:T4 Arg2:T3	
+R13	has_cited_time Arg1:T5 Arg2:T3	
+R14	uses Arg1:T3 Arg2:T6	

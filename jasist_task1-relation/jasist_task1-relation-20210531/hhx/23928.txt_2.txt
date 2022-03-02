@@ -1,0 +1,130 @@
+The more contact information that is provided , the higher the multichannel access value . 
+Accordingly , the multichannel access values of the other two physicians , “ Liu Guoliang ” and “ Chen Xin , ” are 2 and 5 , respectively . 
+The multichannel access variable takes values of 0 , 1 , 2 , 3 , 4 , and 5 , where 5 represents the highest level of multichannel access . 
+Social Influence ( SI ) is an independent variable that represents the average degree of a physician 's colleagues ' multichannel access in the same department and hospital . 
+In this study , SI denotes peers ' behavior that affects an individual 's behavior . 
+In other words , if more neighbors provide more accessible channels in the online health community , the individual is more likely to adopt the same behavior , providing more channels for accessing patients . 
+Social influence is a continuous variable between 0 and 5 . 
+Rating is a value obtained from patients and represents the popularity and degree of satisfaction associated with a physician . 
+From Figure 3 , we can obtain this value directly from the website . 
+The rating variable is continuous , varying between 0 and 5 . 
+Example of physician 's information . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Title is the ability and experience of a doctor . 
+Title has two aspects : medical title and education title . 
+Medical title consists of chief physician , associate chief physician , attending doctor , and resident doctor , and we set the corresponding title values as 4 , 3 , 2 , and 1 . 
+If the doctor has no title or another title , we set the title value as 0 . 
+Education title is professor , the values assigned as associate professor . 
+However , many doctors do not have an education title , and we do not consider its influence . 
+Level is a control variable that represents the hospital level . 
+It includes the following six levels : Third‐level grade A , Third level , Second‐level grade A , Second level , First‐level grade A , First level , and others . 
+We set the corresponding level values as 6 , 5 , 4 , 3 , 2 , 1 , and 0 , respectively . 
+Hospital is a control variable denoting the specific hospital in which the focal physician works . 
+In our dataset , there are 169 hospitals . 
+We also present a categorical variable , including Multichannel access , Title , and Level . 
+The number and frequency of each variable are provided in Table 3 . 
+We find that the distribution in different groups is not balanced , especially in MA and Level . 
+In MA , most physicians are not providing any access channels , i.e. , the “ 0 ” group occupies nearly 50 % . 
+In Level , most physicians work at third‐level and grade‐A hospitals . 
+In Table 4 , the descriptive statistics and correlations for key variables are presented . 
+We find that most correlations are lower than 0.4 except for social influence and multichannel access , whose value exceeds 0.5 . 
+To address this multinomial dependent variable , we introduce the multinomial logistic regression model and use it to determine the effect of social influence on multichannel access to physicians in online health communities . 
+Because the dependent variable is ordinal , we first use the ordinal logistic regression model . 
+However , the model does not pass the parallel lines test ( p < .000 ) , and we adopt the multinomial logistic regression model , which is also suitable for ordinal outcomes . 
+Multiple logistic regressions can analyze a mix of categorical and continuous variables , which is a simple extension of the binomial logistic regression model with more than two nominal categories of the dependent variable . 
+Given some information about the independent variables , these regressions can predict the categories to which a variable can belong , applying the maximum likelihood estimation after transforming the dependent into a logit variable ( Geraghty & O'Mahony , 2016 ) . 
+We should choose one of the groups as the base level , and all logits are constructed relative to that one . 
+In this case , the group “ multichannel access = 0 ” is selected as the base level , indicating that physicians without any multichannel access channels represent the base level . 
+We set as the multinomial probability of an observation belonging to the j th group . 
+We construct three models that add one main variable at a time . 
+The first model examines the effect of social influence and includes title , level , and hospital control variables , thus testing H1 . 
+Based on model 1 , we add the variable of rating . 
+Model 2 focuses on the influence of rating to examine whether a rating is positively related to having multichannel access , corresponding to H2 . 
+Model 3 includes all variables : SI , rating , Moderate Effect ( ME ) , and other control variables . 
+Model 3 investigates the moderating impact of social influence on the relationship between rating and multichannel access , corresponding to H3 . 
+Table 5 provides an overall check on the relationship between dependent and independent variables . 
+The presence of this relationship is based on the statistical significance of the final model chi‐square . 
+The distribution reveals that the probability values of the three models ' chi‐square values are less than .01 . 
+The null hypothesis that there was no difference in the three models with or without independent variables was rejected . 
+Table 6 shows the significant test of all independent variables in three models . 
+Following Geraghty and O'Mahony ( 2016 ) , we know that the larger the chi‐square value , the greater the loss of model fit if the variable was deleted . 
+The SI variable has the largest chi‐square value of the three models and is the most important variable in the three models . 
+Then , in Models 2 and 3 , the Rating variable has the second largest chi‐square value , followed by Title and Level . 
+Although the chi‐square value of ME is smaller than that of SI and Rating , its influence is significant , and we should retain it in our model . 
+The model parameter estimation is shown in Table 7 , which includes the coefficients and their significance level . 
+We find that the SI variable significantly distinguishes the dependent variable in the multichannel access group ( 1 , 2 , 3 , 4 , 5 ) from the dependent variable in the multichannel access group 0 ( p < .01 ) in three models . 
+This shows that the larger the SI value ( i.e. , the larger the average value of a physician 's colleagues ' multichannel access in online health communities ) , the more likely the focal physician is to provide more accessible channels in the online health community that support her or his work ( H1 ) . 
+The Rating variable has a similar effect on multichannel access in online health communities with the SI variable . 
+When compared to multichannel access category 0 , the physicians in other categories tend to have a larger rating value ( H2 ) . 
+If patients rate a physician more highly , he or she is more likely to provide more accessible channels in online health communities . 
+The SI variable also has a significant moderating effect on the relationship between Rating and MA . 
+In Model 3 , the ME variable negatively influences multichannel access to the physician ( H3 ) . 
+The reason for this finding may be that SI has two different effects . 
+If a physician 's colleagues perform very well ( giving many accessible channels ) in an online health community , there is a positive effect on the focal physician to adopt the same behavior , i.e. , to provide more accessible channels in that community . 
+However , there is also a competitive relationship between the physicians in the same department . 
+The positive performance of a physician 's colleagues also attracts the patient to consult , make an appointment , and provide higher ratings of that physician 's colleagues . 
+Because these physicians work in the same department , the number of patients is relatively stable and the physicians compete to attract them . 
+Then , there is a negative effect on patient voting , which may influence MA to the focal physician . 
+As a result , SI has a negative moderating effect on the relationship between Rating and MA . 
+In addition , in most cases we can find that the control variables , including both Level and Title , have significant effects on distinguishing the dependent variable in the MA group ( 1 , 2 , 3 , 4 , and 5 ) from the dependent variable in the MA group 0 in three models . 
+To ascertain the robustness of our results , we selected physicians in hospitals located in Shanghai . 
+We downloaded 18,640 observations from 141 hospitals . 
+We used the same variables described in the empirical section , but we adopted another research model : the binary logistic model . 
+The binary logistic model is a special case of a generalized linear model , which tries to find the clear relationship between independent variables and the dependent variable . 
+The variables may be either discrete or continuous , and their distributions are not necessarily normal . 
+The algorithm always adopts the maximum likelihood estimation method to estimate the coefficients . 
+We transform our dependent variable ( MA ) into a binary variable with the following rule . 
+When the MA value is 1 , 2 , 3 , 4 , or 5 , we set the MA value as 1 , indicating there is at least one channel in the robustness model ; otherwise , it equals 0 . 
+The three models are as follows : Table 8 shows that the results of our robustness model are identical to the results in section 5.1 . 
+More specifically , SI is significantly and positively related to the MA to physicians in three models ( 0.45 , p < .01 ; 0.40 , p < .01 ; 0.45 , p < .01 ) , thus supporting H1 . 
+This indicates that the higher the degree of MA to the focal physician 's colleagues , the more access channels will be provided by the focal physician in an online health community . 
+For the effect of Rating , we find that the coefficients of rating in Models 2 and 3 are both positive and significant ( 5.44 , p < .01 ; 5.68 , p < .01 ) , supporting H2 . 
+This also shows that higher patient ratings encourage physicians to provide more channels . 
+Finally , the moderating effect of SI on the relationship between Rating and MA to physician is also both significant and negative . 
+This proves the existence of an SI relationship that is both cooperative and competitive . 
+Overall , SI and Rating show a significant positive effect on MA to the physician , whereas the effect of ME is significantly negative , i.e. , the SI negatively moderates the relationship between Rating and MA in online health communities . 
+Our findings hold . 
+To make our results more robust , we also collected data in time series . 
+We selected five hospitals that include nearly 4,489 doctors . 
+We collected the weekly data from February 1–28 , 2017 . 
+Thus , we have panel data with 4,505 physicians at five timepoints . 
+We adopted the logistic regression method in panel data ; this method is widely used in existing research ( Mutz , Wolbring , & Daniel , 2016 ; Nov , Laut , & Porfiri , 2016 ) . 
+Similar to the above analysis , we set the MA ( 1 , 2 , 3 , 4 , 5 ) as 1 , otherwise it equals 0 . 
+Like the five hospitals described above , the level of the hospitals examined here is third‐level grade A , and we do not add it as a control variable . 
+We have the following models : In Equation 11 , the rating is regressed by the other factors and title , and the estimation results in Equation 11 is used to explain the MA as an independent variable ( ) . 
+From Equation 11 , we get the significant effect of Title to Rating . 
+The positive effect of Rating to the MA is further estimated by Equation 12 ( 0.055 , p < .01 ) . 
+Finally , we do the weak instrumental variable test that rejects the null hypothesis ( F = 1477.1 , p < .01 ) , to prove that the instrumental variable is efficient . 
+This study contributes to the literature in information systems , SI , and online health communities . 
+First , we examined the factors affecting MA in online health communities . 
+We focused on the physician who provides MA and measured the diversity of the accessible channels provided by the focal physician . 
+In addition , the effects of patient ratings and SI were explored using the multinomial logistic regression model and binary logistic model . 
+The influencing relationships are demonstrated to be significant and stable . 
+Second , we introduced SI research to the emerging field of online health communities . 
+In our study , we not only define SI measures ( denoted by the average degree of a physician 's colleagues ' MA ) but also examined the effects of SI on MA . 
+The SI measure can be applied to other studies . 
+For example , if one attempts to investigate the factors influencing the physician 's satisfaction evaluated by patients , SI can be measured by the average satisfaction degree of the focal physician 's colleagues . 
+Third , we address the research gap in SI research by demonstrating competitive relationships within an organization . 
+Most of the SI literature considers SI to have a positive effect on individual behavior ( Bapna & Umyarov , 2015 ; Risselada et al. , 2014 ) ; this issue is also examined in our research and denoted by the positive effect of SI on MA to physician . 
+We also demonstrate the competitive relationship of SI . 
+The moderating effect of SI was studied on the relationship between patient ratings and MA in online health communities and is proven to be significantly negative . 
+Therefore , this research provides a new aspect in examining the competitive relationship of SI by studying its moderating effect . 
+This study also has several practical implications . 
+If we want to expand a new technology or product with higher quality and better performance to consumers , this study may provide a good strategy . 
+Early on , we attempted to attract our first group of users without considering profit . 
+Using sales promotion , awards , or any strategies , we may attempt to attract people who are active on social‐networking websites . 
+We encourage or require such people to introduce our product to others . 
+Thus , with these people 's evaluations and word of mouth about the product , others who know them or receive information from them will notice and attempt to use the new product . 
+Later , with the benefits and good performance provided by the new product , information about the product will quickly spread to most other customers . 
+Consumers have great potential to purchase and use the product . 
+At this point , we can sell our product at its regular price , potentially leading to huge profits from a large number of consumers . 
+In addition , if patients want to access more excellent physicians in online health communities , our study provides a strategy for accomplishing this goal . 
+The approach is to give higher ratings to physicians with whom patients are satisfied . 
+It is especially important to give high ratings to physicians who have high technical ability but few MA channels , introducing this physician to similar patients and encouraging those patients to evaluate the service . 
+High ratings will encourage excellent physicians to provide more accessible channels , allowing future patients to make appointments online , inquire online , and more . 
+In the same way , if patients are dissatisfied with a physician , they may decline to rate that person or provide a lower evaluation , discouraging such physicians from providing more accessible channels . 
+Another strategy would be to give a higher rating to the physician 's colleagues with whom patients feel more satisfied , exerting somewhat negative effects on MA to the focal physician . 
+This study has several limitations that should be addressed in future research . 
+Our study focused on cross‐sectional data for building the empirical model ; these data lack information about the dynamics of the effects of SI on MA to physicians in online health communities . 
+We can adopt a longitudinal perspective by using panel data with more physicians and in different regions . 
+In addition , this study explores both SI in a department and online health communities as platforms for virtual social networks . 
+We intend to conduct future experiments to examine SI on these virtual social networks , which can be another critical factor affecting an individual 's behavior . 

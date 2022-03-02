@@ -1,0 +1,81 @@
+When all 13 independent variables were included in the final stage of the regression model , the five independent variables—content type ( Type ) , number of presented paper at conferences ( NoPapers ) , venue locations of conferences ( Venue ) , CN3 bookmarks ( CN3 ) , and Citeulike bookmarks ( Cite ) —were found to be significant factors influencing citations . 
+In particular , although content type ( Type ) and CN3 bookmarks ( CN3 ) significantly influenced future citations at the .05 significance level , the number of presented papers at conferences ( NoPapers ) , venue locations of conferences ( Venue ) , and Citeulike bookmarks ( Cite ) were statistically significant factors influencing future Scopus citations at the .001 significance level . 
+Moreover , among the five factors for the Scopus citations , except for the venue locations of conferences , all four variables coincided with the results of the model , based on the Google citations . 
+In particular , the Citeulike bookmarks contributed the most to predicting the Scopus citations . 
+Among the four author‐related factors , only the number of authors was a significant factor of future citations . 
+In addition , the explanatory power was only confirmed for Google citations . 
+All types of variables about authors ’ reputations and past academic performance were insignificant for both types of citations . 
+Regarding the paper related factors , the content type was a significant factor influencing both sources of citations . 
+As expected , long papers earned significantly more citations than short papers , demos , and posters . 
+On the other hand , the number of pages only significantly influenced Google citations ; it did so at a lower level of significance . 
+Among the five factors related to the conference per se , the number of papers presented at a conference significantly impacted both sources of citations . 
+Papers presented at conferences that included a smaller number of paper in the conference proceedings earned more citations . 
+However , we failed to find any halo effects related to conference names for either type of citation . 
+We also found significant influences of the best article awards , but only for Google citations . 
+In the analysis based on Scopus citations , the influence of the best article awards was significant , until the second step . 
+However , the online readership data entered at the third step cancelled out the significance of its influence . 
+As the main objective of this study , of greater interest is that the records of readers ’ early attention made noteworthy improvements to the prediction model of both the Google and Scopus citations . 
+The 1‐year record of Citeulike bookmarks was the strongest influential factor for both the Google and Scopus citations . 
+The 4‐month record of CN3 bookmarks was the second strongest influential factor of Google citations and was also a significant factor of Scopus citations . 
+The combined records of online readers ’ attention , at about 1 year after the conferences , significantly improved the prediction of the Google citations ( 5.8 % ) and the prediction of the Scopus citations ( 6.2 % ) . 
+The preceding analyses discovered the significance of online readers ’ attention to conference papers as an early predictor of future citations . 
+In other words , looking at the bookmarking popularity in CN3 , a few months after the conference , or the bookmark history in Citeulike , about a year after the conference , we could identify most papers that would earn a large number of citations in the near future . 
+In this subsection , we attempted to compare the records of early attention with another important factor : best article awards presented at the conferences . 
+Prior analyses illustrated that both online readers ’ early attention and best article awards appeared to be significant predictors of future citations . 
+However , the nature of these factors is very different . 
+Although CN3 and Citeulike bookmarks represent the “ wisdom of the crowd , ” the best article awards are selected by program committees and could be considered the wisdom of experts . 
+Could we use our data to discover which of these two kinds of wisdom is a better predictor of future citations ? 
+Is the community wiser than the experts or vice versa ? 
+Before performing the multiple sequential regression discussed previously , we examined the possible multicollinearity between the records of early attention and the records of the best article awardees ( BPA hereafter ) . 
+The reason for performing this analysis was to test our hypothesis that the awarded papers are likely to earn more readers ’ attention than non‐BPA papers , as awards are usually broadly announced at an on‐site award ceremony , as well as online . 
+Our independent t‐test analysis confirmed the hypothesis at the .05 statistical level . 
+In the t‐test based on all CN3 bookmark data , the awarded papers earned significantly more CN3 bookmarks than the non‐BPA papers ( t = 2.80 , p = .005 ) . 
+The t‐test based on all Citeulike bookmark data produced the same pattern , showing statistical significance ( t = 2.49 , p = .014 ) . 
+The results also reveal that the public announcement of the BPA during the conference is not the only factor that increases the number of citations for the awarded papers . 
+The t‐tests based on CN3 bookmarks22 No Citeulike bookmarks were available prior to the start of the conferences . 
+CN3 was available several weeks before the conferences began , so the attendees planned their schedules on CN3 . 
+Consequently , a considerable number of bookmarks were made even before the conferences started . 
+made before the conferences began revealed that the BPA papers tended to earn more readers ’ attention , even before the conference started , when the best article awards have not yet been announced ( t = 3.16 , p = .002 ) . 
+In other words , strong papers tend to be recognized independently , by both the community of attendees and the program committee experts who select the awards . 
+Despite the significant differences , fortunately , multicollinearity is not a concern at this time . 
+At the last step of the multiple sequential regression , the VIF of the BPA was 1.08 for both Google Scholar and Scopus ; this is the lowest value among the 13 factors under consideration . 
+The VIF values of CN3 and Citeulike were 1.46 and 1.14 , respectively , for both the Google Scholar and Scopus citations . 
+Without the concern about multicollinearity , for Google Scholar citations the effect size that is uniquely accounted for by the BPA—the squared semipartial correlation in Table 2—was 0.7 % of the variance in the previous regression model . 
+The effect size of the BPA is smaller than the effect size by the CN3 bookmarks 4 months after the conferences ( 2.4 % ) and Citeulike bookmarks 1 year after the conferences ( 3.9 % ) . 
+For the Scopus citations , the BPA was not a significant predictor in the discussed regression model ; the effect size is marginal . 
+However , the CN3 and Citeulike bookmarks influenced the Scopus citations significantly . 
+The effect size of the CN3 bookmarks ( i.e. , 0.9 % ) and Citeulike bookmarks ( i.e. , 5.7 % ) was larger . 
+Specifically , the Citeulike bookmarks accumulated about 1 year after the conferences made the largest contribution to predicting future citations , beating the BPA and the other 12 variables . 
+Therefore , statistically , the general attention of the research community serves as a better predictor of future citations than the judgment of a few experts expressed in the form of the best article awards . 
+Another difference between these early attention indicators is their coverage and time span . 
+Although the BPA might not be the best , it is still the earliest predictor of future citations that was available before the end of the conferences . 
+Unfortunately , it offers rather poor coverage because , in most cases , only one paper is awarded ( and one or two strong articles are nominated ) per conference ; thus , it can not be used to predict the importance of all conference papers . 
+In contrast , the number of bookmarks in a conference support system ( i.e. , CN3 bookmarks ) , harvested a few months after the conference , provides a somewhat better explanation with a much better coverage . 
+Finally , the most influential factor is provided by a social bookmarking system ( i.e. , Citeulike ) ; however , one has to wait for about a year until this bookmark history can be harvested for the explanation of future citations . 
+This study contributes to a better understanding of the extent to which various factors influence the future citations of conference papers . 
+Whereas the literature about the factors that could be used to affect the citations of the journal articles is well established , the research about the contributing factors for the citations of conference papers is still in the early stages . 
+We were particularly interested in the predictive power of online readers ’ early attention to conference papers , as a new potential measure of future impact . 
+As a source of the early attention data , we used the bookmark histories of two online social systems : a conference support system ( i.e. , CN3 ) and a social bookmarking system ( i.e. , Citeulike ) . 
+We found that the subset of bookmarks collected 4 to 12 months after the conferences served as reliable evidence of the early interest of online readership , correlating with future citations at almost the same level as the full history of the bookmarks . 
+In particular , the bookmarks made in CN3 offered a reliable estimation of future citations just 4 months after the conference . 
+The results of multiple sequential regressions also revealed that the records of early attention collectively made the largest contributions on the predictions of both the Google Scholar and Scopus citations , among the 13 variables we considered . 
+Therefore , the first impression of conference papers does influence the future citations of the conference papers . 
+Along with the records of early attention , the type of conference papers and the number of papers presented at a conference were meaningful predictors of both the Google Scholar and Scopus citations . 
+However , the best article awards were only a significant predictor of the Google Scholar citations . 
+With both community attention and the best article factors examined , this study is the first comparative analysis of the vox populi of general readers ( in the form of early bookmarks ) and the voice of experts ( in the form of the best article awards ) as early indicators explaining the future citations of conference papers . 
+The results of our analyses show that the experts ’ evaluation is fairly predictive for future citations of conference papers . 
+However , the predictive power of the vox populi of general readers ( including students and early career researchers ) is even better than the vote of the experts . 
+This is also the first study that examined the explanatory value of the data gathered from a new type of social media system—namely , conference support systems , which offer a unique chance to observe the earliest “ community vote ” for conference papers . 
+Finally , we also consider our study , as a whole , to be a contribution to research on factors that influence the citations of conference papers . 
+In our article , we attempted to consider several factors related to conferences and conference papers and perform a multiple sequential regression analysis . 
+As the main limitation of our study , we should mention the relatively small sample size , which should be increased to reach more reliable conclusions . 
+To examine the earliest signs of community interests expressed through a conference support system , we had to limit our data set to conferences supported by CN3 , which also limited the number of sampled papers . 
+However , as the CN3 system continues its service , actively supporting several conferences each year , we expect to perform a similar bibliometric study with a larger sample size in the future . 
+We will also collect more data about online readers ’ early attention to conference papers ( for instance , download frequency of sample papers ) . 
+As Brody et al . 
+( 2006 ) demonstrated , the download frequency is an important factor for predicting the citations of conference papers . 
+Researchers who were interested in our sample papers , but did not attend the conferences , may have downloaded the papers from the online proceedings , when the conference proceedings became available online . 
+However , because the publishers of the conference proceedings do not make their download history public , we were not able to track down the download frequency of our sample papers . 
+In the future , we hope to perform a study that considers the download frequency and uses the records of downloads from the time when the conference proceedings are open to the general public . 
+The current study only considered three factors related to authors ’ reputation : authors ’ publication tenure , the number of authors ’ publications , and the authors ’ citation rates earned until the sample papers were published . 
+In the future , we plan to use more balanced and widely used authors ’ reputation measures , such as the h‐index . 

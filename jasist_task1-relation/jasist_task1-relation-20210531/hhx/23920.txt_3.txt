@@ -1,0 +1,37 @@
+The effect is particularly strong when patients search more . 
+This finding helps to reconcile prior single‐sided observations . 
+Third , this study compares the impact of Internet search and other knowledge sources . 
+This study suggests that high‐touch is still a dominant factor in physician‐patient trust , whereas high‐tech plays a secondary role . 
+A physician 's explanation and feedback is still central to a patient 's trust ( Agius & Stangeland , 2016 ) . 
+Therefore , practitioners need not overreact to patients ’ Internet search or regard it as a prominent challenge . 
+On the other hand , this study confirms that physicians should not dismiss patients ’ Internet search as trivial ( Ahmad et al. , 2006 ) , especially when there is diagnosis inconsistency . 
+Fourth , this study contributes to the Information Science ( IS ) literature in the domain of medical information . 
+The IS literature has recognized the empowering nature of the Internet for patients ( Jacobson , 2007 ) . 
+Jacobson ( 2007 , p. 6 ) concluded that “ whether health information found on the Internet is empowering for patients appears to depend on patients ’ personal use of the information they retrieve as well as on physicians ’ responses to these patients. ” However , patients ’ and physicians ’ treatment of online information was treated as a black box . 
+This study opens the black box by explaining how online information plays a part in their possession of knowledge . 
+This study suggests that explanations of potential diagnosis outcomes shall be provided online , so that patients would have a more comprehensive anticipation of the diagnosis process and less surprise in the outcome . 
+This study leads to important implications to practice . 
+First , this study suggests that physicians should be aware of their patients ’ Internet search . 
+In a suitable context , a physician might ask patients what they have found . 
+When needed , physicians may need to explain the difference in views , so that a patient 's suspicions can be addressed ( Wright et al. , 2004 ) and a trusting relationship maintained ( Agius & Stangeland , 2016 ) . 
+This study also suggests that in patient empowerment programs , patients should be encouraged to bring their doubts and suspicion to physicians for clarification so that unnecessary post‐visit behaviors can be avoided . 
+This study has implications for China . 
+Clinic visit in China is known for its long wait and short appointment time . 
+Education for medical professionals pays little attention to the humanities , the social context of illness , or training in communication and conflict resolution ( The Lancet , 2014 ) . 
+We believe this study serves as a strong support to the call for better training and practice of physician‐patient communication in China , especially in the Internet age . 
+The findings of this study should be interpreted with its limitations . 
+Physician‐patient trust in China is relatively lower than in many other countries ( Zhang & Sleeboom‐Faulkner , 2011 ) . 
+Therefore , patients in China are likely to be more sensitive to diagnosis inconsistencies . 
+The effect of the Internet search found in this study may vary in other countries . 
+Second , the quality of healthcare information may differ in various countries , which could further affect the generalizability of our findings . 
+Third , our online survey may have self‐selection bias : respondents may represent a more IT‐savvy sample . 
+Respondents may also report an upward‐biased trust level because of social desirability . 
+Finally , this study does not control for disease types and therefore can not provide a more nuanced guidance for practitioners in a specific disease segment . 
+Future research may apply our framework to specific diseases . 
+How does patients ’ Internet search change the knowledge disparity between physicians and patients in the diagnosis and consequently their trusting relationship ? 
+Our empirical study of more than 400 subjects in China suggests that the diagnosis inconsistency between patients ’ self‐diagnosis and their physician 's diagnosis affects their trust in physicians . 
+The effect is stronger for those who spent more time on Internet search , but less for patients with chronic conditions . 
+Physicians ’ rank weakens this effect . 
+This study found that physicians ’ interaction quality in a diagnosis process plays a dominant role in patients ’ trust . 
+This study suggests that the impact of the Internet search should not be regarded as trivial . 
+Meanwhile , a high‐touch approach is still the most important factor to physician‐patient trust in the high‐tech age . 

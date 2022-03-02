@@ -1,0 +1,130 @@
+We have seen in the last decades an exponential increase of information produced in the context of the World Wide Web ( WWW ) , also called “ the web ” or simply “ web. ” In this informational transition , from analog to digital , information systems and their users demanded more efficient information retrieval tools and techniques , in terms of both precision and recall ( Patel‐Schneider & Horrocks , 2007 ; Souza & Alvarenga , 2004 , p. 133 ) . 
+Big companies like Google , Apple , and Microsoft have offered search engines with their own advanced and idiosyncratic ranking algorithms , deepening the information bubbles and exacerbating the information silos . 
+In this context , we would expect that the tools available in the digital environment could evolve in order to offer more efficient management of resources and better information retrieval . 
+A “ new ” web , called the Semantic Web , was presented as one possible solution to this situation . 
+The Semantic Web ( SW ) , although late in implementation , was the original proposal for the web ( Berners‐Lee , 1990 , 1998 ; Bizer , Heath , & Berners‐Lee , 2009 ) and was designed and deployed for almost 20 years , in parallel with the web as we know it . 
+One of SW 's expectations is to enable an environment where agents , a specific type of “ intelligent ” software , can perform complex tasks according to the users ' needs ( Berners‐Lee , 2006 ; Berners‐Lee & Fischetti , 2000 , p. 237 ; Berners‐Lee , Hendler , & Lassila , 2001 ) . 
+The big question that arises in this scenario is the need to make the machines capable of reasoning similar to that of humans , resulting in an association with so‐called Artificial Intelligence , which the makers of the SW , since the first articles , sought to exclude ( Berners‐Lee & Hendler , 2001 , p. 1023 ) . 
+Although the idea of making human knowledge available and ready to be used to foster collaborative work were at the basis of the development of the WWW ( Berners‐Lee , 2009 , 2:40 ) , this same idea was foreseen and developed by Paul Otlet , the founder of the Universal Decimal Classification , half a century before the Berners‐Lee digital web ( van den Heuvel , 2009 ; van den Heuvel & Rayward , 2011 , pp . 
+9–10 ) . 
+However , the current WWW is the most important scenarium where information is sought , in terms of volume and ubiquity . 
+In this context , the potential of a semantic web , with regard to the aid it could provide in the retrieval of information online , seems essential . 
+Nevertheless , the concept of the SW is ambiguous and misinterpreting , given its biasing connection with the term “ semantics ” ( Almeida , Souza , & Fonseca , 2011 ; Setzer , 2015 ) and the association with other terms such as Web of Data , Linked Data , or even Web of Linked Data . 
+We , unlike authors such as Feigenbaum ( 2011 ) , consider that there are differences , both intrinsic and contextual , between the terms : Semantic Web , Web of Data , Linked Data , and Web of Linked Data , that justify a conceptual demarcation and proper clarification . 
+In this context , this article intends to dig deeper into the definitions and concepts related to the SW , in order to clarify and distinguish it from the concept of Web of Data . 
+We understand that , while avoiding a pompous and unnecessary digression , some exegesis on ambiguous terms and definitions belonging to areas of knowledge that are not yet well established are part of the motivations of researchers in this area , insofar as they provide clarity and promote the alignment between the conceptual , pragmatic , and technological aspects of the field . 
+Each one of the four terms being analyzed have been regarded as ( almost ) independent research and development areas for themselves , yet its intersections are fuzzy and getting fuzzier . 
+The conceptual analysis of the term Semantic Web proposed in this study aims to contribute to a better understanding of it , in particular by researchers from areas not directly related to this topic ( Ali Shiri , 2015 ) . 
+We believe that any communication that is intended to be clear and objective needs a conceptual clarification , especially in an interdisciplinary field ( Delattre , 1981 , p. 23 ; Kuhn , 1996 , p. 200 ) . 
+In this context , it is worth adopting a diachronic perspective , aiming at clarifying the concept of SW. We start the analysis using the definitions adopted by its creator , Sir Timothy Berners‐Lee ( Berners‐Lee , 1998 ; Berners‐Lee & Fischetti , 2000 , p. 177 ) , and then evolved to find subsidies for the understanding of the intricate relationship of the several concepts involved ( Cambridge Semantics , 2016 ; Heath , 2009 ) . 
+It is not , however , our intention to present a “ closed ” or final judgment , given the semantic openness and operational vagueness inherent to any definition and conceptual categorization , which does not invalidate its crucial importance in the construction of knowledge ( van de Ven , 2013 , p. 116 ) . 
+We have chosen a qualitative approach based on a literature review using the research method known as content analysis ( Bardin , 2011 ; Kuckartz , 2014 ) . 
+The analysis focused on the conceptual evolution , as we have observed the changes in definitions over time ( Hampton , 2016 , p. 662 ) , starting from a set of documents selected by Berners‐Lee himself ( Berners‐Lee , 2018 ) , and a set of W3C 's web pages about the SW ( see Table 1 ) . 
+The inclusion of the references associated with the W3C was considered relevant as the main and official source regarding WWW issues . 
+2013 Dec.11 Despite the fact that the earliest reference of the “ Selected Publications ” dates back from 1999 , it is important to mention that earlier , at the first World Wide Web Conference in 1994 , Berners‐Lee explicitly exposes , for the first time , the question of web semantics ( Berners‐Lee , 1994 ; Shadbolt , Hall , & Berners‐Lee , 2006 , p. 96 ) . 
+It is , however , after 1998 that the term Semantic Web begins to be referred to more often in scientific articles . 
+The corpus was subjected to a comparative analysis based on three categories : ( i ) the descriptive characteristics ( ii ) the structural basis , and ( iii ) the goals and functionalities . 
+These categories correspond to the following questions : What can be understood by SW ? 
+What is necessary to make the SW a reality ? 
+What are the goals of the SW ? 
+During the preanalysis of the documents , a hypothesis was constructed , according to which the concept of the SW would have evolved over time , in order to follow the current trends and adapt to the technological and informational constructs that have derived from the original ideas and framework . 
+This idea is supported by Marcondes ( 2012 , p. 26 ) , that says that there is a “ significant change from the original proposal ” from a “ web of meanings ” to a “ data web , ” regarding W3C 's “ much more realistic view ” presented by W3C in 2010 . 
+The first phase of our analysis corresponded to the systematization of the recording units ( Bardin , 2011 , p. 134 ; Kuckartz , 2014 , p. 44 ) , according to the three categories considered ( that is , the descriptive characteristics , the structural basis , and the goals/functionalities ) , based on which the analysis was carried out . 
+In a second phase , a categorization by corpus ( Bardin , 2011 , p. 149 ) was carried out , leading to the constitution of the groups and the definition of their respective conceptual titles , all done after the analysis of the recording units considered in each category . 
+Further , as a visual aid , a temporal analysis ( Yin , 2014 , pp . 
+150–152 ) was chosen for the correct understanding of how those units deployed with time . 
+The methodology applied implied building analytical‐theoretical categories ( Kuckartz , 2014 , p. 41 ) , systematized in Figure 1 . 
+Based on the selected corpus ( see Table 1 ) , we present the concept of SW according to the categories determined a priori : ( i ) the descriptive characteristics ( ii ) the structural basis , and ( iii ) the goals and functionalities . 
+In the Descriptive Characteristics category , the recording units were organized into three groups : Web of Data ( 1a ) , Linked Data ( 1b ) , and descriptions that include “ semantics ” ( 1c ) . 
+The names of groups 1a and 1b are derived from the relationship with the concepts expressed in the respective recording units . 
+In group 1c , the designations resulted from the relation between the concepts : semantics , logic , understanding , and knowledge ( Almeida et al. , 2011 ) , also expressed in the recording units included in this group . 
+Within the groups , additional distinctions were made , as we can see in Table 2 . 
+This categorization highlights three possible definitions for what can be understood by SW . 
+The first two , group ( 1a ) and group ( 1b ) , respectively , identify SW as a Web of Data and , more specifically , a Web of Linked Data . 
+The definition ( 1c ) , encompassing the original term “ semantics , ” stands out from the previous groups by its difficulty in having assigned an identifiable label . 
+With respect to the hypothesis formulated on the evolution of the SW concept , meaning it was directed towards a more concrete and immediate operationalization , the analysis of how the different “ descriptions ” articulate over time points to the confirmation of the same ( see Figure 2 ) . 
+As evidence of this evolution , one can enumerate : The descriptions of group 1c , which present a greater degree of complexity—given the use of terms such as understanding , knowledge , meaning , or logic , are found in documents dated from the first half of the analyzed period ( 1999 to 2006 ) ; The concentration of explicit references to the concepts of Web of Data and Linked Data is observed in the most recent documents ( after 2009 ) ; In the documents dated to 2015 and 2017 ( ref . 
+W3.06 and W3.07 ) , the specification of the term Semantic Web appears , restricting its scope : “ The term ‘ Semantic Web ’ refers to W3C 's vision of the Web of Linked Data ” ( World Wide Web Consortium , 2015b , 2017a ) ; The integration of Semantic Web Activities in W3C Data Activity whose goal is the construction of a Data Web ( World Wide Web Consortium , 2017b ) . 
+It is necessary to highlight , with regard to these considerations , that a description of SW explicitly mentions the concept of Web of Data prior to 2009 in the book Weaving the Web ( ref . 
+SP.03 of Table 1 ) . 
+However , this reference has been included in group ( 1d ) descriptions that include “ semantics , ” given the description contained in the glossary of that document : “ Semantic Web : The Web of Data with meaning in the sense that a computer program can learn enough about what the data means to process it. ” ( Berners‐Lee & Fischetti , 2000 , p. 237 ) . 
+Likewise , it is interesting to check the evolution of the Linked Data concept . 
+In 2009 , Linked Data was considered a means to reach the Semantic Web : “ while the Semantic Web , or Web of Data , is the goal or the end result of this process , Linked Data provides the means to reach that goal ” ( Bizer et al. , 2009 , p. 17 ) . 
+Conversely , in 2013 and 2015 , in an account of the vision of the W3C , as explained in point iii. , this appears to be the SW itself . 
+This interpretation causes some perplexity , since the same document of 2015 ( ref . 
+W3.06 ) presents this description accompanied by another one that clearly states : “ The Semantic Web is a Web of Data ” ( World Wide Web Consortium , 2015b ) . 
+Although this is not a single case of disparate descriptions in the same document ( as can be seen in Table 2 and Figure 2 ) , it seems to indicate that the three terms ( Semantic Web , Web of Data , and Linked Data ) refer to the same concept . 
+This interpretation is contrary to what is presented in the previous references regarding those concepts , because the scope of SW is exposed as more comprehensive than that of Linked Data . 
+Another possibility is that the terms Linked Data and Web of Linked Data represent concepts with different contexts ; the latter being equivalent to the concept of Web of Data that emerges as a more concrete definition for SW replacing the term semantic with data . 
+Although this last interpretation presents a possible explanation for the apparent mismatch , a more realistic explanation would be considering a semantic drift for different authors , views , and interpretations . 
+In spite of this , it is possible to verify , on the basis of this domain of analysis , a turning point from the abstract “ semantic , ” associated with the “ understanding ” ( the SW ) , for the “ syntactic ” processing using Linked Data ( the Web of Linked Data ) , more properly associated to the computational methods . 
+In this category of analysis , the recording units adopted were : Descriptions of procedures ; Descriptions of concepts/abstractions/specifications/standards that are , directly or contextually , presented as necessary or even essential for the development of W3 . 
+The descriptions of procedures were inserted into the group with the same label : Procedures ( 2a ) . 
+Analyzing the recording units of this group , a pattern was identified in the descriptions and it is possible to distribute them into three subgroups : ( i ) procedures related to the structuring of data for automatic processing ( ii ) procedures focused on creating interoperability between systems and data link , and ( iii ) descriptions that presented the two typologies established ( see Table 3 ) . 
+Descriptions of concepts/abstractions/specifications/standards were included in a second group , titled Architecture ( 2b ) . 
+In this group , recording units were naturally associated with one of the two subgroups that constitute it : ( i ) concepts/abstractions or ( ii ) specifications/standards ( see Table 4 ) . 
+By observing the elements indicated in the timeline , ( Figure 3 ) according to the dates of the respective documents , there is a concentration of procedures focused on the creation of interoperability between systems and in the connection of data ( group 2a ii . 
+) from 2006 on , disregarding those exclusively related to the structuring of data for automatic processing ( group 2a i. , see Figure 3 ) . 
+This is strong support for the conceptual drift in the term the Web of Linked Data . 
+In the most recent references of group ( 2b ) , we can observe the presence of the concept of Web of Linked Data . 
+This presence is noted both at the level of concepts/abstractions , with the use of an alternative term for the Linked Data : Networked Data ( ref . 
+W3.03 ) , as well as in the specifications associated with this concept : “ Linked data are empowered by technologies such as , ” present in references W3.06 and W3.07 ( see Table 5 ) . 
+It can be observed that these two references are the most recent , with the greatest amount of specifications/standards present in these descriptions , being six in ref . 
+W3.06 and five in ref . 
+W3.07 . 
+This may be related to the time required for the development and maturation of the specifications ; however , the direct relationship established in these two documents , between specifications and the term Linked Data , can be interpreted as a way to operationalize SW by reducing its scope . 
+2013 From the descriptions of the goals and functionalities of the SW project , constituents of the recording units , it was possible to verify the presence of a recurring operational purpose : “ to use the Web like a single global database ” ( Bizer et al. , 2009 ) , a concept that , assuming different expressions , can be identified in seven of the 17 references ( see Table 5 ) . 
+There is also an explicit reference to the idea of the “ global database ” in the 2015 document ( ref . 
+SW.06 ) , regarding the need for the SPARQL ( Protocol and RDF Query Language ) , query language for the SW , coherent with the vision of a global database ( World Wide Web Consortium , 2015b ) . 
+In the references of 2013 and 2015 ( SW.05 and SW.06 ) , the purpose of SW is expressed in a less precise way ( World Wide Web Consortium , 2013b , 2015b ) . 
+A possible interpretation for this type of discourse may be linked to a more cautious approach to the complexity of the idea of the global database . 
+The mention of expressions such as “ most useful work done by computers ” and “ reliable network interactions , ” being quite generic , does not show commitment to specific objectives that are potentially hard in terms of their realization in the short or medium term ( Codina , 2003 , p. 151 ; Ray , 2010 , 7:00 ) . 
+Dubious goals like these are found in some of the functions expected for SW expressed in the documents up to 2009 ( see Table 6 ) . 
+2006 2008 to facilitate the use of data as well as their discovery , to go beyond Google in this respect ( SP.09 ) to give much more targeted answers to our questions… . 
+a person will instead receive detailed information ( SP.10 ) Confronting the three categories , the latter seems to contradict a more concrete and restricted operationalization , as pointed out by the other two . 
+However , if we interpret this change as a way to avoid potentially more remote goals , this does not entirely contradict the hypothesis formulated that points to an operationalization , of the concept of SW , more concrete and immediate . 
+Regarding the concrete operationalization of the project for the web , the point is to define the functionalities offered by the SW . 
+If SW functions are not restricted to end users , as defined in the note in Table 6 , we may also consider the following specific procedures , expressed in document W3.06 ( World Wide Web Consortium , 2015b ) : publish and link data using the RDF format ; use “ technologies ” such as RDFa or GRDDL to insert data into documents , expose the contents of an SQL database , or make them available in RDF format . 
+These types of functionalities ( i , ii ) can also be seen in other previously published documents ( SP.05 ) , where they are mentioned as functions performed in 2002 by SW technologies ( Hendler , Berners‐Lee , & Miller , 2002 ) , as follows : the connection between databases ; sharing content between applications using different XML DTDs or other schemas ; the discovery and combination of web services . 
+Despite the distance separating the two documents ( 2002 and 2015 ) , the difference between these two “ sets ” of functions lies in the specifications described , since their purpose is the same—to interconnect several databases in the web ( World Wide Web Consortium , 2015a ) . 
+The analysis confirms the hypothesis formulated initially : the concept of the SW has undergone an evolution over time , in order to make its operation more concrete and immediate . 
+However , the SW concept itself was unclear , as already noted by Almeida et al . 
+( 2011 ) . 
+One can perceive the confusing conceptual relationship with the terms of Web of Data and Linked Data in the scope of the three domains analyzed , and it is clear that the change in the terminological and conceptual use from SW for Web of Linked Data or simply for Linked Data and , in parallel , the use of Web of Data for the same concept . 
+Even though a document issued in 2015 ( W3.06 of Table 1 ) points to a synonymy between the three concepts , other references obscure this relationship or even contradict it . 
+As an example , the current web page on Linked Data of W3C depicts the relations between the three concepts in a somewhat contradictory way . 
+The fact that the example used in Table 7 is from a nested web page , accessed from the page where it is expressed that the term Semantic Web refers to the W3C view of the Web of Linked Data ( World Wide Web Consortium , 2015b ) makes the relations between the three concepts even more complex , contradicting inference “ d. ” of the same table . 
+However , the “ taxonomy ” used on the W3C website for the organization of the referred pages ( see note in Table 7 ) confirms this same inference by placing the page about Linked Data hierarchically subordinated to the page about the SW . 
+Linked Data is at the heart of Semantic Web , so it will be the most important part , but not the whole Given this interrelational complexity of the three concepts , we deem it necessary to present a clear definition for the concept of the SW and its relationship with the other two terms , Web of Data and Linked Data . 
+SW refers to a comprehensive construct that includes : ( i ) the great purpose of making the web a global database , including the applications/interfaces necessary for its use ; ( ii ) the specifications ( standards , languages , vocabularies , protocols ) developed and/or associated with their operation ; ( iii ) the principles and respective procedures associated with the practice of open data linking on the web , as a basis for the whole concept . 
+By Web of Data , we extend the WWW adding the SW in this new environment , where it is possible to perform queries similar to those made in databases , regardless of the type , format , and source of that data , and having , as a result , semantically interrelated data , that is , information , instead of simple documents , often without a semantic link between them , as in the current “ web of documents ” ( World Wide Web Consortium , 2013b , 2015b ) . 
+The Web of Data is thus directly related to point ( i . 
+) referred to in the SW definition , given the fact that the term Web of Data is used more frequently when the SW objective is mentioned ( Berners‐Lee , 1998 ; Bizer et al. , 2009 ; Hendler et al. , 2002 ; World Wide Web Consortium , 2017b ) . 
+On the other hand , when there are references to “ tools , ” “ technologies , ” or something similar to what is exposed in point ( ii . 
+) , the term Semantic Web is used instead of Web of Data ( Berners‐Lee et al. , 2006 , p. 108 ; Hendler , Shadbolt , Hall , Berners‐Lee , & Weitzner , 2008 , p. 68 ; World Wide Web Consortium , 2015b , 2017a ) . 
+Finally , the concept of Linked Data is understood as a set of procedures and rules for the publication of data on the web in order to allow the connection of the data to other data from different sources ( Bizer et al. , 2009 ) . 
+Although the term Linked Data can also be associated with data binding outside the web environment when we see a mention of “ Semantic Web technologies , ” the great value of this set of procedures , rules , and associated specifications is the adaptation of the web ( World Wide Web Consortium , 2017b ) . 
+The concept of Linked Data is thus associated with that explained in section ( iii . 
+) regarding the SW definition‐principles and procedures associated with the practice of open data linking on the web . 
+In this context , the introduction of the concept of Linked Open Data makes perfect sense given the “ principle of universality ” and the open standards that characterize the WWW : “ The principle of universality allows the Web to work no matter what hardware , software , network connection or language you use and to handle information of all types and qualities . 
+( Berners‐Lee , 2010 , p. 82 ) . 
+The link between the terms Web of Data and Linked Data , and the concepts presented , respectively , in ( i . 
+) making the web a global database and ( iii . 
+) principles and procedures for linking data on the web–as well as the association between the term Semantic Web technologies and that referred to in ( ii . 
+) specifications associated with the SW objectives–can still be found simultaneously in excerpts from documents such as those exemplified by : Semantic web technologies [ ii . 
+] and Linked Data principles [ iii . 
+] are paving the way for the Web of Data , a global data space [ i . 
+] that relies on a stack of technologies like URIs , HTTP , and RDF to empower information retrieval ( Parreiras , 2012 , p. 189 ) . 
+In the context of the emergent Web of Data [ i . 
+] , a large number of organizations , institutes , , and companies ( for instance , DBpedia , Geonames , PubMed ACM , IEEE , NASA , BBC ) adopt the Linked Data practices [ iii . 
+] and publish their data utilizing Semantic Web technologies [ ii . 
+] ( Bikakis , Tsinaraki , Gioldasis , Stavrakantonakis , & Christodoulakis , 2013 , p. 2 ) . 
+Semantic web technologies [ ii . 
+] and Linked Data principles [ iii . 
+] are paving the way for the Web of Data , a global data space [ i . 
+] that relies on a stack of technologies like URIs , HTTP , and RDF to empower information retrieval ( Parreiras , 2012 , p. 189 ) . 
+In the context of the emergent Web of Data [ i . 
+] , a large number of organizations , institutes , , and companies ( for instance , DBpedia , Geonames , PubMed ACM , IEEE , NASA , BBC ) adopt the Linked Data practices [ iii . 
+] and publish their data utilizing Semantic Web technologies [ ii . 
+] ( Bikakis , Tsinaraki , Gioldasis , Stavrakantonakis , & Christodoulakis , 2013 , p. 2 ) . 
+To further clarify the matter , it is critical to address the concept of Web of Linked Data . 

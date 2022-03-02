@@ -1,0 +1,16 @@
+T1	引文作者 146 151	Fahey
+T2	引文时间 154 158	1995
+T3	引文作者 352 361	Bloustein
+T4	引文时间 364 368	1978
+T5	引文作者 796 802	Clarke
+T6	引文作者 805 811	Steele
+T7	引文时间 814 818	2015
+T8	引文作者 821 826	Lowry
+T9	引文时间 836 840	2012
+T10	研究展望 214 395	Future work could be carried out to investigate how norms and collective identity influence both individual and group privacy behaviors ( Bloustein , 1978 ) in a social group in SNS
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T4 Arg2:T3	
+R3	coauthor Arg1:T5 Arg2:T6	
+R4	has_cited_time Arg1:T7 Arg2:T6	
+R5	has_cited_time Arg1:T9 Arg2:T8	
+R6	field_similar_as Arg1:T8 Arg2:T5	

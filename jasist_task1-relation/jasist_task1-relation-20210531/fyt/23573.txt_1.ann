@@ -1,0 +1,164 @@
+T1	引文作者 288 292	Penn
+T2	引文时间 295 299	1793
+T4	引文作者 991 1002	Hasan‐Rokem
+T5	引文作者 1005 1009	Kats
+T6	引文时间 1012 1016	2009
+T7	研究方法 1023 1093	To resolve these disagreements , we construct an ontology for proverbs
+T8	引文作者 1284 1290	Gruber
+T9	引文时间 1293 1297	1995
+T10	引文作者 1471 1474	Noy
+T11	引文作者 1477 1487	McGuinness
+T12	引文时间 1490 1494	2001
+T3	研究问题 709 854	approaches mostly differ in what should be considered key proverbial characteristics on which an index or classification scheme should be devised
+T13	引文作者 3222 3227	Kuusi
+T14	引文时间 3230 3234	1972
+T15	引文作者 3297 3308	Lauhakangas
+T16	引文时间 3311 3315	2001
+T17	引文时间 3318 3322	2007
+T18	引文作者 3329 3334	Kuusi
+T19	引文的方法 3335 3476	developed a thematic classification of proverbs that consists of 13 main semantic themes and their 52 main classes divided into 325 subgroups
+T20	研究方法 3984 4199	These inconsistencies can be resolved by designing a multidimensional ontology with well‐defined classes and properties ( relationships ) that separates explicit terminology classes from the semantic meaning classes
+T21	引文作者 4346 4364	Zhitomirsky‐Geffet
+T22	引文作者 4367 4375	Bar‐Ilan
+T23	引文作者 4378 4384	Miller
+T24	引文作者 4389 4395	Shoham
+T25	引文时间 4398 4402	2010
+T26	术语 4411 4436	multiperspective ontology
+T27	具体模型 4037 4062	multidimensional ontology
+T28	具体模型 7486 7514	cultural heritage ontologies
+T29	引文时间 7952 7956	2003
+T30	引文时间 8000 8004	2011
+T31	引文时间 8007 8011	2014
+T32	引文作者 8189 8204	González‐Blanco
+T33	引文时间 8214 8218	2014
+T34	引文作者 8813 8820	Bekiari
+T35	引文作者 8823 8828	Doerr
+T36	引文作者 8833 8841	Le Boeuf
+T37	引文时间 8844 8848	2010
+T38	具体模型 8881 8922	Sharing Ancient Wisdoms ( SAWS ) ontology
+T39	引文作者 8959 8968	Jordanous
+T40	引文作者 8971 8979	Lawrence
+T41	引文作者 8982 8988	Hedges
+T42	引文作者 8993 8999	Tupman
+T43	引文时间 9002 9006	1984
+T44	具体模型 9374 9378	SAWS
+T45	引文时间 9534 9538	2008
+T46	引文作者 9541 9547	Luchev
+T47	引文作者 9550 9556	Paneva
+T48	引文作者 9563 9572	Rangochev
+T49	引文作者 9989 9992	Mei
+T50	引文作者 9995 9998	Zhu
+T51	引文作者 10001 10004	Gao
+T52	引文作者 10009 10012	Yin
+T53	引文时间 10015 10019	1984
+T54	引文作者 10049 10053	Yang
+T55	引文作者 10056 10061	Tseng
+T56	引文作者 10064 10068	Liao
+T57	引文作者 10073 10078	Liang
+T58	引文时间 10081 10085	2013
+T59	引文作者 10647 10665	Zhitomirsky‐Geffet
+T60	引文时间 10675 10679	2010
+T61	研究方法 11089 11118	the methodological approaches
+T62	研究方法 12027 12227	( a ) creating the generic upper ontology for proverbs based on the existing models and then ( b ) refining and extending it with more specific classes and relationships from a selected proverb corpus
+T63	具体模型 12602 12615	the CIDOC‐CRM
+T64	引文作者 12648 12653	Doerr
+T65	引文时间 12656 12660	2003
+T66	具体模型 12665 12676	the FRBR‐OO
+T67	引文作者 12679 12686	Bekiari
+T68	引文时间 12696 12700	2010
+T69	具体模型 12705 12713	the SAWS
+T70	具体模型 12759 12767	the DM2E
+T71	具体模型 15554 15574	the WordNet ontology
+T72	引文作者 15577 15585	Fellbaum
+T73	引文时间 15588 15592	1998
+T74	引文作者 15716 15721	Kuusi
+T75	具体模型 15849 15867	Conceptual Mapping
+T76	引文作者 15883 15889	Ahrens
+T77	引文时间 15892 15896	2002
+T78	具体模型 15903 15938	the Contemporary Theory of Metaphor
+T79	引文作者 15941 15947	Lakoff
+T80	引文时间 15950 15954	1993
+T81	表 16507 16577	Table 1 demonstrates sample proverbs and their semantic interpretation
+T82	引文作者 17418 17429	Hasan‐Rokem
+T83	引文作者 17432 17436	Katz
+T84	引文时间 17439 17443	2009
+T85	图 17580 17671	An instance sample of the Proverb Class ( for Proverb 3 in Table 1 ) is shown in Figure 1 .
+T86	术语 18568 18574	synset
+T87	术语 18603 18611	ontology
+T88	术语 18648 18655	synsets
+T89	术语 18677 18698	hyponymy relationship
+T90	具体模型 18739 18746	WordNet
+T91	术语 1072 1080	ontology
+T92	术语 1546 1563	IS‐A ( hyponymy )
+T93	术语 1568 1602	instance‐of ( a concrete type‐of )
+T94	术语 1694 1701	part‐of
+T95	术语 1708 1716	used‐for
+T96	术语 1764 1774	located‐at
+T97	术语 1781 1792	produced‐by
+T98	术语 1944 1950	triple
+T99	术语 2667 2682	domain ontology
+T100	术语 4215 4262	multidimensional or multiperspective ontologies
+T101	引文作者 18863 18868	Kuusi
+T102	引文作者 20339 20347	Bar‐Ilan
+T103	引文作者 20350 20368	Zhitomirsky‐Geffet
+T104	引文作者 20371 20377	Miller
+T105	引文作者 20382 20388	Shoham
+T106	引文时间 20391 20395	2012
+T107	具体模型 7969 7989	Europeana Data Model
+T108	引文作者 7992 7997	Winer
+T109	引文作者 7944 7949	Doerr
+T110	具体模型 15870 15872	CM
+T111	引文的方法 15957 16111	analyze the linguistic correspondence between a source and a target ( knowledge ) domain to determine the underlying reason for the source–target pairings
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	has_cited_time Arg1:T6 Arg2:T5	
+R4	has_cited_time Arg1:T9 Arg2:T8	
+R5	has_cited_time Arg1:T12 Arg2:T11	
+R7	has_cited_time Arg1:T14 Arg2:T13	
+R8	has_cited_time Arg1:T16 Arg2:T15	
+R9	has_cited_time Arg1:T17 Arg2:T15	
+R10	coauthor Arg1:T11 Arg2:T10	
+R11	coauthor Arg1:T5 Arg2:T4	
+R12	field_similar_as Arg1:T15 Arg2:T13	
+R13	coauthor Arg1:T21 Arg2:T22	
+R14	coauthor Arg1:T22 Arg2:T23	
+R15	coauthor Arg1:T23 Arg2:T24	
+R16	has_cited_time Arg1:T25 Arg2:T24	
+R20	has_cited_time Arg1:T29 Arg2:T109	
+R21	has_cited_time Arg1:T30 Arg2:T108	
+R22	has_cited_time Arg1:T31 Arg2:T108	
+R23	has_cited_time Arg1:T33 Arg2:T32	
+R24	coauthor Arg1:T35 Arg2:T34	
+R25	coauthor Arg1:T36 Arg2:T35	
+R26	has_cited_time Arg1:T37 Arg2:T36	
+R29	coauthor Arg1:T40 Arg2:T39	
+R30	coauthor Arg1:T41 Arg2:T40	
+R31	coauthor Arg1:T42 Arg2:T41	
+R32	has_cited_time Arg1:T43 Arg2:T42	
+R36	has_cited_time Arg1:T45 Arg2:T46	
+R39	coauthor Arg1:T46 Arg2:T47	
+R40	coauthor Arg1:T47 Arg2:T48	
+R41	field_similar_as Arg1:T108 Arg2:T109	
+R42	coauthor Arg1:T49 Arg2:T50	
+R43	coauthor Arg1:T50 Arg2:T51	
+R44	coauthor Arg1:T51 Arg2:T52	
+R45	has_cited_time Arg1:T53 Arg2:T52	
+R49	has_cited_time Arg1:T60 Arg2:T59	
+R3	coauthor Arg1:T54 Arg2:T55	
+R6	coauthor Arg1:T55 Arg2:T56	
+R17	coauthor Arg1:T56 Arg2:T57	
+R18	has_cited_time Arg1:T58 Arg2:T57	
+R19	field_similar_as Arg1:T52 Arg2:T54	
+R27	has_cited_time Arg1:T65 Arg2:T64	
+R28	has_cited_time Arg1:T68 Arg2:T67	
+R33	field_similar_as Arg1:T64 Arg2:T67	
+R34	has_cited_time Arg1:T73 Arg2:T72	
+R35	has_cited_time Arg1:T80 Arg2:T79	
+R37	has_cited_time Arg1:T77 Arg2:T76	
+R38	uses Arg1:T79 Arg2:T111	
+R46	coauthor Arg1:T83 Arg2:T82	
+R47	has_cited_time Arg1:T84 Arg2:T83	
+R48	coauthor Arg1:T102 Arg2:T103	
+R50	coauthor Arg1:T103 Arg2:T104	
+R51	coauthor Arg1:T104 Arg2:T105	
+R52	has_cited_time Arg1:T106 Arg2:T105	
+T112	具体模型 8907 8911	SAWS

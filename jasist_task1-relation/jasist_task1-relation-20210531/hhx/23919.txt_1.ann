@@ -1,0 +1,571 @@
+T1	引文时间 415 419	2009
+T2	引文作者 397 412	Tansley & Tolle
+T3	引文的结果 249 394	Scientists can now form interdisciplinary , international collaborative teams surrounded by data to conduct the so‐called data intensive research
+T4	引文时间 535 539	2001
+T5	引文作者 517 531	George Johnson
+T7	时间 833 837	2003
+T8	引文作者 542 549	Johnson
+T9	引文时间 552 556	2001
+T11	引文作者 1191 1198	Collins
+T12	引文作者 1201 1207	Morgan
+T13	引文作者 1212 1220	Patrinos
+T14	引文时间 1223 1227	2003
+T15	术语 923 951	Emerging Cyberinfrastructure
+T16	引文作者 1404 1410	Newman
+T17	引文作者 1413 1421	Ellisman
+T18	引文作者 1426 1432	Orcutt
+T19	引文时间 1435 1439	2003
+T20	引文作者 1566 1572	Howard
+T21	引文时间 1575 1579	2015
+T22	引文作者 1672 1678	Nelson
+T23	引文作者 1681 1685	Wade
+T24	引文时间 1688 1692	2015
+T25	时间 1812 1816	2004
+T26	引文作者 1901 1910	Arzberger
+T27	引文作者 1913 1922	Schroeder
+T28	引文作者 1925 1933	Beaulieu
+T29	引文作者 1938 1944	Bowker
+T30	引文时间 1947 1951	2004
+T31	引文的结果 1958 2031	The framework argued that data sharing helps develop a democratic society
+T32	引文作者 2034 2042	Harrison
+T33	引文时间 2052 2056	2012
+T34	引文的结果 2061 2109	enhances the transparency of scientific research
+T35	引文作者 2112 2120	Parmesan
+T36	引文作者 2123 2127	Yohe
+T37	引文时间 2130 2134	2003
+T38	引文的结果 2139 2185	allows for reproducing and validating research
+T39	引文作者 2188 2193	Nosek
+T40	引文时间 2203 2207	2015
+T41	引文的结果 2216 2280	unleashes the potential of data to solve complex societal issues
+T42	引文作者 2283 2289	Zimmet
+T43	引文作者 2292 2299	Alberti
+T44	引文作者 2304 2308	Shaw
+T45	引文时间 2311 2315	2001
+T10	术语 766 806	high‐energy and nuclear physics ( HENP )
+T46	引文作者 2633 2653	Nature Editor , n.d.
+T47	引文的结果 2485 2630	Nature requires authors to “ make materials , data , code , and associated protocols promptly available to readers without undue qualifications ”
+T48	引文的结果 2745 2983	“ share with other researchers , at no more than incremental cost and within a reasonable time , the primary data , samples , physical collections and other supporting materials created or gathered in the course of work under NSF grants ”
+T50	引文作者 3134 3153	Clarivate Analytics
+T51	引文时间 3481 3485	2011
+T52	引文时间 3218 3222	2010
+T53	引文作者 3211 3215	Lyon
+T54	软件工具 3112 3131	Data Citation Index
+T55	软件工具 3167 3175	SageCite
+T56	引文作者 3460 3469	Ingwersen
+T57	引文作者 3472 3478	Chavan
+T58	引文的结果 3243 3457	a set of Data Usage Index ( DUI ) indicators was formalized and proposed in biological fields , based on data set features ( i.e. , geographical location , size , and time ) , search events , and download instances
+T59	引文时间 4181 4185	2014
+T60	引文的结果 4186 4331	study on oceanography data access found that only about 12 % papers formally cited the used data sets , while others only mentioned them in texts
+T61	引文作者 4334 4340	Belter
+T62	引文时间 4343 4347	2014
+T63	研究问题 4540 4680	This paper employs a content analysis method to a multidisciplinary full‐text corpus to gain insights into data set mentions and citations .
+T64	引文作者 5051 5057	MELODA
+T65	引文时间 5060 5064	2016
+T66	研究方法 4800 4892	In this study , we utilized the concept from the open data discipline to define “ data set ”
+T67	引文的结果 4895 5048	data set is a group of structured data retrievable with a link or other indexes as a whole , and is the unit of information released in data repositories
+T68	研究问题 5071 5264	This paper addresses the following questions : What disciplinary characteristics can be identified regarding data set collection , mention , and accessibility using full‐text content analysis ?
+T69	引文作者 5853 5860	Piwowar
+T70	引文作者 5863 5869	Vision
+T71	引文时间 5872 5876	2013
+T72	引文作者 5879 5886	Sturges
+T73	引文时间 5896 5900	2015
+T74	引文的结果 5760 5850	Data access and sharing allows valuable information to contribute beyond original analyses
+T75	引文的结果 6146 6298	data sharing helps avoid duplicated data collections and save considerable effort , which may enable new forms of collaboration and scholarly publishing
+T76	引文作者 6301 6307	Hodson
+T77	引文作者 6317 6323	Altman
+T78	引文作者 6326 6333	Borgman
+T79	引文作者 6336 6342	Crosas
+T80	引文作者 6347 6353	Matone
+T81	引文时间 6356 6360	2015
+T82	引文时间 6310 6314	2009
+T83	引文时间 6848 6852	2011
+T84	引文时间 6539 6543	2011
+T85	引文的结果 6551 6828	that a majority of researchers stored their data for a short term after publishing and they were satisfied with the present status of data sharing , but they also showed the willingness to share data if organizations and journals provided sufficient support for data management
+T86	引文作者 6831 6838	Tenopir
+T87	引文的结果 6943 7166	many CENS researchers uploaded their data to personal or organizational websites rather than data repositories and provided links when receiving data requests , which makes it difficult to discover data by other researchers
+T89	引文的结果 7171 7251	Data sharing is indeed becoming a more demand‐driven than supply‐driven behavior
+T90	引文作者 7254 7260	Wallis
+T91	引文作者 7263 7270	Rolando
+T92	引文作者 7275 7282	Borgman
+T93	引文时间 7285 7289	2013
+T94	引文时间 7392 7401	2009–2010
+T95	引文时间 7406 7415	2013–2014
+T96	引文的结果 7418 7538	saw an increase in data sharing interests and activities , along with increasing worries about the risks of data sharing
+T97	引文作者 7543 7550	Tenopir
+T98	引文的结果 7572 7833	some differences among researchers from different age groups , areas , and disciplines ; for instance , younger researchers expressed higher willingness to share data and use others ' data , while the actual data‐sharing behaviors are contrary to the perception
+T99	引文作者 7836 7843	Tenopir
+T100	引文时间 7853 7857	2015
+T101	引文的结果 7875 8168	they found a distinct division between the disciplines involving data of human subjects , such as Medicine and Health Science , Social Sciences , and Business and those do not―specifically , scholars in the former disciplines showed less willingness to share their data and reuse others ' data
+T103	引文作者 8448 8453	Huang
+T104	引文时间 8463 8467	2012
+T106	引文作者 8696 8701	Oushy
+T107	引文时间 8711 8715	2015
+T102	引文的结果 8173 8445	In a study on biodiversity data sharing , about half of the respondents expressed their unwillingness of sharing primary data before publishing―even within their research community―with lack of benefits and concerns of competition with colleagues being the leading factors
+T105	引文的结果 8474 8693	In the domain of cancer research , the main reasons for unwillingness to share existing collections of biospecimens include the high investment in collecting these data and too many specifications of using biorepository
+T108	引文的结果 8849 8903	Management of research data has been put on the agenda
+T109	引文作者 8906 8912	Helbig
+T110	引文作者 8915 8924	Hausstein
+T111	引文作者 8929 8936	Toepfer
+T112	引文的结果 8948 9151	for instance , American Meteorological Society ( AMS ) journals made a commitment to promoting full and open access to data in 2013 , expecting all papers to contain detailed descriptions of data sources
+T113	时间 9075 9079	2013
+T114	引文的结果 9156 9322	Scholars are dedicated to promoting data publication as well , because it is their belief that data should be considered as research outputs and published as articles
+T115	引文作者 9325 9334	Thorisson
+T116	引文时间 9337 9341	2009
+T117	引文作者 9344 9352	Costello
+T118	引文时间 9355 9359	2009
+T119	引文作者 9362 9367	Helly
+T120	引文作者 9370 9379	Staudigel
+T121	引文作者 9384 9391	Koppers
+T122	引文时间 9394 9398	2003
+T123	引文作者 9401 9410	Staudigel
+T124	引文时间 9420 9424	2003
+T126	引文作者 9562 9569	Parsons
+T127	引文作者 9572 9577	Duerr
+T128	引文作者 9582 9589	Minster
+T129	引文时间 9592 9596	2010
+T131	引文作者 9625 9633	Costello
+T132	引文作者 9636 9644	Michener
+T133	引文作者 9647 9654	Gahegan
+T134	引文作者 9657 9662	Zhang
+T135	引文作者 9667 9673	Bourne
+T136	引文时间 9676 9680	2013
+T137	引文的结果 9687 9781	Because data publication could make scientists ' work more visible and increase citation rates
+T138	引文作者 9784 9791	Piwowar
+T139	引文作者 9794 9797	Day
+T140	引文作者 9802 9809	Fridsma
+T141	引文时间 9812 9816	2007
+T142	引文的结果 9821 9860	there is an incentive to publish data .
+T143	引文的结果 9863 10047	Another critical aspect of managing research data is to formalize data citations , as data citations are rapidly emerging as a key practice supporting data access , sharing , and reuse
+T144	引文作者 10050 10056	Altman
+T145	引文时间 10066 10070	2015
+T146	引文的结果 10077 10224	Article and book citation standards have promoted scientific progress enormously , while there are no such universal standards for citing data sets
+T147	引文作者 10227 10233	Altman
+T148	引文作者 10236 10240	King
+T149	引文时间 10243 10247	2007
+T150	引文的结果 10254 10352	Nevertheless , a number of publishers are crafting their publication policies about data citations
+T151	引文作者 10355 10358	Lin
+T152	引文作者 10361 10369	Strasser
+T153	引文时间 10372 10376	2014
+T154	引文的结果 10514 10718	Some journals recommend providing access to data , but authors sometimes do not submit their data , nor do they have the incentive to provide access to their data sets after getting their papers published
+T155	引文作者 10721 10727	Savage
+T156	引文作者 10730 10737	Vickers
+T157	引文时间 10740 10744	2009
+T158	引文的结果 10751 10916	In most fields , the “ bibliographic citation ” still refers to formal and structured reference of academic articles , other than the data on which the findings rely
+T159	引文作者 10919 10925	Altman
+T160	引文时间 10935 10939	2015
+T161	引文的结果 10946 11133	It seems to be a dilemma that scientists agree that data sharing is important and demand access to data sets created by others , but only a small number of them actually shared their data
+T162	引文作者 11136 11140	Smit
+T163	引文时间 11143 11147	2010
+T164	引文的结果 11154 11221	For those who provided data access , there is a lack of consistency
+T165	引文作者 11224 11229	Starr
+T166	引文作者 11232 11237	Gastl
+T167	引文时间 11240 11244	2011
+T168	引文的结果 11251 11380	Although some data citation standards and data identifiers have been developed , most authors do not cite data sets appropriately
+T169	引文作者 11383 11392	Thorisson
+T170	引文时间 11395 11399	2009
+T171	引文的结果 11404 11468	resulting in a gap between data citation standards and practices
+T172	引文作者 11488 11494	Belter
+T173	引文的结果 11495 11750	attempted to generate citation counts of three highly used data sets located in the National Oceanographic Data Center , but found that citation methods to these data sets are inconsistent , even though each data set has suggested a formal citation format
+T174	引文作者 11753 11759	Belter
+T175	引文时间 11762 11766	2014
+T176	引文的结果 11773 11893	Instead of using formal and structured references , many authors just used vague descriptions of data samples or sources
+T177	引文作者 11896 11905	Staudigel
+T178	引文时间 11915 11919	2003
+T179	引文的结果 11924 12016	which is difficult for readers to identify and find the data sets related to a given paper .
+T180	引文的研究问题 12019 12266	In one study , researchers created a DCAI ( Data Citation Adequacy Index ) rubric to evaluate the performance of articles on data citation , which takes into consideration key data citation elements such as identifiers and locations of citations .
+T181	引文的结果 12269 12388	The authors concluded that data citation remains haphazard and infrequent after so many years of data citation movement
+T182	引文作者 12391 12397	Mooney
+T183	引文作者 12400 12406	Newton
+T184	引文时间 12409 12413	2012
+T185	引文的结果 12420 12541	The underlying reasons are complicated , involving the differences of ages , geographic regions , subjects , and cultures
+T186	引文作者 12544 12551	Tenopir
+T187	引文时间 12561 12565	2015
+T188	引文的结果 12572 12611	A major cause is the lack of incentives
+T189	引文作者 12614 12621	Borgman
+T190	引文时间 12624 12628	2012
+T191	引文的结果 12635 12799	Most current policies require and recommend authors to share or make data available , but without explicit claims of authorship , cost , and payment of data sharing
+T192	引文作者 12802 12807	Oushy
+T193	引文时间 12817 12821	2015
+T194	引文的结果 12826 12860	authors have no incentive to do so
+T195	引文作者 12863 12870	Piwowar
+T196	引文作者 12873 12880	Chapman
+T197	引文时间 12883 12887	2008
+T198	引文的结果 12894 12972	Other reasons include technical issues , policy issues , and property concerns
+T199	引文作者 12975 12983	Costello
+T200	引文时间 12986 12990	2009
+T201	引文的结果 12997 13065	For example , researchers may not know where and how to archive data
+T202	引文作者 13068 13074	Wallis
+T203	引文时间 13084 13088	2013
+T204	引文的结果 13093 13382	or are not sure whether they have the permission to publish the data , worried that some individuals or organizations may get commercial benefits from using the data , or they may just lack the time and funding to easily and efficiently process the data to publish them in public platforms
+T205	引文作者 13385 13390	Huang
+T206	引文时间 13400 13404	2012
+T207	引文的结果 13411 13528	They also have the concern that other researchers may scoop the analyses they have planned to implement in the future
+T208	引文作者 13531 13538	Piwowar
+T209	引文作者 13541 13547	Vision
+T210	引文时间 13550 13554	2013
+T211	引文的结果 13561 13723	One way of dealing with this problem is to establish a reward system by which researchers could receive credits from the efforts and time invested in data sharing
+T212	引文作者 13726 13736	Hirschfeld
+T213	引文时间 13739 13743	2012
+T214	引文的结果 13749 13827	uch as efforts in collecting , achieving , maintaining , and publishing data .
+T215	引文的结果 13830 13986	Other ways that are helpful to promote data sharing are the development of user‐friendly data management tools and the data‐sharing training for researchers
+T216	引文作者 13989 13996	Tenopir
+T217	引文时间 14006 14010	2015
+T218	引文的结果 14017 14171	Moreover , new policies and programs ( e.g. , DataNET , DataOne ) will not only bring attention to this issue , but also offer resources to make it easier
+T219	引文作者 14174 14181	Tenopir
+T220	引文时间 14191 14195	2011
+T221	引文的结果 14202 14311	Meanwhile , it is important that the policy framework needs to be designed from the researchers ' perspective
+T222	引文作者 14314 14320	Fecher
+T223	引文作者 14323 14331	Friesike
+T224	引文作者 14336 14342	Hebing
+T225	引文时间 14345 14349	2015
+T226	引文的研究问题 14399 14422	mostly in data citation
+T227	引文作者 14425 14440	Robinson‐García
+T228	引文作者 14443 14460	Jiménez‐Contreras
+T229	引文作者 14465 14479	Torres‐Salinas
+T230	引文时间 14482 14486	2015
+T231	引文作者 14489 14495	Chavan
+T232	引文时间 14505 14509	2010
+T233	引文作者 14512 14518	Kafkas
+T234	引文作者 14521 14524	Kim
+T235	引文作者 14527 14529	Pi
+T236	引文作者 14534 14542	McEntyre
+T237	引文时间 14545 14549	2015
+T238	引文作者 14552 14558	Mooney
+T239	引文作者 14561 14567	Newton
+T240	引文时间 14570 14574	2012
+T241	引文的研究问题 14579 14589	data reuse
+T242	引文作者 14592 14599	Piwowar
+T243	引文作者 14602 14609	Carlson
+T244	引文作者 14614 14620	Vision
+T245	引文时间 14623 14627	2011
+T246	引文作者 14630 14637	Piwowar
+T247	引文作者 14640 14646	Vision
+T248	引文时间 14649 14653	2013
+T249	引文的研究问题 14662 14674	data metrics
+T250	引文作者 14677 14683	Costas
+T251	引文作者 14686 14692	Meijer
+T252	引文作者 14695 14701	Zahedi
+T253	引文作者 14706 14713	Wouters
+T254	引文时间 14716 14720	2013
+T255	引文作者 14723 14730	Konkiel
+T256	引文时间 14733 14737	2013
+T257	引文的方法 14744 14907	Most studies were from the standpoint of data sets , usually starting with some data repositories , databases , or data sets , and then exploring how they are used
+T258	引文作者 14910 14916	Kafkas
+T259	引文时间 14926 14930	2015
+T260	引文的方法 14935 14941	reused
+T261	引文的方法 14970 14978	or cited
+T262	引文作者 14944 14951	Piwowar
+T263	引文时间 14961 14965	2011
+T264	引文作者 14981 14987	Belter
+T265	引文时间 14990 14994	2014
+T266	引文作者 14997 15012	Robinson‐García
+T267	引文时间 15022 15026	2015
+T268	引文的方法 15033 15134	These studies typically used data identifiers to retrieve data sets and conducted respective analyses
+T269	引文作者 15137 15152	Robinson‐García
+T270	引文时间 15162 15166	2015
+T271	引文作者 15169 15176	Piwowar
+T272	引文时间 15186 15190	2011
+T273	引文作者 15193 15200	Piwowar
+T274	引文作者 15203 15209	Vision
+T275	引文时间 15212 15216	2013
+T276	引文的结果 15369 15466	As studies showed that data sets are mentioned in full texts more often than being formally cited
+T277	引文作者 15469 15475	Belter
+T278	引文时间 15478 15482	2014
+T279	引文作者 15485 15491	Kafkas
+T280	引文时间 15501 15505	2015
+T281	引文的结果 15510 15789	there is the need to provide full‐text analytics of articles to gain insights of data use , to understand the different characteristics of data citation in multiple disciplines , and , beyond that , to provide clues for making practical data attribution and citation guidelines .
+T282	数据源 15869 15877	PLoS One
+T284	时间 16053 16070	On June 12 , 2015
+T285	自建数据集 16073 16140	we retrieved all papers published between 01/01/2014 and 06/12/2015
+T283	数据源 15969 16020	http : //www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
+T286	数据源 15933 15947	PubMed Central
+T287	数据源 16201 16209	PLoS One
+T288	表 16259 16533	Because some research areas are quite similar ( e.g. , Biology and Biology and Life Sciences ) , we regrouped them into 12 disciplines based on research similarities , as shown in Table 1 ( the number of the publications in each category is included in Appendix Table A1 ) .
+T289	研究方法 17071 17186	from the whole dataset , we randomly sampled 50 papers from each discipline , which resulted in 600 papers in total
+T290	数据源 17385 17413	Medicine and Health Sciences
+T291	表 17420 17516	compared the results with the previous 50 articles , with the results shown in Appendix Table A2
+T293	研究方法 17753 17808	We employed content analysis as the research instrument
+T292	研究结果 17521 17686	As expected , there exist differences between the two samples , but the differences are insignificant and the overall patterns are consistent between the two samples
+T294	引文的结果 17813 17907	Content analysis is an effective method to discover quantitative patterns from textual corpora
+T295	引文作者 17910 17915	Bauer
+T296	引文时间 17918 17922	2000
+T297	引文作者 17925 17932	Herring
+T298	引文时间 17935 17939	2010
+T299	引文作者 17942 17954	Krippendorff
+T300	引文时间 17957 17961	2004
+T302	引文作者 18193 18197	Tsou
+T303	引文作者 18200 18208	Thelwall
+T304	引文作者 18211 18218	Mongeon
+T305	引文作者 18223 18231	Sugimoto
+T306	引文时间 18234 18238	2014
+T307	引文的研究问题 18243 18272	political campaign strategies
+T301	引文的研究问题 18155 18190	patterns of disciplinary discourses
+T308	引文的研究问题 18311 18337	culture‐invoked mass media
+T309	引文作者 18340 18344	Tang
+T310	引文时间 18347 18351	2011
+T311	研究方法 18457 18569	allowing researchers to use a set of guidelines ( i.e. , coding schemes ) to systematically make sense of data .
+T312	研究方法 18572 18678	The first step of coding is to determine the research objectives and create an unambiguous coding scheme .
+T313	研究方法 18681 18775	Based on the research objectives stated in the Introduction , we created a draft coding scheme
+T314	研究方法 18780 18949	We then adopted the grounded theory approach and applied the draft scheme to a subset of the dataset with the goal to identify previously unnoticed yet valuable patterns
+T315	表 18950 19054	this process helped us further improve the coding scheme and the finalized version is shown in Table 2 .
+T316	引文的结果 19057 19179	Most coding items are pre‐coordinated , while new codes may emerge during coding , which are referred to as emergent codes
+T317	引文作者 19182 19189	Saldana
+T318	引文时间 19192 19196	2009
+T319	研究方法 19203 19243	We marked the emergent codes with “ *. ”
+T320	研究问题 19440 19517	In order to measure the interrater reliability ( IRR ) between the two coders
+T321	研究方法 19520 19724	we employed Cohen 's kappa coefficient and achieved an IRR of 0.86 , which is considered to provide sufficient reliability for one coder to code all the papers ; so then one coder coded all 600 articles .
+T322	表 19727 19782	IRR for each coding item in Table 2 is seen in Table A3
+T325	引文的结果 21748 21908	An advantage of content analysis is that it allows researchers to use their knowledge and an unequivocal scheme to make sense of data , which increases accuracy
+T326	引文作者 21911 21916	Hsieh
+T327	引文作者 21919 21926	Shannon
+T328	引文时间 21929 21933	2005
+T329	图 22209 22217	Figure 1
+T330	数据源 22311 22317	PubMed
+T331	数据源 22320 22326	Embase
+T332	图 22441 22449	Figure 2
+T333	数据源 22774 22780	PubMed
+T334	数据源 22785 22788	CBM
+T335	数据源 22911 22917	Embase
+T336	数据源 22922 22935	Wan Fang Data
+T337	研究方法 22971 23063	we first reveal several key aspects of data mentions and citations based on all coded papers
+T338	研究方法 23068 23180	We then present the disciplinary characteristics of data mentions and citations for each of the 12 disciplines .
+T339	图 23183 23279	We counted the number of articles in each coding category , with the results shown in Figure 3 .
+T341	研究结果 23395 23487	mong the 600 articles in the dataset , 52 % ( 312 articles ) used datasets in their research
+T342	研究结果 23492 23631	Within the 312 articles , only 45 % had data or data‐related sections , while the others mentioned data sources in method or other sections
+T343	术语 3905 3908	DOI
+T344	术语 3913 3916	URL
+T88	术语 6885 6929	Center for Embedded Network Sensing ( CENS )
+T347	引文时间 8939 8943	2015
+T348	术语 12056 12093	DCAI ( Data Citation Adequacy Index )
+T125	引文的研究问题 9547 9559	peer reviews
+T130	引文的研究问题 9603 9622	editorial judgments
+T349	术语 14239 14255	policy framework
+T350	术语 15294 15297	DOI
+T351	术语 19541 19558	kappa coefficient
+T352	术语 19575 19578	IRR
+T353	术语 19727 19730	IRR
+T49	术语 7229 7251	supply‐driven behavior
+T6	引文的结果 428 481	All science , it seems , is becoming computer science
+R1	results Arg1:T2 Arg2:T3	
+R2	results Arg1:T5 Arg2:T6	
+R3	has_cited_time Arg1:T1 Arg2:T2	
+R4	has_cited_time Arg1:T4 Arg2:T5	
+R5	field_similar_as Arg1:T8 Arg2:T5	
+R6	has_cited_time Arg1:T9 Arg2:T8	
+R13	coauthor Arg1:T16 Arg2:T17	
+R14	coauthor Arg1:T18 Arg2:T17	
+R18	has_cited_time Arg1:T19 Arg2:T18	
+R19	has_cited_time Arg1:T21 Arg2:T20	
+R21	coauthor Arg1:T23 Arg2:T22	
+R22	has_cited_time Arg1:T24 Arg2:T23	
+R23	coauthor Arg1:T26 Arg2:T27	
+R26	coauthor Arg1:T27 Arg2:T28	
+R28	coauthor Arg1:T28 Arg2:T29	
+R32	has_cited_time Arg1:T30 Arg2:T29	
+R33	results Arg1:T32 Arg2:T31	
+R34	has_cited_time Arg1:T33 Arg2:T32	
+R35	results Arg1:T35 Arg2:T34	
+R36	coauthor Arg1:T36 Arg2:T35	
+R37	has_cited_time Arg1:T37 Arg2:T36	
+R40	has_cited_time Arg1:T40 Arg2:T39	
+R41	results Arg1:T42 Arg2:T41	
+R47	has_cited_time Arg1:T45 Arg2:T44	
+R48	coauthor Arg1:T43 Arg2:T42	
+R49	coauthor Arg1:T44 Arg2:T43	
+R51	results Arg1:T46 Arg2:T47	
+R52	results Arg1:T50 Arg2:T48	
+R53	has_cited_time Arg1:T52 Arg2:T53	
+R54	field_similar_as Arg1:T50 Arg2:T53	
+R55	results Arg1:T56 Arg2:T58	
+R56	coauthor Arg1:T57 Arg2:T56	
+R59	has_cited_time Arg1:T51 Arg2:T57	
+R62	has_cited_time Arg1:T62 Arg2:T61	
+R63	results Arg1:T61 Arg2:T60	
+R64	has_cited_time Arg1:T59 Arg2:T61	
+R65	results Arg1:T64 Arg2:T67	
+R66	has_cited_time Arg1:T65 Arg2:T64	
+R67	results Arg1:T69 Arg2:T74	
+R68	coauthor Arg1:T70 Arg2:T69	
+R69	field_similar_as Arg1:T69 Arg2:T72	
+R71	has_cited_time Arg1:T71 Arg2:T69	
+R73	has_cited_time Arg1:T73 Arg2:T72	
+R76	results Arg1:T76 Arg2:T75	
+R77	has_cited_time Arg1:T82 Arg2:T76	
+R81	has_cited_time Arg1:T81 Arg2:T80	
+R86	coauthor Arg1:T77 Arg2:T78	
+R91	coauthor Arg1:T80 Arg2:T79	
+R93	has_cited_time Arg1:T83 Arg2:T86	
+R98	results Arg1:T86 Arg2:T85	
+R99	results Arg1:T90 Arg2:T87	
+R101	results Arg1:T90 Arg2:T89	
+R103	coauthor Arg1:T90 Arg2:T91	
+R104	coauthor Arg1:T91 Arg2:T92	
+R108	has_cited_time Arg1:T93 Arg2:T92	
+R109	results Arg1:T97 Arg2:T96	
+R110	has_cited_time Arg1:T94 Arg2:T97	
+R111	has_cited_time Arg1:T95 Arg2:T97	
+R112	results Arg1:T99 Arg2:T98	
+R113	has_cited_time Arg1:T100 Arg2:T99	
+R115	results Arg1:T103 Arg2:T102	
+R114	results Arg1:T99 Arg2:T101	
+R116	has_cited_time Arg1:T104 Arg2:T103	
+R117	results Arg1:T106 Arg2:T105	
+R118	has_cited_time Arg1:T107 Arg2:T106	
+R119	results Arg1:T109 Arg2:T108	
+R124	has_cited_time Arg1:T347 Arg2:T111	
+R125	coauthor Arg1:T109 Arg2:T110	
+R127	coauthor Arg1:T110 Arg2:T111	
+R136	has_cited_time Arg1:T116 Arg2:T115	
+R144	coauthor Arg1:T119 Arg2:T120	
+R146	coauthor Arg1:T120 Arg2:T121	
+R147	has_cited_time Arg1:T118 Arg2:T117	
+R150	has_cited_time Arg1:T122 Arg2:T121	
+R151	has_cited_time Arg1:T124 Arg2:T123	
+R152	produces Arg1:T126 Arg2:T125	
+R157	has_cited_time Arg1:T129 Arg2:T128	
+R158	produces Arg1:T131 Arg2:T130	
+R163	coauthor Arg1:T132 Arg2:T131	
+R164	coauthor Arg1:T133 Arg2:T132	
+R165	coauthor Arg1:T134 Arg2:T133	
+R171	coauthor Arg1:T135 Arg2:T134	
+R176	has_cited_time Arg1:T136 Arg2:T135	
+R177	results Arg1:T138 Arg2:T137	
+R180	results Arg1:T138 Arg2:T142	
+R185	has_cited_time Arg1:T141 Arg2:T140	
+R186	coauthor Arg1:T138 Arg2:T139	
+R187	coauthor Arg1:T139 Arg2:T140	
+R189	results Arg1:T144 Arg2:T143	
+R190	has_cited_time Arg1:T145 Arg2:T144	
+R191	results Arg1:T147 Arg2:T146	
+R194	has_cited_time Arg1:T149 Arg2:T148	
+R195	coauthor Arg1:T147 Arg2:T148	
+R196	results Arg1:T151 Arg2:T150	
+R198	coauthor Arg1:T152 Arg2:T151	
+R200	has_cited_time Arg1:T153 Arg2:T152	
+R201	coauthor Arg1:T155 Arg2:T156	
+R203	has_cited_time Arg1:T157 Arg2:T156	
+R204	results Arg1:T155 Arg2:T154	
+R206	results Arg1:T159 Arg2:T158	
+R207	has_cited_time Arg1:T160 Arg2:T159	
+R208	results Arg1:T162 Arg2:T161	
+R209	has_cited_time Arg1:T163 Arg2:T162	
+R210	results Arg1:T165 Arg2:T164	
+R211	coauthor Arg1:T166 Arg2:T165	
+R213	has_cited_time Arg1:T167 Arg2:T166	
+R214	results Arg1:T169 Arg2:T168	
+R215	has_cited_time Arg1:T170 Arg2:T169	
+R216	results Arg1:T169 Arg2:T171	
+R217	results Arg1:T172 Arg2:T173	
+R218	results Arg1:T174 Arg2:T173	
+R219	has_cited_time Arg1:T175 Arg2:T174	
+R220	results Arg1:T177 Arg2:T176	
+R221	has_cited_time Arg1:T178 Arg2:T177	
+R222	results Arg1:T177 Arg2:T179	
+R223	results Arg1:T182 Arg2:T181	
+R224	produces Arg1:T182 Arg2:T180	
+R228	has_cited_time Arg1:T184 Arg2:T183	
+R229	coauthor Arg1:T183 Arg2:T182	
+R230	results Arg1:T186 Arg2:T185	
+R231	has_cited_time Arg1:T187 Arg2:T186	
+R232	results Arg1:T189 Arg2:T188	
+R233	has_cited_time Arg1:T190 Arg2:T189	
+R234	has_cited_time Arg1:T193 Arg2:T192	
+R235	results Arg1:T192 Arg2:T191	
+R236	results Arg1:T195 Arg2:T194	
+R237	coauthor Arg1:T196 Arg2:T195	
+R239	has_cited_time Arg1:T197 Arg2:T196	
+R240	results Arg1:T199 Arg2:T198	
+R241	has_cited_time Arg1:T200 Arg2:T199	
+R242	results Arg1:T202 Arg2:T201	
+R243	has_cited_time Arg1:T203 Arg2:T202	
+R244	has_cited_time Arg1:T206 Arg2:T205	
+R245	results Arg1:T205 Arg2:T204	
+R246	results Arg1:T208 Arg2:T207	
+R248	coauthor Arg1:T209 Arg2:T208	
+R250	has_cited_time Arg1:T210 Arg2:T209	
+R251	results Arg1:T212 Arg2:T211	
+R252	has_cited_time Arg1:T213 Arg2:T212	
+R253	results Arg1:T212 Arg2:T214	
+R254	results Arg1:T216 Arg2:T215	
+R255	has_cited_time Arg1:T217 Arg2:T216	
+R256	results Arg1:T219 Arg2:T218	
+R257	has_cited_time Arg1:T220 Arg2:T219	
+R258	coauthor Arg1:T222 Arg2:T223	
+R260	coauthor Arg1:T223 Arg2:T224	
+R263	has_cited_time Arg1:T225 Arg2:T224	
+R264	produces Arg1:T227 Arg2:T226	
+R265	coauthor Arg1:T228 Arg2:T227	
+R266	coauthor Arg1:T229 Arg2:T228	
+R272	has_cited_time Arg1:T230 Arg2:T229	
+R273	has_cited_time Arg1:T232 Arg2:T231	
+R274	coauthor Arg1:T233 Arg2:T234	
+R276	coauthor Arg1:T234 Arg2:T235	
+R279	coauthor Arg1:T235 Arg2:T236	
+R283	has_cited_time Arg1:T237 Arg2:T236	
+R284	coauthor Arg1:T239 Arg2:T238	
+R286	has_cited_time Arg1:T240 Arg2:T239	
+R287	produces Arg1:T242 Arg2:T241	
+R291	coauthor Arg1:T243 Arg2:T242	
+R293	coauthor Arg1:T244 Arg2:T243	
+R296	has_cited_time Arg1:T245 Arg2:T244	
+R298	has_cited_time Arg1:T248 Arg2:T247	
+R299	coauthor Arg1:T247 Arg2:T246	
+R300	produces Arg1:T250 Arg2:T249	
+R305	coauthor Arg1:T250 Arg2:T251	
+R307	coauthor Arg1:T251 Arg2:T252	
+R310	coauthor Arg1:T252 Arg2:T253	
+R311	has_cited_time Arg1:T254 Arg2:T253	
+R312	has_cited_time Arg1:T256 Arg2:T255	
+R317	field_similar_as Arg1:T242 Arg2:T246	
+R318	field_similar_as Arg1:T250 Arg2:T255	
+R319	uses Arg1:T258 Arg2:T257	
+R320	uses Arg1:T262 Arg2:T260	
+R321	has_cited_time Arg1:T259 Arg2:T258	
+R322	has_cited_time Arg1:T263 Arg2:T262	
+R323	uses Arg1:T264 Arg2:T261	
+R324	has_cited_time Arg1:T265 Arg2:T264	
+R325	has_cited_time Arg1:T267 Arg2:T266	
+R326	uses Arg1:T269 Arg2:T268	
+R327	has_cited_time Arg1:T270 Arg2:T269	
+R328	field_similar_as Arg1:T271 Arg2:T269	
+R329	has_cited_time Arg1:T272 Arg2:T271	
+R330	coauthor Arg1:T274 Arg2:T273	
+R331	field_similar_as Arg1:T271 Arg2:T273	
+R333	results Arg1:T277 Arg2:T276	
+R334	has_cited_time Arg1:T278 Arg2:T277	
+R335	has_cited_time Arg1:T280 Arg2:T279	
+R337	field_similar_as Arg1:T277 Arg2:T279	
+R338	select_time Arg1:T285 Arg2:T284	
+R339	results Arg1:T295 Arg2:T294	
+R342	has_cited_time Arg1:T296 Arg2:T295	
+R343	has_cited_time Arg1:T298 Arg2:T297	
+R344	has_cited_time Arg1:T300 Arg2:T299	
+R345	field_similar_as Arg1:T295 Arg2:T297	
+R347	field_similar_as Arg1:T297 Arg2:T299	
+R348	produces Arg1:T302 Arg2:T301	
+R353	produces Arg1:T302 Arg2:T307	
+R356	coauthor Arg1:T302 Arg2:T303	
+R358	coauthor Arg1:T303 Arg2:T304	
+R361	coauthor Arg1:T304 Arg2:T305	
+R362	has_cited_time Arg1:T310 Arg2:T309	
+R366	has_cited_time Arg1:T306 Arg2:T305	
+R367	results Arg1:T317 Arg2:T316	
+R368	has_cited_time Arg1:T318 Arg2:T317	
+R369	coauthor Arg1:T326 Arg2:T327	
+R370	results Arg1:T326 Arg2:T325	
+R373	has_cited_time Arg1:T328 Arg2:T327	
+R7	has_cited_time Arg1:T14 Arg2:T13	
+R8	coauthor Arg1:T11 Arg2:T12	
+R9	coauthor Arg1:T12 Arg2:T13	
+R10	results Arg1:T39 Arg2:T38	
+R11	coauthor Arg1:T79 Arg2:T78	
+R12	field_similar_as Arg1:T76 Arg2:T77	
+R15	has_cited_time Arg1:T84 Arg2:T86	
+R16	results Arg1:T109 Arg2:T112	
+R17	field_similar_as Arg1:T115 Arg2:T117	
+R20	field_similar_as Arg1:T117 Arg2:T123	
+R24	field_similar_as Arg1:T227 Arg2:T231	
+R25	field_similar_as Arg1:T231 Arg2:T233	
+R27	field_similar_as Arg1:T233 Arg2:T238	
+R29	has_cited_time Arg1:T275 Arg2:T274	
+R30	produces Arg1:T309 Arg2:T308	

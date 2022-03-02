@@ -1,0 +1,130 @@
+Search engines and web‐based , free‐content encyclopedias have become key tools for finding and extracting useful information from the tremendous amount of data that is available online . 
+When searching for information from multiple sources on the Internet , user needs vary from locating a single piece of information to exploring various sources and processing the information identified to create new knowledge . 
+Internet tools designed to visualize information are a central means for supporting users in identifying , structuring , and processing the necessary information . 
+The current study examines to what extent the use of information visualization ( IV ) tools and search tools contributes to the successful identification of information and exploration of topics in various search tasks for users with different levels of subject knowledge . 
+Knowledge ( graph ) map construction and clustering are important techniques to develop IV tools , as shown in previous studies ( Julien , Leide , & Bouthillier , 2008 ; Lechtenfeld & Fuhr , 2012 ; Liu , Barlowe , Feng , Yang , & Jiang , 2013 ) . 
+Liu et al . 
+( 2013 ) proposed an evaluation framework based on cognitive load theory ( CLT ) to investigate how cluster‐based exploratory visualization systems ( EVSs ) support information seeking in large news documents . 
+The results reveal that users provide considerable and useful feedback on the information organization in clustering‐based EVSs . 
+Hoeber ( 2013 ) conducted a longitudinal study of HotMap web search through the use of lightweight visual enhancements to the list‐based representation of web search results ; their real‐world user evaluation study yields a deeper understanding of how a specific novel visual feature and interactive web search interface is used for online information retrieval . 
+These studies analyzed the effectiveness of IV techniques to support browsing and searching , but they lack a proper analysis of the benefits of the respective IV tools during the search process . 
+Our study analyzes how IV tools support users during the search process and how this support is related to search outcome . 
+Some studies show that the interaction between users and information retrieval systems depends on user subject knowledge , that is , what they know about the search subject ( Hsieh‐Yee , 1993 ; Shiri & Revie , 2003 ; Vakkari , Pennanen , & Serola , 2003 ; Wildemuth , 2004 ) . 
+Results on the use of IV tools and related means suggest that experts benefit more from these tools in searching as compared with novices ( Parsons & Sedig , 2014 ; Sihvonen & Vakkari , 2004 ) . 
+The results on the use of these tools are scarce and scattered , and there is little information about the utility of IV tools in user groups of varying subject knowledge . 
+Therefore , it is important to study how subject knowledge is associated with the use of IV tools for various search tasks , as these results could determine whether designers should differentiate IV tools depending on user subject knowledge . 
+In this study , we design and evaluate multiple IV tools to support search from multiple information sources , such as encyclopedia‐based websites and search engines . 
+We analyze how the level of searcher subject knowledge is associated with the use of these tools and , consequently , with the search process and task outcome . 
+In this study , we explore how the features of IV tools help novices and intermediates . 
+Note that we use the terms “ novices ” and “ intermediates ” to differentiate the knowledge level for the knowledge management ( KM ) subject in this research : between novices and experts are intermediates . 
+In our study , novices possess no background knowledge of KM , whereas intermediates have at least a basic background knowledge of the KM subject . 
+In problem solving , intermediates fall between novices and experts ; although they possess a good deal of knowledge , it is not as well structured as that of experts ( Robertson , 2001 ) . 
+To provide aggregated searches , we extend WNavi s , our previous application , by integrating the search function with the query expansion technique . 
+Accordingly , the WikiMap+ application , also extended from our previous application , supports search for information . 
+Because this research focuses on the role of subject knowledge during the search process , we require different evaluation tasks ( Rossi , Lipsey , & Freeman , 2004 ) . 
+To evaluate the effectiveness of the proposed interface , we design a series of search tasks based on extended evaluation measures to examine how the developed tools help users accomplish the tasks and meet the goals defined in advance ( Wu & Vakkari , 2014 ) . 
+The research problems of this work focus mainly on the effects of the proposed interfaces on different levels of subject knowledge : How the level of user subject knowledge—that is , novices and intermediates—is associated with the use of IV tools and the search tool , and consequently with the search process and outcome . 
+What effects the IV tools and the search tool have for users with different levels of subject knowledge in the presented interfaces WNavi s and WikiMap+ in accomplishing various tasks . 
+We conduct a series of evaluations to observe the user search process and outcomes to measure effectiveness and efficiency . 
+We introduce the Gain indicator to show the relative value of benefit ( correctness ) and cost ( time ) . 
+We evaluate the proposed interfaces with respect to the task performance for users with different levels of subject knowledge to examine how the developed tools help user searches . 
+Two of the biggest challenges in the information retrieval ( IR ) field are how to present relevant information and how to distill valuable information ( Ahn & Brusilovsky , 2013 ; Manning , Raghavan , & Schüutze , 2008 ) . 
+There is a considerable amount of IR research on how reducing the cognitive load of users with visualization techniques to organize the information to support browsing , personalization , or to enable exploratory search activities ( Ahn & Brusilovsky , 2013 ; Hearst , 2009 ) . 
+User studies on IV evaluations , for instance , IV interfaces and data types , can be adopted to evaluate IV tools among novices versus experts . 
+Visualization techniques have been applied in several applications in IR—for instance , literature analysis , text analysis and understanding , visualization of document concordances , and word frequencies ( Hearst , 2009 ) . 
+The following research provides valuable insight into how visualization tools help users to search through or browse information . 
+Heo and Hirtle ( 2001 ) conducted an empirical study on the effects of different sizes of web spaces and different web visualization techniques—that is , distortion , zoom , or expanding outline techniques—on participants during information search tasks . 
+They analyzed the results in terms of accuracy and response time , showing that general participants using the expanding outline tool outperform those using other tool groups ; the worst‐performing participants utilize zoom techniques for the search tasks . 
+Interestingly , participants without visualization tools achieved similar performance as the best ones , who used the expanding outline tool . 
+Joho , Sanderson , and Beaulieu ( 2004 ) developed the CiQuest ( Concept‐based Interactive QUery Expansion Support Tool ) tool , integrated into the Okapi system to support information access in interactive searches . 
+The two basic functionalities of multidocument summarization and interactive query expansion are included in the CiQuest system . 
+Specifically , a concept hierarchy structure is generated from a set of retrieved documents and visualized in the interface . 
+The authors conducted a user study to investigate the usability of the system , which confirmed the effectiveness of the hierarchical structure in helping users select larger numbers of relevant search terms to explore concepts . 
+Joho and Jose ( 2008 ) conducted a comparative evaluation of textual and visual forms of document representation as additional components of document surrogates . 
+The textual‐based layout used sentence‐based summarization to represent top‐ranking sentences ( TRS ) , and the visual‐based layout integrated a thumbnail image of web pages into the baseline layout . 
+In total , 24 participants are recruited for the task‐based user study to analyze their query formulation , browsing , and click‐through URLs . 
+The results showed that poly‐representation helped searchers formulate queries . 
+They support the benefits of poly‐representation in interactive IR tools . 
+Ramdeen and Hemminger ( 2012 ) conducted a user study to investigate how a facet‐based search interface ( TextFacet ) affects the library catalog search experience of novice users compared with the traditional library catalog ( TextOnly ) interface . 
+They examined how user performance and preferences differ between the TextOnly and TextFacet search interfaces by using three common task types ( known , partially known , and exploratory ) in terms of time , accuracy , and rating . 
+The evaluation results showed that the participants need less time to answer questions using the TextFacet interface and feel more confident in their answers . 
+Moreover , 36 of 40 participants prefer the TextFacet interface . 
+Ahn and Brusilovsky ( 2013 ) proposed adaptive VIBE , a system that supports visualization‐based and personalized exploratory search . 
+VIBE visualizes target documents according to their similarity to special reference points called POIs . 
+The adaptive VIBE interface visualizes query POIs and user model POIs—those documents most similar to the user interests—in the system . 
+In total , 33 users were recruited in a user study to evaluate the system . 
+The system showed several advantages over text‐based , ranked‐list‐based static search systems . 
+Using the proposed system , users achieved higher precisions compared with the baseline personalization search system . 
+In addition , users were able to access and discover more diverse information and explore more subtopics using the personalized visualization features of the system . 
+Kangasrääsiö et al . 
+( 2014 ) presented Intent Radar , a visual interface for organizing intents onto a radial interface . 
+When users interact with the interface , the tool learns and visualizes improved intent estimates and suggests to users potential search directions . 
+Basically , their interface showed relevant and potentially relevant keywords on a radial layout . 
+They conducted a study with 30 users to compare the interface with a simpler list‐based interface , showing that the visual interface helps users to find relevant , better‐quality , and novel information and improve task performance . 
+Furthermore , Ruotsalo , Jacucci , Myllymaki , and Kaski ( 2015 ) used interactive intent modeling to enhance human information exploration through visualization , and adapt scientific principles to accomplish complex search tasks . 
+Their SciNet system for scientific literature search helped users explore topical information using rapid feedback loops . 
+Task‐based experiments were conducted where users solve research tasks using the system and a conventional information retrieval system . 
+The results showed that SciNet significantly improves user task performance and increases the recall of novel information without loss of precision . 
+Sihvonen and Vakkari ( 2004 ) explored how domain experts and novices in pedagogics search for information when using the ERIC thesaurus to improve interactive query expansion , and to what extent they found relevant references . 
+Fifteen experts were recruited from an advanced pedagogics course at the end of their undergraduate studies . 
+These experts had accumulated ∼25 of the required 40 credits for a BA in pedagogics . 
+The group of 15 novices had no previous experience with pedagogics ( i.e. , no credits in pedagogics ) . 
+Their results showed that experts exploit the terminological information provided by the thesaurus to improve their search effectiveness . 
+They note that interactive query expansion does not seem to help novices to formulate queries and achieve better search effectiveness . 
+Hence , one important issue in interactive studies is to further investigate the semantic content of query terms in relation to search effectiveness , especially to improve the search effectiveness of novices Duggan and Payne ( 2008 ) explored how domain knowledge affects search behavior and performance on the web . 
+They recruited 34 participants to search for answers to questions about leisure topics , such as football and pop music . 
+For each topic they assembled 15 questions using a range of sources , including experimenter knowledge and trivia websites . 
+To avoid ceiling effects , they used high‐difficulty questions . 
+All participants completed a knowledge test to measure their level of domain knowledge . 
+With one evaluation they differentiated users into higher and low domain knowledge groups by determining if users correctly answered any of the questions on the knowledge test . 
+The higher knowledge group answered at least one question correctly , but scored zero on the knowledge test . 
+Their results revealed that participant domain knowledge positively influences search scores , and showed that participants with greater domain knowledge spend less time on each webpage , use shorter queries , and thus complete more effective searches regardless of whether they know the answers before they searched the web . 
+Kang and Fu ( 2010 ) compared the search behavior of domain novices and experts when exploring information using a search engine and a social tagging system . 
+They used “ financial crisis ” as the topic for their exploratory search task . 
+Domain experts were defined as users with knowledge in finance or related areas , whereas novices had no professional knowledge in finance or related fields . 
+From users ’ self‐reported domain knowledge , they found significant differences between experts and novices . 
+They asked users to explore information using their assigned search interfaces : a traditional search engine ( Google ) or a social tagging system ( Delicious ) . 
+In Delicious , users used tag‐based queries ( tags chosen from popular tags or from other users ’ tags attached to each website title ) and keyword‐based queries ( keywords entered in the keyword search box ) . 
+The evaluation revealed that experts use keyword‐based queries and rely more on their domain knowledge in searching , whereas novices used more tag‐based queries . 
+Interestingly , in delicious.com , the social tagging system , experts tended to share more tags and agree with each other more often than novices . 
+These results have implications for the design of social information systems ; specifically , that designers should consider using domain experts to create high‐quality tags instead of relying solely on computer algorithms to generate them . 
+Liu , Zhang , and Huang ( 2016 ) examined the effects of objective task difficulty and domain knowledge ( i.e. , the medical domain ) on user query formulation behavior . 
+Participant domain knowledge levels were measured based on the average of two ratings : ( a ) self‐reported ratings on their familiarity with a set of MeSH terms and ( b ) self‐reported ratings on their expertise on the topic at hand . 
+The average rating was transformed into a z‐score to distinguish participants with different domain knowledge levels . 
+Objective difficulty was measured by the precision level of search topics ( as queries ) in the search system . 
+It is worth mentioning the inverse pattern of the effects of task difficulty on query similarity for searchers with different domain knowledge levels : domain experts had significantly higher query similarity in easy tasks than in difficult tasks , and they achieved lower task performance for difficult tasks as compared with easy tasks . 
+For novices , their search performance was very poor for both easy and difficult tasks . 
+This suggests that it would be helpful to share the queries of domain experts with novice searchers , especially for easy tasks , because experts have better task performance and have significantly high query similarity in easy tasks . 
+As shown in Figure 1 , we briefly introduce the system framework for the IV tools that support Wikipedia searches and knowledge learning . 
+First , the initial article that interests the user is defined as the seed article ( subject‐based query ) . 
+We employ internal‐link relationships and semantic analysis to measure the implicit relationship between articles . 
+For this purpose , we use the link strength‐based ( LS‐based ) hybrid measure to generate the topic network for a subject , that is , this work 's topic map ( TM ) . 
+We explained this hybrid measure in a previous work ( Wu & Vakkari , 2014 ) . 
+To help users explore topics efficiently , the interface generates topic‐based hierarchy trees ( HT ) based on link relationships within the TM . 
+Accordingly , the user can quickly browse the subject subtopics and understand the information context of the subject . 
+Finally , the system generates article summaries based on social network analysis ( SNA ) results ; that is , the interface displays different summarization results based on the type of network topology . 
+Based on this framework , we develop the WNavi S and WikiMap + interfaces . 
+There are few existing studies that simultaneously examine the issue of how IV tools and multiple information sources support users with different levels of subject knowledge . 
+Below , we introduce the three interfaces used for evaluation in this work . 
+The proposed framework . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] The basic Wikipedia interface allows experiment participants to access Wikipedia via browsers such as IE or Firefox to accomplish the assigned search task . 
+The WNavi s application consists of three tools : a TM , a topic‐based HT , and topic summaries . 
+Three tabs are present in the WNavi S interface : a TM , a topic‐based HT , and Wikipedia , as shown in Figures 2 , 3 , and 4 , respectively . 
+Figure 2 shows the use of a TM ( ① ) on the first tab . 
+In addition , a topic‐based HT ( ② ) is shown in the second tab ( ④ ) of the interface to provide users with an overview of the network , as shown in Figure 3 . 
+Finally , the third tab shows the Wikipedia page ( ⑤ ) , as shown in Figure 4 . 
+For answering questions , the user lists the retrieved articles on the right‐hand side of the interface ( ③ ) . 
+The interface enables users to easily find articles with similar subtopics . 
+For the nodes of the topic map , we use the same color as in the earliest version of the interface . 
+After receiving user feedback , we use algorithms to analyze the topic network ( TM ) by SNA methods—that is , centrality and cohesive measures—as shown in Table 1 . 
+We use four SNA indicators to identify and label the main topic , the subtopics of the main topic , the key articles of the subtopics in the network , and the bridge article . 
+Table 1 lists the labels used in association with SNA indicators using different colors and shapes to represent nodes based on the analyzed results . 
+Details of the technical approach can be found in previous works ( Wu & Vakkari , 2014 ; Wu & Wu , 2011 ) . 
+WNaviS Interface : Topic map . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] WNaviS Interface : Topic hierarchy tree . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] WNaviS Interface : Wikipedia . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] We extend the WNavi S interface by adding a search function and a term suggestion option to implement the WikiMap+ interface , as shown in the right side of Figure 4 . 
+In this interface there are three tabs : a TM , a topic‐based HT , and Wikipedia , as shown on the left sides of Figures 2 , 3 , and 4 . 
+Figure 5 shows the use of a topic map ( ① ) is on the first tab ( ② ) , as in WNavi S . 
+Specifically , users select the related topic ( blue nodes ) to generate suggested terms ( ⑦ ) , which they then use to execute a search ( ④ ) , as shown in Figure 5 . 
+The suggested terms are listed under the search bar near a refresh button that generates new terms ( ⑥ ) . 

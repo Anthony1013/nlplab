@@ -1,0 +1,78 @@
+T1	图 848 1030	As shown in Figure 4a , topic 23 { Image , Semantic , Annotation , Segmentation , PLSA } and topic 29 { Image , Visual , Object , Scene , Feature } start to decline from 2009 to 2011
+T2	时间 1013 1030	from 2009 to 2011
+T3	引文作者 1131 1133	Li
+T4	引文作者 1136 1138	Su
+T5	引文作者 1141 1145	Xing
+T6	引文作者 1150 1157	Fei‐Fei
+T7	引文时间 1160 1164	2010
+T8	图 2313 2489	As seen in Figure 5 , the left side shows each subject and the right side shows the corresponding topic , from which we can clearly verify the research themes of distinct areas
+T9	引文作者 3491 3502	Quackenbush
+T10	引文时间 3505 3509	2006
+T11	引文作者 3357 3360	Das
+T12	引文时间 3363 3367	2013
+T13	引文作者 3862 3872	Hatakeyama
+T14	引文时间 3882 3886	2015
+T15	引文作者 3982 3986	Wang
+T16	引文时间 3999 4003	2011
+T17	引文作者 4821 4829	Schwartz
+T18	引文时间 4842 4846	2013
+T19	引文作者 5428 5433	Priva
+T20	引文作者 5436 5446	Austerweil
+T21	引文时间 5449 5453	2015
+T22	图 5998 6127	Overall , the corresponding topics of each subject ( Figure 5 ) provides an in‐depth understanding of the diffusion of innovation
+T23	图 7375 7466	We depict the adoption time for different subjects during the LDA 's diffusion ( Figure 6 )
+T24	图 7862 8021	In Figure 6 , most of the subjects first cited LDA are through interdisciplinary researches , except Psychology and Pharmacology , Toxicology and Pharmaceutics
+T25	引文作者 8807 8818	van Leeuwen
+T26	引文作者 8821 8828	Tijssen
+T27	引文时间 8831 8835	2000
+T28	图 8925 9024	As shown in Figure 6 , Computer Science and Engineering are the earliest subjects to cite/adopt LDA
+T29	时间 9120 9136	in 2003 and 2013
+T30	时间 9314 9321	in 2012
+T31	图 9326 9689	The interdisciplinary diffusion order does not therefore depend on whether the subjects directly belong to the same subject areas By combining the subject topics ( Figure 5 ) and adoption times ( Figure 6 ) , one finds that the adoption times for different subjects are relatively adjacent and continuous in years when the subjects have similar research interests
+T32	时间 9951 9968	from 2003 to 2005
+T33	时间 10066 10082	in 2006 and 2007
+T34	引文作者 10651 10662	Bettencourt
+T35	引文作者 10665 10671	Kaiser
+T36	引文作者 10676 10680	Kaur
+T37	引文时间 10683 10687	2009
+T38	引文作者 10690 10695	Crane
+T39	引文作者 10698 10704	Kaplan
+T40	引文时间 10707 10711	1973
+T41	引文作者 10714 10721	Guimera
+T42	引文作者 10724 10728	Uzzi
+T43	引文作者 10731 10736	Spiro
+T44	引文作者 10741 10747	Amaral
+T45	引文时间 10750 10754	2005
+T46	软件工具 4923 4931	Facebook
+T47	时间 9231 9238	in 2004
+T48	研究结果 11591 11825	In summarizing the corresponding topics of each subject , from the adoption time of LDA in different subjects , innovation is seen to first diffuse to adjacent subjects , and then transfers along to others with the evolution of topics
+T49	研究结果 11442 11586	Also , topic‐level studies are found to play a critical role in bringing more granular perspectives to the existing co‐occurrence‐based analyses
+T50	研究展望 12822 12952	Finally , we only consider the direct citation while ignoring the indirect citations that can also represent the flow of knowledge
+T51	研究展望 13616 13795	Moreover , the evolution of LDA itself and similar technologies play an important role in the diffusion of innovation , and the interrelationships also need to be further explored
+T52	研究展望 13372 13611	This requires further analysis of the background and context of the citations ( e.g. , social network of the authors , and their full texts ) and identifying how LDA has been adopted , transferred , and improved during its diffusion phases
+T53	研究展望 13243 13367	Future work will focus on exploring factors that contribute to topic dynamics and patterns of the diffusion of an innovation
+T54	研究展望 13121 13238	To solve these problems , we need to use content‐based citation analysis to restore a comprehensive diffusion process
+R1	coauthor Arg1:T34 Arg2:T35	
+R2	coauthor Arg1:T35 Arg2:T36	
+R3	has_cited_time Arg1:T37 Arg2:T36	
+R4	coauthor Arg1:T38 Arg2:T39	
+R5	has_cited_time Arg1:T40 Arg2:T39	
+R6	coauthor Arg1:T41 Arg2:T42	
+R7	coauthor Arg1:T42 Arg2:T43	
+R8	coauthor Arg1:T43 Arg2:T44	
+R9	has_cited_time Arg1:T45 Arg2:T44	
+R10	field_similar_as Arg1:T34 Arg2:T38	
+R11	field_similar_as Arg1:T38 Arg2:T41	
+R12	coauthor Arg1:T25 Arg2:T26	
+R13	has_cited_time Arg1:T27 Arg2:T26	
+R14	coauthor Arg1:T19 Arg2:T20	
+R15	has_cited_time Arg1:T21 Arg2:T20	
+R16	has_cited_time Arg1:T18 Arg2:T17	
+R17	has_cited_time Arg1:T16 Arg2:T15	
+R18	has_cited_time Arg1:T14 Arg2:T13	
+R19	has_cited_time Arg1:T10 Arg2:T9	
+R20	has_cited_time Arg1:T12 Arg2:T11	
+R21	coauthor Arg1:T3 Arg2:T4	
+R22	coauthor Arg1:T4 Arg2:T5	
+R23	coauthor Arg1:T5 Arg2:T6	
+R24	has_cited_time Arg1:T7 Arg2:T6	

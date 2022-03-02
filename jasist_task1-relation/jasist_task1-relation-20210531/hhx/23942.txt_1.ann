@@ -1,0 +1,130 @@
+T1	术语 0 12	Data Science
+T2	术语 434 438	Unix
+T3	术语 486 491	NoSQL
+T4	术语 541 556	cloud computing
+T5	术语 594 623	Bayesian statistical analysis
+T6	术语 637 663	interactive visualizations
+T7	术语 977 989	data science
+T8	术语 1022 1036	text analytics
+T9	术语 1295 1309	data scientist
+T10	术语 1381 1397	data acquisition
+T11	术语 1400 1413	data cleaning
+T12	术语 1416 1429	data analysis
+T13	术语 1432 1450	data visualization
+T14	术语 1457 1470	data modeling
+T15	引文作者 1645 1655	Field Cady
+T16	术语 1830 1842	Data science
+T17	引文的结果 1830 1966	Data science means doing analytics work that , for one reason or another , requires a substantial amount of software engineering skills.
+T18	术语 2522 2543	Data Science Road Map
+T19	术语 2604 2616	data science
+T20	术语 2647 2653	Python
+T21	术语 2738 2744	Python
+T22	术语 2855 2861	Python
+T23	术语 2967 2973	Python
+T24	术语 3057 3069	flow control
+T25	术语 3138 3176	standard Python data science libraries
+T26	术语 3543 3555	Data Munging
+T27	引文的研究问题 3497 3623	This first part continues with a chapter on “ Data Munging ” where the challenge of dealing with real world data is explored .
+T28	术语 3735 3747	odd outliers
+T29	术语 3771 3797	odd spacings or formatting
+T30	术语 4242 4261	regular expressions
+T31	引文的研究问题 4130 4261	This chapter also includes a discussion on identifying and fixing many of these problems , including the use of regular expressions
+T32	术语 4400 4416	machine learning
+T33	术语 4419 4437	feature extraction
+T34	术语 4351 4364	visualization
+T35	术语 4369 4397	basic descriptive statistics
+T36	术语 4599 4612	visualization
+T37	具体模型 4866 4880	decision trees
+T38	具体模型 4883 4897	random forests
+T39	具体模型 4900 4923	support vector machines
+T40	具体模型 4926 4945	logistic regression
+T41	具体模型 4948 4964	lasso regression
+T42	具体模型 4967 4978	naive Bayes
+T43	具体模型 4985 4996	neural nets
+T44	具体模型 5213 5224	naive Bayes
+T45	术语 5526 5532	Normal
+T46	术语 5535 5543	Binomial
+T47	术语 5549 5560	Multinomial
+T48	术语 6899 6911	data science
+T49	术语 6943 6964	unsupervised learning
+T50	术语 6967 6977	regression
+T51	术语 6980 6994	data encodings
+T52	术语 7014 7028	big data tools
+T53	术语 7043 7063	software engineering
+T54	术语 7081 7108	natural language processing
+T55	术语 7111 7131	time series analysis
+T56	术语 7161 7190	programming language concepts
+T57	术语 7900 7908	big data
+T58	术语 7913 7922	databases
+T59	术语 7031 7040	databases
+T60	术语 6999 7011	file formats
+T61	术语 7968 7976	big data
+T62	术语 7996 8002	Hadoop
+T63	术语 8005 8010	Spark
+T64	术语 8024 8031	PySpark
+T65	术语 8048 8053	Spark
+T66	术语 8071 8081	Map Reduce
+T67	术语 8110 8115	Spark
+T68	术语 8143 8159	machine learning
+T69	术语 8162 8178	network analysis
+T70	术语 8184 8204	real‐time processing
+T71	术语 8265 8273	database
+T72	术语 8294 8299	NoSQL
+T73	术语 8322 8338	key‐value stores
+T74	术语 8341 8359	wide column stores
+T75	术语 8362 8377	document stores
+T76	术语 8400 8407	MongoDB
+T77	术语 8533 8541	database
+T78	术语 8570 8573	SQL
+T79	术语 8591 8596	MySQL
+T80	术语 8656 8659	SQL
+T81	术语 8722 8727	MySQL
+T82	术语 8777 8789	data science
+T83	术语 8890 8895	MySQL
+T84	术语 9155 9158	NLP
+T85	术语 9201 9204	NLP
+T86	术语 9439 9459	time series analysis
+T87	术语 9495 9505	resampling
+T88	术语 9508 9517	smoothing
+T89	术语 9520 9529	windowing
+T90	术语 9536 9552	Fourier analysis
+T91	术语 9747 9776	hypothesis testing techniques
+T92	术语 9787 9807	parameter estimation
+T93	术语 9816 9822	t‐test
+T94	术语 9864 9883	Bayesian statistics
+T95	术语 9957 9977	software engineering
+T96	术语 10113 10133	programming language
+T97	术语 10230 10242	data science
+T98	术语 10269 10289	programming language
+T99	术语 10346 10368	functional programming
+T100	术语 10371 10393	imperative programming
+T101	术语 10400 10427	object‐oriented programming
+T102	术语 11152 11166	big‐O notation
+T103	术语 11135 11145	cache miss
+T104	术语 11176 11189	pure function
+T105	术语 11348 11363	data structures
+T106	术语 11328 11343	computer memory
+T107	术语 11366 11412	maximum likelihood estimation and optimization
+T108	术语 11415 11435	advanced classifiers
+T109	术语 11442 11461	stochastic modeling
+T110	术语 11569 11587	maximum likelihood
+T111	具体模型 11665 11684	logistic regression
+T112	术语 11691 11707	gradient descent
+T113	术语 11712 11739	stochastic gradient descent
+T114	术语 11815 11837	machine classification
+T115	术语 11916 11936	Advanced Classifiers
+T116	术语 11958 11971	deep learning
+T117	术语 11974 12001	convolution neural networks
+T118	术语 12004 12029	recurrent neural networks
+T119	术语 12032 12049	Bayesian networks
+T120	术语 12056 12060	MCMC
+T121	术语 13306 13312	Python
+T122	术语 13365 13372	IPython
+T123	术语 13378 13385	Jupyter
+T124	引文的研究问题 4266 4460	The next four chapters introduce more of the standard data scientist tools including visualization and basic descriptive statistics , machine learning , feature extraction , and classification .
+T125	引文的研究问题 10496 10622	the final chapter addresses issues that affect performance specifically including those that relate to the overuse of memory .
+T126	研究结果 12721 12898	I would expect readers would best use this text to brush up on a specific aspect of an algorithm or to quickly review a topic such as computer memory that is used infrequently .
+T127	研究结果 12901 12977	I do not recommend this book as the primary text for a data science course .
+T128	术语 12956 12968	data science
+T129	研究结果 13593 13780	The primary role this book will serve is to fill in the gaps of the standard education in this area , while presenting a different viewpoint on many of the more commonly taught subjects .
+R1	results Arg1:T15 Arg2:T17	

@@ -1,0 +1,337 @@
+T1	引文作者 136 148	Smith Aversa
+T2	引文时间 151 155	1985
+T3	引文作者 389 395	Costas
+T4	引文作者 398 409	van Leeuwen
+T5	引文作者 416 424	van Raan
+T6	引文时间 427 431	2010
+T7	引文作者 598 607	Van Dalen
+T8	引文作者 610 617	Henkens
+T9	引文时间 620 624	2005
+T10	引文作者 964 972	Rousseau
+T11	引文作者 975 978	Jin
+T12	引文作者 981 985	Yang
+T13	引文作者 990 993	Liu
+T14	引文时间 996 1000	2001
+T15	引文作者 1199 1207	van Raan
+T16	引文时间 1210 1214	2004
+T17	引文作者 1569 1577	Sugimoto
+T18	引文作者 1580 1587	Mostafa
+T19	引文时间 1590 1594	2018
+T20	引文作者 1719 1721	Hu
+T21	引文作者 1724 1726	Hu
+T22	引文作者 1729 1734	Zhang
+T23	引文作者 1737 1745	Rousseau
+T24	引文时间 1748 1752	2018
+T25	引文作者 2471 2473	Hu
+T26	引文作者 2476 2484	Rousseau
+T27	引文时间 2487 2491	2016
+T28	引文作者 2494 2496	Hu
+T29	引文作者 2499 2507	Rousseau
+T30	引文作者 2560 2562	Du
+T31	引文作者 2565 2567	Wu
+T32	引文时间 2570 2574	2016
+T33	引文作者 2577 2579	Ke
+T34	引文作者 2582 2589	Ferrara
+T35	引文作者 2592 2600	Radicchi
+T36	引文作者 2605 2613	Flammini
+T37	引文时间 2616 2620	2015
+T38	引文作者 2623 2625	Li
+T39	引文作者 2628 2631	Shi
+T40	引文时间 2634 2638	2016
+T41	引文作者 2641 2643	Li
+T42	引文作者 2646 2648	Ye
+T43	引文时间 2651 2655	2016
+T44	引文作者 2658 2666	van Raan
+T45	引文时间 2669 2673	2015
+T46	引文时间 2676 2680	2017
+T47	引文作者 3901 3903	Du
+T48	引文作者 3906 3908	Wu
+T49	引文时间 3911 3915	2016
+T50	引文作者 3918 3930	El Aichouchi
+T51	引文作者 3933 3938	Gorry
+T52	引文时间 3941 3945	2018
+T53	引文作者 3948 3950	Ke
+T54	引文时间 3960 3964	2015
+T55	引文作者 3967 3969	Li
+T56	引文时间 3972 3976	2014
+T57	引文作者 3979 3981	Li
+T58	引文作者 3984 3987	Shi
+T59	引文时间 3990 3994	2016
+T60	引文作者 3997 3999	Li
+T61	引文作者 4002 4004	Ye
+T62	引文时间 4007 4011	2016
+T63	引文作者 4014 4022	van Raan
+T64	引文时间 4025 4029	2015
+T65	引文时间 4032 4036	2017
+T66	引文作者 4258 4260	Li
+T67	引文作者 4263 4265	Ye
+T68	引文时间 4268 4272	2012
+T69	图 4279 4385	Figure 1 shows the citation curve of ( Romans , 1986 ) , a typical hibernator studied by van Raan ( 2004 )
+T70	引文作者 4318 4324	Romans
+T71	引文时间 4327 4331	1986
+T72	引文作者 4368 4376	van Raan
+T73	引文时间 4379 4383	2004
+T74	引文作者 4604 4612	Lachance
+T75	引文作者 4617 4626	Larivière
+T76	引文时间 4629 4633	2014
+T77	引文作者 5359 5361	Hu
+T78	引文时间 5373 5377	2018
+T79	引文作者 6095 6097	Hu
+T80	引文作者 6102 6110	Rousseau
+T81	引文时间 6113 6117	2016
+T82	引文作者 6818 6820	Hu
+T83	引文作者 6823 6831	Rousseau
+T84	引文作者 7414 7416	Hu
+T85	引文作者 7419 7427	Rousseau
+T86	引文作者 7430 7434	Chen
+T87	引文时间 7437 7441	2011
+T88	引文作者 7596 7598	Hu
+T89	引文作者 7601 7609	Rousseau
+T90	引文时间 7612 7616	2016
+T91	引文作者 7619 7621	Hu
+T92	引文作者 7624 7632	Rousseau
+T93	引文作者 8890 8892	Hu
+T94	引文作者 8895 8903	Rousseau
+T95	引文时间 8906 8910	2016
+T96	引文作者 8913 8915	Hu
+T97	引文作者 8918 8926	Rousseau
+T98	引文作者 9386 9394	Rousseau
+T99	引文作者 9397 9399	Hu
+T100	引文时间 9402 9406	2018
+T101	引文作者 9778 9780	Hu
+T102	引文作者 9783 9791	Rousseau
+T103	引文作者 10719 10721	Hu
+T104	引文作者 10724 10732	Rousseau
+T105	引文时间 10735 10739	2016
+T106	引文作者 10787 10796	Deltcheva
+T107	引文时间 10806 10810	2011
+T108	引文作者 11763 11769	Eyquem
+T109	引文时间 11779 11783	2017
+T110	表 12402 12576	Bibliographic information on these hibernators is given in Table A1 ( Appendix A ) , whereas the articles discussing these hibernators can be found in Table A2 ( Appendix A )
+T111	时间 12722 12735	December 2017
+T112	表 13282 13332	Results of our investigations are shown in Table 1
+T113	时间 13697 13701	1986
+T114	图 13782 13939	This is illustrated in Figures 2 and 3 where , besides the original citation curve we also show the curve of the citing curves with the second most citations
+T115	图 13944 14046	Figure 2 shows yearly ( diachronous ) distributions and Figure 3 shows cumulative numbers of citations
+T116	时间 14249 14253	1999
+T117	图 14322 14330	Figure 2
+T118	图 14410 14418	Figure 3
+T119	表 14632 14926	Interestingly , we found out that , for each article shown in Table 1 , there exists a group of authoritative citers among its citing articles , most of them having received a high number of citations , and having a “ considerable ” number of cocitations with the hibernators ( see Appendix B )
+T120	引文作者 15534 15539	Hokin
+T121	引文作者 15542 15547	Hokin
+T122	引文时间 15550 15554	1953
+T123	引文作者 15424 15429	Hokin
+T124	时间 15686 15690	1981
+T125	引文作者 15693 15700	Michell
+T126	引文作者 15703 15707	Kirk
+T127	引文作者 15710 15715	Jones
+T128	引文作者 15718 15724	Downes
+T129	引文作者 15729 15734	Creba
+T130	引文时间 15737 15741	1981
+T131	时间 15835 15848	December 2017
+T132	引文作者 16009 16014	Streb
+T133	引文作者 16017 16023	Irvine
+T134	引文作者 16026 16034	Berridge
+T135	引文作者 16039 16045	Schulz
+T136	引文时间 16048 16052	1983
+T137	时间 16079 16083	1914
+T138	引文作者 16128 16137	Nishizuka
+T139	引文时间 16140 16144	1984
+T140	引文作者 16211 16219	Berridge
+T141	引文作者 16224 16230	Irvine
+T142	引文时间 16233 16237	1984
+T143	引文作者 16306 16314	Berridge
+T144	引文时间 16317 16321	1984
+T145	图 16388 16424	This is illustrated in Figure 4a , b
+T146	引文作者 16487 16492	Ogino
+T147	引文作者 16495 16499	Aoki
+T148	引文时间 16502 16506	1980
+T149	图 16690 16981	Figure 5a shows that , after a long and deep hibernating period ( the hibernator received only 11 citations during 15 years ) , it was awakened by an awakener in the year 1995 ( Glaser et al. , 1995 ) with 305 citations , leading to a considerable number of cocitations ( 163 cocitations ) .
+T150	时间 16861 16865	1995
+T151	引文作者 16868 16874	Glaser
+T152	引文时间 16884 16888	1995
+T153	引文作者 17088 17098	Neugebauer
+T154	引文作者 17101 17113	Van de Walle
+T155	引文时间 17116 17120	1996
+T156	引文作者 17133 17138	Ponce
+T157	引文作者 17141 17145	Bour
+T158	引文作者 17148 17152	Gotz
+T159	引文作者 17157 17163	Wright
+T160	引文时间 17166 17170	1996
+T161	图 17570 17831	One may see ( Figure 5a ) that in the year 2004 , AC3 ( Van de Walle & Neugebauer , 2004 ) became highly visible in a very short period of time : this article received 1,354 citations and had 24 cocitations with the hibernator , most of them in the last 5 years
+T162	时间 17613 17617	2004
+T163	引文作者 17626 17638	Van de Walle
+T164	引文作者 17641 17651	Neugebauer
+T165	引文时间 17654 17658	2004
+T166	时间 17885 17889	2010
+T167	引文作者 17905 17910	Lyons
+T168	引文作者 17913 17920	Janotti
+T169	引文作者 17925 17937	Van de Walle
+T170	引文时间 17940 17944	2010
+T171	时间 18133 18137	2017
+T172	引文作者 18882 18888	Romans
+T173	引文作者 18902 18908	Romans
+T174	引文时间 18911 18915	1986
+T175	引文作者 19037 19047	Polchinski
+T176	引文时间 19050 19054	1995
+T177	引文作者 19266 19271	Myers
+T178	引文时间 19274 19278	1999
+T179	引文作者 19400 19409	Maldacena
+T180	引文作者 19412 19417	Nuñez
+T181	引文时间 19420 19424	2001
+T182	引文作者 19511 19516	Lukas
+T183	引文作者 19519 19524	Ovrut
+T184	引文作者 19527 19533	Stelle
+T185	引文作者 19538 19545	Waldram
+T186	引文时间 19548 19552	1999
+T187	引文作者 19651 19661	Polchinski
+T188	引文作者 19664 19670	Witten
+T189	引文时间 19673 19677	1996
+T190	图 19756 19775	Please see Figure 6
+T191	引文作者 20157 20159	Hu
+T192	引文作者 20162 20170	Rousseau
+T193	引文时间 20173 20177	2016
+T194	引文的研究问题 131 368	In ( Smith Aversa , 1985 ) the author makes , for highly cited papers , a distinction between delayed rise in received citations combined with a slow decline , on the one hand , and early rise combined with a rapid decline , on the other
+T195	引文的研究问题 373 1004	More recently , Costas , van Leeuwen , and van Raan ( 2010 ) classify documents into three general types : delayed documents , which receive the main part of their citations later than normal documents ; flashes‐in‐the‐pan ( Van Dalen & Henkens , 2005 ) , which receive citations immediately after their publication but are not cited or influential in the long term ; and normal documents , documents with a typical distribution of citations over time , that is , the number of yearly citations first increases , usually reaching a peak after about 3 to 5 years , and then slowly declines ( Rousseau , Jin , Yang , & Liu , 2001 ) .
+T196	研究问题 3331 3463	Hence our research question is : RQ1 : Do articles suffering from delayed recognition exist which are also under‐cited influential ?
+T197	引文的研究问题 4604 4769	Lachance and Larivière ( 2014 ) studied so‐called sleepers , a group of papers that received their first citation ( s ) 10 full years or more since their publication
+T198	引文的结果 5591 5765	It was shown that authoritative citers often play an important role in spreading the knowledge about the hibernator—once awakened—and keeping it in the scientific limelight .
+T199	引文的结果 8941 9052	These two articles also show that such under‐cited influential articles are neither common , nor extremely rare
+T200	研究方法 11790 11933	We first identify articles which are hibernators as well as under‐cited influential followed by a deeper investigation of their characteristics
+R1	has_cited_time Arg1:T2 Arg2:T1	
+R2	produces Arg1:T1 Arg2:T194	
+R3	coauthor Arg1:T3 Arg2:T4	
+R4	coauthor Arg1:T4 Arg2:T5	
+R5	has_cited_time Arg1:T6 Arg2:T5	
+R6	coauthor Arg1:T7 Arg2:T8	
+R7	has_cited_time Arg1:T9 Arg2:T8	
+R8	has_cited_time Arg1:T16 Arg2:T15	
+R9	coauthor Arg1:T17 Arg2:T18	
+R10	has_cited_time Arg1:T19 Arg2:T18	
+R11	coauthor Arg1:T20 Arg2:T21	
+R12	coauthor Arg1:T21 Arg2:T22	
+R13	coauthor Arg1:T22 Arg2:T23	
+R14	has_cited_time Arg1:T24 Arg2:T23	
+R15	coauthor Arg1:T25 Arg2:T26	
+R16	has_cited_time Arg1:T27 Arg2:T26	
+R17	coauthor Arg1:T28 Arg2:T29	
+T201	引文时间 2510 2514	2017
+R18	has_cited_time Arg1:T201 Arg2:T29	
+R19	coauthor Arg1:T28 Arg2:T25	
+R20	coauthor Arg1:T30 Arg2:T31	
+R21	has_cited_time Arg1:T32 Arg2:T31	
+R22	coauthor Arg1:T33 Arg2:T34	
+R23	coauthor Arg1:T34 Arg2:T35	
+R24	coauthor Arg1:T35 Arg2:T36	
+R25	has_cited_time Arg1:T37 Arg2:T36	
+R26	field_similar_as Arg1:T33 Arg2:T30	
+R27	coauthor Arg1:T38 Arg2:T39	
+R28	has_cited_time Arg1:T40 Arg2:T39	
+R29	coauthor Arg1:T41 Arg2:T42	
+R30	has_cited_time Arg1:T43 Arg2:T42	
+R31	has_cited_time Arg1:T45 Arg2:T44	
+R32	field_similar_as Arg1:T44 Arg2:T41	
+R33	field_similar_as Arg1:T41 Arg2:T38	
+R34	field_similar_as Arg1:T38 Arg2:T33	
+R35	coauthor Arg1:T47 Arg2:T48	
+R36	has_cited_time Arg1:T49 Arg2:T48	
+R37	coauthor Arg1:T50 Arg2:T51	
+R38	has_cited_time Arg1:T52 Arg2:T51	
+R39	field_similar_as Arg1:T50 Arg2:T47	
+R40	has_cited_time Arg1:T54 Arg2:T53	
+R41	has_cited_time Arg1:T56 Arg2:T55	
+R42	coauthor Arg1:T57 Arg2:T58	
+R43	has_cited_time Arg1:T59 Arg2:T58	
+R44	coauthor Arg1:T60 Arg2:T61	
+R45	has_cited_time Arg1:T62 Arg2:T61	
+R46	has_cited_time Arg1:T64 Arg2:T63	
+R47	field_similar_as Arg1:T63 Arg2:T60	
+R48	field_similar_as Arg1:T60 Arg2:T57	
+R49	field_similar_as Arg1:T57 Arg2:T55	
+R50	field_similar_as Arg1:T55 Arg2:T53	
+R51	field_similar_as Arg1:T53 Arg2:T50	
+R52	has_cited_time Arg1:T71 Arg2:T70	
+R53	has_cited_time Arg1:T73 Arg2:T72	
+R54	coauthor Arg1:T74 Arg2:T75	
+R55	has_cited_time Arg1:T76 Arg2:T75	
+R56	produces Arg1:T74 Arg2:T197	
+R57	has_cited_time Arg1:T78 Arg2:T77	
+R58	results Arg1:T77 Arg2:T198	
+R59	coauthor Arg1:T79 Arg2:T80	
+R60	has_cited_time Arg1:T81 Arg2:T80	
+R61	coauthor Arg1:T82 Arg2:T83	
+R62	coauthor Arg1:T84 Arg2:T85	
+R63	coauthor Arg1:T85 Arg2:T86	
+R64	has_cited_time Arg1:T87 Arg2:T86	
+R65	coauthor Arg1:T88 Arg2:T89	
+R66	has_cited_time Arg1:T90 Arg2:T89	
+R67	coauthor Arg1:T91 Arg2:T92	
+T202	引文时间 7635 7639	2017
+R68	has_cited_time Arg1:T202 Arg2:T92	
+R69	field_similar_as Arg1:T91 Arg2:T88	
+R70	coauthor Arg1:T93 Arg2:T94	
+R71	has_cited_time Arg1:T95 Arg2:T94	
+R72	coauthor Arg1:T96 Arg2:T97	
+T203	引文时间 8929 8933	2017
+R73	has_cited_time Arg1:T203 Arg2:T97	
+R74	coauthor Arg1:T96 Arg2:T93	
+R75	results Arg1:T93 Arg2:T199	
+R76	coauthor Arg1:T98 Arg2:T99	
+R77	has_cited_time Arg1:T100 Arg2:T99	
+R78	coauthor Arg1:T101 Arg2:T102	
+R79	coauthor Arg1:T103 Arg2:T104	
+R80	has_cited_time Arg1:T105 Arg2:T104	
+R81	has_cited_time Arg1:T107 Arg2:T106	
+T204	引文时间 9794 9798	2017
+R82	has_cited_time Arg1:T204 Arg2:T102	
+R83	has_cited_time Arg1:T109 Arg2:T108	
+R84	coauthor Arg1:T120 Arg2:T121	
+R85	has_cited_time Arg1:T122 Arg2:T121	
+R86	coauthor Arg1:T125 Arg2:T126	
+R87	coauthor Arg1:T127 Arg2:T128	
+R88	coauthor Arg1:T126 Arg2:T127	
+R89	coauthor Arg1:T128 Arg2:T129	
+R90	has_cited_time Arg1:T130 Arg2:T129	
+R91	coauthor Arg1:T132 Arg2:T133	
+R92	coauthor Arg1:T133 Arg2:T134	
+R93	coauthor Arg1:T134 Arg2:T135	
+R94	has_cited_time Arg1:T136 Arg2:T135	
+R95	has_cited_time Arg1:T139 Arg2:T138	
+R96	coauthor Arg1:T140 Arg2:T141	
+R97	has_cited_time Arg1:T142 Arg2:T141	
+R98	has_cited_time Arg1:T144 Arg2:T143	
+R99	coauthor Arg1:T146 Arg2:T147	
+R100	has_cited_time Arg1:T148 Arg2:T147	
+R101	has_cited_time Arg1:T152 Arg2:T151	
+R102	coauthor Arg1:T153 Arg2:T154	
+R103	has_cited_time Arg1:T155 Arg2:T154	
+R104	coauthor Arg1:T156 Arg2:T157	
+R105	coauthor Arg1:T157 Arg2:T158	
+R106	coauthor Arg1:T158 Arg2:T159	
+R107	has_cited_time Arg1:T160 Arg2:T159	
+R108	coauthor Arg1:T163 Arg2:T164	
+R109	has_cited_time Arg1:T165 Arg2:T164	
+R110	coauthor Arg1:T167 Arg2:T168	
+R111	coauthor Arg1:T168 Arg2:T169	
+R112	has_cited_time Arg1:T170 Arg2:T169	
+R113	coauthor Arg1:T172 Arg2:T173	
+R114	has_cited_time Arg1:T174 Arg2:T173	
+R115	has_cited_time Arg1:T176 Arg2:T175	
+R116	has_cited_time Arg1:T178 Arg2:T177	
+R117	coauthor Arg1:T179 Arg2:T180	
+R118	has_cited_time Arg1:T181 Arg2:T180	
+R119	coauthor Arg1:T187 Arg2:T188	
+R120	has_cited_time Arg1:T189 Arg2:T188	
+R121	coauthor Arg1:T182 Arg2:T183	
+R122	coauthor Arg1:T183 Arg2:T184	
+R123	coauthor Arg1:T184 Arg2:T185	
+R124	has_cited_time Arg1:T186 Arg2:T185	
+R125	coauthor Arg1:T191 Arg2:T192	
+T205	引文时间 20180 20184	2017
+R127	has_cited_time Arg1:T205 Arg2:T192	
+R126	has_cited_time Arg1:T193 Arg2:T191	
+R128	coauthor Arg1:T10 Arg2:T11	
+R129	coauthor Arg1:T11 Arg2:T12	
+R130	coauthor Arg1:T12 Arg2:T13	
+R131	has_cited_time Arg1:T14 Arg2:T13	
+R132	produces Arg1:T10 Arg2:T195	

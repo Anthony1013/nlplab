@@ -1,0 +1,90 @@
+Based on the visual inspection of the ERP waveforms , only early ERPs ( N1 , P150 , N170 , N2 ) occurring up to the first 300 milliseconds after stimulus onset was observed . 
+No significant amplitude difference was found on any components between incongruent stimuli and congruent stimuli . 
+Therefore , the valence incongruity induced by the meaning of word and the emotion caused by color did n't generate any interference in color identification task ( Figure 4 ) . 
+Fixations represent the point in time and space when participants statically fix their eyesight on a specific object ( Rayner , 1998 ) . 
+Tracking eye fixation is the most efficient way , which has long been recognized in the relevant studies , to capture individual information acquisition process from the external environment ( Chae & Lee , 2013 ; Luan , Yao , Zhao , & Liu , 2016 ) . 
+Specially , longer fixation duration can reflect a higher degree of digging into , engaging into and understanding the target and more interests in target ( Jacob & Karn , 2003 ) . 
+Furthermore , information extracted during fixation has influence on individual 's evaluation , choice and preference . 
+Numerous studies found that consumers ' attention mediated the relationship between the information characteristics and attitude or purchase outcomes ( Mehmedović , Omeragić , Batagelj , & Kolar , 2017 ) . 
+Therefore , in this experiment , we used fixation duration to detect users ' cognitive activity and visual attention . 
+Ninety eight participants recruited from the Business School of Central South University in China to take part in a 2 ( product information pages : positive red tags and negative green tag vs. positive green tags and negative red tags ) × 2 ( cognitive load : low vs. high ) between‐participants experimental design . 
+Among them , 8 participants were excluded due to incorrect calibration or data‐recording problems . 
+The final participants included 51 females and 39 males . 
+Four participants were over the age of 25 years old , and the remaining participants were between the ages of 19 and 23 years old . 
+Experiment stimulus was displayed on a 20‐inch monitor with a resolution of 1024*768 . 
+The participants ' eye movements were tracked and recorded by SMI eye‐tracker RED with a sampling rate of 500 Hz . 
+Data processing was conducted by BeGaze 2.5 . 
+The eye movements on the product information were measured by eye‐tracking metric fixation duration . 
+Before experiments started , participants were asked to adjust their body to a comfortable sitting position , where they could move at a relatively high freedom during the whole experiment . 
+Participants kept 60 to 80 cm away from the monitor . 
+Calibration and validation were done to make sure their eye movements could be captured while they viewed the product information page . 
+All participants firstly were asked to memorize a number on the screen ( high cognitive load , 85491763521 vs. low cognitive load , 85 ) , and were told that they have to write down the number after they made their product evaluations . 
+Participants were then asked to imagine they would be buying a phone for their own consumption and to view a product information page as long as they need . 
+After that , participants had to answer 4 questions to evaluate the phone ( 1 = totally disagree , 9 = totally agree ) : “ the phone is very attractive to me ” ; “ I 'm not satisfy with this phone ( reverse ) ” ; “ the quality of the phone is good ” ; “ I do n't like this phone very much ( reverse ) . 
+” At last , participants were asked to write down the number they memorized at the beginning . 
+One of them who failed to properly complete the cognitive load task was removed from the analyses . 
+The focal product in this study was a phone without price and brand name . 
+Formation of product presentation ( Figure 5 ) was designed referring to the way that products were shown on Taobao website . 
+It included three main parts : the area of product pictures , the area of product information presentation and the area of product tags presentation . 
+Real product exhibition pictures including one main picture and five detailed pictures were selected from Taobao . 
+Product parameter information , such as memory size of a phone or available colors , was also collected from product introduction information on Taobao . 
+Product tags including six positive ones and four negative ones were divided into two AOIs , all of which were crawled from Taobao . 
+Different quantities of tags in different AOIs were used to make sure that users ' fixation duration on red tags is significantly different from which on green tags , so that we can investigate the influence of colors on users ' product evaluations . 
+Two product information pages were designed for the experiment . 
+All information on the two pages was equal but two different colors of tags were represented in the two AOI ( Figure 5 ) . 
+One of those was printed with positive red tags and negative green tags , and the other with positive green tags and negative red tags . 
+We assumed that text of tags would be more influential in the low cognitive load condition . 
+If it is true , product evaluation made by the two groups reading different pages will not be significantly different from each other , for the texts of tags are the same on both pages . 
+In the high cognitive load condition , we suggested that emotion induced by colors of tags is more important in product evaluation . 
+Participants are expected to give high evaluations for the phone if caught by colored tags inked in red while low evaluations for the phone if caught by colored tags inked in green regardless of comments gave by previous users on two pages are identical . 
+An ANOVA of participants ' product evaluation on the phone with cognitive load ( low vs. high ) as an independent variable did n't yield a significant effect of cognitive load , F ( 1,89 ) < 1 , M high load = 5.67 vs. M low load = 5.52 . 
+There was also not a main effect of colors , F ( 1,89 ) < 1 , M positive red = 5.74 vs. M positive green = 5.48 . 
+We predicted that the product evaluation under low cognitive load was mainly affected by texts of tags . 
+In accordance with our hypothesis , no significant difference was found in the product evaluation under low load condition ( M positive green = 5.8 , M positive red = 5.2 , p > .1 ) , suggesting that participants paid more attention to the texts of tags . 
+Differences of the colors of tags did therefore not yield any influence . 
+However , in the high load condition , participants reading page with positive red and negative green tags rated the phone higher ( M = 6.26 ) than those reading page with positive green and negative red tags ( M = 5.18 ) F ( 1,46 ) = 8.52 , p < .01 . 
+In the following parts , we intend to test whether the difference is caused by the change of the colors . 
+A heat map analysis was done to help us to qualitatively observe consumers ' eye movements to different colored tags under different conditions of cognitive load , as shown in Figure 6 . 
+Heat map can show the distribution of individual 's visual attention and give us a more intuitive perception of fixation results ( Wang , Yang , Liu , Cao , & Ma , 2014 ) . 
+In a heat map , different colors represent different degree of users ' fixation . 
+The highest level of fixation is presented by red , followed by yellow and green . 
+Areas without color attract no fixation . 
+Comparing AOI1 with AOI2 , AOI1 attracts more consumers ' attention , which may be caused by different quantities of tags . 
+Comparing Figure 6a , b with Figure 6c , d , white area ( areas besides two AOI ) are yellower than AOIs , indicating that participants focus more on other product information , such as parameter attributes , in the low cognitive load than in the high cognitive load . 
+According to the behavioral data , under high cognitive load , participants reading page with positive red and negative green tags gave the product a better evaluation than those reading page with positive green and negative red tags , suggesting changes of the colors of tags caused this difference . 
+A repeated measures one‐way ANOVA of two AOIs on fixation duration revealed a significant main effect , F ( 1,21 ) = 20.51 , p < .01 . 
+The fixation duration on the positive red tags was significantly longer than those on the negative green tags ( M = 7.3270E3 vs. M = 2.5428E3 ) . 
+A possible explanation for this result , as we predicted , is that participants under high cognitive condition paid more attention to the positive red tags , and were exposed to the positive emotion induced by red color , which enhanced participants ' product evaluations . 
+An alternative explanation is that warm colors ( e.g. , red ) are more likely to generate attention than cool colors ( e.g. , green ; Bagchi & Cheema , 2013 ) , therefore , participants paid more attention to the positive tags and put more weight on them in their product evaluations . 
+If the effect was due to this potential alternative process , then the positive red tags in Figure 6a and the negative red tags in Figure 6b should receive more attention and weight in judgment , compared to the positive green tags in Figure 6b . 
+But the fixation duration of these areas was inconsistent with this possibility . 
+Specifically , in Figure 6b the fixation duration of negative red tags was shorter than those of positive green tags ( M red = 3.8133E3 , M green = 6.8050E3 ) F ( 1,21 ) = 9,771 , p < .01 . 
+Result of T test showed that difference between fixation on red tags in Figure 6a and green tags in Figure 6b was also not significant , t ( 46 ) = 0.294 , p > .5 . 
+Therefore , we excluded the alternative explanation and verified our prediction . 
+Besides that , we also tested the relationship between Elaboration Likelihood Model and the fixation duration . 
+In accordance with ELM , longer fixation duration was observed in low cognitive load condition , in which people took the central route to scrutinize all issue‐relevant information ( Kitchen , Kerr , Schultz , McColl , & Pals , 2014 ) . 
+Specifically , fixation duration on white area ( areas besides two AOI ; M = 7.5485E3 ) was longer in low cognitive condition than that ( M = 1.3229E4 ) in high cognitive load condition , t ( 89 ) = 3.329 , p < .01 . 
+Fixation duration on two AOI was also longer in low cognitive load condition ( M = 6.5024E3 ) than that in high cognitive load condition ( M = 1.0280E4 ) , t ( 89 ) = 2.595 , p < .05 . 
+We predict that red could induce more positive emotion than green , and vice versa . 
+Therefore , positive word printed in green ( negative word printed in red ) should generate more interference than positive word printed in red ( negative word printed in green ) . 
+This conflict should influence the modulation of some components including N170 , N2c , and LPC , which were sensitive to conflict resolution and significantly different between congruent conditions and incongruent ones . 
+Specifically , larger ERP amplitudes occurred for N2c and LPC in a condition with positive word in green and negative word in red than with positive word in red and negative word in green . 
+Occipital N170 amplitude was significantly lower in a condition with positive word inked in green and negative word in red than with positive word inked in red and negative word in green . 
+Therefore , our prediction has been proved . 
+The eye‐tracking experiment showed that emotion induced by colors was more influential in high cognitive load condition , whereas the emotion induced in text was more influential in low cognitive load condition . 
+Therefore , participants who read the webpage with positive tags inked in red and negative tags inked in green gave better evaluations to the product than those reading positive tags inked in green and negative tags inked red in high load condition . 
+More attention was distributed to red color on the positive red page , which would induce positive emotion and vice versa . 
+Our study focuses on colored tags in the biggest e‐commerce platform Taobao , which is a unique type among social tags family . 
+There are two features of the colored tag : the text of tag ( the content ) and the color of tag ( red or green ) . 
+Both the meaning of tag content and the perception ( emotion or feeling ) of tag color can incite other post‐users who are prepared to use tags to evaluate and make judgments about tagging objects such as products or services . 
+Information processing is selective at one time because of human 's limited cognitive system when dealing with all information components represented on websites at the same time . 
+Previous studies often explored the meaning of tags or the representation of tags separately , whereas we explore the text of colored tags ( the content ) with different emotional evaluations ( positive or negative ) and the color of colored tags with the valence of different colors ( red or green ) together . 
+The ERP experiment and the eye‐tracking experiment are designed to verify the valence of users ' emotions induced by the colors ( red and green ) and find the dominant factor of colored tags between the text of tags and the color of tags . 
+First , we prove that colored tags inked in red incite users ' positive emotion ( evaluations ) and colored tags inked in green incite negative emotion ( evaluations ) . 
+Incongruity between the emotion of red ( green ) and negative ( positive ) word thus generates interference in the valence color task , which is manifested in ERP components related to conflict resolution , such as N170 , N2c , and LPC . 
+The eye‐tracking experiment shows that emotion induced by the color of the tags ( red or green ) is more predominant in high cognitive load condition , whereas the emotion evoked by the text of colored tags ( positive tags or negative tags ) is more dominant in low cognitive load condition . 
+Therefore , participants who read the webpage with positive tags inked in red and negative tags inked in green gave better evaluations to the product than those reading positive tags inked in green and negative tags inked red in high load condition . 
+Our work finds the principle of colored tags for users ' decision behavior and those findings can help design colored tags for recommendation systems on e‐commerce websites and other online platforms . 
+In that case , designers learn to place the color of colored tags ( red or green ) and the meaning of those tags ( positive or negative ) in a congruity situation online for e‐commerce websites and other online platforms . 
+Meanwhile , the presence for colored tags can be adjusted to users ' preference ( color or text ) in different cognitive conditions ( low or high ) . 
+Further research must include cultural effect for the color and more foreign students must be hired to test our results . 

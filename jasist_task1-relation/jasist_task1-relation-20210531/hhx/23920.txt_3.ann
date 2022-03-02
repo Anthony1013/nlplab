@@ -1,0 +1,55 @@
+T1	研究结果 0 61	The effect is particularly strong when patients search more .
+T2	研究结果 132 219	Third , this study compares the impact of Internet search and other knowledge sources .
+T3	研究结果 222 356	This study suggests that high‐touch is still a dominant factor in physician‐patient trust , whereas high‐tech plays a secondary role .
+T4	引文的结果 359 437	A physician 's explanation and feedback is still central to a patient 's trust
+T5	引文作者 440 445	Agius
+T6	引文作者 448 458	Stangeland
+T7	引文时间 461 465	2016
+T8	研究结果 609 701	this study confirms that physicians should not dismiss patients ’ Internet search as trivial
+T9	引文作者 704 709	Ahmad
+T10	引文时间 719 723	2006
+T11	研究结果 790 896	this study contributes to the Information Science ( IS ) literature in the domain of medical information .
+T12	术语 820 846	Information Science ( IS )
+T13	术语 903 905	IS
+T14	引文的结果 899 982	The IS literature has recognized the empowering nature of the Internet for patients
+T15	引文作者 985 993	Jacobson
+T16	引文时间 996 1000	2007
+T17	引文作者 1007 1015	Jacobson
+T18	引文时间 1018 1022	2007
+T19	引文的结果 1049 1258	whether health information found on the Internet is empowering for patients appears to depend on patients ’ personal use of the information they retrieve as well as on physicians ’ responses to these patients.
+T20	引文的结果 1480 1698	This study suggests that explanations of potential diagnosis outcomes shall be provided online , so that patients would have a more comprehensive anticipation of the diagnosis process and less surprise in the outcome .
+T21	引文的方法 1362 1477	This study opens the black box by explaining how online information plays a part in their possession of knowledge .
+T22	引文的结果 1760 1857	First , this study suggests that physicians should be aware of their patients ’ Internet search .
+T23	引文的结果 1940 2059	When needed , physicians may need to explain the difference in views , so that a patient 's suspicions can be addressed
+T24	引文作者 2062 2068	Wright
+T25	引文时间 2078 2082	2004
+T26	引文的结果 2089 2123	a trusting relationship maintained
+T27	引文作者 2126 2131	Agius
+T28	引文作者 2134 2144	Stangeland
+T29	引文时间 2147 2151	2016
+T30	研究结果 2158 2377	This study also suggests that in patient empowerment programs , patients should be encouraged to bring their doubts and suspicion to physicians for clarification so that unnecessary post‐visit behaviors can be avoided .
+T31	引文的结果 2502 2664	Education for medical professionals pays little attention to the humanities , the social context of illness , or training in communication and conflict resolution
+T32	引文时间 2680 2684	2014
+T33	数据源 2667 2677	The Lancet
+T34	术语 3483 3485	IT
+T35	研究展望 3605 3754	this study does not control for disease types and therefore can not provide a more nuanced guidance for practitioners in a specific disease segment .
+T36	研究展望 3757 3819	Future research may apply our framework to specific diseases .
+T37	研究结果 4355 4476	This study found that physicians ’ interaction quality in a diagnosis process plays a dominant role in patients ’ trust .
+T38	研究结果 4479 4573	This study suggests that the impact of the Internet search should not be regarded as trivial .
+T39	研究结果 4576 4692	Meanwhile , a high‐touch approach is still the most important factor to physician‐patient trust in the high‐tech age
+R1	results Arg1:T5 Arg2:T4	
+R2	coauthor Arg1:T6 Arg2:T5	
+R3	has_cited_time Arg1:T7 Arg2:T5	
+R4	has_cited_time Arg1:T10 Arg2:T9	
+R5	results Arg1:T15 Arg2:T14	
+R6	has_cited_time Arg1:T16 Arg2:T15	
+R7	has_cited_time Arg1:T18 Arg2:T17	
+R8	results Arg1:T17 Arg2:T19	
+R9	uses Arg1:T17 Arg2:T21	
+R10	results Arg1:T17 Arg2:T20	
+R11	results Arg1:T17 Arg2:T22	
+R12	results Arg1:T24 Arg2:T23	
+R13	has_cited_time Arg1:T25 Arg2:T24	
+R14	results Arg1:T27 Arg2:T26	
+R15	coauthor Arg1:T28 Arg2:T27	
+R16	has_cited_time Arg1:T29 Arg2:T27	

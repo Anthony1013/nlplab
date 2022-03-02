@@ -1,0 +1,50 @@
+In practice , Otto ( 2011 ) presents evidence from a comparative case study in the telecommunications sector . 
+The key finding is that data governance is a matter not only for data and informational professionals but also other professionals , while its implementation is also contingent on organizational context . 
+This echoes Weber et al. ’ s ( 2009 ) assertion that “ one size does not fit all . 
+Having drawn attention to the structural conditions that exist at the macro and meso levels to shape data work , and its value and risks at a micro level , we turn attention to the interactive context of data , information , and other professionals within which data work processes are embedded . 
+A number of professional groups play a direct and indirect role in the micro context relevant to data work . 
+These include workers directly involved in the process of realizing value from data , including data scientists , data architects , data analysts , data visualization experts , and other data professionals ; along with a range of end‐users who make decisions and take actions on the basis of data . 
+To these groups , can be added those with a more supervisory and strategic interest in data work , including records managers , information governance managers and officers ; data protection managers , IT risk and governance managers , and IT security personnel . 
+Interest in realizing value from data is not restricted to data and information professionals , but also includes end‐users and other groups . 
+Depending on the sector and type of organization these end‐users will include business users , human resource and performance managers , financial analysts , doctors and medical administrators , and so forth , to whom can be added a range of other interest groups outside the organization . 
+These include : government representatives , policy‐makers , independent authorities , for instance , Information Commissioners ' Offices , advocacy groups ; as well as bodies relevant to a specific sector and who represent citizens , patients , consumers , and so forth . 
+In this way we can see how the interests of a range of groups of people—and the interactions between then ( see , for example , Tallon et al. , 2013 ; Kooper et al. , 2011 , edrm.net ) —are of direct and indirect relevance to the question of data work . 
+While each of these groups will play its own specialist role in processes of data work , their organization , governance , and regulation we pick out one issue that is of current relevance : the education of data scientists . 
+While there is no doubt that the demand for data scientists is currently increasing and on an upward curve ( e‐Skills UK , 2013 ; Misnevs & Yatskiv , 2016 ) , the supply of knowledge and skills tends towards training rather than education . 
+Therefore , there is a need to shift , in educational terms , from the training of the data scientist to the education of the data professional . 
+For example , several frameworks for the education of data professionals have been developed , but mainly with a focus on the data scientist ( Granville , 2014 ; Song & Zhu , 2015 ; Waller & Fawcett , 2013 ) . 
+The EDISON project , an EU‐funded project to accelerate the creation of the data science profession , has also put forward a Data Science Competence Framework ( EDISON , 2017 ) . 
+Yet none of these frameworks encompass the whole information life and the data value cycle : from data collection , to analyses , to interpretation to storage , all within a matrix of external conditions and consequences . 
+Data work is largely considered in a decontextualized fashion . 
+This article has served to show that this approach is necessary but not sufficient . 
+There is also a need for education to develop a capacity not only for the day‐to‐day operations and processes of data work , but also to raise awareness of the legal , policy , ethical ( see , for example Fleischmann , Hui , & Wallace , 2017 ) in the related domain of computational modeling ) , organizational , and governance problems and issues . 
+In doing so , due consideration can be given to how an understanding of the context of the macro , meso , and micro conditions of data work , and their consequences for organizations and individuals , can aid in the resolution and prevention of the problems that can arise in relation to the value and risks of data work . 
+It is suggested that future directions for research into data work will need to attend to the following , among other topics : What values can be added to data work ? 
+What interactions are required to negotiate the value and risks of data work at the micro‐level ? 
+How do structural conditions at a macro‐level enable and/or constrain the effectiveness of data work at a micro‐level ? 
+How do the consequences of data work shape its structural conditions ? 
+To this end , an integrative framework is presented for studying these and other questions ; along with the relations between data work , its processes , its antecedent conditions and possible consequences for individuals , organizations , and society . 
+Figure 1 : Data Work in Context ( Corbin & Strauss , 2015 ; Foster , 2016 ) illustrates the relevant contexts . 
+At the core of the diagram sits data work . 
+The arrows pointing in the direction of data work indicate the antecedent conditions at a macro , meso , and micro level that influence its emergence . 
+The arrows pointing in the direction away from data work indicate its consequences , for individuals , organizations , and society , at micro , meso , and macro levels . 
+Beginning at the outer edge of the diagram , the broadest context is that of international , national , and sector conditions . 
+International conditions will include the global economy , networked and mobile technologies , as well as relevant international relations and flows , for instance , the training and mobility of an international workforce , data flows , and so forth . 
+National conditions include economic and business innovation , as well legal regulations—in turn underpinned by ethical concerns—that are national in scope . 
+Sectors are the differentiated economic sectors of work where these international and national conditions begin to have practical relevance , for instance , health sector , business sector . 
+It is at this level , for example , that sector‐wide regulations such as the Sarbannes‐Oxley Act 2002 ( US Congress , 2002 ) begin to become relevant . 
+Exploration of these international , national , and sector conditions goes some way to explaining why data work has emerged , that is , for its economic value , but also within a required context of regulation and ethics . 
+The next two meso‐level contexts identify the organizational and information governance conditions relevant to enabling the value and mitigating the risks of data work . 
+Organizational conditions include an organization 's IT capability , including IT strategy , infrastructure , legacy systems , and culture , along with the complexity of the organization 's goods and services . 
+Corporate governance mechanisms will also seek to balance the interests of internal and external stakeholders , for example , in relation to the economic value of data , and the reputational risks of any data breach . 
+Information governance and data governance are further mechanisms that seek to exploit the value of data while also mitigating its risks . 
+While information governance seeks control of the information assets actually created , for instance , digital records , data governance provides a mechanism for decision making around data as an asset and how data can be turned into information . 
+The micro context of data work identifies the structural , procedural , and relational conditions , actions , and interactions between professionals relevant to how data work gets done . 
+These groups include IT professionals , legal specialists , risk and security professionals , health and business users , along with data and information professionals . 
+The increasing interest in the value of data both as an economic asset and a societal good , and its conditions , will have consequences at other levels of the diagram . 
+For example , increased data work will have an influence on the recruitment of data professionals ; the emergence of data‐intensive organizations will have consequences for citizens , consumers , patients , and so forth . 
+In turn , there will be an impact on legal regulations and ethical considerations . 
+Beyond this the contribution of data‐driven products and services will have an impact on the size and nature of the digital economy . 
+This brings us to a final important principle of the diagram : that data work and its processes are not only conditioned by and have consequences for individuals , organizations , and economies , but these consequences also influence the initial conditions . 
+Therefore , we can speak of a set of interrelated conditions and consequences at macro , meso , and micro levels . 
+The article has discussed these interrelated conditions and consequences in more detail without apportioning weight to any specific level or layer , save to maintain the distinction between the proximal interactional context within which data work is embedded , and the more distal structural conditions that shape this interaction . 

@@ -1,0 +1,130 @@
+For example , on many portals users do not see the database categories until they perform a search , at which point they are shown a list of categories as filters . 
+Machine processability and open formats were the highest‐scoring criteria in the Access dimension . 
+Based on the sample datasets , all but two portals ( Arvada and South Bend ) offered only machine processable data , and included at least one open format . 
+In addition , 26 portals provided multiple open formats for all of their datasets . 
+None of the sampled datasets included an .exe file , which conforms to an OGD secondary principle ( Open Government Data , n.d. ) . 
+Most portals performed well for the restriction‐free and license criteria . 
+Only one portal , Portland , required users to create a user ID and login to access data . 
+The “ license‐free ” principle can be misleading , because licenses do not necessarily imply restrictions . 
+Instead of eliminating licenses , users , especially businesses that use OGD to develop information services , would want licenses that explicitly permit reuse of OGD without restrictions . 
+The results show that 25 out of 34 portals provided Creative Commons licenses , the ODC Public Domain Dedication and License ( PDDL ) , or similar licenses that grant rights of reuse , either through one umbrella license for all datasets , or by providing individual license ( s ) on each dataset 's page . 
+We found only four portals that provided language option ( s ) other than English , making this the lowest‐performing criterion within the Access dimension . 
+The permanent URI , included in all datasets for 21 of 34 portals , partly addresses the OGD principle that “ [ d ] ata should be made available at a stable Internet location indefinitely and in a stable data format for as long as possible ” ( Open Government Data , n.d. ) . 
+The unweighted scores that all portals received ranged from 2 to 9 , for the six Trust criteria and nine measurement items . 
+The overall weighted mean is 12.81 ( 64 % ) , with a standard deviation of 4.71 , revealing considerable variability among portals for the Trust dimension . 
+The Eight Principles of Open Government Data ( n.d. ) stresses , “ [ a ] ll public data is made available , ” a circumstance which can not easily be evaluated , without knowing every aspect of a city and its governance . 
+When we operationalized this criterion , we considered the amount of data indicated by the number of datasets , types of data , and the coverage of data by categories . 
+On the day of sampling , 21,988 datasets were available across all of the portals ( mean = 646.7 ) . 
+The number of datasets on individual portals ranged from 14 ( Belleville ) to 5,334 ( Kansas City ) . 
+Seven portals had over 1,000 datasets ; and 11 portals had fewer than 100 datasets . 
+Twenty‐one portals differentiated between different types of data ( calendars , charts , datasets , forms , maps , and so on ) , and these portals covered 253.3 “ datasets ” on average , narrowly defined . 
+We assumed both small and large cities might generate similar quantities of datasets , because the operations of city governments are standard in many ways . 
+However , Spearman 's correlation test indicated that the number of datasets was positively related with the city population size ( r s = .658 , p < .001 ) . 
+Among the 32 portals with categorized datasets , the number of categories ranged from five ( Arvada ) to 19 ( Raleigh ) , with Kansas City ( 70 categories ) excluded as an outlier . 
+An analysis of all 309 categories revealed 99 unique categories , 20 of which appear on five or more portals ( Table 4 ) . 
+Health , public safety , and transportation are the most commonly appearing categories , but only nine portals included all of these top‐three categories , demonstrating the variability found in data categories . 
+Most of the portals were highly active and were updated frequently , which may contribute to users ’ trust in the portals . 
+Twenty‐six portals were updated within the 2 days prior to the sampling day , followed by two portals that were updated 6 days and 10 days prior , respectively , making this the best‐fulfilled of the Trust criteria . 
+Data policies help users understand the purposes of OGD portals and therefore create a sense of trust . 
+The Sunlight Foundation 's ( n.d. ) Open Data Policy Guidelines suggest three broad criteria : “ what data should be public , how to make data public , and how to implement policy. ” Accordingly , our evaluation of the presence/absence of a published data policy depends not on whether a document on the website is labeled as “ data policy , ” but rather if it addresses these concerns and is visible on the portal . 
+Disclaimers about data use are not data policies , according to our definition . 
+This was the least‐fulfilled criterion , with only eight portals displaying data policies ( Belleville , Boston , Champaign , Las Vegas , Louisville , New Orleans , Rockford , and San Francisco ) . 
+These policies may not be official regulations , but they address the important question of what and how data are provided . 
+Portals performed relatively well on these criteria . 
+For 24 portals , all of the datasets can be traced back to their primary sources . 
+Only three portals ( Honolulu , Houston , and Palo Alto ) did not have any source information . 
+Whether datasets have the appropriate level of granularity is a trait that is critical to the data quality on a portal , but this can not be easily judged by outsiders . 
+We simply considered whether all datasets on a portal included data more granular than city level ( that is , to say a city has 100 hospitals is not considered granular ) . 
+Thirty‐two portals met this criterion . 
+The analysis on granularity shows that this concept is best captured by Lourenço 's ( 2015 ) terminology—temporal , geographical , and unit of analysis/data granularity . 
+Relevancy is measured by the availability of access and download frequencies . 
+The number of access times was available on 23 portals , and the number of download times was provided on 20 portals . 
+On average , each sampled dataset had been visited 8,133 times and downloaded 2,530 times . 
+Most notably , Chicago alone had an average of 29,580 downloads for each sampled dataset . 
+Not surprisingly , the Spearman 's correlation test shows that download frequency is positively related to the population of the city ( r s = .579 , p = .007 ) and the number of available datasets ( r s = .588 , p = .006 ) . 
+However , several small cities ( Burlington , Belleville , and Champaign ) also had relatively high per capita download times . 
+The unweighted scores that all portals received for the Understand dimension ranged from 1 to 6 , for the four criteria and six measures . 
+The overall weighted mean was 11.57 out of 20 , with a standard deviation of 4.43 , making Understand the second lowest‐rated dimension . 
+All portals except Arvada provided contact information for the portal manager and/or data creators . 
+Although Help or FAQs can be found on most portals , only about one‐third of these portals used customized content for the feature . 
+Only 10 portals provided an app showcase to help users understand how government data are used for various purposes . 
+Supporting documentation is essential for understanding . 
+Twenty‐two portals included at least one dataset accompanied by data collection information . 
+Four portals supplied this information for every sample dataset . 
+However , the length and quality of such documentation varied greatly . 
+Some portals/datasets had very detailed descriptions , while other descriptions were minimal . 
+Regarding field definitions , although most of the portals included field names and data type for their datasets , only nine portals included a detailed data dictionary for some of their datasets . 
+Albuquerque and Denver were exemplary , with data dictionaries for all sample datasets . 
+All portals except Arvada and Palo Alto provided metadata for every dataset . 
+Available metadata elements varied greatly across portals , but portals using the same software platform usually shared similar elements . 
+Typical examples of metadata elements include category , agency , date updated , frequency , description , and keywords . 
+The unweighted Engage‐integrate scores for all portals ranged from zero ( Arvada ) to nine ( Baltimore ) , for the eight criteria and 10 measurement items . 
+The overall weighted mean is 11.53 out of 20 , the lowest among all five dimensions . 
+Portals did relatively well in providing API ( 29 of 34 ) , the personalization function ( 23 ) , the download function ( 32 ) , online manipulation such as filtering or sorting data by field ( 27 ) , online visualization such as map/GIS tools ( 26 ) , and comparative datasets ( 25 ) . 
+Scores were quite low for the availability of analytics and citation formats . 
+Including analytics about how the data or portal is used/accessed could be an important way for OGD portals to engage users , but only 10 portals provided such information . 
+Developing model citation formats can encourage the practice of citing government data ( Sunlight Foundation , n.d. ) , but only three portals ( Albuquerque , Baltimore , and Portland ) suggested a citation format , making this the least‐fulfilled criterion in this dimension . 
+The unweighted Participate scores that all portals received ranged from 0 to 4 . 
+The overall weighted mean was 12.21 out of 20 , with a standard deviation of 5.80 , making this dimension the most varied one . 
+The results showed that only 12 portals had dedicated communication channels to engage their communities . 
+Six portals used multiple channels . 
+The most popular tool was Twitter ( used by seven portals ) , followed by a blog ( five ) , e‐mail/newsletters ( five ) , Facebook ( four ) , and RSS feed ( three ) . 
+Thirty portals provided options/tools for users to share data sets . 
+Typical data sharing tools included e‐mail , Facebook , Twitter , and Google+ . 
+In addition , the Socrata platform has its own data‐sharing tool called the Embed Social Media Player . 
+Twenty‐three portals provided options to comment on , discuss , or rate datasets : features that create useful ways to involve users in OGD portals and provide a sense of community . 
+We found 19 portals that specifically requested user feedback , using labels such as “ Suggest datasets ” or “ Nominate dataset . 
+The User Interaction Framework provides useful metrics for evaluating the characteristics and overall performance of the OGD portals regarding user access and engagement . 
+The high scores for certain criteria , such as data organization , restriction‐free , open formats , currentness , granularity , basic metadata , the availability of API , and shareability , suggest that most city data providers are well aware of key OGD principles , including timeliness , access , machine‐understandable formats , and nonproprietary open formats ( Open Government Data , n.d. ) . 
+Low scores indicate areas that need improvement , such as multilanguages , data policy , the app showcase , documentation , citation formats , and proactive outreach . 
+While some portals earned high overall ratings , other portals shone in specific aspects ( for example , Albuquerque performed exceptionally well in the Understand dimension ) . 
+It is important to point out , however , that this article provides a simple scoring scheme for portal evaluation , without sophisticated weighting . 
+By examining whether the features appear on a portal , the framework assumes that a good OGD portal should aim to satisfy all of those criteria . 
+In reality , there are different types of OGD users who may value different sets of features , and the portal managers may have different priorities in serving various populations . 
+This study is an attempt to create a comprehensive set of criteria that can then be adapted for different stakeholders . 
+An analysis of the users of OGD is beyond the scope of this article , but it is hoped that this study serves as the baseline for understanding the needs of different OGD audiences . 
+By applying different weights to our defined criteria , based on perceived stakeholder needs , portal managers and designers may customize this framework to match specific contexts . 
+For example , entrepreneurs may give extra weight to considerations of licensing , API , and metadata . 
+For civil society activists , weighting may emphasize trust and participation issues such as currentness and proactive engagement . 
+Although the choice of software platform may have impacted the satisfaction of user needs , variations across portals reflect designer/managers ’ different understandings and applications of OGD principles . 
+The variation in scores for different portals using the same platform indicates that portal managers take different approaches to providing data to their community and engaging users . 
+Nahon et al . 
+( 2015 ) also found that the “ paths to high OGD Heartbeat values ” are significantly different among cities ( p. 128 ) . 
+Moreover , data portals that do not use the popular platforms vary greatly in their functionalities . 
+Software platforms , such as Socrata , provide a solid structure to support OGD , but variations exist in implementation . 
+The results of this study show that portals can make better use of their platforms to achieve greater user engagement and participation . 
+Although portals perform generally well in providing access , they are not doing as well in helping users understand and engage with data . 
+This result aligns with Lourenço 's ( 2015 ) observation that many data portals are “ simple repositories of data ” ( p. 331 ) . 
+Researchers have noticed the barriers that citizens encounter in using OGD , such as a lack of awareness of its benefits , low data literacy , technical barriers , and insufficient incentives ( Gurstein , 2011 ) . 
+Low scores for the Trust , Understand , Engage‐integrate , and Participate dimensions suggest that many city OGD portals are ineffective in reducing these barriers . 
+According to Lee and Kwak 's ( 2012 ) Open Government Maturity Model , these cities are still at either the Initial Condition level , or the Data Transparency level , of establishing open government by publishing open data . 
+The next step is to use various methods , especially social media tools , to achieve the higher levels of open government maturity—Open Participation , Open Collaboration , and eventually Ubiquitous Engagement . 
+The question remains as to whether data providers should concentrate on providing clean data , or on encouraging the development of data mediators . 
+Davies and Edwards ( 2012 ) noted that “ [ a ] lthough open data promises to be a force for disintermediation , a role for curators remains ” ( p. 124 ) . 
+To date , little research has been conducted on OGD users—especially how average citizens use OGD . 
+O'Connor ( 2015 , p. 49 ) found that frequent users of city OGD portals tended to be “ highly educated , highly civically motivated ” people with “ substantial data analytics or programming skills. ” If OGD is used only by particular groups with limited purposes , then whether OGD will “ empower and enrich the already empowered ” ( Gurstein , 2011 ) becomes a social justice issue . 
+One possibility for overcoming the obstacles of using OGD is the development of a mediator role between the providers of open data and the users/consumers of open data . 
+Cities are unlikely to be able to address by themselves the issues of general data literacy or the users ’ ability to conduct statistical and comparative analysis . 
+Mediators can support access and overcome barriers for those who might otherwise be excluded from the societal ( and economic ) benefits of open data . 
+Information professionals are a natural fit for the mediator roles , especially concerning municipal‐level open data . 
+Librarians , for instance , may promote the benefits of OGD and help users with low data literacy in their day‐to‐day interactions with their user communities . 
+Researchers who use OGD heavily for scientific or social research also have much to offer in mediator roles . 
+The dearth of clear data policies on the data portals invokes the question of whether municipalities are operating from a clear sense of which datasets will benefit their multiple publics , or whether their offerings are based on other criteria , like ease of availability . 
+Lee and Kwak ( 2012 ) point out that government agencies should align OGD goals with their “ broader goals and priorities , ” rather than creating OGD portals “ for the sake of implementing new technologies ” ( p. 500 ) . 
+Previous research has shown that OGD policies in different countries vary somewhat , in spite of sharing some common elements ( Davies , 2014 ) . 
+For city‐level open data policies , similar conclusions may be drawn—individual American cities have approached OGD for different reasons in different ways . 
+Local governments can create a much better sense of purpose and trust if their data policies and plans are made public . 
+While the presence or absence of data policy was considered an aspect of “ trust , ” it also has implications for community engagement—cities ’ communicating with their constituents about the range and types of data they offer , and why the presented datasets were prioritized . 
+Although most portals do not make their data policies available , many cities have official OG/OGD legislation or policy in place . 
+The content of city‐level data legislation/policy varies considerably , but some ( for instance , Austin 's , Chicago 's , and Madison 's ) are quite comprehensive about data selection and provision . 
+Cities can do a better job of communicating their OGD goals simply by making these documents available through the portals . 
+Prior research evaluating OGD portals ( Nahon et al. , 2015 ; Thorsby et al. , 2016 ; US City Open Data Census ) emphasized coverage and categories at the city level , and provided a valuable foundation for this study 's framework . 
+However , they assumed citizens in each city have very similar goals , and that OGD portals should provide data in predefined content areas . 
+In this study , our grounded approach revealed the most commonly used categories for each portal . 
+Our analysis showed a surprisingly high degree of variation in data categories across cities , even considering the diversity of city life and variety of municipal services . 
+But if we assume that citizens in different cities do have similar data needs , our study suggests that cities lack a clear understanding of users ’ interest in different types of municipal data . 
+The metrics used in the study measure the features of the OGD portals , but they have limitations . 
+The quantitative data can only indicate the features and overall performance of the OGD portals in terms of user access and engagement ; we can not discern the design intention of the portal developers . 
+Yes‐or‐no questions only indicate if a portal/dataset has a certain feature , rather than how effective it is , in its specific sociopolitical context . 
+The quantitative evaluation can not substitute for the richness of users ’ direct reports of their actual experience with the data portals . 
+To improve this evaluation framework , a grounded user study may be helpful . 

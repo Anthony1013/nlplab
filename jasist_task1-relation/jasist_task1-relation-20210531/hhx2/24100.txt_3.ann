@@ -1,0 +1,20 @@
+T1	引文作者 12404 12409	Brody
+T2	引文时间 12422 12426	2006
+T3	研究结果 1066 1177	Among the four author‐related factors , only the number of authors was a significant factor of future citations
+T4	研究结果 1394 1511	Regarding the paper related factors , the content type was a significant factor influencing both sources of citations
+T5	研究结果 1916 2039	Papers presented at conferences that included a smaller number of paper in the conference proceedings earned more citations
+T6	研究结果 1758 1911	Among the five factors related to the conference per se , the number of papers presented at a conference significantly impacted both sources of citations
+T7	研究结果 1622 1753	On the other hand , the number of pages only significantly influenced Google citations ; it did so at a lower level of significance
+T8	研究结果 1516 1617	As expected , long papers earned significantly more citations than short papers , demos , and posters
+T9	研究结果 3200 3343	The preceding analyses discovered the significance of online readers ’ attention to conference papers as an early predictor of future citations
+T10	研究结果 3781 3932	Prior analyses illustrated that both online readers ’ early attention and best article awards appeared to be significant predictors of future citations
+T11	研究结果 5216 5386	The results also reveal that the public announcement of the BPA during the conference is not the only factor that increases the number of citations for the awarded papers
+T12	研究结果 9413 9666	We found that the subset of bookmarks collected 4 to 12 months after the conferences served as reliable evidence of the early interest of online readership , correlating with future citations at almost the same level as the full history of the bookmarks
+T13	研究问题 10480 10807	With both community attention and the best article factors examined , this study is the first comparative analysis of the vox populi of general readers ( in the form of early bookmarks ) and the voice of experts ( in the form of the best article awards ) as early indicators explaining the future citations of conference papers
+T14	研究结果 10812 10937	The results of our analyses show that the experts ’ evaluation is fairly predictive for future citations of conference papers
+T15	研究结果 10942 11105	However , the predictive power of the vox populi of general readers ( including students and early career researchers ) is even better than the vote of the experts
+T16	研究方法 11520 11676	In our article , we attempted to consider several factors related to conferences and conference papers and perform a multiple sequential regression analysis
+T17	研究展望 12943 13136	In the future , we hope to perform a study that considers the download frequency and uses the records of downloads from the time when the conference proceedings are open to the general public .
+T18	研究展望 13374 13486	In the future , we plan to use more balanced and widely used authors ’ reputation measures , such as the h‐index
+T19	研究结果 2044 2146	However , we failed to find any halo effects related to conference names for either type of citation .
+R1	has_cited_time Arg1:T2 Arg2:T1	

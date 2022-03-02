@@ -1,0 +1,299 @@
+T1	术语 0 10	Stylometry
+T2	引文作者 254 263	Mosteller
+T3	引文作者 266 273	Wallace
+T4	引文时间 276 280	1964
+T5	引文作者 519 524	Juola
+T6	引文作者 367 374	Collins
+T7	引文时间 377 381	2013
+T8	引文作者 418 424	Brooks
+T9	引文作者 427 431	Flyn
+T10	引文时间 434 438	2013
+T11	引文作者 441 446	Juola
+T12	引文时间 449 454	2013a
+T13	引文作者 457 463	Herper
+T14	引文时间 466 470	2014
+T15	引文时间 527 532	2013b
+T16	引文作者 572 578	Chaski
+T17	引文时间 581 585	2005
+T18	引文作者 588 593	Grant
+T19	引文时间 596 600	2013
+T20	引文作者 826 831	Juola
+T21	引文作者 834 840	Mikros
+T22	引文时间 843 847	2017
+T23	引文作者 1585 1590	Neijt
+T24	引文作者 1569 1578	Haverkort
+T25	引文作者 1559 1566	Tweedie
+T26	引文作者 1550 1556	Baayen
+T27	引文时间 1593 1597	2005
+T28	引文作者 2166 2175	McMenamin
+T29	引文时间 2178 2182	2011
+T30	引文作者 3069 3078	Coulthard
+T31	引文时间 3081 3085	2013
+T32	引文作者 1535 1547	van Halteren
+T33	引文作者 3934 3943	Coulthard
+T34	引文时间 3946 3950	2013
+T35	引文时间 4551 4555	2011
+T36	引文作者 4529 4538	McMenamin
+T37	引文作者 4373 4380	Klemola
+T38	引文时间 4383 4387	1994
+T39	引文作者 5283 5290	Binongo
+T40	引文时间 5318 5322	2003
+T41	时间 5482 5486	1919
+T43	时间 5717 5721	1939
+T44	引文时间 7780 7784	2013
+T45	引文作者 7264 7271	Burrows
+T46	引文时间 7274 7278	1989
+T47	引文作者 7281 7288	Binongo
+T48	引文时间 7291 7295	2003
+T49	引文作者 7298 7304	Hoover
+T50	引文时间 7307 7312	2004a
+T51	引文作者 7828 7834	Rudman
+T52	引文时间 7837 7841	2003
+T53	引文作者 7717 7727	Stamatatos
+T54	引文时间 7730 7734	2013
+T55	引文作者 7737 7743	Mikros
+T56	引文作者 7746 7755	Perifanos
+T57	引文时间 7758 7762	2013
+T58	引文作者 7765 7770	Juola
+T59	具体模型 7652 7664	word n‐grams
+T60	具体模型 7695 7712	character n‐grams
+T61	引文作者 8058 8066	Joachims
+T62	引文时间 8069 8073	2002
+T63	引文作者 8076 8083	Quinlan
+T64	引文时间 8086 8090	1993
+T65	引文作者 8093 8100	Jockers
+T66	引文作者 8103 8109	Witten
+T67	引文时间 8112 8116	2010
+T68	引文作者 8176 8180	Eder
+T69	引文时间 8183 8187	2015
+T70	引文作者 8190 8196	Dabagh
+T71	引文时间 8199 8203	2007
+T72	引文作者 8206 8212	Holmes
+T73	引文时间 8215 8219	1992
+T74	引文作者 8222 8228	Hoover
+T75	引文时间 8231 8236	2004a
+T76	引文作者 8418 8425	Argamon
+T77	引文作者 8428 8434	Koppel
+T78	引文作者 8437 8447	Pennebaker
+T79	引文作者 8452 8458	Schler
+T80	引文时间 8461 8465	2009
+T81	引文作者 8468 8476	Schwartz
+T82	引文时间 8486 8490	2013
+T83	引文作者 8902 8907	Juola
+T84	引文时间 8910 8914	2004
+T85	引文时间 8917 8922	2012b
+T86	引文作者 8925 8930	Juola
+T87	引文作者 8933 8943	Stamatatos
+T88	引文时间 8946 8950	2013
+T89	引文作者 8953 8963	Stamatatos
+T90	引文时间 8973 8977	2014
+T92	引文时间 9050 9055	2009a
+T91	引文时间 8980 8984	2015
+T93	引文作者 9042 9047	Juola
+T94	引文时间 9058 9063	2012a
+T95	引文时间 9076 9080	2011
+T96	引文作者 9066 9073	Vescovi
+T97	引文作者 9176 9180	Eder
+T98	引文时间 9183 9187	2013
+T99	引文作者 9190 9196	Hoover
+T100	引文时间 9199 9204	2004b
+T101	引文作者 9413 9423	Stamatatos
+T102	引文时间 9433 9437	2015
+T103	引文作者 9587 9593	Koppel
+T104	引文作者 9596 9602	Schler
+T105	引文作者 9605 9612	Argamon
+T106	引文作者 9617 9623	Winter
+T107	引文时间 9626 9630	2012
+T108	引文作者 9800 9810	Stamatatos
+T109	引文时间 9820 9824	2015
+T110	引文时间 10705 10709	2015
+T111	引文作者 10682 10692	Stamatatos
+T112	引文作者 17472 17477	Juola
+T113	引文作者 17480 17485	Sofko
+T114	引文作者 17490 17497	Brennan
+T115	引文时间 17500 17504	2006
+T116	引文作者 17507 17512	Juola
+T117	引文时间 17515 17519	2006
+T118	引文作者 17522 17527	Juola
+T119	引文作者 17530 17537	Noecker
+T120	引文作者 17540 17544	Ryan
+T121	引文作者 17549 17554	Speer
+T122	引文时间 17557 17561	2009
+T123	数据源 17610 17619	jgaap.com
+T124	引文作者 17648 17653	Juola
+T125	引文时间 17656 17661	2009a
+T126	引文作者 17845 17850	Juola
+T127	引文时间 17853 17858	2012a
+T128	引文作者 17861 17868	Vescovi
+T129	引文时间 17871 17875	2011
+T130	引文作者 19036 19043	Binongo
+T131	引文时间 19046 19050	2003
+T132	具体模型 20113 20116	SVM
+T133	具体模型 20107 20110	LDA
+T134	具体模型 20127 20131	WEKA
+T135	引文作者 20379 20386	Hasanaj
+T136	引文时间 20399 20403	2014
+T137	具体模型 20902 20906	SVMs
+T138	具体模型 20909 20912	LDA
+T139	引文作者 21331 21335	Zhao
+T140	引文作者 21338 21343	Juola
+T141	引文时间 21346 21350	2008
+T142	引文作者 21353 21357	Zhao
+T143	引文时间 21360 21364	2008
+T144	引文作者 21380 21385	Juola
+T145	引文作者 21388 21395	Milička
+T146	引文作者 21400 21407	Zemánek
+T147	引文时间 21410 21414	2017
+T148	引文作者 21752 21757	Juola
+T149	引文时间 21760 21764	2008
+T150	引文作者 21613 21618	Juola
+T151	引文作者 21621 21628	Vescovi
+T152	引文作者 21645 21652	Vescovi
+T153	引文作者 23832 23839	Hasanaj
+T154	引文时间 23849 23853	2014
+T155	引文作者 23738 23743	Juola
+T156	引文时间 23746 23751	2009a
+T157	引文作者 23762 23769	Vescovi
+T158	引文时间 23772 23776	2011
+T163	数据源 748 796	a newly available corpus of Greek and of English
+T167	引文的研究问题 4558 4682	analyzed 11 different and distinct “ features ” of the writing in both the known ( undisputed ) email and the disputed email
+T171	引文的方法 8239 8300	use clustering algorithms to group similar documents together
+T172	引文的研究问题 8333 8390	see whether or not they correspond to authorial groupings
+T173	引文的方法 8493 8623	classify or cluster documents , not by specific author , but by group identity ( for example , by gender or personality category )
+T176	引文的研究问题 9092 9167	address questions like “ what is an appropriate cutoff for ‘ common ’ words
+T177	引文的研究问题 9346 9410	The 2015 PAN/CLEF authorship verification competitive evaluation
+T178	引文作者 14097 14104	Hasanaj
+T179	引文作者 14107 14114	Purnell
+T180	引文作者 14119 14124	Juola
+T181	引文时间 14127 14131	2014
+T183	自建数据集 11962 11975	Mikros corpus
+T185	研究方法 15449 15619	To address issues of between‐corpus variation , we were able to use students at the University of Athens to collect a reasonably large and tightly topic‐controlled corpus
+T186	软件工具 17414 17469	Java Graphical Authorship Attribution Program ( JGAAP )
+T188	软件工具 17882 17887	JGAAP
+T189	软件工具 19490 19495	JGAAP
+T190	软件工具 19955 19960	JGAAP
+T191	软件工具 21183 21188	JGAAP
+T192	软件工具 21478 21483	JGAAP
+T193	研究方法 21778 21929	We use it here as a testbed to compare different approaches to authorship attribution and to calculate comparative performance levels for each approach
+T159	引文的研究问题 5294 5315	study of the Oz books
+R1	has_cited_time Arg1:T7 Arg2:T6	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	has_cited_time Arg1:T4 Arg2:T3	
+R4	has_cited_time Arg1:T14 Arg2:T13	
+R5	has_cited_time Arg1:T12 Arg2:T11	
+R6	has_cited_time Arg1:T10 Arg2:T9	
+R7	coauthor Arg1:T8 Arg2:T9	
+R8	field_similar_as Arg1:T8 Arg2:T11	
+R9	field_similar_as Arg1:T11 Arg2:T13	
+R10	has_cited_time Arg1:T15 Arg2:T5	
+R11	has_cited_time Arg1:T17 Arg2:T16	
+R12	has_cited_time Arg1:T19 Arg2:T18	
+R13	field_similar_as Arg1:T16 Arg2:T18	
+R14	has_cited_time Arg1:T22 Arg2:T21	
+R15	coauthor Arg1:T20 Arg2:T21	
+R16	has_cited_time Arg1:T29 Arg2:T28	
+R17	coauthor Arg1:T32 Arg2:T26	
+R18	coauthor Arg1:T26 Arg2:T25	
+R19	coauthor Arg1:T25 Arg2:T24	
+R20	coauthor Arg1:T24 Arg2:T23	
+R21	has_cited_time Arg1:T27 Arg2:T23	
+R22	has_cited_time Arg1:T31 Arg2:T30	
+R23	has_cited_time Arg1:T34 Arg2:T33	
+R24	produces Arg1:T36 Arg2:T167	
+R25	has_cited_time Arg1:T38 Arg2:T37	
+R26	has_cited_time Arg1:T35 Arg2:T36	
+R27	produces Arg1:T39 Arg2:T159	
+R28	has_cited_time Arg1:T40 Arg2:T39	
+R29	has_cited_time Arg1:T46 Arg2:T45	
+T42	引文的方法 5939 6099	collected frequency statistics on the 50 most frequent function words across the undisputed samples and analyzed them using principal component analysis ( PCA )
+T160	引文作者 5931 5938	Binongo
+R30	uses Arg1:T160 Arg2:T42	
+R31	has_cited_time Arg1:T48 Arg2:T47	
+R32	has_cited_time Arg1:T50 Arg2:T49	
+R33	coauthor Arg1:T45 Arg2:T47	
+R34	coauthor Arg1:T47 Arg2:T49	
+R35	has_cited_time Arg1:T54 Arg2:T53	
+R36	coauthor Arg1:T55 Arg2:T56	
+R37	has_cited_time Arg1:T57 Arg2:T56	
+R38	has_cited_time Arg1:T44 Arg2:T58	
+R39	field_similar_as Arg1:T53 Arg2:T55	
+R40	field_similar_as Arg1:T55 Arg2:T58	
+R41	has_cited_time Arg1:T52 Arg2:T51	
+R42	has_cited_time Arg1:T62 Arg2:T61	
+R43	has_cited_time Arg1:T64 Arg2:T63	
+R44	has_cited_time Arg1:T67 Arg2:T66	
+R45	field_similar_as Arg1:T61 Arg2:T63	
+R46	field_similar_as Arg1:T63 Arg2:T65	
+R47	has_cited_time Arg1:T75 Arg2:T74	
+R48	has_cited_time Arg1:T73 Arg2:T72	
+R49	has_cited_time Arg1:T71 Arg2:T70	
+R50	has_cited_time Arg1:T69 Arg2:T68	
+R51	field_similar_as Arg1:T68 Arg2:T70	
+R52	field_similar_as Arg1:T70 Arg2:T72	
+R53	field_similar_as Arg1:T72 Arg2:T74	
+R54	uses Arg1:T68 Arg2:T171	
+R55	produces Arg1:T68 Arg2:T172	
+R56	coauthor Arg1:T76 Arg2:T77	
+R57	coauthor Arg1:T77 Arg2:T78	
+R58	coauthor Arg1:T78 Arg2:T79	
+R59	has_cited_time Arg1:T80 Arg2:T79	
+R60	has_cited_time Arg1:T82 Arg2:T81	
+R61	field_similar_as Arg1:T76 Arg2:T81	
+R62	uses Arg1:T76 Arg2:T173	
+R63	has_cited_time Arg1:T84 Arg2:T83	
+R64	has_cited_time Arg1:T85 Arg2:T83	
+R65	coauthor Arg1:T86 Arg2:T87	
+R66	has_cited_time Arg1:T88 Arg2:T87	
+R67	has_cited_time Arg1:T90 Arg2:T89	
+R68	has_cited_time Arg1:T91 Arg2:T89	
+R69	field_similar_as Arg1:T83 Arg2:T86	
+R70	field_similar_as Arg1:T86 Arg2:T89	
+R71	has_cited_time Arg1:T92 Arg2:T93	
+R72	has_cited_time Arg1:T94 Arg2:T93	
+R73	has_cited_time Arg1:T95 Arg2:T96	
+R74	field_similar_as Arg1:T93 Arg2:T96	
+R75	has_cited_time Arg1:T98 Arg2:T97	
+R76	has_cited_time Arg1:T100 Arg2:T99	
+R77	field_similar_as Arg1:T97 Arg2:T99	
+R78	produces Arg1:T93 Arg2:T176	
+R79	produces Arg1:T101 Arg2:T177	
+R80	has_cited_time Arg1:T102 Arg2:T101	
+R81	coauthor Arg1:T103 Arg2:T104	
+R82	coauthor Arg1:T104 Arg2:T105	
+R83	coauthor Arg1:T105 Arg2:T106	
+R84	has_cited_time Arg1:T107 Arg2:T106	
+T161	引文的研究问题 9469 9525	This conference focused on “ authorship verification , ”
+R85	produces Arg1:T103 Arg2:T161	
+R86	has_cited_time Arg1:T109 Arg2:T108	
+R87	has_cited_time Arg1:T110 Arg2:T111	
+R88	coauthor Arg1:T178 Arg2:T179	
+R89	coauthor Arg1:T179 Arg2:T180	
+R90	coauthor Arg1:T112 Arg2:T113	
+R91	coauthor Arg1:T113 Arg2:T114	
+R92	has_cited_time Arg1:T115 Arg2:T114	
+R93	has_cited_time Arg1:T117 Arg2:T116	
+R94	coauthor Arg1:T118 Arg2:T119	
+R95	coauthor Arg1:T119 Arg2:T120	
+R96	coauthor Arg1:T120 Arg2:T121	
+R97	has_cited_time Arg1:T122 Arg2:T121	
+R98	field_similar_as Arg1:T112 Arg2:T116	
+R99	field_similar_as Arg1:T116 Arg2:T118	
+R100	has_cited_time Arg1:T125 Arg2:T124	
+R101	has_cited_time Arg1:T127 Arg2:T126	
+R102	has_cited_time Arg1:T129 Arg2:T128	
+R103	field_similar_as Arg1:T126 Arg2:T128	
+R104	has_cited_time Arg1:T131 Arg2:T130	
+R105	has_cited_time Arg1:T136 Arg2:T135	
+R106	coauthor Arg1:T139 Arg2:T140	
+R107	has_cited_time Arg1:T141 Arg2:T140	
+R108	has_cited_time Arg1:T143 Arg2:T142	
+R109	field_similar_as Arg1:T139 Arg2:T142	
+R110	coauthor Arg1:T144 Arg2:T145	
+R111	coauthor Arg1:T145 Arg2:T146	
+R112	has_cited_time Arg1:T147 Arg2:T146	
+R113	coauthor Arg1:T150 Arg2:T151	
+R114	coauthor Arg1:T151 Arg2:T152	
+R115	has_cited_time Arg1:T149 Arg2:T148	
+R116	has_cited_time Arg1:T154 Arg2:T153	
+R117	has_cited_time Arg1:T158 Arg2:T157	
+R118	has_cited_time Arg1:T156 Arg2:T155	

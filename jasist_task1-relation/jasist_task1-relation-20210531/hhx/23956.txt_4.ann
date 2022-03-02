@@ -1,0 +1,57 @@
+T1	引文作者 0 9	Giannella
+T2	引文作者 721 730	Giannella
+T3	引文时间 733 737	2015
+T4	引文作者 1293 1302	Giannella
+T5	图 1083 1188	Figure 7 shows the purity results of the SequentialUD approach and its refined version in short documents
+T6	引文时间 1305 1309	2015
+T7	引文作者 1443 1452	Giannella
+T8	引文时间 1455 1459	2015
+T9	引文作者 1663 1672	Giannella
+T10	引文时间 1675 1679	2015
+T11	引文作者 1991 2000	Giannella
+T12	引文作者 2140 2149	Giannella
+T13	图 1879 2163	As shown in Figure 7 , the purity results of the SequentialUD and its refined version outperform the results of Giannella 's approach in all values of meanARL ( except in the case of meanARL = 25 , where SequentialUD achieves a purity equal to that achieved in Giannella 's approach )
+T14	引文作者 2673 2682	Kestemont
+T15	引文时间 2692 2696	2011
+T16	引文作者 2699 2702	Rao
+T17	引文时间 2712 2716	2011
+T18	引文作者 3115 3121	Baayen
+T19	引文时间 3131 3135	2002
+T20	引文作者 3138 3144	Layton
+T21	引文时间 3154 3158	2010
+T22	引文作者 3161 3166	Savoy
+T23	引文时间 3169 3173	2015
+T24	引文作者 3585 3592	Aldebei
+T25	引文时间 3602 3606	2016
+T26	引文作者 3609 3614	Akiva
+T27	引文作者 3617 3623	Koppel
+T28	引文时间 3626 3630	2013
+T29	引文作者 3633 3637	Daks
+T30	引文作者 3640 3645	Clark
+T31	引文时间 3648 3652	2016
+T32	引文作者 3655 3664	Giannella
+T33	引文时间 3667 3671	2015
+T34	具体模型 4795 4814	Hidden Markov Model
+T35	研究结果 4942 5203	Our comparative evaluation results with the state‐of‐the‐art have demonstrated the strength of our proposed idea in terms of effectively decomposing the document into sentences according to their authorship , regardless of their topics , languages , and so on .
+T36	研究展望 5604 5755	However , the proposed approach may not yet be effectively able to predict the authors of sentences when the majority of the sentences are very short .
+R1	has_cited_time Arg1:T3 Arg2:T2	
+R2	has_cited_time Arg1:T6 Arg2:T4	
+R3	has_cited_time Arg1:T8 Arg2:T7	
+R4	has_cited_time Arg1:T10 Arg2:T9	
+R5	has_cited_time Arg1:T15 Arg2:T14	
+R6	has_cited_time Arg1:T17 Arg2:T16	
+R7	field_similar_as Arg1:T16 Arg2:T14	
+R8	has_cited_time Arg1:T19 Arg2:T18	
+R9	has_cited_time Arg1:T21 Arg2:T20	
+R10	has_cited_time Arg1:T23 Arg2:T22	
+R11	field_similar_as Arg1:T22 Arg2:T20	
+R12	field_similar_as Arg1:T20 Arg2:T18	
+R13	has_cited_time Arg1:T25 Arg2:T24	
+R14	coauthor Arg1:T26 Arg2:T27	
+R15	has_cited_time Arg1:T28 Arg2:T27	
+R16	coauthor Arg1:T29 Arg2:T30	
+R17	has_cited_time Arg1:T31 Arg2:T30	
+R18	has_cited_time Arg1:T33 Arg2:T32	
+R19	field_similar_as Arg1:T32 Arg2:T29	
+R20	field_similar_as Arg1:T29 Arg2:T26	
+R21	field_similar_as Arg1:T26 Arg2:T24	

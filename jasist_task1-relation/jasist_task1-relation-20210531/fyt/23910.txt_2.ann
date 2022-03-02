@@ -1,0 +1,33 @@
+T1	图 828 1197	Nevertheless , if we consider the interaction plot for stemmers * IR models shown in Figure 1 , with the previous caveat about the size and significance of the effect , we notice that all the IR models are somehow affected by the use of a stemmer and some of them—bm25 , hiemstralm , inb2 , inl2 , inexpb2 , lemurtfidf—seems to be affected more by the lack of a stemmer
+T2	表 625 823	The interaction between stemmers and IR models reported in Table 1 is almost null and not significant but , as we will discuss in below , we are lacking the statistical power to be able to detect it
+T3	表 1628 1894	For the n‐grams group , we can see from Table 1 that all the effects , with the exception of third‐order interactions , become significant even if they are all now small‐size effects , compared to the small and medium size they were in the case of the stemmers group
+T4	图 2413 2682	From the lower part of Figure 1 , as far as the main effects of stop lists are concerned , we observe the same behavior as in the case of stemmers : there is a marked difference between using or not a stop list and lucene stop list is the only one outside the top group
+T5	引文作者 4320 4328	Büttcher
+T6	引文作者 4331 4337	Clarke
+T7	引文作者 4344 4351	Cormack
+T8	引文时间 4356 4360	2010
+T9	表 4533 4720	Table 1 shows the web search task , which displays a trend similar to the case of the news search tasks , even though it is more pronounced , with some notable differences we will discuss
+T10	图 5041 5418	From the main effects and Tukey HSD plots of the stop lists in Figure 2 , we can see that , again , there is a substantial difference between systems employing or not a stop list , while the top‐performing stop list is terrier , that is , the longest one , followed by a second group constituted by snowball , smart , and indri ; lucene is still the lowest‐performing stop list
+T11	图 8407 8629	From the lower part of Figure 2 , we can note again the impact of using a stop list also in the case of n‐grams with terrier , which is the top‐performing stop list , followed by all the others now in the same second group
+T12	表 9564 9751	Table 1 also reports the estimated SOA for all the other considered measures ; this emphasizes the difference between the various measures when it comes to breaking down component effects
+T13	表 10939 11165	To further investigate this issue , we compute the statistical power using the G*Power tool44 http : //www.gpower.hhu.de/ : Table 2 reports the statistical power of the main effects and the most interesting interaction effects
+T14	引文作者 12081 12086	Sakai
+T15	引文时间 12089 12093	2016
+T16	表 13058 13226	In Table 3 we report the estimated SOA for all the main and interaction effects , the p‐values for all the ANOVA four‐way tests we conducted , and the statistical power
+T17	引文作者 17532 17540	Kanoulas
+T18	引文作者 17518 17527	Robertson
+T19	引文时间 17543 17547	2012
+T20	引文作者 17969 17974	Ferro
+T21	引文作者 17977 17985	Silvello
+T22	引文时间 17988 17993	2016b
+T23	研究展望 17233 17400	As far as future work is concerned , we plan to extend the proposed methodology to also be able to capture the interaction between topics/systems and topics/components
+T24	软件工具 14998 15001	GoP
+T25	研究结果 16910 17053	We conclude that not all the measures are suitable for all the cases , as for ERR and ERR @ 20 , which almost fail to detect the stemmer effect
+R1	coauthor Arg1:T20 Arg2:T21	
+R2	has_cited_time Arg1:T22 Arg2:T21	
+R3	coauthor Arg1:T18 Arg2:T17	
+R4	has_cited_time Arg1:T19 Arg2:T17	
+R5	has_cited_time Arg1:T15 Arg2:T14	
+R6	coauthor Arg1:T5 Arg2:T6	
+R7	coauthor Arg1:T6 Arg2:T7	
+R8	has_cited_time Arg1:T8 Arg2:T7	

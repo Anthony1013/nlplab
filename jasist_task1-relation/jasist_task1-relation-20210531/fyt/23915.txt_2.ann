@@ -1,0 +1,87 @@
+T1	引文时间 1080 1084	2013
+T2	图 3112 3300	( Leaks of information types D , E , and F. ) In Figures 2 and 3 , the acceptance rate in Scenario 2 generally grew faster than that in Scenario 1 when the amount of compensation increased
+T3	引文作者 4558 4569	Spiekermann
+T4	引文作者 4572 4582	Grossklags
+T5	引文作者 4587 4594	Berendt
+T6	引文时间 4597 4601	2001
+T7	引文作者 4604 4612	Acquisti
+T8	引文作者 4615 4625	Grossklags
+T9	引文时间 4628 4632	2005
+T10	引文作者 4635 4644	Beresford
+T11	引文作者 4647 4653	Kübler
+T12	引文作者 4658 4667	Preibusch
+T13	引文时间 4670 4674	2012
+T14	引文作者 5931 5934	Won
+T15	引文时间 5937 5941	2017
+T16	时间 5772 5788	On February 2017
+T17	引文作者 6057 6060	Lee
+T18	引文时间 6063 6067	2016
+T19	引文时间 7508 7512	2016
+T20	引文作者 7660 7664	Park
+T21	引文时间 7667 7671	2017
+T22	时间 9518 9534	in February 2015
+T23	时间 10040 10050	since 2003
+T24	引文时间 9471 9475	2016
+T25	引文作者 10352 10355	Kim
+T26	引文时间 10358 10362	2017
+T27	时间 10342 10349	in 2016
+T28	表 11507 11675	Table 7 shows that the required compensation to be accepted by the majority of Naver 's general users is double that of general Facebook users regardless of the classes
+T29	引文时间 12874 12878	2014
+T30	引文时间 12669 12673	2016
+T31	引文时间 13813 13817	2013
+T32	引文作者 15263 15271	Acquisti
+T33	引文时间 15277 15281	2004
+T34	引文作者 16745 16749	Orme
+T35	引文时间 16752 16756	2002
+T36	引文作者 17938 17947	Whitehead
+T37	引文作者 17950 17960	Pattanayak
+T38	引文作者 17963 17974	Van Houtven
+T39	引文作者 17979 17984	Gelso
+T40	引文时间 17987 17991	2008
+T41	引文作者 18330 18339	Podsakoff
+T42	引文作者 18342 18351	MacKenzie
+T43	引文作者 18354 18357	Lee
+T44	引文作者 18362 18371	Podsakoff
+T45	引文时间 18374 18378	2003
+T46	引文的结果 15295 15383	t consumers tend to assess the cost and benefit of the protection of privacy differently
+T47	研究结果 14243 14381	The results of both models showed that consumers placed high value on basic personal information and purchase list and payment information
+T48	研究结果 15000 15229	While personal medical information is given the second highest value by the consumers in Class 1 ( who place importance on privacy and have experienced information leakage ) , the consumers in Class 2 place the lowest value on it
+T49	研究结果 16541 16742	First , this study limited the number of types of personal information to six because respondents are likely to have difficulty dealing with more than six attributes in a full‐profile choice experiment
+T51	研究结果 16875 17030	Second , this study did not analyze the demographic or psychological factors that lead the consumers to assign different values to each type of information
+T50	研究结果 17157 17375	Moreover , although this study used the data collected from Korea , the results may be different in countries having different cultural backgrounds that might impact the consumers ' attitude towards information privacy
+T52	研究结果 17380 17548	Third , we considered just one payment type , the lump‐sum payment , because the compensation was paid as a lump sum in most prior cases of information leakage in Korea
+R1	coauthor Arg1:T41 Arg2:T42	
+R2	coauthor Arg1:T42 Arg2:T43	
+R3	has_cited_time Arg1:T45 Arg2:T44	
+R4	coauthor Arg1:T43 Arg2:T44	
+R5	coauthor Arg1:T36 Arg2:T37	
+R6	coauthor Arg1:T37 Arg2:T38	
+R7	coauthor Arg1:T38 Arg2:T39	
+R8	has_cited_time Arg1:T40 Arg2:T39	
+R9	has_cited_time Arg1:T35 Arg2:T34	
+R10	has_cited_time Arg1:T33 Arg2:T32	
+T53	引文作者 13806 13810	OECD
+R11	has_cited_time Arg1:T31 Arg2:T53	
+T54	引文作者 12831 12871	Article 29 Data Protection Working Party
+R12	has_cited_time Arg1:T29 Arg2:T54	
+T55	引文作者 12618 12659	Office for Government Policy Coordination
+R13	has_cited_time Arg1:T26 Arg2:T25	
+T56	引文作者 9432 9461	Financial Services Commission
+R14	has_cited_time Arg1:T24 Arg2:T56	
+R15	has_cited_time Arg1:T21 Arg2:T20	
+T57	引文作者 7462 7481	Ministry of Science
+T58	引文作者 7484 7487	ICT
+T59	引文作者 7490 7505	Future Planning
+R16	coauthor Arg1:T57 Arg2:T58	
+R17	coauthor Arg1:T58 Arg2:T59	
+R18	has_cited_time Arg1:T19 Arg2:T59	
+R19	has_cited_time Arg1:T18 Arg2:T17	
+R20	has_cited_time Arg1:T15 Arg2:T14	
+R21	coauthor Arg1:T3 Arg2:T4	
+R22	coauthor Arg1:T4 Arg2:T5	
+R23	has_cited_time Arg1:T6 Arg2:T5	
+R24	has_cited_time Arg1:T9 Arg2:T8	
+R25	coauthor Arg1:T7 Arg2:T8	
+R26	coauthor Arg1:T10 Arg2:T11	
+R27	coauthor Arg1:T11 Arg2:T12	
+R28	has_cited_time Arg1:T13 Arg2:T12	

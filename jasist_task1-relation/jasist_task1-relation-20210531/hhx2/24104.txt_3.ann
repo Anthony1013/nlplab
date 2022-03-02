@@ -1,0 +1,32 @@
+T1	引文作者 289 296	Florida
+T2	引文作者 299 308	Mellander
+T3	引文作者 313 322	Stolarick
+T4	引文时间 325 329	2008
+T5	引文作者 332 338	Heinze
+T6	引文作者 341 348	Shapira
+T7	引文作者 351 357	Rogers
+T8	引文作者 362 368	Senker
+T9	引文时间 371 375	2009
+T10	引文作者 933 939	Séguin
+T11	引文作者 942 948	Singer
+T12	引文作者 953 957	Daar
+T13	引文时间 960 964	2006
+T14	引文作者 2882 2890	Bohannon
+T15	引文时间 2893 2897	2017
+T16	引文作者 3115 3121	Youtie
+T17	引文时间 3131 3135	2017
+T18	研究结果 3142 3392	Although this article has limitations , the use of the method presented here does open up strategies for surname‐based identification of the heritage of certain ethnic and national groups that previously have been difficult to identify with precision
+T19	研究展望 3492 3789	Deploying such surname‐based procedures as a means to distinguish the heritage of groups of scientists , along with how their heritage influences their research approaches and networks , can shed new light on how researchers work , collaborate , and move in an interconnected and globalizing world
+R1	coauthor Arg1:T1 Arg2:T2	
+R2	coauthor Arg1:T2 Arg2:T3	
+R3	has_cited_time Arg1:T4 Arg2:T3	
+R4	coauthor Arg1:T5 Arg2:T6	
+R5	coauthor Arg1:T6 Arg2:T7	
+R6	coauthor Arg1:T7 Arg2:T8	
+R7	has_cited_time Arg1:T9 Arg2:T8	
+R8	field_similar_as Arg1:T5 Arg2:T1	
+R9	coauthor Arg1:T10 Arg2:T11	
+R10	coauthor Arg1:T11 Arg2:T12	
+R11	has_cited_time Arg1:T13 Arg2:T12	
+R12	has_cited_time Arg1:T15 Arg2:T14	
+R13	has_cited_time Arg1:T17 Arg2:T16	

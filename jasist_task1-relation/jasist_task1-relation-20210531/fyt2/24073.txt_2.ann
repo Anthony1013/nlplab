@@ -1,0 +1,89 @@
+T1	引文作者 352 359	Noecker
+T2	引文作者 362 367	Juola
+T3	引文时间 370 374	2009
+T4	引文作者 1772 1781	McMenamin
+T5	引文时间 1784 1788	2011
+T6	具体模型 1599 1614	LaTeX algorithm
+T7	引文作者 2123 2130	Binongo
+T8	引文时间 2133 2137	2003
+T9	引文作者 2140 2147	Burrows
+T10	引文时间 2150 2154	1989
+T11	引文作者 2157 2163	Hoover
+T12	引文时间 2166 2171	2004a
+T13	引文作者 2266 2272	Abbasi
+T14	引文作者 2275 2279	Chen
+T15	引文时间 2282 2286	2008
+T16	具体模型 745 752	N‐grams
+T17	引文作者 2507 2517	Stamatatos
+T18	引文时间 2520 2524	2013
+T19	引文作者 2527 2533	Mikros
+T20	引文作者 2536 2545	Perifanos
+T21	引文时间 2548 2552	2013
+T22	引文作者 2555 2560	Juola
+T23	引文时间 2570 2574	2013
+T24	表 6755 6971	As can be seen from Table 1 , accuracy levels across the board are above the chance performance level of 0.5 , and usually significantly so ( at p < .05 or better ) , answering the first research question posed above
+T25	图 7914 8018	The results of the progressive length character n‐gram experiments are presented graphically as Figure 1
+T26	图 9201 9307	The results of the progressive length word n‐gram experiments are presented graphically as Figures 2 and 3
+T27	引文作者 10459 10465	Chaski
+T28	引文时间 10468 10472	2013
+T29	引文作者 10475 10480	Grant
+T30	引文时间 10483 10487	2013
+T31	表 9965 10182	In particular , in no trial did the system underperform the chance baseline , and in all trials but one the system outperformed chance , significantly so in 10 of the 16 individual method‐trials ( as seen in Table 1 )
+T32	引文作者 11361 11366	Juola
+T33	引文时间 11369 11373	2006
+T34	引文作者 11384 11391	Hasanaj
+T35	引文时间 11401 11405	2014
+T36	引文作者 17790 17796	Koleli
+T37	引文时间 17799 17803	2011
+T38	引文作者 17806 17818	Malakasiotis
+T39	引文时间 17821 17825	2005
+T40	引文作者 17828 17834	Asikis
+T41	引文时间 17837 17841	2016
+T42	引文作者 17844 17850	Pappas
+T43	引文时间 17853 17857	2008
+T44	引文的结果 1791 1953	have suggested that “ sentence openers , ” the first words in a sentence , are psycholinguistically salient and may be a useful feature for authorship attribution
+T47	研究问题 3145 3262	First , can authorship attribution be successfully performed on this corpus with better accuracy than random guessing
+T48	研究问题 3267 3381	Second , do the same methods that perform well in English and in other languages also perform well in Modern Greek
+T49	研究问题 3386 3656	Third , and most interestingly , is the authorship attribution problem easier or harder in Modern Greek than in English , or ( alternatively ) , are the expected levels of performance under similar conditions in Modern Greek higher or lower than they would be in English
+T50	自建数据集 4704 4717	Mikros corpus
+T51	自建数据集 18664 18677	Mikros corpus
+T52	研究结果 18878 19204	Using the JGAAP system , we have done this analysis and shown that in almost all cases studied , accuracy on the English part of the corpus was substantially better than accuracy on the Greek part ; this disparity persisted across eight different major categories of feature sets and across a wide range of lengths for n‐grams
+T53	研究展望 19209 19330	We have speculated about possible reasons for this difference , but additional research into this question is appropriate
+T54	研究展望 19335 19477	We have also found that the typical lengths of n‐grams used in this kind of authorship experiment may be too small , in both English and Greek
+T55	研究结果 19527 19909	Finally , this article also establishes that , even with the lowered performance , “ standard ” authorship attribution practice can determine the correct author of a document in Modern Greek with accuracy substantially above chance , and thus this technology should be able to be used to resolve issues of questioned documents in Greek as well as in other , more studied , languages
+T56	研究展望 19914 20033	Future work will include systematic experiments with novel features that can capture cross‐linguistic stylistic choices
+T57	软件工具 595 600	JGAAP
+T45	软件工具 17651 17656	JGAAP
+T46	软件工具 18888 18893	JGAAP
+T58	自建数据集 5314 5327	Mikros corpus
+T59	自建数据集 12400 12413	Mikros corpus
+R1	has_cited_time Arg1:T37 Arg2:T36	
+R2	has_cited_time Arg1:T39 Arg2:T38	
+R3	has_cited_time Arg1:T41 Arg2:T40	
+R4	has_cited_time Arg1:T43 Arg2:T42	
+R5	field_similar_as Arg1:T36 Arg2:T38	
+R6	field_similar_as Arg1:T38 Arg2:T40	
+R7	field_similar_as Arg1:T40 Arg2:T42	
+R8	has_cited_time Arg1:T33 Arg2:T32	
+R9	has_cited_time Arg1:T35 Arg2:T34	
+R10	field_similar_as Arg1:T32 Arg2:T34	
+R11	has_cited_time Arg1:T30 Arg2:T29	
+R12	has_cited_time Arg1:T28 Arg2:T27	
+R13	field_similar_as Arg1:T27 Arg2:T29	
+R14	has_cited_time Arg1:T18 Arg2:T17	
+R15	coauthor Arg1:T19 Arg2:T20	
+R16	has_cited_time Arg1:T21 Arg2:T20	
+R17	has_cited_time Arg1:T23 Arg2:T22	
+R18	field_similar_as Arg1:T17 Arg2:T19	
+R19	field_similar_as Arg1:T19 Arg2:T22	
+R20	has_cited_time Arg1:T15 Arg2:T14	
+R21	coauthor Arg1:T13 Arg2:T14	
+R22	has_cited_time Arg1:T5 Arg2:T4	
+R23	results Arg1:T4 Arg2:T44	
+R24	has_cited_time Arg1:T8 Arg2:T7	
+R25	has_cited_time Arg1:T10 Arg2:T9	
+R26	has_cited_time Arg1:T12 Arg2:T11	
+R27	field_similar_as Arg1:T7 Arg2:T9	
+R28	field_similar_as Arg1:T9 Arg2:T11	
+R29	coauthor Arg1:T1 Arg2:T2	
+R30	has_cited_time Arg1:T3 Arg2:T2	

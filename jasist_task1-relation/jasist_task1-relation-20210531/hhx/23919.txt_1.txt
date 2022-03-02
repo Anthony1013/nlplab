@@ -1,0 +1,130 @@
+Data progressively have become an integral component in modern science—thanks to the increased permeability of disciplinary boundaries , enhanced human mobility , and advanced technologies to process , analyze , and curate large scientific data . 
+Scientists can now form interdisciplinary , international collaborative teams surrounded by data to conduct the so‐called data intensive research ( Tansley & Tolle , 2009 ) . 
+“ All science , it seems , is becoming computer science , ” heralded by science journalist George Johnson in 2001 ( Johnson , 2001 , para . 
+2 ) . 
+The US government , particularly the National Science Foundation , has been instrumental in the development of the infrastructure required for data‐intensive research . 
+For instance , the high‐energy and nuclear physics ( HENP ) community was proposed in 2003 as a pioneer in cyberinfrastructure design . 
+Other major e‐science efforts such as Emerging Cyberinfrastructure Communities have enabled and promoted the data‐intensive research in physical , geological , biological , medical , environmental , and atmospheric disciplines . 
+One notable example of such research is perhaps the human genome project ( Collins , Morgan , & Patrinos , 2003 ) . 
+Data‐intensive research is pervasive in this century : in addition to genome sequencing , physicists formed cross‐border communities to understand the origin of matter ( Newman , Ellisman , & Orcutt , 2003 ) , social scientists dug into epidemic data to examine the implications of present‐day computer‐assisted humanities ' work ( Howard , 2015 ) , and historians used radiological data to create a database of mummified human remains ( Nelson & Wade , 2015 ) . 
+In science , there is a growing awareness of the need for more efficient data access and sharing . 
+As early as 2004 , scholars advocated for an international framework to promote data accessibility ( Arzberger , Schroeder , Beaulieu , & Bowker , 2004 ) . 
+The framework argued that data sharing helps develop a democratic society ( Harrison et al. , 2012 ) , enhances the transparency of scientific research ( Parmesan & Yohe , 2003 ) , allows for reproducing and validating research ( Nosek et al. , 2015 ) , and unleashes the potential of data to solve complex societal issues ( Zimmet , Alberti , & Shaw , 2001 ) . 
+Realizing these benefits , a number of scientific journals and funding agencies have begun mandating making data freely available to the public . 
+For instance , Nature requires authors to “ make materials , data , code , and associated protocols promptly available to readers without undue qualifications ” ( Nature Editor , n.d. , para . 
+1 ) , and , likewise , the National Science Foundation expects investigators to “ share with other researchers , at no more than incremental cost and within a reasonable time , the primary data , samples , physical collections and other supporting materials created or gathered in the course of work under NSF grants ” ( National Science Foundation , n.d. , Chapter VI.D.4 ) . 
+Organizations have also made an effort of indexing data such as the Data Citation Index ( Clarivate Analytics , n.d. ) and SageCite by the University of Bath , U.K. ( Lyon , 2010 ) . 
+In addition , a set of Data Usage Index ( DUI ) indicators was formalized and proposed in biological fields , based on data set features ( i.e. , geographical location , size , and time ) , search events , and download instances ( Ingwersen & Chavan , 2011 ) . 
+Such a mechanism is not only a supplement to traditional data usage analysis based on scholarly references and citations , but also encourages data sharing by recognizing data set publishers and giving them credits . 
+Despite these efforts , access to data is still inconsistent . 
+Data can be formally curated in journal‐specific digital repositories or institutional archives that are typically assigned with DOIs or URLs , or informally stored in personal computers and servers . 
+As a result , data are referenced in unsystematic ways in the scientific literature : they can be formally cited , or simply be mentioned in paragraphs , footnotes , endnotes , or acknowledgments . 
+A 2014 study on oceanography data access found that only about 12 % papers formally cited the used data sets , while others only mentioned them in texts ( Belter , 2014 ) . 
+Thus , merely using citation indices is insufficient to capture the different ways of data use . 
+Instead , full‐text publication data provide the crucial contents for this purpose . 
+This paper employs a content analysis method to a multidisciplinary full‐text corpus to gain insights into data set mentions and citations . 
+Broadly , data are a set of values of qualitative or quantitative variables and data set is a collection of data . 
+In this study , we utilized the concept from the open data discipline to define “ data set ” : data set is a group of structured data retrievable with a link or other indexes as a whole , and is the unit of information released in data repositories ( MELODA , 2016 ) . 
+This paper addresses the following questions : What disciplinary characteristics can be identified regarding data set collection , mention , and accessibility using full‐text content analysis ? 
+What are the popular approaches used by researchers to archive data sets and make them trackable using full‐text content analysis ? 
+Answers to these questions allow us to gain understandings of the patterns of data use , mentions , and citations across scientific disciplines . 
+The results also have policy implications , as they help researchers and practitioners develop data attribution and citation standards and design inclusive indicators to assess the impact of data in science . 
+Data access and sharing allows valuable information to contribute beyond original analyses ( Piwowar & Vision , 2013 ; Sturges et al. , 2015 ) , based on which new findings can be explored and new methods can be practiced . 
+For global issues such as climate change and infectious diseases , it is essential to provide publicly available data for transparent dialogs . 
+In addition , data sharing helps avoid duplicated data collections and save considerable effort , which may enable new forms of collaboration and scholarly publishing ( Hodson , 2009 ; Altman , Borgman , Crosas , & Matone , 2015 ) . 
+Surveys have been conducted to explore the current states of data sharing and the trend of data sharing behaviors during the past years . 
+An international survey made in 2011 showed that a majority of researchers stored their data for a short term after publishing and they were satisfied with the present status of data sharing , but they also showed the willingness to share data if organizations and journals provided sufficient support for data management ( Tenopir et al. , 2011 ) . 
+A study on researchers in Center for Embedded Network Sensing ( CENS ) found that , many CENS researchers uploaded their data to personal or organizational websites rather than data repositories and provided links when receiving data requests , which makes it difficult to discover data by other researchers . 
+Data sharing is indeed becoming a more demand‐driven than supply‐driven behavior ( Wallis , Rolando , & Borgman , 2013 ) . 
+In terms of data sharing across fields , a survey conducted during two different time periods , 2009–2010 and 2013–2014 , saw an increase in data sharing interests and activities , along with increasing worries about the risks of data sharing . 
+Tenopir and colleagues found some differences among researchers from different age groups , areas , and disciplines ; for instance , younger researchers expressed higher willingness to share data and use others ' data , while the actual data‐sharing behaviors are contrary to the perception ( Tenopir et al. , 2015 ) . 
+Moreover , they found a distinct division between the disciplines involving data of human subjects , such as Medicine and Health Science , Social Sciences , and Business and those do not―specifically , scholars in the former disciplines showed less willingness to share their data and reuse others ' data . 
+In a study on biodiversity data sharing , about half of the respondents expressed their unwillingness of sharing primary data before publishing―even within their research community―with lack of benefits and concerns of competition with colleagues being the leading factors ( Huang et al. , 2012 ) . 
+In the domain of cancer research , the main reasons for unwillingness to share existing collections of biospecimens include the high investment in collecting these data and too many specifications of using biorepository ( Oushy et al. , 2015 ) . 
+What is critical in the data‐sharing movement is that only when data are managed and shared correctly could they be useful . 
+Management of research data has been put on the agenda ( Helbig , Hausstein , & Toepfer , 2015 ) ; for instance , American Meteorological Society ( AMS ) journals made a commitment to promoting full and open access to data in 2013 , expecting all papers to contain detailed descriptions of data sources . 
+Scholars are dedicated to promoting data publication as well , because it is their belief that data should be considered as research outputs and published as articles ( Thorisson , 2009 ; Costello , 2009 ; Helly , Staudigel , & Koppers , 2003 ; Staudigel et al. , 2003 ) . 
+Some scholars suggested that data publication should follow a similar process with article publications , including peer reviews ( Parsons , Duerr , & Minster , 2010 ) and editorial judgments ( Costello , Michener , Gahegan , Zhang , & Bourne , 2013 ) . 
+Because data publication could make scientists ' work more visible and increase citation rates ( Piwowar , Day , & Fridsma , 2007 ) , there is an incentive to publish data . 
+Another critical aspect of managing research data is to formalize data citations , as data citations are rapidly emerging as a key practice supporting data access , sharing , and reuse ( Altman et al. , 2015 ) . 
+Article and book citation standards have promoted scientific progress enormously , while there are no such universal standards for citing data sets ( Altman & King , 2007 ) . 
+Nevertheless , a number of publishers are crafting their publication policies about data citations ( Lin & Strasser , 2014 ) . 
+Despite the widespread agreement on the benefits of data sharing , currently there are a number of obstacles to implementation . 
+Some journals recommend providing access to data , but authors sometimes do not submit their data , nor do they have the incentive to provide access to their data sets after getting their papers published ( Savage & Vickers , 2009 ) . 
+In most fields , the “ bibliographic citation ” still refers to formal and structured reference of academic articles , other than the data on which the findings rely ( Altman et al. , 2015 ) . 
+It seems to be a dilemma that scientists agree that data sharing is important and demand access to data sets created by others , but only a small number of them actually shared their data ( Smit , 2010 ) . 
+For those who provided data access , there is a lack of consistency ( Starr & Gastl , 2011 ) . 
+Although some data citation standards and data identifiers have been developed , most authors do not cite data sets appropriately ( Thorisson , 2009 ) , resulting in a gap between data citation standards and practices . 
+For instance , Belter attempted to generate citation counts of three highly used data sets located in the National Oceanographic Data Center , but found that citation methods to these data sets are inconsistent , even though each data set has suggested a formal citation format ( Belter , 2014 ) . 
+Instead of using formal and structured references , many authors just used vague descriptions of data samples or sources ( Staudigel et al. , 2003 ) , which is difficult for readers to identify and find the data sets related to a given paper . 
+In one study , researchers created a DCAI ( Data Citation Adequacy Index ) rubric to evaluate the performance of articles on data citation , which takes into consideration key data citation elements such as identifiers and locations of citations . 
+The authors concluded that data citation remains haphazard and infrequent after so many years of data citation movement ( Mooney & Newton , 2012 ) . 
+The underlying reasons are complicated , involving the differences of ages , geographic regions , subjects , and cultures ( Tenopir et al. , 2015 ) . 
+A major cause is the lack of incentives ( Borgman , 2012 ) . 
+Most current policies require and recommend authors to share or make data available , but without explicit claims of authorship , cost , and payment of data sharing ( Oushy et al. , 2015 ) , authors have no incentive to do so ( Piwowar & Chapman , 2008 ) . 
+Other reasons include technical issues , policy issues , and property concerns ( Costello , 2009 ) . 
+For example , researchers may not know where and how to archive data ( Wallis et al. , 2013 ) , or are not sure whether they have the permission to publish the data , worried that some individuals or organizations may get commercial benefits from using the data , or they may just lack the time and funding to easily and efficiently process the data to publish them in public platforms ( Huang et al. , 2012 ) . 
+They also have the concern that other researchers may scoop the analyses they have planned to implement in the future ( Piwowar & Vision , 2013 ) . 
+One way of dealing with this problem is to establish a reward system by which researchers could receive credits from the efforts and time invested in data sharing ( Hirschfeld , 2012 ) , such as efforts in collecting , achieving , maintaining , and publishing data . 
+Other ways that are helpful to promote data sharing are the development of user‐friendly data management tools and the data‐sharing training for researchers ( Tenopir et al. , 2015 ) . 
+Moreover , new policies and programs ( e.g. , DataNET , DataOne ) will not only bring attention to this issue , but also offer resources to make it easier ( Tenopir et al. , 2011 ) . 
+Meanwhile , it is important that the policy framework needs to be designed from the researchers ' perspective ( Fecher , Friesike , & Hebing , 2015 ) . 
+Scholars made an effort in data research , mostly in data citation ( Robinson‐García , Jiménez‐Contreras , & Torres‐Salinas , 2015 ; Chavan et al. , 2010 ; Kafkas , Kim , Pi , & McEntyre , 2015 ; Mooney & Newton , 2012 ) , data reuse ( Piwowar , Carlson , & Vision , 2011 ; Piwowar & Vision , 2013 ) , and data metrics ( Costas , Meijer , Zahedi , & Wouters , 2013 ; Konkiel , 2013 ) . 
+Most studies were from the standpoint of data sets , usually starting with some data repositories , databases , or data sets , and then exploring how they are used ( Kafkas et al. , 2015 ) , reused ( Piwowar et al. , 2011 ) , or cited ( Belter , 2014 ; Robinson‐García et al. , 2015 ) . 
+These studies typically used data identifiers to retrieve data sets and conducted respective analyses ( Robinson‐García et al. , 2015 ; Piwowar et al. , 2011 ; Piwowar & Vision , 2013 ) . 
+However , many articles do not cite data sets with identifiers such as DOIs and data accession numbers , which makes such analyses incomplete . 
+As studies showed that data sets are mentioned in full texts more often than being formally cited ( Belter , 2014 ; Kafkas et al. , 2015 ) , there is the need to provide full‐text analytics of articles to gain insights of data use , to understand the different characteristics of data citation in multiple disciplines , and , beyond that , to provide clues for making practical data attribution and citation guidelines . 
+The data set used in this study contains open access , full‐text papers from PLoS One . 
+The access point to the dataset is provided by the PubMed Central Open Access Subset ( http : //www.ncbi.nlm.nih.gov/pmc/tools/openftlist/ ) and is publicly available . 
+On June 12 , 2015 , we retrieved all papers published between 01/01/2014 and 06/12/2015 , restricting the publication type as “ Research Article. ” PLoS One classifies its papers into 23 research areas . 
+Because some research areas are quite similar ( e.g. , Biology and Biology and Life Sciences ) , we regrouped them into 12 disciplines based on research similarities , as shown in Table 1 ( the number of the publications in each category is included in Appendix Table A1 ) . 
+Due to the nature of manual coding , we can only include a small number of articles in our dataset . 
+Sampling articles proportionally based on the number of publications each discipline has ( e.g. , 1 % from each discipline ) was one of the options we initially considered , but that will make it almost unlikely to include a sufficient number of articles from disciplines such as mathematics . 
+In the meantime , 1 % will translate into a few thousand papers from biomedicine , a size too large to do manual coding . 
+Therefore , from the whole dataset , we randomly sampled 50 papers from each discipline , which resulted in 600 papers in total . 
+Moreover , in order to examine if the patterns obtained from the 50 articles are sufficient to be used to describe the features of that discipline , we selected and coded another 50 articles in Medicine and Health Sciences , and compared the results with the previous 50 articles , with the results shown in Appendix Table A2 . 
+As expected , there exist differences between the two samples , but the differences are insignificant and the overall patterns are consistent between the two samples . 
+This result guarantees the reliability of the sample size . 
+We employed content analysis as the research instrument . 
+Content analysis is an effective method to discover quantitative patterns from textual corpora ( Bauer , 2000 ; Herring , 2010 ; Krippendorff , 2004 ) . 
+Prior research used this method to examine content‐wise communication patterns―typically predicated upon analyzing newspaper collections , journal publications , and web contents―such as patterns of disciplinary discourses ( Tsou , Thelwall , Mongeon , & Sugimoto , 2014 ) , political campaign strategies ( Semetko & Valkenburg , 2000 ) , and culture‐invoked mass media ( Tang , 2011 ) . 
+In content analysis , coding is the crucial link between data collection and data interpretation , allowing researchers to use a set of guidelines ( i.e. , coding schemes ) to systematically make sense of data . 
+The first step of coding is to determine the research objectives and create an unambiguous coding scheme . 
+Based on the research objectives stated in the Introduction , we created a draft coding scheme . 
+We then adopted the grounded theory approach and applied the draft scheme to a subset of the dataset with the goal to identify previously unnoticed yet valuable patterns—this process helped us further improve the coding scheme and the finalized version is shown in Table 2 . 
+Most coding items are pre‐coordinated , while new codes may emerge during coding , which are referred to as emergent codes ( Saldana , 2009 ) . 
+We marked the emergent codes with “ *. ” Two coders coded on a sample of 50 randomly selected papers , both of whom are doctoral students in information science with a background in data science and have experience with coding texts . 
+In order to measure the interrater reliability ( IRR ) between the two coders , we employed Cohen 's kappa coefficient and achieved an IRR of 0.86 , which is considered to provide sufficient reliability for one coder to code all the papers ; so then one coder coded all 600 articles . 
+IRR for each coding item in Table 2 is seen in Table A3 . 
+1 . 
+Use dataset in research 1.1 Y 1.2 N Refers to whether the article used at least one dataset for research . 
+If yes , code it with 1.1 and continue coding ; if no , code it with 1.2 and stop coding this article . 
+2 . 
+Data section 2.1 Y 2.2 N 3 . 
+Data collection 3.1 Collecting data on their own 3.1.1 Data collection date 3.1.1.1 Y 3.1.1.2 N 3.2 Using public data set Refers to where the datasets came from . 
+If authors of an article collected and created the dataset , code it with 3.1 ; then check whether they provided the data collection date . 
+If authors obtained the datasets from public accessible sources , code it with 3.2 . 
+4 . 
+Data access 4.1 No access 4.2 Purchased access 4.3 Free access *4.4 Data available on request 5 . 
+Data tracking 5.1 Citation 5.2 DOI 5.3 URL 5.4 With a name 5.5 Without a name *5.6 E‐mail Refers to whether the dataset used is trackable . 
+If the dataset was cited in reference , use code 5.1 ; if it was provided with a DOI , use 5.2 and use 5.3 for URL ; if it had a specific name that can be used to track , use 5.4 ; if it had no name , use 5.5 ; if it was provided with an e‐mail address , use 5.6 . 
+Note : these codes are not mutually exclusive , because an article might provide a DOI and a name of the data set at the same time . 
+6 . 
+Section of data mention 6.1 Title 6.2 Abstract 6.3 Keyword 6.4 Acknowledge 6.5 Method 7 . 
+Type of archives 7.1 Commercial 7.2 Institutional 7.3 Governmental 7.4 Journal‐specific 7.5 Other *7.6 Personal website We applied this coding scheme to the collected dataset . 
+With each sentence as a unit of analysis for coding , all sentences were read and data‐relative sentences were assigned with codes from the scheme . 
+Figures 1 and 2 show two instances of the coded data . 
+Coded data in “ abstract ” . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Coded data in “ method ” . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] An advantage of content analysis is that it allows researchers to use their knowledge and an unequivocal scheme to make sense of data , which increases accuracy ( Hsieh & Shannon , 2005 ) . 
+For example , when an article mentioned databases , it is difficult to determine whether it just mentioned them or it collected data from these databases . 
+Coding can avoid the problem by involving researchers ' own insights . 
+For example , when coding the text in Figure 1 , we can tell that this article used datasets in research ( code 1.1 ) , collected data from PubMed , Embase , and other databases ( code 3.2 ) , and mentioned data use in “ Abstract ” ( code 6.2 ) . 
+When coding texts in Figure 2 , we can tell that it had a data section ( code 2.1 ) and mentioned data use in “ Method ” ( code 6.5 ) with a name ( code 5.4 ) . 
+Besides , through domain knowledge and verified online information , we confirmed that several mentioned databases are accessible to the public ( code 4.3 ) and owned by institutions such as PubMed and CBM ( code 7.2 ) , while the others only provide purchased access ( code 4.2 ) and are archived in commercial systems such as Embase and Wan Fang Data ( code 7.1 ) . 
+In this section , we first reveal several key aspects of data mentions and citations based on all coded papers . 
+We then present the disciplinary characteristics of data mentions and citations for each of the 12 disciplines . 
+We counted the number of articles in each coding category , with the results shown in Figure 3 . 
+The percentage of articles in each coding category . 
+[ Color figure can be viewed at wileyonlinelibrary.com ] Among the 600 articles in the dataset , 52 % ( 312 articles ) used datasets in their research . 
+Within the 312 articles , only 45 % had data or data‐related sections , while the others mentioned data sources in method or other sections . 

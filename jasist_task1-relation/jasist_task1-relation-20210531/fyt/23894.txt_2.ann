@@ -1,0 +1,16 @@
+T1	引文作者 5656 5661	DeCew
+T2	引文时间 5667 5671	1997
+T3	软件工具 1170 1178	Facebook
+T4	研究方法 1835 1838	PMT
+T5	软件工具 7987 7995	Facebook
+T6	软件工具 448 456	Facebook
+T7	软件工具 291 299	Facebook
+T8	软件工具 593 601	Facebook
+T9	软件工具 653 661	Facebook
+T10	软件工具 1379 1387	Facebook
+T11	研究结果 7738 7995	By extending the theoretical lens provided by PMT and U & G , the present study not only explains the cognitive processes but also allow us pinpoint the specific costs and specific benefits that drive the enactment of various privacy protections on Facebook
+T12	软件工具 5240 5248	Facebook
+T13	研究结果 6981 7100	how users chose their privacy settings on social media is to a large extent dictated by the afforances of each platform
+T14	研究展望 7105 7358	Knowing whether the afforded settings are adequate or whether users expect different settings or perhaps more control over individual settings is another future research question , the answer to which could enhance how people manage their privacy better
+T15	研究展望 7562 7733	None have , however , addressed the theoretical constituents of costs and benefits or its implications on the enactment of the privacy protections afforded by social media
+R1	has_cited_time Arg1:T2 Arg2:T1	

@@ -1,0 +1,130 @@
+After the Book Citation Index ( BKCI ) , a new collection in the Web of Science Core Collection ( WoS ) , was released in 2011 , the capability to retrieve monographic literature in abstract and citation databases was broadened . 
+With the new data source , a deeper understanding of the peculiarities of publication , reception and use of book literature is necessary before bibliometric indicators can be developed and applied in an evaluative context . 
+Following up the results of a previous study ( Chi , 2016 ) , which was devoted to the analysis of the distinct citation patterns of books alongside those of journal literature indexed in the WoS , in the present study I will study cited references of the two publication types to complete the exploration of the new data source . 
+Some studies compared cited reference analysis with the times cited approach , especially focused on the impact of cited and citing works and the normalization of citation scores across different fields ( see Bornmann & Marx , 2013 ; Liang & Rousseau , 2010 ; Nicolaisen & Frandsen , 2008 ) ; some others made efforts on revealing the characteristics of references and exploring the information contained in references as much as possible . 
+For example , Allen , Qin , and Lancaster ( 1994 ) reported the evolution of reference style from the 17th century to the 20th with an increase in references to journals and international works , as well as a gradual decline in the age of references in the mid‐19th century . 
+Glänzel and Schöpflin ( 1999 ) found that the percentage of references to serials is a sensitive measure of typical differences in the communication behavior between the sciences and the social sciences . 
+This result supports the statement “ science distinguishes itself from other fields of study by the way scientists refer to their literature ” made by Wouters and Leydesdorff ( 1994 , p. 194 ) based on the Price 's theory of knowledge growth ( de Solla Price , 1965 , 1970 ) . 
+An increasing tendency in the number of references and a rising average age of references over time for several fields and topics has been found in journal publications ( Krampen , 2010 ; Larivière , Archambault , & Gingras , 2008 ; Marx & Bornmann , 2015 ; Peritz & Bar‐Ilan , 2002 ; Ucar et al. , 2014 ) . 
+Ageing is not only influenced by the “ level of abstraction ” but also by the document types ( Glänzel & Schöpflin , 1999 , p. 32 ) . 
+Different document types also have different citing life‐cycles in each topic . 
+In fields where nonserial literature plays an important role in scientific communication the bibliometric standard methods based on journal articles may need to be modified to provide valid results . 
+This is the reason why in this study I investigate the reference patterns of book literature and journal articles in different fields and lay a special focus on the social sciences and humanities ( SSH ) because of their specific publication behavior in favour of monographic literature . 
+The main objective of this study is to find out the subject characteristics of different publication types and whether book literature has different reference patterns than periodical publications . 
+This study is the first research analyzing references of books on a large scale . 
+The results of this study are expected to contribute to ( 1 ) a better understanding of the role of cited‐reference based indicators in SSH , ( 2 ) the different characteristics of cited references of the two main publication types , and ( 3 ) a better understanding of the correlation among reference‐based indicators measuring two different phenomenon . 
+The complete 2005‐2013 contents of the WoS , including the three journal databases SCIE ( Science Citation Index Expanded ) , SSCI ( Social Sciences Citation Index ) and A & HCI ( Arts and Humanities Citation Index ) , as well as the BKCI ( Book Citation Index ) have been processed as source documents in the 2016 volume of WoS custom data licensed by ECOOM – KU Leuven . 
+Overlap among proceedings , books and journals was excluded to obtain duplicate‐free datasets . 
+To inspect the development of the observed groups over time , two periods ( 2005‐2009 , 2010‐2013 ) were specified . 
+Three publication types were selected for further analyses : books , book chapters and journal articles . 
+Two types of books , authored book and edited book , were considered . 
+For authored books , I aggregated a book main item and all of its book chapters as a unit because the reference data of a book are provided either in the end of a book or each chapter . 
+The share of 2005‐2013 WoS publications without references in this study is around 22 % for authored books , and 79 % for book chapters in authored books11 The higher percentages of no reference data for authored book chapters may imply that the reference lists in authored books are mainly provided ( or indexed ) for the whole books instead of individual chapters.. After aggregation , the share of authored books without references is reduced to 1.2 % . 
+Due to the absence of reference data of main items of edited books in the database , edited books are not aggregated and only their book chapters were analyzed in this study . 
+The document type “ Article ” for edited book chapters and journal articles was used because of its central importance . 
+Table 1 shows the details of each publication type . 
+The bibliographic records and references of the publications with the document type “ Book ” in BKCI from 2005 to 2013 were retrieved . 
+To avoid the influence of periodical books ( e.g. , annual review serials ) , I excluded those items having the joint publication type “ Journal , ” which are indexed in both SCIE/SSCI/AHCI and BKCI . 
+Among all the books , records with editor but no author data were coded as edited books , whereas records with only author data were coded authored books . 
+Two thousand nine hundred seventy‐one books without editor or author data , and 669 books with both editor and author data were excluded in this study . 
+An additional criterion for edited books applied here is that an edited book should have more than one item ( i.e. , at least one book chapter apart from the book item ) . 
+Note that only aggregated authored books , which are the joint units of authored book main items and their chapter items in all document types , were analyzed in this study . 
+Aggregated edited books are not used in this study because they are composed of chapters of generally independent character , which can be meaningfully analyzed on their own , whereas combining the chapters into a unit of analysis would entail the loss of information on the constituent , but largely independent parts . 
+All book chapter items in edited books published from 2005 to 2013 , which are designated as “ Article ” and “ Book Chapter ” document types in BKCI , were analyzed for this category . 
+SCIE/SSCI/AHCI papers which are assigned the document type “ Article ” and the publication type “ Journal ” in WoS , published from 2005 to 2013 , were treated as journal articles in this study . 
+All the samples were classified into 16 research fields and 74 subfields based on their WoS subject categories according to the modified Leuven‐Budapest classification scheme ( Glänzel , Thijs , & Chi , 2016 ) , except for the excluded publications in five inter‐disciplinary categories22 Audiology & Speech‐Language Pathology , Cell & Tissue Engineering , Ergonomics , Logic , Nanoscience & Nanotechnology . 
+The sample sizes in the 16 major fields are listed in Table 2 . 
+Table 2 shows that WoS indexes books mainly in SSH , whereas the largest journal coverage can be found in chemistry , physics , and clinical medicine . 
+The category Multidisciplinary Sciences is not reported in this study because of its insufficient size in book literature . 
+In previous studies of referencing characteristics , the most commonly used indicators including the percentage of references to serials , the mean references age , and the mean reference rate have been applied in different disciplines and periods ( Peritz & Bar‐Ilan , 2002 ; Schöpflin & Glänzel , 2001 ; Wouters & Leydesdorff , 1994 ) . 
+The most commonly used bibliometric measure of reference ageing is the Price Index ( Glänzel & Schöpflin , 1999 ; Schubert & Maczelka , 1993 ) , which correlates with the mean age of references for literature with fast ageing . 
+In this study , four indicators , the mean reference rate per page , the percentage of references to WoS journal literature , the mean reference age , and Price Index , were used to analyze the general reference features of the publication groups across fields . 
+Studies focusing on journal literature show that the absolute numbers of references per paper differ among disciplines and periods , but there is a general increase in the average number of references in all fields . 
+Ucar et al . 
+( 2014 ) presented a significant increase in the number of references per paper in engineering journals , the average rises from 8 in 1972 to 25 in 2013 . 
+Peritz and Bar‐Ilan ( 2002 ) reported that the mean number of references for articles in the journal Scientometrics increased from 15.1 in 1990 to 19.8 in 2000 . 
+Krampen ( 2010 ) demonstrated a significant increase in the number of references of psychology papers in a 20‐year period sampled in three years ( 1985 , 1995 , and 2005 ) . 
+Marx and Bornmann ( 2015 ) examined WoS papers in six major subject areas and found that the references on average of a paper in the social sciences increased from 23.11 in the year 1990 to 42.05 in the year 2010 , whereas the average reference rate in the natural sciences increased from 21.43 in the year 1990 to 42.05 in the year 2010 . 
+Because of the different lengths of volume works and individual items , the average numbers of references per item in different publication types are not comparable ( see Figure 1 ) . 
+Thus , the definition of this indicator in this study is the ratio of the total number of references of publications in each field or period to the total number of pages of those publications . 
+Publications without reference data were included and treated as 0 references in the calculation . 
+Note that the general share of publications without references in this study is 1.2 % for ( aggregated ) authored books , 12 % for book chapters in edited books and 1.7 % for journal articles . 
+The reference data of two authored books and three book chapters in edited books which show page counts as 0 were excluded in the study . 
+The percentage of references to serials was used to measure the scholars ' journal use , which is one characteristic in which subjects differ widely . 
+For instance , literary researchers cite more books ( 75 % of all references ) than do scholars in other disciplines ( Heinzkill , 1980 ) . 
+Glänzel and Schöpflin ( 1999 ) pointed out that about 80 % of all science journals cite more than 70 % of all references to serials , whereas all social science journals refer to at less than 70 % references in serials . 
+The percentage of references to WoS journals is somewhat different from the percentage of references to serials , focusing on a specific set of selected literature . 
+It is also an indicator of the coverage of WoS indexed periodical literature in a given field , and shows a tendency of journal oriented publication strategy . 
+van Leeuwen ( 2006 ) found that the faculties having more WoS source publications33 According to Butler and Visser ( 2006 , p. 330 ) , source publications are “ articles appearing in journals indexed by the Institute for Scientific Information ( ISI ) in one of its three main indexes – Science Citation Index ( SCI ) , Social Sciences Citation Index ( SSCI ) , and Arts and Humanities Citation Index ( A & HCI ) . 
+” have larger shares of references to the indexed journal literature itself . 
+In this study this indicator is defined as the ratio of the number of references which are WoS indexed journals to the total number of references in a given field and/or year . 
+The WoS accession number ( UT code ) was used for the matching of references and WoS indexed papers in the WoS custom database . 
+Note that nonserials publications indexed in WoS are not included in the calculation as WoS references . 
+This indicator is defined as the average difference of publication years of publications and their references in each field/period . 
+Although publications usually cite works published in previous years , one year negative difference between a publication and its afterward reference is accepted in this study ( i.e. , the year difference between a publication and its corresponding reference should be bigger than or equal to ‐1 ) . 
+Shorter differences are treated as one year for the reference age calculation . 
+References published before 1200 and after 2014 were excluded for this indicator because of the high data inaccuracy in this range ( e.g. , only 16 % of publication year data of references which are indexed as published between 1000 and 1200 were found to be correct in a manual check of 25 random items , especially for the frequent cases of 19xx being indexed as 10xx ) . 
+Only references with valid reference year , namely having four digits , were accepted . 
+The age of references has been studied for detecting the long‐term trend of literature and used as a tool to establish the boundaries of fields . 
+Larivière et al . 
+( 2008 ) found that the average age of references has risen continuously since the mid‐1960s in an observation period of over 100 years , unveiling a trend that the more recent publications cite relatively older literature . 
+Glänzel and Schöpflin ( 1994 ) focused on differences in the ageing of journal literature in science and the social sciences . 
+Within the sciences , theoretical papers ( e.g. , in mathematics ) are significantly “ slower ” than technology oriented or experimental research papers ( e.g. , in life sciences or engineering ) . 
+In the social sciences , political science and business journals citing more recent references than the history , archaeology , and social sciences . 
+The Price index is an identifier for hardness of sciences44 The “ hardness ” of sciences , revealing impersonality ( Norman , 1967 ) , is an indicator detecting different levels of publication patterns between the sciences and social sciences . 
+( de Solla Price , 1970 ; Schöpflin & Glänzel , 2001 ; Schubert & Maczelka , 1993 ) : the harder a science is , the higher its Price Index . 
+According to Moed ( 1989 , p. 474 ) , the Price index is “ the percentage of references in the scientific literature to 0 to 4 years old other publications. ” The references published before 1200 and after 2014 were excluded in the calculation . 
+Larivière et al . 
+( 2008 ) found that Price Index values are decreasing since the mid‐1950s and concluded that it is decreasing with the mean reference age . 
+The Price Index is a decreasing function of the average and median reference age ( Egghe , 1997 ; Glänzel & Schöpflin , 1995 ) . 
+Following the mentioned correlation between the mean age of references and the Price Index for literature with fast ageing , the correlation between these two indicators will be additionally tested by a linear regression analysis for each publication type in this study . 
+Authored books have much higher average numbers of references per item than other publication types , as shown in Figure 1 . 
+However , their average numbers of references per page are lower than journal articles ' and edited book chapters ' . 
+Figure 2 illustrates the data of fifteen fields generated from the three publication types in two periods ( detailed numbers are shown in Appendix A ) , and shows that edited book chapters and journal articles in the life sciences have much higher average numbers of references per page than those in other fields , especially mathematics and humanities where the numbers in all the publication types are relatively low . 
+In terms of the indicator 's changing patterns over time , Figure 2 exhibits an increasing trend of average numbers of references in journal articles . 
+All the publication types have increasing shares of WoS serials references in most fields during the two observed periods as shown in Figure 3 . 
+The largest ( proportional ) increase appears in Arts & Humanities . 
+In agriculture and biomedicine related fields the increase for authored books are larger than for other publication types . 
+In general , journal articles have much higher ratios than authored books . 
+Figure 3 shows that the fields Biosciences and Clinical and Experimental Medicine I have the most opposite features from SSH in this study in terms of the share of WoS journal references . 
+The finding is in line with the coverage of journal literature in different fields in WoS , as well as the result that basic research in the life sciences and biomedical sciences exhibit the highest share of references indexed in the WoS in contrast to the humanities ( van Leeuwen , 2013 ) . 
+In these life sciences fields the shares of references to WoS journals in edited book chapters are similar to those in journal articles . 
+Arts & Humanities has the lowest rates for all publication types and the closest values among these types . 
+The clear difference between the sciences and the SSH shown in Figure 3 is in line with the finding of van Leeuwen ( 2006 ) . 
+The figure of 20 % for journal articles in Arts & Humanities here is in accordance with the findings in Heinzkill ( 1980 ) . 
+In each field , journal articles cite more recent references than books . 
+Figure 4 shows that authored books are the publication type with the highest average reference age in all fields . 
+They have increasing average reference ages over the two periods , whereas journal articles have no clear differences of reference age between the two periods . 
+Edited book chapters have similar but slightly higher reference age than journal articles . 
+Only in Arts & Humanities journal articles have higher reference age than edited book chapters . 
+Figure 4 also shows the distinct reference age patterns across fields . 
+The characteristic of citing more historical references in Arts & Humanities with the highest reference ages is apparent . 
+The social sciences , mathematics and geosciences have intermediate average reference ages . 
+In contrast , engineering and the life sciences related fields have the lowest reference age . 
+The results are in line with the literature obsolescence discovered by Glänzel and Schöpflin ( 1999 ) : the obsolescence in the life sciences is relatively fast , contrasting to mathematical and social science literature . 
+Authored books have Price Index values of between 0.1 and 0.2 , and edited book chapters have higher values of between 0.2 and 0.3 . 
+Journal articles have the highest level of Price Index ranging from 0.25 to 0.4 . 
+Figure 5 shows that most publication types , especially edited book chapters and journal articles , have decreasing Price Index values in most fields , similar to the finding of Larivière et al . 
+( 2008 ) based on journal literature . 
+This result reveals a trend that researchers prefer to cite more frequently a smaller proportion of recent references , reflecting the pattern of citing earlier references as shown in the last section . 
+Field differences of this indicator can be identified in Figure 5 . 
+Arts & Humanities has the lowest Price Index among all the publication types . 
+Note that the pattern in the social sciences clearly differs from the humanities . 
+The Price Index values in the social sciences are more like those of neurosciences . 
+The patterns of journal articles across fields shown in this study are generally in line with those already reported by de Solla Price ( 1970 ) : biochemistry and physics having the highest values , followed by the social sciences , and the humanities at the low end of the range . 
+However , the authored books have different Price pattern across fields from journal articles : clinical medicine and engineering have the highest values whereas humanities and natural sciences such as mathematics , chemistry and physics have the lowest values . 
+To test the correlation between the mean age of references and the Price Index in this study as studied by Glänzel and Schöpflin ( 1995 ) , I measured the Pearson 's r between these two indicators for each publication type with random samples from 2005 to 2013 ( N = 10,000 ) . 
+All the results of them range between ‐0.61 and ‐0.50 ( see Figure 6 ) . 
+This figure confirms that publications with higher average reference ages would have lower Price Indices for both journal and book literature . 
+Furthermore , the average reference age has a significant negative correlation with the share of WoS serials references in all the three publication types ( between ‐0.49 and ‐0.20 ) . 
+This finding shows that cited serials references contribute to shorter reference age in the three publication types , especially the type of journal article . 
+Figure 6 also shows that Price Index and the share of WoS serials references correlate with each other at medium level . 
+The more serials a publication cites , the higher its share of recent references . 
+However , the values of these correlations of authored books are not as high as those of journal articles . 
+For a closer look at the differences across fields , Multidimensional Scaling ( MDS ; Borg & Groenen , 1997 ) was used to visualize the similarities of individual cases representing the four cited‐reference based indicators in 15 research fields . 
+All data of the four indicators of the different publication types and periods presented in last section were used to create distance matrices . 
+The matrices are used as the basis of the MDS analysis to generate two‐dimensional scatterplots for the visualization of the between‐object distances among all the fields . 
+Arts & Humanities is the most distinct among the 15 fields ( see Figure 7 ) . 
+It has the lowest share of references to WoS journals , the highest reference age , and the lowest Price index . 
+Its average reference counts per page in edited book chapters and journal articles are less than other fields , whereas the aggregated authored books in Arts & Humanities own more references per page than natural sciences . 
+The invisible boundary between the sciences and the SSH can be located by these referencing characteristics . 

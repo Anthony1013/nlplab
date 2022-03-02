@@ -1,0 +1,130 @@
+These results were manually evaluated , as described below . 
+We used fluency and adequacy as evaluation criteria of MT performance . 
+Fluency referred to the degree to which the target language output was well‐formed according to the rules of a particular language , in this case Spanish and Chinese . 
+Adequacy referred to the degree to which information present in the source language text was represented in the target language output ( Linguistic Data Consortium , 2005 ; Chen , 2016 , p. 105 ) . 
+To facilitate the measure of these criteria , we provided participants with definitions of five‐point scales for each of them . 
+Table 4 presents the definitions of the fluency and adequacy scales . 
+The evaluation method and processes have been described in Chen ( 2016 ) . 
+In general , we recruited graduate students and professionals who were fluent in Chinese or Spanish to perform two tasks using a web evaluation system we built specifically for this project . 
+The first task was to assign adequacy and fluency scores to each element of a record , and then to each record as a whole . 
+Two reference translations were presented alongside the MT results . 
+The evaluators consulted the reference translations when judging adequacy and fluency . 
+They were not given the original English records . 
+The second task was to identify the best and worst translations for each element and for the record as a whole . 
+For this task , the web evaluation system displayed the MT results of all three systems . 
+The evaluators selected “ Other ” if two or more systems provided identical translations . 
+We enlisted the help of humans to evaluate the MT output of six systems : Google ( Translate ) , Bing ( Translation ) , Yahoo ! 
+( Translation ) , MEMT1 , MEMT2 , and MEMT3 . 
+Two rounds of evaluation were conducted with the sample evaluation approach : In the first round we had the evaluators assess the three online systems , and in the second round they judged the three MEMT results . 
+A crowdsourcing type of approach was applied to recruit evaluators . 
+We advertised the evaluation tasks at the University of North Texas , and through our partners in China and Mexico . 
+In total , we recruited 16 Spanish evaluators and nine Chinese evaluators from Mexico , China , and the United States All evaluators went through an online training lesson prior to conducting the evaluation . 
+The training lesson explained the evaluation tasks and measures , and provided tips on making appropriate judgments based on the five‐point scales for adequacy and fluency as presented in Table 4 . 
+In order to improve reliability , each record was independently evaluated by three different evaluators . 
+The translation results were presented to the evaluators in random order to prevent the order effects , and no evaluator knew which system had produced the output being evaluated . 
+Once the results were collected , they were processed using the following method . 
+Each item ( an element or the metadata record as a whole ) to be evaluated had three evaluation scores for adequacy and three scores for fluency . 
+If each of the three scores was different , the median was chosen as the score for that item . 
+For example , if the scores were 3 , 4 , and 5 , the median , that is , 4 , would be chosen . 
+We used median because the distribution of our data was very skewed . 
+Median was considered more appropriate than mean/average in that situation ( Vaughan , 2001 , p. 31 ) . 
+If two evaluators gave the same score , the mode was chosen as the score for that record . 
+For example , if the scores were 4 , 4 , and 5 , the mode , that is , 4 , would be chosen . 
+The mode represented the most popular choice . 
+Once the final scores for each item were determined , they were averaged . 
+Tables 5 and 6 summarize the evaluation results for Chinese and Spanish , respectively . 
+The column “ Whole ” refers to the evaluation score for the metadata record as a whole . 
+Table 5 showed that for all elements and the record as a whole , MEMT approaches were consistently better than any single MT service in both measures for Chinese translation , with two exceptions . 
+Especially MEMT2 and MEMT3 achieved higher average scores than even the best score of the three online MT systems on both adequacy and fluency . 
+All MEMT approaches achieved a score above 3.5 on average adequacy . 
+Also , MEMT2 and MEMT3 obtained similar average scores for almost all elements and the record as a whole . 
+Google , and occasionally Bing , performed the best among the online MT systems . 
+To compare these scores in a more straightforward way , we present Chinese average adequacy scores in Figure 3 . 
+Average adequacy scores for Chinese translations . 
+Figure 3 shows two numbers for each group , the numerical value on the left is the average adequacy score of the best‐performing online MT system , while the value on the right is the average adequacy score for the best‐performing MEMT system . 
+For example , in the first group for “ Whole , ” the value 3.30 is the average adequacy score for Google , and 3.68 is that for MEMT3 . 
+Comparing these two figures on fluency scores , we found that the MEMT approaches brought slightly larger improvements to fluency scores than the adequacy scores depicted in Figure 3 . 
+This might indicate that the MEMT strategy could identify translations closer to what a native Chinese speaker would prefer . 
+The evaluation results for Spanish translations are presented in Table 6 , and visually depicted in Figure 4 ( for adequacy ) using the same representation as in Figure 3 . 
+Average adequacy scores for Spanish translations . 
+Spanish translation results , as presented in Table 6 and depicted in Figure 4 , indicate that MEMT1 did not perform as well as Bing and Google , two of the online MT systems . 
+The three online MT systems , especially Google and Bing , did quite well ( above 3.95 on adequacy and fluency for the records as a whole ) on Spanish translation . 
+However , MEMT2 and MEMT3 achieved more than 10 % higher average scores for both measures . 
+This shows that the addition of Set A to the training data made a difference in performance . 
+Comparing Tables 5 and 6 , we found that online MT services performed much better ( more than 20 % ) when translating English metadata records into Spanish than into Chinese . 
+As for comparative evaluation results , Google was considered the best among the three MT systems , while MEMT3 was the best among the three MEMT systems for Chinese . 
+The results were consistent with the individual evaluation reported in Table 5 . 
+For Spanish , however , Google and Bing Translator were considered to have provided the same quality of translation , as they received very close scores on both adequacy and fluency ( 3.96 for Google and 3.95 for Bing ) . 
+MEMT2 and MEMT3 were judged to have had the same performance , which was consistent with the evaluation results reported in Table 6—MEMT2 and MEMT3 received nearly identical scores on adequacy ( 4.39 for MEMT2 and 4.38 for MEMT 3 ) and adequacy ( 4.47 for MEMT2 and 4.46 for MEMT3 ) . 
+Frequency distribution enables us to understand how the scores are distributed along the scales . 
+Table 7 shows the frequency distribution of adequacy and fluency scores for Chinese translation . 
+None of the translations was assigned a 1 for either adequacy or fluency . 
+The scores in Table 7 are presented as both counts and percentages . 
+For example , the last adequacy row of Table 7 shows that a total of 12 records were assigned a score of 5 . 
+Of these 12 scores , MEMT3 was responsible for most of them , seven or 58.33 % , respectively . 
+Table 7 shows that MEMT approaches had a much smaller number of records that received a score of 2 compared to the three online MT systems . 
+Also , most of the high fluency and adequacy scores ( 4 and 5 ) were produced by the three MEMT systems , specifically MEMT3 . 
+MEMT3 alone produced 27.68 % and 58.33 % of 4 and 5 adequacy scores , respectively . 
+It also produced 27.81 % and 54.17 % of 4 and 5 fluency scores , respectively . 
+0 ( 0 % ) 0 ( 0 % ) Table 8 presents the frequency distribution for adequacy and fluency scores for Spanish translations in a similar way as in Table 7 . 
+It demonstrates that MEMT1 was responsible for most of the low adequacy scores , with 68.75 % of the 2 scores and 37.12 % of the 3 scores . 
+This might indicate that simply combining the MT results of multiple systems might not work well for language pairs that could be well translated by the individual MT systems . 
+In order to confirm that the results produced by online MT systems and those produced by the MEMT approaches were significantly different , we conducted nonparametric tests of significance . 
+Since the distribution of scores for both Spanish and Chinese translations was not a normal distribution , we performed significance testing using the Mann–Whitney U‐test , instead of the traditional t‐test ( Hinkle , Wiersma , & Jurs , 2003a ; Hinkle et al. , 2003a ) . 
+Table 9 shows the results of the Mann–Whitney U‐test for Chinese adequacy and fluency scores on the whole record . 
+In each applicable cell , the first score is the Mann–Whitney U statistic , while the second score is the value of p . 
+Table 9 shows that the three MEMT approaches produced results that were significantly different both from each other and from the three online MT systems . 
+In almost all cases , p < .00 . 
+Similar results were observed for fluency , with the exception that the difference between MEMT2 and MEMT3 did not prove to be statistically significant . 
+This is consistent with our earlier findings that MEMT2 and MEMT3 achieved very close fluency scores on Chinese translation . 
+Table 10 presents the results of the Mann–Whitney U‐ test for Spanish adequacy and fluency scores . 
+It shows that the three systems produced results that were significantly different . 
+The only exceptions were the adequacy and fluency scores for Bing and Google , and MEMT2 and MEMT3 , which were not found to have statistically significant differences . 
+This is consistent with our earlier finding that , for Spanish translations , Google and Bing , as well as MEMT2 and MEMT3 , produced similarly good results . 
+Previous research has reported that the two measures of adequacy and fluency were highly associated ( Callison‐Burch et al. , 2007 ) . 
+Our calculation using Pearson 's r confirmed this conclusion for both languages . 
+There was a very strong positive correlation between adequacy and fluency for all experiments ( r > = 0.8 ) . 
+It indicates that if time and money are limited for human evaluation of MT , one can choose to use just one measure in evaluation instead of using both adequacy and fluency . 
+We also evaluated the results using automatic measures including BLEU and METEOR , which measure the similarity between reference translations and the MT output . 
+They have been widely used to compare MT performance of different systems . 
+Their limitations , however , include assigning lower scores to MT results that are very different from the reference translations , and providing little insight into the translation problems ( Lommel et al. , 2014 ) . 
+We found that both the BLEU and METEOR scores of the MEMT approaches were mostly lower than those of the best online MT systems , which were opposite to human‐judged results . 
+This might indicate that MEMT results differed more from reference translations than those of the online MT systems . 
+This study tried to answer the question : Which MEMT strategy can achieve better performance on metadata records ? 
+We designed and implemented three MEMT strategies using an open‐source statistical MT platform , and conducted human evaluation of the translation results . 
+Our evaluation found that combining results from multiple low‐cost online MT services with a small sample of parallel data could significantly improve translation performance in terms of adequacy and fluency for both Chinese and Spanish . 
+MEMT has been explored by MT researchers with different strategies ( Nirenburg & Frederlcing , 1994 ; Rosti et al. , 2007 ) ; however , our study was the first to investigate this approach using library metadata records . 
+Furthermore , our approach was different from most MEMT approaches in the literature , which treated one of the outputs as a base and aligned other outputs to the base with editing as necessary based on measures such as translation error rate ( TER ) . 
+In contrast , our approach fed all online MT outputs into Moses and let Moses take care of the rest , which is simpler and easier to implement for digital libraries . 
+Libraries usually face challenges such as a lack of skilled technical staff and appropriate budgets for purchasing MT systems . 
+Our study provided an alternative approach that libraries could utilize to have their metadata records translated into other languages effectively and efficiently . 
+This study was one of the very few studies that conducted human evaluation of MT on metadata records . 
+It confirmed the conclusion from the previous study ( Chen et al. , 2012 ) that online MT systems could produce non‐native yet sufficiently good translations that might help information users in many ways overcome language barriers . 
+However , it significantly extended the MT evaluation in our previous study ( Chen et al. , 2012 ) to more languages and a larger sample size . 
+Especially , we conducted evaluation on different elements and found that some online MT systems , such as Google Translate and Bing Translator , produced translations with high levels of fluency and adequacy for certain metadata elements such as subject and creator . 
+For example , most subject terms could be correctly translated by Google Translate ( adequacy score 3.77 on Chinese , and 4.31 on Spanish ) . 
+Developers of digital libraries might consider providing MLIA for their collections by integrating online MT services to translate subject terms . 
+Our results indicated that Spanish translations scored higher than Chinese translations . 
+Two of the online MT systems produced quite good Spanish translations . 
+This may due to the fact that English and Spanish are more similar to each other than Chinese is to English , as described earlier . 
+Specifically , named entities kept their original forms and did not need to be translated from Spanish to English . 
+Providing Spanish information access for English digital collections is likely to be achieved using current online MT services . 
+Among the three MEMT approaches , MEMT1 did not prove as effective as MEMT2 and MEMT3 . 
+Adding manually generated parallel data in MEMT2 proved effective , which is consistent with the MT literature that in‐domain bilingual corpora are often considered requisite for effective MT ( Ananthakrishnan , Prasad , Stallard , & Natarajan , 2013 ; Chelba & Acero , 2006 ) . 
+Also , adding a monolingual corpus in the target language had a significant , positive effect on the quality of Chinese translations , but not for Spanish . 
+This indicates that MT effectiveness needs to be tested on an individual basis for language pairs . 
+It is expected that the MEMT system could achieve even better performance with a larger and more diverse in‐domain bilingual data set . 
+The data set could be created by manual human translation , which would be time‐consuming and costly , or a postediting solution . 
+The postediting translation method , which generates human translation by allowing translators to edit MT results ( Allen , 2003 ) , has become popular with the advancement of MT technologies . 
+Our future work will include the creation of a larger multilingual parallel data set using a postediting approach . 
+This study had several limitations . 
+We applied the measures of adequacy and fluency to assess the MT quality of metadata records as a whole , as well as each of the six elements . 
+However , for some elements , such as creator and subject , it would be more appropriate to use adequacy only , as these elements are mostly short text segments or phrases . 
+Another limitation was that we found MT systems returned the same results for many of the elements of some metadata records . 
+We should perform comparative evaluation only on whole records and compare two systems at a time . 
+Lastly , we found that some quality issues in reference translations were due to the fact that we did not establish a clear set of translation rules for translators beforehand . 
+For example , some acronyms specific to metadata records were not consistently translated . 
+This study experimented with three MEMT strategies and evaluated Chinese and Spanish translations generated by six MT systems for 1,005 sample English metadata records extracted from two digital collections . 
+It provided evidence and useful information about the performance of current MT technologies on metadata records , which is much needed by the digital library community in order to design and implement value‐added services , such as MLIA , for their digital collections . 
+Especially , we found that MT strategies combining translation outputs from multiple low‐cost MT systems with a small , linguistically‐appropriate corpus could significantly improve translation performance . 
+The ultimate goal of our research will be to investigate effective and efficient MLIA for digital collections . 
